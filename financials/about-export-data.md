@@ -1,6 +1,6 @@
 ---
-title: Esportazione dei dati in Excel da Dynamics 365 for Financials | Documenti di Microsoft
-description: Informazioni sull&quot;esportazione dei dati in Excel da Dynamics 365 for Financials.
+title: Esportare i dati di Financials in Excel| Documenti Microsoft
+description: "È possibile esportare i report finanziari e i dati di Business Intelligence da Dynamics 365 for Financials in Excel o aprire i dati di Financials in Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 02/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 94b2bbcd3db4b5071221b6f24e0f960355db3af1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="exporting-your-data-to-excel-from-dynamics-365-for-financials"></a>Esportazione dei dati in Excel da Dynamics 365 for Financials
+# <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
@@ -56,16 +56,17 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 * Movimenti budget C/G  
 * Offerte vendita  
 * Fatture vendite  
-* Fatture acquisto  
+* Fatture di acquisto  
 * Contatti  
 * Agenti  
 
-**Nota**: se è stata impostata più di uno società in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], è necessario esportare i dati relativi a ogni società.
+> [!NOTE]  
+>   Se è stata impostata più di uno società in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], è necessario esportare i dati relativi a ogni società.
 
 ## <a name="see-also"></a>Vedi anche
-[Annullare la sottoscrizione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Annullamento della sottoscrizione per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

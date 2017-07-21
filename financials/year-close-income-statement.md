@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Chiudere il conto economico | Documenti Microsoft'
-description: Viene spiegato come chiudere un conto economico.
+title: Chiudere il conto economico | Documenti Microsoft
+description: "Alla chiusura dell'anno, è necessario eseguire il processo batch Chiudi conto economico per chiudere i periodi contabili che costituiscono l'anno fiscale."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dde7b93c6a3dcf78173494f1c6fa09a38207e676
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="close-income-statement"></a>Chiudi conto economico
+# <a name="how-to-close-income-statement-accounts"></a>Procedura: Chiudere il conto economico
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Per eseguire il processo batch di chiusura del conto economico
 1. Chiudere l'anno fiscale. È necessario chiudere l'anno fiscale prima di eseguire il processo batch. Per ulteriori informazioni, vedere [Procedura: Chiudere i periodi contabili](year-close-account-periods.md).
-2. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Chiudi conto economico**, quindi scegliere il collegamento correlato.
+2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Chiudi conto economico**, quindi scegliere il collegamento correlato.
 3. Scegliere **OK** per eseguire il processo batch.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Processo batch di chiusura del conto economico

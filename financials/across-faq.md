@@ -1,6 +1,6 @@
 ---
-title: Domande frequenti | Documenti Microsoft
-description: Domande frequenti sull&quot;iscrizione e sull&quot;utilizzo di Dynamics 365 for Financials.
+title: Domande frequenti su Financials| Documenti Microsoft
+description: Risposte alle domande comuni su come iscriversi a Financials e cosa fare per iniziare.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,7 +35,7 @@ No. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>È possibile annullare la sottoscrizione?
-Sì, ma a seconda di come ci si è iscritti a [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati possono essere eliminati o conservati. Per ulteriori informazioni, vedere [Annullamento della sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
+Sì, ma a seconda di come ci si è iscritti a [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati possono essere eliminati o conservati. Per ulteriori informazioni, vedere [Annullamento di [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Dove posso trovare risposta alle domande?
 In caso di domande su [!INCLUDE[d365fin](includes/d365fin_md.md)] per cui non è possibile trovare risposta in questa documentazione, è possibile rivolgersi alla community di Dynamics 365 for Financials. Per ulteriori informazioni, vedere [Community di Dynamics 365, Business edition](https://community.dynamics.com/business). Anche il nostro team del supporto pubblica suggerimenti e consigli. Per ulteriori informazioni, vedere il [blog del supporto di Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
@@ -47,7 +47,7 @@ Sì. Se si desidera estendere il periodo di prova, è necessario contattare a Mi
 È opportuno verificare se l'amministratore ha modificato la Gestione ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone che determina l'impostazione delle autorizzazioni e la home page predefinita. È possibile modificare manualmente la Gestione ruolo utente nelle impostazioni, ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la home page precedente perché le autorizzazioni non sono state modificate.  
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Outlook](madeira-no-outlook.md)  
 [Procedura: Modificare la Gestione ruolo utente](change-role.md)  

@@ -1,6 +1,6 @@
 ---
 title: Importare i dati di gestione legacy in Financials | Documenti Microsoft
-description: Viene descritto come importare i propri dati in Dynamics 365 for Financials.
+description: "È possibile migrare i dati relativi a clienti, fornitori e magazzino, ad esempio, da Excel, QuickBooks o Dynamics GP in Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ Ad esempio, se il file include clienti e fornitori, è possibile scegliere di tr
 
 Il setup assistito include un'opzione che consente di modificare la configurazione predefinita del trasferimento, ma consigliamo di utilizzare questo setup avanzato solo se si ha familiarità con le tabelle di database. Nella maggioranza delle aziende la mappatura predefinita da QuickBooks o Dynamics GP a [!INCLUDE[d365fin](includes/d365fin_md.md)] trasferirà le informazioni desiderate.  
 
+Per ulteriori informazioni, vedere [Migrazione dei dati di QuickBooks](ui-extensions-quickbooks-data-migration.md) o [Migrazione dei dati di Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Importazione di dati dei pacchetti di configurazione
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include un pacchetto di configurazione che è possibile esportare in Excel, nelle cui tabelle impostare i dati. Quindi, è possibile importare nuovamente i dati da Excel. Il pacchetto è costituito da 27 tabelle, inclusi i dati master, quali clienti, fornitori, articoli e conti, altre tabelle di setup di base, quali i metodi di spedizione, e le tabelle di transazioni, ad esempio intestazioni e righe delle vendite.  
 
 > [!NOTE]  
->  L'utilizzo dei pacchetti di configurazione è una funzionalità avanzata, pertanto si raccomanda di contattare l'amministratore. Per ulteriori informazioni, vedere [Importazioni di dati del software di contabilizzazione legacy utilizzando un pacchetto di configurazione](across-import-data-configuration-packages.md).  
+>   L'utilizzo dei pacchetti di configurazione è una funzionalità avanzata, pertanto si raccomanda di contattare l'amministratore. Per ulteriori informazioni, vedere [Importazioni di dati del software di contabilizzazione legacy utilizzando un pacchetto di configurazione](across-import-data-configuration-packages.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Finanza](finance.md)  
 [Importazione di dati del software di contabilizzazione legacy utilizzando un pacchetto di configurazione](across-import-data-configuration-packages.md)  
+[Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)  
+[Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)   
-[Impostare [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

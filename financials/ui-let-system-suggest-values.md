@@ -1,6 +1,6 @@
 ---
-title: Suggerimento automatico dei valori in Dynamics 365 for Financials | Documenti Microsoft
-description: Viene descritto come far precompilare determinati campi dal sistema con valori che si dovrebbero altrimenti calcolare e compilare manualmente.
+title: Impostazione di valori suggeriti per i campi | Documenti Microsoft
+description: "Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Financials compili i campi in selezionati."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 03/15/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 785ad537f81b8388aa14654f375599a13b66e3c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ La funzionalità che fornisce in automatico i valori dei campi è in genere offe
 Se, ad esempio, si intende immettere delle righe di registrazione COGE per più spese che devono essere contabilizzate nello stesso conto bancario, ogni volta che si immette una riga di registrazione COGE per una spesa, è possibile fare in modo che il campo **Importo** del conto bancario venga aggiornato automaticamente all'importo che bilancia le spese. Per ulteriori informazioni sull'utilizzo delle registrazioni COGE, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Per compilare automaticamente il campo **Importo** nelle righe di registrazione COGE di contropartita
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Registrazioni COGE**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE**, quindi scegliere il collegamento correlato.
 2. Nella riga del batch delle registrazioni COGE preferito, selezionare la casella di controllo **Suggerisci importo contropartita**.
 3. Aprire le registrazioni COGE e procedere a registrare e contabilizzare le transazioni utilizzando la funzionalità descritta per l'immissione automatica di un valore nel campo.       
 
@@ -40,12 +40,12 @@ Nella finestra **Registrazione pagamenti** vengono mostrati i pagamenti in entra
 Le principali azioni che deve effettuare l'utente nella finestra sono la selezione della casella di controllo **Pagamento effettuato** e la compilazione del campo **Data ricezione**. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che inserisca automaticamente la data di lavoro nel campo **Data ricezione** quando si seleziona la casella di controllo **Pagamento effettuato**.
 
 ### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Per compilare automaticamente il campo **Data ricezione** nella finestra **Registrazione pagamenti**
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Setup registrazione pagamenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup registrazione pagamenti**, quindi scegliere il collegamento correlato.
 2. Selezionare la casella di controllo **Compila automaticamente data di ricezione**.
 3. Aprire la finestra **Registrazione pagamenti** e procedere con l'elaborazione dei pagamenti clienti in entrata utilizzando la funzionalità descritta per l'immissione automatica di un valore di campo.
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finanze](Finance.md)
+[Contabilità](Finance.md)
 
 

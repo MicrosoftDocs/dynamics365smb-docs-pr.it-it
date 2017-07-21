@@ -1,6 +1,6 @@
 ---
-title: Previsione vendite e magazzino | Documenti Microsoft
-description: Fornisce informazioni sull&quot;estensione Sales and Inventory Forecast.
+title: Utilizzo delle previsioni di vendita e magazzino per gestire magazzino | Documenti Microsoft
+description: Questa estensione consente di effettuare previsioni relative alle vendite, offre una chiara panoramica del magazzino in esaurimento e consente di creare richieste di approvvigionamento per i fornitori.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ebaea8b98264e981f9ad2e0abda592e2e4a72427
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Modifica delle impostazioni di base | Documenti Microsoft
-description: "Informazioni sul modo in cui è possibile modificare alcune impostazioni di base in Financials."
+title: Visualizzazione e modifica delle impostazioni di base in Financials | Documenti Microsoft
+description: "Informazioni su come modificare alcune impostazioni di base in Financials, ad esempio, la Gestione ruolo utente, la società o la data di lavoro."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf910084523c51cd2966335bf3a7c8f81d3d0670
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,14 +37,17 @@ Una società funziona da contenitore dei dati in [!INCLUDE[d365fin](includes/d36
 
 La società di default è detta CRONUS e contiene solo i dati di esempio.
 
-**Suggerimento**: se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio nella home page), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
+> [!TIP]  
+>   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio nella home page), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
 ## <a name="work-date"></a>Data di lavoro
 La data di lavoro predefinita in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
-**Suggerimento**: digitare **w** per immettere rapidamente la data di lavoro in un campo di data. Scrivere **t** per immettere rapidamente la data corrente nel campo della data.
+> [!TIP]  
+>   Digitare **w** per immettere rapidamente la data di lavoro in un campo di data. Scrivere **t** per immettere rapidamente la data corrente nel campo della data.
 
-**Importante**: la data di lavoro viene modificata solo fino a quando si chiude la società o fino a quando la data cambia. Se viene aperta una società differente oppure quando viene aperta la stessa società il giorno successivo ed è ancora necessario utilizzare una data di lavoro diversa, occorre reimpostare la data di lavoro.
+> [!IMPORTANT]  
+>   La data di lavoro verrà modificata solo finché non si chiude la società o finché non vengono modificate le date. Se viene aperta una società differente oppure quando viene aperta la stessa società il giorno successivo ed è ancora necessario utilizzare una data di lavoro diversa, occorre reimpostare la data di lavoro.
 
 ## <a name="confirmation-dialogs"></a>Finestre di dialogo di conferma
 Utilizzare le opzioni indicate in questa sezione se si desidera specificare alcuni controlli aggiuntivi per la registrazione dei documenti. Le opzioni sono selezionate come standard, ma è possibile deselezionare le caselle di controllo per evitare di ottenere avvisi o messaggi specifici.
@@ -52,5 +55,5 @@ Utilizzare le opzioni indicate in questa sezione se si desidera specificare alcu
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procedura: Modificare la Gestione ruolo utente](change-role.md)  
-[Personalizzazione dell'interfaccia utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]] (ui-experiences.md)  
+[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Impostazione di dati finanziari | Documenti Microsoft
-description: Impostazione di dati finanziari
+title: Impostare i processi finanziari| Documenti Microsoft
+description: "Informazioni sulle attività per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,19 +27,19 @@ Tuttavia, esistono alcune opzioni che occorre impostare manualmente. Ad esempio,
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
-| Scegliere la modalità di pagamento dei fornitori. |[Metodi di pagamento](finance-payment-methods.md) |
+| Scegliere la modalità di pagamento dei fornitori. |[Definizione dei metodi di pagamento](finance-payment-methods.md) |
+| Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Impostazione delle categorie di registrazione](finance-posting-groups.md)|
 | Impostare periodi fiscali. |[Procedura: aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md) |
-| Impostare o aggiornare valute aggiuntive per il commercio internazionale. |[Procedura: Aggiornare i tassi di cambio delle valute](finance-how-update-currencies.md) |
-| Impostare codici di identificazione univoci. |[Creazioni di numerazioni](ui-create-number-series.md) |
-| Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Impostare le dimensioni](finance-setup-dimensions.md) |
-| Aggiungere nuovi conti a un piano dei conti esistente. |[Impostare il piano dei conti](finance-setup-chart-accounts.md) |
+| Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Procedura: Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
+| Impostare come aggiornare valute aggiuntive per il commercio internazionale. |[Procedura: Aggiornare i tassi di cambio delle valute](finance-how-update-currencies.md) |
+| Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
-[Dimensioni](finance-dimensions.md)  
+[Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

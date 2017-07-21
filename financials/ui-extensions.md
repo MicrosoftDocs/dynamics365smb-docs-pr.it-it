@@ -1,7 +1,6 @@
 ---
-title: Personalizzazione dell&quot;estensioni per l&quot;utilizzo di Dynamics 365 for Financials | Documenti Microsoft
-description: Personalizzazione delle estensioni per l&quot;utilizzo di Dynamics 365 for Financials
-services: project-madeira
+title: Installare le estensioni per personalizzare Dynamics 365 for Financials | Documenti Microsoft
+description: "Informazioni sull'aggiunta di funzionalità e la personalizzazione di Dynamics 365 for Financials tramite l'installazione delle estensioni."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1de01d9944489f862dfc6db145c1542c3d0dd2e3
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,13 +28,15 @@ Se tuttavia diventa disponibile un'altra estensione che offre l'integrazione con
 
 Le estensioni vengono gestite nella finestra **Gestione estensioni**. È possibile accedere a questa finestra dalla home page. In alternativa, scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") nell'angolo superiore destro, inserire **Estensione**, quindi scegliere il collegamento correlato.  
 
-**Nota**: se si prevede di dover accedere a un'estensione, ma non è possibile individuare la relativa funzionalità, controllare la finestra **Gestione estensioni**, se l'estensione non è elencata, è possibile installarla come descritto nella sezione seguente.  
+> [!NOTE]  
+>   Se si prevede di dover accedere a un'estensione, ma non è possibile individuare la relativa funzionalità, controllare la finestra **Gestione estensioni**, se l'estensione non è elencata, è possibile installarla come descritto nella sezione seguente.  
 
 ## <a name="installing-an-extension"></a>Installazione di un'estensione
-È possibile ottenere le nuove estensioni dal marketplace in [AppSource.microsoft.com](https://appsource.microsoft.com/). È possibile vedere tutte le estensioni disponibili per [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile ottenere app, estensioni e pacchetti di contenuto per altri prodotti Microsoft. Impostare i filtri desiderati, leggere le informazioni relative a ciascuna estensione e ottenere un'estensione per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-**Nota**: accedere a [AppSource.microsoft.com](https://appsource.microsoft.com/) utilizzando l'account e-mail che si usa per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
+È possibile ottenere le nuove estensioni dal marketplace in [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). È possibile vedere tutte le estensioni disponibili per [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile ottenere app, estensioni e pacchetti di contenuto per altri prodotti Microsoft. Impostare i filtri desiderati, leggere le informazioni relative a ciascuna estensione e ottenere un'estensione per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Accedere ad [AppSource.microsoft.com](https://appsource.microsoft.com/) utilizzando l'account e-mail che si usa per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
 
-È inoltre possibile accedere al marketplace da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nella finestra **Gestione estensioni** è possibile vedere le estensioni attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)] al momento disponibili in AppSource. Se si sceglie il collegamento *Altre app*, si passa a [AppSource.microsoft.com](https://appsource.microsoft.com/).  
+È inoltre possibile accedere al marketplace da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nella finestra **Gestione estensioni** è possibile vedere le estensioni attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)] al momento disponibili in AppSource. Se si sceglie il collegamento *Altre app*, si passa a [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Se si sceglie un'estensione, è possibile leggerne una descrizione e accedere alla Guida dell'estensione per ottenere ulteriori informazioni. Quando si sceglie di ottenere una interno, è necessario accettare le condizioni per l'utilizzo. Se si ottiene l'estensione dal sito Web AppSource, verrà eseguito l'accesso in [!INCLUDE[d365fin](includes/d365fin_md.md)] per completare l'installazione.  
 
@@ -57,13 +58,20 @@ Microsoft fornisce le seguenti estensioni:
 * [Importazione del file retribuzioni di Quickbooks](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [Utilizzare codici postali di GetAddress.io per il Regno Unito](ui-extensions-getaddressio.md)
+* [Migrazione dei dati online QuickBooks](ui-extensions-quickbooks-online-data-migration.md)
+* [Portale contabile](ui-extensions-accountant-portal.md)  
+* [Analisi di immagini](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  Le nuove estensioni non saranno subito disponibili in AppSource dopo l'annuncio di un aggiornamento. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Vedi anche
 [Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Procedura: Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrare i dati aziendali da altri sistemi contabili](upload-data.md)  
 [Impostare l'estensione dei codici postali GetAddress.io per il Regno Unito](uk-setup-postal-code-service.md)  
-[Estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da altri provider] (ui-extensions-other.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da altri provider](ui-extensions-other.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

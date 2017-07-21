@@ -1,6 +1,6 @@
 ---
-title: Migrazione dei dati di Microsoft Dynamics GP | Documenti Microsoft
-description: Fornisce informazioni sull&quot;estensione per la migrazione dei dati di Dynamics GP
+title: Migrare i dati da Dynamics GP tramite l'estensione per la migrazione dei dati | Documenti Microsoft
+description: Utilizzare l'estensione per la migrazione dei dati di Dynamics GP per migrare i dati relativi a clienti, fornitori, articoli di magazzino e conti da Dynamics GP a Dynamics 365 for Financials.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a94afbd0ee689f6bd9157d0b441959f252230f08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,5 +34,5 @@ L'estensione per la migrazione dei dati di Dynamics GP mappa automaticamente i d
 
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni] (ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
 

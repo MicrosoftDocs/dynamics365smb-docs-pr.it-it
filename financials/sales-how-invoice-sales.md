@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Fatturare le vendite | Documenti Microsoft'
-description: Descrive come utilizzare le fatture di vendita.
+title: Creare una fattura di vendita o un ordine di vendita | Documenti Microsoft
+description: Descrive come creare un fattura di vendita o un ordine di vendita per registrare l'accordo con un cliente per vendere prodotti secondo termini specifici.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Procedura: Fatturare le vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
 
-**Nota:** in un paio di scenari è necessario utilizzare un ordine di vendita invece di una fattura di vendita:  
+> [!NOTE]  
+>   In un paio di scenari è necessario utilizzare un ordine di vendita invece di una fattura di vendita:  
 
 * Se è necessario spedire solo una parte della quantità degli ordini, ad esempio, perché la quantità completa non è disponibile.  
 * Se si vendono articoli che il fornitore consegna direttamente al cliente. Questa operazione viene denominata spedizione diretta. Per ulteriori informazioni, vedere [Procedura: Effettuare spedizioni dirette](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Se sono state impostate le righe di vendita periodiche per il cliente, ad esempi
 
 11. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 
-    **Nota**: per gli articoli di tipo **Magazzino - Assistenza** o **Risorsa** la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.  
+    > [!NOTE]  
+>   Per gli articoli di tipo **Magazzino - Assistenza** o **Risorsa** la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.  
 
     Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
 
@@ -91,5 +93,6 @@ I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la 
 [Setup Vendite](sales-setup-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Eseguire la fatturazione in blocco da Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

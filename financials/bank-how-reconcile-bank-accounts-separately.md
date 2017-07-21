@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Riconciliare i conti correnti bancari separatamente | Documenti Microsoft'
-description: 'Procedura: Riconciliare i conti correnti bancari separatamente'
+title: Riconciliare i conti correnti bancari separatamente| Documenti Microsoft
+description: "Descrive come il valore di magazzino è riconciliato con la contabilità generale."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Procedura: Riconciliare i conti correnti bancari separatamente
 Per riconciliare i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con estratti conto ricevuti dalla banca, è necessario compilare le righe nella finestra **Riconciliazioni C/C bancari**.
 
-**Nota**: è inoltre possibile riconciliare i conti correnti bancari nella finestra. **Registrazione riconciliazione pagamenti**. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati. Per ulteriori informazioni, vedere [Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   È inoltre possibile riconciliare i conti correnti bancari nella finestra **Registrazione riconciliazione pagamenti**. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati. Per ulteriori informazioni, vedere [Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 Per abilitare l'importazione degli estratti conto bancari come feed bancari, è necessario innanzitutto abilitare il servizio Feed bancari di Envestnet Yodlee e successivamente collegare i conti correnti bancari ai conti bancari online correlati. Per ulteriori informazioni, vedere [Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ L'attività di ricerca e collegamento dei movimenti da riconciliare è denominat
 
 Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario** è pari al valore nel campo **Saldo da riconciliare** del riquadro **Mov. contabili C/C bancari**, è possibile scegliere l'azione **Registra** per riconciliare i movimenti contabili di conti correnti bancari collegati. Tutti i movimenti contabili di conti correnti bancari non collegati rimarranno nella finestra, indicante che i pagamenti elaborati per il conto corrente bancario non sono riflessi nell'ultimo rendiconto bancario o che alcuni pagamenti sono stati ricevuti tramite assegni.
 
-**Nota**: se le righe del rendiconto bancario sono collegate ai movimenti contabili assegni, non è possibile utilizzare le funzioni di corrispondenza. È invece necessario scegliere l'azione **Collega movimenti** quindi selezionare il movimento contabile degli assegni pertinente da applicare la corrispondenza alla riga del rendiconto bancario.
+> [!NOTE]  
+>   Se le righe del rendiconto bancario sono collegate ai movimenti contabili assegni, non è possibile utilizzare le funzioni di corrispondenza. È invece necessario scegliere l'azione **Collega movimenti** quindi selezionare il movimento contabile degli assegni pertinente da applicare la corrispondenza alla riga del rendiconto bancario.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Per compilare le righe di riconciliazione bancaria importando un estratto conto bancario
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Riconciliazioni C/C Bancari**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Riconciliazione C/C bancari**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nel campo **Nr. conto bancario** selezionare il conto bancario desiderato. I movimenti contabili di conti correnti bancari esistenti nel conto corrente bancario vengono visualizzati nel riquadro **Mov. contabili C/C bancari**.
 4. Nel campo **Data Estratto Conto** immettere la data dell'estratto conto.

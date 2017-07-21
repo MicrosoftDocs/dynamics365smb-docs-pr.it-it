@@ -1,6 +1,6 @@
 ---
-title: Impostazione di Financials | Documenti Microsoft
-description: Impostazione di Financials
+title: Panoramica dei task per il setup di Dynamics 365 for Financials| Documenti Microsoft
+description: Descrive i task per impostare, inizializzare e configurare Dynamics 365 for Financials in base alle esigenze.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 | Configurare come assicurare, mantenere e ammortizzare i cespiti e come vengono registrati i costi dei cespiti nei registri della società. |[Impostazione di cespiti](fa-setup.md) |
 | Impostare codici di identificazione univoci per i record, quali schede, documenti e righe delle registrazioni, per monitorarli nel sistema. |[Creazioni di numerazioni](ui-create-number-series.md) |
 | Impostare la finestra **Setup posta elettronica SMTP** per registrare e ricevere i messaggi e-mail mediante i documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procedura: Impostare la posta elettronica](madeira-how-setup-email.md) |
+| Impostare codici di identificazione univoci. |[Procedura: Creazione di numerazioni](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Vedi anche
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

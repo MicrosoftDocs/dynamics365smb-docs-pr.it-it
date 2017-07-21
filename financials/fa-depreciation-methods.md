@@ -1,6 +1,6 @@
 ---
-title: Metodi di ammortamento | Documenti Microsoft
-description: "Vengono descritti sette metodi di ammortamento che è possibile applicare ai cespiti"
+title: Metodi di ammortamento| Documenti Microsoft
+description: Informazioni sui diversi metodi di ammortamento o svalutazione dei cespiti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Esistono otto metodi di ammortamento:
 * personalizzato  
 * Manuale  
 
-  **Nota**: è possibile utilizzare questo metodo per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano questo metodo di ammortamento.  
+  > [!NOTE]  
+>   È possibile utilizzare questo metodo per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano questo metodo di ammortamento.  
 * Convenzione semestrale  
 
-  **Nota**: utilizzando questo metodo nei cespiti, ogni anno viene ammortizzato lo stesso importo.  
+  > [!NOTE]  
+>    Utilizzando questo metodo nei cespiti, ogni anno viene ammortizzato lo stesso importo.  
 
 ## <a name="straight-line-depreciation"></a>Ammortamento a quote costanti
 Se si utilizza il metodo a quote costanti occorre indicare nel registro beni ammortizzabili cespiti una delle seguenti opzioni:  
@@ -56,7 +58,7 @@ Al valore contabile può essere sottratta la rivalutazione registrata, la svalut
 ### <a name="fixed-yearly-percentage"></a>Percentuale annuale fissa
 Se viene immessa una percentuale annuale fissa, l'importo di ammortamento viene calcolato in base alla seguente formula:  
 
-importo di ammortamento = (quota costante % x base ammortizzabile x numero di giorni di ammortamento) / (100 * 360)  
+importo di ammortamento = (quota costante % x base ammortizzabile x numero di giorni di ammortamento) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Importo annuale fisso
 Se viene immesso un importo annuale fisso, il calcolo dell'importo di ammortamento viene effettuato in base alla seguente formula:  
@@ -203,7 +205,7 @@ Metodo di calcolo:
 
 *importo di ammortamento a quote decrescenti: 25% di 100.000 = 25.000=12.500+12.500*  
 
-*importo di ammortamento a quote costanti = 100.000 / 8 = 12.500 = 6.250 + 6.250*  
+*importo di ammortamento a quote costanti = 100.000/8=12.500=6.250+6.250*  
 
 L'importo di ammortamento a quote decrescenti viene utilizzato in quanto costituisce l'importo maggiore.  
 
@@ -230,7 +232,7 @@ Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortame
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Per impostare i metodi di ammortamento personalizzati
 La finestra **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Tabelle ammortamento.**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Tabelle ammortamento**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
 3. Nella finestra **Scheda tabella ammortamento** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Questo metodo può essere utilizzato insieme ai seguenti metodi di ammortamento:
 
 Applicando il metodo di convenzione semestrale, i cespiti avranno sei mesi di ammortamento durante il primo anno a prescindere dal contenuto del campo **Data inizio Ammortamento**.  
 
-**Nota**: la vita utile residua del cespite dopo il primo anno finanziario conterrà sempre un semestre in cui viene utilizzato il metodo di convenzione semestrale. Affinché il metodo di convenzione semestrale venga applicato correttamente, nel campo **Data Finale Ammortamento** nella finestra **Registro Beni Ammortizzabili Cespite** deve sempre essere riportata una data che sia esattamente di sei mesi anteriore alla data di fine esercizio in cui il cespite viene ammortizzato completamente.  
+> [!NOTE]  
+>   La vita utile residua del cespite dopo il primo anno finanziario conterrà sempre un semestre in cui viene utilizzato il metodo di convenzione semestrale. Affinché il metodo di convenzione semestrale venga applicato correttamente, nel campo **Data Finale Ammortamento** nella finestra **Registro Beni Ammortizzabili Cespite** deve sempre essere riportata una data che sia esattamente di sei mesi anteriore alla data di fine esercizio in cui il cespite viene ammortizzato completamente.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Esempio: ammortamento di convenzione semestrale
 Il costo di acquisto di un cespite è VL 100.000. La **Data Inizio Ammortamento** è il 01/03/10. La vita utile prevista è di cinque anni, per cui la **Data Finale Ammortamento** deve essere il 30/06/15. Il processo batch **Calcola Ammortamento** viene eseguita annualmente. Questo esempio si basa su un anno finanziario di calendario.  
@@ -343,14 +346,16 @@ In presenza di tre registri di beni ammortizzabili, B1, B2 e B3, per duplicare i
 
 Immettendo un movimento in B1 nella registrazione C/G cespiti ed inserendo un segno di spunta nel campo **Usa Lista Duplicazione**, il movimento verrà duplicato nei registri B2 e B3 in Registrazioni Cespiti durante la registrazione.  
 
-**Nota**: la registrazione e il batch di registrazione di partenza e di arrivo della duplicazione non possono coincidere. I movimenti possono essere duplicati nelle registrazioni cespiti o nelle registrazioni C/G cespiti quando vengono annotati nelle registrazioni C/G cespiti, a condizione che si utilizzi un batch diverso.  
+> [!NOTE]  
+>   La registrazione e il batch di registrazione di partenza e di arrivo della duplicazione non possono coincidere. I movimenti possono essere duplicati nelle registrazioni cespiti o nelle registrazioni C/G cespiti quando vengono annotati nelle registrazioni C/G cespiti, a condizione che si utilizzi un batch diverso.  
 
-**Nota**: non è consentito utilizzare la stessa numerazione nelle registrazioni cespiti e nelle registrazioni cespiti. Quando si annotano movimenti nelle registrazioni cespiti o C/G, il campo **Nr. documento** deve essere lasciato vuoto. Se si immette un numero nel campo, il numero viene duplicato nelle registrazioni del cespite. Sarà necessario modificare manualmente il numero di documento prima di poter contabilizzare le registrazioni.  
+> [!NOTE]  
+>   Non è consentito utilizzare la stessa numerazione nelle registrazioni cespiti e nelle registrazioni cespiti. Quando si annotano movimenti nelle registrazioni cespiti o C/G, il campo **Nr. documento** deve essere lasciato vuoto. Se si immette un numero nel campo, il numero viene duplicato nelle registrazioni del cespite. Sarà necessario modificare manualmente il numero di documento prima di poter contabilizzare le registrazioni.  
 
 ## <a name="see-also"></a>Vedi anche
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
-[Finanza](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Finanze](finance.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

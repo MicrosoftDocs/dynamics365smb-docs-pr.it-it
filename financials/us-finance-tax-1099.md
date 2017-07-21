@@ -1,6 +1,6 @@
 ---
 title: Registrazione delle transazioni 1099 negli Stati Uniti | Documenti Microsoft
-description: "Nei documenti di acquisto, è possibile specificare se il documento è soggetto a 1099, nonché specificare il codice 1099 per il fornitore."
+description: "Internal Revenue Service (IRS) richiede il modulo imposte 1099 per pagamenti ai fornitori, è possibile specificare che un documento di acquisto è soggetto al modulo 1099 e specificare il codice 1099 per il fornitore."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Registrazione delle transazioni 1099 negli Stati Uniti
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Registrazione delle transazioni soggette a 1099 negli Stati Uniti
+
 Internal Revenue Service (IRS) richiede una o più versioni del modulo imposte 1099 per pagamenti ai fornitori. Le copie di questi moduli devono essere inviate ai fornitori annualmente o prima dell'ultimo giorno di gennaio. Nei documenti di acquisto, è possibile specificare se il documento è soggetto a 1099, nonché specificare il codice 1099 per il fornitore.  
 
 ## <a name="1099-codes"></a>Codici 1099

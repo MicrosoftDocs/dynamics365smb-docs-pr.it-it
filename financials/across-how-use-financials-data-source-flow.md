@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Dynamics 365 for Financials in Microsoft Flow | Documenti Microsoft
-description: "È possibile rendere disponibili i dati di Financials come origine dati in PowerApps."
+title: Connettere i dati a Flow| Documenti Microsoft
+description: "È possibile rendere disponibili i dati di Financials come origine dati e specificare un URL OData dei service Web per creare un workflow automatizzato."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-in-microsoft-flow"></a>Utilizzo di Dynamics 365 for Financials in Microsoft Flow
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un workflow automatizzato
 È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.  
 
-**Nota**: è necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con Flow.  
+> [!NOTE]  
+>   È necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con Flow.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>Per aggiungere [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati in Flow
 1. Nel browser passare a [flow.microsoft.com](https://flow.microsoft.com/en-us/), quindi accedere.
@@ -46,9 +47,9 @@ ms.lasthandoff: 05/04/2017
 A questo punto, è stata stabilita correttamente la connessione ai dati di Dynamics 365 e si è pronti per iniziare a creare la Flow. Per ulteriori informazioni, vedere la [Documentazione di Flow](https://flow.microsoft.com/documentation/getting-started/).
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md)    
-[Impostare [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finanza](finance.md)  
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finanze](finance.md)  
 

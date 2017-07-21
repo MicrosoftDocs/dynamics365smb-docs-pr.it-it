@@ -1,6 +1,6 @@
 ---
-title: Registro paga di Quickbooks | Documenti Microsoft
-description: Fornisce informazioni relative all&quot;estensione per il registro paga di Quickbooks
+title: Utilizzo dell'estensione per l'importazione del file retribuzioni di Quickbooks | Documenti Microsoft
+description: Descrive come utilizzare l'estensione per importare transazioni di retribuzioni e stipendi dal servizio retribuzioni di Quickbooks.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dd934265607e4073ab13b089c3dd98ceb4ead9c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ A tale scopo, è necessario innanzitutto importare un file che si riceve dal pro
 L'estensione per l'importazione del file retribuzioni di Quickbooks consente di importare transazioni retributive del servizio retribuzioni di Quickbooks.
 
 ## <a name="see-also"></a>Vedi anche
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni] (ui-extensions.md)    
-[Finanza](finance.md)    
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)    
+[Finanze](finance.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

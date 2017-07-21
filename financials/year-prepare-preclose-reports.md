@@ -1,6 +1,6 @@
 ---
-title: Predisposizione dei report preliminari alla chiusura | Documenti Microsoft
-description: Viene fornita una panoramica dei report che possono essere utili quando si chiude l&quot;anno.
+title: Panoramica dei report preliminari alla chiusura per verificare l'accuratezza dei conti | Documenti Microsoft
+description: "Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Predisposizione dei report preliminari alla chiusura
+# <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
 Nella tabella che segue sono descritti alcuni report che possono risultare utili in questo processo.
@@ -36,7 +36,7 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale. |Bilancio di verifica |
 | Stampare un bilancio di verifica per una società consolidata. |Bil. di verifica consolidato |
 
-Per visualizzare un report, nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
+Per visualizzare un report, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  

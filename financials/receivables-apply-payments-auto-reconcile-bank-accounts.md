@@ -1,6 +1,6 @@
 ---
-title: Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari | Documenti Microsoft
-description: Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
+title: Task per la riconciliazione dei conti correnti bancari e il collegamento dei pagamenti ai relativi movimenti | Documenti Microsoft
+description: "Descrive i task per riconciliare conti correnti bancari, conti di contabilità clienti, fornitori, registrazione incassi o spese e per applicare i pagamenti automaticamente."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0c56da9bc395ed16a5be223e65c9e9594e643993
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f828fce295b15db9e50034a51e1531b29b064c85
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

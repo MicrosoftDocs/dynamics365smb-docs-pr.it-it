@@ -1,6 +1,6 @@
 ---
-title: Risoluzione dei problemi relativi all&quot;iscrizione self-service | Documenti Microsoft
-description: Risolvere il problemi di Azure AD durante l&quot;iscrizione.
+title: Risoluzione dei problemi o soluzioni alternative relative all'iscrizione self-service | Documenti Microsoft
+description: "Informazioni sui motivi più comuni per cui non è possibile accedere a Dynamics 365 for Financials e soluzioni per risolvere gli errori di accesso."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,7 +39,7 @@ In molti casi, la registrazione a [!INCLUDE[d365fin](includes/d365fin_md.md)] si
 | L'indirizzo e-mail non è un ID di Office 365. Durante l'iscrizione viene visualizzato un messaggio simile al seguente:<br /><br />**Impossibile individuare l'utente su contoso.com. Probabilmente utilizza un ID diverso al lavoro o a scuola. Provare ad accedere con quell'account e se non funziona contattare il proprio reparto IT.** |Per accedere a Office 365 e altri servizi Microsoft, l'organizzazione utilizza degli ID che sono diversi dall'indirizzo e-mail. Ad esempio, se l'indirizzo e-mail è Nancy.Smith@contoso.com, l'ID potrebbe essere  nancys@contoso.com. Per completare l'iscrizione, utilizzare l'ID assegnato dall'organizzazione per accedere a Office 365 o ad altri servizi Microsoft. Per ulteriori informazioni sull'ID, contattare l'amministratore IT. Se non è ancora possibile effettuare l'iscrizione e si può completare un processo di setup più avanzato, è possibile registrare una nuova sottoscrizione di prova di Office 365 e utilizzare tale indirizzo e-mail per effettuare l'iscrizione. |
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

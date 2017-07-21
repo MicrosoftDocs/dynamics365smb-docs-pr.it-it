@@ -1,6 +1,6 @@
 ---
-title: Configurazione di livelli organizzativi per i contatti | Documenti Microsoft
-description: Vengono descritti i livelli organizzativi per i contatti in Financials
+title: Impostare i livelli organizzativi per i contatti| Documenti Microsoft
+description: "È possibile definire un livello organizzativo e assegnarlo al contatto per indicare la posizione all'interno della rispettiva società, ad esempio alta dirigenza."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bde26a2d5fcb7ec10dcd70fdd30c74893bcb34d5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-organizational-levels-for-contact-persons"></a>Configurazione di livelli organizzativi per i contatti
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Procedura: Configurare i livelli organizzativi per i contatti
 È possibile usare i livelli organizzativi con i contatti per specificarne la posizione all'interno della società, ad esempio alta dirigenza. È possibile utilizzare queste informazioni quando si inseriscono informazioni sui contatti.
 
 L'utilizzo dei livelli organizzativi nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice livello organizzativo. Questo passaggio deve essere eseguito una sola volta per ogni livello organizzativo. Dopo aver creato un codice livello organizzativo, è possibile iniziare ad assegnarlo ai contatti.
@@ -28,7 +28,7 @@ L'utilizzo dei livelli organizzativi nei contatti è un processo a due passaggi.
 ## <a name="to-define-an-organizational-level-code"></a>Per definire un codice livello organizzativo
 Il codice livello organizzativo definisce il tipo o la categoria di livello organizzativo, ad esempio CEO o CFO. È possibile impostare più codici di livello organizzativo. Per definire il livello organizzativo, utilizzare la finestra **Livelli organizzativi**.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Livelli organizzativi**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Livelli organizzativi**, quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Per assegnare livelli organizzativi a un contatto

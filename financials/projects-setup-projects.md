@@ -1,6 +1,6 @@
 ---
-title: Impostare Gestione progetti | Documenti Microsoft
-description: Viene descritto come impostare le risorse, i fogli presenze e le commesse per gestire progetti.
+title: Impostare le risorse, i fogli presenze e le commesse| Documenti Microsoft
+description: Descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1141df5600062da2dd4278668a1594efc4899d8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,7 +35,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedi anche
 [Gestire progetti](projects-manage-projects.md)  
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)     
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

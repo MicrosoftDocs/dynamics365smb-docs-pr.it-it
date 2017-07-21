@@ -1,6 +1,6 @@
 ---
-title: "Setup dell&quot;IVA ad esigibilità differita | Documenti Microsoft"
-description: "Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l&quot;IVA ad esigibilità differita per le vendite e acquisti."
+title: "Setup dell'IVA ad esigibilità differita | Documenti Microsoft"
+description: "Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l'IVA ad esigibilità differita per le vendite e acquisti."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87da12abcd2fd513a1579dd9362159687baaab8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Se si utilizzano metodi di contabilità basata su contanti, è possibile imposta
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.
 
 Per utilizzare conti per l'IVA a esigibilità differita, procedere nel modo seguente:
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") e inserire **Setup contabilità generale**. 
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report") e immettere **Setup contabilità generale**. 
 2. Nella Scheda dettaglio **Generale** della pagina **Setup contabilità generale** scegliere **Mostra di più**, quindi la casella di controllo **IVA ad esigibilità differita**.
 3. Chiudere la pagina.
 4. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") e inserire **Setup registrazioni IVA**. 
@@ -46,10 +46,12 @@ Per utilizzare conti per l'IVA a esigibilità differita, procedere nel modo segu
 
 6. Nel campo **Conto IVA ven. ad esig. diff.** scegliere il conto per l'IVA di vendita a esigibilità differita.
 
-    **Nota**: l'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
+    > [!NOTE]  
+>   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
 7. Nel campo **Conto IVA acq. ad esig. diff.** immettere il conto C/G per l'IVA di acquisto a esigibilità differita.
 
-    **Nota**: l'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
+    > [!NOTE]  
+>   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
 
 ## <a name="see-also"></a>Vedi anche
 [impostazione dell'IVA](finance-setup-vat.md)

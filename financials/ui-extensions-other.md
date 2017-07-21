@@ -1,7 +1,6 @@
 ---
-title: Estensioni per l&quot;utilizzo di Dynamics 365 for Financials fornite da altri provider| Documenti Microsoft
-description: Estensioni per Dynamics 365 for Financials fornite da altri provider
-services: project-madeira
+title: "Estensioni per l'utilizzo di Dynamics 365 for Financials fornite da altre società | Documenti Microsoft"
+description: "Elenco di app ed estensioni fornite da altre società per personalizzare Dynamics 365 for Financial."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -10,27 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 03/29/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3b3013ab2a23b182638196acdabf4feb588a245f
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: bc54da2b0e40f25357eec88235d5e2f6de5a12a6
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-Estensioni per Dynamics 365 for Financials fornite da altri provider all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ottenere le estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. Per le estensioni non fornite da Microsoft, facciamo riferimento ai siti Web di queste società per maggiori informazioni. È possibile trovare queste informazioni all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace?product=project-madeira).  
+# <a name="microsoft-dynamics-365-for-financials-extensions-by-other-providers"></a>Estensioni per Microsoft Dynamics 365 for Financials fornite da altri provider
+Tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/) è possibile ottenere le estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. Per le estensioni non fornite da Microsoft, facciamo riferimento ai siti Web di queste società per maggiori informazioni. È possibile trovare queste informazioni all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
-Questa lista mostra le estensioni fornite da altre società che sono correntemente disponibili per [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
-
-* **Sana Commerce per Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-* **ChargeLogic Notify, ChargeLogic Payments e ChargeLogic Base**  
-* **LA Address Verification**
-* **Data Migration - Opera**
-* **Data Migration - Sage**
+La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) e scaricare app per semplificare il proprio lavoro in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

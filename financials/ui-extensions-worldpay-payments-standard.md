@@ -1,6 +1,6 @@
 ---
 title: WorldPay Payments Standard | Documenti Microsoft
-description: Fornisce informazioni sull&quot;estensione WorldPay Payments Standard.
+description: Fornisce informazioni sull'estensione WorldPay Payments Standard.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

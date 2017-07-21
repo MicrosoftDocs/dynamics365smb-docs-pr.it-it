@@ -1,6 +1,6 @@
 ---
-title: "Procedura: Attribuire un ordine di priorità ai fornitori | Documenti Microsoft"
-description: "Procedura: Attribuire un ordine di priorità ai fornitori"
+title: "Assegnare un livello di priorità a un fornitore | Documenti Microsoft"
+description: "È possibile assegnare dei numeri ai fornitori per assegnare loro una priorità e semplificare i suggerimenti di pagamento in Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Innanzitutto, è necessario assegnare una priorità ai fornitori assegnando loro dei numeri.
 
 ## <a name="to-prioritize-vendors"></a>Per attribuire un ordine di priorità ai fornitori
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Fornitori**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.
 2. Selezionare il fornitore appropriato e scegliere **Modifica**.
 3. Nel campo **Priorità** immettere un numero.
 

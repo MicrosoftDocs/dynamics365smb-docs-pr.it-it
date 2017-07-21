@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico | Documenti Microsoft'
-description: 'Procedura: Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico'
+title: Verificare i pagamenti applicati automaticamente e riapplicare i pagamenti manualmente | Documenti Microsoft
+description: "Dopo che i pagamenti sono stati collegati automaticamente, è possibile verificare tutti i movimenti relativi a un pagamento e ricollegare manualmente i movimenti che sono stati collegati erroneamente."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,30 +13,34 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d5515a3814d2fbd4dfb7accc16d9f8ffda44317
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedura: Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella finestra **Registrazione riconciliazione pagamenti** è possibile aprire la finestra **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
-**Importante**: quando il conto corrente bancario per il quale si stanno riconciliando i pagamenti è impostato sulla valuta locale, nella finestra **Collegamento pagamenti** vengono mostrati tutti i movimenti aperti nella valuta locale, inclusi i movimenti aperti per i documenti originariamente fatturati in valute estere. I pagamenti collegati ai movimenti con valute convertite possono quindi essere registrati con importi diversi rispetto al documento originale per via dei tassi di cambio potenzialmente diversi utilizzati dalla banca e da [!INCLUDE[d365fin](includes/d365fin_md.md)] rispettivamente.
+> [!IMPORTANT]  
+>   Quando il conto corrente bancario per il quale si stanno riconciliando i pagamenti è impostato sulla valuta locale, nella finestra **Collegamento pagamenti** vengono mostrati tutti i movimenti aperti nella valuta locale, inclusi i movimenti aperti per i documenti originariamente fatturati in valute estere. I pagamenti collegati ai movimenti con valute convertite possono quindi essere registrati con importi diversi rispetto al documento originale per via dei tassi di cambio potenzialmente diversi utilizzati dalla banca e da [!INCLUDE[d365fin](includes/d365fin_md.md)] rispettivamente.
 
 Di conseguenza, consigliamo di guardare i codici valuta estera nel campo **Codice valuta** della finestra **Collegamento pagamenti** per controllare se i collegamenti sono basati su valute convertite. Per verificare l'importo del documento originale in valuta estera e vedere il tasso di cambio utilizzato, scegliere il campo **Collega-a Nr. mov.**, quindi, nel menu di scelta rapida, fare clic sul pulsante drilldown per aprire la finestra **Movimenti contabili clienti** o la finestra **Movimenti contabili fornitori**.
 
 Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di valuta non viene gestita automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-**Nota**: non è possibile collegare movimenti con segno diverso dal segno sul pagamento. Ad esempio, per chiudere sia una nota di credito di segno negativo che la relativa fattura relativa di segno positivo, è necessario innanzitutto collegare la nota di credito alla fattura, quindi collegare il pagamento alla fattura con l'importo residuo ridotto.
+> [!NOTE]  
+>   Non è possibile collegare movimenti con un segno diverso dal segno sul pagamento. Ad esempio, per chiudere sia una nota di credito di segno negativo che la relativa fattura relativa di segno positivo, è necessario innanzitutto collegare la nota di credito alla fattura, quindi collegare il pagamento alla fattura con l'importo residuo ridotto.
 
-**Avviso**: se si utilizzano sconti sul pagamento e se la data di pagamento è anteriore alla data di scadenza del pagamento, verrà utilizzato per la corrispondenza il campo **Importo residuo incluso sconto** della finestra **Collegamento pagamenti**. In alternativa, verrà utilizzato il valore del campo **Importo residuo**. Se il pagamento è stato eseguito con un importo scontato dopo la data di scadenza del pagamento, o l'importo completo è stato pagato ma è stato concesso uno sconto, non sarà possibile far corrispondere l'importo.
+> [!WARNING]  
+>   Se si utilizzano sconti sul pagamento e se la data di pagamento è anteriore alla data di scadenza del pagamento, verrà utilizzato per la corrispondenza il campo **Importo residuo incluso sconto** della finestra **Collegamento pagamenti**. In alternativa, verrà utilizzato il valore del campo **Importo residuo**. Se il pagamento è stato eseguito con un importo scontato dopo la data di scadenza del pagamento, o l'importo completo è stato pagato ma è stato concesso uno sconto, non sarà possibile far corrispondere l'importo.
 
-**Nota**: è possibile collegare un pagamento a un solo conto. Se si desidera suddividere il collegamento su più movimenti aperti, ad esempio per collegare un pagamento forfettario, i movimenti aperti devono essere per lo stesso conto. Per ulteriori informazioni, vedere passaggi 7 e 8 della procedura in questo argomento.
+> [!NOTE]  
+>   È possibile collegare un pagamento solo a un conto. Se si desidera suddividere il collegamento su più movimenti aperti, ad esempio per collegare un pagamento forfettario, i movimenti aperti devono essere per lo stesso conto. Per ulteriori informazioni, vedere passaggi 7 e 8 della procedura in questo argomento.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Per esaminare o collegare i pagamenti in seguito al collegamento automatico
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Registrazioni riconciliazione pagamenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riconciliazione pagamenti**, quindi scegliere il collegamento correlato.
 2. Aprire la registrazione della riconciliazione di pagamento di un conto corrente bancario per cui si desidera riconciliare i pagamenti. Per ulteriori informazioni, vedere [Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 3. Nella finestra **Registrazione riconciliazione pagamenti**, selezionare un pagamento che si desidera esaminare o collegare manualmente a uno o più movimenti aperti, quindi scegliere l'azione **Collega manualmente**.
 4. Selezionare la casella di controllo **Collegato** nella riga del movimento aperto al quale si vuole collegare il pagamento.

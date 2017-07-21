@@ -1,5 +1,5 @@
 ---
-title: Vendite | Documenti Microsoft
+title: Panoramica dei task per la gestione delle vendite | Documenti Microsoft
 description: "Descrive come si gestiscono le attività di vendita."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare un'offerta di vendita in cui si presentano prodotti a condizioni negoziabili prima della conversione dell'offerta in una fattura di vendita. |[Procedura: Fare offerte](sales-how-make-offers.md) |
 | Creare una fattura di vendita per registrare il contratto con un cliente per vendere prodotti con determinate condizioni di consegna e pagamento. |[Procedura: Fatturare le vendite](sales-how-invoice-sales.md) |
 | Elaborare un ordine di vendita con la spedizione parziale o la spedizione diretta. |[Procedura: Vendere prodotti](sales-how-sell-products.md) |
+|Impostare righe di vendita o acquisto standard da inserire nei documenti, ad esempio, per ordini di approvvigionamento ricorrenti.|[Procedura: Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
 | Collegare un ordine di vendita a un ordine di acquisto per vender un articolo con spedizione diretta che verrà consegnato direttamente dal fornitore al cliente. |[Procedura: Effettuare spedizioni dirette](sales-how-drop-shipment.md) |
 | Eseguire un'azione in una fattura di vendita registrata non pagata per creare automaticamente una nota di credito e per annullare la fattura di vendita o per ricrearla in modo da apportare correzioni. |[Procedura: Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md) |
 | Creare una nota di credito vendita per stornare una fattura di vendita registrata specifica per riflettere i prodotti resi dal cliente e l'importo di pagamento da restituire. |[Procedura: Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md) |
@@ -61,3 +62,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

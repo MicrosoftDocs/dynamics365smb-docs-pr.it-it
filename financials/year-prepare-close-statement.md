@@ -1,6 +1,6 @@
 ---
-title: Preparazione degli estratti conto di chiusura | Documenti Microsoft
-description: Viene fornita una panoramica dei report che possono essere utili quando si chiude l&quot;anno.
+title: Panoramica di report a supporto della preparazione degli estratti conto di chiusura | Documenti Microsoft
+description: "Fornisce una panoramica dei report che è possibile utilizzare per raccogliere le informazioni e preparare gli estratti conto di chiusura della società alla chiusura dell'anno fiscale."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ Nella tabella seguente sono descritti alcuni report che possono risultare utili 
 | Stampare una situazione contabile per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti effettivi di contabilità generale con i movimenti budget di contabilità generale. |Situazione contabile |
 | Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |Riconcilia conti clienti e fornitori |
 
-Per visualizzare un report, nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
+Per visualizzare un report, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Business Intelligence](bi.md)
 

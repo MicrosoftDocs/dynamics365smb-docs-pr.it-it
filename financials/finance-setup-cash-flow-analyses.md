@@ -1,6 +1,6 @@
 ---
-title: Impostazione di un&quot;analisi di un flusso di cassa | Documenti Microsoft
-description: "Descrive il setup dei grafici Ciclo di cassa, Entrate e uscite, Flusso di cassa e Flusso di cassa per analizzare i movimenti passati e futuri dei contanti in entrata e in uscita dalla società."
+title: Impostazione di un'analisi di un flusso di cassa| Documenti Microsoft
+description: "Impostare i grafici nella Gestione ruolo utente Conti per consentire di analizzare il flusso di denaro nell'attività commerciale, incluse uscite ed entrate, liquidità, incassi meno i pagamenti in contanti."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -49,7 +49,7 @@ Immettere i conti nel campo **Totale** per **Totale ricavi**, **Totale contabili
 ## <a name="set-up-the-cash-flow-chart"></a>Impostare il grafico Flusso di cassa
 Il grafico Flusso di cassa è basato sui seguenti elementi:  
 
-* Un grafico dei conti di cassa
+* Un grafico dei conti di cassa.
 * Una o più impostazioni del flusso di cassa. Specifica i conti da usare per contabilità generale, acquisti, vendite, servizi e cespiti.  
 
 Per agevolare l'inizio, vengono forniti determinati conti ed impostazioni del flusso di cassa. È possibile aggiungerli, modificarli o rimuoverli.  
@@ -61,7 +61,8 @@ Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le 
 
 La previsione di flussi di cassa possono utilizzare Cortana Intelligence per includere i documenti con una data di scadenza in futuro. Il risultato una previsione è più completa. La connessione a Cortana Intelligence è già impostata. È solo necessario attivarla. Quando si accede a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)],viene visualizzata una notifica in una barra blue che fornisce un collegamento al setup del flusso di cassa predefinito. La notifica viene visualizzata solo una volta. Se la si chiude, ma si decide di attivare Cortana Intelligence, è possibile utilizzare la Guida assistita di setup, o un processo manuale.  
 
-**Nota:** in alternativa, è possibile utilizzare il proprio servizio Web predittivo. Per ulteriori informazioni, vedere [Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa](#AnchorText).  
+> [!NOTE]  
+>   In alternativa, è possibile utilizzare il proprio servizio Web predittivo. Per ulteriori informazioni, vedere [Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa](#AnchorText).  
 
 Per utilizzare guida al setup assistito:  
 
@@ -75,7 +76,8 @@ Per utilizzare una procedura manuale:
 2. Espandere la Scheda dettaglio **Cortana Intelligence** e selezionare la casella di controllo **Cortana Intelligence abilitata**.  
 3. Nella home page, scegliere **Previsione flussi di cassa** sopra al grafico e quindi **Ricalcola previsione**.  
 
-**Suggerimento:** considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
+> [!TIP]  
+>   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
 
 ## <a name="AnchorText"> </a>Per ulteriori informazioni, vedere Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa.
 È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Modello di previsione per Microsoft Dynamics 365 for Financials**. Il modello predittivo è disponibile anche online nella raccolta Cortana Intelligence. Attenersi alla seguente procedura per utilizzare il modello:  
@@ -85,7 +87,7 @@ Per utilizzare una procedura manuale:
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  
-6. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Setup flusso di cassa**, quindi scegliere il collegamento correlato.  
+6. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup flusso di cassa**, quindi scegliere il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Cortana Intelligence** e compilare i campi.  
 
 ## <a name="see-also"></a>Vedi anche

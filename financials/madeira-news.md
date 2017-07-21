@@ -1,6 +1,6 @@
 ---
 title: "Novità di Dynamics 365 for Financials | Documenti Microsoft"
-description: "Novità di Dynamics 365 for Financials"
+description: "Descrive le novità e gli aggiornamenti più recenti per Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Novità di Dynamics 365 for Financials
 Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)] Se non è ancora stato fatto, registrarsi per una versione di prova, verranno illustrate le operazioni fondamentali che è possibile effettuare con [!INCLUDE[d365fin](includes/d365fin_md.md)] e si avrà la possibilità di esplorare la soluzione in autonomia. Per iniziare, è possibile aprire una società vuota e configurare le impostazioni in autonomia.  
 
@@ -54,7 +54,7 @@ Questo aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiunge nuo
 ### <a name="more-flexibility-in-your-sales-processes"></a>Più flessibilità nei processi di vendita
 Questo aggiornamento aggiunge più flessibilità negli articoli venduti:
 - Ora è possibile impostare articoli non in stock: articoli da offrire ai clienti per cui non viene gestito il magazzino. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
-- È ora possibile contrassegnare un articolo per la spedizione diretta in un ordine di vendita e immediatamente creare un ordine di acquisto per l'articolo. In questo modo, è possibile vendere un articolo a un cliente, acquistarlo dal fornitore e fare in modo che venga spedito direttamente dal fornitore al cliente. Per ulteriori informazioni, vedere [Procedura: Acquistare i prodotti per una vendita](purchasing-how-purchase-products-sale.md).
+- È ora possibile contrassegnare un articolo per la spedizione diretta in un ordine di vendita e immediatamente creare un ordine di acquisto per l'articolo. In questo modo, è possibile vendere un articolo a un cliente, acquistarlo dal fornitore e fare in modo che venga spedito direttamente dal fornitore al cliente. Per ulteriori informazioni, vedere [Procedura: Acquistare gli articoli per una vendita](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Categorizzare gli articoli del magazzino
 Tramite questo aggiornamento, è possibile creare una gerarchia delle categorie articolo e allocare gli attributi degli articoli a ciascuna categoria articolo. Per ulteriori informazioni, vedere [Procedura: Classificare gli articoli](inventory-how-categorize-items.md).
@@ -91,23 +91,23 @@ Questo aggiornamento aggiunge le azioni al dashboard dei fornitori nel component
 Il componente aggiuntivo di Outlook si estende ora al calendario di Outlook. Da un appuntamento del calendario, è possibile aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)] e ottenere una panoramica del cliente associato all'appuntamento. Quindi, è possibile creare e inviare una fattura per i servizi forniti nella riunione, tutto questo proprio nel calendario di Outlook. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Marketplace AppSource per le estensioni
-Le estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono ora disponibili nel marketplace di AppSource all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/). È possibile cercare e individuare le estensioni nel marketplace. È possibile visualizzare le informazioni, inclusi materiale di marketing, screenshot, video e collegamenti a dettagli aggiuntivi. Per ulteriori informazioni, consultare [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).  
+Le estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono ora disponibili nel marketplace di AppSource all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/). È possibile cercare e individuare le estensioni nel marketplace. È possibile visualizzare le informazioni, inclusi materiale di marketing, screenshot, video e collegamenti a dettagli aggiuntivi. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Spedizionieri e attributi degli articoli
 È possibile aggiungere gli attributi agli articoli di magazzino, questo semplifica la ricerca del prodotto che il cliente desidera. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nuove estensioni disponibili
 In questo aggiornamento, è possibile scegliere tra ancora più estensioni nella finestra **Gestione estensioni**.
-Per ulteriori informazioni, vedere [Estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da altri provider](ui-extensions-other.md).  
+Per ulteriori informazioni, vedere [[!INCLUDE[d365fin](includes/d365fin_md.md)] Estensioni fornite da altri provider](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Gestire le relazioni con il cliente utilizzando Microsoft Dynamics CRM da [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Abbiamo aggiunto una nuova guida di installazione assistita alla home page del Manager aziendale che guida nel processo di configurazione per connettersi a Dynamics CRM. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics CRM e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere Gestione delle relazioni clienti utilizzando Microsoft Dynamics CRM da [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+Abbiamo aggiunto una nuova guida di installazione assistita alla home page del Manager aziendale che guida nel processo di configurazione per connettersi a Dynamics CRM. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics CRM e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Gestione delle relazioni clienti utilizzando Microsoft Dynamics CRM da [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Aggiornamento di maggio 2016
 Questo aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiunge nuove capacità come [annunciato sul blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nuove estensioni disponibili
-Finestra **Gestione estensioni** : l'aggiornamento include nuove estensioni, tra cu Sana Commerce per [!INCLUDE[d365fin](includes/d365fin_md.md)] che fornisce funzionalità B2B Commerce e ChargeLogic Payments con elaborazione delle carte di credito e dei pagamenti. Le estensioni non vengono installate automaticamente per la società, ma la finestra **Gestione estensioni** consente di installare le estensioni che si desidera utilizzare. Per ulteriori informazioni, vedere [Estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da altri provider](ui-extensions-other.md).  
+Finestra **Gestione estensioni** : l'aggiornamento include nuove estensioni, tra cu Sana Commerce per [!INCLUDE[d365fin](includes/d365fin_md.md)] che fornisce funzionalità B2B Commerce e ChargeLogic Payments con elaborazione delle carte di credito e dei pagamenti. Le estensioni non vengono installate automaticamente per la società, ma la finestra **Gestione estensioni** consente di installare le estensioni che si desidera utilizzare. Per ulteriori informazioni, vedere [[!INCLUDE[d365fin](includes/d365fin_md.md)] Estensioni fornite da altri provider](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filtrare i documenti in entrata non elaborati
 Sono state inoltre modificate alcune funzionalità principali nell'aggiornamento di questo mese: l'elenco dei documenti in arrivo viene ora filtrato per visualizzare solo le voci che non sono state utilizzate per creare documenti registrati. Per ulteriori informazioni, vedere [Gestire i documenti in entrata](across-income-documents.md).  
@@ -116,19 +116,19 @@ Sono state inoltre modificate alcune funzionalità principali nell'aggiornamento
 Nel angolo superiore destro, accanto al menu Impostazioni, si noterà il simbolo del campanello che probabilmente si conosce già da altri prodotti Office: si tratta del menu di notifica. È possibile ricevere direttamente le notifiche quali nuovi messaggi e promemoria del calendario direttamente mentre si lavora in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="april-2016-preview"></a>Anteprima di aprile 2016
-Nell'aprile 2016, abbiamo lanciato l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tutte le caratteristiche erano nuove e abbiamo consigliato di iniziare dalla guida introduttiva nella società demo da cui è possibile accedere al primo accesso. La guida introduttiva fornisce informazioni dettagliate sugli scenari principali. Per ulteriori informazioni, vedere Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
+Nell'aprile 2016, abbiamo lanciato l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tutte le caratteristiche erano nuove e abbiamo consigliato di iniziare dalla guida introduttiva nella società demo da cui è possibile accedere al primo accesso. La guida introduttiva fornisce informazioni dettagliate sugli scenari principali. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
 
 Scenari principali di provare in autonomia:  
 
-- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook]](madeira-no-outlook.md)  
-- [Installare [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
+- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-no-outlook.md)  
+- [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 - [Abilitare i dati aziendali per Power BI](madeira-powerbi.md)  
 - [Modifica di Gestione ruolo utente](change-role.md)  
 
 
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Roadmap di Dynamics 365](https://roadmap.dynamics.com/)  
 

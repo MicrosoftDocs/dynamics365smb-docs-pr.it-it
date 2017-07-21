@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulle estensioni per Dynamics 365 for Financials | Documenti Microsoft
-description: Sviluppare, mostrare e promuovere le proprie estensioni per Dynamics 365 for Financials
+title: Personalizzare Dynamics 365 for Financials| Documenti Microsoft
+description: Sviluppare, mostrare e promuovere le proprie app ed estensioni per Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>Estensioni per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>Estensione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 L'utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come piattaforma per sviluppatori di app offre numerosi vantaggi:
 
 * Possibilità di migliorare [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], una comprovata soluzione online di Microsoft, sfruttando le proprie competenze  
@@ -31,7 +31,7 @@ L'utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come piattaf
 
 ## <a name="to-bring-your-included365finincludesd365finmdmd-app-into-appsource"></a>Per pubblicare l'app [!INCLUDE[d365fin](includes/d365fin_md.md)] in AppSource:
 + Creare gli account necessari  
-Microsoft desidera che i partner possano accedere a tutti strumenti necessari. A tal fine, è necessario un ID Microsoft Partner Network, un account come sviluppatore e un account PartnerSource Business Center (PSBC).
+Microsoft desidera che i partner possano accedere a tutti gli strumenti necessari. A tal fine, è necessario un ID Microsoft Partner Network, un account come sviluppatore e un account Partner Source Business Center (PSBC).
 Per ulteriori informazioni su come ottenere questi account, scaricare il documento [Creare gli account.pdf](https://go.microsoft.com/fwlink/?linkid=841514) dal Download Center.
 
 + Comunicare la propria idea sull'app  
@@ -68,12 +68,12 @@ Le [domande frequenti](https://go.microsoft.com/fwlink/?linkid=841520) offrono r
 
 ## <a name="further-resources"></a>Ulteriori risorse
 La [pagina degli argomenti DLP](https://mbspartner.microsoft.com/BFI/Topic/76) offre ulteriori risorse per lo sviluppo di app. Alcuni argomenti selezionati sono disponibili di seguito:
--    [Registrazione dell'utente e fatturazione successiva ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Registrazione dell'utente e fatturazione successiva ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 

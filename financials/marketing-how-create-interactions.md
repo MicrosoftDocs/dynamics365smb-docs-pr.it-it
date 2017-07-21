@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creare interazioni per i contatti e i segmenti | Documenti Microsoft'
-description: Viene descritto come creare interazioni per i contatti e i segmenti in Financials
+title: Creare interazioni per i contatti e i segmenti| Documenti Microsoft
+description: Descrive come creare interazioni per comunicazioni intercorse con i contatti e i segmenti in Financials, ad esempio messaggi di posta diretta.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b50d332441bee01158559616fff5d5f5ca381a90
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedura: Creare interazioni per i contatti e i segmenti
 È possibile creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi di posta.
 
-Prima di creare interazioni, è necessario impostare i modelli di interazione. Per ulteriori informazioni, vedere [Impostare modelli di interazione](marketing-interactions.md#set-up-interaction-templates).
+Prima di creare interazioni, è necessario impostare i modelli di interazione. Per ulteriori informazioni, vedere [Impostare modelli di interazione](marketing-interactions.md).
 
 ## <a name="to-create-an-interaction"></a>Per creare un'interazione
 1. Aprire il contatto, l'agente o il movimento log interazione.
 2. Selezionare l'azione **Crea interazione**.
-3. Compilare i campi e fare clic sul pulsante **OK**.
+3. Compilare i campi e scegliere **OK**.
 
-**Nota**: se è necessario eseguire un'altra attività prima di terminare l'interazione, è possibile scegliere **Annulla**, chiudere la procedura guidata e scegliere di terminare l'interazione in un secondo momento. Ciò pospone l'interazione.
+> [!NOTE]  
+>   Se è necessario eseguire un'altra attività prima di terminare l'interazione, è possibile scegliere **Annulla**, quindi terminare l'interazione in un secondo momento. Ciò pospone l'interazione.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Per completare ed eliminare le interazioni differite
 1. Aprire il contatto, l'agente o il movimento log interazione.
@@ -38,7 +39,7 @@ Prima di creare interazioni, è necessario impostare i modelli di interazione. P
 3. Selezionare l'interazione che si desidera chiudere e scegliere l'azione **Riprendi**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Per creare un'interazione in un segmento
-1. Nella home page scegliere **Segmenti attivi**; in alternativa, nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Segmenti**, quindi scegliere il collegamento correlato.
+1. Nella home page scegliere **Segmenti attivi** o scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Segmento**, nella sezione **Interazione**, compilare i campi per specificare l'interazione che si desidera assegnare al segmento.
 
     Una volta assegnata un'interazione al segmento, è possibile personalizzare l'interazione per ogni singolo contatto all'interno del segmento, ad esempio selezionando un altro modello di interazione nelle righe della finestra **Segmento**.  
@@ -54,5 +55,5 @@ Se è stata selezionata la casella di controllo **Crea segmento di follow-up**, 
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Setup Relationship Management](marketing-setup-marketing.md)  
-[Utilizzo di dati finanziari](ui-work-product.md)
+[Utilizzo di Financials](ui-work-product.md)
 

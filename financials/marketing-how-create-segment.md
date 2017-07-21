@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creare segmenti | Documenti Microsoft'
-description: Viene descritto come creare segmenti per i contatti in Financials
+title: Creare segmenti| Documenti Microsoft
+description: Descrive come creare un segmento per un gruppo di contatti in Financials, ad esempio, per rivolgersi a diversi contatti tramite messaggi di posta diretti.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).
 
 ## <a name="to-create-a-segment"></a>Per creare un segmento
-1. Nella home page scegliere **Segmenti attivi**. In alternativa, nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Segmenti**, quindi scegliere il collegamento correlato.
+1. Nella home page scegliere **Segmenti attivi**. In alternativa, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella sezione **Generale** nel campo **Nr.** inserire un numero per il segmento.
 

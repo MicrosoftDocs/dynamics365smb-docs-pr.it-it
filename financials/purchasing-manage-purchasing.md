@@ -1,6 +1,6 @@
 ---
-title: Acquisti | Documenti Microsoft
-description: "Viene descritto come si gestiscono le attività di acquisto."
+title: Panoramica dei task per la gestione degli acquisti | Documenti Microsoft
+description: Descrive i task di gestione dei processi di acquisto o approvvigionamento, incluso l'utilizzo delle fatture di acquisto e degli ordini di acquisto.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Creare una fattura di acquisto per registrare il contratto con un fornitore per acquistare prodotti con determinate condizioni di consegna e pagamento. |[Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md) |
-| Creare una fattura di acquisto per tutte le righe o quelle selezionate in una fattura di vendita. |[Procedura: Acquistare i prodotti per una vendita](purchasing-how-purchase-products-sale.md) |
+| Creare una fattura di acquisto per tutte le righe o quelle selezionate in una fattura di vendita. |[Procedura: Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md) |
 | Eseguire un'azione in una fattura di acquisto registrata non pagata per creare automaticamente una nota di credito e per annullare la fattura di acquisto o per ricrearla in modo da apportare correzioni. |[Procedura: Correggere o annullare le fatture di vendita non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Creare una nota di credito di acquisto per stornare una fattura di acquisto registrata specifica per riflettere i prodotti resi al fornitore e l'importo di pagamento ricevuto. |[Procedura: Elaborare i resi o gli annullamenti acquisti](purchasing-how-register-new-vendors.md) |
 | Creare una scheda fornitore per ogni fornitore da cui si acquista. |[Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |

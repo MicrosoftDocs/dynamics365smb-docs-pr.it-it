@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Dynamics 365 for Financials come posta in arrivo aziendale in Outlook | Documenti Microsoft
-description: Utilizzo di Dynamics 365 for Financials come posta in arrivo aziendale in Outlook
+title: Utilizzo di Dynamics 365 for Financials con Outlook | Documenti Microsoft
+description: "Dynamics 365 for Financials è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a872c8817c412953a64cb1adb8f8234f2801e8fa
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -60,8 +60,8 @@ Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE
 In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di sistema Office 365.
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Finanza](finance.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 

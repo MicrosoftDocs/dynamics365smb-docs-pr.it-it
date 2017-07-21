@@ -1,5 +1,5 @@
 ---
-title: "Contabilità generale e piano dei conti | Documenti Microsoft"
+title: "Informazioni sulla contabilità generale e COA| Documenti Microsoft"
 description: "Descrive la contabilità generale, il piano dei conti e le categorie dei conti."
 services: project-madeira
 documentationcenter: 
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Contabilità generale e piano dei conti
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
@@ -62,7 +62,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 
 ## <a name="see-also"></a>Vedi anche
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
-[Situazioni contabili](finance-account-schedule.md)  
+[Business Intelligence](bi.md)  
 

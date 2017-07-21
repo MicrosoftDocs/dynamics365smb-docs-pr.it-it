@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Utilizzare i workflow di approvazione| Documenti Microsoft'
-description: 'Procedura: Utilizzare i workflow di approvazione'
+title: Approvare o rifiutare i documenti nei workflow| Documenti Microsoft
+description: Richiedere, rifiutare o delegare l'approvazione di, ad esempio, a un documento di vendita o acquisto, come parte di un workflow.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,15 +24,16 @@ Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve
 
 I workflow di approvazione vengono impostati della finestra finestra **Workflow**.
 
-I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
+I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
-**Nota**: questa funzionalità richiede che l'esperienza sia impostata su ***** Suite *****. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Per richiedere l'approvazione di un record
 La seguente attività viene eseguita da un utente approvazione.
 
 1. Nella finestra del record, selezionare l'azione **Invia richiesta approvazione**.
-2. Per visualizzare tutte le richieste di approvazione, nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Movimenti richieste approvazione**, quindi scegliere il collegamento correlato.
+2. Per visualizzare tutte le richieste di approvazione, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Movimenti richieste approvazione**, quindi scegliere il collegamento correlato.  
 
 Lo stato del movimento di approvazione viene aggiornato da **Creato** ad **Aperto**. Lo stato del record, ad esempio per una una fattura di acquisto, viene aggiornato da **Aperto** a **Approvazione in sospeso** e rimane bloccato per l'elaborazione finché tutti i responsabili dell'approvazione non hanno approvato il record.
 
@@ -63,7 +64,7 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 È possibile elaborare le richieste di approvazione nella finestra **Richieste da approvare**, ad esempio per approvare più richieste per volta. In alternativa, è possibile elaborare ogni richiesta nel record correlati, ad esempio nella finestra **Fattura acquisto** scegliendo il collegamento nella notifica ricevuta.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Richieste da approvare**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Richieste da approvare**, quindi scegliere il collegamento correlato.
 2. Selezionare una o più righe per il record o i record che si desidera approvare o rifiutare.
 3. Selezionare l'azione **Approva**, **Rifiuta** o **Delega**.
 
@@ -78,7 +79,7 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 Per impedire l'accumularsi dei documenti nel sistema o un eventuale altro blocco del flusso di lavoro, il responsabile dell'approvazione e l'amministratore dell'approvazione possono delegare la richiesta di approvazione a un sostituto. Il sostituto può essere un sostituto designato, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Questa funzionalità viene in genere utilizzata se il responsabile dell'approvazione si trova fuori sede e non è in grado di approvare le richieste prima della data di scadenza.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Richieste da approvare**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Richieste da approvare**, quindi scegliere il collegamento correlato.
 2. Selezionare una o più righe per le richieste di approvazione che si desidera delegare a un responsabile sostitutivo e quindi scegliere l'azione **Delega**.
 
 Viene inviata una notifica nella quale viene chiesto al responsabile sostitutivo di approvare la richiesta.
@@ -90,12 +91,12 @@ A intervalli regolari, è necessario ricordare, agli utenti del flusso di lavoro
 
 La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste di approvazione aperte attualmente scadute. Ogni responsabile a cui è associato almeno un movimento di approvazione scaduto riceve una notifica con l'elenco di tutte le relative richieste di approvazione scadute. La notifica viene anche inviata in copia per conoscenza al responsabile dell'approvazione e a tutti i richiedenti delle approvazioni scadute. Questa operazione è utile se il movimento di approvazione scaduto deve essere delegato a un sostituto.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Richieste di approvazione scadute**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Richieste di approvazione scadute**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)    
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Dynamics 365 for Financials come origine dati in PowerApps | Documenti di Microsoft
-description: "È possibile rendere disponibili i dati di Financials come origine dati in PowerApps."
+title: Utilizzare i dati per creare un'app| Documenti Microsoft
+description: "È possibile rendere disponibili i dati di Financials come origine dati e specificare un URL OData dei service Web per creare un'app aziendale utilizzando PowerApps."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cedc95b23481b8cb76da85e8459a97b1880a4218
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-powerapps-data-source"></a>Utilizzo di Dynamics 365 for Financials come origine dati in PowerApps
+# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Collegamento ai dati Financials per creare un'app aziendale utilizzando PowerApps
 È possibile rendere disponibili i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati in PowerApps.  
 
-**Nota**: è necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con PowerApps.  
+> [!NOTE]  
+>   È necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con PowerApps.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Per aggiungere [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati in PowerApps
 1. Nel browser passare a [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/), quindi accedere.
@@ -48,13 +49,14 @@ ms.lasthandoff: 05/04/2017
 8. Scegliere la tabella che si desidera utilizzare per PowerApp, quindi scegliere il pulsante **Connetti**.
 9. Ripetere i passaggi precedenti per aggiungere altri dati [!INCLUDE[d365fin](includes/d365fin_md.md)] per il modello dati Power BI.
 
-   **Nota**: una volta stabilita la connessione a [!INCLUDE[d365fin](includes/d365fin_md.md)], non verrà nuovamente richiesto l'URL OData, il nome utente o la password.
+   > [!NOTE]  
+>    Una volta stabilita la connessione a [!INCLUDE[d365fin](includes/d365fin_md.md)], non verrà nuovamente richiesto l'URL OData, il nome utente o la password.
 
 A questo punto, è stata stabilita correttamente la connessione ai dati di Dynamics 365 e si è pronti per iniziare a creare la PowerApp. Per ulteriori informazioni, vedere la [Documentazione di PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
-[Impostare [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finanza](finance.md)  
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finanze](finance.md)  
 

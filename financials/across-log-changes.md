@@ -1,6 +1,6 @@
 ---
-title: Registrazioni di modifiche in Dynamics 365 for Financials | Documenti di Microsoft
-description: Registrare le modifiche apportate dagli utenti.
+title: "Tenere traccia dell'attività dell'utente in un log modifiche| Documenti Microsoft"
+Description: "È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 03/04/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 470931febc303ace8fa1e8015453c20b587762b0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

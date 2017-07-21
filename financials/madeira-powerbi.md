@@ -1,6 +1,6 @@
 ---
-title: Utilizzo del pacchetto di contenuto di Dynamics 365 for Financials per Power BI | Documenti Microsoft
-description: "Ottenere informazioni approfondite sui dati di Financials è semplice con Power BI e con i pacchetti di contento di Financials."
+title: Pacchetti di contenuto per Dynamics 365 for Financials e Power BI | Documenti Microsoft
+description: "Ottenere informazioni approfondite, business intelligence e KPI sui dati di Financials è semplice con Power BI e con i pacchetti di contenuto di Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ I pacchetti di contenuti sono preconfigurati per utilizzare i dati di vendita e 
 * Aggiungere la visualizzazione personalizzata al dashboard per continuare la tracciabilità.  
   Dashboard e report sottostanti vengono aggiornati ogni giorno. È possibile controllare la pianificazione aggiornata e modificare la frequenza del set di dati.  
 
-**Nota**: è inoltre possibile creare i propri report e dashboard in Power BI in base ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Utilizzo di Dynamics 365 for Financials come origine dati in Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   È inoltre possibile creare i propri report e dashboard in Power BI in base ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Collegare i dati aziendali a Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Per visualizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI, è necessario disporre di quanto segue:  
@@ -74,7 +75,8 @@ Il dashboard di [!INCLUDE[d365fin](includes/d365fin_md.md)] mostra i report tipi
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Nota**: se si modifica il nome di uno qualsiasi dei servizi Web, i dati non verranno mostrati in Power BI.  
+> [!NOTE]  
+>   Se si modifica il nome di uno qualsiasi dei servizi Web, i dati non verranno mostrati in Power BI.  
 Se si desidera aggiungere altri dati in Power BI, è necessario trovare le tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)], esporle come servizi Web e aggiungerle al pacchetto di contenuto. Questo è uno scenario avanzato e è consigliabile iniziare con i dati che sono già disponibili in Power BI.  
 
 ## <a name="troubleshooting"></a>Troubleshooting
@@ -98,7 +100,8 @@ Se viene visualizzato un errore di accesso non riuscito quando si accede al dash
     Verificare il proprio account utente in [!INCLUDE[d365fin](includes/d365fin_md.md)] e assicurarsi che sia stata utilizzata la chiave di accesso al servizio Web corretta come password, quindi riprovare.  
 * L'istanza di [!INCLUDE[d365fin](includes/d365fin_md.md)] a cui ci si sta provando a connettere non dispone di un certificato SSL valido. In questo caso verrà visualizzato un messaggio di errore più dettagliato ("impossibile stabilire una relazione SSL attendibile").
 
-    **Nota**: non sono supportati i certificati autofirmati.  
+    > [!NOTE]  
+>   Non sono supportati i certificati autofirmati.  
 
 **"Oops"**  
 Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la finestra di dialogo di autenticazione, nei casi più frequenti questo errore è causato da un problema di connessione ai dati del pacchetto di contenuto.
@@ -114,10 +117,10 @@ Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la fines
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Migrazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
-[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Migrare i dati aziendali da altri sistemi contabili](upload-data.md)  
+[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

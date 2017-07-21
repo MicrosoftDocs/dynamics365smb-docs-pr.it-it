@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Inviare documenti via e-mail | Documenti Microsoft'
-description: 'Procedura: Inviare documenti via e-mail'
+title: Impostare contenuto specifico del documento e allegati per i messaggi e-mail | Documenti Microsoft
+description: "È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6d234e40cf01be46d601c92c680e90c71424be0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 445982644c7491df2090b56b0a7ce3e7277c4a57
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commer
 
 Per abilitare i messaggi e-mail dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], avviare il setup assistito **Imposta indirizzo e-mail** nella home page.
 
-È possibile inviare tramite e-mail praticamente tutti i tipi di documento come allegati ai messaggi e-mail direttamente dalla finestra che mostra il documento. Oltre all'allegato, è possibile impostare corpi e-mail specifici per il documento con le informazioni di base estratte dal documento, precedute da un testo standard di saluto e di introduzione al documento in questione. Per offrire ai clienti di pagare elettronicamente gli articoli acquistati utilizzando un servizio di pagamento come PayPal, è possibile inserire nel corpo e-mail anche le informazioni su Paypal e il collegamento ipertestuale di PayPal.
+È possibile inviare tramite e-mail praticamente tutti i tipi di documento come allegati ai messaggi e-mail direttamente dalla finestra che mostra il documento. Oltre all'allegato, è possibile impostare corpi e-mail specifici per il documento con le informazioni di base estratte dal documento, precedute da un testo standard di saluto e di introduzione al documento in questione. Per offrire ai clienti di pagare elettronicamente gli articoli acquistati utilizzando un servizio di pagamento come PayPal, è possibile inserire nel corpo e-mail anche le informazioni su PayPal e il collegamento ipertestuale di PayPal.
 
 Da tutti i documenti supportati, avviare l'invio tramite e-mail scegliendo l'azione **Invia**, nei documenti registrati, o l'azione **Registra e invia** nei documenti non registrati.
 
@@ -33,7 +33,7 @@ Se il campo **E-mail** della finestra **Invia documento a** è impostato su **S�
 Nella procedura riportata di seguito viene descritto come impostare il report **Vendite - Fattura** in modo che venga utilizzato per il corpo e-mail specifico del documento quando si inviano tramite e-mail le fatture di vendita.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Per impostare un corpo e-mail specifico del documento per le fatture di vendita
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Selezioni report Vendite**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezioni report Vendite**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Selezione report - Vendite**, nel campo **Utilizzo**, selezionare **Fattura**.
 3. In una nuova riga nel campo **ID report** selezionare ad esempio il report standard 1306.
 4. Selezionare la casella di controllo **Utilizza per corpo e-mail**.
@@ -41,7 +41,7 @@ Nella procedura riportata di seguito viene descritto come impostare il report **
 
     I layout dei report definiscono lo stile e il contenuto del corpo e-mail, incluso il testo standard che precede le informazioni principali del documento nel corpo e-mail. Per visualizzare tutti i layout dei report disponibili scegliendo il pulsante **Seleziona da elenco completo** nell'elenco a discesa.
 6. Per visualizzare o modificare il layout su cui si basa il corpo e-mail, selezionare il layout nella finestra **Layout report personalizzati** e scegliere l'azione **Modifica layout**.
-7. Se si desidera offrire ai clienti la possibilità di pagare elettronicamente gli articoli acquistati, è possibile configurare il servizio di pagamento correlato, come PayPal, inserire nel corpo e-mail anche le informazioni su Paypal e il collegamento ipertestuale a PayPal. Per ulteriori informazioni, vedere [Procedura: Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
+7. Se si desidera offrire ai clienti la possibilità di pagare elettronicamente gli articoli acquistati, è possibile configurare il servizio di pagamento correlato, come PayPal, inserire nel corpo e-mail anche le informazioni su PayPal e il collegamento ipertestuale a PayPal. Per ulteriori informazioni, vedere [Procedura: Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
 8. Scegliere il pulsante **OK**.
 
 A questo punto, quando si sceglie ad esempio l'azione **Invia** nella finestra **Fattura vendita registrata**, il corpo e-mail conterrà le informazioni del report 1306 precedute dal testo standard creato in base al layout di report selezionato nel passaggio 5.
@@ -49,7 +49,7 @@ A questo punto, quando si sceglie ad esempio l'azione **Invia** nella finestra *
 Nella procedura riportata di seguito viene descritto come inviare una fattura di vendita registrata come messaggio e-mail con il documento allegato come file PDF e con il corpo e-mail specifico del documento.
 
 ## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Fatture vendita registrate**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.
 2. Selezionare la fattura di vendita registrata appropriata, quindi scegliere l'azione **Invia**. Verrà visualizzata la finestra **Invia documento a**.
 3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 4. Scegliere il pulsante **OK**. Verrà visualizzata la finestra **Invia messaggio e-mail**.
@@ -61,7 +61,8 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
     Se il corpo e-mail specifico del documento è impostato nella finestra **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, vedere la sezione "Per impostare un corpo e-mail specifico del documento per le fatture di vendita" in questo argomento.
 9. Scegliere **OK** per inviare il messaggio e-mail.
 
-**Nota**: se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della finestra **Invia documento a**. In questo caso, non verrà visualizzata la finestra **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della finestra **Invia documento a**. In questo caso, non verrà visualizzata la finestra **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout dei report e dei documenti](ui-manage-report-layouts.md)  

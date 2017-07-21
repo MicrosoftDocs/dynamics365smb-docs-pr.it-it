@@ -1,6 +1,6 @@
 ---
-title: Metodi WIP | Documenti Microsoft
-description: Vengono descritti i diversi metodi WIP che possono essere utilizzati per registrare e controllare le informazioni finanziarie per le commesse che sono WIP.
+title: Metodi WIP per il calcolo e la registrazione dello stato di avanzamento della commessa| Documenti Microsoft
+description: Vengono descritti i diversi metodi WIP che possono essere utilizzati per registrare, monitorare e calcolare le informazioni finanziarie per le commesse in corso.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d6f82b3eb086b53be8a091e7a805c745a74ac10f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78758a6876595c7dea94d9e5c707dc5a717947a3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/04/2017
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione progetti](projects-manage-projects.md)  
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

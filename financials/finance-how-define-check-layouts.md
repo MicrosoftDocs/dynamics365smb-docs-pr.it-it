@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Definire i layout degli assegni | Documenti Microsoft'
-description: Ottenere informazioni sui layout degli assegni disponibili in Financials.
+title: Specificare il layout di un assegno| Documenti Microsoft
+description: "È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Gli assegni sono stati progettati per la stampa dei formati di immagine sia degli Stati Uniti che del Canada con formato assegno-matrice- assegno o matrice-matrice-assegno.
 
 ## <a name="to-define-check-layouts"></a>Per definire i layout degli assegni
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Selezioni report C/C bancari**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezioni report C/C bancari**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Selez. report - C/C bancario** nel campo **Utilizzo** selezionare **Assegno**.
 3. Selezionare uno dei seguenti ID report:
 
@@ -36,7 +36,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 | 10401 |Assegno (Matrice/Matrice/Assegno) |Il report è progettato per stampare gli assegni in formato Matrice/Matrice/Assegno. |
 | 10411 |Assegno (Matrice/Assegno/Matrice) |Il report è progettato per stampare gli assegni in formato Matrice/Assegno/Matrice. |
 
-Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella finestra **Registrazioni pagamenti**. Per ulteriori informazioni, vedere [Utilizzo degli assegni](payables-how-work-checks.md).
+Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella finestra **Registrazioni pagamenti**. Per ulteriori informazioni, vedere [Procedura: Utilizzo degli assegni](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

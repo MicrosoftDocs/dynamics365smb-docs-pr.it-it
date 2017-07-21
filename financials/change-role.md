@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Modificare la Gestione ruolo utente | Documenti Microsoft'
-description: "Viene descritto come è possibile modificare la Gestione ruolo utente corrente."
+title: Modificare la Gestione ruolo utente| Documenti Microsoft
+description: "È possibile selezionare un profilo diverso in Financials per modificare gli elementi visualizzati nella Home page."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Profile
-ms.date: 03/23/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70215bcbf8166f84dfa37e722aed3d7d9c7626e6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,6 +32,6 @@ Il contenuto della home page si basa sulla Gestione ruolo utente selezionata. La
 4. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

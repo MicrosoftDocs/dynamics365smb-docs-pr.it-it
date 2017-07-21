@@ -1,6 +1,6 @@
 ---
-title: Setup categorie di registrazione | Documenti Microsoft
-description: Fornisce una panoramica delle categorie di registrazione
+title: Setup categorie di registrazione| Documenti Microsoft
+description: Panoramica delle categorie di registrazione utilizzabili per risparmiare tempo ed evitare errori quando si registrano le transazioni.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Setup categorie di registrazione
+# <a name="setting-up-posting-groups"></a>Impostazione delle categorie di registrazione
 Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
 
 Le categorie di registrazione possono essere di tre tipi:  

@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Eseguire i processi batch | Documenti Microsoft'
-description: Informazioni su come funzionano i processi batch in Dynamics 365 for Financials.
+title: Creare ed eseguire un processo batch | Documenti Microsoft
+description: "È possibile eseguire i processi batch per elaborare i dati e aggiornare le informazioni, ad esempio, per attività contabili periodiche oppure per effettuare dei calcoli."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1f4678ce0cfb18a746374226bb33020f70bf874d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Un processo batch è una routine che elabora i dati in batch, come, ad esempio, 
 Un processo batch è simile a un report, con la differenza che il processo batch utilizza il risultato delle attività che esegue per aggiornare direttamente le informazioni, anziché stampare i risultati.
 
 ## <a name="to-run-a-batch-job"></a>Per eseguire un processo batch
-1. Per aprire la finestra di richiesta del processo batch pertinente, nell'angolo superiore destro, scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere il nome del processo batch, quindi scegliere il collegamento correlato.
+1. Per aprire la finestra di richiesta del processo batch pertinente, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere il nome del processo batch, quindi scegliere il collegamento correlato.
 2. Se per il processo batch è disponibile una Scheda dettaglio **Opzioni**, completarne i campi per determinare l'operazione che sarà eseguita dal processo batch.
 3. È possibile che la finestra contenga una o più Schede dettaglio con filtri, che è possibile utilizzare per limitare i dati inclusi nel processo batch. È possibile immettere criteri nei filtri consigliati o aggiungere altri filtri.
 4. Scegliere **OK** per avviare il processo batch.

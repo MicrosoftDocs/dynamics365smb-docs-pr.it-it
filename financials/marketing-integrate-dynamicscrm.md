@@ -1,6 +1,6 @@
 ---
-title: Gestione delle relazioni clienti utilizzando Dynamics 365 for Sales da Dynamics 365 for Financials | Documenti Microsoft
-description: "Se si utilizza Dynamics 365 for Sales per l&quot;interazione con i clienti, si può utilizzare Dynamics 365 for Financials per l&quot;elaborazione degli ordini e i dati finanziari e sfruttare un&quot;integrazione ottimale nel processo dai lead agli incassi."
+title: Gestire i clienti tramite Dynamics 365 for Sales| Documenti Microsoft
+description: "È possibile utilizzare Dynamics 365 for Sales tramite Dynamics 365 for Financials per mappare i dati e sfruttare l'integrazione ottimale e la sincronizzazione nel processo dai lead agli incassi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Gestione delle relazioni clienti utilizzando Dynamics 365 for Sales da Dynamics 365 for Financials
@@ -23,16 +23,19 @@ Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, si può u
 
 Quando l'applicazione è impostata per l'integrazione con Dynamics 365 for Sales, è possibile accedere ai dati di vendita da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa, in alcuni casi. Questa integrazione consente di utilizzare e sincronizzare i tipi di dati che sono comuni a entrambi i servizi, quali clienti, contatti e informazioni sulle vendite, e mantenere i dati aggiornati in entrambe le ubicazioni.  
 
-**Nota**: nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales viene indicato come Dynamics CRM. Per semplicità, nella parte rimanente di questo articolo verrà utilizzata la terminologia che viene utilizzata in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales viene indicato come Dynamics CRM. Per semplicità, nella parte rimanente di questo articolo verrà utilizzata la terminologia che viene utilizzata in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Ad esempio, L'agente in Dynamics CRM può utilizzare listini prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si crea un ordine di vendita. Quando si aggiunge l'articolo alla riga dell'ordine di vendita in Dynamics CRM, si possono visualizzare il livello di magazzino (disponibilità) dell'articolo da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questi dati vengono generati nell'ambito della Guida di setup assistito, **Setup connessione a Dynamics CRM**.  
 
-**Nota**: questa funzionalità richiede che l'esperienza sia impostata su ***** Suite *****. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+> [!NOTE]  
+>   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Impostazione della connessione
 Da casa, è possibile accedere alla Guida di setup assistito **Setup connessione a Dynamics CRM** che consente di impostare la connessione. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics CRM e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-**Nota**: di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente le stesse attività nella finestra **Setup connessione CRM**.
+> [!NOTE]  
+>   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente le stesse attività nella finestra **Setup connessione CRM**.
 
 Nella Guida di setup assistito, scegliere quali dati sincronizzare tra i due servizi. È inoltre possibile specificare se si desidera includere la soluzione Dynamics CRM esistente. In questo caso, specificare le credenziali per un account utente amministrativo.
 
@@ -67,7 +70,8 @@ In certe aree, la funzionalità si bassa sull'associazione di determinati set di
 * Articoli e prezzi risorse  
   * Associare prima i gruppi di prezzi cliente con i prezzi di Dynamics CRM  
 
-**Nota**: se si utilizzano i prezzi in valuta estera, verificare di associare le valute alle valute della transazione di Dynamics CRM,
+> [!NOTE]  
+>   Se si utilizzano i prezzi in valuta estera, verificare di associare le valute alle valute della transazione di Dynamics CRM,
 
 Gli ordini di vendita di Dynamics CRM si basano su informazioni aggiuntive come clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse. Affinché gli ordini di vendita di Dynamics CRM funzionino senza problemi, è necessario associare prima clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse.
 
@@ -81,7 +85,7 @@ Nella finestra **Setup connessione CRM** è possibile ottenere in qualsiasi mome
 ## <a name="see-also"></a>Vedi anche
 [Relationship Management](marketing-relationship-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizzazione dell'interfaccia utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]] (ui-experiences.md)  
+[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md)    
 [Aggiungere l'organizzazione e gli utenti in Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

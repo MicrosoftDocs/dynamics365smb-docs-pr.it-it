@@ -1,6 +1,6 @@
 ---
-title: Benvenuto in Dynamics 365 for Financials | Documenti Microsoft
-description: "Dynamics 365 for Financials è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell&quot;azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy."
+title: Benvenuto in Dynamics 365 for Financials| Documenti Microsoft
+description: "Dynamics 365 for Financials è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ Per alcuni suggerimenti utili e immediati, vedere:
 * [Impostare i filtri](ui-enter-criteria-filters.md)  
 * [Ordinare i dati negli elenchi](ui-sorting.md)  
 
-Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
+Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Quando si è pronti per un approfondimento e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](madeira-business-functionality.md). Per una panoramica delle funzionalità correnti e di quelle previste, è possibile consultare la roadmap nel sito [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)stradale.  
 
 ## <a name="the-home-pages"></a>Home page
 Le home page utilizzano un design basato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse home page, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modificare il Centro ruolo utente](change-role.md).  
 
-Ogni home page include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di setup assistiti che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere [Setup [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Ogni home page include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di setup assistiti che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-**Nota:** l'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Suite**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
+> [!NOTE]  
+>   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Suite**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Suite**:
 
@@ -72,11 +73,11 @@ Ogni volta che si accede durante il periodo di prova, una notifica in una barra 
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Impostare [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finanza](finance.md)  
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finanze](finance.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md)  
-[Installare [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
+[Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Documentazione di Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

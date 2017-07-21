@@ -1,6 +1,6 @@
 ---
-title: "Impostazione di origini Web per le società contatto | Documenti Microsoft"
-description: Viene descritto come utilizzare le origini Web per i contatti in Financials
+title: "Impostare le origini Web per le società contatto| Documenti Microsoft"
+description: "È possibile definire origini Web o Internet e assegnarle a una società contatto per consentire l'identificazione delle modalità di ricerca delle informazioni sui contatti."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: internet
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-web-sources-for-contact-companies"></a>Impostazione delle origini Web per le società contatto
+# <a name="how-to-set-up-web-sources-for-contact-companies"></a>Procedura: Impostare le origini Web per le società contatto
 È possibile utilizzare le origini Web con le società contatto per identificare, ad esempio, motori di ricerca e siti Web dove effettuare la ricerca di informazioni sui contatti. Quando si assegna un'origine Web, specificare il motore di ricerca e la parola di ricerca che saranno utilizzati per individuare le informazioni richieste.
 
 L'utilizzo delle origini Web nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice origine Web. Questo passaggio deve essere eseguito una sola volta per ogni origine Web. Dopo aver creato un codice origine Web, è possibile iniziare ad assegnarlo ai contatti.
 
 ## <a name="to-define-a-web-source-code"></a>Per definire un codice origine Web
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Origini Web**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Origini Web**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi **Codice**, **Descrizione** e **URL**.
 

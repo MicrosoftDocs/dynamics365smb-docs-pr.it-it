@@ -3,32 +3,32 @@ title: Impostazione di campagne di marketing in Financials | Documenti Microsoft
 description: "Viene descritto come è possibile impostare e svolgere campagne di marketing in Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 03/08/2017
-ms.author: edupont
+ms.date: 05/20/2017
+ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8f616382e28e29aab1ce7d9b45b8efb4ad374b96
+ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
+ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/31/2017
 
 
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
 Per identificare, attirare e fidelizzare i clienti, è fondamentale mettere a punto un solido piano di marketing. Un piano di marketing comprende diverse campagne e altre interazioni correlate alle attività di marketing e di vendita. Quando si pianifica una campagna, è necessario decidere a quali contatti rivolgersi, quale tipo di campagna creare (fiera commerciale o messaggi e-mail) e a quali agenti assegnare ogni task.
 
-<!-- Each campaign consists of various activities or to-dos. Activities are large tasks that can be broken down into several smaller tasks or to-dos. To-dos are individual or team tasks that can be created within activities or individually and then be assigned to individual salespeople or groups of salespeople.-->
+Ogni campagna deve prevedere diverse attività o task. È possibile combinare più task, ad esempio task che rappresentano un passaggio, nelle attività. I task delle attività sono in relazione tra essi in base a una formula di date. I singoli task possono essere assegnati solo agli agenti. Le attività possono essere assegnate a opportunità, agenti, gruppi di venditori e contatti. Per ulteriori informazioni, vedere [Procedura: Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definizione di campagne singole
 Prima di creare una campagna, è necessario impostare *codici di stato campagna*. L'utilizzo di questi codici consente di gestire le campagne assegnando ad esse uno stato. Lavorando alle diverse fasi della campagna, sarà possibile sapere i passaggi completati e quelli ancora da iniziare. I codici stato campagna vengono impostati nella finestra **Stato campagna**.
 
-È possibile creare una *scheda campagna* per ogni campagna di cui tenere traccia. È anche possibile visualizzare queste schede campagna per visualizzare informazioni generali su ogni campagna.
+È possibile creare una scheda campagna per ogni campagna di cui tenere traccia. È anche possibile visualizzare queste schede campagna per visualizzare informazioni generali su ogni campagna.
 È possibile eliminare movimenti campagna, come se il movimento registrasse un'azione che è stata annullata. È possibile eliminare solo movimenti campagna annullati.
 
 ### <a name="selecting-the-target-audience"></a>Selezione del target
@@ -39,14 +39,13 @@ Dopo avere impostato la campagna, avere stabilito quali segmenti coprirà la cam
 
  Una volta impostati i prezzi di vendita e gli sconti riga, nonché i segmenti nella Scheda Campagna, è necessario attivarli in modo che i prezzi e gli sconti vengano riportati anche nelle righe.
 
-> [!NOTE]  
->  Per attivare i prezzi di vendita/ gli sconti riga, è necessario specificare se l'intero segmento o solo alcuni contatti sono obiettivi della campagna. Se i prezzi di vendita e gli sconti riga riguardano tutti i contatti del segmento, selezionare il campo **Target campagna** disponibile nella Scheda dettaglio **Campagna** della scheda **Segmento**.
+**Nota**: per attivare i prezzi di vendita/ gli sconti riga, è necessario specificare se l'intero segmento o solo alcuni contatti sono obiettivi della campagna. Se i prezzi di vendita e gli sconti riga riguardano tutti i contatti del segmento, selezionare il campo **Target campagna** disponibile nella Scheda dettaglio **Campagna** della scheda **Segmento**.
 Se i prezzi di vendita/gli sconti riga non vengono offerti a tutti i contatti del segmento, è possibile deselezionare il campo **Target campagna** per i contatti specifici. Se non è possibile visualizzare questo campo, è possibile aggiungerlo alla vista. Per ulteriori informazioni, vedere [Personalizzazione utente](ui-user-personalization.md).
 
-<!-- ## Conducting campaigns
-As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
+## <a name="conducting-campaigns"></a>Esecuzione di campagne
+Durante l'esecuzione di una campagna, vengono registrate tutte le interazioni con i contatti, o segmenti. In questo modo sarà possibile ottenere statistiche e altre informazioni sui costi e sulle probabilità di successo della campagna.
 
-Campaigns are conducted by salespeople, and you must create activities to represent each task and assign them to the relevant salespeople.  -->
+Le campagne vengono eseguite dagli agenti ed è necessario creare attività per rappresentare ciascun task e per assegnarlo agli agenti pertinenti. Per ulteriori informazioni, vedere [Procedura: Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  

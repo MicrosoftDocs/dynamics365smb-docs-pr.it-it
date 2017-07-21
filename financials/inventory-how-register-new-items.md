@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Registrare nuovi articoli | Documenti Microsoft'
-description: Creare schede per i nuovi prodotti fisici, che si vendono dal magazzino, ad esempio pezzi, o per i servizi, che si vendono a ore.
+title: Creare schede articolo per beni o servizi| Documenti Microsoft
+description: Creare le schede articolo per i servizi che si vendono a ora e per i prodotti fisici, ad esempio articoli di assemblaggio, prodotti finiti, componenti o materie prime, che si vendono dal magazzino.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-register-new-items"></a>Procedura: Registrare nuovi articoli
-Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, delle merci o dei servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
+Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
 
 Le schede articolo contengono le informazioni richieste per l'acquisto, l'archiviazione, la consegna e la contabilità degli articoli.
 
@@ -28,7 +28,8 @@ La scheda articolo può essere di tipo **Magazzino** o **Assistenza** per specif
 
 È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)] una distinta base è detta DB assemblaggio. Utilizzare le DB assemblaggio per strutturare gli articoli padre da vendere come kit costituiti da componenti del padre o da assemblare su ordine o per magazzino. Per ulteriori informazioni, vedere [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
-**Nota**: se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una finestra quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
+> [!NOTE]  
+>   Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una finestra quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
 1. Nella home page scegliere l'azione **Articoli** per aprire l'elenco degli articoli esistenti.  

@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico | Documenti Microsoft'
-description: 'Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico'
+title: Utilizzare il collegamento automatico per riconciliare i pagamenti | Documenti Microsoft
+description: Descrive come utilizzare la funzione automatica di collegamento per collegare i pagamenti o gli incassi ai movimenti aperti relativi e per riconciliare i pagamenti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ Nelle righe di registrazione in cui un pagamento è stato collegato automaticame
 
 Per ogni riga di registrazione nella finestra **Registrazione riconciliazione pagamenti** è possibile aprire la finestra **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni, vedere [Procedura: Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
 
-**Nota**: è possibile avviare l'importazione delle transazioni bancarie nello stesso momento in cui si apre la finestra **Registrazione riconciliazione pagamenti** per una registrazione riconciliazione pagamenti nella finestra **Registrazioni riconciliazione pagamenti**. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella finestra **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
+> [!NOTE]  
+>   È possibile avviare l'importazione delle transazioni bancarie nello stesso momento in cui si apre la finestra **Registrazione riconciliazione pagamenti** per una registrazione riconciliazione pagamenti nella finestra **Registrazioni riconciliazione pagamenti**. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella finestra **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Per riconciliare i pagamenti utilizzando il collegamento automatico
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Registrazioni riconciliazione pagamenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riconciliazione pagamenti**, quindi scegliere il collegamento correlato.
 2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni**.
 3. Nella finestra **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK**.
    Verrà aperta la finestra **Registrazione riconciliazione pagamenti** predisposta per il conto corrente bancario selezionato.
@@ -63,7 +64,8 @@ Quando si registrano le registrazioni della riconciliazione di pagamento, i movi
 
 È possibile confrontare il valore del campo **Saldo su conto bancario dopo la registrazione** con il valore del campo **Saldo finale estratto conto** per tenere traccia di quando il conto bancario viene riconciliato in base ai pagamenti che vengono registrati.
 
-**Nota**: se non si desidera riconciliare il conto bancario dalla finestra **Registrazione riconciliazione pagamenti**, è necessario utilizzare la finestra **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md).
+> [!NOTE]  
+>   Se non si desidera riconciliare il conto bancario dalla finestra **Registrazione riconciliazione pagamenti**, è necessario utilizzare la finestra **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  

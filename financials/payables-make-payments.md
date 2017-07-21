@@ -1,6 +1,6 @@
 ---
-title: Effettuare i pagamenti | Documenti Microsoft
-description: Effettuare i pagamenti
+title: Panoramica dei task di gestione dei pagamenti ai fornitori| Documenti Microsoft
+description: Descrive i task per gestire i pagamenti ai fornitori o ai creditori, inclusa la registrazione delle righe di pagamento e la visualizzazione di una panoramica del saldo dovuto.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6721c0359b4499a597b349a280afb56818a1f28
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d0b9020596484a8910db2f5720adfe159ad96fe7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Utilizzare una funzione per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Procedura: Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md) |
-| Emettere assegni per i pagamenti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Procedura: Utilizzare gli assegni](payables-how-work-checks.md) |
+| Emettere assegni per i pagamenti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Procedura: Utilizzo degli assegni](payables-how-work-checks.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Procedura: Esportare un file Positive Pay](finance-how-positive-pay.md) |
 |Esportare i pagamenti dalla finestra **Registrazioni pagamenti** a un file della banca che viene caricato nella banca per l'elaborazione, incluso l'EFT (trasferimento elettronico di fondi) nell'America del Nord. |[Procedura: Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|  
 

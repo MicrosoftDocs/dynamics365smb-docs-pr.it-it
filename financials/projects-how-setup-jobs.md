@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Impostare le commesse | Documenti Microsoft'
-description: Viene descritto come preparare il sistema per utilizzare le commesse per gestire progetti.
+title: Impostare prezzi delle commesse e categorie di registrazione commesse| Documenti Microsoft
+description: Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f228e520f1140243a6fd305173200ff5637272a5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,10 +26,11 @@ Nella finestra **Setup commesse** è necessario specificare come si desidera uti
 Nelle singole schede commessa, è necessario impostare i prezzi per gli articoli di commessa, le risorsa di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
 ## <a name="to-set-general-information-for-jobs"></a>Per impostare le informazioni generali relative alle commesse
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Setup commesse**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Nota**: la casella di controllo **Applica collegamento utilizzo** è piuttosto complessa, quindi viene spiegata nella sezione che segue.
+> [!NOTE]  
+>   La casella di controllo **Applica collegamento utilizzo** è piuttosto complessa, quindi viene spiegata nella sezione che segue.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
 Quando viene eseguita una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è **Budget**, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
@@ -38,17 +39,19 @@ Se si seleziona la casella di controllo **Applica collegamento utilizzo**, è po
 
 Se la casella di controllo **Applica collegamento utilizzo** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, Financials crea una riga di pianificazione commessa di tipo **Budget** dopo che viene registrata la riga di registrazione.
 
-**Nota**: se la casella di controllo **Applica collegamento utilizzo** nella scheda commessa è selezionata e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa. Se la casella di controllo **Applica collegamento utilizzo** non è selezionata e il campo **Tipo riga** nella riga di registrazione commessa è vuoto, non vengono create righe di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Procedura: Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+> [!NOTE]  
+>   Se la casella di controllo **Applica collegamento utilizzo** nella scheda commessa è selezionata e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa. Se la casella di controllo **Applica collegamento utilizzo** non è selezionata e il campo **Tipo riga** nella riga di registrazione commessa è vuoto, non vengono create righe di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Procedura: Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Setup commesse**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.
 2. Selezionare o deselezionare la casella di controllo **Applica collegamento utilizzo**.
 
-**Nota**: è possibile impostare diversamente la casella di controllo **Applica collegamento utilizzo** nelle singoli schede commessa. In questo caso, l'impostazione di tale commessa ignora il default generale descritto sopra.
+> [!NOTE]  
+>   È possibile impostare diversamente la casella di controllo **Applica collegamento utilizzo** nelle singole schede commessa. In questo caso, l'impostazione di tale commessa ignora il default generale descritto sopra.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Per impostare i prezzi per le risorse di commessa
 È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la finestra **Prezzi risorse commesse**.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Commesse**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Risorsa**.
 3. Nella finestra **Prezzi risorse commesse** compilare i campi in base alle esigenze.
 
@@ -56,12 +59,13 @@ Le informazioni opzionali nei campi **Nr. task commessa**, **Tipo di lavoro**, *
 
 Il valore nel campo **Prezzo unitario** per la risorsa verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immessa questa risorsa, una risorsa assegnata al gruppo di risorse, o qualsiasi risorsa.  
 
-**Nota**: questo prezzo ignorerà sempre qualsiasi prezzo impostato nella finestra **Prezzi risorse/Prezzo gruppo risorse** esistente.
+> [!NOTE]  
+>   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella finestra **Prezzo risorse/Prezzo gruppo risorse**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Per impostare i prezzi per gli articoli di commessa
 È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la finestra **Prezzi articoli commesse**.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Commesse**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Articolo**.
 3. Nella finestra **Prezzi articoli commesse** compilare i campi in base alle esigenze.
 
@@ -69,12 +73,13 @@ Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta** e *
 
 Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo articolo.  
 
-**Nota**: questo prezzo sostituirà sempre il normale prezzo cliente (meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.
+> [!NOTE]  
+>   Questo prezzo sostituisce sempre il normale prezzo cliente (il meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Per impostare i prezzi dei conti di contabilità generale delle commesse
 È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la finestra **Prezzi conti C/G commesse**.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Commesse**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Conto C/G**.  
 3. Nella finestra **Prezzi conti C/G commesse** compilare i campi in base alle esigenze.
 
@@ -85,9 +90,10 @@ Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verr�
 ## <a name="to-set-up-job-posting-groups"></a>Per impostare le categorie di registrazione commesse
 Un aspetto della pianificazione delle commesse è decidere quali conti di registrazione utilizzare per il calcolo dei costi. Perché sia possibile registrare commesse, è necessario impostare conti per la registrazione di ciascuna categoria di registrazione commessa. La categoria di registrazione rappresenta un collegamento tra la commessa e come deve essere considerata nella contabilità generale. Quando si crea una commessa, si specifica una categoria di registrazione e, per default, ogni task creato per la commessa viene associato a tale categoria di registrazione. Tuttavia, quando si creano i task, è possibile sostituire l'impostazione di default e selezionare una categoria di registrazione più appropriata.  
 
-**Nota**: i necessari conti nel piano dei conti devono essere impostati prima di impostare le categorie di registrazione. Per ulteriori informazioni, vedere [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md).  
+> [!NOTE]  
+>   I conti necessari devono essere impostati nel Piano dei Conti prima delle categorie di registrazione. Per ulteriori informazioni, vedere [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md).  
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Cat. reg. commesse**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cat. reg. commesse**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**, quindi compilare i campi dei conti come descritto nella tabella che segue.  
 
 | Campo Conto | Descrizione |
@@ -111,7 +117,7 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 ## <a name="see-also"></a>Vedi anche
 [Impostare Gestione progetti](projects-setup-projects.md)  
 [Gestire progetti](projects-manage-projects.md)  
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

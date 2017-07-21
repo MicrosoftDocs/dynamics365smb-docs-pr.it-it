@@ -1,6 +1,6 @@
 ---
-title: Creazione e gestione di contatti | Documenti Microsoft
-description: Viene descritto come creare e gestire i contatti in Financials
+title: Creare e gestire i contatti| Documenti Microsoft
+description: "Si possono impostare come contatti tutte le entità esterne con cui si ha una relazione d'affari, ad esempio prospetti, clienti, fornitori e consulenti."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,12 +31,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Swtup della gestione dei contatti prima di aggiungere i contatti. |[Operazioni preliminari per la configurazione dei contatti](marketing-setup-contacts.md) |
-| Creare una scheda contatto per ogni nuova società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creare società contatto](marketing-create-contact-companies.md) |
-| Creare una scheda contatto per ogni singolo contatto che opera all'interno delle società con cui si interagisce. |[Creare contatti](marketing-create-contact-persons.md) |
+| Swtup della gestione dei contatti prima di aggiungere i contatti. |[Preparazione per il setup dei contatti](marketing-setup-contacts.md) |
+| Creare una scheda contatto per ogni nuova società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creazione di società contatto](marketing-create-contact-companies.md) |
+| Creare una scheda contatto per ogni singolo contatto che opera all'interno delle società con cui si interagisce. |[Creazione di contatti](marketing-create-contact-persons.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Setup Relationship Management](marketing-setup-marketing.md)  
-[Utilizzo di dati finanziari](ui-work-product.md)  
+[Utilizzo di Financials](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Imposte di vendita e categorie fiscali negli Stati Uniti e in Canada | Documenti Microsoft
-description: Vengono fornite informazioni sulla configurazione delle imposte di vendita e sul funzionamento delle categorie fiscali, delle aree imposte, delle giurisdizioni fiscali e dei dettagli imposta.
+title: Impostazione di categorie, aree e giurisdizioni fiscali negli Stati Uniti e in Canada | Documenti Microsoft
+description: "Vengono fornite informazioni sulla configurazione delle imposte di vendita e sul funzionamento delle categorie fiscali, delle aree imposte (gli stati, le province, le città e le località), delle giurisdizioni fiscali e dei dettagli imposta."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Imposte di vendita e categorie fiscali negli Stati Uniti e in Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Dichiarazione IVA negli Stati Uniti e in Canada
 La prima volta che si avvia [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire una guida al setup assistito per impostare in modo semplice e rapido le informazioni fiscali della società, dei clienti e dei fornitori. In pochi minuti si è pronti a creare documenti di vendita e di acquisto con le imposte calcolate correttamente. Una spiegazione dettagliata è disponibile nel [nostro post del blog](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Se si passa a una società vuota, consigliamo di iniziare utilizzando ciascuna guida al setup assistito, inclusa quella per le imposte di vendita. Se si preferisce impostare le imposte manualmente, questo articolo spiega i fattori da tenere in considerazione.  
 

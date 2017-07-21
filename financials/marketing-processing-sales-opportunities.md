@@ -1,6 +1,6 @@
 ---
-title: "Elaborazione delle opportunità di vendita | Documenti Microsoft"
-description: "Viene descritta l&quot;elaborazione delle opportunità di vendita in Financials"
+title: "Elaborare le opportunità di vendita nei cicli di vendita| Documenti Microsoft"
+description: "È possibile visualizzare, chiudere o eliminare le opportunità di vendita ed è anche possibile creare offerte e ordini di vendita per opportunità e spostare un'opportunità fra le fasi di un ciclo di vendita."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 889ef028b34ddad52c978373a5dab4329d96c91f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="processing-sales-opportunities"></a>Elaborazione delle opportunità di vendita
+# <a name="how-to-process-sales-opportunities"></a>Procedura: Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
 
-## <a name="view-opportunities"></a>Visualizzare le opportunità
+## <a name="to-view-opportunities"></a>Per visualizzare le opportunità
 Le opportunità di vendita esistenti sono disponibili nella finestra **Lista opportunità**. Sono disponibili diversi metodi per accedere alla finestra per elaborare le opportunità di vendita:
 
-| Per visualizzare le opportunità per | Passaggi |
+| Per visualizzare le opportunità per | Quindi |
 | --- | --- |
-| Tutti gli agenti e contatti |Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Lista opportunità**, quindi scegliere il collegamento correlato. |
-| Un agente specifico |Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Agenti**, quindi scegliere il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
-| Un contatto specifico |Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Contatti**, quindi scegliere il collegamento correlato. Selezionare il contatto dalla lista, quindi scegliere l'azione **Opportunitià**. |
+| Tutti gli agenti e contatti |Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Lista opportunità**, quindi scegliere il collegamento correlato. |
+| Un agente specifico |Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Agenti**, quindi scegliere il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
+| Un contatto specifico |Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Contatti**, quindi scegliere il collegamento correlato. Selezionare il contatto dalla lista, quindi scegliere l'azione **Opportunitià**. |
 
 Ciascuna di queste attività apre la finestra **Lista opportunità**.
 
-## <a name="close-opportunities"></a>Chiudere le opportunità
+## <a name="to-close-opportunities"></a>Per chiudere le opportunità
 È possibile chiudere le opportunità una volta concluse le negoziazioni. Quando si chiude un'opportunità, è possibile specificare se è stata vinta o persa e i motivi per chiuderla. Per specificare un motivo, è necessario impostare codici di chiusura opportunità.
 
 1. Nella finestra **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Chiudi**. Verrà visualizzata la finestra **Chiudi opportunità**.
@@ -44,13 +44,13 @@ Ciascuna di queste attività apre la finestra **Lista opportunità**.
 
    Nel campo **Codice opportunità chiuse**, è possibile scegliere tra i codici chiusura opportunità esistenti o aggiungere un nuovo codice. Per aggiungere un nuovo codice, dall'elenco a discesa, selezionare **Seleziona da elenco completo** quindi **Nuovo**. Nella nuova riga vuota, compilare i campi **Codice**, **Tipo** e **Descrizione** e quindi il pulsante **OK**.
 
-## <a name="create-quotes-for-opportunities"></a>Per creare offerte per opportunità
+## <a name="to-create-quotes-for-opportunities"></a>Per creare offerte per opportunità
 È possibile creare offerte di vendita relative ai contatti che non sono registrati come clienti.
 
 1. Nella finestra **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Assegna offerta di vendita**. Verrà visualizzata la finestra **Offerta di vendita**.
 2. Compilare i relativi campi.
 
-## <a name="create-sales-orders-for-opportunities"></a>Per creare ordini di vendita per opportunità
+## <a name="to-create-sales-orders-for-opportunities"></a>Per creare ordini di vendita per opportunità
 È possibile creare ordini di vendita a partire dalle offerte di vendita create per le opportunità. Prima di creare ordini di vendita per i contatti, è necessario creare il contatto come cliente. Per ulteriori informazioni, vedere [Creare un un cliente, un fornitore o un conto corrente bancario da un contatto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
 1. Nella finestra **Lista opportunità** individuare l'opportunità per la quale è stata creata un'offerta di vendita.
@@ -59,20 +59,20 @@ Ciascuna di queste attività apre la finestra **Lista opportunità**.
 
 Quando si gestiscono opportunità di vendita, potrebbe essere necessario creare un'offerta per il contatto al quale è collegata l'opportunità.
 
-## <a name="delete-opportunities"></a>Rimuovere le opportunità
+## <a name="to-delete-opportunities"></a>Per rimuovere opportunità
 È possibile rimuovere opportunità, ad esempio dopo aver concluso un'operazione commerciale. Tuttavia, è possibile eliminare solo le opportunità chiuse. Esistono due modi per eliminare le opportunità chiuse. È possibile eliminare le opportunità chiuse dalla finestra **Lista opportunità** oppure è possibile eseguire il processo batch **Elimina opportunità chiuse** per eliminare più opportunità in base a criteri specifici.
 
 Per eliminare le opportunità chiuse nella finestra **Lista opportunità**, selezionare l'opportunità quindi selezionare l'azione **Elimina**.
 
 Per eliminare le opportunità chiuse utilizzando il processo batch **Elimina opportunità chiuse**, attenersi alla seguente procedura:
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Rimuovi opportunità**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Rimuovi opportunità**, quindi scegliere il collegamento correlato.
 2. Nella sezione **Opportunità**, impostare i filtri che specificano le opportunità chiuse eliminare.
 3. Scegliere il pulsante **OK**.
 
 Una volta eliminata un'opportunità, verrà rimossa dalla finestra **Lista opportunità**.
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Spostare un'opportunità nelle fasi ciclo di vendita
+## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Per spostare un'opportunità nelle fasi ciclo di vendita
 Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o indietro nelle varie fasi, ad esempio verso la fase successiva o precedente e perfino saltare una fase.
 
 1. Nella finestra **Lista opportunità**, selezionare l'azione **Aggiorna**. Verrà visualizzata la finestra **Aggiorna opportunità**.

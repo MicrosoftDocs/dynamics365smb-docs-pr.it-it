@@ -1,6 +1,6 @@
 ---
-title: Notifiche smart | Documenti Microsoft
-description: Le notifiche smart forniscono avvisi e consigli.
+title: Utilizzare le notifiche smart e specificare quando visualizzarle | Documenti Microsoft
+description: "È possibile ricevere notifiche con informazioni sulle modifiche di stato o di eventi, ad esempio, per un saldo scaduto o un magazzino in esaurimento."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Al primo avvio di [!INCLUDE[d365fin](includes/d365fin_md.md)] tutte le notifiche
 Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio. Ad esempio, se si desidera ricevere una notifica quando le scorte in magazzino sono insufficienti, ma solo per gli articoli acquistati da un determinato fornitore.  
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Notifiche personali**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Notifiche personali**, quindi scegliere il collegamento correlato.
 2. Per attivare o disattivare una notifica, selezionare o deselezionare la casella di controllo **Abilitata**.
 3. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  
 

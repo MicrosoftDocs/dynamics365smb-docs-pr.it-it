@@ -1,6 +1,6 @@
 ---
-title: Visualizzazione delle liste con viste diverse | Documenti Microsoft
-description: Visualizzazione delle liste con viste diverse
+title: Modificare il livello dei dettagli visualizzati negli elenchi | Documenti Microsoft
+description: "È possibile visualizzare le liste nelle visualizzazioni dettagliate che forniscono ulteriori informazioni oppure come riquadri semplici da analizzare visivamente."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Visualizzazione delle liste con viste diverse
+# <a name="displaying-lists-in-different-ways"></a>Visualizzazione delle liste con modalità diverse
 Nell'angolo destro di qualsiasi lista di [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile trovare le icone che consentono di passare da una visualizzazione all'altra della lista. Un elenco può essere visualizzato come lista dettagliata, ovvero la visualizzazione standard. Ma è anche possibile passare a una visualizzazione a riquadri, in cui vengono mostrati meno dettagli sul record specifico e in cui i movimenti sono disposti come pile di riquadri. La visualizzazione risulta molto utile per ottenere una panoramica di più movimenti e, in particolare, sui dispositivi più piccoli, perché semplifica il tocco sui singoli movimenti.
 
 ## <a name="items-list"></a>Lista articoli

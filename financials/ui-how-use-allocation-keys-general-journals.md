@@ -13,10 +13,10 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
 
 ## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Reg. periodiche generali**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Reg. periodiche generali**, quindi scegliere il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la finestra **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.
    * Per creare un nuovo batch, scegliere l'azione **Nuovo** e andare al passaggio successivo.
@@ -39,10 +39,10 @@ ms.lasthandoff: 05/04/2017
 11. Effettuare la registrazione.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Per modificare una chiave di allocazione già impostata
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Reg. periodiche generali**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Reg. periodiche generali**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Registrazioni periodiche generali** selezionare le registrazioni con l'allocazione.
 3. Selezionare la riga con l'allocazione e scegliere l'azione **Allocazioni**.
-4. Cambiare i campi pertinenti e scegliere **OK**.
+4. Cambiare i campi pertinenti e quindi scegliere **OK**.
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  

@@ -1,6 +1,6 @@
 ---
-title: Cespiti | Documenti Microsoft
-description: Viene descritto come gestire i cespiti.
+title: Gestire i cespiti| Documenti Microsoft
+description: "Informazioni sulla funzionalità dei cespiti in Financials e una panoramica delle modalità di utilizzo dei cespiti."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,11 @@ Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni f
 
 Ogni cespite può essere allegato a una o più polizze assicurative. È quindi possibile facilitare la verifica della conformità tra gli importi della polizza assicurativa e il valore dei cespiti a essa collegati. In questo modo viene agevolato anche il controllo dei premi assicurativi annuali.
 
-**Nota**: è possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Procedura: Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
+> [!NOTE]  
+>   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Procedura: Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
 
-**Nota**: questa funzionalità richiede che l'esperienza sia impostata su ***** Suite *****. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Prima di iniziare la gestione dei cespiti, è necessario impostare valori di default, contabilità dei cespiti, categorie di registrazione, chiavi di allocazione, registrazioni, ammortamento e tipi di registrazione. Per ulteriori informazioni, vedere [Impostazione di cespiti](fa-setup.md).
 
@@ -52,9 +54,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione di cespiti](fa-setup.md)  
-[Personalizzazione dell'interfaccia utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]] (ui-experiences.md)  
-[Finanza](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Finanze](finance.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

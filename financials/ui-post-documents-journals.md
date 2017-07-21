@@ -1,6 +1,6 @@
 ---
-title: Contabilizzare documenti e registrazioni | Documenti Microsoft
-description: "Fornisce un&quot;introduzione dei diversi modi in cui è possibile contabilizzare."
+title: Panoramica della contabilizzazione di documenti e registrazioni | Documenti Microsoft
+description: "Descrive le azioni di registrazione e i modi in cui è possibile contabilizzare documenti e registrazioni."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c5d8843de8746d90e3c053923d038f469a811e8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,9 +28,9 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 
 | Per | Vedere |
 | --- | --- |
-| Registrazione di documenti di acquisto |[Registrazione di acquisti](ui-post-purchases.md) |
-| Registrazione di documenti di vendita |[Registrazione di vendite](ui-post-sales.md) |
-| Contabilizzazione delle registrazioni generali |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
+| Registrazione di documenti di acquisto. |[Registrazione di acquisti](ui-post-purchases.md) |
+| Registrazione di documenti di vendita. |[Registrazione di vendite](ui-post-sales.md) |
+| Contabilizzazione delle registrazioni generali. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
 | Visualizzare in anteprima, in una finestra, i movimenti che verranno creati quando si registra. |[Procedura: Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
 | Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Procedura: Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |
 

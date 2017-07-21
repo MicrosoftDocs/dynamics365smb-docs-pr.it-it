@@ -1,6 +1,6 @@
 ---
-title: "Funzionalità aziendali generali | Documenti Microsoft"
-description: "Ulteriori informazioni sulle funzionalità comuni alle aree aziendali in Dynamics 365 for Financials"
+title: "Utilizzo di funzionalità generali tra le aree aziendali | Documenti Microsoft"
+description: "Informazioni sulle funzionalità comuni alle aree aziendali in Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ced9a91de3599b276c277ad96b513eb8e7f0553b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 50205c6831d3ed7e419711484de4ac5da886fe5b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,7 +32,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Cambiare [!INCLUDE[d365fin](includes/d365fin_md.md)] installando estensioni che aggiungono funzionalità, modificano il comportamento o permettono di accedere a nuovi servizi online. |[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) |
 | Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Gestione delle registrazioni di contabilità generale](ui-work-general-journals.md) |
 | Comunicare rapidamente i contenuti di documenti aziendali ai partner aziendali, quali le informazioni di pagamento o i documenti di vendita ai clienti. |[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md) |
-| Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. |[Procedura: Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md) |
+| Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. |[Procedura: Allocazione di costi e ricavi](year-allocate-costs-income.md) |
 | Programmare l'esecuzione di un report a una data e un orario specifici. |[Programmare l'esecuzione di un report](ui-schedule-report.md) |
 | Gestire diversi tipi di layout del report. |[Gestione dei layout dei report](ui-manage-report-layouts.md) |
 | Richiedere e concedere l'approvazione per creare o modificare determinati documenti e schede. |[Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md) |

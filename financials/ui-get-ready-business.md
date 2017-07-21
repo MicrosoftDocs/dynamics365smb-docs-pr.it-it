@@ -1,6 +1,6 @@
 ---
 title: Introduzione | Documenti Microsoft
-description: Preparazione al business
+description: Descrive le guide di setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Dynamics 365 for Financials.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
@@ -23,9 +23,10 @@ Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](include
 
 Per ulteriori informazioni su come avviare un business, è possibile visualizzare la finestra **Assistenza Business** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. È possibile accedere alla finestra dal grafico nella Gestione ruolo utente **Manager aziendale** scegliendo il menu a discesa **Assistenza Business**, quindi l'azione **Mostra Setup e risorse della Guida**. Quando si aggiorna la pagina, il grafico viene sostituito con le risorse della Guida e di setup.
 
-Nella home page, nella parte inferiore del riquadro di spostamento, è disponibile il menu **Setup ed estensioni**. Espandere il pulsante **Home** per visualizzare il riquadro di spostamento. Qui è possibile visualizzare un elenco di setup assistiti introduttivi per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere [Setup [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Nella home page, nella parte inferiore del riquadro di spostamento, è disponibile il menu **Setup ed estensioni**. Espandere il pulsante **Home** per visualizzare il riquadro di spostamento. Qui è possibile visualizzare un elenco di setup assistiti introduttivi per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Nota:** l'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Suite**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Suite**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Di base**:
 
@@ -58,7 +59,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni c
 Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Società** della pagina **Home** per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti.
 
 ## <a name="see-also"></a>Vedi anche
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md)
 

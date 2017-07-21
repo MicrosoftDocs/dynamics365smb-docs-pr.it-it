@@ -1,6 +1,6 @@
 ---
-title: Impostazioni acquisti | Documenti Microsoft
-description: Impostazioni acquisti
+title: Panoramica dei task per impostare gli acquisti | Documenti Microsoft
+description: "Descrive i task per definire i criteri di acquisto della società e impostare i processi di acquisto."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | --- | --- |
 | Creare una scheda fornitore per ogni fornitore da cui si acquista. |[Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
 | Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data. |[Procedura: Registrare accordi riguardanti prezzi, sconti e pagamenti applicati agli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Informazioni su come [!INCLUDE[d365fin](includes/d365fin_md.md)] ottimizza automaticamente il margine sulle relazioni commerciali quando si registrano accordi riguardanti sconti o prezzi speciali.|[Avanzate: Calcolo del prezzo migliore](advanced-best-price-calculation.md) |
 | Attribuire un ordine di priorità ai fornitori. |[Procedura: Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Impostare gli addetti agli acquisti. |[Procedura: Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
 

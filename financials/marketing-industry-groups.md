@@ -1,6 +1,6 @@
 ---
-title: "Impostazione di settori industriali nelle società contatto | Documenti Microsoft"
-description: Viene descritto l&quot;utilizzo dei settori industriali con contatti in Financials
+title: "Impostazione di settori industriali per le società contatto| Documenti Microsoft"
+description: "Descrive come definire un settore industriale e assegnarlo a una società contatto, ad esempio il settore del commercio al dettaglio o dell'industria automobilistica."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 34b81ec1e92eea67af13c7a2dfe03bdb97c8c59c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7fef570e7e56e348a25ae660fa9248b529d0bfde
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-industry-groups-for-contact-companies"></a>Impostazione di settori industriali per le società contatto
+# <a name="how-to-set-up-industry-groups-for-contact-companies"></a>Procedura: Impostare settori industriali per le società contatto
 I gruppi industriali vengono utilizzati per indicare il tipo di settore industriale a cui appartengono i contatti, ad esempio il settore del commercio al dettaglio o l'industria automobilistica.
 
 L'utilizzo dei settori industriali nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice dei settori industriali. Questo passaggio deve essere eseguito una sola volta per ogni settore industriale. Dopo aver creato un codice di settore industriale, è possibile iniziare ad assegnarlo alle società.
 
-**Nota**: se si prevede di sincronizzare i contatti con fornitori, clienti o conti correnti bancari in altre sezioni dell'applicazione, è consigliabile impostare una relazione d'affari.
+> [!NOTE]  
+>   Per sincronizzare i contatti con fornitori, clienti o conti correnti bancari in altre sezioni dell'applicazione, è consigliabile impostare una relazione d'affari.
 
 ## <a name="to-define-an-industry-group-code"></a>Per definire un codice di settore industriale
 Il codice settore industriale definisce il tipo o la categoria del gruppo, ad esempio ANNUNCIO per la pubblicità o STAMPA per la TV e la radio. È possibile impostare più codici di settori industriali. Per definire i settori industriali, utilizzare la finestra **Settori industriali**.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Settori industriali**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Settori industriali**, quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.
 
 ## <a name="AssignIndustryGroupContact"></a> Per assegnare settori industriali a un contatto

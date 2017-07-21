@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Registrare nuovi clienti | Documenti Microsoft'
-description: 'Procedura: Registrare nuovi clienti'
+title: Creare una scheda cliente per registrare un nuovo cliente | Documenti Microsoft
+description: Descrive come creare una scheda cliente per registrare informazioni su ogni nuovo cliente a cui sono rivolte le vendite.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ I clienti sono l'origine del reddito. È necessario registrare ogni cliente, cui
 
 Prima di registrare nuovi clienti, è necessario impostare vari codici di vendita selezionabili durante la compilazione delle schede cliente. Per ulteriori informazioni, vedere [Impostare le vendite](sales-setup-sales.md).
 
-**Nota**: se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una finestra automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.
+> [!NOTE]  
+>   Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una finestra automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-customer-card"></a>Per creare una nuova scheda cliente
 1. Nella home page scegliere l'azione **Clienti** per aprire l'elenco dei clienti esistenti.  

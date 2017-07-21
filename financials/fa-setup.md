@@ -1,6 +1,6 @@
 ---
-title: Impostazione di cespiti | Documenti Microsoft
-description: "Viene descritto impostare la funzionalità Cespiti."
+title: Impostare cespiti| Documenti Microsoft
+description: "Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ Per poter utilizzare i cespiti, è necessario definire alcune opzioni:
 
 Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. Dopo aver impostato tali opzioni, è possibile avviare diverse attività. Per ulteriori informazioni, vedere [Cespiti](fa-manage.md).  
 
-**Nota**: è possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**.  
+> [!NOTE]  
+>   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**.  
 
 Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della finestra **Scheda registro beni ammortizz.**, la finestra **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
 
@@ -44,7 +45,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedi anche
 [Cespiti](fa-manage.md)  
-[Finanza](finance.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Finanze](finance.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

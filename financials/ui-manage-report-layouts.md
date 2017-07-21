@@ -1,6 +1,6 @@
 ---
-title: Gestione dei layout dei report | Documenti Microsoft
-description: Informazioni sui layout dei report.
+title: Utilizzo di layout predefiniti e personalizzati per report e documenti | Documenti Microsoft
+description: Utilizzare i layout di report per personalizzare i documenti, ad esempio, per personalizzare il carattere, il logo o le impostazioni della pagina di file PDF da inviare ai clienti.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout dei report e dei documenti
 Il layout del report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
 
-**Nota**: in [!INCLUDE[d365fin](includes/d365fin_md.md)] il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
+> [!NOTE]  
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)], il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
 
 In particolare, un layout del report imposta quanto segue:
 

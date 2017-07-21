@@ -1,6 +1,6 @@
 ---
-title: Catena di approvvigionamento | Documenti Microsoft
-description: Informazioni sui concetti e i processi principali della catena di approvvigionamento
+title: "Funzionalità della catena di approvvigionamento supportate da Financials | Documenti Microsoft"
+description: Ottenere una panoramica del prodotto e informazioni sui concetti e i processi chiave della catena di approvvigionamento che fanno parte della soluzione ERP.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Catena di approvvigionamento
+# <a name="overview-of-supply-chain-functionality"></a>Panoramica sulla funzionalità di catena di approvvigionamento
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta i comuni processi della catena di approvvigionamento, sebbene limitati alle esigenze delle aziende di distribuzione e vendita all'ingrosso senza gestione warehouse.
 
 Oltre ai documenti di fatture di vendita è possibile gestire l'evasione ordini con ordini di vendita e la spedizione di parti di quantità di un ordine, ad esempio nel caso in cui non sia ancora disponibile la quantità completa. È possibile gestire spedizioni dirette da un fornitore a un cliente collegando l'ordine di vendita al relativo ordine di acquisto.
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Registrare i nuovi clienti, apportare le offerte di vendita, vendere i prodotti in ordini o fatture, ad esempio come spedizioni dirette, e gestire i resi di vendita. |[Vendite](sales-manage-sales.md) |
-| Registrare nuovi fornitori, prodotti del fornitore in ordini o fatture, ad esempio con avvio da una fattura di vendita, e gestire i resi acquisto. |[Acquisti](purchasing-manage-purchasing.md) |
+| Registrare nuovi fornitori, articoli del fornitore in ordini o fatture, ad esempio con avvio da una fattura di vendita, e gestire i resi acquisto. |[Acquisti](purchasing-manage-purchasing.md) |
 | Registrare nuovi prodotti fisici o di assistenza, rettificare le quantità di magazzino e gestire il valore di magazzino registrando i costi rettificati nella contabilità generale. |[Magazzino](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Vedi anche

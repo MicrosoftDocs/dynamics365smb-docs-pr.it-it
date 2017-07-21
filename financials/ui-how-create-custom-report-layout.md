@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creare un layout del documento o del report personalizzato | Documenti Microsoft'
-description: Informazioni su come progettare il layout dei report.
+title: Creare un layout personalizzati per report o documenti | Documenti Microsoft
+description: "Informazioni su come creare i layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,22 +13,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79c1e5c1ea01077e2e5012ba07618760ccf2a4af
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 551e838c2896470f9ee620f4ca09a6af3377b458
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-a-custom-report-or-document-layout"></a>Procedura: Creare un layout del documento o del report personalizzato
 Per impostazione predefinita, un report avrà un layout predefinito dei di RDLC, di Word o di entrambi i tipi. Non è possibile modificare i layout predefiniti. Tuttavia, è possibile creare i propri layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato. È possibile creare più layout del report personalizzati per lo stesso report e alternare il layout utilizzato in un report in base alle esigenze.
 
-**Nota**: in [!INCLUDE[d365fin](includes/d365fin_md.md)] il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
+> [!NOTE]  
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)], il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
 
 Per creare un layout personalizzato, è possibile effettuare una copia di un layout personalizzato esistente o aggiungere un nuovo layout personalizzato, che nella maggior parte dei casi è basato su un layout predefinito. Quando si aggiunge un nuovo layout personalizzato, è possibile scegliere di aggiungere un tipo di tipo layout del report di RDLC, di Word o entrambi. Il nuovo layout personalizzato si baserà automaticamente sul layout predefinito per il report, se ce n'è uno disponibile. Se non è presente un layout predefinito per il tipo, viene creato un nuovo layout vuoto che si dovrà progettare e modificare da zero. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "Search for Page or Report icon"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Search for Page or Report icon"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
    Nella finestra **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo Società nella parte superiore della finestra.
 2. Impostare il campo **Società** alla società per la quale si desidera creare il layout del report.
 3. Selezionare la riga per il report per il quale si desidera creare il layout, quindi scegliere **Layout personalizzati**.  
