@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: it-it
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Procedura: Modifica il layout attualmente utilizzato in un report
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
@@ -34,8 +33,9 @@ In base ai layout disponibili per un report, è possibile scegliere di utilizzar
    * Word (predefinito) utilizza nel report il layout di report Word integrato.
    * Personalizzato utilizza nel report un layout personalizzato.  
      È possibile visualizzare i layout personalizzati disponibili per il report nel Dettaglio informazioni Parte di layout report. Se non esistono layout personalizzati per il report, è necessario innanzitutto creare uno. Se si seleziona questa opzione, andare alla procedura descritta di seguito per specificare il layout personalizzato da utilizzare.
-     > [!NOTE]  
->   Se si sceglie **RDLC (predefinito)** o **Word (predefinito)** e si visualizza un messaggio di errore che indica che il report non dispone di un layout del tipo specificato, è necessario selezionare un'altra opzione di layout o creare un layout del report personalizzato del tipo che si desidera utilizzare.
+
+    > [!NOTE]  
+    >   Se si sceglie **RDLC (predefinito)** o **Word (predefinito)** e si visualizza un messaggio di errore che indica che il report non dispone di un layout del tipo specificato, è necessario selezionare un'altra opzione di layout o creare un layout del report personalizzato del tipo che si desidera utilizzare.
 
 Se è stato selezionato un layout dei report predefinito di RDLC o di Word, non sono necessarie ulteriori azioni e il layout verrà utilizzato alla successiva esecuzione del report.
 
