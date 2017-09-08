@@ -1,0 +1,1 @@
+Si tratta di una funzionalità in anteprima a cui stiamo ancora lavorando. La funzionalità e il contenuto di questa pagina sono soggetti a modifiche. Per conoscere le novità, vedere [Microsoft Dynamics 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).
