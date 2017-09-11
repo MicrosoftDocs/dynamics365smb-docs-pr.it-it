@@ -15,27 +15,26 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="post-documents-and-journals"></a>Contabilizzare documenti e registrazioni
-La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
+# <a name="post-documents-and-journals"></a><span data-ttu-id="ed6b0-103">Contabilizzare documenti e registrazioni</span><span class="sxs-lookup"><span data-stu-id="ed6b0-103">Post Documents and Journals</span></span>
+<span data-ttu-id="ed6b0-104">La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span></span>
 
-Praticamente tutti i documenti e le registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)] includono una categoria **Registrazione** dalla quale è possibile scegliere tra differenti azioni di registrazione, come **Registra**, **Anteprima registrazione**, **Registra e invia** e **Registra e invia tramite e-mail**.
+<span data-ttu-id="ed6b0-105">Praticamente tutti i documenti e le registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)] includono una categoria **Registrazione** dalla quale è possibile scegliere tra differenti azioni di registrazione, come **Registra**, **Anteprima registrazione**, **Registra e invia** e **Registra e invia tramite e-mail**.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span></span>
 
-Nella tabella seguente sono descritti i task correlati, con i collegamenti agli argomenti in cui sono descritti.
+<span data-ttu-id="ed6b0-106">Nella tabella seguente sono descritti i task correlati, con i collegamenti agli argomenti in cui sono descritti.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-106">The following table describes related tasks, with links to the topics that describe them.</span></span>
 
-| Per | Vedere |
+| <span data-ttu-id="ed6b0-107">Per</span><span class="sxs-lookup"><span data-stu-id="ed6b0-107">To</span></span> | <span data-ttu-id="ed6b0-108">Vedere</span><span class="sxs-lookup"><span data-stu-id="ed6b0-108">See</span></span> |
 | --- | --- |
-| Registrazione di documenti di acquisto. |[Registrazione di acquisti](ui-post-purchases.md) |
-| Registrazione di documenti di vendita. |[Registrazione di vendite](ui-post-sales.md) |
-| Contabilizzazione delle registrazioni generali. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
-| Visualizzare in anteprima, in una finestra, i movimenti che verranno creati quando si registra. |[Procedura: Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
-| Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Procedura: Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |
+| <span data-ttu-id="ed6b0-109">Registrazione di documenti di acquisto.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-109">Learn about posting purchase documents.</span></span> |[<span data-ttu-id="ed6b0-110">Registrazione di acquisti</span><span class="sxs-lookup"><span data-stu-id="ed6b0-110">Posting Purchases</span></span>](ui-post-purchases.md) |
+| <span data-ttu-id="ed6b0-111">Registrazione di documenti di vendita.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-111">Learn about posting sales documents.</span></span> |[<span data-ttu-id="ed6b0-112">Registrazione di vendite</span><span class="sxs-lookup"><span data-stu-id="ed6b0-112">Posting Sales</span></span>](ui-post-sales.md) |
+| <span data-ttu-id="ed6b0-113">Contabilizzazione delle registrazioni generali.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-113">Learn about posting general journals.</span></span> |[<span data-ttu-id="ed6b0-114">Utilizzo delle registrazioni COGE</span><span class="sxs-lookup"><span data-stu-id="ed6b0-114">Working with General Journals</span></span>](ui-work-general-journals.md) |
+| <span data-ttu-id="ed6b0-115">Visualizzare in anteprima, in una finestra, i movimenti che verranno creati quando si registra.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-115">Preview, in a window, the entries that will be created when you post.</span></span> |[<span data-ttu-id="ed6b0-116">Procedura: Visualizzare in anteprima i risultati della contabilizzazione</span><span class="sxs-lookup"><span data-stu-id="ed6b0-116">How to: Preview Posting Results</span></span>](ui-how-preview-post-results.md) |
+| <span data-ttu-id="ed6b0-117">Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra.</span><span class="sxs-lookup"><span data-stu-id="ed6b0-117">Preview, in a report, the entries that will be created when you post.</span></span> |[<span data-ttu-id="ed6b0-118">Procedura: Visualizzare i report dei test prima della registrazione</span><span class="sxs-lookup"><span data-stu-id="ed6b0-118">How to: View Test Reports Before Posting</span></span>](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Vedi anche
-[Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="ed6b0-119">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="ed6b0-119">See Also</span></span>
+[<span data-ttu-id="ed6b0-120">Funzionalità aziendali generali</span><span class="sxs-lookup"><span data-stu-id="ed6b0-120">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="ed6b0-121">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ed6b0-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

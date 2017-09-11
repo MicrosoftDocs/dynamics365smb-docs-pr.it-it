@@ -16,61 +16,60 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-incoming-document-records"></a>Procedura: Creare i record di documenti in entrata
-Nella finestra **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
+# <a name="how-to-create-incoming-document-records"></a><span data-ttu-id="b3206-103">Procedura: Creare i record di documenti in entrata</span><span class="sxs-lookup"><span data-stu-id="b3206-103">How to: Create Incoming Document Records</span></span>
+<span data-ttu-id="b3206-104">Nella finestra **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b3206-104">In the **Incoming Documents** window, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines.</span></span> <span data-ttu-id="b3206-105">I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.</span><span class="sxs-lookup"><span data-stu-id="b3206-105">The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.</span></span>
 
-Per registrare un documento esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
+<span data-ttu-id="b3206-106">Per registrare un documento esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario prima creare o completare un record di documento in entrata.</span><span class="sxs-lookup"><span data-stu-id="b3206-106">To record an external document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first create or complete an incoming document record.</span></span> <span data-ttu-id="b3206-107">Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.</span><span class="sxs-lookup"><span data-stu-id="b3206-107">You can do this manually, or you can take a photo of the external document and then create the incoming document record with the image file attached.</span></span>
 
-Per poter utilizzare la funzionalità Documenti in entrata, è necessario eseguire l'impostazione necessaria. Per ulteriori informazioni, vedere [Procedura: Impostare Documenti in entrata](across-how-setup-income-documents.md).
+<span data-ttu-id="b3206-108">Per poter utilizzare la funzionalità Documenti in entrata, è necessario eseguire l'impostazione necessaria.</span><span class="sxs-lookup"><span data-stu-id="b3206-108">Before you can use the Incoming Documents feature, you must perform the required setup.</span></span> <span data-ttu-id="b3206-109">Per ulteriori informazioni, vedere [Procedura: Impostare Documenti in entrata](across-how-setup-income-documents.md).</span><span class="sxs-lookup"><span data-stu-id="b3206-109">For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).</span></span>
 
-## <a name="to-approve-or-reject-an-incoming-document"></a>Per approvare o rifiutare un documento in entrata
-Se non si desidera consentire agli utenti di creare fatture o righe registrazioni COGE da record di documenti in entrata prima che vengano approvati, è possibile impostare dei responsabili che devono approvare i record prima che possano essere elaborati.
+## <a name="to-approve-or-reject-an-incoming-document"></a><span data-ttu-id="b3206-110">Per approvare o rifiutare un documento in entrata</span><span class="sxs-lookup"><span data-stu-id="b3206-110">To approve or reject an incoming document</span></span>
+<span data-ttu-id="b3206-111">Se non si desidera consentire agli utenti di creare fatture o righe registrazioni COGE da record di documenti in entrata prima che vengano approvati, è possibile impostare dei responsabili che devono approvare i record prima che possano essere elaborati.</span><span class="sxs-lookup"><span data-stu-id="b3206-111">If you do want to allow users to create invoices or general journal lines from incoming document records unless they are approved, you can set up approvers who must approve the records before they can be processed.</span></span>
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.
-2. Selezionare la riga con il documento che si desidera approvare o rifiutare quindi selezionare l'azione **Approva** o **Rifiuta**.
+1. <span data-ttu-id="b3206-112">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="b3206-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b3206-113">Selezionare la riga con il documento che si desidera approvare o rifiutare quindi selezionare l'azione **Approva** o **Rifiuta**.</span><span class="sxs-lookup"><span data-stu-id="b3206-113">Select the line with the document that you want to approve or reject, and then choose the **Approve** or **Reject** actions.</span></span>
 
-Se si approva il record del documento in entrata, la casella di controllo **Rilasciato** nella riga del documento in entrata è selezionata. L'utente incaricato di creare, ad esempio, le fatture di acquisto può procedere all'elaborazione del record.
+<span data-ttu-id="b3206-114">Se si approva il record del documento in entrata, la casella di controllo **Rilasciato** nella riga del documento in entrata è selezionata.</span><span class="sxs-lookup"><span data-stu-id="b3206-114">If you approve the incoming document record, the **Released** check box on the incoming document line is selected.</span></span> <span data-ttu-id="b3206-115">L'utente incaricato di creare, ad esempio, le fatture di acquisto può procedere all'elaborazione del record.</span><span class="sxs-lookup"><span data-stu-id="b3206-115">The user in charge of creating, for example, purchase invoices can proceed to process the record.</span></span>
 
-## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Per creare un record di documento in entrata facendo una foto
+## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a><span data-ttu-id="b3206-116">Per creare un record di documento in entrata facendo una foto</span><span class="sxs-lookup"><span data-stu-id="b3206-116">To create an incoming document record by taking a photo</span></span>
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
+>   <span data-ttu-id="b3206-117">La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.</span><span class="sxs-lookup"><span data-stu-id="b3206-117">The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.</span></span>
 
-1. Sulla barra delle applicazioni, scegliere il riquadro **Crea documento in entrata da fotocamera** e andare al passaggio 4.
-2. In alternativa, nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
-3. Nella finestra **Documenti in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Crea da fotocamera**. La fotocamera del tablet o del telefono è attivata.
-4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
+1. <span data-ttu-id="b3206-118">Sulla barra delle applicazioni, scegliere il riquadro **Crea documento in entrata da fotocamera** e andare al passaggio 4.</span><span class="sxs-lookup"><span data-stu-id="b3206-118">On the app bar, choose the **Create Incoming Document from Camera** tile, and then go to step 4.</span></span>
+2. <span data-ttu-id="b3206-119">In alternativa, nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.</span><span class="sxs-lookup"><span data-stu-id="b3206-119">Alternatively, on the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.</span></span>
+3. <span data-ttu-id="b3206-120">Nella finestra **Documenti in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Crea da fotocamera**.</span><span class="sxs-lookup"><span data-stu-id="b3206-120">In the **Incoming Documents** window, choose the ellipsis button, and then choose **Create from Camera**.</span></span> <span data-ttu-id="b3206-121">La fotocamera del tablet o del telefono è attivata.</span><span class="sxs-lookup"><span data-stu-id="b3206-121">The camera on the tablet or phone is activated.</span></span>
+4. <span data-ttu-id="b3206-122">Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="b3206-122">Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.</span></span>
 
-Viene creato un nuovo record di documento in entrata con l'immagine allegata.
+<span data-ttu-id="b3206-123">Viene creato un nuovo record di documento in entrata con l'immagine allegata.</span><span class="sxs-lookup"><span data-stu-id="b3206-123">A new incoming document record is created, with the image attached.</span></span>
 
-## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Per allegare un'immagine a un record di documento in entrata facendo una foto
+## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a><span data-ttu-id="b3206-124">Per allegare un'immagine a un record di documento in entrata facendo una foto</span><span class="sxs-lookup"><span data-stu-id="b3206-124">To attach an image to an incoming document record by taking a photo</span></span>
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
+>   <span data-ttu-id="b3206-125">La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.</span><span class="sxs-lookup"><span data-stu-id="b3206-125">The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.</span></span>
 
-1. Nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
-2. Aprire la scheda di un record di documento in entrata esistente.
-3. Nella finestra **Documento in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Allega immagine da fotocamera**. La fotocamera del tablet o del telefono è attivata.
-4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
+1. <span data-ttu-id="b3206-126">Nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.</span><span class="sxs-lookup"><span data-stu-id="b3206-126">On the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.</span></span>
+2. <span data-ttu-id="b3206-127">Aprire la scheda di un record di documento in entrata esistente.</span><span class="sxs-lookup"><span data-stu-id="b3206-127">Open the card for an existing incoming document record.</span></span>
+3. <span data-ttu-id="b3206-128">Nella finestra **Documento in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Allega immagine da fotocamera**.</span><span class="sxs-lookup"><span data-stu-id="b3206-128">In the **Incoming Document** window, choose the ellipsis button, and then choose **Attach Image from Camera**.</span></span> <span data-ttu-id="b3206-129">La fotocamera del tablet o del telefono è attivata.</span><span class="sxs-lookup"><span data-stu-id="b3206-129">The camera on the tablet or phone is activated.</span></span>
+4. <span data-ttu-id="b3206-130">Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="b3206-130">Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.</span></span>
 
-L'immagine viene allegata al record di documento in entrata.
+<span data-ttu-id="b3206-131">L'immagine viene allegata al record di documento in entrata.</span><span class="sxs-lookup"><span data-stu-id="b3206-131">The image is attached to the incoming document record.</span></span>
 
-## <a name="to-create-an-incoming-document-record-manually"></a>Per creare manualmente il record di un documento in entrata
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.
-2. Selezionare l'azione **Crea da file**.  
-3. Nella finestra **Inserisci file** selezionare un file e scegliere **Apri**.
+## <a name="to-create-an-incoming-document-record-manually"></a><span data-ttu-id="b3206-132">Per creare manualmente il record di un documento in entrata</span><span class="sxs-lookup"><span data-stu-id="b3206-132">To create an incoming document record manually</span></span>
+1. <span data-ttu-id="b3206-133">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="b3206-133">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b3206-134">Selezionare l'azione **Crea da file**.</span><span class="sxs-lookup"><span data-stu-id="b3206-134">Choose the **Create from File** action.</span></span>  
+3. <span data-ttu-id="b3206-135">Nella finestra **Inserisci file** selezionare un file e scegliere **Apri**.</span><span class="sxs-lookup"><span data-stu-id="b3206-135">In the **Insert File** window, select a file, and then choose **Open**.</span></span>
 
-    Il file viene automaticamente allegato.
-4. In alternativa, selezionare l'azione **Nuovo**.
-5. Per allegare un file, selezionare l'azione **Allega file**.
-6. Nella finestra **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.
-7. Nella finestra **Documento in entrata** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    <span data-ttu-id="b3206-136">Il file viene automaticamente allegato.</span><span class="sxs-lookup"><span data-stu-id="b3206-136">The file is automatically attached.</span></span>
+4. <span data-ttu-id="b3206-137">In alternativa, selezionare l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="b3206-137">Alternatively, choose the **New** action.</span></span>
+5. <span data-ttu-id="b3206-138">Per allegare un file, selezionare l'azione **Allega file**.</span><span class="sxs-lookup"><span data-stu-id="b3206-138">To attach a file, choose the **Attach File** action.</span></span>
+6. <span data-ttu-id="b3206-139">Nella finestra **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.</span><span class="sxs-lookup"><span data-stu-id="b3206-139">In the **Insert File** window, select the file that represents the incoming document in question, and then choose the **Open** button.</span></span>
+7. <span data-ttu-id="b3206-140">Nella finestra **Documento in entrata** compilare i campi secondo le proprie necessità.</span><span class="sxs-lookup"><span data-stu-id="b3206-140">In the **Incoming Document** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Vedi anche
-[Elaborare i documenti in entrata](across-process-income-documents.md)  
-[Documenti in entrata](across-income-documents.md)  
-[Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="b3206-141">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="b3206-141">See Also</span></span>
+[<span data-ttu-id="b3206-142">Elaborare i documenti in entrata</span><span class="sxs-lookup"><span data-stu-id="b3206-142">Process Incoming Documents</span></span>](across-process-income-documents.md)  
+[<span data-ttu-id="b3206-143">Documenti in entrata</span><span class="sxs-lookup"><span data-stu-id="b3206-143">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="b3206-144">Acquisti</span><span class="sxs-lookup"><span data-stu-id="b3206-144">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="b3206-145">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b3206-145">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

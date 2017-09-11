@@ -16,26 +16,25 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-relationships"></a>Gestione delle relazioni
-Le funzionalità di gestione delle relazioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.
+# <a name="managing-relationships"></a><span data-ttu-id="759df-103">Gestione delle relazioni</span><span class="sxs-lookup"><span data-stu-id="759df-103">Managing Relationships</span></span>
+<span data-ttu-id="759df-104">Le funzionalità di gestione delle relazioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] aiutano a gestire e a supportare le attività di vendita.</span><span class="sxs-lookup"><span data-stu-id="759df-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="759df-105">Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.</span><span class="sxs-lookup"><span data-stu-id="759df-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti.
+<span data-ttu-id="759df-106">Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato.</span><span class="sxs-lookup"><span data-stu-id="759df-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="759df-107"> offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti.</span><span class="sxs-lookup"><span data-stu-id="759df-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-Per iniziare, vedere i seguenti argomenti:
+<span data-ttu-id="759df-108">Per iniziare, vedere i seguenti argomenti:</span><span class="sxs-lookup"><span data-stu-id="759df-108">To get started, see the following topics:</span></span>
 
-[Gestione dei contatti](marketing-contacts.md)  
-[Gestione dei segmenti](marketing-segments.md)  
-[Registrazione di interazioni](marketing-interactions.md)  
-[Gestione di campagne di marketing](marketing-campaigns.md)  
-[Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)
+[<span data-ttu-id="759df-109">Gestione dei contatti</span><span class="sxs-lookup"><span data-stu-id="759df-109">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="759df-110">Gestione dei segmenti</span><span class="sxs-lookup"><span data-stu-id="759df-110">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="759df-111">Registrazione di interazioni</span><span class="sxs-lookup"><span data-stu-id="759df-111">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="759df-112">Gestione di campagne di marketing</span><span class="sxs-lookup"><span data-stu-id="759df-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
+[<span data-ttu-id="759df-113">Gestione delle opportunità di vendita</span><span class="sxs-lookup"><span data-stu-id="759df-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
 
-## <a name="see-also"></a>Vedi anche
-[Vendite](sales-manage-sales.md)  
-[Setup Relationship Management](marketing-setup-marketing.md)  
-[Gestione delle relazioni clienti utilizzando Dynamics 365 for Sales tramite [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="759df-114">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="759df-114">See Also</span></span>
+[<span data-ttu-id="759df-115">Vendite</span><span class="sxs-lookup"><span data-stu-id="759df-115">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="759df-116">Setup Relationship Management</span><span class="sxs-lookup"><span data-stu-id="759df-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+<span data-ttu-id="759df-117">[Gestione delle relazioni clienti utilizzando Dynamics 365 for Sales tramite [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span><span class="sxs-lookup"><span data-stu-id="759df-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span></span>  
+<span data-ttu-id="759df-118">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="759df-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

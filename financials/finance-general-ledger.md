@@ -16,53 +16,52 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
-La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
+# <a name="understanding-the-general-ledger-and-the-coa"></a><span data-ttu-id="dcc56-103">Informazioni sulla contabilità generale e COA</span><span class="sxs-lookup"><span data-stu-id="dcc56-103">Understanding the General Ledger and the COA</span></span>
+<span data-ttu-id="dcc56-104">La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G.</span><span class="sxs-lookup"><span data-stu-id="dcc56-104">The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="dcc56-105"> include un piano dei conti standard pronto per supportare l'azienda.</span><span class="sxs-lookup"><span data-stu-id="dcc56-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
-Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati.  
+## <a name="general-ledger-setup-and-general-posting-setup"></a><span data-ttu-id="dcc56-106">Setup contabilità generale e setup registrazioni COGE</span><span class="sxs-lookup"><span data-stu-id="dcc56-106">General Ledger Setup and General Posting Setup</span></span>
+<span data-ttu-id="dcc56-107">Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati.</span><span class="sxs-lookup"><span data-stu-id="dcc56-107">The setup of the general ledger is at the core of financial processes because it defines how you post data.</span></span>  
 
-Nella finestra **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
+<span data-ttu-id="dcc56-108">Nella finestra **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:</span><span class="sxs-lookup"><span data-stu-id="dcc56-108">In the **General Ledger Setup** window, you specify how to handle certain accounting issues in your company, such as:</span></span>  
 
-* Dettagli relativi all'arrotondamento delle fatture  
-* Formati indirizzi  
-* Report finanziari  
+* <span data-ttu-id="dcc56-109">Dettagli relativi all'arrotondamento delle fatture</span><span class="sxs-lookup"><span data-stu-id="dcc56-109">Invoice rounding details</span></span>  
+* <span data-ttu-id="dcc56-110">Formati indirizzi</span><span class="sxs-lookup"><span data-stu-id="dcc56-110">Address formats</span></span>  
+* <span data-ttu-id="dcc56-111">Report finanziari</span><span class="sxs-lookup"><span data-stu-id="dcc56-111">Financial reporting</span></span>  
 
-Analogamente, nella finestra **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md)  
+<span data-ttu-id="dcc56-112">Analogamente, nella finestra **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi.</span><span class="sxs-lookup"><span data-stu-id="dcc56-112">Similarly, in the **General Posting Setup** window, you specify how you want to set up combinations of general business and general product posting groups.</span></span> <span data-ttu-id="dcc56-113">Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="dcc56-113">Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts.</span></span> <span data-ttu-id="dcc56-114">Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi.</span><span class="sxs-lookup"><span data-stu-id="dcc56-114">You fill in a line for each combination of business posting group and product posting group.</span></span> <span data-ttu-id="dcc56-115">Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md)</span><span class="sxs-lookup"><span data-stu-id="dcc56-115">For more information, see [Posting Group Setups](finance-posting-groups.md)</span></span>  
 
-## <a name="the-chart-of-accounts"></a>Piano dei Conti
-Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
+## <a name="the-chart-of-accounts"></a><span data-ttu-id="dcc56-116">Piano dei Conti</span><span class="sxs-lookup"><span data-stu-id="dcc56-116">The Chart of Accounts</span></span>
+<span data-ttu-id="dcc56-117">Nel piano dei conti sono visualizzati tutti i conti C/G.</span><span class="sxs-lookup"><span data-stu-id="dcc56-117">The chart of accounts shows all general ledger accounts.</span></span> <span data-ttu-id="dcc56-118">Tramite il piano dei conti è possibile eseguire operazioni, quali:</span><span class="sxs-lookup"><span data-stu-id="dcc56-118">From the chart of accounts, you can do things like:</span></span>  
 
-* Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.  
-* Chiudere il conto economico.  
-* Aprire la scheda del conto C/G per aggiungere o modificare le impostazioni.  
-* Visualizzare una lista delle categorie di registrazione che registrano nel conto.  
+* <span data-ttu-id="dcc56-119">Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="dcc56-119">View reports that show general ledger entries and balances.</span></span>  
+* <span data-ttu-id="dcc56-120">Chiudere il conto economico.</span><span class="sxs-lookup"><span data-stu-id="dcc56-120">Close your income statement.</span></span>  
+* <span data-ttu-id="dcc56-121">Aprire la scheda del conto C/G per aggiungere o modificare le impostazioni.</span><span class="sxs-lookup"><span data-stu-id="dcc56-121">Open the G/L account card to add or change settings.</span></span>  
+* <span data-ttu-id="dcc56-122">Visualizzare una lista delle categorie di registrazione che registrano nel conto.</span><span class="sxs-lookup"><span data-stu-id="dcc56-122">See a list of posting groups that post to that account.</span></span>  
 
-È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti.  
+<span data-ttu-id="dcc56-123">È possibile aggiungere, modificare o eliminare i conti di contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="dcc56-123">You can add, change, or delete general ledger accounts.</span></span> <span data-ttu-id="dcc56-124">Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="dcc56-124">However, to prevent discrepancies, you can't delete a general ledger account if it's data is used in the chart of accounts.</span></span>  
 
-## <a name="account-categories"></a>Categorie di conti
-È possibile personalizzare la struttura dei rendiconti finanziari mappando i conti di contabilità generale alle categorie dei conti.  
+## <a name="account-categories"></a><span data-ttu-id="dcc56-125">Categorie di conti</span><span class="sxs-lookup"><span data-stu-id="dcc56-125">Account Categories</span></span>
+<span data-ttu-id="dcc56-126">È possibile personalizzare la struttura dei rendiconti finanziari mappando i conti di contabilità generale alle categorie dei conti.</span><span class="sxs-lookup"><span data-stu-id="dcc56-126">You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.</span></span>  
 
-La finestra **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
+<span data-ttu-id="dcc56-127">La finestra **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse.</span><span class="sxs-lookup"><span data-stu-id="dcc56-127">The **G/L Account Categories** window shows your categories and subcategories, and the G/L accounts that are assigned to them.</span></span> <span data-ttu-id="dcc56-128">È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.</span><span class="sxs-lookup"><span data-stu-id="dcc56-128">You can create new subcategories and assign those categories to existing accounts.</span></span>  
 
-È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella finestra **Categorie conto C/G**. Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
+<span data-ttu-id="dcc56-129">È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella finestra **Categorie conto C/G**.</span><span class="sxs-lookup"><span data-stu-id="dcc56-129">You create a category group by indenting other subcategories under a line in the **G/L Account Categories** window.</span></span> <span data-ttu-id="dcc56-130">Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale.</span><span class="sxs-lookup"><span data-stu-id="dcc56-130">This makes it easy for you to get an overview, because each grouping shows a total balance.</span></span> <span data-ttu-id="dcc56-131">Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.</span><span class="sxs-lookup"><span data-stu-id="dcc56-131">For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.</span></span>  
 
-È possibile specificare se i conti di questa sottocategoria devono essere inclusi in determinati tipi di report. Le categorie di conto consentono di definire il layout dei rendiconti finanziari.  
+<span data-ttu-id="dcc56-132">È possibile specificare se i conti di questa sottocategoria devono essere inclusi in determinati tipi di report.</span><span class="sxs-lookup"><span data-stu-id="dcc56-132">You can specify whether the accounts in each subcategory must be included in specific types of reports.</span></span> <span data-ttu-id="dcc56-133">Le categorie di conto consentono di definire il layout dei rendiconti finanziari.</span><span class="sxs-lookup"><span data-stu-id="dcc56-133">The account categories help define the layout of your financial statements.</span></span>  
 
-Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai contanti nei cespiti correnti. Se si desidera che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, è possibile:  
+<span data-ttu-id="dcc56-134">Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai contanti nei cespiti correnti.</span><span class="sxs-lookup"><span data-stu-id="dcc56-134">For example, the default balance statement has a subcategory for Cash under Current Assets.</span></span> <span data-ttu-id="dcc56-135">Se si desidera che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, è possibile:</span><span class="sxs-lookup"><span data-stu-id="dcc56-135">If you want the balance statement consider petty cash and checking, you can:</span></span>  
 
-1. Aggiungere due nuove sottocategorie. Una per la piccola cassa e una per il conto assegni.  
-2. Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.  
-3. Applicare un rientro sotto la sottocategoria **Contanti**.  
+1. <span data-ttu-id="dcc56-136">Aggiungere due nuove sottocategorie.</span><span class="sxs-lookup"><span data-stu-id="dcc56-136">Add two new subcategories.</span></span> <span data-ttu-id="dcc56-137">Una per la piccola cassa e una per il conto assegni.</span><span class="sxs-lookup"><span data-stu-id="dcc56-137">One for petty cash, and one for your checking account.</span></span>  
+2. <span data-ttu-id="dcc56-138">Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.</span><span class="sxs-lookup"><span data-stu-id="dcc56-138">Specify the additional report definition **Cash Accounts** for these subcategories.</span></span>  
+3. <span data-ttu-id="dcc56-139">Applicare un rientro sotto la sottocategoria **Contanti**.</span><span class="sxs-lookup"><span data-stu-id="dcc56-139">Indent them under the **Cash** subcategory.</span></span>  
 
-Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
+<span data-ttu-id="dcc56-140">Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.</span><span class="sxs-lookup"><span data-stu-id="dcc56-140">The next time you generate account schedules your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.</span></span>  
 
-## <a name="see-also"></a>Vedi anche
-[Finanze](finance.md)  
-[Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
-[Business Intelligence](bi.md)  
+## <a name="see-also"></a><span data-ttu-id="dcc56-141">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="dcc56-141">See Also</span></span>
+[<span data-ttu-id="dcc56-142">Finanze</span><span class="sxs-lookup"><span data-stu-id="dcc56-142">Finance</span></span>](finance.md)  
+[<span data-ttu-id="dcc56-143">Impostazione o modifica del piano dei conti</span><span class="sxs-lookup"><span data-stu-id="dcc56-143">Setting Up or Changing the Chart of Accounts</span></span>](finance-setup-chart-accounts.md)  
+[<span data-ttu-id="dcc56-144">Business Intelligence</span><span class="sxs-lookup"><span data-stu-id="dcc56-144">Business Intelligence</span></span>](bi.md)  
 

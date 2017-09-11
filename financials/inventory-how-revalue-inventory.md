@@ -16,28 +16,27 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-revalue-inventory"></a>Procedura: Rivalutare il magazzino
-Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.
+# <a name="how-to-revalue-inventory"></a><span data-ttu-id="2ee06-103">Procedura: Rivalutare il magazzino</span><span class="sxs-lookup"><span data-stu-id="2ee06-103">How to: Revalue Inventory</span></span>
+<span data-ttu-id="2ee06-104">Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.</span><span class="sxs-lookup"><span data-stu-id="2ee06-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
 
-## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni rivalutazioni**, quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Calcola valore magazzino**.
-3. Nella finestra **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Scegliere il pulsante **OK**.
-5. In ciascuna riga nella finestra **Registrazioni rivalutazioni**, nel campo **Costo unitario (rivalutato)**, immettere il nuovo costo unitario. In alternativa, immettere il nuovo importo totale nel campo **Costo unitario (rivalutato)**.
+## <a name="to-revalue-inventory"></a><span data-ttu-id="2ee06-105">Per rivalutare il magazzino</span><span class="sxs-lookup"><span data-stu-id="2ee06-105">To revalue inventory</span></span>
+1. <span data-ttu-id="2ee06-106">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni rivalutazioni**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="2ee06-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2ee06-107">Scegliere l'azione **Calcola valore magazzino**.</span><span class="sxs-lookup"><span data-stu-id="2ee06-107">Choose the **Calculate Inventory Value** action.</span></span>
+3. <span data-ttu-id="2ee06-108">Nella finestra **Calcola valore magazzino** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="2ee06-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="2ee06-109">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="2ee06-109">Choose the **OK** button.</span></span>
+5. <span data-ttu-id="2ee06-110">In ciascuna riga nella finestra **Registrazioni rivalutazioni**, nel campo **Costo unitario (rivalutato)**, immettere il nuovo costo unitario.</span><span class="sxs-lookup"><span data-stu-id="2ee06-110">On each line in the **Revaluation Journal** window, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="2ee06-111">In alternativa, immettere il nuovo importo totale nel campo **Costo unitario (rivalutato)**.</span><span class="sxs-lookup"><span data-stu-id="2ee06-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 
-    I dati pertinenti vengono automaticamente aggiornati. Si noti che il campo **Importo** mostra la modifica effettiva del valore di magazzino per il movimento contabile articolo selezionato. Calcola la differenza tra il campo **Valore Magazzino (Calcolato)** e il campo **Valore Magazzino (Rivalutato)**.
-6. Una volta completate tutte le righe nelle registrazioni rivalutazioni, scegliere l'azione **Registra**.
+    <span data-ttu-id="2ee06-112">I dati pertinenti vengono automaticamente aggiornati.</span><span class="sxs-lookup"><span data-stu-id="2ee06-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="2ee06-113">Si noti che il campo **Importo** mostra la modifica effettiva del valore di magazzino per il movimento contabile articolo selezionato.</span><span class="sxs-lookup"><span data-stu-id="2ee06-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="2ee06-114">Calcola la differenza tra il campo **Valore Magazzino (Calcolato)** e il campo **Valore Magazzino (Rivalutato)**.</span><span class="sxs-lookup"><span data-stu-id="2ee06-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
+6. <span data-ttu-id="2ee06-115">Una volta completate tutte le righe nelle registrazioni rivalutazioni, scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="2ee06-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
 
-Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono le rivalutazioni registrate. È possibile visualizzare i nuovi valori nelle rispettive schede articolo.
+<span data-ttu-id="2ee06-116">Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono le rivalutazioni registrate.</span><span class="sxs-lookup"><span data-stu-id="2ee06-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="2ee06-117">È possibile visualizzare i nuovi valori nelle rispettive schede articolo.</span><span class="sxs-lookup"><span data-stu-id="2ee06-117">You can see the new values on the respective item cards.</span></span>
 
-## <a name="see-also"></a>Vedi anche
-[Magazzino](inventory-manage-inventory.md)  
-[Vendite](sales-manage-sales.md)  
-[Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="2ee06-118">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="2ee06-118">See Also</span></span>
+[<span data-ttu-id="2ee06-119">Magazzino</span><span class="sxs-lookup"><span data-stu-id="2ee06-119">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="2ee06-120">Vendite</span><span class="sxs-lookup"><span data-stu-id="2ee06-120">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="2ee06-121">Acquisti</span><span class="sxs-lookup"><span data-stu-id="2ee06-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="2ee06-122">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2ee06-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

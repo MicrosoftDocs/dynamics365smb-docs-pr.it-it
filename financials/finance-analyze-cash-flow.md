@@ -16,43 +16,42 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
-Il contante riveste un ruolo fondamentale in azienda. I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
+# <a name="analyzing-cash-flow-in-your-company"></a><span data-ttu-id="1f66a-103">Analizzare il flusso di cassa dell'azienda</span><span class="sxs-lookup"><span data-stu-id="1f66a-103">Analyzing Cash Flow in Your Company</span></span>
+<span data-ttu-id="1f66a-104">Il contante riveste un ruolo fondamentale in azienda.</span><span class="sxs-lookup"><span data-stu-id="1f66a-104">As they say, cash is king.</span></span> <span data-ttu-id="1f66a-105">I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.</span><span class="sxs-lookup"><span data-stu-id="1f66a-105">The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash.</span></span>  
 
-| Per risposte a domande simili alle seguenti | Utilizzare questo grafico |
+| <span data-ttu-id="1f66a-106">Per risposte a domande simili alle seguenti</span><span class="sxs-lookup"><span data-stu-id="1f66a-106">To answer questions like these</span></span> | <span data-ttu-id="1f66a-107">Utilizzare questo grafico</span><span class="sxs-lookup"><span data-stu-id="1f66a-107">Use this chart</span></span> |
 | --- | --- |
-| Per quanto tempo il processo di vendita blocca i contanti?</br> Dovrei aumentare o ridurre i livelli di magazzino? |Ciclo di cassa |
-| In quali momenti sono state registrate uscite o entrate di contanti in azienda?</br> Esistono periodi migliori di altri? |Flusso di cassa |
-| Le cifre relative a un periodo sembrano anomale?</br> Dovrei approfondire? |Entrate e uscite |
-| Quando potrebbe verificarsi un'eccedenza o un disavanzo di cassa?</br> Dovrei pagare i debiti o stipulare un prestito per le spese imminenti? |Previsioni flusso di cassa |
+| <span data-ttu-id="1f66a-108">Per quanto tempo il processo di vendita blocca i contanti?</span><span class="sxs-lookup"><span data-stu-id="1f66a-108">How long does the sales process tie up my cash?</span></span></br> <span data-ttu-id="1f66a-109">Dovrei aumentare o ridurre i livelli di magazzino?</span><span class="sxs-lookup"><span data-stu-id="1f66a-109">Should I increase or reduce inventory levels?</span></span> |<span data-ttu-id="1f66a-110">Ciclo di cassa</span><span class="sxs-lookup"><span data-stu-id="1f66a-110">Cash Cycle</span></span> |
+| <span data-ttu-id="1f66a-111">In quali momenti sono state registrate uscite o entrate di contanti in azienda?</span><span class="sxs-lookup"><span data-stu-id="1f66a-111">When did cash move in and out of my company?</span></span></br> <span data-ttu-id="1f66a-112">Esistono periodi migliori di altri?</span><span class="sxs-lookup"><span data-stu-id="1f66a-112">Are some periods better than others?</span></span> |<span data-ttu-id="1f66a-113">Flusso di cassa</span><span class="sxs-lookup"><span data-stu-id="1f66a-113">Cash Flow</span></span> |
+| <span data-ttu-id="1f66a-114">Le cifre relative a un periodo sembrano anomale?</span><span class="sxs-lookup"><span data-stu-id="1f66a-114">Do the numbers seem off for a period?</span></span></br> <span data-ttu-id="1f66a-115">Dovrei approfondire?</span><span class="sxs-lookup"><span data-stu-id="1f66a-115">Should I investigate?</span></span> |<span data-ttu-id="1f66a-116">Entrate e uscite</span><span class="sxs-lookup"><span data-stu-id="1f66a-116">Income & Expense</span></span> |
+| <span data-ttu-id="1f66a-117">Quando potrebbe verificarsi un'eccedenza o un disavanzo di cassa?</span><span class="sxs-lookup"><span data-stu-id="1f66a-117">When might a cash surplus or deficit happen?</span></span></br> <span data-ttu-id="1f66a-118">Dovrei pagare i debiti o stipulare un prestito per le spese imminenti?</span><span class="sxs-lookup"><span data-stu-id="1f66a-118">Should I pay down debt, or borrow to meet upcoming expenses?</span></span> |<span data-ttu-id="1f66a-119">Previsioni flusso di cassa</span><span class="sxs-lookup"><span data-stu-id="1f66a-119">Cash Flow Forecasts</span></span> |
 
-## <a name="dig-into-the-numbers"></a>Analizzare le cifre
-In Gestione ruolo utente Contabile, **Prestazioni finanziarie**, i grafici **Ciclo di cassa**, **Flusso di cassa** ed **Entrate e uscite** consentono di analizzare il flusso di cassa.  
+## <a name="dig-into-the-numbers"></a><span data-ttu-id="1f66a-120">Analizzare le cifre</span><span class="sxs-lookup"><span data-stu-id="1f66a-120">Dig into the numbers</span></span>
+<span data-ttu-id="1f66a-121">In Gestione ruolo utente Contabile, **Prestazioni finanziarie**, i grafici **Ciclo di cassa**, **Flusso di cassa** ed **Entrate e uscite** consentono di analizzare il flusso di cassa.</span><span class="sxs-lookup"><span data-stu-id="1f66a-121">On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:</span></span>  
 
-* Visualizzare le cifre per un periodo utilizzando il cursore della sequenza temporale.  
-* Filtrare il grafico scegliendo l'origine nella legenda.  
-* Modificare la durata del periodo oppure passare al periodo precedente o successivo, selezionando le opzioni nel menu a discesa **Prestazioni finanziarie**.  
-* Visualizzare i movimenti scegliendo un punto del grafico. Ad esempio, un punto della sequenza temporale o un segmento colonna. Se le cifre sembrano anomale, questo è il punto dove è possibile apportare rettifiche.  
+* <span data-ttu-id="1f66a-122">Visualizzare le cifre per un periodo utilizzando il cursore della sequenza temporale.</span><span class="sxs-lookup"><span data-stu-id="1f66a-122">See figures for a period by using the timeline slider.</span></span>  
+* <span data-ttu-id="1f66a-123">Filtrare il grafico scegliendo l'origine nella legenda.</span><span class="sxs-lookup"><span data-stu-id="1f66a-123">Filter the chart by choosing the source in the legend.</span></span>  
+* <span data-ttu-id="1f66a-124">Modificare la durata del periodo oppure passare al periodo precedente o successivo, selezionando le opzioni nel menu a discesa **Prestazioni finanziarie**.</span><span class="sxs-lookup"><span data-stu-id="1f66a-124">Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.</span></span>  
+* <span data-ttu-id="1f66a-125">Visualizzare i movimenti scegliendo un punto del grafico.</span><span class="sxs-lookup"><span data-stu-id="1f66a-125">View the entries by choosing a point in the chart.</span></span> <span data-ttu-id="1f66a-126">Ad esempio, un punto della sequenza temporale o un segmento colonna.</span><span class="sxs-lookup"><span data-stu-id="1f66a-126">For example, a point on the timeline or a column segment.</span></span> <span data-ttu-id="1f66a-127">Se le cifre sembrano anomale, questo è il punto dove è possibile apportare rettifiche.</span><span class="sxs-lookup"><span data-stu-id="1f66a-127">If the numbers seem off, this is where you can make adjustments.</span></span>  
 
-Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile. È possibile osservare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi. Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione**.
+<span data-ttu-id="1f66a-128">Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile.</span><span class="sxs-lookup"><span data-stu-id="1f66a-128">Although it's separate, the **Cash Flow Forecast** chart is similar.</span></span> <span data-ttu-id="1f66a-129">È possibile osservare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi.</span><span class="sxs-lookup"><span data-stu-id="1f66a-129">You view details, filter results, and change what's displayed in the same ways.</span></span> <span data-ttu-id="1f66a-130">Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione**.</span><span class="sxs-lookup"><span data-stu-id="1f66a-130">If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.</span></span>
 
-Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibile analizzarne il prospetto flussi di cassa. Ad esempio, è possibile vedere come la previsione:
+<span data-ttu-id="1f66a-131">Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibile analizzarne il prospetto flussi di cassa.</span><span class="sxs-lookup"><span data-stu-id="1f66a-131">If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet.</span></span> <span data-ttu-id="1f66a-132">Ad esempio, è possibile vedere come la previsione:</span><span class="sxs-lookup"><span data-stu-id="1f66a-132">For example, you can see how the forecast:</span></span>
 
-* Gestisce le vendite e gli acquisti confermati.  
-* Sottrae i debiti e aggiunge i crediti.  
-* Salta gli ordini di vendita e di acquisto doppi.  
+* <span data-ttu-id="1f66a-133">Gestisce le vendite e gli acquisti confermati.</span><span class="sxs-lookup"><span data-stu-id="1f66a-133">Handles confirmed sales and purchases.</span></span>  
+* <span data-ttu-id="1f66a-134">Sottrae i debiti e aggiunge i crediti.</span><span class="sxs-lookup"><span data-stu-id="1f66a-134">Subtracts payables and adds receivables.</span></span>  
+* <span data-ttu-id="1f66a-135">Salta gli ordini di vendita e di acquisto doppi.</span><span class="sxs-lookup"><span data-stu-id="1f66a-135">Skips duplicate sales orders and purchase orders.</span></span>  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
-1. Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.  
-2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
-3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
+### <a name="to-view-a-cash-flow-worksheet"></a><span data-ttu-id="1f66a-136">Per visualizzare un prospetto flusso di cassa</span><span class="sxs-lookup"><span data-stu-id="1f66a-136">To view a cash flow worksheet</span></span>
+1. <span data-ttu-id="1f66a-137">Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="1f66a-137">Search for **Cash Flow Forecasts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1f66a-138">Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.</span><span class="sxs-lookup"><span data-stu-id="1f66a-138">Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.</span></span>  
+3. <span data-ttu-id="1f66a-139">Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.</span><span class="sxs-lookup"><span data-stu-id="1f66a-139">On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.</span></span>  
 
-## <a name="see-also"></a>Vedi anche
-[Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
+## <a name="see-also"></a><span data-ttu-id="1f66a-140">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="1f66a-140">See Also</span></span>
+[<span data-ttu-id="1f66a-141">Impostazione di dati finanziari</span><span class="sxs-lookup"><span data-stu-id="1f66a-141">Setting Up Finance</span></span>](finance-setup-finance.md)  
+<span data-ttu-id="1f66a-142">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1f66a-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="1f66a-143">Impostazione di un'analisi di un flusso di cassa</span><span class="sxs-lookup"><span data-stu-id="1f66a-143">Setting Up Cash Flow Analysis</span></span>](finance-setup-cash-flow-analyses.md)  
 

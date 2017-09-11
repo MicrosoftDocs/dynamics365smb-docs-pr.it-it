@@ -16,24 +16,23 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-banking"></a>Impostazione delle attività bancarie
-Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
+# <a name="setting-up-banking"></a><span data-ttu-id="b2aaf-103">Impostazione delle attività bancarie</span><span class="sxs-lookup"><span data-stu-id="b2aaf-103">Setting Up Banking</span></span>
+<span data-ttu-id="b2aaf-104">Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-104">Using bank account cards, you can keep track of all your bank accounts, in any currency.</span></span> <span data-ttu-id="b2aaf-105">Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-105">After you have set up the bank accounts, you can also use the check printing option.</span></span>
 
-Per utilizzare i servizi bancari elettronici per importare gli estratti conto bancari ed esportare i pagamenti, è necessario impostare e abilitare i servizi interessati.
+<span data-ttu-id="b2aaf-106">Per utilizzare i servizi bancari elettronici per importare gli estratti conto bancari ed esportare i pagamenti, è necessario impostare e abilitare i servizi interessati.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-106">To use electronic banking services to import bank statements and  export payments, you must set up and enable the involved services.</span></span>
 
-| Per | Vedere |
+| <span data-ttu-id="b2aaf-107">Per</span><span class="sxs-lookup"><span data-stu-id="b2aaf-107">To</span></span> | <span data-ttu-id="b2aaf-108">Vedere</span><span class="sxs-lookup"><span data-stu-id="b2aaf-108">See</span></span> |
 | --- | --- |
-| Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie. |[Procedura: Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) |
-| Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
-| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Procedura: Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md) |
+| <span data-ttu-id="b2aaf-109">Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-109">Set up bank account cards for each of your bank accounts, so you can keep track of banking transactions.</span></span> |[<span data-ttu-id="b2aaf-110">Procedura: Impostare i conti correnti bancari</span><span class="sxs-lookup"><span data-stu-id="b2aaf-110">How to: Set Up Bank Accounts</span></span>](bank-how-setup-bank-accounts.md) |
+| <span data-ttu-id="b2aaf-111">Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-111">Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="b2aaf-112">Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee</span><span class="sxs-lookup"><span data-stu-id="b2aaf-112">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md) |
+| <span data-ttu-id="b2aaf-113">Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria.</span><span class="sxs-lookup"><span data-stu-id="b2aaf-113">Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="b2aaf-114">Procedura: Impostare il servizio di conversione di dati bancari</span><span class="sxs-lookup"><span data-stu-id="b2aaf-114">How to: Set Up the Bank Data Conversion Service</span></span>](bank-how-setup-bank-data-conversion-service.md) |
 
-## <a name="see-also"></a>Vedi anche
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
-[Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="b2aaf-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="b2aaf-115">See Also</span></span>
+[<span data-ttu-id="b2aaf-116">Gestione di conti correnti bancari</span><span class="sxs-lookup"><span data-stu-id="b2aaf-116">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="b2aaf-117">Gestione della contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="b2aaf-117">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+[<span data-ttu-id="b2aaf-118">Gestione della contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="b2aaf-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="b2aaf-119">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b2aaf-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
