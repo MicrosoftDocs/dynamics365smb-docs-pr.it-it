@@ -1,0 +1,51 @@
+---
+title: Calcolo della data per gli acquisti | Documenti Microsoft
+description: "Il programma calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/10/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7e569474e3d222a56500665fa73408f47480f338
+ms.contentlocale: it-it
+ms.lasthandoff: 09/22/2017
+
+---
+# <a name="date-calculation-for-purchases"></a><span data-ttu-id="54611-104">Calcolo della data per gli acquisti</span><span class="sxs-lookup"><span data-stu-id="54611-104">Date Calculation for Purchases</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="54611-105"> calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data.</span><span class="sxs-lookup"><span data-stu-id="54611-105"> automatically calculates the date on which you must order an item to have it in inventory on a certain date.</span></span> <span data-ttu-id="54611-106">Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.</span><span class="sxs-lookup"><span data-stu-id="54611-106">This is the date on which you can expect items ordered on a particular date to be available for picking.</span></span>  
+
+<span data-ttu-id="54611-107">Se si specifica una data di carico richiesta nella testata di un ordine di acquisto, la data dell'ordine calcolata è la data in cui si deve effettuare l'ordine per ricevere gli articoli alla data richiesta.</span><span class="sxs-lookup"><span data-stu-id="54611-107">If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested.</span></span> <span data-ttu-id="54611-108">Quindi, la data in cui gli articoli saranno disponibili per il prelievo viene calcolata e immessa nel campo **Data carico prevista**.</span><span class="sxs-lookup"><span data-stu-id="54611-108">Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.</span></span>  
+
+<span data-ttu-id="54611-109">Se non si specifica una data di carico richiesta, la data d'ordine presente sulla riga verrà usata come data di partenza per il calcolo della data prevedibile per la ricezione degli articoli e della data in cui gli articoli saranno disponibili per il prelievo.</span><span class="sxs-lookup"><span data-stu-id="54611-109">If you do not specify a requested receipt date, then the order date on the line is used as the starting point for calculating the date on which you can expect to receive the items and the date on which the items are available for picking.</span></span>  
+
+## <a name="calculating-with-a-requested-receipt-date"></a><span data-ttu-id="54611-110">Calcolo con una data di carico richiesta</span><span class="sxs-lookup"><span data-stu-id="54611-110">Calculating with a Requested Receipt Date</span></span>  
+<span data-ttu-id="54611-111">Se è presente una data di carico richiesta sulla riga dell'ordine di acquisto, questa data verrà utilizzata come data di partenza per i calcoli successivi.</span><span class="sxs-lookup"><span data-stu-id="54611-111">If there is a requested receipt date on the purchase order line, then that date is used as the starting point for the following calculations.</span></span>  
+
+- <span data-ttu-id="54611-112">data di carico richiesta - calcolo lead time = data ordine</span><span class="sxs-lookup"><span data-stu-id="54611-112">requested receipt date - lead time calculation = order date</span></span>  
+- <span data-ttu-id="54611-113">data di carico richiesta + tempo gest. entrata in whse. + lead time di sicurezza = data carico prevista</span><span class="sxs-lookup"><span data-stu-id="54611-113">requested receipt date + inbound whse. handling time + safety lead time = expected receipt date</span></span>  
+
+<span data-ttu-id="54611-114">Se è stata immessa una data di carico richiesta sulla testata dell'ordine di acquisto, questa data viene copiata nel campo corrispondente in tutte le righe.</span><span class="sxs-lookup"><span data-stu-id="54611-114">If you entered a requested receipt date on the purchase order header, then that date is copied to the corresponding field on all the lines.</span></span> <span data-ttu-id="54611-115">È possibile modificare questa data in qualsiasi riga oppure rimuoverla.</span><span class="sxs-lookup"><span data-stu-id="54611-115">You can change this date on any of the lines, or you can remove the date on the line.</span></span>  
+
+## <a name="calculating-without-a-requested-delivery-date"></a><span data-ttu-id="54611-116">Calcolo senza una data di consegna richiesta</span><span class="sxs-lookup"><span data-stu-id="54611-116">Calculating without a Requested Delivery Date</span></span>  
+<span data-ttu-id="54611-117">Se si immette una riga di ordine di acquisto senza una data di consegna richiesta, il campo **Data ordine** nella riga viene compilato con la data nel campo **Data ordine** dell'intestazione dell'ordine di acquisto.</span><span class="sxs-lookup"><span data-stu-id="54611-117">If you enter a purchase order line without a requested delivery date, then the **Order Date** field on the line is filled with the date in the **Order Date** field on the purchase order header.</span></span> <span data-ttu-id="54611-118">Si tratta della data immessa o della work date.</span><span class="sxs-lookup"><span data-stu-id="54611-118">This is either the date that you entered or the work date.</span></span> <span data-ttu-id="54611-119">Le date seguenti vengono quindi calcolate per la riga dell'ordine di acquisto, con la data dell'ordine come punto di partenza.</span><span class="sxs-lookup"><span data-stu-id="54611-119">The following dates are then calculated for the purchase order line, with the order date as the starting point.</span></span>  
+
+- <span data-ttu-id="54611-120">data ordine + calcolo lead time = data carico pianificato</span><span class="sxs-lookup"><span data-stu-id="54611-120">order date + lead time calculation = planned receipt date</span></span>  
+- <span data-ttu-id="54611-121">data carico pianificato + tempo gest. entrata in whse. + lead time di sicurezza = data carico prevista</span><span class="sxs-lookup"><span data-stu-id="54611-121">planned receipt date + inbound whse. handling time + safety lead time = expected receipt date</span></span>  
+
+<span data-ttu-id="54611-122">Se si modifica la data dell'ordine sulla riga, ad esempio quando gli articoli non sono disponibili presso il fornitore fino a una data successiva, le date corrispondenti nella riga saranno ricalcolate automaticamente.</span><span class="sxs-lookup"><span data-stu-id="54611-122">If you change the order date on the line, such as when items are not available at your vendor until a later date, then the relevant dates on the line are automatically recalculated.</span></span>  
+
+<span data-ttu-id="54611-123">Se si modifica la data dell'ordine nell'intestazione, questa viene copiata nel campo **Data ordine** in tutte le righe e tutti i campi data correlati vengono ricalcolati.</span><span class="sxs-lookup"><span data-stu-id="54611-123">If you change the order date on the header, then that date is copied to the **Order Date** field on all the lines, and all the related date fields are then recalculated.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="54611-124">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="54611-124">See Also</span></span>  
+ <span data-ttu-id="54611-125">[Calcolo della data per le vendite](sales-date-calculation-for-sales.md) </span><span class="sxs-lookup"><span data-stu-id="54611-125">[Date Calculation for Sales](sales-date-calculation-for-sales.md) </span></span>  
+ [<span data-ttu-id="54611-126">Procedura: Calcolare le date per la promessa ordine</span><span class="sxs-lookup"><span data-stu-id="54611-126">How to: Calculate Order Promising Dates</span></span>](sales-how-to-calculate-order-promising-dates.md)  
+ <span data-ttu-id="54611-127">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="54611-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
