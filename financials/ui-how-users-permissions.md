@@ -1,8 +1,6 @@
 ---
 title: Assegnare autorizzazioni utente e creare o modificare i set di autorizzazioni | Documenti Microsoft
 description: Descrive come aggiungere utenti di Office 365 a Financials e quindi assegnare le autorizzazioni, i diritti di accesso e le impostazioni di protezione.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,12 +10,11 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Procedura: Gestire gli utenti e le autorizzazioni
@@ -27,7 +24,7 @@ Una volta creati gli utenti in Office 365, è possibile importarli nella finestr
 
 È quindi possibile continuare ad assegnare set di autorizzazioni agli utenti per definire a quali oggetti di database, e quindi quali elementi dell'interfaccia utente, tali utenti dispongono di accesso e in quali società.
 
-Un set di permessi è un raccolta di permessi per oggetti specifici del database. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcuni set di autorizzazioni predefiniti vengono forniti per default. È possibile utilizzare questi set di permessi già definiti, modificarli o creare ulteriori set di permessi.
+Un set di permessi è un raccolta di permessi per oggetti specifici del database. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcuni set di autorizzazioni di default vengono forniti per default. È possibile utilizzare questi set di permessi già definiti, modificarli o creare ulteriori set di permessi.
 
 È possibile aggiungere gli utenti ai gruppi utente. Ciò facilita l'assegnazione degli stessi set di autorizzazioni a più utenti.
 
@@ -37,7 +34,7 @@ Gli amministratori possono utilizzare la finestra **Setup utente** per definire 
 >   Questa funzionalità richiede che l'esperienza sia impostata su Suite. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Assegnare autorizzazioni a un utente
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
 2. Selezionare l'utente a cui si intende assegnare l'autorizzazione.
 Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel Dettaglio informazioni **Set di autorizzazioni**.
 3. Scegliere l'azione **Modifica** per aprire la finestra **Scheda utente**.
@@ -46,7 +43,7 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 ## <a name="to-group-users-in-user-groups"></a>Per raggruppare gli utenti in gruppi di utenti
 È possibile impostare i gruppi di utenti per gestire facilmente i set di autorizzazioni per i gruppi di utenti della società. È possibile utilizzare una funzione che consente di copiare tutti i set di autorizzazioni da un gruppo di utenti esistenti al nuovo gruppo di utenti. I membri del gruppo di utenti non vengono copiati.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi di utenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Gruppi di utenti**, quindi scegliere il collegamento correlato.
 2. In alternativa, nella finestra **Utenti** scegliere l'azione **Gruppi di utenti**.
 3. Nella finestra **Gruppi di utenti** selezionare un gruppo di utenti esistenti che si desidera copiare quindi scegliere l'azione **Copia gruppo di utenti**.
 4. Nel campo **Nuovo codice gruppo di utenti** specificare il nome del nuovo gruppo di utenti quindi scegliere il pulsante **OK**.
@@ -61,7 +58,7 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 Se i set di autorizzazioni di default forniti con [!INCLUDE[d365fin](includes/d365fin_md.md)] non sono sufficienti o non appropriati per la propria organizzazione, è possibile creare nuovi set di autorizzazioni. Se le singole autorizzazioni oggetto che definiscono un set di autorizzazioni non sono appropriate, è possibile modificare un set di autorizzazioni. È possibile creare manualmente un set di autorizzazioni oppure utilizzare una funzione di registrazione per le azioni mentre gli utenti effettuano spostamenti in uno scenario e quindi generare il set di autorizzazioni richiesto.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Per creare o modificare i set di autorizzazioni manualmente
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Utenti** scegliere l'azione **Set di autorizzazioni**.
 3. Nella finestra **Set di autorizzazioni** scegliere l'azione **Nuovo**.
 4. In una nuova riga, compilare i campi in base alle esigenze.
@@ -83,7 +80,7 @@ Se i set di autorizzazioni di default forniti con [!INCLUDE[d365fin](includes/d3
 9. Ripetere i passaggi 7 e 8 per aggiungere le autorizzazioni per gli oggetti aggiuntivi al set di autorizzazioni.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Per creare o modificare i set di autorizzazioni registrando le azioni
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Utenti** scegliere l'azione **Set di autorizzazioni**.
 3. Nella finestra **Set di autorizzazioni** scegliere l'azione **Nuovo**.
 4. In una nuova riga, compilare i campi in base alle esigenze.
@@ -105,13 +102,14 @@ Tuttavia, per l'utente non è necessario avere accesso completo alla tabella **R
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup utente**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup utente**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Setup utenti** scegliere l'azione **Nuovo**.
 3. Nel campo **ID utente**, immettere l'ID di un utente o scegliere il campo per visualizzare tutti gli utenti correnti di Windows nel sistema.
-4. Compilare i campi, se necessario.
+4. Compilare i campi come necessario.
 
 ## <a name="see-also"></a>Vedi anche
 [Preparazione al business](ui-get-ready-business.md)  
+[Setup e amministrazione in Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

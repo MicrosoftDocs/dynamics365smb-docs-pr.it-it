@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-defer-revenues-and-expenses"></a>Procedura: Differire le entrate e le uscite
@@ -82,7 +81,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 1. Nella finestra **Fattura di vendita** scegliere l'azione **Anteprima registrazione**.
 2. Nella finestra **Anteprima registrazione** scegliere l'azione **Movimento C/G**, quindi l'azione **Mostra movimenti correlati**.
 
-I movimenti C/G da registrare nel conto specificato di differimento, ad esempio, Rendita, sono denotati dalla descrizione inserita nel campo **Descrizione periodo** nel modello di differimento, ad esempio, “Spese differite per febbraio 2016”.
+I movimenti C/G da registrare nel conto specificato di differimento, ad esempio, Rendita, sono denotati dalla descrizione immessa nel campo **Descrizione periodo** nel modello di differimento, ad esempio "Spese differite per febbraio 2016".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Per rivedere i differimenti registrati nel report Riepilogo differimento vendite
 > [!NOTE]  

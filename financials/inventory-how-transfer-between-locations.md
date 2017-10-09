@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-inventory-between-locations"></a>Procedura: Trasferire il magazzino tra le ubicazioni
@@ -40,7 +39,7 @@ Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono 
 2. Nella finestra **Ordine di trasferimento** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Se sono stati compilati i campi **Codice in transito**, **Codice spedizioniere** e **Codice servizio spedizioniere** nella finestra **Specifica percorso trasf.** quando si imposta il percorso di trasferimento, i campi corrispondenti dell'ordine di trasferimento verranno compilati automaticamente.
+>   Se i campi **Codice in transito**, **Cod. spedizioniere** e **Servizi spedizioniere** nella finestra **Specifica percorso trasf.** sono stati compilati al momento dell'impostazione del percorso di trasferimento, i dati verranno immessi automaticamente nei campi corrispondenti dell'ordine di trasferimento.
 
     Se si compila il campo **Servizio spedizioniere**, il programma calcola la data di ricezione nell'ubicazione di trasferimento sommando il tempo di spedizione del servizio spedizioniere alla data di spedizione.
 
@@ -65,7 +64,7 @@ Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono 
 ## <a name="see-also"></a>Vedi anche
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Procedura: Impostare le ubicazioni](inventory-how-setup-locations.md)  
-[Catena di approvvigionamento](madeira-supply-chain.md)  
+  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-time-sheets-for-jobs"></a>Procedura: Utilizzare i fogli presenze per le commesse
@@ -71,7 +70,7 @@ Se le informazioni del foglio presenze rimangono invariate da un periodo di temp
 2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
 3. Scegliere l'azione **Copia righe da foglio presenze precedente**.
 
-Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a una commessa, viene copiato **Nr. commessa** . Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
+Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a una commessa, viene copiato **Nr. commessa**. Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Per compilare le righe di un foglio presenze e inviarle per l'approvazione
 La registrazione del foglio presenze avviene in ore, l'unità di misura base standard per le risorse. Per impostazione predefinita, un foglio presenze mostra i giorni lavorativi normali dal lunedì al venerdì.

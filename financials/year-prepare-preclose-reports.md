@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
@@ -26,7 +25,7 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 
 | Per | Vedere questo report. |
 | --- | --- |
-| Stampare un report bilancio di verifica dettagliato per uno o più conti bancari con informazioni aggiuntive su singoli movimenti. |C/C banca - Dettagli bilancio di verifica |
+| Stampare un report bilancio di verifica dettagliato per uno o più conti bancari con informazioni aggiuntive su singoli movimenti. |C/C banca - Dett. bil. verif. |
 | Stampare un bilancio di verifica dettagliato per determinati clienti. |Clienti - Bilancio di verifica |
 | Stampare un bilancio di verifica dettagliato con informazioni su singoli movimenti, per determinati clienti durante un periodo particolare. |Cliente - Dett. bilancio di verifica |
 | Stampare un bilancio di verifica dettagliato per determinati fornitori. |Fornitori - Bilancio verifica |

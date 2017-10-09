@@ -12,19 +12,18 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Utilizzo di Dynamics 365 for Financials come posta in arrivo aziendale in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="get-the-add-in"></a>Ottenere il componente aggiuntivo
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] uno dei passaggi del setup assistito dell'Introduzione nella finestra **Esegui attività in Office 365**. Nella finestra, quando si sceglie il pulsante **Imposta in Outlook**, è necessario specificare il proprio nome utente e password di Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], uno dei passaggi del setup assistito dell'Introduzione è la finestra **Esegui attività in Office 365**. In quella finestra, quando si sceglie il pulsante **Imposta in Outlook**, è necessario specificare il proprio nome utente e password di Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
 
 Quindi, quando si apre Outlook, si vedranno i messaggi e-mail dell'amministratore Financials. Il nuovo componente aggiuntivo viene aggiunto alla barra multifunzione di Outlook e in Outlook Web Access nella barra multifunzione del componente aggiuntivo, immediatamente sopra il corpo del messaggio e-mail. Il componente aggiuntivo stesso verrà aggiornato periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
@@ -57,7 +56,7 @@ In primo luogo, è necessario verificare che non sia possibile accedere ai compo
 
 Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella finestra **Gestione componenti aggiuntivi**.  
 
-In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di sistema Office 365.
+In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di Office 365.
 
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

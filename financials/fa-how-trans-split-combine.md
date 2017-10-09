@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Procedura: Trasferimento, divisione o raggruppamento dei cespiti
@@ -28,7 +27,7 @@ Il trasferimento dei cespiti in ubicazioni diverse può essere utilizzato, ad es
 1. Impostare un nuovo cespite. Immettere il nuovo reparto nel campo **Cod. Reparto**.
 2. Assegnare un registro beni ammortizzabili al nuovo cespite. Per ulteriori informazioni, vedere [Procedura: Acquisire i cespiti](fa-how-acquire.md).
 3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riclass. cespiti**, quindi scegliere il collegamento correlato.
-4. Creare una registrazione di riclassificazione in cui il campo **Nr. cespite** contiene il cespite originale e il campo **Nuovo nr. cespite** contiene il nuovo cespite da spostare.  
+4. Creare una registrazione riclassificazione in cui il campo **Nr. cespite** contiene il cespite originale e il campo **Nuovo nr. cespite** contiene il nuovo cespite da spostare.  
 5. Scegliere l'azione **Riclassifica**.
 
     Vengono create due righe in Registrazioni C/G cespiti utilizzando la definizione ed il batch specificati nella finestra **Setup Reg. Cespiti** per il registro beni ammortizzabili indicato. Per ulteriori informazioni, vedere [Procedura: Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
@@ -44,8 +43,8 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 2. Assegnare i registri beni ammortizzabili ai nuovi cespiti. Per ulteriori informazioni, vedere [Procedura: Acquisire i cespiti](fa-how-acquire.md).
 3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riclass. cespiti**, quindi scegliere il collegamento correlato.
 4. Creare due righe di registrazione riclassificazione, una per ogni nuovo cespite.
-5. Nella prima riga, immettere il secondo cespite nel campo **Nuovo nr. cespite** e 25 nel campo **Riclassifica costi di acq. %**.
-6. Nella seconda riga, immettere il terzo cespite nel campo **Nuovo nr. cespite** e 40 nel campo **Riclassifica costi di acq. %**.
+5. Nella prima riga immettere il secondo cespite nel campo **Nuovo nr. cespite** e 25 nel campo **Riclassifica costi di acq. %**.
+6. Nella seconda riga immettere il terzo cespite nel campo **Nuovo nr. cespite** e 40 nel campo **Riclassifica costi di acq. %**.
 7. In entrambe le righe, selezionare le caselle di controllo **Riclassifica costi di acq.** e **Riclassifica ammortamento**.   
 8. Scegliere l'azione **Riclassifica**.
 
@@ -57,7 +56,7 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 È possibile raggruppare più cespiti in un unico cespite, ad esempio quando si spostano i cespiti distribuiti in un unico reparto. Se sono stati registrati i costi di acquisto e l'ammortamento del cespite da spostare, i valori verranno raggruppati singolo cespite.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riclass. cespiti**, quindi scegliere il collegamento correlato.
-2. Creare una registrazione di riclassificazione in cui il campo **Nr. cespite** contiene il cespite originale da spostare/raggruppare e il campo **Nuovo nr. cespite** contiene il cespite in cui verrà raggruppato.
+2. Creare una registrazione riclassificazione in cui il campo **Nr. cespite** contiene il cespite da spostare/combinare e il campo **Nuovo nr. cespite** contiene il cespite con cui sarà combinato.
 3. Lasciare vuoti il campo **Riclassifica costi di acq. %** per sposare/raggruppare l'intero costo di acquisto.    
 4. Selezionare le caselle di controllo **Riclassifica costi di acq.** e **Riclassifica ammortamento**.
 5. Nella scheda **Azioni** selezionare **Riclassifica**.

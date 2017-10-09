@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Procedura: esportare pagamenti in un file della banca
-Quando si è pronti a effettuare i pagamenti ai fornitori mediante la finestra **Registrazioni pagamenti**, è possibile esportare un file con le informazioni di pagamento nelle righe di registrazione. È quindi possibile caricare il file sul sito elettronico della banca per elaborare i trasferimenti di denaro correlati.
+Quando si è pronti a effettuare i pagamenti ai fornitori o i rimborsi ai dipendenti, nella finestra **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento delle righe. È quindi possibile caricare il file sulla banca per elaborare i relativi trasferimenti di denaro.
 
 Nella versione generica di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], viene installato e connesso un provider di servizi globale per convertire i dati bancari in qualsiasi formato di file richiesto dalla banca. Nelle versioni per il Nord America, lo stesso servizio può essere utilizzato per inviare file di pagamento come trasferimento dei fondi elettronici (EFT), ma con un processo leggermente diverso. Vedere la sezione 6 "Per esportare pagamenti in un file della banca".    
 
@@ -35,10 +34,8 @@ Per visualizzare i file di pagamento che sono stati esportati dalle registrazion
 2. Compilare le righe di registrazione pagamenti, utilizzando la funzione **Sugg. pagamenti fornitore**. Per ulteriori informazioni, vedere [Procedura: Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
 3. Compilare tutti i campi nelle righe delle registrazioni dei pagamenti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Se si utilizza EFT, è necessario selezionare **Pagamento elettronico** o **Pagamento elettronico IAT** nel campo **Tipo pagamento banca**.
-
-    Servizi di esportazione file diversi e i rispettivi formati richiedono valori di configurazione differenti nelle finestre **Scheda conto corrente bancario** e **Scheda C/C bancari fornitori**. Si verrà informati sui valori di setup mancanti o non corretti mentre si tenta di esportare il file.
+> [!NOTE]  
+>   Se si utilizza EFT, è necessario selezionare **Pagamento elettronico** o **Pagamento elettronico IAT** nel campo **Tipo pagamento banca**. Servizi di esportazione file diversi e i rispettivi formati richiedono valori di configurazione differenti nelle finestre **Scheda conto corrente bancario** e **Scheda C/C bancari fornitori**. Si verrà informati sui valori di setup mancanti o non corretti mentre si tenta di esportare il file.
 
 4. Una volta completate tutte le righe di registrazione pagamenti, scegliere l'azione **Esporta pagamenti su file**.
 5. Nella finestra **Esporta pagamenti elettronici** compilare i campi secondo le necessità.
@@ -46,7 +43,7 @@ Per visualizzare i file di pagamento che sono stati esportati dalle registrazion
     Tutti i messaggi di errore verranno visualizzati nel riquadro Dettaglio informazioni di **Errori nel file di pagamento** dove è anche possibile scegliere un messaggio di errore per visualizzare informazioni dettagliate. È necessario risolvere tutti gli errori prima di esportare il file di pagamento.
 
     > [!TIP]  
->   Quando si utilizza il servizio di conversione dati bancari, un messaggio di errore comune informa che il numero di conto corrente bancario non ha la lunghezza richiesta dalla banca. Per evitare o risolvere questo errore, è necessario cancellare il valore nel campo **IBAN** della finestra **Scheda conto bancario**, quindi immettere nel campo **Nr. conto bancario** un numero di conto corrente bancario nel formato richiesto dalla banca.
+>   Quando si utilizza il servizio di conversione dati bancari, un messaggio di errore comune informa che il numero di conto corrente bancario non ha la lunghezza richiesta dalla banca. Per evitare o risolvere l'errore, è necessario rimuovere il valore nel campo **IBAN** nella finestra **Scheda conto corrente bancario**, quindi nel campo **Nr. conto bancario** , immettere un numero di conto corrente bancario nel formato richiesto dalla banca.
 
 6. Nella finestra **Salva con nome** specificare il percorso in cui verrà esportato il file e scegliere **Salva**.
 
@@ -94,3 +91,4 @@ Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **S
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

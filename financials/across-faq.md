@@ -1,8 +1,6 @@
 ---
 title: Domande frequenti su Financials| Documenti Microsoft
 description: Risposte alle domande comuni su come iscriversi a Financials e cosa fare per iniziare.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
@@ -29,9 +26,9 @@ Questa sezione contiene le risposte alle domande frequenti sull'iscrizione e sul
 Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si riceve un messaggio che richiede di utilizzare un indirizzo e-mail un lavoro o di scuola. Per ulteriori informazioni, vedere [Troubleshooting dell'accesso Self-Service](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Devo acquistare Office 365?
-No. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una prova gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
+Nr. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una prova gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Quali sono i vantaggi dell'integrazione con Office 365?
+## <a name="what-is-the-integration-with-office-365-about"></a>Quali sono i vantaggi dell'integrazione con Office 365 ?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>È possibile annullare la sottoscrizione?
@@ -45,6 +42,9 @@ Sì. Se si desidera estendere il periodo di prova, è necessario contattare a Mi
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa home page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 È opportuno verificare se l'amministratore ha modificato la Gestione ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone che determina l'impostazione delle autorizzazioni e la home page predefinita. È possibile modificare manualmente la Gestione ruolo utente nelle impostazioni, ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la home page precedente perché le autorizzazioni non sono state modificate.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Perché non si riesce a trovare una funzionalità in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Nella roadmap o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] alla versione più recente. Se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la sua disponibilità in AppSource.
 
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

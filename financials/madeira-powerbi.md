@@ -1,8 +1,6 @@
 ---
 title: Pacchetti di contenuto per Dynamics 365 for Financials e Power BI | Documenti Microsoft
 description: "Ottenere informazioni approfondite, business intelligence e KPI sui dati di Financials è semplice con Power BI e con i pacchetti di contenuto di Financials."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,25 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 06/02/2017
+ms.date: 09/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI
-Ottenere informazioni approfondite sui dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] è semplice con Power BI e con i pacchetti di contento di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI recupera i dati e quindi sviluppa un dashboard e i report pronti per l'uso basati su tali dati.  
+Ottenere informazioni approfondite sui dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] è semplice con Power BI e con i pacchetti di contenuto di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI recupera i dati e quindi sviluppa un dashboard e i report pronti per l'uso basati su tali dati.  
 
-I pacchetti di contenuti sono preconfigurati per utilizzare i dati di vendita e i dati finanziari della società demo che si crea quando ci si sottoscrive per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+Microsoft ha pubblicato i seguenti pacchetti di contenuto:
 
-* Selezionare qualsiasi visualizzazione sul dashboard per portare in primo piano uno dei sette report sottostanti.  
+| App | Description |
+| --- | --- |
+| Microsoft Dynamics 365 for Financials | Fornisce un dashboard con i principali dati finanziari nel tempo, quali gli utili rispetto alle spese, il margine operativo e il ciclo di cassa.|
+| Microsoft Dynamics 365 for Financials - CRM | Fornisce un dashboard con i dati principali relativi alle opportunità di vendita e ai contatti.  |
+| Microsoft Dynamics 365 for Financials - Vendite | Fornisce un dashboard con i dati principali relativi alle vendite e al magazzino. |
+
+## <a name="using-the-dashboards"></a>Utilizzo dei dashboard
+Ogni pacchetto di contenuto include report che è possibile analizzare in dettaglio:
+
+* Selezionare una qualsiasi visualizzazione nel dashboard per portare in primo piano uno dei report sottostanti.  
 * Filtrare il report o aggiungere i campi che si desidera monitorare.  
 * Aggiungere la visualizzazione personalizzata al dashboard per continuare la tracciabilità.  
-  Dashboard e report sottostanti vengono aggiornati ogni giorno. È possibile controllare la pianificazione aggiornata e modificare la frequenza del set di dati.  
+  È possibile aggiornare manualmente i dati e configurare la pianificazione degli aggiornamenti. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/)  
+
+I pacchetti di contenuti sono preconfigurati per utilizzare i dati della società demo che si crea quando si effettua l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Quando si installano le app in Power BI e si collegano dati personali, alcuni report potrebbero non funzionare perché si basano su dati di cui la società non dispone. In tali casi è possibile semplicemente rimuovere tali report dal dashboard.  
 
 > [!NOTE]  
 >   È inoltre possibile creare i propri report e dashboard in Power BI in base ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Collegare i dati aziendali a Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -50,13 +58,13 @@ Per accedere ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI,
 | **Nome utente** |Il nome come visualizzato per l'account in [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio *John Smith*. |
 | **Password** |Questa è la chiave di accesso al servizio Web per il proprio account utente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-Ciò significa che è necessario ottenere tre informazioni da Financials: l'URL OData e la chiave di accesso al servizio Web per il proprio account utente.  
+Ciò significa che è necessario ottenere due informazioni da [!INCLUDE[d365fin](includes/d365fin_md.md)]: l'*URL OData* e la *chiave di accesso al servizio Web* per il proprio account utente.  
 
 ### <a name="getting-the-url"></a>Ottenere l'URL
 Quando si aggiunge [!INCLUDE[d365fin](includes/d365fin_md.md)] a Power BI, è necessario specificare un URL in modo da Power BI possa accedere ai dati dalla società. Nella pagina di connessione, l'URL è denominato **URL Feed OData** e deve avere il seguente formato:
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In questo esempio, *mybusiness* il nome del servizio Financials e *CRONUS US* è il nome della società demo in cui *%20* rappresenta lo spazio nel nome.   
+In questo esempio, *mybusiness* è il nome del servizio [!INCLUDE[d365fin](includes/d365fin_md.md)] e *CRONUS US* è il nome della società demo in cui *%20* rappresenta lo spazio nel nome.   
 Per ottenere l'URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)] cercare e aprire la finestra **Servizi Web**. In questa finestra viene visualizzato un elenco dei servizi Web attualmente disponibili ed è possibile copiare il collegamento dal campo **OData URL** per uno dei servizi Web predefiniti di OData.  
 
 ### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Ottenere il nome utente e la chiave di accesso al servizio Web
@@ -65,15 +73,7 @@ Per utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Per trovare questa informazione, in [!INCLUDE[d365fin](includes/d365fin_md.md)] cercare la finestra **Utenti** e quindi aprire la scheda relativa al proprio account utente. Nella Scheda dettaglio **Generale** copiare il contenuto del campo **Nome utente** e nella Scheda dettaglio **Accesso al servizio Web** copiare il contenuto del campo **Chiave di accesso al servizio Web**. Se il campo **Chiave di accesso al servizio Web** è vuoto, nella barra multifunzione, selezionare **Modifica chiave di accesso al servizio Web**, selezionare il campo **La chiave non scade mai** e quindi fare clic sul pulsante OK. È quindi possibile copiare la chiave.  
 
 ## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Acquisizione dei dati da [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Il dashboard di [!INCLUDE[d365fin](includes/d365fin_md.md)] mostra i report tipici che più opportuno utilizzare per tenere traccia delle attività. I dati vengono estratti dalla società di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando i servizi Web per la lettura dei dati live. Nella finestra **Servizi Web** di [!INCLUDE[d365fin](includes/d365fin_md.md)], vengono elencati i servizi Web che sono stati impostati per l'utente, incluse le seguenti operazioni utilizzate dal pacchetto di contenuto in Power BI:  
-
-* ItemSalesAndProfit  
-* ItemSalesByCustomer  
-* powerbifinance  
-* SalesDashboard  
-* SalesOpportunities  
-* SalesOrdersBySalesPerson  
-* TopCustomerOverview  
+Il dashboard di [!INCLUDE[d365fin](includes/d365fin_md.md)] mostra i report tipici che più opportuno utilizzare per tenere traccia delle attività. I dati vengono estratti dalla società di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando i servizi Web per la lettura dei dati live. Nella finestra **Servizi Web** di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono elencati i servizi Web che sono stati impostati.
 
 > [!NOTE]  
 >   Se si modifica il nome di uno qualsiasi dei servizi Web, i dati non verranno mostrati in Power BI.  
@@ -108,19 +108,21 @@ Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la fines
 
 * Verificare che l'URL corrisponda al modello che è stato specificato in precedenza:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * Un errore comune consiste nello specificare l'URL completo per un servizio Web specifico:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Oppure è possibile che si sia stato dimenticato di specificare il nome della società:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## <a name="see-also"></a>Vedi anche
+[Business Intelligence](bi.md)  
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrare i dati aziendali da altri sistemi contabili](upload-data.md)  
 [Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

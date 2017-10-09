@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 035f4c0e98e3b7ba308319c2017568de832e26c5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6379aea58ab7943b117e5b19b22f71193290c2cb
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-enable-application-of-ledger-entries-in-different-currencies"></a>Procedura: Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
@@ -37,8 +36,19 @@ Nella procedura riportata di seguito viene descritto come configurare questa imp
 | Opzione | Descrizione |
 | --- | --- |
 | Nessuno |Collegamento fra valute non consentito. |
-| UE |Collegamento fra valute UE consentito. |
+| UE |Collegamento fra valute UE consentito |
 | Tutto |Collegamento fra tutte le valute consentito |
+
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Per impostare i conti C/G per le differenze di arrotondamento di applicazione delle valute  
+Se movimenti in diverse valute vengono collegati, è necessario impostare il conto di contabilità generale in cui verranno registrate le differenze di arrotondamento.  
+  
+> [!NOTE]  
+>  È necessario impostare i conti di contabilità generale prima di completare il task. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md). 
+  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Categorie registrazione clienti**, quindi scegliere il collegamento correlato.  
+2. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
+3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Categorie registrazione fornitori**, quindi selezionare il collegamento correlato.  
+4. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

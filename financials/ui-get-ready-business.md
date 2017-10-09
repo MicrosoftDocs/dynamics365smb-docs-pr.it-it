@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
@@ -39,7 +39,7 @@ Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità pe
 | Imposta comp. agg. per Office |Imposta la possibilità di utilizzare e avviare [!INCLUDE[d365fin](includes/d365fin_md.md)] da Outlook. |
 | Imposta workflow di approv. |Imposta la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare alcuni valori in documenti, righe registrazioni o schede, ad esempio un importo oltre un limite specificato. |
 | Imposta log delle e-mail |Imposta la possibilità di registrare la corrispondenza tramite e-mail in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un follow-up delle interazioni. |
-| Imposta connessione a Dynamics CRM |Imposta una connessione a Dynamics CRM che consente di sincronizzare i dati quali contatti e informazioni sull'ordine di vendita. |
+| Imposta il connettore per Dynamics 365 |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
 
 Dopo avere eseguito un setup assistito, viene contrassegnato come **Completato**. Per eseguire il setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
 

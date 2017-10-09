@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>Procedura: Modificare la Gestione ruolo utente
@@ -29,7 +28,6 @@ Il contenuto della home page si basa sulla Gestione ruolo utente selezionata. La
 1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente"), quindi scegliere **Impostazioni personali**.
 2. Nella fienstra **Impostazioni personali** nel campo **Gestione ruolo utenter** selezionare la Gestione ruolo utente che si desidera impostare come standard. Ad esempio, selezionare **Contabile**.
 3. Scegliere il pulsante **OK**.
-4. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

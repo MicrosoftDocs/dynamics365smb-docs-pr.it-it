@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 146fc08f389a5c068044358c59b7d8911f0b3343
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7d82b1c63bb1da367736f8dd044640b583493af8
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-locations"></a>Procedura: Impostare le ubicazioni
@@ -34,6 +33,9 @@ Se si acquista, immagazzina o si vendono articoli in più aree o warehouse, è n
 3. Nella finestra **Scheda ubicazione** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Ripetere i passaggi 2 e 3 per ogni ubicazione in cui si desidera mantenere il magazzino.
 
+> [!NOTE]  
+> Molti campi della scheda ubicazione fanno riferimento alla gestione degli articoli nei processi della warehouse in entrata e in uscita. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md). 
+
 ## <a name="to-create-a-transfer-route"></a>Per creare i percorsi di trasferimento
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Percorsi di trasferimento**, quindi scegliere il collegamento correlato.
 2. In alternativa, da una qualsiasi finestra **Scheda Ubicazione** scegliere l'azione **Percorsi trasferimento**.
@@ -44,7 +46,6 @@ A questo punto è possibile trasferire agli articoli di magazzino tra due ubicaz
 
 ## <a name="see-also"></a>Vedi anche
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
-[Catena di approvvigionamento](madeira-supply-chain.md)  
 [Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  

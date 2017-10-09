@@ -1,8 +1,6 @@
 ---
-title: Benvenuto in Dynamics 365 for Financials| Documenti Microsoft
-description: "Dynamics 365 for Financials è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy."
-services: project-madeira
-documentationcenter: 
+title: Scoprire Dynamics 365 for Financials | Documenti Microsoft
+description: "Informazioni sulle funzionalità e gli scenari di lavoro in Dynamics 365 for Financials, una soluzione di gestione aziendale per piccole e medie imprese."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno fami
 Per alcuni suggerimenti utili e immediati, vedere:  
 
 * [Individuare le funzionalità](ui-search.md)  
-* [Impostare i filtri](ui-enter-criteria-filters.md)  
-* [Ordinare i dati negli elenchi](ui-sorting.md)  
+* [Ricerca, filtro e ordinamento di liste](ui-enter-criteria-filters.md)  
+* [Immissione di dati](ui-enter-data.md)  
 
 Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -60,16 +57,19 @@ Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità pe
 | Imposta creazione di report |Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
 | Imposta un workflow di approvazione articolo |Imposta la capacità di inviare una notifica a un approvatore quando un utente modifica o crea un elemento. |
 | Imposta un workflow di approvazione pagamenti |Imposta la capacità di inviare una notifica ad un approvatore quando un utente invia righe di registrazione pagamenti per l'approvazione. |
-| Imposta connessione a Dynamics CRM |Imposta una connessione a Dynamics CRM, che consente di sincronizzare i dati quali contatti e informazioni sull'ordine di vendita. |
+| Imposta il connettore per Dynamics 365 |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
 | Setup imposta vendita |Consente di iniziare con i Gruppi imposta di default e codici area imposte di assegnazione che è possibile assegnare a clienti e fornitori automaticamente per calcolare l'imposta sulle vendite o nei documenti di acquisto. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Sperimentare le operazioni nella propria società
-Valutare la sottoscrizione È possibile passare facilmente dalla società d'esempio a una società creata appositamente e lavorare in autonomia. Questo è un primo passo molto per effettuare il passaggio a una sottoscrizione vera e propria. Le impostazioni dei dati finanziari sono già predisposte, è sufficiente creare o importare articoli, clienti e fornitori. Dopo questo passaggio, è possibile inviare fatture e utilizzare strumenti di business intelligence per analizzare la propria attività. È possibile utilizzare la società gratuitamente per un periodo di prova di 30 giorni. Se si effettua una sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] in questo periodo, si è già pronti. È possibile continuare il lavoro già effettuato durante il test.  
+Valutare la sottoscrizione È possibile passare facilmente dalla società d'esempio a una società creata appositamente e lavorare in autonomia. Questo è un primo passo molto per effettuare il passaggio a una sottoscrizione vera e propria. Le impostazioni per i dati finanziari sono già fornite; è sufficiente creare o importare clienti, fornitori e prodotti o servizi venduti. Dopo questo passaggio, è possibile inviare fatture e utilizzare strumenti di business intelligence per analizzare la propria attività. È possibile utilizzare la società gratuitamente per un periodo di prova di 30 giorni. Se si effettua una sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] in questo periodo, si è già pronti. È possibile continuare il lavoro già effettuato durante il test.  
 
 Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società**. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare la home page e individuare l'azione **Setup assistito**.  
 
 ## <a name="ready-to-subscribe"></a>Pronti per la sottoscrizione?
-Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di sottoscrivere, utilizzare il collegamento nella notifica per entrare in contatto con Microsoft. È inoltre possibile passare a [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di sottoscrivere, utilizzare il collegamento nella notifica per entrare in contatto con Microsoft. È anche possibile contattare il team addetto alle vendite di [!INCLUDE[d365fin](includes/d365fin_md.md)] in [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
+Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](https://docs.microsoft.com/dynamics365) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [Sito Web di Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Ogni volta che si accede durante il periodo di prova, una notifica in una barra 
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Documentazione di Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

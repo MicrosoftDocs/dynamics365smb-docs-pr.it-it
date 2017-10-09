@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Procedura: Utilizzare i workflow di approvazione
 Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve essere approvato da una persona della propria organizzazione, inviare una richiesta di approvazione come parte di un flusso di lavoro. In base all'impostazione del flusso di lavoro, al responsabile dell'approvazione appropriato viene inviata una notifica relativa alla richiesta di approvazione del record.
 
-I workflow di approvazione vengono impostati della finestra finestra **Workflow**.
+I workflow di approvazione vengono impostati della finestra finestra **Workflow**. Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).
+
+Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
 
 I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
@@ -47,17 +48,6 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 - Nella finestra in cui viene visualizzato il record, selezionare l'azione **Annulla richiesta approvazione**.
 
 Una volta che la richiesta di approvazione è stata annullata, lo stato della voce di approvazione correlata viene impostato automaticamente su **Annullato**. Lo stato del record viene aggiornato da **Approvazione in sospeso** ad **Aperto**. Il processo di approvazione può quindi essere avviato nuovamente.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Per apportare modifiche di lieve entità a record approvati
-Se si desidera apportare una modifica di lieve entità a un record dopo la relativa approvazione, è possibile riaprire il record, apportare la modifica e, successivamente, rilasciarlo. Per le modifiche di lieve entità, questa operazione può essere eseguita mediante i pulsanti **Riapri** e **Rilascia**.
-
-1. Aprire la finestra in cui è visualizzato il record, ad esempio una fattura di acquisto, e scegliere l'azione **Riapri**.
-
-    Il campo **Stato del documento** viene impostato su **Aperto**.
-2. Apportare le modifiche necessarie al record, ad esempio l'indirizzo del fornitore.
-3. Scegliere l'azione **Rilascia**.
-
-Quando si riapre il record originale, lo stato del movimento di approvazione correlato rimane Approvato nella finestra **Movimenti approvazione**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Per approvare o rifiutare le richieste di approvazione
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
@@ -98,5 +88,5 @@ La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste
 [Vendite](sales-manage-sales.md)    
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

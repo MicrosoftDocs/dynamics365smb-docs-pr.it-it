@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
@@ -41,7 +40,7 @@ Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificar
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati da altri sistemi contabili](upload-data.md)  
-[Procedura: Utilizzare i codici GIFI in Canada](ca-finance-work-gifi-codes.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Procedura: Definire i layout degli assegni
@@ -27,7 +26,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 
 ## <a name="to-define-check-layouts"></a>Per definire i layout degli assegni
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezioni report C/C bancari**, quindi scegliere il collegamento correlato.
-2. Nella finestra **Selez. report - C/C bancario** nel campo **Utilizzo** selezionare **Assegno**.
+2. Nella finestra **Selez. report - C/C bancario**, nel campo **Utilizzo** selezionare **Assegno**.
 3. Selezionare uno dei seguenti ID report:
 
 | ID report | Nome report | Descrizione |

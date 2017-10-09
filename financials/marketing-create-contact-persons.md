@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Creazione di contatti
@@ -29,9 +28,9 @@ Qualora sia necessario far tradurre alcune pubblicazioni sui propri prodotti è 
 
 Registrando il numero più elevato possibile di dettagli su un contatto, tutti i gruppi della società saranno in grado di eseguire ricerche di informazioni molto più efficienti.
 
-Nella tabella seguente viene descritta una sequenza di attività e vengono riportati i collegamenti agli argomenti in cui sono illustrate tali attività. Questi task sono elencati nell'ordine in cui vengono in genere eseguiti.
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
 | Fornire informazioni su un contatto. |[Procedura: Creare contatti](marketing-how-create-contact-persons.md) |
 | Impostare un indirizzo alternativo per un contatto. |[Procedura: Assegnare indirizzi alternativi](marketing-how-assign-alternate-address.md) |
@@ -41,6 +40,6 @@ Nella tabella seguente viene descritta una sequenza di attività e vengono ripor
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di società contatto](marketing-create-contact-companies.md)  
-[Creazione e gestione di contatti](marketing-create-contact-persons.md)  
+[Creazione e gestione di contatti]()  
 [Utilizzo di Financials](ui-work-product.md)
 

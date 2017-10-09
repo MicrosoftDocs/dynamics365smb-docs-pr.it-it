@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Novità di Dynamics 365 for Financials
@@ -31,7 +30,7 @@ In questa pagina, è possibile verificare quali aree vengono rese disponibili du
 Come annunciato sul blog, offriamo ora un servizio per le attività professionali. In questo aggiornamento sono state inoltre aggiunte nuove capacità e una nuova estensione.
 
 ### <a name="project-management"></a>Gestione progetti
-Tramite l'esperienza Suite, è possibile gestire i progetti e il lavoro con risorse, fogli presenze e compiti. Quando si accede per la prima volta con ruolo di Manager progetto, una guida di installazione assistita aiuterà a configurare le modalità per gestire i progetti. È possibile lavorare con account, compiti, risorse di esempio e così via nella società dimostrativa per familiarizzare con la funzionalità. Per ulteriori informazioni, vedere [Gestire progetti](projects-manage-projects.md).
+Tramite l'esperienza Suite, è possibile gestire i progetti e il lavoro con risorse, fogli presenze e compiti. Quando si accede per la prima volta con ruolo di Manager progetto, una guida di installazione assistita aiuterà a configurare le modalità per gestire i progetti. È possibile lavorare con account, compiti, risorse di esempio e così via nella società dimostrativa per familiarizzare con la funzionalità. Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Cespiti
 Se si passa all'esperienza Suite, è possibile gestire i cespiti, tra cui ammortamento e assicurazione. Viene fornita una configurazione standard, ma è possibile modificarla in qualsiasi momento. È possibile registrare gli acquisti di cespiti in registrazioni cespiti in C/G dedicate in cui è possibile anche effettuare la cessione dei cespiti. I movimenti contabili corretti vengono creati automaticamente. Per ulteriori informazioni, vedere [Cespiti](fa-manage.md).
@@ -91,7 +90,7 @@ Questo aggiornamento aggiunge le azioni al dashboard dei fornitori nel component
 Il componente aggiuntivo di Outlook si estende ora al calendario di Outlook. Da un appuntamento del calendario, è possibile aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)] e ottenere una panoramica del cliente associato all'appuntamento. Quindi, è possibile creare e inviare una fattura per i servizi forniti nella riunione, tutto questo proprio nel calendario di Outlook. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Marketplace AppSource per le estensioni
-Le estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono ora disponibili nel marketplace di AppSource all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/). È possibile cercare e individuare le estensioni nel marketplace. È possibile visualizzare le informazioni, inclusi materiale di marketing, screenshot, video e collegamenti a dettagli aggiuntivi. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).  
+Le estensioni [!INCLUDE[d365fin](includes/d365fin_md.md)] sono ora disponibili nel marketplace AppSource all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/). È possibile cercare e individuare le estensioni nel marketplace. È possibile visualizzare le informazioni, inclusi materiale di marketing, screenshot, video e collegamenti a dettagli aggiuntivi. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Spedizionieri e attributi degli articoli
 È possibile aggiungere gli attributi agli articoli di magazzino, questo semplifica la ricerca del prodotto che il cliente desidera. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Le estensioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono ora disponibil
 In questo aggiornamento, è possibile scegliere tra ancora più estensioni nella finestra **Gestione estensioni**.
 Per ulteriori informazioni, vedere [[!INCLUDE[d365fin](includes/d365fin_md.md)] Estensioni fornite da altri provider](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Gestire le relazioni con il cliente utilizzando Microsoft Dynamics CRM da [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Abbiamo aggiunto una nuova guida di installazione assistita alla home page del Manager aziendale che guida nel processo di configurazione per connettersi a Dynamics CRM. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics CRM e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Gestione delle relazioni clienti utilizzando Microsoft Dynamics CRM da [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Gestione delle relazioni clienti utilizzando Microsoft Dynamics 365 for Sales da [!INCLUDE[d365fin](includes/d365fin_md.md)]
+È stata aggiunta una nuova guida di setup assistito alla home page del Manager aziendale che fornisce le istruzioni necessarie per connettersi a Dynamics 365 for Sales. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics 365 for Sales e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Gestione delle relazioni clienti utilizzando Microsoft Dynamics 365 for Sales da [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Aggiornamento di maggio 2016
 Questo aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiunge nuove capacità come [annunciato sul blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

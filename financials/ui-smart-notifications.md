@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Notifiche smart
@@ -27,11 +26,13 @@ Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile i
 Le notifiche consentono agli utenti non addestrati di completare attività poco familiari senza ridurre la produttività dell'utente più formato.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Attivare o disattivare le notifiche e controllare quando vengono inviate
-Al primo avvio di [!INCLUDE[d365fin](includes/d365fin_md.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.   
+Al primo avvio di [!INCLUDE[d365fin](includes/d365fin_md.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.  
+  
 Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio. Ad esempio, se si desidera ricevere una notifica quando le scorte in magazzino sono insufficienti, ma solo per gli articoli acquistati da un determinato fornitore.  
+  
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), inserire **Notifiche personali**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), inserire **Notifiche personali**, quindi scegliere il collegamento correlato.
 2. Per attivare o disattivare una notifica, selezionare o deselezionare la casella di controllo **Abilitata**.
 3. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  
 

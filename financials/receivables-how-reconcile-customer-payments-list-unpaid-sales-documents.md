@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Procedura: Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati
@@ -74,7 +73,7 @@ I movimenti dei pagamenti vengono registrati nei conti di contabilità generale,
 
 I movimenti dei pagamenti vengono registrati nei conti di contabilità generale, nei conti bancari e nei conti clienti. Ogni pagamento viene collegato al documento di vendita registrato correlato.  
 
-Se un pagamento della banca non è rappresentato dalla riga della finestra **Registrazione pagamenti**, è possibile che il documento correlato non sia ancora stato registrato. In questo caso, è possibile utilizzare una funzione di ricerca per trovare rapidamente il documento e registrarlo per elaborare il pagamento. Per ulteriori informazioni, vedere la sezione Procedura: Individuare documenti non pagati durante la riconciliazione manuale dei pagamenti clienti.  
+Se un pagamento della banca non è rappresentato dalla riga della finestra **Registrazione pagamenti**, è possibile che il documento correlato non sia ancora stato registrato. In questo caso, è possibile utilizzare una funzione di ricerca per trovare rapidamente il documento e registrarlo per elaborare il pagamento. Per ulteriori informazioni, vedere la sezione "Per trovare un documento di vendita specifico non completamente fatturato".  
 
 Se un pagamento della banca non è rappresentato da alcun documento in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile aprire una riga di registrazione COGE precompilata nella finestra **Registrazione pagamenti** per registrare il pagamento direttamente nella contropartita senza collegarlo a un documento. In alternativa, è consigliabile inserire il pagamento nelle registrazioni fino a chiarire l'origine del pagamento. Per ulteriori informazioni, vedere la sezione "Per registrare un pagamento senza un documento correlato".  
 
@@ -138,7 +137,7 @@ Il documento correlato rimane aperto.
 Il documento correlato è chiuso e al cliente viene accreditato l'importo di pagamento in eccesso.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Per trovare un documento di vendita specifico non completamente fatturato
-La finestra **Registrazione pagamenti** fornisce supporto in attività necessarie per le contropartite interne con le cifre effettive di cassa per garantire la raccolta dai clienti e il pagamento dovuto ai fornitori. Mostra i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo.  
+La finestra **Registrazione pagamenti** fornisce supporto in attività necessarie per le contropartite interne con le cifre effettive di cassa per garantire la raccolta dai clienti. Mostra i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo.  
 
 In genere, quando è stato eseguito un pagamento ed è stato registrato nella banca o altrove, il documento di vendita o di acquisto correlato è rappresentato come riga nella finestra **Registrazione pagamenti** poiché il documento in questione attende la registrazione del pagamento dell'importo inevaso. Talvolta un pagamento effettuato non è tuttavia rappresentato da una riga nella finestra **Registrazione pagamenti**, in genere perché la fattura del documento in questione non è stata completamente registrata.
 
@@ -151,7 +150,7 @@ Nella procedura seguente viene illustrato come trovare un documento specifico ut
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazione pagamenti**, quindi scegliere il collegamento correlato.
 2. Con il puntatore su una riga qualsiasi, scegliere l'azione **Cerca documenti**.
-3. Nella finestra **Ricerca documenti** immettere un valore di ricerca nel campo **Nr. documento**.    
+3. Nella finestra **Ricerca documenti** immettere un valore di ricerca nel campo **Nr. documento**.  
 
     > [!NOTE]  
 >   Il valore immesso in questo campo è contenuta in caratteri jolly nascosti. Ciò significa che la funzione ricerca tutti i numeri dei documenti contenenti il valore immesso.    

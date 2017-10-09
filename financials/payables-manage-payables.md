@@ -10,28 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9684a91268927a4f1f4d249fef019c8f6ac00325
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d260cf22980d097637e26d97282ad5e4f344120a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
-Una parte importante della gestione della contabilità fornitori consiste nel pagare i fornitori. È possibile utilizzare funzioni per aggiungere righe di pagamenti per le fatture di acquisto che sono in scadenza nella finestra **Registrazioni pagamenti**. Per inviare transazioni alla banca, è possibile esportare più righe di registrazione pagamenti in un file, che sarà quindi caricato nella banca. È inoltre possibile effettuare i pagamenti con assegno, incluso trasmettere assegni come pagamenti elettronici.
+Una parte importante della gestione della contabilità fornitori consiste nel pagare i fornitori o rimborsare le spese ai dipendenti. È possibile utilizzare funzioni per aggiungere righe di pagamenti per le fatture di acquisto che sono in scadenza nella finestra **Registrazioni pagamenti**. Per inviare transazioni alla banca, è possibile esportare più righe di registrazione pagamenti in un file, che sarà quindi caricato nella banca. È inoltre possibile effettuare i pagamenti con assegno, incluso trasmettere assegni come pagamenti elettronici.
 
-Un'altra attività tipica è il collegamento dei pagamenti in uscita ai relativi movimenti contabili fornitori per chiudere le fatture di acquisto o le note di credito di acquisto come pagate. È possibile eseguire questa attività nella finestra **Registrazione riconciliazione pagamenti** importando un file di rendiconto bancario per registrare i pagamenti. I pagamenti sono collegati ai movimenti contabili aperti per clienti o fornitori abbinando il testo di pagamento e le informazioni sul movimento. Esistono varie modalità di esaminare e modificare le corrispondenze prima di contabilizzare le registrazioni. Quando si effettua la registrazione, è possibile scegliere di chiudere qualsiasi movimento contabile di conto corrente bancario aperto correlato ai movimenti contabili. Il conto bancario viene automaticamente riconciliato una volta che tutti i pagamenti sono collegati.
+Un'altra attività tipica è il collegamento dei pagamenti in uscita ai relativi movimenti contabili fornitori o dipendenti per chiudere le fatture di acquisto, le note di credito di acquisto o i conti dipendenti come pagati. È possibile eseguire questa attività nella finestra **Registrazione riconciliazione pagamenti** importando un file di rendiconto bancario per registrare i pagamenti. I pagamenti sono collegati ai movimenti contabili aperti per fornitori, clienti o dipendenti abbinando il testo di pagamento e le informazioni sul movimento. Esistono varie modalità di esaminare e modificare le corrispondenze prima di contabilizzare le registrazioni. Quando si effettua la registrazione, è possibile scegliere di chiudere qualsiasi movimento contabile di conto corrente bancario aperto correlato ai movimenti contabili. Il conto bancario viene automaticamente riconciliato una volta che tutti i pagamenti sono collegati.
 
-In alternativa, è possibile collegare i pagamenti in uscita manualmente nella finestra **Registrazioni pagamenti** o dai movimenti di contabilità fornitore correlati.
+In alternativa, è possibile collegare i pagamenti in uscita manualmente nella finestra **Registrazioni pagamenti** o dai movimenti contabili fornitori o dipendenti correlati.
 
 Nella tabella seguente viene descritta una sequenza di attività, all'interno della contabilità fornitori, con collegamenti agli argomenti che li descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
-| Generare pagamenti fornitori in scadenza classificati in ordine di priorità in base agli sconti sui pagamenti e alle penalità per i pagamenti scaduti. In alternativa, esportare i pagamenti in un file della banca quando si effettua la registrazione. |[Effettuare i pagamenti](payables-make-payments.md) |
+| Generare i pagamenti fornitori o i rimborsi ai dipendenti in scadenza, preparare i pagamenti degli assegni ed esportare i pagamenti in un file della banca durante la registrazione. |[Effettuare i pagamenti](payables-make-payments.md) |
 | Collegare i pagamenti fornitori automaticamente alle fatture di acquisto non pagate importando un file di rendiconto bancario. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Collegare manualmente i pagamenti fornitori alle fatture di acquisto non pagate. |[Procedura: Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md) |
 |È possibile assicurarsi della corretta valutazione di magazzino assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute per gli acquisti.|[Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|

@@ -1,7 +1,6 @@
 ---
 title: Impostare cespiti| Documenti Microsoft
 description: "Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici."
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
@@ -32,6 +30,9 @@ Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. D
 >   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**.  
 
 Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della finestra **Scheda registro beni ammortizz.**, la finestra **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
+
+> [!NOTE]  
+>  Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di Financials](ui-experiences.md).  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 

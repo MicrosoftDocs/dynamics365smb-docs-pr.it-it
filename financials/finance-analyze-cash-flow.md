@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
@@ -30,7 +29,6 @@ Il contante riveste un ruolo fondamentale in azienda. I grafici di Gestione ruol
 | Le cifre relative a un periodo sembrano anomale?</br> Dovrei approfondire? |Entrate e uscite |
 | Quando potrebbe verificarsi un'eccedenza o un disavanzo di cassa?</br> Dovrei pagare i debiti o stipulare un prestito per le spese imminenti? |Previsioni flusso di cassa |
 
-## <a name="dig-into-the-numbers"></a>Analizzare le cifre
 In Gestione ruolo utente Contabile, **Prestazioni finanziarie**, i grafici **Ciclo di cassa**, **Flusso di cassa** ed **Entrate e uscite** consentono di analizzare il flusso di cassa.  
 
 * Visualizzare le cifre per un periodo utilizzando il cursore della sequenza temporale.  
@@ -38,7 +36,7 @@ In Gestione ruolo utente Contabile, **Prestazioni finanziarie**, i grafici **Cic
 * Modificare la durata del periodo oppure passare al periodo precedente o successivo, selezionando le opzioni nel menu a discesa **Prestazioni finanziarie**.  
 * Visualizzare i movimenti scegliendo un punto del grafico. Ad esempio, un punto della sequenza temporale o un segmento colonna. Se le cifre sembrano anomale, questo è il punto dove è possibile apportare rettifiche.  
 
-Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile. È possibile osservare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi. Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione**.
+Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile. È possibile visualizzare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi. Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione**.
 
 Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibile analizzarne il prospetto flussi di cassa. Ad esempio, è possibile vedere come la previsione:
 
@@ -46,7 +44,7 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 * Sottrae i debiti e aggiunge i crediti.  
 * Salta gli ordini di vendita e di acquisto doppi.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
+## <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
 1. Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.  
 2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
 3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  

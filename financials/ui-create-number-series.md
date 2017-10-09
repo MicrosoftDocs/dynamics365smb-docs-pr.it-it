@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Procedura: Creazione di numerazioni
@@ -27,7 +26,7 @@ Per ogni società impostata, è necessario assegnare codici di identificazione u
 
 Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario impostare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
 
-In genere, si imposta la serie di numeri per inserire automaticamente il numero immediatamente successivo nelle nuove schede o documenti creati. Tuttavia, è anche possibile impostare una numerazione che consente l'immissione manuale del nuovo numero. Selezionare l'opzione **Consenti num. manuale** .
+In genere, si imposta la serie di numeri per inserire automaticamente il numero immediatamente successivo nelle nuove schede o documenti creati. Tuttavia, è anche possibile impostare una numerazione che consente l'immissione manuale del nuovo numero. A tale scopo selezionare la casella di controllo **Consenti num. manuale**.
 
 Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, ad esempio per utilizzare una numerazione diversa per diverse categorie di articoli, è possibile utilizzare relazioni tra numerazioni.
 
@@ -36,7 +35,7 @@ Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, 
 2. Scegliere l'azione **Nuovo**.
 3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**SUGGERIMENTO**: per consentire l'immissione manuale di un numero nelle nuove schede o documenti, deselezionare la casella di controllo **Proponi automaticamente** e selezionare la casella di controllo e **Consenti num. manuale**. .
+**SUGGERIMENTO**: Per consentire l'immissione manuale di un numero nelle nuove schede o documenti, deselezionare la casella di controllo **Proponi automaticamente** e selezionare la casella di controllo **Consenti num. manuale**.
 
 Ora quando si crea una nuova scheda o un documento che è impostato per utilizzare la serie di numeri in questione, è possibile compilare manualmente il campo **Nr.** con qualsiasi valore.  
 

@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
@@ -38,6 +37,9 @@ Più dimensioni si utilizzano, più dettagliati sono i report su cui è possibil
 
 ## <a name="analyzing-by-dimensions"></a>Analisi per dimensioni
 La funzionalità Dimensioni svolge un ruolo importante in business intelligence, ad esempio quando si definiscono le visualizzazioni analisi. Per ulteriori informazioni, vedere [Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le finestre **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
 
 ## <a name="dimension-sets"></a>Set di dimensioni
 Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene archiviato come movimenti set di dimensioni nel database. Ogni movimento set di dimensioni rappresenta un valore dimensioni singolo. Il set di dimensioni è identificato da un ID set di dimensioni comune assegnato a ogni movimento set di dimensioni che appartiene al set di dimensioni.  
@@ -104,10 +106,11 @@ In un documento come un ordine di vendita, è possibile aggiungere le informazio
 
 Se si lavora nelle registrazioni invece, è possibile aggiungere informazioni sulle dimensioni a un movimento nello stesso modo, se le dimensioni a collegamento rapido sono state impostate come campi direttamente sulle righe di registrazione.  
 
-È possibile impostare le dimensioni di default per i conti o i tipi di conto, in modo che le dimensioni e i valori dimensioni vengano compilati automaticamente.  
+È possibile impostare le dimensioni di default per i conti o i tipi di conto, in modo che le dimensioni e i valori dimensioni vengano compilati automaticamente.
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  
 [Finanze](finance.md)  
+[Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

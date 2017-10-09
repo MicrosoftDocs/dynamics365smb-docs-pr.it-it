@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Procedura: Acquisire i cespiti
@@ -53,7 +52,7 @@ il bene principale e tutti i suoi componenti devono essere impostati come schede
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cespiti**, quindi scegliere il collegamento correlato.
 2. Selezionare il cespite che costituisce il bene principale, quindi scegliere l'azione **Componenti bene principale**.
-3. Nella finestra **Componenti bene principale** scegliere il campo **Nr. cespite** e selezionare il cespite che si desidera aggiungere come componente del bene principale.
+3. Nella finestra **Componenti bene principale** scegliere il campo **Nr. cespite**, quindi selezionare il cespite che si desidera aggiungere come componente del bene principale.
 4. Chiudere la finestra.
 5. Ripetere i passaggi 3 e 4 per ogni bene componente che si intende aggiungere.
 6. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup cespiti**, quindi scegliere il collegamento correlato.
@@ -71,7 +70,7 @@ Di seguito viene descritto come acquistare manualmente un cespite creando e regi
 4. Scegliere l'azione **Registra**.  
 
 > [!TIP]  
->   Se durante la registrazione di un costo di acquisto viene compilato il campo **Nr. assicurazione** il costo di acquisizione del cespite verrà registrato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nel registro copertura assicurativa. Per ulteriori informazioni, vedere [Procedura: Assicurazione di cespiti](fa-how-insure.md).
+>   Se durante la registrazione di un costo di acquisto viene compilato il campo **Nr. Assicurazione**, il costo di acquisizione del cespite verrà registrato automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)] nel registro di copertura assicurativa. Per ulteriori informazioni, vedere [Procedura: Assicurazione di cespiti](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Per annullare una registrazione di costo di acquisto per un cespite
 In caso di errore nella registrazione di un costo di acquisto, è possibile rimuovere il movimento con il processo batch **Rimuovi mov. cespiti** e registrare il movimento di acquisto corretto. I movimenti errati vengono trasferiti alla finestra **Mov. cont. cespiti errati**.

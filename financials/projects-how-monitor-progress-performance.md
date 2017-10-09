@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 06/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-monitor-job-progress-and-performance"></a>Procedura: Monitorare lo stato di avanzamento e le prestazioni delle commesse
@@ -38,7 +37,8 @@ Se si desidera visualizzare il risultato utilizzando un metodo diverso, è possi
 ## <a name="to-create-a-job-wip-method"></a>Per creare un metodo WIP commessa
 È possibile creare un metodo WIP commessa che corrisponda alle esigenze dell'organizzazione. Dopo averlo creato, è possibile impostarlo come metodo di default di calcolo del WIP commessa da utilizzare nella propria organizzazione.  
 
-**Nota**. Dopo aver utilizzato il nuovo metodo per creare movimenti WIP, non è possibile eliminare il metodo o modificarlo.  
+> [!NOTE]
+> Dopo aver utilizzato il nuovo metodo per creare movimenti WIP, non è possibile eliminare il metodo o modificarlo.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Metodi WIP commessa**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -94,7 +94,8 @@ Tutti i movimenti correlati a una commessa vengono annotati nei registri commess
 Nella finestra **Movimenti cont. commesse** è possibile esaminare le voci associate a qualsiasi commessa.  
 
 ## <a name="see-also"></a>Vedi anche
-[Gestire progetti](projects-manage-projects.md)  
+[Gestione di progetti](projects-manage-projects.md)
+[Gestione costi di magazzino](finance-manage-inventory-costs.md)   
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      

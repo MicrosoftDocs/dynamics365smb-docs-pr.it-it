@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Procedura: Riconciliare i conti correnti bancari separatamente
@@ -45,7 +44,7 @@ Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Per compilare le righe di riconciliazione bancaria importando un estratto conto bancario
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Riconciliazione C/C bancari**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Nel campo **Nr. conto bancario** selezionare il conto bancario desiderato. I movimenti contabili di conti correnti bancari esistenti nel conto corrente bancario vengono visualizzati nel riquadro **Mov. contabili C/C bancari**.
+3. Nel campo **Nr. conto corrente** selezionare il conto corrente bancario importante. I movimenti contabili di conti correnti bancari esistenti nel conto corrente bancario vengono visualizzati nel riquadro **Mov. contabili C/C bancari**.
 4. Nel campo **Data Estratto Conto** immettere la data dell'estratto conto.
 5. Nel campo **Saldo Finale Estratto Conto** immettere il saldo che appare sull'estratto conto.
 6. Se si dispone di un file dell'estratto conto, selezionare l'azione **Importa rendiconto bancario**.
@@ -62,15 +61,15 @@ Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario
 1. Nella finestra **Riconciliazioni C/C bancari** scegliere l'azione **Corrispondenza automatica**. Verrà visualizzata la finestra **Movimenti bancari corrispondenti**.
 2. Nel campo **Tolleranza data transazione (giorni)** specificare l'intervallo di giorni prima e dopo la data di registrazione del movimento contabile del conto corrente bancario entro cui la funzione eseguirà la ricerca delle date di transazione corrispondenti nel rendiconto bancario.
 
-    Se si immette 0 o si lascia vuoto il campo, la funzione di **Corrispondenza automatica** cercherà solo le date di transazioni di corrispondenza sulla data di registrazione del movimento contabile di conto corrente bancario.  
-3. Scegliere il pulsante **OK**.  
+    Se si immette 0 o si lascia vuoto il campo, la funzione di **Corrispondenza automatica** cercherà solo le date di transazioni di corrispondenza sulla data di registrazione del movimento contabile di conto corrente bancario.
+3. Scegliere il pulsante **OK**.
 
     Tutte le righe del rendiconto bancario e i movimenti contabili di conti correnti bancari che possono corrispondere vengono modificati con carattere verde e la casella di controllo **Collegato** è selezionata.
 4. Per rimuovere una corrispondenza, selezionare la riga dell'estratto conto bancario quindi selezionare l'azione **Rimuovi corrispondenza**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Per associare manualmente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari
 1. Nella finestra **Riconciliazioni C/C bancari** selezionare una riga non collegata nel riquadro **Righe rendiconto bancario**.
-2. Nel riquadro **Mov. contabili C/C bancari** selezionare uno o più movimenti contabili del conto bancario che possono corrispondere alla riga selezionata del rendiconto bancario. Per selezionare più righe, tenere premuto il tasto CTRL.  
+2. Nel riquadro **Mov. contabili C/C bancari** selezionare uno o più movimenti contabili del conto bancario che possono corrispondere alla riga selezionata del rendiconto bancario. Per selezionare più righe, tenere premuto il tasto CTRL.
 3. Selezionare l'azione **Corrispondenza manuale**.
 
     La riga del rendiconto bancario selezionata e i movimenti contabili di conti correnti bancari selezionati cambiano in un tipo di carattere verde e la casella di controllo **Collegato** nel riquadro di destra viene selezionata.
@@ -81,7 +80,7 @@ Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario
 Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'addebito di commissioni. Per tali transazioni bancarie non può essere effettuata alcuna corrispondenza perché nessun movimento contabile collegato è presente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. È quindi necessario registrare una riga di registrazione per ogni transazione per creare un movimento contabile collegato per cui può essere effettuata una corrispondenza.
 
 1. Nella finestra **Riconciliazioni C/C bancari** scegliere l'azione **Trasferisci a registrazioni COGE**.  
-2. Nella finestra **Trans. ric. banc. in reg. gen.** specificare quali registrazioni COGE utilizzare e fare clic sul pulsante **OK**.
+2. Nella finestra **Trans. ric. banc. in reg. gen.** specificare quali registrazioni COGE utilizzare, quindi scegliere **OK**.
 
     Verrà visualizzata la finestra **Registrazioni COGE** contenente le nuove righe registrazioni per tutte le righe rendiconto bancario con movimenti contabili mancanti.
 3. Completare la riga di registrazione con le informazioni rilevanti, ad esempio il conto profitti/perdite. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 20661cce60bc9007adb9767388bf5af6f9c3acb9
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-bank-funds"></a>Procedura: Trasferire fondi bancari
@@ -25,32 +24,32 @@ Talvolta, può anche essere necessario effettuare un bonifico da un conto corren
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE**, quindi scegliere il collegamento correlato.
-2. In una riga di registrazione compilare i campi **Data di registrazione** e **Nr. documento**. .
+2. In una riga di registrazioni compilare i campi **Data di registrazione** e **Nr. documento**.
 3. Nel campo **Tipo conto** selezionare **Conti C/C bancari**.
 4. Nel campo **Nr. conto** selezionare la banca da cui si desidera trasferire i fondi.
 5. Immettere l'importo da traferire nel campo **Importo**.
 6. Nel campo **Tipo contropartita** selezionare **Conti C/C bancari**.
-7. Nel campo **Contropartita** selezionare il conto bancario da cui si desidera trasferire i fondi.
+7. Nel campo **Nr. contropartita** selezionare il conto bancario a cui si desidera trasferire i fondi.
 8. Effettuare la registrazione.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Per registrare un bonifico tra conti correnti bancari con codici valuta diversi
 Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse, è necessario inserire due righe di registrazioni COGE.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE**, quindi scegliere il collegamento correlato.
-2. Creare due righe di registrazione e compilare i campi **Data di registrazione** e **Nr. documento**. .
+2. Creare due righe di registrazione e compilare i campi **Data di registrazione** e **Nr. documento**.
 3. Nella prima riga di registrazioni selezionare **C/C bancario** nel campo **Tipo conto**.
-4. Nel campo **Nr. conto** selezionare il conto bancario a cui si desidera trasferire i fondi.
+4. Nel campo **Nr. conto** selezionare il conto bancario da cui si desidera trasferire i fondi.
 5. Nel campo **Importo** immettere la quantità nella valuta del conto corrente bancario. Immettere gli importi in Avere con un segno meno (-). Immettere gli importi in Dare senza il segno meno (-).
 6. Nel campo **Tipo contropartita** selezionare **Conti C/C bancari**.
-7. Nel campo **Contropartita** selezionare il conto bancario da cui si desidera trasferire i fondi.
+7. Nel campo **Nr. contropartita** selezionare il conto bancario a cui si desidera trasferire i fondi.
 8. Nella seconda riga di registrazioni selezionare **C/C bancario** nel campo **Tipo conto**.
-9. Nel campo **Nr. conto** selezionare il conto bancario da cui si desidera trasferire i fondi.
+9. Nel campo **Nr. conto** selezionare il conto bancario a cui si desidera trasferire i fondi.
 10. Nel campo **Importo** immettere la quantità nella valuta del conto corrente bancario. Immettere gli importi in Avere con un segno meno (-). Immettere gli importi in Dare senza il segno meno (-).
 11. Nel campo **Tipo contropartita** selezionare **Conti C/C bancari**.  
-12. Nel campo **Contropartita** selezionare il conto bancario a cui si desidera trasferire i fondi.
+12. Nel campo **Nr. contropartita** selezionare il conto bancario da cui si desidera trasferire i fondi.
 
     > [!NOTE]  
->   Se i tassi di cambio utilizzati nelle registrazioni sono diversi dai tassi riportati nella finestra **Tassi di cambio valuta**, compilare una terza riga per il guadagno o la perdita nel tasso di cambio. Immettere **Conto C/G** nel campo **Tipo conto**. Nel campo **Nr. conto** immettere il numero di conto C/G per i guadagni o le perdite nel tasso di cambio. . Immettere utile o perdita in **Importo** campo con o senza un segno meno per i crediti e debiti rispettivamente.
+>   Se i tassi di cambio utilizzati nelle registrazioni sono diversi dai tassi riportati nella finestra **Tassi di cambio valuta**, compilare una terza riga per il guadagno o la perdita nel tasso di cambio. Immettere **Conto C/G** nel campo **Tipo conto**. Nel campo **Nr. conto** immettere il numero di conto C/G per i guadagni o le perdite nel tasso di cambio. Immettere utile o perdita in **Importo** campo con o senza un segno meno per i crediti e debiti rispettivamente.
 13. Effettuare la registrazione.
 
 ## <a name="see-also"></a>Vedi anche

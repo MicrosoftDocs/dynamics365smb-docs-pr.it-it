@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>Procedura: Assicurazione di cespiti
@@ -50,7 +49,7 @@ La seguente procedura illustra come creare manualmente una riga di registrazione
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni assicurazioni**, quindi scegliere il collegamento correlato.  
 2. Aprire la registrazione pertinente e compilare le righe di registrazione necessarie.  
-3. Per assegnare più cespiti a una sola polizza, creare righe di registrazione con lo stesso valore nel campo **Nr. assicurazione** e valori diversi nel campo **Nr. Cespite**    
+3. Per assegnare più cespiti a una sola polizza, creare righe di registrazione con lo stesso valore nel campo **Nr. assicurazione** e valori diversi nel campo **Nr. cespite**.  
 4. Scegliere l'azione **Registra**.  
 
     > [!NOTE]  

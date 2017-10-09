@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Dynamics 365 for Financials
@@ -39,7 +38,7 @@ Per definire un filtro per il report, selezionare la chiave primaria dall'elenco
 ![Impostare il filtro del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
 ## <a name="report-size-and-color"></a>Dimensione e colori del report
-La dimensione del report deve essere impostata su 325 x 310 pixel. Ciò è necessario per il corretto ridimensionamento del report nello spazio disponibile consentito dal controllo del riquadro dettaglio informazioni di Power BI. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout dei report e quindi scegliere l'icona del rullo di verniciatura.
+La dimensione del report deve essere impostata su 325 x 310 pixel. Ciò è necessario per il corretto ridimensionamento del report nello spazio disponibile consentito dal controllo del riquadro dettaglio informazioni di Power BI. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
 
 ![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
@@ -64,7 +63,7 @@ In questa sezione viene fornita una soluzione alternativa per i problemi più co
 
 **L'utente non visualizza un report che desidera selezionare nella pagina di selezione report.** Se non è possibile selezionare un report, è possibile verificare il nome del report per assicurarsi che esso contenga il nome della pagina elenco. È anche possibile rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
-**Il report viene caricato ma è vuoto, non filtrato o filtrato erroneamente** Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento** .
+**Il report viene caricato ma è vuoto, non filtrato o filtrato erroneamente** Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
 
 **Il report viene caricato ma non viene visualizzata la pagina prevista** Verificare che la pagina che si desidera visualizzare sia la prima pagina del report.  
 

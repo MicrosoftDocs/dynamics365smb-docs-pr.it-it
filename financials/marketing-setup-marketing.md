@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
@@ -54,13 +53,10 @@ Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fo
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assegnare una numerazione ai contatti e alle opportunità
 È possibile impostare una numerazione per contatti e opportunità. Se si è impostata una numerazione per i contatti, quando si crea un contatto e si preme INVIO nel campo Nr. della scheda contatto, viene automaticamente inserito il numero del contatto successivo disponibile.
 
-Per ulteriori informazioni sulla numerazione, vedere [Creazione di numerazioni](ui-create-number-series.md).
+Per ulteriori informazioni sulla numerazione, vedere [Procedura: Creazione di numerazioni](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Cercare i contatti duplicati quando vengono creati dei contatti
 È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si crea una società contatto; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati.
-
-## <a name="setting-up-email-logging"></a>Impostazione del log delle e-mail
-È possibile scambiare i messaggi e-mail con contatti, clienti, fornitori e così via. È possibile inviare e ricevere i messaggi e-mail utilizzando l'applicazione o Outlook. Prima di scambiare i messaggi e fare in modo che i messaggi vengano memorizzati e messi in coda nel sistema, è necessario impostare alcuni parametri, quali l'intervallo di tempo in base al quale viene eseguita la verifica della presenza di messaggi e-mail in attesa di elaborazione, il nome del profilo di registrazione e-mail e così via.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  

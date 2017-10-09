@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrazione automatica delle interazioni con i contatti
@@ -30,7 +29,7 @@ ms.lasthandoff: 07/07/2017
 * Effettuare telefonate ai contatti, se si dispone di un apparecchio telefonico compatibile con TAPI e della corretta installazione.
 
 Per impostare la registrazione automatica delle interazioni, specificare i modelli interazione per questi documenti e azioni utilizzando la finestra **Setup modello interazione**.  
-Per aprire la finestra **Setup modello interazione**, selezionare l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Search for Page or Report icon"), immettere **Setup modello interazione** quindi selezionare il collegamento correlato.
+Per aprire la finestra **Setup modello interazione**, selezionare l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup modello interazione**, quindi selezionare il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  

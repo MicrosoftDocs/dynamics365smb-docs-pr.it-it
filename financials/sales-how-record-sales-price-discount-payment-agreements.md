@@ -1,8 +1,6 @@
 ---
 title: Impostare prezzi di vendita e sconti speciali per i clienti | Documenti Microsoft
 description: "Descrive le modalità di definizione di prezzi e accordi di sconto alternativi che si desidera collegare a documenti di vendita per clienti diversi."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3bb16f6f192e3a3ca29911cf6215fe1f00bfcb68
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Procedura: Registrare i prezzi di vendita e gli sconti speciali
@@ -69,7 +66,7 @@ Dopo avere stabilito a quali clienti si debbano applicare gli sconti fattura, è
 
 Lo sconto fattura è ora impostato e assegnato al cliente in questione. Quando si seleziona il codice cliente nel campo **Cod. sconto fatt.** nelle altre schede cliente, lo stesso sconto fattura viene assegnato a quei clienti.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Sconti fattura di vendita e addebiti assistenza
+## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Per utilizzare gli sconti su fatture di vendita e addebiti di assistenza
 Quando si utilizzano gli sconti fattura, lo sconto applicato dipende dall'importo della fattura.  
 
 Nella finestra **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
@@ -79,9 +76,9 @@ Prima di utilizzare gli sconti fattura con le vendite è necessario immettere un
 - a quali clienti verrà concesso questo tipo di sconto.  
 - quali percentuali di sconto verranno applicate.  
 
-Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella finestra Setup contabilità clienti.  
+Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella finestra **Setup contabilità clienti e vendite**.  
 
-Per ciascun cliente è possibile specificare se verranno concessi sconti fattura a condizione che determinati requisiti vengano soddisfatti, cioè quando l'importo della fattura raggiunge una certa somma. Si possono definire le condizioni per gli sconti fattura in VL per i clienti nazionali e in valuta estera per i clienti esteri.  
+Per ciascun cliente è possibile specificare se verranno concessi sconti fattura a condizione che determinati requisiti vengano soddisfatti, cioè quando l'importo della fattura raggiunge una certa somma. Si possono definire le condizioni per gli sconti fattura in valuta locale per i clienti nazionali e in valuta estera per i clienti esteri.  
 
 Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le finestre **Sconti fattura clienti**. È possibile immettere un numero qualsiasi di percentuali in ogni finestra. A ogni cliente è possibile associare una propria finestra oppure è possibile collegare più clienti alla stessa finestra.  
 
@@ -108,9 +105,22 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica se si applicano accordi di prezzo/sconto alle informazioni sul documento o sulla riga di registrazione, quindi inserisce il prezzo unitario e percentuale di sconto della riga, utilizzando i seguenti criteri:
 
     - C'è un requisito di quantità minima nell'accordo di prezzo/sconto che è soddisfatto?
-    - C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se VL fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
+    - C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se la valuta locale fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
+
+## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita  
+Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare in un gruppo di prezzi cliente, sarà necessario eseguire il processo batch **Suggerisci prezzo vendita in prosp.**. Il comando per il processo batch è disponibile nella finestra **Prospetto Prezzi Vendita**.    
+
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Prospetto prezzi vendita**, quindi scegliere il collegamento correlato.  
+2.  Scegliere l'azione **Suggerisci prezzo vendita in prosp.** .  
+3.  Nella Scheda dettaglio **Prezzi vendita** immettere i prezzi di vendita originali che si desidera copiare nei campi **Tipo vendita** e **Codice vendita**.  
+4.  Nella sezione superiore della finestra di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.  
+5.  Per creare nuovi prezzi mediante il processo batch, selezionare il campo **Crea nuovi prezzi**.  
+6.  Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della finestra **Prospetto prezzi vendita**, indicando che sono validi per il **Tipo Vendita** selezionato.  
+
+> [!NOTE]  
+>  Il processo batch fornisce soltanto suggerimenti e non implementa le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella tabella **Prezzo vendita**, utilizzare il processo batch **Implementare variazione prezzi**, che è possibile richiamare facendo clic sulla scheda **Azioni**, del gruppo **Funzioni** nella finestra **Prospetto prezzi vendita**.
 
 ## <a name="see-also"></a>Vedi anche
 [Setup Vendite](sales-setup-sales.md)  

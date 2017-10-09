@@ -1,6 +1,6 @@
 ---
 title: "Estensioni per l'utilizzo di Dynamics 365 for Financials fornite da altre società | Documenti Microsoft"
-description: "Elenco di app ed estensioni fornite da altre società per personalizzare Dynamics 365 for Financial."
+description: "Elenco di app ed estensioni fornite da altre società per personalizzare Dynamics 365 for Financials."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: bc54da2b0e40f25357eec88235d5e2f6de5a12a6
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="microsoft-dynamics-365-for-financials-extensions-by-other-providers"></a>Estensioni per Microsoft Dynamics 365 for Financials fornite da altri provider

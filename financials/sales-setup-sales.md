@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 06/01/2017
+ms.date: 08/23/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a16201e48cc823e687c9941082d34044d9612a29
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
@@ -37,6 +36,8 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 | Impostare gli agenti in modo da poterli assegnare ai contatti clienti o misurarne le prestazioni per calcolare la provvigione sulle vendite o il premio. |[Procedura: Impostare gli agenti](sales-how-setup-salespeople.md) |
 | Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
 | Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md). |
+|Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Procedura: verificare i numeri di partita IVA](sales-how-to-verify-vat-registration-numbers.md)|
+|Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Procedura: Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  

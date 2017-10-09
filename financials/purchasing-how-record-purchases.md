@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Procedura: Registrare gli acquisti
@@ -58,7 +57,7 @@ Gli articoli possono essere di tipo **Magazzino** o **Assistenza**. Per ulterior
 
     > [!NOTE]  
 >   Se sono state impostate righe di acquisto periodiche per il fornitore, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nella fattura scegliendo l'azione **Ottieni righe acquisto ricorrenti**.
-10. Nella Scheda dettaglio **Righe**, nel campo **Nr. articolo**, immettere il numero di un'assistenza o di un articolo di magazzino.
+10. Nella Scheda dettaglio **Righe** del campo **Nr. articolo** immettere il numero di un articolo di magazzino o di un servizio.
 11. Nel campo **Quantità** immettere il numero di articoli da acquistare.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ L'acquisto si riflette ora nel magazzino e nei record finanziari e il pagamento 
 ## <a name="see-also"></a>Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
+[Procedura: Richiedere le offerte](purchasing-how-request-quotes.md)  
 [Procedura: Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  
 [Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Procedura: Preparare le spedizioni dirette](sales-how-drop-shipment.md)  

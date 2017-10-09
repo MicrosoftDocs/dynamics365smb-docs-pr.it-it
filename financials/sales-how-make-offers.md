@@ -1,5 +1,5 @@
 ---
-title: Creare un'offerta di vendita | Documenti Microsoft
+title: Creare un'offerta di vendita per un cliente | Documenti Microsoft
 description: Descrive come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente per la vendita di prodotti in base a termini determinati.
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Procedura: Fare offerte
@@ -70,7 +69,7 @@ Se sono state impostate le righe di vendita periodiche per il cliente, ad esempi
 16. Nella finestra **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedere [Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md).
 17. Se il cliente accetta l'offerta, scegliere l'azione **Crea fattura** o **Crea ordine**.
 
-L'offerta di vendita viene rimossa dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita nella quale è possibile elaborare la vendita. Nel campo **Nr. offerta** della fattura di vendita, o dell'ordine di vendita, è possibile vedere il numero dell'offerta di vendita da cui è stata creata la fattura. Per ulteriori informazioni vedere [Procedura: Fatturare le vendite](sales-how-invoice-sales.md) o [Procedura: Vendere prodotti](sales-how-sell-products.md).
+L'offerta di vendita viene rimossa dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita nella quale è possibile elaborare la vendita. Nel campo **Nr. offerta** dell'ordine o della fattura di vendita è presente il numero dell'offerta di vendita da cui è stato convertito. Per ulteriori informazioni vedere [Procedura: Fatturare le vendite](sales-how-invoice-sales.md) o [Procedura: Vendere prodotti](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  

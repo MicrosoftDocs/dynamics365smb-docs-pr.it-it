@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Estensione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -48,6 +47,9 @@ Elencare le caratteristiche e la funzionalità dell'app non sarà necessario per
 + Pubblicare l'app  
 Prima della pubblicazione, Microsoft collaborerà con il partner per assicurarsi che l'app risulti in evidenza in Microsoft AppSource e nella pagina di destinazione del partner. È necessario convalidare l'app per assicurarsi dell'efficacia del marketing, dell'affidabilità e dell'aggiornamento.
 Per ulteriori informazioni sul processo di convalida e sulle modalità di pubblicazione dell'app, scaricare il documento [Pubblicare l'app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) dal Download Center.
+
+## <a name="learn-more-about-extensions-v20"></a>Ulteriori informazioni sulle estensioni v2.0
+I nuovi strumenti di sviluppo, che consentono di creare estensioni v2.0, sono attualmente in anteprima e saranno presto abilitati nel servizio Dynamics 365 for Financials. Se si desidera acquisire familiarità con i nuovi strumenti o ottenere altre informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Ulteriore assistenza
 Per ulteriore supporto o consulenza, è possibile contattare gli esperti di sviluppo app come indicato di seguito:

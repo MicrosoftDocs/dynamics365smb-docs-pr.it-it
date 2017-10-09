@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +27,7 @@ Se è stata effettuata una sottoscrizione per [!INCLUDE[d365fin](includes/d365fi
 Gli account utente e le licenze sono gestiti nel [portale di Office](https://portal.office.com). Solo gli amministratori possono rimuovere le licenze per [!INCLUDE[d365fin](includes/d365fin_md.md)] dagli account utente. L'amministratore di Office 365 può rimuovere [!INCLUDE[d365fin](includes/d365fin_md.md)] da un account utente o rimuovere la sottoscrizione dall'account della società. Se [!INCLUDE[d365fin](includes/d365fin_md.md)] viene rimosso dall'account utente e altre persone della società non interrompono la sottoscrizione, avranno ancora accesso ai dati condivisi nella società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Annullamento della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Office 365
-Se è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando un account aziendale non Office 365, non si dispone di un amministratore di Office 365. In alternativa, è necessario annullare la sottoscrizione contattando il team di [!INCLUDE[d365fin](includes/d365fin_md.md)] addetto agli annullamenti. Attualmente, è necessario contattare il team inviando un messaggio e-mail a cancel-madeira@microsoft.com. È necessario includere il nome del tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio in modo da consentire l'identificazione. Il modo più semplice di fare questa operazione consiste nel copiare l'URL dalla propria home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Se è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando un account aziendale non Office 365, non si dispone di un amministratore di Office 365. In alternativa, è necessario annullare la sottoscrizione contattando il team di [!INCLUDE[d365fin](includes/d365fin_md.md)] addetto agli annullamenti. Attualmente, è necessario contattare il team inviando un messaggio e-mail a cancel-madeira@microsoft.com. È necessario includere il nome del tenant [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio, in modo da permettere l'identificazione dell'utente. Il modo più semplice di fare questa operazione consiste nel copiare l'URL dalla propria home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Reimpostare la propria esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se sono stati aggiunti dati all'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società e quindi ripristinare la prima società. Se si apre la pagina **Società**, è possibile creare una copia della società corrente, disconnettersi e quindi contenersi nuovamente alla nuova società e reimpostate la società originale.  

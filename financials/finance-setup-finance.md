@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/07/2017
+ms.date: 08/10/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
@@ -31,13 +30,17 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | --- | --- |
 | Scegliere la modalità di pagamento dei fornitori. |[Definizione dei metodi di pagamento](finance-payment-methods.md) |
 | Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Impostazione delle categorie di registrazione](finance-posting-groups.md)|
+|Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Procedura Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Impostare periodi fiscali. |[Procedura: aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md) |
 | Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Procedura: Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
-| Impostare come aggiornare valute aggiuntive per il commercio internazionale. |[Procedura: Aggiornare i tassi di cambio delle valute](finance-how-update-currencies.md) |
+| Impostare le funzionalità Vendite e acquisti per gestire i pagamenti in valute estere.|[Procedura: Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
+|Abilitazione della fatturazione di un cliente che non è impostato nel sistema.|[Procedura: Impostare clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
+| Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Procedura: Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Vedi anche
+[Contabilità](finance.md)  
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
@@ -45,3 +48,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

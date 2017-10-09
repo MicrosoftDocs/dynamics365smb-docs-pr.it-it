@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la finestra **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e Riconciliazione dei conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Il servizio Feed bancari di Envestnet Yodlee viene installato come un'estensione in [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è pronto per essere abilitato. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
+
+> [!NOTE]
+> Il servizio Feed bancari di Envestnet Yodlee è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
 
 Dopo avere abilitato il servizio di feed bancari, è necessario collegare un conto corrente bancario al conto corrente bancario online da cui deriva il feed. I conti correnti bancari vengono collegati a conti bancari online nelle seguenti situazioni:
 
@@ -58,7 +60,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
     > [!NOTE]  
 >   Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tali conti. Vedere i passaggi da 8 a 10.  
 
-    Al termine del processo, il nome della banca apparirà nel riquadro **Conti personali** della scheda **Collegato**. Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
+    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
 7. Scegliere il pulsante **OK**.
 
     Se si collega solo un conto corrente bancario online, la finestra **Scheda conto corrente bancario** si apre e visualizza il nome del conto corrente bancario online. Questo indica che l'attività di collegamento del conto corrente bancario è stata completata. L'unica cosa che rimane da fare è impostare il conto bancario. Per ulteriori informazioni, vedere [Procedura: Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).
@@ -80,7 +82,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 
     Il servizio di feed bancari prepara il collegamento del conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] al conto bancario online corrispondente.  
 
-    Al termine del processo senza errori, il nome della banca apparirà nel riquadro **Conti personali** collegato nella scheda **Collegato**. Se la banca ha più di un conto corrente bancario, solo il conto corrente bancario selezionato nel passaggio 2 verrà collegato.  
+    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Se la banca ha più conti bancari, viene collegato solo il conto che è stato selezionato nel passaggio 2.  
 5. Scegliere il pulsante **OK**.
 
 Nella finestra **Lista C/C bancari** è selezionata la casella di controllo **Collegato**.

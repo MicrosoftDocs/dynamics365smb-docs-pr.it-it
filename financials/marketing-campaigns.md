@@ -1,6 +1,6 @@
 ---
-title: Impostazione di campagne di marketing in Financials | Documenti Microsoft
-description: "Viene descritto come è possibile impostare e svolgere campagne di marketing in Dynamics 365 for Financials"
+title: Impostazione di campagne di marketing in Financials | Microsoft Docs
+description: Descrive come impostare e condurre le campagne di marketing in Dynamics 365 for Financials per identificare e coinvolgere prospect e fidelizzare i clienti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
@@ -39,7 +38,9 @@ Dopo avere impostato la campagna, avere stabilito quali segmenti coprirà la cam
 
  Una volta impostati i prezzi di vendita e gli sconti riga, nonché i segmenti nella Scheda Campagna, è necessario attivarli in modo che i prezzi e gli sconti vengano riportati anche nelle righe.
 
-**Nota**: per attivare i prezzi di vendita/ gli sconti riga, è necessario specificare se l'intero segmento o solo alcuni contatti sono obiettivi della campagna. Se i prezzi di vendita e gli sconti riga riguardano tutti i contatti del segmento, selezionare il campo **Target campagna** disponibile nella Scheda dettaglio **Campagna** della scheda **Segmento**.
+> [!NOTE]  
+>   Per attivare i prezzi di vendita/ gli sconti riga, è necessario specificare se l'intero segmento o solo alcuni contatti sono obiettivi della campagna. Se i prezzi di vendita e gli sconti riga riguardano tutti i contatti del segmento, selezionare il campo **Target campagna** disponibile nella Scheda dettaglio **Campagna** della scheda **Segmento**.
+
 Se i prezzi di vendita/gli sconti riga non vengono offerti a tutti i contatti del segmento, è possibile deselezionare il campo **Target campagna** per i contatti specifici. Se non è possibile visualizzare questo campo, è possibile aggiungerlo alla vista. Per ulteriori informazioni, vedere [Personalizzazione utente](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Esecuzione di campagne
@@ -51,5 +52,5 @@ Le campagne vengono eseguite dagli agenti ed è necessario creare attività per 
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di dati finanziari](ui-work-product.md)  
+[Utilizzo di Financials](ui-work-product.md)  
 

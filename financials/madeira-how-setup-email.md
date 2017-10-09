@@ -1,6 +1,6 @@
 ---
 title: Impostare la posta elettronica | Documenti Microsoft
-description: "Viene descritto come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno dei Financials o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365."
+description: "Descrive come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno dei Financials o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procedura: Impostare la posta elettronica manualmente o tramite il setup assistito
@@ -29,7 +28,7 @@ Per registrare e ricevere messaggi e-mail da [!INCLUDE[d365fin](includes/d365fin
 
 ## <a name="to-set-up-email"></a>Per impostare la posta elettronica
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup posta elettronica SMTP**, quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In alternativa, scegliere l'azione **Applica impostazioni server Office 365** per inserire tutte le informazioni che sono già state definite per la propria sottoscrizione di Office 365.
 4. Quando tutti i campi vengono compilati correttamente, scegliere l'azione **Setup e-mail di verifica**.
 5. Quando il test riesce, chiudere la finestra.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Procedura: Mappatura del testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
@@ -43,19 +42,19 @@ In una riga di registrazione riconciliazione pagamenti dove il pagamento è stat
 
     > [!NOTE]  
 >   Se nessun altro pagamento o documento in entrata esiste con il testo di mappatura in questione, la mappatura da testo a conto si verifica anche quando solo una parte del testo nel pagamento o nel documento in entrata esiste come testo di mappatura.
-5. Nel campo **Nr. fornitore** immettere il fornitore per cui vengono creati i documenti in entrata contenenti il testo di mappatura o vengono registrati i pagamenti. Per ulteriori informazioni, vedere [Procedura: Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md).      
-6. Nel campo **Nr. conto dare** immettere il conto nel quale verranno registrati i pagamenti che contengono la mappatura testo se sono pagamenti in entrata. Per i pagamenti in entrata, il segno del valore nel campo **Importo estratto conto** è positivo.
-7. Nel campo **Nr. conto avere** immettere il conto nel quale verranno registrati i pagamenti che contengono la mappatura testo se sono pagamenti in uscita. Per i pagamenti in uscita, il segno del valore nel campo **Importo estratto conto** è negativo.
+5. Nel campo **Nr. fornitore** immettere il numero del fornitore per cui vengono creati i documenti in entrata contenenti il testo di mappatura o vengono registrati i pagamenti. Per ulteriori informazioni, vedere [Procedura: Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md).      
+6. Nel campo **Nr. conto dare** immettere il conto nel quale verranno registrati i pagamenti che contengono il mapping testo se sono pagamenti in entrata. Per i pagamenti in entrata, il segno del valore nel campo **Importo estratto conto** è positivo.
+7. Nel campo **Nr. conto avere** immettere il conto nel quale verranno registrati i pagamenti che contengono il mapping testo se sono pagamenti in uscita. Per i pagamenti in uscita, il segno del valore nel campo **Importo estratto conto** è negativo.
 8. Nel campo **Tipo di origine saldo** specificare se il pagamento viene registrato in un conto di contabilità generale o in un conto relativo a un cliente o un fornitore.
-9. Nel campo **Nr. origine saldo** specificare il conto in cui il pagamento viene registrato, a seconda della selezione del campo **Tipo di origine saldo** .
+9. Nel campo **Nr. origine saldo** specificare il conto in cui il pagamento viene registrato, a seconda della selezione del campo **Tipo di origine saldo**.
 10. Ripetere i passaggi da 4 a 8 per tutto il testo presente nei pagamenti che si desidera mappare agli account per la registrazione diretta senza collegamento.
 
-La volta successiva che si importa un file di rendiconto bancario o si sceglie l'azione **Collega automaticamente** nella finestra **Registrazioni riconciliazione pagamenti**, le righe di registrazione dei pagamenti che contengono il testo di mappatura specificato conterranno i conti mappati nei campi **Tipo conto** e **Nr. conto** . Il campo **Affidabilità corrispondenza** conterrà **Alta - Mappatura testo a conto**. Ciò a condizione che la funzione di collegamento automatico possa fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**.
+La volta successiva che si importa un file di rendiconto bancario o si sceglie l'azione **Collega automaticamente** nella finestra **Registrazioni riconciliazione pagamenti**, le righe di registrazione dei pagamenti che contengono il testo di mappatura specificato conterranno i conti mappati nei campi **Tipo conto** e **Nr. conto**. Il campo **Affidabilità corrispondenza** conterrà **Alta - Mappatura testo a conto**. Ciò a condizione che la funzione di collegamento automatico possa fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Esempio: mappatura testo a conto per la spesa di combustibile
 Per registrare sempre le spese in combustibile effettuate presso i distributori Shell nella contabilità generale per la benzina (conto 8510), compilare una riga nella finestra **Mappatura testo a conto** come indicato di seguito.
 
-| Mapping testo | Nr. conto dare | Nr. conto avere | Tipo di origine Tipo origine | Tipo di origine Nr. origine |
+| Mapping testo | Nr. conto dare | Nr. conto avere | Tipo di origine saldo | Nr. origine saldo |
 | --- | --- | --- | --- | --- |
 | Shell |VUOTO |8510 |Conto C/G |VUOTO |
 

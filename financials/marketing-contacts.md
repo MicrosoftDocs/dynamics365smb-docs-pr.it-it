@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Creazione e gestione di contatti
@@ -27,9 +26,9 @@ Tutte le entità esterne con cui si intrattengono relazioni, ad esempio clienti,
 
 È possibile registrare le informazioni in base a una società o a una persona di quella società. È inoltre possibile creare un contatto indipendente per le persone che non lavorano per una società, ma che svolgono consulenze esterne.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. Questi task sono elencati nell'ordine in cui vengono in genere eseguiti.
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
 | Swtup della gestione dei contatti prima di aggiungere i contatti. |[Preparazione per il setup dei contatti](marketing-setup-contacts.md) |
 | Creare una scheda contatto per ogni nuova società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creazione di società contatto](marketing-create-contact-companies.md) |

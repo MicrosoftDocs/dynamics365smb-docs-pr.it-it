@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Procedura: Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico
@@ -26,7 +25,7 @@ Per ogni riga di registrazione che rappresenta un pagamento nella finestra **Reg
 > [!IMPORTANT]  
 >   Quando il conto corrente bancario per il quale si stanno riconciliando i pagamenti è impostato sulla valuta locale, nella finestra **Collegamento pagamenti** vengono mostrati tutti i movimenti aperti nella valuta locale, inclusi i movimenti aperti per i documenti originariamente fatturati in valute estere. I pagamenti collegati ai movimenti con valute convertite possono quindi essere registrati con importi diversi rispetto al documento originale per via dei tassi di cambio potenzialmente diversi utilizzati dalla banca e da [!INCLUDE[d365fin](includes/d365fin_md.md)] rispettivamente.
 
-Di conseguenza, consigliamo di guardare i codici valuta estera nel campo **Codice valuta** della finestra **Collegamento pagamenti** per controllare se i collegamenti sono basati su valute convertite. Per verificare l'importo del documento originale in valuta estera e vedere il tasso di cambio utilizzato, scegliere il campo **Collega-a Nr. mov.**, quindi, nel menu di scelta rapida, fare clic sul pulsante drilldown per aprire la finestra **Movimenti contabili clienti** o la finestra **Movimenti contabili fornitori**.
+Di conseguenza, consigliamo di guardare i codici valuta estera nel campo **Codice valuta** della finestra **Collegamento pagamenti** per controllare se i collegamenti sono basati su valute convertite. Per verificare l'imposto del documento originale in valuta estera e visualizzare il tasso di cambio utilizzato, selezionare il campo **Collega-a Nr. mov.** quindi, nel menu di scelta rapida, selezionare il pulsante DrillDown per aprire la finestra **Movimenti contabili clienti** o **Movimenti contabili fornitori**.
 
 Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di valuta non viene gestita automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

@@ -12,20 +12,19 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, come assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
-Nella seguente tabella viene fornita una panoramica delle attività che si eseguono in genere per chiudere un anno o un periodo. Questi task sono elencati nell'ordine in cui vengono in genere eseguiti.
+Nella seguente tabella viene fornita una panoramica delle attività che si eseguono in genere per chiudere un anno o un periodo. 
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
 | Specificare intervalli di date di registrazione a livello di sistema e specifici dell'utente. In base alle esigenze aziendali, è possibile limitare gli intervalli di date di registrazione all'inizio del processo di chiusura del periodo o successivamente. |[Procedura: Specificare i periodi di registrazione](finance-how-specify-posting-periods.md) |
 | Fornisce una panoramica delle attività che vengono comunemente eseguite alla fine di un periodo, come la contabilizzazione di tutti i documenti e le registrazioni o l'esecuzione delle situazioni contabili. |[Periodi di chiusura](year-how-complete-period-end-processes.md) |

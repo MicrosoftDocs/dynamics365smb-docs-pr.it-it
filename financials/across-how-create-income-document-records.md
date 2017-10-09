@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Procedura: Creare i record di documenti in entrata
@@ -44,7 +43,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 3. Nella finestra **Documenti in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Crea da fotocamera**. La fotocamera del tablet o del telefono è attivata.
 4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
 
-Viene creato un nuovo record di documento in entrata con l'immagine allegata.
+    Viene creato un nuovo record di documento in entrata con l'immagine allegata.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Per allegare un'immagine a un record di documento in entrata facendo una foto
 > [!NOTE]  
@@ -55,14 +54,12 @@ Viene creato un nuovo record di documento in entrata con l'immagine allegata.
 3. Nella finestra **Documento in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Allega immagine da fotocamera**. La fotocamera del tablet o del telefono è attivata.
 4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
 
-L'immagine viene allegata al record di documento in entrata.
+    L'immagine viene allegata al record di documento in entrata.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Per creare manualmente il record di un documento in entrata
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Crea da file**.  
-3. Nella finestra **Inserisci file** selezionare un file e scegliere **Apri**.
-
-    Il file viene automaticamente allegato.
+3. Nella finestra **Inserisci file** selezionare un file e scegliere **Apri**. Il file viene automaticamente allegato.
 4. In alternativa, selezionare l'azione **Nuovo**.
 5. Per allegare un file, selezionare l'azione **Allega file**.
 6. Nella finestra **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.

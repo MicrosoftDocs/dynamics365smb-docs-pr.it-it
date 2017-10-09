@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -26,12 +26,12 @@ Gli incrementi in magazzino e le diminuzioni vengono registrati automaticamente 
 
 Per incrementare la panoramica degli articoli e agevolare le operazioni di ricerca, è possibile classificare gli articoli e assegnare gli attributi per cercarli e ordinarli.
 
-È necessario assicurarsi che i costi degli articoli vengano trasmessi alla transazione di vendita in uscita, in particolare nei casi in cui si vendano merci prima di fatturare l'acquisto degli articoli. Questa operazione è nota come rettifica del costo ed è è possibile eseguirla manualmente o importare una verifica automatica quando si registra una transazione dell'articolo.
+> []!NOTA] la gestione fisica degli articoli è detta attività di warehouse. Per ulteriori informazioni, vedere [Gestione warehouse](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Magazzino - Riconciliazione
-Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale.
+Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Per ulteriori informazioni, vedere [Procedura: Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere Procedura: Rettificare i costi articoli..
+Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Procedura: Rettificare i costi articoli.](inventory-how-adjust-item-costs.md).
 
 |A |Vedere |
 |---|----|
@@ -40,17 +40,19 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 |Gestire una panoramica degli articoli e facilitare le operazioni di ricerca e ordinamento degli articoli organizzandoli in categorie.|[Procedura: Classificare gli articoli](inventory-how-categorize-items.md)|
 |Assegnare gli attributi dell'articolo dei diversi tipi di valore agli articoli per migliorare l'ordinamento e la ricerca degli articoli.|[Procedura: Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)|
 |Creare speciali schede articolo per gli articoli da offrire ai clienti per cui non viene gestito il magazzino.|[Procedura: Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md)|
-|Eseguire attività di conteggio fisico, rettifiche positive o negative e modificare le informazioni, quali ubicazione o numero di lotto, nei movimenti contabili articoli.|[Procedura: Conteggio, adeguamento e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md)|
-|Visualizzare la disponibilità di articoli per ubicazione, periodo, evento di vendita o acquisto o in base all'utilizzo nei DB assemblaggi.|[Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)|
+|Eseguire attività di conteggio fisico, rettifiche positive o negative e modificare le informazioni, quali ubicazione o numero di lotto, nei movimenti contabili articoli.|[Procedura: Conteggio, rettifica e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md)|
+|Visualizzare la disponibilità di articoli per ubicazione, periodo, evento di vendita o acquisto o in base all'utilizzo nei DB assemblaggi o produzione.|[Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)|
 |Trasferire gli articoli in magazzino tra le ubicazioni con ordini di trasferimento, per gestire le attività di warehouse oppure con le registrazioni di riclassificazione articoli.|[Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)|
-|Rivalutare o ammortizzare il valore di uno o più articoli in magazzino registrandone il corrente valore calcolato.|[Procedura: Rivalutare il magazzino](inventory-how-revalue-inventory.md)|
-|Rettificare i costi articolo, automaticamente o manualmente, per inoltrare le modifiche dei costi dai movimenti in entrata ai movimenti in uscita correlati.|[Procedura: Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md)|
+|Impegnare gli articoli in entrata o di magazzino per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio o ordini di produzione.|[Procedura: Impegnare articoli](inventory-how-to-reserve-items.md)|
+|Assegnare i numeri seriali o i numeri di lotto a qualsiasi riga di registrazione del documento in uscita o in entrata, ad esempio per tenere traccia degli articoli in caso di richiamate.|[Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)|
+|È possibile trovare dove un numero seriale o di lotto è stato utilizzato nella sua catena di approvvigionamento, ad esempio in caso di richiamate.|[Procedura: Analizzare articoli tracciati](inventory-how-to-trace-item-tracked-items.md)|
+|È possibile gestire le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Procedura: Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Vedi anche  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)    
-[Catena di approvvigionamento](madeira-supply-chain.md)  
 [Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,8 +1,6 @@
 ---
 title: Sollecitare o applicare sanzioni per clienti con pagamenti scaduti | Documenti Microsoft
 description: Descrive come inviare un sollecito a un cliente per un pagamento scaduto e come aggiungere addebiti, od oneri aggiuntivi, al pagamento per il ritardo.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Procedura: Riscuotere i saldi inevasi
@@ -99,7 +96,7 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
 |%11|Nome della società|  
 |%12|Contenuto del campo **Onere add. per riga** della testata sollecito|  
 
-Ad esempio, se si scrive **È dovuto il pagamento di 7% 9% con scadenza %2.**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di 1.200,50 VL con scadenza 02\-02\-2014.**.
+Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2.**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di USD 1.200,50 con scadenza 02-02-2014.**.
 
 Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi clienti](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli
 
 È possibile calcolare gli addebiti degli interessi utilizzando il metodo del saldo giornaliero medio oppure il metodo del saldo dovuto.
 
-Con il metodo del saldo dovuto, l'addebito interessi è solamente una percentuale dell'importo insoluto.
-**Metodo del saldo dovuto** - Addebito interessi = Importo insoluto x (Tasso di interesse / 100)
+Con il metodo del saldo dovuto, l'addebito interessi è solamente una percentuale dell'importo insoluto.  
 
-Con il metodo del saldo giornaliero medio, viene preso in considerazione il numero dei giorni per cui è in arretrato il pagamento.
-Metodo **Saldo giornaliero medio** - Addebito interessi = Importo insoluto x (Giorni in arretrato / Periodo di interesse) x (Tasso di interesse/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Con il metodo del saldo giornaliero medio, viene preso in considerazione il numero dei giorni per cui è in arretrato il pagamento:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una sottotabella, detta tabella Testi addebiti interessi. Per ciascun gruppo di condizioni degli interessi finanziari, è possibile creare un testo iniziale e/o uno finale da inserire nella nota di addebito degli interessi.
 
@@ -204,10 +203,8 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note add. interessi**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari.  
 3. Scegliere l'azione **Sugg. righe note add. int.**
-4. In **Sugg. righe note add. int.  
-6.  Se si desidera creare note di addebito interessi per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti**.  
-
-7.  Scegliere **OK** per avviare il processo batch.  
+4. Se si desidera creare note di addebito interessi solo per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti** della finestra **Sugg. righe note add. int.**.  
+5.  Scegliere **OK** per avviare il processo batch.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
 Talvolta può essere necessario modificare il testo iniziale e finale impostato per le condizioni degli interessi finanziari. Se la modifica viene effettuata dopo la creazione ma prima dell'emissione di note di addebito di interessi, è possibile aggiornare le note con il testo modificato.

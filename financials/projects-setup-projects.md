@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="set-up-project-management"></a>Impostare Gestione progetti
+# <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
 Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.
 
-È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze. Per ulteriori informazioni, vedere [Gestire progetti](projects-manage-projects.md).  
+È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze. Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -34,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare schede commessa e preparare task commesse. Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse. |[Procedura: Impostare le commesse](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Vedi anche
-[Gestire progetti](projects-manage-projects.md)  
+[Gestione di progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)     

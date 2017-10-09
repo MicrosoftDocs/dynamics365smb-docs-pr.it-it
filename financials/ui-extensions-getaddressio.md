@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 5bc3961cd97f0a19ab4d6d3be0ef0e12ee732a26
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6e638045d826caa20aba29ade4dac0a677eb20eb
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-dynamics-365-for-financials"></a>Estensione dei codici postali di GetAddress.io per il Regno Unito per Microsoft Dynamics 365 per Financials
+# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-dynamics-365-for-financials"></a>Estensione dei codici postali di GetAddress.io per il Regno Unito per Microsoft Dynamics 365 for Financials
 L'estensione dei codici postali di GetAddress.io per il Regno Unito può far risparmiare tempo ed evitare errori durante l'inserimento degli indirizzi per entità come clienti, fornitori, conti bancari e impiegati. Ad esempio, quando si crea un cliente, si sceglie solo un codice postale e in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene visualizzata una lista di indirizzi. Selezionare l'indirizzo che si desidera e in un attimo i campi degli indirizzi sono compilati.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Per utilizzare l'estensione dei codici postali di GetAddress.io per il Regno Unito quando viene immesso un indirizzo
@@ -36,5 +36,5 @@ L'estensione dei codici postali di GetAddress.io per il Regno Unito può far ris
 
 
 ## <a name="see-also"></a>Vedi anche
-[Impostare l'estensione dei codici postali GetAddress.io per il Regno Unito](uk-setup-postal-code-service.md)
+[Impostare l'estensione dei codici postali GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 

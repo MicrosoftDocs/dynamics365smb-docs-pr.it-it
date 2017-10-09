@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Personalizzazione dell'interfaccia utente di Dynamics 365 for Financials
@@ -34,8 +33,8 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 
 | Esperienza | Impatto sull'interfaccia utente |
 | --- | --- |
-| Di base |Mostra solo le azioni e i campi core delle principali aree di attività, ad esempio vendite, acquisti, finanza e gestione delle opportunità. |
-| Suite |Mostra più azioni e campi per le principali aree di attività e per altre aree, quali la gestione dei progetti, la gestione dei cespiti e l'analisi in base alle dimensioni. |
+| Di base |Mostra solo campi e azioni di base delle funzionalità aziendali più comuni, come vendite, acquisti, inventario, finanza. |
+| Suite |Mostra le azioni e i campi per tutte le funzionalità aziendali disponibili.|
 
 ## <a name="see-also"></a>Vedere anche
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
@@ -43,3 +42,4 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

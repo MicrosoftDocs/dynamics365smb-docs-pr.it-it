@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Procedura: Creare righe di vendite e acquisti ricorrenti
@@ -39,12 +38,12 @@ La seguente procedura illustra come utilizzare le righe di vendita standard. Fun
 5. Scegliere il pulsante **OK** per inserire le righe di vendita standard della fattura, in cui è possibile riutilizzare la riga come è o modificarne le informazioni.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Per creare più fatture di vendita in base alle righe di vendita standard
-È possibile utilizzare il processo batch **Crea fattura di vendita periodica** per creare fatture di vendita in base a righe di vendita standard assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nel codice di vendita standard.
+È possibile utilizzare il processo batch **Crea fattura di vendita periodica** per creare fatture di vendita in base alle righe di vendita standard assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nel codice di vendita standard.
 
 Nella finestra **Righe vendita ricorrenti** è anche possibile specificare un metodo di pagamento in addebito diretto e un mandato di addebito diretto. Le fatture di vendita create con il processo batch **Crea fattura di vendita periodica** includeranno le informazioni necessarie per riscuotere il pagamento per le fatture di vendita con addebito diretto SEPA. Per ulteriori informazioni, vedere Riscuotere pagamenti con addebito diretto SEPA.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Crea fatture di vendita periodiche**, quindi scegliere il collegamento correlato.
-2. In **Crea fattura di vendita periodica** compilare i campi come necessario.
+2. Compilare i campi della finestra **Crea fattura di vendita periodica** in base alle esigenze.
 3. Nel campo **Codice** immettere il codice delle righe di vendita standard assegnato a un cliente per cui si desidera creare fatture di vendita.
 4. Scegliere il pulsante **OK**.
 

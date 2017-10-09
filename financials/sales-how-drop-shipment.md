@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>Procedura: Effettuare spedizioni dirette
@@ -60,6 +59,7 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 5. Selezionare l'opzione **Spedizione** per fatturare in seguito oppure l'opzione **Spedisci e fattura** per fatturare immediatamente.
 
 ## <a name="see-also"></a>Vedi anche
+[Procedura: Creare ordini speciali](sales-how-to-create-special-orders.md)|  
 [Procedura: Vendere prodotti](sales-how-sell-products.md)  
 [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Vendite](sales-manage-sales.md)  

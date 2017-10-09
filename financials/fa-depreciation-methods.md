@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Metodi ammortamento
@@ -58,7 +57,7 @@ Al valore contabile può essere sottratta la rivalutazione registrata, la svalut
 ### <a name="fixed-yearly-percentage"></a>Percentuale annuale fissa
 Se viene immessa una percentuale annuale fissa, l'importo di ammortamento viene calcolato in base alla seguente formula:  
 
-importo di ammortamento = (quota costante % x base ammortizzabile x numero di giorni di ammortamento) / (100 x 360)  
+importo di ammortamento = (% quota costante x base ammortizzabile x numero di giorni di ammortamento) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Importo annuale fisso
 Se viene immesso un importo annuale fisso, il calcolo dell'importo di ammortamento viene effettuato in base alla seguente formula:  
@@ -224,7 +223,7 @@ Se si utilizza un metodo personalizzato, occorre inserire nella finestra **Tabel
 
 La formula per il calcolo dell'importo di ammortamento è la seguente:  
 
-importo di ammortamento = (ammortamento % x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)  
+Importo di ammortamento = (% ammortamento x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Ammortamento in base al numero di unità
 Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortamento in base al numero di unità, ad esempio nel caso di produzione di macchinari con una determinata durata totale di funzionamento. Nella finestra **Tabelle ammortamento** è possibile immettere il numero di unità che possono essere prodotte in ogni periodo (mese, trimestre, anno o periodo contabile).  

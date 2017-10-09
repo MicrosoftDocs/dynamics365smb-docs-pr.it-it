@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-revalue-fixed-assets"></a>Procedura: Rivalutazione dei cespiti
@@ -109,7 +108,7 @@ Il 30/09/00 viene effettuata il processo batch **Calcola Ammortamento**. Viene e
 
 Se non è stata selezionata la casella di controllo **Ammort. alla data reg. cespite**, vengono persi 15 giorni di ammortamento perché eseguendo il processo batch **Calcolo ammortamento** il 30/09/00 verrebbe calcolato l'ammortamento dal 15/09/00 al 30/09/00. Ciò significa che se il processo batch **Calcolo ammortamento** viene eseguito il 30/09/00, il calcolo è il seguente:  
 
-*la durata residua dell'ammortamento corrisponde a 3 anni, 10 mesi e 15 giorni = 1395*  
+*la durata residua dell'ammortamento corrisponde a 3 anni, 10 mesi e 15 giorni = 1395 giorni*  
 
 *il valore contabile corrisponde a (4800 + 480 - 100 - 15) = 5165*
 

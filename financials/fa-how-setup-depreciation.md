@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Procedura: Impostare l'ammortamento cespiti
@@ -54,7 +53,7 @@ Se si desidera assegnare un registro beni ammortizzabili a diversi cespiti è po
 2. Selezionare il cespite per cui si desidera impostare l'assegnazione di un registro beni ammortizzabili, quindi scegliere l'azione **Modifica**.
 3. Nella finestra **Scheda registro beni ammortizz.**, scegliere l'azione **Crea registro beni amm. cespiti**.
 4. Nella finestra **Crea registro beni amm. cespiti**, compilare il campo **Registro beni ammortizzabili**.
-5. Scegliere il campo **Copia da nr. cespite** e selezionare il numero di cespite che si desidera utilizzare come base per la creazione di nuovi registri beni ammortizzabili.
+5. Scegliere il campo **Copia da nr. cespite**, quindi selezionare il numero di cespite che si desidera utilizzare come base per la creazione di nuovi registri beni ammortizzabili.
 
     Se si compila questo campo, nei campi relativi all'ammortamento dei nuovi registri beni ammortizzabili cespiti saranno contenute le stesse informazioni dei corrispondenti campi presenti nel registro dal quale vengono copiati i dati. Se si desidera creare nuovi registri beni ammortizzabili cespiti con i campi relativi all'ammortamento vuoti, lasciare il campo vuoto.  
 6. Nella Scheda dettaglio **Cespite** è possibile impostare un filtro per selezionare i cespiti per cui verranno creati i registri beni ammortizzabili cespiti.

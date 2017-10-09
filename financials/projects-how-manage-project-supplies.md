@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Procedura: Gestire gli approvvigionamenti delle commesse
@@ -30,7 +29,7 @@ Nella procedura riportata di seguito viene illustrato come utilizzare una fattur
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di acquisto**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari. Per ulteriori informazioni, vedere [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md).
-3. Nei campi **Nr. commessa** e **Nr. task commessa**, selezionare le informazioni della commessa per la quale si desidera acquistare articoli o servizi. Utilizzare la funzione **Scegli colonne** se il campo non è visualizzato. Per ulteriori informazioni, vedere [Personalizzazione utente](ui-user-personalization.md).
+3. Nei campi **Nr. commessa** e **Nr. task commessa** selezionare le informazioni della commessa per la quale si desidera acquistare articoli o servizi. Utilizzare la funzione **Scegli colonne** se il campo non è visualizzato. Per ulteriori informazioni, vedere [Personalizzazione utente](ui-user-personalization.md).
 
     Il valore che si seleziona nel campo **Tipo riga commessa** definisce se viene creata una riga di pianificazione quando si registra l'utilizzo dell'articolo. Se il campo contiene **Fatturabile**, vengono create le righe di pianificazione commessa che sono pronte per la fatturazione al cliente. Per ulteriori informazioni, vedere [Procedura: Fatturare commesse](projects-how-invoice-jobs.md).
 4. Scegliere l'azione **Registra**.
@@ -48,7 +47,7 @@ Nella procedura riportata di seguito viene illustrato come utilizzare una fattur
 Se si incorre in spese di commessa straordinarie o eccezionali, è possibile utilizzare la finestra **Registrazioni commesse in G/L** per registrarle direttamente nel conto commessa correlato.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni commesse in C/G**, quindi scegliere il collegamento correlato.  
-2. Creare una nuova riga e immettere le informazioni sulla spesa, incluse le informazioni nei campi **Nr. commessa** e **Nr. task commessa**.  
+2. Creare una nuova riga e immettere le informazioni sulla spesa, tra cui le informazioni nei campi **Nr. commessa** e **Nr. task commessa**.  
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
 ## <a name="see-also"></a>Vedi anche

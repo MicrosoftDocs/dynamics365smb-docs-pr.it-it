@@ -1,6 +1,6 @@
 ---
-title: Gestione progetti | Documenti Microsoft
-description: Viene descritto come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
+title: Task commesse utilizzando le risorse e i fogli presenze| Microsoft Docs
+description: Descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: it-it
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Gestione progetti
@@ -25,7 +24,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task
 
 Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
 
-**Nota**: questa funzionalità richiede che l'esperienza sia impostata su ***** Suite *****. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -43,9 +43,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
-[Personalizzazione dell'interfaccia utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]] (ui-experiences.md)      
-[Acquisto](purchasing-manage-purchasing.md)         
+[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)      
+[Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)    
-[Finanza](finance.md)  
+[Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

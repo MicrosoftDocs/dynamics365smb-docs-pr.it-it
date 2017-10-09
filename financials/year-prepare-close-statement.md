@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
@@ -33,7 +32,7 @@ Nella tabella seguente sono descritti alcuni report che possono risultare utili 
 | Confrontare il bilancio di verifica con un budget. |Bilancio di verifica/budget |
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale calcolati per una serie di periodi. |Bilancio di verifica per periodo |
 | Stampare una situazione contabile per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti effettivi di contabilità generale con i movimenti budget di contabilità generale. |Situazione contabile |
-| Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |Riconcilia conti clienti e fornitori |
+| Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |Riconc. conti clienti e forn. |
 
 Per visualizzare un report, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
 

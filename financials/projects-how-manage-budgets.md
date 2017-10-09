@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-budgets"></a>Procedura: Gestire i budget delle commesse
@@ -39,7 +38,7 @@ Per il campo **Tipo riga** fare riferimento alle seguenti informazioni.
 | --- | --- |
 | **Sia Budget sia fatturabile** |Gli importi relativi a costi e prezzo immessi nella riga di pianificazione sono i costi a budget per la riga di pianificazione specifica. L'importo dei prezzi verrà fatturato. |
 | **Budget** |Al cliente non viene addebitato l'utilizzo. L'utilizzo non è trasferito in una fattura ma verrà comunque utilizzato nel calcolo di WIP. |
-| **Fatturabile** |Al cliente viene addebitato l'utilizzo. L'utilizzo viene trasferito nella fattura, in base alla quantità specificata nel campo Qtà da trasferire nel campo Fattura. |
+| **Fatturabile** |Al cliente viene addebitato l'utilizzo. La quantità viene trasferita nella fattura, in base alla quantità specificata nel campo Qtà da trasferire in fattura. |
 
 > [!NOTE]  
 >   Il campo **Data pianificazione** per la riga di pianificazione contiene la data in cui è previsto il completamento dell'utilizzo correlato alla riga di pianificazione. È inoltre la data in cui la riga di pianificazione può essere trasferita a una fattura vendita ed essere registrata.  

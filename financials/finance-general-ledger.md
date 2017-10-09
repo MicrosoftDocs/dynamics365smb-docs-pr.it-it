@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 63d414f4c81a9e20b4bb81b632edd9c91fb34a87
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
@@ -40,7 +39,8 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 * Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.  
 * Chiudere il conto economico.  
 * Aprire la scheda del conto C/G per aggiungere o modificare le impostazioni.  
-* Visualizzare una lista delle categorie di registrazione che registrano nel conto.  
+* Visualizzare una lista delle categorie di registrazione che registrano nel conto.
+* Visualizzare i saldi attivi e passivi separatamente per un singolo conto  
 
 È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti.  
 

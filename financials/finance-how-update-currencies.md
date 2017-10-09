@@ -10,25 +10,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, Yahoo
-ms.date: 06/02/2017
+ms.date: 07/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc60569091b3aa37d17e981f1fae8f46c4a004df
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-update-currency-exchange-rates"></a>Procedura: Aggiornare i tassi di cambio
 È necessario impostare un codice per ogni valuta utilizzata se si compra o si vende in valute diverse dalla valuta locale, se si hanno debiti o crediti in altre valute o si registrano transazioni C/G in diverse valute.  
 
+Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter rivedere o riportare i dati finanziari in più di una valuta. Il programma consente l'utilizzo di più valute. La contabilità generale viene impostata utilizzando la valuta locale (VL), ma è possibile impostare un'altra valuta come valuta addizionale, assegnando un tasso di cambio corrente.  
+
+ Se si imposta una seconda valuta come valuta contabile addizionale, gli importi in ogni movimento CG e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] sia nella valuta locale che nella valuta addizionale. Quando vengono calcolati gli importi dei movimenti C/G in una valuta contabile addizionale, vengono utilizzate le informazioni della finestra **Tassi di cambio valuta** per individuare il tasso di cambio appropriato.  
+
+> [!WARNING]  
+>  La funzionalità Valuta addizionale NON deve essere utilizzata come base per la conversione del rendiconto finanziario. Questo strumento non consente di eseguire la conversione dei rendiconti finanziari delle filiali estere come parte del consolidamento di una società. La funzionalità della valuta contabile addizionale consente esclusivamente di creare report in un'altra valuta, come se tale valuta fosse quella locale della società.
+
+## <a name="adjusting-exchange-rates"></a>Rettifica di tassi di cambio  
+Poiché i tassi di cambio oscillano costantemente, gli equivalenti in valuta addizionale nel sistema devono essere rettificati periodicamente. Se queste rettifiche non vengono apportate, gli importi che sono stati convertiti da valute estere (o addizionali) e registrati nella contabilità generale in valuta locale possono essere fuorvianti. Inoltre, i movimenti quotidiani registrati prima dell'immissione di un tasso di cambio quotidiano nel programma devono essere aggiornati dopo l'immissione delle informazioni su tale tasso di cambio. Il processo batch Rettifica tassi di cambio viene utilizzato per rettificare i tassi di cambio dei movimenti cliente, fornitore e conti C/C bancari registrati. Consente inoltre di aggiornare gli importi nella valuta contabile addizionale nei movimenti C/G.  
+
+## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Visualizzazione di report e importi nella valuta addizionale  
+L'utilizzo di una valuta addizionale può essere utile per il processo di creazione di report di una società nei seguenti casi:  
+
+- Società di paesi non UE che effettuano numerose transazioni con società di paesi UE. In questo caso, la società non UE potrebbe desiderare di creare report in euro per semplificare l'utilizzo dei report finanziari da parte dei partner commerciali UE.  
+
+- Società che desiderano visualizzare i report in una valuta maggiormente utilizzata a livello internazionale rispetto alla propria valuta locale.  
+
+Numerosi report nell'area di applicazione della contabilità generale sono basati sui movimenti C/G. Per visualizzare i dati finanziari del report nella valuta contabile aggiuntiva, selezionare semplicemente il campo **Mostra in valuta di cambio addizionale** nella finestra di report CG pertinente.  
+
 > [!NOTE]  
 >   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
+## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
 È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute. Il servizio Tassi di cambio della valuta di Yahoo è preinstallato e pronto per essere abilitato.
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Servizi tasso di cambio valuta**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella finestra **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

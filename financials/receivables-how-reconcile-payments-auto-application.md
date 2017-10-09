@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Procedura: Riconciliare i pagamenti utilizzando il collegamento automatico
@@ -33,7 +32,7 @@ Una funzionalità simile esiste per riconciliare gli importi in eccesso nelle ri
 
 Utilizzare la funzione **Collega automaticamente** automaticamente quando si importa il feed bancario o il file di banca con transazioni di pagamento o quando lo si attiva, per collegare i pagamenti ai relativi movimenti aperti in base a una corrispondenza dei dati in una riga di registrazione con i dati di uno o più movimenti aperti.
 
-Nelle righe di registrazione in cui un pagamento è stato collegato automaticamente a uno o più movimenti aperti, il campo **Affidabilità corrispondenza** contiene un valore tra Bassa e Alta per indicare la qualità di corrispondenza di dati sulla quale si basa il collegamento di pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono compilati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato. Se è stata impostata una mappatura testo a conto, il collegamento automatico può ottenere un valore di affidabilità di corrispondenza di **Alta - Mappatura testo a conto**.
+Nelle righe di registrazione in cui un pagamento è stato collegato automaticamente a uno o più movimenti aperti, il campo **Affidabilità corrispondenza** contiene un valore tra Bassa e Alta per indicare la qualità di corrispondenza di dati sulla quale si basa il collegamento di pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono popolati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato. Se è stata impostata una mappatura testo a conto, il collegamento automatico può ottenere un valore di affidabilità di corrispondenza di **Alta - Mappatura testo a conto**.
 
 Per ogni riga di registrazione nella finestra **Registrazione riconciliazione pagamenti** è possibile aprire la finestra **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni, vedere [Procedura: Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ Per ogni riga di registrazione nella finestra **Registrazione riconciliazione pa
 
     La finestra **Registrazione riconciliazione pagamenti** viene compilata con righe per i pagamenti che rappresentano le transazioni bancarie nel rendiconto importato.
 
-    Nelle righe dei pagamenti che sono stati collegati automaticamente ai relativi movimenti aperti, il campo **Affidabilità corrispondenza** include un valore tra **Bassa** e **Alta** a indicare la qualità della corrispondenza dei dati su cui si basa il collegamento del pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono compilati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato.
+    Nelle righe dei pagamenti che sono stati collegati automaticamente ai relativi movimenti aperti, il campo **Affidabilità corrispondenza** include un valore tra **Bassa** e **Alta** a indicare la qualità della corrispondenza dei dati su cui si basa il collegamento del pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono popolati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato.
 7. Selezionare una riga di registrazione, scegliere l'azione **Collega manualmente** per esaminare, ricollegare o collegare il pagamento manualmente nella finestra **Collegamento pagamenti**. Per ulteriori informazioni, vedere [Procedura: Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
 
     Una volta completato il collegamento manuale, il campo **Affidabilità corrispondenza** nella riga di registrazione elaborata manualmente contiene **Accettata**.

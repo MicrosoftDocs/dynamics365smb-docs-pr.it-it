@@ -1,6 +1,6 @@
 ---
 title: "Ottenere una panoramica della disponibilità| Documenti Microsoft"
-description: "Informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo o alla posizione dell'articolo su una DB assemblaggio."
+description: "È possibile ottenere informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo o alla posizione dell'articolo su una DB di assemblaggio o di produzione."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Procedura: Visualizzare la disponibilità di articoli
@@ -78,10 +77,10 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
     La finestra **Articoli per ubicazione** mostra per tutti gli articoli le quantità disponibili in ogni ubicazione.
 3. Selezionare il valore nel campo **Giacenza disponibile** per visualizzare i movimenti articoli che compongono il valore.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Per visualizzare la disponibilità di un articolo in base al relativo utilizzo nella DB assemblaggi
-Se un articolo esiste in DB assemblaggi, come articolo principale o come componente, è possibile visualizzare il numero di unità che sono necessarie nella finestra **Disponibilità articolo per livello DB**. Nella finestra viene visualizzato il numero delle unità di un articolo padre che è possibile effettuare in base alla disponibilità di articoli figlio nelle righe sottostanti. Ogni articolo che ha una DB assemblaggio è visibile nella finestra come riga comprimibile. È possibile espandere la riga per visualizzare i componenti sottostanti i sottoassemblaggi di livello inferiore con le proprie DB.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Per visualizzare la disponibilità di un articolo in base al relativo utilizzo nelle DB di assemblaggio o di produzione
+Se un articolo esiste nelle DB di assemblaggio o di produzione, come articolo principale o come componente, è possibile visualizzare il numero di unità che sono necessarie nella finestra **Disponibilità articolo per livello DB**. Nella finestra viene visualizzato il numero delle unità di un articolo padre che è possibile effettuare in base alla disponibilità di articoli figlio nelle righe sottostanti. Ogni articolo che ha una DB di assemblaggio o di produzione è visibile nella finestra come riga comprimibile. È possibile espandere la riga per visualizzare i componenti sottostanti i sottoassemblaggi di livello inferiore con le proprie DB.
 
-È possibile utilizzare la finestra per verificare se è possibile soddisfare un ordine di vendita per un articolo nella data stabilita osservando la disponibilità corrente e le quantità che possono essere fornite dai componenti. È inoltre possibile utilizzare la finestra per identificare i colli di bottiglia nelle DB assemblaggio correlate.
+È possibile utilizzare la finestra per verificare se è possibile soddisfare un ordine di vendita per un articolo nella data stabilita osservando la disponibilità corrente e le quantità che possono essere fornite dai componenti. È inoltre possibile utilizzare la finestra per identificare i colli di bottiglia nelle DB correlate.
 
 In ogni riga della finestra per gli articoli padre e gli articoli figlio, i seguenti campi chiave specificano le cifre sulla disponibilità. È possibile utilizzare tali cifre per promettere il numero di unità di un articolo padre che è possibile fornire se si inizia il processo assemblaggio correlato.
 
@@ -90,6 +89,7 @@ In ogni riga della finestra per gli articoli padre e gli articoli figlio, i segu
 |**Produzione possibile - Padre**|Mostra quante unità di un sottoassemblaggio nell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo padre immediate possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 |**Produzione possibile - Articolo principale**|Mostra quante unità dell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo DB nella prima riga possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 
+### <a name="item-availability-by-bom-level-window"></a>Finestra Disponibilità articolo per livello DB
 Nella finestra **Disponibilità articolo per livello DB** vengono visualizzate le informazioni relative all'articolo sulla scheda o la riga del documento per il quale viene viene aperta la finestra. L'articolo viene indicato sempre nella prima riga. È possibile visualizzare informazioni per altri articoli o per tutti gli articoli modificando il valore nel campo **Filtro articolo**.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ Nella finestra **Disponibilità articolo per livello DB** vengono visualizzate l
 
 Il campo **Collo di bottiglia** specifica quale articolo nella struttura di DB limita la possibilità di produrre una quantità maggiore di quella indicata nel campo **Produzione possibile - Articolo principale**. Ad esempio, l'articolo collo di bottiglia può essere un componente acquistato con una data di carico prevista troppo in ritardo per creare unità aggiuntive dell'articolo principale entro la data presente nel campo **Disponibile entro**.
 
+## <a name="assembly-availability-window"></a>Finestra Disponibilità assemblaggio
+Nella finestra **Disponibilità assemblaggio** sono visualizzate le informazioni dettagliate sulla disponibilità per l'articolo di assemblaggio. La finestra viene aperta:
+
+- Automaticamente da una riga ordine di vendita in scenari di assemblaggio su ordine quando si immette una quantità che provoca un problema di disponibilità dei componenti.
+- Automaticamente da una testata ordine di assemblaggio quando si immette un valore nel campo Quantità che provoca un problema di disponibilità dei componenti.
+- Manualmente quando la si apre da un ordine di assemblaggio. Nel gruppo Funzioni della scheda Azioni scegliere Mostra disponibilità.
+
+Nella Scheda dettaglio **Dettagli** sono visualizzate le informazioni dettagliate sulla disponibilità per l'articolo di assemblaggio, inclusa la quantità dell'ordine di assemblaggio che è possibile assemblare entro la data di scadenza in base alla disponibilità dei componenti necessari. Sono visualizzate nel campo In grado di assemblare nella Scheda Dettaglio Dettagli.
+
+Il valore nel campo **In grado di assemblare** viene visualizzato con un carattere rosso se la quantità è inferiore alla quantità nel campo **Quantità residua**, per indicare che non sono disponibili componenti sufficienti per assemblare la quantità completa.
+
+Nella Scheda dettaglio **Righe** vengono visualizzate le informazioni dettagliate sulla disponibilità per i componenti di assemblaggio.
+
+Se uno o più componenti di assemblaggio non sono disponibili, queste informazioni vengono riflesse nel campo **In grado di assemblare** nella riga in questione come quantità minore della quantità nel campo **Quantità residua** nella Scheda Dettaglio **Dettagli**.
+
 ## <a name="see-also"></a>Vedi anche
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md)    
 [Procedura: Impostare le ubicazioni](inventory-how-setup-locations.md)  
 [Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  
 [Procedura: Vendere prodotti](sales-how-sell-products.md)      
-[Catena di approvvigionamento](madeira-supply-chain.md)  
 [Utilizzo di Financials](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

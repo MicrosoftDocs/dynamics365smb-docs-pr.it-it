@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-resources-for-jobs"></a>Procedura: Utilizzare le risorse per le commesse
@@ -64,7 +63,7 @@ Se si desidera impostare più prezzi di risorsa alternativi basati sui prezzi st
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
-1. Nella casella **Cerca** immettere **Sugg. mod. prezzo ris. (prezzo)**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Sugg. mod. prezzo ris.(prezzo)**, quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la finestra **Modifiche prezzi risorsa** per visualizzarne i risultati.

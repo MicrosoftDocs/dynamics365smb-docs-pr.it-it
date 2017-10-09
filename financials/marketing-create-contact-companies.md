@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Creazione di società contatto
@@ -27,9 +26,9 @@ L'assegnazione del numero più elevato possibile di dati su una determinata soci
 
 È inoltre possibile definire la relazione d'affari con un contatto. Ad esempio, un contatto potrebbe essere una banca, un potenziale cliente o un terzista.
 
-Nella tabella seguente viene descritta una sequenza di attività e vengono riportati i collegamenti agli argomenti in cui sono illustrate tali attività. Questi task sono elencati nell'ordine in cui vengono in genere eseguiti.
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
 | Impostare un contatto per una nuova società, da zero o da un cliente, un fornitore o da un conto corrente bancario. |[Procedura: Creare società contatto](marketing-how-create-contact-companies.md) |
 | Sincronizzare le informazioni nei contatti con dati comuni su clienti, fornitori e conti correnti bancari |[Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |

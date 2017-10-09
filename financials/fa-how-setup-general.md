@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Procedura: Impostare i valori generali per i cespiti
@@ -26,7 +25,7 @@ Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le c
 Si definisce il comportamento generale o la funzionalità dei cespiti e si imposta la numerazione dei documenti nella finestra **Setup cespiti**.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup cespiti**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Per impostare le categorie di registrazione dei cespiti
 Le categorie di registrazione vengono utilizzate per definire categorie di cespiti. I movimenti per queste categorie registrazione vengono registrati negli stessi conti di contabilità generale.
@@ -57,7 +56,7 @@ Una definizione è un layout predefinito di registrazioni. La definizione contie
 Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Def. registrazioni cespiti**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario.
+2. Compilare i campi in base alle esigenze.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Per impostare i batch registrazioni cespiti
 È possibile impostare più batch di registrazioni, cioè registrazioni individuali per ogni definizione registrazioni. Ad esempio, gli impiegati possono avere propri batch registrazioni in cui le loro iniziali vengono utilizzate come nome batch contabile. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
@@ -70,7 +69,7 @@ Una definizione delle registrazioni cespiti viene creata automaticamente la prim
 È possibile utilizzare le registrazioni di riclassificazione dedicate per trasferire, suddividere o raggruppare i cespiti. Le registrazioni di riclassificazione dei cespiti vengono create automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Reg. ricl. cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni di riclassificazione cespiti. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Def. reg. riclass. cespiti**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario.
+2. Compilare i campi in base alle esigenze.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Per impostare i batch registrazioni di riclassificazione dei cespiti
 È possibile impostare più batch di registrazioni, cioè registrazioni individuali per ogni definizione registrazioni di riclassificazione. Ad esempio, gli impiegati possono avere un proprio batch di registrazioni di riclassificazione in cui le loro iniziali vengono utilizzate come nome del batch. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).
@@ -106,7 +105,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_m
 2. Creare una scheda cespite per ogni cespite esistente;  
 3. Impostare i registri beni ammortizzabili relativi ai cespiti;  
 4. Consentire l'integrazione con la contabilità generale eseguendo i passaggi seguenti.
-5. Nella casella **Cerca** immettere **Registri beni ammortizz.**, quindi selezionare il collegamento correlato.  
+5. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registri beni ammortizz.**, quindi scegliere il collegamento correlato.  
 6. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la finestra **Scheda registro beni ammortizz.**
 7. Nella Scheda dettaglio **Integrazione** assicurarsi che tutti i campi rimangano cancellando tutti i segni di spunta. Nel caso in cui si disponga di diversi registri beni ammortizzabili, attivare l'integrazione contabilità generale per ciascuno di essi.  
 8. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:

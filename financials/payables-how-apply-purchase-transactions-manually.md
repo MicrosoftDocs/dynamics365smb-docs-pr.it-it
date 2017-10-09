@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Procedura: Riconciliare manualmente i pagamenti ai fornitori
@@ -35,7 +34,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 > [!NOTE]  
 >   Se il campo **Metodo collegamento** nella scheda fornitore è impostato su **Collega al più Vecchio**, i pagamenti saranno automaticamente collegati al movimento di credito meno recente, a meno che non si specifichi manualmente a quale movimento collegarli. Se il metodo di collegamento per un cliente è impostato su **Manuale**, i movimenti dovranno essere collegati manualmente.
 
-È possibile collegare i pagamenti fornitori manualmente ai documenti di acquisto correlati quando si registrano i pagamenti nella finestra **Registrazioni pagamenti**. Per informazioni sulla compilazione delle registrazioni pagamenti, vedere [Procedura: Effettuare i pagamenti](payables-make-payments.md).
+È possibile collegare i pagamenti fornitori manualmente ai documenti di acquisto correlati quando si registrano i pagamenti nella finestra **Registrazioni pagamenti**. Per informazioni sulla compilazione delle registrazioni pagamenti, vedere [Effettuare i pagamenti](payables-make-payments.md).
 
 È inoltre possibile collegare i pagamenti fornitori e i pagamenti clienti dopo che i pagamenti risultano come transazioni bancarie negative in banca. Nella finestra **Registrazione riconciliazione pagamenti** è possibile utilizzare le funzioni per l'importazione del rendiconto bancario, il collegamento automatico e la riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
@@ -61,7 +60,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Nota cred. acquisto**, quindi scegliere il collegamento correlato.
 2. Aprire la nota di credito da collegare.
 3. Immettere le informazioni appropriate nella testata.
-4. Per collegare un movimento contabile a un singolo venditore, nella Scheda dettaglio **Applicazione**, nel campo **Collega-a nr. doc.** selezionare il movimento da collegare al credito, quindi nel campo **Importo da collegare**, immettere l'importo da collegare al movimento.
+4. Per collegare un singolo movimento contabile fornitore, nella Scheda dettaglio **Collegamento**, nel campo **Collega-a nr. doc.**, selezionare il movimento a cui collegare il credito, quindi nel campo **Importo da collegare**, immettere l'importo da collegare al movimento.
 5. In alternativa, per collegare più movimenti contabili fornitori:
 
    1. Scegliere l'azione **Collega movimenti**.
@@ -71,7 +70,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 
        Se non si immette alcun importo, verrà applicato automaticamente l'importo massimo. Nella parte inferiore della finestra **Collega movimenti fornitori** è possibile vedere l'importo nel campo **Importo collegato** e verificare se il saldo del collegamento è corretto.
 6. Scegliere il pulsante **OK**.  
-   Nella finestra **Nota credito acquisto** viene mostrato il movimento precedentemente selezionato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.** . Nella finestra verrà inoltre visualizzato l'importo della nota di credito da registrare, rettificato per eventuali sconti di pagamenti.
+   Nella finestra **Nota credito acquisto** viene mostrato il movimento precedentemente selezionato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.**. Nella finestra verrà inoltre visualizzato l'importo della nota di credito da registrare, rettificato per eventuali sconti di pagamenti.
 7. Scegliere il pulsante **Registra** per contabilizzare la nota di credito di acquisto.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Per collegare i movimenti contabili fornitori registrati

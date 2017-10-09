@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
@@ -31,10 +30,10 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 
 | Per | Vedere |
 | --- | --- |
-| Creare una scheda fornitore per ogni fornitore da cui si acquista. |[Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
-| Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data. |[Procedura: Registrare accordi riguardanti prezzi, sconti e pagamenti applicati agli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Attribuire un ordine di priorità ai fornitori. |[Procedura: Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
-| Impostare gli addetti agli acquisti. |[Procedura: Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
+| Creare una scheda fornitore per ogni fornitore da cui si acquista|[Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
+| Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Procedura: Registrare accordi riguardanti prezzi, sconti e pagamenti applicati agli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Attribuire un ordine di priorità ai fornitori |[Procedura: Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
+| Impostare gli addetti agli acquisti |[Procedura: Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  

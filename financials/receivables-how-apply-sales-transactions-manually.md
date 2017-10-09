@@ -1,8 +1,6 @@
 ---
 title: Collegare i movimenti contabili clienti per riconciliare manualmente i pagamenti dei clienti | Documenti Microsoft
 description: "Descrive come collegare gli incassi o i rimborsi del cliente a uno o più movimenti contabili aperti del cliente e riconciliare i pagamenti del cliente."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Procedura: Riconciliare manualmente i pagamenti dei clienti
@@ -45,13 +43,13 @@ Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti,
 4. Compilare il campo **Data di Registrazione**.  
 5. Nel campo **Tipo di documento** selezionare **Pagamento**.
 
-    Il campo **Nr. documento** viene compilato dalla numerazione assegnata al batch.  
-6. Utilizzare il campo **Nr. documento esterno** per archiviare un identificatore, quale il numero di assegno del cliente.
+    Il campo **Nr. documento** viene compilato utilizzando il numero di serie assegnato al batch.  
+6. Utilizzare il campo **Nr. documento esterno** per archiviare un identificatore come il numero dell'assegno del cliente.
 7. Nel campo **Tipo conto** selezionare **Cliente**.
-8. Nel campo **Nr. conto** selezionare il conto C/G desiderato.
+8. Nel campo **Nr. conto corrente** selezionare il conto C/G pertinente.
 9. Se si desidera registrare il collegamento contemporaneamente alle registrazioni, effettuare una delle operazioni seguenti.
 10. Nel campo **Tipo contropartita** selezionare **Conto C/G** per i pagamenti in contanti e **Conto C/C bancario** per gli altri pagamenti.
-11. Nel campo **Nr. conto profitti/perdite** selezionare il conto cassa per i pagamenti in contanti o il conto bancario appropriato per gli altri pagamenti.
+11. Nel campo **Conto profitti/perdite** selezionare il conto cassa per i pagamenti in contanti o il conto bancario appropriato per gli altri pagamenti.
 12. Effettuare la registrazione.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Per collegare un pagamento a un singolo movimento contabile cliente
@@ -66,7 +64,7 @@ Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti,
 9. Nel campo **Importo da collegare** immettere l'importo che si desidera collegare al movimento. Se non si immette alcun importo, verrà collegato l'importo massimo.
 
     Nella parte inferiore della finestra **Collega movimenti clienti** è possibile vedere l'importo specifico nel campo **Importo collegato** e anche se il saldo del collegamento è corretto.  
-10. Scegliere il pulsante **OK**. Nella finestra **Registrazioni incassi** viene a questo punto visualizzato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.** il movimento selezionato. .
+10. Scegliere il pulsante **OK**. Nella finestra **Registrazioni incassi** viene a questo punto visualizzato il movimento selezionato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.**.
 11. Effettuare la registrazione dell'incasso.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Per collegare un pagamento a più movimenti contabili clienti
@@ -77,8 +75,8 @@ Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti,
 5. Nel campo **Tipo conto** immettere **Cliente**.
 6. Nel campo **Tipo contropartita** immettere **Conto bancario**.
 7. Nel campo **Importo** immettere il pagamento completo come importo negativo.
-8. Per collegare il pagamento a più movimenti contabili clienti durante la registrazione, scegliere l'azione **Collega movimenti**.
-9. Selezionare le righe con i movimenti a cui si desidera collegare il movimento, quindi scegliere l'azione **Collega a ID**.
+8. Per collegare il pagamento a più movimenti contabili clienti durante la registrazione, scegliere l'azione **Collega movimenti**.  
+9. Selezionare le righe con i movimenti a cui si desidera collegare il movimento, quindi scegliere l'azione **Collega a ID**.  
 10. In ciascuna riga del campo **Importo da collegare** immettere l'importo da collegare al singolo movimento. Se non si immette alcun importo, verrà collegato l'importo massimo.
 
     Nella parte inferiore della finestra **Collega movimenti clienti** è possibile vedere l'importo specifico nel campo **Importo collegato** e anche se il saldo del collegamento è corretto.  
@@ -88,11 +86,11 @@ Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti,
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Per collegare una nota di credito a un singolo movimento contabile cliente
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note credito vendita**, quindi scegliere il collegamento correlato.
 2. Aprire la nota di credito di vendita desiderata.
-3. Per collegare la nota di credito a un singolo movimento contabile cliente durante la registrazione, nel campo **Collega-a nr. doc.**, selezionare il movimento al quale si desidera collegare il pagamento.
+3. Per applicare la nota di credito a un singolo movimento contabile cliente durante la registrazione, nella Scheda dettaglio Collegamento, nel campo **Collega-a nr. doc.** selezionare il movimento che si desidera collegare il pagamento.
 4. Nella riga del campo **Importo da collegare** immettere l'importo da collegare al movimento.  
 
     Se non si immette alcun importo, verrà applicato automaticamente l'importo massimo. Nella parte inferiore della finestra **Collega movimenti clienti** è possibile vedere l'importo specifico nel campo **Importo collegato** e anche se il saldo del collegamento è corretto.    
-5. Scegliere il pulsante **OK**. Nella finestra **Note credito vendita** viene a questo punto visualizzato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.** il movimento selezionato. . e l'importo della nota di credito da registrare, rettificato per eventuali sconti di pagamenti.
+5. Scegliere il pulsante **OK**. Nella finestra **Note credito vendita** viene a questo punto visualizzato il movimento selezionato nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.**. e l'importo della nota di credito da registrare, rettificato per eventuali sconti di pagamenti.
 6. Registrare la nota di credito.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Per collegare una nota di credito a più movimenti contabili clienti

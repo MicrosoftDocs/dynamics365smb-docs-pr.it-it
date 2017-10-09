@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
@@ -41,7 +40,7 @@ La società di default è detta CRONUS e contiene solo i dati di esempio.
 >   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio nella home page), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
 ## <a name="work-date"></a>Data di lavoro
-La data di lavoro predefinita in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
+La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  
 >   Digitare **w** per immettere rapidamente la data di lavoro in un campo di data. Scrivere **t** per immettere rapidamente la data corrente nel campo della data.
@@ -49,8 +48,11 @@ La data di lavoro predefinita in genere è la data odierna. Per poter eseguire t
 > [!IMPORTANT]  
 >   La data di lavoro verrà modificata solo finché non si chiude la società o finché non vengono modificate le date. Se viene aperta una società differente oppure quando viene aperta la stessa società il giorno successivo ed è ancora necessario utilizzare una data di lavoro diversa, occorre reimpostare la data di lavoro.
 
-## <a name="confirmation-dialogs"></a>Finestre di dialogo di conferma
-Utilizzare le opzioni indicate in questa sezione se si desidera specificare alcuni controlli aggiuntivi per la registrazione dei documenti. Le opzioni sono selezionate come standard, ma è possibile deselezionare le caselle di controllo per evitare di ottenere avvisi o messaggi specifici.
+## <a name="region"></a>Area geografica
+L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.   
+
+## <a name="change-when-i-receive-notifications"></a>Modificare il momento in cui ricevere le notifiche
+Scegliere questo collegamento per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Notifiche smart](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
