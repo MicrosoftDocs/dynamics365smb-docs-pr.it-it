@@ -1,0 +1,1 @@
+<span data-ttu-id="74984-101">Dynamics 365 for Financials</span><span class="sxs-lookup"><span data-stu-id="74984-101">Dynamics 365 for Financials</span></span>
