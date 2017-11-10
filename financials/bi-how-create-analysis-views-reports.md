@@ -50,13 +50,12 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 
 In base alle righe e alle colonne impostate, il risultato del report viene aggregato automaticamente nella finestra della matrice **Report Analisi**, come nel seguente esempio:  
 
-|||||  
+| |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
 |-|-|-|-|  
-||Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
-|Computer||||  
-|Monitor||||  
-|Pezzi di ricambio||||  
-|Totale||||  
+|Computer| | | |  
+|Monitor| | | |  
+|Pezzi di ricambio| | | |  
+|Totale| | | |  
 
  È ad esempio possibile impostare un insieme di layout di riga e svariati insiemi di layout di colonna per visualizzare rispettivamente i report mensili e i report annuali.
 

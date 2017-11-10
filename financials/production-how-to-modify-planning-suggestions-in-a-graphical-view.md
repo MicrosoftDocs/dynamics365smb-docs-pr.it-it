@@ -67,7 +67,6 @@ Per implementare le modifiche del piano di approvvigionamento, è necessario seg
  |Cerchio verde con icona a forma di disco con una croce rossa|Ordine di approvvigionamento suggerito con messaggio di azione *Annulla*.<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
  |Cerchio verde con icona a forma di disco con una stella|Ordini di approvvigionamento suggeriti con messaggio di azione *Nuovo*.<br /><br /> - Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
  |Cerchio verde con icona a forma di disco con una o due frecce|Ordini di approvvigionamento suggeriti con messaggio di azione *Riprogramma*, *Modifica Qtà*, o *Riprogr. e mod. qtà*<br /><br /> - Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).<br /><br /> Le frecce riflettono la direzione del suggerimento di pianificazione. Ad esempio, una freccia sinistra con un freccia rivolta verso l'alto corrisponde a un messaggio di azione *Riprogr. e mod. qtà* composto da una riprogrammazione all'indietro e un aumento della quantità.|  
- ||  
 
 Quando si accede al menu a discesa per la Scheda dettaglio **Sequenza temporale**, in base alla scelta eseguita vengono visualizzate le seguenti funzioni  
 
