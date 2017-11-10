@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a><span data-ttu-id="b5bc0-103">Procedura: Creare report di analisi</span><span class="sxs-lookup"><span data-stu-id="b5bc0-103">How to: Create Analysis Reports</span></span>
@@ -50,13 +50,12 @@ ms.lasthandoff: 09/22/2017
 
 <span data-ttu-id="b5bc0-134">In base alle righe e alle colonne impostate, il risultato del report viene aggregato automaticamente nella finestra della matrice **Report Analisi**, come nel seguente esempio:</span><span class="sxs-lookup"><span data-stu-id="b5bc0-134">Based on the lines and columns you have set up, the program will aggregate the result of your report in the **Analysis Report** matrix window, such as in this example:</span></span>  
 
-|||||  
+| |<span data-ttu-id="b5bc0-135">Vendite mese corrente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-135">Sales Current Month</span></span>|<span data-ttu-id="b5bc0-136">Vendite mese precedente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-136">Sales Last Month</span></span>|<span data-ttu-id="b5bc0-137">Percentuale vendite mese precedente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-137">Sales Last Month %</span></span>|  
 |-|-|-|-|  
-||<span data-ttu-id="b5bc0-135">Vendite mese corrente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-135">Sales Current Month</span></span>|<span data-ttu-id="b5bc0-136">Vendite mese precedente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-136">Sales Last Month</span></span>|<span data-ttu-id="b5bc0-137">Percentuale vendite mese precedente</span><span class="sxs-lookup"><span data-stu-id="b5bc0-137">Sales Last Month %</span></span>|  
-|<span data-ttu-id="b5bc0-138">Computer</span><span class="sxs-lookup"><span data-stu-id="b5bc0-138">Computers</span></span>||||  
-|<span data-ttu-id="b5bc0-139">Monitor</span><span class="sxs-lookup"><span data-stu-id="b5bc0-139">Displays</span></span>||||  
-|<span data-ttu-id="b5bc0-140">Pezzi di ricambio</span><span class="sxs-lookup"><span data-stu-id="b5bc0-140">Spare parts</span></span>||||  
-|<span data-ttu-id="b5bc0-141">Totale</span><span class="sxs-lookup"><span data-stu-id="b5bc0-141">Total</span></span>||||  
+|<span data-ttu-id="b5bc0-138">Computer</span><span class="sxs-lookup"><span data-stu-id="b5bc0-138">Computers</span></span>| | | |  
+|<span data-ttu-id="b5bc0-139">Monitor</span><span class="sxs-lookup"><span data-stu-id="b5bc0-139">Displays</span></span>| | | |  
+|<span data-ttu-id="b5bc0-140">Pezzi di ricambio</span><span class="sxs-lookup"><span data-stu-id="b5bc0-140">Spare parts</span></span>| | | |  
+|<span data-ttu-id="b5bc0-141">Totale</span><span class="sxs-lookup"><span data-stu-id="b5bc0-141">Total</span></span>| | | |  
 
  <span data-ttu-id="b5bc0-142">È ad esempio possibile impostare un insieme di layout di riga e svariati insiemi di layout di colonna per visualizzare rispettivamente i report mensili e i report annuali.</span><span class="sxs-lookup"><span data-stu-id="b5bc0-142">You can, for example, set up one set of lines and several sets of column layouts to show monthly and annual reports respectively.</span></span>
 
