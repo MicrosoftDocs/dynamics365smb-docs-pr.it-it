@@ -1,6 +1,6 @@
 ---
 title: Gestire i clienti tramite Dynamics 365 for Sales| Documenti Microsoft
-description: "È possibile utilizzare Dynamics 365 for Sales tramite Dynamics 365 for Financials per mappare i dati e sfruttare l'integrazione ottimale e la sincronizzazione nel processo dai lead agli incassi."
+description: "È possibile utilizzare Dynamics 365 for Sales tramite Dynamics 365 Business edition per mappare i dati e sfruttare l'integrazione ottimale e la sincronizzazione nel processo dai lead agli incassi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Gestione delle relazioni clienti utilizzando Dynamics 365 for Sales da Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestire clienti e vendite creati in Dynamics 365 for Sales
 Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, si può utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per l'elaborazione degli ordini e i dati finanziari e sfruttare un'integrazione ottimale nel processo dai lead agli incassi.
 
 Quando l'applicazione è impostata per l'integrazione con Dynamics 365 for Sales, è possibile accedere ai dati di vendita da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa, in alcuni casi. Questa integrazione consente di utilizzare e sincronizzare i tipi di dati che sono comuni a entrambi i servizi, quali clienti, contatti e informazioni sulle vendite, e mantenere i dati aggiornati in entrambe le ubicazioni.  
 
-Ad esempio, l'agente in Dynamics 365 for Sales può utilizzare i listini prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si crea un ordine di vendita. Quando si aggiunge l'articolo alla riga dell'ordine di vendita in Dynamics 365 for Sales, è possibile visualizzare il livello di magazzino (disponibilità) dell'articolo da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questi dati vengono generati nell'ambito della Guida al setup assistito, **Setup connessione a Dynamics 365**.  
+Ad esempio, l'agente in Dynamics 365 for Sales può utilizzare i listini prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si crea un ordine di vendita. Quando si aggiunge l'articolo alla riga dell'ordine di vendita in Dynamics 365 for Sales, è possibile visualizzare il livello di magazzino (disponibilità) dell'articolo da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Impostazione della connessione
-Da casa, è possibile accedere alla Guida al setup assistito **Setup connessione a Dynamics 365** che consente di impostare la connessione. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics 365 for Sales e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dalla home page, è possibile accedere alla Guida al setup assistito **Setup connessione a Dynamics 365 for Sales** che fornisce informazioni sull'impostazione della connessione. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Dynamics 365 for Sales e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente gli stessi task nella finestra **Setup connessione Dynamics 365**.
+>   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente gli stessi task nella finestra **Setup connessione Dynamics 365 for Sales**.
 
 Nella Guida di setup assistito, scegliere quali dati sincronizzare tra i due servizi. È inoltre possibile specificare se si desidera importare la soluzione Dynamics 365 for Sales esistente. In questo caso, specificare le credenziali per un account utente amministrativo.
 
@@ -51,7 +51,7 @@ L'integrazione si basa su un account utente condiviso. Così nella sottoscrizion
 
 Se si sceglie di attivare la *disponibilità degli articoli*, l'account utente di integrazione deve avere una chiave di accesso ai servizi Web. Si tratta di una procedura a due passaggi nella pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] per quell'account utente: è necessario scegliere il pulsante **Modifica chiave di accesso ai servizi Web** e, nella guida di connessione di Dynamics 365, è necessario specificare tale utente come utente del servizio Web OData.
 
-Se si sceglie di attivare l'*integrazione ordini di vendita*, è necessario specificare un utente che può gestire la sincronizzazione. L'utente dell'integrazione o un altro account utente.
+Se si sceglie di attivare l' *integrazione ordini di vendita*, è necessario specificare un utente che può gestire la sincronizzazione. L'utente dell'integrazione o un altro account utente.
 
 ### <a name="coupling-records"></a>Associazione di record
 Nella Guida di setup assistito, è possibile scegliere di sincronizzare i due servizi. In seguito, è possibile impostare la sincronizzazione per tipi di dati specifici. Questo processo è detto *associazione* e questa sezione fornisce consigli sugli aspetti che è necessario prendere in considerazione.
@@ -77,7 +77,7 @@ Alla fine della Guida al setup assistito è possibile scegliere l'azione **Esegu
 
 Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, eseguire il drill down nel campo **Stato movimento coda processi**, **Stato processo a tabella di integrazione** o **Stato processo da tabella di integrazione** nella finestra **Revisione sincronizzazione completa CRM**.
 
-Nella finestra **Setup connessione Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la finestra **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle nella soluzione Financials e in Dynamics 365 for Sales da sincronizzare.
+Nella finestra **Setup connessione Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la finestra **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle nella soluzione Dynamics 365 Business edition e in Dynamics 365 for Sales da sincronizzare.
 
 ## <a name="see-also"></a>Vedi anche
 [Relationship Management](marketing-relationship-management.md)  

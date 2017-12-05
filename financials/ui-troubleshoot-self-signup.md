@@ -1,8 +1,6 @@
 ---
 title: Risoluzione dei problemi o soluzioni alternative relative all'iscrizione self-service | Documenti Microsoft
-description: "Informazioni sui motivi più comuni per cui non è possibile accedere a Dynamics 365 for Financials e soluzioni per risolvere gli errori di accesso."
-services: project-madeira
-documentationcenter: 
+description: "Informazioni sui motivi più comuni per cui non è possibile accedere a Dynamics 365 Business edition e soluzioni per risolvere gli errori di accesso."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Risoluzione dei problemi relativi all'iscrizione self-service
 L'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] è facile e può essere effettuata molto rapidamente. È possibile creare un account gratuito anche se si è un'organizzazione esistente. Questo articolo illustra i problemi che è possibile incontrare durante l'iscrizione.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Quale indirizzo e-mail posso utilizzare con Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Quale indirizzo e-mail posso utilizzare con Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.
 
 Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si riceve un messaggio che richiede di utilizzare un indirizzo e-mail un lavoro o di scuola.
@@ -40,5 +38,4 @@ In molti casi, la registrazione a [!INCLUDE[d365fin](includes/d365fin_md.md)] si
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

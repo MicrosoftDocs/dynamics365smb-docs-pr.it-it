@@ -1,6 +1,6 @@
 ---
-title: "Funzionalità aziendali supportate da Financials | Documenti Microsoft"
-Description: Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio Finanze, Magazzino e Project Management.
+title: "Funzionalità aziendali supportate da Dynamics 365 Business edition | Documenti Microsoft"
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5438d1808bff9509d1a938f601139d3faeab2a82
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Panoramica sulle funzionalità aziendali
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Panoramica sulla funzionalità aziendale in Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Dalla home page è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
@@ -43,7 +43,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Assicurare un flusso efficace dei prodotti ricevuti e spediti.|[Gestione warehouse](warehouse-manage-warehouse.md)|
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
-|Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati come documenti elettronici ](across-data-exchange.md)|
+|Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
 |Registrare i documenti esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 
 

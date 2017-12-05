@@ -1,5 +1,5 @@
 ---
-title: Documenti elettronici in Dynamics 365 for Financials | Microsoft Docs
+title: Documenti elettronici in Dynamics 365 Business edition | Microsoft Docs
 description: Introduzione all'invio e alla ricezione di documenti elettronici in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,17 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c0ca1b5da823d31bba4961e8724dfb98e842317
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-## <a name="exchanging-data-as-electronic-documents"></a>Scambio di dati come documenti elettronici  
-Come alternativa all'invio tramite e-mail dei file come allegati, è possibile inviare e ricevere documenti elettronicamente. Per documento elettronico si intende un file conforme agli standard che rappresenta un documento aziendale, come ad esempio la fattura di un fornitore che può essere ricevuta e convertita in fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo scambio di documenti elettronici tra due partner commerciali viene eseguito da un provider esterno dei servizi di Exchange per documenti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio e la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di Exchange per documenti. Un provider importante dei servizi di Exchange per documenti è preconfigurato e pronto per l'installazione nell'azienda. Per fornire il supporto per altri formati di documento elettronico, è necessario creare nuove definizioni di scambio dati utilizzando il framework di scambio dati.  
+
+# <a name="exchanging-data-electronically"></a>Scambio di dati in modalità elettronica
+È possibile utilizzare il framework di scambio dati per scambiare documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
+
+## <a name="electronic-documents"></a>Documenti elettronici
+Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente. Per documento elettronico si intende un file conforme agli standard che rappresenta un documento aziendale, come ad esempio la fattura di un fornitore che può essere ricevuta e convertita in fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo scambio di documenti elettronici tra due partner commerciali viene eseguito da un provider esterno dei servizi di Exchange per documenti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio e la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di Exchange per documenti. Un provider importante dei servizi di Exchange per documenti è preconfigurato e pronto per l'installazione nell'azienda. Per fornire il supporto per altri formati di documento elettronico, è necessario creare nuove definizioni di scambio dati utilizzando il framework di scambio dati.  
 
 Dai PDF o dai file di immagine che rappresentano i documenti in entrata, è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che crei documenti elettronici che è possibile convertire in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], come per i documenti elettronici PEPPOL. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile inviarla al servizio OCR dalla finestra **Documenti in entrata**. Dopo alcuni secondi, viene ricevuto il file come fattura elettronica che può essere convertita in una fattura di acquisto per il fornitore. Se si invia il file al servizio OCR tramite e-mail, un nuovo record del documento in entrata viene creato quando si riceve nuovamente il documento elettronico.  
 
@@ -46,17 +50,17 @@ Per tutti gli scambi di dati in file XML, è possibile preparare le impostazioni
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
-|A|Vedere|  
+|Per|Vedere|  
 |--------|---------|  
 |Informazioni sul funzionamento della struttura di scambio di dati (Data Exchange Framework).|[Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)|  
-|Preparare lo scambio di dati in un file riutilizzando lo schema XML del file. Impostare le definizioni di scambio dei dati. Impostare i dati principali per l'invio dei documenti elettronici. Impostare vari campi di importazione/esportazione della banca.|[Impostare lo scambio di dati](across-set-up-data-exchange.md)|  
-|In base alle definizioni di scambio dei dati, inviare le fatture PEPPOL, ricevere le fatture PEPPOL, importare gli estratti conto bancari ed esportare i file di pagamento bancario.|[Scambiare dati](across-exchange-data.md)|  
+|Preparare lo scambio di dati in un file riutilizzando lo schema XML del file. Impostare le definizioni di scambio dei dati. Impostare i dati principali per l'invio dei documenti elettronici. Impostare vari campi di importazione/esportazione della banca.|[Impostazione dello scambio di dati](across-set-up-data-exchange.md)|  
+|In base alle definizioni di scambio dei dati, inviare le fatture PEPPOL, ricevere le fatture PEPPOL, importare gli estratti conto bancari ed esportare i file di pagamento bancario.|[Scambio di dati](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)  
 [Procedura: Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Impostare lo scambio di dati](across-set-up-data-exchange.md)  
-[Scambiare dati](across-exchange-data.md)  
+[Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
+[Scambio di dati](across-exchange-data.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

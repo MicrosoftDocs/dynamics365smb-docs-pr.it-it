@@ -1,6 +1,6 @@
 ---
-title: Impostare gli intervalli di date in Dynamics 365 for Financials | Documenti Microsoft
-description: Informazioni su come ottenere un report per visualizzare i dati relativi a periodi di tempo specifici utilizzando gli intervalli di date in Dynamics 365 for Financials.
+title: Impostare gli intervalli di date in Dynamics 365 Business edition | Documenti Microsoft
+description: Informazioni su come ottenere un report per visualizzare i dati relativi a periodi di tempo specifici utilizzando gli intervalli di date in Dynamics 365 Business edition.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dc7cd392843ce7c39200bb2331c09cc44c7a394a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-for-financials"></a>Immettere intervalli di date in Dynamics 365 for Financials
+# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Immettere intervalli di date in Dynamics 365 Business edition 
 È possibile impostare filtri contenenti una data di inizio e una data di fine per visualizzare solo la data inclusa in un intervallo di date o di ore specifico. All'impostazione di intervalli di date si applicano regole speciali. Si consideri come esempio la **Lista primi 10 clienti**:
 
 ![Impostare un intervallo di date nella pagina di richiesta per la Lista primi 10 clienti](./media/ui-enter-date-ranges/customer-top10-list.png)

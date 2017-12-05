@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Dettagli di progettazione: Costo medio
@@ -25,7 +25,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 ## <a name="setting-up-average-cost-calculation"></a>Impostazione del calcolo del costo medio  
  Nella seguente tabella vengono descritti i due campi della finestra **Setup magazzino** che devono essere compilati per abilitare il calcolo del costo medio.  
 
-|Campo|Description|  
+|Campo|Descrizione|  
 |---------------------------------|---------------------------------------|  
 |**Costo medio periodo**|Specifica il periodo di tempo in cui viene calcolato il costo medio. Sono disponibili le seguenti opzioni:<br /><br /> -   **Giorno**<br />-   **Settimana**<br />-   **Mese**<br />-   **Periodo contabile**<br /><br /> A tutte le riduzioni di magazzino registrate nel costo medio del periodo viene assegnato il costo medio calcolato per tale periodo.|  
 |**Tipo calcolo costo medio**|Specifica come viene calcolato il costo medio. Sono disponibili le seguenti opzioni:<br /><br /> -   **Articolo**<br />-   **Articolo, variante e ubicazione**<br />     Con questa opzione, il costo medio viene calcolato per ciascun articolo, per ciascuna collocazione e per ciascuna variante dell'articolo. Questo significa che il costo medio dell'articolo dipende da dove è immagazzinato e dalla variante selezionata, ad esempio il colore.|  
@@ -108,7 +108,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 
  Nella seguente tabella vengono mostrati i movimenti nella tabella **Rettifica costo medio cod. spedizioni Intrastat** che si applicano ai movimenti di valorizzazione risultanti dai movimenti contabili articolo nella tabella precedente.  
 
-|**Nr. Articolo**|**Cod. variante**|**Cod. ubicazione**|**Data di valutazione**|**Costo rettificato**|  
+|**Nr. articolo**|**Cod. variante**|**Cod. ubicazione**|**Data di valutazione**|**Costo rettificato**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
 |ART1||BLU|01-31-20|No|  
 |ART1||BLU|02-28-20|No|  

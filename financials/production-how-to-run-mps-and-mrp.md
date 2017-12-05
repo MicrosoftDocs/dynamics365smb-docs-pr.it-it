@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Procedura: Eseguire la pianificazione completa, MPS e MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Procedura: Eseguire la pianificazione completa, MPS o MRP
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
 
--   Per *MPS* si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione di produzione. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati "articoli MPS" e sono identificati dinamicamente all'inizio del calcolo.  
--   Per *MRP* si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione di produzione a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
+-   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione di produzione. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  
+-   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione di produzione a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
 
 Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione riguardano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce messaggi di azione. I messaggi di azione sono suggerimenti relativi alla creazione di un nuovo ordine, alla modifica di un ordine (quantità o data) o all'annullamento di un ordine già in ordinazione. Il termine "ordine" include ordini di acquisto, ordini di assemblaggio, ordini di produzione e ordini di trasferimento.
 
@@ -51,7 +51,7 @@ Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera 
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la finestra **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Selezionare per iniziare il calcolo di una programmazione di produzione master. Gli articoli con ordini di vendita aperti o previsioni di produzione vengono inclusi nell'esecuzione.|  
     |**MRP**|Selezionare per iniziare il calcolo della pianificazione delle richieste di materiale. Gli articoli con richieste dipendenti vengono inclusi nell'esecuzione. In genere, MPS e MRP sono eseguiti contemporaneamente. Per eseguire MPS e MRP simultaneamente, è necessario che sia selezionato il campo **Calcolo combinato MPS/MRP** nella Scheda dettaglio **Pianificazione** della finestra **Setup manufacturing**.|  
@@ -69,7 +69,7 @@ Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera 
 1.  Nella finestra **Prospetto pianificazione** scegliere l'azione **Esegui messaggi di azione**.  
 2.  Nella Scheda dettaglio **Opzioni** specificare come creare gli approvvigionamenti. Compilare i campi come indicato nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Ordine di produzione**|Specificare il modo in cui si desidera creare gli ordini di produzione. A tale scopo, è possibile utilizzare direttamente le proposte delle righe di pianificazione. È possibile creare ordini di produzione pianificati o confermati.|  
     |**Ordine di assemblaggio**|Specificare il modo in cui si desidera creare gli ordini di assemblaggio. A tale scopo, è possibile utilizzare direttamente le proposte delle righe di pianificazione.|  
@@ -97,7 +97,7 @@ Dopo avere esaminato i messaggi di azione e avere determinato se accettare alcun
 
 In risposta a qualsiasi mancato saldo tra approvvigionamento e domanda, vengono generati i seguenti messaggi di azione  
 
-|Messaggio azione|Description|  
+|Messaggio azione|Descrizione|  
 |--------------------|---------------------------------------|  
 |**Nuova**|Se non è possibile soddisfare una domanda tramite i messaggi di azione in **Modifica qtà**, **Riprogramma** o **Riprogr. e mod. qtà** per gli ordini esistenti, viene generato il messaggio azione **Nuovo**, in cui viene suggerito un nuovo ordine. Viene generato un messaggio **Nuovo** anche se non sono presenti ordini di approvvigionamento esistenti nel ciclo di riordino dell'articolo in questione. Questo parametro determina il numero di periodi in avanti e a ritroso nel profilo di disponibilità durante la ricerca di un ordine da ripianificare.|  
 |**Modifica qtà**|Quando la domanda tracciata in uno o più ordini di approvvigionamento è soggetta a una modifica della quantità, viene generato il messaggio di azione **Modifica qtà**, che indica che è necessario modificare l'approvvigionamento correlato in base alla modifica verificatasi nella domanda. Se viene rilevata una nuova domanda, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguita la ricerca del più vicino ordine di approvvigionamento non impegnato esistente nel ciclo di riordino e per tale ordine viene generato un messaggio di azione di modifica.|  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 61c89c50b549a802df1973538edb83d3baf328e4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="manufacturing"></a>Manufacturing
@@ -24,7 +24,9 @@ Quando una domanda viene pianificata e i materiali vengono emessi in base alle D
 
 Una parte importante dell'esecuzione della produzione, dal punto di vista del sistema, è la registrazione dell'output di produzione nel database per indicare l'avanzamento e aggiornare il magazzino con gli articoli finiti. La registrazione dell'output può essere svolta manualmente, compilando e registrando le righe di registrazione dopo le operazioni di produzione. Oppure può essere effettuata automaticamente con il metodo di consuntivazione a ritroso. In tale caso il consumo dei materiali viene registrato automaticamente con l'output quando l'ordine di produzione viene impostato su completato.  
 
-Come alternativa alla registrazione in batch per registrare l'output di più ordini di produzione, è possibile utilizzare la finestra **Registrazioni di produzione** per registrare il consumo e/o l'output per una riga dell'ordine di produzione.  
+Come alternativa alla registrazione in batch per registrare l'output di più ordini di produzione, è possibile utilizzare la finestra **Registrazioni di produzione** per registrare il consumo e/o l'output per una riga dell'ordine di produzione.
+
+Prima di iniziare a produrre articoli, è necessario creare diverse impostazioni, ad esempio le aree di produzione, i cicli e le distinte base di produzione. Per ulteriori informazioni, vedere [Impostazione della produzione](production-configure-production-processes.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 

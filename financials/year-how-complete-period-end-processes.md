@@ -1,6 +1,6 @@
 ---
 title: "Attività facoltative per periodi di chiusura | Documenti Microsoft"
-description: "In questo argomento vengono descritti i processi e le attività facoltativi per la chiusura dei periodi contabili in Financials."
+description: "In questo argomento vengono descritti i processi e le attività facoltativi per la chiusura dei periodi contabili in Microsoft Dynamics 365."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: ddc2dbda549414a7beecf5f307c525b53166fa15
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Procedura: Modificare i suggerimenti di pianificazione in una visualizzazione grafica
@@ -47,7 +47,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
 5.  Tenere premuto il pulsante del mouse mentre si trascina il puntatore verso l'alto o verso il basso per modificare la quantità. Tenere premuto il pulsante del mouse mentre si trascina il puntatore a sinistra o a destra per modificare la data di scadenza.  
 6.  Oltre che spostando gli elementi con il trascinamento, è possibile modificare i suggerimenti di pianificazione usando una serie di funzioni del menu a discesa. Accedere al menu a discesa facendo clic con il pulsante destro del mouse sul cerchio verde di un elemento di approvvigionamento suggerito e selezionare una delle seguenti funzioni  
 
-    |Funzione|Description|  
+    |Funzione|Descrizione|  
     |--------------|---------------------------------------|  
     |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche**.<br /><br /> **NOTA:** se i campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** sono vuoti o hanno più di un valore di filtro, il nuovo approvvigionamento viene creato e successivamente viene salvato nel prospetto di pianificazione o nella richiesta di approvvigionamento con i seguenti codici:<br /><br /> *Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.<br /><br /> *Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato per il primo valore del filtro in base al metodo di ordinamento.<br /><br /> Se si desidera un altro codice variante o ubicazione, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
     |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
@@ -59,7 +59,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
 Per implementare le modifiche del piano di approvvigionamento, è necessario seguire i messaggi di azione risultanti dal prospetto di pianificazione oppure dalla richiesta di approvvigionamento. Per ulteriori informazioni, vedere Pianificaz - Esegui mess. azione.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Simboli e icone nella Scheda dettaglio Sequenza temporale
- |Simbolo/Icona|Description|  
+ |Simbolo/Icona|Descrizione|  
  |------------------|---------------------------------------|  
  |Croce nera|Ordini (sia domanda che approvvigionamento).<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
  |Cerchio rosso|Ordini di approvvigionamento esistenti che non sono nei suggerimenti di pianificazione.<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
@@ -70,7 +70,7 @@ Per implementare le modifiche del piano di approvvigionamento, è necessario seg
 
 Quando si accede al menu a discesa per la Scheda dettaglio **Sequenza temporale**, in base alla scelta eseguita vengono visualizzate le seguenti funzioni  
 
- |Funzione|Description|  
+ |Funzione|Descrizione|  
  |--------------|---------------------------------------|  
  |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche** nella scheda **Processo**.<br /><br /> Tutti i valori dei filtri definiti nei campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** verranno applicati al nuovo ordine di approvvigionamento. **Nota:**  Se i campi filtro sono vuoti o hanno più di un valore, il nuovo ordine di approvvigionamento viene creato utilizzando i seguenti codici: <ul><li>Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.</li><li>Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato utilizzando il primo valore del filtro in base all'ordinamento.</li></ul> Se si desidera un altro codice variante o ubicazione nel nuovo ordine di approvvigionamento, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
  |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
@@ -82,7 +82,7 @@ Quando si accede al menu a discesa per la Scheda dettaglio **Sequenza temporale*
 
 Oltre alle azioni da tastiera descritte in precedenza, è possibile utilizzare le seguenti azioni da tastiera nella Scheda dettaglio **Sequenza temporale**.  
 
- |Azione da tastiera|Description|  
+ |Azione da tastiera|Descrizione|  
  |---------------------|---------------------------------------|  
  |CTRL + rotellina di scorrimento del mouse|Modifica la scala dell'asse x.|  
  |Selezionare un elemento, quindi premere MAIUSC+FRECCIA|Sposta l'elemento nella direzione della freccia utilizzata.|  

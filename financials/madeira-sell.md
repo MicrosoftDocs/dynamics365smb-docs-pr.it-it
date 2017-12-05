@@ -1,6 +1,6 @@
 ---
-title: Vendere Dynamics 365 for Financials | Documenti Microsoft
-description: "Informazioni su come è possibile espandere le proprie opportunità di business e diventando partner Microsoft e rivenditore di Dynamics 365 for Financials."
+title: Vendere Dynamics 365 Business edition | Documenti Microsoft
+description: "Informazioni su come è possibile espandere le proprie opportunità di business e diventando partner Microsoft e rivenditore di Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,16 +13,16 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Diventare rivenditore di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Espandere la propria opportunità commerciale con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del settore, analisi, ERP, CRM, software di contabilità e/o nel software/in servizi di ottimizzazione dei processi aziendali, Financials è una nuova opportunità.   
+Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del settore, analisi, ERP, CRM, software di contabilità e/o nel software/in servizi di ottimizzazione dei processi aziendali, Dynamics 365 è una nuova opportunità.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può aiutare a differenziare e approfondire le relazioni con i clienti dando la capacità di consegnare una soluzione per la gestione aziendale end-to-end che collega le persone e i processi come mai prima, inclusa all'interno degli strumenti familiari di Microsoft Office che le piccole e medie imprese utilizzano ogni giorno.  
 

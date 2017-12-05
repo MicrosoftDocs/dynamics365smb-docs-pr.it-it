@@ -1,6 +1,6 @@
 ---
 title: "Utilizzo di funzionalità generali tra le aree aziendali | Documenti Microsoft"
-description: "Informazioni sulle funzionalità comuni alle aree aziendali in Dynamics 365 for Financials."
+description: "Informazioni sulle funzionalità comuni alle aree aziendali in Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 Nella tabella seguente sono elencate queste aree generali e sono riportati i collegamenti agli argomenti che le descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Procedura: Definire testo esteso](ui-how-define-ext-text.md) |
 | Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
@@ -36,7 +36,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Cambiare [!INCLUDE[d365fin](includes/d365fin_md.md)] installando estensioni che aggiungono funzionalità, modificano il comportamento o permettono di accedere a nuovi servizi online. |[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) |
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 |Registrare i documenti esterni in Financials, inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
-| Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati come documenti elettronici](across-data-exchange.md) |
+| Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

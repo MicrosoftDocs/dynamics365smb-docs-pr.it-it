@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b4f49d7d103bebeb6512d825a68c5941c8835214
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="sales-and-inventory-forecast-for-dynamics-365-for-financials"></a>Previsione vendite e magazzino per Dynamics 365 for Financials
+# <a name="sales-and-inventory-forecast-for-dynamics-365-business-edition"></a>Previsione vendite e magazzino per Dynamics 365 Business edition 
 La Gestione del magazzino è un trade-off tra l'assistenza clienti e la gestione dei costi. Da un lato, un magazzino basso richiede meno capitale di lavoro, ma dall'altro un magazzino in esaurimento potenzialmente porta a vendite mancate. L'estensione Previsione vendite e magazzino prevede le vendite potenziali utilizzando i dati storici e fornisce una chiara panoramica delle scorte esaurite previste. A seconda della previsione, l'estensione consente di creare le richieste di approvvigionamento per i fornitori e quindi di risparmiare tempo.  
 
 ## <a name="setting-up-forecasting"></a>Impostazione delle previsioni

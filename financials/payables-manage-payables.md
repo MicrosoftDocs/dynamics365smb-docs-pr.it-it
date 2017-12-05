@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d260cf22980d097637e26d97282ad5e4f344120a
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
@@ -28,7 +28,7 @@ In alternativa, è possibile collegare i pagamenti in uscita manualmente nella f
 
 Nella tabella seguente viene descritta una sequenza di attività, all'interno della contabilità fornitori, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Generare i pagamenti fornitori o i rimborsi ai dipendenti in scadenza, preparare i pagamenti degli assegni ed esportare i pagamenti in un file della banca durante la registrazione. |[Effettuare i pagamenti](payables-make-payments.md) |
 | Collegare i pagamenti fornitori automaticamente alle fatture di acquisto non pagate importando un file di rendiconto bancario. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |

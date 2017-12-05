@@ -1,6 +1,6 @@
 ---
-title: Personalizzare Dynamics 365 for Financials| Documenti Microsoft
-description: Sviluppare, mostrare e promuovere le proprie app ed estensioni per Dynamics 365 for Financials.
+title: Personalizzare Dynamics 365 Business edition | Documenti Microsoft
+description: Sviluppare, mostrare e promuovere le proprie app ed estensioni per Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Estensione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -49,7 +49,7 @@ Prima della pubblicazione, Microsoft collaborerà con il partner per assicurarsi
 Per ulteriori informazioni sul processo di convalida e sulle modalità di pubblicazione dell'app, scaricare il documento [Pubblicare l'app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) dal Download Center.
 
 ## <a name="learn-more-about-extensions-v20"></a>Ulteriori informazioni sulle estensioni v2.0
-I nuovi strumenti di sviluppo, che consentono di creare estensioni v2.0, sono attualmente in anteprima e saranno presto abilitati nel servizio Dynamics 365 for Financials. Se si desidera acquisire familiarità con i nuovi strumenti o ottenere altre informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+I nuovi strumenti di sviluppo, che consentono di creare estensioni v2.0, sono attualmente in anteprima e saranno presto abilitati nel servizio Dynamics 365 Business edition. Se si desidera acquisire familiarità con i nuovi strumenti o ottenere altre informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Ulteriore assistenza
 Per ulteriore supporto o consulenza, è possibile contattare gli esperti di sviluppo app come indicato di seguito:
@@ -70,7 +70,7 @@ Le [domande frequenti](https://go.microsoft.com/fwlink/?linkid=841520) offrono r
 
 ## <a name="further-resources"></a>Ulteriori risorse
 La [pagina degli argomenti DLP](https://mbspartner.microsoft.com/BFI/Topic/76) offre ulteriori risorse per lo sviluppo di app. Alcuni argomenti selezionati sono disponibili di seguito:
--   [Registrazione dell'utente e fatturazione successiva ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Registrazione dell'utente e fatturazione successiva ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

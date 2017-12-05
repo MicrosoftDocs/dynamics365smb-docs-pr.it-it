@@ -1,5 +1,5 @@
 ---
-title: 'Ricerca per categorie: video sull''utilizzo di Dynamics 365 for Financials| Documenti Microsoft'
+title: 'Ricerca per categorie: video sull''utilizzo di Dynamics 365 Business edition | Documenti Microsoft'
 description: "Consente di accedere a video introduttivi che illustrano come eseguire le attività comuni."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
@@ -35,10 +35,12 @@ Per ulteriori informazioni su come iniziare rapidamente, è disponibile una vide
 * Da Gestione ruolo utente **Manager aziendale** scegliendo **Assistenza Business**, quindi **Mostra Setup e risorse della Guida**.  
 
 > [!Tip]  
-> Oltre ai video, **Assistenza Business** include le risorse ad esempio i collegamenti agli argomenti e alle guide di setup assistite che semplificano il processo di impostazione. Le risorse sostituiscono il grafico in Gestione ruolo utente. Dopo aver esplorato le risorse, è possibile tornare al grafico nel menu **Assistenza Business** scegliendo **Mostra grafico**.  
+> I video nella libreria vengono visualizzati in una cornice che potrebbe sembrare un po' piccola. Per ingrandire la cornice, scegli l'icona a forma di freccia a due punte nella parte superiore destra della cornice. In seguito, i video verranno visualizzati nella cornice più grande finché non la cornice non verrà di nuovo ridotta.  
+
+Oltre ai video, **Assistenza Business** include le risorse ad esempio i collegamenti agli argomenti e alle guide di setup assistite che semplificano il processo di impostazione. Le risorse sostituiscono il grafico in Gestione ruolo utente. Dopo aver esplorato le risorse, è possibile tornare al grafico nel menu **Assistenza Business** scegliendo **Mostra grafico**.  
   
 È possibile visualizzare i video delle procedure e molti altri contenuti nel canale YouTube creato per Microsoft Dynamics 365. Per visitare subito il canale, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

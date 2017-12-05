@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1191313565e813a92c13fa07b6278e7263eeaf19
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-a-document-exchange-service"></a>Procedura: Impostare un servizio di scambio documenti
-Utilizzare un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali. Per ulteriori informazioni, vedere [Scambio di dati come documenti elettronici](across-data-exchange.md).  
+Utilizzare un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Per impostare un servizio di Exchange per documenti  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup servizio scamb. doc.**, quindi scegliere il collegamento correlato.  
 2. Compilare i campi come indicato nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Agente utente**|Immettere un testo che può essere utilizzato per identificare la società nei processi di scambio documenti.|  
     |**ID tenant scamb. doc.**|Immettere il tenant nel servizio di Exchange per documenti che rappresenta la società. Questa chiave viene fornita dal provider di servizi di scambio documenti.|  
@@ -45,6 +45,6 @@ Utilizzare un provider di servizi esterno per scambiare documenti elettronici co
 2. Nella finestra **Gestione crittografia dati** abilitare la crittografia dei dati. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
 
 ## <a name="see-also"></a>Vedi anche  
-[Impostare lo scambio di dati](across-set-up-data-exchange.md)  
-[Scambio di dati come documenti elettronici](across-data-exchange.md)
+[Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
+[Scambio di dati in modalità elettronica](across-data-exchange.md)
 

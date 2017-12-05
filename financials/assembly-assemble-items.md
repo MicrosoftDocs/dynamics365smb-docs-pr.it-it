@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d945858b3a26126a2def48d88ff1132f598c0916
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 9ddb096b1d09962d96baee9aeefdc5239aa4597a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="assembly-management"></a>Gestione assemblaggio
 Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[d365fin](includes/d365fin_md.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
 
- Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio.
+ Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio. Per altre informazioni, vedere [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
- Gli ordini di assemblaggio sono ordini interni, come gli ordini di produzione, che vengono utilizzati per gestire il processo di assemblaggio e per collegare i requisiti di vendita con le attività di warehouse richieste. Gli ordini di assemblaggio differiscono da altri tipi di ordine perché prevedono sia l'output che il consumo in fase di registrazione. La testata ordine di assemblaggio si comporta analogamente a una riga ordine di vendita e le righe ordine di assemblaggio si comportano in modo analogo alle righe registrazioni consumi. Per ulteriori informazioni, vedere Ordine di assemblaggio.  
+ Gli ordini di assemblaggio sono ordini interni, come gli ordini di produzione, che vengono utilizzati per gestire il processo di assemblaggio e per collegare i requisiti di vendita con le attività di warehouse richieste. Gli ordini di assemblaggio differiscono da altri tipi di ordine perché prevedono sia l'output che il consumo in fase di registrazione. La testata ordine di assemblaggio si comporta analogamente a una riga ordine di vendita e le righe ordine di assemblaggio si comportano in modo analogo alle righe registrazioni consumi.  
 
  Per supportare una strategia di magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra di domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare rapidamente l'articolo di assemblaggio, promettere date di consegna in base alla disponibilità dei componenti e registrare l'output e la spedizione dell'articolo assemblato direttamente dalla propria interfaccia dell'ordine di vendita. Per ulteriori informazioni, vedere [Procedura: Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 

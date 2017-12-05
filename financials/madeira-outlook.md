@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Dynamics 365 for Financials con Outlook | Documenti Microsoft
-description: "Dynamics 365 for Financials è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook."
+title: Utilizzo di Dynamics 365 Business edition con Outlook | Documenti Microsoft
+description: "Dynamics 365 Business edition è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,24 +13,24 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Utilizzo di Dynamics 365 for Financials come posta in arrivo aziendale in Outlook
+# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Utilizzo di Dynamics 365 for Finance and Operations, Business edition come Posta in arrivo aziendale in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="get-the-add-in"></a>Ottenere il componente aggiuntivo
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], uno dei passaggi del setup assistito dell'Introduzione è la finestra **Esegui attività in Office 365**. In quella finestra, quando si sceglie il pulsante **Imposta in Outlook**, è necessario specificare il proprio nome utente e password di Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
 
-Quindi, quando si apre Outlook, si vedranno i messaggi e-mail dell'amministratore Financials. Il nuovo componente aggiuntivo viene aggiunto alla barra multifunzione di Outlook e in Outlook Web Access nella barra multifunzione del componente aggiuntivo, immediatamente sopra il corpo del messaggio e-mail. Il componente aggiuntivo stesso verrà aggiornato periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
+Quindi, quando si apre Outlook, si vedranno i messaggi e-mail dell'amministratore Dynamics 365. Il nuovo componente aggiuntivo viene aggiunto alla barra multifunzione di Outlook e in Outlook Web Access nella barra multifunzione del componente aggiuntivo, immediatamente sopra il corpo del messaggio e-mail. Il componente aggiuntivo stesso verrà aggiornato periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
 Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Se si utilizza il componente aggiuntivo Informazioni contatto
-Supponiamo che si riceva un'email da un cliente che vuole un preventivo per alcuni articoli. Direttamente in Outlook, è possibile aprire il componente di Financials in cui il mittente viene riconosciuto come cliente e verrà aperta la scheda cliente relativa alla società. Dal dashboard, è possibile visualizzare le informazioni generali per il cliente ed eseguire il drill-down per ulteriori dettagli sui documenti specifici. È inoltre possibile approfondire le informazioni cronologiche di vendita per il cliente. Se si tratta di un nuovo cliente, è possibile crearlo come nuovo cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] senza uscire da Outlook.  
+Supponiamo che si riceva un'email da un cliente che vuole un preventivo per alcuni articoli. Direttamente in Outlook, è possibile aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui il mittente viene riconosciuto come cliente e verrà aperta la scheda cliente relativa alla società. Dal dashboard, è possibile visualizzare le informazioni generali per il cliente ed eseguire il drill-down per ulteriori dettagli sui documenti specifici. È inoltre possibile approfondire le informazioni cronologiche di vendita per il cliente. Se si tratta di un nuovo cliente, è possibile crearlo come nuovo cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] senza uscire da Outlook.  
 
 Nel componente aggiuntivo, è possibile creare un'offerta di vendita e inviarla di nuovo al cliente senza uscire da Outlook. Tutte le informazioni necessarie per inviare l'offerta di vendita sono disponibili nella Posta in arrivo aziendale in Outlook.  
 Una volta che si inseriscono i dati, è possibile registrare l'offerta. È possibile inviarla tramite posta elettronica. [!INCLUDE[d365fin](includes/d365fin_md.md)] genera un file PDF all'offerta di vendita e lo allega al messaggio e-mail definito nel componente aggiuntivo.  
@@ -52,14 +52,14 @@ Nel componente aggiuntivo Collegamenti documento, è possibile modificare ed eff
 ## <a name="adding-the-add-ins-manually"></a>Aggiunta dei componenti aggiuntivi manualmente
 In alcuni casi, i componenti aggiuntivi non vengono aggiunti automaticamente a Outlook. Anche se la società oppure un collega ha eseguito la Guida di setup assistito per conto della società, [!INCLUDE[d365fin](includes/d365fin_md.md)] potrebbe non venire visualizzato in Outlook. In questi casi, è possibile aggiungere manualmente i componente aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire la finestra Outlook Web Access in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la pagina **Gestione componenti aggiuntivi** in cui è possibile abilitare Financials per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
+In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire la finestra Outlook Web Access in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la pagina **Gestione componenti aggiuntivi** in cui è possibile abilitare [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
 
 Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella finestra **Gestione componenti aggiuntivi**.  
 
 In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di Office 365.
 
 ## <a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

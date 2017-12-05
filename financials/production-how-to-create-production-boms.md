@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 54bbe338b71ece1322b10e0e4203489cf8ab2f49
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-production-boms"></a>Procedura: Creare distinte base di produzione
@@ -26,7 +26,7 @@ Una distinta base (DB) di produzione contiene i dati master che descrivono i com
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
-- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi prodotti](inventory-how-register-new-items.md).
+- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Procedura: Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Per creare una DB di produzione  
@@ -47,7 +47,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 9.  Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere la sezione "Per creare collegamenti ciclo" in [Procedura: Creare cicli](production-how-to-create-routings.md).
 10. Per copiare righe di una DB di produzione esistente, scegliere l'azione **Copia DB** per selezionare le righe esistenti.  
 11.  Certificare la distinta base di produzione.  
-12.  È ora possibile associare la nuova distinta base di produzione alla scheda dell'articolo padre desiderato. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi prodotti](inventory-how-register-new-items.md).  
+12.  È ora possibile associare la nuova distinta base di produzione alla scheda dell'articolo padre desiderato. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Per ricalcolare il costo standard dell'articolo dalla scheda articolo, scegliere l'azione **Manufacturing**, quindi l'azione **Calc. costo standard**.  

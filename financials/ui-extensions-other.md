@@ -1,6 +1,6 @@
 ---
-title: "Estensioni per l'utilizzo di Dynamics 365 for Financials fornite da altre società | Documenti Microsoft"
-description: "Elenco di app ed estensioni fornite da altre società per personalizzare Dynamics 365 for Financials."
+title: "Estensioni per l'utilizzo di Dynamics 365 Business edition fornite da altre società | Documenti Microsoft"
+description: "Elenco di app ed estensioni fornite da altre società per personalizzare Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,18 +12,18 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: bc54da2b0e40f25357eec88235d5e2f6de5a12a6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8d4c4c36cfa2900fdd64f1131eb7eb808aeb77b3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="microsoft-dynamics-365-for-financials-extensions-by-other-providers"></a>Estensioni per Microsoft Dynamics 365 for Financials fornite da altri provider
+# <a name="microsoft-dynamics-365-business-edition-extensions-by-other-providers"></a>Estensioni per Microsoft Dynamics 365 Business edition fornite da altri provider
 Tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/) è possibile ottenere le estensioni per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. Per le estensioni non fornite da Microsoft, facciamo riferimento ai siti Web di queste società per maggiori informazioni. È possibile trovare queste informazioni all'indirizzo [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) e scaricare app per semplificare il proprio lavoro in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
-[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

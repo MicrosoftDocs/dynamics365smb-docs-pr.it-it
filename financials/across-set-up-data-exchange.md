@@ -1,6 +1,6 @@
 ---
 title: Impostare lo scambio di dati | Microsoft Docs
-description: Impostare il framework di scambio dati in Dynamics 365 for Financials.
+description: Impostare il framework di scambio dati in Microsoft Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5c0fcfd6ef178c5917a4a07ba81a9bef9b4522aa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 593904835c55d4ce9b137d0af387ea897603795f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
-Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. Inoltre, è necessario impostare le aree correlate, ad esempio i dati principali per i clienti a cui si inviano fatture elettroniche o il servizio di conversione dati bancari nel caso in cui si utilizzi il provider di servizi esterno per convertire i propri file bancari. Per ulteriori informazioni, vedere [Scambio di dati come documenti elettronici](across-data-exchange.md).  
+Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. Inoltre, è necessario impostare le aree correlate, ad esempio i dati principali per i clienti a cui si inviano fatture elettroniche o il servizio di conversione dati bancari nel caso in cui si utilizzi il provider di servizi esterno per convertire i propri file bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
  Se [!INCLUDE[d365fin](includes/d365fin_md.md)] è impostato per scambiare i dati con file esterni, gli utenti possono utilizzare l'impostazione in task aziendali comuni, ad esempio l'invio e la ricezione di documenti elettronici, nonché l'importazione e l'esportazione di file bancari.  
 
@@ -39,8 +39,8 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Procedura: Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
-[Scambio di dati come documenti elettronici](across-data-exchange.md)  
-[Scambiare dati](across-exchange-data.md)   
+[Scambio di dati in modalità elettronica](across-data-exchange.md)  
+[Scambio di dati](across-exchange-data.md)   
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 

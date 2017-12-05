@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e4568214469e80dce7ea91ff7574d1be8ca9ac7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-pick-items-for-warehouse-shipment"></a>Procedura: Prelevare articoli per la spedizione warehouse
@@ -73,7 +73,7 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga or
 > [!NOTE]
 > Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere spedita dal magazzino, vengono create due righe spedizione warehouse. Una riga corrisponde alla quantità da assemblare su ordine, mentre l'altra corrisponde alla quantità di magazzino.
 
-> In questo caso, la quantità da assemblare su ordine viene gestita come descritto in questo argomento, mentre la quantità di magazzino viene gestita come qualsiasi altra normale riga spedizione warehouse. Per ulteriori informazioni sugli scenari di combinazione, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
+> In questo caso, la quantità da assemblare su ordine viene gestita come descritto in questo argomento, mentre la quantità di magazzino viene gestita come qualsiasi altra normale riga spedizione warehouse. Per altre informazioni sugli scenari di combinazione, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

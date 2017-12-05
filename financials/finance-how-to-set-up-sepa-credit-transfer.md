@@ -1,8 +1,6 @@
 ---
 title: Impostare un bonifico SEPA | Microsoft Docs
-description: Informazioni su come impostare bonifico SEPA in Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: 
+description: Informazioni su come impostare bonifico SEPA in Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 88ac086fa0532892af9c770c14134723e0da2eaf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>Procedura: Impostare il bonifico SEPA
@@ -67,5 +65,5 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedura: Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md)  
 [Procedura: Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)  
-[Scambio di dati come documenti elettronici](across-data-exchange.md)  
+[Scambio di dati in modalità elettronica](across-data-exchange.md)  
 

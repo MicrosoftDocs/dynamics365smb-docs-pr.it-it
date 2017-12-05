@@ -1,6 +1,6 @@
 ---
-title: Installare le estensioni per personalizzare Dynamics 365 for Financials | Documenti Microsoft
-description: "Informazioni sull'aggiunta di funzionalità e la personalizzazione di Dynamics 365 for Financials tramite l'installazione delle estensioni."
+title: Installare le estensioni per personalizzare Dynamics 365 Business edition | Documenti Microsoft
+description: "Informazioni sull'aggiunta di funzionalità e la personalizzazione di Dynamics 365 Business edition tramite l'installazione delle estensioni."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Personalizzazione delle estensioni per l'utilizzo di Dynamics 365 for Financials
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Personalizzazione di Dynamics 365, Business edition con le estensioni
 È possibile modificare [!INCLUDE[d365fin](includes/d365fin_md.md)] installando estensioni che, ad esempio, aggiungano funzionalità, modifichino il comportamento o permettano di accedere a nuovi servizi online.
 La prima volta che si avvia [!INCLUDE[d365fin](includes/d365fin_md.md)], alcune estensioni risultano già installate. Con il tempo verranno rese disponibili altre estensioni e sarà possibile scegliere se installarle o meno.
 
@@ -61,9 +61,11 @@ Microsoft fornisce le seguenti estensioni:
 * [Migrazione dei dati online QuickBooks](ui-extensions-quickbooks-online-data-migration.md)
 * [Portale contabile](ui-extensions-accountant-portal.md)  
 * [Analisi di immagini](ui-extensions-image-analyzer.md)
+* [Pagamenti e riconciliazioni (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [Migrazione dati C5](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
->  Le nuove estensioni non saranno subito disponibili in AppSource dopo l'annuncio di un aggiornamento. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>  Le nuove estensioni non saranno subito disponibili in AppSource dopo l'annuncio di un aggiornamento. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Vedi anche
 [Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  

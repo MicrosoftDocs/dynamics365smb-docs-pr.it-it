@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Collegamento ai dati Financials per creare un'app aziendale utilizzando PowerApps
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/22/2017
 
    PowerApps Studio per Windows è un'applicazione desktop utilizzata per creare e pubblicare PowerApps. PowerApps Studio per il Web è una soluzione online utilizzata per creare e pubblicare PowerApps.
 4. Il passaggio successivo per creare una PowerApp è selezionare i dati. Scegliere l'icona della freccia, quindi scegliere l'opzione **Nuova connessione** nella parte in alto a sinistra della pagina.
-5. Nell'elenco delle connessioni disponibili scegliere **Dynamics 365 for Financials**.
+5. Nell'elenco delle connessioni disponibili scegliere **Dynamics 365 Business edition**.
 6. In PowerApps verrà visualizzata una pagina di connessione in cui verranno richieste le informazioni necessarie per accedere ai propri dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per connettersi, è necessario specificare un URL OData, un nome utente, una password e un nome società.
 
    Per l'*URL OData* è possibile copiare l'URL OData V4 di qualsiasi servizio Web elencato nella pagina **Servizi Web** in [!INCLUDE[d365fin](includes/d365fin_md.md)], come `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  

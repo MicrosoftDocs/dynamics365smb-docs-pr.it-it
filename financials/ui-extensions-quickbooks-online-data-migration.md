@@ -1,8 +1,6 @@
 ---
 title: Utilizzo dell'estensione per la migrazione QuickBooks | Documenti Microsoft
-description: Descrive come utilizzare l'estensione per migrare clienti, fornitori, articoli e conti da QuickBooks Online a Financials.
-services: project-madeira
-documentationcenter: 
+description: Descrive come utilizzare l'estensione per migrare clienti, fornitori, articoli e conti da QuickBooks Online a Dynamics 365.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Estensione per la migrazione dei dati QuickBooks Online per Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Estensione per la migrazione dei dati QuickBooks Online per Dynamics 365 Business edition
 Questa estensione è inclusa nella Guida setup assistito **Migrazione dati** per semplificare la migrazione dei dati aziendali importanti da QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, può essere utile quando l'attività si sviluppa e si è deciso di aggiornare l'app di gestione aziendale cominciando a utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quali dati si possono importare da QuickBooks Online?
@@ -29,7 +27,7 @@ Questa estensione è inclusa nella Guida setup assistito **Migrazione dati** per
 * Clienti
 * Fornitori
 * Articoli
-* Piano dei conti 
+* Piano dei conti
 * Transazioni di saldo iniziale di contabilità generale
 * Quantità disponibili per gli articoli di magazzino
 * Documenti aperti per clienti e fornitori, quali fatture, note di credito e pagamenti
@@ -41,7 +39,7 @@ Verranno migrati solo gli importi complessivi relativi a documenti di vendita e 
 
 ## <a name="before-you-start"></a>Operazioni preliminari
 Una parte importante del processo di migrazione consiste nello specificare i conti verso cui migrare le transazioni. Si consiglia di pianificare questa mappatura che prima della migrazione dei dati. Ad esempio, i conti in cui vengono registrate le transazioni relative a:  
-  
+
 * La vendita di articoli o servizi ai clienti.
 * L'acquisto di articoli o servizi dai fornitori.  
 * Rettifiche nella contabilità generale.  

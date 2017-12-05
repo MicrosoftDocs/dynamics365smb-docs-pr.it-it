@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -26,14 +26,15 @@ Gli incrementi in magazzino e le diminuzioni vengono registrati automaticamente 
 
 Per incrementare la panoramica degli articoli e agevolare le operazioni di ricerca, è possibile classificare gli articoli e assegnare gli attributi per cercarli e ordinarli.
 
-> []!NOTA] la gestione fisica degli articoli è detta attività di warehouse. Per ulteriori informazioni, vedere [Gestione warehouse](warehouse-manage-warehouse.md).
+> [!NOTE]
+> La gestione fisica degli articoli è detta attività di warehouse. Per ulteriori informazioni, vedere [Gestione warehouse](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Magazzino - Riconciliazione
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Per ulteriori informazioni, vedere [Procedura: Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Procedura: Rettificare i costi articoli.](inventory-how-adjust-item-costs.md).
 
-|A |Vedere |
+|Per |Vedere |
 |---|----|
 |Creare le schede articolo per gli articoli di magazzino trattati.|[Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md)|
 |Strutturare gli articoli padre da vendere come kit costituiti da componenti del padre o da assemblare su ordine o per magazzino.|[Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md)|

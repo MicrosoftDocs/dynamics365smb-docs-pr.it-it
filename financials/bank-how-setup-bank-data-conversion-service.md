@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Procedura: Impostare il servizio di conversione di dati bancari
@@ -24,7 +24,7 @@ Un provider di servizi globale per convertire le informazioni pagamento in quals
 
 Tramite la finestra **Registraz. pagamenti** è possibile esportare le righe pagamento in un file o in un flusso di dati che viene quindi caricato nella banca per l'elaborazione automatica in modo che non sia necessario eseguire singolarmente i pagamenti elettronici. Per ulteriori informazioni, vedere [Procedura: Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md).
 
-È possibile importare i file dell'estratto conto nella finestra **Registrazione riconciliazione pagamenti** utilizzando il servizio di conversione di dati bancari per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Procedura: Collegare i pagamenti automaticamente e Riconciliazione dei conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+È possibile importare i file dell'estratto conto nella finestra **Registrazione riconciliazione pagamenti** utilizzando il servizio di conversione di dati bancari per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 In alternativa all'importazione di estratti conto con il servizio di conversione di dati bancari, è possibile utilizzare il servizio Feed bancari di Envestnet Yodlee. Per ulteriori informazioni, vedere [Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
 

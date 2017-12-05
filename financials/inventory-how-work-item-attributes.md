@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>Procedura: Utilizzare gli attributi degli articoli
@@ -25,7 +25,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 È inoltre possibile assegnare gli attributi degli articoli alle categorie di articoli, che quindi si applicano agli articoli che utilizzano le categorie di articoli. Per ulteriori informazioni, vedere [Procedura: Classificare gli articoli](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Se all'articolo vengono allegate delle immagini, l'estensione per l'analisi delle immagini può individuare gli attributi nell'immagine e suggerire gli attributi in modo che sia possibile specificare se assegnarli. L'estensione è pronta. È solo necessario abilitarla. Per ulteriori informazioni, vedere [Estensione di analisi immagini per Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> Se all'articolo vengono allegate delle immagini, l'estensione per l'analisi delle immagini può individuare gli attributi nell'immagine e suggerire gli attributi in modo che sia possibile specificare se assegnarli. L'estensione è pronta. È solo necessario abilitarla. Per ulteriori informazioni, vedi [Estensione di analisi immagini per Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Per creare attributi articolo
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Attributi articolo**, quindi scegliere il collegamento correlato.

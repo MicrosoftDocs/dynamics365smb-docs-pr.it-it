@@ -1,6 +1,6 @@
 ---
 title: "Creare opportunità di vendita| Documenti Microsoft"
-description: "Viene descritto come creare opportunità da un agente o un contatto in Financials."
+description: "Viene descritto come creare opportunità da un agente o un contatto in Microsoft Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Procedura: Creare opportunità di vendita
@@ -45,5 +45,5 @@ Prima di creare opportunità, è necessario impostare opportunità relative ai c
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di Financials](ui-work-product.md)
+[Utilizzo di Dynamics 365](ui-work-product.md)
 

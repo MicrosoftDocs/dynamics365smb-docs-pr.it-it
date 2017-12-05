@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Procedura: Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
@@ -70,23 +70,34 @@ Se non viene utilizzata una coda processi o si desidera ricevere un documento OC
 A questo punto è possibile passare alla creazione dei record per i documenti elettronici ricevuti in [!INCLUDE[d365fin](includes/d365fin_md.md)], manualmente o automaticamente. Per ulteriori informazioni, vedere la procedura che segue. È inoltre possibile connettere il nuovo record del documento in entrata al documento esistente registrato o non registrato in modo che il file di origine sia facilmente accessibile da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Elaborare i documenti in entrata](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Per creare una fattura di acquisto da un documento elettronico ricevuto dal servizio OCR
-Di seguito viene descritto come creare un record di fattura di acquisto da una fattura fornitore ricevuta come documento elettronico dal servizio OCR. La procedura è identica a quella per creare, ad esempio, una riga di registrazione COGE da una ricevuta di spesa.
+Di seguito viene descritto come creare un record di fattura di acquisto da una fattura fornitore ricevuta come documento elettronico dal servizio OCR. La procedura è identica a quella per creare, ad esempio, una riga di registrazione COGE da una ricevuta di spesa o un ordine di reso vendita da un cliente.
 
 > [!NOTE]  
->   I campi **Descrizione** e **Nr.** nelle righe di documento create verranno compilati solo se è stato precedentemente mappato il testo individuato nel documento OCR ai due campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questa operazione può essere eseguita come cross reference articolo, per le righe documento di tipo Articolo, o come mappature testo a conto, per le righe di registrazione o documento di tipo Conto C/G. Per ulteriori informazioni, vedere la descrizione comando per l'azione **Cross reference** nelle schede articolo e la procedura correlata, [Procedura: Mappatura del testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   I campi **Descrizione** e **Nr.** nelle righe di documento create verranno compilati solo se è stato precedentemente mappato il testo individuato nel documento OCR ai due campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puoi effettuare questa operazione di mappatura come cross-references articoli, per le righe del documento di tipo Articolo. È anche possibile utilizzare la funzione di mappatura testo a conto. Per ulteriori informazioni, vedi la sezione "Per mappare il testo di un documento in entrata a un determinato fornitore, C/G o conto corrente bancario".
 
+Per mappare i numeri di articolo del documento alle descrizioni degli articoli del fornitore, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del fornitore. Per ulteriori informazioni, vedi le descrizioni comandi per l'azione **Cross reference** nelle schede articolo.
+
+1. Selezionare la riga relativa al documento in entrata quindi scegliere l'azione **Crea documento**.
+
+Una fattura di acquisto verrà creata in [!INCLUDE[d365fin](includes/d365fin_md.md)] sulla base delle informazioni contenute nel documento elettronico del fornitore che è stato ricevuto dal servizio OCR. Le informazioni verranno inserite nella nuova fattura di acquisto in base alla mappatura definita come cross-reference o come testo di mappatura testo a conto.
+
+Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[d365fin](includes/d365fin_md.md)], verranno visualizzati nella Scheda dettaglio **Errori e avvisi**. Per ulteriori informazioni, vedere la sezione "Per gestire gli errori durante la ricezione di documenti elettronici".
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Per mappare il testo di un documento in entrata a un determinato conto del fornitore
 Per i documenti in entrata, in genere l'azione **Mappa testo a conto** si utilizza per definire che un determinato testo in una fattura fornitore ricevuta dal servizio OCR viene mappato a un determinato conto fornitore. Andando in avanti, qualsiasi parte della descrizione del documento in entrata esistente come testo di mappatura indica che il campo **Nr.** nelle righe di registrazione o del documento risultanti di tipo Conto G/C viene compilato con il fornitore in questione.
 
 Oltre alla mappatura a un conto fornitore o ad altri conti C/G, è possibile mappare anche a un conto bancario. Ciò risulta utile, ad esempio, per i documenti elettronici relativi alle spese che sono già state pagate in cui si desidera creare una riga registrazione COGE pronta per essere registrata in un conto corrente bancario.
 
-1. Selezionare la riga del documento in entrata per il documento elettronico del fornitore ricevuto dal servizio OCR.
-2. Per mappare il testo del documento al conto del fornitore, un conto di addebito, scegliere l'azione **Mappa testo a conto** e compilare la finestra **Mappatura testo a conto** con le informazioni che verranno applicate al fornitore andando avanti. Per ulteriori informazioni, vedere [Procedura: Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
-3. Per mappare i numeri di articolo del documento alle descrizioni degli articoli del fornitore, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del fornitore.
-4. Nella finestra **Documenti in entrata** scegliere l'azione **Crea documento**.
+1. Seleziona la riga del documento in entrata pertinente quindi scegli l'azione **Mappa testo a conto**. Verrà aperta la finestra **Mappatura testo a conto**.
+3. Nel campo **Mapping testo**, immetti qualsiasi testo presente nelle fatture del fornitore per cui desideri creare documenti di acquisto o righe delle registrazioni. È possibile immettere fino a 50 caratteri.
+4. Nel campo **Nr. fornitore** immetti il fornitore per cui verrà creata la riga del documento o di registrazione acquisto.
+5. Nel campo **Nr. conto dare**, immetti il conto C/G di tipo dare che verrà inserito nel documento di acquisto o nella riga di registrazione creata di tipo Conto C/G.
+6. Nel campo **Nr. conto avere**, immetti il conto C/G di tipo avere che verrà inserito nel documento di acquisto o nella riga di registrazione creata di tipo Conto C/G.
 
-Una fattura di acquisto verrà creata in [!INCLUDE[d365fin](includes/d365fin_md.md)] sulla base delle informazioni contenute nel documento elettronico del fornitore che è stato ricevuto dal servizio OCR.
+    > [!NOTE]
+    > Non usare i campi **Tipo di origine saldo** e **Nr. origine saldo** in relazione ai documenti in entrata. Vengono utilizzati solo per la riconciliazione automatica di pagamento. Per ulteriori informazioni, vedere [Procedura: Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[d365fin](includes/d365fin_md.md)], verranno visualizzati nella Scheda dettaglio **Errori e avvisi**. Per ulteriori informazioni, vedere la sezione "Per gestire gli errori durante la ricezione di documenti elettronici".
+7. Ripeti i passaggi da 2 a 5 per qualsiasi testo su documenti in entrata per cui vuoi creare automaticamente i documenti.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Per gestire gli errori durante la ricezione di documenti elettronici
 1. Nella finestra **Documenti in entrata**, selezionare la riga per un documento elettronico ricevuto dal servizio OCR con errori. Ciò è indicato dal valore Errore nel campo **Stato OCR**.

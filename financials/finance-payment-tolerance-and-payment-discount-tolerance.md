@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Procedura Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
@@ -31,7 +31,7 @@ Un documento singolo ha la stessa tolleranza di pagamento indipendentemente dal 
 
 *data sconto sul pagamento < data di pagamento (nel movimento in questione) <= data tolleranza di pagamento*  
 
-Questa regola si applica anche per stabilire se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere la sezione "Esempio 2: calcoli di tolleranza per più documenti". 
+Questa regola si applica anche per stabilire se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere la sezione "Esempio 2: calcoli di tolleranza per più documenti".
 
 È possibile scegliere di visualizzare un avviso che è basato su situazioni di tolleranza differenti.  
 
@@ -95,7 +95,8 @@ Gli scenari con l'alternativa A o B rappresentano quanto segue:
 - **A**: in questo caso l'avviso relativo alla tolleranza di sconto sul pagamento è stato disattivato OPPURE l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo (Registra il saldo come tolleranza pagamento).  
 - **B**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo (Mantieni il saldo come importo residuo).  
 
-|-|Mag.|Pagam.|Max<br /><br /> Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. <br /> Mov. Cli.|Pag.<br /><br /> Toll.<br /><br /> C/G|  
+[!div class="mx-tdBreakAll"]  
+|-|Mag.|Pagam.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15/01/03|20/01/03|<=15/01/03|985|Toll. Pag.|Sì|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Nessuno**|**Sì**|**0**|**0**|  
@@ -166,7 +167,9 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 - **C**: in questo caso l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo nella prima fattura ma non nella seconda.  
 - **D**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo nella prima fattura ma di consentirlo nella seconda.  
 
-|-|Mag.|Sconto Pag.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. <br /> Mov. Cli.|Toll. Pag.<br /><br /> C/G|  
+[!div class="mx-tdBreakAll"]  
+
+|-|Mag.|Sconto Pag.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Toll. Pag.|Sì|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Nessuno**|**Sì**|**0**<br /><br /> **0**|0 <br />0|  

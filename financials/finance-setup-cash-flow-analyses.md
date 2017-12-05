@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
@@ -79,10 +79,10 @@ Per utilizzare una procedura manuale:
 >   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
 
 ## <a name="AnchorText"> </a>Per ulteriori informazioni, vedere Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa.
-È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Modello di previsione per Microsoft Dynamics 365 for Financials**. Il modello predittivo è disponibile anche online nella raccolta Cortana Intelligence. Attenersi alla seguente procedura per utilizzare il modello:  
+È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model for Microsoft Dynamics 365 Business edition**. Il modello predittivo è disponibile anche online nella raccolta Cortana Intelligence. Attenersi alla seguente procedura per utilizzare il modello:  
 
 1. Aprire un browser e andare alla [Galleria Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Cercare il modello **Forecasting Model for Microsoft Dynamics 365 for Financials**, quindi aprirlo in Azure Machine Learning Studio.  
+2. Cercare il modello **Forecasting Model for Microsoft Dynamics 365 Business edition**, quindi aprirlo in Azure Machine Learning Studio.  
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  

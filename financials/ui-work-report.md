@@ -13,21 +13,23 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: badcdee3dfa5bec3c2462149989cf9d4fb5af2a0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="working-with-reports"></a>Utilizzo dei report
 Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
 
-I report sono disponibili nella scheda **Report** delle pagine selezionate oppure è possibile utilizzare una ricerca per trovare i report in base al nome. Quando si apre un report, viene visualizzata una pagina con le informazioni (opzioni e filtri) che determina cosa includere nel report. Ad esempio, a seconda del report, è possibile specificare l'intervallo di date, un record specifico come un cliente o un ordinamento.
+I report sono disponibili nella scheda **Report** delle pagine selezionate oppure è possibile utilizzare una ricerca per trovare i report in base al nome. Quando si apre un report, viene visualizzata una pagina con le informazioni (opzioni e filtri) che determina cosa includere nel report. Ad esempio, a seconda del report, è possibile specificare l'intervallo di date, un record specifico come un cliente o un ordinamento. Un esempio:
+
+![Opzioni del report](media/report_options.png "Opzioni del report")
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 Scegliere **Anteprima** per vedere il report nel browser Internet. Puntare un'area del report per visualizzare la barra dei menu.  
 
-![Barra degli strumenti di anteprima del report](media/report_viewer.png "Barra degli strumenti di anteprima del report").
+![Barra degli strumenti di anteprima del report](media/report_viewer.png "Barra degli strumenti di anteprima del report")
 
 Utilizzare la barra dei menu per:
 
@@ -42,10 +44,11 @@ Utilizzare la barra dei menu per:
     È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. Ciò risulta utile quando è stato eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.
 
 -   Scaricare in un file PDF sul computer o in rete.
+-   Stampa
 
 
 ## <a name="saving-a-report"></a>Salvataggio di un report
-È possibile salvare un report in un documento PDF, documento di Microsoft Word o documento di Microsoft Excel scegliendo **Invia a** ed effettuando la scelta desiderata. 
+È possibile salvare un report in un documento PDF, documento di Microsoft Word o documento di Microsoft Excel scegliendo **Invia a** ed effettuando la scelta desiderata.
 
 ## <a name="ScheduleReport"></a> Pianificazione dell'esecuzione di un report
 È possibile pianificare l'esecuzione di un report per data e orario specifici. I report previsti vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. È possibile salvare il report elaborato in un file, ad esempio un file Excel, Word, PDF, o stamparlo con una stampante selezionata, o semplicemente elaborare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della home page, dove è possibile visualizzarlo.
@@ -53,7 +56,7 @@ Utilizzare la barra dei menu per:
 È possibile programmare un report quando si apre un report. Scegliere l'azione **Programmazione**, quindi immettere informazioni, come la stampante e la data e l'ora. Il report viene aggiunto alla coda processi e sarà eseguito alla data specificata. Quando il report viene elaborato, l'elemento verrà rimosso dalla coda commesse. Se il report elaborato è stato salvato in un file, sarà disponibile nell'area **Report elaborati**.
 
 ## <a name="PrintReport"></a>Stampa di un report
-Quando si desidera stampare un report, è necessario scaricarlo come documento PDF, Word o Excel prima di tutto scegliendo il pulsante **Invia a**. A questo punto è possibile aprire il documento report immediatamente e stamparlo oppure salvarlo e stamparlo in seguito.
+È possibile stampare un report usando il pulsante **Stampa** nella pagina Oopzioni che appare quando si apre il report o dalla barra dei menu in Anteprima.
 
 ## <a name="using-saved-settings"></a>Uso delle impostazioni salvate
 Un report possono includere una o più voci nella casella **Impostazioni salvate**. Le *Impostazioni salvate* costituiscono fondamentalmente un gruppo di default di opzioni e filtri che si possono applicare al report prima di visualizzarlo in anteprima o inviarlo in un file. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti.
@@ -69,5 +72,5 @@ Un layout di report determina le informazioni che verranno visualizzate nel repo
 ## <a name="see-also"></a>Vedi anche
 [Specificare la selezione della stampante per i report](ui-specify-printer-selection-reports.md)  
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

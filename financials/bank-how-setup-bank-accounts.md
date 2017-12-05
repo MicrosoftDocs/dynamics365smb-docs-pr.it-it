@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/02/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f46e95e24ef39a93bc93cfda1b9c575b07273566
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 83d4d7b10ce9bd09e9947f48eee0c1094815aa1e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
 # <a name="how-to-set-up-bank-accounts"></a>Procedura: impostare i conti correnti bancari
@@ -25,7 +25,10 @@ I conti correnti bancari vengono utilizzati in [!INCLUDE[d365fin](includes/d365f
 ## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **C/C bancari**, quindi scegliere il collegamento correlato.
 2. Nella finestra **C/C bancari** scegliere l'azione **Nuovo**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Procedura: Riconciliare i conti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md). In alternativa, è possibile implementare il saldo iniziale come parte della creazione di dati generali in nuove aziende utilizzando il setup assistito **Migra dati aziendali**. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
 I campi nella nella Scheda dettaglio **Trasferimento** della finestra **Scheda conto corrente bancario** sono correlati all'importazione e all'esportazione dei feed e dei file della banca. Per ulteriori informazioni, vedere [Procedura: Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md) e [Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
@@ -44,6 +47,9 @@ I campi nella nella Scheda dettaglio **Trasferimento** della finestra **Scheda C
 2. Aprire la scheda di un conto corrente bancario fornitore nel quale verranno esportati i file di pagamento della banca.
 3. Scegliere l'azione **C/C bancari**.
 3. Nella Scheda dettaglio **Trasferimenti** della finestra **Scheda C/C bancari fornitori** compilare i campi come richiesto. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-the-opening-balance-on-new-bank-accounts"></a>Per impostare il saldo iniziale su nuovi conti correnti bancari
+
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 142c1649438ad31b604767d6b6f35a1caeb3f9e4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Procedura: Creare contatto da un cliente, un fornitore o un conto corrente bancario da un contatto
@@ -39,5 +39,5 @@ Le informazioni di contatto vengono trasferite dalla scheda **Contatto** alla sc
 [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Procedura: Collegare i contatti con clienti, fornitori o conti correnti bancari esistenti](marketing-how-link-contact.md)  
 [Assegnare relazioni d'affari ai contatti](marketing-business-relations.md#AssignBusRelContact)  
-[Utilizzo di Financials](ui-work-product.md)
+[Utilizzo di Dynamics 365](ui-work-product.md)
 

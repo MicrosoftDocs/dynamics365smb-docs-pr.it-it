@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5beb5f6795bd7f4943a6ed9d8b691c05fc5ecb63
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 021c48efc6bf6b1fdb7b17bf742cb6f084d3964b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-post-sepa-direct-debit-payment-receipts"></a>Procedura: Registrare ricevute di pagamento di addebiti diretti SEPA
@@ -28,7 +28,7 @@ Quando una riscossione di addebiti diretti viene elaborata correttamente dalla b
 3. Scegliere l'azione **Registra ricevute di pagamento**.  
 4. Nella finestra **Registra riscossione addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Nr. riscossione di addebiti diretti**|Specificare la riscossione di addebiti diretti per cui si desidera registrare la ricevuta di pagamento.|  
     |**Definizione registrazioni COGE**|Specificare quale definizione di registrazione COGE utilizzare per registrare la ricevuta di pagamento, ad esempio le ricevute delle entrate di cassa.|  

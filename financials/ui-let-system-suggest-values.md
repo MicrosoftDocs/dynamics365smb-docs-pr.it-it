@@ -1,8 +1,6 @@
 ---
 title: Impostazione di valori suggeriti per i campi | Documenti Microsoft
-description: "Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Financials compili i campi in selezionati."
-services: project-madeira
-documentationcenter: 
+description: "Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Dynamics 365 compili i campi in selezionati."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,13 +10,13 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può aiutare a completare le attività in modo più rapido e più corretto precompilando campi o righe intere con dati che verrebbero altrimenti calcolati e immessi manualmente. Sebbene tale l'immissione dei dati automatica sia sempre corretta, è possibile modificarla in seguito se lo si desidera.
 
 La funzionalità che fornisce in automatico i valori dei campi è in genere offerta per le attività in cui si devono immettere grandi volumi di dati transazionali e per cui si desidera evitare errori e risparmiare tempo. Questo argomento contiene una selezione di tale funzionalità. Nei futuri aggiornamenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno aggiunte altre sezioni.
@@ -44,6 +42,6 @@ Le principali azioni che deve effettuare l'utente nella finestra sono la selezio
 3. Aprire la finestra **Registrazione pagamenti** e procedere con l'elaborazione dei pagamenti clienti in entrata utilizzando la funzionalità descritta per l'immissione automatica di un valore di campo.
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Finanze](finance.md)
 

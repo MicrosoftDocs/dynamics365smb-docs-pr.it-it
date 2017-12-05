@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-for-financials"></a>Estensione PayPal Payments Standard per Dynamics 365 for Financials
+# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>Estensione PayPal Payments Standard per Dynamics 365 Business edition 
 I clienti richiedono continuamente un livello di assistenza clienti più elevato, sia in termini di qualità del prodotto sia in termini di opzioni di consegna e di pagamento. Il servizio PayPal Payments Standard contribuisce a migliorare l'assistenza clienti.
 
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, è possibile offrire ai clienti di pagare tramite il conto PayPal. Quando si invia una fattura di vendita o un ordine di vendita tramite e-mail, nel corpo e-mail e nel documento PDF allegato è presente un collegamento a PayPal. Quando il cliente sceglie il collegamento, viene visualizzata la pagina di assistenza per il conto PayPal nella quale sono disponibili i dettagli di pagamento per la vendita. Il cliente può quindi pagare la fattura con la stessa modalità di un qualsiasi altro pagamento PayPal.

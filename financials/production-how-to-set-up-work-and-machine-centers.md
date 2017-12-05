@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedura: Impostare aree di produzione e centri di lavoro
@@ -50,7 +50,7 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 10.  Selezionare il campo **Costo unitario specifico** se si desidera definire il costo unitario dell'area di produzione nella riga ciclo in cui viene utilizzato. Tale soluzione potrebbe risultare utile per le operazioni che prevedono costi delle capacità notevolmente diversi rispetto a quelli consueti per l'area di produzione specificata.  
 11.  Nel campo **Metodo consuntivazione** specificare se calcolare e registrare registrazione di output nell'area di produzione manualmente o automaticamente, mediante uno dei metodi seguenti.  
 
-    |Opzione|Description|  
+    |Opzione|Descrizione|  
     |----------------------------------|---------------------------------------|  
     |**Manuale**|Il consumo viene registrato manualmente nelle registrazioni di output o di produzione.|
     |**Aut. inizio**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene rilasciato.|  
@@ -65,7 +65,7 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
     > [!NOTE]  
     > Se si decide di utilizzare Giorni, tenere presente che un giorno equivale a 24 ore e non a 8 ore lavorative.
 
-13.  Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di **Nome prodotto** non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
+13.  Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
 14.  Specificare nel campo **Efficienza** la percentuale di output standard previsto prodotta effettivamente dall'area di produzione selezionata. Se si immette un valore pari a **100**, si indica che l'output effettivo dell'area di produzione corrisponde all'output standard.  
 15. Selezionare la casella di controllo **Calendario consolidato** se si utilizzano anche centri di lavoro. In questo modo viene eseguito il roll up dei movimenti di calendario dai calendari centro di lavoro.  
 16.  Selezionare un calendario reparto produzione nel campo **Cod. calendario reparto prod.**. Per ulteriori informazioni, vedere [Procedura: Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ Se vengono assegnati diversi centri di lavoro (ad esempio, 210 tavolo da imballa
 Se, tuttavia, centri di lavoro uguali tra loro (ad esempio, 210 tavolo da imballaggio 1 e 220 tavolo da imballaggio 2) vengono combinati in un'area di produzione, è importante considerare l'area di produzione come la somma dei centri di lavoro assegnati. L'area di produzione verrà pertanto elencata con capacità pari a zero. Attivando il campo **Calendario consolidato**, all'area di produzione viene assegnata la capacità standard.
 
 Se le capacità delle aree di produzione non devono contribuire a formare la capacità totale, l'efficienza deve risultare uguale a zero.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Per impostare un centro lavoro o area di produzione con capacità-vincolata
+È necessario impostare le risorse di produzione considerate critiche e contrassegnarle per l'accettazione soltanto di carichi limitati, escludendo in questo modo il carico illimitato predefinito che viene accettato da altre risorse di produzione. Una risorsa critica può essere costituita da un'area di produzione o da un centro lavoro che costituiscono strozzature nel ciclo produttivo e per i quali si desidera stabilire un limite finito di carico.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
+
+Nella finestra **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
+
+Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.
+
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Risorse critiche**, quindi scegliere il collegamento correlato.
+2. Scegliere l'azione **Nuovo**.
+3. Compilare i campi come necessario.
+
+> [!NOTE]
+> Le operazioni nelle aree di produzione o nei centri di lavoro impostati come risorse vincolate verranno sempre pianificate in modo seriale. Ciò significa che se una risorsa vincolata ha più capacità disponibili, allora tali capacità possono solo essere pianificate in sequenza e non in parallelo, come invece accade nel caso in cui l'area di produzione o il centro di lavoro non è stato impostato come risorsa vincolata. In una risorsa vincolata, il campo Capacità nell'area di produzione o nel centro di lavoro è maggiore di 1.
+
+> Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.
 
 ## <a name="see-also"></a>Vedi anche  
 [Procedura: Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)  

@@ -1,6 +1,6 @@
 ---
-title: Panoramica dei task per il setup di Dynamics 365 for Financials| Documenti Microsoft
-description: Descrive i task per impostare, inizializzare e configurare Dynamics 365 for Financials in base alle esigenze.
+title: Panoramica dei task per il setup di Dynamics 365 Business edition | Documenti Microsoft
+description: Descrive i task per impostare, inizializzare e configurare Dynamics 365 Business edition in base alle esigenze.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Impostazione di Dynamics 365 for Financials
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Impostazione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
@@ -41,7 +41,7 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 | Impostare la finestra **Setup posta elettronica SMTP** per registrare e ricevere i messaggi e-mail mediante i documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procedura: Impostare la posta elettronica](madeira-how-setup-email.md) |
 | Impostare codici di identificazione univoci. |[Procedura: Creazione di numerazioni](ui-create-number-series.md) |
 
-Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Setup e amministrazione in in Dynamics 365 for Financials](admin-setup-and-administration.md).  
+Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostazione e amministrazione in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  
@@ -54,7 +54,7 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Manufacturing](production-manage-manufacturing.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Setup e amministrazione in Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Impostazione e amministrazione in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

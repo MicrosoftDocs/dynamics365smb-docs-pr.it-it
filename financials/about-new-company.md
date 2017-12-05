@@ -1,6 +1,6 @@
 ---
 title: "Creare una nuova società utilizzando una Guida setup assistito | Microsoft Docs"
-description: "Creare una nuova società vuota in Dynamics 365 for Financials è facile. Una Guida setup assistito fornisce le istruzioni nei vari passaggi e consente di importare i dati aziendali esistenti."
+description: "Creare una nuova società vuota in Dynamics 365 Business edition è facile. Una Guida setup assistito fornisce le istruzioni nei vari passaggi e consente di importare i dati aziendali esistenti."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Creazione di nuove società in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ Quando si accede a una nuova società, la procedura guidata **Setup società** s
 
 L'indirizzo della società, ad esempio, è incluso nelle fatture e in altri documenti e i dati bancari vengono utilizzati per i pagamenti. Il metodo di calcolo dei costi viene utilizzato per calcolare i prezzi, nonché valutare il magazzino.  
 
-Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per altre informazioni, vedere [Impostazione di Dynamics 365 for Financials](setup.md).  
+Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedi [Impostazione di Dynamics 365 Business edition ](setup.md).  
 
 ## <a name="see-also"></a>Vedi anche
-[Impostazione di Dynamics 365 for Financials](setup.md)  
+[Impostazione di Dynamics 365 Business edition ](setup.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

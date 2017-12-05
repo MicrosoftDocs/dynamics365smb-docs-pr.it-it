@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visualizzazione delle liste con modalità diverse
@@ -28,6 +28,6 @@ Nella Lista articoli l'inserimento di immagini consente di ottenere una panorami
 È possibile importare un'immagine per un articolo specifico nella scheda **Articolo** selezionando a destra **Immagine** e quindi scegliendo **Importa**. Inoltre è possibile esportare un'immagine in un file o eliminare l'immagine dell'articolo.  
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md)  
 

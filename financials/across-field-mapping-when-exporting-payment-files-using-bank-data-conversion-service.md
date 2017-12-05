@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69ca175c1b73e18dfbad1d0682d877021b5d94d7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari
@@ -25,7 +25,7 @@ Quando si esportano campi pagamento tramite la funzionalità servizio di convers
 
 La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare i dati verso il provider di servizi.  
 
-|Campo mappato|Campo nella tabella|Tavolo|Descrizione]-->|  
+|Campo mappato|Campo nella tabella|Tavolo|Descrizione|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Nr. creditore|Nr. creditore|Conto bancario|L'identificatore assegnato alla società dalla banca per riscuotere i pagamenti|  
 |N. conto bancario mittente|Nr./IBAN Conto corrente|Conto bancario|Il numero del conto corrente bancario della società (IBAN o altro) specificato nella scheda conto corrente bancario|  
@@ -68,8 +68,8 @@ La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)
 |Nome banca mittente- Conv. dati|Nome banca – Conversione dati|Conto bancario|Il nome del conto corrente bancario del mittente che viene richiesto dal servizio di conversione dati bancari e viene specificato nella scheda conto corrente bancario|  
 
 ## <a name="see-also"></a>Vedi anche  
-[Impostare lo scambio di dati](across-set-up-data-exchange.md)  
-[Scambio di dati come documenti elettronici](across-data-exchange.md)
+[Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
+[Scambio di dati in modalità elettronica](across-data-exchange.md)
 [Procedura: Impostare il Servizio di conversione dati bancari](bank-how-setup-bank-data-conversion-service.md)   
 [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

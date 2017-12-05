@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
@@ -26,7 +26,7 @@ Tuttavia, esistono alcune opzioni che occorre impostare manualmente. Ad esempio,
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Scegliere la modalità di pagamento dei fornitori. |[Definizione dei metodi di pagamento](finance-payment-methods.md) |
 | Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Impostazione delle categorie di registrazione](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Procedura: Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Vedi anche
-[Contabilità](finance.md)  
+[Finanze](finance.md)  
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  

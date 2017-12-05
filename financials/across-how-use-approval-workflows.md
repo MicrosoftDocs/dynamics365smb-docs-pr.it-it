@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 08/24/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 000a27efed9ff6c20cffd470e1d5dda0b9387bb6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Procedura: Utilizzare i workflow di approvazione
@@ -25,7 +25,7 @@ I workflow di approvazione vengono impostati della finestra finestra **Workflow*
 
 Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
 
-I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
+I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
 
 > [!NOTE]  
 >   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).

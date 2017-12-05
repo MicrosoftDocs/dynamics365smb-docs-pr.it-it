@@ -1,6 +1,6 @@
 ---
 title: Impostare gli addebiti diretti SEPA | Microsoft Docs
-description: Informazioni su come impostare gli addebiti diretti SEPA in Dynamics 365 for Financials.
+description: Informazioni su come impostare gli addebiti diretti SEPA in Dynamics 365 Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Procedura: Impostare gli addebiti diretti SEPA
@@ -38,7 +38,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 2. Scegliere l'azione **Nuovo**.  
 3. Impostare un metodo di pagamento. Compilare i campi specifici dell'addebito diretto come descritto nella tabella riportata di seguito.  
 
-    |Campo|[Descrizione|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Addebito diretto**|Specificare se il metodo di pagamento riguarda la riscossione di addebiti diretti SEPA.|  
     |**Cod. condizioni pag. addebiti dir.**|Specificare le condizioni di pagamento, ad esempio NON PAGARE, che vengono visualizzate sulle fatture di vendita pagate con addebito diretto SEPA per indicare al cliente che il pagamento verrà riscosso automaticamente. In alternativa, lasciare vuoto il campo.|  
@@ -59,7 +59,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 4. Nella finestra **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Mandati di addebito diretto**.  
 5. Nella finestra **Mandati per addebito diretto SEPA** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |[Descrizione|campo]|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice C/C bancario clienti**|Specifica il conto bancario da cui vengono riscossi i pagamenti in addebito diretto. Questo campo viene compilato automaticamente.|  
     |**Data di inizio validità**|Specificare la data in cui ha inizio il mandato di addebito diretto.|  
@@ -78,5 +78,5 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Procedura: Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md)
 [Procedura: Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)
-[Scambio di dati come documenti elettronici](across-data-exchange.md)
+[Scambio di dati in modalità elettronica](across-data-exchange.md)
 

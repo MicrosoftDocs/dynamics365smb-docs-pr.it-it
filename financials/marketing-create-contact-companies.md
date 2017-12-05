@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Creazione di società contatto
@@ -26,9 +26,9 @@ L'assegnazione del numero più elevato possibile di dati su una determinata soci
 
 È inoltre possibile definire la relazione d'affari con un contatto. Ad esempio, un contatto potrebbe essere una banca, un potenziale cliente o un terzista.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Impostare un contatto per una nuova società, da zero o da un cliente, un fornitore o da un conto corrente bancario. |[Procedura: Creare società contatto](marketing-how-create-contact-companies.md) |
 | Sincronizzare le informazioni nei contatti con dati comuni su clienti, fornitori e conti correnti bancari |[Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di contatti](marketing-create-contact-persons.md)   
-[Utilizzo di Financials](ui-work-product.md)
+[Utilizzo di Dynamics 365](ui-work-product.md)
 

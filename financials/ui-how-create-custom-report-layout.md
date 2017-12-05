@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dbe130ef829c6c4efd97fa3f223312c193a078f5
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d0cb7491300e9c108af4d1b0e746e65130886c15
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Procedura: Creare e modificare un layout di documento o report personalizzato
@@ -28,8 +28,9 @@ Per impostazione predefinita, un report avrà un layout di report RDLC o Word pr
 Per creare un layout personalizzato, è possibile effettuare una copia di un layout personalizzato esistente o aggiungere un nuovo layout personalizzato, che nella maggior parte dei casi è basato su un layout predefinito. Quando si aggiunge un nuovo layout personalizzato, è possibile scegliere di aggiungere un tipo di layout di report RDLC o Word oppure entrambi. Il nuovo layout personalizzato si baserà automaticamente sul layout predefinito per il report, se ce n'è uno disponibile. Se non è presente un layout predefinito per il tipo, viene creato un nuovo layout vuoto che si dovrà progettare e modificare da zero. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
-   Nella finestra **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo Società nella parte superiore della finestra.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.
+
+    Nella finestra **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Società** nella parte superiore della finestra.
 2. Impostare il campo **Società** alla società per la quale si desidera creare il layout di report.
 3. Selezionare la riga per il report per il quale si desidera creare il layout, quindi scegliere l'azione **Layout personalizzati**.  
    Viene visualizzata la finestra **Layout report personalizzati** nella quale sono elencati tutti i layout personalizzati che sono disponibili per il report selezionato.
@@ -51,45 +52,45 @@ Per modificare un layout di report, è necessario innanzi tutto esportare il lay
 ### <a name="to-modify-a-custom-layout"></a>Per modificare un layout personalizzato
 1.  Esportare un layout personalizzato dalla finestra **Layout report personalizzati**. Se questa finestra non è già aperta, cercare e aprire la finestra **Selezione layout report**, selezionare il report che ha il layout da modificare, quindi scegliere l'azione **Layout personalizzati**.  
 2.  Nella finestra **Layout report personalizzati**, selezionare il layout che si desidera modificare, scegliere l'azione **Esporta layout** e quindi scegliere **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
-  
+
 3.  Aprire il documento di layout di report appena salvato, quindi apportare le modifiche.
 
-      Se si modifica un layout Word, aprire il documento di layout in Word. Per informazioni dettagliate sulle operazioni di modifica, vedere la sezione successiva [Modifica di un layout di report](ui-how-create-custom-report-layout.md#MakeChangesToLayout). 
+      Se si modifica un layout Word, aprire il documento di layout in Word. Per informazioni dettagliate sulle operazioni di modifica, vedere la sezione successiva [Modifica di un layout di report](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
 
       I layout di report RDLC sono più avanzati dei layout di report Word. Per ulteriori informazioni su come modificare un layout di report RDLC, vedere [Progettazione di layout di report RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
 
       Ricordarsi di salvare le modifiche effettuate.
-  
+
 4.  Tornare alla finestra **Layout report personalizzati**, selezionare il layout di report esportato e modificato, quindi scegliere l'azione **Importa layout**.  
-  
+
 5. Nella finestra di dialogo **Importa**, selezionare **Scegli** per trovare e selezionare il documento di layout di report e scegliere **Apri**.
 
 ##  <a name="MakeChangesToLayout"></a>Modifica di un layout di report Word  
 Per apportare modifiche al layout e di formattazione generali, ad esempio modificare il carattere del testo, aggiungere o modificare una tabella o rimuovere un campo dati, utilizzare le funzionalità di modifica di base di Word, come si fa con qualsiasi documento di Word.
 
-Se si sta progettando un layout di report Word da zero o aggiungendo nuovi campi dati, iniziare aggiungendo una tabella che include le righe e le colonne che utilizzeranno i campi dati. 
-  
+Se si sta progettando un layout di report Word da zero o aggiungendo nuovi campi dati, iniziare aggiungendo una tabella che include le righe e le colonne che utilizzeranno i campi dati.
+
 > [!TIP]  
 >  Mostra le linee delle griglie della tabella in modo da visualizzare i limiti delle celle della tabella. Ricordarsi di nascondere le linee delle griglie quando si finisce di apportare modifiche. Per visualizzare o nascondere le linee delle griglie della tabella, selezionare la tabella e quindi in **Layout** nella scheda **Tabella** scegliere **Visualizza linee griglia**.  
-  
+
 ###  <a name="RemoveField"></a> Rimuovere i campi etichetta e dati dai layout Word  
  I campi etichetta e dati di un report sono contenuti nei controlli contenuto di Word. La figura seguente illustra un controllo contenuto quando è selezionato nel documento Word.  
-  
+
  ![Controllo contenuto per il campo nel layout di report Word](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
-  
+
  Il nome del campo etichetta o dati viene visualizzato nel controllo contenuto. Nell'esempio, il nome del campo è CompanyAddr1.  
-  
+
 ### <a name="to-remove-a-label-or-data-field"></a>Per rimuovere un campo dati o etichetta  
-  
+
 1.  Fare clic con il tasto destro del mouse sul campo che si desidera eliminare, quindi fare clic su **Rimuovi controllo contenuto**.  
-  
+
      Il controllo campo viene rimosso, ma rimane il nome del campo come testo.  
-  
+
 2.  Eliminare il testo residuo in base alle esigenze.  
 
 ### <a name="adding-data-fields"></a>Aggiunta di campi dati
 L'aggiunta di campi dati dal set di dati di un report è una funzione più avanzata e richiede la conoscenza del set di dati del report. Per informazioni sull'aggiunta di campi per dati, etichette, dati e immagini, vedere [Procedura: Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md).  
-  
+
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  

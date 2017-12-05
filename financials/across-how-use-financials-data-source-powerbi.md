@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI
@@ -25,11 +25,11 @@ ms.lasthandoff: 09/22/2017
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Per aggiungere [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati in Power BI Desktop
 1. In Power BI Desktop, nel riquadro di spostamento sinistro, scegliere **Ottieni i dati**.
-2. Nella finestra **Ottieni i dati**, scegliere **Servizi online**, quindi **Dynamics 365 for Financials** e infine scegliere il pulsante **Connetti**.
+2. Nella finestra **Ottieni i dati**, scegliere **Servizi online**, quindi **Dynamics 365 Business edition** e infine scegliere il pulsante **Connetti**.
 
    Power BI visualizza una procedura guidata per il processo di connessione. Il primo passo consiste nell'immettere un URL OData e il nome della società associato con l'account [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-   Per l'*URL OData* è possibile copiare l'URL OData V4 di qualsiasi servizio Web elencato nella pagina **Servizi Web** in [!INCLUDE[d365fin](includes/d365fin_md.md)], come `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
+   Per l' *URL OData* è possibile copiare l'URL OData V4 di qualsiasi servizio Web elencato nella pagina **Servizi Web** in [!INCLUDE[d365fin](includes/d365fin_md.md)], come `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
 
    Per *Nome Società*, utilizzare il nome che viene visualizzato nel campo **Nome** nella finestra **Informazioni Società** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene più società, scegliere il nome della società appropriata dall'elenco nella finestra **Società**. In entrambi i casi, verificare che il nome specificato nella procedura guidata di Power BI corrisponda esattamente al testo contenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)], come `My Company`.
 3. Dopo aver immesso le informazioni richieste, fare clic sul pulsante OK. Il passaggio successivo consiste nell'immettere il nome utente e password.

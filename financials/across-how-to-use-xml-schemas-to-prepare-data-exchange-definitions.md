@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Procedura: Utilizzare gli schemi XML per preparare le definizioni di scambio di dati
@@ -46,7 +46,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 4.  Compilare i campi come indicato nella tabella seguente.  
 
-    |Campo|[Descrizione]|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice**|Specificare un codice per identificare lo Schema XML.|  
     |**Description**|Specificare una descrizione dello Schema XML.|  
@@ -66,7 +66,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 2.  Compilare i campi nell'intestazione come descritto nella tabella riportata di seguito.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice schema XML**|Specificare il file schema XML che è stato caricato nel passaggio 5 nella sezione "Per caricare un file schema XML".|  
     |**Nuovo nr. XMLport**|Specificare il numero dell'oggetto XMLport che viene creato da questo schema XML quando si sceglie l'azione **Genera XMLPort**.|  
@@ -79,7 +79,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 4.  Nella scheda **Pagina iniziale**, nel gruppo **Visualizzazione**, scegliere una delle seguenti azioni per modificare i nodi che sono visualizzati.  
 
-    |**Azione**|Description|  
+    |**Azione**|Descrizione|  
     |----------------|---------------------------------------|  
     |**Mostra tutto**|Tutti i nodi vengono visualizzati.|  
     |**Nascondi voci non obbligatorie**|Solo i nodi che rappresentano gli articoli richiesti in base allo schema XML vengono visualizzati. Questi nodi sono in genere indicati da un **1** nel campo **MinOccurs**.<br /><br /> Selezionare **Mostra tutto** per stornare la visualizzazione.|  

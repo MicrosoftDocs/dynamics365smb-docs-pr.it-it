@@ -1,6 +1,6 @@
 ---
 title: "Gestire opportunità di vendita e clienti potenziali| Documenti Microsoft"
-description: "Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Financials e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali."
+description: "Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Dynamics 365 e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Gestione delle opportunità di vendita
@@ -24,9 +24,9 @@ Tutti i clienti potenziali possono essere considerati opportunità di vendita. �
 
 Prima di iniziare a utilizzare la gestione delle opportunità, è necessario impostare cicli di vendita e fasi dei cicli di vendita. Quando si creano opportunità, è necessario fornire informazioni sul contatto, l'agente, il ciclo di vendita e le date, nonché le proprie previsioni del valore di vendita dell'opportunità e le probabilità di successo stimate.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Impostare i cicli di vendita seguiti in genere e le diverse fasi all'interno di ogni opportunità relativa al ciclo di vendita. |[Procedura: Impostare cicli e fasi di vendita dalle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Creare opportunità di vendita dai contatti. |[Procedura: Creare opportunità](marketing-how-create-opportunities.md) |

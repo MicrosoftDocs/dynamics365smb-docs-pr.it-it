@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procedura: Impostare l'invio e la ricezione di documenti elettronici
@@ -47,7 +47,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Informazioni società**, quindi selezionare il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** compilare i campi come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificare la società.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'elemento **EndPointID** nel nodo **AccountingSupplierParty** nel file. Il numero sarà basato sullo standard GS1, che è conforme allo standard ISO 6523.|  
     |**Partita IVA**|Specificare il numero di registrazione IVA della propria società.|  
@@ -57,7 +57,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Setup registrazioni IVA**, quindi selezionare il collegamento correlato.  
 2. Per ogni riga di impostazione della registrazione VAT che verrà utilizzata per i documenti elettronici, compilare il campo come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Categoria imposta**|Specificare la categoria IVA.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'elemento **TaxApplied** nel nodo **AccountingSupplierParty** nel file. Il numero sarà basato sullo standard UNCL5305.|  
 
@@ -65,7 +65,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Paese**, quindi selezionare il collegamento correlato.  
 2. Per ogni paese con cui verranno scambiati documenti elettronici, compilare il campo come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Schema IVA**|Identificare l'ente nazionale che emette il numero di partita IVA per il paese interessato dall'invio dei documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **SchemeID** dell'elemento **EndPointID** in entrambi i nodi **AccountingSupplierParty** e **AccountingCustomerParty** nel file.<br /><br /> Il campo **Schema IVA** viene utilizzato solo se il campo **GLN** nella finestra **Informazioni società** non è compilato. **Nota:** il valore nel campo **Codice** della finestra **Paesi** deve essere conforme allo standard ISO 3166\-1:Alpha2.|  
 
@@ -73,7 +73,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Articoli**, quindi selezionare il collegamento correlato.  
 2. Per ogni articolo che si acquista o si vende su documenti elettronici, compilare il campo come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifica l'articolo in relazione all'invio e alla ricezione del documento elettronico. Per il formato PEPPOL, il campo viene utilizzato come segue:<br /><br /> Se l'elemento **StandardItemIdentification\/ID** dispone dell'attributo **SchemeID** impostato su **GTIN**, l'elemento viene mappato al campo **GTIN** nella scheda articolo.|  
 
@@ -81,7 +81,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Unità di misura**, quindi selezionare il collegamento correlato.  
 2. Per ogni unità di misura che verrà utilizzata per gli articoli sui documenti elettronici, compilare il campo come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice standard internazionale**|Specificare il codice dell'unità di misura espresso secondo lo standard UNECERec20 in relazione all'invio di documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **unitCode** dell'elemento **InvoicedQuantity** nel nodo **InvoiceLine**. **Nota:** se il campo **Unità di misura** nella riga di vendita è vuoto, viene inserito per impostazione predefinita il valore dello standard UNECERe20 per "Pezzo" \(H87\). Per ulteriori informazioni e un elenco dei codici unità di misura validi, vedere [Recommendation No. 20 \- Units of Measure used in International Trade](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
@@ -89,7 +89,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2. Per ogni cliente a cui si invieranno documenti elettronici, compilare i campi come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificare il cliente.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'elemento **EndPointID** nel nodo **AccountingCustomerParty** nel file. Il numero sarà basato sullo standard GS1, che è conforme allo standard ISO 6523.<br /><br /> Se il campo **GLN** è vuoto, viene usato il valore del campo **Partita IVA**.|  
     |**Partita IVA**|Specificare il numero di partita IVA del cliente. **Suggerimento:** selezionare il pulsante Drilldown per utilizzare il servizio Web che consente di verificare l'esistenza del numero nel registro delle imprese del paese.|  
@@ -114,7 +114,7 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Fornitori**, quindi selezionare il collegamento correlato.  
 2. Per ogni fornitore da cui si riceveranno documenti elettronici, compilare i campi come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identificare il fornitore.<br /><br /> Ad esempio, quando si ricevono fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'elemento **EndPointID** nel nodo **AccountingSupplierParty** nel file. Il numero sarà basato sullo standard GS1, che è conforme allo standard ISO 6523.<br /><br /> Se il campo **GLN** è vuoto, viene usato il valore del campo **Partita IVA**.|  
     |**Partita IVA**|Specificare il numero di partita IVA del fornitore. **Suggerimento:** selezionare il pulsante Drilldown per utilizzare il servizio Web che consente di verificare l'esistenza del numero nel registro delle imprese del paese.|  
@@ -132,12 +132,12 @@ In questo argomento sono contenute le seguenti procedure:
 1. Nella casella **Cerca** immettere **Contabilità fornitori**, quindi selezionare il collegamento correlato.  
 2. Nella Scheda dettaglio **Scambio dati** compilare il campo come descritto nella tabella seguente.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Conto C/G per righe non articolo**|Specifica il conto C/G che viene inserito automaticamente nelle righe di acquisto create dai documenti elettronici quando la riga del documento in ingresso non contiene un articolo identificabile. Tutte le righe di documenti in entrata che non hanno un GTIN o il numero di articolo del fornitore verranno convertite in una riga di acquisto di tipo **Conto C/G** e il campo **Nr.** della riga di acquisto conterrà il conto selezionato nel campo **Conto C/G per righe non articolo**.<br /><br /> Se si lascia vuoto il campo **Conto C/G per righe non articolo** e il documento in entrata dispone di righe senza articoli identificabili, il documento di acquisto non verrà creato. Un messaggio di errore avviserà l'utente che è necessario compilare il campo **Conto C/G per righe non articolo** prima di poter completare il task.|  
 
 ## <a name="see-also"></a>Vedi anche  
-[Scambio di dati come documenti elettronici](across-data-exchange.md)   
+[Scambio di dati in modalità elettronica](across-data-exchange.md)   
 [Procedura: Fatturare le vendite](sales-how-invoice-sales.md)   
 [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md)
 

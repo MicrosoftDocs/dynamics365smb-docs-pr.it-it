@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Procedura: creare società contatto
@@ -58,6 +58,6 @@ Se è già stato impostato un numero di clienti, fornitori e conti correnti banc
 [Assegnare relazioni d'affari ai contatti](marketing-business-relations.md#AssignBusRelContact)  
 [Assegnare settori industriali a un contatto](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Assegnare gruppi di mailing a un contatto](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Procedura: Creare contatti](marketing-create-contact-persons.md)  
-[Utilizzo di Financials](ui-work-product.md)
+[Procedura: creare contatti](marketing-create-contact-persons.md)  
+[Utilizzo di Dynamics 365](ui-work-product.md)
 

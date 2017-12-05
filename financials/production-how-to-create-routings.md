@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Procedura: Creare cicli
@@ -28,7 +28,7 @@ Per quanto riguarda la DB di produzione, i cicli di produzione vengono assegnati
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
-- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi prodotti](inventory-how-register-new-items.md).
+- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Procedura: Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Per creare un ciclo  
@@ -53,7 +53,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 12.  Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
 13.  Per copiare righe da un ciclo esistente, scegliere l'azione **Copia ciclo** per selezionarle.  
 14. Certificare il ciclo.  
-15. È ora possibile allegare il nuovo ciclo alla scheda dell'articolo padre desiderato, compilando il campo **Nr. ciclo**. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi prodotti](inventory-how-register-new-items.md).  
+15. È ora possibile allegare il nuovo ciclo alla scheda dell'articolo padre desiderato, compilando il campo **Nr. ciclo**. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Ricordare inoltre di ricalcolare il costo standard dell'articolo dalla scheda **Articolo**: scegliere l'azione **Manufacturing**, quindi selezionare l'azione **Calc. costo standard** e poi l'azione **Tutti i livelli**.  

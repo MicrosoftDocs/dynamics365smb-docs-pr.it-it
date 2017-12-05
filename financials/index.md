@@ -1,6 +1,6 @@
 ---
-title: Scoprire Dynamics 365 for Financials | Documenti Microsoft
-description: "Informazioni sulle funzionalità e gli scenari di lavoro in Dynamics 365 for Financials, una soluzione di gestione aziendale per piccole e medie imprese."
+title: Scoprire Dynamics 365 Business edition | Documenti Microsoft
+description: "Informazioni sulle funzionalità e gli scenari di lavoro in Dynamics 365 Business edition, una soluzione di gestione aziendale per piccole e medie imprese."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -66,10 +66,12 @@ Valutare la sottoscrizione È possibile passare facilmente dalla società d'esem
 Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società**. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare la home page e individuare l'azione **Setup assistito**.  
 
 ## <a name="ready-to-subscribe"></a>Pronti per la sottoscrizione?
-Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di sottoscrivere, utilizzare il collegamento nella notifica per entrare in contatto con Microsoft. È anche possibile contattare il team addetto alle vendite di [!INCLUDE[d365fin](includes/d365fin_md.md)] in [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di sottoscrivere, utilizzare il collegamento nella notifica per entrare in contatto con Microsoft. È anche possibile contattare il team addetto alle vendite di [!INCLUDE[d365fin](includes/d365fin_md.md)] in [Microsoft Dynamics 365 Business edition ](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
-Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](https://docs.microsoft.com/dynamics365) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [Sito Web di Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).
+Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](https://docs.microsoft.com/dynamics365) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [Sito Web di Dynamics 365](https://www.microsoft.com/en-us/dynamics365/).  
+
+Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] e sfruttare l'integrazione ottimale con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedi [Benvenuto in Dynamics 365- Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +82,7 @@ Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Documentazione di Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
@@ -46,7 +46,7 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
  Sono disponibili i seguenti flussi di assemblaggio.  
 
-|Workflow|Description|  
+|Workflow|Descrizione|  
 |----------|---------------------------------------|  
 |Assemblaggio per magazzino|I componenti sono necessari in un ordine di assemblaggio in cui l'output è archiviato nella warehouse.<br /><br /> Questo flusso di warehouse viene gestito nella finestra **Movimento di magazzino**. Una riga Prendere specifica dove prendere i componenti. Una riga Mettere specifica dove posizionare i componenti.|  
 |Assemblaggio su ordine|I componenti sono necessari in un ordine di assemblaggio che è collegato a un ordine di vendita che viene spedito quando l'articolo venduto è assemblato.|  

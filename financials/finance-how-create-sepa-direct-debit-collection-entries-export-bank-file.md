@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f6ebcafa1585d4f722802a6891a20a895aa96060
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Procedura: Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca
@@ -29,7 +29,7 @@ Per indicare alla banca di trasferire l'importo del pagamento dal conto bancario
 2. Nella finestra **Riscossioni addebiti diretti**, nel gruppo **Nuovo** della scheda **Pagina iniziale**, selezionare **Crea riscossione di addebiti diretti**.  
 3. Nella finestra **Crea riscossione di addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Da data scadenza**|Specificare la data di scadenza del pagamento più vicina sulle fatture di vendita per cui si desidera creare una riscossione di addebiti diretti.|  
     |**A data scadenza**|Specificare la data di scadenza del pagamento più lontana sulle fatture di vendita per cui si desidera creare una riscossione di addebiti diretti.|  

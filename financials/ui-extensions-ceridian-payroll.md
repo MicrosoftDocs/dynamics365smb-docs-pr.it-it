@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-for-financials"></a>L'estensione per il registro paga di Ceridian a Dynamics 365 for Financials
+# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>L'estensione per il registro paga di Ceridian a Dynamics 365 Business edition 
 Per indicare i pagamenti di stipendio e le transazioni correlate, è necessario importare e registrare in contabilità generale le transazioni finanziarie trasformate dal provider di retribuzioni.
 
 A tale scopo, è necessario innanzitutto importare un file che si riceve dal provider di retribuzioni nella finestra **Contabilità generale**. Successivamente si esegue il mapping tra i conti esterni nel file retribuzioni e i conti C/G pertinenti. Infine, si registrano le transazioni retribuzioni in base alla mappatura dei conti. Per ulteriori informazioni, vedere [Procedura: Importare transazioni retributive](finance-how-import-payroll-transactions.md).

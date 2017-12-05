@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Creazione e gestione di contatti
@@ -26,9 +26,9 @@ Tutte le entità esterne con cui si intrattengono relazioni, ad esempio clienti,
 
 È possibile registrare le informazioni in base a una società o a una persona di quella società. È inoltre possibile creare un contatto indipendente per le persone che non lavorano per una società, ma che svolgono consulenze esterne.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono. 
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 | Swtup della gestione dei contatti prima di aggiungere i contatti. |[Preparazione per il setup dei contatti](marketing-setup-contacts.md) |
 | Creare una scheda contatto per ogni nuova società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creazione di società contatto](marketing-create-contact-companies.md) |
@@ -37,5 +37,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedi anche
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Setup Relationship Management](marketing-setup-marketing.md)  
-[Utilizzo di Financials](ui-work-product.md)  
+[Utilizzo di Dynamics 365](ui-work-product.md)  
 

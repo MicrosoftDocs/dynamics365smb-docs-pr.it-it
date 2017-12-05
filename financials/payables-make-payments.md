@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00792adb8b4c7deccee262982cd532423884c8f5
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
@@ -26,11 +26,11 @@ Dalle registrazioni pagamenti è possibile stampare assegni automatici o registr
 
 Quando si registrano i pagamenti, è possibile esportarli in un file della banca da caricare nella banca per l'elaborazione.
 
-Una volta effettuati i pagamenti presso la banca, è necessario collegarli ai relativi movimenti contabili fornitori o dipendenti aperti. Questa operazione può essere eseguita manualmente o importando un file del rendiconto bancario e collegando i pagamenti automaticamente. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e Riconciliazione dei conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Una volta effettuati i pagamenti presso la banca, è necessario collegarli ai relativi movimenti contabili fornitori o dipendenti aperti. Questa operazione può essere eseguita manualmente o importando un file del rendiconto bancario e collegando i pagamenti automaticamente. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| A | Vedere |
+| Per | Vedere |
 | --- | --- |
 |Utilizzare la finestra **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per registrare i pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
 | Utilizzare una funzione per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Procedura: Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md) |

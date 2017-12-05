@@ -1,6 +1,6 @@
 ---
 title: Esporre oggetti come servizi Web | Microsoft Docs
-description: Pubblicare oggetti di [! INCLUDA] [d365fin (includes/d365fin_md.md)] come servizi Web per renderli immediatamente disponibili nella rete.
+description: Pubblicare oggetti di [!INCLUDA[d365fin](includes/d365fin_md.md)] come servizi Web per renderli immediatamente disponibili nella rete.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 278515fc479a72957fb52dad71ce2f98d354ee32
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Procedura: Pubblicare un servizio Web
@@ -44,27 +44,13 @@ Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile p
 
 #### <a name="to-verify-the-availability-of-a-web-service"></a>Per verificare la disponibilità di un servizio Web  
 
-1.  Nel browser immettere l'URL pertinente. Nella seguente tabella sono illustrati i tipi di URL che è possibile immettere. Per i servizi Web SOAP, utilizzare il seguente formato per l'URI.  
+1.  Nel browser immettere l'URL pertinente. Nella seguente tabella sono illustrati i tipi di URL che è possibile immettere.  
 
-    <table>
-    <tr>
-    <th>Tipo di servizio Web</th>
-    <th>Sintassi</th>
-    <th>Esempio</th>
-    </tr>
-    <tr>
-    <td>SOAP</td>
-    <td>https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/</td>
-    <td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
-    </tr>
-    <tr>
-    <td>OData</td>
-    <td>https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')</td>
-    <td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com
-
-         The company name is case-sensitive.</td>
-    </tr>
-    </table>
+    >    [!div class="mx-tdBreakAll"]
+    >    |Tipo di servizio Web|Sintassi|Esempio|  
+    >    |----------------|------|-------|
+    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
+    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Per la ragione sociale viene osservata la distinzione tra maiuscole e minuscole.|
 
 2.  Esaminare le informazioni visualizzate nel browser. Verificare che sia possibile visualizzare il nome del servizio Web creato.  
 
