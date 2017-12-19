@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 192efcf377f6f6d665c775b24aa715aadd50922f
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 42c23ca4a15a7242985902b7e95f9d96facdd2c2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-work-with-account-schedules"></a>Procedura: Utilizzare le situazioni contabili
@@ -24,7 +24,7 @@ Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dat
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce alcune situazioni contabili di esempio che è possibile utilizzare immediatamente oppure è possibile impostare le proprie righe e colonne per specificare le cifre da confrontare. È ad esempio possibile creare piani dei conti per calcolare i margini di profitto in dimensioni quali reparti o gruppi di clienti. È possibile creare quanti rendiconti finanziari personalizzati si desidera.  
 
-L'impostazione delle situazioni contabili richiede una comprensione dei dati finanziari nel piano dei conti. Per esempio, è possibile visualizzare i movimenti C/G come percentuali di movimenti budget. Tale operazione richiede che i budget siano creati. Per ulteriori informazioni, vedere [Procedura: Creare budget](finance-how-create-budgets.md).
+L'impostazione delle situazioni contabili richiede una comprensione dei dati finanziari nel piano dei conti. Per esempio, è possibile visualizzare i movimenti C/G come percentuali di movimenti budget. Tale operazione richiede che i budget siano creati. Per ulteriori informazioni, vedere [Procedura: Creare budget C/G](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
@@ -46,7 +46,7 @@ Le categorie di conto consentono di modificare il layout dei rendiconti finanzia
 7. Compilare i campi necessari nella finestra **Layout colonna**.
 
 > [!NOTE]  
->   Se non è stato assegnato un default layout colonna alla situazione contabile, è necessario  impostare le colonne manualmente.   
+>   Se non è stato assegnato un default layout colonna alla situazione contabile, è necessario impostare le colonne manualmente.   
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Per creare una colonna per il calcolo delle percentuali  
 A volte, potrebbe essere necessario includere in una situazione contabile una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, è possibile inserire una colonna per indicare la percentuale delle vendite totale rappresentata da ogni riga.

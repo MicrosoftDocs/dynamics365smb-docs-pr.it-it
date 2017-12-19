@@ -1,8 +1,6 @@
 ---
 title: 'Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base | Documenti Microsoft'
-description: "In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse."
-services: project-madeira
-documentationcenter: 
+description: "In Dynamics 365, i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
@@ -57,7 +55,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   CRONUS International Ltd. installato.  
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
-    1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Impiegati warehouse**, quindi scegliere il collegamento correlato.  
+    1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impiegati warehouse**, quindi scegliere il collegamento correlato.  
     2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella finestra **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
     4.  Selezionare il campo **Default**.  
@@ -69,8 +67,8 @@ Per completare questa procedura dettagliata, sarà necessario:
 
         |Tipo movimento|Numero di articolo|Cod. ubicazione|Codice collocazione|Quantità|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Rettifica positiva|LS-81|ARGENTO|S-01-0001 **Nota:**  la collocazione di default dell'articolo in CRONUS|2.0|  
-        |Rettifica positiva|LS-81|ARGENTO|S-01-0002|2.0|  
+        |Rettifica positiva|LS-81|ARGENTO|S-01-0001 **Nota:**  la collocazione di default dell'articolo in CRONUS|20|  
+        |Rettifica positiva|LS-81|ARGENTO|S-01-0002|20|  
 
     3.  Scegliere l'azione **Registra**, quindi selezionare il pulsante **Sì**.  
 

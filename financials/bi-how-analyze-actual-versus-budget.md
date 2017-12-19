@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procedura: Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
 
-Per analizzare gli importi di budget, è prima necessario creare i budget. Per ulteriori informazioni, vedere [Procedura: Creare budget](finance-how-create-budgets.md).
+Per analizzare gli importi di budget, è prima necessario creare budget C/G. Per ulteriori informazioni, vedere [Procedura: Creare budget C/G](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Per visualizzare un budget
+## <a name="to-view-a-gl-budget"></a>Per visualizzare un budget C/G
 In un budget per cui siano state impostate delle dimensioni è possibile filtrare i movimenti e visualizzare budget specifici.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Budget C/G**, quindi scegliere il collegamento correlato.
@@ -68,7 +68,7 @@ Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'inter
 4. Per visualizzare una specifica di un importo mostrato, selezionare il campo.  
 
 ## <a name="see-also"></a>Vedi anche
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

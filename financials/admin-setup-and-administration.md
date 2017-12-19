@@ -1,6 +1,6 @@
 ---
 title: Task amministrativi in Dynamics 365 | Microsoft Docs
-description: Alcuni task in [! INCLUDA] [d365fin (includes/d365fin_md.md)] richiedono un setup e un'amministrazione centrale. In questa sezione, viene fornita una descrizione di tali task e informazioni su come utilizzarli.
+description: Alcuni task in Dynamics 365 richiedono un setup e un'amministrazione centrale. In questa sezione, viene fornita una descrizione di tali task e informazioni su come utilizzarli.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Setup e amministrazione in Dynamics 365 for Financials
@@ -40,7 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare una nuova business unit utilizzando modelli|[Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## <a name="see-also"></a>Vedi anche
-[Panoramica sulle funzionalità aziendali](madeira-business-functionality.md)  
+[Funzionalità aziendale](madeira-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

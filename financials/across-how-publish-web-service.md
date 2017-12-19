@@ -1,6 +1,6 @@
 ---
 title: Esporre oggetti come servizi Web | Microsoft Docs
-description: Pubblicare oggetti di [!INCLUDA[d365fin](includes/d365fin_md.md)] come servizi Web per renderli immediatamente disponibili nella rete.
+description: Pubblicare oggetti come servizi Web per renderli immediatamente disponibili sulla rete.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 0ffce108abbe24ec70f31c8a8447e3b6a379b32c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Procedura: Pubblicare un servizio Web
@@ -23,12 +23,11 @@ I servizi Web sono un modo semplice ed efficace per rendere le funzionalità di 
 È possibile impostare un servizio Web nel client Windows o nel client Web. È necessario pubblicare il servizio Web per renderlo disponibile alle richieste di assistenza nella rete. Gli utenti possono individuare i servizi Web puntando un browser al percorso del server e richiedendo un elenco dei servizi disponibili. Quando si pubblica un servizio Web, diviene immediatamente disponibile in rete per gli utenti autenticati. Tutti gli utenti autorizzati possono accedere ai metadati per i servizi Web, ma solo gli utenti che dispongono di permessi sufficienti possono accedere ai dati effettivi.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Creazione e pubblicazione di un servizio Web  
- I seguenti passaggi illustrano come creare e pubblicare un servizio Web.  
+I seguenti passaggi illustrano come creare e pubblicare un servizio Web.  
 
-#### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
+### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
 
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Servizi Web**, quindi scegliere il collegamento correlato.  
-
 2.  Nella pagina **Servizi Web** selezionare **Nuovo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -38,23 +37,22 @@ I servizi Web sono un modo semplice ed efficace per rendere le funzionalità di 
 
 3.  Selezionare la casella di controllo nella colonna **Pubblicato**.  
 
-     Quando si pubblica il servizio Web, nei campi **URL OData** e **URL SOAP** è possibile vedere gli URL che sono generati per il servizio Web. È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, è possibile copiare il valore del campo e salvarlo per un successivo utilizzo.  
+Quando si pubblica il servizio Web, nei campi **URL OData** e **URL SOAP** è possibile vedere gli URL che sono generati per il servizio Web. È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, è possibile copiare il valore del campo e salvarlo per un successivo utilizzo.  
 
 Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser, oppure è possibile scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella finestra **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
 
-#### <a name="to-verify-the-availability-of-a-web-service"></a>Per verificare la disponibilità di un servizio Web  
+### <a name="to-verify-the-availability-of-a-web-service"></a>Per verificare la disponibilità di un servizio Web  
 
-1.  Nel browser immettere l'URL pertinente. Nella seguente tabella sono illustrati i tipi di URL che è possibile immettere.  
-
-    >    [!div class="mx-tdBreakAll"]
-    >    |Tipo di servizio Web|Sintassi|Esempio|  
-    >    |----------------|------|-------|
-    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
-    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Per la ragione sociale viene osservata la distinzione tra maiuscole e minuscole.|
+1.  Nel browser immettere l'URL pertinente. Nella seguente tabella sono illustrati i tipi di URL che è possibile immettere per tipi di servizi Web diversi.  
+> [!div class="mx-tdBreakAll"]
+> |Tipo|Sintassi|Esempio|
+> |----------------|------|-------|
+> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
+> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Per la ragione sociale viene osservata la distinzione tra maiuscole e minuscole.|
 
 2.  Esaminare le informazioni visualizzate nel browser. Verificare che sia possibile visualizzare il nome del servizio Web creato.  
 
- Quando si accede a un servizio Web e si desidera scrivere i dati di nuovo in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario specificare il nome della società. È possibile specificare la società come parte di URI come illustrato negli esempi, oppure è possibile specificare la società come parte dei parametri di query. Ad esempio, gli URI successivi scelgono lo stesso servizio Web OData e sono entrambi URI validi.  
+Quando si accede a un servizio Web e si desidera scrivere i dati di nuovo in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario specificare il nome della società. È possibile specificare la società come parte di URI come illustrato negli esempi, oppure è possibile specificare la società come parte dei parametri di query. Ad esempio, gli URI successivi scelgono lo stesso servizio Web OData e sono entrambi URI validi.  
 
 ```  
 https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Customer  
@@ -65,5 +63,5 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## <a name="see-also"></a>Vedi anche  
-[Setup e amministrazione in Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Setup e amministrazione](admin-setup-and-administration.md)  
 

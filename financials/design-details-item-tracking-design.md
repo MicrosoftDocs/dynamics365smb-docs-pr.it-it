@@ -1,8 +1,6 @@
 ---
 title: "Dettagli di progettazione: Progettazione tracciabilità articolo | Microsoft Docs"
-description: "Questo argomento descrive la progettazione alla base della tracciabilità articolo in [! INCLUDA] [d365fin (includes/d365fin_md.md])."
-services: project-madeira
-documentationcenter: 
+description: "Questo argomento descrive la progettazione alla base della tracciabilità articolo in Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
@@ -38,7 +36,7 @@ L'oggetto di registrazione centrale è riprogettato per gestire la sottoclassifi
 
 Codeunit 22, **Reg. magazzino - registra righe**, ora suddivide la registrazione in base ai numeri di tracciabilità articolo specificati nella riga del documento. Ciascun numero di tracciabilità articolo sulla riga crea il proprio movimento contabile articolo per l'articolo. Ciò significa che il collegamento dalla riga del documento registrato ai movimenti contabili articoli associati è una relazione uno a molti. Tale relazione viene gestita dalle seguenti tabelle di relazione di tracciabilità articolo.  
 
-|Campo|Description|  
+|Campo|Descrizione|  
 |---------------|---------------------------------------|  
 |**Relazione movimento articolo** (T6507)|Correla la righe spedite o ricevute ai movimenti contabili articoli|  
 |**Relazione movimento valorizz.** (T6508)|Correla le righe fatturate ai movimenti di valorizzazione|  

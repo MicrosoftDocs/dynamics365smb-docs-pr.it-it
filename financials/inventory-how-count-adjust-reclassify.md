@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Procedura: Conteggio, rettifica e riclassificazione dell'inventario
@@ -26,7 +26,7 @@ Sebbene tutti gli articoli a magazzino vengano conteggiati almeno una volta l'an
 
 Se è necessario rettificare le quantità di magazzino registrate, in relazione al conteggio o per altri scopi, è possibile utilizzare una registrazione di magazzino per modificare i movimenti contabili di inventario direttamente senza registrare transazioni aziendali. In alternativa, è possibile rettificare un singolo articolo nella scheda articolo.
 
-Se è necessario modificare gli attributi dei movimenti contabili articoli oltre alle quantità, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono i numeri di serie o di lotto, le date di scadenza e le dimensioni.
+Se è necessario modificare gli attributi dei movimenti contabili articoli, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono le dimensioni e i codici delle campagne di vendita, ma si effettuano "trasferimenti di sistema" anche riclassificando i codici ubicazione e collocazione. Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Nelle configurazioni di warehouse avanzate gli articoli sono registrati nelle collocazioni come movimenti warehouse e non come movimenti contabili articoli. Di conseguenza, eseguire il conteggio, la rettifica e la riclassificazione in registrazioni di warehouse speciali che supportano le collocazioni. Quindi, utilizzare le funzioni speciali per sincronizzare i movimenti warehouse nuovi o modificati con i movimenti contabili articoli correlati per riflettere le modifiche nelle quantità e nei valori di magazzino. Questa operazione è descritta in procedure specifiche riportate di seguito laddove è opportuno.
@@ -209,13 +209,19 @@ A intervalli appropriati in base a quanto definito dalla politica aziendale, è 
 6.  Registrare le righe di registrazione per immettere le differenze di quantità nei movimenti contabili magazzino. A questo punto, le giacenze nelle collocazioni warehouse corrisponderanno esattamente alle giacenze nei movimenti contabili magazzino.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Per riclassificare il numero di lotto di un articolo
+Se è necessario modificare gli attributi dei movimenti contabili articoli, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono le dimensioni e i codici delle campagne di vendita, ma si effettuano "trasferimenti di sistema" anche riclassificando i codici ubicazione e collocazione.
+
+Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
+
+Il seguente esempio si basa su un codice ubicazione. I passaggi sono simili per altri tipi di attributi degli articoli.
+
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riclassificazioni articoli**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Batch reg. riclass. articoli** compilare i campi in base alle esigenze.
-3. Nel campo **Nr. lotto** immettere il numero del lotto corrente dell'articolo.
-4. Nel campo **Nuovo nr. lotto** immettere il nuovo numero del lotto dell'articolo.
+3. Nel campo **Codice ubicazione**, immettere il codice dell'ubicazione corrente dell'articolo.
+4. Nel campo **Nuovo codice ubicazione**, immettere il nuovo codice dell'ubicazione dell'articolo.
 5. Scegliere l'azione **Registra**.
 
-Vengono applicati dei passaggi speciali per riclassificare i numeri di serie o di lotto. Per ulteriori informazioni, vedere [Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
+Per informazioni sul trasferimento di articoli con controllo totale delle quantità spedite e ricevute, vedere [Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Magazzino](inventory-manage-inventory.md)

@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
@@ -39,7 +39,7 @@ La società di default è detta CRONUS e contiene solo i dati di esempio.
 > [!TIP]  
 >   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio nella home page), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
-## <a name="work-date"></a>Data di lavoro
+## <a name="work-date"></a>Work Date
 La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  
@@ -51,7 +51,7 @@ La data di lavoro di default in genere è la data odierna. Per poter eseguire ta
 ## <a name="region"></a>Area geografica
 L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.   
 
-## <a name="change-when-i-receive-notifications"></a>Modificare il momento in cui ricevere le notifiche
+## <a name="changing-when-i-receive-notifications"></a>Modifica del momento in cui ricevere le notifiche
 Scegliere questo collegamento per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Notifiche smart](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Vedi anche

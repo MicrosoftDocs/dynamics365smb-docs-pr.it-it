@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Notifiche smart
@@ -25,11 +25,11 @@ Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile i
 
 Le notifiche consentono agli utenti non addestrati di completare attività poco familiari senza ridurre la produttività dell'utente più formato.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Attivare o disattivare le notifiche e controllare quando vengono inviate
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Per attivare o disattivare le notifiche e controllare quando vengono inviate
 Al primo avvio di [!INCLUDE[d365fin](includes/d365fin_md.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.  
-  
+
 Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio. Ad esempio, se si desidera ricevere una notifica quando le scorte in magazzino sono insufficienti, ma solo per gli articoli acquistati da un determinato fornitore.  
-  
+
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), inserire **Notifiche personali**, quindi scegliere il collegamento correlato.

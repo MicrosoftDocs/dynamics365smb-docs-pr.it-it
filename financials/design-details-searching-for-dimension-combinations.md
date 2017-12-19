@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Ricerca delle combinazioni di dimensione | Microsoft Docs'
-description: Quando si chiude la finestra dopo avere modificato un set di dimensioni, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.
-services: project-madeira
-documentationcenter: 
+description: Quando si chiude la finestra dopo avere modificato un set di dimensioni, in Dynamics 365 viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9e36a8a1a5eeede5023da32bcb40a06042173fb4
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
@@ -75,7 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Vedi anche  
- [Funzione GET (Record)](https://msdn.microsoft.com/en-us/library/dd301056.aspx)    
+ [Funzione GET (Record)](/dynamics-nav/GET-Function--Record-)    
  [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
  [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
  [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   

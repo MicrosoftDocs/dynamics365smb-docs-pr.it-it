@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
@@ -42,7 +42,7 @@ Un layout di report Word si basa sui documenti di Word (tipo di file .docx). I l
  ![Esempio di un documento di layout di report Word per NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Panoramica del layout RDLC
-I layout RDLC sono basati sui layout di definizione dei report dei client (tipi di file .rdl o .rdlc). Questi layout vengono creati e modificati utilizzando il Generatore report di SQL Server. Il concetto di progetto per i layout RDLC è simile ai layout Word, in cui il layout definisce lo schema generale del report e determina i campi del set di dati da includere. Progettare layout RDLC è un'operazione più avanzata, rispetto ai layout Word. Per ulteriori informazioni, vedere [Progettazione di layout di report RDLC](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+I layout RDLC sono basati sui layout di definizione dei report dei client (tipi di file .rdl o .rdlc). Questi layout vengono creati e modificati utilizzando il Generatore report di SQL Server. Il concetto di progetto per i layout RDLC è simile ai layout Word, in cui il layout definisce lo schema generale del report e determina i campi del set di dati da includere. Progettare layout RDLC è un'operazione più avanzata, rispetto ai layout Word. Per ulteriori informazioni, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Layout di report personalizzati e predefiniti
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include diversi layout predefiniti. I layout integrati sono layout predefiniti creati per report specifici. I report in [!INCLUDE[d365fin](includes/d365fin_md.md)] avranno un layout integrato come layout report RDLC, layout report Word o in alcuni casi entrambi. Non è possibile modificare un layout di report predefinito da [!INCLUDE[d365fin](includes/d365fin_md.md)], ma è possibile utilizzarlo come base per generare layout di report personalizzati.

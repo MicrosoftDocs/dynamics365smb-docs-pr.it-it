@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Procedura: Impostare i ruoli professionali per i contatti
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 L'utilizzo dei ruoli professionali nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice ruolo professionale. Questo passaggio deve essere eseguito una sola volta per ogni ruolo professionale. Dopo aver creato un codice ruolo professionale, è possibile iniziare ad assegnarlo ai contatti.
 
-## <a name="to-define-a-job-responsibility-code"></a>per definire un codice ruolo professionale
+## <a name="to-define-a-job-responsibility-code"></a>Per definire un codice ruolo professionale
 Il codice ruolo professionale definisce il tipo o la categoria di processo, ad esempio MARKETING o ACQUISTO. È possibile impostare più codici di ruoli professionali. Per definire il ruolo professionale, utilizzare la finestra **Ruoli professionali**.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ruoli professionali**, quindi scegliere il collegamento correlato.

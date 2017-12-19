@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Parametri di pianificazione | Microsoft Docs'
-description: "In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
@@ -64,7 +62,7 @@ Indipendentemente dal metodo di riordino, il sistema di pianificazione in genere
 ### <a name="reordering-policies"></a>Metodi di riordino  
 I seguenti metodi di riordino influiscono sulla quantità da riordinare.  
 
-|Metodo di riordino|Description|  
+|Metodo di riordino|Descrizione|  
 |-----------------------|---------------------------------------|  
 |**Qtà Riordino Fissa**|Al minimo, la quantità dell'ordine sarà uguale alla quantità di riordino. Può essere aumentata per soddisfare la domanda o il livello di magazzino desiderato. Questo metodo di riordino viene in genere utilizzato con un punto di riordino.|  
 |**Qtà Massima**|La quantità dell'ordine verrà calcolata per soddisfare la giacenza massima. Se vengono utilizzati i modificatori della quantità, la giacenza massima può essere superata. Non è consigliabile utilizzare l'intervallo di tempo insieme alla quantità massima. L'intervallo di tempo in genere verrà sostituito. Questo metodo di riordino viene in genere utilizzato con un punto di riordino.|  
@@ -74,7 +72,7 @@ I seguenti metodi di riordino influiscono sulla quantità da riordinare.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Ottimizzare il momento e la quantità di riordino  
 Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizzerà i parametri di pianificazione per limitare i suggerimenti di ripianificazione, l'accumulo della domanda (quantità di riordino dinamica) o per evitare azioni di pianificazione non significative. I seguenti campi relativi al periodo di riordino aiutano a ottimizzare il riordino in termini di tempo e quantità.  
 
-|Campo|Description|  
+|Campo|Descrizione|  
 |---------------------------------|---------------------------------------|  
 |**Periodo di riprogrammazione**|Questo campo viene utilizzato per determinare se il messaggio di azione deve ripianificare un ordine esistente o annullarlo e creare un nuovo ordine. L'ordine esistente verrà riprogrammato all'interno di un periodo di riprogrammazione prima dell'approvvigionamento corrente e fino a un periodo di riprogrammazione dopo l'approvvigionamento corrente.|  
 |**Periodo di accumulo lotti**|Con il metodo di riordino lotto per lotto, questo campo viene utilizzato per accumulare più esigenze di approvvigionamento in un unico ordine di approvvigionamento. A partire dal primo approvvigionamento pianificato, il sistema accumula tutte le necessità di approvvigionamento nel periodo di accumulo lotti in un approvvigionamento, che viene inserito nella data del primo approvvigionamento. La domanda esterna al periodo di accumulo lotto non è coperta da questo approvvigionamento.|  

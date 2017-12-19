@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Setup warehouse | Microsoft Docs'
-description: "La funzionalità di warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza."
-services: project-madeira
-documentationcenter: 
+description: "La funzionalità di warehouse in Dynamics 365 contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
@@ -39,7 +37,7 @@ Per ulteriori informazioni su ciascuna area, vedere [Elenco prezzi di [!INCLUDE[
 
 Nella seguente tabella viene indicato quali funzionalità sono richieste per definire i livelli di complessità della warehouse, quali documenti dell'interfaccia utente supportano ogni livello e quali codici ubicazione riflettono questi livelli nel database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-|Livello di complessità|Description|Documento IU|Ubicazione di CRONUS|Requisito minimo dell'area|  
+|Livello di complessità|Descrizione|Documento IU|Ubicazione di CRONUS|Requisito minimo dell'area|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.|Ordine|BLU|Magazzino di base|  
 |2|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.<br /><br /> Il codice collocazione è obbligatorio.|Ordine, con codice collocazione|ARGENTO|Magazzino di base/Collocazione|  
@@ -69,14 +67,14 @@ Potrebbe esserci solo una collocazione predefinita per articolo per ubicazione.
 ## <a name="bin-type"></a>Tipo collocazione  
 Nelle installazioni WMS è possibile limitare le attività di warehouse consentite per una collocazione assegnando un tipo di collocazione. Sono disponibili i seguenti tipi di collocazione:  
 
-|Tipo collocazione|Description|  
+|Tipo collocazione|Descrizione|  
 |------------------|---------------------------------------|  
 |AREARICEV|Articoli registrati come ricevuti ma non ancora stoccati.|  
 |SPED|Articoli prelevati in base alle righe di spedizione warehouse ma non ancora registrati come spediti.|  
 |PUT AWAY|In genere, articoli da archiviare in grandi unità di misura, ma a cui non si desidera accedere a scopo di prelievo. Poiché le collocazioni non vengono utilizzate per il prelievo, per gli ordini di produzione o per le spedizioni, l'utilizzo di una collocazione di tipo stoccaggio può essere limitato, ma questo tipo di collocazione può essere utile nel caso in cui venga acquistato un notevole quantitativo di articoli. Si consiglia di assegnare sempre a collocazioni di questo tipo una valutazione di collocazione bassa in modo che, quando gli articoli ricevuti vengono stoccati, vengano stoccate per prime altre collocazioni di tipo PUTPICK con valutazione più alta associate in modo fisso a tali articoli. Se si utilizza questo tipo di collocazione, sarà necessario eseguire periodicamente il rifornimento delle collocazioni in modo che gli articoli immagazzinati nelle collocazioni di questo tipo siano anche disponibili nelle collocazioni di tipo PUTPICK o PICK.|  
 |PICK|Articoli da utilizzare solo per il prelievo. Il rifornimento di queste collocazioni può essere eseguito solo tramite spostamento, non tramite stoccaggio.|  
 |PUTPICK|Articoli nelle collocazioni suggerite per le funzioni di stoccaggio e di prelievo. Collocazioni di questo tipo hanno presumibilmente valutazioni differenti. È possibile impostare le collocazioni di immagazzinamento a massa come collocazioni di questo tipo con valutazioni basse rispetto alle collocazioni di prelievo ordinarie o alle collocazioni di prelievo in sequenza da inizio ordine.|  
-|QC|Questa collocazione viene utilizzata per le rettifiche di magazzino, se la si specifica nel campo **Codice collocazione rettifica** della scheda Ubicazione. È inoltre possibile impostare collocazioni di questo tipo per gli articoli difettosi e gli articoli che vengono controllati. È possibile spostare articoli in collocazioni di questo tipo se si desidera renderli inaccessibili al normale flusso degli articoli. **Nota:** a differenza di tutti gli altri tipi di collocazione, il tipo di collocazione **CQ** non dispone di alcuna delle caselle di controllo per la gestione degli articoli selezionate per default. Ciò indica che tutti i contenuti inseriti in una collocazione QC sono esclusi dai flussi degli articoli.|  
+|QC|Questa collocazione viene utilizzata per le rettifiche di magazzino, se la si specifica nel campo **Codice collocazione rettifica** della scheda Ubicazione. È inoltre possibile impostare collocazioni di questo tipo per gli articoli difettosi e gli articoli che vengono controllati. È possibile spostare articoli in collocazioni di questo tipo se si desidera renderli inaccessibili al normale flusso degli articoli. **Nota:**  a differenza di tutti gli altri tipi di collocazione, il tipo di collocazione **CQ** non dispone di alcuna delle caselle di controllo per la gestione degli articoli selezionate per default. Ciò indica che tutti i contenuti inseriti in una collocazione QC sono esclusi dai flussi degli articoli.|  
 
 Per tutti i tipi di collocazione, ad eccezione della PICK, PUTPICK e PUTAWAY, non è consentita nessun'altra attività per la collocazione se non quella definita dal tipo di collocazione. Ad esempio, una collocazione di tipo **Ricevi** può essere utilizzata solo per ricevere gli articoli o per prelevare gli articoli.  
 

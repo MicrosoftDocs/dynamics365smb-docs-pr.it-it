@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Contabilità
@@ -37,7 +37,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
 | Comprendere la contabilità generale e il piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |
 | Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzo delle dimensioni](finance-dimensions.md) |
-| Creare i budget per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Procedura: Creare budget](finance-how-create-budgets.md) |
+| Creare i budget C/G per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Procedura: Creare budget C/G](finance-how-create-budgets.md) |
 |Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Procedura: Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
 |Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Procedura: Stornare le registrazioni](finance-how-reverse-journal-posting.md)|
 |Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. |[Procedura: Allocazione di costi e ricavi](year-allocate-costs-income.md) |

@@ -1,5 +1,5 @@
 ---
-title: "Funzionalità aziendali supportate da Dynamics 365 Business edition | Documenti Microsoft"
+title: "Funzionalità aziendali supportate da Dynamics 365, Business edition | Microsoft Docs"
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,14 +13,14 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Panoramica sulla funzionalità aziendale in Dynamics 365 for Finance and Operations, Business edition
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali.
+# <a name="business-functionality"></a>Funzionalità aziendale
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata. 
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Dalla home page è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 

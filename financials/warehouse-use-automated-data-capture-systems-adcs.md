@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Procedura: Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
@@ -28,7 +28,7 @@ In base alle esigenze della warehouse, nel setup del miniform per il computer pa
 - Informazioni testuali.  
 - Messaggi per visualizzare le conferme o gli errori sulle attività eseguite e registrate dall'utente del palmare.
 
-Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](https://msdn.microsoft.com/en-us/library/dd338742.aspx) su MSDN.
+Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](/dynamics-nav/Configuring-Automated-Data-Capture-System) nella Guida per sviluppatori e professionisti IT.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Per impostare una warehouse per l'utilizzo di ADCS  
 Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse utilizzano la tecnologia.  
@@ -107,7 +107,7 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
 
 Nell'ambiente di sviluppo di [!INCLUDE[d365fin](includes/d365fin_md.md)] modificare il codice del campo **Codeunit per la gestione** per creare o modificare il codice in modo che venga eseguita la richiesta o la risposta necessaria.
 
-Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](https://msdn.microsoft.com/en-us/library/dd338742.aspx) su MSDN.
+Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](/dynamics-nav/Configuring-Automated-Data-Capture-System) nella Guida per sviluppatori e professionisti IT.
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

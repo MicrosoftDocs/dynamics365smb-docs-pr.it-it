@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procedura: Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
 
-Se è necessario più controllo del processo di reso da vendita, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata per la restituzione degli articoli da più documenti di vendita con un unico reso, è possibile creare gli ordini di reso da vendita. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati".
+Se è necessario più controllo del processo di reso da vendita, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si ricevono gli articoli da più documenti di vendita con un unico reso da vendita, è possibile creare gli ordini di reso da vendita. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati".
 
 > [!NOTE]  
 >   Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Procedura: Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
@@ -38,7 +38,7 @@ Per mantenere la corretta valutazione del magazzino, in genere si desidera siste
 
 Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamente.   
 
-|Funzione|Description|  
+|Funzione|Descrizione|  
 |------------------|---------------------------------------|  
 |La funzione**Ottieni righe documento registrato da stornare** nella finestra **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita e la relativa nota di credito di vendita per una o più fatture di vendita registrate".|  
 |La funzione**Copia documento** nelle finestre **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella finestra **Setup contabilità clienti e vendite**.|

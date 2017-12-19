@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -47,10 +47,10 @@ Per utilizzare conti per l'IVA a esigibilità differita, procedere nel modo segu
 
     > [!NOTE]  
 >   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
-7. Nel campo **Conto IVA acq. ad esig. diff.** immettere il conto C/G per l'IVA di acquisto a esigibilità differita.
+7. Nel campo **Conto IVA acq. ad esig. diff.** immettere il conto contabilità generale per l'IVA di acquisto a esigibilità differita.
 
     > [!NOTE]  
->   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
+>   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sugli acquisti.
 
 ## <a name="see-also"></a>Vedi anche
 [impostazione dell'IVA](finance-setup-vat.md)

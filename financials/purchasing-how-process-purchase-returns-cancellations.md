@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Procedura: Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
 
-Se è necessario più controllo del processo di reso da acquisto, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata per il recapito degli articoli restituiti da più documenti di acquisto con un unico reso, è possibile creare gli ordini di reso da acquisto. Un ordine di reso da acquisto automaticamente crea la nota di credito di acquisto correlata. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati".
+Se è necessario più controllo del processo di reso da acquisto, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si restituiscono articoli da più documenti di acquisto con un unico reso acquisto, è possibile creare gli ordini di reso acquisto. Un ordine di reso da acquisto automaticamente crea la nota di credito di acquisto correlata. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati".
 
 > [!NOTE]  
 >   Se una fattura di acquisto registrata non è stata ancora pagata, allora è possibile utilizzare le funzioni **Annulla** o **Rettifica** nella fattura di acquisto registrata per stornare automaticamente le transazioni implicate. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Procedura: Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -40,7 +40,7 @@ Per mantenere la corretta valutazione del magazzino, in genere si desidera selez
 
 Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamente.  
 
-|Funzione|Description|  
+|Funzione|Descrizione|  
 |------------------|---------------------------------------|  
 |La funzione**Ottieni righe documento registrato da stornare** nella finestra **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto e la relativa nota di credito di acquisto per una o più fatture di acquisto registrate".|  
 |La funzione**Copia documento** nelle finestre **Nota credito acquisto** e **Ordine di reso acquisto**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella finestra **Setup contabilità fornitori e acquisti**.|

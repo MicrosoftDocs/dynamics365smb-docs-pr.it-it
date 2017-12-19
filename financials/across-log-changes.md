@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Registrazione di modifiche in Dynamics 365 Business edition 
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Registrazione di modifiche in Dynamics 365, Business edition 
 È possibile abilitare il log modifiche in [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo da disporre di uno storico delle attività. Il log è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nel log modifiche, i movimenti vengono ordinati cronologicamente e mostrano le modifiche apportate ai campi nelle tabelle specificate. Il log modifiche raccoglie tutte le modifiche apportate alla tabella.  
 
 ## <a name="working-with-the-change-log"></a>Utilizzo del log modifiche

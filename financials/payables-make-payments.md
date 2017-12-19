@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
 ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
@@ -38,7 +38,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Emettere assegni per i pagamenti fornitore, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Procedura: Utilizzo degli assegni](payables-how-work-checks.md) |
 | Pagare il fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Procedura: Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Procedura: Esportare un file Positive Pay](finance-how-positive-pay.md) |
-|Esportare i pagamenti dalla finestra **Registrazioni pagamenti** a un file della banca che viene caricato nella banca per l'elaborazione, incluso l'EFT (trasferimento elettronico di fondi) nell'America del Nord. |[Procedura: Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|  
+|Esportare i pagamenti dalla finestra **Registrazioni pagamenti** a un file della banca che viene caricato nella banca per l'elaborazione, incluso l'EFT (trasferimento elettronico di fondi) nell'America del Nord. |[Procedura: Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|
+|Effettuare pagamenti elettronici in base al bonifico SEPA standard per i paesi dell'UE.|[Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

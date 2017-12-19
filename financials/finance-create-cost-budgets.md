@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e66e9f915772a6e5f9000ea6fe207e425ee25bb
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="creating-cost-budgets"></a>Creazione di budget di costi
 L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale. Un budget costi viene creato in base ai tipi di costo proprio come il budget della contabilità generale viene creato in base ai conti della contabilità generale.  
 
-Un budget costi viene creato per un certo periodo di tempo, ad esempio, un anno fiscale. È possibile creare tutti i budget costi necessari. Un nuovo budget costi può essere creato manualmente, importando un budget costi o copiando un budget costi esistente come base del budget. Per ulteriori informazioni, vedere [Procedura: Creare budget](finance-how-create-budgets.md).
+Un budget costi viene creato per un certo periodo di tempo, ad esempio, un anno fiscale. È possibile creare tutti i budget costi necessari. Un nuovo budget costi può essere creato manualmente, importando un budget costi o copiando un budget costi esistente come base del budget. Per ulteriori informazioni, vedere [Procedura: Creare budget C/G](finance-how-create-budgets.md).
 
 Utilizzare le seguenti finestre per creare e analizzare i budget costi. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") per trovare una finestra, quindi leggere la descrizione comando di ognuna.
 
@@ -36,7 +36,7 @@ Utilizzare le seguenti finestre per creare e analizzare i budget costi. Sceglier
 
 ## <a name="see-also"></a>Vedi anche  
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
-[Procedura: Creare budget](finance-how-create-budgets.md)  
+[Procedura: Creare budget C/G](finance-how-create-budgets.md)  
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
