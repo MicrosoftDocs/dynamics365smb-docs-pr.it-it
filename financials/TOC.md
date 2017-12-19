@@ -24,6 +24,7 @@
 ## [Suggerimento automatico dei valori in Dynamics 365](ui-let-system-suggest-values.md)
 ## [Stampa di un report](ui-work-report.md#PrintReport)
 ## [Video delle attività comuni](across-videos.md)
+## [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
 ## [Lingua e impostazioni locali](about-locale-language.md)  
 ## [Lingue della documentazione](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Invitare il contabile esterno in Dynamics 365](finance-invite-external-accountant.md)  
 ## [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)
 ## [Utilizzo delle dimensioni](finance-dimensions.md)
-## [Procedura: Creare budget](finance-how-create-budgets.md)
+## [Procedura: Creare budget C/G](finance-how-create-budgets.md)
 ## [Procedura: Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
 ## [Procedura: Stornare le registrazioni](finance-how-reverse-journal-posting.md)
 ## [Procedura: Allocazione di costi e ricavi](year-allocate-costs-income.md)
