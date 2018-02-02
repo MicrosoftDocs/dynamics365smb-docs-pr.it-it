@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
 ms.openlocfilehash: 066a2857532f062c6dcfe6deccc27423c1431b74
 ms.contentlocale: it-it
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="service-management"></a>Gestione assistenza
@@ -46,4 +46,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
