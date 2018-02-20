@@ -1,6 +1,6 @@
 ---
 title: Scegliere l'esperienza utente per visualizzare o nascondere le funzioni avanzate | Documenti Microsoft
-description: "Informazioni sulle caratteristiche dei livelli dell'esperienza utente Base o Suite che hanno effetto su interfaccia utente, aree di applicazione e società in Dynamics 365 Business edition."
+description: "Informazioni sulle caratteristiche dei livelli dell'esperienza utente Base ed Essentials che hanno effetto su interfaccia utente, aree di applicazione e società."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,38 +8,36 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 08/22/2017
+ms.search.keywords: essentials, basic, user interface, application area, experience
+ms.date: 01/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 361019af4ba1832cd0b9ac39c20bf22e98b38a76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f019ffbc0c8f02d6facfe58e96de469e90a26a3c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-your-included365finlongincludesd365finlongmdmd-experience"></a><span data-ttu-id="f8b5e-103">Personalizzazione dell'esperienza [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="f8b5e-103">Customizing Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f8b5e-104"> è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-104"> is designed to help you run your business, regardless which line of business you are in.</span></span> <span data-ttu-id="f8b5e-105">Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-105">At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes.</span></span> <span data-ttu-id="f8b5e-106">A ciò vengono aggiunte esperienze in base alle esigenze aziendali con le estensioni fornite da AppSource.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-106">You add experiences to that according to your business needs by adding extensions from AppSource.</span></span> <span data-ttu-id="f8b5e-107">È inoltre possibile aumentare e diminuire il volume nell'interfaccia utente e scegliere il valore corretto per la società.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-107">You can also turn up and down the volume on the user experience and choose what's right for your company.</span></span> <span data-ttu-id="f8b5e-108">Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="f8b5e-108">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
+# <a name="customizing-your-included365finincludesd365finmdmd-experience"></a><span data-ttu-id="78549-103">Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="78549-103">Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="78549-104"> è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva.</span><span class="sxs-lookup"><span data-stu-id="78549-104">is designed to help you run your business, regardless which line of business you are in.</span></span> <span data-ttu-id="78549-105">Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto.</span><span class="sxs-lookup"><span data-stu-id="78549-105">At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes.</span></span> <span data-ttu-id="78549-106">Aggiungere esperienze in base alle esigenze aziendali aggiungendo estensioni da AppSource o modificando l'impostazione Esperienza per l'azienda.</span><span class="sxs-lookup"><span data-stu-id="78549-106">You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company.</span></span> <span data-ttu-id="78549-107">Per ulteriori informazioni, vedere la sezione [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) o *Scelta di un'esperienza utente* di seguito.</span><span class="sxs-lookup"><span data-stu-id="78549-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the *Choosing a User Experience* section below.</span></span>
 
-## <a name="choosing-a-user-experience"></a><span data-ttu-id="f8b5e-109">Scelta di un'esperienza utente</span><span class="sxs-lookup"><span data-stu-id="f8b5e-109">Choosing a user experience</span></span>
-<span data-ttu-id="f8b5e-110">L'utilizzo dell'esperienza utente determina la quantità di funzionalità core disponibile quando l'utente e i suoi colleghi usano [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="f8b5e-110">The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="f8b5e-111">È possibile scegliere l'esperienza utente per la propria società nel campo **Esperienza** della finestra **Informazioni società**.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-111">You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.</span></span>
-
+## <a name="choosing-a-user-experience-to-show-or-hide-features"></a><span data-ttu-id="78549-108">Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità</span><span class="sxs-lookup"><span data-stu-id="78549-108">Choosing a User Experience to Show or Hide Features</span></span>
+<span data-ttu-id="78549-109">L'utilizzo dell'esperienza utente determina la quantità di funzionalità core disponibile quando l'utente e i suoi colleghi usano [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="78549-109">The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="78549-110">È possibile scegliere l'esperienza utente per la propria società nel campo **Esperienza** della finestra **Informazioni società**.</span><span class="sxs-lookup"><span data-stu-id="78549-110">You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.</span></span>
+  
 > [!NOTE]  
->   <span data-ttu-id="f8b5e-112">Questa impostazione si applica a tutti gli utenti della società.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-112">This setting applies to all users in your company.</span></span>
+> <span data-ttu-id="78549-111">Questa impostazione si applica a tutti gli utenti della società.</span><span class="sxs-lookup"><span data-stu-id="78549-111">This setting applies to all users in your company.</span></span> <span data-ttu-id="78549-112">Gli utenti possono personalizzare la propria esperienza anche cambiando i layout e il contenuto delle pagine.</span><span class="sxs-lookup"><span data-stu-id="78549-112">Users can customize thier own experience even further by changing page layouts and content.</span></span> <span data-ttu-id="78549-113">Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro e delle pagine](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="78549-113">For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).</span></span>  
+  
+<span data-ttu-id="78549-114">Nella tabella seguente sono elencate le esperienze che sono attualmente disponibili.</span><span class="sxs-lookup"><span data-stu-id="78549-114">The following table lists the experiences that are currently available.</span></span>
 
-![Esperienza](media/ui-experience/experience.gif)
-
-<span data-ttu-id="f8b5e-114">Nella tabella seguente sono elencate le esperienze che sono attualmente disponibili.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-114">The following table lists the experiences that are currently available.</span></span>
-
-| <span data-ttu-id="f8b5e-115">Esperienza</span><span class="sxs-lookup"><span data-stu-id="f8b5e-115">Experience</span></span> | <span data-ttu-id="f8b5e-116">Impatto sull'interfaccia utente</span><span class="sxs-lookup"><span data-stu-id="f8b5e-116">Impact on User Interface</span></span> |
+| <span data-ttu-id="78549-115">Esperienza</span><span class="sxs-lookup"><span data-stu-id="78549-115">Experience</span></span> | <span data-ttu-id="78549-116">Impatto sull'interfaccia utente</span><span class="sxs-lookup"><span data-stu-id="78549-116">Impact on User Interface</span></span> |
 | --- | --- |
-| <span data-ttu-id="f8b5e-117">Di base</span><span class="sxs-lookup"><span data-stu-id="f8b5e-117">Basic</span></span> |<span data-ttu-id="f8b5e-118">Mostra solo campi e azioni di base delle funzionalità aziendali più comuni, come vendite, acquisti, inventario, finanza.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-118">Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance.</span></span> |
-| <span data-ttu-id="f8b5e-119">Suite</span><span class="sxs-lookup"><span data-stu-id="f8b5e-119">Suite</span></span> |<span data-ttu-id="f8b5e-120">Mostra le azioni e i campi per tutte le funzionalità aziendali disponibili.</span><span class="sxs-lookup"><span data-stu-id="f8b5e-120">Shows all actions and fields for all available business functionality.</span></span>|
+| <span data-ttu-id="78549-117">Di base</span><span class="sxs-lookup"><span data-stu-id="78549-117">Basic</span></span> |<span data-ttu-id="78549-118">Mostra solo campi e azioni di base delle funzionalità aziendali più comuni, come vendite, acquisti, inventario, finanza.</span><span class="sxs-lookup"><span data-stu-id="78549-118">Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance.</span></span> |
+| <span data-ttu-id="78549-119">Suite</span><span class="sxs-lookup"><span data-stu-id="78549-119">Suite</span></span> |<span data-ttu-id="78549-120">Mostra le azioni e i campi per tutte le funzionalità aziendali disponibili.</span><span class="sxs-lookup"><span data-stu-id="78549-120">Shows all actions and fields for all available business functionality.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="f8b5e-121">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="f8b5e-121">See also</span></span>
-[<span data-ttu-id="f8b5e-122">Modifica delle impostazioni di base</span><span class="sxs-lookup"><span data-stu-id="f8b5e-122">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
-<span data-ttu-id="f8b5e-123">[Personalizzazione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] utilizzando le estensioni](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="f8b5e-123">[Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)</span></span>  
-<span data-ttu-id="f8b5e-124">[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f8b5e-124">[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="78549-121">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="78549-121">See also</span></span>
+[<span data-ttu-id="78549-122">Modifica delle impostazioni di base</span><span class="sxs-lookup"><span data-stu-id="78549-122">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
+<span data-ttu-id="78549-123">[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="78549-123">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
+<span data-ttu-id="78549-124">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="78549-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

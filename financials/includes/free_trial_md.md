@@ -1,1 +1,1 @@
-<span data-ttu-id="e2ade-101">Avviare una [prova gratuita!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="e2ade-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>
+<span data-ttu-id="08ad5-101">Avviare una [prova gratuita!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="08ad5-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>

@@ -13,34 +13,34 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a><span data-ttu-id="bd764-103">Procedura: Impostare righe di ciclo standard</span><span class="sxs-lookup"><span data-stu-id="bd764-103">How to: Set Up Standard Routing Lines</span></span>
-<span data-ttu-id="bd764-104">L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.</span><span class="sxs-lookup"><span data-stu-id="bd764-104">The use of standard tasks simplifies the creation and maintenance of routings.</span></span> <span data-ttu-id="bd764-105">Questi consentono di allegare rapidamente ulteriori informazioni alle operazioni periodiche.</span><span class="sxs-lookup"><span data-stu-id="bd764-105">They allow you to quickly attach extra information to recurring operations.</span></span>
+# <a name="set-up-standard-routing-lines"></a><span data-ttu-id="86ff7-103">Impostare righe di ciclo standard</span><span class="sxs-lookup"><span data-stu-id="86ff7-103">Set Up Standard Routing Lines</span></span>
+<span data-ttu-id="86ff7-104">L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.</span><span class="sxs-lookup"><span data-stu-id="86ff7-104">The use of standard tasks simplifies the creation and maintenance of routings.</span></span> <span data-ttu-id="86ff7-105">Questi consentono di allegare rapidamente ulteriori informazioni alle operazioni periodiche.</span><span class="sxs-lookup"><span data-stu-id="86ff7-105">They allow you to quickly attach extra information to recurring operations.</span></span>
 
-## <a name="to-set-up-a-standard-task"></a><span data-ttu-id="bd764-106">Per impostare un task standard</span><span class="sxs-lookup"><span data-stu-id="bd764-106">To set up a standard task</span></span>
-1. <span data-ttu-id="bd764-107">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Task standard**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="bd764-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.</span></span>
-2. <span data-ttu-id="bd764-108">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="bd764-108">Choose the **New** action.</span></span>
-3. <span data-ttu-id="bd764-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="bd764-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="bd764-110">Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.</span><span class="sxs-lookup"><span data-stu-id="bd764-110">Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
-5. <span data-ttu-id="bd764-111">Nella finestra visualizzata, descrivere il task standard in questione.</span><span class="sxs-lookup"><span data-stu-id="bd764-111">In the window that opens, describe the standard task in question.</span></span>
+## <a name="to-set-up-a-standard-task"></a><span data-ttu-id="86ff7-106">Per impostare un task standard</span><span class="sxs-lookup"><span data-stu-id="86ff7-106">To set up a standard task</span></span>
+1. <span data-ttu-id="86ff7-107">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Task standard**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="86ff7-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.</span></span>
+2. <span data-ttu-id="86ff7-108">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="86ff7-108">Choose the **New** action.</span></span>
+3. <span data-ttu-id="86ff7-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="86ff7-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="86ff7-110">Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.</span><span class="sxs-lookup"><span data-stu-id="86ff7-110">Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
+5. <span data-ttu-id="86ff7-111">Nella finestra visualizzata, descrivere il task standard in questione.</span><span class="sxs-lookup"><span data-stu-id="86ff7-111">In the window that opens, describe the standard task in question.</span></span>
 
-## <a name="to-add-a-standard-task-to-an-operation"></a><span data-ttu-id="bd764-112">Per aggiungere un task standard a un'operazione</span><span class="sxs-lookup"><span data-stu-id="bd764-112">To add a standard task to an operation</span></span>
-1. <span data-ttu-id="bd764-113">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="bd764-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.</span></span>
-2. <span data-ttu-id="bd764-114">Aprire la finestra Ciclo appropriata.</span><span class="sxs-lookup"><span data-stu-id="bd764-114">Open the relevant routing.</span></span>
-3. <span data-ttu-id="bd764-115">Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni**, quindi scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.</span><span class="sxs-lookup"><span data-stu-id="bd764-115">Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
+## <a name="to-add-a-standard-task-to-an-operation"></a><span data-ttu-id="86ff7-112">Per aggiungere un task standard a un'operazione</span><span class="sxs-lookup"><span data-stu-id="86ff7-112">To add a standard task to an operation</span></span>
+1. <span data-ttu-id="86ff7-113">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="86ff7-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.</span></span>
+2. <span data-ttu-id="86ff7-114">Aprire la finestra Ciclo appropriata.</span><span class="sxs-lookup"><span data-stu-id="86ff7-114">Open the relevant routing.</span></span>
+3. <span data-ttu-id="86ff7-115">Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni**, quindi scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.</span><span class="sxs-lookup"><span data-stu-id="86ff7-115">Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bd764-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="bd764-116">See Also</span></span>  
-[<span data-ttu-id="bd764-117">Procedura: Creare cicli</span><span class="sxs-lookup"><span data-stu-id="bd764-117">How to: Create Routings</span></span>](production-how-to-create-routings.md)  
-<span data-ttu-id="bd764-118">[Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md)   </span><span class="sxs-lookup"><span data-stu-id="bd764-118">[How to: Create Production BOMs](production-how-to-create-production-boms.md)   </span></span>  
-<span data-ttu-id="bd764-119">[Impostazione della produzione](production-configure-production-processes.md) </span><span class="sxs-lookup"><span data-stu-id="bd764-119">[Setting Up Manufacturing](production-configure-production-processes.md) </span></span>  
-<span data-ttu-id="bd764-120">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="bd764-120">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-<span data-ttu-id="bd764-121">[Pianif.](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="bd764-121">[Planning](production-planning.md) </span></span>  
-[<span data-ttu-id="bd764-122">Magazzino</span><span class="sxs-lookup"><span data-stu-id="bd764-122">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="bd764-123">Acquisti</span><span class="sxs-lookup"><span data-stu-id="bd764-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="bd764-124">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bd764-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="86ff7-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="86ff7-116">See Also</span></span>  
+[<span data-ttu-id="86ff7-117">Creare cicli</span><span class="sxs-lookup"><span data-stu-id="86ff7-117">Create Routings</span></span>](production-how-to-create-routings.md)  
+<span data-ttu-id="86ff7-118">[Creare le distinte base di produzione](production-how-to-create-production-boms.md)   </span><span class="sxs-lookup"><span data-stu-id="86ff7-118">[Create Production BOMs](production-how-to-create-production-boms.md)   </span></span>  
+<span data-ttu-id="86ff7-119">[Impostazione della produzione](production-configure-production-processes.md) </span><span class="sxs-lookup"><span data-stu-id="86ff7-119">[Setting Up Manufacturing](production-configure-production-processes.md) </span></span>  
+<span data-ttu-id="86ff7-120">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="86ff7-120">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+<span data-ttu-id="86ff7-121">[Pianif.](production-planning.md) </span><span class="sxs-lookup"><span data-stu-id="86ff7-121">[Planning](production-planning.md) </span></span>  
+[<span data-ttu-id="86ff7-122">Magazzino</span><span class="sxs-lookup"><span data-stu-id="86ff7-122">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="86ff7-123">Acquisti</span><span class="sxs-lookup"><span data-stu-id="86ff7-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="86ff7-124">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="86ff7-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
