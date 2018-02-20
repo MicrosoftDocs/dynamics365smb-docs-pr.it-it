@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c17f14809ecfe9a335c3f8e6bb7ddeb4e26e1e9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-segments"></a>Gestione dei segmenti
@@ -31,8 +31,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-| Creare i segmenti che consentono di selezionare un gruppo di contatti. Ad esempio, messaggi di posta diretti. |[Procedura: Creare segmenti](marketing-how-create-segment.md) |
-| Gestire i contatti che sono assegnati a segmenti. |[Procedura: Aggiungere contatti ai segmenti](marketing-add-contact-segment.md) |
+| Creare i segmenti che consentono di selezionare un gruppo di contatti. Ad esempio, messaggi di posta diretti. |[Creare segmenti](marketing-how-create-segment.md) |
+| Gestire i contatti che sono assegnati a segmenti. |[Aggiungere contatti ai segmenti](marketing-add-contact-segment.md) |
 | Ottenere informazioni sull'utilizzo delle interazioni e dei segmenti, incluse le registrazioni. |[Gestione di interazioni e segmenti](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Vedi anche

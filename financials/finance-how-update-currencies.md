@@ -1,6 +1,6 @@
 ---
 title: Aggiornare i tassi di cambio delle valute| Documenti Microsoft
-description: "Per utilizzare più valute nell'attività commerciale, è possibile impostare un codice per ogni valuta e utilizzare un servizio di conversione esterno, ad esempio Yahoo."
+description: "Per utilizzare più valute nell'attività commerciale, è possibile impostare un codice per ogni valuta e utilizzare un servizio di conversione esterno, ad esempio FloatRates."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Procedura: Aggiornare i tassi di cambio
+# <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 È necessario impostare un codice per ogni valuta utilizzata se si compra o si vende in valute diverse dalla valuta locale, se si hanno debiti o crediti in altre valute o si registrano transazioni C/G in diverse valute.  
 
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter rivedere o riportare i dati finanziari in più di una valuta. Il programma consente l'utilizzo di più valute. La contabilità generale viene impostata utilizzando la valuta locale (VL), ma è possibile impostare un'altra valuta come valuta addizionale, assegnando un tasso di cambio corrente.  
@@ -41,11 +41,8 @@ L'utilizzo di una valuta addizionale può essere utile per il processo di creazi
 
 Numerosi report nell'area di applicazione della contabilità generale sono basati sui movimenti C/G. Per visualizzare i dati finanziari del report nella valuta contabile aggiuntiva, selezionare semplicemente il campo **Mostra in valuta di cambio addizionale** nella finestra di report CG pertinente.  
 
-> [!NOTE]  
->   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
-È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute. Il servizio Tassi di cambio della valuta di Yahoo è preinstallato e pronto per essere abilitato.
+È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute, ad esempio FloatRates.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Servizi tasso di cambio valuta**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.

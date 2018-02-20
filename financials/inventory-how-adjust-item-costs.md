@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Procedura: Rettificare i costi degli articoli
+# <a name="adjust-item-costs"></a>Rettifica costi articolo
 Il costo di un articolo (valore di magazzino) che si acquista e in seguito si vende può variare nel tempo, ad esempio perché un costo di spedizione viene aggiunto al costo di acquisto dopo che è stato venduto l'articolo. La rettifica dei costi è un'operazione particolarmente importante nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Per conoscere sempre il valore di magazzino corretto, i costi degli articoli devono quindi essere regolarmente rettificati. In questo modo si garantisce che le statistiche relative ai margini siano aggiornate e che gli indicatore KPI finanziari siano corretti. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).
 
 Come regola, il valore nel campo **Costo unitario** nella scheda articolo si basa sul costo standard per gli articoli con un metodo di costing standard. Per gli articoli con tutti gli altri metodi di costing, tale valore viene calcolato dividendo le giacenze attuali, ovvero costi fatturati e costi previsti, per il magazzino. Per ulteriori informazioni vedere la sezione "Informazioni sul calcolo costo unitario".
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)]i costi degli articoli vengono ret
 
 È inoltre possibile utilizzare una funzione che consente di rettificare manualmente i costi di uno o più articoli. Ciò risulta utile, ad esempio, quando si è certi che i costi degli articoli vengono modificati per motivi diversi dalle transazioni dell'articolo.
 
-I costi dell'articolo vengono rettificati dal metodo di costing FIFO o Media, a seconda dell'opzione selezionata nel setup assistito **Imposta società** o nel campo **Metodo di costing** della scheda articolo. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).  
+I costi dell'articolo vengono rettificati dal metodo di costing FIFO o Media, a seconda dell'opzione selezionata nel setup assistito **Imposta società** o nel campo **Metodo di costing** della scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 Se si utilizza il metodo di costing FIFO, il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo. Il magazzino viene valutato presupponendo che il primo articolo posizionato nel magazzino venga venduto per primo.
 
@@ -63,7 +63,7 @@ Come regola, il valore nel campo **Costo unitario** nella scheda articolo si bas
  In base all'opzione selezionata nel campo **Metodo di costing**, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo Unitario** delle righe.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Metodo di costing FIFO, LIFO, Specifico o Medio  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] Calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:  
 
  Costo unitario (VL) = (Costo diretto unitario - (Importo sconto/ Quantità)) * (1 + Costo indiretto % / 100) + Coefficiente costi generali  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Procedura: Registrare note di credito e ordini di assistenza
+# <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  
 
 Se si dispone di molti ordini di assistenza, è possibile risparmiare tempo utilizzando un processo batch per registrarli contemporaneamente. È possibile eseguire il processo batch da qualsiasi ordine di assistenza.
@@ -99,7 +99,7 @@ Nella seguente procedura viene illustrato come registrare la spedizione di artic
   
 4. Scegliere **Azioni**, **Registrazione**, quindi **Registra**. Nella finestra visualizzata selezionare **Spedizione**.  
   
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
   
 Se l'ubicazione è impostata in modo da richiedere la gestione warehouse, la spedizione e la movimentazione degli articoli nelle righe di assistenza funzionano allo stesso modo di altri documenti di origine. La sola differenza sta nel fatto che gli articoli nelle righe di assistenza possono essere consumati esternamente o internamente e pertanto richiedono in due diverse funzioni di rilascio.  
   
@@ -133,5 +133,5 @@ Nella procedura seguente viene descritta la registrazione della spedizione diret
   
 ## <a name="see-also"></a>Vedi anche  
 [Pubblicazione nella gestione assistenza](service-service-posting.md)  
-[Procedura: Creare un ordine di assistenza](service-how-to-create-service-orders.md)  
+[Creare un ordine di assistenza](service-how-to-create-service-orders.md)  
 

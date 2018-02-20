@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA
@@ -29,15 +29,15 @@ Nella finestra **Registraz. pagamenti** è possibile elaborare i pagamenti ai fo
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Attivare la funzionalità In modo inverso, è possibile utilizzare la funzionalità Servizio di conversione di dati bancari per convertire tutti i file di rendiconto bancario in un formato che è possibile importare o per convertire i file di pagamento esportati nel formato richiesto dalla banca.|[Procedura: Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-statement-service.md)|  
-|Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Procedura: Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
+|Attivare la funzionalità In modo inverso, è possibile utilizzare la funzionalità Servizio di conversione di dati bancari per convertire tutti i file di rendiconto bancario in un formato che è possibile importare o per convertire i file di pagamento esportati nel formato richiesto dalla banca.|[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-statement-service.md)|  
+|Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Compilare le registrazioni di pagamento con le righe per i pagamenti dovuti ai fornitori, con l'opzione di inserire le date di registrazione in base alla data di scadenza dei reltivi documenti di acquisto.|[Gestione della contabilità fornitori](payables-manage-payables.md)|  
-|Esportare le righe registrazione pagamenti in un file in formato di bonifico SEPA.|[Procedura: Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|  
+|Esportare le righe registrazione pagamenti in un file in formato di bonifico SEPA.|[Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|  
 |Quando il pagamento elettronico viene elaborato correttamente dalla banca, registrare i pagamenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-statement-service.md)  
-[Procedura: Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-statement-service.md)  
+[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)   
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)   

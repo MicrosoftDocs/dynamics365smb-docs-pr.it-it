@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Procedura: Creare report di analisi
+#  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
 
 I report Analisi consentono di creare report personalizzati, basati sui record delle transazioni registrate, ad esempio vendite, acquisti, trasferimenti e rettifiche magazzino. In un report personalizzabile i dati di origine, derivati dai movimenti contabili degli articoli a cui sono associati movimenti di valorizzazione, possono essere combinati, confrontati e presentati nel formato più appropriato definito dall'utente. Da questo punto di vista, il report Analisi è molto simile a un report tabella pivot di Microsoft Excel.  
@@ -28,7 +28,7 @@ I report Analisi consentono di creare report personalizzati, basati sui record d
 
 Il report Analisi è costituito dagli oggetti che si desidera analizzare, ad esempio clienti, categorie clienti, agenti e così via, sotto forma di righe e dai parametri di analisi, ovvero dalla modalità desiderata per l'analisi degli oggetti, sotto forma di colonne, ad esempio calcoli del margine, confronti periodici tra importi e volumi di vendita oppure confronti periodici tra valori effettivi e previsti.
 
-Oltre ai report di analisi, è possibile creare e visualizzare informazioni simili nelle visualizzazioni di analisi, che sono basate sulle dimensioni. Per ulteriori informazioni, vedere [Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
+Oltre ai report di analisi, è possibile creare e visualizzare informazioni simili nelle visualizzazioni di analisi, che sono basate sulle dimensioni. Per ulteriori informazioni, vedere [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Esempio  
 È possibile configurare righe analoghe alle seguenti:  
@@ -41,9 +41,6 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 - Vendite mese corrente  
 - Vendite mese precedente  
 - Percentuale vendite mese precedente  
-
-> [!NOTE]  
->   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Impostazione dei layout di riga e di colonna  
  Nella finestra **Report analisi**, è possibile visualizzare layout di riga e colonna diversi a seconda di ciò che è stato impostato. Le righe o i modelli righe devono essere impostati nella finestra **Modelli righe analisi**. In questa finestra è possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella tabella **Modelli colonne analisi**. In questa finestra è possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella finestra **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  

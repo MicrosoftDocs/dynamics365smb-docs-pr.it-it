@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Procedura: Impostare righe di ciclo standard
+# <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
 L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli. Questi consentono di allegare rapidamente ulteriori informazioni alle operazioni periodiche.
 
 ## <a name="to-set-up-a-standard-task"></a>Per impostare un task standard
@@ -35,8 +35,8 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 3. Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni**, quindi scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Creare cicli](production-how-to-create-routings.md)  
-[Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md)     
+[Creare cicli](production-how-to-create-routings.md)  
+[Creare le distinte base di produzione](production-how-to-create-production-boms.md)     
 [Impostazione della produzione](production-configure-production-processes.md)   
 [Manufacturing](production-manage-manufacturing.md)    
 [Pianif.](production-planning.md)   

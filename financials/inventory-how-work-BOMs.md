@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Procedura: Utilizzare le distinte base
+# <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
 
 ## <a name="assembly-boms-or-production-boms"></a>DB di assemblaggio o DB di produzione
@@ -29,9 +29,9 @@ Le DB di assemblaggio sono descritte in questo argomento.
 
 Utilizzare gli ordini di produzione per la creazione dio articoli finali dai componenti in una processo complesso che richiede un ciclo di produzione e centri di lavoro o aree di produzione che rappresentano le capacità di produzione. Ad esempio, un processo di produzione potrebbe consistere nel tagliare piastre di acciaio in un'unica operazione, saldarle nell'operazione successiva e verniciare l'articolo finale nell'ultima operazione. Per ulteriori informazioni, vedere [Manufacturing](production-manage-manufacturing.md).  
 
-La distinta base di produzione corrisponde ai dati master che definiscono un articolo di produzione e ai componenti che lo costituiscono. Per gli articoli di assemblaggio, la distinta base di produzione deve essere certificata e assegnata all'articolo di produzione prima che possa essere utilizzata in un ordine di produzione. Immettendo l'articolo di produzione in una riga ordine di produzione, manualmente o aggiornando l'ordine, i contenuti della DB di produzione diventano i componenti dell'ordine di produzione. Per ulteriori informazioni, vedere [Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md).  
+La distinta base di produzione corrisponde ai dati master che definiscono un articolo di produzione e ai componenti che lo costituiscono. Per gli articoli di assemblaggio, la distinta base di produzione deve essere certificata e assegnata all'articolo di produzione prima che possa essere utilizzata in un ordine di produzione. Immettendo l'articolo di produzione in una riga ordine di produzione, manualmente o aggiornando l'ordine, i contenuti della DB di produzione diventano i componenti dell'ordine di produzione. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-production-boms.md).  
 
-Il concetto di risorse in produzione è molto più avanzato rispetto alla gestione assemblaggio. Le aree di produzione e centri di lavoro funzionano come risorse e i passaggi di produzione sono rappresentati dalle operazioni assegnate alle risorse nei cicli di produzione. Per ulteriori informazioni, vedere [Procedura: Creare cicli](production-how-to-create-routings.md).
+Il concetto di risorse in produzione è molto più avanzato rispetto alla gestione assemblaggio. Le aree di produzione e centri di lavoro funzionano come risorse e i passaggi di produzione sono rappresentati dalle operazioni assegnate alle risorse nei cicli di produzione. Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routings.md).
 
 Gli ordini di assemblaggio e gli ordini di produzione possono essere collegati direttamente agli ordini di vendita. Tuttavia, è possibile utilizzare soltanto gli ordini di assemblaggio per personalizzare direttamente l'articolo finale per una richiesta cliente con l'ordine di vendita.
 
@@ -42,13 +42,13 @@ Le DB di assemblaggio in genere contengono articoli ma possono anche contenere u
 
 Le DB di assemblaggio possono essere multilivello, cioè un componente della DB di assemblaggio può essere un articolo di assemblaggio esso stesso. In tal caso, il campo **DB assemblaggio** nella riga della DB di assemblaggio contiene il valore **Sì**.
 
-Requisiti speciali si applicano agli articoli nelle DB di assemblaggio correlati alla disponibilità. Per ulteriori informazioni, vedere la sezione "Per visualizzare la disponibilità di un articolo per l'utilizzo in DB di assemblaggio" in [Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
+Requisiti speciali si applicano agli articoli nelle DB di assemblaggio correlati alla disponibilità. Per ulteriori informazioni, vedere la sezione "Per visualizzare la disponibilità di un articolo per l'utilizzo in DB di assemblaggio" in [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 
 Esistono due passaggi per creare una DB di assemblaggio:
 - Impostazione di un nuovo articolo
 - Definizione della struttura della distinta base dell'articolo di assemblaggio.
 
-1. Impostare un nuovo articolo. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).
+1. Impostare un nuovo articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
     Continuare a inserire componenti o risorse nella distinta base di assemblaggio.  
 2. Nella finestra **Scheda articolo** per un articolo di assemblaggio, scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
@@ -80,7 +80,7 @@ Tutti i campi nella riga della fattura di vendita per l'articolo di assemblaggio
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Per calcolare il costo standard di un articolo di assemblaggio
 Si calcola il costo unitario di un articolo di assemblaggio eseguendo il ricalcolo del costo unitario di ciascun componente e risorsa nella DB di assemblaggio dell'articolo.
 
-È inoltre possibile calcolare e aggiornare il costo standard di un o più articoli nella finestra **Prospetto costo standard**. Per ulteriori informazioni, vedere [Procedura: Aggiornare i costi standard](finance-how-to-update-standard-costs.md).  
+È inoltre possibile calcolare e aggiornare il costo standard di un o più articoli nella finestra **Prospetto costo standard**. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).  
 
 Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi unitari dei suoi componenti, comprese le DB di assemblaggio ed eventuali risorse.
 
@@ -100,8 +100,8 @@ Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi
 I costi degli articoli che compongono la DB di assemblaggio vengono copiate dalle schede articoli componenti. Il costo di ogni articolo viene moltiplicato per la quantità e il costo totale viene mostrato nel campo **Costo unitario** nella scheda articolo.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md)  
-[Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
+[Registrare nuovi articoli](inventory-how-register-new-items.md)  
+[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

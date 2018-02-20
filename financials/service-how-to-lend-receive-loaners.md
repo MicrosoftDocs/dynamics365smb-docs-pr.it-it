@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Procedura: Dare e ricevere articoli in prestito
+# <a name="lend-and-receive-loaners"></a>Dare e ricevere articoli in prestito
 È possibile dare in prestito degli articoli ai clienti per sostituire temporaneamente gli articoli in assistenza ricevuti per prestare assistenza.  
   
 ## <a name="to-lend-a-loaner-item"></a>Per prestare un articolo    
@@ -47,5 +47,5 @@ Quando si riceve un articolo in prestito da un cliente, è necessario registrarn
 5. Nel campo **Commento** immettere un commento. È possibile immettere un massimo di 80 caratteri. Se è necessario più spazio, andare alla riga successiva. Compilare tutte le righe necessarie.  
   
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Impostare un programma di prestito articoli](service-how-setup-loaner-program.md)   
+[Impostazione di un programma di prestito articoli](service-how-setup-loaner-program.md)   
 

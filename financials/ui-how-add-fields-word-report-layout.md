@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Procedura: Aggiungere campi a un layout di report Word
+# <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Se non è già aperto, aprire il documento di layout di report Word in Word.  
   
-     Per ulteriori informazioni, vedere [Procedura: Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md).  
+     Per ulteriori informazioni, vedere [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md).  
   
 2.  Mostra la scheda **Sviluppatore** nella barra multifunzione di Microsoft Word.  
   
-     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Procedura: Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
-4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
 > [!IMPORTANT]  
->  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> sarà visualizzato un errore.  
+>  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> sarà visualizzato un errore.  
   
 #### <a name="to-add-an-image"></a>Per aggiungere un'immagine  
   
@@ -107,7 +107,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
- In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Procedura: Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
+ In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
  Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 -   La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Vedi anche  
- [Procedura: Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
+ [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   

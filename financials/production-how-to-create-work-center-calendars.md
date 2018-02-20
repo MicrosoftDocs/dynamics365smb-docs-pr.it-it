@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Procedura: Impostare i calendari del reparto produzione
+# <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
 In un calendario delle aree di produzione o dei centri di lavoro sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area o del centro, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area o centro.
 
 Come base per il calcolo di un calendario specifico delle aree di produzione o dei centri di lavoro è prima di tutto necessario configurare uno o più calendari del reparto produzione generali. In un calendario del reparto produzione viene definita una settimana lavorativa standard in termini di ora di inizio e di fine di ogni giorno lavorativo e di relazione di turni lavorativi. In tale calendario sono inoltre disponibili le ferie fisse nel corso di un anno.  
@@ -108,8 +108,8 @@ Il calendario calcolato dell'area di produzione definirà ora quando e quanta ca
 La capacità del giorno selezionato risulta ora diminuita in base al tempo di assenza registrato.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Impostare i calendari di base](across-how-to-assign-base-calendars.md)  
-[Procedura: Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)  
+[Impostare i calendari di base](across-how-to-assign-base-calendars.md)  
+[Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

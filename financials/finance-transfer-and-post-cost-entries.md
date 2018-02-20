@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f7420a54a15616252ac4977c0c036a6096723af7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cb536c2d5f36385cacb91371cf1562c322e766f6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Trasferimento e registrazione di movimenti di costi
@@ -30,7 +30,7 @@ Prima di definire le allocazioni costi, è necessario comprendere come i movimen
 |**Task**|**Vedere**|  
 |------------|-------------|  
 |Informazioni sui criteri per trasferire i movimenti di costi dalla contabilità generale.|[Criteri per trasferire movimenti C/G ai movimenti di costi](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Trasferire i movimenti C/G ai movimenti di costi con un processo batch.|[Procedura: Trasferire movimenti C/G ai movimenti di costi](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
+|Trasferire i movimenti C/G ai movimenti di costi con un processo batch.|[Trasferire movimenti C/G a movimenti di costi](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
 |Visualizzare i risultati del trasferimento.|[Risultati del trasferimento](finance-results-of-the-transfer.md)|  
 
 ## <a name="see-also"></a>Vedi anche  

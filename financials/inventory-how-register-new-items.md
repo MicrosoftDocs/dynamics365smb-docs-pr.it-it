@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Procedura: Registrare nuovi articoli
+# <a name="register-new-items"></a>Registrare nuovi articoli
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
 
 Le schede articolo contengono le informazioni richieste per l'acquisto, l'archiviazione, la consegna e la contabilità degli articoli.
 
-La scheda articolo può essere di tipo **Magazzino** o **Assistenza** per specificare se l'articolo corrisponde a un'unità fisica o a un'unità di tempo di lavoro. Oltre ad alcuni campi correlati agli aspetti fisici di un articolo, tutti i campi della scheda articolo funzionano in modo analogo per gli articoli e i servizi di magazzino. Per ulteriori informazioni sulla vendita di un articolo, vedere [Procedura: Vendere prodotti](sales-how-sell-products.md) o [Procedura: Fatturare le vendite](sales-how-invoice-sales.md).
+La scheda articolo può essere di tipo **Magazzino** o **Assistenza** per specificare se l'articolo corrisponde a un'unità fisica o a un'unità di tempo di lavoro. Oltre ad alcuni campi correlati agli aspetti fisici di un articolo, tutti i campi della scheda articolo funzionano in modo analogo per gli articoli e i servizi di magazzino. Per ulteriori informazioni sulla vendita di un articolo, vedere [Vendere prodotti](sales-how-sell-products.md) o [Fatturare le vendite](sales-how-invoice-sales.md).
 
-È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], una distinta base può essere una DB di assemblaggio o una DB di produzione, a seconda dell'utilizzo. Per altre informazioni, vedere [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md).
+È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], una distinta base può essere una DB di assemblaggio o una DB di produzione, a seconda dell'utilizzo. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una finestra quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
@@ -77,7 +77,5 @@ I fornitori vengono quindi visualizzati nella finestra **Catalogo art. fornitori
   [Magazzino](inventory-manage-inventory.md)  
   [Acquisti](purchasing-manage-purchasing.md)  
   [Vendite](sales-manage-sales.md)  
-  [Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Procedura: Creare le testate degli ordini di produzione
+# <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
 Gli ordini di produzione possono essere creati manualmente. Prima di tutto è necessario creare la testata ordine di produzione.
 
 Gli ordini di produzione vengono in genere creati automaticamente da una funzione di pianificazione per soddisfare una domanda conosciuta. Per ulteriori informazioni, vedere [Pianificazione](production-planning.md).   
@@ -32,11 +32,11 @@ Nella seguente procedura viene creato un ordine produzione confermato. È anche 
 3.  Nel campo **Nr.** inserire il numero di serie successivo.  
 4.  Selezionare nel campo **Tipo Origine** l'origine dell'ordine di produzione.
 
-    Qui è possibile selezionare la famiglia di articoli. Per ulteriori informazioni, vedere [Procedura: Utilizzare famiglie di prodotti](production-how-work-family.md).
+    Qui è possibile selezionare la famiglia di articoli. Per ulteriori informazioni, vedere [Utilizzare famiglie di prodotti](production-how-work-family.md).
 5.  Nel campo **Nr. origine** selezionare il numero dell'articolo, della famiglia o della testata di vendita per il quale deve essere generato l'ordine di produzione.  
 6.  Compilare i campi **Quantità** e **Data Scadenza** con i dati desiderati.  
 
-Quando i requisiti di produzione cambiano, ad esempio componenti o operazioni, è possibile ripianificare rapidamente l'ordine di produzione. Per ulteriori informazioni, vedere [Procedura: Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md). 
+Quando i requisiti di produzione cambiano, ad esempio componenti o operazioni, è possibile ripianificare rapidamente l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Vedi anche  
 [Manufacturing](production-manage-manufacturing.md)    

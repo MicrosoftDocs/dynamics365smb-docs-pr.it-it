@@ -1,6 +1,6 @@
 ---
 title: Introduzione | Documenti Microsoft
-description: Descrive le guide di setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Dynamics 365 Business edition.
+description: Descrive le guide di setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Finance and Operations, Business edition.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
@@ -39,7 +39,7 @@ Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità pe
 | Imposta comp. agg. per Office |Imposta la possibilità di utilizzare e avviare [!INCLUDE[d365fin](includes/d365fin_md.md)] da Outlook. |
 | Imposta workflow di approv. |Imposta la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare alcuni valori in documenti, righe registrazioni o schede, ad esempio un importo oltre un limite specificato. |
 | Imposta log delle e-mail |Imposta la possibilità di registrare la corrispondenza tramite e-mail in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un follow-up delle interazioni. |
-| Imposta il connettore per Dynamics 365 |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
+| Impostare il connettore di Finance and Operations, Business edition |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
 
 Dopo avere eseguito un setup assistito, viene contrassegnato come **Completato**. Per eseguire il setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
 
@@ -51,7 +51,7 @@ Utilizzare le frecce per comprimere parte della pagina e per creare più spazio 
 In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa finestra.    
 
 ## <a name="adding-users-and-permissions"></a>Aggiunta di utenti e permessi
-Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella finestra **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).  
+Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella finestra **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Utilizzo della Guida
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. In ogni descrizione comando sarà possibile trovare un collegamento denominato **Ulteriori informazioni** che visualizza la Guida del prodotto. Anche il punto interrogativo presente nell'angolo in alto a destra visualizza la Guida del prodotto.
@@ -61,5 +61,5 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md)
+[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
 

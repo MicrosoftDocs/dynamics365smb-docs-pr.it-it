@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3632aba536d15fb975c0672eef18ae03181c7727
 ms.contentlocale: it-it
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
@@ -58,7 +58,7 @@ Gli ordini di produzione vengono impegnati e tracciati automaticamente nella ris
 -   Vengono creati nella finestra **Pianificazione ordini**  
 -   Si utilizza la funzione **Ripianifica** negli ordini di produzione  
 
-Per ulteriori informazioni, vedere [Procedura: Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
+Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
 
 Gli ordini di produzione creati tramite altri mezzi non vengono impegnati e tracciati automaticamente.   
 

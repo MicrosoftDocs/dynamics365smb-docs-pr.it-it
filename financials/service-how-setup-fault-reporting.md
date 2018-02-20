@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Procedura: Impostare il reporting dei guasti
+# <a name="set-up-fault-reporting"></a>Impostare il reporting dei guasti
 Il reporting dei guasti consente di stabilire degli standard per registrare le informazioni relative ai guasti per gli articoli in assistenza. Ad esempio, è possibile specificare il tipo di problema, gli indizi osservati, il motivo del problema e in che modo risolverlo.  
 
-I codici dei guasti descrivono i guasti tipici degli articoli in assistenza o le azioni che vengono intraprese su di essi. In base al livello di reporting di guasto nella propria azienda, potrebbe anche essere necessario impostare codici area guasto e codici indizio prima di impostare i codici guasto. Le aree guasto descrivono le aree dei guasti negli articoli in assistenza. I codici causa guasto descrivono il motivo dei guasti negli articoli in assistenza e, se necessario, specificano se escludere gli sconti di garanzia e contratto. Ad esempio, si potrebbe richiedere di escludere gli sconti di garanzia e contratto se il cliente è stato in qualche modo responsabile del guasto nell'articolo in assistenza. I codici causa guasto vengono assegnati agli ordini di assistenza. Per ulteriori informazioni, vedere [Procedura: Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md).  
+I codici dei guasti descrivono i guasti tipici degli articoli in assistenza o le azioni che vengono intraprese su di essi. In base al livello di reporting di guasto nella propria azienda, potrebbe anche essere necessario impostare codici area guasto e codici indizio prima di impostare i codici guasto. Le aree guasto descrivono le aree dei guasti negli articoli in assistenza. I codici causa guasto descrivono il motivo dei guasti negli articoli in assistenza e, se necessario, specificano se escludere gli sconti di garanzia e contratto. Ad esempio, si potrebbe richiedere di escludere gli sconti di garanzia e contratto se il cliente è stato in qualche modo responsabile del guasto nell'articolo in assistenza. I codici causa guasto vengono assegnati agli ordini di assistenza. Per ulteriori informazioni, vedere [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Per specificare il livello globale di reporting dei guasti da utilizzare
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup assistenza**, quindi scegliere il collegamento correlato. 

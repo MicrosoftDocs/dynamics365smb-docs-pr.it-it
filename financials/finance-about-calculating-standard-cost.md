@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
@@ -52,7 +52,7 @@ I seguenti elementi di costo principali compongono il costo diretto totale di un
 -   Il costo diretto del materiale rappresenta un importo fatturato per le materie prime acquistate o il costo di produzione di un subassemblaggio.  
 -   Il costo indiretto del materiale, o *costo generale*, può rappresentare elementi, quali, i costi di gestione del magazzino per l'articolo finito, dopo la produzione.  
 
-L'impostazione del costo del materiale per gli articoli acquistati in relazione al costo diretto o indiretto dipende dal metodo di costing selezionato per l'articolo specificato. Le informazioni sui costi vengono impostate per tutti i metodi di costo nella scheda articolo. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).
+L'impostazione del costo del materiale per gli articoli acquistati in relazione al costo diretto o indiretto dipende dal metodo di costing selezionato per l'articolo specificato. Le informazioni sui costi vengono impostate per tutti i metodi di costo nella scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 Il costo dello scarto (solo produzione) è un fattore aggiuntivo da prendere in considerazione per la determinazione del costo totale del materiale. Quando viene scartata una determinata quantità di materie prime durante l'assemblaggio o la produzione di un articolo, in genere la quantità dei componenti necessari per produrre l'articolo aumenta. Questo, a sua volta, provoca un aumento del costo del materiale dei componenti consumati per la produzione di un articolo principale. Impostare i costi dello scarto per i materiali nel ciclo o nella DB di produzione.  
 
@@ -98,13 +98,13 @@ Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, uti
 Il processo di aggiornamento o del calcolo dei costi standard in genere è costituito dai task seguenti:  
 
 1.  Aggiornamento dei costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere i processi batch **Suggerisci costo std. articolo** e **Suggerisci costo standard capacità**.  
-2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione "Per calcolare il costo standard di un articolo di assemblaggio" in [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md).  
+2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione "Per calcolare il costo standard di un articolo di assemblaggio" in [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
 3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere il processo batch **Implementa modifiche costo std.**.  
-4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Procedura: Rivalutare il magazzino](inventory-how-revalue-inventory.md).
+4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
- [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md)   
- [Procedura: Aggiornare i costi standard](finance-how-to-update-standard-costs.md)   
+ [Utilizzare le distinte base](inventory-how-work-BOMs.md)   
+ [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)   
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
 

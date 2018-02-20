@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Registrazione di modifiche in Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Registrazione delle modifiche in Finance and Operations, Business edition 
 È possibile abilitare il log modifiche in [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo da disporre di uno storico delle attività. Il log è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nel log modifiche, i movimenti vengono ordinati cronologicamente e mostrano le modifiche apportate ai campi nelle tabelle specificate. Il log modifiche raccoglie tutte le modifiche apportate alla tabella.  
 
 ## <a name="working-with-the-change-log"></a>Utilizzo del log modifiche
@@ -34,6 +34,6 @@ Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dat
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Ordinamento](ui-sorting.md)  
 [Utilizzo della funzionalità Cerca pagina o report](ui-search.md)  
-[Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md)    
+[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

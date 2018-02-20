@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31fec531df5e601355442c7bf7c6e3e99b8362d8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
@@ -26,9 +26,9 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 
 | Per | Vedere |
 | --- | --- |
-| Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie. |[Procedura: Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) |
-| Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Procedura: Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
-| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Procedura: Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md) |
+| Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie. |[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) |
+| Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
+| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  

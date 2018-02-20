@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Procedura: Impostare le definizioni di scambio di dati
+# <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
-Come preparazione alla creazione di una definizione di scambio di dati per un file o flusso di dati, è possibile utilizzare lo schema XML correlato per definire gli elementi dati da includere nella Scheda dettaglio **Definizioni colonne**. Vedere il passaggio 6 nella sezione "Per descrivere la formattazione di righe e colonne nel file". Per altre informazioni, vedere [Procedura: Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Come preparazione alla creazione di una definizione di scambio di dati per un file o flusso di dati, è possibile utilizzare lo schema XML correlato per definire gli elementi dati da includere nella Scheda dettaglio **Definizioni colonne**. Vedere il passaggio 6 nella sezione "Per descrivere la formattazione di righe e colonne nel file". Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Generalmente le definizioni di scambio di dati vengono impostate nella finestra **Definizione scambio di dati**. Tuttavia, quando si imposta una definizione di scambio dati per l'aggiornamento dei tassi di cambio delle valute, il processo viene avviato nella finestra **Scheda Setup aggiornamento tasso di cambio in valuta** semplificata.  
 
@@ -81,7 +81,7 @@ La creazione di una definizione di scambio di dati include due task:
 
 5. Ripetere il passaggio 4 per creare una riga per ogni tipo di dati del file che si desidera esportare.  
 
-     Continuare a descrivere la formattazione delle colonne nel file di dati compilando i campi nella Scheda dettaglio **Definizioni colonne** come indicato nella tabella seguente. È possibile utilizzare il file della struttura, ad esempio un file XSD, affinché, tramite il file, la Scheda dettaglio venga precompilata con gli articoli corrispondenti. Per altre informazioni, vedere [Procedura: Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Continuare a descrivere la formattazione delle colonne nel file di dati compilando i campi nella Scheda dettaglio **Definizioni colonne** come indicato nella tabella seguente. È possibile utilizzare il file della struttura, ad esempio un file XSD, affinché, tramite il file, la Scheda dettaglio venga precompilata con gli articoli corrispondenti. Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Nella Scheda dettaglio **Definizioni colonne** scegliere **Ottieni struttura file**.  
 7. Nella finestra **Ottieni struttura file** selezionare il file della struttura correlato, quindi scegliere il pulsante **OK**. Le righe nella Scheda dettaglio **Definizioni colonne** vengono compilate in base alla struttura del file di dati.  
@@ -133,7 +133,7 @@ La creazione di una definizione di scambio di dati include due task:
     |**Didascalia campo di destinazione**|Visibile solo quando la casella di controllo **Utilizza come tabella intermedia** è selezionata.<br /><br /> Specifica il nome del campo nella tabella di destinazione al quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|  
     |**Opzionale**|Visibile solo quando la casella di controllo **Utilizza come tabella intermedia** è selezionata.<br /><br /> Specificare se la mappa deve essere ignorata se il campo è vuoto. Se non si seleziona questa casella di controllo, si verificherà un errore di esportazione se il campo è vuoto.|  
 
- La definizione di scambio di dati è ora pronta per essere abilitata per gli utenti. Per altre informazioni, vedere [Procedura: Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Procedura: Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Procedura: Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md) ed [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ La definizione di scambio di dati è ora pronta per essere abilitata per gli utenti. Per altre informazioni, vedere [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md) ed [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Dopo aver creato la definizione di scambio di dati per un file di dati specifico, è possibile esportarla come file XML che può essere utilizzato per abilitare rapidamente l'importazione del file di dati in questione. Questa funzionalità è descritta nella procedura seguente.  
 
@@ -154,9 +154,9 @@ La creazione di una definizione di scambio di dati include due task:
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
-[Procedura: Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Procedura: Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Procedura: Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
+[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
 [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  

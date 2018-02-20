@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Procedura: Ristrutturare warehouse
+# <a name="restructure-warehouses"></a>Ristrutturare warehouse
 È possibile che si desideri ristrutturare la warehouse e definire nuovi codici collocazione e nuove caratteristiche per le collocazioni. Questo tipo di attività, in genere, non viene eseguita di frequente. È tuttavia possibile che si verifichino situazioni in cui si renda necessario eseguire una riclassificazione per raggiungere o mantenere una maggiore efficienza. Ad esempio:  
 
 - potrebbe essere necessario utilizzare nuovi codici collocazione che consentano l'utilizzo di un sistema di acquisizione automatica dei dati, ad esempio, mediante PC palmari;  
@@ -45,12 +45,12 @@ In questo modo sono state svuotate le collocazioni in cui gli articoli erano con
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Per ristrutturare una warehouse avanzata in cui vengono utilizzati stoccaggi e prelievi guidati  
 
-1.  Creare le nuove collocazioni che si desidera utilizzare in futuro. Per ulteriori informazioni, vedere [Procedura: Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
+1.  Creare le nuove collocazioni che si desidera utilizzare in futuro. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 2.  Spostare tutto il contenuto delle collocazioni correnti nelle collocazioni appena create.  
 
     1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni riclassificazione warehouse**, quindi scegliere il collegamento correlato.  
     2.  Per le collocazioni che non comportano veri e propri spostamenti di articoli, creare una riga per ciascuna delle collocazioni correnti in **Registrazioni riclass.whse.**, specificando il codice di collocazione precedente nel campo **Dal codice collocazione** e il nuovo codice di collocazione nel campo **A codice collocazione**.  
-    3.  Se alcuni movimenti implicano spostamenti fisici che verranno effettuati dagli addetti al magazzino, utilizzare la funzione **Prospetti movimenti** per preparare le istruzioni di movimento anziché utilizzare le registrazioni di riclassificazione warehouse. Per ulteriori informazioni, vedere [Procedura: Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Se alcuni movimenti implicano spostamenti fisici che verranno effettuati dagli addetti al magazzino, utilizzare la funzione **Prospetti movimenti** per preparare le istruzioni di movimento anziché utilizzare le registrazioni di riclassificazione warehouse. Per ulteriori informazioni, vedere [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Quando le collocazioni precedenti vengono svuotate, riclassificarle come collocazioni di tipo **QC** per assicurare che non siano incluse nei flussi dell'articolo.  
 
@@ -58,7 +58,7 @@ In questo modo sono state svuotate le collocazioni in cui gli articoli erano con
     2.  Selezionare la riga con l'ubicazione, quindi scegliere l'azione **Collocazioni**.  
     3.  Nella finestra **Collocazioni** immettere **QC** nel campo **Codice tipo collocazione** per ciascuna delle collocazioni precedenti svuotate nel passaggio 3 della procedura precedente.  
 
-Sono state rimosse le collocazioni dal flusso warehouse e sono state riclassificate come collocazioni QC. Queste non dispongono dei campi di attività nella finestra **Tipi collocazione** selezionata e pertanto non vengono considerate dal flusso di articoli. Per ulteriori informazioni, vedere [Procedura: Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
+Sono state rimosse le collocazioni dal flusso warehouse e sono state riclassificate come collocazioni QC. Queste non dispongono dei campi di attività nella finestra **Tipi collocazione** selezionata e pertanto non vengono considerate dal flusso di articoli. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Per eliminare una collocazione  
 

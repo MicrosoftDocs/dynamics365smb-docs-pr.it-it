@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Procedura: Utilizzare contratti e offerte di contratto di assistenza
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Per creare un contratto o un'offerta di contratto di assistenza  
@@ -199,7 +199,7 @@ Può essere necessario annullare un contratto di assistenza alla scadenza di que
 È possibile archiviare contratti di assistenza e offerte di contratto in qualsiasi momento per registrare e memorizzare una copia del contratto o dell'offerta di contratto nel programma. In [!INCLUDE[d365fin](includes/d365fin_md.md)] i contratti di assistenza vengono archiviati automaticamente quando le offerte di contratto vengono convertite in contratti di assistenza oppure quando i contratti di assistenza vengono eliminati. È possibile archiviare un contratto o un'offerta scegliendo l'azione **Archivia contratto** nelle pagine **Contratti assistenza** o **Offerte contratto assistenza**. Se si desidera visualizzare i contratti archiviati delle offerte cercando **Contratti archiviati**.
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Impostare i contratti di assistenza](service-how-setup-service-contracts.md)  
+[Impostare i contratti di assistenza](service-how-setup-service-contracts.md)  
 [Gestione assistenza](service-service.md)  
-[Procedura: Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)  
+[Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)  
 

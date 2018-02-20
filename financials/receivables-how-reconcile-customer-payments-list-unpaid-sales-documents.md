@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Procedura: Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati
 Quando i clienti hanno effettuato i pagamenti sul conto corrente elettronico, è necessario collegare ogni importo pagato al documento di vendita corrispondente e registrare il pagamento per aggiornare i movimenti cliente, bancari e di contabilità generale.
 
 > [!NOTE]  
@@ -176,7 +176,7 @@ Registrare un pagamento non documentato.
 1. Scegliere l'azione **Contabilità generale**.  
 
     Verrà visualizzata la finestra **Contabilità generale** con una riga precompilata con il conto di contropartita del batch registrazioni impostato nella finestra **Setup registrazione pagamenti**.  
-2. Compilare i campi rimanenti nella riga delle registrazioni generali, ad esempio l'importo e il numero cliente o altre informazioni dal rendiconto bancario. Per ulteriori informazioni, vedere [Procedura: Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
+2. Compilare i campi rimanenti nella riga delle registrazioni generali, ad esempio l'importo e il numero cliente o altre informazioni dal rendiconto bancario. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
 
 È possibile registrare la riga di registrazione per aggiornare nella contropartita. In alternativa, è possibile lasciare invariata la riga di registrazione non inserita e aggiungere una nota che indica che per il pagamento è necessaria un'analisi più accurata.  
 

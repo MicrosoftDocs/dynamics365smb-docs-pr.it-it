@@ -13,20 +13,20 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79c1d376358cc6b2a622bc589627968c1197df03
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ee5737fc44282d2f2217a50e5f9ffffc808dd4f8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-inventory-information"></a>Procedura: Impostare le informazioni generali di magazzino
+# <a name="set-up-general-inventory-information"></a>Impostare le informazioni generali di magazzino
 Le impostazioni generali di magazzino vengono impostate nella finestra **Setup magazzino**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup magazzino**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Procedura: Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
+Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Setup magazzino](inventory-setup-inventory.md)  

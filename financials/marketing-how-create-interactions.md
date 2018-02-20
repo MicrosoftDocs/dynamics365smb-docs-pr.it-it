@@ -1,6 +1,6 @@
 ---
 title: Creare interazioni per i contatti e i segmenti| Documenti Microsoft
-description: Descrive come creare interazioni per comunicazioni intercorse con i contatti e i segmenti in Dynamics 365, ad esempio messaggi di posta diretta.
+description: Descrive come creare interazioni per comunicazioni intercorse con i contatti e i segmenti in Finance and Operations, Business edition, ad esempio messaggi di posta diretta.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedura: Creare interazioni per i contatti e i segmenti
+# <a name="create-interactions-on-contacts-and-segments"></a>Creare interazioni per i contatti e i segmenti
 È possibile creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi di posta.
 
 Prima di creare interazioni, è necessario impostare i modelli di interazione. Per ulteriori informazioni, vedere [Impostare modelli di interazione](marketing-interactions.md).
@@ -54,5 +54,5 @@ Se è stata selezionata la casella di controllo **Crea segmento di follow-up**, 
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Setup Relationship Management](marketing-setup-marketing.md)  
-[Utilizzo di Dynamics 365](ui-work-product.md)
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)
 

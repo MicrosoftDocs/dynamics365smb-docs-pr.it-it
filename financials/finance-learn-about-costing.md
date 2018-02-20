@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Informazioni sul costing di magazzino
@@ -36,8 +36,8 @@ La gestione dei costi di magazzino include la registrazione e il reporting dei c
 |Comprendere il meccanismo di rettifica dei costi, che assicura il riporto dei costi anche se le transazioni di magazzino avvengono in modo casuale.|[Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)|  
 |Apprendere per quale motivo i costi standard vengono spesso utilizzati dalle aziende manifatturiere come base di valutazione per componenti e articoli finali.|[Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)|  
 |Comprendere il modo in cui il valore di magazzino viene riflesso nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Ottenere informazioni sul modo in cui gli addebiti articoli, come le spese di trasposto e l'assicurazione, possono attribuire componenti di costo supplementari al costo unitario di un articolo.|[Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|  
-|Apprendere come i periodi di magazzino consentano a una società di controllare il valore di magazzino nel tempo mediante la definizione di periodi più brevi, che possono essere chiusi per la registrazione con l'avanzamento dell'anno fiscale.|[Procedura: Utilizzare periodi di magazzino](finance-how-to-work-with-inventory-periods.md)|  
+|Ottenere informazioni sul modo in cui gli addebiti articoli, come le spese di trasposto e l'assicurazione, possono attribuire componenti di costo supplementari al costo unitario di un articolo.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|  
+|Apprendere come i periodi di magazzino consentano a una società di controllare il valore di magazzino nel tempo mediante la definizione di periodi più brevi, che possono essere chiusi per la registrazione con l'avanzamento dell'anno fiscale.|[Utilizzare periodi di magazzino](finance-how-to-work-with-inventory-periods.md)|  
 |Comprendere tutti i meccanismi del motore di costing, incluso quanto accade quando si registrano transazioni di produzione e di assemblaggio.|[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Vedi anche

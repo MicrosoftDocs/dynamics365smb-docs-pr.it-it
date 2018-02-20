@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 060c58991ae48ba768f5c1c0bd7442228e6bc976
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-production-families"></a>Procedura: Utilizzare famiglie di prodotti
+# <a name="work-with-production-families"></a>Utilizzare famiglie di prodotti
 Una famiglia di prodotti consiste in un gruppo di articoli individuali la cui relazione si basa sulla similarità dei rispettivi processi di lavorazione. Formando delle famiglie di produzione, è possibile che alcuni articoli siano lavorati due o più volte nel corso di una produzione; questa operazione ottimizzerà il consumo di materiale.
 
 Nel campo **Quantità** della finestra **Famiglie di prodotti**, immettere la quantità che sarà prodotta quando l'intera famiglia sarà stata lavorata una volta.
@@ -35,12 +35,12 @@ La creazione di famiglie di produzione riduce le quantità di scarto perché ci�
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Per produrre in base a una famiglia di prodotti
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ord. produzione confermato**, quindi scegliere il collegamento correlato.
-2. Creare un nuovo ordine di produzione. Per ulteriori informazioni, vedere [Procedura: Creare ordini di produzione](production-how-to-create-production-orders.md).
+2. Creare un nuovo ordine di produzione. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).
 3. Nel campo **Tipo origine**, selezionare **Famiglie di prodotti**.  
 4. Nel campo **Nr. risorsa**, selezionare la famiglia di prodotti pertinente.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md)  
+[Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Pianif.](production-planning.md)   

@@ -1,6 +1,6 @@
 ---
-title: Annullamento di Dynamics 365 Business edition | Documenti Microsoft
-description: Viene descritto come rimuovere o eliminare l'esperienza utente di Dynamics 365 Business edition.
+title: Annullamento di Finance and Operations, Business edition | Documenti Microsoft
+description: Viene descritto come rimuovere o eliminare l'esperienza utente di Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4527b40a22ccd12f3fbbeb78c03c8109a8dd0707
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Quando si effettua l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile annullarla in qualsiasi momento. Analogamente, è possibile scegliere di reimpostare la società che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ottenere una panoramica veloce, vedere [il blog di [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Annullare la sottoscrizione rimuovendo [!INCLUDE[d365fin](includes/d365fin_md.md)] dalla propria esperienza di Office 365

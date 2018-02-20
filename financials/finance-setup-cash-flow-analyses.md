@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
@@ -58,7 +58,7 @@ Per configurarli, cercare **conti di cassa**, selezionare il collegamento e comp
 ## <a name="set-up-cash-flow-forecasts"></a>Impostare le previsioni flusso di cassa
 Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le impostazioni del flusso di cassa e le previsioni dei flussi di cassa. Alcuni conti vengono forniti, tuttavia, è possibile impostare il proprio conto utilizzando una guida assistita di setup. La guida aiuta a specificare aspetti, quali la frequenza di aggiornamento della previsione, i conti sui cui basarla, le informazioni su quando effettuare i pagamenti delle imposte e se utilizzare [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
-La previsione di flussi di cassa possono utilizzare Cortana Intelligence per includere i documenti con una data di scadenza in futuro. Il risultato una previsione è più completa. La connessione a Cortana Intelligence è già impostata. È solo necessario attivarla. Quando si accede a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)],viene visualizzata una notifica in una barra blue che fornisce un collegamento al setup del flusso di cassa predefinito. La notifica viene visualizzata solo una volta. Se la si chiude, ma si decide di attivare Cortana Intelligence, è possibile utilizzare la Guida assistita di setup, o un processo manuale.  
+La previsione di flussi di cassa possono utilizzare Cortana Intelligence per includere i documenti con una data di scadenza in futuro. Il risultato una previsione è più completa. La connessione a Cortana Intelligence è già impostata. È solo necessario attivarla. Quando si accede a [!INCLUDE[d365fin](includes/d365fin_md.md)],viene visualizzata una notifica in una barra blue che fornisce un collegamento al setup del flusso di cassa predefinito. La notifica viene visualizzata solo una volta. Se la si chiude, ma si decide di attivare Cortana Intelligence, è possibile utilizzare la Guida assistita di setup, o un processo manuale.  
 
 > [!NOTE]  
 >   In alternativa, è possibile utilizzare il proprio servizio Web predittivo. Per ulteriori informazioni, vedere [Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa](#AnchorText).  
@@ -79,10 +79,10 @@ Per utilizzare una procedura manuale:
 >   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
 
 ## <a name="AnchorText"> </a>Per ulteriori informazioni, vedere Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa.
-È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model for Microsoft Dynamics 365 Business edition**. Il modello predittivo è disponibile anche online nella raccolta Cortana Intelligence. Attenersi alla seguente procedura per utilizzare il modello:  
+È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model for Microsoft Finance and Operations, Business edition**. Il modello predittivo è disponibile anche online nella raccolta Cortana Intelligence. Attenersi alla seguente procedura per utilizzare il modello:  
 
 1. Aprire un browser e andare alla [Galleria Cortana Intelligence](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Cercare il modello **Forecasting Model for Microsoft Dynamics 365 Business edition**, quindi aprirlo in Azure Machine Learning Studio.  
+2. Cercare il modello **Forecasting Model for Microsoft Finance and Operations, Business edition**, quindi aprirlo in Azure Machine Learning Studio.  
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  

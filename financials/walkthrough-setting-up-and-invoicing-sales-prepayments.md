@@ -1,6 +1,6 @@
 ---
 title: 'Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite | Documenti Microsoft'
-description: "I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in Dynamics 365 consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura."
+description: "I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in Finance and Operations, Business edition consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
@@ -128,7 +128,7 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
 
     Il campo **% pagamento anticipato** sulla riga dell'articolo **1100** contiene **40**. Si tratta della percentuale immessa nella finestra **Percentuali pagamenti anticipati vendite** per l'articolo **1100** e il cliente **20000**.  
 
-    Per ulteriori informazioni, vedere [Procedura: Impostare i pagamenti anticipati](finance-set-up-prepayments.md).  
+    Per ulteriori informazioni, vedere [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).  
 8. Scegliere l'azione **Statistiche**.  
 9. Nella Scheda dettaglio **Pagamento anticipato**, il campo **Importo riga pagam. ant. IVA esclusa** contiene **1.560**. Se si crea ora una fattura pagamento anticipato per l'ordine, questo è l'importo che verrà visualizzato nella fattura.  
 

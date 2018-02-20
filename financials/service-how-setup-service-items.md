@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 80071e9fd584ad3232b8ae55169948f9a05d22be
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 068d141ee8490cc34e8b2092b7dcfda36139660d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-service-items-and-service-item-components"></a>Procedura: Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
+# <a name="set-up-service-items-and-service-item-components"></a>Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
 Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue
 
 * Gruppi di articoli in assistenza 
@@ -60,8 +60,8 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 È possibile impostare scaffali di assistenza che indicano dove memorizzare gli articoli di assistenza. Gli scaffali di assistenza vengono assegnati agli articoli in assistenza nelle pagine **Ordine assistenza** e **Prospetto art. in assist.**  
   
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Scaffali assistenza**, quindi scegliere il collegamento correlato.
-2. Compilare i campi in base alle esigenze.
+2. Compilare i campi come necessario.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Impostare codici per servizi standard](service-how-setup-service-coding.md)   
-[Procedura: Impostare il troubleshooting:](service-how-setup-troubleshooting.md)
+[Impostare codici per servizi standard](service-how-setup-service-coding.md)   
+[Impostare il troubleshooting](service-how-setup-troubleshooting.md)

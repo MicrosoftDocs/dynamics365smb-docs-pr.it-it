@@ -1,6 +1,6 @@
 ---
 title: Prelevare articoli | Documenti Microsoft
-description: "L'attività di warehouse di prelievo degli articoli prima della spedizione o dell'utilizzo viene eseguita in modi diversi a seconda della configurazione delle funzionalità di gestione warehouse. La complessità [delle operazioni di setup](../configure-warehouse-processes.md) può andare dall'assenza delle funzionalità di warehouse, alle configurazioni di warehouse di base per la gestione ordine per ordine in una o più attività, fino alle configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro guidato."
+description: "L'attività di warehouse di prelievo degli articoli prima della spedizione o dell'utilizzo viene eseguita in modi diversi a seconda della configurazione delle funzionalità di gestione warehouse. La complessità delle operazioni di [setup](../configure-warehouse-processes.md) può andare dall'assenza delle funzionalità di warehouse, alle configurazioni di warehouse di base per la gestione ordine per ordine in una o più attività, fino alle configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro guidato."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Prelievo degli articoli
@@ -35,15 +35,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|
 |------------|-------------|  
-|Registrare la spedizione degli articoli direttamente nel documento ordine in uscita in quanto non sono disponibili funzionalità di warehouse. (Funzionamento analogo per ordini di vendita, ordini di trasferimento in uscita e spedizioni di reso.)|[Procedura: Spedire articoli](warehouse-how-ship-items.md)|  
-|Prelevare gli articoli ordine per ordine e registrare la spedizione nella stessa attività, in una configurazione di base della warehouse.|[Procedura: prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Prelevare gli articoli per più ordini in una configurazione avanzata della warehouse.|[Procedura: Prelevare articoli con prelievi warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Prelevare i componenti per la produzione o l'assemblaggio in una configurazione di base o avanzata della warehouse.|[Procedura: Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)|  
-|Pianificare istruzioni di prelievo ottimizzate per diverse spedizioni anziché lasciare che i lavoratori warehouse agiscano direttamente sulle spedizioni registrate.|[Procedura: Pianificare prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Prelevare tecnicamente gli articoli per uno scopo specifico, ad esempio per un'unità di produzione che necessita di componenti aggiuntivi, in modo che gli articoli non escano tecnicamente dalla warehouse.|[Procedura: Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Registrare la spedizione degli articoli direttamente nel documento ordine in uscita in quanto non sono disponibili funzionalità di warehouse. (Funzionamento analogo per ordini di vendita, ordini di trasferimento in uscita e spedizioni di reso.)|[Spedire articoli](warehouse-how-ship-items.md)|  
+|Prelevare gli articoli ordine per ordine e registrare la spedizione nella stessa attività, in una configurazione di base della warehouse.|[Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Prelevare gli articoli per più ordini in una configurazione avanzata della warehouse.|[Prelevare articoli con prelievi warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Prelevare i componenti per la produzione o l'assemblaggio in una configurazione di base o avanzata della warehouse.|[Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)|  
+|Pianificare istruzioni di prelievo ottimizzate per diverse spedizioni anziché lasciare che i lavoratori warehouse agiscano direttamente sulle spedizioni registrate.|[Pianificare prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Prelevare tecnicamente gli articoli per uno scopo specifico, ad esempio per un'unità di produzione che necessita di componenti aggiuntivi, in modo che gli articoli non escano tecnicamente dalla warehouse.|[Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Comprendere come prelevare automaticamente gli articoli in base alla loro data di scadenza, ad esempio beni deperibili.|[Prelievo in base al metodo FEFO](warehouse-picking-by-fefo.md)|
-|Dividere una riga di prelievo in più righe, ad esempio perché non vi sono articoli sufficienti da prelevare nella collocazione designata.|[Procedura: Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Ottenere accesso immediato ai prelievi che sono stati assegnati a un lavoratore della warehouse.|[Procedura: Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Dividere una riga di prelievo in più righe, ad esempio perché non vi sono articoli sufficienti da prelevare nella collocazione designata.|[Suddividere righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Ottenere accesso immediato ai prelievi che sono stati assegnati a un lavoratore della warehouse.|[Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

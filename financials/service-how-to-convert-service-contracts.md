@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Procedura: Convertire i contratti di assistenza che includono importi IVA
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ Nella procedura riportata di seguito viene descritto come creare nuovi contratti
 ### <a name="to-create-a-new-credit-memo"></a>Per creare una nuova nota di credito.  
 Nella procedura riportata di seguito viene descritto come creare una nuova nota di credito mediante il processo batch **Prendi mov. contr. prepagati**. I movimenti che non si desidera correggere da gennaio 2017 a giugno 2017 verranno eliminati.  
 
-1. Eseguire lo strumento per la modifica dell'aliquota IVA il 1° luglio 2017. La categoria di registrazione articoli/servizi o la categoria di registrazione articoli/servizi IVA è cambiata. Per ulteriori informazioni, vedere [Procedura: Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md).  
+1. Eseguire lo strumento per la modifica dell'aliquota IVA il 1° luglio 2017. La categoria di registrazione articoli/servizi o la categoria di registrazione articoli/servizi IVA è cambiata. Per ulteriori informazioni, vedere [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md).  
 2. Dopo aver eseguito lo strumento di modifica aliquota IVA, immettere una data di scadenza del contratto per il contratto di assistenza. È ora possibile eliminare la riga del contratto di assistenza e creare una nuova riga identica a quella precedente.  
 3. Creare una nuova fattura per il periodo compreso tra gennaio 2017 e dicembre 2012 utilizzando la nuova aliquota IVA.  
 4. Per creare un'altra nota di credito, selezionare **Nuovo** nella finestra **Note credito assistenza**.  
@@ -64,8 +64,8 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 6. Dopo aver completato la conversione, l'IVA e i movimenti contabili verranno corretti.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finanze](finance.md)  
-[Procedura: Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
-[Procedura: Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+[Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
+[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 

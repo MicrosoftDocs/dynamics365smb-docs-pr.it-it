@@ -13,13 +13,13 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>Procedura: Impostare le commesse
+# <a name="set-up-jobs"></a>Imposta commesse
 Nella finestra **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
 Nelle singole schede commessa, è necessario impostare i prezzi per gli articoli di commessa, le risorsa di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
@@ -39,7 +39,7 @@ Se si seleziona la casella di controllo **Applica collegamento utilizzo**, è po
 Se la casella di controllo **Applica collegamento utilizzo** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, Financials crea una riga di pianificazione commessa di tipo **Budget** dopo che viene registrata la riga di registrazione.
 
 > [!NOTE]  
->   Se la casella di controllo **Applica collegamento utilizzo** nella scheda commessa è selezionata e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa. Se la casella di controllo **Applica collegamento utilizzo** non è selezionata e il campo **Tipo riga** nella riga di registrazione commessa è vuoto, non vengono create righe di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Procedura: Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+>   Se la casella di controllo **Applica collegamento utilizzo** nella scheda commessa è selezionata e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa. Se la casella di controllo **Applica collegamento utilizzo** non è selezionata e il campo **Tipo riga** nella riga di registrazione commessa è vuoto, non vengono create righe di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.
 2. Selezionare o deselezionare la casella di controllo **Applica collegamento utilizzo**.

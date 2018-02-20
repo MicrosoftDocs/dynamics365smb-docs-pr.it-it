@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Procedura: Ricevere e convertire documenti elettronici
+# <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella finestra Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Oltre a ricevere i documenti elettronici direttamente dai partner commerciali, è possibile ricevere i documenti elettronici da un servizio OCR che ha convertito i file di immagine o PDF in documenti elettronici.  
 
- Prima di ricevere i documenti elettronici tramite il servizio di scambio documenti, è necessario impostare i vari dati master, ad esempio informazioni sulla società, fornitori, articoli e unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati presenti negli elementi del file di documento in entrata nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Procedura: Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md).  
+ Prima di ricevere i documenti elettronici tramite il servizio di scambio documenti, è necessario impostare i vari dati master, ad esempio informazioni sulla società, fornitori, articoli e unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati presenti negli elementi del file di documento in entrata nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md).  
 
- Prima di ricevere i documenti elettronici tramite il servizio OCR, è necessario impostare e abilitare la connessione del servizio preconfigurata. Per ulteriori informazioni, vedere [Procedura: Impostare Documenti in entrata](across-how-setup-income-documents.md).  
+ Prima di ricevere i documenti elettronici tramite il servizio OCR, è necessario impostare e abilitare la connessione del servizio preconfigurata. Per ulteriori informazioni, vedere [Impostare documenti in entrata](across-how-setup-income-documents.md).  
 
  Il traffico dei documenti elettronici in entrata e in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)] viene gestito dalla funzionalità coda processi. Prima di ricevere i documenti elettronici, la coda processi in questione deve essere avviata.  
 
@@ -45,7 +45,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
 2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi, nella scheda **Pagina iniziale**, nel gruppo **Gestione**, scegliere **Modifica**.  
 
-     Nella finestra **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Procedura: Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
+     Nella finestra **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
 
 3.  Nel campo **Tipo scambio dati** scegliere **PEPPOL - Fattura** oppure **OCR - Fattura**, a seconda dell'origine del documento elettronico.  
 
@@ -60,7 +60,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Documenti in entrata](across-income-documents.md)  
-[Procedura: Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 

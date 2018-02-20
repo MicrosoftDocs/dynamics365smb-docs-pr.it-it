@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
   
 | A | Vedere |
 | --- | --- |
-| Impostare codici che assegnano automaticamente le righe nei documenti di assistenza per i servizi prestati frequentemente. |[Procedura: Impostare codici per servizi standard](service-how-setup-service-coding.md)|
-| Definire le impostazioni generali che devono controllare gli aspetti dei processi di gestione assistenza.|[Procedura: Configurazione dei processi di assistenza](service-setup-service-processes.md)|
-| Definire come la propria organizzazione utilizza il reporting dei guasti. |[Procedura: Impostare il reporting dei guasti](service-how-setup-fault-reporting.md) |
-| Impostare le offerte di assistenza che la società fornisce ai clienti.|[Procedura: Impostare le offerte di assistenza](service-how-setup-service-offerings.md)|
-| Immettere le indicazioni di risoluzione dei problemi che consentono ai rappresentanti dell'assistenza di fornire i propri servizi più rapidamente. |[Procedura: Impostare il troubleshooting:](service-how-setup-troubleshooting.md) |
-| Impostare l'assegnazione delle risorse per semplificare l'allocazione della risorsa corretta a un task di assistenza. |[Procedura: Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md) |
-| Definire il prezzo per i servizi e impostare i costi di assistenza supplementari per valutare gli ordini di assistenza. |[Procedura: Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)|
-| Eseguire le impostazioni necessarie e tenere traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza.|[Procedura: Impostare le ore di lavoro e le ore di assistenza](service-how-setup-work-service-hours.md)|
-| Impostare le opzioni dello stato di riparazione in modo da monitorare lo stato di avanzamento delle riparazioni. | [Procedura: Impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)|
-| Impostare un programma articoli in prestito, in modo da poter prestare un articolo sostitutivo mentre si lavora a un articolo in assistenza. |[Procedura: Impostare un programma di prestito articoli](service-how-setup-loaner-program.md) |
-| Impostare gli articoli in assistenza e i componenti degli articoli in assistenza. |[Procedura: Impostare gli articoli in assistenza](service-how-setup-service-items.md) |
-| Porre le basi per creare contratti e offerte di contratto di assistenza. |[Procedura: Impostare i contratti di assistenza](service-how-setup-service-contracts.md) |
+| Impostare codici che assegnano automaticamente le righe nei documenti di assistenza per i servizi prestati frequentemente. |[Impostare codici per servizi standard](service-how-setup-service-coding.md)|
+| Definire le impostazioni generali che devono controllare gli aspetti dei processi di gestione assistenza.|[Configurazione dei processi di assistenza](service-setup-service-processes.md)|
+| Definire come la propria organizzazione utilizza il reporting dei guasti. |[Impostare il reporting dei guasti](service-how-setup-fault-reporting.md) |
+| Impostare le offerte di assistenza che la società fornisce ai clienti.|[Impostare le offerte di assistenza](service-how-setup-service-offerings.md)|
+| Immettere le indicazioni di risoluzione dei problemi che consentono ai rappresentanti dell'assistenza di fornire i propri servizi più rapidamente. |[Impostare il troubleshooting](service-how-setup-troubleshooting.md) |
+| Impostare l'assegnazione delle risorse per semplificare l'allocazione della risorsa corretta a un task di assistenza. |[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md) |
+| Definire il prezzo per i servizi e impostare i costi di assistenza supplementari per valutare gli ordini di assistenza. |[Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)|
+| Eseguire le impostazioni necessarie e tenere traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza.|[Impostare le ore di lavoro e le ore di assistenza](service-how-setup-work-service-hours.md)|
+| Impostare le opzioni dello stato di riparazione in modo da monitorare lo stato di avanzamento delle riparazioni. | [Impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)|
+| Impostare un programma articoli in prestito, in modo da poter prestare un articolo sostitutivo mentre si lavora a un articolo in assistenza. |[Impostazione di un programma di prestito articoli](service-how-setup-loaner-program.md) |
+| Impostare gli articoli in assistenza e i componenti degli articoli in assistenza. |[Impostare gli articoli in assistenza](service-how-setup-service-items.md) |
+| Porre le basi per creare contratti e offerte di contratto di assistenza. |[Impostare i contratti di assistenza](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione assistenza](service-service.md)  

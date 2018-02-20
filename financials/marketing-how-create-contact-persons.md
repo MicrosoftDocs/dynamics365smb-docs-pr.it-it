@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Procedura: creare contatti
+# <a name="create-contact-persons"></a>Creare contatti
 È possibile creare una scheda contatto per ogni singolo contatto che opera all'interno delle società con cui si interagisce. Per ogni società contatto è possibile inserire un numero illimitato di contatti. È inoltre possibile creare schede contatto per le persone che si desidera registrare come indipendenti.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ ms.lasthandoff: 11/10/2017
 ## <a name="see-also"></a>Vedi anche
 [Setup Relationship Management](marketing-setup-marketing.md)  
 [Assegnazione di gruppi di mailing a un contatto](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Procedura: Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md)  
-[Procedura: Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md)  
+[Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md)  
+[Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md)  
 [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Utilizzo di Dynamics 365](ui-work-product.md)  
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)  
 

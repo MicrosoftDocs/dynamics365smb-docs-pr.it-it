@@ -1,6 +1,6 @@
 ---
 title: Come gestire i modelli di notifica | Microsoft Docs
-description: "Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del flusso di lavoro interessato per definire il destinatario della notifica. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)."
+description: "Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Procedura: Gestire i modelli di notifica
+# <a name="manage-notification-templates"></a>Gestire i modelli di notifica
 Le notifiche vengono inviate agli utenti del workflow per informarli sui passaggi che devono eseguire o sullo stato delle fasi del workflow. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md).  
 
  Le notifiche si basano sui modelli che ne definiscono il contenuto e il layout. Il contenuto di un modello di notifica può essere esportato, modificato e, successivamente, importato nello stesso modello di notifica o in uno nuovo. Questa funzionalità è descritta nelle procedure seguenti.  
@@ -76,10 +76,10 @@ I valori dei parametri vengono inseriti automaticamente nelle notifiche in base 
 
 ## <a name="see-also"></a>Vedi anche  
  [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
- [Procedura: Impostare la posta elettronica](madeira-how-setup-email.md)   
- [Procedura: Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)   
- [Procedura: Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
- [Procedura: Creare workflow](across-how-to-create-workflows.md)   
+ [Impostare la posta elettronica](madeira-how-setup-email.md)   
+ [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)   
+ [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
+ [Creare i workflow](across-how-to-create-workflows.md)   
  [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   
 

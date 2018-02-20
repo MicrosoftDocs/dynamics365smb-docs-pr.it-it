@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e8bc9e8b99db8afda83edb4aff13f5daf9f5a31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Calcolo della data per le vendite
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] viene automaticamente calcolata la prima data possibile di spedizione di un articolo nella riga ordine di vendita.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] In  viene automaticamente calcolata la prima data possibile di spedizione di un articolo nella riga ordine di vendita.
 
 Se il cliente ha richiesto una data di consegna specifica, viene calcolata la data in cui gli articoli devono essere disponibili per il prelievo affinché la consegna avvenga come da richiesta.
 
@@ -45,6 +45,6 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 
 ## <a name="see-also"></a>Vedi anche  
  [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)   
- [Procedura: Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
+ [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

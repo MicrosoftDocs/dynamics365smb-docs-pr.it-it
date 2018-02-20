@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Impostazione dei calcoli e registrazione dei metodi per l'IVA
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Impostazione dei calcoli e registrazione dei metodi per l'IVA
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue: 
 
 * Persone a cui si vende  
@@ -40,7 +40,20 @@ Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLU
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report") e immettere **Setup assistito**.  
-2. Scegliere **Setup IVA**.
+2. Scegliere **Imposta IVA**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Per impostare i numeri di partita IVA per il paese
+Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[d365fin](includes/d365fin_md.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
+
+Per impostare i numeri di partita VAT, attenersi a questa procedura:
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Paesi**.
+2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
+3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
+  
+    |----|----| | # | Richiede un numero a una cifra. | | @ | Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole. | | ? | Permette qualsiasi carattere. |
+  
+    > [!Tip]
+    > È possibile utilizzare altri caratteri purché siano sempre presenti nel formato del paese. Ad esempio, se è necessario includere un punto o un trattino tra i set di numeri, è possibile definire il formato come ##.####.### o @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Per impostare le categorie di registrazione business IVA
 Le categorie di registrazione business IVA dovrebbero rappresentare i mercati in cui si intrattengono relazioni commerciali con clienti e fornitori e dovrebbero definire il modo in cui calcolare l'IVA in ogni mercato. Esempi di categoria di registrazione business IVA sono **Nazionale** e **Unione Europea (UE)**.  
@@ -64,7 +77,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 2. Compilare i campi in base alle esigenze.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Per combinare le categorie di registrazione IVA nei setup registrazione IVA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcola gli importi IVA su vendite e acquisti in base alle impostazioni di registrazione IVA, che sono combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi IVA. Per ogni combinazione, è possibile specificare la percentuale IVA, la tipologia di calcolo IVA e i numeri di conto C/G per la registrazione dell'IVA relativa a vendite e acquisti e dell'IVA intracomunitaria. È inoltre possibile specificare se l'IVA viene ricalcolata quando viene applicato o ricevuto uno sconto pagamento.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  calcola gli importi IVA su vendite e acquisti in base alle impostazioni di registrazione IVA, che sono combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi IVA. Per ogni combinazione, è possibile specificare la percentuale IVA, la tipologia di calcolo IVA e i numeri di conto C/G per la registrazione dell'IVA relativa a vendite e acquisti e dell'IVA intracomunitaria. È inoltre possibile specificare se l'IVA viene ricalcolata quando viene applicato o ricevuto uno sconto pagamento.  
 
 È possibile impostare un numero illimitato di combinazioni. Se si desidera raggruppare combinazioni di setup di registrazioni IVA con attributi simili, è possibile definire un **codice IVA** per ogni categoria e assegnare il codice ai membri della categoria.
 
@@ -235,4 +248,4 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 ## <a name="see-also"></a>Vedi anche  
 [Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
 [Procedura: Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
-[Procedura: Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  

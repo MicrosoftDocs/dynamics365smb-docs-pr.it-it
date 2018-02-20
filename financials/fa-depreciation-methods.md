@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Metodi ammortamento
@@ -212,7 +212,7 @@ L'importo di ammortamento a quote decrescenti viene utilizzato in quanto costitu
 
 *importo di ammortamento a quote decrescenti: 25% di 23,730.46 = 4,943.85=2,471.92+2,471.92*  
 
-*importo di ammortamento a quote costanti = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
+*importo di ammortamento a quote costanti = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
 L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisce l'importo maggiore.  
 

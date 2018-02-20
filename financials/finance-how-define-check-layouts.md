@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Procedura: Definire i layout degli assegni
+# <a name="define-check-layouts"></a>Definire i layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
 
 Gli assegni sono stati progettati per la stampa dei formati di immagine sia degli Stati Uniti che del Canada con formato assegno-matrice- assegno o matrice-matrice-assegno.
@@ -35,7 +35,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 | 10401 |Assegno (Matrice/Matrice/Assegno) |Il report è progettato per stampare gli assegni in formato Matrice/Matrice/Assegno. |
 | 10411 |Assegno (Matrice/Assegno/Matrice) |Il report è progettato per stampare gli assegni in formato Matrice/Assegno/Matrice. |
 
-Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella finestra **Registrazioni pagamenti**. Per ulteriori informazioni, vedere [Procedura: Utilizzo degli assegni](payables-how-work-checks.md).
+Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella finestra **Registrazioni pagamenti**. Per ulteriori informazioni, vedere [Utilizzo degli assegni](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

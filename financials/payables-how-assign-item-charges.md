@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
 
 Oltre a registrare il costo aggiuntivo nel valore di magazzino, è possibile utilizzare la funzionalità Addebiti per le seguenti operazioni:
@@ -48,7 +48,7 @@ I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi
 Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di acquisto**, quindi scegliere il collegamento correlato.
-2. Creare una nuova fattura di acquisto. Per ulteriori informazioni, vedere [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md).
+2. Creare una nuova fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Assicurarsi che la fattura di acquisto abbia una o più righe di tipo Articolo.
 4. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.
 5. Nel campo **Quantità** immettere il numero di unità dell'addebito articolo che sono state fatturate.
@@ -78,7 +78,7 @@ Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati a
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Procedura: Fatturare le vendite](sales-how-invoice-sales.md)  
+[Registrare gli acquisti](purchasing-how-record-purchases.md)  
+[Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

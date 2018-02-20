@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Procedura: Creare ordini di assistenza
+# <a name="create-service-orders"></a>Creare ordini di assistenza
 La finestra **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.  
   
 Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. Alcuni campi sono facoltativi e molti vengono compilati automaticamente durante la compilazione dei campi correlati.  
@@ -52,7 +52,7 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  
   
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Offerte contratto assistenza**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta di assistenza da convertire in un ordine di assistenza.  
@@ -79,7 +79,7 @@ Se è necessario assicurarsi che un articolo sia disponibile per un ordine di as
 5. Nella pagina **Impegni** scegliere **Impegna da riga corrente**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Per inserire righe in base a codici di assistenza standard  
-Se sono stati impostati codici di servizio standard successivamente assegnati a gruppi di articoli in assistenza, è possibile inserire righe standard collegate ai codici sui documenti di assistenza. Per ulteriori informazioni, vedere [Procedura: Impostare codici di servizio standard](service-how-setup-service-coding.md).   
+Se sono stati impostati codici di servizio standard successivamente assegnati a gruppi di articoli in assistenza, è possibile inserire righe standard collegate ai codici sui documenti di assistenza. Per ulteriori informazioni, vedere [Impostare codici di servizio standard](service-how-setup-service-coding.md).   
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
 2. Creare un nuovo ordine di assistenza.  
@@ -106,8 +106,8 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 
 ## <a name="see-also"></a>Vedi anche  
 [Registrazione di assistenza](service-service-posting.md)  
-[Procedura: Registrare un ordine di assistenza](service-how-to-post-service-orders.md)  
+[Registrare un ordine di assistenza](service-how-to-post-service-orders.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-[Procedura: Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
-[Procedura: Assegnare risorse:](service-how-to-allocate-resources.md)  
+[Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
+[Assegnare risorse](service-how-to-allocate-resources.md)  
 

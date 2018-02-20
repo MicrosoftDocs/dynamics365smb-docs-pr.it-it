@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Creazione di società contatto
@@ -30,15 +30,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Impostare un contatto per una nuova società, da zero o da un cliente, un fornitore o da un conto corrente bancario. |[Procedura: Creare società contatto](marketing-how-create-contact-companies.md) |
+| Impostare un contatto per una nuova società, da zero o da un cliente, un fornitore o da un conto corrente bancario. |[Creare società contatto](marketing-how-create-contact-companies.md) |
 | Sincronizzare le informazioni nei contatti con dati comuni su clienti, fornitori e conti correnti bancari |[Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Descrivere la relazione d'affari che intercorre con un contatto di una società. |[Impostazione delle relazioni d'affari nelle società contatto](marketing-business-relations.md) |
-| Inserire la società di un contatto nel settore industriale appropriato, ad esempio Dettaglio. |[Procedura: Impostare settori industriali nelle società contatto](marketing-industry-groups.md) |
-| Impostare i gruppi di mailing che vengono utilizzati per identificare gruppi di contatti a cui inviare le stesse informazioni. |[Procedura: Impostare gruppi mailing nelle società contatto](marketing-mailing-groups.md) |
-| Impostare un indirizzo alternativo per un contatto. |[Procedura: Assegnare indirizzi alternativi a un contatto](marketing-how-assign-alternate-address.md) |
-| Assegnare origini Web (motori di ricerca e siti Web) ai contatti per indicare dove cercare informazioni sui contatti. |[Procedura: Impostare l'origine Web nei contatti](marketing-web-sources.md) |
+| Inserire la società di un contatto nel settore industriale appropriato, ad esempio Dettaglio. |[Impostare settori industriali nelle società contatto](marketing-industry-groups.md) |
+| Impostare i gruppi di mailing che vengono utilizzati per identificare gruppi di contatti a cui inviare le stesse informazioni. |[Impostare gruppi mailing nelle società contatto](marketing-mailing-groups.md) |
+| Impostare un indirizzo alternativo per un contatto. |[Assegnare indirizzi alternativi a un contatto](marketing-how-assign-alternate-address.md) |
+| Assegnare origini Web (motori di ricerca e siti Web) ai contatti per indicare dove cercare informazioni sui contatti. |[Impostare l'origine Web nei contatti](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di contatti](marketing-create-contact-persons.md)   
-[Utilizzo di Dynamics 365](ui-work-product.md)
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)
 

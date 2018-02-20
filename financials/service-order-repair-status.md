@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 36925a08f7fdfffedf13902a5c6feaaa8b0929a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ffd5d6893b2b6c8ce7b7377c586f4f5414279b5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-statuses-for-service-orders-and-repairs"></a>Procedura: Impostare gli stati per gli ordini di assistenza e le riparazioni
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Come impostare gli stati per gli ordini di assistenza e le riparazioni
 È necessario impostare opzioni relative allo stato della riparazione che indicano lo stato di avanzamento della riparazione e della manutenzione degli articoli in assistenza negli ordini di assistenza. È necessario impostare almeno nove opzioni di stato di riparazione che indichino le situazioni o le azioni intraprese durante le operazioni di assistenza effettuate sull'articolo.  
 
 È possibile impostare il livello di priorità per le opzioni relative allo stato dell'ordine di assistenza. Esistono quattro livelli di priorità: Alta, Medio Alta, Medio Bassa, Bassa.  

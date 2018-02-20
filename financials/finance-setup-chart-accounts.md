@@ -13,14 +13,14 @@ ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
-Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
+Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
 Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere nuovi conti.  
 
 ## <a name="adding-or-changing-accounts"></a>Aggiungere o modificare i conti
@@ -33,7 +33,7 @@ Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificar
 * Nel campo **Consenti Eliminaz. Conti C/G Anteriori a** della finestra **Setup Contabilità Generale** deve essere impostata una data ed è necessario che il conto non includa movimenti contabili in tale data o dopo tale data.  
 * Se il campo **Verifica Uso Conti C/G** della finestra **Setup Contabilità Generale** è selezionato, il conto non deve essere utilizzato in tutte le categorie di registrazione o impostazioni delle registrazioni.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
 
 ## <a name="see-also"></a>Vedi anche
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  

@@ -1,6 +1,6 @@
 ---
-title: Utilizzare Dynamics 365 sul dispositivo mobile| Documenti Microsoft
-description: "È possibile visualizzare e modificare i dati di Dynamics 365 sul telefono o sul tablet."
+title: Utilizzare Finance and Operations, Business edition sul dispositivo mobile | Documenti Microsoft
+description: "È possibile visualizzare e modificare i dati di Finance and Operations, Business edition sul telefono o sul tablet."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14bd909e8ec09a940285317a5980c76d0ba22b99
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Scaricare Dynamics 365 for Finance and Operations sul dispositivo mobile
+# <a name="getting-finance-and-operations-business-edition-for-finance-and-operations-on-your-mobile-device"></a>Download di Finance and Operations, Business edition for Finance and Operations sul dispositivo mobile
 Accedere ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]  dal dispositivo mobile. È possibile accedere ai dati aziendali, utilizzare le funzionalità come l'invio a Excel o Office 365, visualizzare grafici e indicatore KPI aggiornati, inviare tramite posta elettronica offerte e fatture di vendita, scattare e allegare foto tramite la fotocamera. Seguire i passaggi indicati di seguito per scaricare l'app e per iniziare.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Per ottenere l'app sul dispositivo mobile

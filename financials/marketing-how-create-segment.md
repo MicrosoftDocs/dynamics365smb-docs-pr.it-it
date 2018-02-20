@@ -1,6 +1,6 @@
 ---
 title: Creare segmenti| Documenti Microsoft
-description: Descrive come creare un segmento per un gruppo di contatti in Dynamics 365 Business edition, ad esempio, per rivolgersi a diversi contatti tramite messaggi di posta diretti.
+description: Descrive come creare un segmento per un gruppo di contatti in Finance and Operations, Business edition, ad esempio, per rivolgersi a diversi contatti tramite messaggi di posta diretti.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-segments"></a>Procedura: creare segmenti
+# <a name="create-segments"></a>Creare segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).
 
 ## <a name="to-create-a-segment"></a>Per creare un segmento
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/10/2017
     In alternativa, se è stata impostata una numerazione per i segmenti nella finestra **Setup marketing**, è possibile premere INVIO per selezionare automaticamente il successivo numero di segmento disponibile.
 4. Compilare gli altri campi sulla testata.
 
-A questo punto è possibile aggiungere i contatti al segmento. Per ulteriori informazioni, vedere [Procedura: aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
+A questo punto è possibile aggiungere i contatti al segmento. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei segmenti](marketing-segments.md)  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e167129e8a8bc5f10a0f9de4c384c06de030bbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-cross-dock-items"></a>Procedura: Sottoporre gli articoli a cross-dock
+# <a name="cross-dock-items"></a>Sottoporre gli articoli a cross-dock
 La funzionalità di cross-docking è disponibile se l'ubicazione è stata impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse.  
 
 Quando vengono sottoposti a cross-dock, gli articoli vengono gestiti durante il carico e la spedizione senza essere mai immagazzinati effettivamente. Ciò consente di accelerare i tempi dei processi di stoccaggio e prelievo e di ridurre al minimo la gestione fisica degli articoli. È possibile sottoporre gli articoli a cross-dock sia per le spedizioni che per gli ordini di produzione. Quando si prepara una spedizione o si prelevano articoli per la produzione e si utilizzano le collocazioni, l'articolo viene automaticamente prelevato da una collocazione di cross-dock prima di qualsiasi altra collocazione. Prima di prelevare gli articoli dall'area in cui vengono solitamente immagazzinati, è necessario esaminare l'area di cross-dock per verificare se gli articoli necessari sono disponibili in tale ubicazione.  
@@ -39,9 +39,9 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Per impostare la warehouse per il cross-docking  
 1.  Impostare almeno una collocazione di cross-dock, se si utilizzano le collocazioni. Impostare una zona di cross-dock, se si utilizzano stoccaggi e prelievi guidati.  
 
-    Per una collocazione cross-dock è selezionato il campo **Collocazione cross-dock** e devono essere selezionati i tipi di collocazione **Ricevi** e **Prelievo**. Per ulteriori informazioni, vedere [Procedura: Creare collocazioni](warehouse-how-to-create-individual-bins.md) e [Procedura: Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
+    Per una collocazione cross-dock è selezionato il campo **Collocazione cross-dock** e devono essere selezionati i tipi di collocazione **Ricevi** e **Prelievo**. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md) e [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
 
-    Se si utilizzano le zone, creare una zona per le collocazioni cross-dock e selezionare il campo **Zona collocazione cross-dock**. Per ulteriori informazioni, vedere [Procedura: Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Se si utilizzano le zone, creare una zona per le collocazioni cross-dock e selezionare il campo **Zona collocazione cross-dock**. Per ulteriori informazioni, vedere [Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
 3.  Nella finestra **Ubicazione** selezionare l'ubicazione in cui si desidera impostare la warehouse per il cross-dock, quindi scegliere l'azione **Modifica**.  
@@ -59,7 +59,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità  
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Carichi warehouse**, quindi scegliere il collegamento correlato.  
-2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Procedura: Ricevere articoli](warehouse-how-receive-items.md).  
+2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Ricevere articoli](warehouse-how-receive-items.md).  
 3.  Compilare il campo **Qtà da ricevere** e scegliere l'azione **Calcola cross-dock**.  
 
     I documenti di origine in uscita in cui vengono richiesti gli articoli programmati per uscire dalla warehouse entro il periodo di tempo indicato nella formula di data vengono identificati.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola le quantità affinché sia possibile sottoporre a cross-dock il maggior numero possibile di articoli in modo da evitare lo stoccaggio, senza l'accumulo di un numero eccessivo di articoli nell'area di cross-dock. Il valore nel campo **Qtà per cross-dock** corrisponde pertanto alla somma di tutte le righe in uscita per cui viene richiesto l'articolo entro il periodo di tolleranza meno la quantità degli articoli che sono già stati posizionati nell'area di cross-dock oppure al valore contenuto nel campo **Qtà da ricevere** della riga di carico, a seconda di quale valore sia inferiore. Non è possibile sottoporre a cross-dock una quantità di articoli superiore a quella ricevuta.  
@@ -76,7 +76,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli dopo la visualizzazione delle opportunità  
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Carichi warehouse**, quindi scegliere il collegamento correlato.  
-2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Procedura: Ricevere articoli](warehouse-how-receive-items.md).  
+2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Ricevere articoli](warehouse-how-receive-items.md).  
 
     Si desidera visualizzare le righe dei documenti di origine in cui viene richiesto l'articolo prima di registrare il carico.  
 3.  Scegliere l'azione **Calcola cross-dock**.  
@@ -84,7 +84,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
     Nella finestra **Opportunità di cross-dock** sono riportati i dettagli essenziali relativi alle righe per cui viene richiesto l'articolo, tra cui il tipo di documento, la quantità richiesta e la data di scadenza. Sulla base di queste informazioni, è possibile stabilire la quantità di articoli da sottoporre a cross-dock, dove posizionare gli articoli nell'area di cross-dock o come raggrupparli.  
 
 4.  Scegliere l'azione **Autocompilazione qtà. fino a cross-dock** per vedere come vengono calcolate le quantità nelle righe di carico. Quando si modifica il numero di articoli nel campo **Qtà per cross-dock** di ogni riga, il calcolo viene aggiornato mentre si apportano le modifiche. Ciò non significa che lo specifico ordine di spedizione o di produzione riceverà effettivamente la quantità di articoli suggerita per il cross-dock, in quanto tali modifiche vengono apportate esclusivamente a scopo di test. Il processo può tuttavia fornire informazioni utili nel caso in cui siano coinvolte più unità di misura.  
-5.  Se si desidera impegnare una quantità dell'articolo per una determinata riga ordine, posizionare il cursore sulla riga e scegliere l'azione **Impegno**. Nella finestra **Impegni** è possibile impegnare una qualsiasi quantità disponibile dell'articolo per questo ordine specifico. Tale impegno viene considerato come qualsiasi altro impegno e non ha priorità più alta perché è stato creato in relazione al cross-docking. Per ulteriori informazioni, vedere [Procedura: Impegnare articoli](inventory-how-to-reserve-items.md).   
+5.  Se si desidera impegnare una quantità dell'articolo per una determinata riga ordine, posizionare il cursore sulla riga e scegliere l'azione **Impegno**. Nella finestra **Impegni** è possibile impegnare una qualsiasi quantità disponibile dell'articolo per questo ordine specifico. Tale impegno viene considerato come qualsiasi altro impegno e non ha priorità più alta perché è stato creato in relazione al cross-docking. Per ulteriori informazioni, vedere [Prenotare articoli](inventory-how-to-reserve-items.md).   
 6.  Al termine delle operazioni di ricalcolo o impegno, fare clic su **OK** per immettere il calcolo rettificato nel campo **Qtà per cross-dock** della riga di carico oppure fare clic su **Annulla** per tornare al carico warehouse, dove è possibile calcolare nuovamente il cross-dock, se necessario.  
 7.  A questo punto, registrare il carico e procedere con l'istruzione di stoccaggio come descritto nei passaggi da 3 a 7 nella sezione “Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità”.  
 

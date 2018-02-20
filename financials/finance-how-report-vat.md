@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -52,7 +52,7 @@ Per la dichiarazione IVA è possibile specificare i movimenti per includere:
 * Inviare solo movimenti da periodi specificati, o includere anche i movimenti di periodi precedenti. Ciò risulta utile quando si deve aggiornare la dichiarazione IVA già inviata, ad esempio, se un fornitore invia una fattura in ritardo.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Per connettersi al servizio Web dell'autorità fiscale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include le connessioni di servizio ai siti Web delle autorità fiscali. Nel Regno Unito, ad esempio, è possibile abilitare la connessione di servizio **GovTalk** per inviare elettronicamente i report Lista vendite UE e Dichiarazione IVA. Se si desidera inviare il report manualmente, ad esempio inserendo i dati sul sito Web dell'autorità fiscale, questa connessione non è necessaria.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  include le connessioni di servizio ai siti Web delle autorità fiscali. Nel Regno Unito, ad esempio, è possibile abilitare la connessione di servizio **GovTalk** per inviare elettronicamente i report Lista vendite UE e Dichiarazione IVA. Se si desidera inviare il report manualmente, ad esempio inserendo i dati sul sito Web dell'autorità fiscale, questa connessione non è necessaria.   
 
 Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] al servizio Web dell'autorità fiscale. Tale soluzione richiede l'impostazione di un account con l'autorità fiscale. Dopo avere impostato un account, è possibile abilitare la connessione di servizio fornita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
 4. Per convalidare e preparare il report per l'invio, scegliere l'azione **Rilascio**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica che il report sia impostato correttamente. Se la convalida ha esito negativo, gli errori vengono visualizzati in **Errori e avvisi** per consentirne la correzione. In genere, se il messaggio è relativo a un'impostazione mancante in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile fare clic sul messaggio per aprire la pagina che contiene le informazioni da correggere.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  verifica che il report sia impostato correttamente. Se la convalida ha esito negativo, gli errori vengono visualizzati in **Errori e avvisi** per consentirne la correzione. In genere, se il messaggio è relativo a un'impostazione mancante in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile fare clic sul messaggio per aprire la pagina che contiene le informazioni da correggere.  
 5. Per inviare il report, scegliere l'azione **Invia**.  
 
 Dopo avere inviato il report, [!INCLUDE[d365fin](includes/d365fin_md.md)] controlla il servizio e memorizza un record delle comunicazioni. Il campo **Stato** indica se il report è in esecuzione. Ad esempio, quando le autorità elaborano il report, lo stato del report diventa **Operazione completata**. Se l'autorità fiscale trova errori nel report inviato, lo stato del report diventa **Operazione non riuscita**. È possibile visualizzare gli errori in **Errori e avvisi**, correggerli e quindi inviare il report nuovamente. Per visualizzare un elenco di tutti i report Lista vendite UE, andare alla pagina **Report lista vendite UE**.  
@@ -114,7 +114,7 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
-[Procedura: Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Procedura: Fatturare le vendite](sales-setup-sales.md)  
+[Fatturare le vendite](sales-setup-sales.md)  
 

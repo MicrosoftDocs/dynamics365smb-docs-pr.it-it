@@ -1,6 +1,6 @@
 ---
-title: Configurare la posta elettronica in Dynamics 365 Business edition | Documenti Microsoft
-description: "Descrive come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno dei Dynamics 365 o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365."
+title: Configurare la posta elettronica in Finance and Operations, Business edition | Documenti Microsoft
+description: "Descrive come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno di Finance and Operations, Business edition o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Procedura: Impostare la posta elettronica manualmente o tramite il setup assistito
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Impostare la posta elettronica manualmente o tramite il setup assistito
 Per registrare e ricevere messaggi e-mail da [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario compilare i campi nella finestra **Setup posta elettronica SMTP**.
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Per registrare e ricevere messaggi e-mail da [!INCLUDE[d365fin](includes/d365fin
 ## <a name="see-also"></a>Vedi anche  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md)  
 [Scaricare [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)

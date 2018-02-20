@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Procedura: Come gestire le attività di conto lavoro
+# <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
 
 Nel programma sono disponibili diversi strumenti per la gestione delle attività di conto lavoro:  
@@ -41,12 +41,12 @@ Le aree di produzione conto lavoro possono essere utilizzate per operazioni nei 
 
 È possibile impostare un ciclo in cui venga utilizzata un'area di produzione esterna come passaggio operativo standard. In alternativa, è possibile modificare il ciclo per un determinato ordine di produzione in modo da includere un'operazione esterna. Questo metodo può risultare necessario in una situazione di emergenza, ad esempio in caso di malfunzionamento di un server, oppure durante un periodo temporaneo di maggiore domanda, in cui il lavoro normalmente eseguito internamente deve essere inviato a un terzista.  
 
-Per ulteriori informazioni, vedere [Procedura: Creare cicli](production-how-to-create-routings.md).  
+Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Prospetto conto lavoro  
 Dopo avere calcolato il prospetto conto lavoro, viene creato il documento pertinente, in questo caso un ordine di acquisto.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Procedura: Calcolare i prospetti conto lavoro e creare gli ordini di acquisto conto lavoro
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcolare i prospetti conto lavoro e creare gli ordini di acquisto conto lavoro
 La finestra **Prospetto conto lavoro** funziona come il **Prospetto pianific.** nel calcolo dell'approvvigionamento necessario, in questo caso degli ordini di acquisto, che si esaminano nel prospetto e quindi si creano mediante la funzione **Esegui messaggi di azione**.  
 
 > [!NOTE]  

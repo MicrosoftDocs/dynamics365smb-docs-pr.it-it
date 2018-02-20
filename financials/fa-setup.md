@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
@@ -31,17 +31,14 @@ Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. D
 
 Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della finestra **Scheda registro beni ammortizz.**, la finestra **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
 
-> [!NOTE]  
->  Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di Financials](ui-experiences.md).  
-
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
 | Per | Vedere |
 | --- | --- |
-| Impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione del cespite e impostare le classi e le sottoclassi e dei cespiti, ad esempio materiali e immateriali. |[Procedura: Impostare i valori generali per i cespiti](fa-how-setup-general.md) |
-| Creare registri beni ammortizzabili, definire diversi metodi di ammortamento, integrare con la contabilità generale e abilitare la duplicazione dei movimenti in più registri. |[Procedura: Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md) |
-| Abilitare l'assicurazione dei cespiti, impostare le informazioni generali dell'assicurazione, una scheda assicurazione per ogni polizza e preparare le registrazioni per registrare i costi delle assicurazioni. |[Procedura: Impostare l'assicurazione cespiti](fa-how-setup-insurance.md) |
-| Abilitare la manutenzione dei cespiti, impostare le informazioni di manutenzione generali, i conti di registrazione di manutenzione e definire i tipi di lavoro di manutenzione. |[Procedura: Impostare la manutenzione cespiti](fa-how-setup-maintenance.md) |
+| Impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione del cespite e impostare le classi e le sottoclassi e dei cespiti, ad esempio materiali e immateriali. |[Impostare i valori generali per i cespiti](fa-how-setup-general.md) |
+| Creare registri beni ammortizzabili, definire diversi metodi di ammortamento, integrare con la contabilità generale e abilitare la duplicazione dei movimenti in più registri. |[Impostare l'ammortamento dei cespiti](fa-how-setup-depreciation.md) |
+| Abilitare l'assicurazione dei cespiti, impostare le informazioni generali dell'assicurazione, una scheda assicurazione per ogni polizza e preparare le registrazioni per registrare i costi delle assicurazioni. |[Impostare l'assicurazione cespiti](fa-how-setup-insurance.md) |
+| Abilitare la manutenzione dei cespiti, impostare le informazioni di manutenzione generali, i conti di registrazione di manutenzione e definire i tipi di lavoro di manutenzione. |[Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md) |
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi ammortamento](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Vedi anche

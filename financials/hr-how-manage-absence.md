@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Gestire le assenze di un dipendente | Microsoft Docs'
+title: Gestire le assenze di un dipendente | Microsoft Docs
 description: Descrive come registrare le assenze dei dipendenti e analizzare le statistiche sulle assenze.
 services: project-madeira
 documentationcenter: 
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 09/08/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c5ce7e72c7084995b16b574f3ad670c815ef9ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 13461418fd89c8eb743b88b5a2ed98f24a520571
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-employee-absence"></a>Procedura: Gestire le assenze di un impiegato
+# <a name="manage-employee-absence"></a>Gestire le assenze di un impiegato
 Per gestire le assenze di un impiegato, è necessario registrare l'assenza nella finestra **Registrazione assenza**. Le informazioni possono quindi essere visualizzate in diversi modi per esigenze di analisi e creazione report.
 
 Le assenze degli impiegati possono essere visualizzate in due finestre diverse:
@@ -48,7 +48,7 @@ Per ottenere statistiche significative, per le registrazioni delle assenze degli
 ## <a name="to-view-an-employees-absence-by-categories"></a>Per visualizzare le assenze di un impiegato per categorie
 1. Nell'angolo superiore destro, scegliere l'icona **Cerca pagina o report**, immettere **Impiegati**, quindi scegliere il collegamento correlato.
 2. Selezionare l'impiegato di interesse e quindi scegliere l'azione **Assenze per categoria**.
-3. Nella finestra **Assenze impieg. per categorie**, compilare i campi filtro come necessario e quindi scegliere *l'azione **Mostra matrice**.
+3. Nella finestra **Assenze impieg. per categorie**, compilare i campi filtro come necessario e quindi scegliere l'azione **Mostra matrice**.
 
     La finestra **Assenze imp. per matrice cat.** si apre e mostra tutte le assenze, suddivise per cause di assenza.
 

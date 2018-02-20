@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Procedura: Spostare componenti in un'area di operazione nelle configurazioni della warehouse di base
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.  
 
 > [!NOTE]  
 >  Per informazioni sullo spostamento di articoli tra collocazioni senza documenti di origine, vedere Movimentazione interna.  
 
-Nelle configurazioni warehouse avanzate, ovvero ubicazioni che utilizzano il campo di setup **Stoccaggi e prelievi guidati**, è possibile utilizzare la finestra **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni. Per ulteriori informazioni, vedere [Procedura: Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Nelle configurazioni warehouse avanzate, ovvero ubicazioni che utilizzano il campo di setup **Stoccaggi e prelievi guidati**, è possibile utilizzare la finestra **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni. Per ulteriori informazioni, vedere [Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Nelle configurazioni di warehouse di base, ovvero ubicazioni che utilizzano il campo di setup **Collocazione obbligatoria** e il campo di setup **Richiesto prelievo**, è possibile registrare le movimentazioni di articoli nelle aree delle operazioni interne in base ai documenti di origine interni nei seguenti modi:  
 
@@ -44,7 +44,7 @@ In alternativa, un lavoratore warehouse può crearlo scegliendo l'ordine di asse
 > [!NOTE]  
 >  Se la movimentazione riguarda un ordine di assemblaggio in cui l'articolo è assemblato in base a un ordine di vendita, è possibile definire che il documento di movimento di magazzino viene creato automaticamente quando si crea il documento di prelievo magazzino che accetta l'articolo di assemblaggio completato e registra la spedizione. Per impostare questa operazione, selezionare il campo **Crea movimenti automaticamente** nella finestra **Setup assemblaggio**.  
 >   
->  Per ulteriori informazioni sugli ordini di assemblaggio e nelle configurazioni di base della warehouse, vedere la sezione "Gestione di articoli da assemblare su ordine con prelievi magazzino" in [Procedura: Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).  
+>  Per ulteriori informazioni sugli ordini di assemblaggio e nelle configurazioni di base della warehouse, vedere la sezione "Gestione di articoli da assemblare su ordine con prelievi magazzino" in [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).  
 
 La procedura seguente mostra come creare un movimento di magazzino nella finestra **Movimento di magazzino** facendo riferimento a un ordine di assemblaggio rilasciato come documento di origine. La procedura è la stessa quando si spostano componenti per gli ordini di produzione e gli ordini di assistenza.  
 

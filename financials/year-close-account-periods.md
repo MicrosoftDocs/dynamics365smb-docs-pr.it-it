@@ -13,13 +13,13 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 859801a5e9d9b900aed6af5fe672f650932b2e79
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e136195c7b89635ca85601cdae5047493c237d09
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-accounting-periods"></a>Procedura: Chiudere i periodi contabili
+# <a name="close-accounting-periods"></a>Chiudere periodi contabili
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
@@ -40,7 +40,7 @@ Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e tra
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura registri](year-close-books.md)  
-[Procedura: Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
-[Procedura: aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
+[Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
+[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

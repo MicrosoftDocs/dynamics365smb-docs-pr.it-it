@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Procedura: Analisi degli importi effettivi e degli importi di budget
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
 
-Per analizzare gli importi di budget, è prima necessario creare budget C/G. Per ulteriori informazioni, vedere [Procedura: Creare budget C/G](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Per analizzare gli importi di budget, è prima necessario creare budget C/G. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>Per visualizzare un budget C/G
 In un budget per cui siano state impostate delle dimensioni è possibile filtrare i movimenti e visualizzare budget specifici.
@@ -69,7 +66,7 @@ Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'inter
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  
-[Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
+[Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  

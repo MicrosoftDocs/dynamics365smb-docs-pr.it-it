@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: it-it
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedura: Impostare e registrare report Intrastat
@@ -85,7 +85,7 @@ Il processo batch recupererà tutti i movimenti articolo nel periodo statistico 
 > [!IMPORTANT]  
 >  Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Procedura: Creare report Intrastat come form o come file
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Creare report Intrastat come form o come file
 Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statistica, è necessario stampare il report **Intrastat - Form**. Prima di eseguire questa operazione, è necessario preparare le registrazioni Intrastat e compilarle. Se vi sono sia transazioni di vendita che di acquisto, è necessario compilare un form separato per ciascun tipo e stampare il report due volte.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
@@ -95,7 +95,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 5. Nella Scheda dettaglio **Righe reg. Intrastat** aggiungere un filtro **Tipo**, quindi specificare se si tratta di **Carico** o **Spedizione**.  
 6. Per stampare il report, fare clic su **Invia a**.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Procedura: Creare un report Intrastat in un file
+### <a name="report-intrastat-in-a-file"></a>Creare un report Intrastat in un file
 È possibile inviare il report Intrastat come file. Prima di creare il file è possibile stampare un report di controllo che conterrà le stesse informazioni presenti nel file.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
@@ -106,7 +106,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 6. Selezionare **Salva**.  
 7. Spostarsi sul percorso in cui si desidera salvare il file, quindi immettere il nome file desiderato e fare clic su **Salva**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Procedura: Riorganizzare registrazioni Intrastat
+## <a name="reorganize-intrastat-journals"></a>Riorganizzare registrazioni Intrastat
 I report Intrastat vengono presentati con cadenza mensile e per ogni report è necessario creare un nuovo batch di registrazioni. Dopo un certo periodo, si saranno accumulati diversi batch di registrazioni. Le righe di registrazioni non vengono eliminate automaticamente. È possibile riorganizzare periodicamente i nomi batch contabili. Questa operazione viene effettuata eliminando i batch di registrazioni non più necessari. Vengono eliminate anche le righe di registrazioni di questi batch.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
@@ -115,6 +115,4 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione contabile](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

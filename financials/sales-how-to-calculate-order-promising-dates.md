@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Procedura: Calcolare le date per la promessa ordine
+# <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La finestra **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
 
 Sulla base delle date di disponibilità note e previste di un articolo, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola immediatamente le date di spedizione e di consegna, che possono quindi essere promesse al cliente.  
@@ -39,7 +39,7 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 ## <a name="about-order-promising"></a>Informazioni sulla promessa ordine
 La funzionalità di promessa ordine consente di garantire la spedizione di un ordine in una determinata data. La data per la quale si garantisce la disponibilità dell'articolo e vengono create delle righe d'ordine per quella data che devono essere confermate dall'utente. La funzionalità consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Vengono inoltre create righe di richiesta, nel caso gli articoli debbano essere prima acquistati, per le date confermate dall'utente.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilizza due concetti fondamentali:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  utilizza due concetti fondamentali:  
 
 - ATP (Available-to-Promise)  
 - CTP (Capable-to-Promise)  
@@ -48,8 +48,10 @@ La funzionalità di promessa ordine consente di garantire la spedizione di un or
 Con ATP (Available-to-Promise) vengono calcolate le date sulla base del sistema di impegno. Viene eseguito un controllo di disponibilità delle quantità non impegnate in magazzino per quanto riguarda la produzione pianificata, gli acquisti, i trasferimenti e i resi di vendita. Sulla base di queste informazioni, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente la data di consegna dell'ordine del cliente perché gli articoli sono disponibili, in magazzino o nei carichi pianificati.  
 
 ### <a name="capable-to-promise"></a>CTP (Capable-to-Promise)  
-La funzione CTP (Capable-to-Promise) presuppone uno scenario "what-if" in cui l'articolo non si trova in magazzino e non è presente alcun ordine programmato. In base a questo scenario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola la prima data in cui l'articolo sarà disponibile se deve essere prodotto, acquistato oppure trasferito.  
+CTP (Capable-to-Promise) presuppone uno scenario "what if", che si applica solo alle quantità di articoli che non sono in inventario o sugli ordini pianificati. In base a questo scenario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola la prima data in cui l'articolo sarà disponibile se deve essere prodotto, acquistato oppure trasferito.
 
+#### <a name="example"></a>Esempio
+Se è presente un ordine per 10 pezzi e 6 pezzi sono disponibili in inventario o in ordini programmati, il calcolo CTP (Capable-to-Promise) sarà basato su 4 pezzi.
 
 ### <a name="calculations"></a>Calcoli  
 Quando in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene calcolata la data di spedizione del cliente, vengono eseguiti due task:  
@@ -62,7 +64,7 @@ Se il cliente non richiede una data di consegna specifica, la data di spedizione
 - Data spedizione + Warehouse in uscita + Spedizione pianificata + Tempo di gestione = Data  
 - Data di spedizione pianificata + Durata spedizione = Data di consegna pianificata  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] verifica quindi se la data di consegna calcolata è realistica calcolando un periodo indietro nel tempo per determinare quando l'articolo deve essere disponibile per soddisfare la data promessa. Ciò avviene tramite le seguenti formule:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  verifica quindi se la data di consegna calcolata è realistica calcolando un periodo indietro nel tempo per determinare quando l'articolo deve essere disponibile per soddisfare la data promessa. Ciò avviene tramite le seguenti formule:  
 
 - Data di consegna pianificata - Durata spedizione = Data di spedizione pianificata  
 - Data di spedizione pianificata - Gestione uscita da warehouse = Data spedizione  
@@ -73,7 +75,7 @@ In base alle nuove date e ore, tutte le date correlate sono calcolate in base al
 
 Il gestore ordini completa il processo CTP accettando le date. Ciò significa che vengono create una riga di pianificazione e un movimento di impegno per l'articolo prima delle date calcolate per garantire che l'ordine venga soddisfatto.  
 
-Oltre alle promesse d'ordine esterne che è possibile eseguire nella finestra **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
+Oltre alle promesse d'ordine esterne che è possibile eseguire nella finestra **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Per impostare le promesse ordine  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup promessa ordine**, quindi scegliere il collegamento correlato.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
@@ -34,7 +34,7 @@ In questa procedura dettagliata sono descritti i task seguenti:
 ### <a name="prerequisites"></a>Prerequisiti  
 Per completare questa procedura dettagliata, sarà necessario:  
 
-- Aver installato [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] Aver installato .  
 - Registrazione delle righe del prospetto del flusso di cassa.  
 
 ## <a name="roles"></a>Ruoli  
@@ -88,7 +88,7 @@ Ken è ora pronto per assegnare il layout colonna al nome della situazione conta
 3.  Scegliere l'azione **Stampa** per stampare la previsione del flusso di cassa.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)   
+ [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

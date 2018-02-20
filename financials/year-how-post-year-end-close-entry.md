@@ -13,13 +13,13 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78039e9387866ce17ff3be5a2ff509545e8439d2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-the-year-end-closing-entry"></a>Procedura: registrare il movimento di chiusura di fine anno
+# <a name="post-the-year-end-closing-entry"></a>Registrare il movimento di chiusura di fine anno
 Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare il movimento o i movimenti di chiusura di fine anno, è necessario aprire le registrazioni specificate nel processo batch, quindi analizzare e registrare i movimenti.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno
@@ -32,7 +32,7 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 >   Se viene rilevato un errore, viene visualizzato un messaggio di errore. Se la registrazione avviene correttamente, i movimenti registrati vengono rimossi dalle registrazioni. Dopo il completamento della registrazione, in ogni conto economico viene registrato un movimento in modo che il relativo saldo sia uguale a zero, e il risultato dell'anno viene trasferito al conto patrimoniale.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Chiudere i periodi contabili](year-close-account-periods.md)  
+[Chiudere periodi contabili](year-close-account-periods.md)  
 [Chiusura registri](year-close-books.md)  
 [Chiudi conto economico](year-close-income-statement.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

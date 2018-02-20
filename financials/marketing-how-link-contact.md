@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-link-contacts-with-customers-vendors-and-bank-accounts"></a>Procedura: Collegamento di contatti con clienti, fornitori e conti correnti bancari
+# <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Collegamento di contatti con clienti, fornitori e conti correnti bancari
 Se è presente un contatto o un cliente, un fornitore o conto bancario per la medesima società, è possibile collegare le due entità. Collegare le due entità consente di sincronizzare i dati comuni in modo che siano identici in entrambe le aree.
 
 ## <a name="link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Collegare un contatto da un cliente, un fornitore o un conto

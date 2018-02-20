@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a683d2f88f8c30d457d44facd21b0068688ad05a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-bin-replenishment"></a>Procedura: Calcolare il rifornimento della collocazione
+# <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
 Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione. Le priorità includono le quantità minima e massima di contenuto collocazione fissate per una collocazione specifica e le valutazioni delle collocazioni. Pertanto, se gli articoli giungono in magazzino a intervalli regolari, le collocazioni di prelievo più utilizzate vengono riempite non appena vengono svuotate.  
 
 Tuttavia, non sempre la frequenza di arrivo degli articoli in magazzino è costante. Talvolta la società acquista grandi quantitativi di articoli in modo da ottenere una riduzione sul prezzo oppure l'unità di produzione può attendere che venga terminato un intero lotto di un singolo articolo in modo da ridurre il costo unitario. In tal caso, l'arrivo degli articoli nella warehouse si interromperà per un certo periodo e si renderà necessario spostare periodicamente gli articoli dalle aree di immagazzinamento a massa alle collocazioni di prelievo.  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Procedura: Impostare un programma di prestito articoli
+# <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  
   
 * Immettere una nota o un commento relativo all'articolo in prestito.  
@@ -33,7 +33,7 @@ Talvolta è necessario fornire a un cliente un articolo in prestito da poter uti
 5. Nel campo **Cod. unità di misura** scegliere l'unità di misura appropriata.  
   
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Dare e ricevere articoli in prestito](service-how-to-lend-receive-loaners.md)  
+[Dare e ricevere articoli in prestito](service-how-to-lend-receive-loaners.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 

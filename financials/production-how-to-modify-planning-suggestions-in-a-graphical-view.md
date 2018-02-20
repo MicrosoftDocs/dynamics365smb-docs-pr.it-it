@@ -1,6 +1,6 @@
 ---
 title: Come modificare i suggerimenti di pianificazione in una visualizzazione grafica | Microsoft Docs
-description: "Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione**. Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica."
+description: "Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Procedura: Modificare i suggerimenti di pianificazione in una visualizzazione grafica
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
 Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 
 Nella finestra **Disponibilità articolo per sequenza temporale** è possibile modificare gli ordini e i suggerimenti di approvvigionamento trascinando gli elementi lungo l'asse x per modificare la quantità o lungo l'asse y per modificare la data di scadenza.  
@@ -49,7 +49,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
 
     |Funzione|Descrizione|  
     |--------------|---------------------------------------|  
-    |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche**.<br /><br /> **NOTA:** se i campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** sono vuoti o hanno più di un valore di filtro, il nuovo approvvigionamento viene creato e successivamente viene salvato nel prospetto di pianificazione o nella richiesta di approvvigionamento con i seguenti codici:<br /><br /> *Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.<br /><br /> *Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato per il primo valore del filtro in base al metodo di ordinamento.<br /><br /> Se si desidera un altro codice variante o ubicazione, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
+    |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche**.<br /><br /> **NOTA:** se i campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** sono vuoti o hanno più di un valore di filtro, il nuovo approvvigionamento viene creato e successivamente viene salvato nel prospetto di pianificazione o nella richiesta di approvvigionamento con i seguenti codici:<br /><br /> * Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.<br /><br /> * Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato per il primo valore del filtro in base al metodo di ordinamento.<br /><br /> Se si desidera un altro codice variante o ubicazione, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
     |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
     |**Elimina approvvigionamento**|Elimina l'elemento nella Scheda dettaglio **Sequenza temporale** ed elimina la riga di pianificazione quando si sceglie **Salva modifiche**. L'icona assume la forma di un disco con una croce rossa quando l'approvvigionamento è stato eliminato.<br /><br /> **NOTA:** è possibile eliminare solo un approvvigionamento del tipo di messaggio di azione **Nuovo**. Dopo aver scelto **Salva modifiche**, è necessario eliminare manualmente la riga di pianificazione in questione nel prospetto di pianificazione o nella richiesta di approvvigionamento.|  
 

@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Procedura: Assegnare risorse
-L'elemento chiave della gestione dell'assistenza sono le persone che forniscono i servizi di assistenza. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo da assegnare le persone ai processi in modo appropriato. Le assegnazioni possono essere effettuate in base alle zone di assistenza in cui il personale è dislocato oppure a dove l'intervento di assistenza avrà luogo. Quando si risponde a richieste di assistenza è inoltre possibile raggruppare le risorse. Per ulteriori informazioni, vedere [Procedura: Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Assegnare risorse
+L'elemento chiave della gestione dell'assistenza sono le persone che forniscono i servizi di assistenza. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo da assegnare le persone ai processi in modo appropriato. Le assegnazioni possono essere effettuate in base alle zone di assistenza in cui il personale è dislocato oppure a dove l'intervento di assistenza avrà luogo. Quando si risponde a richieste di assistenza è inoltre possibile raggruppare le risorse. Per ulteriori informazioni, vedere [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md).
 
 È possibile assegnare le risorse, ad esempio i tecnici, utilizzando il **Quadro attività** o da un ordine di assistenza. È possibile utilizzare la disponibilità delle risorse per assegnare risorse che svolgano compiti di assistenza negli ordini o nelle offerte.
 
@@ -142,6 +142,6 @@ La seguente procedura mostra come dividere le righe della risorsa nella finestra
     > Nel campo **Stato** verrà automaticamente selezionata l'opzione **Riassegnazione necessaria**. Se lo stato di riparazione dell'articolo in assistenza nel movimento è **Iniziale**, verrà impostato su **Demandato**, che indica che l'assistenza non è iniziata. Se lo stato di riparazione è **In corso**, passerà a **Parzialmente assistito**, ovvero parte dell'assistenza è stata completata.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)  
+[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)  
 [Stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Procedura: Creare fatture o note di credito di assistenza
+# <a name="create-service-invoices-or-credit-memos"></a>Creare fatture o note di credito di assistenza
 La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile inviare una fattura ai clienti in qualsiasi istante oppure creare fatture su base periodica.  
   
 Per creare direttamente una fattura, è possibile utilizzare la finestra **Contratto di assistenza**. È inoltre possibile impostare il sistema in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente.  
@@ -99,7 +99,7 @@ Una nota di credito di assistenza viene in genere utilizzata quando un cliente r
 4. Nelle righe della nota di credito immettere le informazioni relative agli articoli resi o rimossi oppure al risarcimento concesso al cliente.  
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Registrare le fatture di assistenza](service-how-to-post-service-orders.md)  
+[Registrare le fatture di assistenza](service-how-to-post-service-orders.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Registrazione di assistenza](service-service-posting.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Procedura: Pianificare stoccaggi nei prospetti
+# <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
 
 Per impostare la warehouse in modo che le righe di carico siano rese disponibili nel prospetto stoccaggi non appena vengono registrate, selezionare il campo **Usa prospetto stoccaggi** nella Scheda dettaglio **Warehouse** della scheda ubicazione. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 
     -   È possibile assegnare lo stoccaggio a un addetto al magazzino specifico.  
     -   È possibile ordinare le righe delle istruzioni di stoccaggio in base agli stessi criteri di ordinamento utilizzati nel prospetto o in base alla valutazione collocazione. Quando si esegue un ordinamento in base alla valutazione collocazione, le righe Prendere vengono visualizzate per prime, in quanto alla maggior parte delle collocazioni carichi è associata una valutazione pari a 0, mentre le righe Mettere vengono visualizzate per ultime a partire dalle collocazioni con valutazione più bassa. Se la warehouse è stata strutturata in modo che le collocazioni con valutazione simile siano posizionate l'una accanto all'altra, questa modalità di ordinamento delle righe comporta una semplificazione delle operazioni che gli impiegati warehouse dovranno eseguire.  
-    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni, vedere [Procedura: Abilitare breakbulk automatico con stoccaggi e prelievi guidati] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni, vedere [Abilitare breakbulk automatico con stoccaggi e prelievi guidati] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   È possibile scegliere che il campo **Qtà da gestire** non venga compilato automaticamente nelle istruzioni di stoccaggio.  
     -   È possibile scegliere di stampare il documento immediatamente.  
 

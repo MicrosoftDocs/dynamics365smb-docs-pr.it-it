@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Procedura: Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Per impostare un articolo per gli stoccaggi e i prelievi guidati  
@@ -44,7 +44,7 @@ Per utilizzare la funzionalità di stoccaggi e prelievi guidati, è necessario a
 > [!NOTE]  
 >  Non è possibile impostare l'utilizzo di collocazioni per la warehouse se l'ubicazione presenta movimenti contabili articoli aperti.  
 
-Il passo successivo consiste nel definire il tipo di collocazioni che si desidera utilizzare. Per ulteriori informazioni, vedere [Procedura: Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md). Il tipo di collocazioni determina la modalità di utilizzo di una determinata collocazione durante l'elaborazione del flusso degli articoli all'interno della warehouse. È possibile assegnare un tipo collocazione sia a una zona che a una collocazione.  
+Il passo successivo consiste nel definire il tipo di collocazioni che si desidera utilizzare. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md). Il tipo di collocazioni determina la modalità di utilizzo di una determinata collocazione durante l'elaborazione del flusso degli articoli all'interno della warehouse. È possibile assegnare un tipo collocazione sia a una zona che a una collocazione.  
 
 È inoltre possibile definire i codici di classe warehouse, qualora la warehouse contenga articoli che richiedono diverse condizioni di immagazzinamento. I codici classe warehouse vengono utilizzati quando vengono forniti suggerimenti sulla posizione degli articoli nelle collocazioni. I codici classe warehouse vengono assegnati a gruppi di prodotti, che vengono quindi assegnati ad articoli e unità di stockkeeping oppure a zone e collocazioni in grado di soddisfare le condizioni di immagazzinamento richieste dai codici classe warehouse.  
 
@@ -60,9 +60,9 @@ Quando si modifica un parametro di zona, tutte le collocazioni create successiva
 > [!NOTE]  
 >  Se non si desidera utilizzare le zone, è comunque necessario almeno un codice di zona, che non verrà definito se non per quanto riguarda il codice.  
 
-Il passaggio successivo del processo di impostazione della warehouse consiste nella definizione delle collocazioni. Per ulteriori informazioni, vedere [Procedura: Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
+Il passaggio successivo del processo di impostazione della warehouse consiste nella definizione delle collocazioni. Per ulteriori informazioni, vedere [Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per ulteriori informazioni, vedere [Procedura: Impostare i modelli di stoccaggio](warehouse-how-to-set-up-put-away-templates.md).  
+Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per ulteriori informazioni, vedere [Impostare i modelli di stoccaggio](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

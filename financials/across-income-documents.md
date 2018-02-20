@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Documenti in entrata
@@ -41,7 +41,7 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 
 | Per | Vedere |
 | --- | --- |
-| Impostare la funzionalità Documenti in entrata e impostare il servizio OCR. |[Procedura: Impostare documenti in entrata](across-how-setup-income-documents.md) |
+| Impostare la funzionalità Documenti in entrata e impostare il servizio OCR. |[Impostare documenti in entrata](across-how-setup-income-documents.md) |
 | Creare i record dei documenti in entrata, allegare i file, utilizzare OCR per convertire i file PDF in documenti elettronici, convertire documenti elettronici in record di documento, controllare i documenti di vendita e di acquisto registrati dei record di documenti in entrata. |[Elaborazione di documenti in entrata](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Vedi anche

@@ -1,6 +1,6 @@
 ---
-title: Panoramica dei task per il setup di Dynamics 365 Business edition | Documenti Microsoft
-description: Descrive i task per impostare, inizializzare e configurare Dynamics 365 Business edition in base alle esigenze.
+title: Panoramica dei task per impostare Finance and Operations, Business edition | Documenti Microsoft
+description: Descrive i task per impostare, inizializzare e configurare Finance and Operations, Business edition in base alle esigenze.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Impostazione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
@@ -38,10 +38,10 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Definire valori e regole generali per i processi di warehouse e la gestione specifica in ogni ubicazione.|[Impostazione gestione warehouse](warehouse-setup-warehouse.md)|
 |Preparare DB e cicli di produzione per definire il modo in cui gli articoli vengono prodotti e preparare aree di produzione o centri di lavoro per eseguire le operazioni richieste.|[Impostazione della produzione](production-configure-production-processes.md)|
 | Impostare codici di identificazione univoci per i record, quali schede, documenti e righe delle registrazioni, per monitorarli nel sistema. |[Creazioni di numerazioni](ui-create-number-series.md) |
-| Impostare la finestra **Setup posta elettronica SMTP** per registrare e ricevere i messaggi e-mail mediante i documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Procedura: Impostare la posta elettronica](madeira-how-setup-email.md) |
-| Impostare codici di identificazione univoci. |[Procedura: Creazione di numerazioni](ui-create-number-series.md) |
+| Impostare la finestra **Setup posta elettronica SMTP** per registrare e ricevere i messaggi e-mail mediante i documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Impostare la posta elettronica](madeira-how-setup-email.md) |
+| Impostare codici di identificazione univoci. |[Creazione di numerazioni](ui-create-number-series.md) |
 
-Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostazione e amministrazione in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostazione e amministrazione in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  
@@ -58,5 +58,6 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

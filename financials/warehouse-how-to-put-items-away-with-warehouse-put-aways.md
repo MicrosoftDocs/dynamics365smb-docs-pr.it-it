@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Procedura: Stoccare articoli con gli stoccaggi warehouse
+# <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.  
 
 Quando si registra un carico warehouse, i documenti di origine, ad esempio ordini di acquisto, ordini di trasferimento in entrata oppure ordini di reso vendita, vengono aggiornati, la quantità ricevuta viene registrata nei movimenti contabili articoli e le righe relative agli articoli ricevuti vengono inviate alla funzione di stoccaggio nella warehouse. Se si utilizzano stoccaggi e prelievi guidati, le righe per lo stoccaggio possono essere create anche tramite stoccaggio guidato.  
 
-A seconda del setup della warehouse, le righe vengono rese disponibili nel prospetto stoccaggi oppure utilizzate per creare immediatamente delle istruzioni di stoccaggio. Per ulteriori informazioni, vedere [Procedura: Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+A seconda del setup della warehouse, le righe vengono rese disponibili nel prospetto stoccaggi oppure utilizzate per creare immediatamente delle istruzioni di stoccaggio. Per ulteriori informazioni, vedere [Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argomento, è possibile creare uno stoccaggio a partire dal carico warehouse registrato correlato. Questo è utile se sono state eliminate le righe di stoccaggio oppure si utilizzano stoccaggi e prelievi guidati e si è stabilito di non utilizzare il prospetto stoccaggi, poiché è possibile creare o ricreare istruzioni di stoccaggio dalle righe di carico registrate.  
 
@@ -56,7 +56,7 @@ Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argo
 
 Nelle ubicazioni impostate per l'utilizzo di stoccaggi e prelievi guidati, le impostazioni che seguono sono prerequisiti per la procedura precedente:  
 
-- Viene impostato un modello di stoccaggio. Per ulteriori informazioni, vedere [Procedura: Impostare i modelli di stoccaggio](warehouse-how-to-set-up-put-away-templates.md).  
+- Viene impostato un modello di stoccaggio. Per ulteriori informazioni, vedere [Impostare i modelli di stoccaggio](warehouse-how-to-set-up-put-away-templates.md).  
 - Vengono definiti il peso, la cubatura e i requisiti di immagazzinamento speciali relativi all'articolo o all'unità di stockkeeping. Per ulteriori informazioni, vedere Peso lordo.  
 - La capacità, il tipo di collocazione e la valutazione delle collocazioni. Per ulteriori informazioni, vedere Valutazione collocazione.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Gestione dei costi di magazzino
@@ -28,12 +28,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Leggere diverse informazioni concettuali per comprendere i principi alla base della funzionalità di costing di magazzino in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[Informazioni sul costing di magazzino](finance-learn-about-costing.md)|  
+|Leggere diverse informazioni concettuali per comprendere i principi alla base della funzionalità di costing di magazzino in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Informazioni sul costing di magazzino](finance-learn-about-costing.md)|  
 |Impostare periodi magazzino, metodi di costing e metodi di arrotondamento.|[Impostazione della valutazione magazzino e i costi](finance-set-up-inventory-valuation-and-costing.md)|
-|Rivalutare o ammortizzare il valore di uno o più articoli in magazzino registrandone il corrente valore calcolato.|[Procedura: Rivalutare il magazzino](inventory-how-revalue-inventory.md)|
-|Rettificare i costi articolo, automaticamente o manualmente, per inoltrare le modifiche dei costi dai movimenti in entrata ai movimenti in uscita correlati.|[Procedura: Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md)|
+|Rivalutare o ammortizzare il valore di uno o più articoli in magazzino registrandone il corrente valore calcolato.|[Rivalutare il magazzino](inventory-how-revalue-inventory.md)|
+|Rettificare i costi articolo, automaticamente o manualmente, per inoltrare le modifiche dei costi dai movimenti in entrata ai movimenti in uscita correlati.|[Rettifica costi articolo](inventory-how-adjust-item-costs.md)|
 |Utilizzare le funzioni di costing speciali per le transazioni di articoli quotidiane nelle operazioni articoli.|[Gestione dei costi del magazzino e di produzione](finance-handle-inventory-and-manufacturing-costs.md)|  
-|È necessario aggiornare periodicamente i costi standard dei componenti, nelle distinte base di assemblaggio e di produzione, ed eseguire il rollup dei nuovi costi nell'articolo padre.|[Procedura: Aggiornare i costi standard](finance-how-to-update-standard-costs.md)|
+|È necessario aggiornare periodicamente i costi standard dei componenti, nelle distinte base di assemblaggio e di produzione, ed eseguire il rollup dei nuovi costi nell'articolo padre.|[Aggiornare i costi standard](finance-how-to-update-standard-costs.md)|
 |Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Informazioni su tutti i meccanismi nel sistema di costing.|[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)|  
 

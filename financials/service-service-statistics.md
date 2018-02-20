@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e4cc14212f30c7b42aaf9d08c848488ab65444f6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6effbb7bd316eed24b20943e71f4e0bf8e9e8a3e
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -112,7 +112,7 @@ La finestra **Statistiche note credito assistenza** consente di visualizzare una
 * Informazioni generali relative al cliente, ad esempio il limite di credito e il saldo del conto.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Creare ordini di assistenza](service-how-to-create-service-orders.md)   
-[Procedura: Creare articoli in assistenza](service-how-to-create-service-items.md)   
+[Creare ordini di assistenza](service-how-to-create-service-orders.md)   
+[Creare articoli in assistenza](service-how-to-create-service-items.md)   
 [Pianificazione dell'assistenza](service-plan-service.md)  
 

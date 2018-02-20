@@ -1,24 +1,22 @@
 ---
 title: "Impostare la contabilità generale cespiti| Documenti Microsoft"
 description: "Prima di utilizzare i cespiti occorre impostare i conti di default in contabilità generale, le categorie di registrazione, le chiavi di allocazione, le definizioni e i batch utilizzati per la registrazione e i codici di classe."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Procedura: Impostare i valori generali per i cespiti
+# <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Per impostare i valori predefiniti generali per i cespiti
@@ -38,10 +36,10 @@ Le categorie di registrazione vengono utilizzate per definire categorie di cespi
 >   Per assicurarsi che le contropartite per le diverse registrazioni cespiti vengono inserite automaticamente quando si sceglie l'azione **Inserisci conto cespiti** nelle righe di registrazione, seguire il passo successivo, sulla base della registrazione della rivalutazione.
 4. Nella Scheda dettaglio **Contropartita**, selezionare nel campo **Contropartita rivalutazione** il conto di contabilità generale per cui si desidera inserire i movimenti di contropartita per la rivalutazione.
 
-Per ulteriori informazioni sull'utilizzo dell'azione **Inserisci conto cespiti** nelle righe registrazioni cespiti in C/G richieste, vedere ad esempio [Procedura: Rivalutazione dei cespiti](fa-how-revalue.md).
+Per ulteriori informazioni sull'utilizzo dell'azione **Inserisci conto cespiti** nelle righe registrazioni cespiti in C/G richieste, vedere ad esempio [Rivalutazione dei cespiti](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Per impostare le chiavi di allocazione relative ai cespiti
-Le transazioni possono essere assegnate a diversi reparti o progetti, in base alle chiavi di allocazione personalizzate. Ad esempio, è possibile impostare una chiave di allocazione per allocare i costi di ammortamento delle macchine all'amministrazione per il 35% ed al reparto vendite per il 65%. Per ulteriori informazioni, vedere [Procedura: Allocazione di costi e ricavi](year-allocate-costs-income.md).
+Le transazioni possono essere assegnate a diversi reparti o progetti, in base alle chiavi di allocazione personalizzate. Ad esempio, è possibile impostare una chiave di allocazione per allocare i costi di ammortamento delle macchine all'amministrazione per il 35% ed al reparto vendite per il 65%. Per ulteriori informazioni, vedere [Allocazione di costi e ricavi](year-allocate-costs-income.md).
 
 Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli cespiti.
 
@@ -53,7 +51,7 @@ Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Per impostare le definizioni registrazioni dei cespiti
 Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
-Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Def. registrazioni cespiti**, quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
@@ -103,19 +101,21 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_m
 
 1. Assicurarsi di aver completato la procedura di base per l'impostazione dei cespiti;  
 2. Creare una scheda cespite per ogni cespite esistente;  
-3. Impostare i registri beni ammortizzabili relativi ai cespiti;  
-4. Consentire l'integrazione con la contabilità generale eseguendo i passaggi seguenti.
-5. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registri beni ammortizz.**, quindi scegliere il collegamento correlato.  
-6. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la finestra **Scheda registro beni ammortizz.**
-7. Nella Scheda dettaglio **Integrazione** assicurarsi che tutti i campi rimangano cancellando tutti i segni di spunta. Nel caso in cui si disponga di diversi registri beni ammortizzabili, attivare l'integrazione contabilità generale per ciascuno di essi.  
-8. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:
+3. Creare un registro beni ammortizzabili cespiti per ogni scopo di ammortamento (ad esempio dichiarazioni fiscali e rendiconti finanziari). È necessario definire i termini e le condizioni per ogni registro beni ammortizzabili, ad esempio l'integrazione con la contabilità generale.  
+
+    Consentire l'integrazione con la contabilità generale eseguendo i passaggi seguenti. Innanzitutto, accertarsi che l'integrazione con la contabilità generale sia disabilitata per tutti i registri beni ammortizzabili, quindi registrare l'apertura dei movimenti e infine attivare l'integrazione con la contabilità generale.  
+4. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registri beni ammortizz.**, quindi scegliere il collegamento correlato.  
+5. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la finestra **Scheda registro beni ammortizz.**
+6. Nella Scheda dettaglio **Integrazione** assicurarsi che tutti i campi rimangano cancellando tutti i segni di spunta. Nel caso in cui si disponga di diversi registri beni ammortizzabili, disattivare l'integrazione contabilità generale per ciascuno di essi.  
+7. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:
    * Una riga con il costo di acquisto.
    * Una riga con il fondo ammortamento alla fine dell'anno fiscale precedente.
    * Una riga con il fondo ammortamento dall'inizio dell'anno fiscale corrente alla data in cui [!INCLUDE[d365fin](includes/d365fin_md.md)] è impostato per iniziare il calcolo dell'ammortamento.
 
-È possibile ora inserire anche gli altri eventuali saldi di apertura, ad esempio svalutazione e rivalutazione.  
+    È possibile ora inserire anche gli altri eventuali saldi di apertura, ad esempio svalutazione e rivalutazione.  
+8. Dopo aver immesso e registrato le righe delle registrazioni per ogni cespite, abilitare l'integrazione con la contabilità generale nel registro beni ammortizzabili.
 
-Se i cespiti non sono integrati in contabilità generale, tralasciare i passaggi da 4 a 7.
+Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e 8.
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione di cespiti](fa-setup.md)  

@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Procedura: Visualizzare la disponibilità di articoli
+# <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
 
 È possibile visualizzare la disponibilità di tutti gli articoli per ubicazione ed è possibile visualizzare la disponibilità di ciascun articolo per evento, periodo o ubicazione. Per evento si intende qualsiasi transazione articolo pianificata, ad esempio una spedizione o un carico di trasferimento in entrata.
 
 > [!NOTE]  
->   Le visualizzazioni di disponibilità per ubicazione richiedono che si disponga di un magazzino presso più di un'ubicazione. Per ulteriori informazioni, vedere [Procedura: Impostare le ubicazioni](inventory-how-setup-locations.md).
+>   Le visualizzazioni di disponibilità per ubicazione richiedono che si disponga di un magazzino presso più di un'ubicazione. Per ulteriori informazioni, vedere [Impostare le ubicazioni](inventory-how-setup-locations.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati relativi alla disponibilità vengono visualizzati in due campi diversi, ognuno con una diversa definizione:
 
@@ -35,7 +35,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati relativi alla disponibili
 >   La disponibilità calcolata è particolarmente importante per visualizzare le finestra **Disponibilità art. per periodi** e **Disponibilità articolo per evento** dal momento che contengono le dimensioni per data.  
 
 > [!NOTE]  
->   Di seguito viene descritto come visualizzare le informazioni avanzate sulla disponibilità per articolo dall'elenco articoli e dalla scheda articolo. È inoltre possibile accedere alle informazioni contenute nelle righe dei documenti di vendita, per l'articolo nella riga. Per ulteriori informazioni, vedere [Procedura: Vendere prodotti](sales-how-sell-products.md).
+>   Di seguito viene descritto come visualizzare le informazioni avanzate sulla disponibilità per articolo dall'elenco articoli e dalla scheda articolo. È inoltre possibile accedere alle informazioni contenute nelle righe dei documenti di vendita, per l'articolo nella riga. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella finestra **Disponibilità articolo per evento**.
@@ -115,10 +115,10 @@ Se uno o più componenti di assemblaggio non sono disponibili, queste informazio
 ## <a name="see-also"></a>Vedi anche
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md)    
-[Procedura: Impostare le ubicazioni](inventory-how-setup-locations.md)  
-[Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  
-[Procedura: Vendere prodotti](sales-how-sell-products.md)      
-[Utilizzo di Dynamics 365](ui-work-product.md)  
+[Utilizzare le distinte base](inventory-how-work-BOMs.md)    
+[Impostare le ubicazioni](inventory-how-setup-locations.md)  
+[Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  
+[Vendere prodotti](sales-how-sell-products.md)      
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

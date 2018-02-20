@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>Procedura: impostare gli indirizzi alternativi per i contatti
+# <a name="set-up-alternative-addresses-for-contacts"></a>Impostare un indirizzo alternativo per i contatti
 È possibile assegnare un indirizzo alternativo presso il quale talvolta i contatti ricevono messaggi di posta e informazioni, ad esempio la casa per le vacanze estive. È possibile anche assegnare uno o più intervalli di date per ogni indirizzo alternativo inserito per i contatti per specificarne il periodo di validità.
 
 ## <a name="to-assign-an-alternate-address"></a>Per assegnare un indirizzo alternativo
@@ -41,5 +41,5 @@ Ripetere tali passaggi per assegnare altri intervalli date.
 
 ## <a name="see-also"></a>Vedi anche
 [Creare società contatto](marketing-create-contact-companies.md)  
-[Utilizzo di Dynamics 365](ui-work-product.md)
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)
 

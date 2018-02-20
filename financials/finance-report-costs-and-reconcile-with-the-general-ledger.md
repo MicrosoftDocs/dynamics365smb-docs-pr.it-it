@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
@@ -30,9 +30,9 @@ Al termine dei periodi contabili, mensili, annuali o altro, è necessario esegui
 |Visualizzare il valore di magazzino degli ordini di produzione selezionati nel magazzino WIP, ad esempio le quantità e i valori del consumo, l'utilizzo della capacità e l'output negli ordini di produzione in corso.|Report **Valutazione magazzino - WIP**|  
 |Visualizzare il valore di magazzino degli articoli selezionati, incluso il relativo costo effettivo e previsto alla data specificata.|Report **Valutazione magazzino - Specifica costi**|  
 |Utilizzare un report per analizzare i motivi delle variazioni di costo o per ottenere informazioni relative al dettaglio costi degli articoli venduti (COGS).|Report **Breakdown dettaglio costi**|  
-|Registrare periodicamente i movimenti di valorizzazione delle transazioni di articoli dai movimenti contabili inventario ai conti C/G correlati per riconciliare i due movimenti contabili.|[Procedura: Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Utilizzare una finestra per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale.|[Procedura: Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Determinare l'importo WIP che deve essere registrato per i conti patrimoniali il reporting di fine periodo.|[Procedura: Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)|
+|Registrare periodicamente i movimenti di valorizzazione delle transazioni di articoli dai movimenti contabili inventario ai conti C/G correlati per riconciliare i due movimenti contabili.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Utilizzare una finestra per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Determinare l'importo WIP che deve essere registrato per i conti patrimoniali il reporting di fine periodo.|[Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione della valutazione magazzino e i costi](finance-set-up-inventory-valuation-and-costing.md)  

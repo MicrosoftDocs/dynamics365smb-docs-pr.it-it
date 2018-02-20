@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestione di interazioni con i contatti
-In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
 
 L'area di gestione di relazioni consente di registrare tutte le interazioni con i contatti al fine di tenere traccia delle operazioni di vendita e marketing ad essi rivolte e migliorare le interazioni commerciali future. L'impostazione dell'applicazione per registrare le interazioni consiste in queste attività:
 
@@ -35,7 +35,7 @@ Nella finestra **Modello Interazioni** è possibile impostare un modello di inte
 ## <a name="creating-interactions"></a>Creazione di interazioni
 Esistono due modi per registrare interazioni:
 
-* È possibile creare manualmente interazioni collegate a un singolo contatto o segmento. Per ulteriori informazioni, vedere [Procedura: Creare interazioni per i contatti e i segmenti](marketing-how-create-interactions.md).  
+* È possibile creare manualmente interazioni collegate a un singolo contatto o segmento. Per ulteriori informazioni, vedere [Creare interazioni per i contatti e i segmenti](marketing-how-create-interactions.md).  
 * È possibile fare in modo che le interazioni vengano registrate automaticamente nell'applicazione quando si eseguono azioni specifiche, ad esempio la stampa di una fattura o di un'offerta. Per ulteriori informazioni, vedere [Registrazione automatica delle interazioni con i contatti](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visualizzazione e gestione delle interazioni registrate

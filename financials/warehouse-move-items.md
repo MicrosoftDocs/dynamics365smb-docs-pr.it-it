@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f52353ec74b10983b0acfd04169d6b146c70eb84
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b8ddfc5e255dbaf20027c27c9c0210e4479a681
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="moving-items"></a>Spostamento di articoli
@@ -24,7 +24,7 @@ L'attività di warehouse di spostamento degli articoli all'interno della warehou
 
 Quando in un'ubicazione warehouse potrebbe essere necessario spostare gli articoli per supportare le attività di warehouse quotidiane necessarie per mantenere il flusso degli articoli nella warehouse. Alcuni movimenti avvengono in relazione diretta con le operazioni interne, ad esempio un ordine di produzione che richiede la consegna di componenti o lo stoccaggio di articoli finali. Altri movimenti vengono eseguiti come pura ottimizzazione dello spazio della warehouse oppure come movimenti ad-hoc da e verso tali operazioni.
 
-Lo spostamento degli articoli in altre ubicazioni influisce sui movimenti contabili articoli e deve pertanto essere effettuato tramite un ordine di trasferimento. Per ulteriori informazioni, vedere [Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).  
+Lo spostamento degli articoli in altre ubicazioni influisce sui movimenti contabili articoli e deve pertanto essere effettuato tramite un ordine di trasferimento. Per ulteriori informazioni, vedere [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).  
 
 Le attività di spostamento aggiuntive consistono nel rifornimento periodico delle collocazioni di prelievo o di produzione e nella modifica delle informazioni sul contenuto delle collocazioni.  
 
@@ -32,12 +32,12 @@ Le attività di spostamento aggiuntive consistono nel rifornimento periodico del
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Spostare gli articoli tra le collocazioni nelle configurazioni di warehouse di base in qualsiasi momento e senza documenti di origine.|[Procedura: Spostare articoli in configurazioni di warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Utilizzare il prospetto movimentazione warehouse per spostare gli articoli in configurazioni di warehouse avanzate, sia per i documenti di origine che per i documenti ad hoc.|[Procedura: Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Inserire articoli componenti nelle operazioni interne delle configurazioni di warehouse di base, secondo quanto richiesto dai documenti di origine per tali operazioni.|[Procedura: Spostare componenti in un'area di operazione nelle configurazioni della warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Pianificare le collocazioni da riempire o svuotare per mantenere un flusso efficace, ad esempio svuotando un'area di immagazzinamento a massa prima di un carico di grandi dimensioni.|[Procedura: Pianificare movimentazioni warehouse nei prospetti](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Aggiornare la frequenza con cui le collocazioni, ad esempio le collocazioni di prelievo, devono essere rifornite in seguito alle fluttuazioni della domanda.|[Procedura: Calcolare il rifornimento della collocazione](warehouse-how-to-calculate-bin-replenishment.md)|
-|Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Procedura: Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
+|Spostare gli articoli tra le collocazioni nelle configurazioni di warehouse di base in qualsiasi momento e senza documenti di origine.|[Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Utilizzare il prospetto movimentazione warehouse per spostare gli articoli in configurazioni di warehouse avanzate, sia per i documenti di origine che per i documenti ad hoc.|[Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Inserire articoli componenti nelle operazioni interne delle configurazioni di warehouse di base, secondo quanto richiesto dai documenti di origine per tali operazioni.|[Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
+|Pianificare le collocazioni da riempire o svuotare per mantenere un flusso efficace, ad esempio svuotando un'area di immagazzinamento a massa prima di un carico di grandi dimensioni.|[Pianificare movimentazioni warehouse nei prospetti](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
+|Aggiornare la frequenza con cui le collocazioni, ad esempio le collocazioni di prelievo, devono essere rifornite in seguito alle fluttuazioni della domanda.|[Calcola rifornimento collocazione](warehouse-how-to-calculate-bin-replenishment.md)|
+|Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Chiusura dei registri
@@ -31,7 +31,7 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
     Una anno fiscale viene definito come uno o più periodi indicati nella finestra **Periodi contabili**. Un tipico anno fiscale contiene 12 periodi di un mese, tuttavia è possibile scegliere un altro metodo per definire un anno.
 
-    Per ulteriori informazioni, vedere [Procedura: Chiudere i periodi contabili](year-close-account-periods.md).
+    Per ulteriori informazioni, vedere [Chiudere i periodi contabili](year-close-account-periods.md).
 2. Registrazione dei movimenti dell'anno precedente.
 
     Quando si chiude un anno fiscale, è necessario immettere un numero di transazioni amministrative, ad esempio articoli prepagati e sospesi. Tali transazioni sono dette movimenti di rettifica. Non vi sono regole speciali per la registrazione di questi movimenti e, come altri movimenti, se vengono registrati in una data di un anno fiscale chiuso, contengono un segno di spunta nel campo **Mov. anno prec.** Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti C/G.
@@ -44,7 +44,7 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
     Una volta completato il processo batch di chiusura del conto economico, registrare i movimenti generati dal processo. Se non è stato specificato un conto profitti/perdite nel processo batch, immettere una riga con un movimento di contropartita che registra il fatturato netto nel conto di contabilità generale corretto nello stato patrimoniale. Contabilizzare infine le registrazioni.
 
-    Per ulteriori informazioni, vedere [Procedura: registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md).
+    Per ulteriori informazioni, vedere [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md).
 
 ## <a name="what-happens-when-you-close"></a>Cosa accade alla chiusura
 Quando si effettua la chiusura alla fine dell'anno, gli utili calcolati vengono spostati in un conto profitti/perdite. L'anno fiscale viene inoltre contrassegnato come "chiuso," e tutti i movimenti successivi per l'anno chiuso vengono contrassegnati come "movimenti dell'anno precedente".
@@ -54,6 +54,6 @@ Viene quindi generato un movimento di chiusura, che non viene però registrato a
 È possibile effettuare registrazioni in un anno fiscale precedente, anche dopo la chiusura dei conti economici, se, successivamente, si esegue di nuovo il processo batch Chiudi conto economico.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
+[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

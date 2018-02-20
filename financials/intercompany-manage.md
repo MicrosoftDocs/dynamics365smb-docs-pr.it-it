@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
@@ -39,13 +39,16 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
  |A |Vedere|
  |---|---|
- |Creare i fornitori e i clienti intercompany come partner intercompany e impostare un piano dei conti intercompany.|[Procedura: Impostare intercompany](intercompany-how-setup.md)|
- |Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.|[Procedura: Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)|
- |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Procedura: Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
+ |Creare i fornitori e i clienti intercompany come partner intercompany e impostare un piano dei conti intercompany.|[Impostare la contabilità interaziendale](intercompany-how-setup.md)|
+ |Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.|[Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)|
+ |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

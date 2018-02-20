@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
@@ -171,7 +171,7 @@ Se è stata impostata la rettifica dei costi automatica da applicare alle regist
 Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un giorno o una settimana dalla data di lavoro corrente, la rettifica dei costi automatica non verrà eseguita e il costo dell'acquisto non verrà inoltrato alla vendita fintanto che non si esegue il processo batch **Rettifica costo - Movimenti articoli**.  
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md)   
+[Rettifica costi articolo](inventory-how-adjust-item-costs.md)   
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
 [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)   
 [Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md)   

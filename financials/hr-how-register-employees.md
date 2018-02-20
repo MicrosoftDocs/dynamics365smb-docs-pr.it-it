@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Procedura: registrare gli impiegati:
+# <a name="register-employees"></a>Registrare i dipendenti
 Per utilizzare la funzionalità Gestione personale, è prima necessario registrare ciascun impiegato creando una scheda con tutte le informazioni principali e correlate.
 
 I dettagli di un impiegato possono essere modificati in qualsiasi momento. Se i record relativi agli impiegati vengono mantenuti sempre aggiornati, i task di gestione del personale saranno più semplici. Se ad esempio l'indirizzo di un impiegato cambia, si deve registrare questa informazione nella scheda dell'impiegato.
@@ -27,7 +27,7 @@ I dettagli di un impiegato possono essere modificati in qualsiasi momento. Se i 
 Di seguito viene descritto come creare una scheda iniziale relativa all'impiegato e come assegnare due tipi di dettagli di un impiegato a un impiegato. Inoltre, è possibile assegnare diverse altre informazioni correlate, ad esempio le qualifiche e le cause di inattività. Per assegnare le informazioni relative agli impiegati è possibile scegliere un campo o un'azione nella finestra **Scheda impiegato**.
 
 > [!NOTE]  
-> È possibile rimborsare ai dipendenti le spese che hanno sostenuto durante le attività di lavoro. A questo scopo è necessario compilare i campi nella Scheda dettaglio **Pagamenti** nella finestra **Scheda impiegato**. Per altre informazioni, vedere [Procedura: Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
+> È possibile rimborsare ai dipendenti le spese che hanno sostenuto durante le attività di lavoro. A questo scopo è necessario compilare i campi nella Scheda dettaglio **Pagamenti** nella finestra **Scheda impiegato**. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Per impostare un impiegato
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dipendenti**, quindi scegliere il collegamento correlato.
@@ -57,7 +57,7 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 5. Ripetere il passaggio 4 per ogni indirizzo alternativo.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)  
+[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)

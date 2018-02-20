@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Impostare l'arrotondamento delle fatture
@@ -34,7 +34,7 @@ Per utilizzare l'arrotondamento fattura automatico, è necessario:
 > [!NOTE]  
 >  Oltre alle funzionalità di arrotondamento fattura, sono disponibili le funzionalità di arrotondamento importo unitario e arrotondamento importo per eseguire l'arrotondamento degli importi sulle fatture.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Procedura: Impostare i conti contabilità generale per le differenze di arrotondamento fattura
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Impostare i conti contabilità generale per le differenze di arrotondamento fattura
 Per utilizzare la funzione di arrotondamento fattura automatico, è necessario impostare il conto o i conti di contabilità generale in cui verranno registrate le differenze di arrotondamento. Prima di ciò è necessario impostare le categorie di registrazione articolo/servizio IVA. Per ulteriori informazioni, vedere [Impostare l'IVA](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Per impostare i conti contabilità generale per le differenze di arrotondamento fattura  
@@ -45,7 +45,7 @@ Per utilizzare la funzione di arrotondamento fattura automatico, è necessario i
   
 A questo punto è possibile assegnare il conto arrotondamento fatture alle categorie di registrazione nella pagina **Categorie registrazione fornitori**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Procedura: Impostare l'arrotondamento per le valute locali ed estere
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Impostare l'arrotondamento per le valute locali ed estere
 Prima di poter utilizzare la funzione di arrotondamento delle fatture, è necessario impostare le regole di arrotondamento per le valute locali ed estere.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Per impostare l'arrotondamento per le valute estere  
@@ -56,12 +56,12 @@ Prima di poter utilizzare la funzione di arrotondamento delle fatture, è necess
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale**, nella Scheda dettaglio **Generale**, compilare i campi **Precisione arrot. fatt.** e **Tipo arrot. fatt.**.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Procedura: Attivare la funzione di arrotondamento fatture  
+## <a name="activate-the-invoice-rounding-function"></a>Attivare la funzione di arrotondamento fatture  
 Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automaticamente è necessario attivare la funzione di arrotondamento fatture. È possibile attivare la funzione di arrotondamento in maniera indipendente per le fatture relative alle vendite e gli acquisti.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti**, quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare la casella di controllo **Arrotondamento fattura**.  
   
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Fatturare le vendite](sales-how-invoice-sales.md)  
-[Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md)
+[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Registrare gli acquisti](purchasing-how-record-purchases.md)

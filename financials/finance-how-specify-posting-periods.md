@@ -15,13 +15,13 @@ ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-posting-periods"></a>Procedura: specificare i periodi di registrazione
+# <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 Utilizzare i periodi di registrazione per specificarne quando gli utenti possono registrare nella contabilità generale.  
 
 ## <a name="to-specify-posting-periods"></a>Per specificare i periodi di registrazione
@@ -29,7 +29,7 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 2. Nella finestra **Impostazione della contabilità generale** specificare il periodo inserendo le date nei campi **Consenti registraz. da** e **Consenti registrazioni fino a**.  
 
 > [!NOTE]  
->   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella finestra **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella finestra **Setup contabilità generale**. Per ulteriori informazioni, vedere la sezione "Per impostare i vincoli connessioni utenti" in [Procedura: Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).
+>   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella finestra **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella finestra **Setup contabilità generale**. Per ulteriori informazioni, vedere la sezione "Per impostare i vincoli connessioni utenti" in [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  

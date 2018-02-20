@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Procedura: Creare cicli
+# <a name="create-routings"></a>Creare cicli
 Le aziende manifatturiere utilizzano i cicli per visualizzare e gestire il processo di produzione.
 
 Il ciclo è la base della programmazione del processo e delle capacità, delle assegnazioni programmate delle necessità di materiali e dei documenti relativi alla produzione.  
@@ -28,8 +28,8 @@ Per quanto riguarda la DB di produzione, i cicli di produzione vengono assegnati
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
-- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).
-- Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Procedura: Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
+- Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
+- Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Per creare un ciclo  
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli**, quindi scegliere il collegamento correlato.  
@@ -53,13 +53,13 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 12.  Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
 13.  Per copiare righe da un ciclo esistente, scegliere l'azione **Copia ciclo** per selezionarle.  
 14. Certificare il ciclo.  
-15. È ora possibile allegare il nuovo ciclo alla scheda dell'articolo padre desiderato, compilando il campo **Nr. ciclo**. Per ulteriori informazioni, vedere [Procedura: Registrare nuovi articoli](inventory-how-register-new-items.md).  
+15. È ora possibile allegare il nuovo ciclo alla scheda dell'articolo padre desiderato, compilando il campo **Nr. ciclo**. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Ricordare inoltre di ricalcolare il costo standard dell'articolo dalla scheda **Articolo**: scegliere l'azione **Manufacturing**, quindi selezionare l'azione **Calc. costo standard** e poi l'azione **Tutti i livelli**.  
 
 ## <a name="to-create-routing-links"></a>Per creare collegamenti ciclo
-È possibile creare collegamenti ciclo per connettere componenti a operazioni specifiche, in modo da conservarne le relazioni anche in caso di modifica della distinta base di produzione o del ciclo. Questa soluzione facilita inoltre la consuntivazione dei componenti in tempo reale, che avviene infatti all'avvio dell'operazione specifica collegata, anziché al rilascio dell'ordine di produzione completo. Per ulteriori informazioni vedere [Procedura: Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).  
+È possibile creare collegamenti ciclo per connettere componenti a operazioni specifiche, in modo da conservarne le relazioni anche in caso di modifica della distinta base di produzione o del ciclo. Questa soluzione facilita inoltre la consuntivazione dei componenti in tempo reale, che avviene infatti all'avvio dell'operazione specifica collegata, anziché al rilascio dell'ordine di produzione completo. Per ulteriori informazioni vedere [Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).  
 
 Un altro vantaggio importante consiste nel fatto che le operazioni e i componenti collegati vengono visualizzati in una struttura di processo logica quando si utilizza la finestra **Registrazioni di produzione** per la registrazione di output e consumo.  
 
@@ -80,14 +80,14 @@ Un altro vantaggio importante consiste nel fatto che le operazioni e i component
 
     I codice legame tra ciclo e distinta base vengono assegnati alle operazioni. A questo punto, è necessario creare il collegamento effettivo assegnando gli stessi codici ai componenti specifici nella distinta base di produzione.  
 
-6.  Aprire la **DB produzione** contenente i componenti da collegare alle operazioni precedenti. Per ulteriori informazioni, vedere [Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md).
+6.  Aprire la **DB produzione** contenente i componenti da collegare alle operazioni precedenti. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-production-boms.md).
 7.  Assicurarsi che lo stato della DB sia impostato su **In sviluppo**.  
 8.  Nella riga della distinta base di produzione, nel campo **Cod. legame ciclo-DB** , selezionare il codice appena assegnato all'operazione specificata.  
 9. Continuare aggiungendo i codici di legame agli altri componenti, in base alle operazioni univoche in cui vengono utilizzati.  
 10. Impostare lo stato della distinta base di produzione su **Certificato**.  
 
     > [!NOTE]  
-    >  Per abilitare i collegamenti ciclo in un ordine di produzione esistente, è necessario aggiornare l'ordine di produzione. Per ulteriori informazioni, vedere [Procedura: Creare ordini di produzione](production-how-to-create-production-orders.md).  
+    >  Per abilitare i collegamenti ciclo in un ordine di produzione esistente, è necessario aggiornare l'ordine di produzione. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
 
 I componenti selezionati risultano collegati alle operazioni specificate quando si crea o si aggiorna un ordine di produzione mediante la distinta base di produzione e il ciclo interessati. Ciò è visibile nella finestra **Componenti ordine produzione** nell'ordine di produzione, dove è inoltre possibile rimuovere e aggiungere i codici di collegamento ciclo codici definiti in qualsiasi momento.
 
@@ -116,10 +116,10 @@ La funzionalità di versione consente di gestire più versioni dei cicli. La str
 
 7. Quando la versione del ciclo è completata, scegliere **Certificata** nel campo **Stato**.
 
-La validità temporale della versione viene specificata nel campo **Data inizio**.  
+La validità temporale della versione viene specificata nel campo **Data di Inizio**.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Creare distinte base di produzione](production-how-to-create-production-boms.md)  
+[Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Pianif.](production-planning.md)   

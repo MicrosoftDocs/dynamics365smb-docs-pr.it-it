@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Procedura: Conteggio, rettifica e riclassificazione dell'inventario
+# <a name="count-adjust-and-reclassify-inventory"></a>Conteggio, adeguamento e riclassificazione dell'inventario
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
 
 Sebbene tutti gli articoli a magazzino vengano conteggiati almeno una volta l'anno, potrebbe essere necessario eseguire il conteggio di determinati articoli con maggiore frequenza, ad esempio nel caso in cui abbiano acquisito maggiore valore o siano prodotti a rapido assorbimento e costituiscano buona parte dell'attività commerciale. A questo scopo, è possibile assegnare speciali periodi di conteggio agli articoli. Per ulteriori informazioni, vedere la sezione "Per eseguire il conteggio ciclico".
 
 Se è necessario rettificare le quantità di magazzino registrate, in relazione al conteggio o per altri scopi, è possibile utilizzare una registrazione di magazzino per modificare i movimenti contabili di inventario direttamente senza registrare transazioni aziendali. In alternativa, è possibile rettificare un singolo articolo nella scheda articolo.
 
-Se è necessario modificare gli attributi dei movimenti contabili articoli, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono le dimensioni e i codici delle campagne di vendita, ma si effettuano "trasferimenti di sistema" anche riclassificando i codici ubicazione e collocazione. Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
+Se è necessario modificare gli attributi dei movimenti contabili articoli, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono le dimensioni e i codici delle campagne di vendita, ma si effettuano "trasferimenti di sistema" anche riclassificando i codici ubicazione e collocazione. Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Nelle configurazioni di warehouse avanzate gli articoli sono registrati nelle collocazioni come movimenti warehouse e non come movimenti contabili articoli. Di conseguenza, eseguire il conteggio, la rettifica e la riclassificazione in registrazioni di warehouse speciali che supportano le collocazioni. Quindi, utilizzare le funzioni speciali per sincronizzare i movimenti warehouse nuovi o modificati con i movimenti contabili articoli correlati per riflettere le modifiche nelle quantità e nei valori di magazzino. Questa operazione è descritta in procedure specifiche riportate di seguito laddove è opportuno.
@@ -99,7 +99,7 @@ Gli addetti al magazzino potranno quindi eseguire l'inventario e registrare tutt
     I campi correlati vengono aggiornati di conseguenza.
 
     > [!NOTE]  
->   Se dal conteggio fisico risultano differenze determinate dalla registrazione degli articoli con codici ubicazione non corretti, le differenze non devono essere inserite nelle registrazioni inventario fisico. In alternativa, utilizzare le registrazioni di riclassificazione o un ordine di trasferimento per reindirizzare gli articoli alle ubicazioni corrette. Per ulteriori informazioni, vedere Reg. ricl. articoli o Procedura: Creare ordini di trasferimento.
+>   Se dal conteggio fisico risultano differenze determinate dalla registrazione degli articoli con codici ubicazione non corretti, le differenze non devono essere inserite nelle registrazioni inventario fisico. In alternativa, utilizzare le registrazioni di riclassificazione o un ordine di trasferimento per reindirizzare gli articoli alle ubicazioni corrette. Per ulteriori informazioni, vedere Reg. ricl. articoli o Creare ordini di trasferimento.
 
 2. Per rettificare le quantità calcolate con le quantità effettive conteggiate, scegliere l'azione **Registra**.
 
@@ -169,10 +169,10 @@ Dopo aver effettuato un conteggio fisico di un articolo nell'area magazzino, è 
 
 Il magazzino dell'articolo è ora rettificato. La nuova quantità viene mostrata nel campo **Inventario corrente** nella finestra **Rettifica magazzino** e nel campo **Magazzino** nella finestra **Scheda articolo**.
 
-È inoltre possibile utilizzare la funzione **Rettifica magazzino** come semplice mezzo per collocare articoli acquistati nel magazzino se non si utilizzano fatture o ordini di acquisto per registrare gli acquisti. Per ulteriori informazioni, vedere [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md).
+È inoltre possibile utilizzare la funzione **Rettifica magazzino** come semplice mezzo per collocare articoli acquistati nel magazzino se non si utilizzano fatture o ordini di acquisto per registrare gli acquisti. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Dopo aver rettificato il magazzino, è necessario aggiornarlo con il valore corrente calcolato. Per ulteriori informazioni, vedere [Procedura: Rivalutare il magazzino](inventory-how-revalue-inventory.md).
+>   Dopo aver rettificato il magazzino, è necessario aggiornarlo con il valore corrente calcolato. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Per rettificare la quantità in giacenza di più articoli nelle configurazioni di warehouse di base
 Nella finestra **Registrazioni magazzino**, è possibile registrare direttamente la transazione dell'articolo per rettificare il magazzino in relazione a rettifiche positive o negative di agli acquisti o vendite senza utilizzare i documenti.
@@ -184,7 +184,7 @@ Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di regis
 3. Scegliere l'azione **Registra** per procedere con le rettifiche di magazzino.
 
 > [!NOTE]  
->   Dopo aver rettificato il magazzino, è necessario aggiornarlo con il valore corrente calcolato. Per ulteriori informazioni, vedere [Procedura: Rivalutare il magazzino](inventory-how-revalue-inventory.md).
+>   Dopo aver rettificato il magazzino, è necessario aggiornarlo con il valore corrente calcolato. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Per rettificare le quantità di collocazioni nelle configurazioni di warehouse avanzate  
 Se l'ubicazione utilizza stoccaggi e prelievi guidati, utilizzare **Registrazioni articoli whse.** per registrare, fuori dall'ambito dell'inventario fisico, tutte le rettifiche positive e negative della quantità degli articoli note come guadagni effettivi, ad esempio, articoli registrati in precedenza come mancanti che ricompaiono improvvisamente, o come perdite effettive, ad esempio, articoli danneggiati.  
@@ -211,7 +211,7 @@ A intervalli appropriati in base a quanto definito dalla politica aziendale, è 
 ## <a name="to-reclassify-an-items-lot-number"></a>Per riclassificare il numero di lotto di un articolo
 Se è necessario modificare gli attributi dei movimenti contabili articoli, è possibile utilizzare le registrazioni di riclassificazione articoli. In genere tra gli attributi da riclassificare vi sono le dimensioni e i codici delle campagne di vendita, ma si effettuano "trasferimenti di sistema" anche riclassificando i codici ubicazione e collocazione.
 
-Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
+Passaggi speciali si applicano quando si desidera riclassificare i numeri di serie o di lotto e le relative date di scadenza. Per ulteriori informazioni, vedere [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 
 Il seguente esempio si basa su un codice ubicazione. I passaggi sono simili per altri tipi di attributi degli articoli.
 
@@ -221,7 +221,7 @@ Il seguente esempio si basa su un codice ubicazione. I passaggi sono simili per 
 4. Nel campo **Nuovo codice ubicazione**, immettere il nuovo codice dell'ubicazione dell'articolo.
 5. Scegliere l'azione **Registra**.
 
-Per informazioni sul trasferimento di articoli con controllo totale delle quantità spedite e ricevute, vedere [Procedura: Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).
+Per informazioni sul trasferimento di articoli con controllo totale delle quantità spedite e ricevute, vedere [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Magazzino](inventory-manage-inventory.md)

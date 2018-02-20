@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Procedura: Creare una previsione di produzione
+# <a name="create-a-production-forecast"></a>Creare una previsione di produzione
 Nella finestra **Previsione di produzione** è possibile creare previsioni di produzione e di vendita.  
 
 La funzionalità di previsione viene utilizzata per creare la domanda prevista; la domanda effettiva viene creata da ordini di vendita e produzione. Durante la creazione della programmazione di produzione master (MPS), la previsione viene confrontata con gli ordini di vendita e produzione. L'opzione *Componente* nella previsione determina il tipo dei fabbisogni da considerare nel processo di confronto. Se la previsione riguarda un articolo di vendita, viene confrontata solo con gli ordini di vendita. Se si riferisce ai componenti, viene confrontata solo con la domanda dipendente dei componenti dell'ordine di produzione.  

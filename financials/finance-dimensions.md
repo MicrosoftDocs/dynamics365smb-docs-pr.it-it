@@ -3,20 +3,20 @@ title: Utilizzare le dimensioni| Documenti Microsoft
 description: Utilizzare le dimensioni per classificare i movimenti, ad esempio, per reparto o progetto, in modo da tenere traccia e analizzare facilmente i dati.
 services: project-madeira
 documentationcenter: 
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/14/2017
-ms.author: bholtorf
+ms.date: 01/25/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
@@ -32,11 +32,8 @@ Più dimensioni si utilizzano, più dettagliati sono i report su cui è possibil
 * Chi lo ha venduto
 * Il tipo di cliente che lo ha acquistato  
 
-> [!NOTE]  
->   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
-
 ## <a name="analyzing-by-dimensions"></a>Analisi per dimensioni
-La funzionalità Dimensioni svolge un ruolo importante in business intelligence, ad esempio quando si definiscono le visualizzazioni analisi. Per ulteriori informazioni, vedere [Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
+La funzionalità Dimensioni svolge un ruolo importante in business intelligence, ad esempio quando si definiscono le visualizzazioni analisi. Per ulteriori informazioni, vedere [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
 > Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le finestre **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
@@ -59,8 +56,61 @@ Vengono inoltre impostati i valori delle dimensioni. Ad esempio, i valori potreb
 ### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Impostazione delle dimensioni di default per clienti, fornitori e altri conti
 È possibile assegnare una dimensione di default per un conto specifico. La dimensione verrà copiata nelle registrazioni o nel documento quando si immette il numero di conto in una riga, ma è possibile eliminare o modificare il codice nella riga se il dato non è appropriato. È inoltre possibile impostare una dimensione richiesta per la registrazione del movimento con un tipo di conto specifico.  
 
-### <a name="translating-the-names-of-dimensions"></a>Traduzione dei nomi delle dimensioni
-Quando si crea una dimensione e, particolarmente una dimensione di collegamento, l'elemento che si sta effettivamente creando è un campo personalizzato o un'intestazione di colonna. Se l'attività è internazionale, è possibile inserire le traduzioni per il nome della dimensione. I documenti che includono la dimensione utilizzeranno il nome tradotto, quando applicabile.   
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dimensioni**, quindi scegliere il collegamento correlato.  
+2.  Nella finestra **Dimensioni**, selezionare la dimensione appropriata e quindi scegliere l'azione **Dim. di default tipo di conto**.  
+4.  Compilare i campi per ogni nuova dimensione di default che si desidera impostare. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]  
+>  Se si desidera rendere obbligatoria una dimensione senza assegnare ad essa un valore di default, non compilare il campo **Codice valore dimensioni** e selezionare **Codice obbligatorio** nel campo **Registrazione valore**.  
+
+> [!WARNING]  
+>  Se un conto viene utilizzato nel processo batch **Rettifica tassi di cambio** o nel processo batch **Registra costo magazzino in C/G**, non selezionare **Codice obbligatorio** o **Stesso Cod.**. Questi processi batch non supportano l'uso di codici di dimensione.  
+
+> [!NOTE]  
+>  Se a un conto deve essere assegnata una dimensione diversa da quella di default già impostata per quel determinato tipo di conto, è necessario impostare una dimensione di default per il conto in questione. La dimensione predefinita per il singolo conto sostituirà la dimensione predefinita per quel tipo di conto.  
+
+### <a name="to-set-up-default-dimension-priorities"></a>Per impostare priorità nelle dimensioni di default  
+Per tipi di conto diversi, come un conto cliente e un conto articoli, possono essere impostate dimensioni di default diverse. Un movimento potrà quindi avere più di una proposta di dimensione di default per un'unica dimensione. Per evitare conflitti è possibile applicare delle regole di priorità alle diverse fonti.  
+
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Priorità dimensioni di default**, quindi scegliere il collegamento correlato.  
+2.  Nel campo **Codice origine** della finestra **Priorità dimensioni di default** immettere il codice origine per la tabella movimenti a cui si desidera applicare le priorità dimensioni di default.  
+3.  Compilare i campi per ogni priorità della dimensione di default desiderata per il codice di origine selezionato.
+4.  Ripetere la procedura per ogni codice di origine per il quale si desidera impostare le priorità della dimensione di default.  
+
+> [!IMPORTANT]  
+>  Se vengono impostate due tabelle con la stessa priorità per lo stesso codice origine, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verrà sempre selezionata la tabella con l'ID minore.  
+
+### <a name="to-set-up-dimension-combinations"></a>Per impostare combinazioni dimensioni  
+Per evitare di registrare movimenti con dimensioni contraddittorie o non pertinenti è possibile bloccare o limitare specifiche combinazioni di due dimensioni. Se una combinazione di dimensioni è bloccata non è possibile registrare entrambe le dimensioni nello stesso movimento, qualsiasi siano i valori dimensioni. Una combinazione dimensioni limitata permette invece di registrare entrambe le dimensioni nello stesso movimento, ma soltanto per determinate combinazioni di valori dimensioni.
+
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Combinazioni di dimensioni**, quindi scegliere il collegamento correlato.  
+2.  Nella finestra **Combinazioni di dimensioni** selezionare il campo della combinazione dimensioni e selezionare una delle seguenti opzioni.  
+
+    |Campo|Description|
+    |----------------------------------|---------------------------------------|  
+    |**Nessuna limitazione**|La combinazione di dimensioni non avrà alcuna restrizione. Tutti i valori di dimensione sono ammessi.|  
+    |**Limitato**|La combinazione di dimensioni avrà delle restrizioni che dipenderanno dai valori dimensioni che vengono immessi. È necessario definire le limitazioni nella finestra **Combinazione Valori Dimensioni**.|  
+    |**Bloccato**|Questa combinazione di dimensioni non è ammessa.|  
+
+3.  Se è stata selezionata l'opzione **Limitato** è necessario definire quali combinazioni di valori dimensioni sono bloccati. Per effettuare questa operazione, selezionare il campo per definire la combinazione delle dimensioni.  
+4.  Selezionare una combinazione bloccata di valori di dimensione e selezionare l'opzione **Bloccato** nel campo. Un campo vuoto indica che la combinazione di valori di dimensione corrispondente è ammessa. Ripetere la procedura se sono presenti altre combinazioni bloccate  
+
+> [!NOTE]  
+>  Su righe e colonne vengono visualizzate le stesse dimensioni e pertanto tutte le combinazioni sono presenti due volte. In [!INCLUDE[d365fin](includes/d365fin_md.md)]l'impostazione scelta viene automaticamente visualizzata in entrambi i campi. Non è possibile immettere alcuna selezione nei campi lungo la diagonale che ha origine nell'angolo in alto a sinistra perché questi campi hanno la stessa dimensione sia sulla riga che sulla colonna.  
+>   
+>  L'opzione selezionata viene visualizzata dopo l'uscita dal campo.  
+>   
+>  Per visualizzare il nome delle dimensioni anziché il codice, selezionare il campo **Mostra nome colonna**.
+
+### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Sintesi delle dimensioni utilizzate più volte
+La finestra **Dimensioni di Default-Multipli** consente di determinare come un gruppo di conti utilizza le dimensioni e i valori delle dimensioni. Per effettuare questa operazione, evidenziare i vari conti nella lista dei conti, quindi specificare per essi le dimensioni e i valori dimensioni di default. Se per i conti evidenziati sono state specificate le dimensioni di default, tali dimensioni e i valori dimensioni verranno suggeriti automaticamente ogni volta che si utilizza uno dei conti, ad esempio, in una riga di registrazioni. I campi dimensione vengono compilati automaticamente, facilitando la registrazione dei movimenti. I valori dimensioni suggeriti possono tuttavia essere modificati, ad esempio, in una riga di registrazioni.
+
+La finestra **Dimensioni di Default-Multipli** contiene i seguenti campi:
+|Campo|Description|
+|----------------------------------|---------------------------------------|  
+|**Codice dimensione**|Mostra tutte le dimensioni di default impostate in uno o più conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutte le dimensioni disponibili. Selezionando una dimensione, tale dimensione verrà impostata come default per tutti i conti evidenziati.|
+|**Codice valore dimensioni**|Mostra un valore dimensioni singolo oppure la dicitura Conflitto. Se nel campo è presente un valore dimensioni, a tutti i campi selezionati corrisponderà lo stesso valore dimensioni di default. Se nel campo è presente la dicitura Conflitto, non è stato impostato lo stesso valore dimensioni di default per tutti i conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutti i valori dimensioni disponibili. Selezionando un valore dimensioni, tale valore dimensioni verrà impostato come default per tutti i conti evidenziati.|
+|**Registrazione valore**|Mostra una singola regola per la registrazione del valore oppure la dicitura Conflitto. Se nel campo è presente una regola di registrazione, allora a tutti i conti selezionati corrisponderà la stessa regole di registrazione del valore per un valore dimensioni. Se nel campo è presente la dicitura Conflitto, non è stata impostata la stessa regola di registrazione del valore per un valore dimensione per tutti i conti evidenziati. Selezionando il campo Registrazione valore è possibile visualizzare una lista delle regole per la registrazione del valore. Selezionando una regola per la registrazione del valore, tale regola verrà applicata per tutti i conti evidenziati.|
 
 ### <a name="example-of-dimension-setup"></a>Esempio di setup dimensioni
 Supponiamo che la società desideri tenere traccia delle transazioni in base alla struttura organizzativa e alle posizioni geografiche. A tale scopo, è possibile impostare due dimensioni nella finestra **Dimensioni** :
@@ -108,9 +158,22 @@ Se si lavora nelle registrazioni invece, è possibile aggiungere informazioni su
 
 È possibile impostare le dimensioni di default per i conti o i tipi di conto, in modo che le dimensioni e i valori dimensioni vengano compilati automaticamente.
 
+## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Per visualizzare le dimensioni globali nelle finestre dei movimenti contabili  
+I valori delle dimensioni globali vengono sempre\-definiti e denominati dalla società. Per visualizzare le dimensioni globali della società, aprire la finestra **Setup contabilità generale**.  
+
+In una finestra di movimenti contabili è possibile vedere se sono state impostate le dimensioni globali per i movimenti. Le due dimensioni globali si differenziano da tutte le altre dimensioni in quanto è possibile utilizzarle come filtro in qualsiasi punto di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Piano dei conti**, quindi scegliere il collegamento correlato.  
+2.  Nella finestra **Piano dei conti**, selezionare l'azione **Movimenti contabili**.  
+3.  Per visualizzare solo i movimenti pertinenti, impostare uno o più filtri nella finestra.  
+4.  Per visualizzare tutte le dimensioni di un movimento, selezionare il movimento e scegliere l'azione **Dimensioni**.  
+
+> [!NOTE]  
+>  La finestra **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della finestra **Dimensioni Voci Partitario** cambierà al variare del movimento contabile selezionato.  
+
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  
 [Finanze](finance.md)  
-[Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
+[Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

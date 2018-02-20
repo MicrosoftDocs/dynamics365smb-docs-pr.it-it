@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8fa54f5a4c5d2341485c0ebd290c7c683d37df9b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manufacturing"></a>Manufacturing
@@ -33,14 +33,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |**Per**|**Vedere**|  
 |------------|-------------|  
 |Ottenere informazioni sull'uso degli ordini di produzione.|[Informazioni sugli ordini di produzione](production-about-production-orders.md)|
-|Creare manualmente ordini di produzione.|[Procedura: Creare ordini di produzione:](production-how-to-create-production-orders.md)|
-|Affidare tutte le operazioni o quelle selezionate in un ordine di produzione a un terzista.|[Procedura: Come gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|
-|Registrare l'output di produzione, nonché i consumi in termini di materiale e tempo relativi a una singola riga dell'ordine di produzione rilasciato.|[Procedura: Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md)|  
-|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Procedura: Registrare il consumo tramite processo batch](production-how-to-post-consumption.md)|
-|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Procedura: Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)|  
-|Registrare il numero di articoli prodotti in ogni operazione completata che non vengono qualificati come output finito ma come materiale di scarto.|[Procedura: Registrare lo scarto](production-how-to-post-scrap.md)|
-|Visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.|[Procedura: Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)|      
-|Utilizzare la finestra **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Procedura: Registrare le capacità](production-how-to-post-capacities.md)|  
+|Creare manualmente ordini di produzione.|[Creare ordini di produzione](production-how-to-create-production-orders.md)|
+|Affidare tutte le operazioni o quelle selezionate in un ordine di produzione a un terzista.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|
+|Registrare l'output di produzione, nonché i consumi in termini di materiale e tempo relativi a una singola riga dell'ordine di produzione rilasciato.|[Registrare consumo e output per la riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md)|  
+|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare il consumo tramite processo batch](production-how-to-post-consumption.md)|
+|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)|  
+|Registrare il numero di articoli prodotti in ogni operazione completata che non vengono qualificati come output finito ma come materiale di scarto.|[Registrare lo scarto](production-how-to-post-scrap.md)|
+|Visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.|[Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)|      
+|Utilizzare la finestra **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Registrare le capacità](production-how-to-post-capacities.md)|  
 |Calcolare e rettificare il costo degli articoli di produzione terminati e dei componenti consumati ai fini della riconciliazione finanziaria.|[Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
@@ -49,4 +49,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

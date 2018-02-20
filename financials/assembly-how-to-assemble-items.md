@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Procedura: Assemblare articoli
+# <a name="assemble-items"></a>Assemblare articoli
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
 
-I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per altre informazioni, vedere [Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md).  
+I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
 
 Gli articoli di assemblaggio possono essere impostati per due diversi processi di assemblaggio:  
 
@@ -31,14 +31,14 @@ Gli articoli di assemblaggio possono essere impostati per due diversi processi d
 
 In genere si utilizza l'**assemblaggio per magazzino** per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
 
-In genere si utilizza l'**assemblaggio su ordine** per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino, approvvigionandoli secondo il metodo JIT (Just-In-Time). Per ulteriori informazioni, vedere [Procedura: Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
+In genere si utilizza l'**assemblaggio su ordine** per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino, approvvigionandoli secondo il metodo JIT (Just-In-Time). Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Per ulteriori informazioni sull'impostazione di un articolo di assemblaggio, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Queste opzioni di setup sono impostazioni di default che gestiscono il modo in cui le righe ordine di assemblaggio e di vendita vengono inizialmente elaborate. È possibile ignorare queste impostazioni di default r approvvigionare l'articolo di assemblaggio nel modo ottimale durante l'elaborazione di una vendita. Per ulteriori informazioni, vedere [Procedura: Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) e [Procedura: Vedere insieme articoli assemblaggio su ordine e articoli in magazzino](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Queste opzioni di setup sono impostazioni di default che gestiscono il modo in cui le righe ordine di assemblaggio e di vendita vengono inizialmente elaborate. È possibile ignorare queste impostazioni di default r approvvigionare l'articolo di assemblaggio nel modo ottimale durante l'elaborazione di una vendita. Per ulteriori informazioni, vedere [Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) e [Vedere insieme articoli assemblaggio su ordine e articoli in magazzino](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> I componenti di assemblaggio sono gestiti in modo speciale in configurazioni di warehouse di base. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in [Procedura: Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> I componenti di assemblaggio sono gestiti in modo speciale in configurazioni di warehouse di base. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli articoli che vengono assemblati per magazzino, ovvero senza un ordine di vendita collegato. I passaggi includono la creazione dell'ordine di assemblaggio, la gestione dei potenziali problemi di disponibilità dei componenti e la registrazione parziale dell'output dell'articolo di assemblaggio.
 
@@ -50,7 +50,7 @@ In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli
 5.  Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
 
     > [!NOTE]  
-    >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la finestra **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Procedura: Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la finestra, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
+    >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la finestra **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la finestra, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
 
     Le righe ordine di assemblaggio vengono compilate automaticamente con il contenuto della DB di assemblaggio e con le quantità delle righe in base alla testata ordine di assemblaggio.  
 
@@ -71,7 +71,7 @@ Una volta effettuata la registrazione, l'articolo di assemblaggio viene registra
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Procedura: Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

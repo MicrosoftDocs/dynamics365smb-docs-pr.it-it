@@ -1,6 +1,6 @@
 ---
 title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse avanzate | Documenti Microsoft'
-description: "In Dynamics 365, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse."
+description: "In Finance and Operations, Business edition, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
@@ -151,8 +151,8 @@ Nella finestra **Stoccaggio warehouse** è possibile gestire gli stoccaggi per u
     Gli accessori ricevuti vengono a questo punto stoccati nelle collocazioni di default degli articoli e 40 cerniere vengono collocate nel reparto di assemblaggio. Gli articoli ricevuti sono ora disponibili per essere prelevati a seconda delle richieste interne, ad esempio gli ordini di assemblaggio, o delle richieste esterne, ad esempio le spedizioni vendite.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Procedura: Stoccare articoli con gli stoccaggi warehouse](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Procedura: Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Eseguire lo stoccaggio con Stoccaggi warehouse:](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)

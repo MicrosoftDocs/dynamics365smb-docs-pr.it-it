@@ -13,18 +13,18 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-usage-for-jobs"></a>Procedura: Registrare l'utilizzo nelle commesse
-Nella finestra **Righe pianificazione commessa** è possibile esaminare e registrare l'utilizzo nelle diverse parti della commessa, che viene automaticamente aggiornato quando si modificano e si trasferiscono le informazioni tra le commesse e le registrazioni delle commesse o le fatture commessa. Questo richiede che sia stata impostata una commessa in modo da attivare **Applica collegamento utilizzo**. Per ulteriori informazioni, vedere [Procedura: Impostare le commesse](projects-how-setup-jobs.md).  
+# <a name="record-usage-for-jobs"></a>Registrare l'utilizzo nelle commesse
+Nella finestra **Righe pianificazione commessa** è possibile esaminare e registrare l'utilizzo nelle diverse parti della commessa, che viene automaticamente aggiornato quando si modificano e si trasferiscono le informazioni tra le commesse e le registrazioni delle commesse o le fatture commessa. Questo richiede che sia stata impostata una commessa in modo da attivare **Applica collegamento utilizzo**. Per ulteriori informazioni, vedere [Impostare le commesse](projects-how-setup-jobs.md).  
 
 Ad esempio, per le righe di pianificazione di tipo **Budget**, è possibile immettere la quantità di una risorsa e indicare la quantità da trasferire nelle registrazioni commesse. Se il tipo di righe di pianificazione è **Fatturabile**, è possibile immettere la quantità della risorsa e indicare la quantità da trasferire in una fattura. Confrontando la quantità che è stata trasferita nelle registrazioni o nella fattura con la quantità residua, è possibile verificare rapidamente le informazioni di utilizzo.
 
-Di seguito viene descritto come registrare i prezzi e i costi di commessa effettivi (fatturabili) o a budget. Per informazioni sulla stima dei valori a budget durante la pianificazione, vedere [Procedura: Gestire i budget delle commesse](projects-how-manage-budgets.md).
+Di seguito viene descritto come registrare i prezzi e i costi di commessa effettivi (fatturabili) o a budget. Per informazioni sulla stima dei valori a budget durante la pianificazione, vedere [Gestire i budget delle commesse](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Per registrare l'utilizzo per una riga di pianificazione commessa di tipo Budget
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
@@ -41,9 +41,9 @@ Di seguito viene descritto come registrare i prezzi e i costi di commessa effett
 10. Ripetere i passaggi da 3 a 8 per registrare altri utilizzi.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Per registrare l'utilizzo per una riga di pianificazione commessa di tipo Fatturabile
-Anche nel task successivo si registra l'utilizzo, ma per una riga di pianificazione commessa di tipo **Fatturabile**. In genere, in questo caso, si fattura l'utilizzo, ma è anche possibile trasferirlo alle registrazioni. Tuttavia, quando si esegue questa operazione, viene creata una riga di pianificazione commessa di tipo **Budget** da associare alla riga fatturabile. Per ulteriori informazioni, vedere [Procedura: Gestire i budget delle commesse](projects-how-manage-budgets.md).
+Anche nel task successivo si registra l'utilizzo, ma per una riga di pianificazione commessa di tipo **Fatturabile**. In genere, in questo caso, si fattura l'utilizzo, ma è anche possibile trasferirlo alle registrazioni. Tuttavia, quando si esegue questa operazione, viene creata una riga di pianificazione commessa di tipo **Budget** da associare alla riga fatturabile. Per ulteriori informazioni, vedere [Gestire i budget delle commesse](projects-how-manage-budgets.md).
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Righe pianificazione commessa**.  
 3. Selezionare una riga di pianificazione commessa di tipo **Fatturabile** per la quale si desidera registrare l'utilizzo.
 4. Nel campo **Qtà da trasferire in fattura**, immettere il numero che si desidera trasferire. La quantità di default è il valore che si immette nel campo **Quantità**.
@@ -79,9 +79,9 @@ Quando si è pronti a registrare le informazioni finanziarie per le commesse, è
 Dopo avere registrato le righe di registrazione commessa registrate, è possibile visualizzare le righe di pianificazione associate ai movimenti di registrazione commesse che sono stati registrati.
 
 > [!NOTE]  
->   Questo richiede che la casella di controllo **Applica collegamento utilizzo** sia stata selezionata per la commessa oppure che sia l'impostazione di default per tutte le commesse nell'organizzazione. Per ulteriori informazioni, vedere [Procedura: Impostare le commesse](projects-how-setup-jobs.md).  
+>   Questo richiede che la casella di controllo **Applica collegamento utilizzo** sia stata selezionata per la commessa oppure che sia l'impostazione di default per tutte le commesse nell'organizzazione. Per ulteriori informazioni, vedere [Impostare le commesse](projects-how-setup-jobs.md).  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.  
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Mov. contabili**.  
 3. Nella finestra **Movimenti contabili commesse** scegliere l'azione **Mostra righe pianificazione commessa collegate**.
 

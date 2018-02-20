@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Procedura: Creare e modificare un layout di documento o report personalizzato
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Creare e modificare un layout di documento o report personalizzato
 Per impostazione predefinita, un report avrà un layout di report RDLC o Word predefinito o entrambi. Non è possibile modificare i layout predefiniti. Tuttavia, è possibile creare i propri layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato. È possibile creare più layout di report personalizzati per lo stesso report e alternare il layout utilizzato in un report in base alle esigenze.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ Se si sta progettando un layout di report Word da zero o aggiungendo nuovi campi
 2.  Eliminare il testo residuo in base alle esigenze.  
 
 ### <a name="adding-data-fields"></a>Aggiunta di campi dati
-L'aggiunta di campi dati dal set di dati di un report è una funzione più avanzata e richiede la conoscenza del set di dati del report. Per informazioni sull'aggiunta di campi per dati, etichette, dati e immagini, vedere [Procedura: Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md).  
+L'aggiunta di campi dati dal set di dati di un report è una funzione più avanzata e richiede la conoscenza del set di dati del report. Per informazioni sull'aggiunta di campi per dati, etichette, dati e immagini, vedere [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
-[Procedura: Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md)  
-[Procedura: Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
+[Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md)  
+[Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
 [Utilizzo dei report](ui-work-report.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

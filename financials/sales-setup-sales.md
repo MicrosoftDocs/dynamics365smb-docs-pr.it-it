@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
@@ -30,14 +30,14 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 
 | Per | Vedere |
 | --- | --- |
-| Creare una scheda cliente per ogni cliente a cui si effettua una vendita. |[Procedura: Registrare nuovi clienti](sales-how-register-new-customers.md) |
-| Consentire ai clienti di pagare tramite PayPal selezionando il logo di PayPal nei documenti di vendita. |[Procedura: Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md) |
-| Immettere sconti diversi e prezzi speciali che vengono concessi ai clienti a seconda dell'articolo, delle quantità e/o della data. |[Procedura: Registrare accordi riguardanti prezzi, sconti e pagamenti applicati alle vendite](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Impostare gli agenti in modo da poterli assegnare ai contatti clienti o misurarne le prestazioni per calcolare la provvigione sulle vendite o il premio. |[Procedura: Impostare gli agenti](sales-how-setup-salespeople.md) |
-| Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
-| Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md). |
-|Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Procedura: verificare i numeri di partita IVA](finance-setup-vat.md)|
-|Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Procedura: Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
+| Creare una scheda cliente per ogni cliente a cui si effettua una vendita. |[Registrare nuovi clienti](sales-how-register-new-customers.md) |
+| Consentire ai clienti di pagare tramite PayPal selezionando il logo di PayPal nei documenti di vendita. |[Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md) |
+| Immettere sconti diversi e prezzi speciali che vengono concessi ai clienti a seconda dell'articolo, delle quantità e/o della data. |[Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Impostare gli agenti in modo da poterli assegnare ai contatti clienti o misurarne le prestazioni per calcolare la provvigione sulle vendite o il premio. |[Impostare gli agenti](sales-how-setup-salespeople.md) |
+| Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
+| Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Inviare documenti via e-mail](ui-how-send-documents-email.md). |
+|Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
+|Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  

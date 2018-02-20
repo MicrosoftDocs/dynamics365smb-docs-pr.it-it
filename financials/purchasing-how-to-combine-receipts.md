@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>Procedura: Combinare i carichi in una singola fattura
+# <a name="combine-receipts-on-a-single-invoice"></a>Combinare i carichi in una singola fattura
 Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione **Cumula carichi**.  
 
 Prima di creare un carico di acquisto cumulato, è necessario che venga registrato più di un carico per lo stesso fornitore nella stessa valuta. In altri termini, è necessario compilare due o più ordini di acquisto e registrarli come ricevuti, ma non fatturati.  
@@ -28,7 +28,7 @@ Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene
 
 ## <a name="to-combine-receipts"></a>Per cumulare i carichi  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di acquisto**, quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md).  
+2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
 3. Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di carico**.  
 4. Selezionare più righe di carico che si desidera includere nella fattura.  
 

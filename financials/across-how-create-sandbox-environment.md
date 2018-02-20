@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Procedura: Creare un ambiente sandbox
+# <a name="create-a-sandbox-environment"></a>Creare un ambiente sandbox
 Un ambiente sandbox (anteprima) è un'istanza di non produzione di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.
 
 ## <a name="to-create-a-sandbox-environment"></a>Per creare un ambiente sandbox
@@ -44,7 +44,7 @@ Nell'ambiente sandbox è stato creato un tenant completamente nuovo. Questo tena
 > [!NOTE]  
 >  La reimpostazione dell'ambiente sandbox ne determinerà la rimozione completa e la successiva creazione di un nuovo ambiente sandbox con i dati dimostrativi di default.  
 
-8.  Per passare tra gli ambienti di produzione e sandbox, è possibile utilizzare l'utilità di avvio dell'app Dynamics 365.
+8.  Per passare tra gli ambienti di produzione e sandbox, è possibile utilizzare l'utilità di avvio dell'app Finance and Operations, Business edition.
 ![Menu sandbox di Dynamics365](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  È possibile per un amministratore o un altro utente limitare o persino bloccare l'accesso da parte di alcuni utenti all'ambiente sandbox. Questa operazione può essere effettuata utilizzando le funzionalità di sicurezza standard del prodotto, ad esempio la scheda Utente, Gruppi di utenti e Set di autorizzazioni.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Stoccaggio di articoli
@@ -32,14 +32,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Registrare il carico degli articoli direttamente dal documento dell'ordine in entrata e pertanto registrare lo stoccaggio poiché non esistono configurazioni della warehouse.|[Procedura: Ricevere articoli](warehouse-how-receive-items.md)|  
-|Stoccare gli articoli ordine per ordine e registrare il carico nella stessa attività, in una configurazione di base della warehouse.|[Procedura: Stoccare articoli con gli stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Stoccare gli articoli per più ordini in una configurazione avanzata della warehouse.|[Procedura: Stoccare articoli con gli stoccaggi warehouse](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Stoccare gli articoli prodotti o assemblati in una configurazione di base o avanzata della warehouse.|[Procedura: Stoccare l'output produzione o l'output assemblaggio | Documenti Microsoft](warehouse-how-to-put-away-production-output.md)|
-|Pianificare istruzioni di stoccaggio ottimizzate per diversi carichi warehouse registrati anziché lasciare che i lavoratori warehouse agiscano direttamente sui carichi.|[Procedura: Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Ricollocare gli articoli prelevati tecnicamente con un prelievo interno, ad esempio per un ordine di produzione per il quale non è stata utilizzata la quantità prevista.|[Procedura: Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Dividere una riga di stoccaggio per inserire parte della quantità di stoccaggio nelle collocazioni disponibili in quanto la collocazione designata è piena.|[Procedura: Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Ottenere accesso immediato agli stoccaggi avuti in assegnazione in veste di lavoratore warehouse.|[Procedura: Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Registrare il carico degli articoli direttamente dal documento dell'ordine in entrata e pertanto registrare lo stoccaggio poiché non esistono configurazioni della warehouse.|[Ricevere articoli](warehouse-how-receive-items.md)|  
+|Stoccare gli articoli ordine per ordine e registrare il carico nella stessa attività, in una configurazione di base della warehouse.|[Eseguire lo stoccaggio con Stoccaggi Magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Stoccare gli articoli per più ordini in una configurazione avanzata della warehouse.|[Eseguire lo stoccaggio con Stoccaggi warehouse:](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Stoccare gli articoli prodotti o assemblati in una configurazione di base o avanzata della warehouse.|[Stoccare l'output produzione o l'output assemblaggio](warehouse-how-to-put-away-production-output.md)|
+|Pianificare istruzioni di stoccaggio ottimizzate per diversi carichi warehouse registrati anziché lasciare che i lavoratori warehouse agiscano direttamente sui carichi.|[Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Ricollocare gli articoli prelevati tecnicamente con un prelievo interno, ad esempio per un ordine di produzione per il quale non è stata utilizzata la quantità prevista.|[Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Dividere una riga di stoccaggio per inserire parte della quantità di stoccaggio nelle collocazioni disponibili in quanto la collocazione designata è piena.|[Suddividere righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Ottenere accesso immediato agli stoccaggi avuti in assegnazione in veste di lavoratore warehouse.|[Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

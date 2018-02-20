@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Contratti multipli
@@ -35,7 +35,7 @@ Tramite la gestione di un articolo in assistenza in più contratti, è possibile
 Si prendano in considerazione i seguenti esempi di utilizzo di contratti multipli.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Creazione di contratti multipli per un articolo in assistenza  
-È possibile creare manualmente un contratto o un'offerta di contratto di assistenza per articoli in assistenza già registrati in contratti non annullati relativi allo stesso cliente. A tale scopo, seguire la procedura standard di creazione per i contratti e le offerte di contratto di assistenza. Per ulteriori informazioni, vedere [Procedura: Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+È possibile creare manualmente un contratto o un'offerta di contratto di assistenza per articoli in assistenza già registrati in contratti non annullati relativi allo stesso cliente. A tale scopo, seguire la procedura standard di creazione per i contratti e le offerte di contratto di assistenza. Per ulteriori informazioni, vedere [Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Quando in una riga di contratto si aggiunge un articolo in assistenza registrato in altri contratti di assistenza o altre offerte di contratto, viene visualizzato un messaggio di avviso che comunica che l'articolo in assistenza appartiene già a uno o più contratti di assistenza o a una o più offerte di contratto. Se si risponde affermativamente a questo messaggio, le informazioni di interesse relative all'articolo in assistenza verranno copiate in una nuova riga di contratto.  
   
@@ -47,5 +47,5 @@ Quando in una riga di contratto si aggiunge un articolo in assistenza registrato
   
 ## <a name="see-also"></a>Vedi anche  
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
-[Procedura: Creare ordini di assistenza](service-how-to-create-service-orders.md)  
+[Creare ordini di assistenza](service-how-to-create-service-orders.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Stoccare articoli con gli stoccaggi magazzino | Documenti Microsoft'
-description: "Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio."
+description: "Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio Magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Procedura: Stoccare articoli con gli stoccaggi magazzino
+# <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di asseblaggio o produzione il cui output è pronto per lo stoccaggio.  
 
 È possibile creare uno stoccaggio in magazzino in tre modi:  
@@ -39,7 +39,7 @@ Per gli ordini di acquisto, gli ordini di reso vendita, gli ordini di trasferime
 4. Scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
->  È inoltre possibile creare la richiesta warehouse in entrata selezionando la casella di controllo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Procedura: Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
+>  È inoltre possibile creare la richiesta warehouse in entrata selezionando la casella di controllo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
 In seguito alla creazione della richiesta warehouse, un dipendente della warehouse addetto allo stoccaggio degli articoli vedrà che il documento di origine è pronto e potrà creare un documento di stoccaggio magazzino.  
 
@@ -68,7 +68,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 2. Nel campo **Codice collocazione** nelle righe di stoccaggio, la collocazione in cui gli articoli devono essere stoccati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa finestra, se necessario.  
 3. Eseguire lo stoccaggio e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da Gestire**.
 
-    Se è necessario ubicare gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe**. Per ulteriori informazioni sulla divisione delle righe, vedere [Procedura: Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Se è necessario ubicare gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe**. Per ulteriori informazioni sulla divisione delle righe, vedere [Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Dopo avere eseguito lo stoccaggio, scegliere l'azione **Registra**.  
 
 Il processo di registrazione contabilizzerà il carico, o nel caso di ordini di produzione, l'output delle righe del documento origine per le quali è stato eseguito lo stoccaggio e, se l'ubicazione prevede l'utilizzo di collocazioni, verranno anche creati i movimenti warehouse per la registrazione delle modifiche delle quantità nelle collocazioni.

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>Procedura: Prelevare articoli per la spedizione warehouse
+# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.  
 
 Non è possibile creare un documento di prelievo warehouse da zero perché un'attività di prelievo fa sempre parte di un flusso di lavoro, in uno scenario di tipo push o pull.  
 
 È possibile creare documenti di prelievo warehouse in modalità pull aprendo un documento di spedizione warehouse vuoto, rilevare i documenti di origine rilasciati per la spedizione, quindi creare righe di prelievo warehouse per tali spedizioni. È possibile utilizzare le funzioni **Prendi documenti origine** o **Usa filtri per richiamare doc. orig.** per rilevare i documenti di origine pronti per la spedizione.
 
-In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per estrarre e creare righe prelievo in modalità batch. Per ulteriori informazioni, vedere [Procedura: Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).  
+In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per estrarre e creare righe prelievo in modalità batch. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 È inoltre possibile creare documenti di prelievo warehouse in modalità push dalla finestra **Spedizione warehouse** selezionando **Crea prelievo**.  
 
@@ -37,7 +37,7 @@ In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per e
 >   
 >  Per ulteriori informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in spedizioni warehouse".  
 >   
->  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Procedura: Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
+>  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse  
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievi**, quindi scegliere il collegamento correlato.  
@@ -52,9 +52,9 @@ In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per e
 
 4.  Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegliere l'azione **Registra prelievo**.  
 
-A questo punto, la persona responsabile della spedizione può immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella finestra **Spedizione warehouse**. Per ulteriori informazioni, vedere [Procedura: Spedire articoli](warehouse-how-ship-items.md).   
+A questo punto, la persona responsabile della spedizione può immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella finestra **Spedizione warehouse**. Per ulteriori informazioni, vedere [Spedire articoli](warehouse-how-ship-items.md).   
 
-Oltre al prelievo per i documenti di origine, come descritto in questo argomento, è possibile estrarre e inserire articoli tra le collocazioni senza fare riferimento ai documenti di origine. Per ulteriori informazioni, vedere [Procedura: Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+Oltre al prelievo per i documenti di origine, come descritto in questo argomento, è possibile estrarre e inserire articoli tra le collocazioni senza fare riferimento ai documenti di origine. Per ulteriori informazioni, vedere [Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Gestione di articoli da assemblare su ordine in spedizioni warehouse
 Negli scenari di assemblaggio su ordine il campo **Qtà da spedire** sulle righe spedizione warehouse viene utilizzato per registrare il numero di unità assemblate. La quantità specificata viene quindi registrata come output assemblaggio quando viene registrata la spedizione warehouse.

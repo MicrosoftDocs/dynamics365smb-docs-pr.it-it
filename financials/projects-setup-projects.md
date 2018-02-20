@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4334dd85d5dff1989e7435814e552fabad04a6ca
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
@@ -28,9 +28,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Impostare le risorse e i costi e i prezzi correlati, per singole risorse, gruppi di risorse o per tutte le risorse disponibili nell'azienda. |[Procedura: Impostare risorse](projects-how-setup-resources.md) |
-| Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione. |[Procedura: Impostare fogli presenze](projects-how-setup-time-sheets.md) |
-| Creare schede commessa e preparare task commesse. Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse. |[Procedura: Impostare le commesse](projects-how-setup-jobs.md) |
+| Impostare le risorse e i costi e i prezzi correlati, per singole risorse, gruppi di risorse o per tutte le risorse disponibili nell'azienda. |[Impostare risorse](projects-how-setup-resources.md) |
+| Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione. |[Impostare fogli presenze](projects-how-setup-time-sheets.md) |
+| Creare schede commessa e preparare task commesse. Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse. |[Impostazione di commesse](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione di progetti](projects-manage-projects.md)  

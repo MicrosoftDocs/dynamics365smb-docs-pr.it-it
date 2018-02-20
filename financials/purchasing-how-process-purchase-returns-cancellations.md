@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Procedura: Elaborare i resi o gli annullamenti acquisti
+# <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
 
 Se è necessario più controllo del processo di reso da acquisto, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si restituiscono articoli da più documenti di acquisto con un unico reso acquisto, è possibile creare gli ordini di reso acquisto. Un ordine di reso da acquisto automaticamente crea la nota di credito di acquisto correlata. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati".
 
 > [!NOTE]  
->   Se una fattura di acquisto registrata non è stata ancora pagata, allora è possibile utilizzare le funzioni **Annulla** o **Rettifica** nella fattura di acquisto registrata per stornare automaticamente le transazioni implicate. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Procedura: Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   Se una fattura di acquisto registrata non è stata ancora pagata, allora è possibile utilizzare le funzioni **Annulla** o **Rettifica** nella fattura di acquisto registrata per stornare automaticamente le transazioni implicate. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 In genere, si crea una nota di credito di acquisto o un ordine di reso da acquisto in risposta a una nota di credito inviata da un fornitore. La nota di credito di acquisto o l'ordine di reso da acquisto funziona come documentazione interna del processo di nota di credito per scopi contabili o per controllare la spedizione degli articoli interessati.
 
@@ -134,7 +134,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 1.  Nella finestra **Ordine di reso acquisto** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
 2. Scegliere l'azione **Sposta righe negative**.  
 3. Nella finestra **Muovi righe acquisto negative** compilare i campi secondo le necessità.
-4. Scegliere il pulsante **OK**. La riga negativa viene eliminata dall'ordine di reso acquisto e un nuovo ordine di acquisto viene creato. Per ulteriori informazioni, vedere [Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md).  
+4. Scegliere il pulsante **OK**. La riga negativa viene eliminata dall'ordine di reso acquisto e un nuovo ordine di acquisto viene creato. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Per creare un abbuono di acquisto  
 Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richiesti, ad esempio, se sono leggermente danneggiati, se il colore o la misura non sono quelli giusti, il fornitore può proporre un abbuono sull'acquisto.  
@@ -150,7 +150,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
     È possibile creare un numero di addebito articolo particolare per coprire gli abbuoni sugli acquisti.  
 6.  Nel campo **Quantità** immettere **1**.  
 7.  Nel campo **Costo Diretto Unitario** immettere l'importo dell'abbuono.  
-8.  Assegnare l'abbuono come addebito sugli articoli nel carico registrato. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito acquisto**.
+8.  Assegnare l'abbuono come addebito sugli articoli nel carico registrato. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito acquisto**.
 
 Durante la registrazione dell'ordine di reso da acquisto, l'abbuono viene aggiunto all'importo del movimento di acquisto corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
@@ -183,7 +183,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 
 ## <a name="see-also"></a>Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  
-[Procedura: Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Procedura: Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Registrare gli acquisti](purchasing-how-record-purchases.md)  
+[Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Documenti elettronici in Dynamics 365 Business edition | Microsoft Docs
-description: Introduzione all'invio e alla ricezione dei documenti elettronici in Dynamics 365.
+title: Documenti elettronici in Finance and Operations, Business edition | Documenti Microsoft
+description: Introduzione all'invio e alla ricezione di documenti elettronici in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -53,12 +53,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Per|Vedere|  
 |--------|---------|  
 |Informazioni sul funzionamento della struttura di scambio di dati (Data Exchange Framework).|[Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)|  
-|Preparare lo scambio di dati in un file riutilizzando lo schema XML del file. Impostare le definizioni di scambio dei dati. Impostare i dati principali per l'invio dei documenti elettronici. Impostare vari campi di importazione/esportazione della banca.|[Impostazione dello scambio di dati](across-set-up-data-exchange.md)|  
+|Preparare lo scambio di dati in un file riutilizzando lo schema XML del file. Impostare le definizioni di scambio dati. Impostare i dati principali per l'invio dei documenti elettronici. Impostare vari campi di importazione/esportazione della banca.|[Impostazione dello scambio di dati](across-set-up-data-exchange.md)|  
 |In base alle definizioni di scambio dei dati, inviare le fatture PEPPOL, ricevere le fatture PEPPOL, importare gli estratti conto bancari ed esportare i file di pagamento bancario.|[Scambio di dati](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)  
-[Procedura: Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati](across-exchange-data.md)  
 [Documenti in entrata](across-income-documents.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Gestione di conti correnti bancari
@@ -31,8 +31,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Riconciliare i conti correnti bancari in relazione all'elaborazione dei pagamenti nella finestra **Registrazione riconciliazione pagamenti**. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Riconciliare i conti bancari, inclusi i movimenti contabili assegni, come attività separata nella finestra **Riconciliazioni C/C bancari**. |[Procedura: Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md) |
-| Registrare i bonifici tra conti correnti bancari nella stessa valuta o in valute diverse. |[Procedura: Trasferire fondi bancari](bank-how-transfer-bank-funds.md) |
+| Riconciliare i conti bancari, inclusi i movimenti contabili assegni, come attività separata nella finestra **Riconciliazioni C/C bancari**. |[Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md) |
+| Registrare i bonifici tra conti correnti bancari nella stessa valuta o in valute diverse. |[Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
@@ -40,4 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione della contabilità fornitori](payables-manage-payables.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Pacchetti di contenuto per Dynamics 365 Business edition e Power BI | Documenti Microsoft
-description: "Ottenere informazioni approfondite, business intelligence e KPI sui dati di Dynamics 365 è semplice con Power BI e Dynamics 365 Content Pack."
+title: Pacchetti di contenuto per Finance and Operations, Business edition e Power BI | Documenti Microsoft
+description: "Ottenere informazioni approfondite, business intelligence e KPI sui dati di Finance and Operations, Business edition è semplice con Power BI e con i pacchetti di contenuto di Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI
@@ -22,11 +22,11 @@ Ottenere informazioni approfondite sui dati di [!INCLUDE[d365fin](includes/d365f
 
 Microsoft ha pubblicato i seguenti pacchetti di contenuto:
 
-| App | Descrizione |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Fornisce un dashboard con i principali dati finanziari nel tempo, quali gli utili rispetto alle spese, il margine operativo e il ciclo di cassa.|
-| Microsoft Dynamics 365 for Financials - CRM | Fornisce un dashboard con i dati principali relativi alle opportunità di vendita e ai contatti.  |
-| Microsoft Dynamics 365 for Financials - Vendite | Fornisce un dashboard con i dati principali relativi alle vendite e al magazzino. |
+| Microsoft Finance and Operations, Business edition | Fornisce un dashboard con i principali dati finanziari nel tempo, quali gli utili rispetto alle spese, il margine operativo e il ciclo di cassa.|
+| Microsoft Finance and Operations, Business edition - CRM | Fornisce un dashboard con i dati principali relativi alle opportunità di vendita e ai contatti.  |
+| Microsoft Finance and Operations, Business edition - Sales | Fornisce un dashboard con i dati principali relativi alle vendite e al magazzino. |
 
 ## <a name="using-the-dashboards"></a>Utilizzo dei dashboard
 Ogni pacchetto di contenuto include report che è possibile analizzare in dettaglio:
@@ -44,7 +44,7 @@ I pacchetti di contenuti sono preconfigurati per utilizzare i dati della societ�
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 Per visualizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI, è necessario disporre di quanto segue:  
 
-* Accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedi [Community di Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Accesso a Power BI. Per ulteriori informazioni, vedere [Power BI](https://powerbi.microsoft.com).
 
 Nel sito di Power BI è possibile trovare informazioni aggiuntive su [connettere i servizio con i pacchetti di contenuto per Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la fines
 [Business Intelligence](bi.md)  
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrare i dati aziendali da altri sistemi contabili](upload-data.md)  
-[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Uso di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

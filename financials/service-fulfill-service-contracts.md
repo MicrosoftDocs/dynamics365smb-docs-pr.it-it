@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
@@ -29,12 +29,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |**Per**|**Vedere**|  
 |------------|-------------|  
 |Gestire un articolo in assistenza tramite più contratti. | [Contratti multipli](service-multiple-contracts.md)|  
-|Creare contratti di assistenza manualmente o partendo da un'offerta di contratto assistenza.| [Procedura: Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Rettificare l'importo annuo di un contratto di assistenza o di un'offerta di contratto per essere certi di fatturare l'importo corretto.|[Procedura: Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Creare contratti di assistenza manualmente o partendo da un'offerta di contratto assistenza.| [Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Rettificare l'importo annuo di un contratto di assistenza o di un'offerta di contratto per essere certi di fatturare l'importo corretto.|[Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Vedere anche
 [Pianificazione dell'assistenza](service-plan-service.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-[Procedura: Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

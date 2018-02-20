@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Cespiti
@@ -31,10 +31,7 @@ Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni f
 Ogni cespite può essere allegato a una o più polizze assicurative. È quindi possibile facilitare la verifica della conformità tra gli importi della polizza assicurativa e il valore dei cespiti a essa collegati. In questo modo viene agevolato anche il controllo dei premi assicurativi annuali.
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Procedura: Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   Questa funzionalità richiede che l'esperienza sia impostata su **Suite**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
 
 Prima di iniziare la gestione dei cespiti, è necessario impostare valori di default, contabilità dei cespiti, categorie di registrazione, chiavi di allocazione, registrazioni, ammortamento e tipi di registrazione. Per ulteriori informazioni, vedere [Impostazione di cespiti](fa-setup.md).
 
@@ -42,14 +39,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. |[Procedura: Acquisire i cespiti](fa-how-acquire.md) |
-| Registrazione delle visite di assistenza, pubblicazione dei costi di manutenzione e monitoraggio dei costi di manutenzione. |[Procedura: Gestire i cespiti](fa-how-maintain.md) |
-| Aggiornamento delle informazioni di assicurazione, registrazione dei costi di acquisto in polizze assicurative, modifica della copertura assicurativa, visualizzazione delle statistiche di assicurazione e creazione di liste delle polizze assicurative. |[Procedura: Assicurare i cespiti](fa-how-insure.md) |
-| Riclassificazione dei cespiti, trasferimento dei cespiti in ubicazioni diverse, suddivisione o raggruppamento dei cespiti. |[Procedura: Trasferire, dividere o raggruppare i cespiti](fa-how-trans-split-combine.md) |
-| Rettifica dei valori dei cespiti, registrazione dell'ammortamento e di transazioni di svalutazione. |[Procedura: Rivalutare i cespiti](fa-how-revalue.md) |
-| Calcolo dell'ammortamento, registrazione dell'ammortamento e analisi dell'ammortamento nei report sui cespiti. |[Procedura: Ammortizzare i cespiti](fa-how-depreciate-amortize.md) |
-| Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Procedura: Cedere o ritirare i cespiti](fa-how-dispose-retire.md) |
-| Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Procedura: Gestire i budget per i cespiti](fa-how-manage-budgets.md) |
+| Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. |[Acquisire i cespiti](fa-how-acquire.md) |
+| Registrazione delle visite di assistenza, pubblicazione dei costi di manutenzione e monitoraggio dei costi di manutenzione. |[Gestione di cespiti](fa-how-maintain.md) |
+| Aggiornamento delle informazioni di assicurazione, registrazione dei costi di acquisto in polizze assicurative, modifica della copertura assicurativa, visualizzazione delle statistiche di assicurazione e creazione di liste delle polizze assicurative. |[Assicurazione di cespiti](fa-how-insure.md) |
+| Riclassificazione dei cespiti, trasferimento dei cespiti in ubicazioni diverse, suddivisione o raggruppamento dei cespiti. |[Trasferimento, divisione o combinazione di cespiti](fa-how-trans-split-combine.md) |
+| Rettifica dei valori dei cespiti, registrazione dell'ammortamento e di transazioni di svalutazione. |[Rivalutazione dei cespiti](fa-how-revalue.md) |
+| Calcolo dell'ammortamento, registrazione dell'ammortamento e analisi dell'ammortamento nei report sui cespiti. |[Ammortamento dei cespiti](fa-how-depreciate-amortize.md) |
+| Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
+| Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione di cespiti](fa-setup.md)  
@@ -58,4 +55,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

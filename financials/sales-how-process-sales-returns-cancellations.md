@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Procedura: Elaborare i resi o gli annullamenti vendite
+# <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
 
 Se è necessario più controllo del processo di reso da vendita, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si ricevono gli articoli da più documenti di vendita con un unico reso da vendita, è possibile creare gli ordini di reso da vendita. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati".
 
 > [!NOTE]  
->   Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Procedura: Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
+>   Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
 
 Un reso o un risarcimento può essere correlato solo ad alcuni degli articoli o dei servizi nella fattura di vendita originale. In questo caso, è necessario modificare le informazioni nelle righe della nota di credito di vendita o dell'ordine di reso da vendita. Quando si registra la nota di credito di vendita o l'ordine di reso da vendita, i documenti di vendita influenzati dalla variazione vengono stornati ed è possibile creare un pagamento di rimborso per il cliente. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
     Dopo avere creato o modificato le righe della nota di credito di vendita e avere specificato le applicazioni singole o multiple, è possibile passare alla registrazione della nota di credito di vendita.   
 8. Scegliere l'azione **Registra e invia**.  
 
-Viene visualizzata la finestra di dialogo **Registra e invia conferma** contenente il metodo di invio preferito del cliente. È possibile modificare il metodo di invio scegliendo il pulsante di ricerca per il campo **Invia documento a**. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
+Viene visualizzata la finestra di dialogo **Registra e invia conferma** contenente il metodo di invio preferito del cliente. È possibile modificare il metodo di invio scegliendo il pulsante di ricerca per il campo **Invia documento a**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
 
 I documenti di vendita registrati che sono stati collegati alla nota di credito sono ora stornati ed è possibile creare un pagamento del rimborso per il cliente. La nota di credito di vendita viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di vendita registrate.
 
@@ -135,7 +135,7 @@ Si potrebbe decidere di compensare un cliente per un articolo venduto sostituend
 1. Nella finestra **Ordine di reso vendita** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
 2. Scegliere l'azione **Sposta righe negative**.
 3. Nella finestra **Muovi righe vendita negative** compilare i campi secondo le necessità.
-4. Scegliere il pulsante **OK**. La riga negativa per l'articolo in sostituzione verrà eliminata dall'ordine di reso vendita e inserita in una nuova finestra **Ordine vendita**. Per ulteriori informazioni, vedere [Procedura: Vendere prodotti](sales-how-sell-products.md).
+4. Scegliere il pulsante **OK**. La riga negativa per l'articolo in sostituzione verrà eliminata dall'ordine di reso vendita e inserita in una nuova finestra **Ordine vendita**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Per creare documenti relativi al reso da un ordine di reso vendita
 È possibile creare automaticamente ordini di vendita di sostituzione, ordini di reso acquisto e ordini di acquisto di sostituzione durante il processo di reso da vendita. Ciò risulta utile, ad esempio, in situazioni in cui si desidera gestire articoli coperti da garanzia del fornitore.
@@ -153,7 +153,7 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 1. Aprire la finestra **Ordine reso vendita** per un processo di reso attivo.
 2. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.  
-3. Compilare i campi relativi a qualsiasi riga di addebito dell'articolo. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md).  
+3. Compilare i campi relativi a qualsiasi riga di addebito dell'articolo. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md).  
 
 Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggio viene aggiunta all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
@@ -169,7 +169,7 @@ Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggi
      È possibile creare un numero di addebito articolo particolare in cui includere gli abbuoni.  
 6.  Nel campo **Quantità** immettere **1**.  
 7.  Nel campo **Prezzo Unitario** immettere l'importo dell'abbuono.  
-8.  Assegnare l'abbuono di vendita come addebito articolo agli articoli nella spedizione registrata. Per ulteriori informazioni, vedere [Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito vendita**.  
+8.  Assegnare l'abbuono di vendita come addebito articolo agli articoli nella spedizione registrata. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito vendita**.  
 
 Durante la registrazione dell'ordine di reso da vendita, l'abbuono viene aggiunto all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.
 
@@ -218,6 +218,6 @@ In alternativa, eliminare i singoli ordini di reso vendita manualmente.
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

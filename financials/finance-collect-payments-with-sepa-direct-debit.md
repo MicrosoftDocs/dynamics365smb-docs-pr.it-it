@@ -1,5 +1,5 @@
 ---
-title: Addebito diretto SEPA in Dynamics 365 | Microsoft Docs
+title: Addebito diretto SEPA in Finance and Operations, Business edition | Documenti Microsoft
 description: "È possibile riscuotere i pagamenti direttamente dal conto bancario del cliente secondo il formato SEPA."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
@@ -35,10 +35,10 @@ Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente da
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Procedura: Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Procedura: Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Impostare codici di vendita cliente standard per le fatture ad addebito diretto e generare fatture di vendita con informazioni sull'addebito diretto quando le fatture sono in scadenza.|[Procedura: Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
-|Registrare i pagamenti effettuati come addebiti diretti SEPA.|[Procedura: Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Impostare codici di vendita cliente standard per le fatture ad addebito diretto e generare fatture di vendita con informazioni sull'addebito diretto quando le fatture sono in scadenza.|[Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
+|Registrare i pagamenti effettuati come addebiti diretti SEPA.|[Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)

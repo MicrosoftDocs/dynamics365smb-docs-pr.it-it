@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
@@ -38,7 +38,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |A|Vedere|  
 |--------|---------|  
-|Impostare origini e destinazioni dell'allocazione.|[Procedura: Impostare origini e destinazioni dell'allocazione](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Impostare origini e destinazioni dell'allocazione.|[Impostare origini e destinazioni dell'allocazione](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Impostare vari filtri per le basi di allocazione dinamica.|[Impostazione di filtri per le basi di allocazione dinamica](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |Visualizzare un esempio su come definire un'allocazione statica.|[Esempio di scenario: Definizione delle allocazioni statiche in base al rapporto di allocazione](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |Visualizzare un esempio su come definire un'allocazione dinamica.|[Esempio dello scenario: definizione delle allocazioni dinamiche in base agli articoli venduti](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Procedura: Specificare come e quando ricevere le notifiche
+# <a name="specify-when-and-how-to-receive-notifications"></a>Specificare come e quando ricevere le notifiche
 Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle finestre **Setup di notifica** e **Programmazione notifica** come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante **Modifica impostazioni di notifica** per qualsiasi notifica.  
 
- Prima di impostare le preferenze di notifica di un utente di approvazione, è necessario impostarlo come utente di approvazione. Per ulteriori informazioni, vedere [Procedura: Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
+ Prima di impostare le preferenze di notifica di un utente di approvazione, è necessario impostarlo come utente di approvazione. Per ulteriori informazioni, vedere [Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
 
- Il layout e il contenuto delle notifiche possono essere definiti impostando dei modelli di notifica. Per ulteriori informazioni, vedere [Procedura: Gestire i modelli di notifica](across-how-to-manage-notification-templates.md).  
+ Il layout e il contenuto delle notifiche possono essere definiti impostando dei modelli di notifica. Per ulteriori informazioni, vedere [Gestire i modelli di notifica](across-how-to-manage-notification-templates.md).  
 
  Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti, di un evento che si è verificato e la relativa necessità di intervento. Ad esempio, in una fase del workflow, l'evento potrebbe essere che l'Utente 1 richiede l'approvazione di un nuovo record. La risposta correlata prevede l'invio di una notifica all'Utente 2, cioè il responsabile dell'approvazione. Nella fase successiva del workflow, l'evento potrebbe essere che l'Utente 2 approva il record. La risposta correlata prevede l'invio di una notifica all'Utente 3 per iniziare un processo con il record approvato. Per le fasi del workflow che riguardano l'approvazione, ogni notifica è collegata a un movimento di approvazione. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
 
@@ -59,8 +59,8 @@ Quando si impostano gli utenti nei workflow di approvazione, è necessario speci
 2.  Nella finestra **Setup di notifica** modificare le preferenze relative alla notifica come descritto nella procedura precedente.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Procedura: Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
- [Procedura: Gestire i modelli di notifica](across-how-to-manage-notification-templates.md)   
+ [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
+ [Gestire i modelli di notifica](across-how-to-manage-notification-templates.md)   
  [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)

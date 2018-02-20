@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Creazione di contatti
@@ -30,16 +30,16 @@ Registrando il numero più elevato possibile di dettagli su un contatto, tutti i
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
-| Fornire informazioni su un contatto. |[Procedura: Creare contatti](marketing-how-create-contact-persons.md) |
-| Impostare un indirizzo alternativo per un contatto. |[Procedura: Assegnare indirizzi alternativi](marketing-how-assign-alternate-address.md) |
-| Descrivere la relazione d'affari che intercorre con un contatto di una società. |[Procedura: Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md) |
-| Descrivere il livello organizzativo dei contatti. |[Procedura: Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md) |
+| Fornire informazioni su un contatto. |[Creare contatti](marketing-how-create-contact-persons.md) |
+| Impostare un indirizzo alternativo per un contatto. |[Assegnare indirizzi alternativi](marketing-how-assign-alternate-address.md) |
+| Descrivere la relazione d'affari che intercorre con un contatto di una società. |[Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md) |
+| Descrivere il livello organizzativo dei contatti. |[Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md) |
 | Assegnare gruppi di mailing ai contatti |[Assegnazione di gruppi di mailing a un contatto](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di società contatto](marketing-create-contact-companies.md)  
 [Creazione e gestione di contatti]()  
-[Utilizzo di Dynamics 365](ui-work-product.md)
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)
 

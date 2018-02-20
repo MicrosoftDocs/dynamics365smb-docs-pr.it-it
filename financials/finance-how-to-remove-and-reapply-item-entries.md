@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Procedura: Rimuovere e ricollegare movimenti contabili articolo
+# <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella finestra **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
 
 Quando si registra una transazione in cui gli articoli vengono spostati in magazzino o fuori da esso, viene creato un collegamento articoli tra un aumento di magazzino a una riduzione di magazzino. Questi collegamenti determinano il flusso dei costi dalle merci ricevute in magazzino a quelle in uscita dal magazzino. A causa della modalità di calcolo del costo unitario, un collegamento articoli non corretto potrebbe portare a un costo medio o a un costo unitario non attendibile. Per ulteriori informazioni, vedere Dettagli di progettazione: Collegamento articoli.
@@ -30,7 +30,7 @@ Gli scenari seguenti potrebbero richiedere di annullare un collegamento o di ric
 - È stato creato un collegamento fisso non corretto.
 - È necessario restituire un articolo a cui è stata già collegata una vendita.
 
-Se possibile, utilizzare un documento per ricollegare un movimento contabile articolo. Se, ad esempio, è necessario effettuare un reso di acquisto di un articolo a cui è già stata collegata una vendita, è possibile creare il nuovo collegamento semplicemente creando e registrando il documento di reso di acquisto utilizzando il collegamento corretto nel campo **Collega-a mov. art.** della riga di reso di acquisto. Per semplificare questa operazione, è possibile utilizzare la funzione **Ottieni righe documento registrato da stornare** o **Copia documento** nel documento di reso di acquisto. Quando si registra il documento, il movimento contabile articolo viene ricollegato automaticamente. Per ulteriori informazioni vedere [Procedura: Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
+Se possibile, utilizzare un documento per ricollegare un movimento contabile articolo. Se, ad esempio, è necessario effettuare un reso di acquisto di un articolo a cui è già stata collegata una vendita, è possibile creare il nuovo collegamento semplicemente creando e registrando il documento di reso di acquisto utilizzando il collegamento corretto nel campo **Collega-a mov. art.** della riga di reso di acquisto. Per semplificare questa operazione, è possibile utilizzare la funzione **Ottieni righe documento registrato da stornare** o **Copia documento** nel documento di reso di acquisto. Quando si registra il documento, il movimento contabile articolo viene ricollegato automaticamente. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
 
 Se non è possibile utilizzare un documento per ricollegare, ad esempio quando si deve correggere un collegamento fisso, utilizzare la finestra **Prospetto collegamento** per correggere un collegamento.
 
@@ -75,8 +75,8 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Procedura: Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
+[Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

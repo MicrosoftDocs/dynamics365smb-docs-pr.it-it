@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Fatturazione dei pagamenti anticipati
@@ -28,9 +28,9 @@ I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un o
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Impostare le categorie di registrazione dei pagamenti anticipati e la numerazione e impostare le percentuali pagamento anticipato di default per clienti, fornitori e articoli.|[Procedura: Impostare i pagamenti anticipati](finance-set-up-prepayments.md)|
-|Creare un ordine, rettificare gli importi di pagamento anticipato ed emettere una fattura per gli importi di pagamento anticipato.|[Procedura: Creare fatture di pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)|  
-|Emettere una fattura di pagamento anticipato supplementare, per articoli aggiuntivi o per un deposito aggiuntivo rispetto all'ordine originale, oppure emettere una nota di credito di pagamento anticipato.|[Procedura: Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)|  
+|Impostare le categorie di registrazione dei pagamenti anticipati e la numerazione e impostare le percentuali pagamento anticipato di default per clienti, fornitori e articoli.|[Impostare i pagamenti anticipati](finance-set-up-prepayments.md)|
+|Creare un ordine, rettificare gli importi di pagamento anticipato ed emettere una fattura per gli importi di pagamento anticipato.|[Creare fatture per i pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)|  
+|Emettere una fattura di pagamento anticipato supplementare, per articoli aggiuntivi o per un deposito aggiuntivo rispetto all'ordine originale, oppure emettere una nota di credito di pagamento anticipato.|[Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

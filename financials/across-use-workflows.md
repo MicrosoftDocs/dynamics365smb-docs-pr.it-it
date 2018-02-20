@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Utilizzo dei workflow
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/22/2017
 
 |**Task**|**Vedere**|  
 |------------|-------------|  
-|Impostare un flusso di lavoro per iniziare quando si verifica la prima spedizione Intrastat.|[Procedura: Abilitare i workflow](across-how-to-enable-workflows.md)|  
-|Richiedere l'approvazione di un task, come responsabile approvazione, accettare, declinare o delegare le approvazioni e inviare o visualizzare le notifiche di approvazione.|[Procedura: Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)|  
-|Creare le fasi del flusso di lavoro che limitano l'utilizzo di un certo tipo di record prima del verificarsi di un determinato evento, ad esempio l'approvazione del record.|[Procedura: Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Visualizzare istanze dei passaggi del flusso di lavoro con lo stato Completato.|[Procedura: Visualizzare le istanze di fasi workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)|  
-|Eliminare un flusso di lavoro che sicuramente non verrà più utilizzato.|[Procedura: Eliminare i workflow](across-how-to-delete-workflows.md)|  
+|Impostare un flusso di lavoro per iniziare quando si verifica la prima spedizione Intrastat.|[Abilitare i workflow](across-how-to-enable-workflows.md)|  
+|Richiedere l'approvazione di un task, come responsabile approvazione, accettare, declinare o delegare le approvazioni e inviare o visualizzare le notifiche di approvazione.|[Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)|  
+|Creare le fasi del flusso di lavoro che limitano l'utilizzo di un certo tipo di record prima del verificarsi di un determinato evento, ad esempio l'approvazione del record.|[Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Visualizzare istanze dei passaggi del flusso di lavoro con lo stato Completato.|[Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)|  
+|Eliminare un flusso di lavoro che sicuramente non verrà più utilizzato.|[Eliminare i workflow](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dei workflow](across-set-up-workflows.md)   

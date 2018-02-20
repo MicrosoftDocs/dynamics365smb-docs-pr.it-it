@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
@@ -36,7 +36,7 @@ Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e d
 -   Creazione di una DB di assemblaggio che elenca i componenti di assemblaggio e le risorse che costituiscono un articolo di assemblaggio.  
 
 ### <a name="selling-customized-assembly-items"></a>Vendita di articoli di assemblaggio personalizzati  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
 
 -   Creazione di una riga di ordine di vendita pura di ATO in cui la quantità completa non è disponibile e deve essere assemblata prima della spedizione.  
 -   Personalizzazione degli articoli di ATO.  
@@ -432,10 +432,10 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ## <a name="see-also"></a>Vedi anche  
  [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Procedura: Assemblare articoli](assembly-how-to-assemble-items.md)   
- [Procedura: Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Procedura: Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)   
- [Procedura: Assemblare articoli](assembly-how-to-assemble-items.md)   
+ [Assemblare articoli](assembly-how-to-assemble-items.md)   
+ [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Assemblare articoli](assembly-how-to-assemble-items.md)   
  [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)   
  [Dettagli di progettazione: Flussi warehouse interni](design-details-internal-warehouse-flows.md)   
  [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)   

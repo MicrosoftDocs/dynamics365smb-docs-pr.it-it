@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
@@ -32,7 +32,7 @@ In particolare, un layout di report imposta quanto segue:
 * Il logo della società e la relativa ubicazione.
 * Impostazioni generali della pagina, ad esempio i margini e le immagini di sfondo.
 
-Un report di [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità. È possibile utilizzare uno dei layout di report predefiniti oppure creare layout di report personalizzati e assegnarli ai report in base alle esigenze. Per ulteriori informazioni, vedere [Procedura: Creare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md).
+Un report di [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità. È possibile utilizzare uno dei layout di report predefiniti oppure creare layout di report personalizzati e assegnarli ai report in base alle esigenze. Per ulteriori informazioni, vedere [Creare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md).
 
 Esistono due tipi di layout di report che è possibile utilizzare nei report: Word e RDLC.
 
@@ -45,7 +45,7 @@ Un layout di report Word si basa sui documenti di Word (tipo di file .docx). I l
 I layout RDLC sono basati sui layout di definizione dei report dei client (tipi di file .rdl o .rdlc). Questi layout vengono creati e modificati utilizzando il Generatore report di SQL Server. Il concetto di progetto per i layout RDLC è simile ai layout Word, in cui il layout definisce lo schema generale del report e determina i campi del set di dati da includere. Progettare layout RDLC è un'operazione più avanzata, rispetto ai layout Word. Per ulteriori informazioni, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Layout di report personalizzati e predefiniti
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include diversi layout predefiniti. I layout integrati sono layout predefiniti creati per report specifici. I report in [!INCLUDE[d365fin](includes/d365fin_md.md)] avranno un layout integrato come layout report RDLC, layout report Word o in alcuni casi entrambi. Non è possibile modificare un layout di report predefinito da [!INCLUDE[d365fin](includes/d365fin_md.md)], ma è possibile utilizzarlo come base per generare layout di report personalizzati.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  include diversi layout predefiniti. I layout integrati sono layout predefiniti creati per report specifici. I report in [!INCLUDE[d365fin](includes/d365fin_md.md)] avranno un layout integrato come layout report RDLC, layout report Word o in alcuni casi entrambi. Non è possibile modificare un layout di report predefinito da [!INCLUDE[d365fin](includes/d365fin_md.md)], ma è possibile utilizzarlo come base per generare layout di report personalizzati.
 
 I layout personalizzati sono layout di report progettati per modificare l'aspetto di un report. In genere si crea un layout personalizzato in base a un layout predefinito, ma è possibile crearlo da zero o da una copia di un layout personalizzato esistente. I layout personalizzati consentono di avere più layout per lo stesso report con la possibilità di cambiarli in base alle esigenze. Ad esempio, è possibile avere diversi layout per ogni società di [!INCLUDE[d365fin](includes/d365fin_md.md)] oppure è possibile avere diversi layout per la medesima società in alcune occasioni o eventi, come una campagna speciale o il periodo di ferie.
 
@@ -56,13 +56,13 @@ I concetti di progetto generali dei layout Word e RDLC sono molto simili. Tuttav
 
 Il processo di impostazione dei layout di report Word e RDLC nei report è lo stesso. La differenza principale sta nel modo in cui modificano i layout. I layout di report Word in genere sono più facili da creare e modificare rispetto ai layout di report RDLC perché è possibile utilizzare Word. I layout di report RDLC vengono modificati utilizzando il Generatore report di SQL Server, che è indirizzato agli utenti più avanzati.
 
-Per informazioni su come cambiare il layout da utilizzare, vedere [Procedura: Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md).
+Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Aggiornamento dei layout di report o documento](ui-update-report-layouts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Procedura: Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)  
-[Procedura: Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
-[Procedura: Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)  
+[Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
+[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo dei report](ui-work-report.md)  
 

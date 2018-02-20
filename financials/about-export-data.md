@@ -1,6 +1,6 @@
 ---
 title: Esportare i dati di Financials in Excel| Documenti Microsoft
-description: "È possibile esportare i report finanziari e i dati di Business Intelligence da Dynamics 365 Business edition in Excel o aprire i dati di Financials in Excel."
+description: "È possibile esportare i report finanziari e i dati di Business Intelligence da Finance and Operations, Business edition in Excel o aprire i dati di Financials in Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
-Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
+Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
 È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
@@ -60,12 +60,12 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 * Agenti  
 
 > [!NOTE]  
->   Se è stata impostata più di uno società in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], è necessario esportare i dati relativi a ogni società.
+>   Se è stata impostata più di uno società in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario esportare i dati relativi a ogni società.
 
 ## <a name="see-also"></a>Vedi anche
-[Annullamento della sottoscrizione per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Annullamento della sottoscrizione per [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Finanze](finance.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

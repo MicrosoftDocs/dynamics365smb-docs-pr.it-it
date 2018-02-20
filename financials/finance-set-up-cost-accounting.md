@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9fb79b0eaeca7428646c67a77b824cbdca7a652b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b652ca286f7b93c82fa5941449be96729a1e95f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
@@ -26,10 +26,10 @@ Prima di iniziare a utilizzare la contabilità industriale, è necessario effett
 
 |A|Vedere|  
 |--------|---------|  
-|Creare il piano dei tipi di costo.|[Procedura: Impostare i tipi di costo](finance-how-to-set-up-cost-types.md)|  
+|Creare il piano dei tipi di costo.|[Setup tipi di costo](finance-how-to-set-up-cost-types.md)|  
 |Acquisire familiarità con il collegamento tra il tipo di costo e il conto di contabilità generale.|[Definizione della relazione tra i tipi di costo e i conti di contabilità generale](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Creare il grafico dei centri di costo.|[Procedura: Impostare i centri di costo](finance-how-to-set-up-cost-centers.md)|  
-|Creare il grafico degli oggetti di costo.|[Procedura: Impostare gli oggetti di costo](finance-how-to-set-up-cost-objects.md)|  
+|Creare il grafico dei centri di costo.|[Impostare i centri di costo](finance-how-to-set-up-cost-centers.md)|  
+|Creare il grafico degli oggetti di costo.|[Impostare gli oggetti di costo](finance-how-to-set-up-cost-objects.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  

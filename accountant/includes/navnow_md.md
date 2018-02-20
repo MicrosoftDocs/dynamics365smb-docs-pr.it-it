@@ -1,1 +1,1 @@
-Dynamics 365 (in locale)
+Dynamics 365 for Finance and Operations, Business edition (locale)

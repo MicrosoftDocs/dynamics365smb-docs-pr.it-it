@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: afc73b146ce3c95ea47ac935e826b27f0a18d325
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-documents-by-email"></a>Procedura: Inviare documenti via e-mail
+# <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commerciali, quali le informazioni sui pagamenti nei documenti di vendita ai clienti, è possibile utilizzare la funzionalità di layout di report per definire il contenuto specifico del documento che deve essere inserito nel corpo e-mail automaticamente. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
 
 Per abilitare i messaggi e-mail dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], avviare il setup assistito **Imposta indirizzo e-mail** nella home page.
@@ -40,7 +40,7 @@ Nella procedura riportata di seguito viene descritto come impostare il report **
 
     I layout di report definiscono lo stile e il contenuto del corpo e-mail, incluso il testo standard che precede le informazioni principali del documento nel corpo e-mail. Per visualizzare tutti i layout di report disponibili scegliendo il pulsante **Seleziona da elenco completo** nell'elenco a discesa.
 6. Per visualizzare o modificare il layout su cui si basa il corpo e-mail, selezionare il layout nella finestra **Layout report personalizzati** e scegliere l'azione **Modifica layout**.
-7. Se si desidera offrire ai clienti la possibilità di pagare elettronicamente gli articoli acquistati, è possibile configurare il servizio di pagamento correlato, come PayPal, inserire nel corpo e-mail anche le informazioni su PayPal e il collegamento ipertestuale a PayPal. Per ulteriori informazioni, vedere [Procedura: Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
+7. Se si desidera offrire ai clienti la possibilità di pagare elettronicamente gli articoli acquistati, è possibile configurare il servizio di pagamento correlato, come PayPal, inserire nel corpo e-mail anche le informazioni su PayPal e il collegamento ipertestuale a PayPal. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
 8. Scegliere il pulsante **OK**.
 
 A questo punto, quando si sceglie ad esempio l'azione **Invia** nella finestra **Fattura vendita registrata**, il corpo e-mail conterrà le informazioni del report 1306 precedute dal testo standard creato in base al layout di report selezionato nel passaggio 5.
@@ -50,7 +50,7 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 ## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.
 2. Selezionare la fattura di vendita registrata appropriata, quindi scegliere l'azione **Invia**. Verrà visualizzata la finestra **Invia documento a**.
-3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
+3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 4. Scegliere il pulsante **OK**. Verrà visualizzata la finestra **Invia messaggio e-mail**.
 5. Nel campo **A:** immettere un indirizzo e-mail valido. Il valore di default è l'indirizzo e-mail del cliente.
 6. Nel campo **Oggetto**, immettere un testo descrittivo dell'oggetto. Il valore di default è il nome e il numero di fattura del cliente.
@@ -61,11 +61,11 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 9. Scegliere **OK** per inviare il messaggio e-mail.
 
 > [!NOTE]  
->   Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della finestra **Invia documento a**. In questo caso, non verrà visualizzata la finestra **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Procedura: Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
+>   Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della finestra **Invia documento a**. In questo caso, non verrà visualizzata la finestra **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Procedura: Impostare la posta elettronica](madeira-how-setup-email.md)  
-[Procedura: Fatturare le vendite](sales-how-invoice-sales.md)  
+[Impostare la posta elettronica](madeira-how-setup-email.md)  
+[Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

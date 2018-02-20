@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Gestione di interazioni per i segmenti
@@ -45,8 +45,8 @@ Facendo clic su **Registrazione** nella finestra **Segmento**, le interazioni ve
 Nella finestra **Segmenti registrati**, è possibile decidere di creare un segmento di follow-up contenente gli stessi identici contatti del segmento registrato.
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Creare segmenti](marketing-how-create-segment.md)  
-[Procedura: Creare interazioni per i segmenti](marketing-how-create-interactions.md)  
+[Creare segmenti](marketing-how-create-segment.md)  
+[Creare interazioni per segmenti](marketing-how-create-interactions.md)  
 [Gestione dei segmenti](marketing-segments.md)  
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  

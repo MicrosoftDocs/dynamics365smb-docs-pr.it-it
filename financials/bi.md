@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -31,12 +31,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-|Visualizzare gli importi effettivi rispetto agli importi previsti per tutti i conti e per diversi periodi.|[Procedura: Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)|
-|Creare nuove situazioni contabili per definire i rendiconti finanziari per il reporting o la visualizzazione in grafici.|[Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)|
-|Analizzare le prestazioni finanziarie impostando indicatori KPI basati su situazioni contabili che si pubblicano come servizi Web. Gli indicatori KPI situazione contabile pubblicati possono essere visualizzati su un sito Web o essere importati in Microsoft Excel utilizzando i servizi Web OData.|[Procedura: Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Impostare le visualizzazioni di analisi per analizzare i dati utilizzando le dimensioni.|[Procedura: Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)|
-|Creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi.|[Procedura: Creare report di analisi](bi-how-create-analysis-views-reports.md)|
-|Abilitare il reporting finanziario globale da parte di organizzazioni contabili internazionali con lo standard eXtensible Business Reporting Language.|[Procedura: Creare report con XBRL](bi-create-reports-with-xbrl.md)|
+|Visualizzare gli importi effettivi rispetto agli importi previsti per tutti i conti e per diversi periodi.|[Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)|
+|Creare nuove situazioni contabili per definire i rendiconti finanziari per il reporting o la visualizzazione in grafici.|[Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)|
+|Analizzare le prestazioni finanziarie impostando indicatori KPI basati su situazioni contabili che si pubblicano come servizi Web. Gli indicatori KPI situazione contabile pubblicati possono essere visualizzati su un sito Web o essere importati in Microsoft Excel utilizzando i servizi Web OData.|[Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Impostare le visualizzazioni di analisi per analizzare i dati utilizzando le dimensioni.|[Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)|
+|Creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi.|[Creare report di analisi](bi-how-create-analysis-views-reports.md)|
+|Abilitare il reporting finanziario globale da parte di organizzazioni contabili internazionali con lo standard eXtensible Business Reporting Language.|[Creare report con XBRL](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)    
@@ -44,4 +44,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
 [Importazione dei dati da altri sistemi contabili](upload-data.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

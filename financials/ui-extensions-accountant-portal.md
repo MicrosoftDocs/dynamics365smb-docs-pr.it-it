@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d0efd02b14cf1b93b18b187b5f9bebfb8618d6a8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Portale contabile per Dynamics 365 Business edition
+# <a name="accountant-portal-for-finance-and-operations-business-edition"></a>Portale contabile per Finance and Operations, Business edition
 Questa applicazione offre un dashboard con dati di riepilogo per ogni client di un contabile. Il portale visualizza i KPI finanziari e un collegamento diretto all'applicazione finanziaria del client.  
 
 Il dashboard include una Gestione ruolo utente altamente specializzata per una migliore panoramica dei client.  
@@ -28,7 +28,7 @@ Quando si installa per la prima volta l'estensione, è disponibile una società 
 ## <a name="installing-the-extension"></a>Installazione dell'estensione
 Quando si installa l'estensione in [!INCLUDE[d365fin](includes/d365fin_md.md)], verrà richiesto se deve essere utilizzato subito. In caso affermativo, è necessario uscire e accedere nuovamente perché l'estensione sostituisca la Gestione ruolo utente corrente e aggiunga le autorizzazioni al profilo utente.  
 
-Per ulteriori informazioni, vedi [Esperienze contabile in Dynamics 365 Business edition ](finance-accounting.md).  
+Per altre informazioni, vedere [Esperienze di contabile in Finance and Operations, Business edition ](finance-accounting.md).  
 
 > [!NOTE]  
 >  La versione corrente dell'estensione richiede che il client usi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -39,6 +39,6 @@ Questa estensione verrà deprecata fra alcuni mesi. È consigliabile non imposta
 Per ulteriori informazioni, vedi [Benvenuto in Dynamics 365- Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>Vedi anche
-[Esperienze di contabile in Dynamics 365 Business edition](finance-accounting.md)  
+[Esperienze di contabile in Finance and Operations, Business edition ](finance-accounting.md)  
 [Finanze](finance.md)  
 

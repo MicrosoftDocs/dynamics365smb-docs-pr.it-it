@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 626cd19b6d4ed553d740964f1530b581e22b45a6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
@@ -30,10 +30,10 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 
 | Per | Vedere |
 | --- | --- |
-| Creare una scheda fornitore per ogni fornitore da cui si acquista|[Procedura: Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
-| Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Procedura: Registrare accordi riguardanti prezzi, sconti e pagamenti applicati agli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Attribuire un ordine di priorità ai fornitori |[Procedura: Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
-| Impostare gli addetti agli acquisti |[Procedura: Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
+| Creare una scheda fornitore per ogni fornitore da cui si acquista|[Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
+| Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Registrazione di prezzi, sconti e contratti di pagamento per gli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
+| Impostare gli addetti agli acquisti |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  

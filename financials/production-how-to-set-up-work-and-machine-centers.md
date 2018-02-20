@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Procedura: Impostare aree di produzione e centri di lavoro
+# <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 Il programma distingue tra tre tipi di capacità. Questi sono disposti in modo gerarchico. Ogni livello contiene i livelli inferiori.  
 
 Il livello più alto è rappresentato dal reparto di produzione. Ai reparti di produzione vengono assegnate le aree di produzione. Ogni area di produzione può far parte di un solo reparto di produzione.
@@ -28,7 +28,7 @@ A ogni area di produzione è possibile assegnare diversi centri di lavoro. Un ce
 
 La capacita pianificata di un'area di produzione consiste della disponibilità dei centri di lavoro corrispondenti oltre che della disponibilità pianificata dell'area stessa. La disponibilità pianificata di un reparto di produzione è data quindi dalla somma di tutte le disponibilità delle relative aree di produzione e dei relativi centri di lavoro.  
 
-La disponibilità viene memorizzata nei movimenti di calendario. Prima di impostare le aree di produzione o i centri di lavoro, è necessario impostare calendari del reparto produzione. Per ulteriori informazioni, vedere [Procedura: Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
+La disponibilità viene memorizzata nei movimenti di calendario. Prima di impostare le aree di produzione o i centri di lavoro, è necessario impostare calendari del reparto produzione. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Per impostare un'area di produzione
 Di seguito viene descritto come impostare un'area di produzione. I passaggi per impostare un calendario centro di lavoro sono gli stessi ad eccezione della Scheda dettaglio **Setup cicli**.  
@@ -37,7 +37,7 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 2.  Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Nel campo **Gruppo aree di produzione** selezionare il raggruppamento di risorse di livello più alto in base a cui è organizzata l'area di produzione, se pertinente. Scegliere l'azione **Nuovo** nell'elenco a discesa.  
-5.  Selezionare il campo **Bloccato** se si desidera evitare che l'area di produzione venga utilizzata in qualsiasi elaborazione. In tal caso, non sarà quindi possibile registrare l'output per un articolo prodotto nell'area di produzione. Per ulteriori informazioni, vedere [Procedura: Registrare l'output di produzione](production-how-to-post-output-quantity.md).
+5.  Selezionare il campo **Bloccato** se si desidera evitare che l'area di produzione venga utilizzata in qualsiasi elaborazione. In tal caso, non sarà quindi possibile registrare l'output per un articolo prodotto nell'area di produzione. Per ulteriori informazioni, vedere [Registrare l'output di produzione](production-how-to-post-output-quantity.md).
 6.  Nel campo **Costo Unitario Diretto** specificare il costo di produzione di un'unità di misura nell'area di produzione selezionata, escludendo altri elementi di costo. Tale valore viene spesso definito *costo diretto manodopera*.  
 7.  Nel campo **% costi indiretti** specificare il costo operativo generale dell'utilizzo dell'area di produzione come percentuale del costo unitario diretto. Tale importo percentuale viene aggiunto al costo diretto nel calcolo del costo unitario.  
 8.  Nel campo **Coeff. costi generali** specificare come importo assoluto qualunque costo non operativo, ad esempio le spese di manutenzione, dell'area di produzione.  
@@ -68,7 +68,7 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 13.  Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
 14.  Specificare nel campo **Efficienza** la percentuale di output standard previsto prodotta effettivamente dall'area di produzione selezionata. Se si immette un valore pari a **100**, si indica che l'output effettivo dell'area di produzione corrisponde all'output standard.  
 15. Selezionare la casella di controllo **Calendario consolidato** se si utilizzano anche centri di lavoro. In questo modo viene eseguito il roll up dei movimenti di calendario dai calendari centro di lavoro.  
-16.  Selezionare un calendario reparto produzione nel campo **Cod. calendario reparto prod.**. Per ulteriori informazioni, vedere [Procedura: Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
+16.  Selezionare un calendario reparto produzione nel campo **Cod. calendario reparto prod.**. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
 17.  Il campo **Tempo in coda** consente di specificare un intervallo di tempo fisso che deve trascorrere prima di potere iniziare l'attività assegnata all'area di produzione selezionata. Si noti che il valore specificato in Tempo in coda viene aggiunto ad altri elementi di tempo non legati alla produzione, ad esempio Tempo attesa e Tempo spostamento, che possono essere definiti nelle righe ciclo mediante l'area di produzione selezionata.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esempio: diversi centri di lavoro assegnati a un'area di produzione
@@ -83,7 +83,7 @@ Se le capacità delle aree di produzione non devono contribuire a formare la cap
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Per impostare un centro lavoro o area di produzione con capacità-vincolata
 È necessario impostare le risorse di produzione considerate critiche e contrassegnarle per l'accettazione soltanto di carichi limitati, escludendo in questo modo il carico illimitato predefinito che viene accettato da altre risorse di produzione. Una risorsa critica può essere costituita da un'area di produzione o da un centro lavoro che costituiscono strozzature nel ciclo produttivo e per i quali si desidera stabilire un limite finito di carico.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
 
 Nella finestra **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
 
@@ -99,7 +99,7 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 > Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)  
+[Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Pianif.](production-planning.md)   

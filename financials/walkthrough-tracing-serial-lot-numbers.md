@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto
@@ -292,7 +292,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
  La procedura dettagliata relativa all'utilizzo della finestra **Naviga** per la gestione dei difetti in combinazione con la finestra **Tracciabilità articolo** è stata completata.  
 
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
-[Procedura: Analizzare articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
+[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
+[Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
 

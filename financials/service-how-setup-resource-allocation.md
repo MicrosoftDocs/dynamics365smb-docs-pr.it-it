@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Procedura: Impostare l'assegnazione delle risorse
+# <a name="set-up-resource-allocation"></a>Impostare l'assegnazione delle risorse
 Per assicurarsi che un compito di assistenza sia eseguito correttamente, è importante trovare una risorsa qualificata per il lavoro. È possibile configurare [!INCLUDE[d365fin](includes/d365fin_md.md)] di modo che sia semplice assegnare una risorsa che disponga delle competenze necessarie per il compito. In [!INCLUDE[d365fin](includes/d365fin_md.md)] questa funzionalità è detta _assegnazione delle risorse_. È possibile assegnare le risorse in base alla loro competenza, disponibilità o se si trovano nella stessa zona di assistenza del cliente. 
 
 Per utilizzare l'assegnazione delle risorse, è necessario impostare:  
@@ -80,10 +80,10 @@ Se si desidera modificare i codici competenza assegnati agli articoli, ad esempi
     * Eliminare i codici competenze o aggiornarne la relazione: selezionare questa opzione se si desidera modificare il codice competenza solo per l'articolo selezionato. Il codice competenza degli articoli in assistenza correlati verrà riassegnato, ovvero, il campo **Assegnato da** verrà aggiornato.  
   
 ## <a name="see-also"></a>Vedi anche
-[Procedura: Assegnare risorse:](service-how-to-allocate-resources.md)  
-[Procedura: Impostare le ore di lavoro e le ore di assistenza](service-how-setup-work-service-hours.md)  
-[Procedura: Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)  
-[Procedura: Impostare codici per servizi standard](service-how-setup-service-coding.md)  
+[Assegnare risorse](service-how-to-allocate-resources.md)  
+[Impostare le ore di lavoro e le ore di assistenza](service-how-setup-work-service-hours.md)  
+[Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)  
+[Impostare codici per servizi standard](service-how-setup-service-coding.md)  
  
 
 

@@ -1,6 +1,6 @@
 ---
 title: Assicurare i cespiti| Documenti Microsoft
-Description: "È possibile assegnare un cespite a una polizza assicurativa che è rappresentata da una scheda assicurazione."
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Procedura: Assicurazione di cespiti
+# <a name="insure-fixed-assets"></a>Assicurazione di cespiti
 La polizza assicurativa di un cespite è rappresentata da una scheda assicurazione. È possibile assegnare un solo cespite a una sola polizza assicurativa o più cespiti a una sola polizza assicurativa.
 
 Assegnare un cespite a una polizza assicurativa registrando nel registro di copertura assicurativa dalla finestra **Registr. assicuraz.**.
 
-Inoltre, è possibile assegnare un cespite ad una polizza assicurativa e creare i movimenti contabili della copertura quando si registra il costo di acquisto. Questa operazione si esegue registrando un costo di acquisto dalla registrazione cespiti con il campo **Nr. assicurazione** compilato. La casella di controllo **Reg. automatica assicurazione** nella finestra **Setup cespiti** deve essere selezionata. Per ulteriori informazioni, vedere la sezione "Per registrare manualmente un'acquisizione del cespite mediante Registrazioni cespiti in C/G" in [Procedura: Acquisire cespiti](fa-how-acquire.md).
+Inoltre, è possibile assegnare un cespite ad una polizza assicurativa e creare i movimenti contabili della copertura quando si registra il costo di acquisto. Questa operazione si esegue registrando un costo di acquisto dalla registrazione cespiti con il campo **Nr. assicurazione** compilato. La casella di controllo **Reg. automatica assicurazione** nella finestra **Setup cespiti** deve essere selezionata. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G" in [Acquisire cespiti](fa-how-acquire.md).
 
 Se la casella di controllo **Reg. automatica assicurazione** della finestra **Setup cespiti** non è selezionata, la registrazione delle acquisizioni dalla registrazione cespiti creerà righe nella finestra **Registr. assicuraz.** che devono essere registrate manualmente.
 
 > [!WARNING]  
->   Se non si seleziona la casella di controllo **Reg. automatica assicurazione** nella finestra **Setup cespiti**, la registrazione assicurazioni deve essere basata su una definizione di registrazioni senza numerazione. Questo si verifica perché i numeri di documento inseriti dalla riga di registrazione cespiti saranno in conflitto con la numerazione della registrazione assicurazioni. Per ulteriori informazioni sui batch e sulle definizioni registrazioni, vedere [Procedura: Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+>   Se non si seleziona la casella di controllo **Reg. automatica assicurazione** nella finestra **Setup cespiti**, la registrazione assicurazioni deve essere basata su una definizione di registrazioni senza numerazione. Questo si verifica perché i numeri di documento inseriti dalla riga di registrazione cespiti saranno in conflitto con la numerazione della registrazione assicurazioni. Per ulteriori informazioni sui batch e sulle definizioni registrazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 
 Dopo aver assegnato un cespite ad una polizza assicurativa, la casella di controllo **Assicurato** viene selezionata nella scheda cespite. Quando si vende il cespite, la casella di controllo viene deselezionata automaticamente.
 
@@ -70,7 +70,7 @@ Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespit
 5. Aprire la registrazione assicurazioni appropriata, esaminare i valori creati e registrarli nel registro di copertura assicurativa.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Per controllare la copertura assicurativa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce le finestre dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  fornisce le finestre dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
 
 ### <a name="overview-of-insurance-policies"></a>Sintesi delle polizze assicurative
 Per una sintesi delle polizze assicurative, visualizzare in anteprima o stampare il report **Assicurazione - Lista**. Nel report vengono visualizzate tutte le polizze e i campi più importanti delle schede assicurative.  

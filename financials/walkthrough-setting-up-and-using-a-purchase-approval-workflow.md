@@ -1,5 +1,5 @@
 ---
-title: 'Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto | Documenti Microsoft'
+title: 'Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto | Documenti Microsoft'
 description: "È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto
+# <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.  
 
  È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
@@ -158,14 +158,14 @@ A questo punto, è stato impostato e testato un flusso di lavoro di approvazione
 
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi modelli del flusso di lavoro per gli scenari supportati dal codice dell'applicazione. La maggior parte di essi sono per i flussi di lavoro di approvazione. Per ulteriori informazioni, vedere Modelli del workflow.  
 
-È possibile definire le variazioni dei flussi di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Procedura: Creare workflow](across-how-to-create-workflows.md).  
+È possibile definire le variazioni dei workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro non supportati, il partner Microsoft deve implementarli tramite la personalizzazione del codice dell'applicazione. Per ulteriori informazioni, vedere [Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) nella Guida per sviluppatori e professionisti IT.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Procedura: Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
+[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
-[Procedura: Creare workflow](across-how-to-create-workflows.md)   
-[Procedura: Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)   
+[Creare i workflow](across-how-to-create-workflows.md)   
+[Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)
 

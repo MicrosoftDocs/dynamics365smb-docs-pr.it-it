@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Procedura: Modificare la Gestione ruolo utente
+# <a name="change-the-role-center"></a>Modificare la Gestione ruolo utente
 La home page è il punto di ingresso principale in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Qui è possibile ottenere una panoramica dei task lavorativi quotidiani e del rispettivo stato. Per le attività che si eseguono spesso, è possibile accedere tramite le sezioni nell'area del contenuto, il riquadro di spostamento a sinistra e tramite le azioni nella barra multifunzione.
 
 Il contenuto della home page si basa sulla Gestione ruolo utente selezionata. La Gestione ruolo utente standard per [!INCLUDE[d365fin](includes/d365fin_md.md)] è **Manager aziendale**, ma questo ruolo può essere modificato ed è possibile scegliere tra una serie opzioni.

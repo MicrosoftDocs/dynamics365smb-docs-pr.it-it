@@ -1,6 +1,6 @@
 ---
 title: "Gestire opportunità di vendita e clienti potenziali| Documenti Microsoft"
-description: "Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Dynamics 365 e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali."
+description: "Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Finance and Operations, Business edition e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Gestione delle opportunità di vendita
@@ -28,8 +28,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Impostare i cicli di vendita seguiti in genere e le diverse fasi all'interno di ogni opportunità relativa al ciclo di vendita. |[Procedura: Impostare cicli e fasi di vendita dalle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Creare opportunità di vendita dai contatti. |[Procedura: Creare opportunità](marketing-how-create-opportunities.md) |
+| Impostare i cicli di vendita seguiti in genere e le diverse fasi all'interno di ogni opportunità relativa al ciclo di vendita. |[Impostare cicli e fasi di vendita dalle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Creare opportunità di vendita dai contatti. |[Creare opportunità](marketing-how-create-opportunities.md) |
 | Spostare un'opportunità di vendita nel ciclo di vendita al completamento. |[Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Vedi anche

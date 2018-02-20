@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7fa813b2bbaffe72a0f697101f1c10883cf54f2d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d84f1222dccca86f5906af1c82fc0e6192173d6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-locations-to-use-bins"></a>Procedura: Impostare ubicazioni per l'utilizzo di collocazioni
+# <a name="set-up-locations-to-use-bins"></a>Impostare ubicazioni per l'utilizzo di collocazioni
 Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento degli articoli. Dopo avere creato le collocazioni desiderate, è possibile definire in modo specifico il contenuto che si desidera includere in ciascuna collocazione. In alternativa, è possibile utilizzare la collocazione come collocazione variabile, ovvero priva di contenuto specifico.  
 
 Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è necessario prima attivarla nella scheda **Ubicazione**. Si progetterà quindi il flusso degli articoli nell'ubicazione specificando i codici di collocazione nei campi di setup che rappresentano i diversi flussi.  
 
 > [!NOTE]  
->  Prima di poter specificare i codici di collocazione nella scheda Ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni, vedere [Procedura: Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
+>  Prima di poter specificare i codici di collocazione nella scheda Ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera utilizzare le collocazioni.  
 3.  Scegliere l'azione **Modifica**.  
 4.  Nella Scheda Dettaglio **Warehouse** selezionare la casella di controllo **Collocazione obbligatoria**.  
@@ -38,7 +38,7 @@ Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è 
 8.  I codici delle collocazioni immessi in questa scheda verranno visualizzati automaticamente nelle testate e nelle righe dei vari documenti di warehouse. Le collocazioni di default definiscono le posizioni iniziali e finali degli articoli nella warehouse.  
 9.  Se si utilizzano stoccaggi e prelievi guidati, selezionare una collocazione per le rettifiche di warehouse. Il codice di collocazione nel campo **Codice collocazione rettifica** definisce la collocazione virtuale in cui registrare le eventuali discrepanze rilevate nelle giacenze quando si registrano le differenze riscontrate e registrate nelle registrazioni articoli warehouse o le differenze calcolate durante la registrazione di un inventario fisico della warehouse.  
 10. Compilare i campi nella Scheda dettaglio **Criteri per collocazione** se appropriati per la warehouse. I campi più importanti sono **Criteri capacità collocazione**, **Permettere breakbulk** e **Codice modello stoccaggio**.  
-11. Nella Scheda dettaglio **Warehouse** compilare i campi **Tempo gest. uscita da whse.**, **Tempo gest. entrata in whse.** e **Codice calendario base**. Per ulteriori informazioni, vedere [Procedura: Impostare i calendari di base](across-how-to-assign-base-calendars.md).
+11. Nella Scheda dettaglio **Warehouse** compilare i campi **Tempo gest. uscita da whse.**, **Tempo gest. entrata in whse.** e **Codice calendario base**. Per ulteriori informazioni, vedere [Impostare i calendari di base](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Rifornimento della collocazione di consumo
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.

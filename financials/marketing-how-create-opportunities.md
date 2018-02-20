@@ -1,6 +1,6 @@
 ---
 title: "Creare opportunità di vendita| Documenti Microsoft"
-description: "Viene descritto come creare opportunità da un agente o un contatto in Microsoft Dynamics 365 Business edition."
+description: "Viene descritto come creare opportunità da un agente o un contatto in Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Procedura: Creare opportunità di vendita
+# <a name="create-sales-opportunities"></a>Creare opportunità di vendita
 È possibile creare opportunità per le opportunità di vendita relative ai contatti. Tutte le opportunità devono essere assegnate a un agente o un addetto acquisti e devono avere un contatto.
 
 È possibile creare opportunità nella finestra **Lista Opportunità**. Ma in genere verranno create le opportunità dal contatto o dall'agente specifico.
 
-Prima di creare opportunità, è necessario impostare opportunità relative ai cicli di vendita. Per ulteriori informazioni, vedere [Procedura: Impostare cicli e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Prima di creare opportunità, è necessario impostare opportunità relative ai cicli di vendita. Per ulteriori informazioni, vedere [Impostare cicli e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Per creare un'opportunità da un agente
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Agenti**, quindi scegliere il collegamento correlato.
@@ -45,5 +45,5 @@ Prima di creare opportunità, è necessario impostare opportunità relative ai c
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di Dynamics 365](ui-work-product.md)
+[Utilizzo di Finance and Operations, Business edition](ui-work-product.md)
 
