@@ -1,1 +1,1 @@
-<span data-ttu-id="7bcd3-101">Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="7bcd3-101">Finance and Operations, Business edition</span></span>
+<span data-ttu-id="05902-101">Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="05902-101">Finance and Operations, Business edition</span></span>

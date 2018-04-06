@@ -1,0 +1,67 @@
+---
+title: Impostare l'arrotondamento delle fatture | Microsoft Docs
+description: "È possibile arrotondare gli importi delle fatture quando si creano fatture. È inoltre possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05."
+services: project-madeira
+documentationcenter: 
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/15/2017
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7e140c8c6d31864f6b27f4993e973b42904b0541
+ms.contentlocale: it-it
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="set-up-invoice-rounding"></a><span data-ttu-id="aeb44-104">Impostare l'arrotondamento delle fatture</span><span class="sxs-lookup"><span data-stu-id="aeb44-104">Set Up Invoice Rounding</span></span>
+<span data-ttu-id="aeb44-105">Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica.</span><span class="sxs-lookup"><span data-stu-id="aeb44-105">If you need to round invoice amounts when you create invoices, you can use the automatic rounding function.</span></span> <span data-ttu-id="aeb44-106">Quando una fattura viene arrotondata, viene aggiunta un'ulteriore riga con l'importo di arrotondamento. Questa riga verrà contabilizzata insieme alle altre righe della fattura.</span><span class="sxs-lookup"><span data-stu-id="aeb44-106">When an invoice is rounded, an extra line is added with the rounding amount and posted with the other invoice lines.</span></span>
+
+> [!NOTE]  
+>  <span data-ttu-id="aeb44-107">È possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05.</span><span class="sxs-lookup"><span data-stu-id="aeb44-107">Local regulations or local custom may require the invoice to be rounded in a specific way, for example, to an amount divisible by 0.05.</span></span>  
+  
+<span data-ttu-id="aeb44-108">Per utilizzare l'arrotondamento fattura automatico, è necessario:</span><span class="sxs-lookup"><span data-stu-id="aeb44-108">To use automatic invoice rounding, you must:</span></span>  
+  
+* <span data-ttu-id="aeb44-109">Specificare i conti di contabilità generale in cui verranno registrate le differenze di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="aeb44-109">Specify the general ledger accounts to which rounding differences will be posted.</span></span>  
+* <span data-ttu-id="aeb44-110">Impostare regole per l'arrotondamento delle fatture nella valuta locale e in una valuta estera.</span><span class="sxs-lookup"><span data-stu-id="aeb44-110">Set up rules for rounding invoices in local currency and in foreign currency.</span></span>  
+* <span data-ttu-id="aeb44-111">Attivare la funzione.</span><span class="sxs-lookup"><span data-stu-id="aeb44-111">Activate the function.</span></span>  
+  
+> [!NOTE]  
+>  <span data-ttu-id="aeb44-112">Oltre alle funzionalità di arrotondamento fattura, sono disponibili le funzionalità di arrotondamento importo unitario e arrotondamento importo per eseguire l'arrotondamento degli importi sulle fatture.</span><span class="sxs-lookup"><span data-stu-id="aeb44-112">In addition to the invoice rounding features, you can round amounts on invoices by the unit-amount rounding feature and the amount rounding feature.</span></span>  
+ 
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a><span data-ttu-id="aeb44-113">Impostare i conti contabilità generale per le differenze di arrotondamento fattura</span><span class="sxs-lookup"><span data-stu-id="aeb44-113">Set up general ledger accounts for invoice rounding differences</span></span>
+<span data-ttu-id="aeb44-114">Per utilizzare la funzione di arrotondamento fattura automatico, è necessario impostare il conto o i conti di contabilità generale in cui verranno registrate le differenze di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="aeb44-114">To use the automatic invoice rounding function, you must set up the general ledger account or accounts where rounding differences will be posted.</span></span> <span data-ttu-id="aeb44-115">Prima di ciò è necessario impostare le categorie di registrazione articolo/servizio IVA.</span><span class="sxs-lookup"><span data-stu-id="aeb44-115">Before you can do this, you must set up VAT product posting groups.</span></span> <span data-ttu-id="aeb44-116">Per ulteriori informazioni, vedere [Impostare l'IVA](finance-setup-vat.md).</span><span class="sxs-lookup"><span data-stu-id="aeb44-116">For more information, see [Set up VAT](finance-setup-vat.md).</span></span>  
+  
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a><span data-ttu-id="aeb44-117">Per impostare i conti contabilità generale per le differenze di arrotondamento fattura</span><span class="sxs-lookup"><span data-stu-id="aeb44-117">To set up general ledger accounts for invoice rounding differences</span></span>  
+1. <span data-ttu-id="aeb44-118">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="aeb44-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="aeb44-119">Nella pagina **Piano dei conti** impostare il conto e assegnargli il nome **Arrotondamento fattura** o simile.</span><span class="sxs-lookup"><span data-stu-id="aeb44-119">On the **Chart of Accounts** page, set up the account and name it **Invoice Rounding** or something similar.</span></span> <span data-ttu-id="aeb44-120">In [!INCLUDE[d365fin](includes/d365fin_md.md)] il nome del conto verrà utilizzato come testo per le fatture arrotondate.</span><span class="sxs-lookup"><span data-stu-id="aeb44-120">[!INCLUDE[d365fin](includes/d365fin_md.md)] will use the account name as text for invoices that are rounded.</span></span>  
+3. <span data-ttu-id="aeb44-121">A seconda che si utilizzi l'IVA o la tassa sulla vendita, nei campi **Cat. reg. art./serv. imposta** o **Cat. reg. art./serv. IVA**, scegliere una categoria di registrazione per gli importi arrotondati.</span><span class="sxs-lookup"><span data-stu-id="aeb44-121">Depending on whether you use VAT or sales tax, in the **Tax Prod. Posting Group** or **VAT Prod. Posting Group** fields, choose a posting group for rounded amounts.</span></span> <span data-ttu-id="aeb44-122">È possibile impostare un nuovo codice di gruppo da utilizzare per l'arrotondamento delle fatture.</span><span class="sxs-lookup"><span data-stu-id="aeb44-122">You may want to set up a new group code to use for invoice rounding.</span></span>
+4. <span data-ttu-id="aeb44-123">Lasciare vuoti i campi **Tipo reg. gen.** e **Cat. reg. business imposta** o **Cat. reg. business IVA**.</span><span class="sxs-lookup"><span data-stu-id="aeb44-123">Leave the **Gen. Posting Type**, and either the **Tax Bus. Posting Group** or **VAT Bus. Posting Group** fields blank.</span></span> <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
+  
+<span data-ttu-id="aeb44-124">A questo punto è possibile assegnare il conto arrotondamento fatture alle categorie di registrazione nella pagina **Categorie registrazione fornitori**.</span><span class="sxs-lookup"><span data-stu-id="aeb44-124">Now you can assign the invoice rounding account to posting groups on the **Vendor Posting Groups** page.</span></span>  <!-- Why only the vendor posting groups? -->
+
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a><span data-ttu-id="aeb44-125">Impostare l'arrotondamento per le valute locali ed estere</span><span class="sxs-lookup"><span data-stu-id="aeb44-125">Set up rounding for foreign and local currencies</span></span>
+<span data-ttu-id="aeb44-126">Prima di poter utilizzare la funzione di arrotondamento delle fatture, è necessario impostare le regole di arrotondamento per le valute locali ed estere.</span><span class="sxs-lookup"><span data-stu-id="aeb44-126">Before you can use the automatic invoice rounding function, you must set up rounding rules for foreign and local currencies.</span></span>
+
+### <a name="to-set-up-rounding-for-foreign-currencies"></a><span data-ttu-id="aeb44-127">Per impostare l'arrotondamento per le valute estere</span><span class="sxs-lookup"><span data-stu-id="aeb44-127">To set up rounding for foreign currencies</span></span>  
+1. <span data-ttu-id="aeb44-128">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Servizi tasso di cambio valuta**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="aeb44-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="aeb44-129">Nella pagina **Valute** scegliere la valuta estera per aprire la **Scheda valuta**, quindi compilare i campi **Precisione arrot. importo**, **Precisione arrot. importo unit.**, **Precisione arrot. fatt.** e **Tipo arrot. fatt.**.</span><span class="sxs-lookup"><span data-stu-id="aeb44-129">On the **Currencies** page, choose the foreign currency to open the **Currency Card**, and then fill in the **Amount Rounding Precision**, **Unit-Amount Rounding Precision**, **Invoice Rounding Precision** and **Invoice Rounding Type** fields.</span></span>
+  
+### <a name="to-set-up-rounding-for-your-local-currency"></a><span data-ttu-id="aeb44-130">Per impostare l'arrotondamento per la valuta locale</span><span class="sxs-lookup"><span data-stu-id="aeb44-130">To set up rounding for your local currency</span></span>
+1. <span data-ttu-id="aeb44-131">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="aeb44-131">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="aeb44-132">Nella pagina **Setup contabilità generale**, nella Scheda dettaglio **Generale**, compilare i campi **Precisione arrot. fatt.** e **Tipo arrot. fatt.**.</span><span class="sxs-lookup"><span data-stu-id="aeb44-132">On the **General Ledger Setup** page, on the **General** FastTab, fill in the **Inv. Rounding Precision** and **Inv. Rounding Type** fields.</span></span>  
+
+## <a name="activate-the-invoice-rounding-function"></a><span data-ttu-id="aeb44-133">Attivare la funzione di arrotondamento fatture</span><span class="sxs-lookup"><span data-stu-id="aeb44-133">Activate the invoice rounding function</span></span>  
+<span data-ttu-id="aeb44-134">Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automaticamente è necessario attivare la funzione di arrotondamento fatture.</span><span class="sxs-lookup"><span data-stu-id="aeb44-134">To ensure that sales and purchase invoices are rounded automatically, you must activate the invoice rounding function.</span></span> <span data-ttu-id="aeb44-135">È possibile attivare la funzione di arrotondamento in maniera indipendente per le fatture relative alle vendite e gli acquisti.</span><span class="sxs-lookup"><span data-stu-id="aeb44-135">You activate invoice rounding separately for sales and purchase invoices.</span></span>
+
+1. <span data-ttu-id="aeb44-136">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="aeb44-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="aeb44-137">Nella Scheda dettaglio **Generale** selezionare la casella di controllo **Arrotondamento fattura**.</span><span class="sxs-lookup"><span data-stu-id="aeb44-137">On the **General** FastTab, choose the **Invoice Rounding** check box.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="aeb44-138">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="aeb44-138">See Also</span></span>  
+[<span data-ttu-id="aeb44-139">Fatturare le vendite</span><span class="sxs-lookup"><span data-stu-id="aeb44-139">Invoice Sales</span></span>](sales-how-invoice-sales.md)  
+[<span data-ttu-id="aeb44-140">Registrare gli acquisti</span><span class="sxs-lookup"><span data-stu-id="aeb44-140">Record Purchases</span></span>](purchasing-how-record-purchases.md)
