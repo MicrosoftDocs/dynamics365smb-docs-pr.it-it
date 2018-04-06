@@ -1,0 +1,64 @@
+---
+title: 'Procedura: Stampare e ristampare i libri giornale e i registri IVA'
+description: "Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8842a87d230bdbe5415c7e79eaa4c26867a0a82e
+ms.contentlocale: it-it
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="print-and-reprint-gl-books-and-vat-registers"></a>Stampare e ristampare i libri giornale e i registri IVA
+Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  
+
+Di seguito viene descritto come stampare o ristampare il report **Libro giornale - Stampa**, ma gli stessi passaggi si applicano per la stampa o la ristampa del report **Registro IVA - Stampa**.  
+
+## <a name="to-print-the-general-ledger-book-report"></a>Per stampare il report libro giornale  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Libro giornale - Stampa**, quindi scegliere il collegamento correlato.  
+2.  Compilare i campi come indicato nella tabella seguente.  
+
+    |Campo|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Tipo report**|Selezionare il tipo di report da creare.<br /><br /> Se si seleziona **Ristampa**, il campo **Da Nr. progressivo** si abilita automaticamente.|  
+    |**Data Inizio**|Immettere la data iniziale del periodo a partire dal quale i movimenti registrati verranno visualizzati.|  
+    |**Data Fine**|Immettere la data finale del periodo a partire dal quale i movimenti registrati verranno visualizzati.|  
+    |**Da Nr. progressivo**|Indica il numero progressivo del report.|  
+    |**Stampa informazioni società**|Selezionare per stampare le informazioni della società nel report.<br /><br /> I campi restanti sono popolati in base alla finestra **Informazioni società**.|  
+
+    Quando si stampa il report, viene visualizzato un promemoria per aggiornare la finestra **Setup contabilità generale** con il numero dell'ultima pagina.  
+
+    > [!IMPORTANT]  
+    >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] non salva automaticamente il numero di pagina quando si esegue il report. Una volta eseguito il report Libro giornale - Stampa o il report Registro IVA - Stampa, è necessario aggiornare Microsoft Dynamics NAV con il numero dell'ultima pagina stampata.  
+
+3.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
+
+    Per impostare il numero dell'ultima pagina stampata per il report registro IVA, cercare **Registro IVA** e scegliere il collegamento per la finestra in **Categorie reg. IVA**.  
+
+4.  Nella Scheda dettaglio **Stampe Fiscali**, nel campo **Ultima pag. libro giornale stampata**, specificare il numero dell'ultima pagina del report **Libro giornale - Stampa** appena stampato.  
+
+Entrambi i report ufficiali possono essere ristampati. Quando si ristampa un report, la prima pagina del report deve avere lo stesso numero di pagina del report stampato la prima volta. Se si desidera ristampare uno di questi report e il numero di pagina non è corretto, modificare le informazioni di ristampa per il report  
+
+Di seguito viene descritto come visualizzare o modificare la numerazione della pagina per le versioni precedentemente stampate del report **Libro giornale - Stampa**, ma gli stessi passaggi si applicano per il report **Registro IVA - Stampa**.  
+
+## <a name="to-view-or-change-page-numbering-for-reprinting-the-general-ledger-book-report"></a>Per visualizzare o modificare la numerazione della pagina per la ristampa del report libro contabile  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
+2.  Scegliere l'azione **Modifica informazioni ristampa libro giornale** . Nella finestra **Informazioni ristampa libro giornale**, il campo **Numero prima pagina** indica il numero della prima pagina dei report precedentemente stampati.  
+
+Quando si aggiorna la finestra **Setup contabilità generale** o **Registri IVA** con il numero dell'ultima pagina del report stampato, accertarsi di specificare il numero di pagina corretto. Se il report ristampato inizia con il numero di pagina non corretto, il report non verrà accettato dalle autorità fiscali. La finestra **Informazioni ristampa libro giornale** e **Informazioni ristampa registro IVA** facilitano l'identificazione del numero corretto di pagina.  
+
+## <a name="see-also"></a>Vedi anche  
+[Funzionalità locale per l'Italia](italy-local-functionality.md)
+

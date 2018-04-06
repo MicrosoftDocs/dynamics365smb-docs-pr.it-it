@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
 Con [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
   
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
   

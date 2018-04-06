@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto

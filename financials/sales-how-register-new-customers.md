@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a03575bce7d1029e47f2aa1a46d5d0dcf585ab2a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f72a0fc7ce8e1d25d3b084f30f079778860a947c
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
@@ -28,7 +28,7 @@ Prima di registrare nuovi clienti, è necessario impostare vari codici di vendit
 >   Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una finestra automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-customer-card"></a>Per creare una nuova scheda cliente
-1. Nella home page scegliere l'azione **Clienti** per aprire l'elenco dei clienti esistenti.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Clienti** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello cliente, allora verrà visualizzata una nuova scheda cliente con alcuni campi compilati con le informazioni derivanti dal modello.

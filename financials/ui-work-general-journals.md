@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
@@ -42,7 +42,54 @@ Se sono stati impostati conti di contropartita di default per i batch di registr
 >   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
 
 ## <a name="working-with-recurring-journals"></a>Utilizzo delle registrazioni periodiche
-Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare i movimenti di storno automatico il giorno successivo alla data di registrazione e utilizzare chiavi di allocazione con i movimenti periodici.
+Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere la sezione "Allocare importi di registrazioni periodiche a vari conti".
+
+Utilizzando registrazioni periodiche, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che i conti, le dimensioni, i valori dimensioni e così via, immessi nei campi rimarranno nelle registrazioni dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
+
+### <a name="recurring-method-field"></a>Campo Metodo ricorrenza
+Questo campo consente di determinare in che modo verrà considerato l'importo specificato nella riga delle registrazioni dopo la contabilizzazione. Se ad esempio si utilizza il medesimo importo per ogni registrazione, l'importo risulta invariato. Se nella riga vengono utilizzati i medesimi conti e testo e l'importo varia a ogni registrazione, sarà possibile eliminare l'importo dopo la registrazione.
+
+| A | Vedere |
+| --- | --- |
+|Fisso|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione.|
+|Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione.|
+|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella finestra **Allocazioni**. Per ulteriori informazioni, vedere la sezione "Allocare importi di registrazioni periodiche a vari conti".|
+|Storno Costante|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
+|Storno Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
+|Storno Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella finestra **Allocazioni**. Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
+
+> [!NOTE]  
+>  È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella finestra **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
+
+### <a name="recurring-frequency-field"></a>Campo Frequenza ricorrenza
+Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedere la sezione "Utilizzo di formule per le date" in [Immissione di dati](ui-enter-data.md).
+
+#### <a name="examples"></a>Esempi
+Se è necessario contabilizzare ogni mese la riga delle registrazioni, immettere "1M". Dopo ogni registrazione, la data indicata nel campo **Data di registrazione** verrà aggiornata alla stessa data del mese successivo.
+
+Se si desidera registrare un movimento l'ultimo giorno di ogni mese, è possibile operare in uno dei modi descritti di seguito:
+
+- Registrare il primo movimento l'ultimo giorno di un mese immettendo la formula 1G + 1M - 1G (1 giorno + 1 mese - 1 giorno). Con questa formula, la data di registrazione viene calcolata correttamente indipendentemente dalla lunghezza del mese.
+
+- Registrare il primo movimento in qualsiasi giorno del mese immettendo la formula: 1M+CM. Con questa formula, la data di registrazione sarà dopo un mese intero + i giorni rimanenti del mese corrente.
+
+### <a name="expiration-date-field"></a>Campo Data di scadenza
+Questo campo determina la data in cui la riga sarà registrata per l’ultima volta. Oltre tale data, la riga non verrà più registrata.
+
+L'utilizzo di questo campo risulta vantaggioso poiché la riga non viene eliminata dalle registrazioni immediatamente. Sarà possibile sostituire la data di termine già stabilita con una data successiva e utilizzare quindi la riga più a lungo.
+
+Se il campo rimane vuoto, la riga viene contabilizzata ogni volta che si effettuerà una registrazione fino a quando non verrà eliminata dalle registrazioni.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Allocare importi di registrazioni periodiche a vari conti
+Nella finestra **Reg. periodiche generali**, è possibile scegliere l'azione **Allocazioni** per visualizzare o gestire il modo in cui gli importi nella riga delle registrazioni ricorrenti sono allocati a vari conti e dimensioni. Da notare che un'allocazione è una riga delle registrazioni periodiche nella riga di contropartita.
+
+È sufficiente immettere un'allocazione una sola volta, esattamente come nelle registrazioni periodiche. Poiché dopo la contabilizzazione l'allocazione verrà conservata nelle registrazioni di allocazione, non è necessario immettere gli importi e le allocazioni a ogni contabilizzazione della riga delle registrazioni periodiche.
+
+Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo** o **Saldo a pareggio**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella finestra **Allocazioni**, sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella finestra **Allocazioni**. In caso contrario, i valori dimensioni non risulteranno corretti.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
+l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle finestra **Allocazioni**, è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
+
 
 ## <a name="working-with-standard-journals"></a>Utilizzo delle registrazioni standard
 Quando si creano righe di registrazione che verranno probabilmente create di nuovo successivamente, è possibile scegliere di salvarle come registrazioni standard prima di contabilizzare la registrazione. Questa funzionalità si applica alle registrazioni di magazzino e alle registrazioni COGE.

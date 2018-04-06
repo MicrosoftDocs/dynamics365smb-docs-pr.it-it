@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
@@ -128,7 +128,7 @@ Per **AREA**, è possibile aggiungere i seguenti valori dimensioni:
 | Codice | Name | Tipo valori dimensioni |
 | --- | --- | --- |
 | 10 |America |Inizio-Totale |
-| 2.0 |Nord America |Standard |
+| 20 |Nord America |Standard |
 | 30 |Pacifico |Standard |
 | 40 |Sud America |Standard |
 | 50 |America, totale |Fine-Totale |

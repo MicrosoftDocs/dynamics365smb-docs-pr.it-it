@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Ammortamento dei cespiti
@@ -27,7 +27,7 @@ L'ammortamento consente di allocare il costo dei cespiti, come macchinari o attr
 * automaticamente, effettuando il processo batch **Calcola ammortamento**.  
 * manualmente, utilizzando le registrazioni cespiti in C/G.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Il calcolo dell'ammortamento in  può essere effettuato automaticamente su base giornaliera, per cui è possibile calcolare l'ammortamento per qualsiasi periodo. È quindi possibile analizzare gli attuali risultati operativi, ad esempio su base mensile, trimestrale o annuale. Per il calcolo viene utilizzato un anno standard di 360 giorni ed un mese standard di 30 giorni. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md).  
+Il calcolo dell'ammortamento in [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere effettuato automaticamente su base giornaliera, per cui è possibile calcolare l'ammortamento per qualsiasi periodo. È quindi possibile analizzare gli attuali risultati operativi, ad esempio su base mensile, trimestrale o annuale. Per il calcolo viene utilizzato un anno standard di 360 giorni ed un mese standard di 30 giorni. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md).  
 
 Se diversi reparti utilizzano lo stesso cespite, l'ammortamento periodico può essere assegnato automaticamente a tali reparti in base a una tabella di allocazione personalizzata.  
 

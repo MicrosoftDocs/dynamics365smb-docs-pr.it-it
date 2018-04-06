@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-service-orders"></a>Creare ordini di assistenza
@@ -52,7 +52,7 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Offerte contratto assistenza**, quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta di assistenza da convertire in un ordine di assistenza.  

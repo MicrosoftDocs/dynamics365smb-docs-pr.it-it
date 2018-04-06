@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.m
 
 Il setup guidato offre tre modelli:
 
--   **Valutazione Suite**  
-    Crea una società che è simile alla società di dimostrazione con i dati di esempio e i dati di setup.  
--   **Produzione Suite**  
-    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio.  
--   **Nuova**  
+-   **Valutazione - Dati di esempio**  
+    Crea una società che è simile alla società demo con i dati di esempio e i dati di setup.  
+-   **Produzione - Solo dati setup**  
+    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio.
+-   **Valutazione avanzata - Completa dati di esempio** Crea una società con i dati di setup e dati di esempio completi per tutte le funzionalità, incluse Manufacturing e Gestione assistenza.
+-   **Crea nuovo - Senza dati**  
     Crea una società vuota senza dati di setup.  
 
-Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione Suite** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegliere il modello **Nuovo** se si desidera impostare tutto da zero. È possibile in tal caso utilizzare il setup guidato assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
+Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegliere il modello **Nuovo** se si desidera impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
 
 > [!NOTE]  
 >   La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo stato del setup nella finestra **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
@@ -44,10 +45,11 @@ Quando si accede a una nuova società, la procedura guidata **Setup società** s
 
 L'indirizzo della società, ad esempio, è incluso nelle fatture e in altri documenti e i dati bancari vengono utilizzati per i pagamenti. Il metodo di calcolo dei costi viene utilizzato per calcolare i prezzi, nonché valutare il magazzino.  
 
-Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedere [Impostazione di Finance and Operations, Business edition](setup.md).  
+Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere dati aziendali, ad esempio clienti e fornitori. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Vedi anche
-[Impostazione di Finance and Operations, Business edition](setup.md)  
+[Personalizzazione di Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

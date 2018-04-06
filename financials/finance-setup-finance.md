@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5ec4748db61410128b7a61336e52ea6f066fae34
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
-Per velocizzare l'inizio, [!INCLUDE[d365fin](includes/d365fin_md.md)] include le configurazioni di default della maggior parte dei processi finanziari. Se è necessario apportare modifiche alle configurazioni per adattarle alla propria attività, procedere subito. Ad esempio, nella home page è possibile utilizzare la guida al setup assistito per configurare l'aliquota in base all'ubicazione.  
+Per velocizzare l'inizio, [!INCLUDE[d365fin](includes/d365fin_md.md)] include le configurazioni di default della maggior parte dei processi finanziari. Se è necessario apportare modifiche alle configurazioni per adattarle alla propria attività, procedere subito. Ad esempio, nella Gestione ruolo utente, è possibile utilizzare la guida al setup assistito per configurare l'aliquota in base all'ubicazione.  
 
 Tuttavia, esistono alcune opzioni che occorre impostare manualmente. Ad esempio, se si desidera utilizzare le dimensioni come base per la categoria di business intelligence.  
 

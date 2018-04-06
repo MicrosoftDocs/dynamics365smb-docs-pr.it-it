@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 07/05/2017
+ms.date: 03/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 591d8100100ee717a932d188a87545fe4098a001
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importazione di dati del software di contabilizzazione legacy utilizzando un pacchetto di configurazione
 È possibile importare dati master e alcuni dati transazionali da altri sistemi finanziari in base al pacchetto di configurazione standard disponibile in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nella finestra **Pacchetti di configurazione** è possibile utilizzare il pacchetto per importare e convalidare i dati prima di applicare il pacchetto.  
 
-Se si ha familiarità con i Servizi di RapidStart per Microsoft Dynamics, si conoscono anche i pacchetti di configurazione. Il pacchetto di configurazione di default supporta i più comuni tipi di dati che si desidera importare da un sistema legacy. In Excel è possibile aggiungere i dati del sistema legacy e configurarli in base alla logica di business di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+> I pacchetti di configurazione fanno parte di RapidStart Services per [!INCLUDE[d365fin](includes/d365fin_md.md)], un toolkit completo per la configurazione di nuove soluzioni basate sui requisiti aziendali dei clienti e sui dati di setup. RapidStart Services offre anche la funzionalità per l'importazione di dati legacy. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 > [!TIP]  
 >   In alternativa, usare le procedure guidate di migrazione dati per importare i dati da QuickBooks o Dynamics GP. Per ulteriori informazioni, vedere [Migrazione dei dati di QuickBooks](ui-extensions-quickbooks-data-migration.md) o [Migrazione dei dati di Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).  
@@ -66,6 +67,7 @@ Dopo che i dati dei clienti sono stati importati in Excel, vengono importati in 
 
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
+[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 

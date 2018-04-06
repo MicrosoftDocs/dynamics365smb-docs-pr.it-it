@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
@@ -39,7 +39,7 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 ## <a name="about-order-promising"></a>Informazioni sulla promessa ordine
 La funzionalità di promessa ordine consente di garantire la spedizione di un ordine in una determinata data. La data per la quale si garantisce la disponibilità dell'articolo e vengono create delle righe d'ordine per quella data che devono essere confermate dall'utente. La funzionalità consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Vengono inoltre create righe di richiesta, nel caso gli articoli debbano essere prima acquistati, per le date confermate dall'utente.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  utilizza due concetti fondamentali:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] utilizza due concetti fondamentali:  
 
 - ATP (Available-to-Promise)  
 - CTP (Capable-to-Promise)  
@@ -64,7 +64,7 @@ Se il cliente non richiede una data di consegna specifica, la data di spedizione
 - Data spedizione + Warehouse in uscita + Spedizione pianificata + Tempo di gestione = Data  
 - Data di spedizione pianificata + Durata spedizione = Data di consegna pianificata  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  verifica quindi se la data di consegna calcolata è realistica calcolando un periodo indietro nel tempo per determinare quando l'articolo deve essere disponibile per soddisfare la data promessa. Ciò avviene tramite le seguenti formule:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verifica quindi se la data di consegna calcolata è realistica calcolando un periodo indietro nel tempo per determinare quando l'articolo deve essere disponibile per soddisfare la data promessa. Ciò avviene tramite le seguenti formule:  
 
 - Data di consegna pianificata - Durata spedizione = Data di spedizione pianificata  
 - Data di spedizione pianificata - Gestione uscita da warehouse = Data spedizione  

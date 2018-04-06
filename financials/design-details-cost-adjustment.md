@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Rettifica costo | Microsoft Docs'
 description: "Il principale scopo della rettifica dei costi è di inoltrare le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
@@ -171,14 +169,21 @@ Se è stata impostata la rettifica dei costi automatica da applicare alle regist
 Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un giorno o una settimana dalla data di lavoro corrente, la rettifica dei costi automatica non verrà eseguita e il costo dell'acquisto non verrà inoltrato alla vendita fintanto che non si esegue il processo batch **Rettifica costo - Movimenti articoli**.  
 
 ## <a name="see-also"></a>Vedi anche
+<<<<<<< HEAD [Rettifica costi articolo](inventory-how-adjust-item-costs.md)  
+[Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)  
+[Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md)  
+[Dettagli di progettazione: Scostamento](design-details-variance.md)  
+=======
 [Rettifica costi articolo](inventory-how-adjust-item-costs.md)   
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
 [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)   
 [Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md)   
 [Dettagli di progettazione: Scostamento](design-details-variance.md)   
-[Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)   
-[Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)
-[ Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
+>>>>>>> refs/remotes/origin/Update13 [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)   
+[Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)  
+[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

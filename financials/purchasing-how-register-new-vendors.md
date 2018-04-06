@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
@@ -30,7 +30,7 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
 >   Se esistono modelli fornitore per diversi tipi di fornitore, durante la creazione di una nuova scheda fornitore, verrà visualizzata una finestra nella quale sarà possibile selezionare un modello appropriato. Se esiste solo un modello fornitore, allora le nuove schede fornitore utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-vendor-card"></a>Per creare una nuova scheda fornitore
-1. Nella home page scegliere **Fornitori** per aprire l'elenco di fornitori esistenti.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Fornitori** scegliere **Nuovo**.
 
     Se esistono più modelli fornitore, verrà aperta una finestra nella quale sarà possibile selezionare un modello. In questo caso, seguire i due passaggi successivi.

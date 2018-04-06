@@ -1,0 +1,1 @@
+Le funzionalità di Isabel sono disponibili solo per le distribuzioni in locale.

@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4384aeb9a9e1e06ea7abc7b4eecdd1365ac2a0a0
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: d6ab880e7fbce361863140e634ea065a31e3aa70
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gestione della personalizzazione come amministratore
 <!--NAV in the Web client-->
-Gli utenti possono personalizzare l'area di lavoro per adattarla alle proprie preferenze. In qualità di amministratore, è possibile controllare e gestire la personalizzazione disabilitando la possibilità per gli utenti di personalizzare le pagine e cancellando le personalizzazioni di pagina che gli utenti hanno effettuato. 
+Gli utenti possono personalizzare l'area di lavoro per adattarla alle proprie preferenze. In qualità di amministratore, è possibile controllare e gestire la personalizzazione disabilitando la possibilità per gli utenti di personalizzare le pagine e cancellando le personalizzazioni di pagina che gli utenti hanno effettuato.
 
 ## <a name="disable-personalization-for-a-profile"></a>Disabilitare la personalizzazione per un profilo
 È possibile impedire a tutti gli utenti che appartengono a un profilo specifico di personalizzare le proprie pagine.
@@ -31,15 +31,15 @@ Gli utenti possono personalizzare l'area di lavoro per adattarla alle proprie pr
 
 ## <a name="clear-user-personalizations"></a>Cancellare le personalizzazioni dell'utente
 
-La cancellazione delle modifiche di personalizzazione della pagina ripristina la pagina al layout originale prima che fosse apportata qualsiasi personalizzazione. Ci sono due modi per eliminare le personalizzazioni che gli utenti hanno apportato alle pagine: utilizzando la pagina **Elimina personalizzazione utente** o la pagina **Scheda personalizzazione utente**. 
+La cancellazione delle modifiche di personalizzazione della pagina ripristina la pagina al layout originale prima che fosse apportata qualsiasi personalizzazione. Ci sono due modi per eliminare le personalizzazioni che gli utenti hanno apportato alle pagine: utilizzando la pagina **Elimina personalizzazione utente** o la pagina **Scheda personalizzazione utente**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Eliminare le personalizzazioni dell'utente tramite la pagina Elimina personalizzazione utente
 
-La pagina **Elimina personalizzazione utente** consente di eliminare la personalizzazione in base alla pagina e all'utente. 
+La pagina **Elimina personalizzazione utente** consente di eliminare la personalizzazione in base alla pagina e all'utente.
 
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Elimina personalizzazione utente**, quindi scegliere il collegamento correlato.
 
-    Nella pagina vengono elencate tutte le pagine che sono state personalizzate e l'utente a cui appartengono. 
+    Nella pagina vengono elencate tutte le pagine che sono state personalizzate e l'utente a cui appartengono.
 
     >[!NOTE]
     > Un segno di spunta nelle colonne **Personalizzazione legacy** indica che la personalizzazione è stata effettuata in una versione precedente di [!INCLUDE[d365fin](includes/d365fin_md.md)] che gestiva la personalizzazione in modo diverso rispetto ad adesso. Gli utenti che provano a personalizzare queste pagine vengono bloccati a meno che non scelgano di sbloccare la pagina. Per ulteriori informazioni, vedere [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md).
@@ -54,7 +54,7 @@ La pagina **Scheda personalizzazione utente** consente di eliminare la personali
 
 1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Personalizzazione utente**, quindi scegliere il collegamento correlato.
 
-    Nella pagina **Personalizzazione utente** vengono elencati tutti gli utenti che potenzialmente dispongono di pagine personalizzate. Se non è presente un utente nell'elenco, significa che non dispone di pagine personalizzate. 
+    Nella pagina **Personalizzazione utente** vengono elencati tutti gli utenti che potenzialmente dispongono di pagine personalizzate. Se non è presente un utente nell'elenco, significa che non dispone di pagine personalizzate.
 
 2. Selezionare l'utente dalla lista, quindi scegliere l'azione **Modifica**.
 
@@ -65,6 +65,6 @@ La pagina **Scheda personalizzazione utente** consente di eliminare la personali
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione dell'area di lavoro](ui-personalization-user.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Modificare la Gestione ruolo utente](change-role.md)  
+[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

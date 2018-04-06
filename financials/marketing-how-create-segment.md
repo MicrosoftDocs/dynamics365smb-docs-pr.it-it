@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 83aabad9c08bd232c05016be008a45b1f8dce0b6
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-segments"></a>Creare segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).
 
 ## <a name="to-create-a-segment"></a>Per creare un segmento
-1. Nella home page scegliere **Segmenti attivi**. In alternativa, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella sezione **Generale** nel campo **Nr.** inserire un numero per il segmento.
 

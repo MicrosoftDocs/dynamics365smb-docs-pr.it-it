@@ -13,17 +13,17 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 159359a6d7cb051bd3cda0e750ba52f8d2a06e18
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Aggiungere contatti ai segmenti
 Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della finestra **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Per aggiungere un contatto a un segmento
-1. Nella home page scegliere **Segmenti attivi**. In alternativa, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.  
 2. Selezionare il segmento e fare clic sull'azione **Agg. contatti**. Verrà visualizzata la finestra del processo batch **Agg. contatti**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni in base alle quali si desidera selezionare i contatti.
 

@@ -1,0 +1,63 @@
+---
+title: 'Procedura: Impostazione di definizioni e batch di registrazioni'
+description: "Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: df648e622c39909f360621d90a670da7ed3dd34e
+ms.contentlocale: it-it
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="set-up-journal-templates-and-batches"></a>Impostazione di definizioni e batch di registrazioni
+Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso. Un report riepilogativo Intrastat viene presentato agli uffici tributari con cadenza mensile, trimestrale o annuale, a seconda dell'entità delle operazioni della società.  
+
+È possibile stampare i report Intrastat nella finestra **Batch reg. Intrastat** in base ai movimenti delle registrazioni Intrastat. I movimenti possono essere inseriti nella registrazione manualmente o mediante un processo batch. Prima di eseguire queste operazioni, è necessario  impostare i batch e le definizioni di registrazioni Intrastat.  
+
+## <a name="to-set-up-intrastat-journal-templates"></a>Per impostare definizioni di registrazioni Intrastat  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
+2.  Per creare una nuova definizione di registrazione Intrastat, scegliere l'azione **Nuovo**.  
+3.  Nella finestra **Def. registrazioni Intrastat** compilare i campi come indicato nella tabella riportata di seguito.  
+
+    |Campo|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Nome**|Nome della definizione di registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
+    |**Description**|Descrizione della definizione di registrazione Intrastat. È possibile immettere un massimo di 80 caratteri alfanumerici.|  
+
+4.  Scegliere il pulsante **OK**.  
+
+## <a name="to-set-up-intrastat-journal-batches"></a>Per impostare batch di registrazioni Intrastat  
+
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
+2.  Per aprire la finestra **Batch reg. Intrastat**, selezionare il modello desiderato, quindi scegliere **Batch**.  
+3.  Compilare i campi come indicato nella tabella seguente.  
+
+    |Campo|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Nome**|Nome della registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
+    |**Description**|Descrizione della registrazione Intrastat. È possibile immettere un massimo di 50 caratteri alfanumerici.|  
+    |**Periodicità**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Mese**<br />-   **Trimestre**<br />-   **Anno**|  
+    |**Tipo**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Acquisti**<br />-   **Vendite**|  
+    |**Periodo statistico**|Periodo statistico che sarà coperto dal report. Immettere il valore nel formato AAMM.|  
+    |**Mov. di rettifica**|Selezionare la casella di controllo **Mov. di rettifica** per rettificare un movimento.|  
+    |**Nr. dischetto**|Numero del dischetto.<br /><br /> Questo campo viene utilizzato quando si esegue il processo batch Intrastat - Floppy dichiaraz.|  
+    |**Identificatore valuta**|Codice identificativo della valuta per il report Intrastat.|  
+    |**Riportato**|Se il movimento è già stato dichiarato agli uffici tributari, selezionare la casella di controllo **Riportato**. Questa casella di controllo viene selezionata automaticamente quando si esegue il processo batch **Intrastat - Floppy dichiaraz.** per il movimento in questione.|  
+
+4.  Scegliere il pulsante **OK** per chiudere la finestra.  
+
+## <a name="see-also"></a>Vedi anche  
+  [Funzionalità locale per l'Italia](italy-local-functionality.md)   
+ [Stampa di report Intrastat per l'Italia](how-to-print-intrastat-reports-for-italy.md)
+

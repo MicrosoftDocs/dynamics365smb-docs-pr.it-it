@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Gestire utenti e autorizzazioni
@@ -22,11 +22,9 @@ Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amminist
 
 Una volta creati gli utenti in Office 365, è possibile importarli nella finestra **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. Agli utenti vengono assegnati set di autorizzazioni in base al piano assegnato all'utente in Office 365.
 
-È quindi possibile continuare ad assegnare set di autorizzazioni agli utenti per definire a quali oggetti di database, e quindi quali elementi dell'interfaccia utente, tali utenti dispongono di accesso e in quali società.
+È quindi possibile continuare ad assegnare set di autorizzazioni agli utenti per definire a quali oggetti di database, e quindi quali elementi dell'interfaccia utente, tali utenti dispongono di accesso e in quali società. È possibile aggiungere gli utenti ai gruppi utente. Ciò facilita l'assegnazione degli stessi set di autorizzazioni a più utenti.
 
 Un set di permessi è un raccolta di permessi per oggetti specifici del database. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alcuni set di autorizzazioni di default vengono forniti per default. È possibile utilizzare questi set di permessi già definiti, modificarli o creare ulteriori set di permessi.
-
-È possibile aggiungere gli utenti ai gruppi utente. Ciò facilita l'assegnazione degli stessi set di autorizzazioni a più utenti.
 
 Gli amministratori possono utilizzare la finestra **Setup utente** per definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi.
 
@@ -42,13 +40,9 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Gruppi di utenti**, quindi scegliere il collegamento correlato.
 2. In alternativa, nella finestra **Utenti** scegliere l'azione **Gruppi di utenti**.
-3. Nella finestra **Gruppi di utenti** selezionare un gruppo di utenti esistenti che si desidera copiare quindi scegliere l'azione **Copia gruppo di utenti**.
-4. Nel campo **Nuovo codice gruppo di utenti** specificare il nome del nuovo gruppo di utenti quindi scegliere il pulsante **OK**.
-
-    Come alternativa alla copia, è possibile scegliere l'azione Nuovo per creare una nuova riga per un gruppo di utenti vuoto, che quindi viene compilato manualmente.
-5. Per aggiungere nuovi o ulteriori utenti, nella finestra **Gruppo di utenti** selezionare l'azione **Membri gruppo di utenti**.
-6. Nella finestra **Membri gruppo di utenti**, in una nuova riga, compilare tutti i campi come necessario selezionando dagli utenti esistenti.
-7. Per aggiungere nuove o ulteriori autorizzazioni, nella finestra **Gruppo di utenti** selezionare l'azione **Set di autorizzazioni gruppo di utenti**.
+3. Nella finestra **Gruppo di utenti**, scegliere l'azione **Membri gruppo di utenti**.
+6. Nella finestra **Membri gruppo di utenti**, scegliere l'azione **Aggiungi utenti**.
+7. Per aggiungere nuove o ulteriori set di autorizzazioni, nella finestra **Gruppo di utenti** selezionare l'azione **Set di autorizzazioni gruppo di utenti**.
 8. Nella finestra **Set di autorizzazioni gruppo di utenti**, in una nuova riga, compilare tutti campi come necessario selezionando dai set di autorizzazioni.
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti

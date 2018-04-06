@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
@@ -27,9 +27,13 @@ Gestione ruolo utente rappresenta la home page, una pagina iniziale che è proge
 
 Al centro si trovano i riquadri Attività. I riquadri Attività mostrano i dati correnti ed è possibile fare clic su di essi o toccarli per accedere al documento selezionato. È possibile impostare degli indicatori delle prestazioni chiave (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi.
 
-È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale. Utilizzare le frecce per comprimere parte della pagina e per creare più spazio dove visualizzare i dati specifici. Nella parte superiore della home page si trovano tutte le azioni applicabili al contenuto corrente. Anche questa parte può essere compressa. È sufficiente fare clic o toccare all'interno dell'area compressa per visualizzarla di nuovo.
+È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale. Utilizzare le frecce per comprimere parte della pagina e per creare più spazio dove visualizzare i dati specifici. Nella parte superiore della home page si trovano tutte le azioni applicabili al contenuto corrente. Anche questa parte può essere compressa. È sufficiente scegliere l'area compressa per visualizzarla di nuovo.
 
-La Gestione ruolo utente di default è **Manager aziendale**, ma è possibile selezionare un altro Centro ruolo utente più adatto alle proprie esigenze. Per ulteriori informazioni, vedere [Modificare il Centro ruolo utente](change-role.md).
+### <a name="to-change-role-center"></a>Per modificare una Gestione ruolo utente
+La Gestione ruolo utente di default è **Manager aziendale**, ma è possibile selezionare un altro Centro ruolo utente più adatto alle proprie esigenze.
+1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente"), quindi scegliere **Impostazioni personali**.
+2. Nella fienstra **Impostazioni personali** nel campo **Gestione ruolo utenter** selezionare la Gestione ruolo utente che si desidera impostare come standard. Ad esempio, selezionare **Contabile**.
+3. Scegliere il pulsante **OK**.
 
 ## <a name="company"></a>Società
 Una società funziona da contenitore dei dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Possono essere presenti più società in un database, ma è possibile selezionarne solo una alla volta.
@@ -56,6 +60,5 @@ Scegliere questo collegamento per visualizzare o modificare le notifiche ricevut
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Modificare la Gestione ruolo utente](change-role.md)  
 [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

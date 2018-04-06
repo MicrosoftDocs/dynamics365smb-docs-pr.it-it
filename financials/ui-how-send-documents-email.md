@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commerciali, quali le informazioni sui pagamenti nei documenti di vendita ai clienti, è possibile utilizzare la funzionalità di layout di report per definire il contenuto specifico del documento che deve essere inserito nel corpo e-mail automaticamente. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
 
-Per abilitare i messaggi e-mail dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], avviare il setup assistito **Imposta indirizzo e-mail** nella home page.
+Per abilitare i messaggi e-mail dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], avviare il setup assistito **Imposta indirizzo e-mail** nella Gestione ruolo utente.
 
 È possibile inviare tramite e-mail praticamente tutti i tipi di documento come allegati ai messaggi e-mail direttamente dalla finestra che mostra il documento. Oltre all'allegato, è possibile impostare corpi e-mail specifici per il documento con le informazioni di base estratte dal documento, precedute da un testo standard di saluto e di introduzione al documento in questione. Per offrire ai clienti di pagare elettronicamente gli articoli acquistati utilizzando un servizio di pagamento come PayPal, è possibile inserire nel corpo e-mail anche le informazioni su PayPal e il collegamento ipertestuale di PayPal.
 

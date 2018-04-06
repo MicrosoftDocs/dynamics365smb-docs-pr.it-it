@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilità e tasti di scelta rapida in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In questo argomento vengono fornite informazioni sulle funzionalità che rendono [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibile per gli utenti con esigenze particolari. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le seguenti funzionalità di accessibilità:  
 
--   Tasti di scelta rapida  
+-   Tasti di scelta rapida
+
+    Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md).
 
 -   Spostamento  
 
@@ -30,18 +32,21 @@ In questo argomento vengono fornite informazioni sulle funzionalità che rendono
 
 -   Supporto per le tecnologie per l'accessibilità comuni  
 
-##  <a name="Keyboard"></a> Tasti di scelta rapida nel browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  supporta i tasti di scelta rapida supportati dalla maggior parte dei Web browser. I tasti di scelta rapida qui descritti fanno riferimento al layout di tastiera statunitense. Il layout dei tasti su altri tipi di tastiere potrebbe non corrispondere esattamente alla disposizione dei tasti su una tastiera statunitense.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Operazione da eseguire|Premere|  
+|To do this|Press|  
 |----------------|-----------|  
-|Per spostare lo stato attivo all'elemento o al comando successivo o precedente in una pagina, ad esempio pulsanti, campi o articoli in un elenco.|TAB, MAIUSC + TAB|  
-|Per abilitare l'elemento o il comando con lo stato attivo o accedervi.|INVIO|  
-|Per visualizzare gli elementi di un elenco scorrendo verso l'alto e il basso.|Freccia SU, freccia GIÙ|  
-|Per visualizzare le colonne di un elemento in un elenco scorrendo a sinistra e a destra.|Freccia SINISTRA, freccia DESTRA|  
-|Per aprire un elenco a discesa o cercare un valore per un campo.|ALT + freccia GIÙ|  
-|Per spostare lo stato attivo all'elemento successivo all'esterno della lista.|CTRL + INVIO|  
-|Per visualizzare le transazioni restituite in un valore calcolato in un campo.|ALT + freccia DESTRA|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Spostamento  
  È possibile spostarsi tra schede e azioni nella barra multifunzione, elementi nel riquadro di spostamento e altri comandi nelle pagine e nei report di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando la tastiera. Per spostare lo stato attivo da un comando, scheda o azione all'altro, premere il tasto TAB per spostarsi in avanti. Premere MAIUSC + TAB per spostarsi all'indietro.  
@@ -55,7 +60,7 @@ In questo argomento vengono fornite informazioni sulle funzionalità che rendono
  Un testo descrittivo per le immagini è impostato con l'attributo ALT all'interno del tag IMG. Un testo descrittivo per i collegamenti ipertestuali è impostato con l'attributo TITLE all'interno del tag A.  
 
 ##  <a name="AssistiveTech"></a> Tecnologie per l'accessibilità  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  supporta diverse tecnologie per l'accessibilità, ad esempio il contrasto elevato, le utilità per la lettura dello schermo e il software di riconoscimento vocale. Alcune tecnologie per l'accessibilità potrebbero non funzionare correttamente con determinati elementi nelle pagine di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supporta diverse tecnologie per l'accessibilità, ad esempio il contrasto elevato, le utilità per la lettura dello schermo e il software di riconoscimento vocale. Alcune tecnologie per l'accessibilità potrebbero non funzionare correttamente con determinati elementi nelle pagine di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Per ulteriori informazioni sull'accessibilità  
 È possibile trovare informazioni aggiuntive sull'accessibilità con i prodotti Microsoft e le tecnologie per l'accessibilità sul sito Web [Accessibilità di Microsoft](http://go.microsoft.com/fwlink/?LinkId=262160).

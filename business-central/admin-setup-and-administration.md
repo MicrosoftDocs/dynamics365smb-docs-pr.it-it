@@ -1,0 +1,55 @@
+---
+title: Task amministrativi in Business Central | Documenti di Microsoft
+description: Alcuni task in Business Central richiedono un setup e un'amministrazione centrale. In questa sezione, viene fornita una descrizione di tali task e informazioni su come utilizzarli.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 03/12/2018
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9b3f5b1639fe51f3abbd79ab41a6682499b5752b
+ms.contentlocale: it-it
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="administration"></a>Setup
+I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti, la personalizzazione dell'interfaccia utente e la gestione delle chiavi di crittografia.  
+
+Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio. [!INCLUDE[d365fin](includes/d365fin_md.md)] include varie guide di setup per la configurazione dei dati principali. Per ulteriori informazioni, vedere [Impostazione di Business Central](setup.md).
+
+Se si utilizza RapidStart Services per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
+
+Un utente o amministratore avanzato può impostare il framework di scambio di dati per consentire agli utenti di esportare e importare i dati nei file bancari e di ruolo paga, ad esempio per i diversi processi di gestione bancaria.
+
+> [!NOTE]
+> È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere ## [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+
+|**Per**|**Vedere**|  
+|------------|-------------|  
+|Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Informazioni su profili e Gestioni ruolo utente](admin-users-profiles-roles.md)|  
+|Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per autorizzazioni.|[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)|
+|Classificare i dati riservati per campi in modo da rispondere alle richieste da oggetti dati correlate ai relativi dati personali.|[Classificazione di dati riservati](admin-classifying-data-sensitivity.md)|
+|Rispondere a richieste da oggetti dati riguardanti i relativi dati personali.|[Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)|
+|Impostare una nuova business unit utilizzando modelli|[Creazione di nuove società](about-new-company.md)|
+|Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società. |[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Tenere traccia di tutte le modifiche dirette apportate dagli utenti ai dati nel database per identificare l'origine di eventuali errori e delle modifiche ai dati.|[Registrazione di modifiche](across-log-changes.md)|  
+|Immettere richieste singole o ricorrenti per eseguire report o codeunit.|[Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md)|  
+|Gestire, eliminare o comprimere documenti|[Eliminazione di documenti](admin-manage-documents.md)|  
+|Esporre le pagine, le codeunit e le query come servizi Web.|[Pubblicazione di un servizio Web](across-how-publish-web-service.md)|
+
+## <a name="see-also"></a>Vedi anche
+[Funzionalità aziendale](across-business-functionality.md)  
+[Funzionalità aziendali generali](ui-across-business-areas.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

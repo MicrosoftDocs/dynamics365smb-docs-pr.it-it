@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni az
 ## <a name="accountant-role-center"></a>Gestione ruolo utente Contabile
 La Gestione ruolo utente è un dashboard con riquadri di attività che indicano le informazioni di base in tempo reale e consentono di accedere rapidamente ai dati. La barra multifunzione nella parte superiore della finestra consente di accedere a più azioni, ad esempio l'apertura in Excel di report e rendiconti finanziari di uso più comune. Nel riquadro di spostamento a sinistra, è possibile passare rapidamente tra le liste che si utilizzano con maggiore frequenza. Se si espande il menu **Home** nel riquadro di spostamento, vengono visualizzate altre aree, ad esempio **Documenti registrati** con i diversi tipi di documenti registrati dalla società.  
 
-Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare una serie di video direttamente dalla Home page. È inoltre possibile avviare una **Introduzione** che illustra i punti chiave.  
+Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare una serie di video direttamente dalla Gestione ruolo utente. È inoltre possibile avviare una **Introduzione** che illustra i punti chiave.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Se si è un contabile con vari clienti, è possibile utilizzare [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] per avere una panoramica più precisa dei client. Dal portale, è possibile accedere al tenant di ogni client in [!INCLUDE[d365fin](includes/d365fin_md.md)] e utilizzare la Gestione ruolo utente Contabile come descritto sopra. Per ulteriori informazioni, vedi [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

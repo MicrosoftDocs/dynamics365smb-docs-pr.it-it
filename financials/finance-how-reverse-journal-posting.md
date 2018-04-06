@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66fcd6282f02d5789b12b79467ec177817422c5c
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reverse-postings"></a>Stornare le registrazioni
@@ -66,6 +66,15 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 6.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di reso acquisto**, quindi selezionare il collegamento correlato.  
 7.  Aprire l'ordine di reso in questione quindi scegliere l'azione **Riapri**.  
 8.  Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  
+
+## <a name="to-post-a-negative-entry"></a>Per registrare un movimento negativo  
+È possibile utilizzare il campo **Correzione** per registrare un addebito negativo anziché un credito oppure un accredito negativo anziché un addebito su un conto. Per soddisfare i requisiti legali, questo campo è visibile per impostazione predefinita in tutte le registrazioni. I campi **Dare** e **Avere** includono il movimento originale e il movimento corretto. Questi campi non influiscono sul saldo del conto.  
+
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE**, quindi scegliere il collegamento correlato.  
+2.  Nel campo **Nome batch** selezionare il nome di batch necessario.  
+3.  Immettere informazioni nei campi rilevanti.  
+4.  Nella riga di registrazione che si desidera attivare per i movimenti negativi, selezionare la casella di controllo **Correzione**.  
+5.  Per contabilizzare la registrazione, scegliere l'azione **Registra**, quindi scegliere il pulsante **Sì**.
 
 ## <a name="see-also"></a>Vedi anche
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  

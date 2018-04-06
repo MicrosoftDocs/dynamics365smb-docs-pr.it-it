@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
@@ -55,16 +55,12 @@ Se non viene utilizzata una coda processi o si desidera ricevere un documento OC
 > [!NOTE]  
 >   Se il servizio OCR è impostato per richiedere la verifica manuale dei documenti elaborati, nel campo **Stato OCR** è presente **In attesa di verifica**. In tal caso, eseguire le seguenti operazioni per accedere al sito Web del servizio OCR per verificare manualmente un documento OCR.
 
-1. Nel campo **Stato OCR** scegliere il collegamento ipertestuale **In attesa di verifica**. In alternativa, scegliere il riquadro **In attesa di verifica** nella home page.
+1. Nel campo **Stato OCR** scegliere il collegamento ipertestuale **In attesa di verifica**.
 2. Nel sito Web del servizio OCR, accedere utilizzando le credenziali dell'account del servizio OCR. Sono le credenziali utilizzate anche per l'impostazione del servizio. Per ulteriori informazioni, vedere la sezione "Per impostare un servizio OCR" in [Impostare documenti in entrata](across-how-setup-income-documents.md).
-
-    Se si accede al sito Web dal campo **Stato OCR** il documento in questione viene visualizzato subito dopo l'accesso. Se si accede al sito Web selezionando il riquadro nella home page, scegliere nella prima pagina del servizio OCR che viene visualizzata il pulsante **Avvia** nella scheda **Verifica** o fare doppio clic sul documento da verificare.
 
     Vengono visualizzate le informazioni per il documento OCR, inclusi il contenuto di origine del PDF o del file di immagine e i valori dei campi OCR risultanti.
 3. Analizzare i diversi valori dei campi e modificare o immettere manualmente i valori nei campi che il servizio OCR ha etichettato come incerti.
 4. Scegliere il pulsante **OK**. Il processo OCR è completato e il documento elettronico risultante viene inviato alla finestra **Documenti in entrata** in [!INCLUDE[d365fin](includes/d365fin_md.md)], in base al programma coda processi.
-
-    Se si accede al sito Web selezionando il riquadro nella home page, qualsiasi altro documento OCR da verificare viene visualizzato automaticamente nel sito Web.
 5. Ripetere il passaggio 4 per qualsiasi altro documento OCR da verificare.
 
 A questo punto è possibile passare alla creazione dei record per i documenti elettronici ricevuti in [!INCLUDE[d365fin](includes/d365fin_md.md)], manualmente o automaticamente. Per ulteriori informazioni, vedere la procedura che segue. È inoltre possibile connettere il nuovo record del documento in entrata al documento esistente registrato o non registrato in modo che il file di origine sia facilmente accessibile da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Elaborare i documenti in entrata](across-process-income-documents.md).

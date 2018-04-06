@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
@@ -63,7 +63,7 @@ Come regola, il valore nel campo **Costo unitario** nella scheda articolo si bas
  In base all'opzione selezionata nel campo **Metodo di costing**, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo Unitario** delle righe.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Metodo di costing FIFO, LIFO, Specifico o Medio  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] Calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:  
 
  Costo unitario (VL) = (Costo diretto unitario - (Importo sconto/ Quantità)) * (1 + Costo indiretto % / 100) + Coefficiente costi generali  
 

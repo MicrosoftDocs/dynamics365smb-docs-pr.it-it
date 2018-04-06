@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Impostare l'assicurazione cespiti
@@ -42,7 +42,7 @@ Per utilizzare le funzionalità dell'assicurazione in [!INCLUDE[d365fin](include
 3. Compilare i campi, se necessario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Per impostare le definizioni registrazioni assicurazioni
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Una definizione delle registrazioni assicurazioni viene creata automaticamente la prima volta che si apre la finestra **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
+Una definizione delle registrazioni assicurazioni viene creata automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] la prima volta che si apre la finestra **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Def. reg. assicurazioni**, quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.

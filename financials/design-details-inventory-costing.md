@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4f14118e435051c6d63f95a05ebee2e7107ce054
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 2ee8988a89e4bd01683a6945e66e08ab9608af2e
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
@@ -25,7 +25,9 @@ Il costing di magazzino, detto anche gestione costing riguarda la registrazione 
 ## <a name="in-this-section"></a>In questa sezione  
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
+[Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)  
+[Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
 [Dettagli di progettazione: Costo medio](design-details-average-cost.md)  
 [Dettagli di progettazione: Scostamento](design-details-variance.md)  

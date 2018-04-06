@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Dispone di una finestra **Compiti di assistenza** che fornisce una sintesi di tutti gli articoli in assistenza che richiedono attenzione. È possibile considerarla una sorta di pannello di comando dell'assistenza, da dove poter visualizzare gli ordini in sospeso, cercare e registrare pezzi di ricambio e mantenere aggiornato il magazzino.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una finestra **Compiti di assistenza** che fornisce una sintesi di tutti gli articoli in assistenza che richiedono attenzione. È possibile considerarla una sorta di pannello di comando dell'assistenza, da dove poter visualizzare gli ordini in sospeso, cercare e registrare pezzi di ricambio e mantenere aggiornato il magazzino.  
   
 Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento dell'attività di assistenza, si possono utilizzare gli strumenti statistici di [!INCLUDE[d365fin](includes/d365fin_md.md)] , che consentono di generare rapidamente e automaticamente grafici e analisi di vario tipo.  
   

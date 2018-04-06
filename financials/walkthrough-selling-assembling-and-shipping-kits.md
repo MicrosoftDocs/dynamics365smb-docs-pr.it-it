@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
@@ -36,7 +36,7 @@ Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e d
 -   Creazione di una DB di assemblaggio che elenca i componenti di assemblaggio e le risorse che costituiscono un articolo di assemblaggio.  
 
 ### <a name="selling-customized-assembly-items"></a>Vendita di articoli di assemblaggio personalizzati  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
 
 -   Creazione di una riga di ordine di vendita pura di ATO in cui la quantità completa non è disponibile e deve essere assemblata prima della spedizione.  
 -   Personalizzazione degli articoli di ATO.  
@@ -140,8 +140,8 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     |**Nr. Articolo**|**Cod. zona**|**Codice collocazione**|**Quantità**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|PRELIEVO|W-01-0001|2.0|  
-    |80005|PRELIEVO|W-01-0001|2.0|  
+    |80001|PRELIEVO|W-01-0001|20|  
+    |80005|PRELIEVO|W-01-0001|20|  
     |80011|PRELIEVO|W-01-0001|20|  
     |80014|PICK|W-01-0001|20|  
     |80203|PICK|W-01-0001|20|  

@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un workflow automatizzato
@@ -29,9 +29,6 @@ ms.lasthandoff: 01/30/2018
 2. Scegliere **I miei flussi** dalla barra nella parte superiore della pagina.
 3. Nella finestra **I miei flussi** selezionare **Creare da Vuoto**.
 4. Selezionare uno dei trigger [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibili dall'elenco dei trigger:  
-    *Creazione di un record*,  
-    *Eliminazione di un record*,  
-    *Modifica di un record*,  
     *Approvazione di un cliente necessaria*,  
     *Approvazione batch registrazioni COGE necessaria*,  
     *Approvazione riga registrazioni COGE necessaria*,  
@@ -39,11 +36,7 @@ ms.lasthandoff: 01/30/2018
     *Approvazione di un documento di acquisto necessaria*,  
     *Approvazione di un documento di vendita necessaria*, o  
     *Approvazione di un fornitore necessaria*.
-5. In Flow verrà visualizzata la richiesta per le informazioni necessarie per accedere ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se è stato selezionato uno dei seguenti trigger: *Creazione di un record*, *Modifica di un record* e *Eliminazione di un record* è necessario selezionare un nome di società e un nome di tabella. Con qualsiasi altro trigger, è richiesto soltanto il nome della società per connettersi.
-
-   In Flow verrà visualizzata una lista delle società e delle tabelle disponibili tramite [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le tabelle, o punti finali, indicano tutti i servizi Web pubblicati tramite [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   In alternativa, creare un nuovo URL del servizio Web di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzano l'azione **Crea set di dati** nella pagina **Servizi Web** tramite la Guida di setup assistito o **Imposta dati reporting** oppure l'azione **Modifica in Excel** in qualsiasi elenco.
+5. Flow richiederà la selezione di una società presso il tenant [!INCLUDE[d365fin](includes/d365fin_md.md)]. Poiché ogni fase del flusso è indipendente dalla successiva, è possibile che sia necessario definire la società più volte quando si utilizza un modello [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 A questo punto, è stata stabilita correttamente la connessione ai dati di Finance and Operations, Business edition e si è pronti per iniziare a creare un flusso. Per ulteriori informazioni, vedere la [Documentazione di Flow](https://flow.microsoft.com/documentation/getting-started/).
 

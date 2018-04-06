@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b06c5ee737db74e5011c7854601a21bc04d8872a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f8f00e7db1f7594d66e1cae5ed98271e25295472
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="users-profiles-and-role-centers-in-finance-and-operations-business-edition"></a>Utenti, profili e Gestioni ruolo utente in Finance and Operations, Business edition.
+# <a name="understanding-users-profiles-and-role-centers"></a>Informazioni su utenti, profili e Gestioni ruolo utente
 A tutte le persone nella società che hanno accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un *profilo* che consente l'utilizzo di una *Gestione ruolo utente*. In qualità di amministratore, è possibile assegnare e modificare profili in [!INCLUDE[d365fin](includes/d365fin_md.md)] e aggiungere e rimuovere utenti nell'ambito della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="adding-users"></a>Aggiunta di utenti
-Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).  
+Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
 
 ## <a name="profiles"></a>Profili
 I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che condividono la stessa Gestione ruolo utente. La Gestione ruolo utente è un tipo di pagina nella quale è possibile inserire parti differenti. Ogni parte è un contenitore in cui è possibile ospitare altre pagine o parti di sistema di default, come, ad esempio, una parte Outlook o parti per l'aggiunta di task, notifiche o note.  
@@ -41,7 +41,7 @@ L'amministratore configura l'interfaccia utente per più utenti personalizzandol
 Gli utenti possono personalizzare l'interfaccia utente della versione personale personalizzando l'interfaccia utente con le proprie credenziali di accesso. Questa personalizzazione può essere eliminata dall'amministratore.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)  
+[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)  
 <!-- [Customize the User Interface](../customize-the-user-interface.md)   
  [Security Overview](../Security%20Overview.md)-->
 

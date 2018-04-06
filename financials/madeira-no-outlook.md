@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Utilizzare Finance and Operations, Business edition senza Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Prevede un'integrazione completa con Office 365 ed è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come posta in arrivo aziendale in Outlook. Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] nel browser o nel dispositivo mobile.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] prevede un'integrazione completa con Office 365 ed è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come posta in arrivo aziendale in Outlook. Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] nel browser o nel dispositivo mobile.  
 
 ## <a name="sending-email"></a>Invio di e-mail
-È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale. Dalla home page, è possibile accedere alla guida di setup assistito che consente di impostare la posta elettronica. Se non si utilizza un account di posta elettronica di Office 365, è necessario specificare le informazioni tecniche sul server di posta elettronica. Se non si dispone di questa informazione, contattare lo staff di supporto IT.  
+È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale. Dalla Gestione ruolo utente, è possibile accedere alla guida di setup assistito che consente di impostare la posta elettronica. Se non si utilizza un account di posta elettronica di Office 365, è necessario specificare le informazioni tecniche sul server di posta elettronica. Se non si dispone di questa informazione, contattare lo staff di supporto IT.  
 
 
 ## <a name="see-also"></a>Vedi anche

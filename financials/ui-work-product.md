@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: ae77d44b0c04f7f190e94f07d2e94a2e06eb3921
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,22 +25,29 @@ Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi mod
 
 Nella tabella seguente sono elencate alcune delle funzionalità generali con i collegamenti agli argomenti che le descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
-| Informazioni sui simboli e i caratteri speciali utilizzabili nella ricerca dei dati. |[Immissione di criteri di filtro](ui-enter-criteria-filters.md) |
-| Vedere quali campi devono essere compilati. |[Campi obbligatori](ui-mandatory-fields.md) |
-| Utilizzare la ricerca per cercare una pagina specifica o un report. |[Utilizzo della funzionalità Cerca pagina o report](ui-search.md) |
-| Ottenere informazioni su come ordinare i dati. |[Ordinamento](ui-sorting.md) |
+| Modificare le impostazioni di base come la società, la data di lavoro e la Gestione ruolo utente. |[Modifica delle impostazioni di base](ui-change-basic-settings.md) |
+| Trovare una pagina o un report specifico. |[Utilizzo della funzionalità Cerca pagina o report](ui-search.md) |
+| Filtrare i dati in viste, report o funzioni utilizzando simboli e caratteri speciali. |[Immissione di criteri di filtro](ui-enter-criteria-filters.md) |
+| Ottenere informazioni su come ordinare i dati. |[Ordinamento dei dati](ui-sorting.md) |
+| Visualizzare o elaborare dati in specifici intervalli di date. |[Immettere intervalli di date](ui-enter-date-ranges.md) |
+| Vedere quali campi devono essere compilati. |[Rilevare campi obbligatori](ui-mandatory-fields.md) |
+| Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società. |[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Modificare la visualizzazione delle liste, ad esempio, clienti, fornitori o articoli. |[Visualizzazione delle liste con modalità diverse](across-display-lists-different-views.md) |
 | Modificare l'indicatore colorato nelle pile. |[Impostare un indicatore colorato nelle pile](ui-how-setup-colored-indicator-cues.md) |
-| Modificare le impostazioni di base come la società o la data di lavoro. |[Modifica delle impostazioni di base](ui-change-basic-settings.md) |
-| Modificare la Gestione ruolo utente e la home page correlata, per adattarla al ruolo. |[Modificare la Gestione ruolo utente](change-role.md) |
-| Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società. |[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md) |
-| Ottenere report per visualizzare i dati relativi a intervalli di date specifici. |[Immettere intervalli di date in Finance and Operations, Business edition ](ui-enter-date-ranges.md) |
+|Visualizzare un'anteprima dei report, stamparli o salvarli.|[Utilizzo dei report](ui-work-report.md)|
+| Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
+| Gestire il contenuto e il formato di report e documenti, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro.|[Gestione dei layout di report e documento](ui-manage-report-layouts.md) |
+| Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
+|Comprendere il modo in cui le impostazioni locali del computer influiscono sull'interfaccia utente e sul sito della Guida e come modificare la lingua.|[Modifica di lingua e impostazioni locali](about-locale-language.md)|
+|Ottenere informazioni sulle funzionalità che facilitano l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] da parte di persone disabili.|[Accessibilità e tasti di scelta rapida](ui-accessibility.md)|
+|Guardare video sulla funzionalità selezionata per agevolare le operazioni di inizio.|[Video delle attività comuni](across-videos.md)|  
 
 ## <a name="see-also"></a>Vedi anche
+[Introduzione](index.md)  
+[Impostazione di Finance and Operations, Business edition](setup.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

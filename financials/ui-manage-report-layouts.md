@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
@@ -45,7 +45,7 @@ Un layout di report Word si basa sui documenti di Word (tipo di file .docx). I l
 I layout RDLC sono basati sui layout di definizione dei report dei client (tipi di file .rdl o .rdlc). Questi layout vengono creati e modificati utilizzando il Generatore report di SQL Server. Il concetto di progetto per i layout RDLC è simile ai layout Word, in cui il layout definisce lo schema generale del report e determina i campi del set di dati da includere. Progettare layout RDLC è un'operazione più avanzata, rispetto ai layout Word. Per ulteriori informazioni, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Layout di report personalizzati e predefiniti
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  include diversi layout predefiniti. I layout integrati sono layout predefiniti creati per report specifici. I report in [!INCLUDE[d365fin](includes/d365fin_md.md)] avranno un layout integrato come layout report RDLC, layout report Word o in alcuni casi entrambi. Non è possibile modificare un layout di report predefinito da [!INCLUDE[d365fin](includes/d365fin_md.md)], ma è possibile utilizzarlo come base per generare layout di report personalizzati.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] include diversi layout predefiniti. I layout integrati sono layout predefiniti creati per report specifici. I report in [!INCLUDE[d365fin](includes/d365fin_md.md)] avranno un layout integrato come layout report RDLC, layout report Word o in alcuni casi entrambi. Non è possibile modificare un layout di report predefinito da [!INCLUDE[d365fin](includes/d365fin_md.md)], ma è possibile utilizzarlo come base per generare layout di report personalizzati.
 
 I layout personalizzati sono layout di report progettati per modificare l'aspetto di un report. In genere si crea un layout personalizzato in base a un layout predefinito, ma è possibile crearlo da zero o da una copia di un layout personalizzato esistente. I layout personalizzati consentono di avere più layout per lo stesso report con la possibilità di cambiarli in base alle esigenze. Ad esempio, è possibile avere diversi layout per ogni società di [!INCLUDE[d365fin](includes/d365fin_md.md)] oppure è possibile avere diversi layout per la medesima società in alcune occasioni o eventi, come una campagna speciale o il periodo di ferie.
 

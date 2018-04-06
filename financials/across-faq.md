@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 Questa sezione contiene le risposte alle domande frequenti sull'iscrizione e sull'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.  
 
 Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si riceve un messaggio che richiede di utilizzare un indirizzo e-mail un lavoro o di scuola. Per ulteriori informazioni, vedere [Troubleshooting dell'accesso Self-Service](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si rice
 Nr. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una prova gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Quali sono i vantaggi dell'integrazione con Office 365 ?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>È possibile annullare la sottoscrizione?
 Sì, ma a seconda di come ci si è iscritti a [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati possono essere eliminati o conservati. Per ulteriori informazioni, vedere [Annullamento di [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Nella roadmap o nel blog è stata presentata una nuova funzionalità recentement
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](madeira-outlook.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Outlook](madeira-no-outlook.md)  
-[Modificare la Gestione ruolo utente](change-role.md)  
+[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  consente di gestire in modo efficace il conto pagamenti fornitori.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di gestire in modo efficace il conto pagamenti fornitori.  
 
 ## <a name="payments"></a>Pagamenti
 Consente di assegnare priorità ai pagamenti, tenere conto delle penalità per i pagamenti scaduti e gestire gli sconti per i pagamenti anticipati.
@@ -32,10 +32,10 @@ Consente di assegnare priorità ai pagamenti, tenere conto delle penalità per i
 È possibile collegare i pagamenti per consentire la chiusura delle fatture al momento della registrazione del pagamento o in un momento successivo. Il **Metodo collegamento PA** specificato per il fornitore ( **Scheda fornitore**) determina se il pagamento viene collegato manualmente o automaticamente. Le transazioni possono essere sempre collegate manualmente. Tuttavia, se il metodo di collegamento per il fornitore è **Collega alla più vecchia** e non si specifica un documento cui collegare il pagamento, questo viene collegato al movimento aperto meno recente relativo al fornitore.
 
 ## <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Il suggerimento di pagamento può includere un importo indicato come fondi disponibili per il pagamento e il diritto all'applicazione di sconti sul pagamento.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Il suggerimento di pagamento può includere un importo indicato come fondi disponibili per il pagamento e il diritto all'applicazione di sconti sul pagamento.
 
 ## <a name="issue-checks"></a>Emettere assegni
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  consente di emettere assegni ai fornitori manualmente ed elettronicamente. È possibile eseguire entrambe le operazioni nella finestra **Registrazioni pagamenti**, in cui è possibile anche annullare assegni e visualizzare movimenti contabili degli assegni.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di emettere assegni ai fornitori manualmente ed elettronicamente. È possibile eseguire entrambe le operazioni nella finestra **Registrazioni pagamenti**, in cui è possibile anche annullare assegni e visualizzare movimenti contabili degli assegni.
 
 ## <a name="export-payments-to-a-bank-file"></a>Esportare pagamenti in un file della banca
 Quando si è pronti a pagare un fornitore, nella finestra **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento dalle righe di registrazione. È quindi possibile caricare il file sul sito elettronico della banca per elaborare i trasferimenti di denaro.

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
@@ -34,7 +34,7 @@ In questa procedura dettagliata sono descritti i task seguenti:
 ### <a name="prerequisites"></a>Prerequisiti  
 Per completare questa procedura dettagliata, sarà necessario:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] Aver installato .  
+- Aver installato [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 - Registrazione delle righe del prospetto del flusso di cassa.  
 
 ## <a name="roles"></a>Ruoli  

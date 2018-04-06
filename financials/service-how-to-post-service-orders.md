@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
@@ -99,7 +99,7 @@ Nella seguente procedura viene illustrato come registrare la spedizione di artic
   
 4. Scegliere **Azioni**, **Registrazione**, quindi **Registra**. Nella finestra visualizzata selezionare **Spedizione**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] In  vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
   
 Se l'ubicazione è impostata in modo da richiedere la gestione warehouse, la spedizione e la movimentazione degli articoli nelle righe di assistenza funzionano allo stesso modo di altri documenti di origine. La sola differenza sta nel fatto che gli articoli nelle righe di assistenza possono essere consumati esternamente o internamente e pertanto richiedono in due diverse funzioni di rilascio.  
   

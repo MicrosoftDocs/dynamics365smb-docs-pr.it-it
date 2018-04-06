@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Impostare l'invio e la ricezione di documenti elettronici
@@ -104,7 +104,7 @@ In questo argomento sono contenute le seguenti procedure:
 4. Nel campo **Documento elettronico** selezionare **Sì (Tramite il servizio di scambio documenti)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] In  viene automaticamente rilevato se il documento è una fattura o una nota di credito e viene applicato il formato PEPPOL di conseguenza.  
+    >  In [!INCLUDE[d365fin](includes/d365fin_md.md)] viene automaticamente rilevato se il documento è una fattura o una nota di credito e viene applicato il formato PEPPOL di conseguenza.  
 
 5. Per applicare questo profilo di invio del documento a tutti i clienti, selezionare la casella di controllo **Default** nella Scheda dettaglio **Generale**. Per applicarlo solo a clienti specifici, compilare il campo **Profilo di invio documenti** nelle schede cliente interessate. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
 

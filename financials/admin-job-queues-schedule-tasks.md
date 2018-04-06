@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per pianificare i task
@@ -25,7 +25,7 @@ Nella finestra **Movimenti coda processi** sono elencati tutti i processi esiste
 
 In alternativa, è possibile impostare un filtro nel campo **Filtro categoria coda processi**. Le categorie della coda processi possono essere utilizzate per raggruppare i processi nell'elenco.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  esegue automaticamente i processi in base alle pianificazioni specificate per ogni movimento coda processi. È inoltre possibile avviare, arrestare e sospendere manualmente un movimento coda processi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] esegue automaticamente i processi in base alle pianificazioni specificate per ogni movimento coda processi. È inoltre possibile avviare, arrestare e sospendere manualmente un movimento coda processi.
 
 ### <a name="log-files"></a>File log
 Gli errori vengono elencati nella finestra **Movimenti log coda processi** accessibile dalla barra multifunzione. È possibile anche risolvere gli errori della coda processi. I dati generati quando viene eseguita una coda processi vengono archiviati nel database.  
@@ -35,7 +35,7 @@ Le code processi sono uno strumento efficace per pianificare l'esecuzione dei pr
 
  In alternativa, è possibile pianificare le registrazioni nelle ore in cui è conveniente per la propria organizzazione. Ad esempio, può avere senso nella propria l'attività commerciale eseguire determinate procedure quando si è conclusa la maggior parte dell'immissione dati del giorno. Per riuscirci, impostare la coda commesse sull'esecuzione di diversi report di registrazione tramite processo batch, come i report **Registra ordini vendite tramite processo batch**, **Registra fatture vendita tramite processo batch** e **Agg. note di cr. vend. tramite processo batch**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  supporta la registrazione background per i seguenti tipi di documento:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la registrazione background per i seguenti tipi di documento:  
 
 -   Vendite: ordine di vendita, ordine di reso, nota di credito, fattura  
 
@@ -52,7 +52,7 @@ Questa impostazione relativa alla coda processi viene eseguita nella finestra **
 >  Se si imposta un processo che prevede la registrazione e la stampa di documenti e nella stampante viene visualizzata una finestra di dialogo, ad esempio una richiesta di credenziali o un avvertimento sul basso livello di inchiostro della stampante, il documento viene registrato ma non stampato. Il movimento coda processi corrispondente alla fine incorre in un timeout e il campo **Stato** viene impostato su **Errore**. Di conseguenza, è consigliabile non utilizzare un setup di stampante che richieda l'interazione con la visualizzazione delle finestre di dialogo della stampante insieme alla registrazione in background.  
 
 ## <a name="use-the-my-job-queue-part"></a>Utilizzare la parte Coda processi
-Nella parte **Coda processi** sono riportati i movimenti delle code processi iniziati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Modificare le Gestioni ruolo utente](change-role.md).  
+Nella parte **Coda processi** sono riportati i movimenti delle code processi iniziati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).  
 
 In questa parte, è possibile visualizzare i documenti che sono stati elaborati, o che sono in coda, per cui è stato specificato il proprio ID nel campo **ID utente assegnato**. La parte consente di tenere traccia di tutti i movimenti della coda commesse, inclusi quelli relativi alla registrazione background. La parte indica immediatamente se si è verificato un errore durante la registrazione di un documento oppure se sono presenti errori in un movimento coda commesse. La parte consente inoltre di annullare la registrazione del documento se non è in esecuzione.  
 

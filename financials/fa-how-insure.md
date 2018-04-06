@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Assicurazione di cespiti
@@ -70,7 +70,7 @@ Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespit
 5. Aprire la registrazione assicurazioni appropriata, esaminare i valori creati e registrarli nel registro di copertura assicurativa.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Per controllare la copertura assicurativa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  fornisce le finestre dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce le finestre dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
 
 ### <a name="overview-of-insurance-policies"></a>Sintesi delle polizze assicurative
 Per una sintesi delle polizze assicurative, visualizzare in anteprima o stampare il report **Assicurazione - Lista**. Nel report vengono visualizzate tutte le polizze e i campi più importanti delle schede assicurative.  

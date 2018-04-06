@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a043ad387455cf93182689b0c58025be7186c0cd
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
@@ -27,14 +27,14 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |**Task**|**Vedere**|  
 |------------|-------------|  
 |Impostare il servizio di scambio documenti preconfigurato per abilitare l'invio e la ricezione dei documenti elettronici da e a [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md)|  
-|Configurare il servizio OCR preconfigurato per convertire i file PDF o di immagine in documenti elettronici che possono essere convertiti in record di documento in . [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare documenti in entrata](across-how-setup-income-documents.md)|  
+|Configurare il servizio OCR preconfigurato per convertire i file PDF o di immagine in documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Impostare documenti in entrata](across-how-setup-income-documents.md)|  
 |Configurare uno dei due servizi preconfigurati per i tassi di cambio aggiornati in modo da ottenere i tassi di cambio valuta più recenti nella finestra **Valute**.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|  
-|È necessario impostare diversi dati master, ad esempio le informazioni sulla società, i clienti, i fornitori, gli articoli e le unità di misura correlati ai dati di mapping in  [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
+|È necessario impostare diversi dati master, ad esempio le informazioni sulla società, i clienti, i fornitori, gli articoli e le unità di misura correlati ai dati di mapping in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
 |Impostare l'autenticazione utente e l'URL del provider di servizi di conversione di dati bancari che è necessario per convertire i file della banca nel formato della banca in uso.|[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md)|  
 |Impostare e abilitare un servizio esterno che consente di importare gli estratti conto bancari direttamente come feed bancari.|[Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)|  
-|Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in  [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
+|Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella finestra **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 

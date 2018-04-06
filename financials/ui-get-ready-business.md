@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
@@ -23,10 +23,10 @@ Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](include
 
 Per ulteriori informazioni su come avviare un business, è possibile visualizzare la finestra **Assistenza Business** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. È possibile accedere alla finestra dal grafico nella Gestione ruolo utente **Manager aziendale** scegliendo il menu a discesa **Assistenza Business**, quindi l'azione **Mostra Setup e risorse della Guida**. Quando si aggiorna la pagina, il grafico viene sostituito con le risorse della Guida e di setup.
 
-Nella home page, nella parte inferiore del riquadro di spostamento, è disponibile il menu **Setup ed estensioni**. Espandere il pulsante **Home** per visualizzare il riquadro di spostamento. Qui è possibile visualizzare un elenco di setup assistiti introduttivi per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Nella Gestione ruolo utente, nella parte inferiore del riquadro di spostamento, è disponibile il menu **Setup ed estensioni**. Espandere il pulsante **Home** per visualizzare il riquadro di spostamento. Qui è possibile visualizzare un elenco di setup assistiti introduttivi per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Suite**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+>   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Di base** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Essenziale**. La prima volta che si accede, si utilizza l'esperienza di base. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Di base**:
 
@@ -62,4 +62,7 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

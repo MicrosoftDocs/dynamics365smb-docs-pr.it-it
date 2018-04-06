@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
@@ -67,13 +67,15 @@ Per utilizzare guida al setup assistito:
 
 1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegliere l'azione **Apri setup assistito**.  
 2. Compilare i campi in ogni step della guida.  
-3. Nella home page, scegliere **Previsione flussi di cassa** sopra al grafico e quindi **Ricalcola previsione**.  
+3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Previsione flusso di cassa**, quindi scegliere il collegamento correlato.
+4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
 2. Espandere la Scheda dettaglio **Cortana Intelligence** e selezionare la casella di controllo **Cortana Intelligence abilitata**.  
-3. Nella home page, scegliere **Previsione flussi di cassa** sopra al grafico e quindi **Ricalcola previsione**.  
+3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Previsione flusso di cassa**, quindi scegliere il collegamento correlato.
+4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 > [!TIP]  
 >   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  

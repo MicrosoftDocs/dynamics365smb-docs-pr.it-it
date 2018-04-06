@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
 Per ulteriori informazioni su come iniziare rapidamente, è disponibile una videoteca che illustra come eseguire i vari processi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo per menzionare alcuni esempi, la libreria contiene i video che mostrano effettuare le seguenti operazioni:  
 
-* Migrare i dati aziendali da un'altra app finanziaria in  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrare i dati aziendali da un'altra app finanziaria in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Impostare le dimensioni in modo da poter analizzare e tenere traccia dei vari documenti e entità
 * Connettersi a [!INCLUDE[d365fin](includes/d365fin_md.md)] con Microsoft Dynamics 365 for Sales
 * Imposta workflow di approvazione  
-* Usare Power BI con  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Impostare messaggi e-mail e inviare documenti direttamente da  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Usare Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Impostare messaggi e-mail e inviare documenti direttamente da [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 È possibile accedere ai video in diversi modi. Se già si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)], sono disponibili due modi per accedere alla libreria:
 

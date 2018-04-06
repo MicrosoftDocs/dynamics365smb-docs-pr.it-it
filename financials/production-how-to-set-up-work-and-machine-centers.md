@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
@@ -83,7 +83,7 @@ Se le capacità delle aree di produzione non devono contribuire a formare la cap
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Per impostare un centro lavoro o area di produzione con capacità-vincolata
 È necessario impostare le risorse di produzione considerate critiche e contrassegnarle per l'accettazione soltanto di carichi limitati, escludendo in questo modo il carico illimitato predefinito che viene accettato da altre risorse di produzione. Una risorsa critica può essere costituita da un'area di produzione o da un centro lavoro che costituiscono strozzature nel ciclo produttivo e per i quali si desidera stabilire un limite finito di carico.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
 
 Nella finestra **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
 

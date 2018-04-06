@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Collegamento articoli | Microsoft Docs'
 description: "Questo argomento descrive dove vengono registrati la quantità e il valore di magazzino quando si registra una transazione di magazzino."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
@@ -242,11 +240,12 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella finestra **Prospetto collegamento**.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
-[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
+[Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Costo medio](design-details-average-cost.md)   
-[Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)
+[Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

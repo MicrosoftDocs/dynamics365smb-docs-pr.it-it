@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Contabilità
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 
 La configurazione predefinita include un piano dei conti e le categorie di registrazione standard che consentono di rendere più efficiente il processo di assegnazione dei conti COGE predefiniti a clienti, fornitori e articoli.  
 
@@ -33,6 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |I clienti devono eseguire il pagamento prima che venga spedita loro la merce o devono pagare i fornitori prima che questi spediscano la merce.|[Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)|
 | Riconciliare i conti bancari e trasferire i fondi tra conti bancari. |[Gestione di conti correnti bancari](bank-manage-bank-accounts.md) |
 |Impostare i partner intercompany ed elaborare le transazioni, manualmente o automaticamente, tra le persone giuridiche all'interno della stessa società.|[Gestione delle transazioni Intercompany](intercompany-manage.md)|
+|Combina i movimenti di contabilità generale di più società in una "società consolidata“ virtuale per analisi finanziarie.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 |Analizzare i costi di gestione dell'azienda allocando i costi effettivi e a budget di operazioni, dipartimenti, prodotti e progetti a centri di costo.|[Contabilizzazione dei costi](finance-manage-cost-accounting.md)|
 |Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
 | Comprendere la contabilità generale e il piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |

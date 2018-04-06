@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
@@ -51,7 +51,7 @@ Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Per impostare le definizioni registrazioni dei cespiti
 Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
+Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Def. registrazioni cespiti**, quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
