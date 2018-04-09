@@ -95,7 +95,6 @@ Gli scenari con l'alternativa A o B rappresentano quanto segue:
 - **A**: in questo caso l'avviso relativo alla tolleranza di sconto sul pagamento è stato disattivato OPPURE l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo (Registra il saldo come tolleranza pagamento).  
 - **B**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo (Mantieni il saldo come importo residuo).  
 
-[!div class="mx-tdBreakAll"]  
 |-|Mag.|Pagam.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15/01/03|20/01/03|<=15/01/03|985|Toll. Pag.|Sì|0|-5|  
@@ -166,8 +165,6 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 - **B**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo in tutte le fatture.  
 - **C**: in questo caso l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo nella prima fattura ma non nella seconda.  
 - **D**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo nella prima fattura ma di consentirlo nella seconda.  
-
-[!div class="mx-tdBreakAll"]  
 
 |-|Mag.|Sconto Pag.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
