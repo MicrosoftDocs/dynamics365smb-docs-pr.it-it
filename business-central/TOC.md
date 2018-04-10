@@ -1,5 +1,6 @@
-# [Introduzione](index.md)
-## [Requisiti minimi](financials-requirements.md)
+# [Benvenuti in Business Central](index.md)
+# [Introduzione](product-get-started.md)
+## [Requisiti minimi](product-requirements.md)
 ## [Domande frequenti](across-faq.md)
 ## [Video delle attività comuni](across-videos.md)
 ## [Panoramica sulle funzionalità aziendali](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Fornitura dell'assistenza](service-deliver-service.md)
 
 # [Funzionalità aziendali generali](ui-across-business-areas.md)
+## [Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)
 ## [Inviare documenti via e-mail](ui-how-send-documents-email.md)
 ## [Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md)
 ## [Definizione dei task degli utenti](across-user-tasks.md)
