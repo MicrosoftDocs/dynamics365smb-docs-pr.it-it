@@ -13,8 +13,8 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 11/21/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f2b7f66de1caa63edaeb240b35501fb62645c469
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -132,5 +132,5 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], il batch per i dati migrati è d
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
-[Benvenuto in [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Introduzione](product-get-started.md) 
 

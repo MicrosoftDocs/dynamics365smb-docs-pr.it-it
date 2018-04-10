@@ -2,20 +2,20 @@
 title: Creazione di numerazioni | Documenti Microsoft
 description: Informazioni su come impostare la numerazione per assegnare codici di identificazione univoci a conti e documenti in Business Central.
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
@@ -30,14 +30,29 @@ In genere, si imposta la serie di numeri per inserire automaticamente il numero 
 
 Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, ad esempio per utilizzare una numerazione diversa per diverse categorie di articoli, è possibile utilizzare relazioni tra numerazioni.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamento del campo Nr. in documenti e schede
+Nella vendita, acquisto e trasferimento di documenti e su tutte le schede, il campo **Nr.** può essere compilato automaticamente da una serie di numeri o manualmente e può essere impostato per essere invisibile.
+
+Il campo **Nr.** può essere compilato in tre modi:
+
+1. Se esiste solo una numerazione per il tipo di documento o scheda dove la casella di controllo **Proponi automaticamente** è selezionata e la casella di controllo **Consenti num. manuale** non è selezionata, il campo viene compilato automaticamente con il numero successivo della numerazione e il campo **Nr.** non sarà visibile.
+
+    > [!NOTE]  
+    > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella finestra **Elenco nr. serie**.
+
+2. Se esiste più di una numerazione per il tipo di documento o scheda e la casella di controllo **Proponi automaticamente** non è selezionata per la numerazione attualmente assegnata, il campo **Nr.** è visibile ed è possibile cercare la finestra **Elenco nr. serie** e selezionare la numerazione che si desidera utilizzare. Il numero successivo della serie viene quindi inserito nel campo **Nr.**.  
+
+3. Se per il tipo di documento o scheda non è stata impostata alcuna numerazione o se è selezionato il campo **Consenti num. manuale** per la numerazione, il campo **Nr.** è visibile ed è necessario inserire qualsiasi numero manualmente. È possibile immettere un massimo di 20 caratteri, tra numeri e lettere.
+
+Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si apre la relativa finestra **Setup numerazione** in modo da poter impostare una numerazione per il tipo di documento o scheda prima di procedere con un'altra immissione di dati.
+
+> [!NOTE]  
+> Se è necessario attivare la numerazione manuale, ad esempio su nuove schede articolo create con un processo di migrazione di dati che ha nascosto il campo **Nr.** per impostazione predefinita, passare alla finestra **Setup magazzino** e scegliere il campo **Nr. articoli** per aprire e impostare la relativa numerazione su **Consenti num. manuale**.
+
 ## <a name="to-create-a-new-number-series"></a>Per creare nuove numerazioni
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Nr. serie**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**SUGGERIMENTO**: Per consentire l'immissione manuale di un numero nelle nuove schede o documenti, deselezionare la casella di controllo **Proponi automaticamente** e selezionare la casella di controllo **Consenti num. manuale**.
-
-Ora quando si crea una nuova scheda o un documento che è impostato per utilizzare la serie di numeri in questione, è possibile compilare manualmente il campo **Nr.** con qualsiasi valore.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
 La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.

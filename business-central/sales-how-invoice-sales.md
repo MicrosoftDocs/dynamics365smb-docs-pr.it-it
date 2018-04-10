@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4cf02913056fd0b20bb35fd407a82b2ec8b1599
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 34c5b47885e82e6dc2985fabb8a4c202ede9c0f9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
@@ -58,14 +58,16 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
    Diversi campi nella fattura di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
 8. Compilare i restanti campi della finestra **Fattura di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-È ora possibile compilare le righe della fattura di vendita per i prodotti che si sta vendendo al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
+    È ora possibile compilare le righe della fattura di vendita per i prodotti che si sta vendendo al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
 
-Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
+    Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
 9. Nella Scheda dettaglio **Righe** nel campo **Tipo** selezionare il tipo di prodotto, addebito o transazione per cui si effettuerà la registrazione per il cliente con la riga di vendita.
 10. Nel campo **Nr.** selezionare un record per effettuare la registrazione in base al valore nel campo **Tipo**.
 
- Lasciare il campo **Nr.** vuoto nei seguenti casi: - se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
- - Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
+    Lasciare il campo **Nr.** vuoto nei seguenti casi:
+
+    * Se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
+    * Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
 
 11. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 

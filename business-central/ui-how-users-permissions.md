@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 4. Nella Scheda dettaglio **Set di autorizzazioni utente** compilare i campi secondo le necessità su una nuova riga. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Per raggruppare gli utenti in gruppi di utenti
-È possibile impostare i gruppi di utenti per gestire facilmente i set di autorizzazioni per i gruppi di utenti della società. È possibile utilizzare una funzione che consente di copiare tutti i set di autorizzazioni da un gruppo di utenti esistenti al nuovo gruppo di utenti. I membri del gruppo di utenti non vengono copiati.
+È possibile impostare i gruppi di utenti per gestire facilmente i set di autorizzazioni per i gruppi di utenti della società.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Gruppi di utenti**, quindi scegliere il collegamento correlato.
 2. In alternativa, nella finestra **Utenti** scegliere l'azione **Gruppi di utenti**.
@@ -44,6 +44,17 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 6. Nella finestra **Membri gruppo di utenti**, scegliere l'azione **Aggiungi utenti**.
 7. Per aggiungere nuove o ulteriori set di autorizzazioni, nella finestra **Gruppo di utenti** selezionare l'azione **Set di autorizzazioni gruppo di utenti**.
 8. Nella finestra **Set di autorizzazioni gruppo di utenti**, in una nuova riga, compilare tutti campi come necessario selezionando dai set di autorizzazioni.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni
+Per definire rapidamente un nuovo gruppo di utenti, è possibile copiare tutti i set di autorizzazioni da un gruppo di utenti esistenti al nuovo gruppo di utenti.
+
+I membri del gruppo di utenti non vengono copiati nel nuovo gruppo di utenti. Bisogna aggiungerli manualmente successivamente.
+
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Gruppi di utenti**, quindi scegliere il collegamento correlato.
+2. Selezionare il gruppo di utenti che si desidera copiare, quindi scegliere l'azione **Copia gruppo di utenti**.
+3. Nel campo **Nuovo codice gruppo di utenti**, immettere un nome per il gruppo, quindi scegliere il pulsante **OK**.
+
+Il nuovo gruppo di utenti viene aggiunto nella finestra **Gruppi di utenti**. Procedere con l'aggiunta di utenti. Per ulteriori informazioni, vedere la sezione “Per raggruppare gli utenti in gruppi di utenti".
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Gli amministratori possono definire i periodi di tempo in cui utenti specificati
 
 ## <a name="see-also"></a>Vedi anche
 [Preparazione al business](ui-get-ready-business.md)  
-[Impostazione e amministrazione in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Amministrazione](admin-setup-and-administration.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

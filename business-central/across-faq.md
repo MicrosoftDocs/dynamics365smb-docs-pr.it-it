@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ In caso di domande su [!INCLUDE[d365fin](includes/d365fin_md.md)] per cui non è
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>È possibile estendere il periodo di prova di 30 giorni della "Nuova società"?
 Sì. Se si desidera estendere il periodo di prova, è necessario contattare a Microsoft tramite il numero 1-888-477-7989 (USA) oppure 1-800-741-9206 (il Canada). NOTA: il processo di estensione della prova può richiedere 2 giorni lavorativi.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa home page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa finestra Gestione ruolo utente in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 È opportuno verificare se l'amministratore ha modificato la Gestione ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone che determina l'impostazione delle autorizzazioni e della pagina Gestione ruolo utente predefinita. È possibile modificare manualmente la Gestione ruolo utente nelle impostazioni, ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la home page precedente perché le autorizzazioni non sono state modificate.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Perché non si riesce a trovare una funzionalità in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Nella roadmap o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] alla versione più recente. Se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la sua disponibilità in AppSource.
 
 ## <a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Outlook](admin-no-outlook.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  

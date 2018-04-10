@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
 
     > [!NOTE]  
->   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
@@ -44,7 +44,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
 
     > [!NOTE]  
->   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
@@ -60,10 +60,10 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 6. Controllare i movimenti creati quindi scegliere l'azione **Registra** per eseguire la registrazione.
 
     > [!TIP]  
->   Se i numeri dell'indice servono soltanto a fini di simulazione, è possibile creare un registro beni ammortizzabili in cui archiviarli. In tal modo i movimenti non avranno alcun effetto sugli altri registri beni ammortizzabili.
+    >   Se i numeri dell'indice servono soltanto a fini di simulazione, è possibile creare un registro beni ammortizzabili in cui archiviarli. In tal modo i movimenti non avranno alcun effetto sugli altri registri beni ammortizzabili.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Per registrare i costi di acquisto aggiuntivi
-   I costi aggiuntivi di acquisto di un cespite vengono registrati allo stesso modo dei costi di acquisto originali: da una fattura d'acquisto o da una registrazione cespiti. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Per registrare i costi di acquisto aggiuntivi
+I costi aggiuntivi di acquisto di un cespite vengono registrati allo stesso modo dei costi di acquisto originali: da una fattura d'acquisto o da una registrazione cespiti. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).  
 
 Se l'ammortamento del cespite è già stato calcolato, selezionare la casella di controllo **Amm. costi di Acq.** affinché la differenza tra costo aggiuntivo di acquisto e il valore di realizzo venga ammortizzata proporzionalmente all'importo di ammortamento del cespite precedente. Questa impostazione garantisce che il periodo di ammortamento non venga modificato.  
 
@@ -120,6 +120,6 @@ Se non è stata selezionata la casella di controllo **Ammort. alla data reg. ces
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Quando una coda processi è attivata manualmente, viene eseguita con le credenzi
 Il record del movimento coda processi ha molti campi di cui lo scopo è quello di portare i parametri in una codeunit specificata per essere eseguita con una coda processi. Questo significa inoltre che le codeunit che devono essere eseguite mediante la coda processi devono essere specificate con il record Movimento coda processi come parametro nel trigger **OnRun**. Cio fornisce un livello di sicurezza aggiuntivo, poiché impedisce agli utenti di eseguire codeunit scelte casualmente tramite la coda processi. Se l'utente deve necessariamente passare i parametri a un report, l'unico modo possibile è eseguire il wrapping dell'esecuzione del report in una codeunit, che analizzerà i parametri di input e li immetterà nel report prima dell'esecuzione.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Impostazione e amministrazione in Business Central](admin-setup-and-administration.md)  
+[Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di Business Central](setup.md)  
 

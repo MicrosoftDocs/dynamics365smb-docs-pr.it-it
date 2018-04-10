@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Se viene visualizzato un errore di accesso non riuscito quando si accede al dash
 * L'istanza di [!INCLUDE[d365fin](includes/d365fin_md.md)] a cui ci si sta provando a connettere non dispone di un certificato SSL valido. In questo caso verrà visualizzato un messaggio di errore più dettagliato ("impossibile stabilire una relazione SSL attendibile").
 
     > [!NOTE]  
->   Non sono supportati i certificati autofirmati.  
+    >   Non sono supportati i certificati autofirmati.  
 
 **"Oops"**  
 Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la finestra di dialogo di autenticazione, nei casi più frequenti questo errore è causato da un problema di connessione ai dati del pacchetto di contenuto.
@@ -118,7 +118,7 @@ Se viene visualizzata una finestra di dialogo "Oops" dopo aver superato la fines
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Migrare i dati aziendali da altri sistemi contabili](upload-data.md)  
 [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di PowerApps](across-how-use-financials-data-source-powerapps.md)  

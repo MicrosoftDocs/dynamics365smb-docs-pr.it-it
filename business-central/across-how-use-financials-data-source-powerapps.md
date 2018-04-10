@@ -13,8 +13,8 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8db67d30ba18e9f7dba14b93ddf7b4de6e2b6444
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e6310e9789e8a0f2ceaed44f1209cdcf425ef1e
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -49,12 +49,12 @@ ms.lasthandoff: 03/22/2018
 9. Ripetere i passaggi precedenti per aggiungere altri dati [!INCLUDE[d365fin](includes/d365fin_md.md)] per il modello dati Power BI.
 
    > [!NOTE]  
->    Una volta stabilita la connessione a [!INCLUDE[d365fin](includes/d365fin_md.md)], non verrà nuovamente richiesto l'URL OData, il nome utente o la password.
+   >    Una volta stabilita la connessione a [!INCLUDE[d365fin](includes/d365fin_md.md)], non verrà nuovamente richiesto l'URL OData, il nome utente o la password.
 
 A questo punto, è stata stabilita correttamente la connessione ai dati di Business Central e si è pronti per iniziare a creare una PowerApp. Per ulteriori informazioni, vedere la [Documentazione di PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](upload-data.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanze](finance.md)  

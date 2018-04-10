@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="sell-products"></a>Vendere prodotti
@@ -33,6 +33,8 @@ Quando si consegnano i prodotti, nella quantità totale o parziale, si registra 
 
 Negli ambienti aziendali in cui il cliente deve pagare prima che vengano consegnati i prodotti, ad esempio nelle vendita al dettaglio, è necessario attendere la ricezione del pagamento prima di consegnare i prodotti. Nella maggior parte dei casi, i pagamenti in entrata vengono elaborati alcune settimane dopo la consegna collegando i pagamenti alle relative fatture di vendita non pagate registrate. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
+Negli ambienti aziendali dove il cliente paga immediatamente, ad esempio in contanti, via PayPal o carta di credito, è possibile selezionare il metodo pertinente nel campo **Codice metodo di pagamento** nella fattura di vendita. Il pagamento viene quindi registrato immediatamente nella fattura registrata. Per i servizi di pagamento, è anche necessario compilare il campo **Servizio di pagamento**. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
+
 È possibile rettificare o annullare facilmente una fattura di vendita registrata, risultante da un ordine di vendita, prima di pagarla. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md). Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita per stornare la vendita. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).
 
 Gli articoli possono essere sia articoli di magazzino che servizi di assistenza, in base ai tipi **Articolo - Magazzino** e **Articolo - Assistenza** nelle righe di vendita. Il processo dell'ordine di vendita è lo stesso per entrambi i tipi di articoli. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
@@ -40,7 +42,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 È possibile compilare i campi cliente nell'ordine di vendita in due modi a seconda che il cliente sia già registrato o meno. Vedere i passaggi 2 e 3 della procedura riportata di seguito.
 
 ## <a name="to-create-a-sales-order"></a>Per creare un ordine di vendita
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato. 
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato.
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
     Altri campi nella finestra **Ordine di vendita** vengono compilati con le informazioni standard del cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
@@ -87,7 +89,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 18. Nel campo **Nr.** selezionare un record per effettuare la registrazione in base al valore nel campo **Tipo**.
 
     Lasciare il campo **Nr.** vuoto nei seguenti casi: - se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
-    - Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
+        - Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
 
 19. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 

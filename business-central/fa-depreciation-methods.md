@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Esistono otto metodi di ammortamento:
 * Manuale  
 
   > [!NOTE]  
->   È possibile utilizzare questo metodo per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano questo metodo di ammortamento.  
+  >   È possibile utilizzare questo metodo per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano questo metodo di ammortamento.  
 * Convenzione semestrale  
 
   > [!NOTE]  
->    Utilizzando questo metodo nei cespiti, ogni anno viene ammortizzato lo stesso importo.  
+  >    Utilizzando questo metodo nei cespiti, ogni anno viene ammortizzato lo stesso importo.  
 
 ## <a name="straight-line-depreciation"></a>Ammortamento a quote costanti
 Se si utilizza il metodo a quote costanti occorre indicare nel registro beni ammortizzabili cespiti una delle seguenti opzioni:  
@@ -355,6 +355,6 @@ Immettendo un movimento in B1 nella registrazione C/G cespiti ed inserendo un se
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Per ulteriori informazioni, vedere [Utilizzo di Designer](https://docs.microsoft
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce strumenti utilizzabili per implementare componenti aggiuntivi e integrare funzionalità allo scopo di aggiungere nuove esperienze end-to-end specifiche del settore o di integrare soluzioni di terze parti. Ad esempio, è possibile utilizzare un'API per creare un app allo scopo di scambiare dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] l'app per le retribuzioni. Le app di connessione*** possono inoltre utilizzare estensioni per creare pagine da utilizzare per setup, configurazione o per supportare le funzionalità specifiche delle app. Per ulteriori informazioni, vedere [Sviluppo di app per [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

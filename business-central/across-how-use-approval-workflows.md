@@ -12,8 +12,8 @@ ms.search.keywords: reject, delegate, request
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bcceb5356352d43d95c4546a1e32fbbc9a9250b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ I workflow di approvazione vengono impostati della finestra finestra **Workflow*
 
 Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
 
-I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per il setup assistito. Per ulteriori informazioni, vedere [Introduzione](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Per richiedere l'approvazione di un record
 La seguente attività viene eseguita da un utente approvazione.

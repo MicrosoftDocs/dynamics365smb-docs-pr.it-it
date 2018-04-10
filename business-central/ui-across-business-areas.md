@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 
 | A | Vedere |
 | --- | --- |
+|Visualizzare documenti in corso di redazione, pubblicati o archiviati relativi alle righe di ordini di acquisto e vendita.|[Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)|
 | Comunicare rapidamente i contenuti di documenti aziendali ai partner aziendali, quali le informazioni di pagamento o i documenti di vendita ai clienti. |[Inviare documenti via e-mail](ui-how-send-documents-email.md) |
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Definire i testi estesi](ui-how-define-ext-text.md) |
 |Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definizione dei task degli utenti](across-user-tasks.md)|

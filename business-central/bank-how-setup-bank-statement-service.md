@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b40920eb3b93364a7d571b46d8657336aff556a
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -37,7 +37,7 @@ Dopo avere abilitato il servizio di feed bancari, è necessario collegare un con
 Quando il servizio di feed bancari è abilitato, è possibile impostare un conto corrente bancario per importare automaticamente nuovi estratti conto bancari nella finestra **Registrazione riconciliazione pagamenti** ogni di due ore. Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella finestra **Registrazione riconciliazione pagamenti** non verranno incluse. Per ulteriori informazioni, vedere la sezione "Per abilitare l'importazione automatica degli estratti conto bancari".
 
 > [!NOTE]  
->   Se si utilizza il setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+> Se si utilizza il setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Introduzione](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Per abilitare il servizio di feed bancari
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **C/C bancari**, quindi scegliere il collegamento correlato.
@@ -51,14 +51,14 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato**. Dopo alcuni istanti, si apre la finestra **Collegamento conto bancario**.
 
     > [!NOTE]  
->   Questa finestra mostra l'effettiva pagina Web del servizio Feed bancari di Envestnet Yodlee. La terminologia e la funzionalità della finestra potrebbero non corrispondere alle indicazioni fornite in questo argomento.  
+    > Questa finestra mostra l'effettiva pagina Web del servizio Feed bancari di Envestnet Yodlee. La terminologia e la funzionalità della finestra potrebbero non corrispondere alle indicazioni fornite in questo argomento.  
 3. Nella finestra **Collegamento conto bancario online** nel riquadro **Collegamento conto**, utilizzare la funzione di ricerca per trovare la banca presso cui si trovano uno o più conti correnti bancari online.
 4. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 5. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
 6. Il servizio di feed bancari prepara il collegamento del primo conto corrente bancario online della banca specificata a un nuovo conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
->   Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tali conti. Vedere i passaggi da 8 a 10.  
+    > Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tali conti. Vedere i passaggi da 8 a 10.  
 
     Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
 7. Scegliere il pulsante **OK**.
@@ -92,7 +92,7 @@ Nella finestra **Lista C/C bancari** è selezionata la casella di controllo **Co
 2. Selezionare la riga per un conto bancario collegato che si desidera scollegare dal relativo conto bancario online e quindi selezionare l'azione **Scollega conto bancario online**.
 
 > [!NOTE]  
->   Se si sceglie **Sì** nella finestra di dialogo di conferma, il collegamento al conto bancario online viene rimosso e i dettagli di accesso vengono cancellati. Per collegare il nuovo conto bancario al conto bancario online, è necessario collegarsi ancora alla banca. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
+> Se si sceglie **Sì** nella finestra di dialogo di conferma, il collegamento al conto bancario online viene rimosso e i dettagli di accesso vengono cancellati. Per collegare il nuovo conto bancario al conto bancario online, è necessario collegarsi ancora alla banca. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
 
 ## <a name="to-update-bank-account-linking"></a>Per aggiornare il collegamento del conto bancario
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **C/C bancari**, quindi scegliere il collegamento correlato.
@@ -106,13 +106,13 @@ Se esistono dei problemi per uno dei conti bancari collegati nella finestra **Li
 3. Nella finestra **Setup importazione automatica rendiconti bancari** nel campo **Numero di giorni inclusi** specificare il periodo per recuperare le nuove transazioni bancarie.
 
     > [!NOTE]  
->   Si consiglia di impostare il valore di 7 o più giorni.  
+    > Si consiglia di impostare il valore di 7 o più giorni.  
 4. Selezionare la casella **Abilitato**.  
 
 Ogni ora la finestra **Registrazione riconciliazione pagamenti** visualizzerà i nuovi pagamenti che vengono effettuati sul conto bancario online.
 
 > [!NOTE]  
->   Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella finestra **Registrazione riconciliazione pagamenti** non verranno incluse.
+> Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella finestra **Registrazione riconciliazione pagamenti** non verranno incluse.
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

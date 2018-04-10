@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità pe
 
 Dopo avere eseguito un setup assistito, viene contrassegnato come **Completato**. Per eseguire il setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
 
-## <a name="role-center-home-page"></a>Home page Gestione ruolo utente
-Nella home page Gestione ruolo utente è disponibile una panoramica dell'azienda. A sinistra è presente una barra di spostamento che consente di accedere rapidamente a clienti, fornitori, articoli e così via. Al centro si trovano i riquadri **Attività**. I riquadri **Attività** mostrano i dati correnti ed è possibile fare clic su di essi o toccarli per accedere al documento selezionato. È possibile impostare degli **Indicatori delle prestazioni chiave** (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi. È inoltre possibile creare una lista di **Clienti preferiti** nella home page Gestione ruolo utente per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
-Utilizzare le frecce per comprimere parte della pagina e per creare più spazio dove visualizzare i dati specifici. Nella parte superiore della home page Gestione ruolo utente si trovano tutte le azioni applicabili al contenuto corrente. Anche questa parte può essere compressa. È sufficiente fare clic o toccare all'interno dell'area compressa per visualizzarla di nuovo.
+## <a name="role-center"></a>Gestione ruolo utente
+Gestione ruolo utente offre una panoramica della propria attività. A sinistra è presente una barra di spostamento che consente di accedere rapidamente a clienti, fornitori, articoli e così via. Al centro si trovano i riquadri **Attività**. I riquadri **Attività** mostrano i dati correnti ed è possibile fare clic su di essi o toccarli per accedere al documento selezionato. È possibile impostare degli **Indicatori delle prestazioni chiave** (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi. È inoltre possibile creare una lista di **Clienti preferiti** in Gestione ruolo utente per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
+Utilizzare le frecce per comprimere parte della pagina e per creare più spazio dove visualizzare i dati specifici. Nella parte superiore di Gestione ruolo utente si trovano tutte le azioni applicabili al contenuto corrente. Anche questa parte può essere compressa. È sufficiente fare clic o toccare all'interno dell'area compressa per visualizzarla di nuovo.
 
 > [!TIP]  
-> È possibile ritornare alla home page Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
+> È possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
 
 ## <a name="company-information"></a>Informazioni società
 In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa finestra.    
@@ -63,7 +63,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni c
 Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Società** della pagina **Home** per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti.
 
 ## <a name="see-also"></a>Vedi anche
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
 

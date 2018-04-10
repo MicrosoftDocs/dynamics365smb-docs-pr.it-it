@@ -1,8 +1,6 @@
 ---
 title: Creare report di analisi| Documenti Microsoft
 description: Descrive come creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Un modello contiene un insieme di righe, che rappresentano le colonne di analisi
 4. Nella finestra **Colonne Analisi** compilare i campi per specificare le colonne da includere nel report analisi.  
 
     > [!NOTE]  
->   Per definire una colonna, è necessario compilare il campo **Codice tipo analisi** per tutti i tipi di colonna ad eccezione di **Formula**. La finestra **Tipi di analisi** consente di impostare i codici di tipo di analisi.  
-
-    **Nota**. Se si seleziona **Mov. articoli** nel campo **Tipo mov. contabile**, i valori effettivi verranno copiati dai movimenti contabili articoli. Se si seleziona **Movimenti budget articoli**, i valori previsti verranno copiati dal budget.  
+    >   Per definire una colonna, è necessario compilare il campo **Codice tipo analisi** per tutti i tipi di colonna ad eccezione di **Formula**. La finestra **Tipi di analisi** consente di impostare i codici di tipo di analisi.  
+    Inoltre, se si seleziona **Mov. articoli** nel campo **Tipo mov. contabile**, i valori effettivi verranno copiati dai movimenti contabili articoli. Se si seleziona **Movimenti budget articoli**, i valori previsti verranno copiati dal budget.  
 5.  Scegliere il pulsante **OK** per salvare le modifiche.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Per impostare modelli di righe di analisi  

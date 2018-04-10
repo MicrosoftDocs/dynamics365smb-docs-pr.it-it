@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: it-it
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 Nella finestra **Impostazioni personali** è possibile vedere e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Gestione ruolo utente
-Gestione ruolo utente rappresenta la home page, una pagina iniziale che è progettata per le esigenze del ruolo. La Gestione ruolo utente fornisce una panoramica dell'azienda e riflette informazioni, task e priorità del ruolo. 
+Gestione ruolo utente rappresenta la pagina iniziale ed è progettata per le esigenze del ruolo. La Gestione ruolo utente fornisce una panoramica dell'azienda e riflette informazioni, task e priorità del ruolo.
 
 Nella parte superiore della Gestione ruolo utente, è visualizzata una barra di spostamento che consente di accedere facilmente alle entità tipiche per il ruolo, ad esempio clienti, fornitori, articoli e così via.
 
@@ -41,7 +41,7 @@ Una società funziona da contenitore dei dati in [!INCLUDE[d365fin](includes/d36
 La società di default è detta CRONUS e contiene solo i dati di esempio.
 
 > [!TIP]  
->   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio nella home page Gestione ruolo utente), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
+>   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
 ## <a name="work-date"></a>Work Date
 La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
