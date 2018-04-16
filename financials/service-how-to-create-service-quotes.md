@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c736ad945453d0723581b9926e2dc50f7805a53f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-service-quotes"></a><span data-ttu-id="0afb3-104">Creare offerte di assistenza</span><span class="sxs-lookup"><span data-stu-id="0afb3-104">Create Service Quotes</span></span>
@@ -30,8 +30,8 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="0afb3-112">Nel campo **Nr.**</span><span class="sxs-lookup"><span data-stu-id="0afb3-112">In the **No.**</span></span> <span data-ttu-id="0afb3-113">immettere un numero per l'offerta di assistenza.</span><span class="sxs-lookup"><span data-stu-id="0afb3-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="0afb3-114">In alternativa, se è stata impostata una numerazione per le offerte di assistenza nella finestra **Setup gest. assist.**, per selezionare il successivo numero di offerta di assistenza disponibile, premere INVIO.</span><span class="sxs-lookup"><span data-stu-id="0afb3-114">Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.</span></span>  
 4. <span data-ttu-id="0afb3-115">Nel campo **Nr. cliente**</span><span class="sxs-lookup"><span data-stu-id="0afb3-115">In the **Customer No.**</span></span>  <span data-ttu-id="0afb3-116">selezionare il cliente appropriato dalla lista.</span><span class="sxs-lookup"><span data-stu-id="0afb3-116">field, select the relevant customer from the list.</span></span>  
 
-  > [!Note]  
-  >  <span data-ttu-id="0afb3-117">I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="0afb3-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="0afb3-118">Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza.</span><span class="sxs-lookup"><span data-stu-id="0afb3-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="0afb3-119">Compilare i campi appropriati e scegliere l'azione **Crea cliente**.</span><span class="sxs-lookup"><span data-stu-id="0afb3-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+   > [!Note]  
+   >  <span data-ttu-id="0afb3-117">I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="0afb3-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="0afb3-118">Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza.</span><span class="sxs-lookup"><span data-stu-id="0afb3-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="0afb3-119">Compilare i campi appropriati e scegliere l'azione **Crea cliente**.</span><span class="sxs-lookup"><span data-stu-id="0afb3-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
 5. <span data-ttu-id="0afb3-120">In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della finestra **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.</span><span class="sxs-lookup"><span data-stu-id="0afb3-120">Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
 6. <span data-ttu-id="0afb3-121">Compilare le righe di articolo in assistenza.</span><span class="sxs-lookup"><span data-stu-id="0afb3-121">Fill in the service item lines.</span></span>  

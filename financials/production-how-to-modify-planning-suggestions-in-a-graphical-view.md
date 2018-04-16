@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="0d922-104">Modificare i suggerimenti di pianificazione in una visualizzazione grafica</span><span class="sxs-lookup"><span data-stu-id="0d922-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="0d922-148">Per implementare le modifiche del piano di approvvigionamento, è necessario seguire i messaggi di azione risultanti dal prospetto di pianificazione oppure dalla richiesta di approvvigionamento.</span><span class="sxs-lookup"><span data-stu-id="0d922-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="0d922-149">Per ulteriori informazioni, vedere Pianificaz - Esegui mess. azione.</span><span class="sxs-lookup"><span data-stu-id="0d922-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="0d922-150">Simboli e icone nella Scheda dettaglio Sequenza temporale</span><span class="sxs-lookup"><span data-stu-id="0d922-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="0d922-151">Simbolo/Icona</span><span class="sxs-lookup"><span data-stu-id="0d922-151">Symbol/Icon</span></span>|<span data-ttu-id="0d922-152">Descrizione</span><span class="sxs-lookup"><span data-stu-id="0d922-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="0d922-153">Croce nera</span><span class="sxs-lookup"><span data-stu-id="0d922-153">Black cross</span></span>|<span data-ttu-id="0d922-154">Ordini (sia domanda che approvvigionamento).</span><span class="sxs-lookup"><span data-stu-id="0d922-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="0d922-155">- Non modificabile.</span><span class="sxs-lookup"><span data-stu-id="0d922-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="0d922-156">-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).</span><span class="sxs-lookup"><span data-stu-id="0d922-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ec586482ca074a11183a53faf7368ed357a21355
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-base-calendars"></a><span data-ttu-id="5c8ce-104">Impostare i calendari di base</span><span class="sxs-lookup"><span data-stu-id="5c8ce-104">Set Up Base Calendars</span></span>
@@ -106,12 +106,12 @@ ms.lasthandoff: 03/22/2018
 2.  <span data-ttu-id="5c8ce-178">Aprire la scheda **Cliente** per la quale assegnare un calendario di base.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-178">Open the **Customer** card for whom you will assign a base calendar.</span></span>  
 3.  <span data-ttu-id="5c8ce-179">Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-179">On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.</span></span>  
 
-> [!IMPORTANT]  
->  -   <span data-ttu-id="5c8ce-180">Se non si assegna un calendario di base a una società, tutte le date verranno calcolate come giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="5c8ce-181">Se non si specifica un'ubicazione nella riga di un ordine, tutte le date verranno calcolate come giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="5c8ce-182">Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - <span data-ttu-id="5c8ce-180">Se non si assegna un calendario di base a una società, tutte le date verranno calcolate come giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="5c8ce-181">Se non si specifica un'ubicazione nella riga di un ordine, tutte le date verranno calcolate come giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="5c8ce-182">Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
+> 
+> [!NOTE]
 >  <span data-ttu-id="5c8ce-183">Prima di creare voci di calendario personalizzate, è innanzitutto necessario assegnare un calendario di base alla società.</span><span class="sxs-lookup"><span data-stu-id="5c8ce-183">Before you can make customized calendar entries, you must first assign a base calendar to the company.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="5c8ce-184">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="5c8ce-184">See Also</span></span>

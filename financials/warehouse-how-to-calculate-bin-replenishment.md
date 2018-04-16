@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ea0fd5ad5d2289a20a3648acba9e073a984dab12
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a><span data-ttu-id="37162-103">Calcola rifornimento collocazione</span><span class="sxs-lookup"><span data-stu-id="37162-103">Calculate Bin Replenishment</span></span>
@@ -38,14 +38,14 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="37162-122">Al successivo calcolo per il rifornimento delle collocazioni, i suggerimenti precedentemente eliminati verranno ricreati, qualora risultino ancora validi.</span><span class="sxs-lookup"><span data-stu-id="37162-122">The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.</span></span>  
 
-> [!NOTE]  
+> [!NOTE]
 >  <span data-ttu-id="37162-123">Se per l'articolo vengono soddisfatte le seguenti condizioni:</span><span class="sxs-lookup"><span data-stu-id="37162-123">If the following conditions are met for an item:</span></span>  
->   
->  -   <span data-ttu-id="37162-124">L'articolo ha una data di scadenza</span><span class="sxs-lookup"><span data-stu-id="37162-124">The item has an expiration date, and</span></span>  
-> -   <span data-ttu-id="37162-125">Il campo **Prelievo in base a FEFO** della scheda ubicazione viene selezionato</span><span class="sxs-lookup"><span data-stu-id="37162-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
-> -   <span data-ttu-id="37162-126">Viene utilizzata la funzionalità **Calcola rifornimento collocazione**</span><span class="sxs-lookup"><span data-stu-id="37162-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
->   
->  <span data-ttu-id="37162-127">I campi **Dal codice zona** e **Dal codice collocazione** non saranno specificati, in quanto l'algoritmo per calcolare la posizione in cui spostare gli articoli viene attivato solo quando si utilizza la funzione **Crea movimento**.</span><span class="sxs-lookup"><span data-stu-id="37162-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
+> 
+> - <span data-ttu-id="37162-124">L'articolo ha una data di scadenza</span><span class="sxs-lookup"><span data-stu-id="37162-124">The item has an expiration date, and</span></span>  
+>   -   <span data-ttu-id="37162-125">Il campo **Prelievo in base a FEFO** della scheda ubicazione viene selezionato</span><span class="sxs-lookup"><span data-stu-id="37162-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
+>   -   <span data-ttu-id="37162-126">Viene utilizzata la funzionalità **Calcola rifornimento collocazione**</span><span class="sxs-lookup"><span data-stu-id="37162-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
+> 
+>   <span data-ttu-id="37162-127">I campi **Dal codice zona** e **Dal codice collocazione** non saranno specificati, in quanto l'algoritmo per calcolare la posizione in cui spostare gli articoli viene attivato solo quando si utilizza la funzione **Crea movimento**.</span><span class="sxs-lookup"><span data-stu-id="37162-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="37162-128">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="37162-128">See Also</span></span>  
 [<span data-ttu-id="37162-129">Gestione warehouse</span><span class="sxs-lookup"><span data-stu-id="37162-129">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  

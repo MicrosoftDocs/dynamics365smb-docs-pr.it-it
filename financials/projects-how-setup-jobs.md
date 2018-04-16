@@ -13,10 +13,10 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 534c52c5fa47f007f72839408cdfa6df204b6bdb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-jobs"></a><span data-ttu-id="7bed2-103">Imposta commesse</span><span class="sxs-lookup"><span data-stu-id="7bed2-103">Set Up Jobs</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-general-information-for-jobs"></a><span data-ttu-id="7bed2-106">Per impostare le informazioni generali relative alle commesse</span><span class="sxs-lookup"><span data-stu-id="7bed2-106">To set general information for jobs</span></span>
 1. <span data-ttu-id="7bed2-107">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="7bed2-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="7bed2-108">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="7bed2-108">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="7bed2-108">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="7bed2-108">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="7bed2-109">La casella di controllo **Applica collegamento utilizzo** è piuttosto complessa, quindi viene spiegata nella sezione che segue.</span><span class="sxs-lookup"><span data-stu-id="7bed2-109">The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fef3bcb251449a1968dc6fd277e7c8fc2187b47f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-intercompany"></a><span data-ttu-id="98d6c-103">Impostare la contabilità interaziendale</span><span class="sxs-lookup"><span data-stu-id="98d6c-103">Set Up Intercompany</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a><span data-ttu-id="98d6c-113">Per impostare le società per le transazioni intercompany</span><span class="sxs-lookup"><span data-stu-id="98d6c-113">To set up companies for intercompany transactions</span></span>
 1. <span data-ttu-id="98d6c-114">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="98d6c-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="98d6c-115">Nella finestra **Informazioni società**, compilare i campi **Codice partner IC**, **Tipo casella in arrivo Intercompany**</span><span class="sxs-lookup"><span data-stu-id="98d6c-115">In the **Company Information** window, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**.</span></span> <span data-ttu-id="98d6c-116">e **Dettagli casella in arrivo Intercompany**.</span><span class="sxs-lookup"><span data-stu-id="98d6c-116">and **Intercompany Inbox Details** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="98d6c-115">Nella finestra **Informazioni società**, compilare i campi **Codice partner IC**, **Tipo casella in arrivo Intercompany**</span><span class="sxs-lookup"><span data-stu-id="98d6c-115">In the **Company Information** window, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**.</span></span> <span data-ttu-id="98d6c-116">e **Dettagli casella in arrivo Intercompany**.</span><span class="sxs-lookup"><span data-stu-id="98d6c-116">and **Intercompany Inbox Details** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a><span data-ttu-id="98d6c-117">Per impostare i partner IC</span><span class="sxs-lookup"><span data-stu-id="98d6c-117">To set intercompany partners</span></span>
 1. <span data-ttu-id="98d6c-118">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Partner IC**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="98d6c-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Partners**, and then choose the related link.</span></span>

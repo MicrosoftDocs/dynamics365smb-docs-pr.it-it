@@ -13,14 +13,15 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 52ac51bc028b09f9dd38c1114312f1d613951cad
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a><span data-ttu-id="e7cd5-103">Acquistare articoli per una vendita</span><span class="sxs-lookup"><span data-stu-id="e7cd5-103">Purchase Items for a Sale</span></span>
 <span data-ttu-id="e7cd5-104">Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-104">From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale.</span></span> <span data-ttu-id="e7cd5-105">È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-105">You can use two different functions depending on the document type.</span></span>
+
 |<span data-ttu-id="e7cd5-106">Funzione</span><span class="sxs-lookup"><span data-stu-id="e7cd5-106">Function</span></span>|<span data-ttu-id="e7cd5-107">Description</span><span class="sxs-lookup"><span data-stu-id="e7cd5-107">Description</span></span>|
 |--------|-----------|
 |<span data-ttu-id="e7cd5-108">**Crea ordini di acquisto**</span><span class="sxs-lookup"><span data-stu-id="e7cd5-108">**Create Purchase Orders**</span></span>|<span data-ttu-id="e7cd5-109">Da un ordine di vendita, questa funzione crea un ordine di acquisto per ciascun fornitore di articoli nell'ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-109">From a sales order, this function creates a purchase order for each vendor of items on the sales order.</span></span> <span data-ttu-id="e7cd5-110">È possibile modificare la quantità di acquisto prima di creare gli ordini di acquisto.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-110">You can edit the purchase quantity before you create the purchase orders.</span></span> <span data-ttu-id="e7cd5-111">Vengono suggerite solo le quantità di vendita non disponibili.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-111">Only unavailable sales quantities are suggested.</span></span>
@@ -39,11 +40,11 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="e7cd5-124">Per effettuare un acquisto di una quantità diversa dalla quantità di vendita non disponibile, modificare il valore nel campo **Quantità da acquistare**.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-124">To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="e7cd5-125">È possibile modificare anche il campo **Quantità da acquistare** nelle righe inattive anche se rappresentano le quantità di vendita completamente disponibili.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-125">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
+   >   <span data-ttu-id="e7cd5-125">È possibile modificare anche il campo **Quantità da acquistare** nelle righe inattive anche se rappresentano le quantità di vendita completamente disponibili.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-125">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
 5. <span data-ttu-id="e7cd5-126">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-126">Choose the **OK** button.</span></span>
 
     <span data-ttu-id="e7cd5-127">Un ordine di acquisto viene creato per ciascun fornitore di articoli nell'ordine di vendita, inclusa qualsiasi modifica delle quantità effettuata nella finestra **Crea ordini di acquisto**.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-127">A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.</span></span>
-7. <span data-ttu-id="e7cd5-128">Continuare a elaborare l'ordine o gli ordini di acquisto, ad esempio, modificando o aggiungendo altre righe all'ordine di acquisto.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-128">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="e7cd5-129">Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="e7cd5-129">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+6. <span data-ttu-id="e7cd5-128">Continuare a elaborare l'ordine o gli ordini di acquisto, ad esempio, modificando o aggiungendo altre righe all'ordine di acquisto.</span><span class="sxs-lookup"><span data-stu-id="e7cd5-128">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="e7cd5-129">Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="e7cd5-129">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a><span data-ttu-id="e7cd5-130">Per creare una fattura di acquisto da un ordine o una fattura di vendita</span><span class="sxs-lookup"><span data-stu-id="e7cd5-130">To create a purchase invoice from a sales order or sales invoice</span></span>

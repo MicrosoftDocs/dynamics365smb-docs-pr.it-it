@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3852ca5399a932705216fe6089644838aa56d26b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a><span data-ttu-id="2ba9e-104">Stato ordine assistenza e stato riparazione</span><span class="sxs-lookup"><span data-stu-id="2ba9e-104">Service Order Status and Repair Status</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="2ba9e-110">lo stato dell'ordine di assistenza a cui è collegata ogni stato di riparazione;</span><span class="sxs-lookup"><span data-stu-id="2ba9e-110">The service order status that each repair status is linked to.</span></span> <span data-ttu-id="2ba9e-111">Per ulteriori informazioni, vedere Stato ordine assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-111">For more information, see Service Order Status.</span></span>  
 * <span data-ttu-id="2ba9e-112">il livello di priorità di ogni opzione dell'ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-112">The level of priority of each service order status option.</span></span> <span data-ttu-id="2ba9e-113">Per ulteriori informazioni, vedere Priorità.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-113">For more information, see Priority.</span></span>  
   
- <span data-ttu-id="2ba9e-114">Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato**.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
+  <span data-ttu-id="2ba9e-114">Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato**.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a><span data-ttu-id="2ba9e-115">Indicazione dello stato dell'ordine di assistenza per lo stato di riparazione</span><span class="sxs-lookup"><span data-stu-id="2ba9e-115">Specifying Service Order Status for Repair Status</span></span>  
 <span data-ttu-id="2ba9e-116">Ogni stato di riparazione è collegato a un particolare stato dell'ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-116">Each repair status is linked to a particular service order status.</span></span> <span data-ttu-id="2ba9e-117">Le opzioni dello stato dell'ordine di assistenza sono: **Non iniziato**, **In corso**, **In attesa** e **Completato**.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-117">The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**.</span></span> <span data-ttu-id="2ba9e-118">Le opzioni dello stato di riparazione sono: **Iniziale**, **In corso**, **Demandato**, **Parzialmente assistito**, **Offerta completata**, **In attesa del cliente**, **Pezzo di ricambio ordinato**, **Pezzo di ricambio ricevuto** e **Completato**.</span><span class="sxs-lookup"><span data-stu-id="2ba9e-118">The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.</span></span>  

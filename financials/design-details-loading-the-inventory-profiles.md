@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c588e4273fa9b23f9ace044a85f5132e12112916
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a><span data-ttu-id="dafae-103">Dettagli di progettazione: Carico dei profili di magazzino</span><span class="sxs-lookup"><span data-stu-id="dafae-103">Design Details: Loading the Inventory Profiles</span></span>
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="dafae-112">In genere, il sistema di pianificazione considera tutti gli ordini di approvvigionamento dopo la data di inizio della pianificazione come oggetti da modificare per soddisfare la domanda.</span><span class="sxs-lookup"><span data-stu-id="dafae-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span></span> <span data-ttu-id="dafae-113">Tuttavia, non appena una quantità viene registrata da un ordine di approvvigionamento, non può più essere modificata dal sistema di pianificazione.</span><span class="sxs-lookup"><span data-stu-id="dafae-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span></span> <span data-ttu-id="dafae-114">Di conseguenza, i seguenti ordini diversi non possono essere ripianificati:</span><span class="sxs-lookup"><span data-stu-id="dafae-114">Accordingly, the following different orders cannot be replanned:</span></span>  
 
--   <span data-ttu-id="dafae-115">Ordini di produzione rilasciati in cui è stato registrato il consumo o l'output.</span><span class="sxs-lookup"><span data-stu-id="dafae-115">Released production orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="dafae-115">Ordini di produzione rilasciati in cui è stato registrato il consumo o l'output.</span><span class="sxs-lookup"><span data-stu-id="dafae-115">Released production orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="dafae-116">Ordini di assemblaggio in cui è stato registrato il consumo o l'output.</span><span class="sxs-lookup"><span data-stu-id="dafae-116">Assembly orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="dafae-116">Ordini di assemblaggio in cui è stato registrato il consumo o l'output.</span><span class="sxs-lookup"><span data-stu-id="dafae-116">Assembly orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="dafae-117">Ordini di trasferimento in cui è stata registrata la spedizione.</span><span class="sxs-lookup"><span data-stu-id="dafae-117">Transfer orders where shipment has been posted.</span></span>  
+- <span data-ttu-id="dafae-117">Ordini di trasferimento in cui è stata registrata la spedizione.</span><span class="sxs-lookup"><span data-stu-id="dafae-117">Transfer orders where shipment has been posted.</span></span>  
 
--   <span data-ttu-id="dafae-118">Ordini di acquisto in cui il carico è stato registrato.</span><span class="sxs-lookup"><span data-stu-id="dafae-118">Purchase orders where receipt has been posted.</span></span>  
+- <span data-ttu-id="dafae-118">Ordini di acquisto in cui il carico è stato registrato.</span><span class="sxs-lookup"><span data-stu-id="dafae-118">Purchase orders where receipt has been posted.</span></span>  
 
- <span data-ttu-id="dafae-119">Oltre a caricare i tipi di approvvigionamento e di domanda, alcuni tipi vengono caricati con attenzione alle regole speciali e alle dipendenze descritte di seguito.</span><span class="sxs-lookup"><span data-stu-id="dafae-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
+  <span data-ttu-id="dafae-119">Oltre a caricare i tipi di approvvigionamento e di domanda, alcuni tipi vengono caricati con attenzione alle regole speciali e alle dipendenze descritte di seguito.</span><span class="sxs-lookup"><span data-stu-id="dafae-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
 
 ## <a name="item-dimensions-are-separated"></a><span data-ttu-id="dafae-120">Le dimensioni articolo sono separate</span><span class="sxs-lookup"><span data-stu-id="dafae-120">Item Dimensions are Separated</span></span>  
  <span data-ttu-id="dafae-121">Il piano di approvvigionamento deve essere calcolato in base alla combinazione delle dimensioni dell'articolo, ad esempio la variante e l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="dafae-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span></span> <span data-ttu-id="dafae-122">Tuttavia, non esiste motivo per calcolare una combinazione teorica.</span><span class="sxs-lookup"><span data-stu-id="dafae-122">However, there is no reason to calculate any theoretical combination.</span></span> <span data-ttu-id="dafae-123">Solo le combinazioni che includono la necessità di approvvigionamento e/o di domanda devono essere calcolate.</span><span class="sxs-lookup"><span data-stu-id="dafae-123">Only those combinations that carry a demand and/or supply need to be calculated.</span></span>  

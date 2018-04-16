@@ -13,10 +13,10 @@ ms.search.keywords: move, warehouse
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 8ee703865f86c0edcc5bff77d8bd04cc2bd107be
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f13da8ac565e0af7f4ab612ebd23c9cee158dbb9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-inventory-between-locations"></a><span data-ttu-id="67cca-103">Trasferire il magazzino tra le ubicazioni</span><span class="sxs-lookup"><span data-stu-id="67cca-103">Transfer Inventory Between Locations</span></span>
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a><span data-ttu-id="67cca-116">Per trasferire gli articoli con un ordine di trasferimento</span><span class="sxs-lookup"><span data-stu-id="67cca-116">To transfer items with a transfer order</span></span>
 1. <span data-ttu-id="67cca-117">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di trasferimento**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="67cca-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.</span></span>
-2. <span data-ttu-id="67cca-118">Nella finestra **Ordine di trasferimento** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="67cca-118">In the **Transfer Order** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="67cca-118">Nella finestra **Ordine di trasferimento** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="67cca-118">In the **Transfer Order** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   <span data-ttu-id="67cca-119">Se i campi **Codice in transito**, **Cod. spedizioniere** e **Servizi spedizioniere** nella finestra **Specifica percorso trasf.** sono stati compilati al momento dell'impostazione del percorso di trasferimento, i dati verranno immessi automaticamente nei campi corrispondenti dell'ordine di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="67cca-119">If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.</span></span>
+   >   <span data-ttu-id="67cca-119">Se i campi **Codice in transito**, **Cod. spedizioniere** e **Servizi spedizioniere** nella finestra **Specifica percorso trasf.** sono stati compilati al momento dell'impostazione del percorso di trasferimento, i dati verranno immessi automaticamente nei campi corrispondenti dell'ordine di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="67cca-119">If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.</span></span>
 
     <span data-ttu-id="67cca-120">Se si compila il campo **Servizio spedizioniere**, il programma calcola la data di ricezione nell'ubicazione di trasferimento sommando il tempo di spedizione del servizio spedizioniere alla data di spedizione.</span><span class="sxs-lookup"><span data-stu-id="67cca-120">When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.</span></span>
 
@@ -50,11 +50,11 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a><span data-ttu-id="67cca-126">Per trasferire gli articoli con le registrazioni di riclassificazione articolo</span><span class="sxs-lookup"><span data-stu-id="67cca-126">To transfer items with the item reclassification journal</span></span>
 1. <span data-ttu-id="67cca-127">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni riclassificazioni articoli**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="67cca-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="67cca-128">Nella finestra **Batch reg. riclass. articoli** compilare i campi in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="67cca-128">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="67cca-128">Nella finestra **Batch reg. riclass. articoli** compilare i campi in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="67cca-128">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="67cca-129">Nel campo **Cod. ubicazione** immettere l'ubicazione in cui gli articoli si trovano attualmente.</span><span class="sxs-lookup"><span data-stu-id="67cca-129">In the **Location Code** field, enter the location where the items are currently stored.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="67cca-130">Per trasferire gli articoli che non presentano codice ubicazione, lasciare vuoto il campo **Codice ubicazione**.</span><span class="sxs-lookup"><span data-stu-id="67cca-130">To transfer items that have no location code, leave the **Location Code** field blank.</span></span>
+   >   <span data-ttu-id="67cca-130">Per trasferire gli articoli che non presentano codice ubicazione, lasciare vuoto il campo **Codice ubicazione**.</span><span class="sxs-lookup"><span data-stu-id="67cca-130">To transfer items that have no location code, leave the **Location Code** field blank.</span></span>
 4. <span data-ttu-id="67cca-131">Nel campo **Nuovo codice ubicazione** immettere l'ubicazione verso cui si intende trasferire gli articoli.</span><span class="sxs-lookup"><span data-stu-id="67cca-131">In the **New Location Code** field, enter the location that you want to transfer the items to.</span></span>
 5. <span data-ttu-id="67cca-132">Scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="67cca-132">Choose the **Post** action.</span></span>
 

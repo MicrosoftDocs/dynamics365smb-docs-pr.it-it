@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8c506afa1f476de9413e2cf422991710dd981b0d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 8593eb5e4986a99176efb70652c754460387f185
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="post-scrap-manually"></a><span data-ttu-id="bf56e-104">Registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="bf56e-104">Post Scrap Manually</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-post-scrap-manually"></a><span data-ttu-id="bf56e-107">Per registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="bf56e-107">To post scrap manually</span></span>  
 1. <span data-ttu-id="bf56e-108">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni output**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="bf56e-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="bf56e-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="bf56e-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="bf56e-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="bf56e-109">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="bf56e-110">Immettere la quantità di scarto nel campo **Quantità Scartata**.</span><span class="sxs-lookup"><span data-stu-id="bf56e-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
 4. <span data-ttu-id="bf56e-111">Immettere il codice di scarto nel campo **Codice scarto**.</span><span class="sxs-lookup"><span data-stu-id="bf56e-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
 5. <span data-ttu-id="bf56e-112">Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.</span><span class="sxs-lookup"><span data-stu-id="bf56e-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  

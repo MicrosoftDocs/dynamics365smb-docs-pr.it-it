@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 000785b2d3592f600be5c231f088431ba2769b18
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="62762-103">Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali</span><span class="sxs-lookup"><span data-stu-id="62762-103">Use Item Charges to Account for Additional Trade Costs</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="62762-123">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Addebiti articoli**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="62762-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.</span></span>
 2. <span data-ttu-id="62762-124">Scegliere l'azione **Nuovo** nella finestra **Addebiti articoli** per creare una nuova riga.</span><span class="sxs-lookup"><span data-stu-id="62762-124">In the **Item Charges** window, choose the **New** action to create a new line.</span></span>
-3. <span data-ttu-id="62762-125">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="62762-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="62762-125">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="62762-125">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a><span data-ttu-id="62762-126">Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo</span><span class="sxs-lookup"><span data-stu-id="62762-126">To assign an item charge directly to the purchase invoice for the item</span></span>
 <span data-ttu-id="62762-127">Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.</span><span class="sxs-lookup"><span data-stu-id="62762-127">If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.</span></span>
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="62762-132">In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.</span><span class="sxs-lookup"><span data-stu-id="62762-132">On a new line, in the **Type** field, select **Charge (Item)**.</span></span>
 5. <span data-ttu-id="62762-133">Nel campo **Quantità** immettere il numero di unità dell'addebito articolo che sono state fatturate.</span><span class="sxs-lookup"><span data-stu-id="62762-133">In the **Quantity** field, enter the units of the item charge that you have been invoiced for.</span></span>
 6. <span data-ttu-id="62762-134">Nel campo **Costo Diretto Unitario** immettere l'importo dell'addebito articolo.</span><span class="sxs-lookup"><span data-stu-id="62762-134">In the **Direct Unit Cost** field, enter the amount of the item charge.</span></span>
-7. <span data-ttu-id="62762-135">Compilare i rimanenti campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="62762-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. <span data-ttu-id="62762-135">Compilare i rimanenti campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="62762-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="62762-136">Nei seguenti passaggi, verrà effettuata l'assegnazione effettiva.</span><span class="sxs-lookup"><span data-stu-id="62762-136">In the following steps, you will perform the actual assignment.</span></span> <span data-ttu-id="62762-137">Finché l'addebito articolo non è assegnato completamente, il valore nel campo **Qtà da assegnare** verrà visualizzato con carattere rosso.</span><span class="sxs-lookup"><span data-stu-id="62762-137">Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.</span></span>
 8. <span data-ttu-id="62762-138">Nella Scheda dettaglio **Righe** fare clic sull'azione **Assegnazione addebito articolo**.</span><span class="sxs-lookup"><span data-stu-id="62762-138">On the **Lines** tab, choose the **Item Charge Assignment** action.</span></span>

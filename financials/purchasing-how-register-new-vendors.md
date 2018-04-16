@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 2db5100b933c0c94a8fae15c33c2ba24aad2fcf9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-new-vendors"></a><span data-ttu-id="1120f-103">Registrare nuovi fornitori</span><span class="sxs-lookup"><span data-stu-id="1120f-103">Register New Vendors</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="1120f-117">Se esistono più modelli fornitore, verrà aperta una finestra nella quale sarà possibile selezionare un modello.</span><span class="sxs-lookup"><span data-stu-id="1120f-117">If more than one vendor template exists, then a window opens from which you can select a vendor template.</span></span> <span data-ttu-id="1120f-118">In questo caso, seguire i due passaggi successivi.</span><span class="sxs-lookup"><span data-stu-id="1120f-118">In that case, follow the next two steps.</span></span>
 3. <span data-ttu-id="1120f-119">Nella finestra **Selezionare un modello per un nuovo fornitore** scegliere il modello da utilizzare per la nuova scheda fornitore.</span><span class="sxs-lookup"><span data-stu-id="1120f-119">In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.</span></span>
 4. <span data-ttu-id="1120f-120">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="1120f-120">Choose the **OK** button.</span></span> <span data-ttu-id="1120f-121">Verrà visualizzata una nuova scheda fornitore con alcuni campi compilati con le informazioni del modello.</span><span class="sxs-lookup"><span data-stu-id="1120f-121">A new vendor card opens with some fields filled with information from the template.</span></span>
-5. <span data-ttu-id="1120f-122">Continuare a compilare o a modificare i campi della scheda fornitore in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="1120f-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. <span data-ttu-id="1120f-122">Continuare a compilare o a modificare i campi della scheda fornitore in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="1120f-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="1120f-123">Se non si è certi che verrà utilizzato l'indirizzo di fatturazione per tutte le fatture di un fornitore, non compilare il campo **Pagare a**.</span><span class="sxs-lookup"><span data-stu-id="1120f-123">If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field.</span></span> <span data-ttu-id="1120f-124">Al contrario, scegliere il numero del pagamento al fornitore dopo avere impostato un'offerta in acquisto, un ordine o la testata di una fattura.</span><span class="sxs-lookup"><span data-stu-id="1120f-124">Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a><span data-ttu-id="1120f-128">Per salvare la scheda fornitore come modello</span><span class="sxs-lookup"><span data-stu-id="1120f-128">To save the vendor card as a template</span></span>
 1. <span data-ttu-id="1120f-129">Nella finestra **Scheda fornitore** scegliere l'azione **Salva come modello**.</span><span class="sxs-lookup"><span data-stu-id="1120f-129">In the **Vendor Card** window, choose the **Save as Template** action.</span></span> <span data-ttu-id="1120f-130">Nella finestra **Modello fornitore** verrà visualizzata la scheda fornitore come modello.</span><span class="sxs-lookup"><span data-stu-id="1120f-130">The **Vendor Template** window opens showing the vendor card as a template.</span></span>
-2. <span data-ttu-id="1120f-131">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="1120f-131">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="1120f-131">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="1120f-131">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="1120f-132">Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**.</span><span class="sxs-lookup"><span data-stu-id="1120f-132">To reuse dimensions in templates, choose the **Dimensions** action.</span></span> <span data-ttu-id="1120f-133">Verrà visualizzata la finestra **Modelli dimensioni** nella quale saranno indicati tutti i codici per le dimensioni che sono impostati per il fornitore.</span><span class="sxs-lookup"><span data-stu-id="1120f-133">The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.</span></span>
 4. <span data-ttu-id="1120f-134">Modificare o immettere i codici di dimensione da collegare alle nuove schede fornitore create utilizzando la definizione.</span><span class="sxs-lookup"><span data-stu-id="1120f-134">Edit or enter dimension codes that will apply to new vendor cards created by using the template.</span></span>
 5. <span data-ttu-id="1120f-135">Una volta completato il nuovo modello fornitore, scegliere **OK**.</span><span class="sxs-lookup"><span data-stu-id="1120f-135">When you have completed the new vendor template, choose the **OK** button.</span></span>  

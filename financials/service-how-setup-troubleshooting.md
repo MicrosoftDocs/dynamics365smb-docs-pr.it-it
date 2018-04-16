@@ -13,10 +13,10 @@ ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5876bf5d959d106eefb9b0f765e42e74dd13ab07
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 14b7dddf1415e06df5e27f063447de633167b81f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a><span data-ttu-id="967e8-110">Per impostare le indicazioni di troubleshooting</span><span class="sxs-lookup"><span data-stu-id="967e8-110">To set up troubleshooting guidelines</span></span>
 1. <span data-ttu-id="967e8-111">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Troubleshooting**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="967e8-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Troubleshooting**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="967e8-112">Compilare i campi in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="967e8-112">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="967e8-112">Compilare i campi in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="967e8-112">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a><span data-ttu-id="967e8-113">Per assegnare le indicazioni di troubleshooting ai gruppi di articoli di assistenza, agli articoli o agli articoli di assistenza</span><span class="sxs-lookup"><span data-stu-id="967e8-113">To assign troubleshooting guidelines to items, service items, or service item groups</span></span>
 1. <span data-ttu-id="967e8-114">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli** o **Articoli in assistenza** o **Gruppo articoli in assistenza**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="967e8-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, **Service Items**, or **Service Item Groups**, and then choose the related link.</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 87285ffae204d57f337332f443988cf39a83e75a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-gl-budgets"></a><span data-ttu-id="175cc-103">Creare budget C/G</span><span class="sxs-lookup"><span data-stu-id="175cc-103">Create G/L Budgets</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-create-a-new-gl-budget"></a><span data-ttu-id="175cc-118">Per creare un nuovo budget C/G</span><span class="sxs-lookup"><span data-stu-id="175cc-118">To create a new G/L budget</span></span>  
 1. <span data-ttu-id="175cc-119">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Budget C/G**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="175cc-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="175cc-120">Scegliere l'azione **Modifica lista** e compilare i campi necessari.</span><span class="sxs-lookup"><span data-stu-id="175cc-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="175cc-120">Scegliere l'azione **Modifica lista** e compilare i campi necessari.</span><span class="sxs-lookup"><span data-stu-id="175cc-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="175cc-121">Scegliere l'azione **Modifica budget**.</span><span class="sxs-lookup"><span data-stu-id="175cc-121">Choose the **Edit Budget** action.</span></span>
 4. <span data-ttu-id="175cc-122">All'inizio della finestra **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.</span><span class="sxs-lookup"><span data-stu-id="175cc-122">At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.</span></span>  
 

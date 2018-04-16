@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: aa25b3b809b27160f1493408fc8f61f14b651b67
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a><span data-ttu-id="92f9d-103">Impostare le unità di stockkeeping</span><span class="sxs-lookup"><span data-stu-id="92f9d-103">Set Up Stockkeeping Units</span></span>
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a><span data-ttu-id="92f9d-108">Per impostare le unità di stockkeeping</span><span class="sxs-lookup"><span data-stu-id="92f9d-108">To set up a stockkeeping unit</span></span>  
 
-1.  <span data-ttu-id="92f9d-109">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Unità di stockkeeping**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="92f9d-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="92f9d-110">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="92f9d-110">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="92f9d-111">Compilare i campi della scheda.</span><span class="sxs-lookup"><span data-stu-id="92f9d-111">Fill in the fields on the card.</span></span> <span data-ttu-id="92f9d-112">I campi seguenti sono obbligatori: **Nr. articolo**, **Cod. ubicazione**e/o **Cod. variante**.</span><span class="sxs-lookup"><span data-stu-id="92f9d-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="92f9d-109">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Unità di stockkeeping**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="92f9d-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="92f9d-110">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="92f9d-110">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="92f9d-111">Compilare i campi della scheda.</span><span class="sxs-lookup"><span data-stu-id="92f9d-111">Fill in the fields on the card.</span></span> <span data-ttu-id="92f9d-112">I campi seguenti sono obbligatori: **Nr. articolo**, **Cod. ubicazione**e/o **Cod. variante**.</span><span class="sxs-lookup"><span data-stu-id="92f9d-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 <span data-ttu-id="92f9d-113">Una volta impostata la prima unità di stockkeeping per un articolo, la casella di controllo **Unità di stockkeeping esisten.** nella scheda **Articolo** risulta selezionata.</span><span class="sxs-lookup"><span data-stu-id="92f9d-113">When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.</span></span>  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 64171b3dd3d165c6204594920a8c0e8a1f852c74
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a><span data-ttu-id="154ba-103">Combinare le spedizioni in una singola fattura</span><span class="sxs-lookup"><span data-stu-id="154ba-103">Combine Shipments on a Single Invoice</span></span>
@@ -31,17 +31,17 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="154ba-114">Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di spedizione**.</span><span class="sxs-lookup"><span data-stu-id="154ba-114">On the **Lines** FastTab, choose the **Get Shipment Lines** action.</span></span>  
 5. <span data-ttu-id="154ba-115">Selezionare le righe di spedizione che si desidera includere nella fattura:</span><span class="sxs-lookup"><span data-stu-id="154ba-115">Select the shipment line that you want to include in the invoice:</span></span>  
 
-    - <span data-ttu-id="154ba-116">Per inserire tutte le righe, selezionare tutte le righe, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
-    - <span data-ttu-id="154ba-117">Per inserire righe specifiche, selezionare le righe, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="154ba-118">È possibile utilizzare il tasto CTRL per selezionare più righe non consecutive.</span><span class="sxs-lookup"><span data-stu-id="154ba-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
+   - <span data-ttu-id="154ba-116">Per inserire tutte le righe, selezionare tutte le righe, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
+   - <span data-ttu-id="154ba-117">Per inserire righe specifiche, selezionare le righe, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="154ba-118">È possibile utilizzare il tasto CTRL per selezionare più righe non consecutive.</span><span class="sxs-lookup"><span data-stu-id="154ba-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
 
-    <span data-ttu-id="154ba-119">Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.</span><span class="sxs-lookup"><span data-stu-id="154ba-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
-7. <span data-ttu-id="154ba-120">Per registrare la fattura scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="154ba-120">To post the invoice, choose the **Post** action.</span></span>  
+     <span data-ttu-id="154ba-119">Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.</span><span class="sxs-lookup"><span data-stu-id="154ba-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
+6. <span data-ttu-id="154ba-120">Per registrare la fattura scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="154ba-120">To post the invoice, choose the **Post** action.</span></span>  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><span data-ttu-id="154ba-121">Per combinare automaticamente le spedizioni in una singola fattura</span><span class="sxs-lookup"><span data-stu-id="154ba-121">To automatically combine shipments on a single invoice</span></span>  
 1. <span data-ttu-id="154ba-122">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture cumulative**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="154ba-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Shipments**, and then choose the related link.</span></span> <span data-ttu-id="154ba-123">Viene visualizzata la finestra di richiesta del processo batch.</span><span class="sxs-lookup"><span data-stu-id="154ba-123">The batch job request window opens.</span></span>  
-2. <span data-ttu-id="154ba-124">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="154ba-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="154ba-124">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="154ba-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="154ba-125">Selezionare la casella di controllo **Registra fatture**.</span><span class="sxs-lookup"><span data-stu-id="154ba-125">Select the **Post Invoices** check box.</span></span>  
-4.  <span data-ttu-id="154ba-126">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-126">Choose the **OK** button.</span></span>  
+4. <span data-ttu-id="154ba-126">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="154ba-126">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
 >  <span data-ttu-id="154ba-127">Se la casella di controllo **Registra fatture** non è selezionata per il processo batch, sarà necessario registrare manualmente le fatture.</span><span class="sxs-lookup"><span data-stu-id="154ba-127">You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.</span></span>  

@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a6e8c6f24bd369e4d9a5e96894501d9a95711c00
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-nonstock-items"></a><span data-ttu-id="6916b-103">Utilizzare gli articoli non in stock</span><span class="sxs-lookup"><span data-stu-id="6916b-103">Work with Nonstock Items</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="6916b-116">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli non in stock**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="6916b-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
 2. <span data-ttu-id="6916b-117">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="6916b-117">Choose the **New** action.</span></span>
-3. <span data-ttu-id="6916b-118">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="6916b-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="6916b-118">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="6916b-118">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a><span data-ttu-id="6916b-119">Per impostare come i numeri articolo non in stock vengono convertiti nella numerazione dell'utente</span><span class="sxs-lookup"><span data-stu-id="6916b-119">To set up how nonstock item numbers are converted to your own numbering</span></span>
 <span data-ttu-id="6916b-120">Per abilitare la conversione di una scheda articolo non in stock in una scheda articolo normale, è necessario impostare la modalità con cui la numerazione articolo fornitore viene convertita nel formato di numerazione articolo dell'utente.</span><span class="sxs-lookup"><span data-stu-id="6916b-120">To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.</span></span>

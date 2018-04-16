@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ee8fe08f9c8e9d9e32052bc55539a0fa3e56e4d4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a><span data-ttu-id="ea471-103">Dettagli di progettazione: Disponibilità nella warehouse</span><span class="sxs-lookup"><span data-stu-id="ea471-103">Design Details: Availability in the Warehouse</span></span>
@@ -51,16 +51,16 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="ea471-128">Deve essere possibile impegnare tutti gli articoli in magazzino, tranne quelli per cui è stata avviata l'elaborazione in uscita.</span><span class="sxs-lookup"><span data-stu-id="ea471-128">It should be possible to reserve all items in inventory, except those that have started outbound processing.</span></span> <span data-ttu-id="ea471-129">Di conseguenza, la quantità disponibile per l'impegno è definita come quantità su tutti i documenti e in tutti i tipi di collocazione, ad eccezione delle seguenti quantità in uscita:</span><span class="sxs-lookup"><span data-stu-id="ea471-129">Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:</span></span>  
 
--   <span data-ttu-id="ea471-130">Quantità nei documenti di prelievo non registrati</span><span class="sxs-lookup"><span data-stu-id="ea471-130">Quantity on unregistered pick documents</span></span>  
--   <span data-ttu-id="ea471-131">Quantità in collocazioni di spedizione</span><span class="sxs-lookup"><span data-stu-id="ea471-131">Quantity in shipment bins</span></span>  
--   <span data-ttu-id="ea471-132">Quantità nelle collocazioni articoli per produzione</span><span class="sxs-lookup"><span data-stu-id="ea471-132">Quantity in to-production bins</span></span>  
--   <span data-ttu-id="ea471-133">Quantità nelle collocazioni produzione aperte</span><span class="sxs-lookup"><span data-stu-id="ea471-133">Quantity in open shop floor bins</span></span>  
--   <span data-ttu-id="ea471-134">Quantità nelle collocazioni di assemblaggio</span><span class="sxs-lookup"><span data-stu-id="ea471-134">Quantity in to-assembly bins</span></span>  
--   <span data-ttu-id="ea471-135">Quantità nelle collocazioni di rettifica</span><span class="sxs-lookup"><span data-stu-id="ea471-135">Quantity in adjustment bins</span></span>  
+- <span data-ttu-id="ea471-130">Quantità nei documenti di prelievo non registrati</span><span class="sxs-lookup"><span data-stu-id="ea471-130">Quantity on unregistered pick documents</span></span>  
+- <span data-ttu-id="ea471-131">Quantità in collocazioni di spedizione</span><span class="sxs-lookup"><span data-stu-id="ea471-131">Quantity in shipment bins</span></span>  
+- <span data-ttu-id="ea471-132">Quantità nelle collocazioni articoli per produzione</span><span class="sxs-lookup"><span data-stu-id="ea471-132">Quantity in to-production bins</span></span>  
+- <span data-ttu-id="ea471-133">Quantità nelle collocazioni produzione aperte</span><span class="sxs-lookup"><span data-stu-id="ea471-133">Quantity in open shop floor bins</span></span>  
+- <span data-ttu-id="ea471-134">Quantità nelle collocazioni di assemblaggio</span><span class="sxs-lookup"><span data-stu-id="ea471-134">Quantity in to-assembly bins</span></span>  
+- <span data-ttu-id="ea471-135">Quantità nelle collocazioni di rettifica</span><span class="sxs-lookup"><span data-stu-id="ea471-135">Quantity in adjustment bins</span></span>  
 
- <span data-ttu-id="ea471-136">Il risultato viene visualizzato nel campo **Quantità totale disponibile** della finestra **Impegni**.</span><span class="sxs-lookup"><span data-stu-id="ea471-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="ea471-136">Il risultato viene visualizzato nel campo **Quantità totale disponibile** della finestra **Impegni**.</span><span class="sxs-lookup"><span data-stu-id="ea471-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
 
- <span data-ttu-id="ea471-137">In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della finestra **Impegni**.</span><span class="sxs-lookup"><span data-stu-id="ea471-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="ea471-137">In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della finestra **Impegni**.</span><span class="sxs-lookup"><span data-stu-id="ea471-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a><span data-ttu-id="ea471-138">Calcolo della quantità disponibile da impegnare</span><span class="sxs-lookup"><span data-stu-id="ea471-138">Calculating the Quantity Available to Reserve</span></span>  
  <span data-ttu-id="ea471-139">La quantità disponibile da impegnare viene calcolata come segue:</span><span class="sxs-lookup"><span data-stu-id="ea471-139">The quantity available to reserve is calculated as follows:</span></span>  

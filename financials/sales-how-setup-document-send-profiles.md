@@ -13,10 +13,10 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 974e0567b1207eb3dd2204f1d90e9b65061cbc54
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f61203ba83b804257ba2cefad786534b83bb44f0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-document-sending-profiles"></a><span data-ttu-id="d22b2-103">Impostare profili di invio documenti</span><span class="sxs-lookup"><span data-stu-id="d22b2-103">Set Up Document Sending Profiles</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-a-document-sending-profile"></a><span data-ttu-id="d22b2-110">Per impostare un profilo di invio documenti</span><span class="sxs-lookup"><span data-stu-id="d22b2-110">To set up a document sending profile</span></span>
 1. <span data-ttu-id="d22b2-111">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Profili di invio documenti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="d22b2-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Document Sending Profiles**, and then choose the related link.</span></span>
 2. <span data-ttu-id="d22b2-112">Nella finestra **Profili di invio documenti** scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="d22b2-112">In the **Document Sending Profiles** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="d22b2-113">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="d22b2-113">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="d22b2-113">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="d22b2-113">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a><span data-ttu-id="d22b2-114">Per specificare un profilo di invio in una scheda cliente</span><span class="sxs-lookup"><span data-stu-id="d22b2-114">To specify a sending profile on a customer card</span></span>
 1. <span data-ttu-id="d22b2-115">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="d22b2-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>
