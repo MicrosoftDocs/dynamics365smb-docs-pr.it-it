@@ -30,7 +30,7 @@ Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile app
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Per immettere le impostazioni generali e obbligatorie
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup assistenza**, quindi scegliere il collegamento correlato.
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)  

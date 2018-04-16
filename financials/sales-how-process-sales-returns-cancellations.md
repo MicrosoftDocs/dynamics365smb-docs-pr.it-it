@@ -107,17 +107,17 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 
     Si verificheranno i processi seguenti:  
 
-    -   Per le righe del documento registrato di tipo **Articolo**, viene creata una nuova riga che rappresenta una copia della riga del documento registrato, con la quantità che non è ancora stata stornata. Il campo **Collega-da mov. art.** viene automaticamente compilato con il numero del movimento contabile articolo presente nella riga del documento registrata.  
+   - Per le righe del documento registrato di tipo **Articolo**, viene creata una nuova riga che rappresenta una copia della riga del documento registrato, con la quantità che non è ancora stata stornata. Il campo **Collega-da mov. art.** viene automaticamente compilato con il numero del movimento contabile articolo presente nella riga del documento registrata.  
 
-    -   Per le righe del documento registrato non di tipo **Articolo**, ad esempio addebiti articoli, viene creata una nuova riga che rappresenta una copia della riga del documento registrato originale.  
+   - Per le righe del documento registrato non di tipo **Articolo**, ad esempio addebiti articoli, viene creata una nuova riga che rappresenta una copia della riga del documento registrato originale.  
 
-    -   Viene calcolato il valore del campo **Costo unitario (VL)** nella nuova riga in base ai costi nei movimenti contabili articoli corrispondenti.  
+   - Viene calcolato il valore del campo **Costo unitario (VL)** nella nuova riga in base ai costi nei movimenti contabili articoli corrispondenti.  
 
-    -   Se il documento copiato è una spedizione registrata, un carico registrato, un carico da reso registrato o una spedizione di reso registrata, il prezzo unitario viene calcolato automaticamente in base alla scheda articolo.  
+   - Se il documento copiato è una spedizione registrata, un carico registrato, un carico da reso registrato o una spedizione di reso registrata, il prezzo unitario viene calcolato automaticamente in base alla scheda articolo.  
 
-    -   Se il documento copiato è una nota di credito o una fattura registrata, il prezzo unitario, gli sconti fattura e gli sconti riga vengono copiati dalla riga del documento registrato.  
+   - Se il documento copiato è una nota di credito o una fattura registrata, il prezzo unitario, gli sconti fattura e gli sconti riga vengono copiati dalla riga del documento registrato.  
 
-    -   Se la riga del documento registrato include righe di tracciabilità articolo, il campo **Collega-da mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
+   - Se la riga del documento registrato include righe di tracciabilità articolo, il campo **Collega-da mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
      Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella finestra **Setup contabilità clienti e vendite** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 

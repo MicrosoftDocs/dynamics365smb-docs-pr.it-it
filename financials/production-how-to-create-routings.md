@@ -32,26 +32,26 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Per creare un ciclo  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli**, quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Nel campo **Tipo** selezionare **Seriale** per calcolare il ciclo di produzione in base al valore del campo **Nr. operazione** .   
-    Selezionare **Parallelo** per calcolare le operazioni in base al valore nel campo **Nr. operazione successivo** .  
-5.  Per modificare il ciclo, impostare il campo **Stato** su **Nuovo** o **In sviluppo**. Per attivarlo, impostare lo **Stato** su **Certificato**.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Nel campo **Tipo** selezionare **Seriale** per calcolare il ciclo di produzione in base al valore del campo **Nr. operazione** .   
+   Selezionare **Parallelo** per calcolare le operazioni in base al valore nel campo **Nr. operazione successivo** .  
+5. Per modificare il ciclo, impostare il campo **Stato** su **Nuovo** o **In sviluppo**. Per attivarlo, impostare lo **Stato** su **Certificato**.  
 
-    Riempire le righe del ciclo.
-6.  Nel campo **Nr. operazione** immettere il numero della prima operazione, ad esempio **10**.  
-7.  Specificare nel campo **Tipo** il tipo di risorsa utilizzata, ad esempio **Area di produzione**.  
-8.  Nel campo **Nr.** selezionare la risorsa da utilizzare oppure immetterla nel campo.  
-9.  Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere la sezione "Per creare collegamenti ciclo".
-10.  Nei campi **Tempo Lavorazione** e **Tempo di Setup** specificare i tempi di processo necessari per l'esecuzione dell'operazione.  
+   Riempire le righe del ciclo.
+6. Nel campo **Nr. operazione** immettere il numero della prima operazione, ad esempio **10**.  
+7. Specificare nel campo **Tipo** il tipo di risorsa utilizzata, ad esempio **Area di produzione**.  
+8. Nel campo **Nr.** selezionare la risorsa da utilizzare oppure immetterla nel campo.  
+9. Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere la sezione "Per creare collegamenti ciclo".
+10. Nei campi **Tempo Lavorazione** e **Tempo di Setup** specificare i tempi di processo necessari per l'esecuzione dell'operazione.  
 
     > [!NOTE]  
     >  il tempo di setup viene calcolato per ordine di produzione, mentre il tempo di lavorazione viene calcolato per articolo prodotto.  
 
-11.  Nel campo **Capacità simultanee** , specificare il numero di unità della risorsa selezionata da utilizzare per eseguire l'operazione. Ad esempio, se si assegnano due persone a un'operazione di imballaggio si dimezzerà il tempo di lavorazione.  
-12.  Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
-13.  Per copiare righe da un ciclo esistente, scegliere l'azione **Copia ciclo** per selezionarle.  
+11. Nel campo **Capacità simultanee** , specificare il numero di unità della risorsa selezionata da utilizzare per eseguire l'operazione. Ad esempio, se si assegnano due persone a un'operazione di imballaggio si dimezzerà il tempo di lavorazione.  
+12. Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
+13. Per copiare righe da un ciclo esistente, scegliere l'azione **Copia ciclo** per selezionarle.  
 14. Certificare il ciclo.  
 15. È ora possibile allegare il nuovo ciclo alla scheda dell'articolo padre desiderato, compilando il campo **Nr. ciclo**. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 

@@ -72,7 +72,7 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga or
 
 > [!NOTE]
 > Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere spedita dal magazzino, vengono create due righe spedizione warehouse. Una riga corrisponde alla quantità da assemblare su ordine, mentre l'altra corrisponde alla quantità di magazzino.
-
+> 
 > In questo caso, la quantità da assemblare su ordine viene gestita come descritto in questo argomento, mentre la quantità di magazzino viene gestita come qualsiasi altra normale riga spedizione warehouse. Per altre informazioni sugli scenari di combinazione, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Vedi anche  

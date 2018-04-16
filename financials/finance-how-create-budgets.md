@@ -32,7 +32,7 @@ Nella contabilità industriale si utilizzano i budget costi in modo simile. Per 
 
 ## <a name="to-create-a-new-gl-budget"></a>Per creare un nuovo budget C/G  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Budget C/G**, quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Modifica lista** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Scegliere l'azione **Modifica lista** e compilare i campi necessari. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Modifica budget**.
 4. All'inizio della finestra **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
 

@@ -106,12 +106,12 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  
 3.  Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
 
-> [!IMPORTANT]  
->  -   Se non si assegna un calendario di base a una società, tutte le date verranno calcolate come giorni lavorativi.  
-> -   Se non si specifica un'ubicazione nella riga di un ordine, tutte le date verranno calcolate come giorni lavorativi.  
-> -   Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Se non si assegna un calendario di base a una società, tutte le date verranno calcolate come giorni lavorativi.  
+>   -   Se non si specifica un'ubicazione nella riga di un ordine, tutte le date verranno calcolate come giorni lavorativi.  
+>   -   Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
+> 
+> [!NOTE]
 >  Prima di creare voci di calendario personalizzate, è innanzitutto necessario assegnare un calendario di base alla società.  
 
 ## <a name="see-also"></a>Vedi anche

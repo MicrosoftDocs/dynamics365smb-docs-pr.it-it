@@ -31,7 +31,7 @@ Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visi
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cespiti**, quindi scegliere il collegamento correlato.  
 2. Selezionare il cespite di cui registrare la manutenzione, quindi scegliere l'azione **Registrazioni manutenzione**.
-3. Nella finestra **Registrazioni manutenzione** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Nella finestra **Registrazioni manutenzione** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Per registrare i costi di manutenzione da Registrazioni Cespiti in C/G
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Lista reg. reni ammortizz.**, quindi scegliere il collegamento correlato.  
@@ -43,7 +43,7 @@ Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visi
 7. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della manutenzione.
 
     > [!NOTE]  
->   Il passaggio 7 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite il campo **Conto manutenzione** contiene il conto di addebito contabilità generale e il campo **Conto saldo manutenzione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+   >   Il passaggio 7 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite il campo **Conto manutenzione** contiene il conto di addebito contabilità generale e il campo **Conto saldo manutenzione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 8. Scegliere l'azione **Registra**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Per pianificare le visite di assistenza relative ai cespiti

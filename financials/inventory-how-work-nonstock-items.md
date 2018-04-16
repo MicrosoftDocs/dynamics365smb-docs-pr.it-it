@@ -34,7 +34,7 @@ Nelle schede articolo non in stock sono presenti molte informazioni in meno risp
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli non in stock**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Per impostare come i numeri articolo non in stock vengono convertiti nella numerazione dell'utente
 Per abilitare la conversione di una scheda articolo non in stock in una scheda articolo normale, è necessario impostare la modalità con cui la numerazione articolo fornitore viene convertita nel formato di numerazione articolo dell'utente.

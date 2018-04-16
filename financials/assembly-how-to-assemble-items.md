@@ -43,29 +43,29 @@ Queste opzioni di setup sono impostazioni di default che gestiscono il modo in c
 In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli articoli che vengono assemblati per magazzino, ovvero senza un ordine di vendita collegato. I passaggi includono la creazione dell'ordine di assemblaggio, la gestione dei potenziali problemi di disponibilità dei componenti e la registrazione parziale dell'output dell'articolo di assemblaggio.
 
 ## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di assemblaggio**, quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la finestra **Nuovo ordine di assemblaggio**.  
-3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  
-5.  Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di assemblaggio**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**. Verrà visualizzata la finestra **Nuovo ordine di assemblaggio**.  
+3. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  
+5. Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
 
-    > [!NOTE]  
-    >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la finestra **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la finestra, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
+   > [!NOTE]  
+   >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la finestra **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la finestra, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
 
-    Le righe ordine di assemblaggio vengono compilate automaticamente con il contenuto della DB di assemblaggio e con le quantità delle righe in base alla testata ordine di assemblaggio.  
+   Le righe ordine di assemblaggio vengono compilate automaticamente con il contenuto della DB di assemblaggio e con le quantità delle righe in base alla testata ordine di assemblaggio.  
 
-    > [!NOTE]  
-    >  Se la finestra **Disponibilità assemblaggio** è stata aperta al momento della compilazione della testata dell'ordine di assemblaggio, ogni riga dell'ordine di assemblaggio interessata contiene **Sì** nel campo **Avviso di disponibilità** con un collegamento alle informazioni dettagliate sulla disponibilità. Per ulteriori informazioni, vedere Controllo disponibilità. È possibile risolvere un problema di disponibilità dei componenti rimandando la data di inizio, sostituendo il componente con un altro articolo o selezionando una sostituzione disponibile, se definita.  
+   > [!NOTE]  
+   >  Se la finestra **Disponibilità assemblaggio** è stata aperta al momento della compilazione della testata dell'ordine di assemblaggio, ogni riga dell'ordine di assemblaggio interessata contiene **Sì** nel campo **Avviso di disponibilità** con un collegamento alle informazioni dettagliate sulla disponibilità. Per ulteriori informazioni, vedere Controllo disponibilità. È possibile risolvere un problema di disponibilità dei componenti rimandando la data di inizio, sostituendo il componente con un altro articolo o selezionando una sostituzione disponibile, se definita.  
 
-6.  Nel campo **Quantità da assemblare** immettere il numero di unità dell'articolo di assemblaggio che si desidera registrare come output alla successiva registrazione dell'ordine di assemblaggio. Questa quantità può essere inferiore al valore nel campo **Quantità** per riflettere una registrazione di output parziale.  
+6. Nel campo **Quantità da assemblare** immettere il numero di unità dell'articolo di assemblaggio che si desidera registrare come output alla successiva registrazione dell'ordine di assemblaggio. Questa quantità può essere inferiore al valore nel campo **Quantità** per riflettere una registrazione di output parziale.  
 
-    > [!NOTE]  
-    >  Per garantire che la registrazione del consumo di componenti corrisponda alla registrazione di output dell'articolo di assemblaggio, i campi relativi alla quantità nelle righe dell'ordine di assemblaggio verranno rettificati automaticamente in base al valore immesso nel campo **Quantità da assemblare**.  
-7.  Nelle righe ordine di assemblaggio di tipo **Articolo** o **Risorsa**, nel campo **Quantità da consumare** immettere il numero di unità che si desidera registrare come consumate alla successiva registrazione dell'ordine di assemblaggio. Per default, viene inserita la quantità prevista da consumare in base alla DB di assemblaggio e alla quantità della testata ordine di assemblaggio, ma è possibile aumentarla o ridurla, ad esempio per riflettere un sovraconsumo di componenti o l'utilizzo di risorse extra.  
-8.  Quando si è pronti per registrare parzialmente o completamente, scegliere l'azione **Registra**.  
+   > [!NOTE]  
+   >  Per garantire che la registrazione del consumo di componenti corrisponda alla registrazione di output dell'articolo di assemblaggio, i campi relativi alla quantità nelle righe dell'ordine di assemblaggio verranno rettificati automaticamente in base al valore immesso nel campo **Quantità da assemblare**.  
+7. Nelle righe ordine di assemblaggio di tipo **Articolo** o **Risorsa**, nel campo **Quantità da consumare** immettere il numero di unità che si desidera registrare come consumate alla successiva registrazione dell'ordine di assemblaggio. Per default, viene inserita la quantità prevista da consumare in base alla DB di assemblaggio e alla quantità della testata ordine di assemblaggio, ma è possibile aumentarla o ridurla, ad esempio per riflettere un sovraconsumo di componenti o l'utilizzo di risorse extra.  
+8. Quando si è pronti per registrare parzialmente o completamente, scegliere l'azione **Registra**.  
 
-    > [!NOTE]  
-    >  Se gli avvisi sono ancora presenti in una qualsiasi delle righe ordini di assemblaggio, la registrazione viene bloccata. Viene visualizzato un messaggio sul componente o sui componenti non presenti in magazzino.  
+   > [!NOTE]  
+   >  Se gli avvisi sono ancora presenti in una qualsiasi delle righe ordini di assemblaggio, la registrazione viene bloccata. Viene visualizzato un messaggio sul componente o sui componenti non presenti in magazzino.  
 
 Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 

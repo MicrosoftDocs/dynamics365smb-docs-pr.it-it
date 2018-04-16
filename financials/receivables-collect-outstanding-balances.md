@@ -47,7 +47,7 @@ Dopo avere creato le note di addebito interessi e apportato le modifiche necessa
 
 ## <a name="to-send-the-customer-statement-report"></a>Per inviare il report estratto conto cliente
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Rendiconto cliente**, quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In **Opzioni output** selezionare una modalità di invio del report al cliente.
 
 > [!NOTE]  

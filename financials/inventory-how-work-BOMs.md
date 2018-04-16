@@ -52,7 +52,7 @@ Esistono due passaggi per creare una DB di assemblaggio:
 
     Continuare a inserire componenti o risorse nella distinta base di assemblaggio.  
 2. Nella finestra **Scheda articolo** per un articolo di assemblaggio, scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
-3. Nella finestra **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti di un articolo di assemblaggio con indentazione in base alla struttura DB
 Nella finestra **DB assemblaggio**, è possibile aprire una finestra distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.

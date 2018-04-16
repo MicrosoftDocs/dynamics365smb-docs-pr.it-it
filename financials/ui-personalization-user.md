@@ -39,29 +39,29 @@ A seconda del tipo di pagina e del contenuto, è possibile:
 
     ![Modalità di personalizzazione](media/ui_personalize_mode_small.png "Modalità di personalizzazione")
 
-2.  Andare alla pagina da personalizzare.
+2. Andare alla pagina da personalizzare.
 
-    Se è visualizzata un'icona di blocco sul banner, per ulteriori informazioni vedere [Perché la pagina è bloccata](ui-personalization-locked.md).
+   Se è visualizzata un'icona di blocco sul banner, per ulteriori informazioni vedere [Perché la pagina è bloccata](ui-personalization-locked.md).
 
-3.  Specificare un'area che si desidera personalizzare, ad esempio un'intestazione di colonna o campo in un elenco. Tutti gli elementi che è possibile personalizzare vengono immediatamente evidenziati con una freccia o un bordo.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Specificare un'area che si desidera personalizzare, ad esempio un'intestazione di colonna o campo in un elenco. Tutti gli elementi che è possibile personalizzare vengono immediatamente evidenziati con una freccia o un bordo.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Utilizzare questa tabella per agevolare le modifiche:     <table>
-        <tr><th>Operazione da eseguire</td><th>Procedura</th></tr>
-        <tr><td>Spostare valori, come un campo, una colonna dell'elenco, un riquadro o una parte</td><td> Fare clic in un punto qualsiasi dell'elemento che si desidera spostare e trascinarlo nella nuova posizione. La posizione è indicata da una spessa linea orizzontale o verticale.</td></tr>
-        <tr><td>Rimuovere un elemento</td><td>Selezionare la freccia e scegliere <b>Rimuovi</b>. </td></tr>
-        <tr><td>Aggiungere un campo o una colonna</td><td>Nel banner <b>Personalizzazione</b> scegliere <b>Altro</b> quindi scegliere <b>Campo</b>.<br /></br>Si apre a destra il riquadro <b>Aggiungi campo a pagina</b>. Elenca i campi che possono essere aggiunti nella pagina. I campi contrassegnati come <b>posizionati</b> sono già nella pagina. I campi contrassegnati come <b>pronti</b> non sono già nella pagina.<br /></br>Per aggiungere un campo, trascinarlo dal riquadro alla posizione che si desidera. La posizione è indicata da una spessa linea orizzontale o verticale.</td></tr>
-        <tr><td>Modificare il riquadro di blocco di un elenco in un'altra colonna</td><td>Selezionare la freccia della colonna che si desidera come ultima colonna del riquadro di blocco, quindi scegliere <b>Imposta Blocca riquadro</b>.<br /><br/>Se si desidera impostare il riquadro di blocco di nuovo sulla posizione originale, selezionare la freccia per la colonna corrente del blocco e scegliere <b>Cancella Blocca riquadro</b>. Nota: non è possibile rimuovere il riquadro di blocco.</td></tr>
-      </table>
+4. Utilizzare questa tabella per agevolare le modifiche:     <table>
+       <tr><th>Operazione da eseguire</td><th>Procedura</th></tr>
+       <tr><td>Spostare valori, come un campo, una colonna dell'elenco, un riquadro o una parte</td><td> Fare clic in un punto qualsiasi dell'elemento che si desidera spostare e trascinarlo nella nuova posizione. La posizione è indicata da una spessa linea orizzontale o verticale.</td></tr>
+       <tr><td>Rimuovere un elemento</td><td>Selezionare la freccia e scegliere <b>Rimuovi</b>. </td></tr>
+       <tr><td>Aggiungere un campo o una colonna</td><td>Nel banner <b>Personalizzazione</b> scegliere <b>Altro</b> quindi scegliere <b>Campo</b>.<br /></br>Si apre a destra il riquadro <b>Aggiungi campo a pagina</b>. Elenca i campi che possono essere aggiunti nella pagina. I campi contrassegnati come <b>posizionati</b> sono già nella pagina. I campi contrassegnati come <b>pronti</b> non sono già nella pagina.<br /></br>Per aggiungere un campo, trascinarlo dal riquadro alla posizione che si desidera. La posizione è indicata da una spessa linea orizzontale o verticale.</td></tr>
+       <tr><td>Modificare il riquadro di blocco di un elenco in un'altra colonna</td><td>Selezionare la freccia della colonna che si desidera come ultima colonna del riquadro di blocco, quindi scegliere <b>Imposta Blocca riquadro</b>.<br /><br/>Se si desidera impostare il riquadro di blocco di nuovo sulla posizione originale, selezionare la freccia per la colonna corrente del blocco e scegliere <b>Cancella Blocca riquadro</b>. Nota: non è possibile rimuovere il riquadro di blocco.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Non è possibile apportare modifiche a un elenco se viene visualizzato come riquadro. È necessario innanzitutto passare alla vista elenco selezionando l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista").
+   > [!IMPORTANT]  
+   >   Non è possibile apportare modifiche a un elenco se viene visualizzato come riquadro. È necessario innanzitutto passare alla vista elenco selezionando l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista").
 
-5.  È possibile continuare a modificare la stessa pagina o passare a un'altra pagina. Le modifiche vengono salvate automaticamente mentre le si apporta. Al termine, nel banner **Personalizzazione**, scegliere **Chiudi**.
+5. È possibile continuare a modificare la stessa pagina o passare a un'altra pagina. Le modifiche vengono salvate automaticamente mentre le si apporta. Al termine, nel banner **Personalizzazione**, scegliere **Chiudi**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Annullare la personalizzazione per modificare una pagina e ripristinare il layout originale
 In alcuni casi, potrebbe essere necessario annullare tutte le modifiche di personalizzazione effettuate nel tempo in una pagina per tornare all'aspetto della pagina in origine. Per effettuare questa operazione, nel banner **Personalizzazione** scegliere **Altro** e quindi **Cancella personalizzazione**.

@@ -25,7 +25,7 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 ## <a name="to-set-up-a-standard-task"></a>Per impostare un task standard
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Task standard**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.
 5. Nella finestra visualizzata, descrivere il task standard in questione.
 

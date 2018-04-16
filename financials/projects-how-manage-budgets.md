@@ -30,7 +30,7 @@ Quando un cliente desidera conoscere il prezzo di una commessa che verrà fattur
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
 2. Aprire una commessa appropriata.
 3. Selezionare una riga di task di tipo Registrazione quindi scegliere l'azione **Righe pianificazione commessa**.
-4. In una nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. In una nuova riga, compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 Per il campo **Tipo riga** fare riferimento alle seguenti informazioni.  
 

@@ -33,7 +33,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fogli presenze**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Lista fogli presenze** scegliere l'azione **Crea fogli presenze**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   I campi **Usa foglio presenze** e **ID utente proprietario foglio presenze** devono essere compilati nella scheda della risorsa del foglio presenze.
@@ -77,16 +77,16 @@ La registrazione del foglio presenze avviene in ore, l'unità di misura base sta
 3. Compilare i campi su una riga in base alle esigenze. Immettere il numero di ore utilizzate dalla risorsa ogni giorno della settimana.
 
     > [!TIP]  
->   È possibile esaminare la somma delle ore del foglio presenze immessa nel Dettaglio informazioni **Riepilogo effettivo/previsto**.  
+   >   È possibile esaminare la somma delle ore del foglio presenze immessa nel Dettaglio informazioni **Riepilogo effettivo/previsto**.  
 4. Ripetere il passaggio 3 per altri tipi di lavoro eseguiti dalla risorsa.
 5. Scegliere l'azione **Invia**, quindi scegliere l'azione **Tutte le righe aperte** per inviare tutte le righe oppure l'azione **Solo le righe selezionate** per inviare solo le righe che sono selezionate nella finestra **Foglio presenze**.  
 
     > [!NOTE]  
->   È possibile inviare solo le righe del foglio presenze per le quali è stato specificato il tempo.  
+   >   È possibile inviare solo le righe del foglio presenze per le quali è stato specificato il tempo.  
 6. Per modificare le informazioni in una riga impostata sullo stato **Inviato**, selezionare la riga e scegliere l'azione **Riapri**.
 
     > [!NOTE]  
->   Un manager può rifiutare una riga del foglio presenze che è stata inviata per l'approvazione. Se una riga presenta lo stato **Rifiutato**, è possibile apportare modifiche alla riga e scegliere nuovamente **Invia**.  
+   >   Un manager può rifiutare una riga del foglio presenze che è stata inviata per l'approvazione. Se una riga presenta lo stato **Rifiutato**, è possibile apportare modifiche alla riga e scegliere nuovamente **Invia**.  
 7. Scegliere il pulsante **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Per approvare o rifiutare un foglio presenze
@@ -111,7 +111,7 @@ Una volta approvato o rifiutato, un foglio presenze non può essere modificato a
 2. Aprire un foglio presenze dall'elenco.  
 
     > [!NOTE]  
->   È possibile riaprire solo le righe con lo stato **Approvato**. Non è possibile riaprire le righe con lo stato **Rifiutato**. Non è possibile riaprire un foglio presenze se è stato registrato.  
+   >   È possibile riaprire solo le righe con lo stato **Approvato**. Non è possibile riaprire le righe con lo stato **Rifiutato**. Non è possibile riaprire un foglio presenze se è stato registrato.  
 3. Nella finestra **Foglio presenze** scegliere l'azione **Riapri**, quindi scegliere l'azione **Tutte le righe inviate** per riaprire tutte le righe oppure l'azione **Solo le righe selezionate** per riaprire solo le righe che sono state selezionate nella finestra **Foglio presenze**.
 4. Scegliere il pulsante **OK**. Lo stato della riga o delle righe del foglio presenze cambia in **Inviato**.  
 
@@ -134,7 +134,7 @@ Dopo avere approvato i movimenti del foglio presenze per una commessa è possibi
 4. Scegliere il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni commesse, dove sarà possibile modificare le informazioni in base alle esigenze.  
 
     > [!NOTE]  
->   Le informazioni sul tipo di lavoro e l'indicazione se il lavoro è addebitabile o meno vengono copiate dalla riga del foglio presenze. Se necessario, è possibile ridurre la quantità di ore ed effettuare una registrazione parziale. Se si riduce la quantità, alla successiva selezione dell'azione **Suggerisci righe da fogli presenze** la riga creata conterrà la quantità residua di ore.  
+   >   Le informazioni sul tipo di lavoro e l'indicazione se il lavoro è addebitabile o meno vengono copiate dalla riga del foglio presenze. Se necessario, è possibile ridurre la quantità di ore ed effettuare una registrazione parziale. Se si riduce la quantità, alla successiva selezione dell'azione **Suggerisci righe da fogli presenze** la riga creata conterrà la quantità residua di ore.  
 5. Scegliere l'azione **Registra**.  
 6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la finestra **Movimenti cont. commesse** nella quale verrà visualizzato il risultato della registrazione delle registrazioni commesse.
 

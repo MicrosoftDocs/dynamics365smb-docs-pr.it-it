@@ -26,7 +26,7 @@ Nelle singole schede commessa, è necessario impostare i prezzi per gli articoli
 
 ## <a name="to-set-general-information-for-jobs"></a>Per impostare le informazioni generali relative alle commesse
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   La casella di controllo **Applica collegamento utilizzo** è piuttosto complessa, quindi viene spiegata nella sezione che segue.

@@ -23,13 +23,13 @@ ms.lasthandoff: 03/22/2018
 Non è possibile creare una fattura senza un numero di cliente. Ciò si applica anche nel caso di una vendita in contanti, quando non ci sarebbe niente da registrare in un conto cliente.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Per impostare un cliente per vendite in contanti  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cliente**, quindi scegliere il collegamento correlato.  
-2.  Creare una nuova scheda **Cliente**. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
-3.  Nel campo **Nr.** immettere ad esempio **Incassi**.  
-4.  Nel campo **Nome** immettere ad esempio **Vendita in Contante**.  
-5.  Nella Scheda dettaglio **Fatturazione** compilare i campi **Cat. reg. cliente** e **Cat. reg. business**.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cliente**, quindi scegliere il collegamento correlato.  
+2. Creare una nuova scheda **Cliente**. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
+3. Nel campo **Nr.** immettere ad esempio **Incassi**.  
+4. Nel campo **Nome** immettere ad esempio **Vendita in Contante**.  
+5. Nella Scheda dettaglio **Fatturazione** compilare i campi **Cat. reg. cliente** e **Cat. reg. business**.  
 
- È stato così impostato un nuovo cliente con informazioni sufficienti per la fatturazione.  
+   È stato così impostato un nuovo cliente con informazioni sufficienti per la fatturazione.  
 
 > [!NOTE]  
 >  Può essere stata scelta una categoria di registrazione che viene utilizzata anche per le vendite a credito interne. Se si desidera mantenere separati i dati sulle vendite in contanti, ad esempio con un conto speciale di vendita o incassi, è possibile impostare per questo scopo una nuova categoria di registrazione.  

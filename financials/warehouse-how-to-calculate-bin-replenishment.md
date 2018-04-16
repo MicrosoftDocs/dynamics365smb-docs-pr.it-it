@@ -38,14 +38,14 @@ Infine, se per le collocazioni di immagazzinamento a massa è stato impostato un
 
 Al successivo calcolo per il rifornimento delle collocazioni, i suggerimenti precedentemente eliminati verranno ricreati, qualora risultino ancora validi.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Se per l'articolo vengono soddisfatte le seguenti condizioni:  
->   
->  -   L'articolo ha una data di scadenza  
-> -   Il campo **Prelievo in base a FEFO** della scheda ubicazione viene selezionato  
-> -   Viene utilizzata la funzionalità **Calcola rifornimento collocazione**  
->   
->  I campi **Dal codice zona** e **Dal codice collocazione** non saranno specificati, in quanto l'algoritmo per calcolare la posizione in cui spostare gli articoli viene attivato solo quando si utilizza la funzione **Crea movimento**.  
+> 
+> - L'articolo ha una data di scadenza  
+>   -   Il campo **Prelievo in base a FEFO** della scheda ubicazione viene selezionato  
+>   -   Viene utilizzata la funzionalità **Calcola rifornimento collocazione**  
+> 
+>   I campi **Dal codice zona** e **Dal codice collocazione** non saranno specificati, in quanto l'algoritmo per calcolare la posizione in cui spostare gli articoli viene attivato solo quando si utilizza la funzione **Crea movimento**.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

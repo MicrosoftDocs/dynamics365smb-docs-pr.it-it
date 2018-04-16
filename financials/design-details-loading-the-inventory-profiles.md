@@ -28,15 +28,15 @@ Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema 
 
  In genere, il sistema di pianificazione considera tutti gli ordini di approvvigionamento dopo la data di inizio della pianificazione come oggetti da modificare per soddisfare la domanda. Tuttavia, non appena una quantità viene registrata da un ordine di approvvigionamento, non può più essere modificata dal sistema di pianificazione. Di conseguenza, i seguenti ordini diversi non possono essere ripianificati:  
 
--   Ordini di produzione rilasciati in cui è stato registrato il consumo o l'output.  
+- Ordini di produzione rilasciati in cui è stato registrato il consumo o l'output.  
 
--   Ordini di assemblaggio in cui è stato registrato il consumo o l'output.  
+- Ordini di assemblaggio in cui è stato registrato il consumo o l'output.  
 
--   Ordini di trasferimento in cui è stata registrata la spedizione.  
+- Ordini di trasferimento in cui è stata registrata la spedizione.  
 
--   Ordini di acquisto in cui il carico è stato registrato.  
+- Ordini di acquisto in cui il carico è stato registrato.  
 
- Oltre a caricare i tipi di approvvigionamento e di domanda, alcuni tipi vengono caricati con attenzione alle regole speciali e alle dipendenze descritte di seguito.  
+  Oltre a caricare i tipi di approvvigionamento e di domanda, alcuni tipi vengono caricati con attenzione alle regole speciali e alle dipendenze descritte di seguito.  
 
 ## <a name="item-dimensions-are-separated"></a>Le dimensioni articolo sono separate  
  Il piano di approvvigionamento deve essere calcolato in base alla combinazione delle dimensioni dell'articolo, ad esempio la variante e l'ubicazione. Tuttavia, non esiste motivo per calcolare una combinazione teorica. Solo le combinazioni che includono la necessità di approvvigionamento e/o di domanda devono essere calcolate.  

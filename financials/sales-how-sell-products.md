@@ -55,7 +55,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Ordine di vendita**.
 
     Diversi campi nell'ordine di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.
-8. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     A questo punto compilare le righe dell'ordine di vendita con gli articoli di magazzino o i servizi che si desidera vendere al cliente.
 
@@ -64,7 +64,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 10. Nel campo **Quantità** immettere il numero di articoli da vendere.
 
     > [!NOTE]  
->   Per gli articoli di tipo Assistenza, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.
+    >   Per gli articoli di tipo Assistenza, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.
 
     Il campo **Importo riga** viene aggiornato al valore del campo **Prezzo unitario** moltiplicato per il valore del campo **Quantità**.
 
@@ -79,12 +79,12 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 14. Una nuova scheda cliente verrà visualizzata con le informazioni sul modello cliente selezionato. Compilare i campi rimanenti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
 15. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Ordine di vendita**.
 
-   Diversi campi nell'ordine di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
-16. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    Diversi campi nell'ordine di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
+16. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   È ora possibile compilare le righe dell'ordine di vendita per i prodotti che si vendono al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
+    È ora possibile compilare le righe dell'ordine di vendita per i prodotti che si vendono al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
 
-   Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
+    Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
 17. Nella Scheda dettaglio **Righe** nel campo **Tipo** selezionare il tipo di prodotto, addebito o transazione per cui si effettuerà la registrazione per il cliente con la riga di vendita.
 18. Nel campo **Nr.** selezionare un record per effettuare la registrazione in base al valore nel campo **Tipo**.
 
@@ -94,7 +94,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 19. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 
     > [!NOTE]  
->   Per gli articoli di tipo **Magazzino - Assistenza** o **Risorsa** la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Per ulteriori informazioni, vedere [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
+    >   Per gli articoli di tipo **Magazzino - Assistenza** o **Risorsa** la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Per ulteriori informazioni, vedere [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
 
     Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
 

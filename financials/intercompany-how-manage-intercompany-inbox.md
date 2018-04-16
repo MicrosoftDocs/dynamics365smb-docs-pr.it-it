@@ -69,7 +69,7 @@ Le transazioni intercompany inviate dai partner intercompany vengono inserite ne
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Casella transazioni in arrivo intercompany**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Casella transazioni in arrivo intercompany** selezionare una riga e scegliere un'azione, ad esempio **Accetta**, per elaborare la riga.
-3. Nella finestra **Az. casella in arr. IC completa** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Az. casella in arr. IC completa** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere il pulsante **OK**.  
 
 Per le righe elaborate con l'azione **Accetta**, verranno create righe di documento o di registrazione nella società. Aprire i singoli documenti o registrazioni, apportare le modifiche necessarie ed effettuare la registrazione.  

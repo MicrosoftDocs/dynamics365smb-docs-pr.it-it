@@ -24,7 +24,7 @@ Le impostazioni generali di magazzino vengono impostate nella finestra **Setup m
 
 ## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup magazzino**, quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella finestra **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
 

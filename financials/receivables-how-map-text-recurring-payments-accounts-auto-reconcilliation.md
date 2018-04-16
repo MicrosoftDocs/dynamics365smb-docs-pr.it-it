@@ -38,7 +38,7 @@ In una riga di registrazione riconciliazione pagamenti dove il pagamento è stat
 4. Nel campo **Mapping testo** immettere qualsiasi testo che appare nei pagamenti da registrare in specifici conti senza collegamento a un movimento aperto. È possibile immettere fino a 50 caratteri.
 
     > [!NOTE]  
->   Se nessun altro pagamento esiste con il testo di mappatura in questione, la mappatura da testo a conto si verifica anche quando solo una parte del testo nel pagamento esiste come testo di mappatura.
+   >   Se nessun altro pagamento esiste con il testo di mappatura in questione, la mappatura da testo a conto si verifica anche quando solo una parte del testo nel pagamento esiste come testo di mappatura.
 5. Nel campo **Nr. fornitore** immetti il fornitore per cui i pagamenti verranno registrati.
 6. Nel campo **Tipo di origine saldo** specificare se il pagamento viene registrato in un conto di contabilità generale o in un conto relativo a un cliente o un fornitore.
 7. Nel campo **Nr. origine saldo** specificare il conto in cui il pagamento viene registrato, a seconda della selezione del campo **Tipo di origine saldo**.
@@ -57,7 +57,7 @@ Per registrare sempre le spese in combustibile effettuate presso i distributori 
 | --- | --- | --- | --- | --- |
 | Shell |VUOTO |8510 |Conto C/G |VUOTO |
 
-> [!TIP]  
+> [!TIP]
 >   Per ulteriori informazioni sull'utilizzo dei campi e delle colonne, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Per ulteriori informazioni su come trovare pagine specifiche, vedere [Ricerca](ui-search.md).
 
 ## <a name="see-also"></a>Vedi anche

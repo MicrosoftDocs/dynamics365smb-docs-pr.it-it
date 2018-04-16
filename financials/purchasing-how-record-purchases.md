@@ -48,17 +48,17 @@ Gli articoli possono essere di tipo **Magazzino** o **Assistenza**. Per ulterior
 8. Una volta completata la scheda fornitore, fare clic su **OK** per tornare alla finestra **Fattura di acquisto**.
 
     Numerosi campi della finestra **Fattura di acquisto** vengono compilati con le informazioni specificate nella nuova scheda fornitore.
-9. Compilare i restanti campi della finestra **Fattura di acquisto** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. Compilare i restanti campi della finestra **Fattura di acquisto** in base alle proprie esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     A questo punto si è pronti a compilare le righe della fattura di acquisto con gli articoli di magazzino o i servizi acquistati presso il fornitore.
 
     > [!NOTE]  
->   Se sono state impostate righe di acquisto periodiche per il fornitore, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nella fattura scegliendo l'azione **Ottieni righe acquisto ricorrenti**.
+   >   Se sono state impostate righe di acquisto periodiche per il fornitore, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nella fattura scegliendo l'azione **Ottieni righe acquisto ricorrenti**.
 10. Nella Scheda dettaglio **Righe** del campo **Nr. articolo** immettere il numero di un articolo di magazzino o di un servizio.
 11. Nel campo **Quantità** immettere il numero di articoli da acquistare.
 
     > [!NOTE]  
->   Per gli articoli di tipo **Assistenza**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.
+    >   Per gli articoli di tipo **Assistenza**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.
 
     Il campo **Importo riga** viene aggiornato al valore del campo **Costo unitario diretto** moltiplicato per il valore del campo **Quantità**.
 
@@ -66,7 +66,7 @@ Gli articoli possono essere di tipo **Magazzino** o **Assistenza**. Per ulterior
 12. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.** nella parte inferiore della fattura.
 
     > [!NOTE]  
->   Se sono stati impostati degli sconti su fattura per il fornitore, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura fornitore** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fattura**.
+    >   Se sono stati impostati degli sconti su fattura per il fornitore, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura fornitore** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fattura**.
 13. Quando si ricevono l'assistenza o gli articoli acquistati, scegliere **Registra**.
 
 L'acquisto si riflette ora nel magazzino e nei record finanziari e il pagamento fornitore viene attivato. La fattura di acquisto viene rimossa dall'elenco delle fatture di acquisto e sostituita con un nuovo documento nell'elenco delle fatture di acquisto registrate.

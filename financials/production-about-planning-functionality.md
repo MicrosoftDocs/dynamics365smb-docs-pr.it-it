@@ -24,8 +24,8 @@ Il sistema di pianificazione considera tutti i dati relativi a domande e approvv
 
 Per informazioni dettagliate, vedere [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md).  
 
-> [!NOTE]  
-> Per tutti i campi citati in questo argomento, leggere la descrizione comando per comprenderne la funzione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Per tutti i campi citati in questo argomento, leggere la descrizione comando per comprenderne la funzione. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a>Domanda e approvvigionamento  
 La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Tali elementi devono essere proporzionati uno all'altro per assicurare che la domanda sia soddisfatta in modo tempestivo ed economicamente vantaggioso.  

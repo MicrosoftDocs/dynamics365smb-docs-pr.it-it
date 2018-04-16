@@ -31,7 +31,7 @@ Nella finestra **Fattura acquisto registrata** è possibile scegliere il pulsant
 2. Selezionare la fattura di acquisto che si desidera rettificare.  
 
     > [!NOTE]  
->   Se viene selezionata la casella di controllo **Annullata**, non è possibile rettificare la fattura di acquisto registrata poiché è già stata rettificata o annullata.
+   >   Se viene selezionata la casella di controllo **Annullata**, non è possibile rettificare la fattura di acquisto registrata poiché è già stata rettificata o annullata.
 3. Nella finestra **Fattura acquisto registrata** scegliere **Rettifica**.
 
     Viene creata una nuova fattura di acquisto con le stesse informazioni in cui è possibile apportare la rettifica. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md). Il campo **Annullato** nella fattura di acquisto registrata iniziale viene modificato in **Sì**.
@@ -44,7 +44,7 @@ Nella finestra **Fattura acquisto registrata** è possibile scegliere il pulsant
 2. Selezionare la fattura di acquisto che si desidera annullare.
 
     > [!NOTE]  
->   Se viene selezionata la casella di controllo **Annullata**, non è possibile annullare la fattura di acquisto registrata poiché è già stata rettificata o annullata.
+   >   Se viene selezionata la casella di controllo **Annullata**, non è possibile annullare la fattura di acquisto registrata poiché è già stata rettificata o annullata.
 3. Nella finestra **Fattura acquisto registrata** scegliere **Annulla**.
 
     Una nota di credito di acquisto viene automaticamente creata e registrata per annullare la fattura di acquisto registrata iniziale. Il campo **Annullato** nella fattura di acquisto registrata iniziale viene modificato in **Sì**.

@@ -35,17 +35,17 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
     >  Con la funzione **Registra tipi costo in piano dei conti** è possibile aggiornare la relazione tra il piano dei conti e il piano dei tipi di costo. Il campo **Nr.** viene compilato e verificato per garantire che ciascun conto di contabilità generale sia correlato a un solo tipo di costo. La funzione viene eseguita automaticamente prima del trasferimento dei movimenti C/G nella contabilità industriale.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Per impostare nuovi tipi di costo nella finestra Piano dei tipi di costo  
-1.  Aprire la finestra **Piano dei tipi di costo** in modalità di modifica.  
-2.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Aprire la finestra **Piano dei tipi di costo** in modalità di modifica.  
+2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella finestra **Piano dei tipi di costo**. In questa procedura è possibile impostare i tipi di costo nella finestra  **Piano dei tipi di costo**.
+   > [!NOTE]  
+   >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella finestra **Piano dei tipi di costo**. In questa procedura è possibile impostare i tipi di costo nella finestra  **Piano dei tipi di costo**.
 
-3.  Dopo avere creato tutti i tipi di costo, scegliere l'azione **Indentazione tipi costo**. Nella finestra di dialogo scegliere il pulsante **Sì**.  
-4.  Collegare il nuovo tipo di costo al corrispondente conto di contabilità generale.  
+3. Dopo avere creato tutti i tipi di costo, scegliere l'azione **Indentazione tipi costo**. Nella finestra di dialogo scegliere il pulsante **Sì**.  
+4. Collegare il nuovo tipo di costo al corrispondente conto di contabilità generale.  
 
-    > [!IMPORTANT]  
-    >  Se le definizioni per i conti sono state immesse nei campi **Totale** del tipo riga **Fine-Totale** prima di eseguire la funzione **Indentazione tipi costo**, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Fine-Totale**.  
+   > [!IMPORTANT]  
+   >  Se le definizioni per i conti sono state immesse nei campi **Totale** del tipo riga **Fine-Totale** prima di eseguire la funzione **Indentazione tipi costo**, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Fine-Totale**.  
 
 ## <a name="to-update-cost-types"></a>Per aggiornare i tipi di costo  
 1.  Nella finestra **Setup contabilità industriale** selezionare se si desidera che il piano dei tipi di costo venga aggiornato automaticamente quando il piano dei conti viene modificato.  

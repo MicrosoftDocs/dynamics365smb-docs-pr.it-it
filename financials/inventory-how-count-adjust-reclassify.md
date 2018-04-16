@@ -99,7 +99,7 @@ Gli addetti al magazzino potranno quindi eseguire l'inventario e registrare tutt
     I campi correlati vengono aggiornati di conseguenza.
 
     > [!NOTE]  
->   Se dal conteggio fisico risultano differenze determinate dalla registrazione degli articoli con codici ubicazione non corretti, le differenze non devono essere inserite nelle registrazioni inventario fisico. In alternativa, utilizzare le registrazioni di riclassificazione o un ordine di trasferimento per reindirizzare gli articoli alle ubicazioni corrette. Per ulteriori informazioni, vedere Reg. ricl. articoli o Creare ordini di trasferimento.
+   >   Se dal conteggio fisico risultano differenze determinate dalla registrazione degli articoli con codici ubicazione non corretti, le differenze non devono essere inserite nelle registrazioni inventario fisico. In alternativa, utilizzare le registrazioni di riclassificazione o un ordine di trasferimento per reindirizzare gli articoli alle ubicazioni corrette. Per ulteriori informazioni, vedere Reg. ricl. articoli o Creare ordini di trasferimento.
 
 2. Per rettificare le quantità calcolate con le quantità effettive conteggiate, scegliere l'azione **Registra**.
 
@@ -134,7 +134,7 @@ L'inventario fisico viene in genere eseguito ad intervalli regolari, ad esempio 
 È innanzitutto necessario impostare i periodi di conteggio dell'inventario da utilizzare, quindi assegnarne uno a ciascun articolo. Quando si esegue un inventario fisico e si utilizza la funzione **Calcola conteggio periodo** nelle registrazioni di inventario fisico, le righe relative agli articoli vengono create automaticamente.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Periodi di conteggio inventario fisico**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Per assegnare un periodo di conteggio a un articolo  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.  
@@ -180,7 +180,7 @@ Nella finestra **Registrazioni magazzino**, è possibile registrare direttamente
 Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di registrazione o per righe di registrazione simili, ad esempio in relazione al consumo di materiale, è possibile utilizzare la finestra **Registrazioni Magazzino Standard** per rendere più semplice questo tipo di lavoro ricorrente. Per ulteriori informazioni, vedere la sezione "Registrazioni standard" in [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni inventario fisico**, quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Scegliere l'azione **Registra** per procedere con le rettifiche di magazzino.
 
 > [!NOTE]  

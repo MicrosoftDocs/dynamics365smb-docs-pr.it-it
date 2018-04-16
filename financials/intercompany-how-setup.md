@@ -30,7 +30,7 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Per impostare le società per le transazioni intercompany
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.  
-2. Nella finestra **Informazioni società**, compilare i campi **Codice partner IC**, **Tipo casella in arrivo Intercompany** e **Dettagli casella in arrivo Intercompany**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella finestra **Informazioni società**, compilare i campi **Codice partner IC**, **Tipo casella in arrivo Intercompany** e **Dettagli casella in arrivo Intercompany**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Per impostare i partner IC
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Partner IC**, quindi scegliere il collegamento correlato.

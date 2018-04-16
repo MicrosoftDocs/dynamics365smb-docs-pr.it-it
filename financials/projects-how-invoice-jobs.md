@@ -33,7 +33,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 Dalla finestra **Commesse** è possibile fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa**. Nella procedura che segue viene mostrato come utilizzare un processo batch per fatturare più commesse.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commessa - Crea fattura vendita**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Impostare i filtri se si desidera limitare le commesse che devono essere elaborate nel processo batch.
 4. Scegliere il pulsante **OK** per creare le fatture di assistenza.  
 

@@ -80,8 +80,8 @@ Per calcolare il costo standard della capacità, è necessario stabilire le tari
 
 Impostare le tariffe per ognuno di questi tipi di tempo per ogni centro di lavoro o per ogni area di produzione in un singolo ciclo.  
 
-> [!NOTE]  
-    >  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Ordinamento** nella scheda articolo.  
+> [!NOTE]
+>  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Ordinamento** nella scheda articolo.  
 
 Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella finestra **Setup manufacturing**.  
 

@@ -28,12 +28,12 @@ Quando si presta un tipo di assistenza standard, è spesso necessario creare doc
   
 ## <a name="to-set-up-a-standard-service-code"></a>Per impostare un codice di servizio standard    
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Codici servizio standard**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Compilare le righe di assistenza collegate al codice specifico.  
+2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Compilare le righe di assistenza collegate al codice specifico.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Per assegnare un codice di servizio standard a un gruppo di articoli in assistenza
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi articoli in assistenza**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Compilare le righe di assistenza collegate al codice specifico.  
 
 ## <a name="see-also"></a>Vedi anche

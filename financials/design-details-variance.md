@@ -32,15 +32,15 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 ## <a name="example"></a>Esempio  
  Nel seguente esempio viene illustrato in che modo viene calcolato lo scostamento per gli articoli acquistati. Si basa sullo scenario seguente:  
 
-1.  L'utente acquista un articolo a VL 90,00, ma il costo standard è di VL 100,00. Di conseguenza, lo scostamento di acquisto è VL 10,00.  
-2.  VL 10,00 viene accreditato sul conto scostamento acquisto.  
-3.  L'utente registra un addebito articolo di VL 20,00. Di conseguenza, il costo effettivo viene aumentato a VL 110,00 e il valore dello scostamento acquisto diventa VL 10,00.  
-4.  VL 20,00 viene addebitato sul conto scostamento acquisto. Di conseguenza, lo scostamento netto di acquisto diventa VL 10,00.  
-5.  L'utente rivaluta l'articolo da VL 100,00 a VL 70,00. La rivalutazione non influisce sul calcolo dello scostamento, solo sul valore di magazzino.  
+1. L'utente acquista un articolo a VL 90,00, ma il costo standard è di VL 100,00. Di conseguenza, lo scostamento di acquisto è VL 10,00.  
+2. VL 10,00 viene accreditato sul conto scostamento acquisto.  
+3. L'utente registra un addebito articolo di VL 20,00. Di conseguenza, il costo effettivo viene aumentato a VL 110,00 e il valore dello scostamento acquisto diventa VL 10,00.  
+4. VL 20,00 viene addebitato sul conto scostamento acquisto. Di conseguenza, lo scostamento netto di acquisto diventa VL 10,00.  
+5. L'utente rivaluta l'articolo da VL 100,00 a VL 70,00. La rivalutazione non influisce sul calcolo dello scostamento, solo sul valore di magazzino.  
 
- Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
+   Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
 
- ![Calcolo scostamento acquisto](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Calcolo scostamento acquisto](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Determinazione del costo standard  
  Il costo standard viene utilizzato durante il calcolo dello scostamento e dell'importo da capitalizzare. Poiché il costo standard può essere modificato nel tempo a causa di calcoli di aggiornamento manuali, è necessario individuare un momento nel tempo in cui il costo standard è fisso per il calcolo dello scostamento. Questo punto si presenta quando l'aumento di magazzino viene fatturato. Per articoli prodotti o assemblati, il punto in cui il costo standard è determinato è quando il costo viene rettificato.  

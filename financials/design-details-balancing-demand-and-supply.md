@@ -25,7 +25,7 @@ Per comprendere il funzionamento del sistema di pianificazione, è necessario co
 - Qualsiasi domanda verrà soddisfatta da approvvigionamento sufficiente.  
 - Qualsiasi approvvigionamento serve a uno scopo.  
 
- In genere, questi obiettivi vengono raggiunti equilibrando l'approvvigionamento con la domanda.  
+  In genere, questi obiettivi vengono raggiunti equilibrando l'approvvigionamento con la domanda.  
 
 ## <a name="in-this-section"></a>In questa sezione  
 [Dettagli di progettazione: Domanda e approvvigionamento](design-details-demand-and-supply.md)  

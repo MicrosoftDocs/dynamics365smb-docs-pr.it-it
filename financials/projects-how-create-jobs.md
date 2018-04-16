@@ -35,7 +35,7 @@ La struttura a livelli consente di dividere la commessa in task meno complessi e
 Creare una scheda commessa, quindi creare le righe del task commessa e le relative righe di pianificazione commessa.
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per specificare la commessa utilizzando le informazioni di altre commesse, scegliere l'azione **Copia commessa**, compilare i necessari campi, quindi scegliere **OK**.
 
 > [!NOTE]  

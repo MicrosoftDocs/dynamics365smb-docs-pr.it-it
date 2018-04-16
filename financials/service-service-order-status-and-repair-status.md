@@ -30,7 +30,7 @@ Il campo **Stato** nella finestra **Ordine assistenza** e lo stato di riparazion
 * lo stato dell'ordine di assistenza a cui è collegata ogni stato di riparazione; Per ulteriori informazioni, vedere Stato ordine assistenza.  
 * il livello di priorità di ogni opzione dell'ordine di assistenza. Per ulteriori informazioni, vedere Priorità.  
   
- Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato**.  
+  Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Indicazione dello stato dell'ordine di assistenza per lo stato di riparazione  
 Ogni stato di riparazione è collegato a un particolare stato dell'ordine di assistenza. Le opzioni dello stato dell'ordine di assistenza sono: **Non iniziato**, **In corso**, **In attesa** e **Completato**. Le opzioni dello stato di riparazione sono: **Iniziale**, **In corso**, **Demandato**, **Parzialmente assistito**, **Offerta completata**, **In attesa del cliente**, **Pezzo di ricambio ordinato**, **Pezzo di ricambio ricevuto** e **Completato**.  

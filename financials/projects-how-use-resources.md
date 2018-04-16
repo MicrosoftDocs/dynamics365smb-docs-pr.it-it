@@ -29,7 +29,7 @@ Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. 
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Per registrare l'utilizzo delle risorse per una commessa
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.
-2. Aprire il batch di registrazioni delle commesse interessato e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Aprire il batch di registrazioni delle commesse interessato e compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
 ## <a name="to-adjust-resource-prices"></a>Per rettificare i prezzi delle risorse

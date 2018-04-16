@@ -25,7 +25,7 @@ Se numerosi addetti agli acquisti lavorano presso la società, si possono impost
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Agente/Add. acquisti**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
-3. Nella finestra **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Per assegnare gli addetti agli acquisti ai fornitori
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.

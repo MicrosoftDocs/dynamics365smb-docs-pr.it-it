@@ -33,7 +33,7 @@ La procedura seguente illustra come compilare e inviare un ordine di vendita int
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato.  
 2. Per creare un nuovo ordine di vendita, selezionare **Nuovo**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
-3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Assicurarsi che il cliente sia partner intercompany.
 5. Per inviare l'ordine di vendita prima di registrarlo, scegliere l'azione **Invia ordine vendita IC**.
 

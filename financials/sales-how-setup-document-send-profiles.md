@@ -29,7 +29,7 @@ Se si sceglie l'azione **Registra e invia** in un documento di vendita, nella fi
 ## <a name="to-set-up-a-document-sending-profile"></a>Per impostare un profilo di invio documenti
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Profili di invio documenti**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Profili di invio documenti** scegliere l'azione **Nuovo**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Per specificare un profilo di invio in una scheda cliente
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.

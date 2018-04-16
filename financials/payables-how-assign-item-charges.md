@@ -42,7 +42,7 @@ I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Addebiti articoli**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** nella finestra **Addebiti articoli** per creare una nuova riga.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
 Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
@@ -53,7 +53,7 @@ Se si conosce l'addebito articolo nel momento in cui si registra una fattura di 
 4. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.
 5. Nel campo **Quantità** immettere il numero di unità dell'addebito articolo che sono state fatturate.
 6. Nel campo **Costo Diretto Unitario** immettere l'importo dell'addebito articolo.
-7. Compilare i rimanenti campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Compilare i rimanenti campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Nei seguenti passaggi, verrà effettuata l'assegnazione effettiva. Finché l'addebito articolo non è assegnato completamente, il valore nel campo **Qtà da assegnare** verrà visualizzato con carattere rosso.
 8. Nella Scheda dettaglio **Righe** fare clic sull'azione **Assegnazione addebito articolo**.

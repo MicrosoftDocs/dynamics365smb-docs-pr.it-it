@@ -30,7 +30,7 @@ Prima di creare opportunità, è necessario impostare opportunità relative ai c
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Agenti**, quindi scegliere il collegamento correlato.
 2. Selezionare l'agente dall'elenco per il quale si desidera creare un'opportunità.
 3. Selezionare l'azione **Opportunità** quindi selezionare **Lista**.
-4. Scegliere **Nuovo** e compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Scegliere **Nuovo** e compilare i campi appropriati. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

@@ -51,16 +51,16 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 
  Deve essere possibile impegnare tutti gli articoli in magazzino, tranne quelli per cui è stata avviata l'elaborazione in uscita. Di conseguenza, la quantità disponibile per l'impegno è definita come quantità su tutti i documenti e in tutti i tipi di collocazione, ad eccezione delle seguenti quantità in uscita:  
 
--   Quantità nei documenti di prelievo non registrati  
--   Quantità in collocazioni di spedizione  
--   Quantità nelle collocazioni articoli per produzione  
--   Quantità nelle collocazioni produzione aperte  
--   Quantità nelle collocazioni di assemblaggio  
--   Quantità nelle collocazioni di rettifica  
+- Quantità nei documenti di prelievo non registrati  
+- Quantità in collocazioni di spedizione  
+- Quantità nelle collocazioni articoli per produzione  
+- Quantità nelle collocazioni produzione aperte  
+- Quantità nelle collocazioni di assemblaggio  
+- Quantità nelle collocazioni di rettifica  
 
- Il risultato viene visualizzato nel campo **Quantità totale disponibile** della finestra **Impegni**.  
+  Il risultato viene visualizzato nel campo **Quantità totale disponibile** della finestra **Impegni**.  
 
- In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della finestra **Impegni**.  
+  In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della finestra **Impegni**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calcolo della quantità disponibile da impegnare  
  La quantità disponibile da impegnare viene calcolata come segue:  

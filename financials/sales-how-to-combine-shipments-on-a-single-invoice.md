@@ -31,17 +31,17 @@ Se si desidera fatturare più di una spedizione per volta, utilizzare la funzion
 4. Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di spedizione**.  
 5. Selezionare le righe di spedizione che si desidera includere nella fattura:  
 
-    - Per inserire tutte le righe, selezionare tutte le righe, quindi fare clic su **OK**.  
-    - Per inserire righe specifiche, selezionare le righe, quindi fare clic su **OK**. È possibile utilizzare il tasto CTRL per selezionare più righe non consecutive.  
+   - Per inserire tutte le righe, selezionare tutte le righe, quindi fare clic su **OK**.  
+   - Per inserire righe specifiche, selezionare le righe, quindi fare clic su **OK**. È possibile utilizzare il tasto CTRL per selezionare più righe non consecutive.  
 
-    Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.  
-7. Per registrare la fattura scegliere l'azione **Registra**.  
+     Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.  
+6. Per registrare la fattura scegliere l'azione **Registra**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture cumulative**, quindi scegliere il collegamento correlato. Viene visualizzata la finestra di richiesta del processo batch.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Selezionare la casella di controllo **Registra fatture**.  
-4.  Scegliere il pulsante **OK**.  
+4. Scegliere il pulsante **OK**.  
 
 > [!NOTE]  
 >  Se la casella di controllo **Registra fatture** non è selezionata per il processo batch, sarà necessario registrare manualmente le fatture.  

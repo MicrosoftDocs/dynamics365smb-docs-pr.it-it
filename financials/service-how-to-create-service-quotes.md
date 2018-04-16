@@ -30,8 +30,8 @@ Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ord
 3. Nel campo **Nr.** immettere un numero per l'offerta di assistenza. In alternativa, se è stata impostata una numerazione per le offerte di assistenza nella finestra **Setup gest. assist.**, per selezionare il successivo numero di offerta di assistenza disponibile, premere INVIO.  
 4. Nel campo **Nr. cliente**  selezionare il cliente appropriato dalla lista.  
 
-  > [!Note]  
-  >  I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente**. Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza. Compilare i campi appropriati e scegliere l'azione **Crea cliente**.  
+   > [!Note]  
+   >  I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente**. Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza. Compilare i campi appropriati e scegliere l'azione **Crea cliente**.  
   
 5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della finestra **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
 6. Compilare le righe di articolo in assistenza.  

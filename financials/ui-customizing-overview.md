@@ -22,15 +22,16 @@ ms.lasthandoff: 03/22/2018
 <!--NAV # Customizing Dynamics NAV -->
 Sono disponibili diversi metodi per personalizzare l'applicazione per consentire all'utente e ai colleghi di accedere alle funzioni, alle funzionalità e ai dati maggiormente necessari, nel modo più adatto alle proprie attività quotidiane. Gli utenti che possono vedere i cambiamenti dipendono dalle operazioni intraprese, come descritto nella seguente tabella.
 
-| Operazione    |  Description  |  Utente che visualizza le modifiche  |  Ulteriori informazioni  |
-|-----|---------------|---------|-------|
-|Installare un'estensione|Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione utilizzando le estensioni](ui-extensions.md)|
-|Cambiare l'esperienza|Una singola impostazione, l'impostazione *Esperienza*, determina la funzionalità core disponibile. Attualmente sono disponibili due livelli: Base o Essenziale.|Tutti gli utenti in una specifica società.|[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)|
-|Personalizzare l'area di lavoro|Modificare il layout e il contenuto delle pagine.|Solo l'utente corrente.|[Personalizzazione dell'area di lavoro](ui-personalization-user.md)|
+
+|      Operazione       |                                                                                                              Description                                                                                                               |       Utente che visualizza le modifiche       |                                       Ulteriori informazioni                                       |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
+|    Installare un'estensione    | Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard. |   Tutti gli utenti in tutte le società.    |                       [Personalizzazione utilizzando le estensioni](ui-extensions.md)                       |
+|   Cambiare l'esperienza    |                                     Una singola impostazione, l'impostazione *Esperienza*, determina la funzionalità core disponibile. Attualmente sono disponibili due livelli: Base o Essenziale.                                      | Tutti gli utenti in una specifica società. | [Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md) |
+| Personalizzare l'area di lavoro |                                                                                              Modificare il layout e il contenuto delle pagine.                                                                                              |            Solo l'utente corrente.             |                  [Personalizzazione dell'area di lavoro](ui-personalization-user.md)                  |
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

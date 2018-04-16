@@ -56,7 +56,7 @@ Gli articoli possono essere sia articoli di magazzino che servizi di assistenza,
 7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Fattura vendita**.
 
    Diversi campi nella fattura di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
-8. Compilare i restanti campi della finestra **Fattura di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Compilare i restanti campi della finestra **Fattura di vendita** in base alle proprie esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 È ora possibile compilare le righe della fattura di vendita per i prodotti che si sta vendendo al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
 
@@ -64,26 +64,26 @@ Se sono state impostate le righe di vendita periodiche per il cliente, ad esempi
 9. Nella Scheda dettaglio **Righe** nel campo **Tipo** selezionare il tipo di prodotto, addebito o transazione per cui si effettuerà la registrazione per il cliente con la riga di vendita.
 10. Nel campo **Nr.** selezionare un record per effettuare la registrazione in base al valore nel campo **Tipo**.
 
-    Lasciare il campo **Nr.** vuoto nei seguenti casi: - se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
-        - Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
+   Lasciare il campo **Nr.** vuoto nei seguenti casi: - se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
+       - Se la riga è destinata a un articolo non in stock. Scegliere l'aziona **Seleziona articoli non in stock**. Per ulteriori informazioni, vedere [Utilizzare gli articoli non in stock](inventory-how-work-nonstock-items.md).
 
 11. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 
-    > [!NOTE]  
->   Se l'articolo è di tipo **Assistenza** o se il campo **Tipo** contiene **Risorsa**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.  
+   > [!NOTE]  
+   >   Se l'articolo è di tipo **Assistenza** o se il campo **Tipo** contiene **Risorsa**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.  
 
-    Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
+   Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
 
-    Il prezzo e gli importi riga sono con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda cliente.  
+   Il prezzo e gli importi riga sono con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda cliente.  
 12. Se si desidera assegnare uno sconto, immettere una percentuale nel campo **% sconto riga**. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.  
 
-    Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dei vendita vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).  
+   Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dei vendita vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Ripetere i passaggi da 9 a 12 per ogni prodotto o addebito che si desidera vendere al cliente.  
 
-    I totali sotto le righe vengono automaticamente calcolati quando si creano o si modificano le righe.  
+   I totali sotto le righe vengono automaticamente calcolati quando si creano o si modificano le righe.  
 14. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
 
-    Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).  
+   Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).  
 15. Una volta completate le righe della fattura di vendita, scegliere l'azione **Registra e invia**.  
 
 Viene visualizzata la finestra dialogo **Registra e invia conferma** con il metodo preferito del cliente per la ricezione dei documenti. È possibile modificare il metodo di invio scegliendo il pulsante di ricerca per il campo **Invia documento a**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).

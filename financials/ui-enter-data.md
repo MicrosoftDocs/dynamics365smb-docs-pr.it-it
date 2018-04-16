@@ -75,14 +75,14 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 # <a name="entering-negative-numbers"></a>Immettere numeri negativi
 È possibile immettere numeri negativi in due modi. Il numero -20,5 può essere immesso come:  
 
--   -20,5  
+- -20,5  
 
-    oppure
--   20,5-  
+  oppure
+- 20,5-  
 
- In entrambi i casi, l'importo verrà registrato come -20,5.  
+  In entrambi i casi, l'importo verrà registrato come -20,5.  
 
- Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
+  Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
 
 ## <a name="entering-dates-and-times"></a>Immissione di date e ore
 È possibile immettere date e ore in tutti i campi riservati alle date (campi di data). È possibile immettere date con o senza separatori.
@@ -93,15 +93,15 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 ### <a name="entering-dates"></a>Immissione di date  
  In un campo di data è possibile immettere due, quattro, sei o otto cifre:  
 
--   Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.  
+- Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.  
 
--   Se si immettono quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro.  
+- Se si immettono quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro.  
 
--   Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1930 e 31/12/2029, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.  
+- Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1930 e 31/12/2029, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.  
 
- È inoltre possibile immettere una data composta da un giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Lu25 o lu25, ad esempio, indica lunedì nella settimana numero 25.  
+  È inoltre possibile immettere una data composta da un giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Lu25 o lu25, ad esempio, indica lunedì nella settimana numero 25.  
 
- Anziché immettere una data specifica, è possibile immettere uno dei due codici seguenti.  
+  Anziché immettere una data specifica, è possibile immettere uno dei due codici seguenti.  
 
 |Codice|Risultato|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 
  Di seguito vengono forniti alcuni esempi dell'utilizzo di formule per le date:  
 
--   La formula della data nel campo per la ricorrenza della frequenza nelle registrazioni periodiche indica la frequenza con cui il movimento nella riga delle registrazioni verrà registrato.  
+- La formula della data nel campo per la ricorrenza della frequenza nelle registrazioni periodiche indica la frequenza con cui il movimento nella riga delle registrazioni verrà registrato.  
 
--   La formula nel campo Periodo di dilazione per un livello di sollecito specifico determina il periodo di tempo che deve trascorrere dalla data di scadenza (o dalla data del sollecito precedente) alla creazione del sollecito.  
+- La formula nel campo Periodo di dilazione per un livello di sollecito specifico determina il periodo di tempo che deve trascorrere dalla data di scadenza (o dalla data del sollecito precedente) alla creazione del sollecito.  
 
--   La formula nel campo Calcolo data di scadenza determina la modalità di calcolo della data di scadenza nel sollecito.  
+- La formula nel campo Calcolo data di scadenza determina la modalità di calcolo della data di scadenza nel sollecito.  
 
- La formula per il calcolo della data può contenere un massimo di 20 caratteri, sia numeri che lettere. È possibile utilizzare le lettere seguenti, corrispondenti ad abbreviazioni di unità di tempo diverse.  
+  La formula per il calcolo della data può contenere un massimo di 20 caratteri, sia numeri che lettere. È possibile utilizzare le lettere seguenti, corrispondenti ad abbreviazioni di unità di tempo diverse.  
 
 |||  
 |-|-|  

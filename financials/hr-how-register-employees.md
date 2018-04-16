@@ -32,7 +32,7 @@ Di seguito viene descritto come creare una scheda iniziale relativa all'impiegat
 ## <a name="to-set-up-an-employee"></a>Per impostare un impiegato
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dipendenti**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Nella finestra **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Per inserire una foto di un impiegato
 Se si dispone di un'immagine di un dipendente in formato .bmp, è possibile inserirla nella scheda dei dipendenti.

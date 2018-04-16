@@ -30,7 +30,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 ## <a name="to-create-item-attributes"></a>Per creare attributi articolo
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Attributi articolo**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Attributi articolo** scegliere l'azione **Nuovo**.
-3. Nella finestra **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Se si seleziona **Opzione** nel campo **Tipo** è possibile scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere la sezione "Per creare i valori per gli attributi articolo di tipo Opzione".  
@@ -38,7 +38,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Per creare i valori per gli attributi articolo di tipo Opzione
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Attributi articolo**, quindi scegliere il collegamento correlato.
 2. Nella finestra **Attributi articolo** selezionare l'attributo dell'articolo di tipo **Opzione** per cui si desidera creare i valori, quindi selezionare l'azione **Valori attributo articolo**.
-3. Nella finestra **Valori attributo articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Valori attributo articolo** compilare i campi secondo le proprie necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Per assegnare attributi articolo agli articoli
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
@@ -67,7 +67,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 4. Nel campo **Valore** scegliere il pulsante di ricerca e selezionare un valore attributo in base a cui filtrare gli articoli.
 
     > [!NOTE]  
->   È possibile selezionare solo i valori direttamente per gli attributi dell'articolo che hanno valori fissi, ad esempio il colore. Per gli attributi dell'articolo che hanno valori variabili, quali la larghezza, è necessario specificare il valore dell'attributo dell'articolo selezionando prima una condizione. Vedere il passaggio 5.
+   >   È possibile selezionare solo i valori direttamente per gli attributi dell'articolo che hanno valori fissi, ad esempio il colore. Per gli attributi dell'articolo che hanno valori variabili, quali la larghezza, è necessario specificare il valore dell'attributo dell'articolo selezionando prima una condizione. Vedere il passaggio 5.
 5. Nel campo **Valore** per un attributo articolo variabile, fare clic sul pulsante di ricerca.
 6. Nella finestra **Specifica valore filtro** nel campo **Condizione**, fare clic sulla freccia rivolta verso il basso e selezionare una condizione.
 7. Nel campo **Valore**, immettere un valore attributo in base a cui filtrare gli articoli.

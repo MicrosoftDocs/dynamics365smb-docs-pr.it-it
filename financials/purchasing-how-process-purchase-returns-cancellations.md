@@ -89,45 +89,45 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
     - Utilizzare la funzione **Ottieni righe documento registrato da stornare** per copiare una o più righe da uno o più documenti registrati. Questa funzione consente di stornare sempre esattamente i costi dalle righe del documento registrato. Questa funzionalità è descritta nei passaggi seguenti.    
     - Utilizzare la funzione **Copia documento** per copiare un documento esistente nell'ordine di reso. Utilizzare questa funzione per copiare l'intero documento. Può essere un documento registrato o un documento non ancora registrato. Questa funzione consente lo storno esatto costo solo quando la casella di controllo **Storno esatto costo obblig.** è selezionata nella finestra **Setup contabilità clienti**.  
 
-4. Scegliere l'azione **Ottieni righe documento registrato da stornare**.
-5. Nella parte superiore della finestra **Righe documento acquisto reg.** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di acquisto registrata, potrebbe essere preferibile non includere tale quantità in un nuovo documento di reso da a acquisto.
+5. Scegliere l'azione **Ottieni righe documento registrato da stornare**.
+6. Nella parte superiore della finestra **Righe documento acquisto reg.** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di acquisto registrata, potrebbe essere preferibile non includere tale quantità in un nuovo documento di reso da a acquisto.
 
     > [!NOTE]  
     >  Questo campo è valido solo per righe di carichi registrati e di fatture registrate, ma non per righe di resi registrati o di note di credito registrate.  
 
     Nella parte sinistra della finestra sono elencati i diversi tipi di documento, mentre il numero tra parentesi indica il numero di documenti disponibili per ogni tipo di documento.
 
-6. Nel campo **Filtro tipo documento** selezionare il tipo di righe documento registrate che si intende utilizzare.  
-7. Selezionare le righe che si desidera copiare nel nuovo documento.  
+7. Nel campo **Filtro tipo documento** selezionare il tipo di righe documento registrate che si intende utilizzare.  
+8. Selezionare le righe che si desidera copiare nel nuovo documento.  
 
     > [!NOTE]  
     >  Se si utilizza CTRL+A per selezionare tutte le righe, vengono copiate tutte le righe incluse nel filtro impostato, ma viene ignorato il filtro **Mostra solo righe reversibili**. Si supponga, ad esempio, di avere filtrato le righe in base a un particolare numero di documento con due righe, una delle quali è già stata completamente resa. Anche se si seleziona il campo **Mostra solo righe reversibili**, se si preme CTRL+A per copiare tutte le righe, vengono copiate entrambe le righe anziché solo quella non ancora stornata.  
 
-8. Scegliere **OK** per copiare le righe nel nuovo documento.  
+9. Scegliere **OK** per copiare le righe nel nuovo documento.  
 
     Si verificheranno i processi seguenti:  
 
-    -   Per le righe del documento registrato di tipo **Articolo**, viene creata una nuova riga che rappresenta una copia della riga del documento registrato, con la quantità che non è ancora stata stornata. Il campo **Collega-a mov. art.** viene automaticamente compilato con il numero del movimento contabile articolo presente nella riga del documento registrata.  
+   - Per le righe del documento registrato di tipo **Articolo**, viene creata una nuova riga che rappresenta una copia della riga del documento registrato, con la quantità che non è ancora stata stornata. Il campo **Collega-a mov. art.** viene automaticamente compilato con il numero del movimento contabile articolo presente nella riga del documento registrata.  
 
-    -   Per le righe del documento registrato non di tipo **Articolo**, ad esempio addebiti articoli, viene creata una nuova riga che rappresenta una copia della riga del documento registrato originale.  
+   - Per le righe del documento registrato non di tipo **Articolo**, ad esempio addebiti articoli, viene creata una nuova riga che rappresenta una copia della riga del documento registrato originale.  
 
-    -   Viene calcolato il valore del campo **Costo unitario (VL)** nella nuova riga in base ai costi nei movimenti contabili articoli corrispondenti.  
+   - Viene calcolato il valore del campo **Costo unitario (VL)** nella nuova riga in base ai costi nei movimenti contabili articoli corrispondenti.  
 
-    -   Se il documento copiato è una spedizione registrata, un carico registrato, un carico da reso registrato o una spedizione di reso registrata, il prezzo unitario viene calcolato automaticamente in base alla scheda articolo.  
+   - Se il documento copiato è una spedizione registrata, un carico registrato, un carico da reso registrato o una spedizione di reso registrata, il prezzo unitario viene calcolato automaticamente in base alla scheda articolo.  
 
-    -   Se il documento copiato è una nota di credito o una fattura registrata, il prezzo unitario, gli sconti fattura e gli sconti riga vengono copiati dalla riga del documento registrato.  
+   - Se il documento copiato è una nota di credito o una fattura registrata, il prezzo unitario, gli sconti fattura e gli sconti riga vengono copiati dalla riga del documento registrato.  
 
-    -   Se la riga del documento registrata include righe di tracciabilità articolo, il campo **Collega-a mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
+   - Se la riga del documento registrata include righe di tracciabilità articolo, il campo **Collega-a mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
      Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella finestra **Setup contabilità fornitori e acquisti** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 
-    > [!NOTE]  
-    >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
-    >   
-    >  Se il flusso delle merci nel documento registrato corrisponde a quello nel nuovo documento, viene creata una copia della riga del documento registrato originale nel nuovo documento. Il campo **Collega-da mov. art.** non viene compilato perché in questo caso, lo storno esatto costo non è possibile. Se, ad esempio, si utilizza la funzione **Ottieni righe documento registrato da stornare** per ottenere una riga di nota di credito acquisto registrata per una nuova nota di credito acquisto, nella nuova nota di credito viene copiata esclusivamente la riga di nota di credito registrata originale.  
+     > [!NOTE]  
+     >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
+     >   
+     >  Se il flusso delle merci nel documento registrato corrisponde a quello nel nuovo documento, viene creata una copia della riga del documento registrato originale nel nuovo documento. Il campo **Collega-da mov. art.** non viene compilato perché in questo caso, lo storno esatto costo non è possibile. Se, ad esempio, si utilizza la funzione **Ottieni righe documento registrato da stornare** per ottenere una riga di nota di credito acquisto registrata per una nuova nota di credito acquisto, nella nuova nota di credito viene copiata esclusivamente la riga di nota di credito registrata originale.  
 
-8. Nella finestra **Ordine di reso acquisto**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
-9. Scegliere l'azione **Registra**.
+10. Nella finestra **Ordine di reso acquisto**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
+11. Scegliere l'azione **Registra**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Per creare un ordine di acquisto di sostituzione da un ordine di reso da acquisto
 È possibile raggiungere un accordo con un fornitore per la sostituzione di un articolo quale compensazione per un articolo acquistato. L'articolo sostitutivo può essere uguale oppure diverso. Questa situazione potrebbe presentarsi, ad esempio, se il fornitore ha spedito l'articolo sbagliato.  

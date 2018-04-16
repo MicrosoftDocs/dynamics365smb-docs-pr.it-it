@@ -37,19 +37,19 @@ ms.lasthandoff: 03/22/2018
   
 ### <a name="to-import-a-report-layout-file"></a>Per importare un file di layout di report  
   
-1.  Assicurarsi che il file pertinente che definisce il layout di report sia disponibile nel computer o in rete.  
+1. Assicurarsi che il file pertinente che definisce il layout di report sia disponibile nel computer o in rete.  
   
-     Un file del layout di report Word deve avere l'estensione .docx. Un file del layout di report RDLC deve avere l'estensione .rdl o .rdlc.  
+    Un file del layout di report Word deve avere l'estensione .docx. Un file del layout di report RDLC deve avere l'estensione .rdl o .rdlc.  
   
-2.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
   
-3.  Selezionare la riga del report verso cui si desidera importare il layout di report, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
+3. Selezionare la riga del report verso cui si desidera importare il layout di report, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
   
-4.  Nella finestra **Layout report**, selezionare il layout di report in cui importare il file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Importa layout**.  
+4. Nella finestra **Layout report**, selezionare il layout di report in cui importare il file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Importa layout**.  
   
-5.  Nella finestra di dialogo **Importa**, selezionare il documento che definisce il layout di report e scegliere **Apri**.  
+5. Nella finestra di dialogo **Importa**, selezionare il documento che definisce il layout di report e scegliere **Apri**.  
   
- Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
+   Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
   
 ## <a name="see-also"></a>Vedi anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   

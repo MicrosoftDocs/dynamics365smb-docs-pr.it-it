@@ -26,7 +26,7 @@ In questo argomento viene descritto anche come impostare i task e le attività e
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Per impostare codici ciclo di vendita delle opportunità
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cicli di vendita**, quindi scegliere il collegamento correlato. La finestra **Cicli di vendita** si apre e viene visualizzato un elenco di tutti i cicli di vendita esistenti.
-2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ripetere tali passaggi per impostare altri cicli di vendita. Dopo aver impostato i cicli delle opportunità di vendita, potrebbe essere necessario impostare le diverse fasi all'interno di ciascun ciclo.
 

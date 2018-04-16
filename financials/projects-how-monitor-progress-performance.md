@@ -41,7 +41,7 @@ Se si desidera visualizzare il risultato utilizzando un metodo diverso, è possi
 > Dopo aver utilizzato il nuovo metodo per creare movimenti WIP, non è possibile eliminare il metodo o modificarlo.  
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Metodi WIP commessa**, quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Chiudere la finestra.   
 4. Per impostare il nuovo metodo come metodo di default, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.  
 5. Nel campo **Metodo WIP di default** , selezionare il metodo dall'elenco.

@@ -38,22 +38,22 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 ## <a name="to-test-custom-report-layout-updates"></a>Per verificare gli aggiornamenti del layout di report personalizzato  
   
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Selezione layout report**, quindi scegliere il collegamento correlato.  
   
-2.  Nella finestra **Selezione layout report**, scegliere l'azione **Verifica aggiornamenti layout**.  
+2. Nella finestra **Selezione layout report**, scegliere l'azione **Verifica aggiornamenti layout**.  
   
- Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una finestra **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
+   Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una finestra **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limiti dell'aggiornamento di layout di report personalizzati  
  Sono disponibili diversi tipi di modifiche che l'aggiornamento automatico può applicare ai layout di report personalizzati, ad esempio la rimozione dal set di dati di un campo che è stato utilizzato nel layout. Tuttavia, l'aggiornamento automatico non può gestire le seguenti modifiche da apportare al set di dati di un report.  
   
-1.  Eliminazione di campi, etichette o elementi di dati.  
+1. Eliminazione di campi, etichette o elementi di dati.  
   
-2.  Duplicazione di nomi di campi nel layout di report dopo la ridenominazione di un campo nel set di dati. Ciò dovrebbe essere considerato come un errore di progettazione.  
+2. Duplicazione di nomi di campi nel layout di report dopo la ridenominazione di un campo nel set di dati. Ciò dovrebbe essere considerato come un errore di progettazione.  
   
-3.  Aggiornamento di scenari in cui sono presenti più iterazioni di un layout di report che comportano diverse azioni di ridenominazione negli stessi campi, etichette o elementi di dati.  
+3. Aggiornamento di scenari in cui sono presenti più iterazioni di un layout di report che comportano diverse azioni di ridenominazione negli stessi campi, etichette o elementi di dati.  
   
- Se il processo di aggiornamento rileva uno qualsiasi di questi problemi, l'aggiornamento non può essere applicato. Sarà necessario risolvere i problemi manualmente, ad esempio modificando il layout di report in Word o, a livello di codice, utilizzando le codeunit di aggiornamento.  
+   Se il processo di aggiornamento rileva uno qualsiasi di questi problemi, l'aggiornamento non può essere applicato. Sarà necessario risolvere i problemi manualmente, ad esempio modificando il layout di report in Word o, a livello di codice, utilizzando le codeunit di aggiornamento.  
   
 ##  <a name="FixErrors"></a> Risolvere gli errori  
  Se si visualizza un messaggio di errore quando si eseguono o si verificano gli aggiornamenti del layout di report, molto probabilmente sarà necessario modificare il layout di report per risolvere il problema. Leggere il messaggio di errore per aiutare a determinare la causa del problema.  

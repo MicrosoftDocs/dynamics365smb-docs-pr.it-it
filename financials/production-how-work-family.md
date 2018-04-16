@@ -31,7 +31,7 @@ La creazione di famiglie di produzione riduce le quantità di scarto perché ci�
 
 ## <a name="to-set-up-a-production-family"></a>Per impostare una famiglia di prodotti
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Famiglie di prodotti**, quindi scegliere il collegamento correlato.
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Per produrre in base a una famiglia di prodotti
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ord. produzione confermato**, quindi scegliere il collegamento correlato.

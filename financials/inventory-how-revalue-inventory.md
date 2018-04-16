@@ -25,7 +25,7 @@ Per rivalutare o ammortizzare un determinato articolo o movimento contabile arti
 ## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni rivalutazioni**, quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Calcola valore magazzino**.
-3. Nella finestra **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere il pulsante **OK**.
 5. In ciascuna riga nella finestra **Registrazioni rivalutazioni**, nel campo **Costo unitario (rivalutato)**, immettere il nuovo costo unitario. In alternativa, immettere il nuovo importo totale nel campo **Costo unitario (rivalutato)**.
 

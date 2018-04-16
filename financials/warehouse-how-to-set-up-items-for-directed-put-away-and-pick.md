@@ -51,9 +51,9 @@ Il passo successivo consiste nel definire il tipo di collocazioni che si desider
 A questo punto, se si desidera utilizzare le zone nella warehouse, è possibile procedere all'impostazione. L'utilizzo delle zone riduce il numero dei campi che è necessario compilare durante l'impostazione delle collocazioni, in quanto le collocazioni create all'interno delle zone ne ereditano varie proprietà. Le zone consentono inoltre agli impiegati nuovi o temporanei di orientarsi più facilmente all'interno della warehouse. Si noti che il flusso è controllato dalle collocazioni, pertanto è possibile utilizzare più collocazioni e una sola zona.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Per impostare una zona nella warehouse  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
-2.  Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone**.  
-3.  Nella finestra **Zone** compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
+2. Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone**.  
+3. Nella finestra **Zone** compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Quando si modifica un parametro di zona, tutte le collocazioni create successivamente in tale zona erediteranno le nuove caratteristiche, mentre le collocazioni originali resteranno invariate.  
 

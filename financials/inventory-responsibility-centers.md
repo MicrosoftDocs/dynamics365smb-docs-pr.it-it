@@ -29,11 +29,11 @@ Il supporto di più ubicazioni consente alle società di gestire il magazzino in
 I centri di responsabilità estendono le funzionalità relative alle ubicazioni multiple offrendo agli utenti la possibilità di gestire centri amministrativi. Un centro di responsabilità può essere un centro di costo, un centro di utile, un centro di investimento o un altro centro amministrativo definito dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Centri di responsabilità**, quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Centri di responsabilità**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
+   In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
 4. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.
 5. Nel campo **Centro di responsabilità** immettere un codice del centro di responsabilità.
 

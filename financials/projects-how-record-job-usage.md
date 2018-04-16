@@ -34,7 +34,7 @@ Di seguito viene descritto come registrare i prezzi e i costi di commessa effett
 
     Il campo **Quantità residua** mostra la quantità che rimane per completare la commessa e da trasferire nelle registrazioni.  
 5. Scegliere l'azione **Crea righe registrazioni commesse**.
-6. Nella finestra **Trasferimento commessa a riga pianificazione** compilare i campi in base alle esigenze, quindi scegliere **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Nella finestra **Trasferimento commessa a riga pianificazione** compilare i campi in base alle esigenze, quindi scegliere **OK**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Scegliere l'azione **Apri registrazioni commesse**.  
 8. Nella finestra **Registrazioni commesse**, selezionare la riga pertinente e scegliere l'azione **Registra**.
 9. Nella finestra **Righe pianificazione commessa**, esaminare l'utilizzo registrato osservando i campi **Quantità**, **Quantità residua** e **Qtà da trasferire per registrazione**.  

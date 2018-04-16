@@ -151,7 +151,7 @@
 
 # [Finanze](finance.md)
 ## [Gestione della contabilità clienti](receivables-manage-receivables.md)
-###[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Collegare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md)  
 ### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)

@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Per impostare le indicazioni di troubleshooting
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Troubleshooting**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Per assegnare le indicazioni di troubleshooting ai gruppi di articoli di assistenza, agli articoli o agli articoli di assistenza
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli** o **Articoli in assistenza** o **Gruppo articoli in assistenza**, quindi scegliere il collegamento correlato.  

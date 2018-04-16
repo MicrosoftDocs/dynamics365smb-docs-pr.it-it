@@ -21,6 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
 Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita. È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.
+
 |Funzione|Description|
 |--------|-----------|
 |**Crea ordini di acquisto**|Da un ordine di vendita, questa funzione crea un ordine di acquisto per ciascun fornitore di articoli nell'ordine di vendita. È possibile modificare la quantità di acquisto prima di creare gli ordini di acquisto. Vengono suggerite solo le quantità di vendita non disponibili.
@@ -39,11 +40,11 @@ Per creare un ordine di acquisto per ogni quantità articolo non disponibile nel
 4. Per effettuare un acquisto di una quantità diversa dalla quantità di vendita non disponibile, modificare il valore nel campo **Quantità da acquistare**.
 
     > [!NOTE]  
->   È possibile modificare anche il campo **Quantità da acquistare** nelle righe inattive anche se rappresentano le quantità di vendita completamente disponibili.
+   >   È possibile modificare anche il campo **Quantità da acquistare** nelle righe inattive anche se rappresentano le quantità di vendita completamente disponibili.
 5. Scegliere il pulsante **OK**.
 
     Un ordine di acquisto viene creato per ciascun fornitore di articoli nell'ordine di vendita, inclusa qualsiasi modifica delle quantità effettuata nella finestra **Crea ordini di acquisto**.
-7. Continuare a elaborare l'ordine o gli ordini di acquisto, ad esempio, modificando o aggiungendo altre righe all'ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
+6. Continuare a elaborare l'ordine o gli ordini di acquisto, ad esempio, modificando o aggiungendo altre righe all'ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Per creare una fattura di acquisto da un ordine o una fattura di vendita

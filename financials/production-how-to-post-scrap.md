@@ -27,7 +27,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 
 ## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni output**, quindi scegliere il collegamento correlato.  
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
 4. Immettere il codice di scarto nel campo **Codice scarto**.  
 5. Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.  

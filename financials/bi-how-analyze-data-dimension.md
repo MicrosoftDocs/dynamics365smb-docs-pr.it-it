@@ -32,7 +32,7 @@ Un'analisi basata sulle dimensioni consente di visualizzare una combinazione sel
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Visualizzazioni analisi**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Lista visualizzazione analisi** scegliere l'azione **Nuovo**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per aggiungere altri codici di dimensione ai quattro disponibili nella Scheda dettaglio **Dimensioni**, scegliere l'azione **Filtro**, compilare i campi e scegliere il pulsante **OK**.  
 5. Per aggiornare la visualizzazione, scegliere l'azione **Aggiorna**.
 

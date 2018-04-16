@@ -34,7 +34,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
 
     > [!NOTE]  
->   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
+   >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
@@ -44,7 +44,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
 
     > [!NOTE]  
->   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+   >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
@@ -60,7 +60,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 6. Controllare i movimenti creati quindi scegliere l'azione **Registra** per eseguire la registrazione.
 
     > [!TIP]  
->   Se i numeri dell'indice servono soltanto a fini di simulazione, è possibile creare un registro beni ammortizzabili in cui archiviarli. In tal modo i movimenti non avranno alcun effetto sugli altri registri beni ammortizzabili.
+   >   Se i numeri dell'indice servono soltanto a fini di simulazione, è possibile creare un registro beni ammortizzabili in cui archiviarli. In tal modo i movimenti non avranno alcun effetto sugli altri registri beni ammortizzabili.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Per registrare i costi di acquisto aggiuntivi
    I costi aggiuntivi di acquisto di un cespite vengono registrati allo stesso modo dei costi di acquisto originali: da una fattura d'acquisto o da una registrazione cespiti. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).  

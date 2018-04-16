@@ -59,7 +59,7 @@ Per un articolo è possibile impostare una percentuale pagamento anticipato pred
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
 2. Selezionare un articolo, quindi scegliere l'azione **Percentuale pagamento anticipato**.  
-3. Nella finestra **Percentuali pagamenti anticipati vendite** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella finestra **Percentuali pagamenti anticipati vendite** compilare i campi secondo le necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Per un cliente o un fornitore, è possibile impostare una percentuale pagamento anticipato predefinita per tutti gli articoli e tutti i tipi di righe di vendita. Immettere la percentuale nella scheda cliente o nella scheda fornitore.
 

@@ -31,21 +31,21 @@ Si immagini che ogni profilo di magazzino contenga una serie di eventi di domand
   
      Se l'intervallo di approvvigionamento non è appropriato, è possibile riprogrammare l'approvvigionamento come segue:  
   
-    1.  Se l'approvvigionamento viene inserito prima della domanda, è possibile riprogrammarlo in modo che il magazzino sia più basso possibile.  
-    2.  Se l'approvvigionamento viene inserito successivamente alla domanda, è possibile riprogrammarlo. Altrimenti, il sistema suggerirà un nuovo approvvigionamento.  
-    3.  Se l'approvvigionamento soddisfa la domanda alla data, il sistema di pianificazione può procedere a verificare se la quantità di approvvigionamento può coprire la domanda.  
+   1. Se l'approvvigionamento viene inserito prima della domanda, è possibile riprogrammarlo in modo che il magazzino sia più basso possibile.  
+   2. Se l'approvvigionamento viene inserito successivamente alla domanda, è possibile riprogrammarlo. Altrimenti, il sistema suggerirà un nuovo approvvigionamento.  
+   3. Se l'approvvigionamento soddisfa la domanda alla data, il sistema di pianificazione può procedere a verificare se la quantità di approvvigionamento può coprire la domanda.  
   
-     Una volta impostati i tempi, la quantità appropriata da fornire può essere calcolata come segue:  
+      Una volta impostati i tempi, la quantità appropriata da fornire può essere calcolata come segue:  
   
-    1.  Se la quantità di approvvigionamento è minore della domanda, è possibile che la quantità di approvvigionamento possa essere aumentata (o non aumentata se limitata da un metodo di quantità massima).  
-    2.  Se la quantità di approvvigionamento è maggiore della domanda, è possibile che la quantità di approvvigionamento possa essere diminuita (o non diminuita se limitata da un metodo di quantità minima).  
+   4. Se la quantità di approvvigionamento è minore della domanda, è possibile che la quantità di approvvigionamento possa essere aumentata (o non aumentata se limitata da un metodo di quantità massima).  
+   5. Se la quantità di approvvigionamento è maggiore della domanda, è possibile che la quantità di approvvigionamento possa essere diminuita (o non diminuita se limitata da un metodo di quantità minima).  
   
-     A questo punto, esiste una di queste due situazioni:  
+      A questo punto, esiste una di queste due situazioni:  
   
-    1.  La domanda corrente può essere coperta, nel qual caso può essere chiusa e si può procedere con la pianificazione della domanda successiva.  
-    2.  L'approvvigionamento ha raggiunto il massimo, lasciando una certa quantità di domanda scoperta. In questo caso, il sistema di pianificazione può chiudere l'approvvigionamento corrente e procedere a quello successivo.  
+   6. La domanda corrente può essere coperta, nel qual caso può essere chiusa e si può procedere con la pianificazione della domanda successiva.  
+   7. L'approvvigionamento ha raggiunto il massimo, lasciando una certa quantità di domanda scoperta. In questo caso, il sistema di pianificazione può chiudere l'approvvigionamento corrente e procedere a quello successivo.  
   
- La procedura inizia dappertutto con la domanda successiva e l'approvvigionamento corrente o viceversa. L'approvvigionamento corrente potrebbe essere in grado di soddisfare anche la domanda successiva o la domanda corrente se non è stata ancora interamente coperta.  
+   La procedura inizia dappertutto con la domanda successiva e l'approvvigionamento corrente o viceversa. L'approvvigionamento corrente potrebbe essere in grado di soddisfare anche la domanda successiva o la domanda corrente se non è stata ancora interamente coperta.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Regole concernenti azioni per gli eventi di approvvigionamento  
 Quando il sistema di pianificazione esegue un calcolo dall'alto verso il basso in cui l'approvvigionamento deve soddisfare la domanda, la domanda viene considerata come un dato di fatto, vale a dire che rimane fuori dal controllo del sistema di pianificazione. Tuttavia, il lato dell'approvvigionamento può essere gestito. Di conseguenza, il sistema di pianificazione suggerirà la creazione di nuovi ordini di approvvigionamento, la ripianificazione di quelli esistenti e/o la modifica della quantità dell'ordine. Se un ordine di approvvigionamento esistente diventa superfluo, il sistema di pianificazione ne suggerirà l'annullamento all'utente.  

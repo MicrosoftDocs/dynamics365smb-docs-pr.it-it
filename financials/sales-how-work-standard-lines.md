@@ -27,7 +27,7 @@ La seguente procedura illustra come utilizzare le righe di vendita standard. Fun
 ## <a name="to-set-up-standard-sales-lines"></a>Per impostare righe di vendita standard  
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Codici vendite standard**, quindi scegliere il collegamento correlato.  
 2. Nella finestra **Righe vendita standard** scegliere l'azione **Nuovo**.  
-3. Compilare i campi appropriati della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Compilare i campi appropriati della Scheda dettaglio **Generale**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Nella Scheda dettaglio **Righe**, immettere le informazioni nei campi per preparare le righe di vendita che riflettono le righe standard che si prevede di utilizzare come righe ricorrenti nei documenti di vendita.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Per inserire le righe di vendita standard in una fattura di vendita

@@ -24,24 +24,24 @@ FEFO (First-Expired-First-Out) è un metodo di ordinamento che assicura che veng
 
  La funzionalità può essere utilizzata solo quando vengono soddisfatti i seguenti criteri:  
 
--   L'articolo deve avere un numero seriale o di lotto.  
--   Nel setup del codice di tracciabilità dell'articolo è necessario selezionare il campo **Tracciab. NS in warehouse** o **Tracciab. lotto in warehouse**.  
--   L'articolo deve essere registrato in magazzino con una data di scadenza.  
--   Nella scheda Ubicazione, la casella di controllo **Richiesto prelievo** deve essere selezionata.  
--   Nella scheda ubicazione è necessario selezionare la casella di controllo **Prelievo in base a FEFO**.  
--   Nella scheda Ubicazione, la casella di controllo **Collocazione obbligatoria** deve essere selezionata.  
+- L'articolo deve avere un numero seriale o di lotto.  
+- Nel setup del codice di tracciabilità dell'articolo è necessario selezionare il campo **Tracciab. NS in warehouse** o **Tracciab. lotto in warehouse**.  
+- L'articolo deve essere registrato in magazzino con una data di scadenza.  
+- Nella scheda Ubicazione, la casella di controllo **Richiesto prelievo** deve essere selezionata.  
+- Nella scheda ubicazione è necessario selezionare la casella di controllo **Prelievo in base a FEFO**.  
+- Nella scheda Ubicazione, la casella di controllo **Collocazione obbligatoria** deve essere selezionata.  
 
- Una volta soddisfatti tutti i criteri, gli articoli con numeri seriali/di lotto da prelevare verranno ordinati con i più vecchi per primi in tutti gli prelievi e tutte le movimentazioni, ad eccezione degli articoli che utilizzano la tracciabilità NS specifico o lotto specifico.  
+  Una volta soddisfatti tutti i criteri, gli articoli con numeri seriali/di lotto da prelevare verranno ordinati con i più vecchi per primi in tutti gli prelievi e tutte le movimentazioni, ad eccezione degli articoli che utilizzano la tracciabilità NS specifico o lotto specifico.  
 
 > [!NOTE]  
 >  Se alcuni articoli con numeri seriali/di lotto utilizzano la tracciabilità specifica, questi vengono rispettati per primi e quindi vengono elencati i rimanenti numeri seriali/di lotto in base al metodo FEFO.  
 
  Se due articoli con numeri seriali o di lotto hanno la stessa data di scadenza, viene selezionato automaticamente quello con il numero di lotto o seriale inferiore. Se i numeri di lotto o seriali sono identici, viene selezionato automaticamente l'articolo registrato per primo.  
 
-> [!NOTE]  
->  -   Quando si prelevano articoli con numeri di serie o di lotto in ubicazioni impostate per stoccaggi e prelievi guidati, solo le quantità nelle collocazioni di tipo *Prelievo* vengono prelevate in base al metodo FEFO.  
-> -   Per abilitare le movimentazioni in base al metodo FEFO, nella finestra **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
-> -   Se il campo **Registrazione scadenza vincolante** è selezionato, solo gli articoli che non sono scaduti verranno inclusi nel prelievo. Ciò si applica anche se non viene utilizzata l'opzione Prelievo in base a FEFO.  
+> [!NOTE]
+> - Quando si prelevano articoli con numeri di serie o di lotto in ubicazioni impostate per stoccaggi e prelievi guidati, solo le quantità nelle collocazioni di tipo *Prelievo* vengono prelevate in base al metodo FEFO.  
+>   -   Per abilitare le movimentazioni in base al metodo FEFO, nella finestra **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
+>   -   Se il campo **Registrazione scadenza vincolante** è selezionato, solo gli articoli che non sono scaduti verranno inclusi nel prelievo. Ciò si applica anche se non viene utilizzata l'opzione Prelievo in base a FEFO.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Prelievo di articoli](warehouse-pick-items.md)   

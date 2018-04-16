@@ -59,6 +59,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
 Per implementare le modifiche del piano di approvvigionamento, è necessario seguire i messaggi di azione risultanti dal prospetto di pianificazione oppure dalla richiesta di approvvigionamento. Per ulteriori informazioni, vedere Pianificaz - Esegui mess. azione.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Simboli e icone nella Scheda dettaglio Sequenza temporale
+
  |Simbolo/Icona|Descrizione|  
  |------------------|---------------------------------------|  
  |Croce nera|Ordini (sia domanda che approvvigionamento).<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  

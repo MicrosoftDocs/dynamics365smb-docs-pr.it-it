@@ -36,7 +36,7 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
     Se esistono più modelli fornitore, verrà aperta una finestra nella quale sarà possibile selezionare un modello. In questo caso, seguire i due passaggi successivi.
 3. Nella finestra **Selezionare un modello per un nuovo fornitore** scegliere il modello da utilizzare per la nuova scheda fornitore.
 4. Scegliere il pulsante **OK**. Verrà visualizzata una nuova scheda fornitore con alcuni campi compilati con le informazioni del modello.
-5. Continuare a compilare o a modificare i campi della scheda fornitore in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Continuare a compilare o a modificare i campi della scheda fornitore in base alle necessità. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Se non si è certi che verrà utilizzato l'indirizzo di fatturazione per tutte le fatture di un fornitore, non compilare il campo **Pagare a**. Al contrario, scegliere il numero del pagamento al fornitore dopo avere impostato un'offerta in acquisto, un ordine o la testata di una fattura.
@@ -47,7 +47,7 @@ Se si desidera utilizzare questa scheda fornitore come modello quando si creano 
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Per salvare la scheda fornitore come modello
 1. Nella finestra **Scheda fornitore** scegliere l'azione **Salva come modello**. Nella finestra **Modello fornitore** verrà visualizzata la scheda fornitore come modello.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Verrà visualizzata la finestra **Modelli dimensioni** nella quale saranno indicati tutti i codici per le dimensioni che sono impostati per il fornitore.
 4. Modificare o immettere i codici di dimensione da collegare alle nuove schede fornitore create utilizzando la definizione.
 5. Una volta completato il nuovo modello fornitore, scegliere **OK**.  
