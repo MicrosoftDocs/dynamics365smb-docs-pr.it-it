@@ -1,1 +1,1 @@
-<span data-ttu-id="51b84-101">Selezionare il campo per visualizzare una breve descrizione del campo o il collegamento a ulteriori informazioni.</span><span class="sxs-lookup"><span data-stu-id="51b84-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="e89bd-101">Passare sul campo con il mouse per visualizzare una breve descrizione.</span><span class="sxs-lookup"><span data-stu-id="e89bd-101">Hover over a field to read a short description.</span></span>

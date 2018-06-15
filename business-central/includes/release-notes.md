@@ -1,0 +1,8 @@
+> [!IMPORTANT]
+> <span data-ttu-id="d3304-101">**Annuncio delle note sulla versione di Dynamics 365 di aprile 2018**</span><span class="sxs-lookup"><span data-stu-id="d3304-101">**Announcing the Dynamics 365 April '18 release notes**</span></span>
+>
+> <span data-ttu-id="d3304-102">Vuoi sapere quali sono le funzionalità imminenti e rilasciate di recente in una delle nostre app o piattaforme aziendali?</span><span class="sxs-lookup"><span data-stu-id="d3304-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span>
+>
+> <span data-ttu-id="d3304-103">[Scarica le note sulla versione di aprile 2018](https://go.microsoft.com/fwlink/?linkid=870424).</span><span class="sxs-lookup"><span data-stu-id="d3304-103">[Download the April '18 release notes](https://go.microsoft.com/fwlink/?linkid=870424).</span></span> <span data-ttu-id="d3304-104">Tutti i dettagli completi sono stati raccolti in un unico PDF che è possibile utilizzare per la pianificazione.</span><span class="sxs-lookup"><span data-stu-id="d3304-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span>  
+>
+> <span data-ttu-id="d3304-105">**Presto disponibile**: continueremo ad aggiornare il PDF delle note di rilascio man mano che le funzioni vengono rese disponibili, le note saranno disponibili anche in una pagina Web.</span><span class="sxs-lookup"><span data-stu-id="d3304-105">**Coming soon**: We'll keep updating the Release notes PDF as features ship, and will also make them available on a web page.</span></span> 
