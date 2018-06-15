@@ -10,69 +10,72 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/02/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5f3557de5d69b8f64f85fabe4a60ecbddef276eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a86d58c81bdee20ffd33273ca069d9fae640df96
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Estensione di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-L'utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come piattaforma per sviluppatori di app offre numerosi vantaggi:
+Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] è una soluzione di gestione aziendale che aiuta le aziende a connettere dati finanziari, dati di vendite, servizi e operazioni per snellire i processi aziendali, migliorare le interazioni con i clienti e prendere decisioni migliori. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] è disponibile nel cloud e per gli utenti su vari tipi di dispositivi, sempre aggiornato. Questa moderna piattaforma aziendale consente di personalizzare, ampliare e creare applicazioni in modo semplice e rapido per rispondere a esigenze specifiche, con sviluppo di codice minimo o praticamente nullo.  
 
-* Possibilità di migliorare [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], una comprovata soluzione online di Microsoft, sfruttando le proprie competenze  
-* Trarre vantaggio dal marchio Business Central, che milioni di utenti conoscono e di cui si fidano  
-* Raggiungere più clienti per le app aziendali grazie a [Microsoft AppSource](https://appsource.microsoft.com/)  
+L'utilizzo di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] come piattaforma per sviluppatori di app offre numerosi vantaggi, tra cui:
+
+* Inizio in sicurezza grazie a un'esperienza di onboarding ottimizzata 
+* Utilizzo dei servizi Go-To-Market di Microsoft
+* Personalizzazzione della pagina di presentazione delle app 
+* Connessione diretta con i responsabili delle decisioni e interazioni con più clienti
+* Miglioramento del valore aziendale e aumento del volume delle operazioni commerciali con i clienti esistenti e nuovi
 * Ottenere maggiori risultati con una piattaforma che una offre scalabilità ed esperienze moderne  
+* Accesso a informazioni utili sulle prestazioni delle inserzioni tramite il portale dei partner cloud o il processo di pubblicazione delle app di Office
 * Possibilità di offrire bundle con app aziendali intelligenti come PowerApps, Flow, Power BI, Cortana Intelligence e molte altre  
 
-## <a name="to-bring-your-included365finincludesd365finmdmd-app-into-appsource"></a>Per pubblicare l'app [!INCLUDE[d365fin](includes/d365fin_md.md)] in AppSource:
-+ Creare gli account necessari  
-Microsoft desidera che i partner possano accedere a tutti gli strumenti necessari. A tal fine, è necessario un ID Microsoft Partner Network, un account come sviluppatore e un account Partner Source Business Center (PSBC).
-Per ulteriori informazioni su come ottenere questi account, scaricare il documento [Creare gli account.pdf](https://go.microsoft.com/fwlink/?linkid=841514) dal Download Center.
+È possibile presentare i servizi [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft AppSource come: 
 
-+ Comunicare la propria idea sull'app  
-Condividere l'idea dell'app [!INCLUDE[d365fin](includes/d365fin_md.md)] con Microsoft AppSource. Dopo la presentazione dell'idea, verrà fornito tutto il necessario per iniziare a lavorare sull'app.
-Per ulteriori informazioni su tutti i passaggi, scaricare il documento [Comunicare l'idea dell'app.pdf](https://go.microsoft.com/fwlink/?linkid=841515) dal Download Center.
+**Singole app**: per offrire sul mercato la propria esperienza del settore.  
+**Pacchetti di servizi di consulenza**: per offrire sul mercato pacchetti di servizi predefiniti.
 
-+ Sviluppare gli aspetti tecnici dell'app    
-Dopo aver impostato il proprio ambiente di sviluppo per l'app, è possibile realizzare l'app.
-Per ulteriori informazioni su quanto necessario conoscere sugli aspetti tecnici dell'app [!INCLUDE[d365fin](includes/d365fin_md.md)], scaricare il documento [Sviluppare gli aspetti tecnici dell'app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) dal Download Center.
+I nuovi strumenti di sviluppo consentono di creare estensioni per utenti di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Se si desidera acquisire familiarità con i nuovi strumenti oppure ottenere informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
-+ Sviluppare gli aspetti di marketing dell'app  
-Elencare le caratteristiche e la funzionalità dell'app non sarà necessario per convertire i potenziali clienti in acquirenti. Per ulteriori informazioni su come migliorare la proposta di mercato per l'app in AppSource, scaricare il documento [Sviluppare gli aspetti di marketing dell'app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) dal Download Center.
+Maggiori informazioni su quali app e servizi di consulenza sono attualmente disponibili su [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-+ Pubblicare l'app  
-Prima della pubblicazione, Microsoft collaborerà con il partner per assicurarsi che l'app risulti in evidenza in Microsoft AppSource e nella pagina di destinazione del partner. È necessario convalidare l'app per assicurarsi dell'efficacia del marketing, dell'affidabilità e dell'aggiornamento.
-Per ulteriori informazioni sul processo di convalida e sulle modalità di pubblicazione dell'app, scaricare il documento [Pubblicare l'app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) dal Download Center.
+Per aiutare gli utenti business a iniziare rapidamente, Microsoft ha aggiunto un catalogo di servizi di consulenza per soluzioni basate su [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI e PowerApps in AppSource. Ulteriori informazioni sui [Servizi di consulenza](/dynamics-nav/developer/readiness/readiness-consulting).
 
-## <a name="learn-more-about-extensions-v20"></a>Ulteriori informazioni sulle estensioni v2.0
-I nuovi strumenti di sviluppo, che consentono di creare estensioni v2.0, sono attualmente in anteprima e saranno presto abilitati nel servizio Business Central. Se si desidera acquisire familiarità con i nuovi strumenti o ottenere altre informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+## <a name="choosing-which-services-to-offer-with-included365finlongincludesd365finlongmdmd"></a>Scelta dei servizi da offrire con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
 
-## <a name="need-help"></a>Ulteriore assistenza
-Per ulteriore supporto o consulenza, è possibile contattare gli esperti di sviluppo app come indicato di seguito:
+### <a name="integrate-a-3rd-party-solution"></a>Integrare una soluzione di terze parti
+[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] espone molte API pronte all'uso per le [app Connect](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) per un'integrazione perfetta tra il servizio e [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. È possibile creare un pacchetto di servizi con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] e offrire ai clienti un'esperienza completa. Ulteriori informazioni sull'[integrazione di una soluzione di terze parti](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
 
-* Cloud Ready Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
-* Dynamics App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
+### <a name="development-of-a-vertical-solution"></a>Sviluppo di una soluzione verticale
+È possibile creare un'app specializzata per un settore specifico. Con l'app [Incorpora](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps), si può estendere e personalizzare l'applicazione [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] esistente e migliorare l'esperienza dell'utente finale con una funzionalità specifica del settore utilizzando i nuovi e moderni strumenti di sviluppo e le estensioni della versione 2.0. Ulteriori informazioni sullo [sviluppo di una soluzione verticale](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
-I partner in elenco:
+### <a name="development-of-a-horizontal-solution"></a>Sviluppo di una soluzione orizzontale
+Si possono estendere l'esperienza e le capacità di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] creando un'[app aggiuntiva](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) che si integra nell'esperienza utente di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Creare un'interfaccia basata sull'aspetto che si desidera abbia il flusso di dati tra [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] e i propri servizi. Ulteriori informazioni sullo [sviluppo di una soluzione orizzontale](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
 
-* Sono elencati in ordine alfabetico  
-* Hanno fornito o stanno fornendo assistenza a un minimo di tre partner per la pubblicazione di app in Microsoft AppSource  
-* Offrono un pacchetto di servizio di assistenza (riportato nel rispettivo sito Web) correlato al servizio di supporto app che offrono  
+### <a name="development-of-a-localization-solution"></a>Sviluppo di una soluzione di localizzazione
+Si può garantire la conformità alle normative locali sviluppando app per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] con aree funzionali adattate ai requisiti del mercato locale con il [servizio di traduzione di Dynamics 365](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Allineare le funzionalità principali dei requisiti legislativi locali ed estendere le funzionalità esistenti per competere con successo nel mercato locale. Ulteriori informazioni sullo [sviluppo di una soluzione localizzata](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
-Se si ritiene di dover essere elencati come partner di supporto per le app, non esitare a contattare [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+### <a name="reseller-solution"></a>Soluzione per rivenditori
+Poiché ogni azienda è unica, la [personalizzazione dei tenant](/dynamics-nav/developer/readiness/readiness-customizing-tenants) consente di abbinare il modo in cui si lavora con i processi ottimizzati, la terminologia e il modo in cui i dipendenti o i reparti si connettono e collaborano. Inoltre, è possibile scegliere di rivendere e adattare [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] alle singole esigenze dei propri clienti fornendo [servizi di consulenza](/dynamics-nav/developer/readiness/readiness-consulting). In alternativa, si può utilizzare Microsoft Flow, Power Apps e Power BI per creare [flussi personalizzati](/dynamics-nav/developer/readiness/readiness-no-code), oltre ad app e report con business insight senza dover scrivere alcun codice. Ulteriori informazioni sui [rivenditori di Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
 
-## <a name="questions"></a>Domande?
-Le [domande frequenti](https://go.microsoft.com/fwlink/?linkid=841520) offrono risposta alle domande più comuni sulle app per [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. In caso di ulteriori domande, non esitare a contattare il rappresentate Microsoft locale o l'indirizzo di posta elettronica [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+## <a name="where-do-i-learn-more"></a>Dove si trovano altre informazioni?
+Per ulteriori informazioni sulle offerte di servizi di consulenza Microsoft AppSource, selezionare i seguenti collegamenti: 
 
-## <a name="further-resources"></a>Ulteriori risorse
-La [pagina degli argomenti DLP](https://mbspartner.microsoft.com/BFI/Topic/76) offre ulteriori risorse per lo sviluppo di app. Alcuni argomenti selezionati sono disponibili di seguito:
--   [Registrazione dell'utente e fatturazione successiva ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+[Offerte AppSource Consulting](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[Idoneità dei partner](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
+[Modulo di presentazione per i partner](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
 
+## <a name="the-ready-to-go-program"></a>Programma Ready to Go
+Il programma Ready to Go è progettato per supportare i partner nell'inserimento delle offerte per Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Appsource. Il programma offre: 
 
+- [Formazione online](http://aka.ms/ReadyToGoOnlineLearning)
+- [Training e workshop](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
+- [Piattaforma di collaborazione Microsoft](http://aka.ms/Collaborate)
+
+Per ulteriori informazioni su come sviluppare un'offerta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], consultare i dettagli del [programma Ready to Go](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Per domande o feedback sul programma **Ready to Go**, [contattatare Microsoft](mailto:dyn365bep@microsoft.com). 
 
 ## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64a41b5fbb3452c158c8f77b2f73b661b714522f
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 246e6fa65de1d638715d16ee76c0c60a88c44cec
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Personalizzazione dell'area di lavoro
@@ -73,11 +73,11 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 -   Quando si apportano modifiche a una pagina schede avviata da un elenco, le modifiche diventeranno effettive in tutti i record a cui si accede dalla lista. Ad esempio, si apre un cliente specifico da una pagina elenco Clienti e quindi si personalizza la pagina aggiungendo un campo. Quando si aprono altri clienti dall'elenco, il campo aggiunto verrà visualizzato anche per questi clienti.
 -   Le modifiche effettuate diventeranno effettive in tutte le Gestioni ruolo utente. Ad esempio, se si effettua una modifica all'elenco Cliente quando la Gestione ruolo utente è impostata su Manager aziendale, le modifiche verranno visualizzate anche nell'elenco cliente quando Gestione ruolo utente è impostata su Gestore ordini vendite.
 -   Le modifiche a una pagina in un riquadro diventeranno effettive nella pagina ovunque viene visualizzata.  
--   È possibile aggiungere solo i campi e le colonne da una lista predefinita, che è basata sulla pagina. Non è possibile crearne di nuovi.
+-   È possibile aggiungere solo i campi e le colonne da una lista predefinita, che è basata sulla pagina. Non è possibile creare nuovi campi.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione della personalizzazione](ui-personalization-manage.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
-[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Modifica delle funzionalità visualizzate](ui-experiences.md)  
 

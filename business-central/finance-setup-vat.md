@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Per impostare i numeri di partita VAT, attenersi a questa procedura:
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
 
-    |----|----| | # | Richiede un numero a una cifra. | | @ | Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole. | | ? | Permette qualsiasi carattere. |
+* # <a name="--requires-a-single-digit-number"></a>- Richiede un numero a una cifra.
+* @ - Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole.
+* ? - Permette qualsiasi carattere.
 
     > [!Tip]
     > È possibile utilizzare altri caratteri purché siano sempre presenti nel formato del paese. Ad esempio, se è necessario includere un punto o un trattino tra i set di numeri, è possibile definire il formato come ##.####.### o @@-###-###.  

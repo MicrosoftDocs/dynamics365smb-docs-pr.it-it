@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -24,33 +24,33 @@ In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida
 ## <a name="overview"></a>Sintesi
 I tasti di scelta rapida agevolano l'accessibilità e semplificano e rendono più efficace la navigazione in differenti aree e elementi in una pagina.
 
-I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web; tuttavia il comportamento può variare leggermente.
+I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web, tuttavia, il comportamento può variare leggermente.
 
 I tasti di scelta rapida qui descritti fanno riferimento al layout di tastiera statunitense. Il layout dei tasti su altri tipi di tastiere potrebbe non corrispondere esattamente alla disposizione dei tasti su una tastiera statunitense.
 
+Molte delle scelte rapide sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti per macOS. Questi sono indicati nelle parentesi nelle tabelle nelle sezioni che seguono.
+
 ##  <a name="Keyboard"></a> Tasti di scelta rapida generali
-Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazione e l'accesso a differenti elementi di una pagina, come azioni, elenchi a discesa e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva. 
+Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazione e l'accesso a differenti elementi di una pagina, come azioni, elenchi a discesa e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva.
 
 |Premere questi tasti|Operazione da eseguire|  
 |----------------|-----------|  
-|TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.| 
+|TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio pulsanti, campi o intestazioni di elenchi.|   
 |Invio|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|   
 |ALT + freccia GIÙ|Aprire un elenco a discesa o cercare un valore per un campo.|    
 |ALT + freccia DESTRA|Visualizzare le transazioni restituite in un valore calcolato in un campo.|  
+|ESC|Chiudere la pagina corrente o il menu a discesa.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
 
 Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile utilizzare in una pagina elenco. L'azione di scelta rapida è leggermente diversa a seconda se la pagina viene visualizzata nella visualizzazione elenco o nella visualizzazione pagina.
 
-Molte delle scelte rapide sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti. Anche queste sono indicate in parentesi nella tabella.
+> [!Note]
+> Nella tabella che segue, il termine *campo azionabile* fa riferimento a un campo in cui è possibile eseguire un'azione, come modificare un valore o creare un collegamento a un'altra pagina. In genere, le scelte rapide ignorano i campi che visualizzano informazioni che non è possibile modificare dall'elenco (in altre parole, campi di sola lettura).
 
->[!Note]
->Nella tabella che segue, il termine *campo azionabile* fa riferimento a un campo in cui è possibile eseguire un'azione, come modificare un valore o creare un collegamento a un'altra pagina. In genere, le scelte rapide ignorano i campi che visualizzano informazioni che non è possibile modificare dall'elenco (in altre parole, campi di sola lettura).
-
-
-|Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione elenco |Osservazioni|
+|Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione pagina |Osservazioni|
 |-----------------|-------|-------|-------|
 |Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |  | 
 |Freccia GIÙ|Spostare il cursore nella stessa colonna sul campo nella riga sotto. |Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. | |
@@ -75,8 +75,25 @@ Molte delle scelte rapide sono uguali indipendentemente dal sistema operativo ut
 |MAIUSC+PGGIÙ<br />(MAIUSC+Fn+freccia GIÙ)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile||
 |Ctrl+Enter|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Tasti di scelta rapida nel calendario (selezione data)
+Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
+
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|-----------------|-------|
+|Pagina su|Spostare il cursore al mese precedente.|  
+|Pagina giù|Spostare il cursore al mese successivo.|
+|CTRL+HOME|Aprire il calendario se chiuso.|
+|CTRL+HOME<br />(Cmd+HOME)|Spostare il cursore al mese corrente, al giorno corrente.|
+|CTRL+Freccia SINISTRA<br />(Cmd+Freccia SINISTRA)|Sposta il cursore al giorno precedente.|
+|CTRL+Freccia DESTRA<br />(Cmd++Freccia DESTRA)|Spostare il cursore al giorno successivo.|
+|CTRL+Freccia SU<br />(Cmd+Freccia SU)|Spostare il cursore alla settimana precedente, lo stesso giorno della settimana.|
+|CTRL+Freccia GIÙ<br />(Cmd+Freccia GIÙ)|Spostare il cursore alla settimana successiva, lo stesso giorno della settimana.|
+|Invio|Selezionare la data attiva.|
+|CTRL+FINE<br />(Cmd+FINE)|Chiudere il calendario ed eliminare la data corrente.|
+|ESC|Chiudere il calendario senza una selezione, mantenere la data corrente.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

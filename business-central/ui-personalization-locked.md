@@ -11,10 +11,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 09/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5a8cfafe710e988cd0217db4b2f0c298c4c577e
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Perché la personalizzazione di una pagina è bloccata
@@ -32,5 +32,5 @@ La pagina attualmente include le ultime modifiche di personalizzazione effettuat
 [Gestione della personalizzazione](ui-personalization-manage.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
-[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Modifica delle funzionalità visualizzate](ui-experiences.md)  
 

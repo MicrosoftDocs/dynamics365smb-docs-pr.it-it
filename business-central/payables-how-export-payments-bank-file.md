@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/28/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 88406936af640a2ec31f099fcae8bf039b64ecf3
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Esportare pagamenti in un file della banca
@@ -28,41 +28,33 @@ Nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)], viene in
 Per visualizzare i file di pagamento che sono stati esportati dalle registrazioni pagamenti, si utilizza la finestra **Registri di bonifici**. Da questa finestra è inoltre possibile riesportare i file di pagamento in caso di errori tecnici o di modifiche al file. Si noti, tuttavia, che i file esportati EFT non sono visualizzati in questa finestra e non possono essere riesportati.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Per esportare pagamenti in un file della banca
+Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
+
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni pagamenti**, quindi scegliere il collegamento correlato.
-2. Compilare le righe di registrazione pagamenti, utilizzando la funzione **Sugg. pagamenti fornitore**. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
-3. Compilare tutti i campi nelle righe delle registrazioni dei pagamenti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare le righe di registrazione pagamenti. Per ulteriori informazioni, vedere [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
 >   Se si utilizza EFT, è necessario selezionare **Pagamento elettronico** o **Pagamento elettronico IAT** nel campo **Tipo pagamento banca**. Servizi di esportazione file diversi e i rispettivi formati richiedono valori di configurazione differenti nelle finestre **Scheda conto corrente bancario** e **Scheda C/C bancari fornitori**. Si verrà informati sui valori di setup mancanti o non corretti mentre si tenta di esportare il file.
 
-4. Una volta completate tutte le righe di registrazione pagamenti, scegliere l'azione **Esporta pagamenti su file**.
-5. Nella finestra **Esporta pagamenti elettronici** compilare i campi secondo le necessità.
+3. Una volta completate tutte le righe di registrazione pagamenti, scegliere l'azione **Esporta pagamenti su file**.
+4. Nella finestra **Esporta pagamenti elettronici** compilare i campi secondo le necessità.
 
     Tutti i messaggi di errore verranno visualizzati nel riquadro Dettaglio informazioni di **Errori nel file di pagamento** dove è anche possibile scegliere un messaggio di errore per visualizzare informazioni dettagliate. È necessario risolvere tutti gli errori prima di esportare il file di pagamento.
 
     > [!TIP]  
     >   Quando si utilizza il servizio di conversione dati bancari, un messaggio di errore comune informa che il numero di conto corrente bancario non ha la lunghezza richiesta dalla banca. Per evitare o risolvere l'errore, è necessario rimuovere il valore nel campo **IBAN** nella finestra **Scheda conto corrente bancario**, quindi nel campo **Nr. conto bancario** , immettere un numero di conto corrente bancario nel formato richiesto dalla banca.
 
-6. Nella finestra **Salva con nome** specificare il percorso in cui verrà esportato il file e scegliere **Salva**.
+5. Nella finestra **Salva con nome** specificare il percorso in cui verrà esportato il file e scegliere **Salva**.
 
     > [!NOTE]  
     >   Se si utilizza EFT, salvare il modulo della risultante rimessa del fornitore come documento di Word o selezionare in modo che venga inviato tramite posta elettronica direttamente al fornitore. I pagamenti sono ora aggiunti alla finestra **Genera file EFT** da cui è possibile generare più ordini di pagamento contemporaneamente per ridurre i costi di trasmissione. Per ulteriori informazioni, vedere i seguenti passaggi:
-7. Nella finestra **Registrazioni pagamenti** selezionare l'azione **Genera file EFT**.
+6. Nella finestra **Registrazioni pagamenti** selezionare l'azione **Genera file EFT**.
 
     Nella finestra **Genera file EFT** tutti i pagamenti impostati per EFT esportati dalle registrazioni pagamento per un conto corrente bancario specificato ma non ancora generati sono elencati nella Scheda dettaglio **Righe**.
-8. Scegliere l'opzione l'azione **Genera file EFT** per esportare un file per tutti i pagamenti EFT.
-9. Nella finestra **Salva con nome** specificare il percorso in cui verrà esportato il file e scegliere **Salva**.
+7. Scegliere l'opzione l'azione **Genera file EFT** per esportare un file per tutti i pagamenti EFT.
+8. Nella finestra **Salva con nome** specificare il percorso in cui verrà esportato il file e scegliere **Salva**.
 
 Il file di pagamento bancario viene esportato verso il percorso specificato, quindi è possibile procedere a caricarlo nel conto corrente bancario elettronico ed effettuare i pagamenti effettivi. Sarà quindi possibile registrare le righe esportate delle registrazioni pagamenti.
-
-## <a name="to-export-payments-that-represent-customer-refunds"></a>Per esportare i pagamenti che rappresentano rimborsi del cliente
-Di seguito viene descritto un'azione alternativa per l'esportazione dei pagamenti elettronici di rimborso.
-
-> [!CAUTION]  
->   Le risultanti righe delle registrazioni pagamenti non possono essere registrate, eliminate o annullate.
-1. Impostare il cliente come fornitore. Denominarlo "Cliente X per rimborsi", ad esempio. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).
-2. Nella riga delle registrazioni pagamenti per i clienti, impostare il campo **Tipo conto** su **Cliente** e il campo **Tipo documento** su **Rimborso**.
-3. Eseguire i passaggi normali per l'esportazione del pagamento come descritto nella sezione "Per esportare pagamenti in un file della banca".
 
 ## <a name="to-plan-when-to-post-exported-payments"></a>Per pianificare quando registrare i pagamenti esportati
 Se non si desidera registrare una riga di registrazione pagamenti per un pagamento esportato, ad esempio perché si sta attendendo la conferma che la transazione sia stata lavorata dalla banca, è possibile eliminare la riga di registrazione. Quando in seguito si crea una riga di registrazione pagamenti per pagare l'importo residuo nella fattura, il campo **Importo totale esportato** visualizza la quantità dell'importo pagamento già esportata. Inoltre, è possibile trovare informazioni dettagliate sul totale esportato scegliendo il pulsante **Movimenti dei registri di bonifici** per visualizzare i dettagli relativi ai file di pagamento esportati.
@@ -84,6 +76,7 @@ Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **S
 2. Selezionare un'esportazione pagamento che si desidera riesportare quindi scegliere l'azione **Riesporta pagamenti su file**.
 
 ## <a name="see-also"></a>Vedi anche
+[Effettuare i pagamenti](payables-make-payments.md)  
 [Contabilità fornitori](payables-manage-payables.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

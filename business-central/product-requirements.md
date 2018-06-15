@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 41788b3fb69c9294990a06643e855f4082c750ab
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: a1910acdfb80de7a7e6a4d1b701bf1108b384996
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
@@ -36,6 +36,9 @@ Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di
 **Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2013 o versione successiva, Outlook Web App, OWA per iPhone, OWA per iPad oppure OWA per Android.  
 **Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook Web App (OWA), il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in OWA per iPhone, OWA per iPad e OWA per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="excel"></a>Excel
+**Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario Excel 2016 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  

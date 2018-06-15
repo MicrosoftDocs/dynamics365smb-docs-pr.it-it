@@ -1,6 +1,6 @@
 ---
 title: Utilizzo dell'estensione di migrazione dati C5 | Documenti Microsoft
-description: "Utilizzare questa estensione per migrare clienti, fornitori, articoli e conti di contabilità generale da Microsoft Dynamics C5 2012 a Financials."
+description: "Utilizzare questa estensione per migrare clienti, fornitori, articoli e conti di contabilità generale da Microsoft Dynamics C5 2012 a Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Questa estensione consente di migrare facilmente clienti, fornitori, articoli e 
 > [!Note]
 > La società in [!INCLUDE[d365fin](includes/d365fin_md.md)] non deve contenere alcun dato. Inoltre, una volta avviata una migrazione, non creare clienti, fornitori, articoli o conti fino al termine della migrazione.
 
-##<a name="what-data-is-migrated"></a>Quali dati vengono migrati?
+## <a name="what-data-is-migrated"></a>Quali dati vengono migrati?
 I seguenti dati vengono migrati per ogni entità:
 
 **Clienti**
@@ -86,6 +86,13 @@ Se si migrano i conti, anche i seguenti dati vengono migrati:
 > [!Note]
 > Se esistono transazioni aperte che usano valute estere, vengono migrati anche i tassi di cambio per queste valute. Altri tassi di cambio non sono migrati.
 
+**Piano dei conti**  
+* Dimensioni standard: reparto, scopo e centro di costo  
+* Transazioni storiche C/G  
+
+> [!Note]
+> Le transazioni storiche C/G vengono trattate in modo diverso. Quando si migrano i dati si imposta un parametro **Periodo corrente**. Questo parametro consente di elaborare le transazioni C/G. Le transazioni dopo questa data vengono migrate singolarmente. Le operazioni precedenti alla data vengono aggregate per conto e migrate come importo singolo. Ad esempio, sono presenti transazioni nel 2015, 2016, 2017, 2018 e si specifica il 1° gennaio 2017 nel campo Periodo corrente. Per ogni conto, gli importi per le transazioni il 31 dicembre 2106 o in data precedente verranno aggregate in un'unica riga del giornale di registrazione generale per ciascun conto C/G. Tutte le transazioni dopo questa data verranno migrate singolarmente.
+
 ## <a name="to-migrate-data"></a>Per migrare i dati
 Sono necessari solo alcuni passaggi per esportare i dati da C5 e importarli in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Utilizzare la pagina **Sintesi migrazione dati** per monitorare il successo dell
 
 > [!Note]
 > Mentre si attendono i risultati della migrazione, è necessario aggiornare la pagina per visualizzare i risultati.
+
+## <a name="how-to-avoid-double-posting"></a>Come evitare la doppia registrazione
+Per evitare la doppia registrazione in contabilità generale, vengono utilizzati i seguenti conti di contropartita per le transazioni aperte:  
+  
+* Per i fornitori, si usa il conto v/fornitori della categoria di registrazione fornitori.  
+* Per i clienti, si usa il conto v/clienti della categoria di registrazione clienti.  
+* Per gli articoli, si crea una registrazione COGE dove il conto di rettifica è il conto specificato come conto relativo al magazzino nel setup della registrazione magazzino.  
 
 ## <a name="correcting-errors"></a>Correzione degli errori
 Se si verifica un errore, il campo **Stato** mostrerà **Completato con errori**, quindi il campo **Numero di errori** mostrerà il numero degli errori. Per visualizzare un elenco degli errori, è possibile aprire la pagina **Errori di migrazione dati** scegliendo:  
@@ -119,13 +133,12 @@ Nella pagina **Errori di migrazione dati**, per correggere un errore è possibil
 ## <a name="verifying-data-after-migrating"></a>Verifica dei dati dopo la migrazione
 Un modo per verificare che i dati siano stati migrati correttamente consiste nell'esaminare le seguenti pagine in C5 e [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Movimenti clienti| Registrazioni COGE|
-|Movimenti fornitori| Registrazioni COGE|
-|Mov. Articoli| Registrazioni magazzino|
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], il batch per i dati migrati è denominato **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Processo batch da usare |
+|-----|-----|-----|
+|Movimenti clienti| Registrazioni COGE| CUSTMIGR |
+|Movimenti fornitori| Registrazioni COGE| VENDMIGR|
+|Mov. Articoli| Registrazioni magazzino| ITEMMIGR |
+|Movimenti C/G| Registrazioni COGE| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Interruzione della migrazione dei dati
 È possibile interrompere la migrazione dei dati scegliendo **Interrompi tutte le migrazioni**. In tal caso, tutte le migrazioni in sospeso vengono interrotte.

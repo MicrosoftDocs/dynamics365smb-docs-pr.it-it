@@ -1,22 +1,20 @@
 ---
-title: Utilizzare le situazioni contabili| Documenti Microsoft
+title: Generare report finanziari con le situazioni contabili
 description: Descrive come utilizzare le situazioni contabili per creare le visualizzazioni e i report per analizzare i dati finanziari.
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Utilizzare le situazioni contabili
@@ -72,7 +70,98 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 8. Fare clic sulla Scheda dettaglio **Filtri dimensione** e impostare il filtro budget con il nome di filtro desiderato.  
 9. Scegliere il pulsante **OK**.  
 
-Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.
+Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Confronto dei periodi contabili con le formule periodo
+La situazione contabile consente di confrontare i risultati di diversi periodi contabili, ad esempio mese corrente rispetto allo stesso mese dell'anno precedente. Per fare ciò, aggiungere una colonna con il campo **Formula confronto periodo** quindi impostare tale campo su una formula periodo.  
+
+Un periodo contabile non deve corrispondere esattamente al calendario, ma ogni anno fiscale deve avere lo stesso numero di periodi contabili, che possono tuttavia avere una durata distinta.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] usa la formula periodo per calcolare l'importo dal periodo di confronto in relazione al periodo rappresentato dal filtro data nella richiesta del report. Il periodo di confronto si basa sul periodo indicato dalla data di inizio del filtro data. Le abbreviazioni per l'indicazione dei periodi sono:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Abbreviazione</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Periodo</p></td>
+</tr>
+<tr class="even">
+<td><p>UP</p></td>
+<td><p>Ultimo periodo di un trimestre, semestre o anno fiscale.</p></td>
+</tr>
+<tr class="odd">
+<td><p>CP</p></td>
+<td><p>Periodo corrente di un trimestre, semestre o anno fiscale.</p></td>
+</tr>
+<tr class="even">
+<td><p>AF</p></td>
+<td><p>Anno fiscale. Ad esempio, AF[1..3] indica il primo trimestre dall'anno fiscale corrente</p></td>
+</tr>
+</tbody>
+</table>
+
+Esempi di formule
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formula</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Vuoto&gt;</p></td>
+<td><p>Periodo corrente</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Periodo precedente</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[1..LP]</p></td>
+<td><p>Intero anno fiscale precedente</p></td>
+</tr>
+<tr class="even">
+<td><p>-1AF</p></td>
+<td><p>Periodo corrente nel precedente anno fiscale</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[1..3]</p></td>
+<td><p>Primo trimestre dell'anno fiscale trascorso</p></td>
+</tr>
+<tr class="even">
+<td><p>-1AF[1..CP]</p></td>
+<td><p>Dall'inizio dell'anno fiscale trascorso al periodo corrente dell'anno fiscale trascorso compreso</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1AF[CP..LP]</p></td>
+<td><p>Dal periodo corrente dell'anno fiscale trascorso all'ultimo periodo dell'anno fiscale trascorso compreso</p></td>
+</tr>
+</tbody>
+</table>
+
+Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necessario invece immettere una formula nel campo **Formula confronto data**.
+
+> [!NOTE]
+> Non è sempre trasparente quali periodi si stanno confrontando perché è possibile impostare un filtro per data su un report che si estende su date diverse rispetto ai periodi contabili che si riflettono nei dati nel piano dei conti. Ad esempio, si crea una situazione contabile in cui si desidera confrontare il periodo corrente con lo stesso periodo dell'anno precedente, quindi si imposta il campo **Filtro periodo di confronto** su *-1AF*. Quindi, si esegue il report il 28 febbraio e si imposta il filtro della data su gennaio e febbraio. Di conseguenza, la situazione contabile confronta gennaio e febbraio di quest'anno con gennaio dell'anno scorso, che è l'unico periodo contabile completato dei due per l'anno prima.  
+
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  

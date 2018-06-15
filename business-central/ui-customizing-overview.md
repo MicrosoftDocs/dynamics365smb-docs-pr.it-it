@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Personalizzazione di Business Central
@@ -25,7 +25,7 @@ Sono disponibili diversi metodi per personalizzare l'applicazione per consentire
 | Operazione    |  Description  |  Utente che visualizza le modifiche  |  Ulteriori informazioni  |
 |-----|---------------|---------|-------|
 |Installare un'estensione|Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione utilizzando le estensioni](ui-extensions.md)|
-|Cambiare l'esperienza|L'impostazione **Esperienza** determina il livello di funzionalità visualizzata nell'interfaccia utente. Scegliere tra Base, Essenziale e Premium.|Tutti gli utenti in una specifica società.|[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)|
+|Modificare gli elementi dell'interfaccia utente visibili.|L'impostazione **Esperienza** determina il livello di funzionalità visualizzata nell'interfaccia utente. Scegliere tra Base, Essenziale e Premium.|Tutti gli utenti in una specifica società.|[Modifica delle funzionalità visualizzate](ui-experiences.md)|
 |Personalizzare l'area di lavoro|Modificare il layout e il contenuto delle pagine.|Solo l'utente corrente.|[Personalizzazione dell'area di lavoro](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Vedi anche

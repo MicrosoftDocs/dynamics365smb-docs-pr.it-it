@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 56045e317a06e5c40a5421e17a01b8a7862d8b5c
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -42,7 +42,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Finanze](finance.md)    
 [Uso di Financials come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
-[Importazione dei dati da altri sistemi contabili](upload-data.md)  
+[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

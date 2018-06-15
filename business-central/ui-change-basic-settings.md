@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
-Nella finestra **Impostazioni personali** è possibile vedere e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Nella finestra **Impostazioni personali** è possibile vedere e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche apportate interesseranno solo l'area di lavoro dell'utente, non quello di altri utenti.  
 
 ## <a name="role-center"></a>Gestione ruolo utente
-Gestione ruolo utente rappresenta la pagina iniziale ed è progettata per le esigenze del ruolo. La Gestione ruolo utente fornisce una panoramica dell'azienda e riflette informazioni, task e priorità del ruolo.
+Gestione ruolo utente rappresenta la home page, una schermata iniziale che è progettata per le esigenze di un ruolo specifico dell'organizzazione. A seconda del ruolo, Gestione ruolo utente offre una panoramica del business, del reparto o dei task personali. Agevola anche l'esplorazione dei task quotidiane e la ricerca del lavoro assegnato.
 
-Nella parte superiore della Gestione ruolo utente, è visualizzata una barra di spostamento che consente di accedere facilmente alle entità tipiche per il ruolo, ad esempio clienti, fornitori, articoli e così via.
+-   Nella parte superiore, lo spostamento consente di esplorare clienti, fornitori, articoli e altri importanti elenchi di informazioni. In modo simile, le azioni consentono di avviare task, come creare una nuova fattura di vendita, direttamente da Gestione ruolo utente.
 
-Il contenuto visualizzato nell'area di contenuto principale dipenderà dalla Gestione ruolo utente specifica. Ad esempio, nella maggior parte delle Gestioni ruolo utente, vi sono dei riquadri Attività che mostrano i dati correnti. È possibile fare clic su di essi o toccarli per accedere facilmente al documento selezionato. È possibile impostare degli indicatori delle prestazioni chiave (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi. Alcune Gestioni ruolo utente consentono di creare un elenco di entità preferite, come clienti e fornitori, o mostrano Report elaborati.
+-   Al centro si trova **Attività**. Le attività mostrano i dati correnti e possono essere selezionate o toccate per visualizzare informazioni più dettagliate. È possibile impostare degli indicatori delle prestazioni chiave (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi. È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
 
 ### <a name="to-change-role-center"></a>Per modificare una Gestione ruolo utente
 La Gestione ruolo utente di default è **Manager aziendale**, ma è possibile selezionare un altro Centro ruolo utente più adatto alle proprie esigenze.
@@ -55,10 +55,16 @@ La data di lavoro di default in genere è la data odierna. Per poter eseguire ta
 ## <a name="region"></a>Area geografica
 L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.   
 
+
+## <a name="language"></a>Lingua
+Cambia la lingua di visualizzazione. Questo campo viene visualizzato solo quando c'è più di una lingua tra cui scegliere. 
+
+La lingua iniziale è determinata dall'amministratore o dalle impostazioni del browser quando ci si registri per [!INCLUDE[d365fin](includes/d365fin_md.md)]. La lingua impostata verrà utilizzata su tutti i dispositivi dai quali si accede, ad esempio da telefono o tablet. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Modifica del momento in cui ricevere le notifiche
 Scegliere questo collegamento per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Notifiche smart](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Modifica delle funzionalità visualizzate](ui-experiences.md)  
 

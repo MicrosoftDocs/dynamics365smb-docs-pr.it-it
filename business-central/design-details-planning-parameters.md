@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
@@ -76,7 +76,7 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 |---------------------------------|---------------------------------------|  
 |**Periodo di riprogrammazione**|Questo campo viene utilizzato per determinare se il messaggio di azione deve ripianificare un ordine esistente o annullarlo e creare un nuovo ordine. L'ordine esistente verrà riprogrammato all'interno di un periodo di riprogrammazione prima dell'approvvigionamento corrente e fino a un periodo di riprogrammazione dopo l'approvvigionamento corrente.|  
 |**Periodo di accumulo lotti**|Con il metodo di riordino lotto per lotto, questo campo viene utilizzato per accumulare più esigenze di approvvigionamento in un unico ordine di approvvigionamento. A partire dal primo approvvigionamento pianificato, il sistema accumula tutte le necessità di approvvigionamento nel periodo di accumulo lotti in un approvvigionamento, che viene inserito nella data del primo approvvigionamento. La domanda esterna al periodo di accumulo lotto non è coperta da questo approvvigionamento.|  
-|**Periodo di stabilizzazione**|Questo campo viene utilizzato per evitare la riprogrammazione secondaria di un approvvigionamento esistente nel tempo. Le modifiche a partire dalla data di approvvigionamento fino a un periodo di stabilizzazione dalla data di approvvigionamento non genereranno messaggi di azione.<br /><br /> Di conseguenza un delta positivo tra la nuova data di approvvigionamento suggerita e la data di approvvigionamento originale sarà sempre maggiore del periodo di stabilizzazione.|  
+|**Periodo di stabilizzazione**|Questo campo viene utilizzato per evitare la riprogrammazione secondaria di un approvvigionamento esistente nel tempo. Le modifiche a partire dalla data di approvvigionamento fino a un periodo di stabilizzazione dalla data di approvvigionamento non genereranno messaggi di azione.<br /><br /> Il periodo di stabilizzazione specifica un periodo di tempo durante il quale non deve essere proposta alcuna ripianificazione degli ordini di approvvigionamento esistenti. Ciò limita il numero di inutili ripianificazioni dell'approvvigionamento esistente a una data successiva se la data riprogrammata è compresa nel periodo di stabilizzazione.<br /><br /> Di conseguenza, un delta positivo tra la nuova data di approvvigionamento suggerita e la data di approvvigionamento originale sarà sempre maggiore del periodo di stabilizzazione.|  
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 

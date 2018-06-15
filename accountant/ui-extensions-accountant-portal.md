@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: d75e50429f58c3834993ee392d274f6c8ba8a00f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Portale contabile per Dynamics 365 for Finance and Operations, Business edition
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Portale contabile per Dynamics 365 Business Central
 Questa applicazione offre un portale con dati di riepilogo per ogni client di un contabile. Il portale visualizza i KPI finanziari e un collegamento diretto all'applicazione finanziaria del client.  
 
 Il portale include una Gestione ruolo utente altamente specializzata che funge da dashboard per una migliore panoramica dei client.  
@@ -26,7 +26,7 @@ Il portale include una Gestione ruolo utente altamente specializzata che funge d
 Quando si installa per la prima volta l'estensione, è disponibile una società di esempio come aiuto per iniziare. È possibile eliminare in qualsiasi momento la società di esempio.  
 
 ## <a name="installing-the-extension"></a>Installazione dell'estensione
-Quando si aggiunge l'estensione alla soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)], estensione sostituisce la Gestione ruolo utente corrente e aggiunge le autorizzazioni al profilo utente. Di conseguenza, è necessario disconnettersi e quindi riconnettersi un paio di volte.  
+Quando si aggiunge l'estensione alla soluzione [!INCLUDE [d365fin](includes/d365fin_md.md)], estensione sostituisce la Gestione ruolo utente corrente e aggiunge le autorizzazioni al profilo utente. Di conseguenza, è necessario disconnettersi e quindi riconnettersi un paio di volte.  
 
 ## <a name="see-also"></a>Vedi anche
 [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
