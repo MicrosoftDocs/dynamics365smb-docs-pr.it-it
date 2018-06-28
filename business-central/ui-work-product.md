@@ -49,5 +49,5 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -51,5 +51,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

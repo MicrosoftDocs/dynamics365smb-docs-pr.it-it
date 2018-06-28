@@ -46,5 +46,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

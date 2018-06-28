@@ -68,5 +68,5 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -57,5 +57,5 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -41,5 +41,5 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 [Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 

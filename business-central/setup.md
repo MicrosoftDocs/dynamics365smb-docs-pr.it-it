@@ -64,5 +64,5 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Introduzione](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
