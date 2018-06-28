@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/28/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 678899bfcbeaa39d2e7f527dcee469aa0dd2fc10
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 7ceccbe98296706cdea83a98d53dfbe00d140504
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="italy-local-functionality"></a><span data-ttu-id="11368-103">Funzionalità locale per l'Italia</span><span class="sxs-lookup"><span data-stu-id="11368-103">Italy Local Functionality</span></span>
@@ -41,5 +41,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="11368-120">[Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="11368-120">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
