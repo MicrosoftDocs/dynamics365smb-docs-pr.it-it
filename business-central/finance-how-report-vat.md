@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
     >   Nel report Lista vendite UE, è possibile rivedere le transazioni incluse nelle righe del report prima di inviarlo. A tale scopo, selezionare la riga e scegliere l'azione **Mostra movimenti IVA**.  
 4. Per convalidare e preparare il report per l'invio, scegliere l'azione **Rilascio**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica che il report sia impostato correttamente. Se la convalida ha esito negativo, gli errori vengono visualizzati in **Errori e avvisi** per consentirne la correzione. In genere, se il messaggio è relativo a un'impostazione mancante in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile fare clic sul messaggio per aprire la pagina che contiene le informazioni da correggere.  
 5. Per inviare il report, scegliere l'azione **Invia**.  
 
@@ -91,10 +91,10 @@ Se si utilizza un altro metodo per presentare il report, ad esempio esportando l
 ## <a name="vat-settlement"></a>Liquidazione IVA
 Periodicamente, è necessario rimettere l'IVA netta alle autorità fiscali. Se occorre liquidare l'IVA frequentemente, è possibile eseguire il processo batch **Calcolo e registrazione liquidazione IVA** per chiudere i movimenti IVA aperti e trasferire gli importi IVA di vendita e di acquisto nel conto di liquidazione IVA.
 
-Quando si trasferiscono gli importi IVA nel conto di liquidazione, il conto relativo all'IVA acquisti viene accreditato mentre il conto relativo all'IVA vendite viene addebitato in base all'importo calcolato per il periodo specificato. L'importo netto viene accreditato sul conto di liquidazione dell'IVA. Nel caso in cui l'importo dell'IVA acquisti sia maggiore, l'importo netto verrà addebitato. È possibile registrare la liquidazione immediatamente o stampare prima un report di test.
+Quando si trasferiscono gli importi IVA nel conto di liquidazione, il conto relativo all'IVA acquisti viene accreditato mentre il conto relativo all'IVA vendite viene addebitato in base all'importo calcolato per il periodo specificato. L'importo netto viene accreditato sul conto di liquidazione dell'IVA. Nel caso in cui l'importo dell'IVA acquisti sia maggiore, l'importo netto verrà addebitato. È possibile registrare la liquidazione immediatamente o stampare prima un report di test.  
 
->    [!NOTE]  
->    Quando si utilizza il processo batch **Calcolo e registrazione liquidazione IVA**, non si specifica una **Cat. reg. business IVA** e una **Cat. reg. art./serv. IVA**, vengono inclusi i movimenti con tutte le categorie di registrazione e i codici categoria di registrazione articoli/servizi IVA.
+> [!Note]
+> Quando si utilizza il processo batch **Calcolo e registrazione liquidazione IVA**, non si specifica una **Cat. reg. business IVA** e una **Cat. reg. art./serv. IVA**, vengono inclusi i movimenti con tutte le categorie di registrazione e i codici categoria di registrazione articoli/servizi IVA.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configurazione dei report IVA personalizzati
 È possibile utilizzare il report Lista vendite UE predefinito, tuttavia è anche possibile creare propri report. Tale soluzione richiede di creare alcune codeunit. Per assistenza, contattare un partner Microsoft.  
@@ -107,14 +107,14 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 |Contenuto | Controllare il formato del report. Ad esempio, se è JSON o XML. Il formato da utilizzare varia a seconda dei requisiti del service Web dell'autorità fiscale |
 |Invio | Controllare come e quando il report viene inviato in base ai requisiti dell'autorità fiscale. |
 |Gestore risposte | Gestire le risposte dell'autorità fiscale. Ad esempio, potrebbe inviare un messaggio e-mail al contatto della società. |
-|Annulla | Inviare un annullamento di un report IVA inviato in precedenza all'autorità fiscale. |
+|Annulla | Inviare un annullamento di un report IVA inviato in precedenza all'autorità fiscale. |  
 
-> [!NOTE]  
->   Quando si creano le codeunit per il report, prestare attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2017** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.  
-
+> [!Note]
+> Quando si creano le codeunit per il report, prestare attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2017** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.
+ 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Fatturare le vendite](sales-setup-sales.md)  
+[Fatturare le vendite](sales-how-invoice-sales.md)  
 

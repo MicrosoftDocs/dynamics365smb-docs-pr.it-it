@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Se ci si è registrati a [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite la 
 Nella pagina sulla privacy per la privacy, è anche possibile chiudere il proprio account. Tuttavia, si consiglia di assicurarsi di aver esportato e cancellato tutti i dati prima, poiché l'eliminazione dell'account comporta la perdita dell'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 È comunque possibile contrassegnare le persone come bloccate in base alla privacy ed esportare, modificare o eliminare le transazioni come spiegato in altre sezioni di questo articolo.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Esportazione dei dati non classificati dalle tabelle per oggetto dati
+Se ci si trova in una situazione in cui è necessario esportare i dati non classificati in modo che vangano esportati automaticamente, ad esempio i dati dalla tabella Risposte profilo, è necessario effettuare le seguenti operazioni: 
+-   Valutare se effettivamente si desidera o è necessario esportare questi dati supplementari che non sono correlati al contatto, ovvero che non hanno alcuna relazione diretta con esso 
+-   Aggiungere manualmente questa tabella e la relazione al pacchetto RapidStart ed esportalo direttamente dal pacchetto RapidStart: è per questo che viene generato un pacchetto RapidStart automaticamente, in modo da poterlo modificare in situazioni come questa.
 
 ## <a name="handling-data-about-minors"></a>Gestione di dati relativi ai minori
 Se l'età di una persona di contatto è inferiore all'età legale stabilita dalle leggi nella propria area geografica, è possibile indicare tale condizione selezionando la casella di controllo **Minorenne** nella scheda **Contatto**. Quando si seleziona tale casella, la casella di controllo **Bloccato dalla privacy** viene selezionata automaticamente. Quando si riceve il consenso dal genitore o dal tutore legale, è possibile scegliere la casella di controllo **Consenso dei genitori ricevuto** per sbloccare il contatto. Sebbene sia possibile elaborare i dati personali dei minori, non è possibile utilizzare la funzione di profiling in Microsoft Dynamics 365 for Sales.

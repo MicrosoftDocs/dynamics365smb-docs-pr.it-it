@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
@@ -22,7 +22,7 @@ A seconda del report che viene eseguito, potrebbe apparire una pagina che consen
 
 È possibile visualizzare le impostazioni salvate a disposizione dell'utente per un report nella sezione **Impostazioni salvate** della pagina di richiesta report.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Per applicare le impostazioni salvate a un report
+## <a name="apply-saved-settings-to-a-report"></a>Applicare le impostazioni salvate a un report
 1. Aprire il report.
 
    Viene visualizzata la pagina di richiesta report.    
@@ -30,7 +30,7 @@ A seconda del report che viene eseguito, potrebbe apparire una pagina che consen
 
    La sezione **Impostazioni salvate** viene visualizzata solo se il report è già stato eseguito in precedenza o se esistono movimenti salvati delle impostazioni. Esiste sempre una voce Impostazioni salvate, che viene chiamata **Filtri e opzioni utilizzati di recente**. Queste impostazioni sono i valori delle opzioni e dei filtri che sono stati utilizzati l'ultima volta che è stato eseguito il report.
 
-## <a name="administer-saved-report-settings-for-users"></a>L'amministratore ha salvato le impostazioni dei report per gli utenti
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Creare e modificare le impostazioni salvate per tutti gli utenti
 Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, creare e modificare le impostazioni salvate per tutti i report di tutti gli utenti nella società. È possibile assegnare le impostazioni salvate per un report ai singoli utenti o a tutti gli utenti della società.
 
 È possibile gestire le impostazioni salvate nella pagina 1506 **Impostazioni report**. Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.

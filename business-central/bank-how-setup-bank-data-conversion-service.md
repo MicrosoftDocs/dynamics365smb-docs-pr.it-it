@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Impostare il servizio di conversione di dati bancari
@@ -44,11 +44,8 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 5. Nella finestra **Setup servizio conv. dati banca**, nel campo **Nome utente**, immettere lo stesso valore che è stato immesso come nome di connessione nella pagina del provider del servizio nel passaggio 4.
 6. Nel campo **Password** immettere lo stesso valore che è stato immesso nel campo **Password** nella pagina del provider del servizio nel passaggio 4.
 
-## <a name="to-encrypt-your-login-information"></a>Per crittografare le informazioni di accesso
-Si consiglia di proteggere le informazioni di accesso immesse nella finestra **Setup servizio conv. dati banca**. È possibile crittografare dati nel server [!INCLUDE[d365fin](includes/d365fin_md.md)] generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server [!INCLUDE[d365fin](includes/d365fin_md.md)] che collega al database.
-
-1. Nella finestra **Setup servizio conv. dati banca** scegliere l'azione **Gestione crittografia**.
-2. Nella finestra **Gestione crittografia dati** abilitare la crittografia dei dati.
+> [!NOTE]  
+> I dati di accesso vengono automaticamente crittografati.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Per visualizzare o aggiornare la lista dei formati di dati bancari attualmente supportato
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup servizio conv. dati banca**, quindi scegliere il collegamento correlato.

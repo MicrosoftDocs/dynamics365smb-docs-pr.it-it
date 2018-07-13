@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: it-it
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Per impostare i numeri di partita VAT, attenersi a questa procedura:
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Richiede un numero a una cifra.
-* @ - Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole.
-* ? - Permette qualsiasi carattere.
+* **#** Richiede un numero a una cifra.  
+* **@** Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole.  
+* **?** Consente qualsiasi carattere.  
 
     > [!Tip]
     > È possibile utilizzare altri caratteri purché siano sempre presenti nel formato del paese. Ad esempio, se è necessario includere un punto o un trattino tra i set di numeri, è possibile definire il formato come ##.####.### o @@-###-###.  
@@ -116,6 +116,29 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 * Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Impostazione di modelli di dichiarazione IVA e dei nomi della dichiarazione IVA
+Le autorità fiscali possono e devono modificare i requisiti per la registrazione dell'IVA. **Definizioni dichiarazione IVA** e **Nomi dichiarazione IVA** consentono di prepararsi per eventuali modifiche e a effettuare una transizione graduale ai nuovi requisiti. È possibile utilizzare le definizioni di dichiarazione IVA per definire i campi da includere nella dichiarazione IVA, che a loro volta che definiscono i calcoli, ed è possibile creare una nuova definizione di dichiarazione IVA quando i requisiti cambiano. Ad esempio, una definizione potrebbe calcolare l'IVA per quest'anno in base ai requisiti correnti e un altro potrebbe calcolare l'IVA in base ai requisiti per l'anno successivo. Le definizioni sono inoltre un metodo per conservare una cronologia dei formati delle dichiarazioni IVA, ad esempio, ad esempio, per poter verificare come è stata calcolata l'IVA negli anni precedenti.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Come definire e visualizzare l'anteprima della dichiarazione IVA
+Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre. Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprima per assicurarsi che soddisfi le proprie esigenze. 
+
+Per definire una dichiarazione IVA, attenersi a questa procedura:
+
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
+2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**. 
+3. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> È possibile filtrare le informazioni che la dichiarazione includerà, a seconda di ciò che viene scelto nel campo **Tipo**. **Totale conto** è utile quando si desidera ottenere l'IVA di un conto specifico.
+**Totale Mov. IVA** ottiene l'IVA da conti assegnati alle selezioni in **Tipo reg. gen.**, **Cat. reg. business IVA** e/o i campi **Cat. reg. art./serv. IVA**. **Totale Riga** consente di immettere un valore o filtrare rapidamente il campo **Totale Riga**. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md). **Descrizione** è spesso utilizzato aggiungere una nota alla dichiarazione. Ad esempio, potrebbe essere utilizzata come intestazione quando si utilizza il totale riga.
+
+Per visualizzare un'anteprima di una dichiarazione IVA, attenersi a questa procedura:
+
+1. Scegliere **Anteprima**.
+2. Immettere un filtro data per limitare la dichiarazione a un periodo specifico. Per ulteriori informazioni su come personalizzare la pagina per visualizzare il filtro data, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md)..
+3. È possibile selezionare varie opzioni per specificare il tipo di movimenti IVA da includere nella dichiarazione.
+4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Per impostare le categorie con cui descrivere l'utilizzo di aliquote IVA non standard
 È possibile impostare una categoria IVA per descrivere informazioni sul tipo di IVA che viene applicata. Le informazioni possono essere obbligatorie per la normativa statale. Dopo aver impostato una categoria IVA e averla associata a un setup registrazioni IVA, la categoria IVA viene visualizzata su tutti i documenti di vendita stampati con tale categoria di setup registrazioni IVA.
 
@@ -166,8 +189,7 @@ Quando si utilizza la connessione del servizio, viene registrata una cronologia 
 
 Il servizio consente anche di risparmiare tempo quando si crea un cliente o un fornitore. Se si conosce il numero di partita IVA del cliente, è possibile immetterlo nel campo **Partita IVA** nelle schede Cliente o Fornitore e la ragione sociale del cliente verrà compilato automaticamente. Alcuni paesi forniscono anche indirizzi aziendali in un formato strutturato. In questi paesi, l'indirizzo verrà compilato automaticamente.  
 
-> [!NOTE]  
-> Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partita IVA VIES:
+Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partita IVA VIES:
 
 * Il servizio Web utilizza il protocollo HTTP, il che significa che i dati trasferiti tramite il servizio non sono crittografati.  
 * È possibile che si verifichi un tempo di inattività per questo servizio per cui Microsoft non è responsabile. Il servizio fa parte di un'ampia rete europea di registri IVA nazionali.

@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Per poter creare un ambiente sandbox, è necessario possedere una sottoscrizione
 3. Selezionare **Crea**.  
   Verrà aperta un'altra scheda nel browser per completare l'impostazione dell'ambiente sandbox.
 > [!NOTE]  
->  Se la funzione Blocco popup del browser è abilitata, modificarne l'impostazione per consentire la visualizzazione degli URL dall'indirizzo *.financials.dynamics.com.   
+>  Se la funzione Blocco popup del browser è abilitata, modificarne l'impostazione per consentire la visualizzazione degli URL dall'indirizzo *.businesscentral.dynamics.com.   
 
 4. Quando l'ambiente sandbox è pronto, si verrà reindirizzati all'introduzione guidata dell'ambiente sandbox.
 ![Introduzione guidata dell'ambiente sandbox](./media/across-sandbox/sandbox-wizard.png)

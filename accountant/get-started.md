@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: it-it
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Introduzione a [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -25,7 +25,7 @@ Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni az
 È possibile accedere a [!INCLUDE [d365acc](includes/d365acc_md.md)] iscrivendosi da [Dynamics 365 - Accountant Hub su Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Quando ci si iscrive a [!INCLUDE [d365acc](includes/d365acc_md.md)], è necessario specificare l'indirizzo di posta elettronica di lavoro, ad esempio <em>me@accountant.com</em>. È consigliabile utilizzare lo stesso indirizzo di posta elettronica quando si lavora con [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] dei client in modo che sia facile passare tra i client. L'indirizzo e-mail deve essere un indirizzo di lavoro che si basa su Active Directory.
+>  Quando si effettua l'iscrizione per [!INCLUDE [d365acc](includes/d365acc_md.md)], è necessario specificare l'indirizzo e-mail di lavoro nel formato <em>me@accountant.com</em>. È consigliabile utilizzare lo stesso indirizzo e-mail quando si lavora in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] dei client, in modo che è possibile passare facilmente tra i client. L'indirizzo e-mail deve essere un indirizzo di lavoro che si basa su Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Utilizzo dei singoli client
 Il dashboard visualizza la maggior parte delle informazioni importanti relative a ogni client.  

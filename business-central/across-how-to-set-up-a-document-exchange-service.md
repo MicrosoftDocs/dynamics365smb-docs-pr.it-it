@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Impostare un servizio di scambio documenti
@@ -37,12 +37,8 @@ Utilizzare un provider di servizi esterno per scambiare documenti elettronici co
     |**Token**|Immettere la chiave OAuth basata su transazioni a tre per il token. Questa chiave viene fornita dal provider di servizi di scambio documenti.|  
     |**Domanda segreta token**|Immettere il segreto che protegge il token. Questa chiave viene fornita dal provider di servizi di scambio documenti.|  
 
-> [!NOTE]  
->  Si consiglia di proteggere le informazioni di accesso immesse nella finestra **Setup servizio VAN**. È possibile crittografare dati nel server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server che collega al database. Questa funzionalità è descritta nella procedura seguente.  
-
-## <a name="to-encrypt-your-logon-information"></a>Per crittografare le informazioni di accesso  
-1. Nella finestra **Setup servizio VAN** scegliere l'azione **Gestione crittografia**.  
-2. Nella finestra **Gestione crittografia dati** abilitare la crittografia dei dati. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > I dati di accesso vengono automaticamente crittografati.
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  

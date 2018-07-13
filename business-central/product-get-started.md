@@ -1,29 +1,29 @@
 ---
 title: Introduzione | Microsoft Docs
 description: "Informazioni sulle funzionalità e gli scenari di lavoro in Business Central, una soluzione di gestione aziendale per piccole e medie imprese."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Quando si effettua una sottoscrizione per l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere a una società demo. La società demo contiene dati di esempio, ma è possibile creare i propri documenti di vendita, ad esempio, oppure impostare un conto corrente bancario.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione. Per ulteriore assistenza, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > È possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
@@ -71,8 +71,10 @@ Valutare la sottoscrizione È possibile passare facilmente dalla società d'esem
 
 Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società**. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare Gestione ruolo utente e individuare l'azione **Setup assistito**.  
 
+In alternativa, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Pronti per la sottoscrizione?
-Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di sottoscrivere, utilizzare il collegamento nella notifica per entrare in contatto con Microsoft. È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+Ogni volta che si accede durante il periodo di prova, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search). È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
 Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](https://docs.microsoft.com/dynamics365) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [Sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_l
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

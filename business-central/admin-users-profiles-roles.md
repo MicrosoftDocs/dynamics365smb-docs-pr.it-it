@@ -8,40 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/02/2018
+ms.date: 06/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e5efc3536203495dcec1be2f1dc680b35c39d4db
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 6d1b6a31bb4476471ccd1f351291f6fcec34d556
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Informazioni su utenti, profili e Gestioni ruolo utente
-A tutte le persone nella società che hanno accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un *profilo* che consente l'utilizzo di una *Gestione ruolo utente*. In qualità di amministratore, è possibile assegnare e modificare profili in [!INCLUDE[d365fin](includes/d365fin_md.md)] e aggiungere e rimuovere utenti nell'ambito della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+A tutte le persone nella società che hanno accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un *profilo* che consente l'utilizzo di una *Gestione ruolo utente*. In qualità di amministratore, è possibile rimuovere utenti nell'ambito della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)] e assegnare le autorizzazioni utente nei gruppi utente.  
 
 ## <a name="adding-users"></a>Aggiunta di utenti
-Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
+Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Quindi, l'amministratore può assegnare le autorizzazioni a ciascun utente e ai gruppi utente. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
 
 ## <a name="profiles"></a>Profili
-I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che condividono la stessa Gestione ruolo utente. La Gestione ruolo utente è un tipo di pagina nella quale è possibile inserire parti differenti. Ogni parte è un contenitore in cui è possibile ospitare altre pagine o parti di sistema di default, come, ad esempio, una parte Outlook o parti per l'aggiunta di task, notifiche o note.  
+I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che condividono la stessa Gestione ruolo utente.  Gestione ruolo utente è il punto di ingresso e la home page per [!INCLUDE[d365fin](includes/d365fin_md.md)] che offre rapido accesso alle attività più importanti e visualizza diverse informazioni approfondite e indicatori di prestazioni chiave (KPI) sul proprio lavoro.  
 
 > [!NOTE]  
->  Nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)], non è possibile aggiungere, modificare o eliminare profili.  
+>  Nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)], non è possibile aggiungere, modificare o eliminare profili.
 
 ## <a name="configuration-and-personalization"></a>Configurazione e personalizzazione
-Il concetto di personalizzazione dell'interfaccia utente in [!INCLUDE[d365fin](includes/d365fin_md.md)] è suddiviso in due parti:  
+<!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
--   Configurazione, eseguita dall'amministratore  
+-   Configuration, performed by the administrator  
 
--   Personalizzazione, eseguita dagli utenti  
+-   Personalization, performed by users  
 
-L'amministratore configura l'interfaccia utente per più utenti personalizzandola per un profilo a cui gli utenti vengono assegnati.  
-
-Gli utenti possono personalizzare l'interfaccia utente della versione personale personalizzando l'interfaccia utente con le proprie credenziali di accesso. Questa personalizzazione può essere eliminata dall'amministratore.  
+The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+Gli utenti possono personalizzare l'interfaccia utente della versione personale personalizzando l'interfaccia utente con le proprie credenziali di accesso. Questa personalizzazione può essere eliminata dall'amministratore. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)  
-<!-- [Customize the User Interface](../customize-the-user-interface.md)   
- [Security Overview](../Security%20Overview.md)-->
+[Gestione della personalizzazione come amministratore](ui-personalization-manage.md)  
+[Personalizzazione dell'area di lavoro](ui-personalization-user.md)  
 

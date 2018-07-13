@@ -1,8 +1,6 @@
 ---
 title: Contabilizzare documenti e registrazioni IC | Documenti Microsoft
 description: Utilizzare documenti Intercompany per registrare le transazioni con i partner Intercompany.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/21/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f56dd9746ab065628f5785715153b82fa02a155
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
@@ -43,7 +41,7 @@ La procedura seguente illustra come compilare e inviare un ordine di vendita int
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Per compilare e annotare registrazioni intercompany
 Quando si registra una riga di registrazione COGE intercompany nella società, viene creata una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE IC**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazione COGE intercompany**, quindi scegliere il collegamento correlato.  
 2. Aprire il batch registrazioni appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. Compilare i campi, se necessario.
 4. Nel campo **Nr. conto C/G partner IC.** immettere il conto di contabilità generale IC in cui verrà registrato l'importo della società partner.
@@ -52,7 +50,7 @@ Quando si registra una riga di registrazione COGE intercompany nella società, v
     > È necessario che il campo venga compilato in una riga con un conto corrente bancario o un conto C/G specificato nel campo **Nr. Conto** o nel campo **Nr. contropartita**.  
 5. Scegliere l'azione **Registra**.
 
-I movimenti interessati vengono registrati nella società e una registrazione con i movimenti corrispondenti viene creata nella casella in uscita IC che è possibile inviare alla società partner. Per ulteriori informazioni, vedere [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md). 
+I movimenti interessati vengono registrati nella società e una registrazione con i movimenti corrispondenti viene creata nella casella in uscita IC che è possibile inviare alla società partner. Per ulteriori informazioni, vedere [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  

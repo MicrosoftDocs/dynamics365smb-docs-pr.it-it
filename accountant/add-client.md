@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/23/2017
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8b8d92e114733d87b1866d66ee3111208e233ad3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Aggiungere clienti al dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -24,10 +24,15 @@ ms.lasthandoff: 05/15/2018
 
 ![Aggiungere un cliente](./media/accountant-add-client/manage-client.png)
 
-I dati della scheda per ciascun client sono specificati dall'utente e possono essere modificati secondo le necessità. Tuttavia, il campo **URL client** è fondamentale, indica come è possibile accedere a [!INCLUDE [d365fin](includes/d365fin_md.md)] di ogni client. Utilizzare l'azione **URL client di prova** nella barra multifunzione per verificare che sia stato inserito il collegamento corretto. L'URL che è necessario immettere punta a [!INCLUDE [d365fin](includes/d365fin_md.md)], come *<https://mybusiness.financials.dynamics.com>*. Questo URL viene quindi utilizzato quando si sceglie la voce di menu **Vai a società** nel dashboard di [!INCLUDE [d365acc](includes/d365acc_md.md)].  
+I dati della scheda per ciascun client sono specificati dall'utente e possono essere modificati secondo le necessità. Tuttavia, il campo **URL client** è fondamentale, indica come è possibile accedere a [!INCLUDE [d365fin](includes/d365fin_md.md)] di ogni client. Utilizzare l'azione **Convalida URL client** nella barra multifunzione per verificare che sia stato inserito il collegamento corretto. La URL che è necessario immettere indirizza alla soluzione [!INCLUDE [d365fin](includes/d365fin_md.md)] del client e include il relativo indirizzo di dominio. Ad esempio, se è stato specificato un dominio come MyBusiness.com, il collegamento alla soluzione [!INCLUDE [d365fin](includes/d365fin_md.md)] sarà *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
+
+> [!NOTE]
+>  Prima dell'aggiornamento di maggio 2018, l'URL specificato aveva un formato diverso con il nome dell'azienda del cliente all'inizio. Con l'aggiornamento di maggio 2018, il formato è ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1``` dove ```clientdomain``` rappresenta il dominio del client.  
+
+L'URL del client viene quindi utilizzato quando si sceglie la voce di menu **Vai a società** nel dashboard di [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Ottenere l'invito per [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] in un client
-Una società che utilizza [!INCLUDE [d365fin](includes/d365fin_md.md)] può invitare un utente a [!INCLUDE [d365fin](includes/d365fin_md.md)] come contabile esterno. Per ricevere l'invito, è necessario fornire il messaggio e-mail usato con [!INCLUDE [d365acc](includes/d365acc_md.md)], ad esempio <em>me@accountant.com</em>. L'amministratore del cliente può quindi aggiungerti al sistema eseguendo la procedura guidata **Invita contabile esterno**.  
+Una società che utilizza [!INCLUDE [d365fin](includes/d365fin_md.md)] può invitare un utente a [!INCLUDE [d365fin](includes/d365fin_md.md)] come contabile esterno. Per ottenere l'invito, è necessario indirizzo e-mail utilizzato con [!INCLUDE [d365acc](includes/d365acc_md.md)], ad esempio <em>me@accountant.com</em>. L'amministratore del client può quindi aggiungere l'utente al sistema tramite la procedura guidata **Invita contabile esterno**.  
 
 Si riceverà di conseguenza un messaggio di posta elettronica dal cliente contenente collegamenti a [!INCLUDE [d365fin](includes/d365fin_md.md)] Il primo collegamento è un invito all'accesso alla società. Apri il collegamento e accetta i passaggi per l'aggiunta a [!INCLUDE [d365fin](includes/d365fin_md.md)] del cliente. Il secondo collegamento è per l'aggiunta del cliente al dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] come descritto sopra.  
 

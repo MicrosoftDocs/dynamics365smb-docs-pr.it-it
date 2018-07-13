@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Accedere all'anteprima di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -43,7 +43,7 @@ Per ulteriori informazioni, vedere [Utilizzo di Designer](https://docs.microsoft
 3.  Selezionare **Crea**. Viene visualizzata una scheda in cui è possibile completare la configurazione della sandbox.
 
     > [!Note]
-    > Se la funzione Blocco popup del browser è abilitata, modificarne l'impostazione per consentire la visualizzazione degli URL dall'indirizzo *.financials.dynamics.com*.  
+    > Se la funzione Blocco popup del browser è abilitata, modificarne l'impostazione per consentire la visualizzazione degli URL dall'indirizzo *.businesscentral.dynamics.com*.  
 
 4.  Quando la sandbox è pronta,viene visualizzata una pagina di benvenuto.  
 5.  Per leggere informazioni sugli scenari che è possibile provare in una sandbox, ad esempio come sviluppare estensioni, scegliere il collegamento **Ulteriori informazioni**. In alternativa scegliere **Chiudi** per passare al servizio Gestione ruolo utente dell'istanza sandbox di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -67,7 +67,7 @@ Per ulteriori informazioni, vedere [Utilizzo di Designer](https://docs.microsoft
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce strumenti utilizzabili per implementare componenti aggiuntivi e integrare funzionalità allo scopo di aggiungere nuove esperienze end-to-end specifiche del settore o di integrare soluzioni di terze parti. Ad esempio, è possibile utilizzare un'API per creare un app allo scopo di scambiare dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] l'app per le retribuzioni. Le app di connessione*** possono inoltre utilizzare estensioni per creare pagine da utilizzare per setup, configurazione o per supportare le funzionalità specifiche delle app. Per ulteriori informazioni, vedere [Sviluppo di app per [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

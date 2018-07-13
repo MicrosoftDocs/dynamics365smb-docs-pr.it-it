@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/16/2018
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
 ms.contentlocale: it-it
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
 
 ---
-# <a name="work-with-account-schedules"></a>Utilizzare le situazioni contabili
-Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. I risultati vengono visualizzati in grafici nella Gestione ruolo utente, ad esempio il grafico Flusso di cassa.  
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
+Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. La visualizzazione dei risultati nei grafici nella Gestione ruolo utente, quali il piano del flusso di cassa e nei report, ad esempio i report Conto economico e Conto patrimoniale,
+
+È possibile accedere a questi due report, ad esempio, con l'azione **Rendiconti finanziari** nella Gestione ruolo utente di Manager aziendale e Contabile.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce alcune situazioni contabili di esempio che è possibile utilizzare immediatamente oppure è possibile impostare le proprie righe e colonne per specificare le cifre da confrontare. È ad esempio possibile creare piani dei conti per calcolare i margini di profitto in dimensioni quali reparti o gruppi di clienti. È possibile creare quanti rendiconti finanziari personalizzati si desidera.  
 
 L'impostazione delle situazioni contabili richiede una comprensione dei dati finanziari nel piano dei conti. Per esempio, è possibile visualizzare i movimenti C/G come percentuali di movimenti budget. Tale operazione richiede che i budget siano creati. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
 ## <a name="account-categories-and-account-schedules"></a>Categorie di conti e situazioni contabili
-Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella finestra **Categorie conto C/G** scegliere l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali verranno aggiornate. Alla successiva esecuzione di uno dei report, ad esempio l'estratto conto, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md).  
+Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella finestra **Categorie conto C/G** scegliere l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali verranno aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere la sezione Categorie di conti in [Informazioni sulla contabilità generale e COA](finance-general-ledger.md).  
 
 ## <a name="to-create-new-account-schedules"></a>Per creare nuove situazioni contabili  
  Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti di contabilità generale con i movimenti budget di contabilità generale. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
@@ -41,7 +43,12 @@ Le categorie di conto consentono di modificare il layout dei rendiconti finanzia
 7. Compilare i campi necessari nella finestra **Layout colonna**.
 
 > [!NOTE]  
->   Se non è stato assegnato un default layout colonna alla situazione contabile, è necessario impostare le colonne manualmente.   
+> Se non è stato assegnato un default layout colonna alla situazione contabile, è necessario impostare le colonne manualmente.
+
+### <a name="to-copy-an-existing-account-schedule"></a>Per copiare una situazione contabile esistente
+Le situazioni contabili nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono la base dei report finanziari standard, che potrebbero non essere adatti alle esigenze dell'azienda. Per creare rapidamente i propri report finanziari, è possibile iniziare copiando una situazione contabile esistente.
+1. Nella finestra **Situazioni contabili**, selezionare una situazione contabile quindi scegliere l'azione **Copia situazione contabile**.
+2. Nella finestra **Copia situazione contabile** compilare i campi in base alle esigenze, quindi scegliere **OK**.
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Per creare una colonna per il calcolo delle percentuali  
 A volte, potrebbe essere necessario includere in una situazione contabile una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, è possibile inserire una colonna per indicare la percentuale delle vendite totale rappresentata da ogni riga.
