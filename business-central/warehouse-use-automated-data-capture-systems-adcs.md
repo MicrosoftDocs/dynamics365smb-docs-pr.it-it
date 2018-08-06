@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  Nell'ambiente di sviluppo di [!INCLUDE[d365fin](includes/d365fin_md.md)] aprire la tabella 7702 e aggiungere un codice che rappresenti il nuovo tasto. Nell'esempio, creare un tasto denominato **F6**.  
 3.  Aggiungere il codice C/AL alla funzione della codeunit specifica del miniform per gestire il tasto funzione.  
