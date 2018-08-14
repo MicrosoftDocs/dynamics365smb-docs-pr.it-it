@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 07/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f5b69dce5426f828572fa57e73c03ac35332e101
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 745da790218ee57e4fb44b8c0bab2bce504eda3b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 
@@ -47,6 +47,7 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 |Impegnare gli articoli in entrata o di magazzino per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio o ordini di produzione.|[Prenotare articoli](inventory-how-to-reserve-items.md)|
 |Assegnare i numeri seriali o i numeri di lotto a qualsiasi riga di registrazione del documento in uscita o in entrata, ad esempio per tenere traccia degli articoli in caso di richiamate.|[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)|
 |È possibile trovare dove un numero seriale o di lotto è stato utilizzato nella sua catena di approvvigionamento, ad esempio in caso di richiamate.|[Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)|
+|Bloccare gli articoli in modo che non vengano immessi in righe di acquisto o di vendita o che non vengano registrati in una qualsiasi transazione.|[Bloccare gli articoli](inventory-how-block-items.md)|
 |È possibile gestire le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Vedi anche  
@@ -57,5 +58,4 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

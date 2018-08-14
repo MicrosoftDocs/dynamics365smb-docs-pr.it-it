@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: it-it
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |Invio|Selezionare la data attiva.|
 |CTRL+FINE<br />(Cmd+FINE)|Chiudere il calendario ed eliminare la data corrente.|
 |ESC|Chiudere il calendario senza una selezione, mantenere la data corrente.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Tasti di scelta rapida nell'anteprima report
+
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|-----------------|-------|
+|Freccia GIÙ|Scorrere la pagina verso il basso.|  
+|Freccia su|Scorrere la pagina verso l'alto.|
+|Freccia destra|Scorrere la pagina verso destra quando è ingrandita e non è quindi interamente visibile. |
+|Freccia sinistra|Scorrere la pagina verso sinistra quando è ingrandita e non è quindi interamente visibile. |
+|CTRL+0 (zero)<br />(Cmd+0)|Adattare l'intera pagina alla finestra. |
+|CTRL+HOME<br />(Cmd+HOME)|Passare alla prima pagina del report.|
+|CTRL+FINE<br />(Cmd+HOME)|Passare all'ultima pagina del report.|
+|Pagina giù<br />(Fn+freccia GIÙ)|Passare alla pagina successiva del report.|
+|PGSU br />(Fn+freccia SU)|Passare alla pagina precedente del report.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

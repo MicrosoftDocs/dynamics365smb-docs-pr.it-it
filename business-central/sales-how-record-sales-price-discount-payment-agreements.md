@@ -1,5 +1,5 @@
 ---
-title: Impostare prezzi di vendita e sconti speciali per i clienti | Documenti Microsoft
+title: Impostare prezzi di vendita e sconti speciali per i clienti | Microsoft Docs
 description: "Descrive le modalità di definizione di prezzi e accordi di sconto alternativi che si desidera collegare a documenti di vendita per clienti diversi."
 author: SorenGP
 ms.service: dynamics365-business-central

@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
@@ -33,7 +33,7 @@ A seconda del report che viene eseguito, potrebbe apparire una pagina che consen
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Creare e modificare le impostazioni salvate per tutti gli utenti
 Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, creare e modificare le impostazioni salvate per tutti i report di tutti gli utenti nella società. È possibile assegnare le impostazioni salvate per un report ai singoli utenti o a tutti gli utenti della società.
 
-È possibile gestire le impostazioni salvate nella pagina 1506 **Impostazioni report**. Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.
+È possibile gestire le impostazioni salvate nella pagina 1560 **Impostazioni report**. Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.
 
 Nella pagina **Impostazioni report** è possibile creare impostazioni ex novo o duplicarle e modificare le impostazioni esistenti. Per modificare le opzioni e i filtri di un'impostazione, scegliere l'azione **Modifica**.
 

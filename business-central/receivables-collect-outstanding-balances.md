@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 03/16/2018
+ms.date: 07/05/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f4cb1b2fdd55275fc1a3cba494d1ea4b583b5ed
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
@@ -100,6 +100,9 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
 |%12|Contenuto del campo **Onere add. per riga** della testata sollecito|  
 
 Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2.**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di USD 1.200,50 con scadenza 02-02-2014.**.
+
+> [!NOTE]
+> La data di scadenza viene calcolata in base alla formula immessa per la data. Per ulteriori informazioni, vedere la sezione "Utilizzo di formule per le date" in [Immettere intervalli di date](ui-enter-date-ranges.md).
 
 Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 

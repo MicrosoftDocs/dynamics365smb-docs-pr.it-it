@@ -1,5 +1,5 @@
 ---
-title: Prezzi e sconti speciali e alternativi per i fornitori | Documenti Microsoft
+title: Prezzi e sconti speciali e alternativi per i fornitori | Microsoft Docs
 description: "È possibile definire prezzi e accordi di sconto diversi e alternativi e applicarli ai documenti di acquisto per i fornitori."
 author: SorenGP
 ms.service: dynamics365-business-central

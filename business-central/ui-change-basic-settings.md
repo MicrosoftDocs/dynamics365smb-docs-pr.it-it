@@ -1,5 +1,5 @@
 ---
-title: Visualizzazione e modifica delle impostazioni di base | Documenti Microsoft
+title: Visualizzazione e modifica delle impostazioni di base | Microsoft Docs
 description: "Informazioni su come modificare alcune impostazioni di base, ad esempio, la Gestione ruolo utente, la società o la data di lavoro."
 services: project-madeira
 documentationcenter: 
@@ -43,7 +43,7 @@ La società di default è detta CRONUS e contiene solo i dati di esempio.
 > [!TIP]  
 >   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
-## <a name="work-date"></a>Work Date
+## <a name="work-date"></a>Data lavoro
 La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  

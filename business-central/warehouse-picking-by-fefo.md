@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4ee3dc56de6c4ca6b6229c0b436c9407d73534a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Abilitare il prelievo di articoli tramite il metodo FEFO
@@ -34,14 +34,15 @@ FEFO (First-Expired-First-Out) è un metodo di ordinamento che assicura che veng
  Una volta soddisfatti tutti i criteri, gli articoli con numeri seriali/di lotto da prelevare verranno ordinati con i più vecchi per primi in tutti gli prelievi e tutte le movimentazioni, ad eccezione degli articoli che utilizzano la tracciabilità NS specifico o lotto specifico.  
 
 > [!NOTE]  
->  Se alcuni articoli con numeri seriali/di lotto utilizzano la tracciabilità specifica, questi vengono rispettati per primi e quindi vengono elencati i rimanenti numeri seriali/di lotto in base al metodo FEFO.  
-
- Se due articoli con numeri seriali o di lotto hanno la stessa data di scadenza, viene selezionato automaticamente quello con il numero di lotto o seriale inferiore. Se i numeri di lotto o seriali sono identici, viene selezionato automaticamente l'articolo registrato per primo.  
-
-> [!NOTE]  
->  -   Quando si prelevano articoli con numeri di serie o di lotto in ubicazioni impostate per stoccaggi e prelievi guidati, solo le quantità nelle collocazioni di tipo *Prelievo* vengono prelevate in base al metodo FEFO.  
-> -   Per abilitare le movimentazioni in base al metodo FEFO, nella finestra **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
-> -   Se il campo **Registrazione scadenza vincolante** è selezionato, solo gli articoli che non sono scaduti verranno inclusi nel prelievo. Ciò si applica anche se non viene utilizzata l'opzione Prelievo in base a FEFO.  
+> Se alcuni articoli con numeri seriali/di lotto utilizzano la tracciabilità specifica, questi vengono rispettati per primi e quindi vengono elencati i rimanenti numeri seriali/di lotto in base al metodo FEFO.
+<br /><br />
+Se due articoli con numeri seriali o di lotto hanno la stessa data di scadenza, viene selezionato automaticamente quello con il numero di lotto o seriale inferiore.
+<br /><br />
+Quando si prelevano articoli con numeri di serie o di lotto in ubicazioni impostate per stoccaggi e prelievi guidati, solo le quantità nelle collocazioni di tipo *Prelievo* vengono prelevate in base al metodo FEFO.  
+<br /><br />
+Per abilitare le movimentazioni in base al metodo FEFO, nella finestra **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
+<br /><br />
+Se il campo **Registrazione scadenza vincolante** è selezionato, solo gli articoli che non sono scaduti verranno inclusi nel prelievo. Ciò si applica anche se non viene utilizzata l'opzione Prelievo in base a FEFO.
 
 ## <a name="see-also"></a>Vedi anche  
 [Prelievo di articoli](warehouse-pick-items.md)   

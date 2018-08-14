@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
@@ -50,6 +50,10 @@ Nella roadmap o nel blog è stata presentata una nuova funzionalità recentement
 Sì, è possibile. Tuttavia attualmente, è necessario rivolgersi al partner rivenditore. Per un elenco dei rivenditori, cercare i partner Business Central [qui](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Se si può accedere a Microsoft CustomerSource, è possibile ottenere accesso al sito Imagine Academy con materiale eLearning. Per ulteriori informazioni su come ottenere accesso, vedere la pagina [Formazione per Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile nel mio paese?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di mercati, ma nuovi paesi vengono aggiunti trimestralmente grazie alla localizzazione di Microsoft o alla localizzazione dei partner. Per ulteriori informazioni, vedere [Paesi e traduzioni supportati](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Perché alcuni elementi dell'interfaccia utente utilizzati in Dynamics NAV non sono visibili in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], il sistema di area di applicazione e le opzioni Esperienza consentono di visualizzare/nascondere parti del prodotto in base al piano acquistato (Essential or Premium) e alle esigenze aziendali.

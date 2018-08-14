@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/07/2017
+ms.date: 07/09/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 45ae07cd542d53ea71af0a3009ea57e09340fc0c
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Personalizzazione di Business Central con le estensioni
@@ -31,7 +31,7 @@ Le estensioni vengono gestite nella finestra **Gestione estensioni**. È possibi
 >   Se si prevede di dover accedere a un'estensione, ma non è possibile individuare la relativa funzionalità, controllare la finestra **Gestione estensioni**, se l'estensione non è elencata, è possibile installarla come descritto nella sezione seguente.  
 
 ## <a name="installing-an-extension"></a>Installazione di un'estensione
-È possibile ottenere le nuove estensioni dal marketplace in [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). È possibile vedere tutte le estensioni disponibili per [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile ottenere app, estensioni e pacchetti di contenuto per altri prodotti Microsoft. Impostare i filtri desiderati, leggere le informazioni relative a ciascuna estensione e ottenere un'estensione per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+È possibile ottenere le nuove estensioni dal marketplace in [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?src=dynamics365website&product=dynamics-365-business-central). È possibile vedere tutte le estensioni disponibili per [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile ottenere app, estensioni e pacchetti di contenuto per altri prodotti Microsoft. Impostare i filtri desiderati, leggere le informazioni relative a ciascuna estensione e ottenere un'estensione per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Accedere ad [AppSource.microsoft.com](https://appsource.microsoft.com/) utilizzando l'account e-mail che si usa per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
 

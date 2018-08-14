@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d48a4cd8d805870527249c414285867c83a6de9
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Impostazione delle notifiche del workflow
@@ -26,7 +26,7 @@ Molte risposte workflow riguardano la comunicazione, a un utente, di un evento c
 >  La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le notifiche come messaggi e-mail e note interne.  
 
 > [!IMPORTANT]  
->  Tutte le notifiche del flusso di lavoro vengono inviate tramite una coda processi. Assicurarsi che la coda processi sia presente nella soluzione. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
+>  Tutte le notifiche del flusso di lavoro vengono inviate tramite una coda processi. Assicurarsi che la coda processi nella propria installazione sia impostata in modo da gestire le notifiche del workflow e che la casella di controllo **Avvia automaticamente da server** sia selezionata. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 È possibile impostare diversi aspetti delle notifiche del flusso di lavoro nelle aree seguenti:  
 
