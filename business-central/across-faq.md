@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Se si può accedere a Microsoft CustomerSource, è possibile ottenere accesso al
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di mercati, ma nuovi paesi vengono aggiunti trimestralmente grazie alla localizzazione di Microsoft o alla localizzazione dei partner. Per ulteriori informazioni, vedere [Paesi e traduzioni supportati](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Perché alcuni elementi dell'interfaccia utente utilizzati in Dynamics NAV non sono visibili in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], il sistema di area di applicazione e le opzioni Esperienza consentono di visualizzare/nascondere parti del prodotto in base al piano acquistato (Essential or Premium) e alle esigenze aziendali.
 
 Queste capacità sono state utilizzate per semplificare l'interfaccia utente nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, i campi che non sono comunemente utilizzati, come **Nr. fax**, sono stati rimossi e nelle barre multifunzione di elenchi e schede i duplicati delle Azioni vengono rimossi mentre sono presentate le azioni più utilizzate. Alcune funzionalità complete, ad esempio i Commenti, sono in fase di ottimizzazione per il client Web sono e, pertanto, non sono disponibili in [!INCLUDE[d365fin](includes/d365fin_md.md)].
