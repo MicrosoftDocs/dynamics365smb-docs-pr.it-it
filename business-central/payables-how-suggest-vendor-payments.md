@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 02f063daf5afeea85832c8a322183b3db120d8d2
+ms.sourcegitcommit: eb17659fc78865acae6c7cb969adf715eb858882
+ms.openlocfilehash: 442f19dadefe01f9df2402bb5dc6ad0f4a3cb786
 ms.contentlocale: it-it
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="suggest-vendor-payments"></a><span data-ttu-id="5b92f-103">Sugg. pagamenti fornitore</span><span class="sxs-lookup"><span data-stu-id="5b92f-103">Suggest Vendor Payments</span></span>
@@ -29,10 +29,9 @@ ms.lasthandoff: 05/17/2018
 
 > [!IMPORTANT]  
 >   <span data-ttu-id="5b92f-109">Per trarre vantaggio dagli sconti sui pagamenti, se si è immesso un importo disponibile, l'importo verrà utilizzato per:</span><span class="sxs-lookup"><span data-stu-id="5b92f-109">If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:</span></span>  
-
-* <span data-ttu-id="5b92f-110">Movimenti fornitori scaduti con priorità innanzitutto in ordine di priorità.</span><span class="sxs-lookup"><span data-stu-id="5b92f-110">Prioritized overdue vendor entries first in order of priority.</span></span>  
-* <span data-ttu-id="5b92f-111">Movimenti fornitori scaduti senza priorità.</span><span class="sxs-lookup"><span data-stu-id="5b92f-111">Overdue vendor entries that are not prioritized.</span></span>  
-* <span data-ttu-id="5b92f-112">Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.</span><span class="sxs-lookup"><span data-stu-id="5b92f-112">Open vendor entries that qualify for payment discounts, arranged by vendor number.</span></span>  
+    * <span data-ttu-id="5b92f-110">Movimenti fornitori scaduti con priorità innanzitutto in ordine di priorità.</span><span class="sxs-lookup"><span data-stu-id="5b92f-110">Prioritized overdue vendor entries first in order of priority.</span></span>   
+    * <span data-ttu-id="5b92f-111">Movimenti fornitori scaduti senza priorità.</span><span class="sxs-lookup"><span data-stu-id="5b92f-111">Overdue vendor entries that are not prioritized.</span></span>  
+    * <span data-ttu-id="5b92f-112">Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.</span><span class="sxs-lookup"><span data-stu-id="5b92f-112">Open vendor entries that qualify for payment discounts, arranged by vendor number.</span></span>  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a><span data-ttu-id="5b92f-113">Per utilizzare la funzione di suggerimento pagamenti fornitori</span><span class="sxs-lookup"><span data-stu-id="5b92f-113">To use the Suggest Vendor Payments function</span></span>
 1. <span data-ttu-id="5b92f-114">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni pagamenti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="5b92f-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
