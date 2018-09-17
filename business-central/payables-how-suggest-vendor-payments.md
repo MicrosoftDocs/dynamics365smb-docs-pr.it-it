@@ -29,10 +29,9 @@ Per trarre completamente vantaggio dai pagamenti suggeriti, è prima necessario 
 
 > [!IMPORTANT]  
 >   Per trarre vantaggio dagli sconti sui pagamenti, se si è immesso un importo disponibile, l'importo verrà utilizzato per:  
-
-* Movimenti fornitori scaduti con priorità innanzitutto in ordine di priorità.  
-* Movimenti fornitori scaduti senza priorità.  
-* Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.  
+    * Movimenti fornitori scaduti con priorità innanzitutto in ordine di priorità.   
+    * Movimenti fornitori scaduti senza priorità.  
+    * Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Per utilizzare la funzione di suggerimento pagamenti fornitori
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni pagamenti**, quindi scegliere il collegamento correlato.  
