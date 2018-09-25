@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Chiusura domanda e approvvigionamento | Microsoft Docs'
-description: Una volta che sono state eseguite le procedure di contropartita di approvvigionamento, sono disponibili tre casi finali possibili.
+title: 'Dettagli di progettazione: Esempi di codice dei modelli modificati nelle modifiche | Microsoft Docs'
+description: Vengono forniti esempi di codice per mostrare i modelli modificati nella modifica e nella migrazione di codice dimensione per cinque scenari diversi. Confronta gli esempi di codice nelle versioni precedenti con gli esempi di codice in Business Central.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Dettagli di progettazione: Chiusura domanda e approvvigionamento
-Una volta che sono state eseguite le procedure di contropartita di approvvigionamento, sono disponibili tre casi finali possibili:  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Dettagli di progettazione: Esempi di codice dei modelli modificati nelle modifiche
+In questo argomento vengono forniti esempi di codice per mostrare i modelli modificati nella modifica e nella migrazione di codice dimensione per cinque scenari diversi. Confronta gli esempi di codice nelle versioni precedenti con gli esempi di codice in Business Central.
 
--   La quantità e la data necessarie degli eventi di domanda sono state soddisfatte e la relativa pianificazione può essere chiusa. L'evento di approvvigionamento è ancora aperto e può essere in grado di soddisfare la domanda successiva, pertanto la procedura di contropartita può rincominciare con l'evento di approvvigionamento corrente e la domanda successiva.  
+## <a name="posting-a-journal-line"></a>Registrazione di una riga delle registrazioni  
+Le modifiche fondamentali sono elencate di seguito:  
+  
+- Le tabelle delle dimensioni per la riga di registrazione magazzino vengono eliminate.  
+  
+- Un ID set di dimensioni viene creato nel campo **ID set di dimensioni**.  
+  
+**Versioni precedenti**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Registrazione di un documento  
+ Quando si registra un documento in [!INCLUDE[d365fin](includes/d365fin_md.md)], non è più necessario copiare le dimensioni di documento.  
+  
+ **Versioni precedenti**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Modifica delle dimensioni da un documento  
+ È possibile modificare le dimensioni da un documento. Ad esempio, è possibile modificare una riga dell'ordine di vendita.  
+  
+ **Versioni precedenti**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Visualizzazione delle dimensioni da movimenti registrati  
+ È possibile visualizzare le dimensioni dei movimenti registrati, ad esempio righe di spedizione vendita.  
+  
+ **Versioni precedenti**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Ottenere le dimensioni predefinite per un documento  
+ È possibile ottenere le dimensioni predefinite per un documento, ad esempio di una riga ordine di vendita.  
+  
+ **Versioni precedenti**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   L'ordine di approvvigionamento non può essere modificato per soddisfare tutta la domanda. Un evento di domanda è ancora aperto, con una quantità scoperta che può essere coperta dal successivo evento di approvvigionamento. L'evento di approvvigionamento corrente viene quindi chiuso, in modo che l'azione di bilanciamento posso riprendere dall'inizio con gli eventi domanda corrente e approvvigionamento successivo.  
-
--   Tutta la domanda è stata coperta; non esiste alcuna domanda successiva (o non c'è stata alcuna domanda). Se esiste un surplus di approvvigionamento, può essere ridotto (o annullato) e quindi chiuso. È possibile che degli eventi di approvvigionamento aggiuntivi persistano nella catena, nel qual caso anch'essi devono essere annullati.  
-
- Infine, il sistema di pianificazione creerà un collegamento di tracciabilità ordine tra approvvigionamento e domanda.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Creazione della riga di pianificazione (azione suggerita)  
- Se viene suggerita una qualsiasi azione, ad esempio nuovo, modifica della quantità, riprogrammazione e modifica della quantità o annullamento, per esaminare l'ordine di approvvigionamento, tramite il sistema di pianificazione viene creata una riga di pianificazione nel prospetto di pianificazione. A causa della tracciabilità dell'ordine, la riga di pianificazione viene creata non solo al momento della chiusura dell'evento di approvvigionamento, ma anche se l'evento della domanda è chiuso, anche se l'evento di approvvigionamento è ancora aperto e potrebbe essere soggetto a ulteriori modifiche quando viene elaborata la domanda successiva. Ciò significa che, una volta creata, la riga di pianificazione può essere modificata nuovamente.  
-
- Per ridurre al minimo l'accesso al database durante la gestione degli ordini di produzione, la riga di pianificazione può essere gestita a tre livelli, mirando al contempo a eseguire il livello di manutenzione meno impegnativo:  
-
--   Creare solo la riga di pianificazione con la data di scadenza e la quantità corrente ma senza il ciclo e i componenti.  
-
--   Includere il ciclo: il ciclo di produzione pianificato viene steso includendo il calcolo delle date di inizio e di fine e dei periodi. Ciò risulta molto impegnativo in termini di accessi al database. Per determinare le date di scadenza e di fine, può essere necessario calcolare anche se l'evento di approvvigionamento non è stato chiuso (nel caso di programmazione in avanti).  
-
--   Includere l'esplosione della distinta base: questa operazione può attendere fino a poco prima della chiusura dell'evento approvvigionamento.  
-
- Ciò conclude le descrizioni delle modalità di caricamento, di assegnazione di priorità e di bilanciamento di domanda e approvvigionamento nel sistema di pianificazione. A integrazione di questa attività di pianificazione dell'approvvigionamento, il sistema deve garantire che il livello di magazzino richiesto di ciascun articolo pianificato sia mantenuto in base al relativo metodo di riordino.  
+```  
 
 ## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
- [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
- [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-
+[Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
+[Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
+[Dettagli di progettazione: Gestione dimensioni della codeunit 408](design-details-codeunit-408-dimension-management.md)

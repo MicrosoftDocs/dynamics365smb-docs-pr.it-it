@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
@@ -40,8 +40,8 @@ La strategia di distribuzione di una società si riflette in una configurazione 
 |Definire come e quando gli articoli nelle ubicazioni di warehouse vengono conteggiati per la manutenzione o i rendiconti finanziari.|[Conteggio, adeguamento o riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md)|
 |Consentire ai lavoratori della warehouse di suddividere un'unità di misura più grande in unità di misura più piccole per soddisfare le richieste di documenti di origine.|[Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Impostare la warehouse in modo che venga automaticamente suggerito il prelievo degli articoli che scadono prima.|[Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)|
-|Integrare lettori di codici a barre alla soluzione di gestione warehouse.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
+|Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrare lettori di codici a barre alla soluzione di gestione warehouse.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

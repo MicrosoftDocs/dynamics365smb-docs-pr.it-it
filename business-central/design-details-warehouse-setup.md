@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/29/2017
+ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ced5d26e4c261bc3890ba59aa7bdaad009f240c6
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
@@ -30,7 +30,7 @@ Sono disponibili le seguenti funzioni correlate alla warehouse:
 -   Spedizione warehouse (4210)  
 -   Sistema di gestione warehouse (4620)  
 -   Stoccaggi e prelievi Interni (4630)  
--   Sistema di acquisizione automatica dei dati (4640)  
+-   <!-- Automated Data Capture System (4640) -->  
 -   Impostazione della collocazione (4660)  
 
 Per ulteriori informazioni su ciascuna area, vedere [Elenco prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)]](http://go.microsoft.com/fwlink/?LinkId=238341) (richiede l'account PartnerSource).  
@@ -44,7 +44,7 @@ Nella seguente tabella viene indicato quali funzionalità sono richieste per def
 |3 <br /><br /> **NOTA**: anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.|Attività warehouse di base, ordine per ordine.<br /><br /> Registrazione carico/spedizione da documenti di prelievo/stoccaggio in magazzino. <br /><br /> Il codice collocazione è obbligatorio.|Stoccaggio magazzino/Movimento di magazzino/Prelievo magazzino, con codice collocazione|(ARGENTO + Richiesto stoccaggio o Richiesto stoccaggio)|Magazzino di base/Collocazione/Stoccaggio/Prelievo|  
 |4|Attività warehouse avanzate, per ordini multipli.<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo.|Carico warehouse, stoccaggio warehouse, prelievo warehouse, spedizione warehouse, prospetto prelievi|VERDE|Magazzino di base/Carico warehouse/Stoccaggio/Prelievo/Spedizione warehouse|  
 |5|Attività warehouse avanzate, per ordini multipli.<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo.<br /><br /> Il codice collocazione è obbligatorio.|Carico warehouse, stoccaggio warehouse, prelievo warehouse, spedizione warehouse, prospetto prelievi, prospetto stoccaggi, con codice collocazione|(VERDE + Collocazione obbligatoria)|Magazzino di base/Collocazione/Carico warehouse/Stoccaggio/Prelievo/Spedizione warehouse|  
-|6 <br /><br /> **Note**: questo livello viene definito "WMS" poiché richiede la funzionalità più avanzata, Sistema di gestione warehouse (Warehouse Management Systems).|Attività warehouse avanzate, per ordini multipli.<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo.<br /><br /> Il codice collocazione è obbligatorio.<br /><br /> Il codice della zona e il codice di classe sono facoltativi.<br /><br /> Addetti warehouse diretti dal flusso di lavoro.<br /><br /> Pianificazione rifornimento collocazione.<br /><br /> Valutazione collocazione.<br /><br /> Impostazione collocazione per capacità.<br /><br /> Suddivisione in fasce orarie<br /><br /> Integrazione del dispositivo con guida manuale.|Carico warehouse, Stoccaggio warehouse, Prelievo warehouse, Spedizione warehouse, Movimentazione warehouse, Prospetto prelievi, Prospetto stoccaggi, Prelievo interno warehouse, Stoccaggio warehouse interno con codice collocazione/classe/area<br /><br /> Prospetti vari per la gestione delle collocazioni<br /><br /> Video ADCS|BIANCO|Magazzino di base/Collocazione/Stoccaggio/Carico warehouse/Prelievo/Spedizione warehouse/Sistemi di gestione warehouse/Prelievi e stoccaggi interni/Impostazione di collocazione/Sistema di acquisizione data automatizzata/Impostazione collocazione|  
+|6 <br /><br /> **Note**: questo livello viene definito "WMS" poiché richiede la funzionalità più avanzata, Sistema di gestione warehouse (Warehouse Management Systems).|Attività warehouse avanzate, per ordini multipli<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo<br /><br /> Il codice collocazione è obbligatorio.<br /><br /> Il codice della zona e il codice di classe sono facoltativi.<br /><br /> Addetti warehouse diretti dal flusso di lavoro<br /><br /> Pianificazione rifornimento collocazione<br /><br /> Valutazione collocazione<br /><br /> Impostazione collocazione per capacità<br /><br /> Suddivisione in fasce orarie <!-- Hand-held device integration -->|Carico warehouse, Stoccaggio warehouse, Prelievo warehouse, Spedizione warehouse, Movimentazione warehouse, Prospetto prelievi, Prospetto stoccaggi, Prelievo interno warehouse, Stoccaggio warehouse interno con codice collocazione/classe/area<br /><br /> Prospetti vari per la gestione delle collocazioni <!-- ADCS screens  -->|BIANCO|Magazzino di base/Collocazione/Stoccaggio/Carico warehouse/Prelievo/Spedizione warehouse/Sistemi di gestione warehouse/Prelievi e stoccaggi interni/Impostazione di collocazione/Sistema di acquisizione data automatizzata/<!-- Automated Data Capture System/ -->Impostazione collocazione|  
 
 Per esempi dell'utilizzo dei documenti IU in base al livello di complessità della warehouse, vedere [Dettagli di progettazione: Flusso warehouse in entrata](design-details-outbound-warehouse-flow.md).  
 

@@ -1,8 +1,6 @@
 ---
 title: Ricerca di dati e immissione di criteri di filtro | Microsoft Docs
 description: Descrive come utilizzare i filtri, come il Filtro rapido, per perfezionare i risultati nella ricerca dei dati.
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7fd74ad235e51b1793b02e19834bdb0bd17820b
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 10aac3906d9da8b9e0791db614142eeb90940a9b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Ricerca, filtro e ordinamento di dati
@@ -82,27 +80,27 @@ Per ordinare un elenco, fare clic sull'intestazione di una colonna per passare d
 </TABLE>
 
 > [!NOTE]  
->   Non è possibile utilizzare i carattere jolly quando si filtrano i campi di enumerazione, come il campo **Stato** negli ordini di vendita. Per immettere un filtro per il tipo di campo, è possibile immettere il valore numerico come parametro di filtro. Ad esempio, nel campo **Stato** in un ordine di vendita con i valori **Aperto**, **Rilasciato**, **In attesa di approvazione**e **Pagamento anticipato in sospeso**, utilizzare i valori **0**, **1**, **2**e **3** per filtrare in base a queste opzioni. 
+>   Non è possibile utilizzare i carattere jolly quando si filtrano i campi di enumerazione, come il campo **Stato** negli ordini di vendita. Per immettere un filtro per il tipo di campo, è possibile immettere il valore numerico come parametro di filtro. Ad esempio, nel campo **Stato** in un ordine di vendita con i valori **Aperto**, **Rilasciato**, **In attesa di approvazione**e **Pagamento anticipato in sospeso**, utilizzare i valori **0**, **1**, **2**e **3** per filtrare in base a queste opzioni.
 
 ## <a name="searching-by-using-column-filters"></a>Ricerca con filtri di colonna
-È possibile applicare un filtro a una o più colonne di un elenco. I filtri di colonna sono più flessibili e avanzati del Filtro rapido. 
+È possibile applicare un filtro a una o più colonne di un elenco. I filtri di colonna sono più flessibili e avanzati del Filtro rapido.
 
 ### <a name="to-add-a-filter-on-a-column"></a>Per applicare un filtro a una colonna
 1.  Prima di applicare un filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "freccia sinistra Mostra come lista") per modificare la vista dell'elenco.
 2. Scegliere la freccia giù nell'intestazione della colonna, quindi scegliere **Filtro**.
-3. Effettuare una delle seguenti operazioni: 
+3. Effettuare una delle seguenti operazioni:
   -  Scegliere *…* accanto alla casella per selezionare un valore dall'elenco.
   -  Immettere i criteri di filtro nella casella. Per ulteriori informazioni, vedere la sezione successiva.
 4. Scegliere il pulsante **OK**.
 
-## <a name="filter-criteria-and-symbols"></a>Criteri e simboli di filtro
+## <a name="FilterCriteria"> </a>Criteri e simboli di filtro
 Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere consentiti nel campo. È inoltre possibile utilizzare alcuni simboli speciali per filtrare ulteriormente i risultati. Nella tabella seguente sono inclusi i simboli che è possibile utilizzare nei filtri.  
-  
+
 > [!IMPORTANT]  
 >  In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è **'S&R*'**.  
-  
+
 ### <a name="-interval"></a>(..) Intervallo  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |1100..2100|Numeri da 1100 a 2100|  
@@ -112,83 +110,83 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |..23|Dalla data di inizio fino al 23-mese corrente-anno corrente ore 23:59:59|  
 |23..|Dal 23-mese corrente-anno corrente ore 0:00:00 alla fine|  
 |22..23|Dal 22-mese corrente-anno corrente ore 0:00:00 fino al 23-mese corrente-anno corrente ore 23:59:59|  
-  
+
 ### <a name="124-eitheror"></a>(&#124;) Oppure  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |1200&#124;1300|Numeri con 1200 o 1300|  
-  
+
 ### <a name="-not-equal-to"></a>(<>) Diverso da  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |<>0|Tutti i numeri tranne 0<br /><br /> SQL Server Option consente di combinare questo simbolo con un'espressione contenente caratteri jolly. <>A*, ad esempio, si riferisce a un testo diverso da qualunque testo che inizia con la lettera A.|  
-  
+
 ### <a name="-greater-than"></a>(>) Maggiore di  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |>1200|Numeri maggiori di 1200|  
-  
+
 ### <a name="-greater-than-or-equal-to"></a>(>=) Maggiore di o uguale a  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |>=1200|Numeri maggiori o uguali a 1200|  
-  
+
 ### <a name="-less-than"></a>(<) Minore di  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |<1200|Numeri minori di 1200|  
-  
+
 ### <a name="-less-than-or-equal-to"></a>(<=) Minore di o uguale a  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |<=1200|Numeri minori o uguali a 1200|  
-  
+
 ### <a name="-and"></a>(&) E  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |>200&<1200|Numeri maggiori di 200 e minori di 1200.|  
-  
+
 ### <a name="-an-exact-character-match"></a>('') Una corrispondenza esatta di carattere  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |'man'|Testo con corrispondenza esatta a man e con distinzione tra maiuscole e minuscole.|  
-  
+
 ### <a name="-case-insensitive"></a>(@) Senza distinzione tra maiuscole e minuscole  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |@man*|Testo che inizia con man e senza distinzione tra maiuscole e minuscole.|  
-  
+
 ### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un numero indefinito di caratteri non noti  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |*Co*|Testo contenente "Co" per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
 |*Co|Testo che termina con "Co" e per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
 |Co*|Testo che inizia con "Co" e per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
-  
+
 ### <a name="-one-unknown-character"></a>(?) Un carattere non noto  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |Mar?o|Testo come Marco o Mario|  
-  
+
 ### <a name="combined-format-expressions"></a>Espressioni di formato combinate  
-  
+
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |5999&#124;8100..8490|Include qualsiasi record con il numero 5999 oppure con un numero compreso tra 8100 e 8490.|  
 |..1299&#124;1400..|Include record con un numero minore o uguale a 1299 oppure un numero uguale a 1400 o maggiore, vale a dire tutti i numeri tranne quelli compresi tra 1300 e 1399.|  
 |>50&<100|Include record con numeri maggiori di 50 e minori di 100, vale a dire i numeri compresi tra 51 e 99.|  
- 
+
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

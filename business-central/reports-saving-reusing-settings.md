@@ -11,37 +11,46 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
 ms.contentlocale: it-it
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
-A seconda del report che viene eseguito, potrebbe apparire una pagina che consente di impostare determinate opzioni e filtri per variare i dati inclusi nel report generato. Questa pagina è nota come la pagina di richiesta report. Un report può includere uno o più *impostazioni salvate* che è possibile applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti.
+Quando si esegue un report, gli utenti di norma vedono una pagina che consente loro di impostare determinate opzioni e filtri per variare i dati inclusi nel report generato. Questa pagina è chiamata la pagina di richiesta report. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni su come utilizzare le impostazioni salvate, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
 
-È possibile visualizzare le impostazioni salvate a disposizione dell'utente per un report nella sezione **Impostazioni salvate** della pagina di richiesta report.  
-
-## <a name="apply-saved-settings-to-a-report"></a>Applicare le impostazioni salvate a un report
-1. Aprire il report.
-
-   Viene visualizzata la pagina di richiesta report.    
-2. Nella sezione **Impostazioni salvate** della pagina impostare il campo **Nome** sulle impostazioni salvate che si desidera utilizzare.
-
-   La sezione **Impostazioni salvate** viene visualizzata solo se il report è già stato eseguito in precedenza o se esistono movimenti salvati delle impostazioni. Esiste sempre una voce Impostazioni salvate, che viene chiamata **Filtri e opzioni utilizzati di recente**. Queste impostazioni sono i valori delle opzioni e dei filtri che sono stati utilizzati l'ultima volta che è stato eseguito il report.
-
-## <a name="create-and-modify-saved-settings-for-all-users"></a>Creare e modificare le impostazioni salvate per tutti gli utenti
 Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, creare e modificare le impostazioni salvate per tutti i report di tutti gli utenti nella società. È possibile assegnare le impostazioni salvate per un report ai singoli utenti o a tutti gli utenti della società.
 
-È possibile gestire le impostazioni salvate nella pagina 1560 **Impostazioni report**. Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.
+<!-- 
+## Apply saved settings to a report
+1. Open the report.
 
-Nella pagina **Impostazioni report** è possibile creare impostazioni ex novo o duplicarle e modificare le impostazioni esistenti. Per modificare le opzioni e i filtri di un'impostazione, scegliere l'azione **Modifica**.
+   The report request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
 
-> [!NOTE]
-> La funzionalità Impostazioni salvate nei report è rilevante solo quando la proprietà SaveValues della pagina di richiesta è impostata su Sì. La proprietà SaveValues è impostata nell'ambiente di sviluppo.  
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Creare e modificare le impostazioni salvate per tutti gli utenti
+È possibile gestire le impostazioni salvate nella pagina **1560 Impostazioni report**. Sono disponibili due modi per aprire questa pagina:
+-   Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.
+-   Aprire un report, scegliere la funzionalità di ricerca accanto alla casella **Utilizza valori predefiniti da:**, scegliere **Seleziona da elenco completo**.
+
+Nella pagina vengono visualizzate tutte le voci delle impostazioni salvate esistenti per tutti gli utenti. Se esiste un nome utente nella colonna **Assegnato a**, solo tale utente può utilizzare le impostazioni salvate per il report associato. Se è presente un segno di spunta nella colonna **Condiviso con tutti gli utenti**, tutti gli utenti possono utilizzare le impostazioni salvate per il report.
+
+Nella pagina **Impostazioni report**, è possibile:
+-   Scegliere **Nuovo** per creare da zero una nuova voce di impostazioni salvate.
+-   Selezionare una voce di impostazioni salvate dall'elenco e scegliere **Copia** per creare una copia.
+-   Selezionare una voce di impostazioni salvate dall'elenco e scegliere **Modifica** per modificare una voce di impostazioni salvate.
+
 
 > [!Important]
-> Se si crea un articolo impostazioni salvato per tutti gli utenti con lo stesso nome di un'impostazione salvata esistente per un utente specifico, tale utente non potrà utilizzare le impostazioni salvate assegnata a tutti gli utenti.  Nel campo Impostazioni salvate nella pagina di richiesta del report, l'utente vedrà due opzioni delle impostazioni salvate con lo stesso nome. Tuttavia, indipendentemente dall'opzione che sceglie, verranno usate le impostazioni salvate specifiche dell'utente.
+> Tenere in considerazione il nome che viene assegnato a una voce di impostazioni salvate. Se si crea una voce di impostazioni salvate per tutti gli utenti e le si assegna lo stesso nome di una voce di impostazioni salvate esistente solo per un utente specifico, tale utente non potrà utilizzare la voce di impostazioni salvate assegnata a tutti gli utenti.  Nel campo **Impostazioni salvate** nella pagina di richiesta del report, l'utente vedrà due voci di impostazioni salvate con lo stesso nome. Tuttavia, indipendentemente dall'opzione che sceglie, verrà usata la voce di impostazioni salvate specifica dell'utente.
+
+> [!NOTE]
+> La funzionalità delle impostazioni salvate è disponibile solo nei report in cui la [proprietà SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) della pagina di richiesta del report è impostata su `Yes`. La proprietà **SaveValues** viene impostata nell'ambiente di sviluppo.  
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo dei report](ui-work-report.md)  

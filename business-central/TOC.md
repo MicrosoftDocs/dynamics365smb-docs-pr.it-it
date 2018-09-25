@@ -110,7 +110,6 @@
 ### [Conteggio, adeguamento o riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md)
 ### [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)
-### [Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)
 ## [Impostazione della produzione](production-configure-production-processes.md)
 ### [Creare calendari delle aree di produzione](production-how-to-create-work-center-calendars.md)

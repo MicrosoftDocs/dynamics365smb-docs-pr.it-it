@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Utilizzo dei report
 Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
 
-I report sono disponibili nella scheda **Report** delle pagine selezionate oppure è possibile utilizzare una ricerca per trovare i report in base al nome. Quando si apre un report, viene visualizzata una pagina con le informazioni (opzioni e filtri) che determina cosa includere nel report. Ad esempio, a seconda del report, è possibile specificare l'intervallo di date, un record specifico come un cliente o un ordinamento. Un esempio:
+È possibile trovare i report nella scheda **Report** nelle pagine selezionate oppure è possibile utilizzare la funzionalità Ricerca ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") per trovare i report in base al nome.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Specificare la data da includere nel report
+Quando si apre un report, viene di norma visualizzata una pagina dove è possibile impostare varie opzioni e filtri che determinano cosa includere nel report. Questa pagina è chiamata la pagina di richiesta report. Ad esempio, la pagina di richiesta del report consente di creare un report per un cliente specifico, un determinato intervallo di date oppure di stabilire l'ordine delle informazioni nel report. Di seguito è riportato un esempio di pagina di richiesta del report:
 
 ![Opzioni del report](media/report_options.png "Opzioni del report")
+
+### <a name="SavedSettings"></a>Uso delle impostazioni salvate
+Con alcuni report, a seconda di come vengono progettati, la pagina del report potrebbe includere la sezione **Impostazioni salvate** contenente uno o più voci nella casella **Utilizza valori predefiniti da**. Le voci in questa casella sono chiamate *impostazioni salvate*. Le Impostazioni salvate sono fondamentalmente un gruppo di default di opzioni e filtri che si possono applicare al report prima di visualizzarlo in anteprima o inviarlo in un file. Esiste sempre una voce Impostazioni salvate, che viene chiamata **Filtri e opzioni utilizzati di recente**. Questa voce imposta il report per utilizzare le opzioni e i filtri che sono stati utilizzati l'ultima volta che è stato visualizzato il report.
+
+L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Dopo aver impostato la casella **Utilizza valori predefiniti da** su una voce di impostazione salvata, è possibile modificare le opzioni e i filtri prima di visualizzare in anteprima o di salvare il report. Le modifiche effettuate non verranno salvate nella voce di impostazione salvata selezionata, ma verranno salvate in **Filtri e opzioni utilizzati più di recente**.
+
+>[!NOTE]
+>In qualità di amministratore, è possibile creare e gestire le impostazioni salvate per i report di tutti gli utenti. Per ulteriori informazioni, vedere [Gestione impostazioni salvate nei report](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Filtri e opzioni delle impostazioni
+Se si desidera ulteriormente limitare o definire i dati inclusi in un report, è possibile impostare opzioni e filtri aggiuntivi.
+
+I filtri consentono di visualizzare i dati in base a criteri specifici. I filtri sono raggruppati in base all'entità di appartenenza, ad esempio **Cliente** nell'illustrazione precedente. È possibile definire un filtro impostando la casella **Dove** sul campo a cui si desidera venga applicato quindi aggiungendo criteri nella casella **è:**. Ad esempio, nell'illustrazione precedente, è presente un solo filtro che consente di creare il report per il cliente il cui **Nr.** è pari a **01121212**.
+
+È possibile aggiungere altri filtri impostando le caselle **Aggiungi**. Quando vengono impostati più filtri, verranno inclusi nel report solo i risultati che soddisfano i criteri di tutti i filtri.
+
+A seconda del tipo di campo che si sta filtrando, è possibile specificare i criteri di filtro per cercare una corrispondenza esatta, una corrispondenza parziale, un intervallo di valori e altro. Per ulteriori informazioni sull'impostazione dei filtri, vedere:
+-   [Filtri](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Immettere intervalli di date](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 Scegliere **Anteprima** per vedere il report nel browser Internet. Puntare un'area del report per visualizzare la barra dei menu.  
@@ -57,14 +80,6 @@ Utilizzare la barra dei menu per:
 
 ## <a name="PrintReport"></a>Stampa di un report
 È possibile stampare un report usando il pulsante **Stampa** nella pagina Oopzioni che appare quando si apre il report o dalla barra dei menu in Anteprima.
-
-## <a name="using-saved-settings"></a>Uso delle impostazioni salvate
-Un report possono includere una o più voci nella casella **Impostazioni salvate**. Le *Impostazioni salvate* costituiscono fondamentalmente un gruppo di default di opzioni e filtri che si possono applicare al report prima di visualizzarlo in anteprima o inviarlo in un file. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti.
-
-Esiste sempre una voce Impostazioni salvate, che viene chiamata **Filtri e opzioni utilizzati di recente**. Questa voce imposta il report per utilizzare le opzioni e i filtri che sono stati utilizzati l'ultima volta che è stato visualizzato il report.
-
->[!NOTE]
->In qualità di amministratore, è possibile creare e gestire le impostazioni salvate per i report di tutti gli utenti. Per ulteriori informazioni, vedere [Gestione impostazioni salvate nei report](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Modifica del layout e dell'aspetto di un report
 Un layout di report determina le informazioni che verranno visualizzate nel report, nonché la disposizione e l'aspetto delle stesse. Se si desidera passare a un layout diverso, vedere [Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md) Per personalizzare un layout di report, vedere [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md).
