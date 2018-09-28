@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1de4d4261f47f66fe5f3702a9adc2944593b28d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ce8ac2692240f128c1473ca40e101f5018b989b9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-initial-item-costs"></a><span data-ttu-id="bcec8-103">Impostare i costi iniziali per gli articoli</span><span class="sxs-lookup"><span data-stu-id="bcec8-103">Set Up Initial Item Costs</span></span>

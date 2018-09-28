@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/28/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 7ceccbe98296706cdea83a98d53dfbe00d140504
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a9b520c49c4175b372a6c2c602a841bc4ca8cd0
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="italy-local-functionality"></a><span data-ttu-id="11368-103">Funzionalità locale per l'Italia</span><span class="sxs-lookup"><span data-stu-id="11368-103">Italy Local Functionality</span></span>

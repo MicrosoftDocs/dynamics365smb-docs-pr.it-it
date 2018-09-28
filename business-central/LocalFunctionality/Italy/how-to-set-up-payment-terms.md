@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05e768e6c8c244571d6056551beda635994ec6aa
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 65dc19fe79b003b7b5ad7479668c490969ab4376
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-payment-terms"></a><span data-ttu-id="c40a2-104">Impostazione delle condizioni di pagamento</span><span class="sxs-lookup"><span data-stu-id="c40a2-104">Set Up Payment Terms</span></span>

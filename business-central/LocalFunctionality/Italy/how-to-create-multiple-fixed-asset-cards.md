@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b1096d161f3e52ef2830c53fc09ca83ed10d42b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22d6a6ed90d504107ba07f1459509128835336c8
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-multiple-fixed-asset-cards"></a><span data-ttu-id="1f3f6-103">Creazione di più schede cespite</span><span class="sxs-lookup"><span data-stu-id="1f3f6-103">Create Multiple Fixed Asset Cards</span></span>

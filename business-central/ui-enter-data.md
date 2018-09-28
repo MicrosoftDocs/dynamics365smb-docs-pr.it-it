@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/19/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 104db795ec340fb30ba6498ab6d95b42632935f2
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -164,7 +164,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="f7d56-227">Di seguito vengono forniti alcuni esempi.</span><span class="sxs-lookup"><span data-stu-id="f7d56-227">Here are some examples.</span></span>  
 
-|<span data-ttu-id="f7d56-228">Durata</span><span class="sxs-lookup"><span data-stu-id="f7d56-228">Duration</span></span>|<span data-ttu-id="f7d56-229">Unità di misura**</span><span class="sxs-lookup"><span data-stu-id="f7d56-229">Unit of measure**</span></span>|  
+|<span data-ttu-id="f7d56-228">Durata</span><span class="sxs-lookup"><span data-stu-id="f7d56-228">Duration</span></span>|<span data-ttu-id="f7d56-229">Unità di misura\*\*</span><span class="sxs-lookup"><span data-stu-id="f7d56-229">Unit of measure\*\*</span></span>|  
 |------------------|-------------------------|  
 |<span data-ttu-id="f7d56-230">2h</span><span class="sxs-lookup"><span data-stu-id="f7d56-230">2h</span></span>|<span data-ttu-id="f7d56-231">2 ore</span><span class="sxs-lookup"><span data-stu-id="f7d56-231">2 hrs</span></span>|  
 |<span data-ttu-id="f7d56-232">6h 30 m</span><span class="sxs-lookup"><span data-stu-id="f7d56-232">6h 30 m</span></span>|<span data-ttu-id="f7d56-233">6 ore 30 minuti</span><span class="sxs-lookup"><span data-stu-id="f7d56-233">6 hrs 30 mins</span></span>|  

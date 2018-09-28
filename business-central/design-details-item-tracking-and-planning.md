@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71c327dd10816934d202643644cc5864f190bb78
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="370f7-103">Dettagli di progettazione: Collegamento articoli</span><span class="sxs-lookup"><span data-stu-id="370f7-103">Design Details: Item Application</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="370f7-106">Inoltre, viene creato un collegamento articoli per collegare il destinatario di costo alla relativa origine di costo per fornire l'inoltro di costi secondo il metodo di costing.</span><span class="sxs-lookup"><span data-stu-id="370f7-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="370f7-107">Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="370f7-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="370f7-108"> esegue due tipi di collegamento articoli.</span><span class="sxs-lookup"><span data-stu-id="370f7-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="370f7-108">esegue due tipi di collegamento articoli.</span><span class="sxs-lookup"><span data-stu-id="370f7-108"> makes two types of item application.</span></span>  
   
 |<span data-ttu-id="370f7-109">Tipo collegamento</span><span class="sxs-lookup"><span data-stu-id="370f7-109">Application type</span></span>|<span data-ttu-id="370f7-110">Description</span><span class="sxs-lookup"><span data-stu-id="370f7-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -239,7 +239,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="370f7-524">Si desidera oltrepassare il collegamento creato automaticamente durante la registrazione, in base al metodo di costing dell'articolo.</span><span class="sxs-lookup"><span data-stu-id="370f7-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="370f7-525">È necessario restituire un articolo a cui è stata stata collegata manualmente una vendita, senza utilizzare la funzione **Ottieni righe documento registrato da stornare**, ed è di conseguenza necessario annullare il collegamento.</span><span class="sxs-lookup"><span data-stu-id="370f7-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="370f7-526"> offre una funzionalità per l'analisi e la correzione dei collegamenti articoli.</span><span class="sxs-lookup"><span data-stu-id="370f7-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="370f7-527">Questa operazione può essere effettuata nella finestra **Prospetto collegamento**.</span><span class="sxs-lookup"><span data-stu-id="370f7-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="370f7-526">offre una funzionalità per l'analisi e la correzione dei collegamenti articoli.</span><span class="sxs-lookup"><span data-stu-id="370f7-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="370f7-527">Questa operazione può essere effettuata nella finestra **Prospetto collegamento**.</span><span class="sxs-lookup"><span data-stu-id="370f7-527">This work is performed in the **Application Worksheet** window.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="370f7-528">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="370f7-528">See Also</span></span>  
 [<span data-ttu-id="370f7-529">Dettagli di progettazione: Costing di magazzino</span><span class="sxs-lookup"><span data-stu-id="370f7-529">Design Details: Inventory Costing</span></span>](design-details-inventory-costing.md)  

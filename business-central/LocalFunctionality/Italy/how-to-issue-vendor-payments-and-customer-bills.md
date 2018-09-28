@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 381d759d77e8a65207bd507a2f1ca44ad4fbfae7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9ff3a1129a036cf5ceac4daceacc7f286b9a39d5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a><span data-ttu-id="d7894-103">Emettere pagamenti fornitori ed effetti clienti</span><span class="sxs-lookup"><span data-stu-id="d7894-103">Issue Vendor Payments and Customer Bills</span></span>

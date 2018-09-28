@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1f326fe98edbcf8a3247a6a4e262ffd64e21e3e4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a93ceaf293aa4394891769662e3f452e934344b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-for-vat-transactions-reports"></a><span data-ttu-id="6d852-103">Preparare i report di transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="6d852-103">Prepare for VAT Transactions Reports</span></span>

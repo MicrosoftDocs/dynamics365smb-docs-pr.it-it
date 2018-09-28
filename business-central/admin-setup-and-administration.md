@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 0/07/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d03fc2fb97f9abd85b42566616d8aa7f39ee29bb
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="administration"></a><span data-ttu-id="c8d1e-104">Setup</span><span class="sxs-lookup"><span data-stu-id="c8d1e-104">Administration</span></span>
 <span data-ttu-id="c8d1e-105">I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-105">Central administration tasks are usually performed by one role in the company.</span></span> <span data-ttu-id="c8d1e-106">L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-106">The scope of these tasks can depend on the company's size and the administrator's job responsibilities.</span></span> <span data-ttu-id="c8d1e-107">Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-107">These tasks can include managing database synchronization of job and email queues, setting up users, and customizing the user interface.</span></span>  
 
-<span data-ttu-id="c8d1e-108">Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c8d1e-109"> include varie guide di setup per la configurazione dei dati principali.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="c8d1e-110">Per ulteriori informazioni, vedere [Impostazione di Business Central](setup.md).</span><span class="sxs-lookup"><span data-stu-id="c8d1e-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
+<span data-ttu-id="c8d1e-108">Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c8d1e-109">include varie guide di setup per la configurazione dei dati principali.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="c8d1e-110">Per ulteriori informazioni, vedere [Impostazione di Business Central](setup.md).</span><span class="sxs-lookup"><span data-stu-id="c8d1e-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
 
 <span data-ttu-id="c8d1e-111">Se si utilizza RapidStart Services per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.</span><span class="sxs-lookup"><span data-stu-id="c8d1e-111">Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.</span></span>  
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 06/28/2018
 [<span data-ttu-id="c8d1e-144">Introduzione</span><span class="sxs-lookup"><span data-stu-id="c8d1e-144">Getting Started</span></span>](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

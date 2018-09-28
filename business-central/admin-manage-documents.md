@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 01b20f74d631a81085ffcaf205dd556c54d6369c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-documents"></a><span data-ttu-id="60a0c-103">Gestione dei documenti</span><span class="sxs-lookup"><span data-stu-id="60a0c-103">Manage Documents</span></span>
 <span data-ttu-id="60a0c-104">Un ruolo centrale, ad esempio l'amministratore dell'applicazione, deve occuparsi regolarmente dell'accumularsi dei documenti storici, eliminandoli o comprimendoli.</span><span class="sxs-lookup"><span data-stu-id="60a0c-104">A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.</span></span>  
 
 ## <a name="delete-documents"></a><span data-ttu-id="60a0c-105">Eliminare documenti</span><span class="sxs-lookup"><span data-stu-id="60a0c-105">Delete Documents</span></span>
-<span data-ttu-id="60a0c-106">In certe situazioni, si ha la necessità di eliminare degli ordini di acquisto fatturati.</span><span class="sxs-lookup"><span data-stu-id="60a0c-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="60a0c-107"> verifica che gli ordini di acquisto eliminati siano stati completamente fatturati.</span><span class="sxs-lookup"><span data-stu-id="60a0c-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="60a0c-108">Non è possibile eliminare ordini che non siano stati completamente fatturati e ricevuti.</span><span class="sxs-lookup"><span data-stu-id="60a0c-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
+<span data-ttu-id="60a0c-106">In certe situazioni, si ha la necessità di eliminare degli ordini di acquisto fatturati.</span><span class="sxs-lookup"><span data-stu-id="60a0c-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="60a0c-107">verifica che gli ordini di acquisto eliminati siano stati completamente fatturati.</span><span class="sxs-lookup"><span data-stu-id="60a0c-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="60a0c-108">Non è possibile eliminare ordini che non siano stati completamente fatturati e ricevuti.</span><span class="sxs-lookup"><span data-stu-id="60a0c-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
 
 <span data-ttu-id="60a0c-109">Gli ordini di reso sono in genere eliminati dopo la fatturazione.</span><span class="sxs-lookup"><span data-stu-id="60a0c-109">Return orders are usually deleted after they are invoiced.</span></span> <span data-ttu-id="60a0c-110">Quando si registra una fattura, viene trasferita nella finestra **Note credito acq. registrate** .</span><span class="sxs-lookup"><span data-stu-id="60a0c-110">When you post an invoice, it is transferred to the **Posted Purchase Credit Memo** window.</span></span> <span data-ttu-id="60a0c-111">Se si seleziona la casella di controllo **Spediz. resi in nota credito** nella finestra **Setup contabilità fornitori**, la fattura viene trasferita nella finestra **spedizione reso registrata**.</span><span class="sxs-lookup"><span data-stu-id="60a0c-111">If you selected the **Return Shipment on Credit Memo** check box in the **Purchases & Payable Setup** window, then the invoice is transferred to the **Posted Return Shipment** window.</span></span> <span data-ttu-id="60a0c-112">È possibile eliminare i documenti mediante il processo batch **Rimuovi ordini resi acq. fatt.** .</span><span class="sxs-lookup"><span data-stu-id="60a0c-112">You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job.</span></span> <span data-ttu-id="60a0c-113">Prima di eliminarli, il processo batch verifica se gli ordini di reso acquisto sono completamente spediti e fatturati.</span><span class="sxs-lookup"><span data-stu-id="60a0c-113">Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.</span></span>  
 

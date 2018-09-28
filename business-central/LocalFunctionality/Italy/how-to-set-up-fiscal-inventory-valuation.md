@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9ee3953ac28a684d2c335eefc22f25c889cf5e2b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8295be278463f10d67e2c154637573688fa8abdc
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-fiscal-inventory-valuation"></a><span data-ttu-id="0483b-103">Impostare la valutazione magazzino fiscale</span><span class="sxs-lookup"><span data-stu-id="0483b-103">Set Up Fiscal Inventory Valuation</span></span>

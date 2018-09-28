@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a39b35aba4e5ae73358806f6da12db650b21f264
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 69de97855d7563fc94454d617865d93c105f047e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="italian-subcontracting"></a><span data-ttu-id="176ea-103">Conto lavoro italiano</span><span class="sxs-lookup"><span data-stu-id="176ea-103">Italian Subcontracting</span></span>

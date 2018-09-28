@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72756f58446cabb11921c80fe66c70b92477f671
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f52cc875dda2171d8347fe6aaafa454db43e172
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="update-vat-transactions-data"></a><span data-ttu-id="50b8b-103">Aggiornare i dati delle transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="50b8b-103">Update VAT Transactions Data</span></span>

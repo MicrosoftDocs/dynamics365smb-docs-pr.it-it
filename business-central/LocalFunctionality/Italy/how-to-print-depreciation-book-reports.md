@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1acb4c5fd76ceb4b3bce3666968bf31b44695519
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7344547b53e4c025d97ffb371592f2cfeccd4790
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-depreciation-book-reports"></a><span data-ttu-id="055fc-105">Stampare report dei registri dei beni ammortizzabili</span><span class="sxs-lookup"><span data-stu-id="055fc-105">Print Depreciation Book Reports</span></span>

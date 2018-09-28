@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4089b524c828a8c27b3827a5d7a8e6d695f13fd9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fed1dcec3f9bde8462bad38d5d2a7eff23ace93e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-company-information"></a><span data-ttu-id="44649-104">Impostazione di informazioni sulla società</span><span class="sxs-lookup"><span data-stu-id="44649-104">Set Up Company Information</span></span>

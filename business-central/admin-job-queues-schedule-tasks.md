@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="c962d-105">Utilizzare le code processi per pianificare i task</span><span class="sxs-lookup"><span data-stu-id="c962d-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="c962d-115">In alternativa, è possibile impostare un filtro nel campo **Filtro categoria coda processi**.</span><span class="sxs-lookup"><span data-stu-id="c962d-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="c962d-116">Le categorie della coda processi possono essere utilizzate per raggruppare i processi nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="c962d-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c962d-117"> esegue automaticamente i processi in base alle pianificazioni specificate per ogni movimento coda processi.</span><span class="sxs-lookup"><span data-stu-id="c962d-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="c962d-118">È inoltre possibile avviare, arrestare e sospendere manualmente un movimento coda processi.</span><span class="sxs-lookup"><span data-stu-id="c962d-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c962d-117">esegue automaticamente i processi in base alle pianificazioni specificate per ogni movimento coda processi.</span><span class="sxs-lookup"><span data-stu-id="c962d-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="c962d-118">È inoltre possibile avviare, arrestare e sospendere manualmente un movimento coda processi.</span><span class="sxs-lookup"><span data-stu-id="c962d-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="c962d-119">File log</span><span class="sxs-lookup"><span data-stu-id="c962d-119">Log Files</span></span>
 <span data-ttu-id="c962d-120">Gli errori vengono elencati nella finestra **Movimenti log coda processi** accessibile dalla barra multifunzione.</span><span class="sxs-lookup"><span data-stu-id="c962d-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="c962d-121">È possibile anche risolvere gli errori della coda processi.</span><span class="sxs-lookup"><span data-stu-id="c962d-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="c962d-122">I dati generati quando viene eseguita una coda processi vengono archiviati nel database.</span><span class="sxs-lookup"><span data-stu-id="c962d-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="c962d-127">In alternativa, è possibile pianificare le registrazioni nelle ore in cui è conveniente per la propria organizzazione.</span><span class="sxs-lookup"><span data-stu-id="c962d-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="c962d-128">Ad esempio, può avere senso nella propria l'attività commerciale eseguire determinate procedure quando si è conclusa la maggior parte dell'immissione dati del giorno.</span><span class="sxs-lookup"><span data-stu-id="c962d-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="c962d-129">Per riuscirci, impostare la coda commesse sull'esecuzione di diversi report di registrazione tramite processo batch, come i report **Registra ordini vendite tramite processo batch**, **Registra fatture vendita tramite processo batch** e **Agg. note di cr. vend. tramite processo batch**.</span><span class="sxs-lookup"><span data-stu-id="c962d-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c962d-130"> supporta la registrazione background per i seguenti tipi di documento:</span><span class="sxs-lookup"><span data-stu-id="c962d-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c962d-130">supporta la registrazione background per i seguenti tipi di documento:</span><span class="sxs-lookup"><span data-stu-id="c962d-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="c962d-131">Vendite: ordine di vendita, ordine di reso, nota di credito, fattura</span><span class="sxs-lookup"><span data-stu-id="c962d-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 
