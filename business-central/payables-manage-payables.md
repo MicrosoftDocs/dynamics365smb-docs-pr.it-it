@@ -1,17 +1,15 @@
 ---
 title: Panoramica dei task di gestione fornitori| Documenti Microsoft
 description: Descrive i task per la gestione dei fornitori, ad esempio, pagare i creditori o collegare i pagamenti in uscita ai movimenti contabili per chiudere fatture o note di credito.
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 5482579cb453b119be1b6eb5c24d5adc9441ea8b
@@ -20,6 +18,7 @@ ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
+
 Una parte importante della gestione della contabilità fornitori consiste nel pagare i fornitori o rimborsare le spese ai dipendenti. È possibile utilizzare funzioni per aggiungere righe di pagamenti per le fatture di acquisto che sono in scadenza nella finestra **Registrazioni pagamenti**. Per inviare transazioni alla banca, è possibile esportare più righe di registrazione pagamenti in un file, che sarà quindi caricato nella banca. È inoltre possibile effettuare i pagamenti con assegno, incluso trasmettere assegni come pagamenti elettronici.
 
 Un'altra attività tipica è il collegamento dei pagamenti in uscita ai relativi movimenti contabili fornitori o dipendenti per chiudere le fatture di acquisto, le note di credito di acquisto o i conti dipendenti come pagati. È possibile eseguire questa attività nella finestra **Registrazione riconciliazione pagamenti** importando un file di rendiconto bancario per registrare i pagamenti. I pagamenti sono collegati ai movimenti contabili aperti per fornitori, clienti o dipendenti abbinando il testo di pagamento e le informazioni sul movimento. Esistono varie modalità di esaminare e modificare le corrispondenze prima di contabilizzare le registrazioni. Quando si effettua la registrazione, è possibile scegliere di chiudere qualsiasi movimento contabile di conto corrente bancario aperto correlato ai movimenti contabili. Il conto bancario viene automaticamente riconciliato una volta che tutti i pagamenti sono collegati.
@@ -43,5 +42,4 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
