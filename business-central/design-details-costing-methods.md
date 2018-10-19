@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3eaa16ebf1266a7c90d4130fcb25b2fbbc2b40d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
@@ -32,7 +32,7 @@ Il metodo di costing determina se un valore effettivo o a budget viene capitaliz
 
  Nell'immagine seguente viene mostrato il flusso dei costi attraverso il magazzino per ciascun metodo di costing.  
 
- ![Metodo di costing](media/design_details_inventory_costing_7_costing_methods.png "design_details_inventory_costing_7_costing_methods")  
+ ![Metodi di costing](media/design_details_inventory_costing_7_costing_methods.png "Metodi di costing")  
 
  I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzino e se utilizzano il costo effettivo o il costo standard come base di valutazione. Nella seguente tabella vengono illustrate le differenti caratteristiche. (Il metodo LIFO è escluso, in quanto è molto simile al metodo FIFO).  
 

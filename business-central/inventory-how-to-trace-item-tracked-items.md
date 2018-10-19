@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-trace-item-tracked-items"></a>Analizzare articoli tracciati  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Tracciabilità articolo**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tracciabilità articolo** e quindi scegliere il collegamento correlato.  
 2.  Nei campi di filtro nella parte superiore della finestra immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
 3.  Nel campo **Mostra componenti** definire se si desidera visualizzare anche la provenienza dei componenti dell'articolo. Le opzioni disponibili sono le seguenti.  
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Per trovare gli articoli tracciati con la funzionalità Naviga  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Naviga**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Naviga** e quindi selezionare il collegamento correlato.  
 2.  Nella Scheda dettaglio **Tracciabilità articolo**, nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 3.  Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
 

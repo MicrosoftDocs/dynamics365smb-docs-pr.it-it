@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 954438a19ed4b7aadc707cbb5e646f1752aa37a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -29,19 +29,19 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 * **Modelli clienti**: consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Per impostare un gruppo di contratti di assistenza  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi contratti assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi contratti assistenza** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Scegliere la casella di controllo **Sc. solo su ordini contr.** se si desidera che gli sconti contratto o assistenza siano validi solo per gli ordini di assistenza contratto, ad esempio la manutenzione.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Per impostare un gruppo conto dei contratti di assistenza  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi conto contratto assist.**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi conto contratto assist.** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di conto dei contratti dei assistenza.   
 3. Compilare i campi **Codice** e **Descrizione**. Questi campi forniscono una descrizione del gruppo conto contratti di assistenza.  
 4. Compilare il campo **Conto contratto non prepagato**, quindi scegliere il numero di conto di contabilità generale per il conto non prepagato.  
 5. Nel campo **Conto contratto prepagato** scegliere il numero di conto di contabilità generale per il conto prepagato.  
 
 ## <a name="to-set-up-a-contract-template"></a>Per impostare un modello di contratto  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Modelli contratti assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli contratti assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo modello di contratto di assistenza.  
 3. Nel campo **Nr.** immettere un numero per il modello di contratto.  
   
@@ -51,7 +51,7 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 5. Scegliere l'azione **Sconti assistenza** per aggiungere sconti contrattuali.  
 
 ## <a name="to-set-up-a-customer-template"></a>Per impostare un modello di cliente  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Modelli cliente**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli cliente** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova scheda modello cliente.  
 3. Nella Scheda dettaglio **Generale** immettere un codice e una descrizione per il modello cliente rispettivamente nei campi **Codice** e **Descrizione**. 
 4. Per definire i criteri di ricerca, compilare gli altri campi, ad esempio **Cod. paese**, **Cod. regione** e **Cod. lingua**.  

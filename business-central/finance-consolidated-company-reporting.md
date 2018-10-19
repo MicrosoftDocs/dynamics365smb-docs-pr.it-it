@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Se sono necessarie impostazioni più avanzate per il consolidamento, è possibil
 [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di impostare un elenco di società da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Business Unit**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business unit** e quindi scegliere il collegamento correlato.  
 3. Scegliere **Nuovo** e compilare i campi necessari.  
 
 Se una business unit utilizza una valuta straniera, è necessario specificare il tasso di cambio da utilizzare nel consolidamento. È inoltre necessario immettere le informazioni di consolidamento nei conti C/G della business unit. Tali processi sono descritti nelle sezioni riportate di seguito.
@@ -63,7 +63,7 @@ Se una business unit utilizza una valuta straniera, è necessario specificare il
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Per preparare conti di contabilità generale per il consolidamento
 Se il piano dei conti nella business unit differisce dalla società consolidata, è necessario preparare conti di contabilità generale per il consolidamento. È possibile specificare i conti in cui registrare debiti e crediti nonché il metodo da utilizzare per convertire le valute nella società consolidata. Ciò è utile se, ad esempio, si esegue spesso il report.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Piano dei conti**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Per specificare i tassi di cambio per i consolidamenti
@@ -82,9 +82,9 @@ Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possib
 
 Per specificare i tassi di cambio per le business unit, attenersi alla seguente procedura:
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Business Unit**, quindi scegliere il collegamento correlato.  
-2. Nella pagina **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.   
-3. Nella pagina **Modifica tasso di cambio**, il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business unit** e quindi scegliere il collegamento correlato.  
+2. Nella finestra **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.   
+3. Nella finestra **Modifica tasso di cambio** il campo **Tasso cambio relativo** contiene valori copiati dalla tabella **Tasso di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
 4. Scegliere l'azione **Tasso di chiusura**.  
 5. Nel campo **Importo tasso cambio relativo**, immettere il tasso di cambio.
 
@@ -108,7 +108,7 @@ Se si possiede solo una parte di una società, è possibile includere una percen
 È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[d365fin](includes/d365fin_md.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.   
 
 1. Aprire la società consolidata.  
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Business Unit**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business unit** e quindi scegliere il collegamento correlato.  
 3. Effettuare una delle seguenti operazioni:  
 
     * Per verificare un file, scegliere l'azione **Test file**, immettere il nome del file da verificare, quindi scegliere **Stampa**.  

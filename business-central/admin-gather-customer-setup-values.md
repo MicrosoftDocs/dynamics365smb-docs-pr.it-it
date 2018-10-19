@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
@@ -47,9 +47,9 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 -   Setup warehouse  
 
 > [!NOTE]  
->  Per visualizzare una lista completa di tabelle di setup, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup**, quindi scegliere il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
+>  Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Questionario di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Viene visualizzata la finestra **Questionario su configurazione**.  
 3. Scegliere l'azione **Aree domande**. Verrà aperta la finestra **Aree domande**.  
 4. Scegliere l'azione **Nuovo**. Verrà aperta la finestra **Area domande su configurazione**.  
@@ -72,7 +72,7 @@ Utilizzare il questionario di configurazione per organizzare e documentare una d
 >  È anche possibile creare il proprio questionario di configurazione per soddisfare le proprie esigenze.  
 
 1. Aprire la società per cui si intende completare il questionario.
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Questionario di configurazione**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato.  
 3. Selezionare il questionario per la società, quindi scegliere l'azione **Esporta in Excel**, facoltativamente l'azione **Esporta in XML**.
 4. Far completare il questionario di configurazione al cliente immettendo le risposte nella cartella di lavoro di Excel. Esistono prospetti per ciascuna area domande creata per il questionario.   
 5. Scegliere l'azione **Importa da Excel** e selezionare il file .xlsx con le risposte del cliente.  
@@ -105,7 +105,7 @@ Dopo avere completato la convalida, i dati sono pronti per essere collegati al d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Per applicare le risposte di un questionario di configurazione
 Dopo aver importato e convalidato le informazioni da un questionario di configurazione, è possibile trasferire oppure applicare i dati di setup alle tabelle corrispondenti nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Questionario di configurazione**, quindi scegliere il collegamento correlato. Viene visualizzata la finestra **Questionario su configurazione**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato. Viene visualizzata la finestra **Questionario su configurazione**.  
 2. Selezionare un questionario di configurazione dall'elenco e scegliere l'azione **Modifica lista**.  
 3. È possibile applicare le risposte in uno dei due modi seguenti.  
 
@@ -113,7 +113,7 @@ Dopo aver importato e convalidato le informazioni da un questionario di configur
 - Per applicare le risposte solo per un'**area domande** specifica, scegliere l'azione **Aree domande**, selezionare un'**area domande** nell'elenco, quindi, scegliere l'azione **Applica risposte**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Per verificare che la risposta sia stata applicata correttamente  
-1. Controllare le finestre di setup per le diverse aree funzionali di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per trovare la finestra, selezionare l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere il nome della finestra di setup, quindi scegliere il collegamento correlato.  
+1. Controllare le finestre di setup per le diverse aree funzionali di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per individuare la finestra, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della finestra di sutup e quindi scegliere il collegamento correlato.  
 2. Verificare che i campi siano stato compilati con i dati appropriati provenienti da diverse aree domande del questionario di configurazione.  
 
 A questo punto è stato configurato il setup con le informazioni aziendali e regole del cliente.

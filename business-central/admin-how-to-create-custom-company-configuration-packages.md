@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7feaa0e41cf5800ffd51d5807a90f6929492804e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
@@ -39,7 +39,7 @@ Un altro approccio consiste nel creare un pacchetto che include le tabelle che d
 -   Setup registrazioni IVA  
 -   Setup registrazione magazzino  
 
-Per visualizzare una lista completa di tabelle di setup, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup**, quindi scegliere il collegamento correlato.  
+Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Per creare un pacchetto di configurazione di società personalizzato  
 1.  Creare un nuovo [!INCLUDE[d365fin](includes/d365fin_md.md)] ***IMPOSSIBILE Collegamento alla Guida per "Creazione di un nuovo tenant"***.   

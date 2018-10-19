@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1646e80e64c176e6dc2e409ca17692ede89d0579
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dd3d8d720d02928cb1f19d9fd0a7906d2effe1e4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
@@ -47,7 +47,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 6.  Selezionare la casella di controllo **Esportazione dettagliata**, in base alle proprie esigenze. Il campo determina se esportare i dati in formato dettagliato o aggregato. Se aggregato, le righe vengono ulteriormente raggruppate per numero di partita VAT o codice fiscale.  
 7.  Scegliere il pulsante **OK**.
 
-    Il report IVA viene esportato come file .CCF. È ora possibile inviare il report alle autorità fiscali utilizzando lo strumento dall'agenzia delle entrate italiana. Utilizzare le indicazioni fornite dall'autorità. Per ulteriori informazioni, vedere l'[agenzia delle entrate italiana](http://go.microsoft.com/fwlink/?LinkID=206524).  
+    Il report IVA viene esportato come file .CCF. È ora possibile inviare il report alle autorità fiscali utilizzando lo strumento dall'agenzia delle entrate italiana. Utilizzare le indicazioni fornite dall'autorità. Per ulteriori informazioni, vedere l'[agenzia delle entrate italiana](https://go.microsoft.com/fwlink/?LinkID=206524).  
 
     Una volta ricevuta una risposta dalle autorità fiscali, è necessario aggiornare il report IVA.  
 

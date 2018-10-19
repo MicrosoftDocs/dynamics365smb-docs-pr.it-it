@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ddbce1bd10f8eb635e8749b0e1743402a17ca69e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-essential-business-insights-extension-for-business-central"></a>Estensione Informazioni aziendali essenziali per Business Central
+# <a name="the-essential-business-insights-extension"></a>Estensione Informazioni aziendali essenziali
 L'estensione Informazioni aziendali essenziali consente di trovare informazioni aziendali utili nei dati dell'azienda e le visualizza come titoli di giornale nelle Gestioni ruolo utente. A seconda di ciò che l'estensione trova nei dati, le informazioni dettagliate sono relative alla settimana, al mese o ai tre mesi precedenti la data corrente. Le informazioni dettagliate vengono aggiornate ogni 10 minuti.  
 
 Se si desidera esaminare più attentamente un'informazione dettagliata, è possibile accedere alla relativa origine. Ad esempio, per ottenere dettagli sulla fattura di vendita con l'importo più elevato registrata la settimana precedente, è possibile scegliere l'informazione dettagliata per visualizzare la fattura.
@@ -39,3 +39,4 @@ Nella tabella seguente vengono descritte le informazioni dettagliate che questa 
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)
+

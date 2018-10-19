@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Spedire articoli
@@ -29,7 +29,7 @@ Quando gli articoli vengono spediti da una warehouse impostata in modo da richie
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Per spedire gli articoli con un ordine di vendita
 Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini vendita**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Aprire un ordine di vendita esistente o crearne uno. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3. Nel campo **Qtà da Spedire** immettere la quantità ricevuta.
 
@@ -41,7 +41,7 @@ Innanzitutto, creare un documento di spedizione da un documento di origine azien
 
 ### <a name="to-create-a-warehouse-shipment"></a>Per creare una spedizione warehouse
 In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse.
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Spedizioni warehouse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni warehouse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 
     Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
@@ -74,12 +74,12 @@ Dopo avere recuperato le righe per la spedizione, è possibile avviare il proces
 
 ### <a name="to-pick-and-ship"></a>Per prelevare gli articoli e procedere alla spedizione
 In genere, un lavoratore warehouse responsabile del prelievo crea un documento di prelievo o apre un documento di prelievo già creato.
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Spedizioni warehouse**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni warehouse** e quindi scegliere il collegamento correlato.
 2. Selezionare la spedizione warehouse da cui si desidera prelevare, quindi scegliere l'azione **Crea prelievo**.
 3. Compilare i campi della finestra di richiesta, quindi fare clic sul pulsante **OK**. Verrà creato il documento di prelievo della warehouse specificato.
 
     In alternativa, aprire un prelievo warehouse esistente.
-4. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievi**, quindi scegliere il collegamento correlato. Selezionare il prelievo warehouse che si desidera utilizzare.
+4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato. Selezionare il prelievo warehouse che si desidera utilizzare.
 
     Se la warehouse è impostata per l'utilizzo delle collocazioni, le righe di prelievo vengono convertite in righe di azione Prendere e Mettere.
 

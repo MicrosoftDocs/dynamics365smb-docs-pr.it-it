@@ -1,25 +1,27 @@
 ---
 title: Tasti di scelta rapida
-description: Elenco di tasti di scelta rapida per la navigazione negli elenchi.
+description: Elenco completo dei tasti di scelta rapida per utilizzare in modo efficiente i dati.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/18/2018
+ms.search.keywords: accessibility, shortcuts, keyboarding, keys
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
 ms.contentlocale: it-it
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
+[Foglio riassuntivo dei tasti di scelta rapida con formato facile da stampare](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Sintesi
 I tasti di scelta rapida agevolano l'accessibilità e semplificano e rendono più efficace la navigazione in differenti aree e elementi in una pagina.
@@ -28,15 +30,16 @@ I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web, tu
 
 I tasti di scelta rapida qui descritti fanno riferimento al layout di tastiera statunitense. Il layout dei tasti su altri tipi di tastiere potrebbe non corrispondere esattamente alla disposizione dei tasti su una tastiera statunitense.
 
-Molte delle scelte rapide sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti per macOS. Questi sono indicati nelle parentesi nelle tabelle nelle sezioni che seguono.
+Molte dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti per macOS. Questi sono indicati nelle parentesi nelle tabelle nelle sezioni che seguono.
 
 ##  <a name="Keyboard"></a> Tasti di scelta rapida generali
 Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazione e l'accesso a differenti elementi di una pagina, come azioni, elenchi a discesa e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva.
 
 |Premere questi tasti|Operazione da eseguire|  
 |----------------|-----------|  
+|ALT+Q|Aprire la casella **Informazioni sull'operazione che si desidera eseguire** che può aiutare a trovare una pagina, un report, un'azione nella pagina corrente o un articolo nella documentazione.|
 |TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
-|MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio pulsanti, campi o intestazioni di elenchi.|   
+|MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|   
 |Invio|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|   
 |ALT + freccia GIÙ|Aprire un elenco a discesa o cercare un valore per un campo.|    
 |ALT + freccia DESTRA|Visualizzare le transazioni restituite in un valore calcolato in un campo.|  
@@ -46,36 +49,60 @@ Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazion
 ## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
 
 Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile utilizzare in una pagina elenco. L'azione di scelta rapida è leggermente diversa a seconda se la pagina viene visualizzata nella visualizzazione elenco o nella visualizzazione pagina.
-
+<!-- 
 > [!Note]
-> Nella tabella che segue, il termine *campo azionabile* fa riferimento a un campo in cui è possibile eseguire un'azione, come modificare un valore o creare un collegamento a un'altra pagina. In genere, le scelte rapide ignorano i campi che visualizzano informazioni che non è possibile modificare dall'elenco (in altre parole, campi di sola lettura).
+> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+-->
+
+### <a name="navigateshortcuts"></a> Spostarsi tra le righe e le colonne
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione pagina |Osservazioni|
 |-----------------|-------|-------|-------|
 |Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |  | 
 |Freccia GIÙ|Spostare il cursore nella stessa colonna sul campo nella riga sotto. |Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. | |
-|Freccia destra|Spostare il cursore nella stessa riga sul campo azionabile successivo a destra.| Spostare il cursore nella stessa riga sul riquadro successivo a destra. |Questa operazione non è possibile quando l'elenco è modificabile.|
-|Freccia sinistra|Spostare il cursore nella stessa riga sul campo precedente a sinistra. | Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |Questa operazione non è possibile quando l'elenco è modificabile.|
+|Freccia destra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro successivo a destra. ||
+|Freccia sinistra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. ||
+|TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra.|Non applicabile.||
+|MAIUSC+TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. ||
 |Pagina iniziale<br />(Fn+freccia SINISTRA)|Spostare il cursore sul primo campo nella riga.|Spostare il cursore sul primo riquadro nella riga.||
-|FINE<br />(Fn+freccia DESTRA)|Spostare il cursore sull'ultimo campo azionabile nella riga.|Spostare il cursore sull'ultimo riquadro nella riga.||
-|Pagina su<br />(Fn+freccia SU)|Spostare il cursore nella stessa colonna sulla riga visibile più in alto.|Spostare il cursore nella stessa colonna sulla riga visibile più in alto.||
-|Pagina giù<br />(Fn+freccia GIÙ)|Spostare il cursore nella stessa colonna sulla riga visibile più in basso.|Spostare il cursore nella stessa colonna sulla riga visibile più in alto.||
-|Invio<br />(Fn+freccia GIÙ)|Aprire il record associato al campo|Apre il record.| Applicabile solo se una pagina schede è associata al record.|
-|CTRL+HOME<br />(Fn+CTRL+freccia SINISTRA)|Selezionare la prima riga dell'elenco; lo stato attivo viene spostato sul primo campo azionabile nella riga|Spostare il cursore sul primo riquadro nella prima riga dell'elenco||
-|CTRL+FINE<br />(Fn+CTRL+Freccia DESTRA)|Selezionare l'ultima riga dell'elenco; lo stato attivo viene spostato sul primo campo azionabile nella riga|Spostare il cursore sul primo riquadro nell'ultima riga dell'elenco||
-|CTRL+clic<br />(Cmd+clic)|Estendere la selezione delle righe per includere la riga su cui si fa clic.|Non applicabile||
-|MAIUSC+clic|Estendere la selezione delle righe per includere la riga su cui si fa clic e tutte le righe precedenti.|Non applicabile|È possibile utilizzare questa scelta rapida dopo avere usato CTRL+freccia SU o CTRL+freccia GIÙ per estendere la selezione.|
-|CTRL+Freccia SU<br />(CTRL+Cmd+Freccia SU)|Spostare lo stato attivo sulla riga sopra e mantenere la riga corrente selezionata.|Non applicabile||
-|CTRL+Freccia GIÙ<br />(CTRL+Cmd+Freccia GIÙ)|Spostare lo stato attivo sulla riga sotto e mantenere la riga corrente selezionata.|Non applicabile||
-|CTRL+BARRA SPAZIATRICE<br />(CTRL+Cmd+BARRA SPAZIATRICE)|Estendere la selezione delle righe per includere la riga attiva.|Non applicabile|È possibile utilizzare questa scelta rapida dopo avere usato CTRL+freccia SU o CTRL+freccia GIÙ per estendere la selezione.|
-|CTRL+A|Selezionare tutte le righe.|Non applicabile||
-|MAIUSC+freccia SU|Estendere la selezione delle righe per includere la riga sopra.|Non applicabile||
-|MAIUSC+freccia GIÙ|Estendere la selezione delle righe per includere la riga sotto.|Non applicabile||
-|MAIUSC+PGSU<br />(MAIUSC+Fn+freccia SU)|Estendere la selezione per includere tutte le righe visibili sopra la selezione di righe corrente.|Non applicabile||
-|MAIUSC+PGGIÙ<br />(MAIUSC+Fn+freccia GIÙ)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile||
+|FINE<br />(Fn+freccia DESTRA)|Spostare il cursore sull'ultimo campo nella riga.|Spostare il cursore sull'ultimo riquadro nella riga.||
+|Pagina su<br />(Fn+freccia SU)|Scorre per visualizzare le righe del set sopra le righe correnti nella visualizzazione. |Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. ||
+|Pagina giù<br />(Fn+freccia GIÙ)|Scorre per visualizzare le righe del set sotto le righe correnti nella visualizzazione.|Scorre per visualizzare i riquadri del set sotto i riquadri correnti nella visualizzazione.||
+|Invio<br />(Fn+freccia GIÙ)|Aprire il record associato al campo.|Apre il record.| Applicabile solo se una pagina schede è associata al record.|
 |Ctrl+Enter|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.||
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Tasti di scelta rapida nel calendario (selezione data)
+### <a name="CopyRows"></a>Selezionare copiare, quindi incollare
+|Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione pagina |Osservazioni|
+|-----------------|-------|-------|-------|
+|CTRL+HOME<br />(Fn+CTRL+freccia SINISTRA)|Selezionare la prima riga dell'elenco; lo stato attivo viene spostato sul primo campo nella riga.|Spostare il cursore sul primo riquadro nella prima riga. ||
+|CTRL+FINE<br />(Fn+CTRL+Freccia DESTRA)|Selezionare l'ultima riga dell'elenco; lo stato attivo viene spostato sull'ultimo campo nella riga.|Spostare il cursore sull'ultimo riquadro nell'ultima riga.||
+|CTRL+clic<br />(Cmd+clic)|Estendere la selezione delle righe per includere la riga su cui si fa clic.|Non applicabile.||
+|MAIUSC+clic|Estendere la selezione delle righe per includere la riga su cui si fa clic e tutte le righe precedenti.|Non applicabile.|È possibile utilizzare questa scelta rapida dopo avere usato CTRL+freccia SU o CTRL+freccia GIÙ per estendere la selezione.|
+|CTRL+Freccia SU<br />(CTRL+Cmd+Freccia SU)|Spostare lo stato attivo sulla riga sopra e mantenere la riga corrente selezionata.|Non applicabile.||
+|CTRL+Freccia GIÙ<br />(CTRL+Cmd+Freccia GIÙ)|Spostare lo stato attivo sulla riga sotto e mantenere la riga corrente selezionata.|Non applicabile.||
+|CTRL+BARRA SPAZIATRICE<br />(CTRL+Cmd+BARRA SPAZIATRICE)|Estendere la selezione delle righe per includere la riga attiva.|Non applicabile.|È possibile utilizzare questa scelta rapida dopo avere usato CTRL+freccia SU o CTRL+freccia GIÙ per estendere la selezione.|
+|CTRL+A|Selezionare tutte le righe.|Non applicabile.||
+|MAIUSC+freccia SU|Estendere la selezione delle righe per includere la riga sopra.|Non applicabile.||
+|MAIUSC+freccia GIÙ|Estendere la selezione delle righe per includere la riga sotto.|Non applicabile.||
+|MAIUSC+PGSU<br />(MAIUSC+Fn+freccia SU)|Estendere la selezione per includere tutte le righe visibili sopra la selezione di righe corrente.|Non applicabile.||
+|MAIUSC+PGGIÙ<br />(MAIUSC+Fn+freccia GIÙ)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.||
+|CTRL+C<br />(Cmd+C)|Copiare le righe selezionate negli Appunti.|Non applicabile.||
+|CTRL+V<br />(Cmd+V)|Incolla le righe selezionate dagli Appunti nella pagina corrente o in un documento esterno, come Microsoft Excel o Outlook.|Non applicabile.|Questo è possibile solo in elenchi modificabili.|
+|F8|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente.|Non applicabile.|Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto TAB consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|
+
+### <a name="KeyboardFilter"></a> Tasti di scelta rapida per elenchi di ricerca e filtro
+
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|-----------------|-------|
+|F3|Attiva/disattiva la casella di ricerca.<ul><li>Attiva la casella di ricerca, quindi consente di iniziare a digitare il testo di ricerca.</li><li>Se la casella di ricerca è già attivata, F3 torna all'elenco senza cancellare il testo di ricerca.</li><ul>|  
+|Shift+F3|Apre e chiude il riquadro dei filtri.<ul><li> Se il riquadro dei filtri non è aperto, MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra elenco per:**, che consente di premere INVIO per iniziare ad aggiungere un filtro di campo.</li><li>Se il riquadro dei filtri è già aperto, MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>|
+|Ctrl+Shift+F3|Apre e chiude il riquadro dei filtri.<ul><li> Se il riquadro dei filtri non è aperto, CTRL+MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra totale per:**, che consente di premere INVIO per iniziare ad aggiungere un filtro dei totali.</li><li>Se il riquadro dei filtri è già aperto, CTRL+MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>  |
+|Alt+F3|Attiva/disattiva il filtro su questo valore.<ul><li>Applica un filtro di colonna sul valore del campo selezionato nell'elenco. Questo equivale a scegliere **Filtra in base a questo valore** da un'intestazione di colonna. Apre il riquadro dei filtri, imposta il filtro sul valore selezionato, mentre lo stato attivo rimane sulla cella dell'elenco.</li><li>Se la colonna è già filtrata, ALT+F3 cancella il filtro su quella colonna.</li></ul> |
+|MAIUSC+ALT+F3|Apre il riquadro dei filtri e aggiunge un filtro alla colonna selezionata nell'elenco. Lo stato attivo si trova sul nuovo campo filtro che consente di iniziare subito a digitare i criteri del filtro.<br /><br /> Questo equivale a selezionare **Filtro** dall'intestazione della colonna. er menu. Visualizza il riquadro dei filtri, aggiunge il filtro, imposta lo stato attivo in modo che l'utente possa digitare un valore da filtrare.<br /><br />Se esiste già un filtro sul campo, viene aggiunto un nuovo filtro. |
+|Ctrl+Maiusc+ALT+F3|Reimposta i filtri. Ciò equivale a scegliere **Reimposta filtri** nel riquadro dei filtri e si applica ai filtri di campi e totali.<br /><br /> I filtri tornano ai filtri predefiniti per la vista corrente. Se la visualizzazione corrente è **Tutto**, equivale a tornare a una visualizzazione non filtrata con tutti i record. |
+|Ctrl+Enter|Ritorna all'elenco dal riquadro dei filtri.|
+ 
+## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tasti di scelta rapida nel calendario (selezione data)
 Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
@@ -92,9 +119,7 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |CTRL+FINE<br />(Cmd+FINE)|Chiudere il calendario ed eliminare la data corrente.|
 |ESC|Chiudere il calendario senza una selezione, mantenere la data corrente.|
 
-
-## <a name="keyboard-shortcuts-in-the-report-preview"></a>Tasti di scelta rapida nell'anteprima report
-
+## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tasti di scelta rapida nell'anteprima report
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |-----------------|-------|
 |Freccia GIÙ|Scorrere la pagina verso il basso.|  
@@ -105,7 +130,7 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |CTRL+HOME<br />(Cmd+HOME)|Passare alla prima pagina del report.|
 |CTRL+FINE<br />(Cmd+HOME)|Passare all'ultima pagina del report.|
 |Pagina giù<br />(Fn+freccia GIÙ)|Passare alla pagina successiva del report.|
-|PGSU br />(Fn+freccia SU)|Passare alla pagina precedente del report.|
+|Pagina su<br />(Fn+freccia SU)|Passare alla pagina precedente del report.|
 
 
 <!--

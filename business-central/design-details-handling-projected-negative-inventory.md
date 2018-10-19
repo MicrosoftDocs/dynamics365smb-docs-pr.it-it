@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Dettagli di progettazione: Gestione giacenze negative previste
@@ -28,28 +28,20 @@ Il punto di riordino esprime la domanda prevista durante il lead time dell'artic
 
  Nella seguente illustrazione l'approvvigionamento D rappresenta un ordine di emergenza per la rettifica della giacenza negativa.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Suggerimenti di pianificazione di emergenza per evitare giacenze negative](media/nav_app_supply_planning_2_negative_inventory.png "Suggerimenti di pianificazione di emergenza per evitare giacenze negative")  
 
 1.  L'approvvigionamento **A**, la giacenza disponibile iniziale, è inferiore al punto di riordino.  
-
 2.  Viene creato un nuovo approvvigionamento programmato in avanti (**C**).  
 
      (Quantità = Giacenza massima – Livello giacenza disponibile)  
-
 3.  L'approvvigionamento **A** viene chiuso dalla domanda **B**, che non viene coperta completamente.  
 
      La domanda **B** potrebbe provare a pianificare l'Approvvigionamento C ma ciò non accade in base al concetto dell'intervallo di tempo.  
-
 4.  Un nuovo approvvigionamento (**D**) viene creato per coprire la quantità residua sulla domanda **B**.  
-
 5.  La domanda **B** viene chiusa creando un sollecito alle scorte previste.  
-
 6.  Il nuovo approvvigionamento **D** viene chiuso.  
-
 7.  La giacenza disponibile è controllata; il punto di riordino non è stato superato.  
-
 8.  L'approvvigionamento **C** viene chiuso (non esiste più la domanda).  
-
 9. Controllo finale: non esistono solleciti di livello di magazzino in sospeso.  
 
 > [!NOTE]  

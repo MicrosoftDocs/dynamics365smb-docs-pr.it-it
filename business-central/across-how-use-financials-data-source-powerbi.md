@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Uso di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] come origine dati di Power BI per la creazione di report
@@ -27,7 +27,7 @@ ms.lasthandoff: 06/01/2018
 2. Nella finestra **Ottieni i dati**, scegliere **Servizi online**, quindi **Microsoft Dynamics 365 Business Central** e infine scegliere il pulsante **Connetti**.
 3. Power BI visualizza una procedura guidata per il [processo di connessione](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Verrà richiesto di accedere al servizio. Fare clic su **Accedi** e selezionare l'account che si desidera usare per accedere. È necessario che sia lo stesso account usato per accedere a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Fare clic sul pulsante **Connetti** per continuare. La procedura guidata di Power BI mostra un elenco di origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati, indicano tutti i servizi Web pubblicati da ogni società in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. In alternativa, creare un nuovo URL del servizio Web di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] utilizzano l'azione **Crea set di dati** nella pagina **Servizi Web** tramite la Guida di setup assistito o **Imposta dati reporting** oppure l'azione **Modifica in Excel** in qualsiasi elenco.
+5. In alternativa, creare un nuovo URL del servizio Web di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] utilizzano l'azione **Crea set di dati** nella finestra **Servizi Web** tramite la Guida di setup assistito o **Imposta dati reporting** oppure l'azione **Modifica in Excel** in qualsiasi elenco.
 6. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica**.
 7. Ripetere i passaggi precedenti per aggiungere altri dati Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], o altri dati, per il modello dati Power BI.
 

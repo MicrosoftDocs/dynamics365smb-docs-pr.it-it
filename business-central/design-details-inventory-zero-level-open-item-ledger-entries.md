@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
@@ -36,8 +36,6 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
      |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|  
      |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Nozioni di base del collegamento articoli  
  Un movimento di collegamento articoli viene creato per ogni transazione di magazzino per collegare il destinatario di costo alla relativa origine del costo in modo da poter trasferire il costo in base al metodo di costing. Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti quantità.  
 
-![Perché inventario zero 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flusso della rettifica costo dall'acquisto alla vendita](media/helene/TechArticleInventoryZero2.png "Flusso della rettifica costo dall'acquisto alla vendita")
 
  Da notare che il movimento contabile articolo 1 (Acquisto) è il fornitore dell'articolo e l'origine del costo per il movimento contabile articolo collegato, movimento contabile articolo 2 (Vendita).  
 
@@ -72,7 +70,6 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|  
 |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Da notare che il movimento contabile articolo in entrata 3 (Reso vendita) è un destinatario di costo per il movimento contabile articolo in uscita 2 (Vendita).  
 
@@ -81,7 +78,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Il seguente diagramma illustra il flusso dei costi.  
 
-![Perché inventario zero 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flusso della rettifica costo dalla vendita al reso](media/helene/TechArticleInventoryZero4.png "Flusso della rettifica costo dalla vendita al reso")
 
  Da notare che il costo viene trasferito al movimento contabile articolo 2 (Vendita), quindi al movimento contabile articolo 3 (Reso vendita) e infine al movimento contabile articolo 4 (Vendita 2).  
 
@@ -94,7 +91,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti articolo in entrambi gli scenari  
 
-![Perché inventario zero 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Il flusso della rettifica costo si applica in entrambe le direzioni](media/helene/TechArticleInventoryZero6.png "Il flusso della rettifica costo si applica in entrambe le direzioni")  
 
  Da notare che un collegamento costo viene eseguito (frecce blu) per garantire che al movimento contabile articolo 2 (Reso vendita) siano assegnati gli stessi costi del movimento contabile articolo stornato, movimento contabile articolo 1 (Vendita). Tuttavia, un collegamento quantità (frecce rosse) non viene eseguito.  
 
@@ -115,7 +112,6 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|No|  
 |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|**Sì**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Nella finestra **Spedizioni vendita registrate**, verificare se il campo **Collega-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
 

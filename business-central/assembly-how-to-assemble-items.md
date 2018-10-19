@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assemble-items"></a>Assemblare articoli
@@ -43,7 +43,7 @@ Queste opzioni di setup sono impostazioni di default che gestiscono il modo in c
 In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli articoli che vengono assemblati per magazzino, ovvero senza un ordine di vendita collegato. I passaggi includono la creazione dell'ordine di assemblaggio, la gestione dei potenziali problemi di disponibilità dei componenti e la registrazione parziale dell'output dell'articolo di assemblaggio.
 
 ## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di assemblaggio**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la finestra **Nuovo ordine di assemblaggio**.  
 3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  

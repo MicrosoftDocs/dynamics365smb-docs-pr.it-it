@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 554cdad64d1b783132b38e8ac5332ea9fc58dd62
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 749c4444a987de6c6147c7b2d194843777471b8e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="report-trade-with-customers-and-vendors-in-blacklist-countries-regions"></a>Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 - Acquisti di prodotti o servizi  
 - Vendite di prodotti o servizi  
 
-Ogni mese o trimestre, è necessario generare un report comunicazioni blacklist per le transazioni con paesi che hanno regimi fiscali privilegiati e inviarlo all'agenzia delle entrate italiana. L'agenzia delle entrate italiana decide quali paesi sono inclusi nella blacklist. È possibile visualizzare o modificare i paesi nella blacklist mediante la finestra **Paesi**. Il report periodico include solo le transazioni con un importo superiore a una determinata soglia. Il calcolo dell'importo di soglia viene applicato al livello del documento. Per ulteriori informazioni, vedere [Agenzia delle entrate italiana](http://go.microsoft.com/fwlink/?LinkId=396483).  
+Ogni mese o trimestre, è necessario generare un report comunicazioni blacklist per le transazioni con paesi che hanno regimi fiscali privilegiati e inviarlo all'agenzia delle entrate italiana. L'agenzia delle entrate italiana decide quali paesi sono inclusi nella blacklist. È possibile visualizzare o modificare i paesi nella blacklist mediante la finestra **Paesi**. Il report periodico include solo le transazioni con un importo superiore a una determinata soglia. Il calcolo dell'importo di soglia viene applicato al livello del documento. Per ulteriori informazioni, vedere [Agenzia delle entrate italiana](https://go.microsoft.com/fwlink/?LinkId=396483).  
 
 Prima di inviare il report periodico, è necessario impostare [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
@@ -39,7 +39,7 @@ Prima di inviare il report periodico, è necessario impostare [!INCLUDE[d365fin]
 
 3.  Immettere il **Codice paese straniero** per il paese nella blacklist.  
 
-Per una lista dei codici e dei paesi rilevanti, vedere [Agenzia delle entrate italiana](http://go.microsoft.com/fwlink/?LinkID=206524).  
+Per una lista dei codici e dei paesi rilevanti, vedere [Agenzia delle entrate italiana](https://go.microsoft.com/fwlink/?LinkID=206524).  
 
 ## <a name="to-specify-the-current-threshold-amount"></a>Per specificare l'importo di soglia corrente  
 

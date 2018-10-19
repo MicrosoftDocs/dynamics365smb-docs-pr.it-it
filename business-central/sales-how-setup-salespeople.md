@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: it-it
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
@@ -23,7 +23,7 @@ Molte società basano sull'andamento di un singolo impiegato il calcolo della pr
 Dopo che è stato impostato un agente nella finestra **Agenti**, è possibile selezionarlo nel campo **Codice agente** in tutti i record pertinenti, come le schede conto C/G, cliente, fornitore, contatti e campagna. Quindi quando si contabilizzano o si impostano le fatture, le note di credito, le righe di registrazione, gli addebiti degli interessi e così via, il codice dell'agente viene passato ai movimenti contabili risultanti.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Per impostare un codice agente
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Agenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerta di vendita** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Agenti** scegliere l'azione **Nuovo**.
 
 È possibile utilizzare gli agenti in diverse attività di marketing e gestione delle relazioni. Ad esempio, è possibile assegnare task agli agenti, in modo che i task vengano incorporati nelle opportunità di vendita a cui è assegnato l'agente. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).

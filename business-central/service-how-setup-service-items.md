@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 050456758a2bf4f3489ed382103d5fed99e8fada
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
@@ -30,7 +30,7 @@ Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue
 
 I gruppi di articoli in assistenza vengono assegnati ad articoli nella scheda **Articolo** e ad articoli in assistenza nella scheda **Articolo in assistenza**.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi articoli in assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi articoli in assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di articoli in assistenza.  
 3. Compilare i campi **Codice** e **Descrizione**.  
 4. Nel campo **% Sconto Contratto di Default** immettere la percentuale di sconto contrattuale predefinito che si intende assegnare agli articoli in assistenza appartenenti al gruppo.  
@@ -39,9 +39,9 @@ I gruppi di articoli in assistenza vengono assegnati ad articoli nella scheda **
 7. Se si desidera che al momento della vendita gli articoli del gruppo vengano registrati come articoli in assistenza, selezionare il campo **Crea articolo in assistenza**.  
 
 ## <a name="to-set-up-service-item-components"></a>Per impostare i componenti degli articoli in assistenza
-Un articolo in assistenza può essere composto da diversi componenti che possono essere sostituiti da pezzi di ricambio quando si presta assistenza al prodotto. Questi componenti vengono impostati nella pagina **Lista comp. artic. assist.** Inoltre, se si intende impostare dei componenti per gli articoli in assistenza rappresentati da distinte base, è possibile copiare gli articoli della distinta base e crearli come componenti dell'articolo in assistenza.
+Un articolo in assistenza può essere composto da diversi componenti che possono essere sostituiti da pezzi di ricambio quando si presta assistenza al prodotto. Questi componenti vengono impostati nella finestra **Lista comp. artic. assist.** Inoltre, se si intende impostare dei componenti per gli articoli in assistenza rappresentati da distinte base, è possibile copiare gli articoli della distinta base e crearli come componenti dell'articolo in assistenza.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli in assistenza**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.
 2. Aprire l'articolo in assistenza per cui si desidera impostare i componenti.  
 3. Scegliere l'azione **Componenti**. Verrà visualizzata la finestra **Lista comp. artic. assist.**.  
 4. Aggiungere un nuovo componente  
@@ -49,7 +49,7 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 6. Nel campo **Nr.** scegliere l'articolo o l'articolo in assistenza che rappresenta un componente dell'articolo in assistenza.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Per impostare i componenti degli articoli in assistenza da una distinta base
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli in assistenza**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'articolo in assistenza per cui si desidera impostare dei componenti da una distinta base.  
 3. Scegliere l'azione **Componenti**. Verrà visualizzata la finestra **Lista comp. artic. assist.**.  
 4. Scegliere l'azione **Copia da DBV**.  
@@ -57,9 +57,9 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
     Se l'articolo a cui è collegato l'articolo in assistenza è una distinta base, verranno automaticamente creati componenti per tutti gli articoli nella distinta base.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Per impostare uno scaffale di assistenza
-È possibile impostare scaffali di assistenza che indicano dove memorizzare gli articoli di assistenza. Gli scaffali di assistenza vengono assegnati agli articoli in assistenza nelle pagine **Ordine assistenza** e **Prospetto art. in assist.**  
+È possibile impostare scaffali di assistenza che indicano dove memorizzare gli articoli di assistenza. Gli scaffali di assistenza vengono assegnati agli articoli in assistenza nelle finestre **Ordine assistenza** e **Prospetto art. in assist.**  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Scaffali assistenza**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Scaffali assistenza** e quindi scegliere il collegamento correlato.
 2. Compilare i campi come necessario.
 
 ## <a name="see-also"></a>Vedi anche

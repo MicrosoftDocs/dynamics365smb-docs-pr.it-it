@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: acd8e0f25a3909ceab3dd63e04509ab48a300bb6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Elimina mov. budget costi
@@ -26,7 +26,7 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Per eliminare un mov. budget costi  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Elimina mov. budget costi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina mov. budget costi** e quindi scegliere il collegamento correlato.  
 
     Nel campo **A nr. registro** è incluso l'ultimo numero del movimento del registro e non può essere modificato.  
 

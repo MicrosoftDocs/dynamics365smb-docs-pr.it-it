@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
@@ -62,7 +62,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 ### <a name="to-set-up-a-campaign"></a>Per impostare una campagna  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Campagne**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Campagne** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova campagna. Nella scheda campagna, premere INVIO per inserire automaticamente un numero campagna.  
 3.  Nel campo **Descrizione** immettere una descrizione per la campagna, ad esempio **Fiera FUTURUS**.  
 4.  Scegliere il campo **Cod. Stato** e selezionare un codice di stato nell'elenco visualizzato nella finestra **Stato campagna**.  
@@ -148,11 +148,11 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 9. Gli allegati vengono inviati. Al termine del processo, fare clic sul pulsante **OK** all'interno del messaggio che indica che il segmento è stato registrato.  
 
-     Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Segmenti registrati**, quindi scegliere il collegamento correlato.  
+     Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
 
 10. Dopo che il segmento è stato registrato, ogni lettera inviata viene registrata come un'interazione, che è possibile visualizzare nel log.  
 
-     Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Movimenti log interazione**, quindi scegliere il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
+     Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti log interazione** e quindi scegliere il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Per inviare un messaggio di posta elettronica a un contatto  
 
@@ -165,7 +165,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 7.  Selezionare la casella di controllo **Crea segmento di follow-up**.  
 8.  Scegliere il pulsante **OK**.  
 
-     Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Segmenti registrati**, quindi scegliere il collegamento correlato.  
+     Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
 
 ## <a name="registering-campaign-responses"></a>Registrazione delle risposte alla campagna  
  Nel corso delle due settimane seguenti, i potenziali clienti rispondono alla lettera. Il responsabile del marketing desidera tenere traccia delle risposte e registrare le interazioni.  

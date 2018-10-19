@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
@@ -84,16 +84,16 @@ La tabella seguente indica in che modo l'area di produzione è impostata nella s
     1. I conti provvisori vengono cancellati. (Vendita)  
     2. Il costo COGS viene registrato. (Vendita)  
 
-        ![Risultati della registrazione della vendita sugli account C/G](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Risultati della registrazione della vendita nei conti C/G](media/design_details_inventory_costing_3_gl_posting_sales.png "Risultati della registrazione della vendita nei conti C/G")  
 5. L'utente registra il consumo di 150 collegamenti, ovvero il numero di collegamenti utilizzati per produrre una catena. (Consumo, materiali)  
 
-    ![Risultati della registrazione dei materiali sugli account C/G](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Risultati della registrazione dei materiali nei conti C/G](media/design_details_inventory_costing_3_gl_posting_material.png "Risultati della registrazione dei materiali nei conti C/G")  
 6. L'area di produzione ha utilizzato 60 minuti per produrre la catena. L'utente registra il costo di conversione. (Consumo, Capacità)  
 
     1. I costi diretti vengono registrati. (Consumo, Capacità)  
     2. I costi indiretti vengono calcolati e registrati. (Consumo, Capacità)  
 
-        ![Risultati della registrazione della capacità sugli account C/G](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Risultati della registrazione della capacità nei conti C/G](media/design_details_inventory_costing_3_gl_posting_capacity.png "Risultati della registrazione della capacità nei conti C/G")  
 7. L'utente registra il costo previsto di una catena. (Output)  
 8. L'utente completa l'ordine di produzione ed esegue il processo batch **Rettifica costo - Movimenti articoli**. (Output)  
 
@@ -102,7 +102,7 @@ La tabella seguente indica in che modo l'area di produzione è impostata nella s
     3. Il costo diretto (costo generale) viene trasferito dal conto dei costi indiretti al conto del magazzino. (Output)  
     4. Ciò risulta in un importo di scostamento di VL 157,00. Gli scostamenti vengono calcolati solo per gli articoli con costo standard. (Output)  
 
-        ![Risultati della registrazione dell'output sugli account C/G](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Risultati della registrazione dell'output nei conti C/G](media/design_details_inventory_costing_3_gl_posting_output.png "Risultati della registrazione dell'output nei conti C/G")  
 
         > [!NOTE]  
         >  Per semplicità, viene visualizzato solo un solo conto di scostamento. In realtà, sono disponibili cinque diversi conti:  
@@ -115,7 +115,7 @@ La tabella seguente indica in che modo l'area di produzione è impostata nella s
 
 9. L'utente rivaluta la catena da VL 150,00 a VL 140,00. (Rettifica/Rivalutazione/Arrotondamento/Trasferimento)  
 
-    ![Risultati della registrazione della rettifica sugli account C/G](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Risultati della registrazione delle rettifiche nei conti C/G](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Risultati della registrazione delle rettifiche nei conti C/G")  
 
 Per ulteriori informazioni sulla relazione tra i tipi di conto e i diversi tipi di movimenti di valorizzazione, vedere [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).  
 

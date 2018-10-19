@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028bb6554f84fc4e8d1343070121f8b0143329ce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Aprire un nuovo anno fiscale e creare i periodi contabili
@@ -23,7 +23,7 @@ Prima di effettuare registrazioni in un anno fiscale è necessario aprirlo e def
 Per molte società l'anno fiscale non coincide con l'anno del calendario. I periodi fiscali possono essere misurati in altre unità di tempo, ad esempio i mesi o i trimestri. È possibile utilizzare la finestra **Crea anno fiscale** per impostare i periodi contabili adatti alle esigenze dell'azienda. Tuttavia   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Per aprire un nuovo anno fiscale
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Periodi contabili**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Periodi contabili** scegliere l'azione **Crea anno nuovo**.
 3. Impostare i campi per definire la struttura dell'anno fiscale.
 

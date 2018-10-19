@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b87f5bfb499c3dac622f33aa16ba9d1a4fc6104d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 >   La seguente procedura descrive come eseguire i test su un documento di acquisto prima di registrarlo. La funzionalità agisce nello stesso modo per i documenti di vendita.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Per stampare un report di test prima di registrare una fattura di acquisto
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture acquisto**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e scegliere il collegamento correlato.
 2. Visualizzare la fattura di acquisto che si desidera testare.
 3. Scegliere l'azione **Report test**.  
 

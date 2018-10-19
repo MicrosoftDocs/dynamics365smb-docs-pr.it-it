@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
@@ -58,7 +58,7 @@ Per verificare il flusso di lavoro di approvazione, Sean innanzitutto accede a [
 7.  Chiudere la finestra **Utenti e gruppi locali**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Per aggiungere Elisa come utente in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Utenti di Windows** nel gruppo **Nuovo** della scheda **Pagina iniziale** scegliere **Nuovo**.  
 3.  Nella finestra **Scheda utente**, nel campo **Nome utente**, immettere Elisa.  
 4.  Nel campo **Nome utente di Windows** scegliere il pulsante AssistEdit.  
@@ -72,7 +72,7 @@ Per verificare il flusso di lavoro di approvazione, Sean innanzitutto accede a [
 Utilizzando l'utente Windows appena creato, impostare Elisa come utente approvazione il cui responsabile approvazione è l'utente in uso stesso. Impostare i diritti di approvazione e specificare come e quando si riceve la notifica delle richieste di approvazione.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Per impostare l'utente in uso e Alicia come utenti approvazione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup utente approvazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Setup utente approvazione** della scheda **Pagina iniziale** nel gruppo **Nuovo**, scegliere **Nuovo**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Specificare come e quando si riceve la notifica delle richieste di approvazione.
  Creare il flusso di lavoro di approvazione dell'ordine di acquisto copiando le fasi dal modello del flusso di lavoro di approvazione dell'ordine di acquisto. Lasciare le fasi esistenti del flusso di lavoro invariate quindi abilitare il flusso di lavoro.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Per creare e abilitare un flusso di lavoro di approvazione dell'ordine di acquisto  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Workflow**, nel gruppo **Generale** della scheda **Azioni**, scegliere **Crea flusso di lavoro da modello**.  
 3.  Nel gruppo **Generale** della scheda **Azioni** scegliere **Crea flusso di lavoro da modello**. Verrà aperta la finestra **Modelli del workflow**.  
 4.  Selezionare il modello di flusso di lavoro denominato Flusso di lavoro approvazione ordine acquisto, quindi scegliere il pulsante **OK**.  
@@ -115,7 +115,7 @@ Specificare come e quando si riceve la notifica delle richieste di approvazione.
 Assicurarsi che una coda processi sia impostata nella versione in uso in modo da gestire le notifiche del flusso di lavoro.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Per avviare la coda processi di NOTIFICA  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Code processi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Code processi** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Code processi**, selezionare la riga della coda processi di NOTIFICA e nella scheda **Pagina iniziale**, nel gruppo **Processo**, scegliere **Avvia coda processi**.  
 
 ## <a name="using-the-approval-workflow"></a>Utilizzo del flusso di lavoro di approvazione  
@@ -133,7 +133,7 @@ Per accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] come un altro utente,
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Per richiedere l'approvazione di un ordine di acquisto, come Elisa  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini acquisto**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e selezionare il collegamento correlato.  
 2.  Selezionare la riga per l'ordine di acquisto aperto 104001 e nel gruppo **Gestione** della scheda **Pagina iniziale** selezionare **Modifica**.  
 3.  Nella finestra **Ordine acquisto**, nel gruppo **Approvazione** della scheda **Azioni** scegliere **Invia richiesta approvazione**.  
 

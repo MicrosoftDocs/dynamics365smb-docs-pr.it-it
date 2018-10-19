@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74460bfcff36d293006229f4a89719f8c05c2631
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-documents"></a>Archiviare documenti
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 È possibile impostare l'archiviazione automatica di documenti di vendita e di acquisto, offerte, ordini programmati e ordini di reso, prima di eliminarli.
 
 La procedura seguente illustra come configurare l'archiviazione automatica di documenti di vendita. I passaggi sono simili per i documenti di acquisto.
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup contabilità clienti e vendite**, quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Setup contabilità clienti e vendite** compilare i campi come descritto di seguito.
 
 |Campo|Description|
@@ -38,7 +38,7 @@ La procedura seguente illustra come configurare l'archiviazione automatica di do
 ## <a name="to-archive-a-sales-order"></a>Per archiviare un ordine di vendita
 Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini vendita**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Aprire un ordine di vendita da archiviare.  
 3.  Scegliere l'azione **Archivia documento**.
 
@@ -47,7 +47,7 @@ L'ordine di vendita è archiviato. È possibile visualizzarlo nella finestra **O
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Per ricreare un ordine di vendita dall'archivio
 Di seguito viene descritto come ricreare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita archiviati**, quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita archiviati** e quindi scegliere il collegamento correlato.
 2.  Selezionare l'ordine di vendita archiviato da ricreare, quindi scegliere l'azione **Ripristina**.  
 
 L'ordine di vendita viene creato e aggiunto alla finestra **Ordini vendita**.
@@ -55,7 +55,7 @@ L'ordine di vendita viene creato e aggiunto alla finestra **Ordini vendita**.
 ## <a name="to-delete-archived-sales-orders"></a>Per eliminare ordini di vendita archiviati
 Di seguito viene descritto come eliminare ordini di vendita archiviati. I passaggi sono simili per altri altri documenti di acquisto e vendita archiviati.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Elimina versioni ordini di vendita archiviati**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina versioni ordine vendita archiviate** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Elimina versioni ordine vendita archiviate**, selezionare i filtri appropriati.  
 3.  Scegliere il pulsante **OK**.
 

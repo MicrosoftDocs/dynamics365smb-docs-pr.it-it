@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2419755f5788eb7cb8ed464ac97fccd7e63e795c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e167935f1bb4815093a1a9bd345da8213219ca08
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Impostazione della produzione
@@ -30,7 +30,7 @@ Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli o
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Configurare le funzionalità di Manufacturing, ad esempio la definizione delle ore di lavoro del reparto e la selezione dei principi di pianificazione.|La pagina **Setup manufacturing**.|  
+|Configurare le funzionalità di Manufacturing, ad esempio la definizione delle ore di lavoro del reparto e la selezione dei principi di pianificazione.|Finestra **Setup manufacturing**.|  
 |Definire una settimana lavorativa standard nel reparto di produzione in termini di ora di inizio e di fine di ogni giorno lavorativo e di turni lavorativi correlati.|[Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)|  
 |Organizzare i valori e i requisiti fissi di una risorsa di produzione come aree di produzione o centri di lavoro per gestirne l'output della produzione.|[Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)|
 |Organizzare operazioni di produzione nell'ordine richiesto e assegnarle ad aree di produzione o centri di lavoro con i periodi lavorativi necessari.|[Creare cicli](production-how-to-create-routings.md)|

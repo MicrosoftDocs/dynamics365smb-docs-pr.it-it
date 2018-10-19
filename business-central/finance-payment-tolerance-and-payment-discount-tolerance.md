@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feae398e064a03d01903fcc65c6f4d99be8374a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
@@ -44,13 +44,13 @@ Per ulteriori informazioni, vedere la sezione "Per abilitare o disabilitare gli 
 Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
 
 Per impostare le tolleranze è necessario impostare vari conti di tolleranza, specificare entrambi i metodi di registrazione della tolleranza di sconto sul pagamento e della tolleranza di pagamento, quindi eseguire il processo batch **Modifica tolleranza pagamento**.  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup registrazioni COGE**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Setup registrazioni COGE** impostare un conto di tolleranza a debito e a credito dei pagamenti relativi alle vendite e un conto di tolleranza a debito e a credito dei pagamenti relativi agli acquisti.  
-3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Categorie registrazione clienti**, quindi scegliere il collegamento correlato.    
+3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione clienti** e quindi scegliere il collegamento correlato.    
 4. Nella finestra **Categorie registrazione clienti** impostare un conto di tolleranza a debito e a credito dei pagamenti. Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
-5. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup registrazioni fornitori**, quindi selezionare il collegamento correlato.  
+5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni fornitori** e quindi scegliere il collegamento correlato.  
 6. Nella finestra **Categorie registrazione fornitori** impostare un conto di tolleranza a debito e a credito dei pagamenti.  
-7. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
+7. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
 8. Aprire la finestra **Setup contabilità generale**.  
 9. Nella Scheda dettaglio **Collegamento** compilare i campi **Registrazione toll. sconto pag.**, **Periodo di dilazione sconto pagamento** e **Registrazione toll. pagamento**.   
 10. Scegliere l'azione **Modifica tolleranza pagamento**.
@@ -68,7 +68,7 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Collegamento** della finestra **Setup contabilità generale** selezionare la casella di controllo **Avviso tolleranza pagamento** per attivare l'avviso. Per disattivare l'avviso, deselezionare la casella di controllo.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ L'avviso tolleranza pagamento viene visualizzato quando si registra un collegame
 ## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti  
 Per impostazione di default, la tolleranza di pagamento è consentita. Per disattivare la tolleranza di pagamento per un cliente o un fornitore, è necessario bloccare la tolleranza nella relativa scheda cliente o scheda fornitore. Di seguito viene descritto come eseguire l'operazione per un cliente. I passaggi sono simili per un fornitore.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona  Cerca pagina o report") , immettere **Cliente** o **Fornitore** e scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore**e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Pagamenti** selezionare la casella di controllo **Blocca tolleranza pagam**.  
 
 > [!NOTE]  
@@ -124,7 +124,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli &#40;prima di 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Regole di tolleranza pagamenti singoli 1](media/singlePmtTolRules(Pre1503).gif "Regole di tolleranza pagamenti singoli 1")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -135,7 +135,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli &#40;periodo dilazione&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Regole di tolleranza pagamenti singoli 2](media/singlePmtTolRules(GracePeriod).gif "Regole di tolleranza pagamenti singoli 2")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -146,7 +146,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli &#40;prima di 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Regole di tolleranza pagamenti singoli 3](media/singlePmtTolRules(Post0120).gif "Regole di tolleranza pagamenti singoli 3")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -207,7 +207,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti &#40;prima di 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Regole di tolleranza per più pagamenti 1](media/multiplePmtTolRules(Pre1503).gif "Regole di tolleranza per più pagamenti 1")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -218,7 +218,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti &#40;periodo dilazione&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Regole di tolleranza per più pagamenti 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Regole di tolleranza per più pagamenti 2")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -229,7 +229,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti &#40;periodo dilazione&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Regole di tolleranza per più pagamenti 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regole di tolleranza per più pagamenti 3")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -240,7 +240,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti &#40;periodo dilazione&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Regole di tolleranza per più pagamenti 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regole di tolleranza per più pagamenti 4")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -251,7 +251,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti &#40;dopo 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Regole di tolleranza per più pagamenti 5](media/multiplePmtTolRules(Post0122).gif "Regole di tolleranza per più pagamenti 5")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 

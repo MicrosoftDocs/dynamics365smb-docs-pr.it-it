@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestione di interazioni con i contatti
@@ -30,7 +30,9 @@ L'area di gestione di relazioni consente di registrare tutte le interazioni con 
 
 ##  <a name="setting-up-interaction-templates"></a>Impostazione di modelli di interazione
 Prima di creare e registrare interazioni, è necessario impostare i modelli di interazione. Quando si creano interazioni, è necessario specificare i modelli di interazione su cui si basano. Il termine modello di interazione indica uno schema che definisce le caratteristiche di base di un'interazione.
-Nella finestra **Modello Interazioni** è possibile impostare un modello di interazione.  
+Nella finestra **Modello Interazioni** è possibile impostare un modello di interazione.
+
+Una volta inserite le informazioni sul modello interazione, è possibile creare un allegato, ad esempio un documento di Microsoft Word. Ripetere tali passaggi per impostare altri modelli interazione.  
 
 ## <a name="creating-interactions"></a>Creazione di interazioni
 Esistono due modi per registrare interazioni:
@@ -50,7 +52,7 @@ Nella finestra è possibile fare quanto segue:
 * Visualizzare lo stato delle interazioni.
 * Contrassegnare le interazioni come annullate.
 
-È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Elimina movimenti log interazione annullati** quindi selezionare il collegamento correlato e immettere le informazioni.
+È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina movimenti log interazione annullati** quindi selezionare il collegamento correlato e immettere le informazioni.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  

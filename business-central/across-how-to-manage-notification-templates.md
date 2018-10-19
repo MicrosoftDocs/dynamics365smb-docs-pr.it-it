@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Gestire i modelli di notifica
@@ -27,7 +27,7 @@ Le notifiche vengono inviate agli utenti del workflow per informarli sui passagg
  Nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono inclusi tre modelli di notifica per informare sulle richieste di approvazione, sui nuovi record e sulle richieste di approvazione scadute. I tre modelli di notifica predefiniti supportano **E-mail** e **Nota** come metodo di notifica. Per visualizzare il contenuto dei tre modelli di notifica, vedere la sezione "Contenuto dei modelli di notifica" in questo argomento.
 
 ## <a name="to-create-a-new-notification-template"></a>Per creare un nuovo modello di notifica  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Modelli di notifica**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di notifica** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Modelli di notifica** scegliere l'azione **Nuovo**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
@@ -40,7 +40,7 @@ Le notifiche vengono inviate agli utenti del workflow per informarli sui passagg
     |**Default**|Specificare se il modello di notifica sarà utilizzato per impostazione predefinita.|  
 
 ## <a name="to-modify-a-notification-template"></a>Per modificare un modello di notifica  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Modelli di notifica**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di notifica** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Modelli di notifica** selezionare il modello di notifica che si desidera modificare.  
 3.  Scegliere l'azione **Esporta contenuto modello**.  
 4.  Nella finestra **Esporta file** scegliere il pulsante **Salva**, quindi denominare e salvare il file HTML in un percorso appropriato.  

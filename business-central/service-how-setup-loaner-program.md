@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 37d592516807f23d301e78742557e922f41cfb1c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
@@ -26,7 +26,7 @@ Talvolta è necessario fornire a un cliente un articolo in prestito da poter uti
 * Immettere una nota su un articolo in assistenza relativamente all'esigenza di fornire un articolo in prestito.  
 
 ## <a name="to-set-up-a-loaner"></a>Per impostare un articolo in prestito  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli in prestito**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in prestito** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova scheda articoli in prestito. 
 3. Nel campo **Nr.** inserire un numero per l'articolo in prestito. In alternativa, se è stata impostata una numerazione per gli articoli in prestito nella finestra **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di articolo in prestito disponibile.  
 4. Compilare i campi **Descrizione**, **Descrizione 2** e **Nr. seriale**.  

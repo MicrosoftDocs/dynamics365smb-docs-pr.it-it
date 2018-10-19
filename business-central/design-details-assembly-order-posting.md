@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
@@ -33,14 +33,14 @@ Le seguenti registrazioni si verificano durante la registrazione dell'ordine di 
 
 Nel seguente diagramma viene mostrata la struttura dei movimenti contabili risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio.  
 
-![Risorsa e costi di capacità](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio](media/design_details_assembly_posting_1.png "Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio")  
 
 > [!NOTE]  
 >  Le aree di lavoro e di produzione sono incluse per illustrare che i movimenti contabili capacità vengono creati sia dalla produzione che dall'assemblaggio.  
 
 Nel seguente diagramma viene mostrato il flusso dei dati di assemblaggio nei movimenti contabili durante la registrazione:  
 
-![Flusso di dati durante la registrazione](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Flusso dei movimenti correlati all'assemblaggio durante la registrazione](media/design_details_assembly_posting_2.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
 ## <a name="posting-sequence"></a>Sequenza di registrazione  
 La registrazione di un ordine di assemblaggio viene eseguita nel seguente ordine:  
@@ -71,7 +71,7 @@ La funzione di rilevamento del livello di ordine viene utilizzata in scenari di 
 
 Nel seguente grafico viene visualizzata la struttura del movimento di rettifica e in che modo vengono rettificati i costi di assemblaggio.  
 
-![Struttura dei movimenti di rettifica](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi")  
 
 ### <a name="performing-the-adjustment"></a>Esecuzione della rettifica  
 La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli**. Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  
@@ -79,7 +79,7 @@ La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materia
 -   Rettifica ordine di assemblaggio, che inoltra il costo del materiale e dell'utilizzo delle risorse al movimento di output assemblaggio. Ciò è dovuto alle righe 5 e 6 dell'algoritmo riportato di seguito.  
 -   Eseguire rettifiche a livello singolo, che inoltra i costi per i singoli articoli utilizzando il relativo metodo di costing. Ciò è dovuto alle righe 9 e 10 dell'algoritmo riportato di seguito.  
 
-![Algoritmo di rettifica assemblaggio](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio](media/design_details_assembly_posting_4.jpg "Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio")  
 
 > [!NOTE]  
 >  L'elemento di creazione rettifiche WIP alle righe 7 e 8 è responsabile dell'inoltro del materiale di produzione e dell'utilizzo della capacità all'output di ordini di produzione non completati. Non viene utilizzato per la rettifica dei costi dell'ordine di assemblaggio in quanto il concetto di WIP non si applica all'assemblaggio.  

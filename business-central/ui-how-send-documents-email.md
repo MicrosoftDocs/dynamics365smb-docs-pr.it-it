@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/30/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ed2ffa433c2bee2b29971aacd25430d2148ecc56
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
@@ -32,7 +32,7 @@ Se il campo **E-mail** della finestra **Invia documento a** è impostato su **S�
 Nella procedura riportata di seguito viene descritto come impostare il report **Vendite - Fattura** in modo che venga utilizzato per il corpo e-mail specifico del documento quando si inviano tramite e-mail le fatture di vendita.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Per impostare un corpo e-mail specifico del documento per le fatture di vendita
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Selezioni report Vendite**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezioni report Vendite** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Selezione report - Vendite**, nel campo **Utilizzo**, selezionare **Fattura**.
 3. In una nuova riga nel campo **ID report** selezionare ad esempio il report standard 1306.
 4. Selezionare la casella di controllo **Utilizza per corpo e-mail**.
@@ -48,7 +48,7 @@ A questo punto, quando si sceglie ad esempio l'azione **Invia** nella finestra *
 Nella procedura riportata di seguito viene descritto come inviare una fattura di vendita registrata come messaggio e-mail con il documento allegato come file PDF e con il corpo e-mail specifico del documento.
 
 ## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.
 2. Selezionare la fattura di vendita registrata appropriata, quindi scegliere l'azione **Invia**. Verrà visualizzata la finestra **Invia documento a**.
 3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 4. Scegliere il pulsante **OK**. Verrà visualizzata la finestra **Invia messaggio e-mail**.

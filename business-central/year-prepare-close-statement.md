@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d4eb3af333bee7c00539c85072b7aa1a74eb441
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
@@ -34,7 +34,7 @@ Nella tabella seguente sono descritti alcuni report che possono risultare utili 
 | Stampare una situazione contabile per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti effettivi di contabilità generale con i movimenti budget di contabilità generale. |Situazione contabile |
 | Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |Riconc. conti clienti e forn. |
 
-Per visualizzare un report, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), digitare il nome che appare nella tabella, quindi scegliere il collegamento correlato.
+Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), digitare il nome come presente nella tabella e quindi scegliere il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  

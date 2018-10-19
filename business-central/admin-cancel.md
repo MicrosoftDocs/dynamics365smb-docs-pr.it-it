@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: a10f32808eb89509cfeff365d420dd6e2b866d83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
 ms.contentlocale: it-it
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -32,13 +32,13 @@ Gli account utente e le licenze sono gestiti nel [portale di Office](https://por
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Chiusura dell'account della versione di valutazione gratuita di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se ci si è registrati per una della versione di valutazione gratuita e non si desidera continuare con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile chiudere l'account in qualsiasi momento. Si consiglia di esportare tutti i dati prima di chiudere l'account.  
 
-Per chiudere l'account, attualmente, è necessario contattare il team addetto agli annullamenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] inviando un messaggio a cancelbusinesscentra@microsoft.com. È necessario includere il nome del tenant [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio, in modo da permettere l'identificazione dell'utente. Il modo più semplice di eseguire questa operazione consiste nel copiare l'URL dalla home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Per chiudere l'account, attualmente, è necessario contattare il team dedicato [!INCLUDE[d365fin](includes/d365fin_md.md)] inviando un messaggio e-mail a cancelbusinesscentra@microsoft.com. È necessario includere il nome del tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio in modo da consentire l'identificazione. Il modo più semplice di eseguire questa operazione consiste nel copiare l'URL dalla home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Annullamento della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Office 365
-Se è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando un account aziendale non Office 365, non si dispone di un amministratore di Office 365. In alternativa, è necessario annullare la sottoscrizione contattando il team di [!INCLUDE[d365fin](includes/d365fin_md.md)] addetto agli annullamenti inviando un messaggio a cancelbusinesscentra@microsoft.com. È necessario includere il nome del tenant [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio, in modo da permettere l'identificazione dell'utente. Il modo più semplice di eseguire questa operazione consiste nel copiare l'URL dalla home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Se è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando un account aziendale non Office 365, non si dispone di un amministratore di Office 365. Al contrario, è necessario disdire l'iscrizione contattando il team dedicato [!INCLUDE[d365fin](includes/d365fin_md.md)] inviando un messaggio e-mail a cancelbusinesscentra@microsoft.com. È necessario includere il nome del tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)] nel messaggio in modo da consentire l'identificazione. Il modo più semplice di eseguire questa operazione consiste nel copiare l'URL dalla home page di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Reimpostare la propria esperienza di [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[d365fin](includes/d365fin_md.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società e quindi ripristinare la prima società. Se si apre la pagina **Società**, è possibile creare una copia della società corrente, disconnettersi e quindi contenersi nuovamente alla nuova società e reimpostate la società originale.  
+Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[d365fin](includes/d365fin_md.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società e quindi ripristinare la prima società. Se si apre la finestra **Società**, è possibile creare una copia della società corrente, disconnettersi e quindi contenersi nuovamente alla nuova società e reimpostate la società originale.  
 > [!NOTE]  
 >   Quando si reimposta una società che si sta condividendo con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si effettua la reimpostazione la società.  
 

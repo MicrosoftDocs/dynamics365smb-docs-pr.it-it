@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f30a7c08db374b7f5571b8e48d4b91a2bb7ddc2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari
 Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sul funzionamento della funzionalità di servizio di conversione dati bancari, vedere [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md).  
 
 > [!CAUTION]  
->  Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](http://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
 La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare i dati verso il provider di servizi.  
 

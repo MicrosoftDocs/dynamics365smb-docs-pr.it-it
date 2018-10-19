@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
@@ -31,11 +31,11 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Per richiedere uno stoccaggio magazzino emettendo il documento di origine
 Per gli ordini di acquisto, gli ordini di reso vendita, gli ordini di trasferimento in entrata e gli ordini di assemblaggio, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di acquisto.  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini acquisto**, quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e selezionare il collegamento correlato.
 2. Selezionare l'ordine di acquisto che si intende rilasciare, quindi scegliere l'azione **Rilascio**.  
 
     Per gli ordini di produzione, la richiesta warehouse viene creata redigendo una richiesta in entrata dall'ordine di produzione rilasciato.  
-3.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini di produzione rilasciati**, quindi scegliere il collegamento correlato.  
+3.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
 4. Scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ In seguito alla creazione della richiesta warehouse, un dipendente della warehou
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Per creare uno stoccaggio in magazzino in base al documento origine
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo stoccaggio in magazzino basato sul documento di origine rilasciato.   
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Stoccaggio magazzino**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Documento origine**, selezionare il tipo di documento di origine per cui si esegue lo stoccaggio.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  
@@ -58,7 +58,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 3. Scegliere il pulsante **OK**. Verrà creato un nuovo stoccaggio di magazzino.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Per creare più stoccaggi in magazzino utilizzando un processo batch  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Creaz. stoccaggi/Prelievi mag.**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Richiesta warehouse** della finestra di richiesta, utilizzare i campi **documento origine** e **Nr. documento** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti.  
 3.  Nella Scheda dettaglio **Opzioni** selezionare la casella di controllo **Crea stoccaggio mag.**.
 4.  Scegliere il pulsante **OK**. Verranno creati gli stoccaggi magazzino specificati.

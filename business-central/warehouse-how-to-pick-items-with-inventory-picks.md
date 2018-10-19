@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d7fe65a719c7337e0c72435b4ee157c829f7f78
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
@@ -36,7 +36,7 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelie
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Per richiedere un prelievo magazzino emettendo il documento di origine  
 Per gli ordini di vendita, gli ordini di reso acquisto e gli ordini di trasferimento in uscita, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di vendita.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini vendita**, quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio**.
 
 Per gli ordini di produzione, creare automaticamente la richiesta warehouse per il prelievo di componenti, chiamata *consuntivazione*, quando lo stato dell'ordine di produzione viene modificato in **Rilasciato** oppure quando viene creato l'ordine di produzione rilasciato. Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).
@@ -45,7 +45,7 @@ Dopo aver creato la richiesta warehouse, un dipendente della warehouse addetto a
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Per creare un prelievo da magazzino basato sul documento di origine
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo prelievo da magazzino basato sul documento di origine rilasciato.
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievi magazzino**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3. Nel campo **Documento origine** selezionare il tipo di documento di origine per cui si esegue il prelievo.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  
@@ -58,7 +58,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 3.  Scegliere il pulsante **OK**. Verrà creato un nuovo prelievo magazzino.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Creaz. stoccaggi/Prelievi mag.**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Richiesta warehouse**, utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
 3. Nella Scheda dettaglio **Opzioni**, selezionare la casella di controllo **Crea prelievo mag.**.
 4. Scegliere il pulsante **OK**. Verranno creati i prelievi magazzino specificati.
@@ -69,7 +69,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 >  Nelle configurazioni di warehouse di base, gli articoli assemblati per gli ordini di vendita vengono prelevati dall'ordine di vendita collegato, come descritto in questo argomento. Per altre informazioni, vedere "Gestione di articoli da assemblare su ordine in prelievi magazzino" in Prelievi magazzino.  
 
 ## <a name="to-record-the-inventory-picks"></a>Per registrare i prelievi magazzino  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievo magazzino**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo magazzino** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa finestra, se necessario.  
 3. Eseguire il prelievo e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da gestire**.
 

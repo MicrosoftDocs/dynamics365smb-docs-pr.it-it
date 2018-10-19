@@ -3,20 +3,20 @@ title: "Utilizzo di funzionalità generali tra le aree aziendali | Documenti Mic
 description: "Informazioni sulle funzionalità comuni alle aree aziendali in Business Central."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 05/09/2018
-ms.author: solsen
+ms.date: 10/01/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
@@ -28,9 +28,10 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 
 | A | Vedere |
 | --- | --- |
+|Aggiungere informazioni supplementari a conti, schede clienti o negli ordini di vendita per comunicare gli accordi, ad esempio un metodo di consegna o dei prezzi speciali ad altri utenti.|[Aggiungere commenti a schede o documenti](across-how-use-comments.md)| 
 |Visualizzare documenti in corso di redazione, pubblicati o archiviati relativi alle righe di ordini di acquisto e vendita.|[Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)|
 | Comunicare rapidamente i contenuti di documenti aziendali ai partner aziendali, quali le informazioni di pagamento o i documenti di vendita ai clienti. |[Inviare documenti via e-mail](ui-how-send-documents-email.md) |
-| Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Definire i testi estesi](ui-how-define-ext-text.md) |
+| Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md) |
 |Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definizione dei task degli utenti](across-user-tasks.md)|
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|
 |Registrare i documenti esterni, inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
@@ -42,5 +43,4 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 [Amministrazione](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

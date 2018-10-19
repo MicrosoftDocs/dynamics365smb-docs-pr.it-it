@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ L'elemento chiave della gestione dell'assistenza sono le persone che forniscono 
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Per visualizzare una sintesi degli ordini e delle offerte di assistenza  
 Spesso è necessario visualizzare la lista degli ordini di assistenza o delle offerte di assistenza che soddisfano determinati criteri per potere eseguire operazioni specifiche su un ordine o un'offerta alla volta. Ad esempio, è possibile che occorra assegnare delle risorse agli ordini di assistenza che appartengono a un cliente specifico.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Quadro attività**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Filtro documento** scegliere il tipo di documenti che si desidera visualizzare.
 3. Per ottenere una lista di documenti che contengono compiti di assistenza a cui sono assegnati una risorsa o un gruppo di risorse specifici, compilare i campi **Filtro per risorsa** e **Filtro gruppo risorse**, quindi premere Invio.  
 4. Per ottenere una lista di documenti con una o più date di risposta specifiche che rientrano in un determinato intervallo di date, compilare il campo **Filtro data di risposta**, quindi premere **Invio**.  
@@ -36,10 +36,10 @@ Spesso è necessario visualizzare la lista degli ordini di assistenza o delle of
 6. Per ottenere una lista di documenti che appartengono a un contratto, un cliente o una zona specifici, compilare il campo **Filtro Contratto/Filtro Cliente/Filtro per Zona**, quindi premere **Invio**.  
 7. Scegliere una riga corrispondente a un ordine di assistenza o a un'offerta di assistenza, quindi scegliere l'azione **Mostra documento**.  
 
-    Viene aperta la pagina **Ordine assistenza** o **Offerta assistenza** in cui è possibile utilizzare il documento. Per tornare alla pagina **Quadro attività** scegliere **OK**.
+    Viene aperta la finestra **Ordine assistenza** o **Offerte assistenza** in cui è possibile utilizzare il documento. Per tornare alla finestra **Quadro attività** scegliere **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Per assegnare una risorsa usando la disponibilità della risorsa o del gruppo di risorse    
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Quadro attività**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e scegliere il collegamento correlato.  
 2. Scegliere l'ordine di assistenza, quindi scegliere l'azione **Assegnazioni risorse**.  
 3. Scegliere il movimento con il compito di assistenza a cui si desidera assegnare una risorsa.  
 4. Scegliere l'azione **Disponibilità risorse** o **Disponibilità cat. ris.**.  
@@ -59,7 +59,7 @@ Spesso è necessario visualizzare la lista degli ordini di assistenza o delle of
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Per assegnare una risorsa tramite un ordine di assistenza  
 Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza, è possibile assegnare le risorse, ad esempio i tecnici. per eseguire i compiti di assistenza registrati come righe di articoli in assistenza nel documento.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'ordine di assistenza, quindi scegliere **Modifica**.  
 3. Scegliere la riga dell'articolo in assistenza corrispondente al compito di assistenza a cui si desidera assegnare una risorsa.  
 4. Scegliere **Assegnazioni risorse**.
@@ -79,7 +79,7 @@ Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza
 * Se l'assistenza non è iniziata quando l'assegnazione aveva stato **Attivo**, lo stato di assegnazione passerà da **Riassegnazione necessaria** ad **Annullato**.  
 * Se si sta riassegnando un ordine di assistenza convertito da un offerta, lo stato dei movimenti di assegnazione registrati per l'offerta diventerà sempre **Completato** durante la riassegnazione degli articoli in assistenza nell'ordine di assistenza.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
 3. Selezionare la riga dell'articolo in assistenza corrispondente al compito di assistenza a cui si desidera assegnare una risorsa.  Scegliere **Azioni**, **Riga**, quindi **Assegnazioni risorse**.  
 4. Nella finestra **Assegnazioni risorse** selezionare un movimento di assegnazione con il compito di assistenza a cui si desidera riassegnare la risorsa. Nel campo **Nr. risorsa** selezionare la risorsa appropriata. Il numero della risorsa presente nel campo verrà sovrascritto.  
@@ -89,7 +89,7 @@ Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Per riassegnare una risorsa tramite la finestra Quadro attività  
 Se la risorsa assegnata a un compito di assistenza non è in grado di svolgere il lavoro, il compito di assistenza dovrà essere riassegnato. Solitamente la riassegnazione delle risorse a un compito di assistenza viene effettuata mediante la finestra **Quadro attività**.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Quadro attività**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Filtro Assegnazione** selezionare **Riassegnazione Necessaria**. Nella finestra **Quadro Attività** verrà visualizzata la lista degli ordini di assistenza che includono compiti di assistenza da riassegnare.  
 3. Selezionare l'ordine di assistenza pertinente. Nel gruppo **Pianificazione** della scheda **Naviga** scegliere **Assegnazioni risorse**. Verrà visualizzata la finestra **Assegnazioni risorse**.  
 4. Selezionare il movimento di assegnazione con il compito di assistenza a cui si intende riassegnare una risorsa.  
@@ -111,7 +111,7 @@ Durante l'elaborazione degli articoli in assistenza negli ordini di assistenza, 
 
 Se si utilizza la stessa risorsa per tutti gli articoli in assistenza nell'ordine di assistenza, è possibile registrare le ore totali della risorsa per un articolo in assistenza soltanto e poi dividere la riga della risorsa in modo da assegnarne le ore agli altri articoli in assistenza.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Compiti di assistenza**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Compiti assistenza** e quindi scegliere il collegamento correlato.
 2. Selezionare la riga che comprende l'articolo in assistenza appropriato, quindi scegliere l'azione **Prospetto interv. articolo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Se la stessa risorsa, ad esempio un tecnico, opera su tutti gli articoli in assi
 
 La seguente procedura mostra come dividere le righe della risorsa nella finestra **Righe Fattura Assistenza**.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
 3. Nella Scheda dettaglio **Righe** scegliere **Azioni**, **Ordine**, quindi **Righe assistenza**. Verrà visualizzata la finestra **Righe assistenza**.  
 4. Selezionare la riga della risorsa che si intende suddividere. Il contenuto del campo **Quantità** viene suddiviso tra tutti gli articoli in assistenza nell'ordine.  
@@ -131,7 +131,7 @@ La seguente procedura mostra come dividere le righe della risorsa nella finestra
 ## <a name="to-cancel-an-allocation"></a>Per eliminare un assegnazione  
 È possibile eliminare le assegnazioni risorse per i compiti di assistenza senza riassegnare i compiti.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Quadro attività**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'ordine di assistenza, quindi scegliere l'azione **Assegnazioni risorse**.  
 3. Scegliere il movimento di assegnazione con il compito di assistenza per cui si intende eliminare un'assegnazione.  
 4. Scegliere l'azione **Elimina assegnazione**.  

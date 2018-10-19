@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati relativi alla disponibili
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella finestra **Disponibilità articolo per evento**.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Evento**.
 
@@ -50,7 +50,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Per visualizzare la disponibilità di un articolo in diversi periodi di tempo
 È possibile visualizzare la disponibilità di un articolo nel tempo per periodi specificati nella finestra **Disponibilità art. per periodi**.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Periodo**.
 
@@ -60,7 +60,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Per visualizzare la disponibilità di un articolo nelle ubicazioni dove è immagazzinato
 È possibile visualizzare la disponibilità di un articolo presso i luoghi diversi dove viene immagazzinato nella finestra **Disp. art. per ubicazione**.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Ubicazione**.
 
@@ -71,7 +71,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Per visualizzare la disponibilità di tutti gli articoli in base all'ubicazione in cui sono immagazzinati
 È possibile visualizzare la disponibilità di tutti gli articoli in tutte le ubicazioni nella finestra **Articoli per ubicazione**.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Articoli per ubicazione**.
 
     La finestra **Articoli per ubicazione** mostra per tutti gli articoli le quantità disponibili in ogni ubicazione.

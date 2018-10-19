@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 05/16/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 1695a6950dabc1b2f0a2f85ad9e0c565012c92e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -32,7 +32,7 @@ Per utilizzare i modelli con la libreria di API, è prima necessario definire e 
 
 Per assegnare un modello a un'API, è necessario seguire questi passaggi.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup API**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup API** e scegliere il collegamento correlato.
 2. Scegliere **Nuovo** e quindi scegliere il valore **Ordine** per importare l'immagine.  
 Se è presente più di un modello selezionato per un'API (ID pagina), i modelli vengono applicati nell'ordine definito nella colonna **Order**.   
 Quando ciascun modello viene applicato, i valori dei campi definiti nel modello vengono applicati solo ai campi che non hanno ancora definito un valore, esplicitamente nell'API o in un modello precedentemente applicato nell'ordine. 

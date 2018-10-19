@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
@@ -55,7 +55,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   CRONUS International Ltd. installato.  
 -   Per diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Impiegati warehouse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella finestra **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Selezionare il campo **Default**.  
@@ -68,7 +68,7 @@ L'impostazione della finestra **Scheda Ubicazione** definisce i flussi della war
 
 ### <a name="to-review-the-location-setup"></a>Per rivedere l'impostazione dell'ubicazione  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda ubicazione BIANCA.  
 3.  Notare che nella Scheda dettaglio **Warehouse** la casella di controllo **Stoccaggi e prelievi guidati** è selezionata.  
 
@@ -83,7 +83,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
 ### <a name="to-create-the-purchase-orders"></a>Per creare gli ordini di acquisto  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordini acquisto**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e selezionare il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare un ordine di acquisto per il fornitore 10000 alla data di lavoro (23 gennaio) con le righe di ordine di acquisto seguenti.  
 
@@ -114,7 +114,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 Nella finestra **Carico warehouse** è possibile gestire più ordini in entrata per i documenti di origine, ad esempio un ordine di acquisto.  
 
 ### <a name="to-receive-the-items"></a>Per ricevere gli articoli  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Carichi warehouse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Scegliere l'azione **Usa filtri per richiamare doc. orig.**.  
@@ -132,7 +132,7 @@ Nella finestra **Carico warehouse** è possibile gestire più ordini in entrata 
 Nella finestra **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno specifico documento warehouse di carico che copre più documenti di origine. Come in tutti i documenti di attività di warehouse, ogni articolo nello stoccaggio nella warehouse è rappresentato da una riga Prendere e da una riga Mettere. Nella procedura riportata di seguito, il codice di collocazione nelle righe Prendere è la collocazione di ricevimento di default presso l'ubicazione BIANCA, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Per stoccare gli articoli  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Stoccaggi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.  
 2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e nella scheda **Pagina iniziale**, nel gruppo **Gestisci**, scegliere **Modifica**.  
 
     Il documento di stoccaggio warehouse verrà visualizzato con un totale di otto righe Prendere o Mettere per le quattro righe ordine di acquisto.

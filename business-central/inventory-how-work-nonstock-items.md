@@ -1,6 +1,6 @@
 ---
-title: Creare e gestire gli articoli non in stock | Documenti Microsoft
-description: Descrive come vendere gli articoli non inventariabili o non gestiti in magazzino.
+title: Creare e gestire gli articoli di catalogo | Documenti Microsoft
+description: Descrive come trattare articoli che sono nell'elenco di fornitori degli articoli ma non nel proprio elenco di articoli trattati.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,54 +9,58 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cdfca33d0d9ea4b66b8e1c15cd66eaf9fa79b819
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="work-with-nonstock-items"></a>Utilizzare gli articoli non in stock
-È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera mantenere in magazzino fino a quando non si inizia a venderli. Se si desidera iniziare a mantenere tali articoli in magazzino, è possibile convertirli in schede articolo normali in due modi.
+# <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
+È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.
 
-* Dalla scheda articolo non in stock, creare una nuova scheda articolo in base a un modello.
-* Da una riga di ordine di vendita di tipo **Articolo** con un campo vuoto **No**, selezionare un articolo non in stock. Una scheda articolo viene creata automaticamente per l'articolo non in stock.
+* Dalla scheda articolo di catalogo, creare una nuova scheda articolo in base a un modello.
+* Da una riga di ordine di vendita di tipo **Articolo** con un campo vuoto **No***, selezionare un articolo di catalogo. Una scheda articolo viene creata automaticamente per l'articolo di catalogo.
 
 > [!NOTE]  
->   Non è possibile selezionare un articolo non in stock dalla finestra **Fattura di vendita**. È possibile selezionare un articolo non in stock dalla finestra **Offerta di vendita**, ma l'articolo non in stock non verrà convertito in articolo normale quando si utilizza la funzione **Crea ordine**.
+> Non è possibile selezionare un articolo di catalogo dalla finestra **Fattura di vendita**.<br /><br />
+> È possibile selezionare un articolo di catalogo dalla finestra **Offerta di vendita**, ma l'articolo di catalogo non verrà convertito in articolo normale quando si utilizza la funzione **Crea ordine**.
 
-Un articolo non in stock ha in genere il numero di articolo del fornitore che lo fornisce. Per abilitare la conversione di una scheda articolo non in stock in una scheda articolo normale, è necessario impostare come la numerazione articolo fornitore viene convertita nella numerazione articolo dell'utente.   
+Un articolo di catalogo ha in genere il numero di articolo del fornitore che lo fornisce. Per abilitare la conversione di una scheda articolo di catalogo in una scheda articolo normale, è necessario impostare come la numerazione articolo fornitore viene convertita nella numerazione articolo dell'utente.   
 
-## <a name="to-create-a-nonstock-item"></a>Per creare un articolo non in stock
-Nelle schede articolo non in stock sono presenti molte informazioni in meno rispetto alle schede articolo normale perché vengono utilizzate solo per offrirle in offerte e in altri modi. Per tale motivo, devono essere convertite in schede articolo normale prima di registrare le transazioni di vendita relative.
+> [!Important]
+> Gli articoli di catalogo non devono essere confusi con articoli non di magazzino, che sono articoli standard a cui è assegnato il tipo **Non in inventario** per tenerli fuori dalla disponibilità e dai calcoli dei costi, ad esempio perché sono utilizzati solo internamente e hanno un costo ridotto. Per ulteriori informazioni, vedere [Informazioni sui tipi di articolo](inventory-about-item-types.md).
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli non in stock**, quindi scegliere il collegamento correlato.
+## <a name="to-create-a-catalog-item"></a>Per creare un articolo di catalogo
+Nelle schede articolo di catalogo sono presenti molte informazioni in meno rispetto alle schede articolo normale perché vengono utilizzate solo per offrirle in offerte e in altri modi. Per tale motivo, devono essere convertite in schede articolo normale prima di registrare le transazioni di vendita relative.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli di catalogo** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Per impostare come i numeri articolo non in stock vengono convertiti nella numerazione dell'utente
-Per abilitare la conversione di una scheda articolo non in stock in una scheda articolo normale, è necessario impostare la modalità con cui la numerazione articolo fornitore viene convertita nel formato di numerazione articolo dell'utente.
+## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Per impostare come i numeri articolo di catalogo vengono convertiti nella numerazione dell'utente
+Per abilitare la conversione di una scheda articolo di catalogo in una scheda articolo normale, è necessario impostare la modalità con cui la numerazione articolo fornitore viene convertita nel formato di numerazione articolo dell'utente.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup articolo non in stock**, quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup articolo di catalogo** e quindi scegliere il collegamento correlato.
+2. Compilare i campi come necessario.
 
-## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Per convertire un articolo non in stock in articolo normale
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli non in stock**, quindi scegliere il collegamento correlato.
-2. Aprire la scheda dell'articolo non in stock da convertire in articolo normale.
-3. Nella finestra **Scheda articolo non in stock** scegliere l'azione **Crea articolo**.
+## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Per convertire un articolo di catalogo in articolo normale
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli di catalogo** e quindi scegliere il collegamento correlato.
+2. Aprire la scheda dell'articolo di catalogo da convertire in articolo normale.
+3. Nella finestra **Scheda articolo di catalogo** scegliere l'azione **Crea articolo**.
 
-Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo non in stock e viene creato un modello articolo relativo. È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
+Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo di catalogo e viene creato un modello articolo relativo. È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Per vendere un articolo non in stock e convertirlo in articolo normale
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato.
+## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Per vendere un articolo di catalogo e convertirlo in articolo normale
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**. Compilare i campi nella Scheda dettaglio **Generale** come per qualsiasi ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3. In una nuova riga vendite, nel campo **Tipo**, selezionare **Articolo**, ma lasciare **Nr.** essere lasciato vuoto.
-4. Scegliere l'azione **Riga**, quindi l'azione **Selezionare articoli non in stock**.
+4. Scegliere l'azione **Riga**, quindi l'azione **Selezionare articoli di catalogo**.
 
-    L'articolo non in stock viene convertito in articolo normale. Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo non in stock e viene creato un modello articolo relativo.
-5. Nella finestra **Articoli non in stock** selezionare l'articoli non in stock che si desidera vendere, quindi scegliere **OK**.
+    L'articolo di catalogo viene convertito in articolo normale. Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo di catalogo e viene creato un modello articolo relativo.
+5. Nella finestra **Articoli di catalogo** selezionare l'articoli di catalogo che si desidera vendere, quindi scegliere **OK**.
 6. Una volta completato l'ordine di vendita, scegliere l'azione **Registra**.
 
 È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).

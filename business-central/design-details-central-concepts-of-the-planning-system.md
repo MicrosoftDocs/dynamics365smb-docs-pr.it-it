@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
 
-![Prospetto pianificazione](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Contenuto della finestra Prospetto pianificazione](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenuto della finestra Prospetto pianificazione")  
 
 Si presume che il responsabile della pianificazione della società, ad esempio un addetto acquisti o un responsabile della pianificazione di produzione, sia l'utente del sistema di pianificazione. Il sistema di pianificazione aiuta l'utente eseguendo calcoli complessi ma chiari di un piano. L'utente può quindi concentrarsi sulla soluzione i problemi di più difficili, ad esempio quando si verificano delle situazioni insolite.  
 
@@ -57,7 +57,7 @@ Ad esempio, se l'utente immette o modifica un ordine di vendita, il sistema di t
 
 Di conseguenza, la tracciabilità dinamica dell'ordine può essere considerata uno strumento che consente all'utente di valutare se accettare i suggerimenti di approvvigionamento. Dal lato dell'offerta, un utente può vedere quale domanda ha creato l'approvvigionamento e dal lato della domanda, quale approvvigionamento deve coprire la domanda.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Esempio di tracciabilità ordini dinamica](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Esempio di tracciabilità ordini dinamica")  
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -70,11 +70,11 @@ Il sistema di pianificazione si occupa dell'intero modello di approvvigionamento
 
 La tracciabilità dinamica dell'ordine stabilisce i collegamenti tra l'approvvigionamento e la domanda quando vengono immessi i dati, in base all'ordine. Ciò può condurre a un certo disordine nelle priorità. Ad esempio, un ordine di vendita immesso prima, con una data di scadenza il mese successivo, può essere collegato all'approvvigionamento in magazzino, mentre l'ordine di vendita successivo con scadenza domani può indurre un messaggio di azione a creare un nuovo ordine di acquisto per coprirlo, come illustrato di seguito.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 1")  
 
 Invece, il sistema di pianificazione si occupa di tutta la domanda e l'approvvigionamento di un determinato articolo, secondo una priorità basata sulle date di scadenza e sui tipi di ordine, ovvero in base al concetto secondo cui il primo che necessita è il primo che viene servito. Elimina tutti i collegamenti di tracciabilità ordine che sono stati creati in modo dinamico e li ristabilisce in base alla priorità della data di scadenza. Quando viene completato, il sistema di pianificazione ha riconciliato tutti gli sbilanciamenti tra approvvigionamento e domanda, come illustrato di seguito per gli stessi dati.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 2](media/NAV_APP_supply_planning_1_planning_graph.png "Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 2")  
 
 Dopo la pianificazione dell'esecuzione, non resta alcun messaggio nella tabella Movimenti messaggi azione, in quanto sono stati sostituiti dalle azioni suggerite nel prospetto di pianificazione  
 
@@ -88,7 +88,7 @@ Il sistema di pianificazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] è g
 ### <a name="item-priority--low-level-code"></a>Priorità articolo / Codice ultimo livello  
 In un ambiente di produzione, la domanda di un articolo finito e vendibile produrrà una domanda derivata di componenti riguardanti l'articolo finito. La struttura della distinta base controlla la struttura dei componenti e può coprire diversi livelli di articoli semilavorati (WIP). La pianificazione di un articolo a un livello causerà una domanda derivata di componenti al livello successivo, e così via. Infine, ciò risulterà in una domanda derivata per gli articoli acquistati. Di conseguenza, il sistema di pianificazione pianifica gli articoli in base alla loro valutazione nella gerarchia DB totale, a partire dagli articoli vendibili finiti nel livello superiore e continuando nella struttura di prodotti fino agli articoli di livello più basso (in base al codice di ultimo livello).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Pianificazione per le distinte base](media/NAV_APP_supply_planning_1_BOM_planning.png "Pianificazione per le distinte base")  
 
 Le cifre mostrano in quale sequenza il sistema offre suggerimenti per gli ordini di approvvigionamento di articoli del livello massimo e, presupponendo che l'utente accetterà i suggerimenti, anche per gli articoli dei livelli inferiori.  
 
@@ -101,7 +101,7 @@ Ciò è supportato con l'utilizzo delle unità di stockkeeping, in cui i singoli
 
 In linea di principio, qualsiasi articolo può essere gestito in qualsiasi ubicazione, ma l'approccio del programma al concetto di ubicazione è piuttosto rigoroso. Ad esempio, un ordine di vendita in un'ubicazione non può essere soddisfatto da una specifica quantità in stock in un'altra ubicazione. La quantità in stock deve essere prima trasferita nell'ubicazione specificata nell'ordine di vendita.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Pianificazione per le unità di stockkeeping](media/NAV_APP_supply_planning_1_SKU_planning.png "Pianificazione per le unità di stockkeeping")  
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 
@@ -110,10 +110,10 @@ All'interno di una determinata USK, la data richiesta o disponibile rappresenta 
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Assegnazione priorità ordini](design-details-prioritizing-orders.md).  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Previsioni di produzione e ordini programmati  
+## <a name="demand-forecasts-and-blanket-orders"></a>Previsioni della domanda e ordini programmati  
 Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordine programmato, che copre gli acquisti destinati a un cliente in un determinato periodo di tempo, serve a ridurre le incertezze della previsione globale. L'ordine programmato è una previsione specifica del cliente sopra la previsione non specificata come illustrato di seguito.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Pianificazione con le previsioni](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Pianificazione con le previsioni")  
 
 Per ulteriori informazioni, vedere la sezione "La domanda di previsione viene ridotta dagli ordini di vendita" in [Dettagli di progettazione - Carico dei profili di magazzino](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +202,7 @@ Tuttavia, il sistema di pianificazione includerà ancora le quantità impegnate 
 
 L'esempio seguente mostra come gli impegni possono ostacolare il piano più fattibile.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Pianificazione con gli impegni](media/NAV_APP_supply_planning_1_reservations.png "Pianificazione con gli impegni")  
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -217,7 +217,7 @@ Le informazioni di avviso vengono visualizzate nella finestra **Elementi di pian
 -   Eccezione  
 -   Attenzione  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Avvisi del prospetto di pianificazione](media/NAV_APP_supply_planning_1_warnings.png "Avvisi del prospetto di pianificazione")  
 
 ### <a name="emergency"></a>Emergenza  
 L'avviso di emergenza è visualizzato in due situazioni:  
@@ -254,7 +254,7 @@ Nella pagina di richiesta Calcola piano, l'utente può selezionare il campo **In
 
 Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nel programma verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la finestra **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Messaggi di errore del prospetto di pianificazione](media/NAV_APP_supply_planning_1_error_log.png "Messaggi di errore del prospetto di pianificazione")  
 
 ## <a name="planning-flexibility"></a>Flessibilità pianificazione  
 Non è sempre pratico pianificare un ordine di approvvigionamento esistente, ad esempio quando viene avviata la produzione o quando viene impiegato del personale aggiuntivo un giorno specifico per svolgere una commessa. Per indicare se un ordine esistente può essere modificato dal sistema di pianificazione, tutte le righe dell'ordine di approvvigionamento dispongono di un campo Flessibilità pianificazione con due opzioni: Illimitata o Nessuna. Se il campo è impostato su Nessuno, il sistema di pianificazione non proverà a modificare la riga dell'ordine di approvvigionamento.  

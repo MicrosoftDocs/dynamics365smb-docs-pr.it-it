@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: it-it
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
@@ -49,7 +49,7 @@ Dopo avere creato le note di addebito interessi e apportato le modifiche necessa
 Quando si impostano le condizioni di addebito degli interessi e i termini di sollecito, per la penalità per pagamento ritardato, è possibile specificare più tassi di interesse in modo che la penalità sia calcolata in base a tassi di interesse differenti in diversi periodi. Se non si impostano più tassi di interesse, verranno utilizzati il tasso di interesse e il periodo definito nelle finestre **Condiz. interessi finanziari** e **Termini di sollecito** per l'intero periodo di calcolo. Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Per inviare il report estratto conto cliente
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Rendiconto cliente**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rendiconto cliente** e quindi scegliere il collegamento correlato.
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In **Opzioni output** selezionare una modalità di invio del report al cliente.
 
@@ -59,7 +59,7 @@ Quando si impostano le condizioni di addebito degli interessi e i termini di sol
 ## <a name="to-set-up-reminder-terms"></a>Per impostare i termini di sollecito
 Se per un cliente sono presenti pagamenti scaduti, è necessario decidere quando e con quale modalità inviare un sollecito. Può inoltre essere necessario addebitare sul relativo conto gli interessi e/o altre competenze. È possibile impostare un numero qualsiasi di termini di sollecito. A ciascun codice dei termini di sollecito corrispondono un numero illimitato di livelli di sollecito.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Termini di sollecito**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.  
 3. Per utilizzare più di una combinazione dei termini di sollecito, impostare un codice per ciascuno di essi.
 
@@ -68,7 +68,7 @@ La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impos
 
 Se si creano più solleciti di quanti livelli sono stati definiti, verranno utilizzate le condizioni del livello massimo. È possibile creare tanti solleciti quanti sono consentiti dall'impostazione del campo **Nr. max solleciti** nei termini del sollecito.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Termini di sollecito**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Termini di sollecito** selezionare la riga con i termini di sollecito per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
 3. Compilare i campi, se necessario.  
 
@@ -109,7 +109,7 @@ Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, imm
 ## <a name="to-create-a-reminder-automatically"></a>Per creare un sollecito automaticamente
 Un sollecito è simile a una fattura. Quando viene creato un sollecito, è necessario compilare una testata e una o più righe. È possibile utilizzare una funzione che consente di creare i solleciti automaticamente per tutti i clienti.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Solleciti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Sollecito**, selezionare l'azione **Crea sollecito**.
 3. Nella finestra **Crea solleciti** compilare i campi per definire come e per chi vengono creati i solleciti.
 4. Scegliere il pulsante **OK**.
@@ -117,7 +117,7 @@ Un sollecito è simile a una fattura. Quando viene creato un sollecito, è neces
 ## <a name="to-create-a-reminder-manually"></a>Per creare un sollecito manualmente
 Nella finestra **Sollecito** è possibile compilare manualmente la Scheda dettaglio **Generale** e quindi compilare automaticamente le righe.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Solleciti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Scegliere l'azione selezionare **Suggerisci riga sollecito**.
@@ -132,7 +132,7 @@ Nella finestra **Sollecito** è possibile compilare manualmente la Scheda dettag
 ## <a name="to-replace-reminder-texts"></a>Per sostituire i testi di un sollecito  
 Esistono diverse modalità per determinare il testo che verrà visualizzato nella stampa del sollecito. In alcuni casi può essere necessario sostituire i testi iniziali e finali definiti per il livello attuale con i testi di un livello diverso.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Solleciti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
 2. Aprire il sollecito pertinente quindi scegliere l'azione **Aggiorna testo sollecito**.
 3. Nella finestra **Aggiorna testo sollecito**, immettere il livello richiesto nel campo **Livello di sollecito**.
 3. Scegliere **OK** per aggiornare il testo iniziale e finale.
@@ -154,7 +154,7 @@ Se sono selezionate le caselle di controllo **Registra interesse** o **Registra 
 
 L'emissione di un sollecito può inoltre risultare nei movimenti IVA.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Solleciti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
 2. Selezionare il sollecito di interesse e quindi scegliere l'azione **Emetti**.
 3. Nella finestra **Emetti sollecito** compilare i campi secondo le necessità.
 4. Scegliere il pulsante **OK**.
@@ -178,7 +178,7 @@ Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli
 
 Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una sottotabella, detta tabella Testi addebiti interessi. Per ciascun gruppo di condizioni degli interessi finanziari, è possibile creare un testo iniziale e/o uno finale da inserire nella nota di addebito degli interessi.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Condiz. interessi finanziari**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condiz. interessi finanziari** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.  
 3. Per utilizzare più di una combinazione di condizioni di interessi finanziari, impostare un codice per ciascuno di essi.
 
@@ -208,7 +208,7 @@ Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Per creare una nota di addebito di interessi manualmente  
 Una nota di addebito di interessi è simile a una fattura. È possibile compilare una testata manualmente e le righe automaticamente, oppure le note di addebito di interessi possono venire create automaticamente per tutti i clienti.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note add. interessi**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note addebito interessi** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari.  
 3. Scegliere l'azione **Sugg. righe note add. int.**
 4. Se si desidera creare note di addebito interessi solo per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti** della finestra **Sugg. righe note add. int.**.  
@@ -217,7 +217,7 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
 ## <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
 Talvolta può essere necessario modificare il testo iniziale e finale impostato per le condizioni degli interessi finanziari. Se la modifica viene effettuata dopo la creazione ma prima dell'emissione di note di addebito di interessi, è possibile aggiornare le note con il testo modificato.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Nota addebito interessi**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Nota addebito interessi** e quindi scegliere il collegamento correlato.  
 2. Aprire la nota di addebito degli interessi per cui si desidera modificare il testo di quindi scegliere l'azione **Aggiorna testi add. int.**.
 3. Nella finestra **Aggiorna testi add. int.** è possibile impostare un filtro per aggiornare più note.
 4. Scegliere **OK** per aggiornare il testo iniziale e finale.  
@@ -237,7 +237,7 @@ Se sono selezionate le caselle di controllo **Registra interesse** o **Registra 
 
 L'emissione di una nota di addebito di interessi può inoltre risultare nei movimenti IVA.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note add. interessi**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note addebito interessi** e quindi scegliere il collegamento correlato.
 2. Selezionare la nota pertinente e quindi scegliere l'azione **Emetti**.
 3. Nella finestra **Emetti note add. interessi** compilare i campi secondo le necessità.
 4. Scegliere il pulsante **OK**.
@@ -246,7 +246,7 @@ La nota di addebito di interessi viene stampata per l'invio a un indirizzo e-mai
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Per visualizzare i movimenti di sollecito e di addebito di interessi  
 All'emissione di un sollecito, nella finestra **Mov. soll./Note add. int.** viene creato un movimento di sollecito per ciascuna riga di sollecito che contiene un movimento contabile clienti. È possibile quindi ottenere una panoramica dei movimenti di sollecito creati per un cliente specifico.    
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda cliente interessata e scegliere l'azione **Movimenti contabili**.
 3. Nella finestra **Movimenti contabili clienti** selezionare la riga con il movimento contabile per il quale si desidera visualizzare i movimenti di sollecito, quindi scegliere l'azione **Mov. soll./Note add. int.**.
 

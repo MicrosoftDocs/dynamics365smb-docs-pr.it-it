@@ -12,24 +12,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82f16c5e719fe5e1ebaa7b30c2a655e4871a5056
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 Utilizzare i periodi di registrazione per specificarne quando gli utenti possono registrare nella contabilità generale.  
 
 ## <a name="to-specify-posting-periods"></a>Per specificare i periodi di registrazione
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Impostazione della contabilità generale** specificare il periodo inserendo le date nei campi **Consenti registraz. da** e **Consenti registrazioni fino a**.  
 
 > [!NOTE]  
->   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella finestra **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella finestra **Setup contabilità generale**. Per ulteriori informazioni, vedere la sezione "Per impostare i vincoli connessioni utenti" in [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).
+>   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella finestra **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella finestra **Setup contabilità generale**. Per ulteriori informazioni, vedere la sezione "Per impostare i vincoli connessioni utenti" in [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  

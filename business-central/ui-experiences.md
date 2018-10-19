@@ -1,6 +1,6 @@
 ---
 title: Scegliere l'esperienza utente per visualizzare o nascondere le funzioni avanzate | Documenti Microsoft
-description: "Informazioni sulle caratteristiche dei livelli dell'esperienza utente Base ed Essenziale che hanno effetto su interfaccia utente, aree di applicazione e società."
+description: "Informazioni sulle caratteristiche dei livelli dell'esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: it-it
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
@@ -31,8 +31,7 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 
 | Esperienza | Impatto sull'interfaccia utente |
 | --- | --- |
-| **Di base** |Mostra solo campi e azioni di base delle funzionalità aziendali più comuni, come vendite, acquisti, inventario, finanza. |
-| **Essenziale** |Mostra le azioni e i campi per tutte le funzionalità aziendali comuni.|
+| **Essential** |Mostra le azioni e i campi per tutte le funzionalità aziendali comuni.|
 | **Premium** |Mostra le azioni e i campi per tutte le funzionalità aziendali, incluse Manufacturing e Gestione assistenza.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione d
 Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministrazione di Office 365, ad esempio dopo avere assegnato più utenti al piano Premium, è necessario riflettere la modifica in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Accedere come amministratore.
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti**, quindi scegliere il collegamento correlato.
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
 3. Nella finestra **Utenti** scegliere l'azione **Aggiorna tutti i gruppi di utenti**.
 
 Tutte le nuove informazioni sui piani degli utenti e sui gruppi di utenti assegnati vengono ora aggiornate in base alle modifiche del piano.
 
 ### <a name="to-select-the-premium-experience"></a>Per selezionare l'esperienza Premium
 È ora possibile selezionare la nuova esperienza.
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
 2. Nella Scheda dettaglio **Esperienza utente** della finestra **Informazioni società** selezionare Premium nel campo **Esperienza**.
+
+## <a name="help-assumes-premium-experience"></a>La Guida presuppone un'esperienza Premium
+Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[d365fin](includes/d365fin_md.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Una nota di testo viene inserita negli argomenti di alto livello della Guida per le aree delle funzioni Manufacturing e Gestione assistenza che richiedono l'esperienza **Premium**.
 
 ## <a name="see-also"></a>Vedere anche
 [Creazione di nuove società](about-new-company.md)  

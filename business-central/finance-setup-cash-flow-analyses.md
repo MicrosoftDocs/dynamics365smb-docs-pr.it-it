@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
@@ -30,7 +30,7 @@ Se si desidera informazioni per decidere quali operazioni effettuare con i conta
 In questo argomento viene descritta l'origine dei dati nei grafici e, se necessario, cosa fare per iniziare a utilizzare i grafici.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Grafici Ciclo di cassa ed Entrate e uscite
-I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e alle situazioni contabili. I conti sono all'origine dei dati e le situazioni contabili calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e situazioni contabili. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella pagina **Situazioni contabili** per i seguenti nomi della situazione contabile:  
+I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e alle situazioni contabili. I conti sono all'origine dei dati e le situazioni contabili calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e situazioni contabili. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella finestra **Situazioni contabili** per i seguenti nomi della situazione contabile:  
 
 | Nome situaz. contabile | Dove è utilizzato |
 | --- | --- |
@@ -67,14 +67,14 @@ Per utilizzare guida al setup assistito:
 
 1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegliere l'azione **Apri setup assistito**.  
 2. Compilare i campi in ogni step della guida.  
-3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Previsione flusso di cassa**, quindi scegliere il collegamento correlato.
+3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
 4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
 2. Espandere la Scheda dettaglio **Cortana Intelligence** e selezionare la casella di controllo **Cortana Intelligence abilitata**.  
-3. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Previsione flusso di cassa**, quindi scegliere il collegamento correlato.
+3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
 4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Per utilizzare una procedura manuale:
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  
-6. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup flusso di cassa**, quindi scegliere il collegamento correlato.  
+6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup flusso di cassa** e quindi scegliere il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Cortana Intelligence** e compilare i campi.  
 
 ## <a name="see-also"></a>Vedi anche

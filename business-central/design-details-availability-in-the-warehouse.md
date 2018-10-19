@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
@@ -44,7 +44,7 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 
  Nel seguente diagramma vengono mostrati i differenti elementi del calcolo.  
 
- ![Disponibile per il prelievo, con sovrapposizione di impegno](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Disponibile per il prelievo, con sovrapposizione di impegno](media/design_details_warehouse_management_availability_2.png "Disponibile per il prelievo, con sovrapposizione di impegno")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantità disponibile da impegnare  
  Poiché i concetti del contenuto delle condizioni e dell'impegno coesistono, la quantità di articoli disponibili per l'impegno deve essere allineata alle allocazioni ai documenti di warehouse in uscita.  
@@ -69,7 +69,7 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 
  Nel seguente diagramma vengono mostrati i differenti elementi del calcolo.  
 
- ![Disponibile per la prenotazione, per allocazioni warehouse](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Disponibile per la prenotazione, per allocazioni warehouse](media/design_details_warehouse_management_availability_3.png "Disponibile per la prenotazione, per allocazioni warehouse")  
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)

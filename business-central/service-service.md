@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Gestione assistenza
+> [!NOTE]
+> La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
+
 Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attività di qualsiasi azienda, oltre che una fonte importante di ricavi, ma anche di soddisfazione e lealtà da parte dei clienti. Gestire e tenere traccia dei servizi di assistenza non è tuttavia sempre facile, per questa ragione [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una serie di strumenti in grado di agevolare tali operazioni. Si tratta di strumenti progettati per supportare l'attività di officine di riparazione e di aziende che operano nel settore dell'assistenza, che possono essere utilizzati in svariati scenari di business, tra cui complessi sistemi di distribuzione di assistenza clienti, ambienti di assistenza industriale caratterizzati da distinte di base e numerosi invvi di tecnici di assistenza con requisiti relativi alla gestione dei pezzi di ricambio.  
 
  Questi strumenti consentono di effettuare le operazioni seguenti:  
@@ -46,5 +49,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

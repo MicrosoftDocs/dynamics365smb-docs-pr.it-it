@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
@@ -27,7 +27,7 @@ Come base per il calcolo di un calendario specifico delle aree di produzione o d
 Di seguito viene descritto come impostare i calendari delle aree di produzione. I passaggi sono gli stessi della procedura per l'impostazione dei calendari dei centri di lavoro.  
 
 ## <a name="to-create-work-shifts"></a>Per creare turni lavorativi  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Turni lavorativi** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Turni lavorativi** e quindi scegliere il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il turno lavorativo, ad esempio **1**.  
 3.  Descrivere il turno lavorativo nel campo **Descrizione**, ad esempio **1mo Turno**.  
 4.  Facoltativamente, compilare le righe relative a un secondo o terzo turno lavorativo.  
@@ -35,7 +35,7 @@ Di seguito viene descritto come impostare i calendari delle aree di produzione. 
 Anche se nelle aree di produzione specificate non vengono effettuati turni diversi, immettere almeno un codice di turno lavorativo.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Per impostare un calendario reparto prod.  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Calendari reparto prod.** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Calendari reparto prod.** e quindi scegliere il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il calendario reparto prod.  
 3.  Nel campo **Descrizione** immettere una descrizione del calendario.  
 4.  Scegliere l'azione **Giorni lavorativi**.
@@ -70,7 +70,7 @@ La capacità disponibile per le ferie definite sarà pari a zero in un calendari
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Per calcolare un calendario aree di produzione  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.
 2. Aprire l'area di produzione che si desidera aggiornare.  
 3. Nel campo **Cod. calendario reparto prod.**, selezionare il calendario del reparto produzione da utilizzare come base per un calendario delle aree di produzione.  
 4. Scegliere l'azione **Calendario**.  

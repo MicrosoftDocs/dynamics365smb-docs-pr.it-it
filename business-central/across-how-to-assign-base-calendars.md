@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 47fbadb76b56d202bc422167d5cefe5b721d0615
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Calendario base**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Calendario base** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare il campo **Codice**.  
 4. Scegliere l'azione **Mantenere variazioni calendario base**.
@@ -66,7 +66,7 @@ Mentre un calendario di base standard mostra solitamente tutti i sabati come gio
 
 Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempio presuppone che si sia già provveduto all' assegnazione di un calendario di base al magazzino.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
 2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato**. Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
 3. Nella finestra **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
 4. In **Variazioni calendario personalizzato**, aggiungere le righe per le voci di calendario personalizzato.
@@ -102,7 +102,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 -   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse**.  
 -   Nella finestra **Spedizionieri** , il calendario di base è assegnato nella finestra **Servizi spedizioniere** .  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  
 3.  Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
@@ -30,7 +30,7 @@ L'analisi dei dati per dimensioni consente di ottenere informazioni più dettagl
 ## <a name="to-set-up-an-analysis-view"></a>Per impostare una visualizzazione analisi  
 Un'analisi basata sulle dimensioni consente di visualizzare una combinazione selezionata di dimensioni. È possibile archiviare e in seguito recuperare ogni analisi che viene impostata. Le informazioni relative all'impostazione di un'analisi sono memorizzate nella scheda di **visualizzazione analisi**, per semplificare le analisi successive.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Visualizzazioni analisi**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Visualizzazioni analisi** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Lista visualizzazione analisi** scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per aggiungere altri codici di dimensione ai quattro disponibili nella Scheda dettaglio **Dimensioni**, scegliere l'azione **Filtro**, compilare i campi e scegliere il pulsante **OK**.  
@@ -42,7 +42,7 @@ Un'analisi basata sulle dimensioni consente di visualizzare una combinazione sel
 - Nelle colonne a sinistra sono contenute informazioni sulla base di ciò che è stato selezionato nel campo **Mostra come righe** della testata.  
 - Le colonne a destra contengono informazioni sulla base di ciò che è stato selezionato nel campo **Mostra come colonne** della testata.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Analisi per dimensioni**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Analisi per dimensioni** e quindi scegliere il collegamento correlato.  
 2. Selezionare la visualizzazione di analisi desiderata e scegliere l'azione **Modifica visualizzazione analisi**.
 3. All'inizio della finestra **Analisi vendite per dimensioni**, compilare i campi per definire con viene visualizzato.
 4. 5. Per visualizzare la specifica di un importo nella finestra matrice, selezionare l'importo.  
@@ -61,7 +61,7 @@ Gli importi visualizzati nella finestra **Analisi per dimensioni** forniscono un
 
 La seguente procedura indica come aggiornare una visualizzazione analisi dalla finestra **Analisi per Dimensioni**. I passaggi sono simili a quelli delle finestre **Scheda visualizzazione analisi** e **Lista visualizzazione analisi**.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Analisi per dimensioni**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Analisi per dimensioni** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Analisi per dimensioni**, selezionare il campo **Codice visual. analisi**.  
 3. Selezionare la riga con la visualizzazione analisi desiderata.  
 4. Scegliere l'azione **Aggiorna**.  

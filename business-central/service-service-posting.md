@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b191b5e8fbe0a60a32d32bd2dc1ca0cca07c06e4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-posting"></a>Registrazione di assistenza
@@ -49,7 +49,7 @@ Quando si registra una fattura, una spedizione o una nota di credito di assisten
 
 Nella procedura seguente viene utilizzata una fattura di assistenza registrata come esempio, ma la stessa procedura può essere applicata alle spedizioni di assistenza registrate e alle note di credito registrate.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fattura assistenza registrata**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fattura assistenza registrata** e quindi scegliere il collegamento correlato.  
 2. Aprire la fattura di assistenza registrata che si desidera visualizzare.  
 3. Per ottenere una panoramica della fattura registrata, scegliere l'azione **Statistiche**.  
 

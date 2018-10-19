@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 08/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f961382ec80d4b7371c79df9e2b397cb7aea8b72
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
@@ -50,7 +50,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto da una fattura di acquisto registrata
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di acquisto registrate**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto registrate** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Fatture acquisto registrate** selezionare la fattura di acquisto registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
 
     La maggior parte dei campi nella testata della nota di credito di acquisto viene compilata con le informazioni della fattura di acquisto registrata. È possibile modificare tutti i campi, ad esempio con nuove informazioni che riflettono il contratto di reso.
@@ -70,7 +70,7 @@ Le fatture di acquisto registrate a cui si applica la nota di credito vengono or
 La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di acquisto registrate.
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto copiando una fattura di acquisto registrata
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note credito acquisto**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.
 3. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 4. Scegliere l'azione **Copia documento**.
@@ -81,7 +81,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 9. Completare la nota di credito acquisto come descritto nella sezione "Per creare una nota di credito di acquisto da una fattura di acquisto registrata" del presente argomento.
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di reso acquisto**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
@@ -141,7 +141,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
 
 È possibile registrare tale costo di acquisto ridotto come addebito articolo in una nota di credito o in un ordine di reso e collegarlo al carico registrato. Di seguito sono descritte le procedure per un ordine di reso da acquisto, ma gli stessi passaggi si applicano a una nota di credito di acquisto.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note credito acquisto**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.  
 3.  Compilare la testata della nota di credito con le informazioni relative al fornitore che ha inviato l'abbuono.  
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
@@ -166,7 +166,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 > [!NOTE]  
 > Si supponga, ad esempio, che esistano più ordini di reso acquisto per il fornitore e che siano stati registrati come spediti.     
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Note credito acquisto**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.  
 4. Scegliere l'azione **Prendi righe di spedizione reso**.  
@@ -177,7 +177,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Per rimuovere ordini di reso acquisto aperti dopo la registrazione della spedizione reso cumulativa  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Elimina ordini di reso acq. fatturati**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso acq. fatturati** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3.  In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 

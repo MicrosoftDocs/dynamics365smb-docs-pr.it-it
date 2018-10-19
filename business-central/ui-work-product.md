@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 | --- | --- |
 | Modificare le impostazioni di base come la società, la data di lavoro e la Gestione ruolo utente. |[Modifica delle impostazioni di base](ui-change-basic-settings.md) |
 | Trovare una pagina o un report specifico. |[Utilizzo della funzionalità Cerca pagina o report](ui-search.md) |
-| Filtrare i dati in viste, report o funzioni utilizzando simboli e caratteri speciali. |[Immissione di criteri di filtro](ui-enter-criteria-filters.md) |
+| Filtrare i dati in viste, report o funzioni utilizzando simboli e caratteri speciali. |[Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md) |
 | Ottenere informazioni su come ordinare i dati. |[Ordinamento dei dati](ui-sorting.md) |
 | Visualizzare o elaborare dati in specifici intervalli di date. |[Immettere intervalli di date](ui-enter-date-ranges.md) |
 | Vedere quali campi devono essere compilati. |[Rilevare campi obbligatori](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 |Ottenere informazioni sulle funzionalità che facilitano l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] da parte di persone disabili.|[Accessibilità e tasti di scelta rapida](ui-accessibility.md)|
 |Guardare video sulla funzionalità selezionata per agevolare le operazioni di inizio.|[Video delle attività comuni](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Esplorazione di Business Central
+Di seguito un breve video su come esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  
 [Impostazione di Business Central](setup.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Dettagli di progettazione: Carico dei profili di magazzino
@@ -82,7 +82,7 @@ Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema 
  La scorta di sicurezza è una quantità di magazzino accantonata per compensare le incertezze della domanda durante il lead time di rifornimento. Tuttavia, può essere consumato se è necessario attingere per soddisfare una domanda. In tal caso, il sistema assicura che la scorta di sicurezza sia rapidamente reintegrata suggerendo un ordine di approvvigionamento per rifornire la quantità di scorta di sicurezza alla data in cui è stata consumata. La riga di pianificazione relativa a tale ordine conterrà un'icona di avviso di eccezione indicante che la scorta di sicurezza è stata parzialmente o completamente consumata per mezzo di un ordine di eccezione per la quantità mancante.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>La domanda di previsione viene ridotta dagli ordini di vendita  
- La previsione di produzione esprime la domanda futuro prevista. Mentre la domanda effettiva viene immessa, in genere come ordini vendita per articoli prodotti, viene utilizzata la previsione.  
+ La previsione della domanda esprime la domanda futuro prevista. Mentre la domanda effettiva viene immessa, in genere come ordini vendita per articoli prodotti, viene utilizzata la previsione.  
 
  La previsione stessa non viene effettivamente ridotta dagli ordini di vendita; rimane la stessa. Tuttavia, le quantità previste utilizzate nel calcolo della pianificazione vengono ridotte (delle quantità dell'ordine di vendita) prima che l'eventuale quantità residua sia immessa nel profilo di magazzino della domanda. Quando il sistema di pianificazione esamina le vendite effettive del periodo, sono inclusi sia gli ordini di vendita aperti che i movimenti contabili articoli di vendita, a meno che non siano derivati da un ordine programmato.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
@@ -76,7 +76,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-prepare-the-sample-data"></a>Per preparare i dati di esempio  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Risorse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda risorsa.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -99,7 +99,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-create-a-job-journal-batch"></a>Per creare un batch registrazioni commesse  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Registrazioni commesse** scegliere il campo **Nome batch**. Viene visualizzata la finestra **Batch registrazioni commesse**.  
 3.  Scegliere l'azione **Nuovo** per creare una nuova riga con le informazioni seguenti:  
 
@@ -114,7 +114,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-set-up-a-job"></a>Per impostare una commessa  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -235,7 +235,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-calculate-remaining-usage"></a>Per calcolare l'utilizzo residuo  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Registrazioni commesse**, nel campo **Nome batch**, aprire la lista **Batch registrazioni commesse**. Selezionare il batch registrazioni commesse di **Cinzia** .  
 3.  Scegliere l'azione **Calc. utilizzo residuo**.  
 4.  Nella finestra **Commessa - Calc. utilizzo residuo**, nella Scheda dettaglio **Task commessa**, selezionare il campo **Nr. commessa** e selezionare il numero della commessa appropriata, in genere il processo J00010.  
@@ -251,7 +251,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-create-a-job-sales-invoice"></a>Per creare una fattura di vendita per una commessa  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2.  Selezionare la commessa creata in precedenza, quindi scegliere l'azione **Crea fattura vendita per commessa**.  
 3.  Nella Scheda dettaglio **Task commessa**, cancellare i filtri in **Nr. task commessa** per fatturare la commessa. Nel campo **Nr. commessa** selezionare la commessa appropriata.  
 4.  Nella Scheda dettaglio **Opzioni** immettere la data di registrazione e specificare se creare una fattura per task oppure una singola fattura per tutti i task.  
@@ -261,7 +261,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-post-a-new-sales-invoice"></a>Per registrare una nuova fattura di vendita  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Fatture vendite**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendita** e quindi scegliere il collegamento correlato.  
 2.  Aprire la fattura per il cliente numero 01445544. Sono visibili le informazioni inserite dalle righe di pianificazione.  
 3.  Scegliere l'azione **Registra**. Selezionare **Sì** per confermare la registrazione.  
 
@@ -275,7 +275,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-open-the-statistics-window"></a>Per aprire la finestra Statistiche  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Statistiche**. È possibile esaminare informazioni dettagliate su prezzi, costi e margini delle commesse sia in valuta locale che estera.  
 3.  Scegliere il pulsante **Chiudi** per chiudere la finestra **Statistiche commessa**.  
 
@@ -284,7 +284,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Per gestire i prezzi fissi nelle commesse  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il numero di commessa **Società mercantile internaz.**, quindi scegliere l'azione **Righe task commessa**.  
 3.  Selezionare la riga 1120 e nel campo **Programmazione (costo totale)** fare clic con il pulsante destro del mouse sull'importo e scegliere **DrillDown**.  
 
@@ -306,7 +306,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Per inserire ore nelle Registrazioni commesse  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
 2.  In una nuova riga inserire i seguenti dati:  
 
     -   **Tipo riga**: **(vuoto)**  
@@ -365,7 +365,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-copy-a-job"></a>Per copiare una commessa  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Commesse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova commessa. Inserire i seguenti dati:  
 
     -   **Descrizione**: **Pianificazione di dieci aule per conferenze**  
@@ -390,7 +390,7 @@ Questa procedura dettagliata è incentrata su CRONUS International Ltd., una soc
 
 ### <a name="to-set-up-a-new-account"></a>Per impostare un nuovo conto  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Piano dei conti** scegliere l'azione **Nuovo** per creare una nuova scheda.  
 3.  Nella scheda del nuovo **Conto C/G** inserire i seguenti dati:  
 

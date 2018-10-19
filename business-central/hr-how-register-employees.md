@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: it-it
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Registrare i dipendenti
@@ -30,14 +30,14 @@ Di seguito viene descritto come creare una scheda iniziale relativa all'impiegat
 > È possibile rimborsare ai dipendenti le spese che hanno sostenuto durante le attività di lavoro. A questo scopo è necessario compilare i campi nella Scheda dettaglio **Pagamenti** nella finestra **Scheda impiegato**. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Per impostare un impiegato
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dipendenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella finestra **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Per inserire una foto di un impiegato
 Se si dispone di un'immagine di un dipendente in formato .bmp, è possibile inserirla nella scheda dei dipendenti.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dipendenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda dell'impiegato pertinente.
 3. Nel riquadro Dettaglio informazioni **Immagine impiegato** scegliere il pulsante a discesa, quindi **Importa**.
 4. Nella finestra **Selezionare un'immagine da caricare** scegliere il pulsante **Scegli**.
@@ -50,7 +50,7 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 
 È possibile utilizzare gli indirizzi alternativi per tenere traccia delle località di domicilio degli impiegati, per esempio in caso di trasferta all'estero, di lunghi viaggi di lavoro oppure in caso di soggiorno in una residenza estiva.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dipendenti**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda dell'impiegato pertinente.
 3. Scegliere l'azione **Indirizzi alternativi**.
 4. Nella finestra **Lista indirizzi alternativi** compilare i campi in base alle esigenze.

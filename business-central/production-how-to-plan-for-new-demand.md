@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
@@ -26,14 +26,14 @@ ms.lasthandoff: 03/22/2018
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Per pianificare la domanda di un nuovo ordine di produzione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini produzione pianificati**, quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini produzione pianificati** e quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
 2.  Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
 3.  Nella finestra **Pianificazione ordini** scegliere l'azione **Calcola piano**.  
 
 Le righe di pianificazione appaiono nella finestra in base al filtro di visualizzazione **Domanda produzione**, che consente di mostrare le righe componente non completate di tutti gli ordini di produzione esistenti. Non viene deliberatamente mostrata la domanda solo per l'ordine di produzione selezionato poiché è necessario pianificare un ordine di produzione con una sintesi della domanda relativa a eventuali righe componente precedenti. Le righe di pianificazione relative all'ordine di produzione selezionato vengono espanse.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Per pianificare qualunque nuova domanda  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pianificazione ordini**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione ordini** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Pianificazione ordini** scegliere l'azione **Calcola piano**.
 3.  Fare clic sul pulsante **Espandi** davanti alla data del campo **Data uscita** per visualizzare le righe di pianificazione sottostanti, che rappresentano le righe di domanda con disponibilità insufficiente.  
 4.  Per ogni riga di pianificazione estesa, ovvero riga di domanda, i valori dei campi relativi alle informazioni sono visualizzati nella parte inferiore della finestra.  
@@ -85,7 +85,7 @@ Le righe di pianificazione appaiono nella finestra in base al filtro di visualiz
 >   Se si immette una data successiva a quella di uscita, verrà visualizzato un messaggio di avviso.  
 
 ## <a name="to-make-supply-orders"></a>Per creare ordini di approvvigionamento  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini produzione pianificati**, quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per un ordine di produzione pianificato, confermato o rilasciato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini produzione pianificati** e quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per un ordine di produzione pianificato, confermato o rilasciato.  
 2.  Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
 3.  Posizionare il cursore nella riga di pianificazione desiderata, quindi scegliere l'azione **Crea ordini**.  
 4.  Nella finestra **Crea ordini approvvigionamento** , nella Scheda dettaglio **Pianificazione ordini**, campo **Crea ordini per** , selezionare una delle opzioni seguenti.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
@@ -33,7 +33,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 2.  Mostra la scheda **Sviluppatore** nella barra multifunzione di Microsoft Word.  
   
-     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
@@ -107,7 +107,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
- In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](http://go.microsoft.com/fwlink/?LinkID=389631).  
+ In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
  Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

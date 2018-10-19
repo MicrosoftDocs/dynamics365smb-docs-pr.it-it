@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
@@ -35,7 +35,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 > Utilizzando la funzione Aggiorna per ricalcolare le righe dell'ordine di produzione, le righe vecchie vengono eliminate e vengono calcolate le nuove righe.  
 
 ## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ord. produzione confermato**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
 2.  Aprire l'ordine di produzione da ripianificare.  
 3.  Nella Scheda dettaglio **Righe**, scegliere l'azione **Righe** e quindi l'azione **Componenti**.  
 4.  Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
@@ -65,7 +65,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 ## <a name="to-refresh-a-production-order"></a>Per aggiornare un ordine di produzione  
 Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è necessario procedere anche all'aggiornamento delle informazioni nell'ordine di produzione. Nella procedura che segue i componenti vengono calcolati per un ordine produzione confermato. I passaggi sono simili per le righe ciclo.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ord. produzione confermato**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
 3.  Scegliere l'azione **Aggiorna**.
 4. Nella finestra **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:

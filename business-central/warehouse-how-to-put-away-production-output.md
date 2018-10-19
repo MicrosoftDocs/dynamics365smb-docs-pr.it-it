@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Stoccare l'output produzione o l'output assemblaggio
@@ -29,14 +29,14 @@ Nelle configurazioni di warehouse avanzate in cui l'ubicazione richiede sia l'el
 La prima fase del processo di creazione dello stoccaggio dell'output prevede la creazione della richiesta warehouse in entrata. Questa richiesta comunica alla warehouse che l'output dell'ordine di produzione o assemblaggio è pronto per lo stoccaggio.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Per creare la richiesta warehouse in entrata  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordine produzione rilasciato**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione rilasciato** e quindi scegliere il collegamento correlato.  
 2.  Nell'ordine di produzione pronto per lo stoccaggio, scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
 >  È inoltre possibile creare la richiesta warehouse in entrata selezionando la casella di controllo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Stoccaggio magazzino**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi scegliere il collegamento correlato.  
 2.  Creare un nuovo stoccaggio di magazzino. Per ulteriori informazioni, vedere [Stoccare articoli con gli stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Per accedere all'output dell'ordine di produzione, scegliere l'azione **Prendi documenti origine** e selezionare l'ordine di produzione rilasciato.  
 4.  Compilare debitamente le righe di stoccaggio.
@@ -49,7 +49,7 @@ Quando si registra uno stoccaggio magazzino, si presume che tutte le operazioni 
 Se è necessario registrare il tempo di setup o di esecuzione sull'ultima operazione, impostare la quantità di output dell'ultima operazione su 0. In alternativa, è possibile scegliere di non registrare affatto l'ultima riga semplicemente eliminandola  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Per eseguire lo stoccaggio dell'output tramite uno stoccaggio interno della warehouse
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievo interno whse.**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stocc. int. whse.** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Nella testata di un nuovo stoccaggio interno compilare almeno il campo **Cod. ubicazione**.  
 4. Compilare una riga per ciascun articolo che si desidera trasferire nella warehouse. È sufficiente compilare i campi **Nr. articolo** e **Quantità**.  
@@ -64,7 +64,7 @@ Se è necessario registrare il tempo di setup o di esecuzione sull'ultima operaz
 >  Quando l'ubicazione della warehouse prevede l'utilizzo di stoccaggi e prelievi guidati, la warehouse è collegata alla funzione di manufacturing tramite le collocazioni di produzione di default, ovvero le collocazioni di produzione in entrata e in uscita e la collocazione del reparto produttivo aperto, che vengono definite nella Scheda dettaglio **Collocazioni** della scheda ubicazione. Quando si registra l'output di un ordine di produzione, l'output viene inserito nella **collocazione di produzione in uscita**. La procedura descritta in precedenza consente di eseguire lo stoccaggio dell'output di produzione ma, anziché utilizzare la collocazione di default dell'articolo, si procederà a spostare o stoccare gli articoli dalla **collocazione di produzione in uscita** alla collocazione di default dell'articolo.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Per specificare manualmente una collocazione in cui immagazzinare gli articoli dell'output di produzione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Movimento worksheet**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
 2.  Compilare la testata e creare una riga per ciascun articolo che si desidera trasferire nella warehouse.  
 3.  Compilare entrambi i campi **Dal codice collocazione** e **A codice collocazione**, quindi immettere la quantità nel campo **Quantità**.  
 4.  Per immettere nelle righe del prospetto l'intero contenuto della collocazione o il contenuto di collocazioni specifiche nell'ubicazione, scegliere l'azione **Ottieni contenuto collocazione**.  

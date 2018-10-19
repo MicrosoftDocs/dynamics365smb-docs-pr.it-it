@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.  
 
--   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione di produzione. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati "articoli MPS" e sono identificati dinamicamente all'inizio del calcolo.  
--   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione di produzione a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
+-   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione della domanda. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati "articoli MPS" e sono identificati dinamicamente all'inizio del calcolo.  
+-   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione della domanda a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
 
  Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione usano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, messaggi di azione vengono visualizzati nel prospetto di pianificazione. I messaggi di azione sono suggerimenti per creare un nuovo ordine di approvvigionamento, modificare un ordine di approvvigionamento (quantità o data) o annullarne uno esistente. Questi possono essere ordini di produzione, ordini di acquisto e ordini di trasferimento. Per ulteriori informazioni, vedere [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md).  
 
@@ -73,7 +73,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-change-selected-planning-parameters"></a>Per variare i parametri di pianificazione selezionati  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Unità di stockkeeping**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Unità di stockkeeping** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda unità di stockkeeping BLU per l'articolo 1100, Ruota anteriore.  
 3.  Nella Scheda dettaglio **Pianificazione** compilare i campi come indicato nella tabella seguente.  
 
@@ -90,7 +90,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini vendita**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nella finestra **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
 
@@ -102,7 +102,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Per creare un piano rigenerativo per soddisfare la domanda presso l'ubicazione BLU  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prospetto pianificazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
@@ -125,7 +125,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Per calcolare MRP per includere i componenti necessari sottostanti  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Prospetto pianificazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
@@ -219,7 +219,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 3.  Accettare l'avviso di disponibilità e scegliere **Sì** per registrare la quantità di domanda.  
 4.  Continuare la pianificazione per rettificare il piano di approvvigionamento corrente.  
-5.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Prospetto pianificazione**, quindi scegliere il collegamento correlato.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 6.  Scegliere l'azione **Calcola piano - Solo cambiamenti**.  
 7.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 

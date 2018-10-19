@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fefde17c8e8063b7b1f373196bab29ff1caec452
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
@@ -29,7 +29,7 @@ Quando si lavora su un ordine di assistenza, si vorrà aggiornarne lo stato in m
 ## <a name="to-set-up-default-service-hours"></a>Per impostare le ore di assistenza di default  
 La finestra **Ore di assistenza di default** consente di impostare le ore lavorative dedicate in genere all'assistenza nell'azienda. Le ore di assistenza vengono utilizzate per calcolare la data e l'ora di risposta per gli ordini e le offerte di assistenza e per inviare degli avvisi relativi all'ora di risposta. Le ore di assistenza di default vengono utilizzate per contratti di assistenza per cui non vengono impostate ore specifiche.  
   
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ore di assistenza di default**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ore di assistenza di default** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +38,7 @@ La finestra **Ore di assistenza di default** consente di impostare le ore lavora
 ## <a name="to-set-up-work-hour-templates"></a>Per impostare i modelli delle ore di lavoro
 La finestra **Modelli Ore di Lavoro** consente di impostare modelli che contengano le ore medie di lavoro nell'azienda. Ad esempio è possibile creare modelli per tecnici full-time e part-time. È possibile utilizzare modelli ore di lavoro quando si aggiungono capacità alle risorse.  
   
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Modelli ore di lavoro**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli ore di lavoro** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +49,7 @@ La finestra **Ore Assistenza** consente di impostare ore di assistenza specifich
   
 Se non si impostano ore di assistenza specifiche per il contratto di assistenza, verranno utilizzate quelle di default per i contratti di assistenza.  
   
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Contratti assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire il contratto di assistenza per cui si desidera impostare delle ore di assistenza specifiche, quindi scegliere **Ore assistenza**.  
 4. Per impostare le ore di assistenza in base alle ore di assistenza di default, scegliere l'azione **Copia ore assist. di default**.  
 5. Modificare i campi nei movimenti ore di assistenza. Inserire o eliminare i movimenti per impostare le ore di assistenza per il contratto. Si noti che i campi **Giorno**, **Ora inizio** e **Ora fine** sono obbligatori per ogni riga.  

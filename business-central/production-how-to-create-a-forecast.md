@@ -1,6 +1,6 @@
 ---
-title: Come creare una previsione di produzione | Microsoft Docs
-description: "Nella finestra **Previsione di produzione** è possibile creare previsioni di produzione e di vendita."
+title: Come creare una previsione della domanda | Microsoft Docs
+description: "Nella finestra **Previsione della domanda** è possibile creare previsioni di produzione e di vendita."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Creare una previsione di produzione
-Nella finestra **Previsione di produzione** è possibile creare previsioni di produzione e di vendita.  
+# <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
+Nella finestra **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
 
 La funzionalità di previsione viene utilizzata per creare la domanda prevista; la domanda effettiva viene creata da ordini di vendita e produzione. Durante la creazione della programmazione di produzione master (MPS), la previsione viene confrontata con gli ordini di vendita e produzione. L'opzione *Componente* nella previsione determina il tipo dei fabbisogni da considerare nel processo di confronto. Se la previsione riguarda un articolo di vendita, viene confrontata solo con gli ordini di vendita. Se si riferisce ai componenti, viene confrontata solo con la domanda dipendente dei componenti dell'ordine di produzione.  
 
@@ -34,7 +34,7 @@ La funzionalità di previsione disponibile nel programma può essere utilizzata 
 
 Nella maggior parte dei casi, pertanto, il responsabile della pianificazione di produzione modifica la previsione di vendita per adattarla alle condizioni di produzione, rispettando comunque la previsione di vendita stessa.  
 
-Le previsioni vengono create manualmente nella finestra **Previsione di produzione**. Nel sistema possono essere presenti più previsioni, differenziate in base al nome e al tipo. Le previsioni possono essere copiate e modificate in base alle esigenze. Ai fini della pianificazione, è valida una sola previsione per volta.  
+Le previsioni vengono create manualmente nella finestra **Previsione della domanda**. Nel sistema possono essere presenti più previsioni, differenziate in base al nome e al tipo. Le previsioni possono essere copiate e modificate in base alle esigenze. Ai fini della pianificazione, è valida una sola previsione per volta.  
 
 La previsione consiste in un certo numero di record, ciascuno indicante il numero di articolo, la data della previsione e la quantità prevista. La previsione di un articolo è relativa a un periodo, definito dalla data della previsione e dalla data del successivo record di previsione. Dal punto di vista della pianificazione, la quantità prevista deve essere disponibile all'inizio del periodo della domanda.  
 
@@ -49,16 +49,16 @@ Poiché la previsione di componenti è progettata per definire le opzioni di un 
  Il periodo di previsione è valido dalla data di inizio alla data di inizio della previsione successiva. La finestra relativa all'intervallo di tempo offre diverse opzioni tra cui scegliere per l'inserimento della domanda in una data specifica all'interno di un periodo. È pertanto consigliabile evitare di modificare l'ambito del periodo di previsione a meno che non si desideri spostare tutti i movimenti previsioni alla data di inizio di tale periodo.  
 
 ## <a name="forecast-by-locations"></a>Previsione in base alle ubicazioni  
-Può essere indicata nel setup manufacturing. Se le previsioni basate sull'ubicazione, tuttavia, vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
+Può essere indicato nel setup manufacturing se si desidera filtrare le previsioni in base all'ubicazione durante il calcolo di un piano. Se le previsioni basate sull'ubicazione, tuttavia, vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
 
-## <a name="to-create-a-production-forecast"></a>Per creare una previsione di produzione
+## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Previsione di produzione**, quindi scegliere il collegamento correlato.  
-2.  Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione produzione**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione della domanda** e quindi scegliere il collegamento correlato.  
+2.  Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
 3.  Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.  
-4.  Nel campo **Tipo previsione**, selezionare **Articolo di vendita**, **Componente** o **Entrambi**. Se si seleziona **Articolo di vendita** o **Componente**, è possibile modificare la quantità in base al periodo. Se si seleziona **Entrambi**, non è possibile modificare la quantità, ma è possibile fare clic sul pulsante della freccia in giù e visualizzare i mov. previsioni produzione.  
+4.  Nel campo **Tipo previsione**, selezionare **Articolo di vendita**, **Componente** o **Entrambi**. Se si seleziona **Articolo di vendita** o **Componente**, è possibile modificare la quantità in base al periodo. Se si seleziona **Entrambi**, non è possibile modificare la quantità, ma è possibile fare clic sul pulsante della freccia in giù e visualizzare i mov. previsioni domanda.  
 5.  Specificare un filtro in **Filtro data** se si desidera limitare la quantità di dati visualizzati.  
-6.  Nella Scheda dettaglio **Matrice previsioni produzione** immettere le quantità previste di **Articoli di vendita** o **Componenti** per i vari periodi.  
+6.  Nella Scheda dettaglio **Matrice previsioni domanda** immettere le quantità previste di **Articoli di vendita** o **Componenti** per i vari periodi.  
 7.  Nella Scheda dettaglio **Opzioni matrice** impostare l'intervallo di tempo nel campo **Visualizza per** per modificare il periodo visualizzato in ogni colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostazione in Gestione contabile.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Può essere indicata nel setup manufacturing. Se le previsioni basate sull'ubica
 8.  Nel campo **Visualizza come**, selezionare come vengono visualizzate le quantità di previsione per l'intervallo di tempo. Se si seleziona **Saldo periodo**, nel saldo per l'intervallo di tempo verrà visualizzato il saldo periodo. Se si seleziona **Saldo alla data**, nella finestra verrà visualizzato il saldo all'ultimo giorno dell'intervallo di tempo.  
 
 > [!NOTE]  
->  È anche possibile modificare una previsione esistente. Nella finestra **Matrice previsioni produzione**, scegliere l'azione **Copia previsioni di produzione** e compilare la finestra **Previsione di produzione** con una previsione esistente. Modificare quindi le quantità come appropriato.  
+>  È anche possibile modificare una previsione esistente. Nella finestra **Matrice previsioni domanda**, scegliere l'azione **Copia previsioni della domanda** e compilare la finestra **Previsione della domanda** con una previsione esistente. Modificare quindi le quantità come appropriato.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione della produzione](production-configure-production-processes.md)  

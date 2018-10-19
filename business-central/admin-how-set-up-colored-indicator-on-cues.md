@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5814a1719ccba38967ee64d28fddae617487b43c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
@@ -29,7 +29,7 @@ Nella finestra **Setup pila**, si impostano gli indicatori di tutte le pile disp
 Per impostare l'indicatore, specificare fino a due valori di soglia che definiscono tre intervalli dei valori dei dati (basso, medio e alto) e a cui è possibile applicare un colore diverso (o stile).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Per impostare indicatori colorati nelle pile  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup pila**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup pila** e quindi scegliere il collegamento correlato.  
   
      Verrà visualizzata la finestra **Setup pila**. La finestra elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente**.  
   

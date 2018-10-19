@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 437828c497b6e80f3eea7536fca363ce67bc9d5e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
@@ -27,16 +27,16 @@ Se si creano o si ricevono righe intercompany con articoli, è possibile utilizz
 Se si effettuano transazioni di vendita intercompany che includono risorse, è necessario compilare il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Si tratta del numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni, vedere  
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Per impostare le società per le transazioni intercompany
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Informazioni società**, compilare i campi **Codice partner IC**, **Tipo casella in arrivo Intercompany** e **Dettagli casella in arrivo Intercompany**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Per impostare i partner IC
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Partner IC**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Partner IC** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella finestra **Partner IC** compilare i campi secondo le necessità.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Per impostare fornitori intercompany e clienti intercompany
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. In alternativa, accedere al fornitore dal campo **Nr. Fornitore** della finestra **Partner IC**.
 3. Aprire la scheda di un fornitore che è un partner intercompany. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).
 4. Nel campo **Codice partner IC**, selezionare il codice partner IC desiderato.
@@ -50,19 +50,19 @@ Se la società è la società padre e dispone del piano dei conti intercompany c
 Se la società è una filiale e si riceve un file XML contenente il piano dei conti intercompany comune, attenersi alla procedura ""Per importare il piano dei conti intercompany"".  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Per impostare il piano dei conti intercompany
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti intercompany**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti intercompany** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Piano dei conti intercompany** immettere ogni conto su una riga nella finestra.  
 3. Se il piano dei conti intercompany è identico o simile a quello utilizzato normalmente, è possibile compilare automaticamente la finestra scegliendo l'azione **Copia da piano dei conti**. Le nuove righe possono essere modificate secondo le esigenze.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Per esportare un piano dei conti intercompany
 Per consentire ai partner intercompany di importare il piano dei conti è necessario esportarlo in file.      
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti intercompany**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti intercompany** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Piano dei conti intercompany**, selezionare l'azione **Esporta** quindi scegliere il pulsante **Salva**.
 3. Specificare il nome del file e il percorso in cui salvare il file XML, quindi fare clic sul pulsante **Salva**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Per importare il piano dei conti intercompany  
 Una volta che il file del piano dei conti intercompany è presente, i partner intercompany possono importarlo per essere certi che abbiano gli stessi conti.  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti intercompany**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti intercompany** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Piano dei conti intercompany**, selezionare l'azione **Importa**.  
 3. Selezionare il nome e il percorso del file XML, quindi scegliere il pulsante **Apri**.  
 
@@ -73,7 +73,7 @@ Una volta definito o importato il piano dei conti IC concordato con i partner in
 
 Se i numeri dei conti del piano dei conti intercompany sono uguali a quelli dei conti del piano dei conti, è possibile eseguirne automaticamente il mapping.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti intercompany**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti intercompany** e quindi scegliere il collegamento correlato.  
 2. Selezionare le righe che si desidera mappare automaticamente, quindi scegliere l'azione **Associa a conti con stesso nr.**.  
 3. Per ogni conto di contabilità generale intercompany non mappato automaticamente, compilare il campo **Nr. Conto C/G Assoc.**.  
 
@@ -82,7 +82,7 @@ Quando si crea una riga di acquisto o vendita intercompany da inviare come trans
 
 Quando si specifica un conto C/G nel campo **Nr. contropartita** di una riga intercompany con **Partner IC** nel campo **Tipo conto**, il campo **Nr. conto C/G partner IC** viene compilato automaticamente.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Piano dei conti**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2. Nella riga di un conto C/G utilizzato per le transazioni intercompany, nel campo **Conto C/G partner IC di default**, immettere il conto di contabilità generale intercompany in cui il partner effettuerà le registrazioni al momento della registrazione del conto C/G nella riga.  
 3. Ripetere il passaggio 3 per ogni conto immesso di frequente nel campo **Nr. contropartita** di una riga di documento o registrazione intercompany.
 
@@ -94,7 +94,7 @@ Se la società è la società padre e dispone del set di dimensioni intercompany
 Se la società è una filiale ed è stato ricevuto un file XML contenente le dimensioni intercompany che il gruppo utilizzerà come riferimento comune, attenersi alla procedura "Per importare le dimensioni intercompany".
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Per definire le dimensioni intercompany
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dimensioni intercompany**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Dimensioni intercompany** immettere ogni dimensione su una riga della finestra.
 
     Se le dimensioni intercompany sono simili o identiche a quelle dell'azienda, è possibile compilare automaticamente la finestra scegliendo **Copia da dimensioni**, quindi modificando le righe risultanti.  
@@ -103,7 +103,7 @@ Se la società è una filiale ed è stato ricevuto un file XML contenente le dim
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Per importare le dimensioni intercompany  
 Una volta che il file delle dimensioni intercompany è presente, i partner intercompany possono importarlo per essere certi che abbiano le stesse dimensioni.  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dimensioni intercompany**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.  
 2. Nella finestra **Piano dei conti intercompany**, selezionare l'azione **Importa**.  
 3. Specificare il nome e il percorso del file XML, quindi scegliere il pulsante **Apri**.  
 
@@ -114,14 +114,14 @@ Dopo aver importato o definito le dimensioni concordate con i partner intercompa
 
 Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni definite nell'elenco delle dimensioni della società possono essere associate automaticamente, quindi è possibile associare i conti automaticamente.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dimensioni intercompany**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.
 2. Nella finestra **Dimensioni intercompany** selezionare le righe che si desidera associare automaticamente, quindi scegliere l'azione **Associa a dim. con stesso codice**.
 3. Per ogni dimensione intercompany di cui non viene eseguito automaticamente il mapping, compilare il campo **Codice dim. associaz.**.
 4. Scegliere l'azione **Valori dimensioni intercompany**.
 5. Nella finestra **Valori dimensioni intercompany** compilare il campo **Codice val. dim. associaz.**.
 
     Continuare ad associare le dimensioni alle dimensioni intercompany eseguendo passaggi simili.
-6. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dimensioni**, quindi scegliere il collegamento correlato.
+6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni** e quindi scegliere il collegamento correlato.
 7. Nella finestra **Dimensioni** selezionare le righe che si desidera associare automaticamente, quindi scegliere l'azione **Associa a dim. IC con stesso codice**.
 8. Per ogni dimensione intercompany di cui non viene eseguito automaticamente l'associazione, compilare il campo **Mapping codice valore dim. IC**.
 9. Scegliere l'azione **Valori dimensioni intercompany**.

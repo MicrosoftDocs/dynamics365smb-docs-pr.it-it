@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
@@ -80,25 +80,25 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 
-![Elementi dell'intervallo di tempo](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Elementi dell'intervallo di tempo](media/supply_planning_5_time_bucket_elements.png "Elementi dell'intervallo di tempo")  
 
 Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su) e la domanda (giù) esistenti. Le frecce rosse, verdi e arancioni sono suggerimenti di pianificazione.  
 
 **Esempio 1**: la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione, Periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Periodo di riprogrammazione e Periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e Periodo di accumulo lotti")  
 
 **Esempio 2**: la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione, Periodo di accumulo lotti, Riprogrammazione](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Periodo di riprogrammazione, Periodo di accumulo lotti e Riprogramma](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, Periodo di accumulo lotti e Riprogramma")  
 
 **Esempio 3**: esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
 
-![Periodo di stabilizzazione, Periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Periodo di stabilizzazione e Periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e Periodo di accumulo lotti")  
 
 **Esempio 4**: esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
 
-![Periodo di stabilizzazione, Periodo di accumulo lotti, Cambia Qtà](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità")  
 
 **Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della finestra **Setup manufacturing**.  
 

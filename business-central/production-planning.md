@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Pianificazione
@@ -38,12 +38,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ottenere una breve introduzione su come utilizzare il sistema di pianificazione per individuare la domanda e assegnarvi una priorità, nonché definire un piano di approvvigionamento bilanciato.|[Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md)|
 |Comprendere tutti gli aspetti del sistema di pianificazione e come modificare gli algoritmi per soddisfare i requisiti di pianificazione in vari ambienti.|[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)|
 |Sapere in che modo nella logica di pianificazione viene fatta distinzione tra domanda nelle ubicazioni in base all'impostazione della USK e domanda senza codici ubicazione.|[Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md)|
-|Prevedere la domanda di produzione illustrata negli ordini di produzione e di vendita previsti.|[Creare una previsione di produzione](production-how-to-create-a-forecast.md)|  
+|Prevedere la domanda illustrata nei componenti di produzione e di vendita previsti.|[Creare una previsione della domanda](production-how-to-create-a-forecast.md)|  
 |Creare automaticamente ordini di produzione basati su una relazione uno a uno da un ordine di vendita in modo da coprire la domanda esatta prevista da tale riga dell'ordine di vendita.|[Creare gli ordini di produzione dagli ordini di vendita](production-how-to-create-production-orders-from-sales-orders.md)|
 |Creare un ordine di produzione previsto direttamente da un ordine di produzione comprendente più righe e che rappresenta un progetto di produzione.|[Pianificare gli ordini di progetto](production-how-to-plan-project-orders.md)|
 |Utilizzare la finestra **Pianificazione ordini** per pianificare manualmente la domanda di vendita o di produzione sulla base di un solo livello della DB di produzione alla volta.|[Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md)|
 |Utilizzare la finestra **Prospetto pianificazione** per eseguire le opzioni MRP che MPS e creare automaticamente un piano di approvvigionamento di alto livello o dettagliato a tutti i livelli dell'articolo.|[Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
-|Eseguire la richiesta di approvvigionamento per creare automaticamente un piano di approvvigionamento dettagliato in modo da coprire la domanda relativa ad articoli il cui rifornimento viene effettuato solo tramite acquisto o trasferimento.|Pagina **Richiesta di approvvigionamento**|  
+|Eseguire la richiesta di approvvigionamento per creare automaticamente un piano di approvvigionamento dettagliato in modo da coprire la domanda relativa ad articoli il cui rifornimento viene effettuato solo tramite acquisto o trasferimento.|Finestra **Richiesta di approvvigionamento**|  
 |Avviare o aggiornare un ordine di produzione sotto forma di operazioni pianificate in modo approssimativo in MPS.|[Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md)|
 |Ricalcolare i calendari dell'area di produzione o del centro di lavoro in seguito alle modifiche alla pianificazione.|La sezione "Per calcolare un calendario aree di produzione" in [Impostare i calendari del reparto produzione](production-how-to-create-work-center-calendars.md)|
 |Tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.|[Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -9,20 +9,20 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 04dff9168c432a93504c3154475ad76b7e2c1cf9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
 In ogni documento e registrazione che è possibile contabilizzare, è possibile scegliere il pulsante **Anteprima registrazione** per esaminare i differenti tipi di movimenti che saranno creati quando si registra il documento o le registrazioni.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Per visualizzare in anteprima i movimenti C/G che deriveranno dalla registrazione di una fattura di acquisto
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di acquisto**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.
 2. Creare una fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Scegliere **Anteprima registrazione**.
 4. Nella finestra **Anteprima registrazione** selezionare **Movimento C/G**, quindi scegliere **Mostra movimenti correlati**.  

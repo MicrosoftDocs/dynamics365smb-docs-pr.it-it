@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c93bd33d972b030ede02ad7b24a8127ff2174141
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e4ceaeae1a37a521d2d5bd22ab711757283e6321
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Impostare un indicatore colorato nelle pile
-È possibile impostare delle pile che vengono visualizzate nella pagina **Home** in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
+È possibile impostare le pile che vengono visualizzate in Gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
 
 L'indicatore viene visualizzato come una barra colorata lungo il bordo superiore della pila. Fornisce un segnale visivo dello stato dell'attività della pila, che può indicare le condizioni favorevoli o sfavorevoli per spingere l'utente a intraprendere un'azione. Ad esempio, se una pila visualizza le fatture di vendita in corso, è possibile impostare l'indicatore in modo che appaia verde (favorevole) quando il totale delle fatture di vendita in corso è minore di 10 e rosso (sfavorevole) quando il totale è maggiore di 20.
 
@@ -29,7 +29,7 @@ Nella finestra **Setup pila**, si impostano gli indicatori di tutte le pile disp
 Per impostare l'indicatore, specificare fino a due valori di soglia che definiscono tre intervalli dei valori dei dati (basso, medio e alto) e a cui è possibile applicare un colore diverso (o stile).
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Per impostare indicatori colorati nelle pile
-1. In **Attività**, nella pagina **Home**, scegliere **Imposta pile**.  
+1. In **Attività**, nella pagina Gestione ruolo utente, scegliere **Imposta pile**.  
    Verrà visualizzata la finestra **Setup pila**. Nella finestra sono elencati gli indicatori attualmente impostati nelle pile.
 2. Per modificare un indicatore, modificare i campi e modificare, ad esempio, i valori per le diverse soglie.  
 

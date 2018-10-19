@@ -1,31 +1,39 @@
 ---
 title: "Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale| Documenti Microsoft"
-description: "Informazioni su come è possibile utilizzare le registrazioni COGE per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori."
-author: SorenGP
+description: "Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori."
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
-La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Per le attività aziendali che non vengono rappresentate da un documento in [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella finestra **Registrazioni COGE**. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).
 
-Ad esempio, è possibile registrare la spesa del dipendente nelle spese correlate all'azienda per un risarcimento successivo. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
+La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+La maggior parte delle registrazioni sono basate *Contabilità generale* ed è possibile elaborare tutte le operazioni nella finestra **Contabilità generale**. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
+
+Ad esempio, è possibile usare la spesa del dipendente nelle spese correlate all'azienda per un risarcimento successivo. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
+
+In molti casi, tuttavia, si desidera utilizzare le registrazioni ottimizzate per specifici tipi di transazioni, ad esempio le **Registrazioni pagamenti** per la registrazione dei pagamenti. Per ulteriori informazioni, vedere [Registrare pagamenti e resi nelle Registrazioni pagamenti](payables-how-post-payments-refunds.md)  
 
 Le registrazioni generali vengono utilizzate per la contabilizzazione diretta nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari, i conti clienti, fornitori e dipendenti. La contabilizzazione mediante una registrazione generale crea sempre movimenti nei conti di contabilità generale. Ciò è vero anche quando, ad esempio, viene contabilizzata una riga di registrazione in un conto cliente, in quanto tramite una categoria di registrazione viene registrata una riga in un conto crediti nella contabilità generale.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 Le informazioni immesse in una registrazione sono temporanee e possono essere modificate mentre si trovano nella registrazione. Quando si contabilizza la registrazione, le informazioni vengono trasferite a movimenti in singoli conti, dove non possono essere modificate. È tuttavia possibile scollegare i movimenti registrati e stornare o correggere i movimenti. Per ulteriori informazioni, vedere [Stornare le registrazioni](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Utilizzo di batch e definizioni di registrazioni
+
 Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni è rappresentata da una finestra dedicata con funzioni specifiche e campi necessari per supportare tali funzioni, ad esempio la finestra **Registrazione riconciliazione pagamenti** per elaborare i pagamenti bancari e la finestra **Registrazioni pagamenti** per pagare i fornitori o rimborsare i dipendenti. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md) e [Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md).
 
 Per ogni definizione registrazioni è possibile impostare le proprie registrazioni personali come batch registrazioni. Ad esempio, è possibile definire dei batch registrazioni personali per le registrazioni pagamenti che abbiano delle impostazioni e un layout personali. Di seguito viene fornito un suggerimento come esempio per personalizzare una registrazione.
@@ -34,7 +42,7 @@ Per ogni definizione registrazioni è possibile impostare le proprie registrazio
 > Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella finestra **Batch registrazioni COGE**, il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Informazioni su conti principali e contropartita
-Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
+Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella finestra **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
 
 > [!NOTE]  
 >   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
@@ -85,9 +93,8 @@ Nella finestra **Reg. periodiche generali**, è possibile scegliere l'azione **A
 
 Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo** o **Saldo a pareggio**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella finestra **Allocazioni**, sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella finestra **Allocazioni**. In caso contrario, i valori dimensioni non risulteranno corretti.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
 l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle finestra **Allocazioni**, è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
-
 
 ## <a name="working-with-standard-journals"></a>Utilizzo delle registrazioni standard
 Quando si creano righe di registrazione che verranno probabilmente create di nuovo successivamente, è possibile scegliere di salvarle come registrazioni standard prima di contabilizzare la registrazione. Questa funzionalità si applica alle registrazioni di magazzino e alle registrazioni COGE.
@@ -96,7 +103,7 @@ Quando si creano righe di registrazione che verranno probabilmente create di nuo
 >   la seguente procedura si riferisce alle registrazioni magazzino, ma le informazioni sono valide anche per le registrazioni COGE.
 
 ### <a name="to-save-a-standard-journal"></a>Per salvare una registrazione standard
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni inventario fisico**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
 2. Immettere una o più righe di registrazione.
 3. Selezionare le righe di registrazione che si desidera riutilizzare.
 4. Scegliere l'azione **Salva come registrazioni standard**.
@@ -111,7 +118,7 @@ Quando si creano righe di registrazione che verranno probabilmente create di nuo
 Al termine del salvataggio della registrazione magazzino standard, viene visualizzata la finestra Registrazioni Magazzino ed è possibile procedere alla contabilizzazione della registrazione, che potrà essere facilmente ricreata nel caso in cui sia nuovamente necessario contabilizzare righe identiche o simili.
 
 ### <a name="to-reuse-a-standard-journal"></a>Per riutilizzare registrazioni standard
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni inventario fisico**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Ottieni registrazioni standard**.
 
     Verrà visualizzata la finestra Registrazioni magazzino standard, contenente i codici e le descrizioni per tutte le registrazioni di magazzino standard esistenti.
@@ -143,9 +150,9 @@ Questa funzione può anche essere utilizzata sulle viste filtrate.
 
 La rinumerazione dei documenti rispetterà i collegamenti correlati, ad esempio il collegamento di un pagamento tra il documento nella riga registrazioni e un conto fornitore. Di conseguenza, è possibile aggiornare i campi **Collega-a ID** e **Collega-a nr. doc.** nei movimenti contabili interessati.
 
-La procedura riportata di seguito è basata sulla finestra **Registrazione COGE**, ma si applica a tutte le altre registrazioni basate sulle registrazioni COGE, ad esempio la finestra **Registraz. pagamenti**.
+La procedura riportata di seguito è basata sulla finestra **Registrazione COGE**, ma si applica a tutte le altre registrazioni basate sulle registrazioni COGE, ad esempio la finestra **Registrazioni pagamenti**.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Registrazioni COGE**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
 2. Quando si è pronti per contabilizzare la registrazione, scegliere l'azione **Rinumera documenti**.
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile procedere con la contabilizzazione delle registrazioni.

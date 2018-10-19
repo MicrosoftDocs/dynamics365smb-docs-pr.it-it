@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01c30041e9034b87b39d80972865b180dd4a97d2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
@@ -28,11 +28,11 @@ Se si dispone di molti ordini di assistenza, è possibile risparmiare tempo util
 > Prima di registrare un documento di assistenza, è consigliabile utilizzare l'azione **Report test** per verificare se esistono errori o informazioni mancanti. Se sono presenti errori, è necessario risolvere il problema. È possibile stampare un nuovo report di test per verificare la correzione, quindi registrare il documento.
   
 ## <a name="to-post-a-service-order"></a>Per registrare un ordine di assistenza    
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
-3. Nella pagina **Ordine assistenza** selezionare una delle seguenti azioni.  
+3. Nella finestra **Ordine assistenza** selezionare una delle seguenti azioni.  
   
-    |**Azione**|**Risultato**|  
+    |**Azione**|**Operazione**|  
     |------------------|----------------|  
     |**Report Test** | Tutte le parti del documento saranno controllate e i risultati saranno inseriti in un report. Se il report segnala degli errori o la mancanza di alcune informazioni, è necessario risolvere il problema. Stampare quindi il nuovo report test.|  
     |**Registra** | Registrazione dell'ordine senza la stampa di una spedizione o di una fattura.|  
@@ -53,7 +53,7 @@ Se si dispone di molti ordini di assistenza, è possibile risparmiare tempo util
 Durante la registrazione dell'ordine, verranno creati i movimenti contabili e i documenti registrati corrispondenti. Verranno aggiornati i campi appropriati nel documento relativo all'ordine di assistenza.  
 
 ## <a name="to-batch-post-service-orders"></a>Per registrare gli ordini di assistenza tramite processo batch
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Registra batch**.  
 3.  È possibile impostare un filtro per selezionare numeri d'ordine d'assistenza specifici o un intervallo di numeri d'ordine per eseguire il processo batch.  
 4.  Selezionare **OK** per avviare il processo batch.  
@@ -61,7 +61,7 @@ Durante la registrazione dell'ordine, verranno creati i movimenti contabili e i 
 ## <a name="to-post-a-service-credit-memo"></a>Per registrare una nota di credito di assistenza  
 Dopo avere creato e compilato una nota di credito di assistenza, è possibile registrare la nota di credito. Se durante la registrazione vengono rilevati errori o informazioni mancanti, il processo verrà interrotto e verrà visualizzato un messaggio di errore.  
    
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Note credito assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova nota di credito di assistenza. Nel gruppo **Nuovo** della scheda **Pagina iniziale** scegliere **Nuovo**.  
 3. Compilare i campi necessari.  
 4. Nel gruppo **Registrazione** della scheda **Azioni** scegliere **Registra**. Se si desidera stampare la nota di credito contemporaneamente alla registrazione, scegliere **Registra e stampa**.  
@@ -74,7 +74,7 @@ Dopo avere creato e compilato una nota di credito di assistenza, è possibile re
 ## <a name="to-post-consumption-from-a-service-order"></a>Per registrare il consumo da un ordine di assistenza  
 La procedura seguente indica le modalità di registrazione degli articoli, delle ore e/o dei costi relativi alle risorse utilizzati per un'operazione di assistenza specifica che non verrà addebitata al cliente. Si noti che è possibile registrare articoli consumati, ore o costi solo per una spedizione registrata a cui non sono associati fatture o consumi registrati.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l' ordine di assistenza per cui registrare il consumo.  
 3. Scegliere l'articolo in assistenza. Scegliere **Azioni**, quindi **Ordine** e infine **Righe assistenza**.  
 4. Individuare i movimenti necessari e specificare le quantità di cui si desidera registrare il consumo nel campo **Qtà da consumare**. La quantità non può essere maggiore della quantità già spedita né di quella rimanente, ma non fatturata dopo la fatturazione parziale della spedizione.  
@@ -91,7 +91,7 @@ Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possi
   
 Nella seguente procedura viene illustrato come registrare la spedizione di articoli nelle righe di assistenza in ubicazioni non impostate per richiedere la gestione in warehouse.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ordine assistenza**, quindi scegliere il collegamento correlato. 2. Nella finestra relativa all'ordine di assistenza selezionato, scegliere **Azioni**, **Ordine**, **Righe assistenza**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine assistenza** e quindi scegliere il collegamento correlato. 2. Nella finestra relativa all'ordine di assistenza selezionato, scegliere **Azioni**, **Ordine**, **Righe assistenza**.  
 3. Nella finestra **Righe assistenza** individuare i movimenti appropriati e specificare la quantità da registrare nel campo **Qtà da spedire**.  
   
    > [!NOTE]  
@@ -108,7 +108,7 @@ Per informazioni sulla spedizione degli articoli nelle configurazioni di warehou
 ## <a name="to-undo-posted-consumption"></a>Per annullare un consumo registrato  
 È possibile annullare il consumo negli ordini di assistenza. Ad esempio, perché è stato registrato per errore.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Spedizioni assistenza registrate**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni assistenza registrate** e quindi scegliere il collegamento correlato.  
 2. Aprire la spedizione di assistenza registrata per cui è stato registrato il consumo errato.  
 3. Scegliere **Azioni**, quindi **Spedizione** e infine **Righe spedizioni assistenza**.  
 4. Scegliere le righe contenenti il consumo non corretto, quindi scegliere l'azione **Annulla consumo**.  
@@ -126,7 +126,7 @@ Se in un ordine di assistenza è necessario eseguire operazioni per un elevato p
   
 Nella procedura seguente viene descritta la registrazione della spedizione direttamente da un ordine di assistenza nelle ubicazioni senza setup di gestione warehouse. Se l'ubicazione è impostata per richiedere la gestione warehouse, la registrazione della spedizione avviene in un documento di warehouse diverso, a seconda del setup dell'ubicazione.
   
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza, quindi scegliere l'azione **Righe assistenza**.  
 4. Sulle righe da registrare, compilare i campi **Qtà da spedire**, **Qtà da fatturare** e **Qtà da consumare**, in base alle modalità di registrazione delle righe.  
 5. Scegliere l'azione **Registra**.

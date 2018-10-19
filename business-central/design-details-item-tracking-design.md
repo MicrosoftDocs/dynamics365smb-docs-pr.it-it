@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d2b4d9e55851564b003ed9c85178237f8689122
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 99534c3cf5c683c1e1d1fe3e6b5940a757fbebca
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
@@ -30,7 +30,7 @@ Con l'aggiunta dei numeri seriali o di lotto, gli attributi permanenti dell'arti
 
 Nel diagramma seguente viene descritta la progettazione della funzionalità di tracciabilità articolo in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-![Progettazione tracciabilità articolo](media/design_details_item_tracking_design.png "design_details_item_tracking_design")  
+![Esempio di flusso di tracciabilità articolo](media/design_details_item_tracking_design.png "Esempio di flusso di tracciabilità articolo")  
 
 L'oggetto di registrazione centrale è riprogettato per gestire la sottoclassificazione univoca di una riga di documento sotto forma di numero seriale o di numeri di lotto. Speciali tabelle di relazione vengono aggiunte per creare relazioni uno a molti tra i documenti registrati e i relativi movimenti contabili articoli e movimenti contabili di valorizzazione.  
 

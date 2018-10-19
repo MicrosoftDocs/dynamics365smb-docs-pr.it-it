@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f046690ff69912fb14dfa01851532237f82b1c5d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Dettagli di progettazione: Registrazione di magazzino
@@ -33,7 +33,7 @@ Ogni transazione di magazzino, ad esempio un carico di acquisto o una spedizione
 
  A intervalli regolari, i movimenti di valorizzazione creati nei movimenti di magazzino vengono registrati nella contabilità generale per riconciliare i due registri per i motivi di controllo finanziario. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flusso di movimento tra l'inventario e C/G](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
+ ![Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale](media/design_details_inventory_costing_1_entry_flow.png "Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale")  
 
 ## <a name="example"></a>Esempio  
  Nell'esempio seguente viene illustrato come i movimenti contabili articoli, i movimenti di valorizzazione e i movimenti di collegamento articoli risultano nei movimenti di contabilità generale.  

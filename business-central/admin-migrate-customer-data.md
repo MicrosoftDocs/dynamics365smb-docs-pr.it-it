@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
@@ -40,7 +40,7 @@ Prima di iniziare l'operazione, assicurarsi di essere nella Gestione ruolo utent
 > Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
 1. Apre la nuova società.  
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Importa pacchetto**. Passare al file del pacchetto .rapidstart che si desidera importare, quindi scegliere l'azione **Apri**. Durante l'importazione, il contenuto del pacchetto viene decompresso e viene creato il record relativo.  
 
     Al termine dell'importazione, è possibile visualizzare il numero di tabelle di configurazione che sono state importate nel campo **Nr. tabelle**.  
@@ -57,7 +57,7 @@ Se la selezione delle tabelle non è adeguata, è possibile creare una o più nu
 ## <a name="to-create-a-data-migration-file"></a>Per creare un file di migrazione dati
 È possibile creare nuovi file di migrazione dati e personalizzarli per supportare le proprie attività. Notare, tuttavia, che è possibile utilizzare un file solo per migrare un campo con la relativa proprietà **FieldClass** impostata su **Normale**.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetto di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare e aprire il pacchetto da utilizzare per la migrazione dei dati, quindi scegliere l'azione **Ottieni tabelle**. Viene visualizzata la finestra **Ottieni tabelle pacchetto**.  
 3. Nel campo **TableID** immettere un numero di tabella oppure selezionare una tabella dall'elenco, ad esempio, la tabella 18, **Cliente**. Il campo **Nome tabella** viene compilato automaticamente.  
 4. Selezionare la nuova tabella di migrazione, quindi nella scheda **Tabelle**, scegliere l'azione **Campi**. Verrà aperta la finestra **Migration Fields**.  
@@ -73,7 +73,7 @@ Una nuova tabella di migrazione viene creata.
 ## <a name="to-export-data-migration-files"></a>Per esportare i file di migrazione dati
 Dopo avere determinato le tabelle in cui si desidera trasferire i dati relativi ai clienti, esportare i file.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare e aprire il pacchetto che si desidera utilizzare per l'esportazione.
 3. Selezionare la tabella o le tabelle da esportare, quindi scegliere l'azione **Esporta in Excel**.
 4. Salvare il file Excel esportato.  
@@ -94,7 +94,7 @@ Quando si collegano dati importati da Excel o da un pacchetto di RapidStart, [!I
 
 Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere la sezione "Per esportare i file di migrazione dati".
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.
 2. Aprire il pacchetto per la società in questione.  
 3. Selezionare la tabella per cui si desidera mappare i valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 4. Per ogni campo da mappare, scegliere l'azione **Mappatura**.  
@@ -112,7 +112,7 @@ Il seguente esempio illustra come [!INCLUDE[d365fin](includes/d365fin_md.md)] im
 3. Quando si collegano dati, anche la mappatura fornita per il campo **Codice** nella tabella **Agenti/Addetti acq.** verrà considerata anche durante l'elaborazione dei campi **Codice agente** e **Codice addetto acquisti**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Per aggiungere altri valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare la tabella per cui si desidera aggiungere ulteriori valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 3. Per i campi per i quali si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
 4. Importare i dati dei clienti. Per ulteriori informazioni, vedere la sezione "Per importare i dati dei clienti".

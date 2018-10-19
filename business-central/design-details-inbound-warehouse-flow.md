@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
@@ -53,7 +53,7 @@ Nei metodi A, B e C, le azioni di carico e di stoccaggio sono combinate in un un
 ## <a name="basic-warehouse-configurations"></a>Configurazioni di base della warehouse  
 Nel diagramma seguente vengono illustrati i flussi warehouse in entrata per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni di base della warehouse](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Flusso in entrata nelle configurazioni di base della warehouse](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Rilasciare il documento di origine / Creare stoccaggio di inventario  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino. In alternativa, l'utente crea documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
@@ -72,7 +72,7 @@ Vengono creati i movimenti contabili articoli positivi e i movimenti warehouse e
 ## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse  
 Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Flusso in entrata nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
 
 ### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services
@@ -27,7 +27,7 @@ Man mano che si prosegue il lavoro, è possibile assegnare a ogni tabella lo sta
 Per default, quando si aggiunge una tabella al foglio di lavoro configurazione, il relativo stato è impostato come vuoto. Ciò significa che la configurazione della tabella non è iniziata. Ciò si riflette nel conteggio **Non avviato** nel riquadro **Attività**.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>Per aggiornare lo stato di una tabella di configurazione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Modifica lista**.  
 3.  Selezionare una tabella e nel campo **Stato** scegliere lo stato appropriato.  
 4.  Scegliere il pulsante **OK**.  

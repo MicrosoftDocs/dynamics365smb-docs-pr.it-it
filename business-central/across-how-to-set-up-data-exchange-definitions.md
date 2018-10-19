@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
@@ -92,8 +92,8 @@ La creazione di una definizione di scambio di dati include due task:
     |**Nr. colonna**|Specificare il numero che corrisponde alla posizione della colonna nella riga del file.<br /><br /> Per i file XML, specificare il numero che riflette il tipo di elemento nel file contenente i dati.|  
     |**Nome**|Specificare il nome della colonna.<br /><br /> Per i file XML, specificare il markup che contrassegna i dati da scambiare.|  
     |**Tipo di dati**|Specificare se i dati da scambiare sono di tipo **Testo**, **Data** o **Decimale**.|  
-    |**Formato dati**|Specificare il formato dei dati, se disponibile. Ad esempio, **gg-MM-aaaa** se il tipo di dati è **Data**. **Nota:** per l'esportazione specificare il formato dati in base a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per l'importazione specificare il formato dati in base a .NET Framework. Per altre informazioni, vedere [Stringhe di formato standard della data e dell'ora](http://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Impostazioni cultura formattazione dati**|Specificare le impostazioni cultura del formato dati, se disponibile. Ad esempio, **en-US** se il tipo di dati è **Decimale** per garantire che la virgola viene utilizzata come il separatore .000, in base al formato degli Stati Uniti. Per altre informazioni, vedere [Stringhe di formato standard della data e dell'ora](http://go.microsoft.com/fwlink/?LinkID=323466). **Nota:** il campo è valido solo per l'importazione.|  
+    |**Formato dati**|Specificare il formato dei dati, se disponibile. Ad esempio, **gg-MM-aaaa** se il tipo di dati è **Data**. **Nota:** per l'esportazione specificare il formato dati in base a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per l'importazione specificare il formato dati in base a .NET Framework. Per altre informazioni, vedere [Stringhe di formato standard della data e dell'ora](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Impostazioni cultura formattazione dati**|Specificare le impostazioni cultura del formato dati, se disponibile. Ad esempio, **en-US** se il tipo di dati è **Decimale** per garantire che la virgola viene utilizzata come il separatore .000, in base al formato degli Stati Uniti. Per altre informazioni, vedere [Stringhe di formato standard della data e dell'ora](https://go.microsoft.com/fwlink/?LinkID=323466). **Nota:** il campo è valido solo per l'importazione.|  
     |**Lunghezza**|Specificare la lunghezza della riga a larghezza fissa che include la colonna se il file di dati è di tipo **Fixed Text**.|  
     |**Description**|Immettere una descrizione della colonna, a scopo informativo.|  
     |**Percorso**|Specificare la posizione dell'elemento nello Schema XML correlato.|  

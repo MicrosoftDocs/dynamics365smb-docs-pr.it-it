@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
@@ -49,14 +49,15 @@ Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell
 ## <a name="to-post-a-drop-shipment"></a>Per registrare una spedizione diretta
 Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine di vendita come spedito. È possibile registrare anche l'ordine di acquisto, ma solo con l'opzione **Ricevi** finché l'ordine di vendita non viene fatturato.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita creato nella sezione "Per creare un ordine di vendita per una spedizione diretta".
 3. Nel campo **Qtà da spedire**, specificare la quantità dell'ordine da spedire, la quantità dell'ordine completa o parziale.
 4. Scegliere l'azione **Registra** o **Registra e invia**.
 5. Selezionare l'opzione **Spedizione** per fatturare in seguito oppure l'opzione **Spedisci e fattura** per fatturare immediatamente.
 
 ## <a name="see-also"></a>Vedi anche
-[Creare ordini speciali](sales-how-to-create-special-orders.md)|  
+[Creare ordini speciali](sales-how-to-create-special-orders.md)  
+[Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  
 [Vendere prodotti](sales-how-sell-products.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Vendite](sales-manage-sales.md)  

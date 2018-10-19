@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Come previsto dall'implementazione, si possono impostare gruppi di prezzi associ
 ## <a name="to-set-up-a-service-price-group"></a>Per impostare un gruppo di prezzi in assistenza
 È possibile impostare gruppi contenenti articoli in assistenza a cui si desidera vengano applicate le stesse definizioni speciali del prezzo di assistenza. I gruppi dei prezzi di assistenza vengono assegnati ad articoli in assistenza nelle righe di articoli in assistenza. È inoltre possibile assegnare gruppi di prezzi di assistenza ai gruppi di articoli in assistenza.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi prezzo assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi prezzo assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di prezzi di assistenza.  
 3. Compilare i campi **Codice** e **Descrizione**.  
 4. Scegliere l'azione **Setup**.  
@@ -40,7 +40,7 @@ Come previsto dall'implementazione, si possono impostare gruppi di prezzi associ
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Per impostare un gruppo di rettifica dei prezzi di assistenza  
 È possibile impostare i gruppi di rettifica del prezzo per rettificare il prezzo di assistenza degli articoli in assistenza. Ad esempio, è possibile impostare gruppi di rettifica del prezzo per modificare il costo di spedizione o dei pezzi di ricambio.  
   
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Gruppi rettifica prezzo assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi rettifica prezzo assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di rettifica dei prezzi di assistenza.  
 3. Compilare i campi **Codice** e **Descrizione**.  
 4. Nel campo **Tipo** immettere il tipo del movimento da rettificare.  
@@ -58,11 +58,11 @@ Come previsto dall'implementazione, si possono impostare gruppi di prezzi associ
 Quando si utilizzano articoli in assistenza e ordini di assistenza, potrebbe essere necessario registrare costi aggiuntivi, quali le spese di viaggio in determinate zone di assistenza o le spese iniziali. Quando si crea un ordine di assistenza, è possibile inserire tali costi e verrà aggiunta una riga con il tipo **Costo**. In alternativa, se si desidera applicare il costo a tutti gli ordini di assistenza, è possibile impostare un costo di default. Ad esempio, se si desidera applicare sempre una spesa iniziale.
   
 ### <a name="to-set-up-service-costs"></a>Per impostare i costi di assistenza
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Costi assistenza**, quindi scegliere il collegamento correlato. 
-2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Costi assistenza** e quindi scegliere il collegamento correlato. 
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Per specificare un costo di default per gli ordini di assistenza
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup assistenza**, quindi scegliere il collegamento correlato. 
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistenza** e quindi scegliere il collegamento correlato. 
 2. Nel campo **Tariffa iniziale ordine assistenza** selezionare il costo di assistenza appropriato.
 
 ## <a name="see-also"></a>Vedi anche

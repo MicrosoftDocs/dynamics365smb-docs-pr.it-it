@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
@@ -32,7 +32,7 @@ Accertarsi di essere nella Gestione ruolo utente Implementatore di RapidStart Se
 >  È possibile importare un pacchetto di configurazione che è stato esportato da un database con uno schema diverso dal database di destinazione. Tuttavia, i campi o le tabelle nel pacchetto di configurazione mancanti nel database di destinazione non verranno importati. Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
 ## <a name="to-create-a-configuration-package"></a>Per creare un pacchetto di configurazione  
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come appropriato nella Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Per escludere i questionari di configurazione, i modelli di configurazione e le tabelle del foglio di lavoro di configurazione dal pacchetto, selezionare la casella di controllo **Escludi tabelle di configurazione**. In caso contrario, tali tabelle verranno aggiunte automaticamente alla lista di tabelle del pacchetto al momento dell'esportazione del pacchetto.  
@@ -79,7 +79,7 @@ Il pacchetto viene creato in un file con estensione rapidstart, che offre il con
 ### <a name="to-copy-a-configuration-package"></a>Per copiare un pacchetto di configurazione  
 Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può essere utilizzato come base per la creazione di pacchetti simili. Tale approccio può velocizzare l'implementazione e migliorare l'aspetto di ripetibilità di RapidStart Services.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Pacchetti di configurazione**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare un pacchetto dalla lista, quindi scegliere l'azione **Copia pacchetto**.  
 3. Nel campo **Nuovo codice pacchetto** inserire un codice per il nuovo pacchetto.  
 4. Se si desidera copiare anche i dati del database dal pacchetto esistente, selezionare la casella di controllo **Copia dati**.  
@@ -88,7 +88,7 @@ Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può ess
 ## <a name="to-customize-a-configuration-package"></a>Per personalizzare un pacchetto di configurazione
 Utilizzare il foglio di lavoro configurazione per raccogliere e classificare le informazioni che si desidera utilizzare per configurare una nuova società e disporre le tabelle in modo logico. La formattazione del prospetto è basata su una gerarchia semplice: le aree contengono gruppi che, a loro volta, contengono tabelle. Le aree e i gruppi sono facoltativi, ma diventano necessari per attivare una panoramica del processo di configurazione nella Gestione ruolo utente di RapidStart Services.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 2.  Nel campo **Tipo riga**, scegliere **Area**. Nel campo **Nome** immettere un nome descrittivo.  
 3.  Nel campo **Tipo riga**, scegliere **Gruppo**. Nel campo **Nome** immettere un nome descrittivo.  
 4.  Nel campo **Tipo riga**, scegliere **Tabella**. Nel campo **ID tabella**, selezionare la tabella che si desidera includere nel prospetto.  
@@ -105,7 +105,7 @@ Dopo aver definito le tabelle che si desidera gestire come parte della configura
 > [!NOTE]  
 >  È inoltre possibile creare direttamente un pacchetto e aggiungervi tabelle. Per ulteriori informazioni, vedere la sezione "Per creare un pacchetto di configurazione".
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Nel foglio di lavoro configurazione, selezionare una riga o un gruppo di righe che si desidera assegnare a un pacchetto di configurazione, quindi scegliere l'azione **Assegna pacchetto**.  
 3.  Selezionare un pacchetto dalla lista o scegliere l'azione **Nuovo** per creare un nuovo pacchetto, quindi scegliere il pulsante **OK**.  
 
@@ -115,7 +115,7 @@ Dopo aver definito le tabelle che si desidera gestire come parte della configura
 ## <a name="to-review-or-customize-existing-database-data"></a>Per analizzare o personalizzare dati in database esistenti
 Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copiare i dati all'interno del proprio ambiente di produzione. Creare una nuova società nello stesso database.
 
 1. Aprire e inizializzare la nuova società.  
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Copia dati da società**.  
 4. Nella finestra **Copia dati società**, selezionare **Copia da**. Viene visualizzata la finestra **Società**.  
 5. Selezionare la società da cui copiare i dati e selezionare il pulsante **OK**. Viene visualizzata una lista di tabelle selezionate nel foglio di lavoro configurazione. Solo le tabelle contenenti i record sono incluse nella lista.

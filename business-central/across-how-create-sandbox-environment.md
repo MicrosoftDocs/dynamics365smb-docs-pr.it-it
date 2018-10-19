@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Un ambiente sandbox (anteprima) è un'istanza di non produzione di [!INCLUDE[d36
 Per poter creare un ambiente sandbox, è necessario possedere una sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Può esistere un solo ambiente sandbox per sottoscrizione.
 
 1. Accedere all'istanza di produzione del servizio [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ambiente sandbox** e quindi selezionare il collegamento correlato.
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ambiente sandbox** e quindi scegliere il collegamento correlato.
 ![Impostazione dell'ambiente sandbox](./media/across-sandbox/sandbox-environment-setup.png)
 3. Selezionare **Crea**.  
   Verrà aperta un'altra scheda nel browser per completare l'impostazione dell'ambiente sandbox.
@@ -40,7 +40,7 @@ Per poter creare un ambiente sandbox, è necessario possedere una sottoscrizione
 6. Nella parte superiore di Gestione ruolo utente viene visualizzato un avviso che informa che ci si trova in un ambiente sandbox. È possibile vedere il tipo di ambiente anche nella barra del titolo del client.
 ![Notifica di Gestione ruolo utente sandbox](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 Nell'ambiente sandbox è stato creato un tenant completamente nuovo. Questo tenant viene caricato con i dati di esempio di default relativi alla società CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione durante la creazione dell'ambiente sandbox.
-7.  È possibile tornare in qualsiasi momento nella pagina **Ambiente sandbox** e reimpostare l'ambiente sandbox.
+7.  È possibile tornare in qualsiasi momento nella finestra **Ambiente sandbox** e reimpostare l'ambiente sandbox.
 > [!NOTE]  
 >  La reimpostazione dell'ambiente sandbox ne determinerà la rimozione completa e la successiva creazione di un nuovo ambiente sandbox con i dati dimostrativi di default.  
 
@@ -58,7 +58,7 @@ in un ambiente sandbox la funzionalità di progettazione nel client è abilitata
 ![Finestra di progettazione del client](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Consentire l'esperienza utente avanzata
-È possibile abilitare e provare la funzionalità completa avanzata di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un tenant sandbox impostando il campo **Esperienza** nella pagina **Informazioni società**.
+È possibile abilitare e provare la funzionalità completa avanzata di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un tenant sandbox impostando il campo **Esperienza** nella finestra **Informazioni società**.
 
 ![Ambiente sandbox avanzato](./media/across-sandbox/sandbox-advanced.png)
 

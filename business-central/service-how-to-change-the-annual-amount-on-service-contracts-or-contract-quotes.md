@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Per modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Contratti assistenza** o **Offerte contratto assistenza**, quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** oppure **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta di contratto o il contratto.  
 3. Scegliere l'azione **Apri contratto** per aprire il contratto o l'offerta di contratto per la modifica.  
 4. Scegliere la casella di controllo **Permetti differenza importo** se si desidera modificare l'importo annuo e ripartire manualmente la differenza dell'importo annuo nelle righe di contratto. In altrernativa, deselezionare la casella di controllo per ripartire automaticamente la differenza dell'importo annuo nelle righe di contratto dopo la modifica dell'importo annuo.  

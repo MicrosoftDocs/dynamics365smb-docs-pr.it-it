@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Dettagli di progettazione: Al di sotto del livello di overflow
@@ -24,7 +24,7 @@ Quando si utilizzano i metodi Qtà Massima e Qtà Riordino Fissa, il sistema di 
 
 *Attenzione: La giacenza disponibile [xx] è superiore al livello di overflow [xx] alla data di scadenza [xx].*  
 
-![Livello di overflow della giacenza](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Livello di overflow del magazzino](media/supplyplanning_2_overflow1_new.png "Livello di overflow del magazzino")  
 
 ##  <a name="calculating-the-overflow-level"></a>Calcolo del livello di overflow  
 Il livello di overflow viene calcolato in modi diversi a seconda dell'impostazione della pianificazione.  
@@ -100,7 +100,7 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 ### <a name="resulting-planning-lines"></a>Righe pianificazione risultanti  
  Una riga di pianificazione (avviso) viene creata per ridurre l'acquisto di 30 da 90 a 60 per mantenere la giacenza disponibile su 100 in base al livello di overflow.  
 
-![Pianificazione in base al livello di overflow](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Pianificazione in base al livello di overflow](media/nav_app_supply_planning_2_overflow2.png "Pianificazione in base al livello di overflow")  
 
 > [!NOTE]  
 >  Senza la funzionalità di overflow, nessun avviso viene creato se il livello di giacenza disponibile è superiore alla giacenza massima. Potrebbe verificarsi un approvvigionamento superfluo di 30.  

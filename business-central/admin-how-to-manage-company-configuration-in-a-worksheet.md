@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
@@ -30,7 +30,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
 
 ## <a name="to-open-the-configuration-worksheet"></a>Per aprire il foglio di lavoro configurazione.  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)] aprire la società che costituisce il modello di riferimento per la configurazione, quindi la Gestione ruolo utente Implementatore di RapidStart Services.  
-2.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Foglio di lavoro configurazione**, quindi scegliere il collegamento correlato.  
+2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Per aggiungere una tabella al foglio di lavoro  
 1.  Nella finestra **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  

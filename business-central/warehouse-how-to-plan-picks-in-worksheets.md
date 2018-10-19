@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 073cc86b9df5845fbce18804756f980649f94081
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
@@ -39,11 +39,11 @@ Se di effettua l'ordinamento in base alla data di scadenza, è possibile sceglie
 >  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per assemblaggio o produzione in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Per pianificare prelievi nel prospetto  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prospetto prelievi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prelievi** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Prendi documenti warehouse**.  
 3.  Selezionare le spedizioni per cui preparare un prelievo. A questo punto, le righe possono essere ordinate solo in certa misura, ma l'ordinamento specificato in questa fase non viene applicato all'istruzione di prelievo. È inoltre possibile eliminare alcune righe per creare un prelievo più efficace. Se ad esempio vi sono diverse righe con articoli nelle collocazioni di cross-dock, può essere utile creare un prelievo per tutte le righe associate a tali righe. Gli articoli sottoposti a cross-dock verranno spediti insieme agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
 4.  Scegliere l'azione **Crea prelievo** e compila la finestra di richiesta **Crea prelievo**. Le righe di prelievo create verranno ordinate in base ai criteri di ordinamento specificati in questa finestra. È ad esempio possibile creare un prelievo per ciascuna zona e ordinare le righe in base alla valutazione della collocazione all'interno di ciascun prelievo.  
-5.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Prelievi**, quindi scegliere il collegamento correlato. Verrà visualizzata la finestra **Prelievi**.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato. Verrà visualizzata la finestra **Prelievi**.  
 6.  È possibile individuare l'assegnazione di prelievo appena creata selezionando il prelievo con il numero più elevato.  
 7.  Se necessario, modificare l'ID utente assegnato e la modalità di ordinamento delle righe nel prelievo.  
 8.  Scegliere l'azione **Stampa** per stampare le istruzioni per il prelievo.  

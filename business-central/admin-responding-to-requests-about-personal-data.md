@@ -5,16 +5,16 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 05/25/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -31,7 +31,7 @@ Nella tabella seguente vengono forniti esempi dei tipi di richieste a cui è pos
 |Tipo richiesta|Descrizione e risposta suggerita|
 |-----|-----|
 |Richieste di trasferibilità|Un oggetto dati può eseguire una richiesta di trasferibilità dei dati, di conseguenza è necessario esportare i dati personali dell'oggetto dati dai sistemi e fornirli in un formato strutturato comune. Per rispondere a queste richieste, è possibile utilizzare **Utilità privacy dei dati** per esportare dati personali in un file di Excel o in un pacchetto di configurazione di RapidStart. Con Excel, è possibile modificare i dati personali e salvarli in un formato comune leggibile da computer, ad esempio .csv o .xml. Per i pacchetti di configurazione di RapidStart è possibile configurare le tabelle di dati master e le relative tabelle che contengono dati personali. <br><br> **Nota**: quando si esportano i dati, si specifica un livello minimo di sensibilità. L'esportazione includerà il livello minimo e tutti i livelli di sensibilità sopra di esso. Ad esempio, se si sceglie di esportare dati classificati come Personali, l'esportazione includerà anche dati classificati come Sensibili. <br><br>Quando si esportano dati relativi a una persona interessata, l'**Utilità privacy dei dati** cerca relazioni dirette tra l'interessato e i dati relativi all'interessato. Le relazioni indirette tra i dati relativi alla persona interessata e gli altri dati non vengono esportate automaticamente dall'**Utilità privacy dei dati**. Ad esempio, la tabella Contatto ha messo in correlazione diretta i dati di Risposte profilo contatto e la tabella Risposte profilo contatto è collegata a sua volta ai dati di Domande profilo. Se si desidera esportare anche Domande profilo, è necessario aggiungere questa tabella manualmente come una riga con i filtri appropriati nel pacchetto di configurazione creato dall'**Utilità privacy dei dati**.|
-|Richieste di eliminazione|Un oggetto dati può richiedere di eliminare i relativi dati personali. Esistono svariati metodi per eliminare dati personali utilizzando le funzionalità di personalizzazione, ma la decisione e l'implementazione sono di responsabilità dell'utente. In alcuni casi, è possibile scegliere di modificare direttamente i dati, ad esempio eliminando un contatto e quindi eseguendo il processo batch relativo all'eliminazione di interazioni annullate per il contatto. <br><br> **Nota:** se è stata specificata una data nel campo **Consenti eliminazione documenti anteriori a** nelle pagine **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti**, potrebbe essere necessario modificare la data in modo da eliminare i documenti di acquisto e vendita registrati che sono stati stampati e le cui date di registrazione sono uguali o antecedenti a quella data.|
+|Richieste di eliminazione|Un oggetto dati può richiedere di eliminare i relativi dati personali. Esistono svariati metodi per eliminare dati personali utilizzando le funzionalità di personalizzazione, ma la decisione e l'implementazione sono di responsabilità dell'utente. In alcuni casi, è possibile scegliere di modificare direttamente i dati, ad esempio eliminando un contatto e quindi eseguendo il processo batch relativo all'eliminazione di interazioni annullate per il contatto. <br><br> **Nota:** se è stata specificata una data nel campo **Consenti eliminazione documenti anteriori a** nelle finestre **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti**, potrebbe essere necessario modificare la data in modo da eliminare i documenti di acquisto e vendita registrati che sono stati stampati e le cui date di registrazione sono uguali o antecedenti a quella data.|
 |Richieste di correzione|Un oggetto dati può richiedere di correggere dati personali inaccurati. Questa operazione può essere effettuata in vari modi. In alcuni casi, si potrebbero esportare liste in Excel per modificare in blocco più record e quindi importare i dati aggiornati. Per ulteriori informazioni, vedere [Esportazione dei dati aziendali in Excel](about-export-data.md). È inoltre possibile modificare manualmente i campi contenenti dati personali, ad esempio modificare informazioni relative a un cliente nella scheda cliente. Tuttavia, i record delle transazioni quali movimenti contabili generali, clienti e fiscali sono essenziali per l'integrità del sistema di pianificazione delle risorse aziendali. Se si archiviano dati personali nei record delle transazioni commerciali, si deve prendere in considerazione l'utilizzo delle funzionalità di personalizzazione per modificare tali dati personali.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Limitazione dell'elaborazione dei dati per un oggetto dati

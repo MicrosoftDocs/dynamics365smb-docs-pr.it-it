@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Dettagli di progettazione: Scostamento
@@ -40,7 +40,7 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 
  Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
 
- ![Calcolo scostamento acquisto](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Calcolo scostamento acquisto](media/design_details_inventory_costing_11_purchase_variance.png "Calcolo scostamento acquisto")  
 
 ## <a name="determining-the-standard-cost"></a>Determinazione del costo standard  
  Il costo standard viene utilizzato durante il calcolo dello scostamento e dell'importo da capitalizzare. Poiché il costo standard può essere modificato nel tempo a causa di calcoli di aggiornamento manuali, è necessario individuare un momento nel tempo in cui il costo standard è fisso per il calcolo dello scostamento. Questo punto si presenta quando l'aumento di magazzino viene fatturato. Per articoli prodotti o assemblati, il punto in cui il costo standard è determinato è quando il costo viene rettificato.  
@@ -50,16 +50,16 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 |Dettaglio costi|Articolo acquistato|Articolo prodotto/assemblato|  
 |----------------|--------------------|------------------------------|  
 |**Costo standard**||Costo materiale - Livello sing. + Costo capacità - Livello singolo + Costo conto lavoro - Liv. sing + Costo gen. cap. - Livello sing. + Costo gen. prod. - Livello sing.|  
-|**Costo materiale - Livello sing.**|Costo unitario|![Equazione 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**Costo capacità - Livello singolo**|Non applicabile|![Equazione 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**Costo conto lavoro - Liv. sing.**|Non applicabile|![Equazione 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**Costo gen. cap. - Livello sing.**|Non applicabile|![Equazione 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**Costo materiale - Livello sing.**|Costo unitario|![Equazione 1](media/design_details_inventory_costing_11_equation_1.png "Equazione 1")|  
+|**Costo capacità - Livello singolo**|Non applicabile|![Equazione 2](media/design_details_inventory_costing_11_equation_2.png "Equazione 2")|  
+|**Costo conto lavoro - Liv. sing.**|Non applicabile|![Equazione 3](media/design_details_inventory_costing_11_equation_3.png "Equazione 3")|  
+|**Costo gen. cap. - Livello sing.**|Non applicabile|![Equazione 4](media/design_details_inventory_costing_11_equation_4.png "Equazione 4")|  
 |**Costo gen. prod. - Livello sing.**|Non applicabile|(Costo materiale - Livello sing. + Costo capacità - Livello singolo + Costo conto lavoro - Liv. sing.) * Costo indiretto % / 100 + Coefficiente costi generali|  
-|**Costo materiale - Ricalcolo**|Costo unitario|![Equazione 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Costo capacità - Ricalcolo**|Non applicabile|![Equazione 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Costo conto lavoro - Ricalcolo**|Non applicabile|![Equazione 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Costo gen. capacità - Ricalcolo**|Non applicabile|![Equazione 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Costo gen. prod.- Ricalcolo**|Non applicabile|![Equazione 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Costo materiale - Ricalcolo**|Costo unitario|![Equazione 5](media/design_details_inventory_costing_11_equation_5.png "Equazione 5")|  
+|**Costo capacità - Ricalcolo**|Non applicabile|![Equazione 6](media/design_details_inventory_costing_11_equation_6.png "Equazione 6")|  
+|**Costo conto lavoro - Ricalcolo**|Non applicabile|![Equazione 7](media/design_details_inventory_costing_11_equation_7.png "Equazione 7")|  
+|**Costo gen. capacità - Ricalcolo**|Non applicabile|![Equazione 8](media/design_details_inventory_costing_11_equation_8.png "Equazione 8")|  
+|**Costo gen. prod.- Ricalcolo**|Non applicabile|![Equazione 9](media/design_details_inventory_costing_11_equation_9.png "Equazione 9")|  
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   

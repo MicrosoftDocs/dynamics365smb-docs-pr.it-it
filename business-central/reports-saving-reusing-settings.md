@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: it-it
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
@@ -35,12 +35,12 @@ Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, crear
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Creare e modificare le impostazioni salvate per tutti gli utenti
 È possibile gestire le impostazioni salvate nella pagina **1560 Impostazioni report**. Sono disponibili due modi per aprire questa pagina:
--   Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Impostazioni report**, quindi scegliere il collegamento correlato.
+-   Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazioni report** e quindi scegliere il collegamento correlato.
 -   Aprire un report, scegliere la funzionalità di ricerca accanto alla casella **Utilizza valori predefiniti da:**, scegliere **Seleziona da elenco completo**.
 
 Nella pagina vengono visualizzate tutte le voci delle impostazioni salvate esistenti per tutti gli utenti. Se esiste un nome utente nella colonna **Assegnato a**, solo tale utente può utilizzare le impostazioni salvate per il report associato. Se è presente un segno di spunta nella colonna **Condiviso con tutti gli utenti**, tutti gli utenti possono utilizzare le impostazioni salvate per il report.
 
-Nella pagina **Impostazioni report**, è possibile:
+Nella finestra **Impostazioni report**, è possibile:
 -   Scegliere **Nuovo** per creare da zero una nuova voce di impostazioni salvate.
 -   Selezionare una voce di impostazioni salvate dall'elenco e scegliere **Copia** per creare una copia.
 -   Selezionare una voce di impostazioni salvate dall'elenco e scegliere **Modifica** per modificare una voce di impostazioni salvate.

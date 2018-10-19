@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Impostare l'invio e la ricezione di documenti elettronici
@@ -83,7 +83,7 @@ In questo argomento sono contenute le seguenti procedure:
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Codice standard internazionale**|Specificare il codice dell'unità di misura espresso secondo lo standard UNECERec20 in relazione all'invio di documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **unitCode** dell'elemento **InvoicedQuantity** nel nodo **InvoiceLine**. **Nota:** se il campo **Unità di misura** nella riga di vendita è vuoto, viene inserito per impostazione predefinita il valore dello standard UNECERe20 per "Pezzo" \(H87\). Per ulteriori informazioni e un elenco dei codici unità di misura validi, vedere [Recommendation No. 20 \- Units of Measure used in International Trade](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Codice standard internazionale**|Specificare il codice dell'unità di misura espresso secondo lo standard UNECERec20 in relazione all'invio di documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **unitCode** dell'elemento **InvoicedQuantity** nel nodo **InvoiceLine**. **Nota:** se il campo **Unità di misura** nella riga di vendita è vuoto, viene inserito per impostazione predefinita il valore dello standard UNECERe20 per "Pezzo" \(H87\). Per ulteriori informazioni e un elenco dei codici unità di misura validi, vedere [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Per impostare i clienti per l'invio di documenti elettronici  
 1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  

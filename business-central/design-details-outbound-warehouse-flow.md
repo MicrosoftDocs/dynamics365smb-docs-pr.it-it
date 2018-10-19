@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in uscita
@@ -47,8 +47,6 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 |C|Registra prelievo e spedizione da un documento di spedizione warehouse|||X|5/4/6|  
 |D|Registra il prelievo da un documento di prelievo warehouse e la spedizione da un documento di spedizione warehouse||X|X|5/4/6|  
 
- Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse in uscita]().  
-
  La selezione di un approccio dipende dalle pratiche accettate della società e dal relativo livello di complessità organizzativa. In un ambiente di ordine per ordine con processi chiari e una struttura di collocazione semplice, il metodo A, il prelievo e la spedizione dalla riga ordine è appropriato. In altre società ordine per ordine dove gli articoli per una riga ordine potrebbero provenire da più collocazioni o dove gli addetti alla warehouse non possono utilizzare i documenti di ordine, l'utilizzo di documenti di prelievo separati è il metodo appropriato, B. Laddove i processi di prelievo e di spedizione di una società includono la gestione di molteplici ordini e pertanto richiedono un controllo maggiore e una sintesi più precisa, la società potrebbe scegliere di utilizzare un documento di spedizione warehouse e un documento di prelievo warehouse per separare le attività di spedizione e di prelievo, i metodi C e D.  
 
  Nei metodi A, B e C, le azioni di prelievo e di spedizione sono combinate in un unico passaggio quando si registra il documento corrispondente come spedito. Nel metodo D, il prelievo viene registrato per primo e la spedizione viene registrata in un momento successivo da un documento diverso.  
@@ -56,7 +54,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 ## <a name="basic-warehouse-configurations"></a>Configurazioni di base della warehouse  
  Nel diagramma seguente vengono illustrati i flussi warehouse in uscita per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
- ![Flusso in uscita nelle configurazioni di base della warehouse](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Flusso in uscita nelle configurazioni di base della warehouse](media/design_details_warehouse_management_outbound_basic_flow.png "Flusso in uscita nelle configurazioni di base della warehouse")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Rilasciare il documento di origine o creare il prelievo di magazzino o il movimento  
  Quando un utente responsabile dei documenti di origine, ad esempio un gestore ordini di vendita o un responsabile della pianificazione della produzione, è pronto per le attività di warehouse in uscita, pubblica il documento di origine in modo da segnalare agli addetti warehouse che gli articoli o i componenti venduti possono essere prelevati e posizionati nelle collocazioni specificate. In alternativa, l'utente crea documenti di movimentazione o di prelievo magazzino per le singole righe ordine, in modalità push, in base alle collocazioni e alle quantità specificate da gestire.  
@@ -78,7 +76,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 ## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse  
  Nel diagramma seguente viene illustrato il flusso warehouse in uscita per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
- ![Flusso in uscita nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Flusso in uscita nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_outbound_advanced_flow.png "Flusso in uscita nelle configurazioni avanzate della warehouse")  
 
 ### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine  
  Quando un utente responsabile dei documenti di origine, ad esempio un gestore ordini di vendita o un responsabile della pianificazione della produzione, è pronto per le attività di warehouse in uscita, pubblica il documento di origine in modo da segnalare agli addetti alla warehouse che gli articoli o i componenti venduti possono essere prelevati e posizionati nelle collocazioni specificate.  

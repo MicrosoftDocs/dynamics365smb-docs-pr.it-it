@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ab66e5b2404f512816d1a4fcb3b110a95265e1f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Creazione di budget di costi
@@ -24,14 +24,14 @@ L'impostazione del budget nella contabilità industriale è simile a quella dell
 
 Un budget costi viene creato per un certo periodo di tempo, ad esempio, un anno fiscale. È possibile creare tutti i budget costi necessari. Un nuovo budget costi può essere creato manualmente, importando un budget costi o copiando un budget costi esistente come base del budget. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
-Utilizzare le seguenti finestre per creare e analizzare i budget costi. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") per trovare una finestra, quindi leggere la descrizione comando di ognuna.
+Utilizzare le seguenti finestre per creare e analizzare i budget costi. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per trovare una finestra e leggere le descrizione per ogni comando.
 
-|Per|Vedere|  
+|A|Vedere|  
 |--------|---------|  
 |Trasferire i budget dalla contabilità generale.|Processo batch **Copia budget C/G in budget costi**|  
 |Copia budget costi.|Processo budget **Copia budget costi**|  
-|Allocare budget.|Pagina **Allocazione costi**|  
-|Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
+|Allocare budget.|Finestra **Allocazione costi**|  
+|Visualizzare i registri budget costi e i movimenti di budget costi.|Finestra **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
 ## <a name="see-also"></a>Vedi anche  

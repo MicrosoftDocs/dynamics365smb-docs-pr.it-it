@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enable-automated-data-capture-systems-adcs"></a>Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
@@ -36,14 +36,14 @@ Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse 
 > [!NOTE]  
 >  È consigliabile non impostare l'utilizzo di ADCS per una warehouse se per la stessa sono impostati anche criteri capacità collocazione.
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Ubicazioni** e scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e scegliere il collegamento correlato.
 2.  Selezionare una warehouse dall'elenco per cui si desidera abilitare i sistemi ADCS, quindi scegliere l'azione **Modifica**.
 3. Nella finestra **Scheda ubicazione**, selezionare la casella di controllo **Usa ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Per specificare un articolo per utilizzare il sistema ADCS  
 A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere assegnato un codice identificativo per collegarlo al numero dell'articolo. Ad esempio, è possibile utilizzare il codice a barre dell'articolo come codice identificativo. Un articolo può anche avere più codici identificativo. Può essere utile qualora un articolo sia disponibile in diverse unità di misura, ad esempio pezzi e pallet. In questo caso, assegnare un codice identificativo a ognuno.    
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un articolo dall'elenco che fa parte della soluzione ADCS in uso, quindi scegliere l'azione **Modifica**.
 3. Nella finestra **Scheda articolo** scegliere l'azione **Identificativi**.
 4. Nella finestra **Identificativi** scegliere l'azione **Nuovo**.
@@ -56,15 +56,15 @@ A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere ass
 8.  Per rivedere le informazioni, scegliere il campo **Codice identificativo** per aprire la finestra **Identificativi articolo**.
 
 ## <a name="to-add-an-adcs-user"></a>Per aggiungere un utente ADCS  
-È possibile aggiungere qualsiasi utente come utente di un sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System). In questo caso, l'utente deve inoltre immettere una password. In alternativa, è anche possibile fornire una connessione che identifichi l'utente ADCS come impiegato warehouse. La password dell'utente ADCS può essere diversa dalla password dell'utente per l'accesso a Windows. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).
+È possibile aggiungere qualsiasi utente come utente di un sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System). In questo caso, l'utente deve inoltre immettere una password. In alternativa, è anche possibile fornire una connessione che identifichi l'utente ADCS come impiegato warehouse. La password dell'utente ADCS può essere diversa dalla password dell'utente per l'accesso a Windows. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Utenti ADCS**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti ADCS** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Nome** immettere un nome per l'utente. Il nome non può includere più di 20 caratteri, inclusi gli spazi.  
 4.  Immettere una password nel campo **Password**. La password è mascherata.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Per specificare che un impiegato warehouse è un utente ADCS  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Impiegati warehouse**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
 2.  Se necessario, aggiungere un nuovo impiegato warehouse. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Scegliere l'azione **Modifica lista**.  
 4.  Selezionare un impiegato warehouse dall'elenco. Nel campo **Utente ADCS** fare clic sulla freccia rivolta verso il basso e selezionare il nome di un utente ADCS dall'elenco.  
@@ -78,7 +78,7 @@ Utilizzare i miniform per descrivere le informazioni che si desidera visualizzar
 Per implementare o modificare la funzionalità di una funzione miniform, è necessario creare una nuova codeunit o modificarne una esistente per eseguire l'azione o la risposta richiesta. È possibile ottenere ulteriori informazioni sulla funzionalità ADCS esaminando le codeunit, ad esempio la 7705, ovvero la codeunit di gestione per la funzionalità di accesso. La codeunit 7705 mostra il funzionamento di un miniform di tipo scheda.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Per creare un miniform per ADCS  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Miniform**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Codice** inserire un codice per il miniform. Facoltativamente, è possibile inserire valori in tutti gli altri campi.  
 
@@ -99,7 +99,7 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
 3.  Aggiungere il codice C/AL alla funzione della codeunit specifica del miniform per gestire il tasto funzione.  
 
 ### <a name="to-customize-miniform-functions"></a>Per personalizzare le funzioni del miniform  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Miniform**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un miniform dalla lista, quindi scegliere l'azione **Modifica**.  
 3.  Scegliere l'azione **Funzioni**.  
 4.  Nell'elenco a discesa **Codice funzione** selezionare un codice per rappresentare la funzione che si desidera associare al miniform. Ad esempio, è possibile scegliere il pulsante ESC, che associa la funzionalità alla pressione del tasto ESC.  

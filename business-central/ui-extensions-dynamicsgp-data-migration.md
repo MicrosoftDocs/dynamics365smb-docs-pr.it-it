@@ -1,6 +1,6 @@
 ---
 title: Migrare i dati da Dynamics GP tramite l'estensione per la migrazione dei dati | Documenti Microsoft
-description: Utilizzare l'estensione per la migrazione dei dati di Dynamics GP per migrare i dati relativi a clienti, fornitori, articoli di magazzino e conti da Dynamics GP a Business Central.
+description: "Utilizzare l'estensione per la migrazione dei dati di Dynamics GP per migrare i dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a Business Central."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,29 +9,55 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 3761bdb0d6b9a51ed309ac4189ff263de76f4679
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
 ms.contentlocale: it-it
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-business-central"></a>Estensione di migrazione dei dati di Dynamics GP per Business Central 
-Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli di magazzino e conti da Dynamics GP a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record principali rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
+# <a name="the-dynamics-gp-data-migration-extension"></a>Estensione di migrazione dei dati Dynamics GP 
+L'estensione semplifica la migrazione dei dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Esportazione dei dati da Dynamics GP
-È necessario avere esportato alcuni o tutti i clienti, i fornitori, gli articoli di magazzino e i conti esistenti su un file, utilizzando la funzionalità Dynamics GP per l'esportazione dei dati. Ai fini di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i seguenti tipi di dati:
+È necessario aver esportato alcuni o tutti i clienti, i fornitori, gli articoli di magazzino e gli account di contabilità generale esistenti utilizzando la funzionalità di esportazione dei dati di Dynamics GP. Quando si selezionano i dati da esportare, è possibile selezionare i seguenti tipi:
 
 * Conto  
 * Cliente  
 * Articolo  
 * Fornitore  
 
-L'estensione per la migrazione dei dati di Dynamics GP mappa automaticamente i dati esportati in modo che i dati dell'utente siano disponibili rapidamente nella nuova società [!INCLUDE[d365fin](includes/d365fin_md.md)]. Durante il processo le informazioni di supporto di setup vengono create, come le categorie di registrazione. Gli articoli di magazzino verranno introdotti nel sistema con il FIFO come il metodo di valutazione del costo. I conti verranno impostati come il segmento di conto principale di Dynamics GP con dimensioni, poiché [!INCLUDE[d365fin](includes/d365fin_long_md.md)] non ha segmenti di conto.
+Quando viene creato il file di esportazione, si avrà un file zip che contiene diversi file txt che saranno determinati da ciò che è stato selezionato durante il processo di esportazione dei dati.  Saranno presenti anche file txt aggiuntivi che contengono informazioni di supporto necessarie per l'installazione all'interno della nuova società di [!INCLUDE[prodshort](includes/prodshort.md)].
+
+L'estensione per la migrazione dei dati di Dynamics GP mappa automaticamente i dati esportati in modo che i dati dell'utente siano disponibili rapidamente nella nuova società [!INCLUDE[prodshort](includes/prodshort.md)].
+
+## <a name="whats-new-in-the-october-2018-release"></a>Novità nella versione di ottobre 2018
+
+Nella versione, è stata ampliata la quantità di dati che vengono trasferiti in [!INCLUDE[prodshort](includes/prodshort.md)] da Dynamics GP.
+
+Nella procedura guidata di migrazione, ora è possibile scegliere come eseguire la migrazione del piano dei conti di Dynamics GP. È possibile migrare il piano esistente oppure creare un nuovo piano dei conti basato sul piano dei conti esistente.  
+
+Se si sceglie di utilizzare il piano dei conti esistente, i conti verranno impostati come il segmento principale di conto di Dynamics GP e i segmenti aggiuntivi verranno impostati come dimensioni all'interno di [!INCLUDE[prodshort](includes/prodshort.md)].  
+
+Se si sceglie di creare un nuovo piano dei conti, nella procedura guidata verrà visualizzata una pagina di informazioni sul conto in modo che sia possibile scaricare la cartella di lavoro, apportare le modifiche pertinenti e quindi importare di nuovo la cartella di lavoro per modificare i propri conti.  
+
+Sarà necessario scaricare la cartella di lavoro di Excel e associare un nuovo numero di conto a ciascun numero di conto nel foglio di Excel. Ogni account dovrà avere il proprio numero oppure la migrazione genererà un errore. Dopo avere completato la mappatura, è possibile continuare con la procedura guidata di migrazione importando la cartella di lavoro di Excel appena aggiornata. La procedura guidata verificherà che ogni riga abbia un numero di conto univoco e che nessuna riga contenga un nuovo numero di conto vuoto.  
+
+Con la modifica alla mappatura del grafico delle opzioni del conto, si noterà anche una modifica al tipo di dati che si trovano nelle registrazioni COGE per i numeri di conto.  
+
+- Se si sceglie di utilizzare i numeri di conto esistenti, il saldo iniziale del segmento principale (nuovo numero di conto) verrà riportato come somma del numero di conto principale al momento della migrazione.  
+- Se si sceglie di creare nuovi numeri di conto, verranno fornite informazioni di riepilogo per l'equivalente di due anni fiscali in base ai periodi fiscali impostati in Dynamics GP.
+
+Nelle versioni precedenti di [!INCLUDE[prodshort](includes/prodshort.md)], la procedura guidata effettuava la migrazione di una transazione di riepilogo per il saldo cliente/fornitore in Dynamics GP. Ora vengono trasferite le transazioni aperte dettagliate per clienti e fornitori al momento della migrazione. Cosa significa? Se il cliente ha registrato 3 transazioni in sospeso nel modulo Contabilità clienti, la procedura guidata trasferisce tali transazioni in [!INCLUDE[prodshort](includes/prodshort.md)] con l'importo inevaso come importo del documento. La stessa situazione si verifica per il modulo Contabilità fornitori.  
+
+Gli articoli di magazzino vengono importati con il metodo di valutazione dei costi selezionato al momento dell'esecuzione della procedura guidata di configurazione della società. Agli articoli in assistenza viene assegnato automaticamente al metodo di valutazione FIFO. Attualmente viene trasferita la Giacenza per gli articoli al momento della migrazione.  Questa quantità viene portata nell'ubicazione vuota.  
+
+L'ultima opzione visualizzate nella procedura guidata di migrazione dati per Dynamics GP è la possibilità di specificare l'opzione di registrazione. Questa impostazione specifica se si desidera registrare automaticamente tutte le transazioni nelle registrazioni COGE non appena la migrazione sposta i dati in [!INCLUDE[prodshort](includes/prodshort.md)] o se si desidera registrare manualmente in modo che tutte le transazioni vengano gestite in batch all'interno della pagina delle registrazioni COGE per poter verificare le informazioni prima di registrarle. Questa opzione è visibile nella pagina delle opzioni del piano dei conti.
+
 
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[prodshort](includes/prodshort.md)] utilizzando le estensioni ](ui-extensions.md)  
 

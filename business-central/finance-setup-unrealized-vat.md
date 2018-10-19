@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5e21330cd7adc97da9023da7b18944a9f0450b8e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -25,11 +25,11 @@ Se si utilizzano metodi di contabilità basata su contanti, è possibile imposta
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.
 
 Per utilizzare conti per l'IVA a esigibilità differita, procedere nel modo seguente:
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report") e immettere **Setup contabilità generale**.
-2. Nella Scheda dettaglio **Generale** della pagina **Setup contabilità generale** scegliere **Mostra di più**, quindi la casella di controllo **IVA ad esigibilità differita**.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup contabilità generale**.
+2. Nella Scheda dettaglio **Generale** della finestra **Setup contabilità generale** scegliere **Mostra di più**, quindi la casella di controllo **IVA ad esigibilità differita**.
 3. Chiudere la pagina.
-4. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report** ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report") e inserire **Setup registrazioni IVA**.
-5. Nella pagina **Setup registrazioni IVA** selezionare la categoria di registrazione IVA, quindi scegliere **Modifica**.
+4. scegliere l'icona **Cerca pagina o report** ![Lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup registrazioni IVA**.
+5. Nella finestra **Setup registrazioni IVA** selezionare la categoria di registrazione IVA, quindi scegliere **Modifica**.
 6. Nel campo **Ripart. IVA ad esig. diff.** scegliere un'opzione per specificare come assegnare i pagamenti all'importo di una fattura (IVA esclusa) e all'importo stesso dell'IVA e come trasferire gli importi dell'IVA dal conto IVA ad esigibilità differita al conto realizzato. Nella seguente tabella vengono illustrate le opzioni.
 
 | Opzione | Descrizione |
@@ -44,11 +44,11 @@ Per utilizzare conti per l'IVA a esigibilità differita, procedere nel modo segu
 6. Nel campo **Conto IVA ven. ad esig. diff.** scegliere il conto per l'IVA di vendita a esigibilità differita.
 
     > [!NOTE]  
->   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
+    > L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sulle vendite.
 7. Nel campo **Conto IVA acq. ad esig. diff.** immettere il conto contabilità generale per l'IVA di acquisto a esigibilità differita.
 
-    > [!NOTE]  
-    >   L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sugli acquisti.
+> [!NOTE]  
+> L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sugli acquisti.
 
 ## <a name="see-also"></a>Vedi anche
 [impostazione dell'IVA](finance-setup-vat.md)

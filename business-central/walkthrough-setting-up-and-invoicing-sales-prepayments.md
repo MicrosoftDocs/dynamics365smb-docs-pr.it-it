@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
@@ -64,7 +64,7 @@ I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un o
 Le seguenti procedure illustrano come svolgere i task di Barbara:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Per impostare la numerazione per i pagamenti anticipati  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup contabilità clienti e vendite**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.  
 2.  Nella finestra **Setup contabilità clienti** espandere la Scheda dettaglio **Numerazione**.  
 3.  Verificare che la numerazione per le fatture di pagamento anticipato registrate nel campo **Nr. fatt. pagam. ant. reg.** sia la stessa delle fatture di vendita registrate (**Nr. fatture registrate**) e che la numerazione per le note di credito registrate per i pagamenti anticipati (**Nr. note cr. pagam. ant. reg.**) sia la stessa delle note di credito registrate (**Nr. note credito registrate**).  
 
@@ -78,11 +78,11 @@ Barbara stabilisce che, come regola di default, al cliente 20000 venga fatturato
 Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per l'articolo 1100. Il cliente 20000 ha uno storico dei pagamenti insoddisfacente e quindi Barbara richiede un pagamento anticipato del 40% dal cliente 20000 per l'articolo 1100. La procedura seguente spiega come impostare le percentuali di pagamento anticipate di default.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Per assegnare percentuali predefinite di pagamento anticipato a clienti e articoli  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda per il cliente 20000 (Selangorian).
 3.  Nel campo **% pagamento anticipato** digitare **30**.  
 4.  Scegliere il pulsante **OK** per chiudere la scheda cliente.  
-5.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 6.  Aprire la scheda per il cliente 1100.
 7.  Scegliere l'azione **Percentuali pagamenti anticipati**.  
 8.  Compilare nel modo seguente due righe della finestra **Percentuali pagamenti anticipati vendite**.  
@@ -98,7 +98,7 @@ Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per 
 9. Chiudere tutte le finestre.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Per specificare un conto per i pagamenti anticipati di vendita nel setup registrazioni COGE  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup registrazioni COGE**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
 2.  Selezionare la riga in cui il campo **Cat. reg. business** è impostato su **ESPORTAZ** e il campo **Cat. reg. articolo/servizio** è impostato su **DETTAGLIO**, quindi scegliere l'azione **Modifica**.  
 3.  Nella finestra **Scheda setup reg. gen.**, nel campo **Conto pagam. anticipati vendite** specificare il conto in questione.  
 4.  Scegliere il pulsante **OK**.  
@@ -111,7 +111,7 @@ Il cliente chiede di poter versare il 35% ed Elisabetta può accettare. Di conse
 Crea quindi la fattura di pagamento anticipato e la invia al cliente  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Per creare un ordine di vendita con un pagamento anticipato  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini di vendita**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Vendere a - Nr. cliente** selezionare **20000**.  
 5.  Accettare l'avviso di saldo scaduto che viene visualizzato.  
@@ -173,7 +173,7 @@ Il cliente versa il pagamento anticipato e Armando, che lavora nel reparto conta
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Per collegare un pagamento a una fattura di pagamento anticipato  
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.  
 2.  Compilare una riga di registrazione con le informazioni indicate di seguito.  
 
     |Nome campo|Immettere|  
@@ -202,7 +202,7 @@ Ora l'amministratore della contabilità clienti, Armando, è stato informato che
 
 Armando può visualizzare lo storico per verificare che la fattura di vendita sia stata creata come concepita.  
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
 
 ## <a name="next-steps"></a>Passaggi successivi  
 In questa procedura dettagliata sono stati esaminati i passaggi necessari per impostare la funzione di gestione dei pagamenti anticipati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sono state impostate le percentuali di pagamento anticipato di default per clienti e articoli e sono stati inoltre utilizzati diversi metodi per calcolare il pagamento anticipato per un ordine. Si è cercato anche di assegnare un intero importo di pagamento anticipato all'ordine e calcolare la percentuale dell'anticipo rispetto all'ordine totale.  

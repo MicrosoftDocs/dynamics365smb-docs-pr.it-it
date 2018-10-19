@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e271b160d8a4969be296861f6746163fcfea6ba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
@@ -49,7 +49,7 @@ In alternativa, un lavoratore warehouse può crearlo scegliendo l'ordine di asse
 La procedura seguente mostra come creare un movimento di magazzino nella finestra **Movimento di magazzino** facendo riferimento a un ordine di assemblaggio rilasciato come documento di origine. La procedura è la stessa quando si spostano componenti per gli ordini di produzione e gli ordini di assistenza.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Per spostare componenti in un'area di operazione nelle configurazioni di warehouse di base  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Cerca pagina o report"), immettere **Movimento di magazzino**, quindi scegliere il collegamento pertinente.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimento di magazzino** e quindi scegliere il collegamento rilevante.  
 2.  Nella Scheda dettaglio **Generale** compilare il campo **Nr.** . È possibile premere INVIO per selezionare la numerazione.  
 3.  Nel campo **Cod. ubicazione** immettere l'ubicazione in cui si verifica la movimentazione.  
 4.  Scegliere l'azione **Prendi documenti origine**. In alternativa, compilare il campo **Documento origine**, quindi fare clic sul pulsante **AssistEdit** nel campo **Nr. origine**.  

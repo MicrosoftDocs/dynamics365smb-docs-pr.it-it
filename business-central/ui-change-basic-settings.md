@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
-Nella finestra **Impostazioni personali** è possibile vedere e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche apportate interesseranno solo l'area di lavoro dell'utente, non quello di altri utenti.  
+Nella finestra [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Passare direttamente alla pagina impostazioni utente in Business Central"), è possibile visualizzare e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche apportate interesseranno solo l'area di lavoro dell'utente, non quello di altri utenti.  
 
-## <a name="role-center"></a>Gestione ruolo utente
+## <a name="role-center"></a> Gestione ruolo utente
 Gestione ruolo utente rappresenta la home page, una schermata iniziale che è progettata per le esigenze di un ruolo specifico dell'organizzazione. A seconda del ruolo, Gestione ruolo utente offre una panoramica del business, del reparto o dei task personali. Agevola anche l'esplorazione dei task quotidiane e la ricerca del lavoro assegnato.
 
 -   Nella parte superiore, lo spostamento consente di esplorare clienti, fornitori, articoli e altri importanti elenchi di informazioni. In modo simile, le azioni consentono di avviare task, come creare una nuova fattura di vendita, direttamente da Gestione ruolo utente.
@@ -41,9 +41,9 @@ Una società funziona da contenitore dei dati in [!INCLUDE[d365fin](includes/d36
 La società di default è detta CRONUS e contiene solo i dati di esempio.
 
 > [!TIP]  
->   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
+>   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella finestra **Informazioni società** o **Nome visualizzato** nella finestra **Società**.  
 
-## <a name="work-date"></a>Data lavoro
+## <a name="work-date"></a>Work Date
 La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  
@@ -52,14 +52,14 @@ La data di lavoro di default in genere è la data odierna. Per poter eseguire ta
 > [!IMPORTANT]  
 >   La data di lavoro verrà modificata solo finché non si chiude la società o finché non vengono modificate le date. Se viene aperta una società differente oppure quando viene aperta la stessa società il giorno successivo ed è ancora necessario utilizzare una data di lavoro diversa, occorre reimpostare la data di lavoro.
 
-## <a name="region"></a>Area geografica
+## <a name="region"></a> Area geografica
 L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.   
 
 
-## <a name="language"></a>Lingua
+## <a name="language"></a> Lingua
 Cambia la lingua di visualizzazione. Questo campo viene visualizzato solo quando c'è più di una lingua tra cui scegliere. 
 
-La lingua iniziale è determinata dall'amministratore o dalle impostazioni del browser quando ci si registri per [!INCLUDE[d365fin](includes/d365fin_md.md)]. La lingua impostata verrà utilizzata su tutti i dispositivi dai quali si accede, ad esempio da telefono o tablet. 
+La lingua iniziale è determinata dall'amministratore o dalle impostazioni del browser quando ci si registri per [!INCLUDE[d365fin](includes/d365fin_md.md)]. La lingua impostata verrà utilizzata su tutti i dispositivi dai quali si accede, ad esempio da telefono o tablet.
 
 ## <a name="changing-when-i-receive-notifications"></a>Modifica del momento in cui ricevere le notifiche
 Scegliere questo collegamento per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Notifiche smart](ui-smart-notifications.md).

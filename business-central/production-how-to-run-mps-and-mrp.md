@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
 
--   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione di produzione. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  
--   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione di produzione a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
+-   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione della domanda. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  
+-   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione della domanda a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
 
 Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione riguardano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce messaggi di azione. I messaggi di azione sono suggerimenti relativi alla creazione di un nuovo ordine, alla modifica di un ordine (quantità o data) o all'annullamento di un ordine già in ordinazione. Il termine "ordine" include ordini di acquisto, ordini di assemblaggio, ordini di produzione e ordini di trasferimento.
 
@@ -35,7 +35,7 @@ La correttezza dei risultati di pianificazione dipende dal setup di schede artic
 
 -   **Calcola piano - Rigenerativo:** questa funzione consente di elaborare o rigenerare il piano del materiale. Il processo inizia con l'eliminazione di tutti gli ordini approvvigionamento attualmente caricati. Tutti gli articoli inclusi nel database vengono ripianificati.  
 -   **Calcola piano - Solo cambiamenti**: questa funzione consente di elaborare un piano dei cambiamenti. In questo piano gli articoli vengono considerati come da due tipi di cambiamenti:  
-    - **Cambiamenti relativi a domanda/approvvigionamento:** tali cambiamenti includono modifiche alle quantità negli ordini di vendita, nelle previsioni di produzione, negli ordini di assemblaggio, negli ordini di produzione o negli ordini di acquisto. Un cambiamento non pianificato a livello di magazzino viene anche considerato un cambiamento di quantità.  
+    - **Cambiamenti relativi a domanda/approvvigionamento:** tali cambiamenti includono modifiche alle quantità negli ordini di vendita, nelle previsioni della domanda, negli ordini di assemblaggio, negli ordini di produzione o negli ordini di acquisto. Un cambiamento non pianificato a livello di magazzino viene anche considerato un cambiamento di quantità.  
     - **Cambiamenti relativi ai parametri di pianificazione:** tali cambiamenti includono modifiche alla scorta di sicurezza, al punto di riordino, al ciclo, alla distinta base e alle modifiche all'intervallo di tempo o al calcolo del lead time.  
 -   **Genera messaggi di azione:** questa funzione funge da strumento di pianificazione a breve termine tramite l'emissione di messaggi di azione per avvisare l'utente di eventuali modifiche apportate dall'ultimo calcolo del piano rigenerativo o relativo ai cambiamenti.  
 
@@ -47,13 +47,13 @@ Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera 
 >  La funzione Piano di generazione dei messaggi di azione può essere eseguito tra le esecuzioni del calcolo del piano relativo ai cambiamenti e del piano rigenerativo per ottenere una visione immediata dell'impatto dei cambiamenti apportati alla programmazione, ma non è da intendersi come sostitutivo di tali processi.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Per calcolare il prospetto pianificazione  
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Prospetto pianificazione**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetti pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la finestra **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Selezionare per iniziare il calcolo di una programmazione di produzione master. Gli articoli con ordini di vendita aperti o previsioni di produzione vengono inclusi nell'esecuzione.|  
+    |**MPS**|Selezionare per iniziare il calcolo di una programmazione di produzione master. Gli articoli con ordini di vendita aperti e/o previsioni della domanda vengono inclusi nell'esecuzione.|  
     |**MRP**|Selezionare per iniziare il calcolo della pianificazione delle richieste di materiale. Gli articoli con richieste dipendenti vengono inclusi nell'esecuzione. In genere, MPS e MRP sono eseguiti contemporaneamente. Per eseguire MPS e MRP simultaneamente, è necessario che sia selezionato il campo **Calcolo combinato MPS/MRP** nella Scheda dettaglio **Pianificazione** della finestra **Setup manufacturing**.|  
     |**Data Inizio**|Questa data viene utilizzata per valutare la disponibilità del magazzino. Se la quantità disponibile di un articolo è inferiore al punto di riordino, nel sistema viene eseguita una programmazione in avanti di un ordine di rifornimento da questa data. Se un articolo è inferiore alla relativa scorta di sicurezza (alla data di inizio), nel sistema viene eseguita una programmazione a ritroso di un ordine di rifornimento con scadenza alla data di inizio della pianificazione.|  
     |**Data Fine**|Data di fine dell'orizzonte di pianificazione. Dopo questa data non viene considerato alcun approvvigionamento o alcuna domanda. Se il ciclo di riordino per un articolo si protrae oltre la data di fine, l'orizzonte di pianificazione effettivo per l'articolo equivale a Data ordine + Ciclo riordino.<br /><br /> L'orizzonte di pianificazione è il tempo per cui si protrae il piano. Se l'orizzonte è troppo ridotto, gli articoli con un lead time maggiore non vengono ordinati in tempo. Se l'orizzonte è troppo esteso, viene impiegata un'eccessiva quantità di tempo nell'esaminare ed elaborare le informazioni soggette a probabili modifiche prima del necessario. Benché non sia obbligatorio, è possibile impostare un orizzonte di pianificazione per la produzione e uno più esteso per gli acquisti. È consigliabile impostare un orizzonte di pianificazione e uno per gli acquisti per coprire il lead time cumulativo per i componenti.|  
