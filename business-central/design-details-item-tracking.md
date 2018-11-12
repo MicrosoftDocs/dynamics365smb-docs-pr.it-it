@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -25,12 +25,12 @@ Quando il flusso delle merci nella catena di approvvigionamento odierna diventer
 Un sistema di tracciabilità articolo deve offrire a una società la semplice gestione dei numeri seriali e di lotto, considerando ogni pezzo unico di merce: quando e dove è ricevuto, dove è archiviato, quando dove è stato venduto. In [!INCLUDE[d365fin](includes/d365fin_md.md)] la copertura del fabbisogno aziendale è stata ampliata gradualmente e oggi offre una funzionalità a livello di applicazione e un solido nucleo a partire dal quale sviluppare le estensioni.  
 
 ## <a name="in-this-section"></a>In questa sezione  
-* [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
-* [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
-* [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
-* [Dettagli di progettazione: Finestra righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
-* [Dettagli di progettazione: Disponibilità tracciabilità articolo](design-details-item-tracking-availability.md)  
-* [Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
-* [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
-* [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
+[Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
+[Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
+[Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
+[Dettagli di progettazione: Finestra righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
+[Dettagli di progettazione: Disponibilità tracciabilità articolo](design-details-item-tracking-availability.md)  
+[Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
+[Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
+[Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
 
