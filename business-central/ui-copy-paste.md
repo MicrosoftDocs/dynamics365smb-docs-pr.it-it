@@ -63,7 +63,7 @@ Copia e incolla sono disponibili nel browser o nell'app [!INCLUDE[d365fin](inclu
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Devo disporre dello stesso numero di colonne quando incollo le righe?
 Sì. Sia che si copi da [!INCLUDE[d365fin](includes/d365fin_md.md)], Excel o da altra origine di tabella, le righe che si incollano devono avere le colonne di corrispondenza esatte, né più né meno.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Perché vengono visualizzati degli errori quando incollo le righe? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Perché vengono visualizzati degli errori quando incollo le righe?
 Quando si incolla in [!INCLUDE[d365fin](includes/d365fin_md.md)], ogni riga viene controllata per assicurarsi che i valori in ogni colonna siano validi. Se una colonna contiene un valore che non è valido, l'operazione incolla viene interrotta e viene visualizzato un messaggio di errore. Per evitare ciò, assicurarsi che le colonne abbiano valori validi prima di incollarli.
 
 
