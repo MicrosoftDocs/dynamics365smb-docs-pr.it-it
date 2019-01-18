@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Dettagli di progettazione: Carico dei profili di magazzino
@@ -45,7 +45,7 @@ Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema 
  Ciò è controllato dal sistema di pianificazione attraverso l'esecuzione del profilo di magazzino. Quando viene trovata una nuova combinazione, viene creato un record di controllo interno che contiene le informazioni effettive sulla combinazione. Il programma inserisce la USK come record di controllo o ciclo esterno. Di conseguenza, vengono impostati i parametri di pianificazione appropriati in base a una combinazione di variante e ubicazione e il programma può procedere al ciclo interno.  
 
 > [!NOTE]  
->  Il programma non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, il programma crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella finestra Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
+>  Il programma non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, il programma crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella pagina Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>I numeri seriali o di lotto vengono caricati dal livello di specifica  
  Gli attributi in forma di numeri di serie o di lotto vengono caricati nei profili del magazzino insieme alla domanda e all'approvvigionamento a cui sono assegnati.  

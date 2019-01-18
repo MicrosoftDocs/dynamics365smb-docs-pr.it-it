@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/28/2018
 1. Apre la nuova società.  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Copia dati da società**.  
-4. Nella finestra **Copia dati società**, scegliere una società da copiare dal campo **Copia da**, quindi scegliere **OK**.  
+4. Nella pagina **Copia dati società**, scegliere una società da copiare dal campo **Copia da**, quindi scegliere **OK**.  
 5. Selezionare una tabella da uno dei pacchetti di configurazione importati quindi scegliere **Copia dati**.
 
 ## <a name="see-also"></a>Vedi anche

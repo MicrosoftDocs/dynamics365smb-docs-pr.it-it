@@ -11,10 +11,10 @@ ms.search.keywords: move, warehouse
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e21299ab25f05f465b8a33d3a12bc35d9037d0b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-inventory-between-locations"></a>Trasferire il magazzino tra le ubicazioni
@@ -31,10 +31,10 @@ Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono 
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Per trasferire gli articoli con un ordine di trasferimento
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di trasferimento** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Ordine di trasferimento** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Ordine di trasferimento** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Se i campi **Codice in transito**, **Cod. spedizioniere** e **Servizi spedizioniere** nella finestra **Specifica percorso trasf.** sono stati compilati al momento dell'impostazione del percorso di trasferimento, i dati verranno immessi automaticamente nei campi corrispondenti dell'ordine di trasferimento.
+    >   Se i campi **Codice in transito**, **Cod. spedizioniere** e **Servizi spedizioniere** nella pagina **Specifica percorso trasf.** sono stati compilati al momento dell'impostazione del percorso di trasferimento, i dati verranno immessi automaticamente nei campi corrispondenti dell'ordine di trasferimento.
 
     Se si compila il campo **Servizio spedizioniere**, il programma calcola la data di ricezione nell'ubicazione di trasferimento sommando il tempo di spedizione del servizio spedizioniere alla data di spedizione.
 
@@ -48,7 +48,7 @@ Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono 
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Per trasferire gli articoli con le registrazioni di riclassificazione articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclassificazioni articoli** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Batch reg. riclass. articoli** compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Batch reg. riclass. articoli** compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Nel campo **Cod. ubicazione** immettere l'ubicazione in cui gli articoli si trovano attualmente.
 
     > [!NOTE]  

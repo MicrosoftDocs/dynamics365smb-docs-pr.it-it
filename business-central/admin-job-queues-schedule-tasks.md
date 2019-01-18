@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per pianificare i task
 Le code processi in [!INCLUDE[d365fin](includes/d365fin_md.md)] consentono agli utenti di pianificare ed eseguire report e codeunit specifici. È possibile impostare commesse da eseguire una sola volta o periodicamente. Potrebbe essere necessario, ad esempio, eseguire il report **Agente - Statistiche vendita** ogni settimana, per tenere traccia delle vendite effettuate da un agente ogni settimana, oppure eseguire la codeunit **Elabora coda e-mail assistenza** ogni giorno, per verificare che i messaggi di posta elettronica in sospeso relativi agli ordini di assistenza vengano inviati ai clienti in modo tempestivo.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Aggiungere processi alla coda processi
-Nella finestra **Movimenti coda processi** sono elencati tutti i processi esistenti. Se si aggiunge un nuovo movimento coda processi che si desidera pianificare, è necessario specificare informazioni sul tipo di oggetto che si intende eseguire, ad esempio un report o una codeunit, e il nome e l'ID dell'oggetto da eseguire. È inoltre possibile aggiungere i parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. È necessario disporre delle autorizzazioni per eseguire un report o una codeunit particolare oppure verrà restituito un errore quando la coda processi viene eseguita.  
+Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se si aggiunge un nuovo movimento coda processi che si desidera pianificare, è necessario specificare informazioni sul tipo di oggetto che si intende eseguire, ad esempio un report o una codeunit, e il nome e l'ID dell'oggetto da eseguire. È inoltre possibile aggiungere i parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. È necessario disporre delle autorizzazioni per eseguire un report o una codeunit particolare oppure verrà restituito un errore quando la coda processi viene eseguita.  
 
 In alternativa, è possibile impostare un filtro nel campo **Filtro categoria coda processi**. Le categorie della coda processi possono essere utilizzate per raggruppare i processi nell'elenco.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esegue automaticamente i processi in base alle pianificazioni specificate per ogni movimento coda processi. È inoltre possibile avviare, arrestare e sospendere manualmente un movimento coda processi.
 
 ### <a name="log-files"></a>File log
-Gli errori vengono elencati nella finestra **Movimenti log coda processi** accessibile dalla barra multifunzione. È possibile anche risolvere gli errori della coda processi. I dati generati quando viene eseguita una coda processi vengono archiviati nel database.  
+Gli errori vengono elencati nella pagina **Movimenti log coda processi** accessibile dalla barra multifunzione. È possibile anche risolvere gli errori della coda processi. I dati generati quando viene eseguita una coda processi vengono archiviati nel database.  
 
 ### <a name="background-posting-with-job-queues"></a>Registrazione background con le code processi
 Le code processi sono uno strumento efficace per pianificare l'esecuzione dei processi aziendali in background. Ad esempio, potrebbe esserci un'istanza in cui più utenti stanno tentando di registrare ordini di vendita contemporaneamente, ma può essere elaborato solo un ordine alla volta. Impostando una routine di registrazione background, è possibile inserire le registrazioni in una coda per l'elaborazione in background.  
@@ -46,7 +46,7 @@ Le code processi sono uno strumento efficace per pianificare l'esecuzione dei pr
 > [!NOTE]  
 >  Quando viene programmato un documento per la registrazione e inizia il processo di registrazione, la routine di registrazione viene configurata automaticamente affinché scada entro due ore se la routine di registrazione smette di rispondere per un motivo qualsiasi.  
 
-Questa impostazione relativa alla coda processi viene eseguita nella finestra **Setup contabilità clienti e vendite** o nella finestra **Contabilità fornitori**. Nella Scheda dettaglio **Registrazione background**, scegliere la casella di controllo **Contabilizza documenti tramite la coda processi** e immettre le informazioni pertinenti. È inoltre possibile selezionare il campo **Codice categoria coda processi** per eseguire tutti i movimenti coda processi con tale codice. Ad esempio, è possibile utilizzare la categoria **Regvend** per filtrare tutti gli ordini di vendita che corrispondono alla coda processi che presenta lo stesso codice categoria.  
+Questa impostazione relativa alla coda processi viene eseguita nella pagina **Setup contabilità clienti e vendite** o nella pagina **Contabilità fornitori**. Nella Scheda dettaglio **Registrazione background**, scegliere la casella di controllo **Contabilizza documenti tramite la coda processi** e immettre le informazioni pertinenti. È inoltre possibile selezionare il campo **Codice categoria coda processi** per eseguire tutti i movimenti coda processi con tale codice. Ad esempio, è possibile utilizzare la categoria **Regvend** per filtrare tutti gli ordini di vendita che corrispondono alla coda processi che presenta lo stesso codice categoria.  
 
 > [!IMPORTANT]  
 >  Se si imposta un processo che prevede la registrazione e la stampa di documenti e nella stampante viene visualizzata una finestra di dialogo, ad esempio una richiesta di credenziali o un avvertimento sul basso livello di inchiostro della stampante, il documento viene registrato ma non stampato. Il movimento coda processi corrispondente alla fine incorre in un timeout e il campo **Stato** viene impostato su **Errore**. Di conseguenza, è consigliabile non utilizzare un setup di stampante che richieda l'interazione con la visualizzazione delle finestre di dialogo della stampante insieme alla registrazione in background.  

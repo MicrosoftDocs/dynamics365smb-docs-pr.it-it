@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Creare i record di documenti in entrata
-Nella finestra **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
+Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
 Per registrare un documento esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
 
@@ -40,7 +40,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
 1. Sulla barra delle applicazioni, scegliere il riquadro **Crea documento in entrata da fotocamera** e andare al passaggio 4.
 2. In alternativa, nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
-3. Nella finestra **Documenti in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Crea da fotocamera**. La fotocamera del tablet o del telefono è attivata.
+3. Nella pagina **Documenti in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Crea da fotocamera**. La fotocamera del tablet o del telefono è attivata.
 4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
 
     Viene creato un nuovo record di documento in entrata con l'immagine allegata.
@@ -51,7 +51,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
 1. Nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
 2. Aprire la scheda di un record di documento in entrata esistente.
-3. Nella finestra **Documento in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Allega immagine da fotocamera**. La fotocamera del tablet o del telefono è attivata.
+3. Nella pagina **Documento in entrata** scegliere il pulsante con i puntini di sospensione e selezionare **Allega immagine da fotocamera**. La fotocamera del tablet o del telefono è attivata.
 4. Scattare la foto di un documento, ad esempio una ricevuta di acquisto, che si desidera elaborare come documento in entrata e fare clic sul pulsante **OK**.
 
     L'immagine viene allegata al record di documento in entrata.
@@ -59,11 +59,11 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 ## <a name="to-create-an-incoming-document-record-manually"></a>Per creare manualmente il record di un documento in entrata
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Crea da file**.  
-3. Nella finestra **Inserisci file** selezionare un file e scegliere **Apri**. Il file viene automaticamente allegato.
+3. Nella pagina **Inserisci file** selezionare un file e scegliere **Apri**. Il file viene automaticamente allegato.
 4. In alternativa, selezionare l'azione **Nuovo**.
 5. Per allegare un file, selezionare l'azione **Allega file**.
-6. Nella finestra **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.
-7. Nella finestra **Documento in entrata** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Nella pagina **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.
+7. Nella pagina **Documento in entrata** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Vedi anche
 [Elaborare i documenti in entrata](across-process-income-documents.md)  

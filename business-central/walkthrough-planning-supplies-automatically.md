@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
@@ -68,7 +68,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Aprire la scheda articolo per l'articolo 1001, bicicletta da turismo.  
 2.  Scegliere l'azione **Crea unità di stockkeeping**.  
-3.  Nella finestra **Crea unità di stockkeeping** lasciare invariate tutte le opzioni e i filtri, quindi fare clic sul pulsante **OK**.  
+3.  Nella pagina **Crea unità di stockkeeping** lasciare invariate tutte le opzioni e i filtri, quindi fare clic sul pulsante **OK**.  
 4.  Ripetere i passaggi da 1 a 3 per tutti gli articoli nella numerazione compresa tra 1100 e 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Per variare i parametri di pianificazione selezionati  
@@ -92,9 +92,9 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
-3.  Nella finestra **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
+3.  Nella pagina **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |Vendere a - Nome|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
+    |Vendere a - Nome cliente|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
     |Cannon Group|02-05-2014|1001|BLU|5|  
 
@@ -104,7 +104,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
-3.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
+3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola piano|Data Inizio|Data fine|Mostra risultati:|Limita totali a|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -117,17 +117,17 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
      Verificare che questa riga di pianificazione sia correlata all'ordine di vendita di Cannon Group utilizzando la funzione **Tracciabilità ordine** che collega in modo dinamico la domanda all'approvvigionamento pianificato.  
 
 5.  Selezionare la nuova riga di pianificazione, quindi scegliere l'azione **Tracciabilità ordine**.  
-6.  Nella finestra **Tracciabilità ordine** scegliere l'azione **Mostra**.  
+6.  Nella pagina **Tracciabilità ordine** scegliere l'azione **Mostra**.  
 
      Viene visualizzato l'ordine di vendita per la spedizione di cinque biciclette da turismo al cliente numero 10000 il 05-02-2014.  
 
-7.  Chiudere le finestre **Ordine vendita** e **Tracciabilità ordine**.  
+7.  Chiudere le pagine **Ordine vendita** e **Tracciabilità ordine**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Per calcolare MRP per includere i componenti necessari sottostanti  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
-3.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
+3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola|Data Inizio|Data fine|Mostra risultati:|Limita totali a:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 ## <a name="analyzing-the-planning-result"></a>Analisi del risultato della pianificazione  
  Per analizzare le quantità suggerite, Eduardo esegue il drill-down sulle righe di pianificazione selezionate per visualizzare i parametri di pianificazione e i movimenti di tracciabilità ordine.  
 
- Nella finestra **Prospetto pianificazione** si noti che nella colonna **Data scadenza** gli ordini di approvvigionamento suggeriti vengono programmati dalla data di scadenza dell'ordine di vendita, 05-02-2014. La sequenza temporale inizia nella riga di pianificazione superiore con l'ordine di produzione per produrre le biciclette da turismo completate. La sequenza temporale termina nella riga di pianificazione inferiore con l'ordine di acquisto per uno degli articoli di ultimo livello, 1255, cavità posteriore, con scadenza il 30-01-2014. Come nella riga di pianificazione per l'articolo 1251, Assale posteriore, questa riga rappresenta un ordine di acquisto per i componenti in scadenza alla data di inizio dell'articolo principale prodotto, articolo di subassemblaggio 1250, che a sua volta ha come data di scadenza il 03-02-2014. Nel foglio di lavoro è possibile verificare che la data di scadenza di tutti gli articoli sottostanti è la data di inizio degli articoli padre.  
+ Nella pagina **Prospetto pianificazione** si noti che nella colonna **Data scadenza** gli ordini di approvvigionamento suggeriti vengono programmati dalla data di scadenza dell'ordine di vendita, 05-02-2014. La sequenza temporale inizia nella riga di pianificazione superiore con l'ordine di produzione per produrre le biciclette da turismo completate. La sequenza temporale termina nella riga di pianificazione inferiore con l'ordine di acquisto per uno degli articoli di ultimo livello, 1255, cavità posteriore, con scadenza il 30-01-2014. Come nella riga di pianificazione per l'articolo 1251, Assale posteriore, questa riga rappresenta un ordine di acquisto per i componenti in scadenza alla data di inizio dell'articolo principale prodotto, articolo di subassemblaggio 1250, che a sua volta ha come data di scadenza il 03-02-2014. Nel foglio di lavoro è possibile verificare che la data di scadenza di tutti gli articoli sottostanti è la data di inizio degli articoli padre.  
 
  La riga di pianificazione per l'articolo 1300, asse catena, suggerisce dieci pezzi. Questo valore si discosta dai cinque pezzi suggeriti per la maggior parte degli altri articoli nel piano. Visualizzare i movimenti di tracciabilità ordine.  
 
@@ -148,26 +148,26 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Selezionare la riga di pianificazione per l'articolo 1300, quindi scegliere l'azione **Tracciabilità ordine**.  
 
-     Le due righe nella finestra **Tracciabilità ordine** mostrano che cinque pezzi vengono tracciati dalla riga di pianificazione (prima riga di tracciabilità ordine) all'ordine di vendita 1001 (seconda riga di tracciabilità ordine). Gli ultimi cinque pezzi suggeriti sulla riga di pianificazione non sono correlati ad alcuna riga di documento, ma a un parametro di pianificazione, movimento previsione o movimento ordine programmato. Queste quantità non tracciate vengono sommate nel campo **Quantità non tracciata** nella testata della finestra **Tracciabilità ordine**.  
+     Le due righe nella pagina **Tracciabilità ordine** mostrano che cinque pezzi vengono tracciati dalla riga di pianificazione (prima riga di tracciabilità ordine) all'ordine di vendita 1001 (seconda riga di tracciabilità ordine). Gli ultimi cinque pezzi suggeriti sulla riga di pianificazione non sono correlati ad alcuna riga di documento, ma a un parametro di pianificazione, movimento previsione o movimento ordine programmato. Queste quantità non tracciate vengono sommate nel campo **Quantità non tracciata** nella testata della pagina **Tracciabilità ordine**.  
 
 2.  Scegliere il campo **Quantità non tracciata**.  
 
-     Nella finestra **Elementi di pianificazione non tracciati** è indicato che l'articolo 1300 utilizza un parametro di pianificazione, Quantità minima ordine, di 10.00. Di conseguenza, la riga di pianificazione è per dieci pezzi in totale, ma solo cinque possono essere correlati a una domanda. Gli ultimi cinque pezzi rappresentano una quantità non tracciata per soddisfare il parametro di pianificazione. Continuare per esaminare il parametro di pianificazione.  
+     Nella pagina **Elementi di pianificazione non tracciati** è indicato che l'articolo 1300 utilizza un parametro di pianificazione, Quantità minima ordine, con valore 10.00. Di conseguenza, la riga di pianificazione è per dieci pezzi in totale, ma solo cinque possono essere correlati a una domanda. Gli ultimi cinque pezzi rappresentano una quantità non tracciata per soddisfare il parametro di pianificazione. Continuare per esaminare il parametro di pianificazione.  
 
 ### <a name="to-check-the-planning-parameter"></a>Per controllare il parametro di pianificazione  
 
-1.  Nella finestra **Elementi di pianificazione non tracciati** selezionare la riga di tracciabilità ordine per l'articolo 1300.  
+1.  Nella pagina **Elementi di pianificazione non tracciati** selezionare la riga di tracciabilità ordine per l'articolo 1300.  
 2.  Scegliere il campo **Nr. articolo**, quindi scegliere l'azione **Avanzate**.  
-3.  Nella finestra **Lista articoli** scegliere l'azione **Unità di stockkeeping**.  
-4.  Nella finestra **Lista unità di stockkeeping** aprire la scheda unità di stockkeeping BLU.  
+3.  Nella pagina **Lista articoli** scegliere l'azione **Unità di stockkeeping**.  
+4.  Nella pagina **Lista unità di stockkeeping** aprire la scheda unità di stockkeeping BLU.  
 5.  Nella Scheda dettaglio **Pianificazione** notare che nel campo **Quantità minima ordine** è visualizzato il valore 10.  
-6.  Chiudere tutte le finestre ad eccezione della finestra **Prospetto pianificazione**.  
+6.  Chiudere tutte le pagine ad eccezione della pagina **Prospetto pianificazione**.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Per visualizzare ulteriori movimenti di tracciabilità ordine  
 
 1.  Selezionare la riga di pianificazione per l'articolo 1110, Cerchione, quindi scegliere l'azione **Tracciabilità ordine**.  
 
-     Nella finestra **Tracciabilità ordine** è indicato che sono necessari cinque cerchioni per ogni ordine di produzione per le ruote anteriori e posteriori rispettivamente.  
+     Nella pagina **Tracciabilità ordine** è indicato che sono necessari cinque cerchioni per ogni ordine di produzione per le ruote anteriori e posteriori rispettivamente.  
 
      La stessa tracciabilità ordine è collegata alle righe di pianificazione per gli articoli 1120, 1160 e 1170. Per l'articolo 1120, il campo **Quantità per** nella DB di produzione di ogni articolo della ruota è 50 PZ, ciò dà come risultato una quantità totale di 100.  
 
@@ -175,11 +175,11 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 2.  Selezionare la riga di pianificazione per l'articolo 1150, quindi scegliere l'azione **Tracciabilità ordine**.  
 
-     Nella finestra **Tracciabilità ordine** è indicato che cinque unità vengono tracciate per la ruota anteriore e un'unità non è tracciata. Visualizzare la quantità non tracciata.  
+     Nella pagina **Tracciabilità ordine** è indicato che cinque unità vengono tracciate per la ruota anteriore e un'unità non è tracciata. Visualizzare la quantità non tracciata.  
 
 3.  Scegliere il campo **Quantità non tracciata**.  
 
-     Nella finestra **Elementi di pianificazione non tracciati** è indicato che l'articolo 1150 utilizza un parametro di pianificazione, Molteplicità ordine, di 2,00 che specifica che l'articolo ordinato, deve essere di una quantità divisibile per 2. Il numero più vicino a 5 divisibile per 2 è 6.  
+     Nella pagina **Elementi di pianificazione non tracciati** è indicato che l'articolo 1150 utilizza un parametro di pianificazione, Molteplicità ordine, di 2,00 che specifica che l'articolo ordinato, deve essere di una quantità divisibile per 2. Il numero più vicino a 5 divisibile per 2 è 6.  
 
      La stessa tracciabilità ordine si applica alle righe di pianificazione per i componenti Mozzo anteriore, articoli 1151 e 1155, ad eccezione del fatto che ogni necessità viene moltiplicata per la percentuale di scarto definita per l'articolo 1150 nel campo **Percentuale scarti** nella scheda articolo.  
 
@@ -192,14 +192,14 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Selezionare la casella di controllo **Accetta messaggio azione** in tutte le righe di pianificazione con un avviso di tipo Eccezione.  
 2.  Scegliere l'azione **Esegui messaggi di azione**.  
-3.  Nella finestra **Pianificaz. - Esegui mess. azione** compilare i campi come indicato nella tabella seguente.  
+3.  Nella pagina **Pianificaz. - Esegui mess. azione** compilare i campi come indicato nella tabella seguente.  
 
     |Ordine di produzione|Ordine acquisto|Ordine di trasferimento|  
     |----------------------|--------------------|--------------------|  
     |Confermato|Crea ordini acquisto|Crea ordini di trasferimento|  
 
 4.  Scegliere **OK** per creare automaticamente tutti gli ordini di approvvigionamento suggeriti.  
-5.  Chiudere la finestra **Prospetto pianificazione** vuota.  
+5.  Chiudere la pagina **Prospetto pianificazione** vuota.  
 
  Il calcolo, l'analisi e la creazione iniziali di un piano di approvvigionamento per la domanda presso l'ubicazione BLU nella prima settimana di febbraio sono stati completati. Nella sezione seguente un altro cliente ordina dieci biciclette da turismo ed Eduardo deve ripianificare.  
 
@@ -211,9 +211,9 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Per creare le nuove domande di vendita e ripianificare di conseguenza  
 
 1.  Scegliere l'azione **Nuovo**.  
-2.  Nella finestra **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
+2.  Nella pagina **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |Vendere a - Nome|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
+    |Vendere a - Nome cliente|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
     |Libros S.A.|02-12-2014|1001|BLU|10|  
 
@@ -221,7 +221,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 4.  Continuare la pianificazione per rettificare il piano di approvvigionamento corrente.  
 5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 6.  Scegliere l'azione **Calcola piano - Solo cambiamenti**.  
-7.  Nella finestra **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
+7.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola piano|Data Inizio|Data fine|Mostra risultati:|Limita totali a|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -244,20 +244,20 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 1.  Selezionare la riga di pianificazione per l'articolo 1250, quindi scegliere l'azione **Tracciabilità ordine**.  
 
-     Nelle sette righe della finestra **Tracciabilità ordine** viene indicato che cinque e dieci pezzi vengono tracciati dalla ruota posteriore alle biciclette da turismo sui due ordini di vendita rispettivamente.  
+     Nelle sette righe della pagina **Tracciabilità ordine** viene indicato che cinque e dieci pezzi vengono tracciati dalla ruota posteriore alle biciclette da turismo sui due ordini di vendita rispettivamente.  
 
      Gli ultimi cinque pezzi non vengono tracciati. Procedere con l'analisi.  
 
 2.  Scegliere il campo **Quantità non tracciata**.  
 
-     Nella finestra **Elementi di pianificazione non tracciati** è indicato che l'articolo 1250 utilizza un parametro di pianificazione, Molteplicità ordine, di 10,00. Di conseguenza, la riga di pianificazione è per 20 pezzi in totale per arrotondare l'effettiva necessità al numero più vicino divisibile per 10. Gli ultimi cinque pezzi rappresentano una quantità non tracciata per soddisfare il parametro di pianificazione.  
+     Nella pagina **Elementi di pianificazione non tracciati** è indicato che l'articolo 1250 utilizza un parametro di pianificazione, Molteplicità ordine, di 10,00. Di conseguenza, la riga di pianificazione è per 20 pezzi in totale per arrotondare l'effettiva necessità al numero più vicino divisibile per 10. Gli ultimi cinque pezzi rappresentano una quantità non tracciata per soddisfare il parametro di pianificazione.  
 
-3.  Chiudere tutte le finestre ad eccezione della finestra **Prospetto pianificazione**.  
+3.  Chiudere tutte le pagine ad eccezione della pagina **Prospetto pianificazione**.  
 
 ### <a name="to-view-an-existing-order"></a>Per visualizzare un ordine esistente  
 
 1.  Nella riga di pianificazione per l'articolo 1250, fare clic sul campo **Nr. ordine rif.**.    
-2.  Nella finestra **Ord. produzione confermato** per il mozzo posteriore. Verrà visualizzato l'ordine esistente per dieci pezzi creati nella prima esecuzione della pianificazione.  
+2.  Nella pagina **Ord. produzione confermato** per il mozzo posteriore. Verrà visualizzato l'ordine esistente per dieci pezzi creati nella prima esecuzione della pianificazione.  
 3.  Chiudere l'ordine di produzione pianificato confermato.  
 
  Viene completata la procedura dettagliata relativa all'utilizzo del sistema di pianificazione per il rilevamento automatico della domanda, il calcolo degli ordini di approvvigionamento appropriati alla domanda, ai parametri di pianificazione e alla creazione automatica dei diversi tipi di ordini di approvvigionamento con le quantità e le date appropriate.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Spostare articoli ad hoc nelle configurazioni della warehouse di base
@@ -22,11 +22,11 @@ Talvolta può essere necessario spostare gli articoli tra le collocazioni intern
 
 Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano il campo del setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare le movimentazioni ad hoc senza documenti di origine nei seguenti modi:  
 
-- Tramite la finestra **Movimentazione interna**.  
-- Con la finestra **Registrazioni riclassificazione articolo**.  
+- Con la pagina **Movimentazione interna**.  
+- Con la pagina **Registrazioni riclassificazione articolo**.  
 
 > [!NOTE]  
->  Nelle configurazione warehouse avanzate, ovvero ubicazioni che utilizzano il campo del setup **Stoccaggi e prelievi guidati**, si utilizza la finestra **Prospetto movimentazioni** oppure la finestra **Prelievo interno whse.** o **Stoccaggio interno whse.** per spostare articoli ad hoc tra le collocazioni.  
+>  Nelle configurazione warehouse avanzate, ovvero ubicazioni che utilizzano il campo del setup **Stoccaggi e prelievi guidati**, si utilizza la pagina **Prospetto movimentazioni** oppure la pagina **Prelievo interno whse.** o **Stoccaggio interno whse.** per spostare articoli ad hoc tra le collocazioni.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Per spostare gli articoli come movimentazione interna  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimentazione interna** e quindi scegliere il collegamento correlato.  
@@ -36,7 +36,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
     Se l'ubicazione è impostata come ubicazione di default come impiegato warehouse, il codice ubicazione viene inserito automaticamente.  
 4.  Nel campo **A codice collocazione** immettere un codice per la collocazione in cui si desidera spostare l'articolo. Ai fini della produzione, questo potrebbe essere il codice collocazione produzione aperta, ad esempio, come definito nella scheda Ubicazione o nell'area di produzione.  
 5.  Nel campo **Data scadenza** immettere la data a partire dalla quale la movimentazione deve essere completata.  
-6.  Nella Scheda dettaglio **Righe** selezionare il campo **Nr. articolo** per aprire la finestra **Lista contenuto collocazione** e selezionare l'articolo da spostare in base alla disponibilità nelle collocazioni. In alternativa, selezionare l'azione **Prendi contenuto collocazione** per compilare le righe movimentazione interna in base ai filtri. Per ulteriori informazioni, vedere la descrizione comando per l'azione **Ottieni contenuto collocazione**.   
+6.  Nella Scheda dettaglio **Righe** selezionare il campo **Nr. articolo** per aprire la pagina **Lista contenuto collocazione** e selezionare l'articolo da spostare in base alla disponibilità nelle collocazioni. In alternativa, selezionare l'azione **Prendi contenuto collocazione** per compilare le righe movimentazione interna in base ai filtri. Per ulteriori informazioni, vedere la descrizione comando per l'azione **Ottieni contenuto collocazione**.   
 
     Dopo avere selezionato l'articolo, il campo **Dal codice collocazione** viene compilato automaticamente in base al contenuto della collocazione selezionata, ma è possibile modificarlo con qualsiasi altra collocazione in cui l'articolo è disponibile.  
 
@@ -54,7 +54,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
     > [!NOTE]  
     >  Dopo avere creato il movimento di magazzino, le righe movimentazione interna vengono eliminate.  
 
-    Il resto della movimentazione ad hoc si effettua nella finestra **Movimento di magazzino** con la stessa procedura utilizzata per una movimentazione basata su documenti di origine. Per ulteriori informazioni, vedere ad esempio [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Il resto della movimentazione ad hoc si effettua nella pagina **Movimento di magazzino** con la stessa procedura utilizzata per una movimentazione basata su documenti di origine. Per ulteriori informazioni, vedere ad esempio [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
 Anziché utilizzare documenti di movimento di warehouse, è possibile registrare lo spostamento di articoli riclassificando i relativi codici di collocazione. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md).   

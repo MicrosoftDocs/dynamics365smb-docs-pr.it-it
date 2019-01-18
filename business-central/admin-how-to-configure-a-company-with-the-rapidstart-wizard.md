@@ -1,5 +1,5 @@
 ---
-title: "Configurare una società con la procedura guidata RapidStart Services"
+title: "Configurare una società con la procedura guidata RapidStart Services | Microsoft Docs"
 description: "È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart Services
@@ -43,7 +43,7 @@ Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto d
 7. Scegliere il pulsante **OK**.  
 8. Per verificare che le informazioni sulla configurazione siano state collegate alla nuova società, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere le **informazioni sulla società**, quindi scegliere il collegamento correlato.
 
-La finestra **Informazioni società** contiene le informazioni precedentemente specificate.   
+La pagina **Informazioni società** contiene le informazioni precedentemente specificate.   
 
 La società risulta ora configurata e collegata ai dati.  
 

@@ -10,34 +10,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4f093ded0a55d45c40be15c5888035d6e3b2df
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
 
-La seguente procedura illustra come utilizzare le righe di vendita standard. Funziona in modo simile per le righe di acquisto standard.  
+La seguente procedura illustra come utilizzare le righe di vendita standard in una fattura di vendita. I passaggi sono simili per tutti gli altri documenti di acquisto e di vendita.  
 
 ## <a name="to-set-up-standard-sales-lines"></a>Per impostare righe di vendita standard  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Righe vendita standard** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Righe vendita standard** scegliere l'azione **Nuovo**.  
+2. Nella pagina **Righe vendita standard** scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Nella Scheda dettaglio **Righe**, immettere le informazioni nei campi per preparare le righe di vendita che riflettono le righe standard che si prevede di utilizzare come righe ricorrenti nei documenti di vendita.  
 
-## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Per inserire le righe di vendita standard in una fattura di vendita
+> [!NOTE]
+> Non è possibile definire i prezzi nelle righe di vendita standard poiché prezzi, sconti e così via sono calcolati nei documenti di vendita effettivi dopo l'inserimento delle righe di vendita standard.
+
+## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Per assegnare righe di vendita standard ai clienti
+Assegnare una o più righe di vendita standard a un cliente di modo che sia possibile inserirle nei documenti di vendita per quel cliente.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+2. Aprire la scheda di un cliente pertinente.
+3. Scegliere l'azione **Righe vendita ricorrenti**.
+4. Nella pagina **Righe vendita ricorrenti**, selezionare i codici per le righe di vendita ricorrenti che si intende inserire in documenti di vendita per il cliente.
+5. Compilare i campi aggiuntivi per definire quando, come e dove le righe di vendita ricorrenti devono essere utilizzate. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Per inserire righe di vendita ricorrenti in una fattura di vendita
+Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle in tutti i tipi di documenti di vendita come una fattura di vendita. Se è stata attivata la notifica in questione, si verrà informati dell'esistenza di righe di vendita ricorrenti.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture** e quindi scegliere il collegamento correlato.
 2. Aprire la fattura di vendita in cui si desidera inserire una più righe di vendita standard.
 3. Scegliere l'azione **Ottieni righe vendita ricorrenti**.
-4. Nella finestra **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.
+4. Nella pagina **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.
 
     > [!NOTE]
-    > Per utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, è necessario anche compilare i campi **Data di inizio validità** e **Data di fine validità** nella finestra **Righe vendita ricorrenti**. Per ulteriori informazioni, vedere la sezione "Creare più fatture di vendita in base a codici vendite standard".
+    > Per utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, è necessario anche compilare i campi **Data di inizio validità** e **Data di fine validità** nella pagina **Righe vendita ricorrenti**. Per ulteriori informazioni, vedere la sezione "Creare più fatture di vendita in base a codici vendite standard".
 
 5. Scegliere il pulsante **OK** per inserire le righe di vendita standard della fattura, in cui è possibile riutilizzare la riga come è o modificarne le informazioni.
 
@@ -45,10 +58,10 @@ La seguente procedura illustra come utilizzare le righe di vendita standard. Fun
 È possibile utilizzare il processo batch **Crea fatture di vendita periodica** per creare fatture di vendita in base alle righe di vendita standard assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nelle righe di vendita standard.
 
 > [!NOTE]
-> Nella finestra **Righe vendita ricorrenti** è anche possibile specificare un metodo di pagamento in addebito diretto e un mandato di addebito diretto. Le fatture di vendita create con il processo batch **Crea fattura di vendita periodica** includeranno le informazioni necessarie per riscuotere il pagamento per le fatture di vendita con addebito diretto SEPA. Per ulteriori informazioni, vedere [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md).
+> Nella pagina **Righe vendita ricorrenti** è anche possibile specificare un metodo di pagamento in addebito diretto e un mandato di addebito diretto. Le fatture di vendita create con il processo batch **Crea fattura di vendita periodica** includeranno le informazioni necessarie per riscuotere il pagamento per le fatture di vendita con addebito diretto SEPA. Per ulteriori informazioni, vedere [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea fatture di vendita periodiche** e quindi scegliere il collegamento correlato.
-2. Compilare i campi della finestra **Crea fatture di vendita periodica** in base alle esigenze.
+2. Compilare i campi della pagina **Crea fatture di vendita periodica** in base alle esigenze.
 3. Nel campo di filtro **Codice** immettere il codice delle righe di vendita standard assegnato a un cliente per cui si desidera creare fatture di vendita.
 4. Scegliere il pulsante **OK**.
 

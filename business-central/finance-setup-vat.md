@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA p
 Per definire una dichiarazione IVA, attenersi a questa procedura:
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
-2. Scegliere il campo **Nome**, quindi **Nuovo** nella finestra **Nomi dichiarazione IVA**.
+2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**.
 3. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Se necessario, è anche possibile specificare come tradurre automaticamente le c
 
 ### <a name="to-set-up-vat-clauses"></a>Impostare categorie IVA
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie IVA** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Categorie IVA** creare una nuova riga.  
+2. Nella pagina **Categorie IVA** creare una nuova riga.  
 3. Nel campo **Codice** immettere un identificatore per la categoria. Il codice viene usato per assegnare la categoria ai categorie di registrazione IVA.  
 4. Nel campo **Descrizione** immettere il testo che si desidera visualizzare nei documenti che possono includere l'IVA. Nel campo **Descrizione 2** immettere testo aggiuntivo, se necessario. Il testo viene visualizzato nelle nuove righe.  
 5. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina Setup registrazioni IVA.  
@@ -178,7 +178,7 @@ Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura
 ## <a name="to-verify-vat-registration-numbers"></a>Per verificare la partita IVA
 È importante che la partita IVA per clienti, fornitori e contatti sia valida. Ad esempio, le aziende cambiano talvolta lo stato di passività fiscale e in alcuni paesi le autorità fiscali potrebbero chiedere di fornire report, come il report IVA dell'elenco vendite UE, che elenca i numeri di partita IVA utilizzati per l'attività.
 
-La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di risparmiare tale passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA per i clienti, i fornitori e i contatti direttamente dalle schede cliente, venditore e di contatto. Il servizio in [!INCLUDE[d365fin](includes/d365fin_md.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella finestra **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e la registrazione non è necessaria.
+La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di risparmiare tale passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA per i clienti, i fornitori e i contatti direttamente dalle schede cliente, venditore e di contatto. Il servizio in [!INCLUDE[d365fin](includes/d365fin_md.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella pagina **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e la registrazione non è necessaria.
 
 > [!Note]
 > Per abilitare il servizio di convalida partita IVA comunitaria, è necessario disporre di autorizzazioni di amministratore.
@@ -241,7 +241,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Per impostare la conversione delle categorie di registrazione prodotti  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Setup modifiche aliquota IVA**, nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
+2. Nella pagina **Setup modifiche aliquota IVA**, nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
 3. Nel campo **Da codice** immettere la categoria di registrazione corrente.  
 4. Nel campo **A codice** immettere la nuova categoria di registrazione.  
 

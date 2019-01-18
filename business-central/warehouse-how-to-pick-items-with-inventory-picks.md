@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
-Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la finestra **Prelievi magazzino** per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono pronti per il prelievo.
+Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono pronti per il prelievo.
 
 > [!NOTE]  
-> I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la finestra **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  Durante il prelievo e la spedizione di quantità righe di vendita assemblate sull'ordine, è necessario seguire determinate regole per la creazione di righe di prelievo magazzino. Per ulteriori informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino".  
 
 È possibile creare un prelievo da magazzino in tre modi:  
 
-- Creare il prelievo in due passaggi innanzitutto richiedendo un prelievo magazzino emettendo il documento di origine. Ciò segnala alla warehouse che il documento di origine è pronto per il prelievo. Il prelievo in magazzino può quindi essere creato utilizzando la finestra **Prelievo in magazzino** in base al documento di origine.  
+- Creare il prelievo in due passaggi innanzitutto richiedendo un prelievo magazzino emettendo il documento di origine. Ciò segnala alla warehouse che il documento di origine è pronto per il prelievo. Il prelievo in magazzino può quindi essere creato utilizzando la pagina **Prelievo in magazzino** in base al documento di origine.  
 - Creare il prelievo da magazzino direttamente dal documento di origine.  
 - Creare prelievi da magazzino per più documenti di origine contemporaneamente utilizzando l'apposito processo batch.  
 
@@ -70,7 +70,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-record-the-inventory-picks"></a>Per registrare i prelievi magazzino  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo magazzino** e quindi scegliere il collegamento correlato.  
-2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa finestra, se necessario.  
+2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa pagina, se necessario.  
 3. Eseguire il prelievo e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da gestire**.
 
     Se è necessario prelevare gli articoli relativi a una riga da più collocazioni, ad esempio perché non sono disponibili nella collocazione designata, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe**. Per ulteriori informazioni sulla divisione delle righe, vedere [Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -87,11 +87,11 @@ Se gli articoli nel prelievo magazzino non sono disponibili, è generalmente pos
 >  Se le righe di prelievo magazzino hanno numeri di serie/lotto che non sono disponibili, non eliminare le righe in questione. In alternativa, è necessario modificare il campo **Qtà da gestire** in zero, registrare i prelievi effettivi, quindi eliminare il documento di prelievo magazzino. Ciò dà la certezza che le righe di prelievo magazzino per tali numeri di serie/lotto possono essere ricreate successivamente dall'ordine vendita.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Gestione di articoli da assemblare su ordine con prelievi magazzino
-La finestra **Prelievi magazzino** è inoltre utilizzata per prelevare e spedire vendite in cui gli articoli devono essere assemblati prima che possano essere spediti. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
+La pagina **Prelievi magazzino** è inoltre utilizzata per prelevare e spedire vendite in cui gli articoli devono essere assemblati prima che possano essere spediti. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
 
 Gli articoli da spedire non sono presenti fisicamente in una collocazione finché non vengono assemblati e registrati come output in una collocazione nell'area di assemblaggio. Ciò significa che il prelievo di articoli da assemblare su ordine per la spedizione seguono un flusso speciale. Da una collocazione gli addetti alla warehouse trasferiscono gli articoli di assemblaggio al dock di spedizione, quindi registrano il prelievo magazzino. Tramite il prelievo magazzino registrato vengono quindi registrati l'output di assemblaggio, il consumo di componenti e la spedizione di vendita.
 
-È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che venga creato automaticamente un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio. Per eseguire questa operazione, è necessario selezionare il campo **Crea movimenti automaticamente** nella finestra **Setup assemblaggio**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che venga creato automaticamente un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio. Per eseguire questa operazione, è necessario selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Le righe di prelievo magazzino per articoli di vendita vengono create in modi diversi a seconda se nessuna, qualche o tutte le quantità della riga di vendita vengano assemblate su ordine.
 
@@ -101,7 +101,7 @@ Nelle vendite di assemblaggio su ordine in cui la quantità completa nella riga 
 
 Se un flusso di output assemblaggio è impostato per l'ubicazione, il valore nel campo **Cod. coll. sp. ass. su ordine** o il valore nel campo **Cod. coll. art. da assembl.**, in tale ordine, viene immesso nel campo **Codice collocazione** sulla riga di prelievo magazzino.
 
-Se nessun codice collocazione è specificato sulla riga di ordine di vendita e non è impostato alcun flusso di output dell'assemblaggio per l'ubicazione, il campo **Codice collocazione** sulla riga di prelievo magazzino è vuoto. L'addetto alla warehouse deve aprire la finestra **Contenuto collocazioni** e selezionare la collocazione in cui sono assemblati gli articoli di assemblaggio.
+Se nessun codice collocazione è specificato sulla riga di ordine di vendita e non è impostato alcun flusso di output dell'assemblaggio per l'ubicazione, il campo **Codice collocazione** sulla riga di prelievo magazzino è vuoto. L'addetto alla warehouse deve aprire la pagina **Contenuto collocazioni** e selezionare la collocazione in cui sono assemblati gli articoli di assemblaggio.
 
 Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere prelevata dal magazzino, viene creato un minimo di due righe di prelievo magazzino. Una riga di prelievo è relativa alla quantità per l'assemblaggio su ordine. L'altra riga di prelievo dipende da quali collocazioni possono soddisfare la quantità restante dal magazzino. I codici di collocazione nelle due righe vengono compilati in modi diversi come descritto rispettivamente per i due tipi diversi di vendita. Per altre informazioni, vedere la sezione "Scenari di combinazione" in [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 

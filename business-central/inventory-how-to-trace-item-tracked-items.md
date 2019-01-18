@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
@@ -24,16 +24,16 @@ ms.lasthandoff: 09/28/2018
 
  Queste funzionalità possono essere particolarmente utili in ambito di controllo qualità quando è necessario determinare quali clienti hanno ricevuto prodotti con un numero di lotto specifico o quando si desidera stabilire da quale lotto proviene un componente difettoso.  
 
- Nella finestra **Tracciabilità articolo** è possibile analizzare in avanti e indietro in una sequenza di transazioni di magazzino registrate per il numero seriale o di lotto.  
+ Nella pagina **Tracciabilità articolo** è possibile analizzare in avanti e indietro in una sequenza di transazioni di magazzino registrate per il numero seriale o di lotto.  
 
- Nella finestra **Naviga** non è possibile visualizzare la sequenza di transazioni, ma è possibile visualizzare tutti i record del numero seriale o di lotto, sia i movimenti registrati che i record aperti.  
+ Nella pagina **Naviga** non è possibile visualizzare la sequenza di transazioni, ma è possibile visualizzare tutti i record del numero seriale o di lotto, sia i movimenti registrati che i record aperti.  
 
- Le due funzionalità possono essere utilizzate in combinazione trasferendo un numero seriale o un numero di lotto analizzato alla finestra **Naviga** per completare lo scenario di analisi. Per ulteriori informazioni, vedere [Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md).  
+ Le due funzionalità possono essere utilizzate in combinazione trasferendo un numero seriale o un numero di lotto analizzato alla pagina **Naviga** per completare lo scenario di analisi. Per ulteriori informazioni, vedere [Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Analizzare articoli tracciati  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tracciabilità articolo** e quindi scegliere il collegamento correlato.  
-2.  Nei campi di filtro nella parte superiore della finestra immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
+2.  Nei campi di filtro nella parte superiore della pagina immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
 3.  Nel campo **Mostra componenti** definire se si desidera visualizzare anche la provenienza dei componenti dell'articolo. Le opzioni disponibili sono le seguenti.  
 
     |Campo|Description|  
@@ -46,13 +46,13 @@ ms.lasthandoff: 09/28/2018
 
     |Campo|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Utilizzo->Origine**|Questo metodo consente di analizzare l'articolo a partire dal punto di entrata fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella finestra **Analisi articolo** viene prima visualizzata la riga di spedizione di vendita, che può essere espansa per individuare l'ordine di produzione di provenienza.|  
-    |**Origine->Utilizzo**|questo metodo consente di analizzare l'articolo a partire dal punto di entrata nel magazzino fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella finestra **Analisi articolo** viene prima visualizzato l'ordine di produzione chiuso, che può essere espanso per individuare le righe di spedizione di vendita in cui l'articolo è stato utilizzato.|  
+    |**Utilizzo->Origine**|Questo metodo consente di analizzare l'articolo a partire dal punto di entrata fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzata la riga di spedizione di vendita, che può essere espansa per individuare l'ordine di produzione di provenienza.|  
+    |**Origine->Utilizzo**|questo metodo consente di analizzare l'articolo a partire dal punto di entrata nel magazzino fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzato l'ordine di produzione chiuso, che può essere espanso per individuare le righe di spedizione di vendita in cui l'articolo è stato utilizzato.|  
 
 5.  Scegliere l'azione **Analizza** per eseguire l'analisi.  
 
 > [!NOTE]  
->  Se uno stesso lotto è stato ricevuto in più transazioni, la finestra **Tracciabilità articolo** può non riportare tutte le transazioni. Solo le transazioni collegate vengono visualizzate.  
+>  Se uno stesso lotto è stato ricevuto in più transazioni, la pagina **Tracciabilità articolo** può non riportare tutte le transazioni. Solo le transazioni collegate vengono visualizzate.  
 
 > [!NOTE]  
 >  Se lo storico delle transazioni aggiuntive sotto una riga di analisi articolo è già stato analizzato da un'altra riga superiore, la casella di controllo **Elemento già analizzato** risulta selezionata. Per fornire una visualizzazione più semplice, tali righe sottostanti non sono mostrate.  

@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Cespiti
@@ -31,7 +31,7 @@ Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni f
 Ogni cespite può essere allegato a una o più polizze assicurative. È quindi possibile facilitare la verifica della conformità tra gli importi della polizza assicurativa e il valore dei cespiti a essa collegati. In questo modo viene agevolato anche il controllo dei premi assicurativi annuali.
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
+>   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
 
 Prima di iniziare la gestione dei cespiti, è necessario impostare valori di default, contabilità dei cespiti, categorie di registrazione, chiavi di allocazione, registrazioni, ammortamento e tipi di registrazione. Per ulteriori informazioni, vedere [Impostazione di cespiti](fa-setup.md).
 

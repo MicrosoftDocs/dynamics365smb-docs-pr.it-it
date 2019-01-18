@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -55,7 +55,7 @@ Iniziare è semplice. È necessario solo eseguire la Guida di setup assistito **
 2. Seguire le istruzioni per ogni passaggio della Guida di setup assistito.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Operazioni successive alla migrazione dei dati
-Dopo aver migrato i dati, le transazioni hanno come stato **Non registrata**, quindi è possibile esaminarle e apportare modifiche. Per verificare le transazioni, andare alla pagina in cui vengono in genere visualizzate. Ad esempio, per esaminare le fatture di vendita non registrate, andare alla finestra **Fatture di vendita**. Per verificare le registrazioni pagamenti, andare alla finestra **Registrazioni pagamenti**.   
+Dopo aver migrato i dati, le transazioni hanno come stato **Non registrata**, quindi è possibile esaminarle e apportare modifiche. Per verificare le transazioni, andare alla pagina in cui vengono in genere visualizzate. Ad esempio, per esaminare le fatture di vendita non registrate, andare alla pagina **Fatture di vendita**. Per verificare le registrazioni pagamenti, andare alla pagina **Registrazioni pagamenti**.   
 
 Esistono alcune operazioni consigliate:
 

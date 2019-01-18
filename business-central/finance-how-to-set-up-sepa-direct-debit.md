@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
-Nella finestra **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di addebito diretto SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
+Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di addebito diretto SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
 
 Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,7 +47,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
     > [!NOTE]  
     >  Non immettere un valore nel campo **Nr. contropartita**.  
 
-4. Fare clic sul pulsante **OK** per chiudere la finestra **Metodi di pagamento**.  
+4. Fare clic sul pulsante **OK** per chiudere la pagina **Metodi di pagamento**.  
 5. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
 6. Aprire la scheda del cliente che si desidera impostare per la riscossione di addebiti diretti SEPA.  
 7. Scegliere il campo **Codice metodo di pagamento**, quindi selezionare il codice del metodo di pagamento specificato nel passaggio 3.  
@@ -57,8 +57,8 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2. Aprire la scheda del cliente che si desidera impostare per l'addebito diretto SEPA.  
 3. Scegliere l'azione **C/C bancari**.  
-4. Nella finestra **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Mandati di addebito diretto**.  
-5. Nella finestra **Mandati per addebito diretto SEPA** compilare i campi come indicato nella tabella riportata di seguito.  
+4. Nella pagina **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Mandati di addebito diretto**.  
+5. Nella pagina **Mandati per addebito diretto SEPA** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  

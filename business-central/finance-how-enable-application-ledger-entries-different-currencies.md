@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8216885adb734dde214570c65b5f6036caa37d2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
@@ -24,7 +24,7 @@ Se si acquista da un fornitore con una valuta e si paga con un'altra valuta, è 
 
 In modo analogo, se si effettua una vendita a un cliente in una valuta e si riceve il pagamento in un'altra, è possibile collegare il pagamento alla fattura di vendita.
 
-Nella procedura riportata di seguito viene descritto come configurare questa impostazione per i movimenti contabili fornitori nella finestra **Setup contabilità fornitori e acquisti**. L'impostazione è simile per i movimenti contabili clienti nella finestra **Setup contabilità clienti e vendite**.
+Nella procedura riportata di seguito viene descritto come configurare questa impostazione per i movimenti contabili fornitori nella pagina **Setup contabilità fornitori e acquisti**. L'impostazione è simile per i movimenti contabili clienti nella pagina **Setup contabilità clienti e vendite**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Per abilitare il collegamento dei movimenti contabili fornitore in valute diverse
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.

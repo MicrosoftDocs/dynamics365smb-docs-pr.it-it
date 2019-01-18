@@ -10,17 +10,17 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d72a39b0fbccc0275a1f9d486d5385428d36fd85
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Per impostare i valori predefiniti generali per i cespiti
-Si definisce il comportamento generale o la funzionalità dei cespiti e si imposta la numerazione dei documenti nella finestra **Setup cespiti**.
+Si definisce il comportamento generale o la funzionalità dei cespiti e si imposta la numerazione dei documenti nella pagina **Setup cespiti**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup cespite** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Le categorie di registrazione vengono utilizzate per definire categorie di cespi
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione cespiti** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
-3. Nella finestra **Scheda Cat. Reg. Cespite** compilare i campi in base alle esigenze.
+3. Nella pagina **Scheda Cat. Reg. Cespite** compilare i campi in base alle esigenze.
 
     > [!NOTE]  
     >   Per assicurarsi che le contropartite per le diverse registrazioni cespiti vengono inserite automaticamente quando si sceglie l'azione **Inserisci conto cespiti** nelle righe di registrazione, seguire il passo successivo, sulla base della registrazione della rivalutazione.
@@ -44,14 +44,14 @@ Le transazioni possono essere assegnate a diversi reparti o progetti, in base al
 Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli cespiti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione cespiti** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Categorie registrazione cespiti** scegliere l'azione **Allocazioni** e selezionare un tipo di registrazione.
-3. Nella finestra **Allocazioni cespiti** compilare i campi in base alle esigenze.
+2. Nella pagina **Categorie registrazione cespiti** scegliere l'azione **Allocazioni** e selezionare un tipo di registrazione.
+3. Nella pagina **Allocazioni cespiti** compilare i campi in base alle esigenze.
 4. Ripetere i passaggi 2 e 3 per ogni tipo di registrazione per cui si intendono definire le chiavi di allocazione.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Per impostare le definizioni registrazioni dei cespiti
 Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
-Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
+Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la pagina **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. registrazioni cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
@@ -61,10 +61,10 @@ Una definizione delle registrazioni cespiti viene creata automaticamente la prim
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. registrazioni cespiti** e quindi scegliere il collegamento correlato.  
 2. Selezionare la definizione di registrazioni opportuna e quindi scegliere l'azione **Batch**.
-3. Nella finestra **Batch registrazioni cespiti** compilare i campi in base alle esigenze.
+3. Nella pagina **Batch registrazioni cespiti** compilare i campi in base alle esigenze.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Per impostare le definizioni registrazioni di riclassificazione dei cespiti
-È possibile utilizzare le registrazioni di riclassificazione dedicate per trasferire, suddividere o raggruppare i cespiti. Le registrazioni di riclassificazione dei cespiti vengono create automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la finestra **Reg. ricl. cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni di riclassificazione cespiti. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
+È possibile utilizzare le registrazioni di riclassificazione dedicate per trasferire, suddividere o raggruppare i cespiti. Le registrazioni di riclassificazione dei cespiti vengono create automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la pagina **Reg. ricl. cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni di riclassificazione cespiti. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. reg. riclass. cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
@@ -74,7 +74,7 @@ Una definizione delle registrazioni cespiti viene creata automaticamente la prim
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. reg. riclass. cespiti** e quindi scegliere il collegamento correlato.  
 2. Selezionare la definizione di registrazioni opportuna e quindi scegliere l'azione **Batch**.
-3. Nella finestra **Batch reg. riclass. cespiti** compilare i campi in base alle esigenze.
+3. Nella pagina **Batch reg. riclass. cespiti** compilare i campi in base alle esigenze.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Per impostare i codici di classe cespiti
 I codici di classe cespiti possono essere utilizzati per raggruppare i cespiti, ad esempio in beni materiali e immateriali.
@@ -105,7 +105,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_m
 
     Consentire l'integrazione con la contabilità generale eseguendo i passaggi seguenti. Innanzitutto, accertarsi che l'integrazione con la contabilità generale sia disabilitata per tutti i registri beni ammortizzabili, quindi registrare l'apertura dei movimenti e infine attivare l'integrazione con la contabilità generale.  
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri beni ammortizzabili** e quindi scegliere il collegamento correlato.  
-5. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la finestra **Scheda registro beni ammortizz.**
+5. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la pagina **Scheda registro beni ammortizz.**
 6. Nella Scheda dettaglio **Integrazione** assicurarsi che tutti i campi rimangano cancellando tutti i segni di spunta. Nel caso in cui si disponga di diversi registri beni ammortizzabili, disattivare l'integrazione contabilità generale per ciascuno di essi.  
 7. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:
    * Una riga con il costo di acquisto.

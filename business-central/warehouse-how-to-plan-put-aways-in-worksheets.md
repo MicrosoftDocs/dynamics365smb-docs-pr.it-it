@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
@@ -29,12 +29,12 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 > [!NOTE]  
 >  Indipendentemente dallo stato del campo **Usa prospetto stoccaggi** nella scheda ubicazione, è possibile rendere disponibili in qualsiasi momento le righe delle istruzioni di stoccaggio, ovvero le righe dei carichi registrati, nel prospetto di stoccaggio effettuando le seguenti operazioni:  
 >   
->  1.  Nella finestra **Stoccaggio warehouse** premere CTRL+D per eliminare l'intera istruzione di stoccaggio oppure selezionare le righe che si desidera elaborare nel prospetto ed eliminarle.  
+>  1.  Nella pagina **Stoccaggio warehouse** premere CTRL+D per eliminare l'intera istruzione di stoccaggio oppure selezionare le righe che si desidera elaborare nel prospetto ed eliminarle.  
 > 2.  Ripetere il processo per tutti gli stoccaggi di interesse fino a completa eliminazione di tutte le righe che si desidera gestire nel prospetto. A questo punto, scegliere **Prospetti stoccaggio** e procedere alla pianificazione.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Per pianificare le istruzioni nel prospetto di stoccaggio  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto stoccaggi** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Prendi documenti warehouse**. Verrà visualizzata la finestra **Selezione stoccaggio**.  
+2.  Scegliere l'azione **Prendi documenti warehouse**. Verrà visualizzata la pagina **Selezione stoccaggio**.  
 
     In questa finestra vengono visualizzati tutti i carichi registrati e gli stoccaggi interni registrati inoltrati alla funzione di stoccaggio, inclusi quelli per cui sono già state create istruzioni di stoccaggio. I documenti contenenti righe di stoccaggio per le quali lo stoccaggio è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  
 
@@ -54,7 +54,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
     > [!NOTE]  
     >  le righe vengono eliminate solo da questo prospetto e non dalla lista di selezione degli stoccaggi.  
 
-7.  Selezionare l'azione **Crea stoccaggio**. Verrà visualizzata la finestra **Crea documento** in cui è possibile aggiungere ulteriori informazioni relative allo stoccaggio che si sta creando, come descritto di seguito.  
+7.  Selezionare l'azione **Crea stoccaggio**. Verrà visualizzata la pagina **Crea documento** in cui è possibile aggiungere ulteriori informazioni relative allo stoccaggio che si sta creando, come descritto di seguito.  
 
     -   È possibile assegnare lo stoccaggio a un addetto al magazzino specifico.  
     -   È possibile ordinare le righe delle istruzioni di stoccaggio in base agli stessi criteri di ordinamento utilizzati nel prospetto o in base alla valutazione collocazione. Quando si esegue un ordinamento in base alla valutazione collocazione, le righe Prendere vengono visualizzate per prime, in quanto alla maggior parte delle collocazioni carichi è associata una valutazione pari a 0, mentre le righe Mettere vengono visualizzate per ultime a partire dalle collocazioni con valutazione più bassa. Se la warehouse è stata strutturata in modo che le collocazioni con valutazione simile siano posizionate l'una accanto all'altra, questa modalità di ordinamento delle righe comporta una semplificazione delle operazioni che gli impiegati warehouse dovranno eseguire.  

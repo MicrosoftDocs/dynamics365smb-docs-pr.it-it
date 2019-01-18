@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
@@ -67,7 +67,7 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 È possibile impostare le righe XBRL associando i dati della tassonomia ai dati di contabilità generale mediante mappatura.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Tassonomie XBRL** selezionare una tassonomia dall'elenco.  
+2.  Nella pagina **Tassonomie XBRL** selezionare una tassonomia dall'elenco.  
 3.  Scegliere l'azione **Righe**.  
 4.  Selezionare una riga e compilare i campi.   
 5.  Per visualizzare informazioni dettagliate sui dati da immettere, scegliere l'azione **Informazioni**.  
@@ -84,10 +84,10 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'importazione della tassonomia nel database aziendale. Una tassonomia è composta da uno o più schemi e da basi di collegamento. Al termine dell'importazione degli schemi e delle basi di collegamento e dopo avere applicato le basi di collegamento agli schemi, è possibile impostare le righe e associare i conti di contabilità generale del Piano dei Conti alle righe di tassonomia appropriate.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
-2.  Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella finestra **Tassonomie XBRL**.  
+2.  Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella pagina **Tassonomie XBRL**.  
 3.  Scegliere l'azione **Schemi** e quindi inserire la descrizione dello schema.  
-4.  Per importare lo schema, nella finestra **Schemi XBRL** scegliere l'azione **Importa** e quindi selezionare una cartella e un file XSD. Scegliere il pulsante **Apri**.  
-5.  Per importare la base di collegamento, nella finestra **Schemi XBRL** scegliere l'azione **Basi collegamento** e quindi selezionare una cartella e un file XML. Scegliere il pulsante **Apri**.  
+4.  Per importare lo schema, nella pagina **Schemi XBRL** scegliere l'azione **Importa** e quindi selezionare una cartella e un file XSD. Scegliere il pulsante **Apri**.  
+5.  Per importare la base di collegamento, nella pagina **Schemi XBRL** scegliere l'azione **Basi collegamento** e quindi selezionare una cartella e un file XML. Scegliere il pulsante **Apri**.  
 6.  A questo punto, è possibile scegliere se applicare o meno la base di collegamento allo schema. Ripetere questa procedura per importare tutte le basi di collegamento.  
 7. Scegliere l'azione **Applicare a tassonomia** per applicare la base di collegamento allo schema.  
 
@@ -98,7 +98,7 @@ La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'
 Quando una tassonomia viene modificata è necessario aggiornare di conseguenza la tassonomia corrente. Il motivo della modifica può essere uno schema modificato, una base di collegamento modificata o una nuova base collegamento. Dopo aver aggiornato la tassonomia, sarà necessario mappare le righe per le nuove righe o per quelle modificate.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Tassonomie XBRL** scegliere l'azione **Schemi**.  
+2.  Nella pagina **Tassonomie XBRL** scegliere l'azione **Schemi**.  
 3.  Per aggiornare uno schema, selezionare lo schema da aggiornare e scegliere l'azione **Importa**.  
 4.  Per aggiornare o aggiungere una nuova base di collegamento, scegliere l'azione **Basi collegamento**.  
 5.  Selezionare la relativa base di collegamento o premere CTRL+N per immettere una nuova riga, scegliere il tipo di base di collegamento, quindi inserire una descrizione.  

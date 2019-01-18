@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] i contenitori per i dati aziendali che appartengono alla Business Unit o alla persona giuridica vengono indicati con il termine *società*. Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le aziende è facile; basta accedere a **Impostazioni personali**e passare all'altra azienda. È tuttavia possibile anche creare nuove aziende in [!INCLUDE[d365fin](includes/d365fin_md.md)] in base alle esigenze aziendali. Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Crea nuova società
-Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile utilizzare il setup guidato assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla finestra **Società** e tramite la ricerca nel campo **Società** in **Impostazioni personali**.  
+Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile utilizzare il setup guidato assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** in **Impostazioni personali**.  
 
 Il setup guidato offre tre modelli:
 
@@ -36,7 +36,7 @@ Il setup guidato offre tre modelli:
 Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegliere il modello **Nuovo** se si desidera impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
 
 > [!NOTE]  
->   La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo stato del setup nella finestra **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
+>   La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
 
 Nella versione di valutazione di 30 giorni è possibile creare un numero qualsiasi di nuove società, ma saranno disponibili solo nel periodo di prova. Per altre informazioni, contattare il partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

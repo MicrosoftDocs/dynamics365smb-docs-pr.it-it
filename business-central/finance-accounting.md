@@ -11,17 +11,17 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: feb49e3c78329235cff68c8be009c996b1111812
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le finestre necessarie per lavorare.  
+Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
 
 ## <a name="accountant-role-center"></a>Gestione ruolo utente Contabile
-La Gestione ruolo utente è un dashboard con riquadri di attività che indicano le informazioni di base in tempo reale e consentono di accedere rapidamente ai dati. La barra multifunzione nella parte superiore della finestra consente di accedere a più azioni, ad esempio l'apertura in Excel di report e rendiconti finanziari di uso più comune. Nella barra di spostamento superiore, è possibile passare rapidamente tra le liste che si utilizzano con maggiore frequenza. Qui vengono visualizzate altre aree, ad esempio **Documenti registrati** con i diversi tipi di documenti registrati dalla società.  
+La Gestione ruolo utente è un dashboard con riquadri di attività che indicano le informazioni di base in tempo reale e consentono di accedere rapidamente ai dati. La barra multifunzione nella parte superiore della pagina consente di accedere a più azioni, ad esempio l'apertura in Excel di report e rendiconti finanziari di uso più comune. Nella barra di spostamento superiore, è possibile passare rapidamente tra le liste che si utilizzano con maggiore frequenza. Qui vengono visualizzate altre aree, ad esempio **Documenti registrati** con i diversi tipi di documenti registrati dalla società.  
 
 Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare una serie di video direttamente dalla Gestione ruolo utente. È inoltre possibile avviare una **Introduzione** che illustra i punti chiave.  
 

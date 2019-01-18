@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
-In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Foglio riassuntivo dei tasti di scelta rapida con formato facile da stampare](keyboard-shortcuts-cheatsheet.md)
+[Riferimento per tasti di scelta rapida con formato facile da stampare](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Sintesi
 I tasti di scelta rapida agevolano l'accessibilità e semplificano e rendono più efficace la navigazione in differenti aree e elementi in una pagina.
@@ -30,19 +30,22 @@ I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web, tu
 
 I tasti di scelta rapida qui descritti fanno riferimento al layout di tastiera statunitense. Il layout dei tasti su altri tipi di tastiere potrebbe non corrispondere esattamente alla disposizione dei tasti su una tastiera statunitense.
 
-Molte dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti per macOS. Questi sono indicati nelle parentesi nelle tabelle nelle sezioni che seguono.
+Molte dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS); tuttavia, alcune sono differenti per macOS. Questi sono indicati in parentesi nelle tabelle nelle sezioni che seguono.
 
 ##  <a name="Keyboard"></a> Tasti di scelta rapida generali
 Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazione e l'accesso a differenti elementi di una pagina, come azioni, elenchi a discesa e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva.
 
-|Premere questi tasti|Operazione da eseguire|  
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|  
 |----------------|-----------|  
-|ALT+Q|Aprire la casella **Informazioni sull'operazione che si desidera eseguire** che può aiutare a trovare una pagina, un report, un'azione nella pagina corrente o un articolo nella documentazione.|
+|ALT+Q<br />(CTRL+ALT+Q)|Aprire la casella **Informazioni sull'operazione che si desidera eseguire** che può aiutare a trovare una pagina, un report, un'azione nella pagina corrente o un articolo nella documentazione.|
+|ALT+FRECCIA SU|Mostra la descrizione comando per un campo o un'intestazione di colonna di una tabella. Se il campo include errori di convalida, premere "ALT+FRECCIA SU" per visualizzare l'errore di convalida. Premere "ESC" o "ALT+FRECCIA SU" per chiudere la descrizione comando.|
 |TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|   
 |Invio|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|   
 |ALT + freccia GIÙ|Aprire un elenco a discesa o cercare un valore per un campo.|    
 |ALT + freccia DESTRA|Visualizzare le transazioni restituite in un valore calcolato in un campo.|  
+|F5|Aggiornare i dati nella pagina corrente.|Utilizzare questa scelta rapida per garantire che i dati nella pagina siano aggiornati con le modifiche apportate da altri utenti mentre si sta lavorando.|
+|Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prodshort](includes/prodshort.md)].|È simile ad aggiornare/ricaricare nel browser.|
 |ESC|Chiudere la pagina corrente o il menu a discesa.|
 
 

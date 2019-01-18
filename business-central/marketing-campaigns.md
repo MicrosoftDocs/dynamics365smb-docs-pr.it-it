@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
@@ -23,16 +23,16 @@ Per identificare, attirare e fidelizzare i clienti, è fondamentale mettere a pu
 Ogni campagna deve prevedere diverse attività o task. È possibile combinare più task, ad esempio task che rappresentano un passaggio, nelle attività. I task delle attività sono in relazione tra essi in base a una formula di date. I singoli task possono essere assegnati solo agli agenti. Le attività possono essere assegnate a opportunità, agenti, gruppi di venditori e contatti. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definizione di campagne singole
-Prima di creare una campagna, è necessario impostare *codici di stato campagna*. L'utilizzo di questi codici consente di gestire le campagne assegnando ad esse uno stato. Lavorando alle diverse fasi della campagna, sarà possibile sapere i passaggi completati e quelli ancora da iniziare. I codici stato campagna vengono impostati nella finestra **Stato campagna**.
+Prima di creare una campagna, è necessario impostare *codici di stato campagna*. L'utilizzo di questi codici consente di gestire le campagne assegnando ad esse uno stato. Lavorando alle diverse fasi della campagna, sarà possibile sapere i passaggi completati e quelli ancora da iniziare. I codici stato campagna vengono impostati nella pagina **Stato campagna**.
 
-È possibile creare una scheda campagna per ogni campagna di cui tenere traccia. È anche possibile visualizzare queste schede campagna per visualizzare informazioni generali su ogni campagna.
+È possibile creare una scheda per ogni campagna in modo da tenere traccia di tutti i relativi aspetti. È anche possibile visualizzare queste schede campagna per visualizzare informazioni generali su ogni campagna.
 È possibile eliminare movimenti campagna, come se il movimento registrasse un'azione che è stata annullata. È possibile eliminare solo movimenti campagna annullati.
 
 ### <a name="selecting-the-target-audience"></a>Selezione del target
 Dopo avere creato una campagna, è possibile iniziare a creare segmenti che specifichino il target della campagna. Per ulteriori informazioni, vedere [Gestione dei segmenti](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrazione delle percentuali di sconto
-Dopo avere impostato la campagna, avere stabilito quali segmenti coprirà la campagna e avere impostato la data di inizio e la data di fine, sarà possibile registrare la percentuale di sconto che verrà applicata al cliente per i singoli articoli nelle righe della finestra **Sconti riga vendita**. È inoltre possibile registrare prezzi di vendita dei singoli articoli nelle righe della finestra **Prezzi vendita**. È possibile accedere a entrambe le finestre dalla scheda campagna.
+Dopo avere impostato la campagna, avere stabilito quali segmenti coprirà la campagna e avere impostato la data di inizio e la data di fine, sarà possibile registrare la percentuale di sconto che verrà applicata al cliente per i singoli articoli nelle righe della pagina **Sconti riga vendita**. È inoltre possibile registrare prezzi di vendita dei singoli articoli nelle righe della pagina **Prezzi vendita**. È possibile accedere a entrambe le pagine dalla scheda campagna.
 
  Una volta impostati i prezzi di vendita e gli sconti riga, nonché i segmenti nella Scheda Campagna, è necessario attivarli in modo che i prezzi e gli sconti vengano riportati anche nelle righe.
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c76ce91b58d6cdba09652c54696dc38a87f950
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utilizzare le unità di misura batch di produzione
 Se un articolo viene inserito in stock utilizzando un'unità di misura ma viene prodotto in un'altra, viene creato un ordine di produzione che utilizza un'unità di misura batch di produzione per calcolare la quantità corretta di componenti durante il processo batch **Aggiorna ordine produzione**. Un esempio di calcolo di un'unità di misura è il caso in cui un articolo prodotto viene inserito in stock in pezzi, ma viene prodotto in tonnellate.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Per creare una DB di produzione tramite un'unità di misura batch  
-1.  L'unità di misura batch di produzione viene impostata come unità di misura alternativa nella finestra **Unità di misura articoli** nell'articolo da produrre. L'unità di misura batch non sostituisce l'unità di misura di base nell'articolo.  
+1.  L'unità di misura batch di produzione viene impostata come unità di misura alternativa nella pagina **Unità di misura articoli** nell'articolo da produrre. L'unità di misura batch non sostituisce l'unità di misura di base nell'articolo.  
 2.  Creare una distinta base di produzione per l'articolo impostato con l'unità di misura batch di produzione. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-production-boms.md).  
 3.  Nel campo **Codice unità di misura** selezionare l'unità di misura base di produzione.  
 4.  Per ogni riga della DB di produzione, nel campo **Quantità per** immettere la quantità di questo articolo componente necessaria per creare l'unità di misura batch.  

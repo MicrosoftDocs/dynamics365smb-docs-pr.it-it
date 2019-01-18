@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="administration"></a>Setup
@@ -27,7 +27,7 @@ Se si utilizza RapidStart Services per implementare i valori di setup o questi v
 Un utente o amministratore avanzato può impostare il framework di scambio di dati per consentire agli utenti di esportare e importare i dati nei file bancari e di ruolo paga, ad esempio per i diversi processi di gestione bancaria.
 
 > [!NOTE]
-> È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere ## [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 
@@ -44,6 +44,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Gestire, eliminare o comprimere documenti|[Eliminazione di documenti](admin-manage-documents.md)|  
 |Esporre le pagine, le codeunit e le query come servizi Web.|[Pubblicazione di un servizio Web](across-how-publish-web-service.md)|
 |Come parte della creazione di app Connect tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e soluzioni di terze parti tramite API REST, definire modelli che vengono utilizzati per popolare proprietà vuote in un'entità quando si crea un'azione POST attraverso un'API.|[Configurazione di modelli di API](admin-configuring-api-template.md)|
+|Crittografare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] Server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nel server.|[Gestione crittografia dati](admin-manage-data-encryption.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Funzionalità aziendale](across-business-functionality.md)  

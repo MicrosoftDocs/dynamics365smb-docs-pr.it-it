@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
@@ -34,11 +34,11 @@ Se si utilizza il metodo di costing FIFO, il costo unitario di un articolo è il
 
 Se si utilizza il metodo di costing Media, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Per gli articoli che utilizzano il metodo di costing, è possibile selezionare il campo **Costo unitario** nella scheda articolo per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio
 
-Tramite i processi della funzione di rettifica dei costi vengono elaborati solo i movimenti di valorizzazione che non sono ancora stati rettificati. Se si verifica una situazione in cui è necessario trasferire costi in entrata modificati ai movimenti in uscita associati, vengono creati nuovi movimenti di valorizzazione di rettifica, basati sulle informazioni dei movimenti di valorizzazione originali, ma che contengono l'importo di rettifica. La funzione di rettifica dei costi viene utilizzata la data di registrazione del movimento di valorizzazione originale, a meno che tale data non sia inclusa in un periodo di magazzino chiuso. In tal caso, viene utilizzata la data di inizio del successivo periodo di magazzino aperto. Se non si utilizzano i periodi di magazzino, la data nel campo **Consenti registraz. da** nella finestra **Setup contabilità generale** verrà definita quando la rettifica viene registrata.
+Tramite i processi della funzione di rettifica dei costi vengono elaborati solo i movimenti di valorizzazione che non sono ancora stati rettificati. Se si verifica una situazione in cui è necessario trasferire costi in entrata modificati ai movimenti in uscita associati, vengono creati nuovi movimenti di valorizzazione di rettifica, basati sulle informazioni dei movimenti di valorizzazione originali, ma che contengono l'importo di rettifica. La funzione di rettifica dei costi viene utilizzata la data di registrazione del movimento di valorizzazione originale, a meno che tale data non sia inclusa in un periodo di magazzino chiuso. In tal caso, viene utilizzata la data di inizio del successivo periodo di magazzino aperto. Se non si utilizzano i periodi magazzino, la data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale** verrà definita quando la rettifica viene registrata.
 
 ## <a name="to-adjust-item-costs-manually"></a>Per rettificare i costi degli articoli manualmente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costo movimenti articoli** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Rettifica costo - Movimenti articoli** specificare per quali articoli rettificare i costi.
+2. Nella pagina **Rettifica costo - Movimenti articoli** specificare per quali articoli rettificare i costi.
 3. Scegliere il pulsante **OK**.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Per apportare modifiche generali nel costo diretto unitario

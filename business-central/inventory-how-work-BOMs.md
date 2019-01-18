@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
@@ -51,16 +51,16 @@ Esistono due passaggi per creare una DB di assemblaggio:
 1. Impostare un nuovo articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
     Continuare a inserire componenti o risorse nella distinta base di assemblaggio.  
-2. Nella finestra **Scheda articolo** per un articolo di assemblaggio, scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
-3. Nella finestra **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Scheda articolo** per un articolo di assemblaggio, scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
+3. Nella pagina **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti di un articolo di assemblaggio con indentazione in base alla struttura DB
-Nella finestra **DB assemblaggio**, è possibile aprire una finestra distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
+Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
-2. Aprire la finestra della scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella finestra **Articoli** contiene il valore **Sì**.)
-3. Nella finestra **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
-4. Nella finestra **DB assemblaggio** selezionare l'azione **Mostra DB**.
+2. Aprire la scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella pagina **Articoli** contiene il valore **Sì**.)
+3. Nella pagina **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
+4. Nella pagina **DB assemblaggio** selezionare l'azione **Mostra DB**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
@@ -75,19 +75,19 @@ La seguente procedura è basata su fattura di vendita. La stessa procedura si ap
 
 Tutti i campi nella riga della fattura di vendita per l'articolo di assemblaggio vengono cancellati ad eccezione dei campi **Descrizione** e **Articolo**. Le righe intere della fattura di vendita vengono immesse per i componenti e le risorse possibili che costituiscono l'articolo di assemblaggio.
 
-**Nota**: la funzione Esplodi DB è anche disponibile nella finestra **DB assemblaggio**.
+**Nota**: la funzione Esplodi DB è anche disponibile nella pagina **DB assemblaggio**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Per calcolare il costo standard di un articolo di assemblaggio
 Si calcola il costo unitario di un articolo di assemblaggio eseguendo il ricalcolo del costo unitario di ciascun componente e risorsa nella DB di assemblaggio dell'articolo.
 
-È inoltre possibile calcolare e aggiornare il costo standard di un o più articoli nella finestra **Prospetto costo standard**. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).  
+È inoltre possibile calcolare e aggiornare il costo standard di un o più articoli nella pagina **Prospetto costo standard**. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).  
 
 Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi unitari dei suoi componenti, comprese le DB di assemblaggio ed eventuali risorse.
 
 1. Nell'angolo superiore destro, scegliere l'icona **Cerca pagina o report**, immettere **Articoli**, quindi scegliere il collegamento correlato.
-2. Aprire la finestra della scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella finestra **Articoli** contiene il valore **Sì**.)
-3. Nella finestra **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
-4. Nella finestra **DB assemblaggio**, selezionare l'azione **Calc. costo standard**.
+2. Aprire la scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella pagina **Articoli** contiene il valore **Sì**.)
+3. Nella pagina **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
+4. Nella pagina **DB assemblaggio**, selezionare l'azione **Calc. costo standard**.
 5. Selezionare una delle seguenti opzioni e scegliere il pulsante **OK**.
 
 |Opzione |Description |

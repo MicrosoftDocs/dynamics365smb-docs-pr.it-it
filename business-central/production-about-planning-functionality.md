@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
@@ -73,7 +73,7 @@ I modificatori di ordini seguenti sono presenti nella scheda articolo o USK:
 -   Quantità massima ordine  
 -   Molteplicità ordine  
 
-I campi di setup di pianificazione globale nella finestra **Setup manufacturing** includono:  
+I campi di setup di pianificazione globale nella pagina **Setup manufacturing** includono:  
 
 -   Cod. ultimo livello dinamico  
 -   Previsione della domanda corrente  
@@ -95,7 +95,7 @@ Ciò indica se l'approvvigionamento rappresentato dalla riga dell'ordine di prod
 Se nel campo è impostato il valore **Illimitata**, il sistema di pianificazione include la riga nel calcolo dei messaggi di azione. Se nel campo è impostato il valore **Nessuna**, la riga sarà fissa e non modificabile e non verrà inserita nel calcolo dei messaggi di azione.
 
 ### <a name="warning"></a>Avviso
-Nel campo **Avviso** della finestra **Prospetto pianificazione** viene visualizzato un messaggio per ogni riga di pianificazione creata per una situazione insolita. L'utente può scegliere di leggere ulteriori informazioni. Sono disponibili i seguenti tipi di avviso:
+Nel campo **Avviso** della pagina **Prospetto pianificazione** viene visualizzato un messaggio per ogni riga di pianificazione creata per una situazione insolita. L'utente può scegliere di leggere ulteriori informazioni. Sono disponibili i seguenti tipi di avviso:
 
 - Emergenza
 - Eccezione

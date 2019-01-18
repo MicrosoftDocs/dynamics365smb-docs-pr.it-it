@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
@@ -28,7 +28,7 @@ Di seguito viene descritto come tenere traccia a partire da una riga ordine di v
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Aprire un ordine di vendita a partire dal quale tenere traccia.  
 3.  Selezionare una riga, quindi scegliere l'azione **Tracciabilità riga documento**.
-4. Nella finestra **Tracciabilità righe documenti** selezionare il documento che si desidera visualizzare, quindi scegliere l'azione **Mostra** per visualizzare la riga correlata.
+4. Nella pagina **Tracciabilità righe documenti** selezionare il documento che si desidera visualizzare, quindi scegliere l'azione **Mostra** per visualizzare la riga correlata.
 5. Per visualizzare l'intero documento per la linea di documento selezionata, scegliere l'azione **Mostra documento**.
 
 ## <a name="see-also"></a>Vedi anche

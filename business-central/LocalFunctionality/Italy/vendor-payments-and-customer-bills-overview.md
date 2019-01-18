@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ed613f77d21eac9af13b9c357a6da8ad6108d73
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6fd518400dfc7de0a207288e8445a3d765fb54a0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
@@ -29,7 +29,7 @@ Inoltre, questa funzionalità di pagamento degli effetti supporta l'emissione de
 
 Analogamente, è possibile emettere un documento di fatturazione ai clienti con pagamenti dovuti in corrispondenza o prima di una certa data. I clienti possono pagare l'importo alla banca che quindi trasferisce l'importo al conto corrente bancario. L'effetto viene quindi dato al cliente come prova della ricezione del pagamento.  
 
-Prima di poter elaborare gli effetti, è necessario aggiungere le informazioni bancarie nella finestra **Informazioni società**. È inoltre necessario creare le categorie di registrazione effetti e assegnare un gruppo di registrazione effetti al conto corrente bancario che verrà utilizzato per gli effetti automatici. Per ulteriori informazioni, vedere [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md). Quindi, è possibile generare le liste degli effetti dei clienti e dei fornitori ed elaborarle.
+Prima di poter elaborare gli effetti, è necessario aggiungere le informazioni bancarie nella pagina **Informazioni società**. È inoltre necessario creare le categorie di registrazione effetti e assegnare un gruppo di registrazione effetti al conto corrente bancario che verrà utilizzato per gli effetti automatici. Per ulteriori informazioni, vedere [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md). Quindi, è possibile generare le liste degli effetti dei clienti e dei fornitori ed elaborarle.
 
 ## <a name="see-also"></a>Vedi anche  
  [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md)   

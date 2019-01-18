@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
@@ -72,7 +72,7 @@ La valutazione della collocazione viene presa in considerazione quando più coll
     Se il campo **Stato del documento** è vuoto, ciò indica che il carico non è stato assolutamente stoccato. In caso contrario, il campo indica che il carico è parzialmente o completamente stoccato.  
 
 4.  Se il carico non è stato stoccato o è stato stoccato solo parzialmente, scegliere l'azione **Crea stoccaggio**.  
-5.  Immettere le informazioni appropriate nella finestra di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK**.   
+5.  Immettere le informazioni appropriate nella pagina di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK**.   
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

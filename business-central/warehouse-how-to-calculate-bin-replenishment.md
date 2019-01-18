@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
@@ -31,7 +31,7 @@ Infine, se per le collocazioni di immagazzinamento a massa è stato impostato un
 ## <a name="to-replenish-pick-bins"></a>Per rifornire le collocazioni di prelievo  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola rifornimento collocazione** per aprire la pagina di richiesta report.  
-3.  Compilare i campi della finestra di richiesta del processo batch in modo da circoscrivere l'ambito dei suggerimenti calcolati relativi al rifornimento. È ad esempio possibile che si sia interessati solo a specifici articoli, zone o collocazioni.  
+3.  Compilare i campi della pagina di richiesta del processo batch in modo da circoscrivere l'ambito dei suggerimenti calcolati relativi al rifornimento. È ad esempio possibile che si sia interessati solo a specifici articoli, zone o collocazioni.  
 4.  Scegliere il pulsante **OK**. Le righe vengono create per i movimenti di rifornimento da eseguire in base alle regole impostate per le collocazioni e il relativo contenuto, ovvero articoli nelle collocazioni.  
 5.  Se si desidera effettuare tutti i rifornimenti suggeriti, scegliere l'azione **Crea movimento**. A questo punto, gli impiegati potranno visualizzare le istruzioni utilizzando la voce di menu **Movimentazioni**, eseguirle e registrarle.  
 6.  Se si desidera che vengano eseguiti solo alcuni suggerimenti, eliminare le righe meno importanti e creare un movimento.  

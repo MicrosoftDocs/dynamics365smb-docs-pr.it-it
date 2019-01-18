@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: it-it
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Aggiungere clienti al dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-È possibile aggiungere un client utilizzando la finestra **Client**, che è possibile aprire scegliendo l'azione **Gestione client** nella barra multifunzione. Scegliere **Nuovo** e compilare i campi.  
+È possibile aggiungere un client utilizzando la pagina **Client**, che è possibile aprire scegliendo l'azione **Gestione client** nella barra multifunzione. Scegliere **Nuovo** e compilare i campi.  
 
-![Aggiungere un cliente](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Aggiungere un cliente](./media/accountant-add-client/manage-client.png)
 
 I dati della scheda per ciascun client sono specificati dall'utente e possono essere modificati secondo le necessità. Tuttavia, il campo **URL client** è fondamentale, indica come è possibile accedere a [!INCLUDE [d365fin](includes/d365fin_md.md)] di ogni client. Utilizzare l'azione **Convalida URL client** nella barra multifunzione per verificare che sia stato inserito il collegamento corretto. La URL che è necessario immettere indirizza alla soluzione [!INCLUDE [d365fin](includes/d365fin_md.md)] del client e include il relativo indirizzo di dominio. Ad esempio, se è stato specificato un dominio come MyBusiness.com, il collegamento alla soluzione [!INCLUDE [d365fin](includes/d365fin_md.md)] sarà *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Prima dell'aggiornamento di maggio 2018, l'URL specificato aveva un formato diverso con il nome dell'azienda del cliente all'inizio. Con l'aggiornamento di maggio 2018, il formato è ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1``` dove ```clientdomain``` rappresenta il dominio del client.  
+>  Prima dell'aggiornamento di maggio 2018, l'URL specificato aveva un formato diverso con il nome dell'azienda del cliente all'inizio. Nella versione corrente di [!INCLUDE [d365fin](includes/d365fin_md.md)], il formato è ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, dove ```clientdomain``` rappresenta il dominio del client.  
 
 L'URL del client viene quindi utilizzato quando si sceglie la voce di menu **Vai a società** nel dashboard di [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 

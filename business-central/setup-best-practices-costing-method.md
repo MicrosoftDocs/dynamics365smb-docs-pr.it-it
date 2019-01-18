@@ -1,6 +1,6 @@
 ---
 title: 'Impostare le procedure ottimali: Metodo di costing | Documenti Microsoft'
-description: Il **Metodo di costing** sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.
+description: Il Metodo di costing sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f268c69b4ec5dbc3975392fb174b8d571c08bcb4
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 0e52344ffe60a03e6bb9a64e798f639e9c3109a9
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="setup-best-practices-costing-method"></a>Impostare le procedure ottimali: metodo di costing

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
@@ -40,7 +40,7 @@ Gli ordini di produzione costituiscono il punto iniziale per:
 -   Tracciabilità della produzione finita  
 
 ## <a name="production-order-creation"></a>Creazione di ordini di produzione  
-Gli ordini di produzione possono essere creati manualmente ordine per ordine nella finestra **Ordine di produzione** oppure possono essere generati nelle finestre **Pianifica ordine vendita** o **Pianificazione ordini**. È possibile creare più ordini nella finestra **Prospetto pianificazione**.  
+Gli ordini di produzione possono essere creati manualmente ordine per ordine nella pagina **Ordine di produzione** oppure possono essere generati nelle pagine **Ordine vendita** o **Pianificazione ordine**. È possibile creare più ordini nella pagina **Prospetto pianificazione**.  
 
 Gli ordini di produzione vengono creati utilizzando le informazioni relative a:  
 
@@ -54,8 +54,8 @@ Gli ordini di produzione vengono creati utilizzando le informazioni relative a:
 Gli ordini di produzione vengono impegnati e tracciati automaticamente nella rispettiva origine quando:  
 
 -   Vengono creati nella finestra **Prospetto pianificazione**  
--   Vengono creati con la funzione relativa agli ordini nella finestra **Pianifica ordine vendita**  
--   Vengono creati nella finestra **Pianificazione ordini**  
+-   Vengono creati con la funzione relativa agli ordini nella pagina **Pianifica ordine vendita**  
+-   Vengono creati nella pagina **Pianificazione ordini**  
 -   Si utilizza la funzione **Ripianifica** negli ordini di produzione  
 
 Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
@@ -63,7 +63,7 @@ Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e
 Gli ordini di produzione creati tramite altri mezzi non vengono impegnati e tracciati automaticamente.   
 
 ## <a name="production-order-status"></a>Stato dell'ordine di produzione  
-Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nel programma. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in finestre diverse in base allo stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
+Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nel programma. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
 
 ### <a name="simulated-production-order"></a>Ordine di produzione simulato  
 L'ordine di produzione simulato si distingue in base alle seguenti caratteristiche:  

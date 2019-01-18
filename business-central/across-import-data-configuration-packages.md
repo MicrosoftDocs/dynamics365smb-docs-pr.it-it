@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 45a236dfeb7a5ce489cf8917d6a08a92ca5c4e8b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importazione dei dati aziendali da altri sistemi contabili
@@ -24,7 +24,7 @@ Dalla Gestione ruolo utente, è possibile avviare una guida al setup assistito c
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include modelli per i conti, i clienti, i fornitori e gli articoli di magazzino collegabili quando si importano i dati.
 
-È possibile importare dati master e alcuni dati transazionali da altri sistemi finanziari in base al pacchetto di configurazione standard disponibile in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nella finestra **Pacchetti di configurazione** è possibile utilizzare il pacchetto per importare e convalidare i dati prima di applicare il pacchetto.  
+È possibile importare dati master e alcuni dati transazionali da altri sistemi finanziari in base al pacchetto di configurazione standard disponibile in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nella pagina **Pacchetti di configurazione** è possibile utilizzare il pacchetto per importare e convalidare i dati prima di applicare il pacchetto.  
 
 > [!TIP]  
 > In alternativa, usare le procedure guidate di migrazione dati per importare i dati da QuickBooks o Dynamics GP. Per ulteriori informazioni, vedere [Migrazione dei dati di QuickBooks](ui-extensions-quickbooks-data-migration.md) o [Migrazione dei dati di Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
@@ -46,7 +46,7 @@ Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a for
 2.  Creare una nuova società per il modello della soluzione o del settore. Per ulteriori informazioni, vedere [Creare una nuova società](admin-how-to-create-a-new-company.md).  
 3.  Impostare la nuova società nel modo desiderato. Compilare tutte le tabelle di setup necessarie.  
 4.  Apre la nuova società.
-5. Aprire la finestra **Foglio di lavoro configurazione**.  
+5. Aprire la pagina **Foglio di lavoro configurazione**.  
 6.  Aggiungere al prospetto le tabelle da trasferire a un'altra società. Assegnare le righe del prospetto al pacchetto.  
 7.  Creare un questionario per le tabelle di setup utilizzate con maggiore frequenza.  
 8.  Creare modelli di configurazione per facilitare la creazione di dati master, ad esempio clienti o articoli.  

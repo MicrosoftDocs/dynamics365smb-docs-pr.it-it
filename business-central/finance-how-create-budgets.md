@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Creare budget C/G
@@ -34,11 +34,11 @@ Nella contabilità industriale si utilizzano i budget costi in modo simile. Per 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Budget C/G** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Modifica lista** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Modifica budget**.
-4. All'inizio della finestra **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
+4. All'inizio della pagina **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
 
-    Verranno visualizzati solo i movimenti che contengono il nome del budget indicato nel campo **Nome budget**. Poiché il nome budget è appena stato creato non ci saranno movimenti corrispondenti al filtro. Di conseguenza, la finestra sarà vuota.  
-5. Per immettere un importo, selezionare la appropriata nella matrice. Verrà visualizzata la finestra **Movimenti budget C/G**.  
-6. Creare una nuova riga e compilare il campo **Importo**. Chiudere la finestra **Movimenti budget C/G**.  
+    Verranno visualizzati solo i movimenti che contengono il nome del budget indicato nel campo **Nome budget**. Poiché il nome budget è appena stato creato non ci saranno movimenti corrispondenti al filtro. Di conseguenza, la pagina sarà vuota.  
+5. Per immettere un importo, selezionare la appropriata nella matrice. Verrà visualizzata la pagina **Movimenti budget C/G**.  
+6. Creare una nuova riga e compilare il campo **Importo**. Chiudere la pagina **Movimenti budget C/G**.  
 7. Ripetere i passaggi da 5 a 6 per immettere tutti gli importi del budget.  
 
 > [!NOTE]  

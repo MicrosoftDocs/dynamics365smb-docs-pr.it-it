@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
@@ -42,8 +42,8 @@ Se di effettua l'ordinamento in base alla data di scadenza, è possibile sceglie
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prelievi** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Prendi documenti warehouse**.  
 3.  Selezionare le spedizioni per cui preparare un prelievo. A questo punto, le righe possono essere ordinate solo in certa misura, ma l'ordinamento specificato in questa fase non viene applicato all'istruzione di prelievo. È inoltre possibile eliminare alcune righe per creare un prelievo più efficace. Se ad esempio vi sono diverse righe con articoli nelle collocazioni di cross-dock, può essere utile creare un prelievo per tutte le righe associate a tali righe. Gli articoli sottoposti a cross-dock verranno spediti insieme agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
-4.  Scegliere l'azione **Crea prelievo** e compila la finestra di richiesta **Crea prelievo**. Le righe di prelievo create verranno ordinate in base ai criteri di ordinamento specificati in questa finestra. È ad esempio possibile creare un prelievo per ciascuna zona e ordinare le righe in base alla valutazione della collocazione all'interno di ciascun prelievo.  
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato. Verrà visualizzata la finestra **Prelievi**.  
+4.  Scegliere l'azione **Crea prelievo** e compila la pagina di richiesta **Crea prelievo**. Le righe di prelievo create verranno ordinate in base ai criteri di ordinamento specificati in questa finestra. È ad esempio possibile creare un prelievo per ciascuna zona e ordinare le righe in base alla valutazione della collocazione all'interno di ciascun prelievo.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Prelievi**.  
 6.  È possibile individuare l'assegnazione di prelievo appena creata selezionando il prelievo con il numero più elevato.  
 7.  Se necessario, modificare l'ID utente assegnato e la modalità di ordinamento delle righe nel prelievo.  
 8.  Scegliere l'azione **Stampa** per stampare le istruzioni per il prelievo.  

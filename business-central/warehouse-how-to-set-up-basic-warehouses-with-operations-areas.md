@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
 Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di base della warehouse in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare i seguenti documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne:  
 
-- Finestra **Movimento di magazzino**.  
-- Finestra **Prelievi magazzino**.  
-- Finestra **Stoccaggio magazzino**.
+- Pagina **Movimento di magazzino**.  
+- Pagina **Prelievi magazzino**.  
+- Pagina **Stoccaggio in magazzino**.
 
 > [!NOTE]
 > Anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.  
 
-Per utilizzare queste finestre con le operazioni interne, ad esempio prelevare e spostare componenti in produzione, è necessario impostare alcune o tutte le seguenti procedure di setup in base al livello di controllo richiesto:  
+Per utilizzare queste pagine con le operazioni interne, ad esempio prelevare e spostare componenti in produzione, è necessario impostare alcune o tutte le seguenti procedure di setup in base al livello di controllo richiesto:  
 
 - Abilitare i documenti relativi a prelievi magazzino, spostamento e stoccaggio.  
 - Definire le strutture di collocazione di default per i componenti e gli articoli finali trasferiti da e verso le risorse dell'operazione.  
@@ -59,14 +59,14 @@ Le procedure riportate di seguito sono basate sull'impostazione di attività di 
 
 5. Nel campo **Cod. coll. art. da produzione** della Scheda Dettaglio **Collocazioni** immettere il codice della collocazione nell'area di produzione da cui gli articoli finali completati vengono prelevati per default quando il processo comporta un'attività di warehouse. Nelle configurazioni di warehouse di base, l'attività viene registrata come uno stoccaggio o un movimento di magazzino.  
 
-A questo punto, le righe dei componenti dell'ordine di produzione con il codice collocazione di default che necessitano di componenti prelevati a priori vengono posizionate in quel punto. Tuttavia, fino a quando i componenti vengono utilizzati da tale collocazione, in seguito alle domande di altri componenti è possibile prelevare o utilizzare questi ultimi da tale collocazione perché sono ancora considerati contenuti della collocazione disponibili. Per verificare che il contenuto della collocazione sia disponibile solo per la domanda di componenti che utilizza la collocazione articoli per produzione, è necessario selezionare il campo **Dedicata** sulla riga per tale codice collocazione nella finestra **Collocazioni** aperta dalla scheda ubicazione.
+A questo punto, le righe dei componenti dell'ordine di produzione con il codice collocazione di default che necessitano di componenti prelevati a priori vengono posizionate in quel punto. Tuttavia, fino a quando i componenti vengono utilizzati da tale collocazione, in seguito alle domande di altri componenti è possibile prelevare o utilizzare questi ultimi da tale collocazione perché sono ancora considerati contenuti della collocazione disponibili. Per verificare che il contenuto della collocazione sia disponibile solo per la domanda di componenti che utilizza la collocazione articoli per produzione, è necessario selezionare il campo **Dedicata** sulla riga per tale codice collocazione nella pagina **Collocazioni** aperta dalla scheda ubicazione.
 
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup.  
 
 ![Diagramma di flusso collocazione](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Per definire una struttura di collocazione di default nell'area di assemblaggio
-I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la finestra **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Durante il prelievo e la spedizione di quantità righe di vendita assemblate sull'ordine, è necessario seguire determinate regole per la creazione di righe di prelievo magazzino. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Lo stesso codice collocazione a sua volta viene copiato nel campo **Codice collo
 ## <a name="to-create-dedicated-component-bins"></a>Per creare collocazioni di componenti dedicate
 È possibile specificare che le quantità in una collocazione siano protette dal prelievo per domande diverse da quella corrente.
 
-Le quantità nelle collocazioni dedicate possono comunque essere impegnate. Di conseguenza, le quantità nelle collocazioni dedicate sono incluse nel campo **Quantità totale disponibile** della finestra **Impegno**.
+Le quantità nelle collocazioni dedicate possono comunque essere impegnate. Di conseguenza, le quantità nelle collocazioni dedicate sono incluse nel campo **Quantità totale disponibile** della pagina **Impegno**.
 
-Ad esempio, un'area di produzione impostata con un codice collocazione nel campo **Cod. coll. art. per produzione**. Le righe componenti di ordini di produzione con il codice collocazione che necessitano di componenti prelevati a priori vengono posizionate in quel punto. Tuttavia, fino a quando i componenti vengono utilizzati da tale collocazione, in seguito alle domande di altri componenti è possibile prelevare o utilizzare questi ultimi da tale collocazione perché sono ancora considerati contenuti della collocazione disponibili. Per verificare che il contenuto della collocazione sia disponibile solo per la domanda di componenti che utilizza la collocazione articoli per produzione, è necessario selezionare il campo **Dedicata** sulla riga per tale codice collocazione nella finestra **Collocazioni** aperta dalla scheda ubicazione.
+Ad esempio, un'area di produzione impostata con un codice collocazione nel campo **Cod. coll. art. per produzione**. Le righe componenti di ordini di produzione con il codice collocazione che necessitano di componenti prelevati a priori vengono posizionate in quel punto. Tuttavia, fino a quando i componenti vengono utilizzati da tale collocazione, in seguito alle domande di altri componenti è possibile prelevare o utilizzare questi ultimi da tale collocazione perché sono ancora considerati contenuti della collocazione disponibili. Per verificare che il contenuto della collocazione sia disponibile solo per la domanda di componenti che utilizza la collocazione articoli per produzione, è necessario selezionare il campo **Dedicata** sulla riga per tale codice collocazione nella pagina **Collocazioni** aperta dalla scheda ubicazione.
 
 La creazione di una collocazione dedicata fornisce una funzionalità simile all'utilizzo di tipi di collocazione, disponibile solo nella gestione warehouse avanzata. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Gli articoli nelle collocazioni dedicate non sono protetti quando vengono prelevati e utilizzati come componenti di produzione tramite la finestra Prelievo magazzino.
+> Gli articoli nelle collocazioni dedicate non sono protetti quando vengono prelevati e utilizzati come componenti di produzione tramite la pagina Prelievo magazzino.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato. Selezionare l'ubicazione che si desidera aggiornare.  
 2.  Scegliere l'azione **Collocazioni**.  

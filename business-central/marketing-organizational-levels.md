@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Configurare i livelli organizzativi per i contatti
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/28/2018
 L'utilizzo dei livelli organizzativi nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice livello organizzativo. Questo passaggio deve essere eseguito una sola volta per ogni livello organizzativo. Dopo aver creato un codice livello organizzativo, è possibile iniziare ad assegnarlo ai contatti.
 
 ## <a name="to-define-an-organizational-level-code"></a>Per definire un codice livello organizzativo
-Il codice livello organizzativo definisce il tipo o la categoria di livello organizzativo, ad esempio CEO o CFO. È possibile impostare più codici di livello organizzativo. Per definire il livello organizzativo, utilizzare la finestra **Livelli organizzativi**.
+Il codice livello organizzativo definisce il tipo o la categoria di livello organizzativo, ad esempio CEO o CFO. È possibile impostare più codici di livello organizzativo. Per definire il livello organizzativo, utilizzare la pagina **Livelli organizzativi**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Livelli organizzativi** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.

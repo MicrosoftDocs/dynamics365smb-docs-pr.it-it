@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 797f17f3cc59968108ae1a4a1e76b1d9cde10ff9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8d99528f7775f4404d7495b5f25b9b6203ccf084
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-automatic-payments-and-automatic-bills"></a>Impostare i pagamenti automatici e gli effetti automatici
@@ -40,9 +40,9 @@ Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le 
 5.  Scegliere il pulsante **OK**.  
 
     > [!IMPORTANT]  
-    >  Prima di esportare un effetto fornitore, è necessario selezionare il formato di pagamento nel campo **Formato esportazione pagamento** nella finestra **Scheda conto corrente bancario**.  
+    >  Prima di esportare un effetto fornitore, è necessario selezionare il formato di pagamento nel campo **Formato esportazione pagamento** nella pagina **Scheda conto corrente bancario**.  
     >   
-    >  Prima di esportare un effetto cliente, è necessario selezionare il formato di pagamento nel campo **Formato esport. addebito dir. SEPA** nella finestra **Scheda conto corrente bancario**.  
+    >  Prima di esportare un effetto cliente, è necessario selezionare il formato di pagamento nel campo **Formato esport. addebito dir. SEPA** nella pagina **Scheda conto corrente bancario**.  
 
 Di seguito viene descritto come impostare gli effetti automatici per vendite e incassi, ma gli stessi passaggi sono applicabili per l'impostazione di acquisti e debiti per l'utilizzo dei pagamenti automatici.  
 
@@ -67,7 +67,7 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 2.  Selezionare il metodo di pagamento utilizzato per i trasferimenti bancari ai fornitori, quindi nel campo **Cod. effetto**, selezionare un codice effetto.  
 
     1.  Per creare un codice effetto, nel campo **Cod. effetto**, scegliere il campo quindi scegliere l'azione **Nuovo**.  
-    2.  Compilare i campi nella finestra **Effetto**.
+    2.  Compilare i campi della pagina **Effetto**.
 
 A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo che vengano gestiti automaticamente.  
 

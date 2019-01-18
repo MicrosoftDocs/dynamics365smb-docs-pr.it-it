@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
@@ -38,7 +38,7 @@ In genere si utilizza l'*assemblaggio su ordine* per gli articoli che non si des
 
 Nel processo di assemblaggio su ordine, l'articolo è assemblato in risposta a un ordine di vendita e con un collegamento uno-a-uno tra l'ordine di assemblaggio e l'ordine di vendita.  
 
-Quando si immette un articolo da assemblare su ordine in una riga di vendita, viene creato automaticamente un ordine di assemblaggio con una testata basata sulla riga vendita e con righe basate sulla DB di assemblaggio dell'articolo moltiplicate per la quantità dell'ordine. È possibile utilizzare la finestra **Righe di assemblaggio su ordine** per visualizzare le righe dell'ordine di assemblaggio collegato allo scopo di supportare la personalizzazione dell'articolo di assemblaggio e una data di consegna basata su informazioni relative alla disponibilità dei componenti. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
+Quando si immette un articolo da assemblare su ordine in una riga di vendita, viene creato automaticamente un ordine di assemblaggio con una testata basata sulla riga vendita e con righe basate sulla DB di assemblaggio dell'articolo moltiplicate per la quantità dell'ordine. È possibile utilizzare la pagina **Righe di assemblaggio su ordine** per visualizzare le righe dell'ordine di assemblaggio collegato allo scopo di supportare la personalizzazione dell'articolo di assemblaggio e una data di consegna basata su informazioni relative alla disponibilità dei componenti. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Benché non rientri nel processo di default, è possibile vendere le quantità di magazzino con le quantità per l'assemblaggio su ordine. Per altre informazioni, vedere [Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

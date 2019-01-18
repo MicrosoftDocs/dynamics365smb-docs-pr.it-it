@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
@@ -102,7 +102,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Per lo scenario 1, identificare il problema nel modo seguente:  
 
--   Nella finestra **Nota cred. di vend. reg.** o **Carico da reso registrato**, verificare se il campo **Collega\-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
+-   Nella pagina **Nota cred. di vend. reg.** o **Carico da reso registrato**, verificare se il campo **Collega\-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
 
  Per lo scenario 2, identificare il problema in uno dei due seguenti modi:  
 
@@ -113,10 +113,10 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|No|  
 |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|**Sì**|  
 
--   Nella finestra **Spedizioni vendita registrate**, verificare se il campo **Collega-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
+-   Nella pagina **Spedizioni vendita registrate**, verificare se il campo **Collega-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
 
 > [!NOTE]  
->  I collegamenti costo non possono essere identificati nella finestra **Mov. articoli collegati** perché quella finestra visualizza solo i collegamenti quantità.  
+>  I collegamenti costo non possono essere identificati nella pagina **Mov. articoli collegati** perché quella pagina visualizza solo i collegamenti quantità.  
 
  Per entrambi gli scenari, identificare il collegamento costo interessato nel modo seguente:  
 
@@ -138,7 +138,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
  Da notare che il movimento contabile articolo in entrata 334 è collegato al costo al movimento contabile articolo in uscita 333.  
 
 ## <a name="workaround-for-the-issue"></a>Soluzione alternativa per il problema  
- Nella finestra **Registrazioni magazzino**, registrare le seguenti righe per l'articolo in questione:  
+ Nella pagina **Registrazioni magazzino**, registrare le seguenti righe per l'articolo in questione:  
 
 -   Una rettifica positiva per chiudere il movimento contabile articolo in uscita aperto.  
 

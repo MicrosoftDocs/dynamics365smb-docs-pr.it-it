@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2521ab3100b11ebdc8c521696eca2bafa0447a15
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e045a4d9ae316e42dbb49a1dab0dd3a83bb45e8d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fiscal-inventory-valuation"></a>Valutazione magazzino fiscale
@@ -29,21 +29,21 @@ ms.lasthandoff: 03/22/2018
 - Costo LIFO discreto  
 
 ## <a name="fiscal-inventory-valuation-in-included365finincludesd365finmdmd"></a>Valutazione magazzino fiscale in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
-Inizialmente, è necessario impostare la valutazione magazzino fiscale per tutti i tipi di costo nella finestra **Setup costing articolo** e nella finestra **Scheda articolo**. Per ulteriori informazioni, vedere [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md).  
+Inizialmente, è necessario impostare la valutazione magazzino fiscale per tutti i tipi di costo nella pagina **Setup costing articolo** e nella pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md).  
 
-Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è necessario immettere i movimenti contabili del magazzino per il primo anno per calcolare la valutazione dell'articolo. È possibile effettuare questa operazione nella finestra Costo articolo prima dell'inizio.  
+Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è necessario immettere i movimenti contabili del magazzino per il primo anno per calcolare la valutazione dell'articolo. È possibile effettuare questa operazione nella pagina Costo articolo prima dell'inizio.  
 
-Per calcolare il costo LIFO discreto, è necessario impostare le informazioni nella finestra **Scheda articolo** e nella finestra **Prezzi Conto Lavoro**.
+Per calcolare il costo LIFO discreto, è necessario impostare le informazioni nella pagina **Scheda articolo** e nella pagina **Prezzi Conto Lavoro**.
 
 > [!NOTE]  
->  Il costo LIFO discreto può essere calcolato solo per gli articoli per i quali il campo **Valutazione magazzino** è impostato su **LIFO discreto** nella finestra **Scheda articolo**.
+>  Il costo LIFO discreto può essere calcolato solo per gli articoli per i quali il campo **Valutazione magazzino** è impostato su **LIFO discreto** nella pagina **Scheda articolo**.
 
 Dopo aver impostato il calcolo del costo LIFO discreto, è possibile registrare le transazioni di vendita e acquisto basate sui costi di fine anno.  
 
 ## <a name="end-of-year"></a>Fine anno  
- Alla fine dell'anno fiscale, è possibile eseguire il processo batch Calcola costi fine anno per calcolare il valore del magazzino fiscale di ogni articolo di magazzino in base ai metodi di valutazione richiesti. I risultati sono visualizzati nella finestra Lista storico costo articolo. Quindi, è possibile eseguire il report **Valutazione fiscale magazzino** e il report **Valutazione LIFO** per visualizzare la valutazione del magazzino.  
+ Alla fine dell'anno fiscale, è possibile eseguire il processo batch Calcola costi fine anno per calcolare il valore del magazzino fiscale di ogni articolo di magazzino in base ai metodi di valutazione richiesti. I risultati sono visualizzati nella pagina Lista storico costo articolo. Quindi, è possibile eseguire il report **Valutazione fiscale magazzino** e il report **Valutazione LIFO** per visualizzare la valutazione del magazzino.  
 
- Per le operazioni di fine anno, come il calcolo di profitti e delle perdite in un anno fiscale, esiste un periodo definitivo e un periodo non definitivo. Se il campo **Anno di competenza** della finestra **Lista storico costo articolo** è uguale alla data di fine dell'anno fiscale, è un periodo definitivo e non è possibile ricalcolare i dati per un periodo definitivo. Se i dati definitivi differiscono dalla data di fine dell'anno fiscale, si tratta di un periodo non definitivo. Per eseguire calcoli o calcoli parziali è necessario disporre dei dati relativi ad almeno un periodo non definitivo.
+ Per le operazioni di fine anno, come il calcolo di profitti e delle perdite in un anno fiscale, esiste un periodo definitivo e un periodo non definitivo. Se il campo **Anno di competenza** della pagina **Lista storico costo articolo** è uguale alla data di fine dell'anno fiscale, è un periodo definitivo e non è possibile ricalcolare i dati per un periodo definitivo. Se i dati definitivi differiscono dalla data di fine dell'anno fiscale, si tratta di un periodo non definitivo. Per eseguire calcoli o calcoli parziali è necessario disporre dei dati relativi ad almeno un periodo non definitivo.
 
 ## <a name="see-also"></a>Vedi anche  
  [Funzionalità locale per l'Italia](italy-local-functionality.md)   

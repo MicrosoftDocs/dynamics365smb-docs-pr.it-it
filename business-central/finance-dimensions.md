@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
@@ -36,7 +36,7 @@ Più dimensioni si utilizzano, più dettagliati sono i report su cui è possibil
 La funzionalità Dimensioni svolge un ruolo importante in business intelligence, ad esempio quando si definiscono le visualizzazioni analisi. Per ulteriori informazioni, vedere [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le finestre **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
+> Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le pagine **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
 
 ## <a name="dimension-sets"></a>Set di dimensioni
 Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene archiviato come movimenti set di dimensioni nel database. Ogni movimento set di dimensioni rappresenta un valore dimensioni singolo. Il set di dimensioni è identificato da un ID set di dimensioni comune assegnato a ogni movimento set di dimensioni che appartiene al set di dimensioni.  
@@ -44,7 +44,7 @@ Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene arc
 Quando si crea una riga di registrazione, una testata del documento o una riga documento, è possibile specificare una combinazione di valori dimensioni. Anziché archiviare esplicitamente ogni valore dimensioni nel database, viene assegnato un ID set di dimensioni alla riga di registrazione, alla testata del documento o alla riga del documento per specificare il set di dimensioni.  
 
 ## <a name="setting-up-dimensions"></a>Setup delle dimensioni
-È possibile definire le dimensioni e i valori di dimensione da utilizzare per classificare le registrazioni e i documenti, ad esempio ordini di vendita e di acquisto. Impostare le dimensioni nella finestra **Dimensioni** in cui si crea una riga per ogni dimensione, ad esempio *Progetto*, *Reparto*, *Area* e *Agente*.
+È possibile definire le dimensioni e i valori di dimensione da utilizzare per classificare le registrazioni e i documenti, ad esempio ordini di vendita e di acquisto. Impostare le dimensioni nella pagina **Dimensioni** in cui si crea una riga per ogni dimensione, ad esempio *Progetto*, *Reparto*, *Area* e *Agente*.
 
 Vengono inoltre impostati i valori delle dimensioni. Ad esempio, i valori potrebbero essere i reparti della società. I valori di dimensione possono essere impostati in una struttura gerarchica simile al piano dei conti, in modo che i dati possano essere suddivisi in vari livelli di granularità e i sottoinsiemi dei valori di dimensione sommati. In base alle necessità, è possibile impostare un numero illimitato di dimensioni e di valori dimensioni che possono essere utilizzati da tutti gli utenti nella società.
 
@@ -57,7 +57,7 @@ Vengono inoltre impostati i valori delle dimensioni. Ad esempio, i valori potreb
 È possibile assegnare una dimensione di default per un conto specifico. La dimensione verrà copiata nelle registrazioni o nel documento quando si immette il numero di conto in una riga, ma è possibile eliminare o modificare il codice nella riga se il dato non è appropriato. È inoltre possibile impostare una dimensione richiesta per la registrazione del movimento con un tipo di conto specifico.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Dimensioni**, selezionare la dimensione appropriata e quindi scegliere l'azione **Dim. di default tipo di conto**.  
+2.  Nella pagina **Dimensioni**, selezionare la dimensione appropriata e quindi scegliere l'azione **Dim. di default tipo di conto**.  
 4.  Compilare i campi per ogni nuova dimensione di default che si desidera impostare. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
@@ -73,7 +73,7 @@ Vengono inoltre impostati i valori delle dimensioni. Ad esempio, i valori potreb
 Per tipi di conto diversi, come un conto cliente e un conto articoli, possono essere impostate dimensioni di default diverse. Un movimento potrà quindi avere più di una proposta di dimensione di default per un'unica dimensione. Per evitare conflitti è possibile applicare delle regole di priorità alle diverse fonti.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Priorità dimensioni di default** e quindi scegliere il collegamento correlato.  
-2.  Nel campo **Codice origine** della finestra **Priorità dimensioni di default** immettere il codice origine per la tabella movimenti a cui si desidera applicare le priorità dimensioni di default.  
+2.  Nel campo **Codice origine** della pagina **Priorità dimensioni di default** immettere il codice origine per la tabella movimenti a cui si desidera applicare le priorità dimensioni di default.  
 3.  Compilare i campi per ogni priorità della dimensione di default desiderata per il codice di origine selezionato.
 4.  Ripetere la procedura per ogni codice di origine per il quale si desidera impostare le priorità della dimensione di default.  
 
@@ -84,12 +84,12 @@ Per tipi di conto diversi, come un conto cliente e un conto articoli, possono es
 Per evitare di registrare movimenti con dimensioni contraddittorie o non pertinenti è possibile bloccare o limitare specifiche combinazioni di due dimensioni. Se una combinazione di dimensioni è bloccata non è possibile registrare entrambe le dimensioni nello stesso movimento, qualsiasi siano i valori dimensioni. Una combinazione dimensioni limitata permette invece di registrare entrambe le dimensioni nello stesso movimento, ma soltanto per determinate combinazioni di valori dimensioni.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Combinazioni di dimensioni** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Combinazioni di dimensioni** selezionare il campo della combinazione dimensioni e selezionare una delle seguenti opzioni.  
+2.  Nella pagina **Combinazioni di dimensioni** selezionare il campo della combinazione dimensioni e selezionare una delle seguenti opzioni.  
 
     |Campo|Description|
     |----------------------------------|---------------------------------------|  
     |**Nessuna limitazione**|La combinazione di dimensioni non avrà alcuna restrizione. Tutti i valori di dimensione sono ammessi.|  
-    |**Limitato**|La combinazione di dimensioni avrà delle restrizioni che dipenderanno dai valori dimensioni che vengono immessi. È necessario definire le limitazioni nella finestra **Combinazione Valori Dimensioni**.|  
+    |**Limitato**|La combinazione di dimensioni avrà delle restrizioni che dipenderanno dai valori dimensioni che vengono immessi. È necessario definire le limitazioni nella pagina **Combinazione Valori Dimensioni**.|  
     |**Bloccato**|Questa combinazione di dimensioni non è ammessa.|  
 
 3.  Se è stata selezionata l'opzione **Limitato** è necessario definire quali combinazioni di valori dimensioni sono bloccati. Per effettuare questa operazione, selezionare il campo per definire la combinazione delle dimensioni.  
@@ -103,9 +103,9 @@ Per evitare di registrare movimenti con dimensioni contraddittorie o non pertine
 >  Per visualizzare il nome delle dimensioni anziché il codice, selezionare il campo **Mostra nome colonna**.
 
 ### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Sintesi delle dimensioni utilizzate più volte
-La finestra **Dimensioni di Default-Multipli** consente di determinare come un gruppo di conti utilizza le dimensioni e i valori delle dimensioni. Per effettuare questa operazione, evidenziare i vari conti nella lista dei conti, quindi specificare per essi le dimensioni e i valori dimensioni di default. Se per i conti evidenziati sono state specificate le dimensioni di default, tali dimensioni e i valori dimensioni verranno suggeriti automaticamente ogni volta che si utilizza uno dei conti, ad esempio, in una riga di registrazioni. I campi dimensione vengono compilati automaticamente, facilitando la registrazione dei movimenti. I valori dimensioni suggeriti possono tuttavia essere modificati, ad esempio, in una riga di registrazioni.
+La pagina **Dimensioni di Default-Multipli** consente di determinare come un gruppo di conti utilizza le dimensioni e i valori delle dimensioni. Per effettuare questa operazione, evidenziare i vari conti nella lista dei conti, quindi specificare per essi le dimensioni e i valori dimensioni di default. Se per i conti evidenziati sono state specificate le dimensioni di default, tali dimensioni e i valori dimensioni verranno suggeriti automaticamente ogni volta che si utilizza uno dei conti, ad esempio, in una riga di registrazioni. I campi dimensione vengono compilati automaticamente, facilitando la registrazione dei movimenti. I valori dimensioni suggeriti possono tuttavia essere modificati, ad esempio, in una riga di registrazioni.
 
-La finestra **Dimensioni di Default-Multipli** contiene i seguenti campi:
+La pagina **Dimensioni di Default-Multipli** contiene i seguenti campi:
 |Campo|Description|
 |----------------------------------|---------------------------------------|  
 |**Codice dimensione**|Mostra tutte le dimensioni di default impostate in uno o più conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutte le dimensioni disponibili. Selezionando una dimensione, tale dimensione verrà impostata come default per tutti i conti evidenziati.|
@@ -113,7 +113,7 @@ La finestra **Dimensioni di Default-Multipli** contiene i seguenti campi:
 |**Registrazione valore**|Mostra una singola regola per la registrazione del valore oppure la dicitura Conflitto. Se nel campo è presente una regola di registrazione, allora a tutti i conti selezionati corrisponderà la stessa regole di registrazione del valore per un valore dimensioni. Se nel campo è presente la dicitura Conflitto, non è stata impostata la stessa regola di registrazione del valore per un valore dimensione per tutti i conti evidenziati. Selezionando il campo Registrazione valore è possibile visualizzare una lista delle regole per la registrazione del valore. Selezionando una regola per la registrazione del valore, tale regola verrà applicata per tutti i conti evidenziati.|
 
 ### <a name="example-of-dimension-setup"></a>Esempio di setup dimensioni
-Supponiamo che la società desideri tenere traccia delle transazioni in base alla struttura organizzativa e alle posizioni geografiche. A tale scopo, è possibile impostare due dimensioni nella finestra **Dimensioni** :
+Supponiamo che la società desideri tenere traccia delle transazioni in base alla struttura organizzativa e alle posizioni geografiche. A tale scopo, è possibile impostare due dimensioni nella pagina **Dimensioni** :
 
 * **AREA**  
 * **REPARTO**  
@@ -149,27 +149,27 @@ Per **REPARTO**, è possibile aggiungere i seguenti valori dimensioni:
 | PROD |Produzione |Standard |
 | VENDITE |Vendite |Standard |
 
-Con questa impostazione, si aggiungono le due dimensioni come dimensioni globali nella finestra **Setup contabilità generale**. Ciò significa che è possibile utilizzare AREA e REPARTO come filtri per i movimenti di contabilità generale, nonché per tutti i report e le situazioni contabili. Le dimensioni globali sono inoltre disponibili automaticamente come dimensioni a collegamento rapido nelle righe di registrazione e nelle testate dei documenti.  
+Con questa impostazione, si aggiungono le due dimensioni come dimensioni globali nella pagina **Setup contabilità generale**. Ciò significa che è possibile utilizzare AREA e REPARTO come filtri per i movimenti di contabilità generale, nonché per tutti i report e le situazioni contabili. Le dimensioni globali sono inoltre disponibili automaticamente come dimensioni a collegamento rapido nelle righe di registrazione e nelle testate dei documenti.  
 
 ## <a name="using-dimensions"></a>Utilizzo delle dimensioni
-In un documento come un ordine di vendita, è possibile aggiungere le informazioni sulle dimensioni sia per una singola riga del documento che l'intero documento. Ad esempio, nella finestra **Ordine di vendita** è possibile immettere i valori dimensioni per le prime due dimensioni a collegamento rapido nelle singole righe vendita e aggiungere altre informazioni sulle dimensioni selezionando il pulsante **Dimensioni**.  
+In un documento come un ordine di vendita, è possibile aggiungere le informazioni sulle dimensioni sia per una singola riga del documento che l'intero documento. Ad esempio, nella pagina **Ordine di vendita** è possibile immettere i valori dimensioni per le prime due dimensioni a collegamento rapido nelle singole righe vendita e aggiungere altre informazioni sulle dimensioni selezionando il pulsante **Dimensioni**.  
 
 Se si lavora nelle registrazioni invece, è possibile aggiungere informazioni sulle dimensioni a un movimento nello stesso modo, se le dimensioni a collegamento rapido sono state impostate come campi direttamente sulle righe di registrazione.  
 
 È possibile impostare le dimensioni di default per i conti o i tipi di conto, in modo che le dimensioni e i valori dimensioni vengano compilati automaticamente.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Per visualizzare le dimensioni globali nelle finestre dei movimenti contabili  
-I valori delle dimensioni globali vengono sempre\-definiti e denominati dalla società. Per visualizzare le dimensioni globali della società, aprire la finestra **Setup contabilità generale**.  
+## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Per visualizzare le dimensioni globali nelle pagine dei movimenti contabili:  
+I valori delle dimensioni globali vengono sempre\-definiti e denominati dalla società. Per visualizzare le dimensioni globali della società, aprire la pagina **Setup contabilità generale**.  
 
-In una finestra di movimenti contabili è possibile vedere se sono state impostate le dimensioni globali per i movimenti. Le due dimensioni globali si differenziano da tutte le altre dimensioni in quanto è possibile utilizzarle come filtro in qualsiasi punto di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In una pagina di movimenti contabili è possibile vedere se sono state impostate le dimensioni globali per i movimenti. Le due dimensioni globali si differenziano da tutte le altre dimensioni in quanto è possibile utilizzarle come filtro in qualsiasi punto di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Piano dei conti**, selezionare l'azione **Movimenti contabili**.  
-3.  Per visualizzare solo i movimenti pertinenti, impostare uno o più filtri nella finestra.  
+2.  Nella pagina **Piano dei conti**, selezionare l'azione **Movimenti contabili**.  
+3.  Per visualizzare solo i movimenti pertinenti, impostare uno o più filtri nella pagina.  
 4.  Per visualizzare tutte le dimensioni di un movimento, selezionare il movimento e scegliere l'azione **Dimensioni**.  
 
 > [!NOTE]  
->  La finestra **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della finestra **Dimensioni Voci Partitario** cambierà al variare del movimento contabile selezionato.  
+>  La pagina **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della pagina **Dimensioni Voci Partitario** cambierà al variare del movimento contabile selezionato.  
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  

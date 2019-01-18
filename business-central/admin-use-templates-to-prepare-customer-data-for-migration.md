@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparazione per la migrazione dei dati dei clienti
@@ -45,32 +45,46 @@ Quando si seleziona un modello dati esistente, è necessario stabilire se i mode
 >  È anche possibile utilizzare i modelli dati per creare rapidamente nuovi record. Utilizzarli per una creazione dei dati più rapida e precisa. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Lista modelli di configurazione**, selezionare un modello di dati dalla lista e quindi scegliere l'azione **Modifica**.  
+2. Nella pagina **Modelli di configurazione**, selezionare un modello di dati dalla lista e quindi scegliere l'azione **Modifica**.  
 
 Se i modelli di default non corrispondono alle proprie esigenze, è possibile creare nuovi modelli o aggiungere i campi a un modello esistente. Se i modelli di default sono sufficienti, è possibile utilizzarli per creare record in base ai modelli dati master.
 
-## <a name="to-create-a-data-template"></a>Per creare un modello di dati
+## <a name="to-create-a-new-data-template"></a>Per creare un nuovo modello di dati
 È possibile creare un nuovo modello di dati se i modelli di default non soddisfano le esigenze della nuova società. Se si creano più modelli, può essere utile adottare una convenzione di denominazione per il campo **Codice**.
 
 Ogni modello include una testata e più righe. Quando si crea un modello, è possibile specificare i campi da applicare sempre ai dati di un determinato tipo. Ad esempio, è possibile creare modelli di cliente diversi da applicare ai diversi tipi di cliente. Quando si crea un cliente che utilizzano un modello, è possibile utilizzare i dati del modello per prepopolare determinati campi.
 
-### <a name="to-create-a-data-template-header"></a>Per creare una testata modello dati
-1. Aprire la finestra **Lista modelli di configurazione**.
+### <a name="to-copy-an-existing-data-template"></a>Per copiare un modello di dati esistente
+È possibile creare rapidamente un nuovo modello di dati copiando le informazioni da un modello di dati esistente, che sarà quindi modificato.
+
+1. Aprire la pagina **Modelli di configurazione**.
 2. Scegliere l'azione **Nuovo**.
+3. Compilare il campo **Codice**.
+4. Scegliere l'azione **Copia modello di configurazione**.
+5. Nella pagina **Modelli di configurazione**, selezionare un modello esistente da copiare, quindi scegliere il pulsante **OK**.
+
+L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi nel nuovo modello.
+
+### <a name="to-create-a-data-template-header-manually"></a>Per creare una testata modello dati manualmente
+1. Aprire la pagina **Modelli di configurazione**.
+2. Scegliere l'azione **Nuovo**.
+3. Compilare il campo **Codice**.
 3. Nel campo **ID tabella** immettere la tabella a cui si applica il modello. Il campo **Nome tabella** viene compilato automaticamente quando si imposta il campo **ID tabella**.
 
-### <a name="to-create-a-data-template-line"></a>Per creare una riga modello dati
-1. Nella prima riga, selezionare il campo **Nome campo**. Nella finestra **Lista campi** viene visualizzata la lista dei campi della tabella.
+### <a name="to-create-a-data-template-line-manually"></a>Per creare una riga modello dati manualmente
+1. Nella prima riga, selezionare il campo **Nome campo**. Nella pagina **Lista campi** viene visualizzata la lista dei campi della tabella.
 2. Selezionare un campo e scegliere il pulsante **OK**. Il campo **Didascalia campo** viene compilato con il nome del campo.
 3. Nel campo **Valore predefinito**, immettere un valore appropriato. In alcuni casi, potrebbe essere necessario utilizzare un valore che non è disponibile nel database. In questo caso, è possibile selezionare la casella di controllo **Ignora verifica relazione** per consentire di collegare i dati senza errori.
 
     > [!TIP]  
     > Poiché il campo **Valore predefinito** non dispone di una funzione di ricerca per le opzioni campo [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondenti, copiare e incollare il valore desiderato dalla pagina correlata nel modello.
 
-    > Selezionare la casella di controllo **Obbligatorio**. La casella di controllo viene visualizzata soltanto a scopo informativo. Indica che le informazioni devono essere immesse nel campo dall'utente, ma non viene applicata alcuna logica di business. Non è ad esempio possibile fatturare e registrare un ordine se le categorie di registrazione non sono ancora state impostate. Poiché le categorie di registrazione sono obbligatorie, è possibile selezionare la casella di controllo **Obbligatorio** per i rispettivi campi.
+4. Selezionare la casella di controllo **Obbligatorio** se gli utenti devono compilare il campo in questione.
 
-3. Nel campo **Riferimento** immettere informazioni sul campo in base alle necessità.
-4. Scegliere il pulsante **OK**.
+    > [!NOTE]
+    > La casella di controllo viene visualizzata soltanto a scopo informativo. Nessun logica di business è applicata. Ad esempio, gli utenti non possono registrare una fattura se le categorie di registrazione non sono ancora state impostate. È possibile selezionare la casella di controllo **Obbligatorio** affinché quei campi siano compilati dall'utente in modo da evitare un errore di registrazione in seguito.
+5. Nel campo **Riferimento** immettere informazioni sul campo in base alle necessità.
+6. Scegliere il pulsante **OK**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Per esportare in un modello in Excel
 È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -117,8 +131,8 @@ Nella seguente procedura viene illustrato come creare una scheda articolo da un 
 La seguente procedura è basata su una nuova scheda cliente.  
 
 1. Creare un cliente Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
-2. Nella finestra **Scheda cliente** scegliere l'azione **Applica modello**.  
-3. Nella finestra **Modelli clienti**, selezionare uno dei modelli, quindi scegliere il pulsante **OK**.  
+2. Nella pagina **Scheda cliente** scegliere l'azione **Applica modello**.  
+3. Nella pagina **Modelli clienti**, selezionare uno dei modelli, quindi scegliere il pulsante **OK**.  
 
 I valori di default dal modello cliente scelto sono inseriti nella scheda cliente.
 

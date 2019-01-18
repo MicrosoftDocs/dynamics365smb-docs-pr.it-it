@@ -1,1 +1,1 @@
-Si tratta di una funzionalità in anteprima a cui stiamo ancora lavorando. La funzionalità e il contenuto di questa pagina sono soggetti a modifiche. Per conoscere le novità, [scaricare le note sulla versione di primavera 2018](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
+Si tratta di una funzionalità in anteprima a cui stiamo ancora lavorando. La funzionalità e il contenuto di questa pagina sono soggetti a modifiche.

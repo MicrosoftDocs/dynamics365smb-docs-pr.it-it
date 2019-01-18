@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Sottoporre gli articoli a cross-dock
@@ -44,7 +44,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
     Se si utilizzano le zone, creare una zona per le collocazioni cross-dock e selezionare il campo **Zona collocazione cross-dock**. Per ulteriori informazioni, vedere [Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazione** e quindi scegliere il collegamento correlato.  
-3.  Nella finestra **Ubicazione** selezionare l'ubicazione in cui si desidera impostare la warehouse per il cross-dock, quindi scegliere l'azione **Modifica**.  
+3.  Nella pagina **Ubicazione** selezionare l'ubicazione in cui si desidera impostare la warehouse per il cross-dock, quindi scegliere l'azione **Modifica**.  
 4.  Nella Scheda dettaglio **Warehouse** selezionare la casella di controllo **Usa cross-docking** e compilare il campo **Calc. scadenza cross-dock** specificando l'intervallo di tempo per la ricerca delle opportunità di cross-dock.
 
     L'opzione **Usa cross-docking** è disponibile solo se i campi **Richiesto carico**, **Richiesta spedizione** **Richiesto prelievo** e **Richiesto stoccaggio** sono selezionati.  
@@ -52,7 +52,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 5.  Se si utilizzano le collocazioni, nella Scheda dettaglio **Collocazioni** immettere nel campo **Codice collocazione cross-dock** il codice della collocazione da utilizzare come collocazione di default per il cross-dock.  
 6.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Unità di stockkeeping** e quindi selezionare il collegamento correlato.  
 7.  Per ciascun articolo o unità di stockkeeping che si desidera sottoporre a cross-dock, selezionare l'articolo, quindi scegliere l'azione **Modifica**.
-8. Nella finestra **Scheda unità di stockkeeping** selezionare la casella di controllo **Usa cross-docking**.  
+8. Nella pagina **Scheda unità di stockkeeping** selezionare la casella di controllo **Usa cross-docking**.  
 
 > [!NOTE]  
 >  È possibile utilizzare il cross-dock solo se l'ubicazione prevede l'elaborazione degli stoccaggi e dei carichi warehouse.  
@@ -81,10 +81,10 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
     Si desidera visualizzare le righe dei documenti di origine in cui viene richiesto l'articolo prima di registrare il carico.  
 3.  Scegliere l'azione **Calcola cross-dock**.  
 
-    Nella finestra **Opportunità di cross-dock** sono riportati i dettagli essenziali relativi alle righe per cui viene richiesto l'articolo, tra cui il tipo di documento, la quantità richiesta e la data di scadenza. Sulla base di queste informazioni, è possibile stabilire la quantità di articoli da sottoporre a cross-dock, dove posizionare gli articoli nell'area di cross-dock o come raggrupparli.  
+    Nella pagina **Opportunità di cross-dock** sono riportati i dettagli essenziali relativi alle righe per cui viene richiesto l'articolo, tra cui il tipo di documento, la quantità richiesta e la data di scadenza. Sulla base di queste informazioni, è possibile stabilire la quantità di articoli da sottoporre a cross-dock, dove posizionare gli articoli nell'area di cross-dock o come raggrupparli.  
 
 4.  Scegliere l'azione **Autocompilazione qtà. fino a cross-dock** per vedere come vengono calcolate le quantità nelle righe di carico. Quando si modifica il numero di articoli nel campo **Qtà per cross-dock** di ogni riga, il calcolo viene aggiornato mentre si apportano le modifiche. Ciò non significa che lo specifico ordine di spedizione o di produzione riceverà effettivamente la quantità di articoli suggerita per il cross-dock, in quanto tali modifiche vengono apportate esclusivamente a scopo di test. Il processo può tuttavia fornire informazioni utili nel caso in cui siano coinvolte più unità di misura.  
-5.  Se si desidera impegnare una quantità dell'articolo per una determinata riga ordine, posizionare il cursore sulla riga e scegliere l'azione **Impegno**. Nella finestra **Impegni** è possibile impegnare una qualsiasi quantità disponibile dell'articolo per questo ordine specifico. Tale impegno viene considerato come qualsiasi altro impegno e non ha priorità più alta perché è stato creato in relazione al cross-docking. Per ulteriori informazioni, vedere [Prenotare articoli](inventory-how-to-reserve-items.md).   
+5.  Se si desidera impegnare una quantità dell'articolo per una determinata riga ordine, posizionare il cursore sulla riga e scegliere l'azione **Impegno**. Nella pagina **Impegni** è possibile impegnare una qualsiasi quantità disponibile dell'articolo per questo ordine specifico. Tale impegno viene considerato come qualsiasi altro impegno e non ha priorità più alta perché è stato creato in relazione al cross-docking. Per ulteriori informazioni, vedere [Prenotare articoli](inventory-how-to-reserve-items.md).   
 6.  Al termine delle operazioni di ricalcolo o impegno, fare clic su **OK** per immettere il calcolo rettificato nel campo **Qtà per cross-dock** della riga di carico oppure fare clic su **Annulla** per tornare al carico warehouse, dove è possibile calcolare nuovamente il cross-dock, se necessario.  
 7.  A questo punto, registrare il carico e procedere con l'istruzione di stoccaggio come descritto nei passaggi da 3 a 7 nella sezione “Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità”.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
@@ -36,7 +36,7 @@ Per preparare una spedizione diretta per l'articolo da vendere, si crea un ordin
 1. Creare un ordine di acquisto. Non compilare i campi nelle righe. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 2. Nel campo **Vendere a - Nr. cliente** selezionare il cliente a cui si sta vendendo.
 3. Scegliere l'azione **Spedizioni dirette** e scegliere l'azione **Ottieni ordini vendite**.
-4. Nella finestra **Lista vendite**, selezionare l'ordine di vendita che è stato preparato nella sezione "Per creare un ordine di vendita per una spedizione diretta".
+4. Nella pagina **Lista vendite**, selezionare l'ordine di vendita che è stato preparato nella sezione "Per creare un ordine di vendita per una spedizione diretta".
 5. Scegliere il pulsante **OK**.
 
 Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell'ordine di acquisto.

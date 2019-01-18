@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
 
-È possibile, ad esempio, rettificare le dimensioni e l'ubicazione di una finestra, espandere la larghezza di colonne e aumentare l'altezza delle intestazioni di colonna e modificare l'ordinamento dei dati nelle colonne. Se si desidera utilizzare la barra di scorrimento orizzontale per visualizzare tutte le colonne in una pagina di elenco o nelle righe documenti, è disponibile un blocca quadro verticale per evitare lo scorrimento di alcune colonne.
+È possibile, ad esempio, rettificare le dimensioni e l'ubicazione di una pagina, espandere la larghezza di colonne e aumentare l'altezza delle intestazioni di colonna e modificare l'ordinamento dei dati nelle colonne. Se si desidera utilizzare la barra di scorrimento orizzontale per visualizzare tutte le colonne in una pagina di elenco o nelle righe documenti, è disponibile un blocca quadro verticale per evitare lo scorrimento di alcune colonne.
 
 Nella tabella seguente sono elencate alcune delle funzionalità generali con i collegamenti agli argomenti che le descrivono.
 

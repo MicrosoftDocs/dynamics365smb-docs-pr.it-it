@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -83,8 +83,8 @@ Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possib
 Per specificare i tassi di cambio per le business unit, attenersi alla seguente procedura:
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business unit** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.   
-3. Nella finestra **Modifica tasso di cambio** il campo **Tasso cambio relativo** contiene valori copiati dalla tabella **Tasso di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
+2. Nella pagina **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.   
+3. Nella pagina **Modifica tasso di cambio**, il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
 4. Scegliere l'azione **Tasso di chiusura**.  
 5. Nel campo **Importo tasso cambio relativo**, immettere il tasso di cambio.
 

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Impostare l'invio e la ricezione di documenti elettronici
 Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente. Per documento elettronico si intende un file conforme agli standard che rappresenta un documento aziendale, ad esempio la fattura di un fornitore che può essere ricevuta e convertita in fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo scambio di documenti elettronici tra due partner commerciali viene eseguito da un provider esterno dei servizi di Exchange per documenti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio e la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di Exchange per documenti. Un provider importante dei servizi di Exchange per documenti è preconfigurato e pronto per l'installazione nell'azienda.  
 
-Dai PDF o dai file di immagine che rappresentano i documenti in entrata, è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che crei documenti elettronici che è possibile convertire in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], come per i documenti elettronici PEPPOL. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile inviarla al servizio OCR dalla finestra **Documenti in entrata**. Dopo alcuni secondi, viene ricevuto il file come fattura elettronica che può essere convertita in una fattura di acquisto per il fornitore. Se si invia il file al servizio OCR tramite e-mail, un nuovo record del documento in entrata viene creato quando si riceve nuovamente il documento elettronico.  
+Dai PDF o dai file di immagine che rappresentano i documenti in entrata, è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che crei documenti elettronici che è possibile convertire in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], come per i documenti elettronici PEPPOL. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile inviarla al servizio OCR dalla pagina **Documenti in entrata**. Dopo alcuni secondi, viene ricevuto il file come fattura elettronica che può essere convertita in una fattura di acquisto per il fornitore. Se si invia il file al servizio OCR tramite e-mail, un nuovo record del documento in entrata viene creato quando si riceve nuovamente il documento elettronico.  
 
-Il formato di documento elettronico **PEPPOL** è preconfigurato per consentire l'invio di fatture e di note di credito elettroniche nel formato PEPPOL. Innanzitutto, è necessario impostare diversi dati principali, ad esempio le informazioni sulla società, i clienti, gli articoli e le unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)] in elementi nel file di documento in uscita. Infine, è necessario selezionare il formato nella finestra **Formato documento elettronico** per ogni cliente a cui verranno inviati i documenti PEPPOL elettronici. Per ulteriori informazioni, vedere [Inviare documenti elettronici](sales-how-to-send-electronic-documents.md).  
+Il formato di documento elettronico **PEPPOL** è preconfigurato per consentire l'invio di fatture e di note di credito elettroniche nel formato PEPPOL. Innanzitutto, è necessario impostare diversi dati principali, ad esempio le informazioni sulla società, i clienti, gli articoli e le unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)] in elementi nel file di documento in uscita. Infine, è necessario selezionare il formato nella pagina **Formato documento elettronico** per ogni cliente a cui verranno inviati i documenti PEPPOL elettronici. Per ulteriori informazioni, vedere [Inviare documenti elettronici](sales-how-to-send-electronic-documents.md).  
 
-Le definizioni di scambio di dati **PEPPOL - Fattura** e **PEPPOL – Nota di credito** sono preconfigurate per consentire la ricezione di fatture e note di credito elettroniche nel formato PEPPOL. Innanzitutto, è necessario impostare diversi dati principali, come ad esempio le informazioni sulla società, i fornitori, gli articoli e le unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati presenti negli elementi del file di documento in entrata nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Infine, è necessario selezionare la definizione di scambio dati nella finestra **Documenti in entrata** per ogni documento elettronico in arrivo che si desidera convertire in un documento di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Le definizioni di scambio di dati **PEPPOL - Fattura** e **PEPPOL – Nota di credito** sono preconfigurate per consentire la ricezione di fatture e note di credito elettroniche nel formato PEPPOL. Innanzitutto, è necessario impostare diversi dati principali, come ad esempio le informazioni sulla società, i fornitori, gli articoli e le unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati presenti negli elementi del file di documento in entrata nei campi di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Infine, è necessario selezionare la definizione di scambio dati nella pagina **Documenti in entrata** per ogni documento elettronico in arrivo che si desidera convertire in un documento di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 La definizione di scambio dati **OCR - Fattura** è preconfigurata per permettere la ricezione dei documenti elettronici generati dal servizio OCR. Per ricevere, ad esempio, una fattura come documento elettronico OCR, si impostano i dati principali e si elabora il documento come quando si riceve un documento PEPPOL elettronico. Per ulteriori informazioni, vedere [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md).  
 
@@ -67,7 +67,7 @@ In questo argomento sono contenute le seguenti procedure:
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Schema IVA**|Identificare l'ente nazionale che emette il numero di partita IVA per il paese interessato dall'invio dei documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **SchemeID** dell'elemento **EndPointID** in entrambi i nodi **AccountingSupplierParty** e **AccountingCustomerParty** nel file.<br /><br /> Il campo **Schema IVA** viene utilizzato solo se il campo **GLN** nella finestra **Informazioni società** non è compilato. **Nota:** il valore nel campo **Codice** della finestra **Paesi** deve essere conforme allo standard ISO 3166\-1:Alpha2.|  
+    |**Schema IVA**|Identificare l'ente nazionale che emette il numero di partita IVA per il paese interessato dall'invio dei documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **SchemeID** dell'elemento **EndPointID** in entrambi i nodi **AccountingSupplierParty** e **AccountingCustomerParty** nel file.<br /><br /> Il campo **Schema IVA** viene utilizzato solo se il campo **GLN** nella pagina **Informazioni società** non è compilato. **Nota:** il valore nel campo **Codice** della pagina **Paesi** deve essere conforme allo standard ISO 3166\-1:Alpha2.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Per impostare gli articoli per l'invio e la ricezione di documenti elettronici  
 1. Nella casella **Cerca** immettere **Articoli**, quindi selezionare il collegamento correlato.  
@@ -100,7 +100,7 @@ In questo argomento sono contenute le seguenti procedure:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Per selezionare il formato di documento elettronico PEPPOL per l'invio di documenti elettronici  
 1. Nella casella **Cerca** immettere **Profili di invio documenti**, quindi selezionare il collegamento correlato.  
 2. Aprire un profilo di invio di documento esistente oppure crearne uno nuovo. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
-3. Nella finestra **Profilo di invio documenti** scegliere il **Formato elettronico**, selezionare la riga per PEPPOL e quindi scegliere **OK**.  
+3. Nella pagina **Profilo di invio documenti** scegliere il **Formato elettronico**, selezionare la riga per PEPPOL e quindi scegliere **OK**.  
 4. Nel campo **Documento elettronico** selezionare **Sì (Tramite il servizio di scambio documenti)**.  
 
     > [!NOTE]  
@@ -126,11 +126,11 @@ In questo argomento sono contenute le seguenti procedure:
 
      Se il documento da ricevere è una nota di credito, selezionare **PEPPOLCREDITMEMO**.  
 
-    A questo punto è possibile ricevere il documento elettronico iniziando il processo di conversione dei dati nella finestra **Documenti in entrata**. Per ulteriori informazioni, vedere [Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    A questo punto è possibile ricevere il documento elettronico iniziando il processo di conversione dei dati nella pagina **Documenti in entrata**. Per ulteriori informazioni, vedere [Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Per impostare il conto C/G da utilizzare in nuove righe della fattura di acquisto per gli articoli non identificabili e gli elementi che non sono articoli  
-1. Nella casella **Cerca** immettere **Contabilità fornitori**, quindi selezionare il collegamento correlato.  
-2. Nella Scheda dettaglio **Scambio dati** compilare il campo come descritto nella tabella seguente.  
+1. Nella casella **Cerca** immettere **Setup contabilità fornitori e acquisti**, quindi selezionare il collegamento correlato.  
+2. Nella Scheda dettaglio **Conti di default** compilare il campo come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  

@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di magazzino con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale.
 
-La registrazione automatica dei costi viene definita dal campo **Reg. automatica costi** nella finestra **Setup magazzino**.
+La registrazione automatica dei costi viene definita dal campo **Reg. automatica costi** nella pagina **Setup magazzino**.
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Per visualizzare un elenco di errori prima di eseguire il processo batch di regi
 Se si desidera semplicemente ottenere informazioni sui valori che possono essere registrati nella contabilità generale senza eseguire la registrazione, è possibile eseguire il processo batch **Registra costo magazzino in C/G** senza effettuare la registrazione dei valori nella contabilità generale. A tale scopo, è necessario deselezionare il campo **Registra** dalla pagina di richiesta. In questo modo, quando si esegue il processo batch, viene esclusivamente prodotto il report in cui sono indicati i valori pronti per essere registrati nella contabilità generale, ma che non sono stati ancora registrati.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale
-La finestra **Magazzino - Riconciliazione C/G** offre le informazioni seguenti:
+La pagina **Magazzino - Riconciliazione C/G** offre le informazioni seguenti:
 
 - Esposizione delle differenze di riconciliazione attraverso un confronto tra i dati registrati nella contabilità generale e i dati registrati nella contabilità di magazzino (movimenti di valorizzazione).
 - Visualizzazione degli importi dei costi non riconciliati nei movimenti di valorizzazione se sono stati mappati ai corrispondenti conti correlati al magazzino in contabilità generale e confronto con i totali effettivamente registrati negli stessi conti in contabilità generale.
@@ -57,11 +57,11 @@ La colonna **Totale C/G** mostra gli importi (in grassetto) per ciascun tipo di 
 
 La colonna **Differenza** rappresenta la differenza tra i valori nei campi **Totale C/G** e **Totale**.
 
-Nella parte superiore della finestra **Magazzino - Riconciliazione C/G** è possibile immettere filtri per limitare, ad esempio, il periodo di tempo per il quale si desidera ottenere informazioni.
+Nella parte superiore della pagina **Magazzino - Riconciliazione C/G** è possibile immettere filtri per limitare, ad esempio, il periodo di tempo per il quale si desidera ottenere informazioni.
 
 Se si seleziona la casella di controllo **Mostra avviso** e vi sono discrepanze tra i totali di magazzino e quelli del conto C/G, nel campo **Avviso** della griglia vengono visualizzati messaggi in cui viene illustrata la discrepanza. Se si seleziona il campo Avviso, vengono fornite ulteriori informazioni sul significato dell'avviso.
 
-Una volta specificati tutti i filtri desiderati, scegliere l'azione **Mostra matrice**. I dati vengono calcolati e viene visualizzata la finestra della matrice.
+Una volta specificati tutti i filtri desiderati, scegliere l'azione **Mostra matrice**. I dati vengono calcolati e viene visualizzata la pagina della matrice.
 
 Nella colonna a sinistra della griglia vengono visualizzati i diversi tipi di conti di contabilità generale associati al magazzino. Sono quindi visualizzati i totali di magazzino fatturati, non fatturati (provvisori) e WIP per ognuno dei tipi di conto. Tali totali vengono calcolati automaticamente dai movimenti di valorizzazione.
 

@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Impostare i tipi di costo
@@ -34,12 +35,12 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
     > [!IMPORTANT]  
     >  Con la funzione **Registra tipi costo in piano dei conti** è possibile aggiornare la relazione tra il piano dei conti e il piano dei tipi di costo. Il campo **Nr.** viene compilato e verificato per garantire che ciascun conto di contabilità generale sia correlato a un solo tipo di costo. La funzione viene eseguita automaticamente prima del trasferimento dei movimenti C/G nella contabilità industriale.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Per impostare nuovi tipi di costo nella finestra Piano dei tipi di costo  
-1.  Aprire la finestra **Piano dei tipi di costo** in modalità di modifica.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Per impostare nuovi tipi di costo nella pagina Piano dei tipi di costo  
+1.  Aprire la pagina **Piano dei tipi di costo** in modalità di modifica.  
 2.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella finestra **Piano dei tipi di costo**. In questa procedura è possibile impostare i tipi di costo nella finestra  **Piano dei tipi di costo**.
+    >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella pagina **Piano dei tipi di costo**. In questa procedura è possibile impostare i tipi di costo nella pagina **Piano dei tipi di costo**.
 
 3.  Dopo avere creato tutti i tipi di costo, scegliere l'azione **Indentazione tipi costo**. Nella finestra di dialogo scegliere il pulsante **Sì**.  
 4.  Collegare il nuovo tipo di costo al corrispondente conto di contabilità generale.  
@@ -48,7 +49,7 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
     >  Se le definizioni per i conti sono state immesse nei campi **Totale** del tipo riga **Fine-Totale** prima di eseguire la funzione **Indentazione tipi costo**, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Fine-Totale**.  
 
 ## <a name="to-update-cost-types"></a>Per aggiornare i tipi di costo  
-1.  Nella finestra **Setup contabilità industriale** selezionare se si desidera che il piano dei tipi di costo venga aggiornato automaticamente quando il piano dei conti viene modificato.  
+1.  Nella pagina **Setup contabilità industriale** selezionare se si desidera che il piano dei tipi di costo venga aggiornato automaticamente quando il piano dei conti viene modificato.  
 2.  Nel campo **Allinea conto C/G** è possibile selezionare una delle seguenti opzioni.  
 
 - **Nessun allineamento**: non esiste alcuna modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.  
@@ -57,7 +58,6 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
 
 ## <a name="see-also"></a>Vedi anche  
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
-[Definizione della relazione tra i tipi di costo e i conti di contabilità generale](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definizione dei centri di costo e degli oggetti di costo per il piano dei conti](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldi tra tipo di costo, centro di costo e oggetto di costo](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)   

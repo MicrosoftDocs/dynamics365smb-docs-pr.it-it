@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Impostare i tipi di collocazioni
@@ -26,7 +26,7 @@ Esistono sei tipi. È possibile gestire la warehouse con tutti e sei i tipi di c
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Per impostare i tipi di collocazione da utilizzare  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tipi collocazione** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Tipi collocazione** creare un codice di 10 caratteri per un tipo di collocazione.  
+2.  Nella pagina **Tipi collocazione** creare un codice di 10 caratteri per un tipo di collocazione.  
 3.  Selezionare le attività che è possibile svolgere con ogni tipo di collocazione.  
 
 > [!NOTE]  

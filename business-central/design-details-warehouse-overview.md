@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cea5bb76f8fdb8c9c52a5f341d29a34bcb8f0cdc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2d1fc180b971a7a0003847ea6b5830cc124cf5c7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-warehouse-overview"></a>Dettagli di progettazione: Panoramica warehouse
 Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse. Le informazioni sono gestite nella tabella **Movimento warehouse**. Ogni transazione viene memorizzata in un registro warehouse.  
 
-I documenti warehouse e le registrazioni di warehouse vengono utilizzati per registrare i movimenti degli articoli nella warehouse. Ogni volta che viene spostato, ricevuto, stoccato, selezionare, spedito o rettificato un articolo nel magazzino, i movimenti di magazzino vengono registrati per archiviare le informazioni fisiche sull'area, la collocazione e la quantità. Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse in entrata](design-details-outbound-warehouse-flow.md).  
+I documenti warehouse e le registrazioni di warehouse vengono utilizzati per registrare i movimenti degli articoli nella warehouse. Ogni volta che viene spostato, ricevuto, stoccato, selezionare, spedito o rettificato un articolo nel magazzino, i movimenti di magazzino vengono registrati per archiviare le informazioni fisiche sull'area, la collocazione e la quantità.
 
 La tabella **Contenuto collocazione** viene utilizzata per gestire tutte le dimensioni diverse del contenuto di una collocazione per articolo, ad esempio l'unità di misura, la quantità massima e quella minima. La tabella **Contenuto collocazione** contiene anche campi di flusso ai movimenti della warehouse, istruzioni di warehouse e righe delle registrazioni di warehouse, grazie ai quali è possibile calcolare rapidamente la disponibilità di un articolo per collocazione e la collocazione per un articolo. Per ulteriori informazioni, vedere [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md).  
 
@@ -68,7 +68,7 @@ La funzionalità di warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)] pu�
 -   **Reg. ricl. articoli whse**  
 -   (Vari report)  
 
-Per ulteriori informazioni su ogni documento, vedere i rispettivi argomenti della finestra.  
+Per ulteriori informazioni su ogni documento, vedere i rispettivi argomenti della pagina.  
 
 ### <a name="terminology"></a>Terminologia  
 Per allinearsi ai concetti finanziari di acquisti e vendite, la documentazione della warehouse di [!INCLUDE[d365fin](includes/d365fin_md.md)] si riferisce ai seguenti termini per il flusso degli articoli nella warehouse.  

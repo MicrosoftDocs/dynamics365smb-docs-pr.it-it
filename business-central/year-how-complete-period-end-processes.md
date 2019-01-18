@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42b5729d5d4013476fa0ff460db4dc999e629d66
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ab72d1af179ec543ea358ac957e9b658987f7d53
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili
@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] non è obbligatorio chiudere i pe
 * Aggiornare e contabilizzare le registrazioni periodiche.  
   <!--* Process Consolidations-->
 * Eseguire le situazioni contabili come segue:  
-  * Aprire la finestra **Situazione contabile** e quindi scegliere l'azione **Stampa**.  
+  * Aprire la pagina **Situazione contabile** e quindi scegliere l'azione **Stampa**.  
 
 ## <a name="sales-and-receivables"></a>Contabilità clienti
 * Registrare tutti gli ordini di vendita, le fatture, le note di credito e gli ordini di reso.  

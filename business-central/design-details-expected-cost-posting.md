@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
@@ -27,12 +27,12 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
 > [!NOTE]  
 >  I costi previsti vengono gestiti solo per le transazioni articoli. I costi previsti non sono per i tipi di transazione immateriali, ad esempio capacità e addebiti articolo.  
 
- Se è stata registrata solo la parte quantitativa di un aumento di magazzino, il valore di magazzino nella contabilità generale non cambierà a meno che non sia stata selezionata la casella di controllo **Reg. costi previsti in CG** nella finestra **Setup magazzino**. In questo caso, il costo previsto viene registrato nei conti provvisori al momento del carico. Dopo che il carico è stato completamente fatturato, i conti provvisori verranno quindi bilanciati e il costo effettivo viene registrato nel conto giacenza magazzino.  
+ Se è stata registrata solo la parte quantitativa di un aumento di magazzino, il valore di magazzino nella contabilità generale non cambierà a meno che non sia stata selezionata la casella di controllo **Reg. costi previsti in CG** nella pagina **Setup magazzino**. In questo caso, il costo previsto viene registrato nei conti provvisori al momento del carico. Dopo che il carico è stato completamente fatturato, i conti provvisori verranno quindi bilanciati e il costo effettivo viene registrato nel conto giacenza magazzino.  
 
  Per supportare il lavoro di riconciliazione e di tracciabilità, il movimento di valorizzazione fatturato mostra l'importo del costo previsto che è stato registrato per bilanciare i conti provvisori.  
 
 ## <a name="example"></a>Esempio  
- L'esempio riportato di seguito mostra il costo previsto se le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG** sono selezionate nella finestra **Setup magazzino**.  
+ L'esempio riportato di seguito mostra il costo previsto se le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG** sono selezionate nella pagina **Setup magazzino**.  
 
  Si registra un ordine di acquisto come ricevuto. Il costo previsto è di VL 95,00.  
 

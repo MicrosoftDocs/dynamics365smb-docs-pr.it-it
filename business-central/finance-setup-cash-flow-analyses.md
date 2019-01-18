@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
@@ -30,7 +30,7 @@ Se si desidera informazioni per decidere quali operazioni effettuare con i conta
 In questo argomento viene descritta l'origine dei dati nei grafici e, se necessario, cosa fare per iniziare a utilizzare i grafici.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Grafici Ciclo di cassa ed Entrate e uscite
-I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e alle situazioni contabili. I conti sono all'origine dei dati e le situazioni contabili calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e situazioni contabili. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella finestra **Situazioni contabili** per i seguenti nomi della situazione contabile:  
+I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e alle situazioni contabili. I conti sono all'origine dei dati e le situazioni contabili calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e situazioni contabili. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella pagina **Situazioni contabili** per i seguenti nomi della situazione contabile:  
 
 | Nome situaz. contabile | Dove è utilizzato |
 | --- | --- |
@@ -68,14 +68,14 @@ Per utilizzare guida al setup assistito:
 1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegliere l'azione **Apri setup assistito**.  
 2. Compilare i campi in ogni step della guida.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
-4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
+4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
 2. Espandere la Scheda dettaglio **Cortana Intelligence** e selezionare la casella di controllo **Cortana Intelligence abilitata**.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
-4. Nella finestra **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
+4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 > [!TIP]  
 >   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Cortana Intelligence non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  

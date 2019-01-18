@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6436ef2e70c594f16097d02a3a1bef4ed40e77c0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74a88d3e81413b4ecf849f500b5b670feea948bf
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -21,7 +21,7 @@ ms.lasthandoff: 09/28/2018
 
 La funzionalità che fornisce in automatico i valori dei campi è in genere offerta per le attività in cui si devono immettere grandi volumi di dati transazionali e per cui si desidera evitare errori e risparmiare tempo. Questo argomento contiene una selezione di tale funzionalità. Nei futuri aggiornamenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno aggiunte altre sezioni.
 
-## <a name="the-suggest-balancing-amount-check-box-in-the-general-journal-batches-window"></a>La casella di controllo **Suggerisci importo contropartita** nella finestra **Batch registrazioni COGE**
+## <a name="the-suggest-balancing-amount-check-box-on-the-general-journal-batches-page"></a>La casella di controllo **Suggerisci importo contropartita** nella pagina **Batch registrazioni COGE**
 Se, ad esempio, si intende immettere delle righe di registrazione COGE per più spese che devono essere contabilizzate nello stesso conto bancario, ogni volta che si immette una riga di registrazione COGE per una spesa, è possibile fare in modo che il campo **Importo** del conto bancario venga aggiornato automaticamente all'importo che bilancia le spese. Per ulteriori informazioni sull'utilizzo delle registrazioni COGE, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Per compilare automaticamente il campo **Importo** nelle righe di registrazione COGE di contropartita
@@ -31,15 +31,15 @@ Se, ad esempio, si intende immettere delle righe di registrazione COGE per più 
 
 Per informazioni su come impostare un batch registrazioni COGE personale, ad esempio per la gestione delle spese, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
-## <a name="the-automatically-fill-date-received-field-in-the-payment-registration-window"></a>Il campo **Compila automaticamente data di ricezione** nella finestra **Registrazione pagamenti**
-Nella finestra **Registrazione pagamenti** vengono mostrati i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo. Per ulteriori informazioni sul collegamento dei pagamenti dei clienti, vedere [Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Il campo **Compila automaticamente data di ricezione** nella pagina **Registrazione pagamenti**
+Nella pagina **Registrazione pagamenti** vengono mostrati i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo. Per ulteriori informazioni sul collegamento dei pagamenti dei clienti, vedere [Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
-Le principali azioni che deve effettuare l'utente nella finestra sono la selezione della casella di controllo **Pagamento effettuato** e la compilazione del campo **Data ricezione**. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che inserisca automaticamente la data di lavoro nel campo **Data ricezione** quando si seleziona la casella di controllo **Pagamento effettuato**.
+Le principali azioni che deve effettuare l'utente nella pagina sono la selezione della casella di controllo **Pagamento effettuato** e la compilazione del campo **Data ricezione**. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che inserisca automaticamente la data di lavoro nel campo **Data ricezione** quando si seleziona la casella di controllo **Pagamento effettuato**.
 
-### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Per compilare automaticamente il campo **Data ricezione** nella finestra **Registrazione pagamenti**
+### <a name="to-have-the-date-received-field-on-the-payment-registration-page-filled-automatically"></a>Per compilare automaticamente il campo **Data ricezione** nella pagina **Registrazione pagamenti**
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazione pagamenti** e quindi scegliere il collegamento correlato.
 2. Selezionare la casella di controllo **Compila automaticamente data di ricezione**.
-3. Aprire la finestra **Registrazione pagamenti** e procedere con l'elaborazione dei pagamenti clienti in entrata utilizzando la funzionalità descritta per l'immissione automatica di un valore di campo.
+3. Aprire la pagina **Registrazione pagamenti** e procedere con l'elaborazione dei pagamenti clienti in entrata utilizzando la funzionalità descritta per l'immissione automatica di un valore di campo.
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

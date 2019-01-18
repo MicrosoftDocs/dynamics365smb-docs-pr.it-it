@@ -1,6 +1,6 @@
 ---
 title: Come creare cicli | Microsoft Docs
-description: "Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella finestra **Cicli ordini produzione** nell'ordine di produzione."
+description: "Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella pagina **Cicli ordini produzione** nell'ordine di produzione."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Creare cicli
@@ -24,7 +24,7 @@ Le aziende manifatturiere utilizzano i cicli per visualizzare e gestire il proce
 
 Il ciclo è la base della programmazione del processo e delle capacità, delle assegnazioni programmate delle necessità di materiali e dei documenti relativi alla produzione.  
 
-Per quanto riguarda la DB di produzione, i cicli di produzione vengono assegnati all'articolo finale di produzione. Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella finestra **Cicli ordini produzione** nell'ordine di produzione.  
+Per quanto riguarda la DB di produzione, i cicli di produzione vengono assegnati all'articolo finale di produzione. Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella pagina **Cicli ordini produzione** nell'ordine di produzione.  
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
@@ -61,7 +61,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 ## <a name="to-create-routing-links"></a>Per creare collegamenti ciclo
 È possibile creare collegamenti ciclo per connettere componenti a operazioni specifiche, in modo da conservarne le relazioni anche in caso di modifica della distinta base di produzione o del ciclo. Questa soluzione facilita inoltre la consuntivazione dei componenti in tempo reale, che avviene infatti all'avvio dell'operazione specifica collegata, anziché al rilascio dell'ordine di produzione completo. Per ulteriori informazioni vedere [Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).  
 
-Un altro vantaggio importante consiste nel fatto che le operazioni e i componenti collegati vengono visualizzati in una struttura di processo logica quando si utilizza la finestra **Registrazioni di produzione** per la registrazione di output e consumo.  
+Un altro vantaggio importante consiste nel fatto che le operazioni e i componenti collegati vengono visualizzati in una struttura di processo logica quando si utilizza la pagina **Registrazioni di produzione** per la registrazione di output e consumo.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
 2.  Aprire il ciclo che contiene le operazioni da collegare.  
@@ -89,7 +89,7 @@ Un altro vantaggio importante consiste nel fatto che le operazioni e i component
     > [!NOTE]  
     >  Per abilitare i collegamenti ciclo in un ordine di produzione esistente, è necessario aggiornare l'ordine di produzione. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
 
-I componenti selezionati risultano collegati alle operazioni specificate quando si crea o si aggiorna un ordine di produzione mediante la distinta base di produzione e il ciclo interessati. Ciò è visibile nella finestra **Componenti ordine produzione** nell'ordine di produzione, dove è inoltre possibile rimuovere e aggiungere i codici di collegamento ciclo codici definiti in qualsiasi momento.
+I componenti selezionati risultano collegati alle operazioni specificate quando si crea o si aggiorna un ordine di produzione mediante la distinta base di produzione e il ciclo interessati. Ciò è visibile nella pagina **Componenti ordine produzione** nell'ordine di produzione, dove è inoltre possibile rimuovere e aggiungere i codici di collegamento ciclo codici definiti in qualsiasi momento.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Per assegnare personale, strumenti e controlli di qualità alle operazioni di ciclo
 Se occorre personale con speciali qualifiche, particolari conoscenze o una speciale autorizzazione per un'operazione, è possibile assegnarlo all'operazione. Inoltre, è possibile assegnare strumenti e requisiti di qualità all'operazione. Questa procedura descrive come assegnare personale. I passaggi sono simili per altri tipi di informazioni sull'operazione.
@@ -97,15 +97,15 @@ Se occorre personale con speciali qualifiche, particolari conoscenze o una speci
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
 2.  Aprire il ciclo pertinente.  
 3.  Nella Scheda dettaglio **Righe**, selezionare la riga da elaborare, quindi scegliere l'azione **Personale**.  
-4.  Compilare i campi della finestra **Personale ciclo**.  
-5.  Scegliere **OK** per uscire dalla finestra. I valori immessi vengono copiati e assegnati all'operazione.    
+4.  Compilare i campi della pagina **Personale ciclo**.  
+5.  Scegliere il pulsante **OK** per chiudere la pagina. I valori immessi vengono copiati e assegnati all'operazione.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Per creare nuove versioni di un ciclo  
 La funzionalità di versione consente di gestire più versioni dei cicli. La struttura della versione del ciclo corrisponde a quella del ciclo ed è costituita da una testata e da righe. La differenza principale è costituita dalla data iniziale del ciclo.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il ciclo da copiare quindi scegliere l'azione **Versioni**.  
-3. Nella finestra **Versioni ciclo**, scegliere l'azione **Nuovo**.
+3. Nella pagina **Versioni ciclo**, scegliere l'azione **Nuovo**.
 4. Compilare i campi come necessario.
 5.  Nel campo **Cod. versione** immettere il codice identificativo univoco della versione. Nel campo è possibile inserire qualsiasi combinazione di numeri o di lettere.  
 

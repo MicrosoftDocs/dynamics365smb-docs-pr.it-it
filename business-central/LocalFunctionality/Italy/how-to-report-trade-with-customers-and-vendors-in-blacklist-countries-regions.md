@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 749c4444a987de6c6147c7b2d194843777471b8e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e70199f62ccb877b820aabeecca13939a14f7be5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="report-trade-with-customers-and-vendors-in-blacklist-countries-regions"></a>Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/28/2018
 - Acquisti di prodotti o servizi  
 - Vendite di prodotti o servizi  
 
-Ogni mese o trimestre, è necessario generare un report comunicazioni blacklist per le transazioni con paesi che hanno regimi fiscali privilegiati e inviarlo all'agenzia delle entrate italiana. L'agenzia delle entrate italiana decide quali paesi sono inclusi nella blacklist. È possibile visualizzare o modificare i paesi nella blacklist mediante la finestra **Paesi**. Il report periodico include solo le transazioni con un importo superiore a una determinata soglia. Il calcolo dell'importo di soglia viene applicato al livello del documento. Per ulteriori informazioni, vedere [Agenzia delle entrate italiana](https://go.microsoft.com/fwlink/?LinkId=396483).  
+Ogni mese o trimestre, è necessario generare un report comunicazioni blacklist per le transazioni con paesi che hanno regimi fiscali privilegiati e inviarlo all'agenzia delle entrate italiana. L'agenzia delle entrate italiana decide quali paesi sono inclusi nella blacklist. È possibile visualizzare o modificare i paesi nella blacklist mediante la pagina **Paesi**. Il report periodico include solo le transazioni con un importo superiore a una determinata soglia. Il calcolo dell'importo di soglia viene applicato al livello del documento. Per ulteriori informazioni, vedere [Agenzia delle entrate italiana](https://go.microsoft.com/fwlink/?LinkId=396483).  
 
 Prima di inviare il report periodico, è necessario impostare [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
@@ -44,18 +44,18 @@ Per una lista dei codici e dei paesi rilevanti, vedere [Agenzia delle entrate it
 ## <a name="to-specify-the-current-threshold-amount"></a>Per specificare l'importo di soglia corrente  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cat. reg. business IVA** e scegliere il collegamento correlato.  
-2.  Nella finestra **Setup registrazioni IVA**, scegliere l'azione **Importo per comunicazioni blacklist**.  
-3.  Nella finestra **Importi per comunicazioni blacklist**, compilare i campi come indicato nella tabella riportata di seguito.  
+2.  Nella pagina **Setup registrazioni IVA**, scegliere l'azione **Importo per comunicazioni blacklist**.  
+3.  Nella pagina **Importi per comunicazioni blacklist**, compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Description|  
     |------------------------------------|---------------------------------------|  
     |**Nome**|Specifica il nome del modello, **Blacklist**.|  
     |**Description**|Specifica una descrizione del modello, Comunicazione blacklist.|  
-    |**ID Form**|Specifica la finestra in cui impostare la lista delle transazioni per le comunicazioni blacklist, **12110**.|  
+    |**ID Form**|Specifica la pagina in cui impostare la lista delle transazioni per le comunicazioni blacklist, **12110**.|  
     |**ID report dichiarazione IVA**|Specifica il report che stampa la lista delle transazioni per le comunicazioni blacklist, **12128**.|  
     |**ID report esportazione statistiche IVA**|Specifica il report che esporta la lista delle transazioni per le comunicazioni blacklist, **12129**.|  
 
-3.  Facoltativo. Selezionare il modello Dichiarazione IVA e quindi scegliere l'azione **Nomi dichiarazione**. È possibile specificare il modello con un nome e una descrizione. In caso contrario, il modello avrà il nome Default quando si accede allo stesso nella finestra **Comunicazione blacklist**.  
+3.  Facoltativo. Selezionare il modello Dichiarazione IVA e quindi scegliere l'azione **Nomi dichiarazione**. È possibile specificare il modello con un nome e una descrizione. In caso contrario, il modello avrà il nome Default quando si accede allo stesso nella pagina **Comunicazione blacklist**.  
 
 ## <a name="creating-the-list-of-transactions"></a>Creazione della lista delle transazioni  
 In base alle dimensioni e al tipo di società, è necessario generare e inviare un report delle transazioni con i fornitori di paesi nella blacklist ogni mese o trimeste. Un mappatura delle transazioni ai conti [!INCLUDE[d365fin](../../includes/d365fin_md.md)] viene fornita nella procedura riportata di seguito, in base allo Spesometro 2013.  
@@ -120,7 +120,7 @@ Il report stampato include tutte le transazioni che soddisfano i requisiti di so
 2.  Nel campo **Nome** selezionare il nome della dichiarazione IVA appropriata.  
 3.  Immettere le informazioni appropriate nelle righe. Vedere la procedura per l'impostazione del modello di blacklist.  
 4.  Nella scheda **Naviga**, scegliere l'azione **Anteprima**. È possibile esaminare le informazioni per assicurarsi che le mappature abbiano fornito quelle previste.
-5. Scegliere il pulsante **OK** per chiudere la finestra.  
+5. Scegliere il pulsante **OK** per chiudere la pagina.  
 6.  Scegliere l'azione **Esporta**.  
 7.  Nella Scheda dettaglio **Righe dichiarazione IVA**, impostare eventualmente i filtri appropriati.  
 8.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  

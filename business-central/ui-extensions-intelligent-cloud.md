@@ -1,5 +1,5 @@
 ---
-title: Copia nel cloud dei dati aziendali | Documenti Microsoft
+title: Estensione Cloud intelligente base | Microsoft Docs
 description: Utilizzare l'estensione Cloud intelligente per creare una copia nel cloud dei dati per connettersi a Cloud intelligente.
 author: edupont04
 manager: edupont
@@ -12,19 +12,19 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee12e90788a479ca26d6cae5f747f65ad7008306
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: ac99a1ba63d2ff4f7d30049c5c1e4e45424da824
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-intelligent-cloud-extension"></a>Estensione Cloud intelligente di Business Central
+# <a name="intelligent-cloud-base-extension"></a>Estensione Cloud intelligente base
 
 Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente. Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedere [Accesso a Cloud intelligente](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Vedi anche
 
 [Accesso a Cloud intelligente](about-intelligent-cloud.md)  
-[Estensione Replica dei dati](ui-extensions-data-replication.md)  
+[Estensione Cloud intelligente di Business Central](ui-extensions-data-replication.md)  
 

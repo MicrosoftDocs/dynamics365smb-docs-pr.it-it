@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a7b9c39b1f213bf2b09ee24e3e6172df027e042c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Impostare i gruppi mailing per i contatti
@@ -25,19 +26,19 @@ ms.lasthandoff: 09/28/2018
 L'utilizzo dei gruppi mailing nei contatti è un processo a due passaggi. Innanzitutto, occorre definire il codice dei gruppi mailing. Questo passaggio deve essere eseguito una sola volta per ogni gruppo mailing. Dopo aver creato un codice di gruppo di mailing, è possibile iniziare ad assegnarlo alle società.
 
 ## <a name="to-define-mailing-group-codes"></a>Per definire i codici di gruppo di mailing
-Il codice gruppo mailing definisce il tipo o la categoria del gruppo, ad esempio SPOSTAMENTO per lo spostamento dell'ufficio o AUGURI per gli auguri festivi. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la finestra **Gruppi mailing**.
+Il codice gruppo mailing definisce il tipo o la categoria del gruppo, ad esempio SPOSTAMENTO per lo spostamento dell'ufficio o AUGURI per gli auguri festivi. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Gruppi mailing**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi mailing** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.
 
 ## <a name="AssignMailGroupContact"></a> Per assegnare gruppi di mailing a un contatto
 1. Aprire il contatto.
-2. Selezionare l'azione **Gruppi mailing**. Verrà visualizzata la finestra **Gruppi mailing contatto**.
+2. Selezionare l'azione **Gruppi mailing**. Verrà visualizzata la pagina **Gruppi mailing contatto**.
 3. Nel campo **Codice gruppi mailing** selezionare il gruppo mailing da assegnare.
 
 Ripetere tali passaggi per assegnare altri gruppi mailing. È inoltre possibile assegnare altri gruppi di mailing dalla lista contatti seguendo la stessa procedura.
 
-Il numero di gruppi di mailing assegnati al contatto viene visualizzato nel campo **Nr. di gruppi mailing** nella sezione **Segmentazione** della finestra **Contatto**.
+Il numero di gruppi di mailing assegnati al contatto viene visualizzato nel campo **Nr. di gruppi mailing** nella sezione **Segmentazione** della pagina **Contatto**.
 
 Dopo avere assegnato i gruppi di mailing ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 

@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_
 Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md). Per una panoramica delle funzionalità correnti e di quelle previste, è possibile consultare la roadmap nel sito [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)stradale.  
 
 ## <a name="the-role-centers"></a>Gestione ruolo utente
-La finestra Gestione ruolo utente è basata su un design inentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
+La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
 
-Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di setup assistiti che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle finestre di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di setup assistiti che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza Essential. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
 
-Nella finestra **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Essenziale**:
+Nella pagina **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Essenziale**:
 
 | Setup assistito | Description |
 | --- | --- |

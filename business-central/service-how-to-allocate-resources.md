@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ Spesso è necessario visualizzare la lista degli ordini di assistenza o delle of
 6. Per ottenere una lista di documenti che appartengono a un contratto, un cliente o una zona specifici, compilare il campo **Filtro Contratto/Filtro Cliente/Filtro per Zona**, quindi premere **Invio**.  
 7. Scegliere una riga corrispondente a un ordine di assistenza o a un'offerta di assistenza, quindi scegliere l'azione **Mostra documento**.  
 
-    Viene aperta la finestra **Ordine assistenza** o **Offerte assistenza** in cui è possibile utilizzare il documento. Per tornare alla finestra **Quadro attività** scegliere **OK**.
+    Viene aperta la pagina **Ordine assistenza** o **Offerta assistenza** in cui è possibile utilizzare il documento. Per tornare alla pagina **Quadro attività** scegliere **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Per assegnare una risorsa usando la disponibilità della risorsa o del gruppo di risorse    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e scegliere il collegamento correlato.  
 2. Scegliere l'ordine di assistenza, quindi scegliere l'azione **Assegnazioni risorse**.  
 3. Scegliere il movimento con il compito di assistenza a cui si desidera assegnare una risorsa.  
 4. Scegliere l'azione **Disponibilità risorse** o **Disponibilità cat. ris.**.  
-5. Nella finestra **Disponibilità ris.(assistenza)** scegliere **Mostra matrice**.  
+5. Nella pagina **Disponibilità ris.(assistenza)** scegliere **Mostra matrice**.  
 6. Scegliere una risorsa da assegnare. Alcuni criteri di selezione possono essere se la risorsa è competente per il compito, se si trova nella zona cliente e/o se è la preferita del cliente.  
 7. Specificare una data in cui la risorsa abbia abbastanza ore disponibili per il compito e che sia vicina alla data di risposta dell'ordine di assistenza.  
 8. Nel campo **Quantità da assegnare** immettere il numero di ore per cui si intende assegnare la risorsa al compito di assistenza.  
@@ -63,7 +63,7 @@ Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza
 2. Scegliere l'ordine di assistenza, quindi scegliere **Modifica**.  
 3. Scegliere la riga dell'articolo in assistenza corrispondente al compito di assistenza a cui si desidera assegnare una risorsa.  
 4. Scegliere **Assegnazioni risorse**.
-5. Nella finestra **Assegnazioni risorse** scegliere un movimento di assegnazione non attivo con il compito di assistenza a cui si desidera assegnare la risorsa. Se il movimento di questo tipo non esiste, è possibile crearne uno scegliendo **Nuovo**.  
+5. Nella pagina **Assegnazioni risorse** scegliere un movimento di assegnazione non attivo con il compito di assistenza a cui si desidera assegnare la risorsa. Se il movimento di questo tipo non esiste, è possibile crearne uno scegliendo **Nuovo**.  
 7. Specificare il compito di assistenza compilando il campo **Nr. articolo in assistenza** nella stessa riga.  
 8. Nel campo **Nr. risorsa** scegliere la risorsa. Se la risorsa fa parte di un gruppo di risorse, il numero del gruppo di risorse verrà automaticamente immesso nel campo **Nr. gruppo risorse** .  
 9. Compilare i campi **Data assegnazione** e **Ore assegnate**. Il campo **Stato** verrà impostato su **Attivo**. Ciò significa che la risorsa è assegnata al compito di assistenza.  
@@ -82,7 +82,7 @@ Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
 3. Selezionare la riga dell'articolo in assistenza corrispondente al compito di assistenza a cui si desidera assegnare una risorsa.  Scegliere **Azioni**, **Riga**, quindi **Assegnazioni risorse**.  
-4. Nella finestra **Assegnazioni risorse** selezionare un movimento di assegnazione con il compito di assistenza a cui si desidera riassegnare la risorsa. Nel campo **Nr. risorsa** selezionare la risorsa appropriata. Il numero della risorsa presente nel campo verrà sovrascritto.  
+4. Nella pagina **Assegnazioni risorse** selezionare un movimento di assegnazione con il compito di assistenza a cui si desidera riassegnare la risorsa. Nel campo **Nr. risorsa** selezionare la risorsa appropriata. Il numero della risorsa presente nel campo verrà sovrascritto.  
 5. Premere INVIO. Verrà visualizzata una finestra di dialogo che chiederà se si intende riassegnare il movimento. Compilare il campo **Causale** se necessario e fare clic su **Sì** per confermare la riassegnazione.  
 6. Compilare i campi **Data assegnazione** e **Ore assegnate**. Il movimento ora contiene la nuova risorsa e il relativo stato è **Attivo**.
 
@@ -90,8 +90,8 @@ Dopo avere creato e compilato un ordine di assistenza o un'offerta di assistenza
 Se la risorsa assegnata a un compito di assistenza non è in grado di svolgere il lavoro, il compito di assistenza dovrà essere riassegnato. Solitamente la riassegnazione delle risorse a un compito di assistenza viene effettuata mediante la finestra **Quadro attività**.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e quindi scegliere il collegamento correlato.  
-2. Nel campo **Filtro Assegnazione** selezionare **Riassegnazione Necessaria**. Nella finestra **Quadro Attività** verrà visualizzata la lista degli ordini di assistenza che includono compiti di assistenza da riassegnare.  
-3. Selezionare l'ordine di assistenza pertinente. Nel gruppo **Pianificazione** della scheda **Naviga** scegliere **Assegnazioni risorse**. Verrà visualizzata la finestra **Assegnazioni risorse**.  
+2. Nel campo **Filtro Assegnazione** selezionare **Riassegnazione Necessaria**. Nella pagina **Quadro Attività** verrà visualizzata la lista degli ordini di assistenza che includono compiti di assistenza da riassegnare.  
+3. Selezionare l'ordine di assistenza pertinente. Nel gruppo **Pianificazione** della scheda **Naviga** scegliere **Assegnazioni risorse**. Verrà visualizzata la pagina **Assegnazioni risorse**.  
 4. Selezionare il movimento di assegnazione con il compito di assistenza a cui si intende riassegnare una risorsa.  
 5. Nel campo **Nr. risorsa** selezionare la risorsa appropriata. Il numero della risorsa presente nel campo verrà sovrascritto.  
 6. Premere INVIO. Viene aperta la finestra di dialogo **Causali riassegnaz. movimenti** in cui viene chiesto se si desidera riassegnare il movimento. Compilare il campo **Causale** se necessario e fare clic su **Sì** per confermare la riassegnazione.  
@@ -105,9 +105,9 @@ Se la risorsa assegnata a un compito di assistenza non è in grado di svolgere i
     > * Se si sta riassegnando un ordine di assistenza convertito da un offerta, lo stato dei movimenti di assegnazione registrati per l'offerta diventerà sempre **Completato** durante la riassegnazione degli articoli in assistenza nell'ordine di assistenza.  
 
 ## <a name="to-register-resource-hours"></a>Per registrare le ore di risorse  
-Durante l'elaborazione degli articoli in assistenza negli ordini di assistenza, occorre registrare le ore di risorse per l'assistenza. La seguente procedura indica come registrare le ore delle risorse nella finestra **Prospetto Art. in Assist.**  
+Durante l'elaborazione degli articoli in assistenza negli ordini di assistenza, occorre registrare le ore di risorse per l'assistenza. La seguente procedura indica come registrare le ore delle risorse nella pagina **Prospetto Art. in Assist.**  
 
-È possibile utilizzare la stessa procedura per registrare le ore nella finestra **Righe assistenza**, che è possibile aprire dalla finestra Ordine assistenza. Aprire la relativa scheda di assistenza e scegliere **Azioni**, **Ordine**, quindi **Righe assistenza**.  
+È possibile utilizzare la stessa procedura per registrare le ore nella pagina **Righe assistenza**, che è possibile aprire dalla pagina Ordine assistenza. Aprire la relativa scheda di assistenza e scegliere **Azioni**, **Ordine**, quindi **Righe assistenza**.  
 
 Se si utilizza la stessa risorsa per tutti gli articoli in assistenza nell'ordine di assistenza, è possibile registrare le ore totali della risorsa per un articolo in assistenza soltanto e poi dividere la riga della risorsa in modo da assegnarne le ore agli altri articoli in assistenza.
 
@@ -118,11 +118,11 @@ Se si utilizza la stessa risorsa per tutti gli articoli in assistenza nell'ordin
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Per assegnare una risorsa a tutti gli articoli in assistenza in un ordine
 Se la stessa risorsa, ad esempio un tecnico, opera su tutti gli articoli in assistenza nell'ordine di assistenza, è possibile registrare le ore totali della risorsa per un solo articolo in assistenza e poi dividere la riga delle risorse per suddividere le ore delle risorse nelle righe delle risorse per gli altri articoli in assistenza.  
 
-La seguente procedura mostra come dividere le righe della risorsa nella finestra **Righe Fattura Assistenza**.  
+La seguente procedura mostra come dividere le righe della risorsa nella pagina **Righe Fattura Assistenza**.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
-3. Nella Scheda dettaglio **Righe** scegliere **Azioni**, **Ordine**, quindi **Righe assistenza**. Verrà visualizzata la finestra **Righe assistenza**.  
+3. Nella Scheda dettaglio **Righe** scegliere **Azioni**, **Ordine**, quindi **Righe assistenza**. Viene visualizzata la pagina **Righe assistenza**.  
 4. Selezionare la riga della risorsa che si intende suddividere. Il contenuto del campo **Quantità** viene suddiviso tra tutti gli articoli in assistenza nell'ordine.  
 5. Nella scheda **Azioni**, scegliere l'azione **Dividi riga risorse**. Scegliere **Sì** per confermare.  
 

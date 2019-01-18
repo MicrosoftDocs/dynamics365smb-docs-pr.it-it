@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: be986c07849db4cdc19ad2e492887373753f5dbe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
@@ -29,7 +29,7 @@ I seguenti passaggi illustrano come creare e pubblicare un servizio Web.
 ### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi Web** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Servizi Web** selezionare **Nuovo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2.  Nella pagina **Servizi Web** selezionare **Nuovo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >  **Codeunit** e **Pagina** sono tipi validi per servizi Web SOAP. **Pagina** e **Query** sono tipi validi per i servizi Web OData.  
@@ -40,7 +40,7 @@ I seguenti passaggi illustrano come creare e pubblicare un servizio Web.
 
 Quando si pubblica il servizio Web, nei campi **URL OData** e **URL SOAP** è possibile vedere gli URL che sono generati per il servizio Web. È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, è possibile copiare il valore del campo e salvarlo per un successivo utilizzo.  
 
-Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser, oppure è possibile scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella finestra **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
+Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser, oppure è possibile scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella pagina **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>Per verificare la disponibilità di un servizio Web  
 

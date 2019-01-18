@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in uscita
@@ -66,7 +66,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
  Quando il documento di origine in uscita viene rilasciato, viene creata automaticamente una richiesta warehouse in uscita. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Creare il prelievo magazzino o il movimento  
- Nella finestra **Prelievo magazzino** o **Movimento di magazzino**, l'addetto alla warehouse recupera, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In alternativa, le righe di prelievo magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
+ Nella pagina **Prelievo magazzino** o **Movimento di magazzino**, l'addetto alla warehouse recupera, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In alternativa, le righe di prelievo magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Registrare prelievo di magazzino o Registrare movimento di magazzino  
  In ogni riga per gli articoli che sono stati prelevati o spostati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità**, quindi registra il prelievo o il movimento di magazzino. I documenti di origine correlati al prelievo magazzino vengono registrati come spediti o consumati. I documenti di origine correlati ai movimenti di magazzino non vengono registrati.  
@@ -85,7 +85,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
  Quando il documento di origine in entrata viene rilasciato, viene creata automaticamente una richiesta warehouse in uscita. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Crea una nuova spedizione warehouse  
- Nella finestra **Spedizione warehouse**, il responsabile della spedizione recupera le righe del documento di origine in attesa in base alla richiesta warehouse in uscita. Più righe del documento di origine possono essere combinate in un unico documento di spedizione warehouse.  
+ Nella pagina **Spedizione warehouse**, il responsabile della spedizione recupera le righe del documento di origine in attesa in base alla richiesta warehouse in uscita. Più righe del documento di origine possono essere combinate in un unico documento di spedizione warehouse.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Rilasciare la spedizione o Creare il prelievo warehouse  
  Il responsabile della spedizione rilascia la spedizione warehouse, in modo che gli addetti alla warehouse possano creare o coordinare i prelievi warehouse per la spedizione in questione.  
@@ -109,7 +109,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
  L'addetto warehouse che esegue i prelievi crea un documento di prelievo warehouse, in modalità pull, in base al documento di origine rilasciato. In alternativa, il documento di prelievo magazzino viene creato e assegnato al lavoratore del magazzino in modalità push.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Registrare prelievo di warehouse  
- In ogni riga per gli articoli che sono stati prelevati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità** nella finestra **Prospetto prelievi**, quindi registra il prelievo della warehouse.  
+ In ogni riga per gli articoli che sono stati prelevati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità** nella pagina **Prospetto prelievi**, quindi registra il prelievo della warehouse.  
 
  I movimenti warehouse vengono creati e le righe di prelievo warehouse vengono eliminate, se completamente gestite. Il documento di prelievo warehouse rimane aperto fino a quando la quantità completa della spedizione warehouse correlata non viene registrata. Il campo **Qtà prelevata** nelle righe di spedizione warehouse viene aggiornato di conseguenza.  
 

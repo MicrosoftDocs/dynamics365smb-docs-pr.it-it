@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Esempio dello scenario: definizione della allocazioni statiche in base al rapporto di allocazione
@@ -30,7 +31,7 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Per definire il centro di costo PROD di origine di allocazione nella Scheda dettaglio Generale  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Allocazione costi** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
 4.  Nel campo **Livello** immettere **1**.  
 5.  Nei campi **Data di inizio validità** e **Data di fine validità**, immettere le date appropriate.  
@@ -59,8 +60,5 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 >  In [!INCLUDE[d365fin](includes/d365fin_md.md)] il campo **Percentuale** viene calcolato automaticamente utilizzando un tasso percentuale che dipende da tutti e tre i rapporti di allocazione immessi nel campo **Quota**  per tutte e tre le righe.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Impostare origini e destinazioni dell'allocazione](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)   
-[Esempio di scenario: definizione delle allocazioni dinamiche in base agli articoli venduti](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)
 

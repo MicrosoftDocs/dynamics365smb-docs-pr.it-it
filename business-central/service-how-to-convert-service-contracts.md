@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
@@ -49,7 +49,7 @@ Nella procedura riportata di seguito viene descritto come creare una nota di cre
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Per creare le date di scadenza del contratto nelle righe di contratto  
 Nella procedura riportata di seguito viene descritto come creare nuovi contratti utilizzando le date di scadenza del contratto nelle righe del contratto di assistenza.  
 
-1. Nella finestra **Contratto assistenza** impostare la data di scadenza del contratto su **30.06.2017**.  
+1. Nella pagina **Contratto assistenza** impostare la data di scadenza del contratto su **30.06.2017**.  
 2. Scegliere l'azione **Crea nota credito** per creare automaticamente una nota di credito per il periodo compreso tra luglio 2017 e dicembre 2017.  
 3. Dal momento che il contratto è scaduto, è necessario creare un nuovo contratto con la nuova aliquota IVA per il periodo compreso tra il 1° luglio 2017 e 31 dicembre 2017.  
 
@@ -59,7 +59,7 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 1. Eseguire lo strumento per la modifica dell'aliquota IVA il 1° luglio 2017. La categoria di registrazione articoli/servizi o la categoria di registrazione articoli/servizi IVA è cambiata. Per ulteriori informazioni, vedere [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md).  
 2. Dopo aver eseguito lo strumento di modifica aliquota IVA, immettere una data di scadenza del contratto per il contratto di assistenza. È ora possibile eliminare la riga del contratto di assistenza e creare una nuova riga identica a quella precedente.  
 3. Creare una nuova fattura per il periodo compreso tra gennaio 2017 e dicembre 2012 utilizzando la nuova aliquota IVA.  
-4. Per creare un'altra nota di credito, selezionare **Nuovo** nella finestra **Note credito assistenza**.  
+4. Per creare un'altra nota di credito, selezionare **Nuovo** nella pagina **Note credito assistenza**.  
 5. Scegliere l'azione **Prendi mov. contr. prepagati**.  
 6. Dopo aver completato la conversione, l'IVA e i movimenti contabili verranno corretti.  
 

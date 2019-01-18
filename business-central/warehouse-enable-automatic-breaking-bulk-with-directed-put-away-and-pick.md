@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20293bc9e17fd3fe03466a55d0b74b5104cd17f2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c328df334d1bb1be33ced814677c3ef3ea634799
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Abilitare breakbulk automatico con stoccaggi e prelievi guidati
@@ -33,7 +33,7 @@ Se vengono individuate solo le unità di misura più piccole, viene suggerito di
 Durante lo stoccaggio nella warehouse, la dimensione automaticamente suggerita nelle righe di azione Mettere è l'unità di misura di stoccaggio, ad esempio pezzi, anche se gli articoli giungono nella warehouse in unità di misura differenti.  
 
 ## <a name="breakbulking-in-movements"></a>Breakbulk relativo ai movimenti  
-Il programma esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella finestra **Calcola rifornimento collocazione**.  
+Il programma esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella pagina **Calcola rifornimento collocazione**.  
 
 I risultati del processo di conversione da un'unità di misura all'altra possono essere visualizzati come righe di breakbulk intermedie nelle istruzioni di stoccaggio, prelievo o movimento.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 995d181496dc1827f21c0b3edd9e52dd6c15c297
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d26a6fd6369d8d10d690246c5d02a04d23bb21ab
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-job-budgets"></a>Gestire budget per le commesse
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/28/2018
 Di seguito viene descritto come stimare i costi a budget durante la pianificazione. Per informazioni su come registrare i prezzi e i costi di commesse a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> Per stimare i costi a budget per una commessa
-Quando un cliente desidera conoscere il prezzo di una commessa che verrà fatturata in base all'utilizzo, è necessario determinare i costi a budget per la commessa. A tale scopo, utilizzare la finestra **Righe task commessa**.
+Quando un cliente desidera conoscere il prezzo di una commessa che verrà fatturata in base all'utilizzo, è necessario determinare i costi a budget per la commessa. A tale scopo, utilizzare la pagina **Righe task commessa**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2. Aprire una commessa appropriata.
@@ -41,12 +41,12 @@ Per il campo **Tipo riga** fare riferimento alle seguenti informazioni.
 | **Fatturabile** |Al cliente viene addebitato l'utilizzo. La quantità viene trasferita nella fattura, in base alla quantità specificata nel campo Qtà da trasferire in fattura. |
 
 > [!NOTE]  
->   Il campo **Data pianificazione** per la riga di pianificazione contiene la data in cui è previsto il completamento dell'utilizzo correlato alla riga di pianificazione. È inoltre la data in cui la riga di pianificazione può essere trasferita a una fattura vendita ed essere registrata.  
+> Il campo **Data di consegna pianificata** per la riga di pianificazione contiene la data in cui è previsto il completamento dell'utilizzo correlato alla riga di pianificazione. È inoltre la data in cui la riga di pianificazione può essere trasferita a una fattura vendita ed essere registrata. <br /><br /> Nella task commessa sottostante nella pagina **Scheda commessa**, i campi **Data di inizio** e **Data di fine** contengono rispettivamente il valore del campo **Data di consegna pianificata** nella prima e ultima riga di pianificazione commessa nella pagina **Righe pianificazione commessa** relativa.
 
 > [!NOTE]  
 >   Quando si compila il campo **Quantità**, tutte le informazioni sul prezzo totale e i costi totali saranno calcolate e immesse per quella riga di registrazione. È possibile modificarle in qualsiasi momento.
 
-Nella finestra **Scheda commessa**, è possibile ora vedere un riepilogo dei costi a budget totali, del prezzo a budget, del costo e del prezzo fatturabili per ciascun task.
+Nella pagina **Scheda commessa**, è possibile ora vedere un riepilogo dei costi a budget totali, del prezzo a budget, del costo e del prezzo fatturabili per ciascun task.
 
 Per informazioni su come registrare i prezzi e i costi di commesse a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 

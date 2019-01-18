@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1927938bc7e882902d8f609242c529e0ba29cd1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Impostare settori industriali per le società contatto
@@ -28,7 +29,7 @@ L'utilizzo dei settori industriali nei contatti è un processo a due passaggi. I
 >   Per sincronizzare i contatti con fornitori, clienti o conti correnti bancari in altre sezioni dell'applicazione, è consigliabile impostare una relazione d'affari.
 
 ## <a name="to-define-an-industry-group-code"></a>Per definire un codice di settore industriale
-Il codice settore industriale definisce il tipo o la categoria del gruppo, ad esempio ANNUNCIO per la pubblicità o STAMPA per la TV e la radio. È possibile impostare più codici di settori industriali. Per definire i settori industriali, utilizzare la finestra **Settori industriali**.
+Il codice settore industriale definisce il tipo o la categoria del gruppo, ad esempio ANNUNCIO per la pubblicità o STAMPA per la TV e la radio. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Settori industriali**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Settori industriali** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.
@@ -37,12 +38,12 @@ Il codice settore industriale definisce il tipo o la categoria del gruppo, ad es
 Non è possibile assegnare i settori industriali a un contatto, ma solo alle società.
 
 1. Aprire il contatto.
-2. Scegliere l'azione **Società**, quindi l'azione **Settori industriali**. Verrà visualizzata la finestra **Settori industriali contatto**.
+2. Scegliere l'azione **Società**, quindi l'azione **Settori industriali**. Verrà visualizzata la pagina **Settori industriali contatto**.
 3. Nel campo **Codice settore industriale** selezionare il settore industriale da assegnare.
 
 Ripetere tali passaggi per assegnare altri settori industriali. È inoltre possibile assegnare settori industriali nella finestra Lista Contatti seguendo la stessa procedura.
 
-Il numero di settori industriali assegnati al contatto è visibile nel campo **Nr. settori industriali** della sezione **Segmentazione** della finestra **Contatto**.
+Il numero di settori industriali assegnati al contatto è visibile nel campo **Nr. settori industriali** della sezione **Segmentazione** della pagina **Contatto**.
 
 Una volta assegnati i settori industriali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 

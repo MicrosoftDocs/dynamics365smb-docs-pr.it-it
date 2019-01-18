@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dd3d8d720d02928cb1f19d9fd0a7906d2effe1e4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6927a8b987e751142c144db69e7b87235acc541d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
-Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella finestra Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
+Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
 
 È possibile modificare le righe e i campi solo quando lo stato del documento è Aperto. Quando lo stato è Rilasciato, solo il numero di carico è modificabile. Quando lo stato è Inviato, tutti i campi sono bloccati.  
 
@@ -39,7 +39,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 
 4.  Scegliere l'azione **Rilascia**. Nel campo **Stato** viene visualizzato Rilasciato.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifica che il report IVA è valido e pronto per l'invio. Se la convalida ha esito negativo, gli errori vengono visualizzati nella finestra **Log errori report IVA** per consentire di apportare le modifiche appropriate.  
+    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifica che il report IVA è valido e pronto per l'invio. Se la convalida ha esito negativo, gli errori vengono visualizzati nella pagina **Log errori report IVA** per consentire di apportare le modifiche appropriate.  
 
     Un report IVA rilasciato non può essere modificato. Se si deve modificare il report dopo averlo rilasciato, è necessario innanzitutto riaprirlo. Scegliere l'azione **Riapri**.  
 
@@ -55,7 +55,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 9. Scegliere l'azione **Contrassegna come inviato** per completare il report. Il valore del campo **Stato** diventa Inviato.  
 
     > [!NOTE]  
-    >  È possibile modificare un report con lo stato Inviato solo se è stata selezionata la casella di controllo **Modifica report inviati** nella finestra **Setup report IVA**.  
+    >  È possibile modificare un report con lo stato Inviato solo se è stata selezionata la casella di controllo **Modifica report inviati** nella pagina **Setup report IVA**.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md)

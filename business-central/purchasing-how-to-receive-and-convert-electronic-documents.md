@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
-La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella finestra Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Oltre a ricevere i documenti elettronici direttamente dai partner commerciali, è possibile ricevere i documenti elettronici da un servizio OCR che ha convertito i file di immagine o PDF in documenti elettronici.  
 
@@ -33,7 +33,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 > [!NOTE]  
 >  Quando si convertono i documenti elettronici ricevuti dal servizio OCR in documenti o righe di registrazione in [!INCLUDE[d365fin](includes/d365fin_md.md)], più righe del documento di origine vengono sommate in una riga. La singola riga sarà di tipo Conto C/G e i campi **Descrizione** e **Nr.** (conto C/G) saranno vuoti. Il valore nel campo **Importo** sarà pari all'importo totale IVA esclusa di tutte le righe del documento di origine.  
 >   
->  Per assicurarsi che i campi **Descrizione** e **Nr.** vengano compilati, è possibile scegliere il pulsante **Mappa testo a conto** nella finestra **Documenti in entrata** per definire che un determinato testo della fattura venga sempre mappato a un determinato conto dare o avere nella contabilità generale. Il campo **Descrizione** nelle righe del documento o di registrazione create da un documento elettronico per quel fornitore o cliente verrà compilato con il testo in questione e il campo **Nr.** (conto C/G) con il conto in questione.  
+>  Per assicurarsi che i campi **Descrizione** e **Nr.** vengano compilati, è possibile scegliere il pulsante **Mappa testo a conto** nella pagina **Documenti in entrata** per definire che un determinato testo della fattura venga sempre mappato a un determinato conto dare o avere nella contabilità generale. Il campo **Descrizione** nelle righe del documento o di registrazione create da un documento elettronico per quel fornitore o cliente verrà compilato con il testo in questione e il campo **Nr.** (conto C/G) con il conto in questione.  
 >   
 >  Anziché il mapping a conto C/G, è possibile eseguire il mapping anche a un conto corrente bancario. Ciò risulta utile, ad esempio, per i documenti elettronici relativi alle spese che sono già state pagate in cui si desidera creare una riga registrazione COGE pronta per essere registrata in un conto corrente bancario.  
 
@@ -45,11 +45,11 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
 2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi, nella scheda **Pagina iniziale**, nel gruppo **Gestione**, scegliere **Modifica**.  
 
-     Nella finestra **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
+     Nella pagina **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
 
 3.  Nel campo **Tipo scambio dati** scegliere **PEPPOL - Fattura** oppure **OCR - Fattura**, a seconda dell'origine del documento elettronico.  
 
-4.  Per mappare il testo della fattura del fornitore in un conto di addebito specifico, nella scheda **Azioni**, nel gruppo **Generale**, selezionare **Mappa testo a conto** e inserire i dati nella finestra **Foglio di lavoro Mappatura testo a conto**.  
+4.  Per mappare il testo della fattura del fornitore in un conto di addebito specifico, nella scheda **Azioni**, nel gruppo **Generale**, selezionare **Mappa testo a conto** e inserire i dati nella pagina **Foglio di lavoro Mappatura testo a conto**.  
 
 5.  Nella scheda **Azioni**, nel gruppo **Generale**, scegliere **Crea documento**.  
 

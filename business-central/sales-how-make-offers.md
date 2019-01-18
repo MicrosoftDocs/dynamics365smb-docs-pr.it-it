@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Creare offerte di vendita
@@ -29,15 +29,15 @@ Quando si negozia con il cliente, è possibile modificare e inviare nuovamente l
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte di vendita** e quindi scegliere il collegamento correlato.
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
-   Altri campi nella finestra **Offerte di vendita** contengono informazioni standard del cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
+   Altri campi nella pagina **Offerte di vendita** contengono informazioni standard del cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
 3. Nel campo **Cliente** immettere il nome del nuovo cliente.
 4. Nella finestra di dialogo relativa alla registrazione del nuovo cliente fare clic su **Sì**.
-5. Nella finestra **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
+5. Nella pagina **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
 6. Una nuova scheda cliente verrà visualizzata con le informazioni sul modello cliente selezionato. Compilare i campi rimanenti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
-7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Offerta di vendita**.
+7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla pagina **Offerta di vendita**.
 
    Diversi campi nell'offerta di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
-8. Compilare i restanti campi della finestra **Offerta di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Compilare i restanti campi della pagina **Offerta di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     È ora possibile compilare le righe dell'ordine di vendita per i prodotti che si vendono al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
 
@@ -69,10 +69,10 @@ Quando si negozia con il cliente, è possibile modificare e inviare nuovamente l
     Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Per compilare automaticamente il campo **Offerta valida fino alla data** con un determinato numero di giorni dopo la creazione di un'offerta, è possibile compilare il campo **Calcolo validità offerta** nella finestra **Contabilità clienti**. 
+    > Per compilare automaticamente il campo **Offerta valida fino alla data** con un determinato numero di giorni dopo la creazione di un'offerta, è possibile compilare il campo **Calcolo validità offerta** nella pagina **Contabilità clienti**. 
 
 15. Una volta completate le righe dell'offerta di vendita, scegliere l'azione **Invia tramite messaggio e-mail**.
-16. Nella finestra **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+16. Nella pagina **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
 17. Se il cliente accetta l'offerta, scegliere l'azione **Crea fattura** o **Crea ordine**.
 
 L'offerta di vendita viene rimossa dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita nella quale è possibile elaborare la vendita. Nel campo **Nr. offerta** dell'ordine o della fattura di vendita è presente il numero dell'offerta di vendita da cui è stato convertito. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).

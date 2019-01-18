@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Dare e ricevere articoli in prestito
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/28/2018
 5. Fare clic su **Sì** per confermare il prestito.  
 
 ## <a name="to-receive-a-loaner"></a>Per ricevere un articolo in prestito  
-Quando si riceve un articolo in prestito da un cliente, è necessario registrarne la ricezione. Questa operazione viene eseguita nelle finestre **Ordine assistenza**, **Spedizione assistenza registrata** e  **Scheda articoli in prestito** . in questa procedura viene illustrato come si ricevono gli articoli in prestito nella finestra **Ordine assistenza** .  
+Quando si riceve un articolo in prestito da un cliente, è necessario registrarne la ricezione. Questa operazione viene eseguita nelle pagine **Ordine assistenza**, **Spedizione assistenza registrata** e  **Scheda articoli in prestito** . in questa procedura viene illustrato come si ricevono gli articoli in prestito nella pagina **Ordine assistenza**.  
   
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
@@ -38,11 +38,11 @@ Quando si riceve un articolo in prestito da un cliente, è necessario registrarn
 4. Scegliere **Azioni**, **Funzioni** quindi **Ricevi articolo in prestito**.  
 
 ## <a name="to-register-loaner-comments"></a>Per registrare i commenti relativi agli articoli in prestito  
-È possibile utilizzare la finestra **Foglio Commento Assistenza Generale** per registrare i commenti relativi agli articoli in prestito registrati.  
+È possibile utilizzare la pagina **Foglio Commento Assistenza Generale** per registrare i commenti relativi agli articoli in prestito registrati.  
   
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in prestito** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda articoli in prestito pertinente.  
-3. Scegliere l'azione **Commenti**. Viene aperta la finestra **Foglio commento assistenza generale**.  
+3. Scegliere l'azione **Commenti**. Viene aperta la pagina **Foglio commento assistenza generale**.  
 4. Immettere una data nel campo **Data**.  
 5. Nel campo **Commento** immettere un commento. È possibile immettere un massimo di 80 caratteri. Se è necessario più spazio, andare alla riga successiva. Compilare tutte le righe necessarie.  
   

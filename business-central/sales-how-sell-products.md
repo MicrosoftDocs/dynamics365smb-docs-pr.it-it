@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Vendere prodotti
@@ -45,17 +45,17 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
-    Altri campi nella finestra **Ordine di vendita** vengono compilati con le informazioni standard del cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
+    Altri campi nella pagina **Ordine di vendita** vengono compilati con le informazioni standard del cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
 3. Nel campo **Cliente** immettere il nome del nuovo cliente.
 4. Nella finestra di dialogo relativa alla registrazione del nuovo cliente fare clic su **Sì**.
-5. Nella finestra **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
+5. Nella pagina **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
 
     Una nuova scheda cliente verrà visualizzata, precompilata con le informazioni sul modello cliente selezionato. Il campo **Nome** viene precompilato con il nome del nuovo cliente immesso nell'ordine di vendita.
 6. Procedere compilando i restanti campi della scheda cliente. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
-7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Ordine di vendita**.
+7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla pagina **Ordine di vendita**.
 
     Diversi campi nell'ordine di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.
-8. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Compilare i restanti campi della pagina **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Se si consente al cliente di pagare immediatamente, ad esempio, tramite carta di credito o PayPal, compilare il campo **Codice metodo di pagamento**. Il pagamento viene quindi registrato non appena si registra l'ordine di vendita come fatturato. Se si seleziona CASSA, il pagamento viene registrato in un conto di contropartita specificato.
@@ -80,10 +80,10 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 
     I totali sotto le righe vengono automaticamente calcolati quando si creano o si modificano le righe.
 14. Una nuova scheda cliente verrà visualizzata con le informazioni sul modello cliente selezionato. Compilare i campi rimanenti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
-15. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Ordine di vendita**.
+15. Una volta completata la scheda cliente, scegliere **OK** per tornare alla pagina **Ordine di vendita**.
 
     Diversi campi nell'ordine di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.
-16. Compilare i restanti campi della finestra **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Compilare i restanti campi della pagina **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     È ora possibile compilare le righe dell'ordine di vendita per i prodotti che si vendono al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.   
 

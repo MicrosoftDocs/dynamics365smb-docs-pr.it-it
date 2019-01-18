@@ -13,10 +13,10 @@ ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
@@ -52,7 +52,7 @@ Questo significa che tutte le quantità relative a transazioni in uscita, ad ese
 
      Eseguire il processo batch **Registra costo magazzino in C/G** per fare in modo che tutti i costi vengano registrati nella contabilità generale.  
 3. Scegliere l'azione **Registra magazzino in C/G**.  
-4. Nella finestra **Periodi magazzino** selezionare il periodo di magazzino che si desidera chiudere.  
+4. Nella pagina **Periodi magazzino** selezionare il periodo di magazzino che si desidera chiudere.  
 5. Scegliere l'azione **Chiudi periodo**. Dopo che il periodo viene chiuso non è possibile registrare modifiche al magazzino prima della data di fine. Prima di chiudere il periodo di magazzino, è necessario rettificare il costo di tutti gli articoli tramite il processo batch **Rettifica costo - Mov. art.**.  
 6. Fare clic su **Sì** per confermare la chiusura del periodo oppure su **No** per annullarla.  
 7. Il periodo di magazzino verrà chiuso e, al termine dell'operazione, verrà visualizzato un messaggio di conferma.  

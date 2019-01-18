@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/22/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
+ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
+ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
@@ -101,7 +101,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Testata|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Specifica di spazio dei nomi XML. `<reportname>` è il nome assegnato al report. `<id>` corrisponde all'ID assegnato al report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LableName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Colonne ed elemento dati di livello principale. Le colonne sono elencate in ordine alfabetico.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gli elementi di dati e le colonne che sono annidati nell'elemento dati di livello superiore. Le colonne sono elencate in ordine alfabetico sotto il rispettivo elemento di dati.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
@@ -125,3 +125,4 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 ## <a name="see-also"></a>Vedi anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
+

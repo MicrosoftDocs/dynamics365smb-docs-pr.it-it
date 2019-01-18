@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Impostare cicli e fasi di vendita dalle opportunità
@@ -25,13 +25,13 @@ L'implementazione dei cicli di vendita delle opportunità consiste nell'impostar
 In questo argomento viene descritto anche come impostare i task e le attività e come assegnare i task alle attività. Per ulteriori informazioni, vedere la sezione Per impostare attività con task.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Per impostare codici ciclo di vendita delle opportunità
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli di vendita** e quindi scegliere il collegamento correlato. La finestra **Cicli di vendita** si apre e viene visualizzato un elenco di tutti i cicli di vendita esistenti.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli di vendita** e quindi scegliere il collegamento correlato. La pagina **Cicli di vendita** si apre e viene visualizzato un elenco di tutti i cicli di vendita esistenti.
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ripetere tali passaggi per impostare altri cicli di vendita. Dopo aver impostato i cicli delle opportunità di vendita, potrebbe essere necessario impostare le diverse fasi all'interno di ciascun ciclo.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Per definire le fasi ciclo di vendita delle opportunità
-1. Nella finestra **Cicli di vendita** selezionare l'opportunità relativa al ciclo di vendita per la quale si desidera impostare le fasi, quindi fare clic sull'azione **Fasi**. Verrà aperta la finestra **Fasi ciclo di vendita**.
+1. Nella pagina **Cicli di vendita** selezionare l'opportunità relativa al ciclo di vendita per la quale si desidera impostare le fasi, quindi fare clic sull'azione **Fasi**. Verrà aperta la pagina **Fasi ciclo di vendita**.
 2. Scegliere l'azione **Nuovo** per inserire una nuova fase nel ciclo di vendita.
 
 Ripetere tali passaggi per impostare altre fasi all'interno del ciclo di vendita.
@@ -54,13 +54,13 @@ Se si è impostato un task, è possibile assegnarlo a una opportunità di vendit
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Opportunità** e quindi scegliere il collegamento correlato.
 2. Selezionare un'opportunità, quindi scegliere l'azione **Task**.
-3. Nella finestra **Lista task**, selezionare l'azione **Crea task**.
-4.  Nella finestra **Crea task** compilare i campi secondo le proprie necessità.
+3. Nella pagina **Lista task**, selezionare l'azione **Crea task**.
+4.  Nella pagina **Crea task** compilare i campi secondo le proprie necessità.
 
     Si noti il campo **Opportunità**, che è assegnato automaticamente all'opportunità in questione.
 5. Scegliere il pulsante **OK**.
-6. Nella finestra **Lista task** selezionare il nuovo task e scegliere l'azione **Assegna attività**.
-7. Nella finestra **Assegna attività** compilare i campi in base alle esigenze, quindi scegliere **OK**.
+6. Nella pagina **Lista task** selezionare il nuovo task e scegliere l'azione **Assegna attività**.
+7. Nella pagina **Assegna attività** compilare i campi in base alle esigenze, quindi scegliere **OK**.
 
 ## <a name="see-also"></a>Vedi anche
 [Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md)  

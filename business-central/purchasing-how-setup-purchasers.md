@@ -13,24 +13,24 @@ ms.search.keywords: purchasing agent
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d3fd3e614ae636db8a2be0364892cceb104fe878
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 508d475ff204d75df70511ab2f4e7de225cd8207
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
-Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una finestra e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.
+Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.
 
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agente/Add. acquisti** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
-3. Nella finestra **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
+3. Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Per assegnare gli addetti agli acquisti ai fornitori
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda fornitore corrispondente al fornitore al quale sarà assegnato un addetto agli acquisti.
-3. Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la finestra.
+3. Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la pagina.
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  

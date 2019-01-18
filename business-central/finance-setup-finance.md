@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
@@ -33,12 +33,16 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare le situazioni contabili e definire le categorie di conti per definire il contenuto dei grafici e dei report finanziari, ad esempio i report di conto patrimoniale e conto economico.|[Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)|
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Impostare periodi fiscali. |[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md) |
-| Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
+| Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)|
+|Preparare la gestione dell'IVA ad esigibilità differita in connessione con metodi di contabilità basata su contanti.|[Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)|
 | Impostare le funzionalità Vendite e acquisti per gestire i pagamenti in valute estere.|[Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definire molteplici tassi di interesse da utilizzare in periodi differenti per pagamenti in ritardo nelle transazioni commerciali.|[Impostare più tassi d'interesse](finance-how-to-set-up-multiple-interest-rates.md)|
+|Preparare l'arrotondamento automatico degli importi delle fatture quando si creano fatture.|[Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md)|
 | Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
 |Abilitazione della fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
 | Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
+|Preparare il report Bilancio di verifica consolidato nella Gestione ruolo utente Contabile per ottenere una panoramica di molteplici società.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  

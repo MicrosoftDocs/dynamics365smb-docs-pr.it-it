@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
@@ -24,20 +24,20 @@ Come amministratore, è possibile impostare le pile che vengono visualizzate in 
   
 L'indicatore viene visualizzato come una barra colorata lungo il bordo superiore della pila. Fornisce un segnale visivo dello stato dell'attività della pila, che può indicare le condizioni favorevoli o sfavorevoli per spingere l'utente a intraprendere un'azione. Ad esempio, se una pila visualizza le fatture di vendita in corso, è possibile impostare l'indicatore in modo che appaia verde (favorevole) quando il totale delle fatture di vendita in corso è minore di 10 e rosso (sfavorevole) quando il totale è maggiore di 20.  
   
-Nella finestra **Setup pila**, si impostano gli indicatori di tutte le pile disponibili nel database della società. È possibile impostare gli indicatori perché siano applicati a tutti gli utenti della società o a un singolo utente. Le impostazioni dell'indicatore nella finestra **Setup pila** fungono da impostazioni predefinite dell'indicatore. Se la finestra **Utente finale setup pila** è disponibile per gli utenti, questi possono personalizzare le impostazioni degli indicatori definiti nella finestra **Setup pila**.  
+Nella pagina **Setup pila**, si impostano gli indicatori di tutte le pile disponibili nel database della società. È possibile impostare gli indicatori perché siano applicati a tutti gli utenti della società o a un singolo utente. Le impostazioni dell'indicatore nella pagina **Setup pila** fungono da impostazioni predefinite dell'indicatore. Se la pagina **Utente finale setup pila** è disponibile per gli utenti, questi possono personalizzare le impostazioni degli indicatori definiti nella pagina **Setup pila**.  
   
 Per impostare l'indicatore, specificare fino a due valori di soglia che definiscono tre intervalli dei valori dei dati (basso, medio e alto) e a cui è possibile applicare un colore diverso (o stile).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Per impostare indicatori colorati nelle pile  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup pila** e quindi scegliere il collegamento correlato.  
   
-     Verrà visualizzata la finestra **Setup pila**. La finestra elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente**.  
+     Verrà visualizzata la pagina **Setup pila**. La pagina elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente**.  
   
     > [!NOTE]  
     >  Se si imposta un indicatore per tutta la società e un utente modifica in seguito l'indicatore, una registrazione distinta relativa all'indicatore viene visualizzata nella lista per tale utente.  
   
 2. Scegliere l'azione **Modifica lista**.  
-3. Per impostare un indicatore per una pila non elencata nella finestra, selezionare l'azione **Nuovo**, quindi compilare i campi come descritto di seguito. Se si desidera modificare un indicatore esistente, passare alla fase successiva.  
+3. Per impostare un indicatore per una pila non elencata nella pagina, selezionare l'azione **Nuovo**, quindi compilare i campi come descritto di seguito. Se si desidera modificare un indicatore esistente, passare alla fase successiva.  
   
     |  Campo  |  Description  |    
     |---------|---------------|  

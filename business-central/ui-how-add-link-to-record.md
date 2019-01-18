@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Aggiunta di collegamenti a siti Web, documenti o programmi nei record
@@ -26,7 +26,7 @@ Un altro esempio potrebbe essere quando si ricevono fatture stampate dai fornito
 
 1.  Aprire il record a cui si desidera associare il collegamento, ad esempio una scheda cliente o un ordine di vendita. Se si desidera associare il collegamento a una riga specifica, ad esempio una riga di registrazione, selezionare la riga.  
 
-2.  Scegliere l'azione **Collegamenti** per aprire la finestra **Collegamenti** in cui vengono visualizzati tutti i collegamenti correnti aggiunti al record.
+2.  Scegliere l'azione **Collegamenti** per aprire la pagina **Collegamenti** in cui vengono visualizzati tutti i collegamenti correnti aggiunti al record.
 
 3. Per aggiungere un nuovo collegamento, scegliere **Nuovo**.
 
@@ -43,7 +43,7 @@ Un altro esempio potrebbe essere quando si ricevono fatture stampate dai fornito
 
 ## <a name="to-delete-a-link-from-a-record"></a>Per eliminare un collegamento da un record  
 
-Per eliminare un collegamento, nella finestra **Collegamenti**, è possibile selezionare **…** e quindi **Elimina**.
+Per eliminare un collegamento, nella pagina **Collegamenti**, è possibile selezionare **…** e quindi **Elimina**.
 
 Se si elimina un unico record, ad esempio una riga dell'ordine di vendita, un ordine di vendita o una scheda cliente, tutti i collegamenti associati al record vengono eliminati. Tuttavia, se si eliminano dei record utilizzando un processo batch, ad esempio **Elimina ord. vendita fatturati**, i collegamenti sono ancora archiviati nel database. Per eliminare i collegamenti dal database, eseguire la codeunit **Elimina collegamenti record orfani**. A tale scopo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina collegamenti record orfani** e quindi scegliere il collegamento correlato.   
 
@@ -51,7 +51,7 @@ Se si elimina un unico record, ad esempio una riga dell'ordine di vendita, un or
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Vedi anche  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

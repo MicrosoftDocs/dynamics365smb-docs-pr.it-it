@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Imposta commesse
-Nella finestra **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
+Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
 Nelle singole schede commessa, è necessario impostare i prezzi per gli articoli di commessa, le risorsa di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
@@ -48,25 +48,25 @@ Se la casella di controllo **Applica collegamento utilizzo per default** è sele
 >   È possibile impostare diversamente la casella di controllo **Applica collegamento utilizzo per default** nelle singole schede commessa. In questo caso, l'impostazione di tale commessa ignora il default generale descritto sopra.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Per impostare i prezzi per le risorse di commessa
-È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la finestra **Prezzi risorse commesse**.
+È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la pagina **Prezzi risorse commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Risorsa**.
-3. Nella finestra **Prezzi risorse commesse** compilare i campi in base alle esigenze.
+3. Nella pagina **Prezzi risorse commesse** compilare i campi in base alle esigenze.
 
 Le informazioni opzionali nei campi **Nr. task commessa**, **Tipo di lavoro**, **Codice valuta**, **% sconto riga** e **Fattore costo unitario** verranno visualizzate nelle righe di pianificazione commessa e nelle registrazioni utilizzo quando questa risorsa viene immessa e aggiunta alla commessa.  
 
 Il valore nel campo **Prezzo unitario** per la risorsa verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immessa questa risorsa, una risorsa assegnata al gruppo di risorse, o qualsiasi risorsa.  
 
 > [!NOTE]  
->   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella finestra **Prezzo risorse/Prezzo gruppo risorse**.
+>   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella pagina **Prezzi risorse/Prezzo gruppo risorse**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Per impostare i prezzi per gli articoli di commessa
-È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la finestra **Prezzi articoli commesse**.
+È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la pagina **Prezzi articoli commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Articolo**.
-3. Nella finestra **Prezzi articoli commesse** compilare i campi in base alle esigenze.
+3. Nella pagina **Prezzi articoli commesse** compilare i campi in base alle esigenze.
 
 Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta** e **% sconto riga** verranno utilizzati nelle righe di pianificazione commessa e nelle registrazioni commesse quando questo articolo verrà immesso o aggiunto alla commessa.  
 
@@ -76,11 +76,11 @@ Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle r
 >   Questo prezzo sostituisce sempre il normale prezzo cliente (il meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Per impostare i prezzi dei conti di contabilità generale delle commesse
-È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la finestra **Prezzi conti C/G commesse**.
+È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la pagina **Prezzi conti C/G commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Conto C/G**.  
-3. Nella finestra **Prezzi conti C/G commesse** compilare i campi in base alle esigenze.
+3. Nella pagina **Prezzi conti C/G commesse** compilare i campi in base alle esigenze.
 
 Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto C/G verrà immesso o aggiunto a una commessa.  
 

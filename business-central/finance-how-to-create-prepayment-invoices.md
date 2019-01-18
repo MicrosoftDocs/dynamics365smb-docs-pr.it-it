@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
@@ -44,7 +44,7 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
 4. Se si desidera collegare una percentuale di pagamento anticipato all'intero ordine, modificare il campo **% pagamento anticipato** nella testata dopo avere compilato le righe.  
 5. Per visualizzare l'importo del pagamento anticipato totale, scegliere l'azione **Statistiche**.
 
-    Se si desidera rettificare l'importo del pagamento anticipato totale per l'ordine, è possibile modificare il contenuto del campo **Importo pagamento anticipato** nella finestra **Statistiche ordini vendita**.  
+    Se si desidera rettificare l'importo del pagamento anticipato totale per l'ordine, è possibile modificare il contenuto del campo **Importo pagamento anticipato** nella pagina **Statistiche ordini vendita**.  
 
     Se il campo **Prezzi IVA inclusa** è selezionato, il campo **Importo pagam. ant. IVA incl.** è modificabile.  
 

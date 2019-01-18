@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
@@ -53,7 +53,7 @@ Nella seguente tabella viene illustrata la sequenza di azioni.
 |Azione|Description|  
 |------------|-----------------|  
 |Inizializzare la registrazione|1. Effettuare i controlli preliminari.<br />2. Aggiungere il numero di registrazione e modificare l'intestazione dell'ordine di assemblaggio.<br />3. Rilasciare l'ordine di assemblaggio.|  
-|Spedizioni postali|<ol><li>Creare l'intestazione dell'ordine di assemblaggio registrato.</li><li>Copiare le righe commento.</li><li>Registrare le righe ordine di assemblaggio (consumo):<br /><br /> <ol><li>Creare una finestra di stato per calcolare il consumo in fase di assemblaggio.</li><li>Ottenere la quantità residua su cui verrà basata la riga del giornale di registrazione.</li><li>Reimpostare le quantità consumate e residue.</li><li>Per le righe dell'ordine di assemblaggio del tipo Articolo:<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Trasferire gli impegni alla riga di registrazione magazzino.</li><li>Registrare la riga di registrazione magazzino per creare i movimenti contabili articoli.</li><li>Creare le righe di registrazione e registrarle.</li></ol></li><li>Per le righe dell'ordine di assemblaggio del tipo Risorsa:<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Contabilizzare la riga di registrazione magazzino. Vengono creati così dei movimenti contabili capacità.</li><li>Creare e registrare la riga delle registrazioni risorse.</li></ol></li><li>Trasferire i valori del campo della riga ordine di assemblaggio in una nuova riga ordine di assemblaggio registrata.</li></ol></li><li>Registrare l'intestazione ordine di assemblaggio (output):<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Trasferire gli impegni alla riga di registrazione magazzino.</li><li>Registrare la riga di registrazione magazzino per creare i movimenti contabili articoli.</li><li>Creare le righe di registrazione e registrarle.</li><li>Reimpostare le quantità di assemblaggio e le quantità residue.</li></ol></li></ol>|  
+|Spedizioni postali|<ol><li>Creare l'intestazione dell'ordine di assemblaggio registrato.</li><li>Copiare le righe commento.</li><li>Registrare le righe ordine di assemblaggio (consumo):<br /><br /> <ol><li>Creare una pagina di stato per calcolare il consumo in fase di assemblaggio.</li><li>Ottenere la quantità residua su cui verrà basata la riga del giornale di registrazione.</li><li>Reimpostare le quantità consumate e residue.</li><li>Per le righe dell'ordine di assemblaggio del tipo Articolo:<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Trasferire gli impegni alla riga di registrazione magazzino.</li><li>Registrare la riga di registrazione magazzino per creare i movimenti contabili articoli.</li><li>Creare le righe di registrazione e registrarle.</li></ol></li><li>Per le righe dell'ordine di assemblaggio del tipo Risorsa:<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Contabilizzare la riga di registrazione magazzino. Vengono creati così dei movimenti contabili capacità.</li><li>Creare e registrare la riga delle registrazioni risorse.</li></ol></li><li>Trasferire i valori del campo della riga ordine di assemblaggio in una nuova riga ordine di assemblaggio registrata.</li></ol></li><li>Registrare l'intestazione ordine di assemblaggio (output):<br /><br /> <ol><li>Compilare i campi nella riga di registrazione magazzino.</li><li>Trasferire gli impegni alla riga di registrazione magazzino.</li><li>Registrare la riga di registrazione magazzino per creare i movimenti contabili articoli.</li><li>Creare le righe di registrazione e registrarle.</li><li>Reimpostare le quantità di assemblaggio e le quantità residue.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  A differenza dell'output di produzione, che viene registrato al costo previsto, l'output di assemblaggio viene registrato al costo effettivo.  

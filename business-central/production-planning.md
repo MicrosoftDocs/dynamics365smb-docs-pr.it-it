@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="planning"></a>Pianificazione
 A seconda del volume e della natura dei prodotti, è necessario pianificare quotidianamente o settimanalmente le operazioni di produzione richieste per trasformare gli input in prodotti finiti. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili funzionalità per gestire la domanda anticipata ed effettiva dei reparti vendite, assemblaggio e produzione, nonché funzionalità per la pianificazione della distribuzione tramite unità di stockkeeping e trasferimenti di ubicazione.
 
 > [!NOTE]
-> Questo argomento descrive principalmente la pianificazione per le società coinvolte nella gestione della produzione o dell'assemblaggio dove gli ordini di approvvigionamento risultanti possono essere ordini di produzione, assemblaggio, trasferimento o acquisto. L'interfaccia principale per questo lavoro di pianificazione è la finestra **Prospetto pianificazione**.
+> Questo argomento descrive principalmente la pianificazione per le società coinvolte nella gestione della produzione o dell'assemblaggio dove gli ordini di approvvigionamento risultanti possono essere ordini di produzione, assemblaggio, trasferimento o acquisto. L'interfaccia principale per questo lavoro di pianificazione è la pagina **Prospetto pianificazione**.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta inoltre anche la pianificazione degli approvvigionamenti per le società di vendita all'ingrosso dove gli ordini di approvvigionamento risultanti possono essere soltanto ordini di trasferimento e di acquisto. L'interfaccia principale per questo lavoro di pianificazione è la finestra **Richiesta di approvvigionamento**, descritta indirettamente in questo argomento in quanto la funzionalità di pianificazione è in larga parte applicabile a entrambi i prospetti.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta inoltre anche la pianificazione degli approvvigionamenti per le società di vendita all'ingrosso dove gli ordini di approvvigionamento risultanti possono essere soltanto ordini di trasferimento e di acquisto. L'interfaccia principale per questo lavoro di pianificazione è la pagina **Richiesta di approvvigionamento**, descritta indirettamente in questo argomento in quanto la funzionalità di pianificazione è in larga parte applicabile a entrambi i prospetti.
 
 Prima di pianificare ed eseguire gli ordini di produzione, è necessario configurare le capacità di produzione, ad esempio la creazione di calendari del reparto produzione, cicli, DB di produzione e centri di lavoro. Per ulteriori informazioni, vedere [Impostazione della produzione](production-configure-production-processes.md).
 
@@ -41,9 +41,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Prevedere la domanda illustrata nei componenti di produzione e di vendita previsti.|[Creare una previsione della domanda](production-how-to-create-a-forecast.md)|  
 |Creare automaticamente ordini di produzione basati su una relazione uno a uno da un ordine di vendita in modo da coprire la domanda esatta prevista da tale riga dell'ordine di vendita.|[Creare gli ordini di produzione dagli ordini di vendita](production-how-to-create-production-orders-from-sales-orders.md)|
 |Creare un ordine di produzione previsto direttamente da un ordine di produzione comprendente più righe e che rappresenta un progetto di produzione.|[Pianificare gli ordini di progetto](production-how-to-plan-project-orders.md)|
-|Utilizzare la finestra **Pianificazione ordini** per pianificare manualmente la domanda di vendita o di produzione sulla base di un solo livello della DB di produzione alla volta.|[Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md)|
-|Utilizzare la finestra **Prospetto pianificazione** per eseguire le opzioni MRP che MPS e creare automaticamente un piano di approvvigionamento di alto livello o dettagliato a tutti i livelli dell'articolo.|[Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
-|Eseguire la richiesta di approvvigionamento per creare automaticamente un piano di approvvigionamento dettagliato in modo da coprire la domanda relativa ad articoli il cui rifornimento viene effettuato solo tramite acquisto o trasferimento.|Finestra **Richiesta di approvvigionamento**|  
+|Utilizzare la pagina **Pianificazione ordini** per pianificare manualmente la domanda di vendita o di produzione sulla base di un solo livello della DB di produzione alla volta.|[Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md)|
+|Utilizzare la pagina **Prospetto pianificazione** per eseguire le opzioni MRP che MPS e creare automaticamente un piano di approvvigionamento di alto livello o dettagliato a tutti i livelli dell'articolo.|[Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
+|Eseguire la richiesta di approvvigionamento per creare automaticamente un piano di approvvigionamento dettagliato in modo da coprire la domanda relativa ad articoli il cui rifornimento viene effettuato solo tramite acquisto o trasferimento.|Pagina **Richiesta di approvvigionamento**|  
 |Avviare o aggiornare un ordine di produzione sotto forma di operazioni pianificate in modo approssimativo in MPS.|[Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md)|
 |Ricalcolare i calendari dell'area di produzione o del centro di lavoro in seguito alle modifiche alla pianificazione.|La sezione "Per calcolare un calendario aree di produzione" in [Impostare i calendari del reparto produzione](production-how-to-create-work-center-calendars.md)|
 |Tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.|[Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)|

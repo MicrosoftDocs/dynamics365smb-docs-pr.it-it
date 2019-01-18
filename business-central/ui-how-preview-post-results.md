@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
@@ -25,8 +25,8 @@ In ogni documento e registrazione che è possibile contabilizzare, è possibile 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.
 2. Creare una fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Scegliere **Anteprima registrazione**.
-4. Nella finestra **Anteprima registrazione** selezionare **Movimento C/G**, quindi scegliere **Mostra movimenti correlati**.  
-   Nella finestra **Anteprima movimenti C/G** viene mostrato quali movimenti saranno creati quando si registra una fattura di acquisto.
+4. Nella pagina **Anteprima registrazione** selezionare **Movimento C/G**, quindi scegliere **Mostra movimenti correlati**.  
+   Nella pagina **Anteprima movimenti C/G** viene mostrato quali movimenti saranno creati quando si registra una fattura di acquisto.
 
 ## <a name="see-also"></a>Vedi anche
 [Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  

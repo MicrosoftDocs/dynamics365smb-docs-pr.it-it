@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Dopo avere creato un questionario, è necessario creare le valutazioni dei conta
 > Se si immette una domanda con risposta automatica, selezionare <STRONG>Riga</STRONG> e quindi <STRONG>Dettagli domanda</STRONG> per immettere i criteri da utilizzare per fornire la risposta automatica.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classificazione automatica dei contatti
-È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella finestra **Setup questionario profilo**.  
+È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo**.  
 
 > [!NOTE]
 > È possibile assegnare una classificazione basata sui dati dei clienti solo ai contatti registrati come clienti e una classificazione basata sui dati dei fornitori solo ai contatti registrati come fornitori. La classificazione automatica non viene aggiornata automaticamente. Si consiglia pertanto di aggiornare i questionari profilo una volta effettuato l'aggiornamento dei dati relativi a clienti, fornitori o contatti su cui tali questionari si basano.  
@@ -79,7 +79,7 @@ Dopo avere impostato le domande relative al profilo, se si assegna il questionar
 </tbody>
 </table>
 
-Per effettuare questa operazione, completare la finestra **Setup Questionario Profilo** nel modo seguente:
+Per effettuare questa operazione, completare la pagina **Setup questionario profilo** nel modo seguente:
 
 
 <table>
@@ -104,34 +104,34 @@ Per effettuare questa operazione, completare la finestra **Setup Questionario Pr
 <td><p>Domanda</p></td>
 <td><p>Classificazione di ABC</p></td>
 <td><p>Fare clic per inserire un segno di spunta</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Risposta</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500.000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Risposta</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100.000</p></td>
-<td><p>499.999</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Risposta</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99.999</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Compilare la finestra **Dettagli domande profilo** nel modo seguente:
+Compilare la pagina **Dettagli domande profilo** nel modo seguente:
 <table>
 <colgroup>
 <col style="width: 50%" />

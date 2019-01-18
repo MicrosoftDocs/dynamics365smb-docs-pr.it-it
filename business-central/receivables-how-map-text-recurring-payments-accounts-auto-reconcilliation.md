@@ -11,28 +11,28 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 540f26a9fa464f28c5b3744826cd2221567e45f9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
-Nella finestra **Mappatura testo a conto** che si apre dalla finestra **Registrazione riconciliazione pagamenti**, è possibile impostare le mappature tra il testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo da registrare questi pagamenti nei conti specificati durante la registrazione della riconciliazione pagamenti.
+Nella pagina **Mappatura testo a conto** che si apre dalla pagina **Registrazione riconciliazione pagamenti**, è possibile impostare le mappature tra il testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo da registrare questi pagamenti nei conti specificati durante la registrazione della riconciliazione pagamenti.
 
 Una funzionalità simile esiste per riconciliare gli importi in eccesso nelle righe di riconciliazione pagamenti su base ad hoc. Per ulteriori informazioni, vedere [Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 I pagamenti registrati in base alla mappa testo a conto non vengono collegati ai movimenti aperti, ma vengono solo registrati nei conti specificati, oltre alla creazione dei movimenti contabili di conti correnti bancari. Di conseguenza, la mappa testo a conto è adatta a incassi e spese ricorrenti, ad esempio acquisti frequenti di combustibile per auto o interessi e oneri bancari, che vengono riportati regolarmente sul rendiconto bancario e non necessitano di un documento commerciale collegato. Per ulteriori informazioni, vedere la sezione “Esempio: mappatura testo a conto per la spesa di combustibile” in questo argomento.
 
 > [!NOTE]  
->   I pagamenti nelle righe della registrazione della riconciliazione vengono impostati per essere registrati solo in base alla mappa testo a conto, se la funzione automatica di collegamento può fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**. Se la funzione di collegamento automatico fornisce un'affidabilità di corrispondenza Alta, il pagamento viene automaticamente collegato a uno o più movimenti e non viene contabilizzato nei conti specificati nella finestra **Mappatura testo a conto**. In altre parole, un'affidabilità di corrispondenza di valore **Alto** oltrepassa una mappa testo a conto.
+>   I pagamenti nelle righe della registrazione della riconciliazione vengono impostati per essere registrati solo in base alla mappa testo a conto, se la funzione automatica di collegamento può fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**. Se la funzione di collegamento automatico fornisce un'affidabilità di corrispondenza Alta, il pagamento viene automaticamente collegato a uno o più movimenti e non viene contabilizzato nei conti specificati nella pagina **Mappatura testo a conto**. In altre parole, un'affidabilità di corrispondenza di valore **Alto** oltrepassa una mappa testo a conto.
 
 In una riga di registrazione riconciliazione pagamenti dove il pagamento è stato impostato per la registrazione in base alla mappatura testo a conto, il campo **Affidabilità corrispondenza** contiene **Alta - Mappatura testo a conto** e i campi **Tipo conto** e **Nr. conto** contengono i conti mappati.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riconciliazione pagamenti** e quindi scegliere il collegamento correlato.
 2. Aprire una registrazione della riconciliazione di pagamento. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
-3. Scegliere l'azione **Mappa testo a conto**. Verrà aperta la finestra **Mappatura testo a conto**.
+3. Scegliere l'azione **Mappa testo a conto**. Verrà aperta la pagina **Mappatura testo a conto**.
 4. Nel campo **Mapping testo** immettere qualsiasi testo che appare nei pagamenti da registrare in specifici conti senza collegamento a un movimento aperto. È possibile immettere fino a 50 caratteri.
 
     > [!NOTE]  
@@ -46,10 +46,10 @@ In una riga di registrazione riconciliazione pagamenti dove il pagamento è stat
 
 8. Ripetere i passaggi da 3 a 7 per tutto il testo presente nei pagamenti che si desidera mappare agli account per la registrazione diretta senza collegamento.
 
-La volta successiva che si importa un file di rendiconto bancario o si sceglie l'azione **Collega automaticamente** nella finestra **Registrazioni riconciliazione pagamenti**, le righe di registrazione dei pagamenti che contengono il testo di mappatura specificato conterranno i conti mappati nei campi **Tipo conto** e **Nr. conto**. Il campo **Affidabilità corrispondenza** conterrà **Alta - Mappatura testo a conto**. Ciò a condizione che la funzione di collegamento automatico possa fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**.
+La volta successiva che si importa un file di rendiconto bancario o si sceglie l'azione **Collega automaticamente** nella pagina **Registrazioni riconciliazione pagamenti**, le righe di registrazione dei pagamenti che contengono il testo di mappatura specificato conterranno i conti mappati nei campi **Tipo conto** e **Nr. conto**. Il campo **Affidabilità corrispondenza** conterrà **Alta - Mappatura testo a conto**. Ciò a condizione che la funzione di collegamento automatico possa fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Esempio: mappatura testo a conto per la spesa di combustibile
-Per registrare sempre le spese in combustibile effettuate presso i distributori Shell nella contabilità generale per la benzina (conto 8510), compilare una riga nella finestra **Mappatura testo a conto** come indicato di seguito.
+Per registrare sempre le spese in combustibile effettuate presso i distributori Shell nella contabilità generale per la benzina (conto 8510), compilare una riga nella pagina **Mappatura testo a conto** come indicato di seguito.
 
 | Mapping testo | Nr. conto dare | Nr. conto avere | Tipo di origine saldo | Nr. origine saldo |
 | --- | --- | --- | --- | --- |

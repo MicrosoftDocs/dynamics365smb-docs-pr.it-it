@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
@@ -30,9 +30,9 @@ Se si dispone di molti ordini di assistenza, è possibile risparmiare tempo util
 ## <a name="to-post-a-service-order"></a>Per registrare un ordine di assistenza    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
-3. Nella finestra **Ordine assistenza** selezionare una delle seguenti azioni.  
+3. Nella pagina **Ordine assistenza** selezionare una delle seguenti azioni.  
   
-    |**Azione**|**Operazione**|  
+    |**Azione**|**Risultato**|  
     |------------------|----------------|  
     |**Report Test** | Tutte le parti del documento saranno controllate e i risultati saranno inseriti in un report. Se il report segnala degli errori o la mancanza di alcune informazioni, è necessario risolvere il problema. Stampare quindi il nuovo report test.|  
     |**Registra** | Registrazione dell'ordine senza la stampa di una spedizione o di una fattura.|  
@@ -91,13 +91,13 @@ Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possi
   
 Nella seguente procedura viene illustrato come registrare la spedizione di articoli nelle righe di assistenza in ubicazioni non impostate per richiedere la gestione in warehouse.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine assistenza** e quindi scegliere il collegamento correlato. 2. Nella finestra relativa all'ordine di assistenza selezionato, scegliere **Azioni**, **Ordine**, **Righe assistenza**.  
-3. Nella finestra **Righe assistenza** individuare i movimenti appropriati e specificare la quantità da registrare nel campo **Qtà da spedire**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine assistenza** e quindi scegliere il collegamento correlato. 2. Nella pagina relativa all'ordine di assistenza selezionato, scegliere **Azioni**, **Ordine**, **Righe assistenza**.  
+3. Nella pagina **Righe assistenza** individuare i movimenti appropriati e specificare la quantità da registrare nel campo **Qtà da spedire**.  
   
    > [!NOTE]  
    >  Il valore della quantità da spedire viene stabilito in base alla registrazione parziale o completa della spedizione. Se la spedizione è completa, il valore del campo **Qtà da spedire** deve corrispondere a quello specificato nel campo **Quantità**. Se invece si registra una spedizione parziale, è necessario specificare la quantità da spedire inizialmente. Se una parte dei servizi di assistenza dell'ordine sono già stati spediti, è necessario tenerne nota nel campo **Quantità spedita**. La quantità massima che è possibile immettere nel campo **Qtà da spedire** è costituita dal numero di unità non ancora spedite.  
   
-4. Scegliere **Azioni**, **Registrazione**, quindi **Registra**. Nella finestra visualizzata selezionare **Spedizione**.  
+4. Scegliere **Azioni**, **Registrazione**, quindi **Registra**. Nella pagina visualizzata selezionare **Spedizione**.  
   
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
   

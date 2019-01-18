@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Impostare gli oggetti di costo
@@ -27,7 +27,7 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 * Creando un nuovo grafico dell'oggetto di costo che sia indipendente dalla contabilità generale o aggiungendo un nuovo oggetto di costo a un grafico degli oggetti di costo esistente. È necessario creare ogni oggetto di costo singolarmente.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo  
-1.  Impostare una dimensione come dimensione dell'oggetto di costo nella finestra **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
+1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano degli oggetti di costo** e quindi scegliere il collegamento correlato.  
 3.  Scegliere l'azione **Ottieni oggetti di costo da dimensione** per trasferire i valori dimensioni al piano degli oggetti di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
@@ -36,10 +36,10 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 
 Il grafico degli oggetti di costo contiene ora tutti i valori dimensioni specificati della contabilità generale e include i titoli e i subtotali.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Per creare nuovi oggetti di costo nella finestra Piano degli oggetti di costo  
-È possibile impostare e gestire oggetti di costo nella scheda **Scheda oggetto di costo** o nella finestra **Piano degli oggetti di costo**. In questa procedura è possibile impostare gli oggetti di costo nella finestra  **Piano degli oggetti di costo**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Per creare nuovi oggetti di costo nella pagina Piano degli oggetti di costo  
+È possibile impostare e gestire oggetti di costo nella scheda **Scheda oggetto di costo** o nella pagina **Piano degli oggetti di costo**. In questa procedura è possibile impostare gli oggetti di costo nella pagina **Piano degli oggetti di costo**.  
 
-1.  Aprire la finestra **Piano degli oggetti di costo** in modalità di modifica.  
+1.  Aprire la pagina **Piano dei tipi di costo** in modalità di modifica.  
 2.  Nel campo  **Codice** immettere il codice oggetto di costo. Tutti gli oggetti di costo devono disporre di un codice.  
 3.  Nel campo **Nome** immettere il nome dell'oggetto di costo.  
 4.  Fare clic sulla freccia a discesa nel campo **Tipo riga** per specificare lo scopo dell'oggetto di costo.  

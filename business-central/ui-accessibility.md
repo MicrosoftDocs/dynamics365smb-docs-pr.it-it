@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilità e tasti di scelta rapida in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ In questo argomento vengono fornite informazioni sulle funzionalità che rendono
 ##  <a name="Navigation"></a> Spostamento  
  È possibile spostarsi tra schede e azioni nella barra multifunzione, elementi nella barra di spostamento e altri comandi nelle pagine e nei report di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando la tastiera. Per spostare lo stato attivo da un comando, scheda o azione all'altro, premere il tasto TAB per spostarsi in avanti. Premere MAIUSC + TAB per spostarsi all'indietro.  
 
- Utilizzando l'ordine delle schede è inoltre possibile passare, ad esempio, dalla finestra principale del browser alle finestre di dialogo che richiedono conferma o alla finestra di connessione e viceversa.  
+ Utilizzando l'ordine delle schede è inoltre possibile passare, ad esempio, dalla pagina principale del browser alle finestre di dialogo che richiedono conferma o alla pagina di connessione e viceversa.  
 
 ##  <a name="Headings"></a> Intestazioni  
  L'origine HTML per il contenuto di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizza tag per aiutare gli utenti della tecnologia per l'accessibilità a comprendere la struttura e il contenuto della pagina. Ad esempio, nelle pagine di elenchi, le colonne vengono definite in tag TH e le intestazioni di colonna sono impostate con l'attributo TITLE all'interno del tag. Le didascalie per elementi quali Schede dettaglio, Riquadri Dettaglio informazioni e campi sono incluse nei tag delle intestazioni (H1, H2, H3 e H4).  

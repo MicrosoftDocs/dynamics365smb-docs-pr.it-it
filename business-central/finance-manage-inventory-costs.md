@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028a2812b9af134c8d164ad7a59d4f06205fc621
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Gestione dei costi di magazzino
@@ -29,12 +29,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |**Per**|**Vedere**|  
 |------------|-------------|  
 |Leggere diverse informazioni concettuali per comprendere i principi alla base della funzionalità di costing di magazzino in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Informazioni sul costing di magazzino](finance-learn-about-costing.md)|  
+|Apprendere come i periodi di magazzino consentano a una società di controllare il valore di magazzino nel tempo mediante la definizione di periodi più brevi, che possono essere chiusi per la registrazione con l'avanzamento dell'anno fiscale.|[Utilizzare periodi di magazzino](finance-how-to-work-with-inventory-periods.md)|
+|Apprendere per quale motivo i costi standard vengono spesso utilizzati dalle aziende manifatturiere come base di valutazione per componenti e articoli finali.|[Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)|
 |Impostare periodi magazzino, metodi di costing e metodi di arrotondamento.|[Impostazione della valutazione magazzino e i costi](finance-set-up-inventory-valuation-and-costing.md)|
 |Rivalutare o ammortizzare il valore di uno o più articoli in magazzino registrandone il corrente valore calcolato.|[Rivalutare il magazzino](inventory-how-revalue-inventory.md)|
 |Rettificare i costi articolo, automaticamente o manualmente, per inoltrare le modifiche dei costi dai movimenti in entrata ai movimenti in uscita correlati.|[Rettifica costi articolo](inventory-how-adjust-item-costs.md)|
 |Utilizzare le funzioni di costing speciali per le transazioni di articoli quotidiane nelle operazioni articoli.|[Gestione dei costi del magazzino e di produzione](finance-handle-inventory-and-manufacturing-costs.md)|  
 |È necessario aggiornare periodicamente i costi standard dei componenti, nelle distinte base di assemblaggio e di produzione, ed eseguire il rollup dei nuovi costi nell'articolo padre.|[Aggiornare i costi standard](finance-how-to-update-standard-costs.md)|
-|Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.|[Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)|
+|Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
 |Informazioni su tutti i meccanismi nel sistema di costing.|[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Vedi anche  

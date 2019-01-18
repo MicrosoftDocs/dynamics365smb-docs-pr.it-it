@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/28/2018
 
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter rivedere o riportare i dati finanziari in più di una valuta. Il programma consente l'utilizzo di più valute. La contabilità generale viene impostata utilizzando la valuta locale (VL), ma è possibile impostare un'altra valuta come valuta addizionale, assegnando un tasso di cambio corrente.  
 
- Se si imposta una seconda valuta come valuta contabile addizionale, gli importi in ogni movimento CG e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] sia nella valuta locale che nella valuta addizionale. Quando vengono calcolati gli importi dei movimenti C/G in una valuta contabile addizionale, vengono utilizzate le informazioni della finestra **Tassi di cambio valuta** per individuare il tasso di cambio appropriato.  
+ Se si imposta una seconda valuta come valuta contabile addizionale, gli importi in ogni movimento CG e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] sia nella valuta locale che nella valuta addizionale. Quando vengono calcolati gli importi dei movimenti C/G in una valuta contabile addizionale, vengono utilizzate le informazioni della pagina **Tassi di cambio valuta** per individuare il tasso di cambio appropriato.  
 
 > [!WARNING]  
 >  La funzionalità Valuta addizionale NON deve essere utilizzata come base per la conversione del rendiconto finanziario. Questo strumento non consente di eseguire la conversione dei rendiconti finanziari delle filiali estere come parte del consolidamento di una società. La funzionalità della valuta contabile addizionale consente esclusivamente di creare report in un'altra valuta, come se tale valuta fosse quella locale della società.
@@ -39,21 +39,21 @@ L'utilizzo di una valuta addizionale può essere utile per il processo di creazi
 
 - Società che desiderano visualizzare i report in una valuta maggiormente utilizzata a livello internazionale rispetto alla propria valuta locale.  
 
-Numerosi report nell'area di applicazione della contabilità generale sono basati sui movimenti C/G. Per visualizzare i dati finanziari del report nella valuta contabile aggiuntiva, selezionare semplicemente il campo **Mostra in valuta di cambio addizionale** nella finestra di report CG pertinente.  
+Numerosi report nell'area di applicazione della contabilità generale sono basati sui movimenti C/G. Per visualizzare i dati finanziari del report nella valuta contabile aggiuntiva, selezionare semplicemente il campo **Mostra in valuta di cambio addizionale** nella pagina di report CG pertinente.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
 È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute, ad esempio FloatRates.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi tasso di cambio valuta** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Nella finestra **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella pagina **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere la casella controllo **Abilitato** per abilitare il servizio.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Per aggiornare i tassi di cambio delle valute mediante un servizio
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valute** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Aggiorna tassi di cambio**.
 
-Il valore nel campo **Tasso di cambio** della finestra **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
+Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  

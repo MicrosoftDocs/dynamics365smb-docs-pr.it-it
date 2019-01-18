@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -25,7 +25,7 @@ Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una qu
 La funzionalità Dimensioni svolge un ruolo importante in business intelligence. Una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Tra altri utilizzi, le dimensioni si usano quando si definiscono le visualizzazioni analisi e si creano le situazioni contabili analisi per il reporting. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
 
 > [!TIP]
-> Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le finestre **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.  
+> Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le pagine **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 

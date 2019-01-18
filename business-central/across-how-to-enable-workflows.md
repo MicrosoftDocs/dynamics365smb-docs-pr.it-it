@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df48a8c8335e73a304c7f423aea4bbe8018be060
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ee751670e39d1abe0e1d3e5faa04e57ce1fcc07
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-workflows"></a>Abilitare i workflow
 Dopo avere creato un workflow ed essersi assicurati che sia pronto, è necessario abilitare il workflow.  
 
- Nella finestra **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
+ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Per abilitare un flusso di lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
 2.  Aprire il flusso di lavoro che si desidera abilitare.  
-3.  Nella finestra **Workflow** deselezionare la casella di controllo **Abilitato**.  
+3.  Nella pagina **Workflow** deselezionare la casella di controllo **Abilitato**.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Creare i workflow](across-how-to-create-workflows.md)   

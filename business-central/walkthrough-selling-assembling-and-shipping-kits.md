@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
@@ -82,7 +82,7 @@ Prima di svolgere le attività di questa procedura dettagliata, è necessario:
 -   È possibile diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella finestra **Utenti**.  
+2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Selezionare il campo **Default**.  
 
@@ -101,7 +101,7 @@ Preparare l'ubicazione BIANCA per l'elaborazione dell'assemblaggio effettuando i
 Rimuovere il lead time di default per i processi interni effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manufacturing** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
+2.  Nella pagina **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
 
 Creare il magazzino per i componenti di assemblaggio, seguendo le istruzioni fornite nella sezione "Preparazione della sezione dei dati di esempio", in questa procedura dettagliata.  
 
@@ -151,10 +151,10 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     A questo punto, è necessario sincronizzare i nuovi movimenti warehouse con il magazzino.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato. Viene visualizzata la finestra **Registrazioni magazzino**.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Registrazioni magazzino**.  
 6.  Nel gruppo **Funzioni** della scheda **Azioni** scegliere **Calcola rettifica whse.**  
-7.  Nella finestra **Calcola rettifica whse.** scegliere il pulsante **OK**.  
-8.  Nella finestra **Registrazioni magazzino**, nella scheda **Azioni**, nel gruppo **Funzioni** scegliere **Registra** e quindi scegliere il pulsante **Sì**.  
+7.  Nella pagina **Calcola rettifica whse.** scegliere il pulsante **OK**.  
+8.  Nella pagina **Registrazioni magazzino**, nella scheda **Azioni**, nel gruppo **Funzioni** scegliere **Registra** e quindi scegliere il pulsante **Sì**.  
 
 ### <a name="creating-the-assembly-items"></a>Creazione degli articoli di assemblaggio  
 
@@ -221,7 +221,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     > [!NOTE]  
     >  Il seguente problema di disponibilità esiste per la riga dell'ordine di vendita relativa al Kit B:  
     >   
-    >  -   Il componente di assemblaggio 80210 non è disponibile. Ciò significa che le tre unità specificate per il Kit B non possono essere assemblate e questo è indicato dallo **0** nel campo **In grado di assemblare** della finestra **Disponibilità assemblaggio**.  
+    >  -   Il componente di assemblaggio 80210 non è disponibile. Ciò significa che le tre unità specificate per il Kit B non possono essere assemblate e questo è indicato dallo **0** nel campo **In grado di assemblare** della pagina **Disponibilità assemblaggio**.  
     >   
     >  Il seguente problema di disponibilità esiste per la riga dell'ordine di vendita relativa al Kit A:  
     >   
@@ -231,7 +231,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 4.  Selezionare la riga dell'ordine di vendita per le tre unità del Kit B.  
 5.  Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Righe di assemblaggio su ordine**.  
-6.  Nella finestra **Righe di assemblaggio su ordine**, nella riga dell'ordine di assemblaggio per l'articolo 80014, immettere **2** nel campo **Quantità per**.  
+6.  Nella pagina **Righe di assemblaggio su ordine**, nella riga dell'ordine di assemblaggio per l'articolo 80014, immettere **2** nel campo **Quantità per**.  
 7.  Nella riga dell'ordine di assemblaggio per l'articolo 80210, scegliere il campo **Nr.** e selezionare l'articolo 80209.  
 8.  Creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
 
@@ -239,7 +239,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     |----------|---------|------------------|  
     |Articolo|80203|1|  
 
-9. Chiudere la finestra **Righe di assemblaggio su ordine**.  
+9. Chiudere la pagina **Righe di assemblaggio su ordine**.  
 
     Quindi, aggiornare il prezzo unitario del Kit B in base alla personalizzazione appena eseguita. Osservare il valore corrente del campo **Prezzo unitario IVA esclusa**.  
 
@@ -247,7 +247,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 11. Scegliere il pulsante **Sì**. Osservare il valore più alto del campo **Prezzo unitario IVA esclusa**.  
 12. Selezionare la riga dell'ordine di vendita per 15 unità del Kit A.  
 13. Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Righe di assemblaggio su ordine**.  
-14. Nella finestra **Righe di assemblaggio su ordine**, creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
+14. Nella pagina **Righe di assemblaggio su ordine**, creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
 
     |Tipo|Nr.|Quantità per|  
     |----------|---------|------------------|  
@@ -264,9 +264,9 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Nel gruppo **Funzioni** della scheda **Azione**, selezionare **Calcola piano - Rigenerativo**.  
-3.  Nella finestra **Calcola piano** immettere i seguenti filtri.  
+3.  Nella pagina **Calcola piano** immettere i seguenti filtri.  
 
-    |Data Inizio|Data fine|Nr.|  
+    |Data inizio|Data fine|Nr.|  
     |-------------------|-----------------|---------|  
     |23/01/2014|27/01/2014|Kit A - PC di base|  
 
@@ -275,7 +275,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     Verrà creata una nuova riga di pianificazione per l'ordine di assemblaggio necessario di dieci unità, con scadenza il 27 gennaio. Non richiede modifiche, pertanto a questo punto è possibile creare l'ordine.  
 
 5.  Nel gruppo **Funzioni** della scheda **Azioni** scegliere **Esegui messaggi di azione**.  
-6.  Nella finestra **Pianificaz. - Esegui mess. azioni**, selezionare il campo **Ordine di assemblaggio**, quindi selezionare **Crea ordini di assemblaggio**.  
+6.  Nella pagina **Pianificaz. - Esegui mess. azioni**, selezionare il campo **Ordine di assemblaggio**, quindi selezionare **Crea ordini di assemblaggio**.  
 7.  Scegliere il pulsante **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblaggio e spedizione della prima quantità di ATO  
@@ -311,14 +311,14 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Tornare all'esecuzione dei task di spedizione.  
 
-8.  Riaprire la finestra **Lista spedizioni warehouse**.  
+8.  Riaprire la pagina **Lista spedizioni warehouse**.  
 
     Osservare come il campo **Qtà prelevata** sia ancora vuoto in tutte le righe. Questo si verifica perché gli articoli da spedire non sono stati ancora prelevati e sono stati invece prelevati solo i componenti necessari per assemblare le quantità di ATO.  
 
     Procedere alla revisione dell'ordine di assemblaggio correlato.  
 
 9. Selezionare la riga della spedizione per le tre unità del Kit B.  
-10. Nella Scheda dettaglio **Righe** scegliere **Riga**, quindi selezionare **Assemblaggio su ordine**. Verrà visualizzata la finestra **Ordine di assemblaggio**.  
+10. Nella Scheda dettaglio **Righe** scegliere **Riga**, quindi selezionare **Assemblaggio su ordine**. Verrà visualizzata la pagina **Ordine di assemblaggio**.  
 
     Osservare come più campi dell'ordine di assemblaggio non siano disponibili in quanto l'ordine è collegato a un ordine di vendita.  
 
@@ -330,7 +330,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Il campo **Quantità da assemblare** è modificabile per supportare le situazioni in cui si desidera eseguire una spedizione parziale di una quantità di magazzino anziché assemblare più unità dell'ordine. Per altre informazioni, vedere la sezione "Scenari di combinazione" in [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Chiudere la finestra **Ordine di assemblaggio** per tornare alla finestra **Spedizione warehouse**.  
+12. Chiudere la pagina **Ordine di assemblaggio** per tornare alla pagina **Spedizione warehouse**.  
 13. Nella riga relativa alla spedizione delle tre unità del kit B, nel campo **Qtà da spedire**, immettere **3**.  
 14. Nella scheda **Azioni**, nel gruppo **Registrazione**, scegliere **Registrare spedizione**, quindi selezionare **Spedizione**.  
 
@@ -356,11 +356,11 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     Infine, registrare il completamento dell'ordine di assemblaggio.  
 
 3.  Nel gruppo **Warehouse** della scheda **Naviga**, selezionare **Riga spediz. whse. assem. su ordine**.  
-4.  Nella finestra **Riga spediz. whse. assem. su ordine**, immettere **5** nel campo **Qtà da spedire**, quindi chiudere la finestra.  
+4.  Nella pagina **Riga spediz. whse. assem. su ordine**, immettere **5** nel campo **Qtà da spedire**, quindi chiudere la pagina.  
 
-    Nella finestra **Ordine di assemblaggio** si noti che i campi **Quantità da assemblare** e **Quantità da consumare** sono ora compilati con le quantità consumi e output che verranno registrati insieme alla spedizione.  
+    Nella pagina **Ordine di assemblaggio** si noti che i campi **Quantità da assemblare** e **Quantità da consumare** sono ora compilati con le quantità consumi e output che verranno registrati insieme alla spedizione.  
 
-5.  Chiudere la finestra **Ordine di assemblaggio**.  
+5.  Chiudere la pagina **Ordine di assemblaggio**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Assemblaggio della quantità di ATO  
 
@@ -415,9 +415,9 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Tornare alla spedizione warehouse per eseguire l'ultimo task di assemblaggio.  
 
-8.  Riaprire la finestra **Lista spedizioni warehouse**.  
+8.  Riaprire la pagina **Lista spedizioni warehouse**.  
 
-    Nella finestra **Spedizione warehouse**, si noti che nella riga relativa a dieci unità di kit A i campi **Qtà da spedire** e **Qtà prelevata** ora contengono **10**.  
+    Nella pagina **Spedizione warehouse**, si noti che nella riga relativa a dieci unità di kit A i campi **Qtà da spedire** e **Qtà prelevata** ora contengono **10**.  
 
 9. Nella scheda **Azioni**, nel gruppo **Registrazione**, scegliere **Registrare spedizione**, quindi selezionare **Spedizione**.  
 

@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Modifica delle impostazioni di base
-Nella finestra [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Passare direttamente alla pagina impostazioni utente in Business Central"), è possibile visualizzare e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche apportate interesseranno solo l'area di lavoro dell'utente, non quello di altri utenti.  
+Nella pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Passare direttamente alla pagina impostazioni utente in Business Central"), è possibile visualizzare e modificare le impostazioni di base per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche apportate interesseranno solo l'area di lavoro dell'utente, non quello di altri utenti.  
 
 ## <a name="role-center"></a> Gestione ruolo utente
 Gestione ruolo utente rappresenta la home page, una schermata iniziale che è progettata per le esigenze di un ruolo specifico dell'organizzazione. A seconda del ruolo, Gestione ruolo utente offre una panoramica del business, del reparto o dei task personali. Agevola anche l'esplorazione dei task quotidiane e la ricerca del lavoro assegnato.
@@ -30,7 +30,7 @@ Gestione ruolo utente rappresenta la home page, una schermata iniziale che è pr
 ### <a name="to-change-role-center"></a>Per modificare una Gestione ruolo utente
 La Gestione ruolo utente di default è **Manager aziendale**, ma è possibile selezionare un altro Centro ruolo utente più adatto alle proprie esigenze.
 1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente"), quindi scegliere **Impostazioni personali**.
-2. Nella fienstra **Impostazioni personali** nel campo **Gestione ruolo utenter** selezionare la Gestione ruolo utente che si desidera impostare come standard. Ad esempio, selezionare **Contabile**.
+2. Nella pagina **Impostazioni personali** nel campo **Gestione ruolo utenter** selezionare la Gestione ruolo utente che si desidera impostare come standard. Ad esempio, selezionare **Contabile**.
 3. Scegliere il pulsante **OK**.
 
 ## <a name="company"></a>Società
@@ -39,9 +39,9 @@ Una società funziona da contenitore dei dati in [!INCLUDE[d365fin](includes/d36
 La società di default è detta CRONUS e contiene solo i dati di esempio.
 
 > [!TIP]  
->   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella finestra **Informazioni società** o **Nome visualizzato** nella finestra **Società**.  
+>   Se si desidera visualizzare un nome diverso per la società nell'applicazione (ad esempio in Gestione ruolo utente), impostare il campo **Nome** nella pagina **Informazioni società** o **Nome visualizzato** nella pagina **Società**.  
 
-## <a name="work-date"></a>Work Date
+## <a name="work-date"></a>Data lavoro
 La data di lavoro di default in genere è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data corrente, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  

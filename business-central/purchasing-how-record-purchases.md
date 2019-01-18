@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-purchases"></a>Registrare gli acquisti
@@ -39,16 +39,16 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 
-    Altri campi nella finestra **Fattura di vendita** ora vengono compilati con le informazioni standard del fornitore selezionato. Se il fornitore non è registrato, è necessario attenersi alla seguente procedura:
+    Altri campi nella pagina **Fattura di vendita** ora vengono compilati con le informazioni standard del fornitore selezionato. Se il fornitore non è registrato, è necessario attenersi alla seguente procedura:
 3. Nel campo **Fornitore** immettere il nome del nuovo fornitore.
 4. Nella finestra di dialogo relativa alla registrazione del nuovo fornitore fare clic su **Sì**.
-5. Nella finestra **Selezionare un modello per un nuovo fornitore** scegliere un modello su cui basare la scheda del nuovo fornitore, quindi scegliere **OK**.
+5. Nella pagina **Selezionare un modello per un nuovo fornitore** scegliere un modello su cui basare la scheda del nuovo fornitore, quindi scegliere **OK**.
 6. Una nuova scheda fornitore verrà visualizzata, precompilata con le informazioni sul modello fornitore selezionato. Il campo **Nome** è precompilato con il nome del nuovo fornitore immesso nella fattura di acquisto.
 7. Precedere compilando i restanti campi nella scheda fornitore. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).  
-8. Una volta completata la scheda fornitore, fare clic su **OK** per tornare alla finestra **Fattura di acquisto**.
+8. Una volta completata la scheda fornitore, fare clic su **OK** per tornare alla pagina **Fattura di acquisto**.
 
-    Numerosi campi della finestra **Fattura di acquisto** vengono compilati con le informazioni specificate nella nuova scheda fornitore.
-9. Compilare i restanti campi della finestra **Fattura di acquisto** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Numerosi campi della pagina **Fattura di acquisto** vengono compilati con le informazioni specificate nella nuova scheda fornitore.
+9. Compilare i restanti campi della pagina **Fattura di acquisto** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     A questo punto si è pronti a compilare le righe della fattura di acquisto con gli articoli di magazzino o i servizi acquistati presso il fornitore.
 

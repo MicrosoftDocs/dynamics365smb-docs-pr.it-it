@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
@@ -60,7 +60,7 @@ Una volta informati degli sconti su fattura concessi dai fornitori, immettere il
     >   I codici sconto fattura sono rappresentati da schede fornitore esistenti. Questo consente di assegnare rapidamente le condizioni dello sconto fattura ai fornitori perché basterà selezionare il nome di un altro fornitore che avrà le stesse condizioni.
 
     Continuare a impostare le nuove condizioni dello sconto fattura di acquisto.
-4. Nella finestra **Scheda fornitore** scegliere l'azione **Sconti fattura**. Verrà visualizzata la finestra **Sconti fattura fornitori**.
+4. Nella pagina **Scheda fornitore** scegliere l'azione **Sconti fattura**. Verrà visualizzata la pagina **Sconti fattura fornitori**.
 5. Nel campo **Codice valuta** immettere il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
 6. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 7. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
@@ -88,7 +88,7 @@ Se esistono condizioni fisse per gli sconti sulle fatture con un fornitore quals
 
  Prima di utilizzare gli sconti fattura con gli acquisti, è necessario specificare i fornitori che offrono gli sconti.  
 
- Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le finestre **Sconti fattura fornitori**. È possibile immettere un numero qualsiasi di percentuali in ogni finestra. A ogni fornitore è possibile associare una propria finestra oppure è possibile collegare più fornitori alla stessa finestra.  
+ Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura fornitori**. È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni fornitore è possibile associare una propria pagina oppure è possibile collegare più fornitori alla stessa pagina.  
 
  Oltre a una percentuale di sconto, è possibile collegare l'importo di un addebito di assistenza a un importo della fattura specifico.  
 
@@ -97,7 +97,7 @@ Se esistono condizioni fisse per gli sconti sulle fatture con un fornitore quals
  È inoltre possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché vengano calcolati automaticamente gli sconti fattura per le offerte, gli ordini programmati, gli ordini, le fatture o le note di credito.  
 
 > [!TIP]  
->  Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. In questo modo, sarà più semplice visualizzare quali fornitori si possono collegare alla stessa finestra dello sconto fattura. Minore è il numero delle finestre da impostare, più veloce risulta l'inserimento delle informazioni principali.
+>  Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. In questo modo, sarà più semplice visualizzare quali fornitori si possono collegare alla stessa pagina dello sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
 Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.

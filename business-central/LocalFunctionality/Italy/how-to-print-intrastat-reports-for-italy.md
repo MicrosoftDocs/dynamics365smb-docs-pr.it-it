@@ -1,22 +1,17 @@
 ---
 title: 'Procedura: Stampa di report Intrastat per l''Italia'
-description: "È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente."
-services: project-madeira
-documentationcenter: 
+description: "È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità nella versione italiana di Business Central. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d78870c345a12699f62831fbc8999c71bee9fc46
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d473980e3a9600b0e9600e8ea0d41534309a601f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
@@ -34,7 +29,7 @@ Sono disponibili i seguenti report Intrastat:
 3.  Per aprire il report **Intrastat - Report mensile** o **Intrastat - Report trimestrale**, scegliere l'azione **Report mensile** o **Report trimestrale**.  
 4.  Nella Scheda dettaglio **Righe reg. Intrastat** selezionare i filtri appropriati.  
 5.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
-6.  Nella finestra **Registrazioni Intrastat**, per salvare i dettagli del report in un file, nella scheda **Azioni** nel gruppo, **Stampa**, scegliere **Crea file**.  
+6.  Nella pagina **Registrazioni Intrastat**, per salvare i dettagli del report in un file, nella scheda **Azioni** nel gruppo, **Stampa**, scegliere **Crea file**.  
 
     > [!NOTE]  
     >  Prima della stampa, è possibile selezionare il percorso e il nome file. Se non vengono specificate queste informazioni, il file verrà denominato **scambi.cee** e verrà stampato nella radice dell'unità C.  

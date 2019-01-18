@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Spostare articoli in configurazioni di warehouse avanzate
 Nelle configurazioni warehouse avanzate, ovvero le ubicazioni con stoccaggi e prelievi guidati, occorre preparare le movimentazioni warehouse tra collocazioni nel prospetto movimentazioni, un'operazione in genera affidata a un responsabile di reparto, quindi creare le movimentazioni warehouse che dovranno essere eseguite dagli impiegati warehouse.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Per spostare gli articoli con il prospetto movimentazioni warehouse
-La finestra **Prospetto movimentazioni** include due funzioni che consentono di compilare automaticamente le righe. La prima è la funzione **Calcola rifornimento collocazione**. Questa funzione utilizza le valutazioni collocazioni per suggerire il rifornimento delle collocazioni con valutazione elevata spostando articoli dalle collocazioni con valutazione bassa. La seconda funzione è **Prendi contenuto collocazione**, che inserisce nelle righe del prospetto i dati per l'intero contenuto della collocazione o delle collocazioni specificate.
+La pagina **Prospetto movimentazioni** include due funzioni che consentono di compilare automaticamente le righe. La prima è la funzione **Calcola rifornimento collocazione**. Questa funzione utilizza le valutazioni collocazioni per suggerire il rifornimento delle collocazioni con valutazione elevata spostando articoli dalle collocazioni con valutazione bassa. La seconda funzione è **Prendi contenuto collocazione**, che inserisce nelle righe del prospetto i dati per l'intero contenuto della collocazione o delle collocazioni specificate.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
 2.  Immettere le informazioni di movimentazione warehouse nelle righe del prospetto secondo le esigenze.  

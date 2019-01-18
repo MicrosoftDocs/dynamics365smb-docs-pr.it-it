@@ -12,22 +12,22 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee07ca7ba498858fac794f1ee1f27f281de8ae02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Registrare ricevute di pagamento di addebiti diretti SEPA
 Quando una riscossione di addebiti diretti viene elaborata correttamente dalla banca, è possibile procedere con la registrazione della ricevuta del pagamento per le fatture di vendita interessate. Per ulteriori informazioni, vedere [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 
-È possibile registrare la ricevuta di pagamento direttamente dalla finestra **Riscossioni addebiti diretti** o dalla finestra **Movimenti riscossioni addebiti diretti**. In alternativa, è possibile inoltrare il lavoro a un altro utente preparando le righe registrazioni correlate.  
+È possibile registrare la ricevuta di pagamento direttamente dalla pagina **Riscossioni addebiti diretti** o dalla pagina **Movimenti riscossioni addebiti diretti**. In alternativa, è possibile inoltrare il lavoro a un altro utente preparando le righe registrazioni correlate.  
 
-## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-window"></a>Per registrare una ricevuta di pagamento con addebito diretto dalla finestra Riscossioni di addebiti diretti  
+## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Per registrare una ricevuta di pagamento con addebito diretto dalla pagina Riscossioni di addebiti diretti  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riscossioni addebiti diretti** e quindi scegliere il collegamento correlato.  
 2. Selezionare una riga per una riscossione di addebiti diretti esportata in un file della banca ed elaborata correttamente dalla banca. Per ulteriori informazioni, vedere [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Scegliere l'azione **Registra ricevute di pagamento**.  
-4. Nella finestra **Registra riscossione addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
+4. Nella pagina **Registra riscossione addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  

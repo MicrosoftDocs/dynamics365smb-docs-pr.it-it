@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
@@ -25,16 +25,16 @@ I clienti sono l'origine del reddito. È necessario registrare ogni cliente, cui
 Prima di registrare nuovi clienti, è necessario impostare vari codici di vendita selezionabili durante la compilazione delle schede cliente. Per ulteriori informazioni, vedere [Setup Vendite](sales-setup-sales.md).
 
 > [!NOTE]  
->   Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una finestra automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.
+>   Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una pagina automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-customer-card"></a>Per creare una nuova scheda cliente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Clienti** scegliere l'azione **Nuovo**.
+2. Nella pagina **Clienti** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello cliente, allora verrà visualizzata una nuova scheda cliente con alcuni campi compilati con le informazioni derivanti dal modello.
 
-    Se esistono più modelli cliente, verrà aperta una finestra nella quale sarà possibile selezionare un modello cliente. In questo caso, seguire i due passaggi successivi.
-3. Nella finestra **Selezionare un modello per un nuovo cliente** scegliere il modello da utilizzare per la nuova scheda cliente.
+    Se esistono più modelli cliente, verrà aperta una pagina nella quale sarà possibile selezionare un modello cliente. In questo caso, seguire i due passaggi successivi.
+3. Nella pagina **Selezionare un modello per un nuovo cliente** scegliere il modello da utilizzare per la nuova scheda cliente.
 4. Scegliere il pulsante **OK**. Una nuova scheda cliente verrà visualizzata con alcuni campi compilati con le informazioni del modello.  
 5. Continuare a compilare o a modificare i campi della scheda cliente in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -45,9 +45,9 @@ Il cliente è ora registrato e la scheda cliente è pronta per essere utilizzata
 Se si desidera utilizzare questa scheda cliente come modello quando si creano nuove schede cliente, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Per salvare la scheda cliente come modello
-1. Nella finestra **Scheda cliente** scegliere l'azione **Salva come modello**. Nella finestra **Modello cliente** verrà visualizzata la scheda cliente come modello.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Verrà visualizzata la finestra **Modelli dimensioni** nella quale saranno indicati tutti i codici per le dimensioni che sono impostati per il cliente.
+1. Nella pagina **Scheda cliente** scegliere l'azione **Salva come modello**. Nella pagina **Modello cliente** verrà visualizzata la scheda cliente come modello.
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per il cliente.
 4. Modificare o immettere i codici di dimensione da collegare alle nuove schede cliente create utilizzando la definizione.  
 5. Una volta completato il nuovo modello cliente, fare clic su **OK**.
 

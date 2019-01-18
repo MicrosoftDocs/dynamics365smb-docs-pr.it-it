@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3d4c111af62db5858b81b76f9f51a9093c01e5e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Impostare più tassi d'interesse
@@ -26,12 +26,12 @@ Quando si creano le condizioni di addebito degli interessi e i termini di sollec
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Per impostare più tassi d'interesse  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condiz. interessi finanziari** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Condiz. interessi finanziari**, selezionare le condizioni di addebito, quindi scegliere l'azione **Tassi di interesse**.  
+2.  Nella pagina **Condiz. interessi finanziari**, selezionare le condizioni di addebito, quindi scegliere l'azione **Tassi di interesse**.  
 3.  Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Scegliere il pulsante **OK**.  
 5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
-6.  Nella finestra **Termini di sollecito**, selezionare i termini di sollecito, quindi scegliere l'azione **Livelli**.  
-7.  Nella finestra **Livelli di sollecito**, selezionare il campo **Interessi calcolati**.  
+6.  Nella pagina **Termini di sollecito**, selezionare i termini di sollecito, quindi scegliere l'azione **Livelli**.  
+7.  Nella pagina **Livelli di sollecito**, selezionare il campo **Interessi calcolati**.  
 
 Quando si emette una nota di addebito interessi, la nota mostra gli addebiti di interessi con più tassi di interesse per un periodo di tempo specifico. La nota contiene anche dettagli relativi a contatti del cliente, società che ha emesso la nota, importo addizionale e importo totale. Il movimento di apertura nella nota è visualizzato in grassetto. Gli addebiti di interessi sono calcolati con più tassi di interesse per un periodo di tempo specifico e vengono stampati dopo il movimento di apertura della nota.  
 

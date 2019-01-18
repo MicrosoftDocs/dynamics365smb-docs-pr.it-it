@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
@@ -33,7 +33,7 @@ Un ordine di trasferimento appare come qualsiasi altro ordine nel programma. In 
 
 Un aspetto fondamentale che differenzia i trasferimenti nella pianificazione dagli ordini di acquisto e di produzione è che una riga di trasferimento rappresenta contemporaneamente la domanda e l'approvvigionamento. La parte in uscita, che viene spedita dall'ubicazione precedente, è la domanda. La parte in entrata, che deve essere ricevuta presso la nuova ubicazione, è l'approvvigionamento in tale ubicazione.  
 
-![Contenuto della finestra Ordine di trasferimento](media/nav_app_supply_planning_7_transfers3.png "Contenuto della finestra Ordine di trasferimento")  
+![Contenuto della pagina Ordine di trasferimento](media/nav_app_supply_planning_7_transfers3.png "Contenuto della pagina Ordine di trasferimento")  
 
 Ciò significa che quando il sistema manipola il lato approvvigionamento del trasferimento, deve apportare una modifica simile sul lato domanda.  
 
@@ -64,7 +64,7 @@ Il codice del livello di trasferimento è un campo interno che viene calcolato e
 
 Il codice del livello di trasferimento sarà 0 per le unità di stockkeeping con ordine di produzione o di acquisto del sistema di rifornimento e sarà -1 per il primo livello di trasferimento, -2 per il secondo e così via. Nella catena di trasferimento descritta in precedenza, i livelli sarebbero quindi -1 per ROSSO e -2 per VERDE, come indicato nella seguente illustrazione.  
 
-![Contenuto della finestra Scheda SKU](media/nav_app_supply_planning_7_transfers6.gif "Contenuto della finestra Scheda SKU")  
+![Contenuto della pagina Scheda SKU](media/nav_app_supply_planning_7_transfers6.gif "Contenuto della pagina Scheda SKU")  
 
 Per aggiornare la USK, il sistema di pianificazione rileverà se le unità di stockkeeping con il sistema di rifornimento Trasferimento sono impostate con riferimenti circolari.  
 
@@ -135,7 +135,7 @@ In questo esempio, significa che:
 * Data Fine + Gest. Entrata = Data Carico  
 
 ## <a name="safety-lead-time"></a>Lead time di sicurezza  
-Il lead time di sicurezza predefinito nella finestra Setup manufacturing e il campo Lead time di sicurezza correlato nella scheda articolo non verranno considerati nel calcolo di un ordine di trasferimento. Tuttavia, il lead time di sicurezza continuerà a influenzare il piano totale come influirà sull'ordine di rifornimento (acquisto o produzione) all'inizio della catena di trasferimento quando gli articoli vengono collocati nell'ubicazione dalla quale verranno trasferiti.  
+Il lead time di sicurezza predefinito nella pagina Setup manufacturing e il campo Lead time di sicurezza correlato nella scheda articolo non verranno considerati nel calcolo di un ordine di trasferimento. Tuttavia, il lead time di sicurezza continuerà a influenzare il piano totale come influirà sull'ordine di rifornimento (acquisto o produzione) all'inizio della catena di trasferimento quando gli articoli vengono collocati nell'ubicazione dalla quale verranno trasferiti.  
 
 ![Elementi della data di scadenza del trasferimento](media/nav_app_supply_planning_7_transfers14.png "Elementi della data di scadenza del trasferimento")  
 

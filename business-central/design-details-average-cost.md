@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Dettagli di progettazione: Costo medio
@@ -23,7 +23,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
  La data di valutazione viene impostata automaticamente.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Impostazione del calcolo del costo medio  
- Nella seguente tabella vengono descritti i due campi della finestra **Setup magazzino** che devono essere compilati per abilitare il calcolo del costo medio.  
+ Nella seguente tabella vengono descritti i due campi della pagina **Setup magazzino** che devono essere compilati per abilitare il calcolo del costo medio.  
 
 |Campo|Descrizione|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 > [!NOTE]  
 >  È possibile utilizzare solo un costo medio del periodo e un tipo di calcolo del costo medio in un anno fiscale.  
 >   
->  Nella finestra **Periodi contabili** viene mostrato il costo medio del periodo e il tipo di calcolo del costo medio utilizzato per quel periodo, per ogni periodo contabile.  
+>  Nella pagina **Periodi contabili** viene mostrato il costo medio del periodo e il tipo di calcolo del costo medio utilizzato per quel periodo, per ogni periodo contabile.  
 
 ## <a name="calculating-average-cost"></a>Calcolo costo medio  
  Quando si registra una transazione per un articolo per il quale viene utilizzato il metodo di costing medio, viene creato un movimento nella tabella **Rettifica costo medio cod. spedizioni Intrastat**. Il movimento contiene numero articolo, codice variante e codice ubicazione della transazione. Il movimento contiene inoltre il campo **Data valutazione**, che specifica l'ultima data del costo medio del periodo in cui è stata registrata la transazione.  
@@ -51,7 +51,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
  Il costo medio calcolato viene quindi collegato alle riduzioni di magazzino per l'articolo (o articolo, ubicazione e variante) con le date di registrazione nel costo medio del periodo. Se vi sono aumenti di magazzino collegati in modo fisso alle riduzioni di magazzino nel costo medio del periodo, il costo medio calcolato viene trasferito dall'aumento a alla riduzione.  
 
 ### <a name="example-average-cost-period--day"></a>Esempio: Costo medio del periodo = Giorno  
- Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un giorno. Il campo **Tipo calcolo costo medio** della finestra **Setup magazzino** è impostato su **Articolo**.  
+ Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un giorno. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
 
  La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli**.  
 
@@ -88,7 +88,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 |02-03-20|Vendite|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Esempio: Costo medio del periodo = Mese  
- Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della finestra **Setup magazzino** è impostato su **Articolo**.  
+ Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
 
  Se il costo medio è calcolato su un periodo di un mese, viene creato solo un movimento per ogni combinazione di numero di articolo, codice variante, codice ubicazione e data di valutazione.  
 

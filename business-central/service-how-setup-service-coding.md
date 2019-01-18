@@ -13,15 +13,15 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f73f5b9d74e7b6a75be6320697aa1a4ad84fb4a1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b9bf54d61ba71281a7069a6977ad1264637eba46
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="set-up-standard-service-codes"></a>Impostare codici di servizio standard
-Quando si presta un tipo di assistenza standard, è spesso necessario creare documenti di assistenza le cui righe contengono informazioni simili. Per facilitare la creazione di queste righe, è possibile impostare dei codici di servizio standard aventi un insieme predefinito di righe di assistenza. Quando si sceglie il codice in un documento di assistenza, le righe vengono immesse automaticamente. È possibile impostare un qualsiasi numero di codici di servizio standard e a ogni codice può essere collegato un numero illimitato di righe di assistenza di tipo diverso, tra cui articolo, risorsa, costo o testo standard. Vengono create righe di assistenza per ciascun codice di servizio standard nella scheda **Codice servizio standard**. A questo punto è possibile assegnare codici di servizio standard a gruppi di articoli in assistenza nella finestra **Cod. gr. art. ass. standard**. Successivamente, quando si crea un documento di assistenza, è possibile utilizzare l'azione **Ottieni codici servizio std.** per aggiungere righe di assistenza.  
+Quando si presta un tipo di assistenza standard, è spesso necessario creare documenti di assistenza le cui righe contengono informazioni simili. Per facilitare la creazione di queste righe, è possibile impostare dei codici di servizio standard aventi un insieme predefinito di righe di assistenza. Quando si sceglie il codice in un documento di assistenza, le righe vengono immesse automaticamente. È possibile impostare un qualsiasi numero di codici di servizio standard e a ogni codice può essere collegato un numero illimitato di righe di assistenza di tipo diverso, tra cui articolo, risorsa, costo o testo standard. Vengono create righe di assistenza per ciascun codice di servizio standard nella scheda **Codice servizio standard**. A questo punto è possibile assegnare codici di servizio standard a gruppi di articoli in assistenza nella pagina **Cod. gr. art. ass. standard**. Successivamente, quando si crea un documento di assistenza, è possibile utilizzare l'azione **Ottieni codici servizio std.** per aggiungere righe di assistenza.  
   
 > [!Tip]
 >  È possibile utilizzare la stessa procedura per creare righe nei documenti di vendita e acquisto. Per altre informazioni, vedere [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md).    

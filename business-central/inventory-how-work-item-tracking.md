@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utilizzo dei numeri di serie e di lotto
-È possibile assegnare i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati. Eseguire l'operazione nella finestra **Righe tracciabilità articolo**.
+È possibile assegnare i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati. Eseguire l'operazione nella pagina **Righe tracciabilità articolo**.
 
-La matrice dei campi della quantità nella parte superiore della finestra **Righe tracciabilità articolo** visualizza le quantità e le somme dei numeri di tracciabilità articolo che vengono definiti nelle righe. Le quantità devono corrispondere a quelle della riga documento, indicata da 0 nei campi **Indefinito**.
+La matrice dei campi della quantità nella parte superiore della pagina **Righe tracciabilità articolo** visualizza le quantità e le somme dei numeri di tracciabilità articolo che vengono definiti nelle righe. Le quantità devono corrispondere a quelle della riga documento, indicata da 0 nei campi **Indefinito**.
 
-Per garantire prestazioni migliori, le informazioni sulla disponibilità vengono raccolte nella finestra **Righe tracciabilità articolo** una sola volta, all'apertura della finestra. Questo significa che tali informazioni non vengono più aggiornate fino a quando la finestra rimane aperta, anche se durante tale intervallo di tempo si verificano cambiamenti nel magazzino o in altri documenti.
+Per garantire prestazioni migliori, le informazioni sulla disponibilità vengono raccolte nella pagina **Righe tracciabilità articolo** una sola volta, all'apertura della pagina. Questo significa che tali informazioni non vengono più aggiornate fino a quando la pagina rimane aperta, anche se durante tale intervallo di tempo si verificano cambiamenti nel magazzino o in altri documenti.
 
 Gli articoli con numeri seriali o di lotto che possono essere analizzati sia in avanti che indietro nella rispettiva catena di catena di approvvigionamento. Ciò risulta utile per un controllo della qualità generale e per la restituzione dei prodotti. Per ulteriori informazioni, vedere [Analizzare articoli tracciati](inventory-how-to-trace-item-tracked-items.md).
 
@@ -33,14 +33,14 @@ In alcuni processi, gli articoli in magazzino non sono dotati di numeri di serie
 
 Nei processi semplici, gli articoli in magazzino sono già dotati di numeri di serie o lotto, ad esempio assegnati durante lo stoccaggio, e tali numeri vengono automaticamente trasferiti a tutte le attività di warehouse in uscita senza alcuna interazione da parte degli addetti warehouse.
 
-In circostanze particolari per magazzini con numeri di serie o lotto, i numeri specifici sono definiti nel documento di origine, ad esempio un ordine di vendita, che l'addetto warehouse deve rispettare durante la gestione dell'uscita della warehouse. Ciò può essere dovuto al fatto che il cliente ha richiesto un lotto specifico durante l'elaborazione dell'ordine. Quando il documento di prelievo magazzino o di prelievo warehouse viene creato da un documento di origine in uscita in cui i numeri di serie o lotto sono già definiti, tutti i campi della finestra **Righe tracciabilità articolo** del prelievo magazzino non sono modificabili, tranne il campo **Qtà da gestire**. In tal caso, nelle righe di prelievi magazzino vengono specificati i numeri di tracciabilità articolo riportati nelle singole righe Prendere e Mettere. La quantità viene già suddivisa in base a combinazioni di numeri seriali o di lotto uniche, in quanto i numeri di tracciabilità degli articoli da spedire sono specificati nell'ordine di vendita.  
+In circostanze particolari per magazzini con numeri di serie o lotto, i numeri specifici sono definiti nel documento di origine, ad esempio un ordine di vendita, che l'addetto warehouse deve rispettare durante la gestione dell'uscita della warehouse. Ciò può essere dovuto al fatto che il cliente ha richiesto un lotto specifico durante l'elaborazione dell'ordine. Quando il documento di prelievo magazzino o di prelievo warehouse viene creato da un documento di origine in uscita in cui i numeri di serie o lotto sono già definiti, tutti i campi della pagina **Righe tracciabilità articolo** del prelievo magazzino non sono modificabili, tranne il campo **Qtà da gestire**. In tal caso, nelle righe di prelievi magazzino vengono specificati i numeri di tracciabilità articolo riportati nelle singole righe Prendere e Mettere. La quantità viene già suddivisa in base a combinazioni di numeri seriali o di lotto uniche, in quanto i numeri di tracciabilità degli articoli da spedire sono specificati nell'ordine di vendita.  
 
 ## <a name="item-tracking-availability"></a>Disponibilità di tracciabilità articolo
-Quando si utilizzano numeri di lotto o serie, tramite [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono calcolate le informazioni sulla disponibilità per tali numeri e tali informazioni vengono visualizzate nelle diverse finestre relative alla tracciabilità articolo. Ciò consente di verificare la quantità di numero di lotto o seriale attualmente in uso in altri documenti. Ciò riduce gli errori e le incertezze dovuti ad allocazioni doppie.
+Quando si utilizzano numeri di lotto o serie, tramite [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono calcolate le informazioni sulla disponibilità per tali numeri e tali informazioni vengono visualizzate nelle diverse pagine relative alla tracciabilità articolo. Ciò consente di verificare la quantità di numero di lotto o seriale attualmente in uso in altri documenti. Ciò riduce gli errori e le incertezze dovuti ad allocazioni doppie.
 
-Nella finestra **Righe tracciabilità articolo** viene visualizzata un'icona di avviso nel campo **Disponibilità, nr. lotto** o **Disponibilità, nr. seriale** se la quantità selezionata o parte di essa è già in uso in altri documenti o se il numero di lotto o seriale non è disponibile.
+Nella pagina **Righe tracciabilità articolo** viene visualizzata un'icona di avviso nel campo **Disponibilità, nr. lotto** o **Disponibilità, nr. seriale** se la quantità selezionata o parte di essa è già in uso in altri documenti o se il numero di lotto o seriale non è disponibile.
 
-Nelle finestre **Nr. lotto - Lista/Nr. seriale - Lista**, **Nr. lotto - Disponibilità/Nr. seriale - Disponibilità** e **Tracciabilità articolo - Seleziona movimenti** vengono visualizzate informazioni sulla quantità in uso di un articolo. Sono incluse le seguenti informazioni.
+Nelle pagine **Nr. lotto - Lista/Nr. seriale - Lista**, **Nr. lotto - Disponibilità/Nr. seriale - Disponibilità** e **Tracciabilità articolo - Seleziona movimenti** vengono visualizzate informazioni sulla quantità in uso di un articolo. Sono incluse le seguenti informazioni.
 
 |Campo|Description|
 |-----|-----------|  
@@ -50,7 +50,7 @@ Nelle finestre **Nr. lotto - Lista/Nr. seriale - Lista**, **Nr. lotto - Disponib
 |**Quantità corrente richiesta**|Il numero di articoli richiesti nel documento corrente|
 |**Quantità totale disponibile**|numero totale di articoli in magazzino meno la quantità di articoli richiesti nel documento corrente e in altri documenti (quantità totale richiesta) e meno la quantità richiesta nel documento corrente ma non ancora caricata (quantità corrente in sospeso)|
 
-Se si utilizza la finestra **Righe tracciabilità articolo** per un intervallo di tempo lungo o se avvengono numerose attività relative all'articolo con cui si sta lavorando, è possibile scegliere l'azione **Aggiorna disponibilità**. Inoltre, alla chiusura della finestra, la disponibilità dell'articolo verrà ricontrollata automaticamente per verificare che non vi siano problemi a riguardo.
+Se si utilizza la pagina **Righe tracciabilità articolo** per un intervallo di tempo lungo o se avvengono numerose attività relative all'articolo con cui si sta lavorando, è possibile scegliere l'azione **Aggiorna disponibilità**. Inoltre, alla chiusura della pagina, la disponibilità dell'articolo verrà ricontrollata automaticamente per verificare che non vi siano problemi a riguardo.
 
 ## <a name="to-set-up-item-tracking-codes"></a>Per impostare i codici di tracciabilità articolo
 Un codice di tracciabilità articolo riflette i diversi criteri che una società può seguire nell'uso dei numeri seriali e di lotto degli articoli spostati all'interno di un magazzino.  
@@ -92,7 +92,7 @@ Per alcuni articoli potrebbe essere necessario impostare garanzie specifiche nel
 Nel caso in cui sia necessario collegare informazioni speciali a un determinato numero di tracciabilità articolo, ad esempio per un controllo qualità, è possibile eseguire tale operazione nella scheda di un numero seriale o di lotto.
 
 1. Aprire un documento con i numeri di serie o di lotto assegnati.
-2. Aprire la finestra **Righe tracciabilità articolo** per il documento.
+2. Aprire la pagina **Righe tracciabilità articolo** per il documento.
 3. Scegliere, ad esempio, l'azione **Scheda informazioni nr. seriale**.  
 
     I campi **Nr. lotto** e **Nr. seriale** sono precompilati dalla riga di tracciabilità articolo.  
@@ -103,8 +103,8 @@ Nel caso in cui sia necessario collegare informazioni speciali a un determinato 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Per modificare le informazioni esistenti sui numeri seriali o di lotto  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2. Selezionare un articolo con un codice di tracciabilità articolo e le informazioni sui numeri seriali o di lotto.
-3. Nella finestra **Scheda articolo**, selezionare l'azione **Movimenti** e quindi scegliere **Movimenti contabili**.
-4. Selezionare il campo **Nr. seriale** o **Nr. lotto** . Se per il numero di tracciabilità articolo sono disponibili informazioni, allora verrà visualizzata la finestra **Lista informazioni nr. lotto** o **Lista informazioni nr. seriale**.  
+3. Nella pagina **Scheda articolo**, selezionare l'azione **Movimenti** e quindi scegliere **Movimenti contabili**.
+4. Selezionare il campo **Nr. seriale** o **Nr. lotto** . Se per il numero di tracciabilità articolo sono disponibili informazioni, allora verrà visualizzata la pagina **Lista informazioni nr. lotto** o **Lista informazioni nr. seriale**.  
 5. Selezionare una scheda quindi scegliere l'azione **Scheda informazioni nr. lotto/nr. seriale**.  
 6. Modificare il breve testo descrittivo, il record di commento oppure il campo **Bloccato** .  
 
@@ -113,7 +113,7 @@ Non è possibile modificare il numero seriale o di lotto o le quantità. A tale 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Per assegnare dei numeri seriali o di lotto nelle transazioni in entrata:  
 Per le società potrebbe essere necessario tenere traccia degli articoli dal momento in cui questi entrano nell'azienda. In questa situazione l'ordine di acquisto rappresenta spesso il documento di riferimento principale, sebbene sia possibile gestire la tracciabilità degli articoli utilizzando qualsiasi documento in entrata e visualizzare i relativi movimenti registrati nei movimenti contabili articolo correlati.  
 
-Le regole esatte per la gestione dei numeri di tracciabilità degli articoli in ambito aziendale dipendono dall'impostazione della finestra **Codice tracciabilità articolo**.  
+Le regole esatte per la gestione dei numeri di tracciabilità degli articoli in ambito aziendale dipendono dall'impostazione della pagina **Scheda cod. tracciab. articolo**.  
 
 > [!NOTE]  
 >  Per utilizzare i numeri di tracciabilità articolo nelle attività di warehouse, è necessario selezionare i campi di setup **Tracciab. lotto in warehouse** e **Tracciab. NS in warehouse**, in quanto definiscono i principi speciali di gestione dei numeri di lotto e seriali nelle attività di warehouse.  
@@ -139,7 +139,7 @@ Le regole esatte per la gestione dei numeri di tracciabilità degli articoli in 
 
 Viene creato un numero di lotto con singole numerazioni in base alla quantità degli articoli della riga del documento, iniziando da **S/N-Forn0001**.  
 
-La matrice dei campi di quantità nella testata del form visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella finestra. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da 0 nei campi **Indefinito**.  
+La matrice dei campi di quantità nella testata del form visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella pagina. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da 0 nei campi **Indefinito**.  
 
 Quando il documento viene registrato, i movimenti di tracciabilità articolo vengono riportati nei movimenti contabili degli articoli ad essi associati.
 
@@ -149,7 +149,7 @@ Esistono due modi per aggiungere i numeri seriali e di lotto nelle transazioni i
 -   Selezione da numeri seriali o di lotto esistenti. Questo scenario viene utilizzato quando i numeri di tracciabilità articolo sono già stati assegnati durante una transazione in entrata. Per ulteriori informazioni, vedere la sezione "Per selezionare da numeri seriali e di lotto esistenti".
 -   Assegnazione nuovi numeri seriali o di lotto nelle transazioni in uscita. Questa procedura si applica quando i numeri di tracciabilità articolo non vengono assegnati agli articoli finché non siano venduti e pronti per la spedizione.  
 
-Nella finestra **Scheda cod. tracciab. articolo** vengono configurate regole diverse per i numeri di tracciabilità articolo.  
+Nella pagina **Scheda cod. tracciab. articolo** vengono configurate regole diverse per i numeri di tracciabilità articolo.  
 
 > [!NOTE]  
 >  Per assegnare i numeri di tracciabilità articolo nelle attività di warehouse, le caselle di controllo **Tracciab. NS in warehouse** e **Tracciab. lotto in warehouse** devono essere selezionate nella scheda del codice di tracciabilità articolo.    
@@ -167,7 +167,7 @@ Nella finestra **Scheda cod. tracciab. articolo** vengono configurate regole div
 3.  Selezionare il campo **Crea nuovo nr. di lotto** per organizzare i nuovi numeri seriali in un lotto distinto.  
 4.  Fare clic su **OK** per creare un numero di lotto e nuovi numeri seriali singoli in base alla quantità da gestire nella riga del documento correlata.  
 
-La matrice dei campi di quantità nella parte superiore visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella finestra. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da **0** nei campi **Indefinito**.  
+La matrice dei campi di quantità nella parte superiore visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella pagina. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da **0** nei campi **Indefinito**.  
 
 Quando il documento viene registrato, i movimenti di tracciabilità articolo vengono riportati nei movimenti contabili degli articoli ad essi associati.  
 
@@ -181,34 +181,34 @@ Quando si lavora con articoli che richiedono la tracciabilità articolo e si cre
 
 1.  In qualsiasi documento in uscita scegliere la riga per la quale si desidera selezionare numeri seriali o di lotto.  
 2.  Nella Scheda dettaglio **Righe** scegliere l'azione **Azioni**, quindi l'azione **Riga** o **Articolo** e infine l'azione **Righe tracciabilità articolo**.  
-3.  Nella finestra **Righe tracciabilità articolo** sono disponibili tre opzioni per specificare un numero di lotto o seriale:  
+3.  Nella pagina **Righe tracciabilità articolo** sono disponibili tre opzioni per specificare un numero di lotto o seriale:  
 
-    -   Selezionare il campo **Nr. lotto** o **Nr. seriale** e selezionare un numero dalla finestra **Riepilogo tracciabilità articolo**.  
-    -   Scegliere l'azione **Seleziona movimenti**. La finestra **Seleziona movimenti** mostra tutti i numeri di lotto o seriali con informazioni sulla disponibilità.
+    -   Selezionare il campo **Nr. lotto** o **Nr. seriale** e selezionare un numero dalla pagina **Riepilogo tracciabilità articolo**.  
+    -   Scegliere l'azione **Seleziona movimenti**. La pagina **Seleziona movimenti** mostra tutti i numeri di lotto o seriali con informazioni sulla disponibilità.
 
 4. Nel campo **Quantità selezionata** , immettere la quantità di ogni numero di lotto o seriale che si desidera utilizzare.   
-5. Selezionare il pulsante **OK** e le informazioni selezionate di tracciabilità articolo vengono trasferite alla finestra **Righe tracciabilità articolo** .  
+5. Selezionare il pulsante **OK** e le informazioni selezionate di tracciabilità articolo vengono trasferite alla pagina **Righe tracciabilità articolo** .  
 6. Digitare o acquisire il numero di tracciabilità articolo.
 
-La matrice dei campi di quantità nella testata visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella finestra. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da **0** nei campi **Indefinito**.  
+La matrice dei campi di quantità nella testata del form visualizza in modo dinamico le quantità e le somme dei numeri di tracciabilità articolo definiti nella pagina. Le quantità devono corrispondere a quelle della riga documento, contraddistinta da **0** nei campi **Indefinito**.  
 
  Quando si registra la riga del documento, le informazioni sulla tracciabilità articolo vengono trasferite ai movimenti contabili articoli associati.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Per gestire i numeri seriali e di lotto negli ordini di trasferimento  
 Le procedure per la gestione dei numeri seriali e di lotto che vengono trasferiti tra le diverse ubicazioni sono simili a quelle applicate agli articoli venduti e acquistati.  
 
-Tuttavia, l'ordine di trasferimento è unico in quanto la spedizione e la ricezione vengono entrambe eseguite dalla stessa riga di trasferimento e pertanto utilizzano la stessa istanza del form **Righe Tracciabilità Articolo**. Ciò significa che i numeri di tracciabilità articolo inviati da una determinata ubicazione dovranno essere ricevuti invariati nell'altra ubicazione.  
+Tuttavia, l'ordine di trasferimento è unico in quanto la spedizione e la ricezione vengono entrambe eseguite dalla stessa riga di trasferimento e pertanto utilizzano la stessa istanza della pagina **Righe tracciabilità articolo**. Ciò significa che i numeri di tracciabilità articolo inviati da una determinata ubicazione dovranno essere ricevuti invariati nell'altra ubicazione.  
 
  Le regole esatte per la gestione dei numeri di tracciabilità degli articoli in ambito aziendale dipendono dall'impostazione della tabella  **Codice Tracciabilità Articolo**.    
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di trasferimento** e quindi scegliere il collegamento correlato.  
 2.  Aprire l'ordine di trasferimento che si desidera elaborare. Nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, l'azione **Righe tracciabilità articolo** e l'azione **Spedizione**.  
-3.  Nel form **Righe Tracciabilità Articolo** assegnare o selezionare dei numeri seriali o di lotto come per qualsiasi transazione di articoli in uscita.  
+3.  Nella pagina **Righe tracciabilità articolo** assegnare o selezionare dei numeri seriali o di lotto come per qualsiasi transazione di articoli in uscita.  
 
     Di solito, quando si gestiscono i numeri seriali e di lotto per articoli trasferiti, a questi ultimi sono già stati assegnati dei numeri. Il processo pertanto consiste nell'effettuare una selezione da numeri seriali o di lotto già esistenti.  
 
 4.  Registrare l'ordine di trasferimento, indicando prima la spedizione e poi la ricezione, in modo da registrare che gli articoli vengono trasferiti unitamente ai rispettivi movimenti di tracciabilità articolo.  
 
-Durante il trasferimento, il form **Righe Tracciabilità Articolo** rimane bloccato per impedire operazioni di scrittura.  
+Durante il trasferimento, la pagina **Righe tracciabilità articolo** rimane bloccato per impedire operazioni di scrittura.  
 
 ## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Per gestire i numeri seriali e di lotto quando si recuperano le righe di carico da una fattura di acquisto  
 Quando si utilizza la funzione per ottenere il carico registrato o le righe di spedizione dalle relative fatture o note di credito, le righe di tracciabilità articolo nei documenti warehouse vengono trasferite automaticamente; tuttavia, vengono elaborate in modo speciale.
@@ -221,14 +221,14 @@ La funzionalità supporta i seguenti processi in uscita:
 -   **Prendi Righe di Spedizione**, da una fattura di vendita o da spedizioni combinate.  
 -   **Prendi Righe Carico da Reso**, da una nota credito vendita.  
 
-In queste situazioni le righe di tracciabilità articolo esistenti vengono copiate automaticamente nella fattura o nella nota di credito. La finestra  **Righe Tracciabilità Articolo** non consente tuttavia di apportare modifiche ai numeri seriali o di lotto. Solo quantità possono essere modificate.  
+In queste situazioni le righe di tracciabilità articolo esistenti vengono copiate automaticamente nella fattura o nella nota di credito. La pagina **Righe Tracciabilità Articolo** non consente tuttavia di apportare modifiche ai numeri seriali o di lotto. Solo quantità possono essere modificate.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e scegliere il collegamento correlato.  
 2.  Aprire una fattura di acquisto di articoli acquistati con numero seriale o numero di lotto.  
 3.  Da una riga della fattura di acquisto, nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di carico**.  
-4.  Nella finestra **Prendi righe di carico** , selezionare le righe di carico che contengono righe di tracciabilità articolo e fare clic sul pulsante **OK** .  
+4.  Nella pagina **Prendi righe di carico** , selezionare le righe di carico che contengono righe di tracciabilità articolo e fare clic sul pulsante **OK** .  
 
-    Il documento di origine viene copiato nella fattura di acquisto come una nuova riga e le relative righe di tracciabilità articolo vengono copiate nella finestra **Righe tracciabilità articolo** sottostante.  
+    Il documento di origine viene copiato nella fattura di acquisto come una nuova riga e le relative righe di tracciabilità articolo vengono copiate nella pagina **Righe tracciabilità articolo** sottostante.  
 
 5.  Nella fattura di acquisto selezionare la riga di carico trasferito.  
 6.  Per visualizzare le righe tracciabilità articolo trasferite, scegliere l'azione **Riga** dalla Scheda dettaglio **Righe** e quindi scegliere l'azione **Righe tracciabilità articolo**.  
@@ -254,9 +254,9 @@ Riclassificare la tracciabilità di un articolo significa modificare un numero d
 
 6.  Se sono disponibili informazioni sul numero seriale o di lotto precedente, è possibile copiarle nel nuovo numero.  
 
-    1.  Nella finestra **Righe tracciabilità articolo** scegliere l'azione **Nuove informazioni nr. seriale** o l'azione **Nuove informazioni nr. lotto**.  
+    1.  Nella pagina **Righe tracciabilità articolo** scegliere l'azione **Nuove informazioni nr. seriale** o l'azione **Nuove informazioni nr. lotto**.  
     2.  Per copiare le informazioni dal numero di lotto o seriale precedente, scegliere l'azione **Copia informazioni**.  
-    3.  Nella finestra in cui sono visualizzate le informazioni selezionare il numero seriale o di lotto da cui si desidera effettuare la copia, quindi fare clic su **OK**.  
+    3.  Nella pagina in cui sono visualizzate le informazioni selezionare il numero seriale o di lotto da cui si desidera effettuare la copia, quindi fare clic su **OK**.  
 
 7.  Se si desidera modificare le informazioni esistenti per il numero di lotto o seriale, è possibile registrare informazioni sul numero di lotto o seriale.  
 8.  Effettuare la registrazione per collegare i nuovi numeri di tracciabilità articolo o le nuove date di scadenza ai movimenti contabili articoli associati

@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eae7e97ec122b91a479ad956176a0b34b269bcb6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI
@@ -49,7 +49,7 @@ I pacchetti di contenuti sono preconfigurati per utilizzare i dati della societ�
 
 È inoltre possibile iniziare dall'interno di Dynamics 365 Business Edition. Dalla Gestione ruolo utente, passare a **Selezione report** nella sezione Gestione ruolo utente Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o alla libreria dei servizi in Power BI, che verranno filtrate per visualizzare solo i pacchetti di contenuto relativi a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una finestra con **AppSource** e **App per app Power BI**.  
+2. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una pagina con **AppSource** e **App per app Power BI**.  
 ![Scegliere i pacchetti di contenuto da servizi in linea](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Selezionare **App** dalla scheda **App per app di Power BI** e scegliere il pacchetto di contenuti **Microsoft Dynamics 365 Business Central** che si desidera utilizzare e selezionare **Ottienilo ora**.  
 ![Selezionare Dynamics 365 Business Central e scegliere Ottienilo ora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

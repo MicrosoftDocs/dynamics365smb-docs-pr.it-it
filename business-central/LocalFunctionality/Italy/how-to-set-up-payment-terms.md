@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05e768e6c8c244571d6056551beda635994ec6aa
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 434274cbc4062d627f7dd57f998d1eb6e0eb9c76
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-payment-terms"></a>Impostazione delle condizioni di pagamento
@@ -26,9 +26,9 @@ Se una condizione di pagamento deve prevedere un unico pagamento, è necessario 
 
 ## <a name="to-set-up-payment-terms"></a>Per impostare le condizioni di pagamento  
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Condizioni pagamento**, quindi scegliere il collegamento correlato.    
-2.  Compilare i campi della finestra **Condizioni pagamento**. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
+2.  Compilare i campi nella pagina **Condizioni pagamento**. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3.  Scegliere l'azione **Calcola**.  
-4.  Nella finestra **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  
+4.  Nella pagina **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,9 +39,9 @@ Se una condizione di pagamento deve prevedere un unico pagamento, è necessario 
 
 5.  Scegliere il pulsante **OK**.  
 
-Il campo **Nr. di pagamenti** nella finestra **Condizioni pagamento** viene aggiornato. Le condizioni di pagamento impostate qui saranno un riferimento per il calcolo automatico della data di scadenza dei documenti registrati per clienti e fornitori.  
+Il campo **Nr. di pagamenti** nella pagina **Condizioni pagamento** viene aggiornato. Le condizioni di pagamento impostate qui saranno un riferimento per il calcolo automatico della data di scadenza dei documenti registrati per clienti e fornitori.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Procedura: Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md)   
+ [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)   
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/28/2018
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare il campo **Codice**.  
 4. Scegliere l'azione **Mantenere variazioni calendario base**.
-5. Nella finestra **Variazioni calendario base**, utilizzare il campo **Sistema ricorrente** per contrassegnare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale**.  
+5. Nella pagina **Variazioni calendario base**, utilizzare il campo **Sistema ricorrente** per contrassegnare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale**.  
 
     Se si seleziona **Ricorrente annuale**, sarà necessario immettere anche la data pertinente nel campo **Data**.  
 
@@ -37,7 +37,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
  Quando si torna alla Scheda Calendario Base, si noterà che le date impostate come giorni non lavorativi sono state aggiornate. Tali movimenti sono ora visualizzati in rosso e il campo **Non lavorativo** è selezionato.  
 
 > [!NOTE]  
->  Quando si imposta un nuovo calendario di base, è possibile selezionare e copiare righe da un calendario esistente. È possibile effettuare questa operazione nella finestra **Variazioni calendario base** pertinente.  
+>  Quando si imposta un nuovo calendario di base, è possibile selezionare e copiare righe da un calendario esistente. È possibile effettuare questa operazione nella pagina **Variazioni calendario base** pertinente.  
 
 > [!IMPORTANT]  
 >  Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
@@ -57,7 +57,7 @@ Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce 
 > [!Important]
 > Se l'ubicazione utilizza un calendario significativamente diverso rispetto ai fornitori, è importante impostare calendari specifici per tali fornitori, per calcolare i lead time fornitore ottimali. Per ulteriori informazioni su come impostare i calendari fornitore, vedere la sezione "Per assegnare un calendario di base".
 
-Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella finestra **Catalogo articolo fornitori**, se il lead time è definito per il fornitore.
+Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella pagina **Catalogo articolo fornitori**, se il lead time è definito per il fornitore.
 
 ## <a name="to-customize-a-calendar"></a>Per personalizzare un calendario
 L'operazione principale da eseguire per personalizzare un calendario di base per la propria società, o per uno dei partner commerciali, è la modifica dello stato dei giorni lavorativi e non lavorativi.
@@ -68,7 +68,7 @@ Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempi
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
 2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato**. Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
-3. Nella finestra **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
+3. Nella pagina **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
 4. In **Variazioni calendario personalizzato**, aggiungere le righe per le voci di calendario personalizzato.
 
     Quando si inserisce una nuova riga, la casella di controllo **Non lavorativo** è selezionata. È possibile deselezionare la casella di controllo se si desidera modificare lo stato di tale data in in giorno lavorativo.
@@ -79,7 +79,7 @@ Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempi
 
 5. Scegliere il pulsante **OK**.
 
-Nella finestra **Voci calendario personalizzato** si noterà che le date sono state aggiornate in base alle variazioni specificate.
+Nella pagina **Voci calendario personalizzato** si noterà che le date sono state aggiornate in base alle variazioni specificate.
 
 Quando si torna alla scheda Ubicazione, sarà possibile osservare che il campo **Calendario personalizzato** ora contiene la parola **Sì** ad indicare che è stato impostato un calendario personalizzato.
 
@@ -100,7 +100,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 -   Nelle schede **Cliente** e **Informazioni società** , il calendario di base è assegnato nella Scheda dettaglio **Spedizione**.  
 -   Nella scheda **Fornitore** , il calendario di base è assegnato nella Scheda dettaglio **Carico**.  
 -   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse**.  
--   Nella finestra **Spedizionieri** , il calendario di base è assegnato nella finestra **Servizi spedizioniere** .  
+-   Nella pagina **Spedizionieri** , il calendario di base è assegnato nella pagina **Servizi spedizioniere** .  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  

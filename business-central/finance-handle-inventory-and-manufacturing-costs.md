@@ -1,6 +1,6 @@
 ---
 title: Gestire i costi del magazzino e di produzione | Microsoft Docs
-description: "Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, finestre e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni."
+description: "Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, pagine e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Gestione dei costi del magazzino e di produzione
-Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, finestre e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni.  
+Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, pagine e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni.  
 
  L'assegnazione degli addebiti articoli ai documenti di acquisto è un esempio di task di contabilizzazione dei costi indiretti. L'aggiornamento del costo unitario di un articolo DB di produzione o di assemblaggio è un task di contabilizzazione dei costi diretti.  
 

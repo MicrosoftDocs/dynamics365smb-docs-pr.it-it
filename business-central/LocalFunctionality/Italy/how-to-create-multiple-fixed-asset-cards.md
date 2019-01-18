@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b1096d161f3e52ef2830c53fc09ca83ed10d42b7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b4a3f85d7d61d84ac220d37c535b5fbb02f2dcb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-multiple-fixed-asset-cards"></a>Creazione di più schede cespite
@@ -26,8 +26,8 @@ Durante la registrazione delle fatture di acquisto è possibile creare automatic
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cespiti**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Liste**, quindi l'azione **Cespiti**.  
-3.  Nella finestra **Lista cespiti**, scegliere l'azione **Nuovo**.  
-4.  Compilare i campi della finestra **Scheda cespite**.  
+3.  Nella pagina **Lista cespiti**, scegliere l'azione **Nuovo**.  
+4.  Compilare i campi della pagina **Scheda cespite**.  
 
     Verrà utilizzato il valore del campo **Nr.** quando successivamente si generano i cespiti residui.  
 

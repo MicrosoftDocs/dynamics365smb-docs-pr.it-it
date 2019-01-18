@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-items"></a>Ricevere articoli
@@ -43,22 +43,22 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
     > [!NOTE]  
     >  Se si desidera ricevere gli articoli con codici classe warehouse diversi dal codice classe della collocazione specificato nel campo **Cod. collocazione** della testata del documento, è necessario eliminare il contenuto del campo **Cod. collocazione** della testata prima di recuperare le righe del documento di origine per gli articoli.  
-3.  Scegliere l'azione **Prendi documenti origine**. Verrà visualizzata la finestra **Documenti origine**.
+3.  Scegliere l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
 
-    Da un carico warehouse o una spedizione warehouse nuova o aperta, è possibile utilizzare la finestra **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli ricevere o spedire.
+    Da un carico warehouse o una spedizione warehouse nuova o aperta, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli ricevere o spedire.
 
     1. Scegliere l'azione **Usa filtri per richiamare doc. orig.**.  
     2. Per impostare un nuovo filtro, immettere un codice descrittivo nel campo **Codice**, quindi scegliere l'azione **Modifica**.  
     3. Definire il tipo di righe del documento origine che si desidera recuperare compilando i campi Filtro appropriati.  
     4. Scegliere l'azione **Esegui**.  
 
-    Tutte le righe del documento origine rilasciato che soddisfano i criteri di filtro vengono inserite nella finestra **Carico warehouse** da cui è stata attivata la funzione di filtro.  
+    Tutte le righe del documento origine rilasciato che soddisfano i criteri di filtro vengono inserite nella pagina **Carico warehouse** da cui è stata attivata la funzione di filtro.  
 
-    Le combinazioni di filtri definite vengono salvate nella finestra **Filtri per ottenere documenti origine** finché non saranno necessarie in momento successivo. È possibile creare un numero indefinito di combinazioni di filtri. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
+    Le combinazioni di filtri definite vengono salvate nella pagina **Filtri per ottenere documenti origine** finché non saranno necessarie in momento successivo. È possibile creare un numero indefinito di combinazioni di filtri. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
 
 4.  Selezionare i documenti di origine per i quali si desidera ricevere gli articoli, quindi scegliere **OK**.  
 
-    Le righe dei documenti di origine verranno visualizzate nella finestra **Carico warehouse**. Il campo **Qtà da ricevere** viene compilato con la quantità inevasa per ciascuna riga, ma è possibile modificare tale quantità in base alle esigenze. Se è stato eliminato il contenuto del campo **Cod. collocazione** della Scheda dettaglio **Generale** prima di recuperare le righe, è necessario immettere un codice collocazione appropriato in ogni riga di carico.  
+    Le righe dei documenti di origine verranno visualizzate nella pagina **Carico warehouse**. Il campo **Qtà da ricevere** viene compilato con la quantità inevasa per ciascuna riga, ma è possibile modificare tale quantità in base alle esigenze. Se è stato eliminato il contenuto del campo **Cod. collocazione** della Scheda dettaglio **Generale** prima di recuperare le righe, è necessario immettere un codice collocazione appropriato in ogni riga di carico.  
 
     > [!NOTE]  
     >  Per compilare il campo **Qtà da ricevere** in tutte le righe con zero, scegliere l'azione **Eliminare qtà da ricevere**. Per immettere nuovamente la quantità inevasa, selezionare l'azione **Autocompilazione qtà da ricevere**.  

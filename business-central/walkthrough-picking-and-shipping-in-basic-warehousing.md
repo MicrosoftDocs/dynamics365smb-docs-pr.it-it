@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
@@ -32,7 +32,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
-Nelle configurazioni della warehouse di base in cui un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la finestra **Prelievi magazzino** per registrare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine in uscita. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono necessari.  
+Nelle configurazioni della warehouse di base in cui un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per registrare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine in uscita. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono necessari.  
 
 In questa procedura dettagliata sono illustrati i task seguenti:  
 
@@ -56,7 +56,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
     1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella finestra **Utenti**.  
+    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
     4.  Selezionare il campo **Default**.  
 
@@ -73,10 +73,10 @@ Per completare questa procedura dettagliata, sarà necessario:
     3.  Scegliere l'azione **Registra**, quindi selezionare il pulsante **Sì**.  
 
 ## <a name="story"></a>Scenario  
-Ellen, responsabile warehouse presso CRONUS, imposta la warehouse ARGENTO per la gestione dei prelievi di base in cui gli addetti alla warehouse elaborano ordini in uscita singoli. Elisabetta, il gestore ordini, crea un ordine di vendita per 30 unità dell'articolo LS-81 da spedire al cliente 10000 dalla warehouse ARGENTO. Gianni, il lavoratore warehouse deve assicurarsi che la spedizione sia preparata e consegnata al cliente. Gianni gestisce tutte le attività interessate nella finestra **Prelievo magazzino** che automaticamente punta alle collocazioni in cui viene archiviato LS-81.  
+Ellen, responsabile warehouse presso CRONUS, imposta la warehouse ARGENTO per la gestione dei prelievi di base in cui gli addetti alla warehouse elaborano ordini in uscita singoli. Elisabetta, il gestore ordini, crea un ordine di vendita per 30 unità dell'articolo LS-81 da spedire al cliente 10000 dalla warehouse ARGENTO. Gianni, il lavoratore warehouse deve assicurarsi che la spedizione sia preparata e consegnata al cliente. Gianni gestisce tutte le attività interessate nella pagina **Prelievo magazzino** che automaticamente punta alle collocazioni in cui viene archiviato LS-81.  
 
 ## <a name="setting-up-the-location"></a>Impostazione dell'ubicazione  
-L'impostazione della finestra **Scheda Ubicazione** definisce i flussi della warehouse della società.  
+L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della warehouse della società.  
 
 ### <a name="to-set-up-the-location"></a>Per impostare l'ubicazione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
@@ -102,7 +102,7 @@ Gli ordini di vendita sono il tipo più comune di documenti origine in uscita.
     Gianni procede al prelievo e alla spedizione degli articoli venduti.  
 
 ## <a name="picking-and-shipping-items"></a>Prelievo e spedizione articoli  
-Nella finestra **Prelievo magazzino** è possibile gestire tutte le attività di warehouse in uscita per un documento origine specifico, ad esempio un ordine di vendita.  
+Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di warehouse in uscita per un documento origine specifico, ad esempio un ordine di vendita.  
 
 ### <a name="to-pick-and-ship-items"></a>Per prelevare gli articoli e procedere alla spedizione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  

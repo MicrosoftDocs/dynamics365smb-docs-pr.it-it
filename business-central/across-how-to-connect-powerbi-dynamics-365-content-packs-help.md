@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Connessione di Power BI a pacchetti di contenuto di Dynamics 365 Business Central.
@@ -29,7 +29,7 @@ Ottenere informazioni approfondite sui dati di Microsoft [!INCLUDE[d365fin_long_
 
 È inoltre possibile iniziare dall'interno di Dynamics 365 Business Edition. Dalla Gestione ruolo utente, passare a **Selezione report** nella sezione Gestione ruolo utente Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o alla libreria dei servizi in Power BI, che verranno filtrate per visualizzare solo i pacchetti di contenuto relativi a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una finestra con **AppSource** e **App per app Power BI**.  
+2. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una pagina con **AppSource** e **App per app Power BI**.  
 ![Scegliere i pacchetti di contenuto da servizi in linea](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Selezionare **App** dalla scheda **App per app di Power BI** e scegliere il pacchetto di contenuti **Microsoft Dynamics 365 Business Central** che si desidera utilizzare e selezionare **Ottienilo ora**.  
 ![Selezionare Dynamics 365 Business Central e scegliere Ottienilo ora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

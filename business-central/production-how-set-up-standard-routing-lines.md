@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
@@ -27,7 +27,7 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.
-5. Nella finestra visualizzata, descrivere il task standard in questione.
+5. Nella pagina visualizzata, descrivere il task standard in questione.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Per aggiungere un task standard a un'operazione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.

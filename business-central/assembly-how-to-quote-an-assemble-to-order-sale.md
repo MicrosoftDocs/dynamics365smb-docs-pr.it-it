@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c6cebdb3bdadc9a8b3830a1ff0cb9fb4649e863
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Offerta per una vendita assemblaggio su ordine
@@ -36,8 +36,8 @@ Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile cr
     >  Non si crea un'offerta per una quantità parziale. Di conseguenza, è necessario immettere la stessa quantità immessa nel campo **Quantità** della riga dell'offerta di vendita.  
 
 4.  Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Righe di assemblaggio su ordine**. In alternativa, scegliere il campo **Qtà per assemblaggio su ordine** della riga.  
-5.  Nella finestra **Righe di assemblaggio su ordine** esaminare o modificare le righe dell'ordine di assemblaggio in base all'offerta richiesta dal cliente. Se si desidera visualizzare altre informazioni, scegliere l'azione **Mostra documento** per aprire l'ordine dell'offerta programmata completo. Non è possibile modificare il contenuto della maggior parte dei campi né effettuare la registrazione.  
-6.  Dopo avere rettificato le righe dell'ordine di assemblaggio in base all'offerta, chiudere la finestra **Righe di assemblaggio su ordine** per tornare alla finestra **Offerta vendita**.  
+5.  Nella pagina **Righe di assemblaggio su ordine** esaminare o modificare le righe dell'ordine di assemblaggio in base all'offerta richiesta dal cliente. Se si desidera visualizzare altre informazioni, scegliere l'azione **Mostra documento** per aprire l'ordine dell'offerta programmata completo. Non è possibile modificare il contenuto della maggior parte dei campi né effettuare la registrazione.  
+6.  Dopo avere rettificato le righe dell'ordine di assemblaggio in base all'offerta, chiudere la pagina **Righe di assemblaggio su ordine** per tornare alla pagina **Offerta vendita**.  
 7.  Se il cliente accetta l'offerta, creare un ordine di vendita per l'articolo di assemblaggio offerto. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md). L'offerta di assemblaggio collegata ed eventuali personalizzazioni sono collegate al nuovo ordine di vendita per preparare l'assemblaggio dell'articolo o degli articoli da vendere.  
 
 ## <a name="see-also"></a>Vedi anche  

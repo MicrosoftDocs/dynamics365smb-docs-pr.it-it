@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
@@ -41,7 +41,7 @@ Il metodo di costing determina se un valore effettivo o a budget viene capitaliz
 |Caratteristica generale|Semplice da comprendere|In base alle opzioni del periodo: **Giorno**/**Settimana**/**Mese**/**Trimestre**/**Periodo contabile**.<br /><br /> Può essere calcolato per articolo oppure per articolo/ubicazione/variante.|Semplice da utilizzare, ma richiede la manutenzione qualificata.|Richiede la tracciabilità articolo sia sulla transazione in entrata che sulla transazione in uscita.<br /><br /> Viene solitamente utilizzato per gli articoli serializzati.|  
 |Collegamento o rettifica|Il collegamento tiene traccia della **quantità residua**.<br /><br /> La rettifica inoltra i costi in base al collegamento alla quantità.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> I costi vengono calcolati e inviati per la **data di valutazione**.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> Il collegamento è basato su FIFO.|Tutti i collegamenti sono fissi.|  
 |Rivalutazione|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere effettuata solo per movimento.<br /><br /> Può essere effettuata indietro nel tempo.|Rivaluta le quantità fatturate e non fatturate.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata indietro nel tempo.|  
-|Varie|Se una riduzione di magazzino viene retrodatata, i movimenti esistenti NON vengono collegati nuovamente per fornire il flusso di costi FIFO corretto.|Se un aumento o una riduzione di magazzino viene retrodata, il costo medio viene ricalcolato e tutti i movimenti interessati vengono rettificati.<br /><br /> Se si modifica il periodo o tipo di calcolo, tutti i movimenti interessati devono essere rettificati.|Utilizzare la finestra **Prospetto standard** per aggiornare e riepilogare periodicamente i costi standard.<br /><br /> NON è supportata per USK.<br /><br /> Nessun record storico esistente per i costi standard.|È possibile utilizzare la tracciabilità articolo specifico senza utilizzare il metodo di costing Specifico. Il costo quindi non seguirà il numero di lotto, ma l'ipotesi di costo del metodo di costing selezionato.|  
+|Varie|Se una riduzione di magazzino viene retrodatata, i movimenti esistenti NON vengono collegati nuovamente per fornire il flusso di costi FIFO corretto.|Se un aumento o una riduzione di magazzino viene retrodata, il costo medio viene ricalcolato e tutti i movimenti interessati vengono rettificati.<br /><br /> Se si modifica il periodo o tipo di calcolo, tutti i movimenti interessati devono essere rettificati.|Utilizzare la pagina **Prospetto standard** per aggiornare e riepilogare periodicamente i costi standard.<br /><br /> NON è supportata per USK.<br /><br /> Nessun record storico esistente per i costi standard.|È possibile utilizzare la tracciabilità articolo specifico senza utilizzare il metodo di costing Specifico. Il costo quindi non seguirà il numero di lotto, ma l'ipotesi di costo del metodo di costing selezionato.|  
 
 ## <a name="example"></a>Esempio  
  In questa sezione vengono forniti esempi di come i differenti metodi di costing influiscono sul valore di magazzino.  

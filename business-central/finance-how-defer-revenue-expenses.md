@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Rateizzare le entrate e le uscite
@@ -36,12 +36,12 @@ Per entrambi i tipi di differimenti, selezionare **Conto patrimoniale** nel camp
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di differimento** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario.
-4. Nel campo **Metodo calcolo** specificare come viene calcolato il campo **Importo** per ciascun periodo della finestra **Programmazione differimento**. È possibile scegliere tra le seguenti opzioni:
+4. Nel campo **Metodo calcolo** specificare come viene calcolato il campo **Importo** per ciascun periodo della pagina **Programmazione differimento**. È possibile scegliere tra le seguenti opzioni:
 
    * **Quote costanti**: gli importi di differimento periodici vengono calcolati in base al numero di periodi, distribuiti in base alla durata del periodo.
    * **Uguale per periodo**: gli importi di differimento periodici vengono calcolati in base al numero di periodi, distribuiti equamente sui periodi.
    * **Giorni per periodo**: gli importi di differimento periodici vengono calcolati in base al numero di giorni di tale periodo.
-   * **Personalizzato**: gli importi di differimento periodici non vengono calcolati. È necessario compilare manualmente il campo **Importo** per ogni periodo nella finestra Programmazione differimento. Per ulteriori informazioni, vedere la sezione “Per modificare un programma di differimento da una fattura di vendita”.
+   * **Personalizzato**: gli importi di differimento periodici non vengono calcolati. È necessario compilare manualmente il campo **Importo** per ogni periodo nella pagina Programmazione differimento. Per ulteriori informazioni, vedere la sezione “Per modificare un programma di differimento da una fattura di vendita”.
 5. Nel campo **Descrizione periodo** specificare una descrizione che sarà mostrata sui movimenti per la registrazione del differimento. È possibile immettere i seguenti codici di segnaposto per i valori tipici che verranno immessi automaticamente quando verrà visualizzata la descrizione del periodo.
 
    * %1 = Il numero del giorno della data di registrazione del periodo
@@ -67,7 +67,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 
     Non appena si immette l'articolo (o risorsa o conto C/G) nella riga della fattura, il campo **Codice differimento** viene compilato con il codice del modello di differimento assegnato.
 3. Scegliere l'azione **Programmazione differimento**.
-4. Nella finestra **Programmazione differimento** modificare le impostazioni nella testata o nei valori delle righe, ad esempio per differire l'importo a un periodo contabile addizionale.
+4. Nella pagina **Programmazione differimento** modificare le impostazioni nella testata o nei valori delle righe, ad esempio per differire l'importo a un periodo contabile addizionale.
 5. Scegliere l'azione **Calcola programmazione**.
 6. Scegliere il pulsante **OK**. La programmazione differimento viene aggiornata per la fattura di vendita. Il modello di differimento correlato è invariato.
 
@@ -75,8 +75,8 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 > [!NOTE]  
 >   I passaggi di questa procedura sono identici a quelli di quando si visualizza in anteprima come vengono registrati i differimenti spesa.
 
-1. Nella finestra **Fattura di vendita** scegliere l'azione **Anteprima registrazione**.
-2. Nella finestra **Anteprima registrazione** scegliere l'azione **Movimento C/G**, quindi l'azione **Mostra movimenti correlati**.
+1. Nella pagina **Fattura di vendita** scegliere l'azione **Anteprima registrazione**.
+2. Nella pagina **Anteprima registrazione** scegliere l'azione **Movimento C/G**, quindi l'azione **Mostra movimenti correlati**.
 
 I movimenti C/G da registrare nel conto specificato di differimento, ad esempio, Rendita, sono denotati dalla descrizione immessa nel campo **Descrizione periodo** nel modello di differimento, ad esempio "Spese differite per febbraio 2016".
 
@@ -85,7 +85,7 @@ I movimenti C/G da registrare nel conto specificato di differimento, ad esempio,
 >   I passaggi di questa procedura sono identici a quelli di quando si rivede il report Riepilogo differimento acquisto.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riepilogo differimento vendite** e quindi scegliere il collegamento correlato.
-2. Nel campo **Saldo a partire dal** della finestra **Riepilogo differimento vendite** immettere la data fino alla quale si intende visualizzare le entrate differite.
+2. Nel campo **Saldo a partire dal** della pagina **Riepilogo differimento vendite** immettere la data fino alla quale si intende visualizzare le entrate differite.
 3. Fare clic sul pulsante **Anteprima**.
 
 ## <a name="see-also"></a>Vedi anche

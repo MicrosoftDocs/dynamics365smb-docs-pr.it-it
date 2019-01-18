@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
-Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La finestra **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
+Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
 
 Sulla base delle date di disponibilità note e previste di un articolo, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola immediatamente le date di spedizione e di consegna, che possono quindi essere promesse al cliente.  
 
@@ -61,8 +61,8 @@ Quando in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene calcolata la data di
 
 Se il cliente non richiede una data di consegna specifica, la data di spedizione viene impostata in modo da corrispondere alla data di lavoro e la disponibilità viene quindi basata su tale data. Se l'articolo è in magazzino, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene calcolato un periodo avanti nel tempo per determinare quando è possibile consegnare l'ordine. Ciò avviene tramite le seguenti formule:  
 
-- Data spedizione + Warehouse in uscita + Spedizione pianificata + Tempo di gestione = Data  
-- Data di spedizione pianificata + Durata spedizione = Data di consegna pianificata  
+- Data di spedizione pianificata + Tempo di uscita dalla warehouse = Data di spedizione pianificata  
+- Data di Spedizione Pianificata + Tempo Spedizione = Data di Consegna Pianificata  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica quindi se la data di consegna calcolata è realistica calcolando un periodo indietro nel tempo per determinare quando l'articolo deve essere disponibile per soddisfare la data promessa. Ciò avviene tramite le seguenti formule:  
 
@@ -71,11 +71,11 @@ Se il cliente non richiede una data di consegna specifica, la data di spedizione
 
 La data di spedizione viene utilizzata per eseguire il controllo di disponibilità. Se l'articolo è disponibile in questa data, [!INCLUDE[d365fin](includes/d365fin_md.md)] conferma che la consegna richiesta/promessa può essere soddisfatta impostando la data di consegna pianificata affinché corrisponda alla data di consegna richiesta/promessa. Se l'articolo non è disponibile, restituisce una data vuota e il gestore ordini può quindi utilizzare la funzionalità CTP.  
 
-In base alle nuove date e ore, tutte le date correlate sono calcolate in base alle formule elencate in precedenza in questa sezione. Il calcolo CTP richiede più tempo, ma fornisce una data accurata in cui è prevista la consegna dell'articolo al cliente. Le date che vengono calcolate dalla funzionalità CTP sono contenute nei campi **Data di consegna pianificata** e **Prima data spedizione** nella finestra **Righe promessa ordine**.  
+In base alle nuove date e ore, tutte le date correlate sono calcolate in base alle formule elencate in precedenza in questa sezione. Il calcolo CTP richiede più tempo, ma fornisce una data accurata in cui è prevista la consegna dell'articolo al cliente. Le date che vengono calcolate dalla funzionalità CTP sono contenute nei campi **Data di consegna pianificata** e **Prima data spedizione** nella pagina **Righe promessa ordine**.  
 
 Il gestore ordini completa il processo CTP accettando le date. Ciò significa che vengono create una riga di pianificazione e un movimento di impegno per l'articolo prima delle date calcolate per garantire che l'ordine venga soddisfatto.  
 
-Oltre alle promesse d'ordine esterne che è possibile eseguire nella finestra **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
+Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Per impostare le promesse ordine  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup promessa ordine** e quindi scegliere il collegamento correlato.  
@@ -90,11 +90,11 @@ Oltre alle promesse d'ordine esterne che è possibile eseguire nella finestra **
     |**y**|Anno|  
 
     L'espressione "3s", ad esempio, indica che il tempo di offset è di tre settimane. Per indicare il periodo corrente, utilizzare il prefisso "c" davanti a ognuno di questi codici. Se, ad esempio, il tempo di offset corrisponde al mese corrente, immettere **cm**.  
-3. Inserire un numero di serie nel campo **Nr. promessa ordine** scegliendo una riga dalla lista riportata nella finestra **Nr. Serie**.  
-4. Immettere un modello di promessa dell'ordine nel campo **Modello Promessa Ordine** selezionando una riga dall'elenco visualizzato nella finestra  **Lista Mod. Rich. Approvv.**.  
-5. Immettere nel campo **Prospetto Promessa Ordine** una richiesta di approvvigionamento selezionando una riga dalla lista contenuta nella finestra **Descr. Ric. Approvvig.**.
+3. Inserire un numero di serie nel campo **Nr. promessa ordine** scegliendo una riga dalla lista riportata nella pagina **Nr. Serie**.  
+4. Immettere un modello di promessa dell'ordine nel campo **Modello Promessa Ordine** selezionando una riga dall'elenco visualizzato nella pagina **Lista Mod. Rich. Approvv.**.  
+5. Immettere nel campo **Prospetto Promessa Ordine** una richiesta di approvvigionamento selezionando una riga dalla lista contenuta nella pagina **Descr. Ric. Approvvig.**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Per immettere il tempo di gestione warehouse nella finestra Setup magazzino  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione warehouse nella pagina Setup magazzino  
 Se si intende includere il tempo di gestione warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default per il magazzino e l'ubicazione.    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende comprendere nel calcolo promessa d'ordine.  
@@ -108,9 +108,9 @@ Se si intende includere il tempo di gestione warehouse nel calcolo della promess
 3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende includere nel calcolo promessa d'ordine.  
 
 > [!NOTE]  
->  Se si lascia vuoto il campo **Tempo gest. entrata in whse.**, il calcolo utilizza il valore nella finestra **Setup magazzino**.
+>  Se si lascia vuoto il campo **Tempo gest. entrata in whse.**, il calcolo utilizza il valore nella pagina **Setup magazzino**.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Per immettere il tempo di gestione warehouse in uscita nella finestra Setup magazzino  
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione dell'uscita dalla warehouse nella pagina Setup magazzino  
 Se si intende impostare l'inclusione del tempo di uscita dalla warehouse nel calcolo della promessa d'ordine nella riga di vendita, è possibile impostarlo come valore di default per l'inventario.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
@@ -125,7 +125,7 @@ Se si intende impostare l'inclusione del tempo di uscita dalla warehouse nel cal
 3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. uscita da whse** inserire il numero di giorni che si intende includere nel calcolo promessa ordine.  
 
 > [!NOTE]  
->  Se si lascia vuoto il campo **Tempo gest. uscita da whse.**, il calcolo utilizza il valore nella finestra **Setup magazzino**.
+>  Se si lascia vuoto il campo **Tempo gest. uscita da whse.**, il calcolo utilizza il valore nella pagina **Setup magazzino**.
 
 ## <a name="to-make-an-item-critical"></a>Per identificare un articolo come critico  
 Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, deve essere contrassegnato come critico. Questa impostazione garantisce che gli articoli non critici non causino calcoli di promesse d'ordine irrilevanti.   

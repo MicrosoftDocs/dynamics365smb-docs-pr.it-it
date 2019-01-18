@@ -1,6 +1,6 @@
 ---
 title: Registrare i consumi e l'output per un ordine di produzione | Microsoft Docs
-description: "Questa attività di esecuzione viene eseguita nella finestra **Registrazioni di produzione** . Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni."
+description: "Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
-Questa attività di esecuzione viene eseguita nella finestra **Registrazioni di produzione** . Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni. I valori vengono registrati nei movimenti contabili nell'ordine di produzione rilasciato. Le quantità di produzione sono registrate come movimenti contabili articoli negativi, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimento contabile capacità. Tali valori immessi possono essere anche visualizzati nella parte inferiore della finestra come quantità effettive.  
+Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni. I valori vengono registrati nei movimenti contabili nell'ordine di produzione rilasciato. Le quantità di produzione sono registrate come movimenti contabili articoli negativi, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimento contabile capacità. Tali valori immessi possono essere anche visualizzati nella parte inferiore della finestra come quantità effettive.  
 
 > [!NOTE]  
 >  Poiché i dati relativi al consumo vengono elaborati insieme ai dati di output, questa registrazione consente di visualizzare le operazioni e i componenti collegati in una struttura di processo logica. I componenti vengono indentati sotto la relativa operazione. Questo richiede l'utilizzo di codice legame tra ciclo e distinta base.  
@@ -32,7 +32,7 @@ Questa attività di esecuzione viene eseguita nella finestra **Registrazioni di 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
 2.  Aprire una riga dell'ordine di produzione rilasciato pronta per la registrazione e nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, quindi scegliere l'azione **Registrazioni di produzione**.  
 
-    La finestra **Registrazioni di produzione** si apre mostrando le righe di registrazione per la riga ordine di produzione in base alle finestre **Componenti ordini produzione** e **Cicli ordini produzione** . Le righe hanno origine dalla distinta base di produzione e il ciclo assegnati all'articolo che deve essere prodotto. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-routings.md).  
+    La pagina **Registrazioni di produzione** si apre mostrando le righe di registrazione per la riga ordine di produzione in base alle pagine **Componenti ordini produzione** e **Cicli ordini produzione** . Le righe hanno origine dalla distinta base di produzione e il ciclo assegnati all'articolo che deve essere prodotto. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-routings.md).  
 
 3.  Nel campo **Data di registrazione** nella parte superiore della registrazione, specificare una data di registrazione da applicare a tutte le righe. Viene immessa come predefinita la data del lavoro. Il campo consente di allineare rapidamente le date di registrazione su tutte le righe, se necessario.  
 
@@ -45,7 +45,7 @@ Questa attività di esecuzione viene eseguita nella finestra **Registrazioni di 
 
     All'apertura della finestra sono già disponibili le quantità da registrare. Se non è stato ancora registrato alcun valore, per impostazione predefinita le quantità previste verranno visualizzate in tutti i campi relativi alla quantità, come specificato nell'ordine di produzione. Se sono state effettuate registrazioni parziali, nei campi relativi alla quantità delle righe verranno visualizzate le quantità residue. Le quantità e gli orari già registrati per l'ordine sono visualizzati nella parte inferiore della finestra come movimenti effettivi.  
 
-    Nel caso delle quantità disponibili nel campo **Quantità di output**, è possibile configurare i valori da preimpostare alla prima apertura della finestra. A tale scopo, aprire la finestra **Setup manufacturing** e utilizzare il campo **Quantità predefinita output** della Scheda dettaglio **Generale**.
+    Nel caso delle quantità disponibili nel campo **Quantità di output**, è possibile configurare i valori da preimpostare alla prima apertura della finestra. A tale scopo, aprire la pagina **Setup manufacturing** e utilizzare il campo **Quantità predefinita output** della Scheda dettaglio **Generale**.
 
 5.  Immettere le quantità desiderate nei campi modificabili, specificando consumo e output.  
 
@@ -64,7 +64,7 @@ Se occorre registrare altri valori, le registrazioni li conterranno alla success
 >  se si chiudono le registrazioni senza contabilizzarle, le modifiche andranno perse.  
 
 > [!WARNING]  
->  La finestra **Registrazioni di produzione** non può essere utilizzata simultaneamente da due utenti. Ciò significa che se l'utente 2 apre la finestra e immette i dati quando l'utente 1 già lavora nella finestra, è possibile che l'utente 2 perda i dati quando l'utente 1 chiude la finestra.  
+>  La pagina **Registrazioni di produzione** non può essere utilizzata simultaneamente da due utenti. Ciò significa che se l'utente 2 apre la pagina e immette i dati quando l'utente 1 già lavora nella pagina, è possibile che l'utente 2 perda i dati quando l'utente 1 chiude la pagina.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Manufacturing](production-manage-manufacturing.md)    

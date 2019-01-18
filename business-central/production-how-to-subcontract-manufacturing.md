@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
@@ -46,7 +46,7 @@ Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routi
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcolare i prospetti conto lavoro e creare gli ordini di acquisto conto lavoro  
 Dopo avere calcolato il prospetto conto lavoro, viene creato il documento pertinente, in questo caso un ordine di acquisto.  
 
-La finestra **Prospetto conto lavoro** funziona come il **Prospetto pianific.** nel calcolo dell'approvvigionamento necessario, in questo caso degli ordini di acquisto, che si esaminano nel prospetto e quindi si creano mediante la funzione **Esegui messaggi di azione**.  
+La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** nel calcolo dell'approvvigionamento necessario, in questo caso degli ordini di acquisto, che si esaminano nel prospetto e quindi si creano mediante la funzione **Esegui messaggi di azione**.  
 
 > [!NOTE]  
 >  È possibile accedere e utilizzare da un prospetto conto lavoro solo gli ordini di produzione con stato **Rilasciato**.  
@@ -54,10 +54,10 @@ La finestra **Prospetto conto lavoro** funziona come il **Prospetto pianific.** 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Per calcolare il prospetto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto conto lavoro** e quindi scegliere il collegamento correlato.  
 2.  Per calcolare il prospetto, scegliere l'azione **Calcolo conto lavoro**.  
-3.  Nella finestra **Calcolo conto lavoro** impostare i filtri per le operazioni in conto lavoro o le aree di produzione in cui vengono effettuate, per calcolare soltanto gli ordini di produzione desiderati.  
+3.  Nella pagina **Calcolo conto lavoro** impostare i filtri per le operazioni in conto lavoro o le aree di produzione in cui vengono effettuate, per calcolare soltanto gli ordini di produzione desiderati.  
 4.  Scegliere il pulsante **OK**.  
 
-    Esaminare le righe nella finestra **Prospetto conto lavoro**. Le informazioni presenti in questo prospetto provengono dall'ordine di produzione e dalle righe del ciclo dell'ordine di produzione e vengono trasmesse all'ordine di acquisto quando questo viene creato. Analogamente agli altri prospetti, è possibile eliminare una riga dal prospetto senza influire sulle informazioni generali. Le informazioni verranno visualizzate di nuovo alla successiva esecuzione della funzione **Calcolo conto lavoro**.  
+    Esaminare le righe nella pagina **Prospetto conto lavoro**. Le informazioni presenti in questo prospetto provengono dall'ordine di produzione e dalle righe del ciclo dell'ordine di produzione e vengono trasmesse all'ordine di acquisto quando questo viene creato. Analogamente agli altri prospetti, è possibile eliminare una riga dal prospetto senza influire sulle informazioni generali. Le informazioni verranno visualizzate di nuovo alla successiva esecuzione della funzione **Calcolo conto lavoro**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Per creare l'ordine di acquisto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto conto lavoro** e quindi scegliere il collegamento correlato.  

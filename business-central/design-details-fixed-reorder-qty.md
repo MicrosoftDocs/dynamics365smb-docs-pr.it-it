@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Dettagli di progettazione: Qtà riordino fissa
@@ -37,7 +37,7 @@ Il criterio Qtà Riordino Fissa è correlato alla pianificazione di magazzino de
  I modificatori di ordini, Quantità minima ordine, Quantità massima ordine e Molteplicità ordine, non devono svolgere un grande ruolo quando vengono utilizzati i criteri di quantità riordino fissa. Tuttavia, il sistema di pianificazione prende ancora in considerazione questi modificatori e diminuirà la quantità alle quantità di ordine massime specificate (e creerà due o più approvvigionamenti per raggiungere la quantità di ordine totale), aumenterà la quantità di ordine minima o arrotonderà la quantità di ordine fino a soddisfare la molteplicità ordine specificata.  
 
 ## <a name="combines-with-calendars"></a>Associazioni con i calendari  
- Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle finestre **Informazioni società** e **Scheda Ubicazione**.  
+ Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione**.  
 
  Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sposta l'ordine al giorno lavorativo più vicino. In questo modo, potrebbe verificarsi che un ordine soddisfi un punto di riordino ma non una richiesta specifica. Per tale richiesta non bilanciata, il sistema di pianificazione crea un approvvigionamento aggiuntivo.  
 

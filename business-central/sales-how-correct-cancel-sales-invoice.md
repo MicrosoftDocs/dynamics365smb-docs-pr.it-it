@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 96430c92bf4fecbe98b53d09c06c82a5828b7326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correggere o annullare le fatture di vendita non pagate
@@ -23,7 +23,7 @@ ms.lasthandoff: 09/28/2018
 > [!NOTE]  
 >   Dopo che una fattura di vendita registrata è stata parzialmente o interamente pagata, non è possibile correggerla o annullarla dalla fattura di vendita registrata stessa. In alternativa, è necessario creare manualmente una nota di credito di vendita per annullare la vendita e per rimborsare il cliente, facoltativamente gestito con un ordine di reso vendita. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).
 
-Nella finestra **Fatture vendita registrate** è possibile scegliere l'azione **Rettifica** o **Annulla** per eseguire le operazioni descritte nella seguente tabella.
+Nella pagina **Fatture vendita registrate** è possibile scegliere l'azione **Rettifica** o **Annulla** per eseguire le operazioni descritte nella seguente tabella.
 
 | Azione | Descrizione |
 | --- | --- |
@@ -38,7 +38,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 
     > [!NOTE]  
     >   Se viene selezionata la casella di controllo **Annullata**, non è possibile rettificare la fattura di vendita registrata poiché è già stata rettificata o annullata.
-3. Nella finestra **Fattura vendita registrata** scegliere l'azione **Rettifica**.  
+3. Nella pagina **Fattura vendita registrata** scegliere l'azione **Rettifica**.  
 4. Viene creata una nuova fattura di vendita con le stesse informazioni in cui è possibile apportare la rettifica. Il campo **Annullato** nella fattura di vendita registrata iniziale viene modificato in **Sì**.
 
     Una nota di credito di vendita viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale.
@@ -50,7 +50,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 
     > [!NOTE]  
     >   Se viene selezionata la casella di controllo **Annullata**, non è possibile annullare la fattura di vendita registrata poiché è già stata annullata o corretta.
-3. Nella finestra **Fattura vendita registrata** scegliere l'azione **Annulla**.
+3. Nella pagina **Fattura vendita registrata** scegliere l'azione **Annulla**.
 
     Una nota di credito di vendita viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale. Il campo **Annullato** nella fattura di vendita registrata iniziale viene modificato in **Sì**.
 4. Scegliere **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.

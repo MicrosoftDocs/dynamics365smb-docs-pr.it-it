@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 557d6411540cc778a8f6810e747d4113fccd8f4c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
@@ -26,19 +26,135 @@ Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente da
 
  È possibile impostare codici di vendita cliente standard con le informazioni sul mandato e sul metodo di pagamento in addebito diretto. È quindi possibile utilizzare il processo batch **Crea fatture pers. standard** per generare più fatture di vendita con le informazioni di addebito diretto precompilate. Questa operazione può essere eseguita manualmente o automaticamente, in base alla data di scadenza del pagamento.  
 
- Quando i pagamenti vengono elaborati correttamente, come comunicato dalla banca, è possibile registrare le ricevute dei pagamenti direttamente dalla finestra **Movimenti riscossioni addebiti diretti** o spostando le righe dei pagamenti nel giornale di registrazione in cui si registrano le ricevute di pagamento, ad esempio la finestra **Registrazioni incassi**. In alternativa, a seconda del processo di gestione di cassa, è possibile attendere e collegare i pagamenti solo come parte della riconciliazione bancaria.  
+ Quando i pagamenti vengono elaborati correttamente, come comunicato dalla banca, è possibile registrare le ricevute dei pagamenti direttamente dalla pagina **Movimenti riscossioni addebiti diretti** o spostando le righe dei pagamenti nel giornale di registrazione in cui si registrano le ricevute di pagamento, ad esempio la pagina **Registrazioni incassi**. In alternativa, a seconda del processo di gestione di cassa, è possibile attendere e collegare i pagamenti solo come parte della riconciliazione bancaria.  
 
 > [!NOTE]  
 >  Per raccogliere i pagamenti tramite l'Addebito diretto SEPA, la valuta nella fattura di vendita deve essere EURO.  
 
- Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+## <a name="setting-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
+Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di addebito diretto SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
 
-|**Per**|**Vedere**|  
-|------------|-------------|  
-|Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Impostare codici di vendita cliente standard per le fatture ad addebito diretto e generare fatture di vendita con informazioni sull'addebito diretto quando le fatture sono in scadenza.|[Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
-|Registrare i pagamenti effettuati come addebiti diretti SEPA.|[Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
+
+Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le istruzioni di addebito diretto nel formato di addebito diretto SEPA, è necessario effettuare i seguenti passaggi di impostazione:  
+
+* Impostare il formato di esportazione del file della banca che indica di eseguire la riscossione di un addebito diretto dal conto bancario del cliente al proprio.  
+* Impostare il metodo di pagamento del cliente.  
+* Impostare il mandato di addebito diretto che riflette l'accordo con il cliente per riscuotere i pagamenti in un determinato periodo del contratto.  
+
+### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Per impostare il conto bancario per l'addebito diretto SEPA  
+1. Nella casella **Cerca** immettere **C/C bancari**, quindi selezionare il collegamento correlato.  
+2. Aprire il conto bancario che si desidera utilizzare per l'addebito diretto.  
+3. Nella Scheda dettaglio **Trasferimento**, nel campo **Formato esport. addebito dir. SEPA**, scegliere l'opzione per addebito diretto SEPA.  
+
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Per impostare il metodo di pagamento del cliente per l'addebito diretto SEPA  
+1. Nella casella **Cerca** immettere **Metodi di pagamento**, quindi selezionare il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Impostare un metodo di pagamento. Compilare i campi specifici dell'addebito diretto come descritto nella tabella riportata di seguito.  
+
+    |Campo|Descrizione|  
+    |---------------------------------|---------------------------------------|  
+    |**Addebito diretto**|Specificare se il metodo di pagamento riguarda la riscossione di addebiti diretti SEPA.|  
+    |**Cod. condizioni pag. addebiti dir.**|Specificare le condizioni di pagamento, ad esempio NON PAGARE, che vengono visualizzate sulle fatture di vendita pagate con addebito diretto SEPA per indicare al cliente che il pagamento verrà riscosso automaticamente. In alternativa, lasciare vuoto il campo.|  
+
+    > [!NOTE]  
+    >  Non immettere un valore nel campo **Nr. contropartita**.  
+
+4. Fare clic sul pulsante **OK** per chiudere la pagina **Metodi di pagamento**.  
+5. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
+6. Aprire la scheda del cliente che si desidera impostare per la riscossione di addebiti diretti SEPA.  
+7. Scegliere il campo **Codice metodo di pagamento**, quindi selezionare il codice del metodo di pagamento specificato nel passaggio 3.  
+8. Ripetere i passaggi da 6 a 7 per tutti i clienti che si desidera impostare per la riscossione degli addebiti diretti SEPA.  
+
+#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Per impostare il mandato di addebito diretto che rappresenta l'accordo con il cliente  
+1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
+2. Aprire la scheda del cliente che si desidera impostare per l'addebito diretto SEPA.  
+3. Scegliere l'azione **C/C bancari**.  
+4. Nella pagina **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Mandati di addebito diretto**.  
+5. Nella pagina **Mandati per addebito diretto SEPA** compilare i campi come indicato nella tabella riportata di seguito.  
+
+    |Campo|Descrizione|  
+    |---------------------------------|---------------------------------------|  
+    |**Codice C/C bancario clienti**|Specifica il conto bancario da cui vengono riscossi i pagamenti in addebito diretto. Questo campo viene compilato automaticamente.|  
+    |**Data di inizio validità**|Specificare la data in cui ha inizio il mandato di addebito diretto.|  
+    |**Data di fine validità**|Specificare la data in cui termina il mandato di addebito diretto.|  
+    |**Data di firma**|Specificare la data in cui il cliente ha firmato il mandato di addebito diretto.|  
+    |**Tipo di pagamento**|Specificare se l'accordo riguarda una (**Singola**) o più (**Ricorrente**) riscossioni di addebiti diretti.|  
+    |**Numero previsto di debiti**|Specificare il numero di riscossioni di addebiti diretti che si prevede di eseguire. Questo campo è pertinente solo se nel campo **Tipo di pagamento** è stato selezionato **Ricorrente**.|  
+    |**Contatore debiti**|Specifica quante riscossioni di addebiti diretti sono state effettuate mediante il mandato di addebito diretto. Questo campo viene aggiornato automaticamente.|  
+    |**Bloccato**|Specificare che le riscossioni di addebiti diretti non possono essere eseguite mediante questo mandato di addebito diretto.|  
+
+6.  Ripetere i passaggi da 1 a 5 per tutti i clienti che si desidera impostare per l'addebito diretto SEPA.  
+
+ Il mandato di addebito diretto viene inserito automaticamente nel campo **ID mandato per addebito diretto** quando si crea una fattura di vendita per il cliente selezionato nel passaggio 2. Per altre informazioni, vedere [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md).
+
+## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca
+ Per indicare alla banca di trasferire l'importo del pagamento dal conto bancario del cliente al conto della propria società, è possibile creare un movimento riscossione di addebiti diretti, contenente informazioni sul conto bancario del cliente, sulle fatture di vendita interessate e sul mandato di addebito diretto. Dal movimento riscossione addebiti diretti risultante, è possibile esportare un file XML da inviare o caricare sul sito elettronico della banca per l'elaborazione. I pagamenti che non sono stati elaborati dalla banca verranno comunicati dalla banca stessa, pertanto sarà necessario rifiutare manualmente i movimenti riscossione addebiti diretti in questione.  
+
+ > [!NOTE]  
+ >  Per raccogliere i pagamenti tramite l'Addebito diretto SEPA, la valuta nella fattura di vendita deve essere EURO.  
+
+### <a name="to-create-a-direct-debit-collection"></a>Per creare una riscossione di addebiti diretti  
+
+ 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riscossioni addebiti diretti** e quindi scegliere il collegamento correlato.  
+ 2. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Nuovo** della scheda **Pagina iniziale**, selezionare **Crea riscossione di addebiti diretti**.  
+ 3. Nella pagina **Crea riscossione di addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
+
+     |Campo|Descrizione|  
+     |---------------------------------|---------------------------------------|  
+     |**Da data scadenza**|Specificare la data di scadenza del pagamento più vicina sulle fatture di vendita per cui si desidera creare una riscossione di addebiti diretti.|  
+     |**A data scadenza**|Specificare la data di scadenza del pagamento più lontana sulle fatture di vendita per cui si desidera creare una riscossione di addebiti diretti.|  
+     |**Tipo di partner**|Specificare se la riscossione di addebiti diretti viene eseguita per clienti di tipo **Società** o **Persona fisica**.|  
+     |**Solo clienti con mandato valido**|Specificare se viene creata una riscossione di addebiti diretti per i clienti che dispongono di un mandato di addebito diretto valido. **Nota:** viene creata una riscossione addebiti diretti anche se il campo **ID mandato per addebito diretto** non viene compilato nella fattura di vendita.|  
+     |**Solo fatture con mandato valido**|Specificare se una riscossione addebiti diretti viene creata per le fatture di vendita solo se un mandato di addebito diretto valido è selezionato nel campo **ID mandato per addebito diretto** nella fattura di vendita.|  
+     |**Nr. conto bancario**|Specificare in quale conto bancario della società verrà trasferito il pagamento riscosso dal conto bancario del cliente.|  
+     |**Nome conto corrente**|Specifica il nome del conto bancario selezionato nel campo **Nr. conto corrente**. Questo campo viene compilato automaticamente.|  
+
+ 4. Scegliere il pulsante **OK**.  
+
+      Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
+
+### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Per esportare un movimento riscossione di addebiti diretti in un file della banca  
+ 1. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Processo** della scheda **Pagina iniziale**, selezionare **Movimenti riscossioni addebiti diretti**.  
+ 2. Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che si desidera esportare, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Crea file addebiti diretti**.  
+ 3. Salvare il file di esportazione nel percorso da cui verrà inviato o caricato sul sito elettronico della banca.  
+
+      Nella pagina **Movimenti riscossioni addebiti diretti** il campo **Stato riscossione di addebiti diretti** viene impostato su File creato. Nella pagina **Mandati per addebito diretto SEPA** il campo **Contatore debiti** viene aggiornato con un conteggio.  
+
+ Se il file esportato non può essere elaborato, ad esempio perché il cliente è insolvente, è possibile rifiutare il movimento riscossione addebiti diretti. Se il file esportato viene elaborato correttamente dalla banca, i pagamenti in scadenza relativi alle fatture di vendita interessate vengono automaticamente riscossi dai clienti interessati. In questo caso è possibile chiudere la riscossione.  
+
+### <a name="to-reject-a-direct-debit-collection-entry"></a>Per rifiutare un movimento riscossione di addebiti diretti  
+
+ * Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Rifiuta movimento**.  
+
+      Il valore nel campo **Stato** della pagina **Movimenti riscossioni addebiti diretti** viene modificato in **Rifiutato**.  
+
+### <a name="to-close-a-direct-debit-collection"></a>Per chiudere una riscossione di addebiti diretti  
+ *  Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Chiudi riscossione**.  
+
+      La riscossione di addebiti diretti correlata è chiusa.  
+
+ È ora possibile procedere con la registrazione delle ricevute dei pagamenti per le fatture di vendita interessate. È possibile eseguire questa operazione come si registrano le ricevute dei pagamenti, ad esempio nella pagina **Registrazione pagamenti**, oppure è possibile registrare le ricevute dei pagamenti correlate direttamente nella pagina **Movimenti riscossioni addebiti diretti**. Per ulteriori informazioni, vedere [Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+
+## <a name="posting-sepa-direct-debit-payment-receipts"></a>Registrare ricevute di pagamento di addebiti diretti SEPA
+ Quando una riscossione di addebiti diretti viene elaborata correttamente dalla banca, è possibile procedere con la registrazione della ricevuta del pagamento per le fatture di vendita interessate. Per ulteriori informazioni, vedere [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+
+ È possibile registrare la ricevuta di pagamento direttamente dalla pagina **Riscossioni addebiti diretti** o dalla pagina **Movimenti riscossioni addebiti diretti**. In alternativa, è possibile inoltrare il lavoro a un altro utente preparando le righe registrazioni correlate.  
+
+### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Per registrare una ricevuta di pagamento con addebito diretto dalla pagina Riscossioni di addebiti diretti  
+ 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riscossioni addebiti diretti** e quindi scegliere il collegamento correlato.  
+ 2. Selezionare una riga per una riscossione di addebiti diretti esportata in un file della banca ed elaborata correttamente dalla banca. Per ulteriori informazioni, vedere [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+ 3. Scegliere l'azione **Registra ricevute di pagamento**.  
+ 4. Nella pagina **Registra riscossione addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
+
+     |Campo|Descrizione|  
+     |---------------------------------|---------------------------------------|  
+     |**Nr. riscossione di addebiti diretti**|Specificare la riscossione di addebiti diretti per cui si desidera registrare la ricevuta di pagamento.|  
+     |**Definizione registrazioni COGE**|Specificare quale definizione di registrazione COGE utilizzare per registrare la ricevuta di pagamento, ad esempio le ricevute delle entrate di cassa.|  
+     |**Nome batch registrazioni COGE**|Specificare quale il batch di registrazioni COGE utilizzare per la registrazione della ricevuta di pagamento.|  
+     |**Crea solo registrazioni**|Selezionare questa casella di controllo se non si desidera registrare la ricevuta di pagamento quando si sceglie il pulsante **OK**. La ricevuta di pagamento verrà preparata nella registrazione specificata e non verrà registrata finché non vengono contabilizzate le righe registrazioni in questione.|  
+
+ 5. Scegliere il pulsante **OK**.
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)

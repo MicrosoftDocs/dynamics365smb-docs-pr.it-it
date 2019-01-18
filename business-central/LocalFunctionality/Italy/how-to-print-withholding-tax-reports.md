@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Stampa di report delle ritenute'
-description: Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato.
+description: Nel report Ritenute viene visualizzato un elenco delle ritenute dovute allo stato.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dec8c1f2e3017814a9a1ba5979efa4bad7c99d8
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 74fd9bdafe07b374468b5497517e34771e63371c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="print-withholding-tax-reports"></a>Stampa di report delle ritenute

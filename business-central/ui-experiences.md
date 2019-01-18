@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva. Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto. Aggiungere esperienze in base alle esigenze aziendali aggiungendo estensioni da AppSource o modificando l'impostazione Esperienza per l'azienda. Per ulteriori informazioni, vedere la sezione [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) oppure la sezione "Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità" di seguito.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità
-L'utilizzo dell'esperienza utente determina la quantità di funzionalità core disponibile quando l'utente e i suoi colleghi usano [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile scegliere l'esperienza utente per la propria società nel campo **Esperienza** della finestra **Informazioni società**.
+L'utilizzo dell'esperienza utente determina la quantità di funzionalità core disponibile quando l'utente e i suoi colleghi usano [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile scegliere l'esperienza utente per la propria società nel campo **Esperienza** della pagina **Informazioni società**.
 
 > [!NOTE]  
 > Questa impostazione si applica a tutti gli utenti della società. Gli utenti possono personalizzare la propria esperienza anche cambiando i layout e il contenuto delle pagine. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro e delle pagine](ui-personalization-user.md).  
@@ -43,21 +43,21 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Abilitazione delle funzioni Premium dopo l'aggiornamento di un piano
 Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione di Office 365 in relazione al lavoro generale per creare gli utenti di Business Central. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-È quindi possibile definire le funzioni e finestre specifiche all'interno dell'esperienza a cui gli utenti sono autorizzati ad accedere assegnando set di autorizzazioni. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).
+È quindi possibile definire le funzioni e pagina specifiche all'interno dell'esperienza a cui gli utenti sono autorizzati ad accedere assegnando set di autorizzazioni. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Per aggiornare le modifiche di piano in gruppi di utenti
 Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministrazione di Office 365, ad esempio dopo avere assegnato più utenti al piano Premium, è necessario riflettere la modifica in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Accedere come amministratore.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
-3. Nella finestra **Utenti** scegliere l'azione **Aggiorna tutti i gruppi di utenti**.
+3. In alternativa, nella pagina **Utenti** scegliere l'azione **Aggiorna tutti i gruppi di utenti**.
 
 Tutte le nuove informazioni sui piani degli utenti e sui gruppi di utenti assegnati vengono ora aggiornate in base alle modifiche del piano.
 
 ### <a name="to-select-the-premium-experience"></a>Per selezionare l'esperienza Premium
 È ora possibile selezionare la nuova esperienza.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
-2. Nella Scheda dettaglio **Esperienza utente** della finestra **Informazioni società** selezionare Premium nel campo **Esperienza**.
+2. Nella Scheda dettaglio **Esperienza utente** della pagina **Informazioni società** selezionare Premium nel campo **Esperienza**.
 
 ## <a name="help-assumes-premium-experience"></a>La Guida presuppone un'esperienza Premium
 Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[d365fin](includes/d365fin_md.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Una nota di testo viene inserita negli argomenti di alto livello della Guida per le aree delle funzioni Manufacturing e Gestione assistenza che richiedono l'esperienza **Premium**.

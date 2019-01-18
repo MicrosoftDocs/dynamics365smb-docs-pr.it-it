@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1d10605991f215971a5562c9cde54ced59f9107
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Contabilizzare documenti e registrazioni
@@ -30,7 +30,7 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 | Registrazione di documenti di acquisto. |[Registrazione di acquisti](ui-post-purchases.md) |
 | Registrazione di documenti di vendita. |[Registrazione di vendite](ui-post-sales.md) |
 | Contabilizzazione delle registrazioni generali. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
-| Visualizzare in anteprima, in una finestra, i movimenti che verranno creati quando si registra. |[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
+| Visualizzare in anteprima, in una pagina, i movimenti che verranno creati quando si registra. |[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
 | Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Vedi anche

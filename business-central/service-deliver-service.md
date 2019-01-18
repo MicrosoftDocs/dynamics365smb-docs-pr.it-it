@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  
   
-Un altro modo per verificare gli ordini di assistenza in sospeso consiste nell'utilizzare la finestra **Compiti di assistenza** . In questa visualizzazione degli obblighi di assistenza, è possibile vedere a che punto del flusso di lavoro di assistenza si trova un ordine e modificare tale stato secondo le interazioni con il cliente.  
+Un altro modo per verificare gli ordini di assistenza in sospeso consiste nell'utilizzare la pagina **Compiti di assistenza** . In questa visualizzazione degli obblighi di assistenza, è possibile vedere a che punto del flusso di lavoro di assistenza si trova un ordine e modificare tale stato secondo le interazioni con il cliente.  
   
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 

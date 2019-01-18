@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Esempio dello scenario: definizione delle allocazioni dinamiche in base agli articoli venduti
@@ -28,7 +29,7 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Per definire le allocazioni dinamiche in base agli articoli venduti nell'anno precedente  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazioni costi** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Allocazione costi** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
 4.  Nel campo **Livello** immettere **1**.  
 5.  Nei campi **Data di inizio validità** e **Data di fine validità**, immettere le date appropriate.  
@@ -46,9 +47,7 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
     >  In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Impostazione di filtri per le basi di allocazione dinamica](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Impostare origini e destinazioni dell'allocazione](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)   
- [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
- [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
+[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
+[Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
+[Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
 

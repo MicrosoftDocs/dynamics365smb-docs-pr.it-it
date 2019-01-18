@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
@@ -22,7 +22,7 @@ ms.lasthandoff: 09/28/2018
 
 Come preparazione alla creazione di una definizione di scambio di dati per un file o flusso di dati, è possibile utilizzare lo schema XML correlato per definire gli elementi dati da includere nella Scheda dettaglio **Definizioni colonne**. Vedere il passaggio 6 nella sezione "Per descrivere la formattazione di righe e colonne nel file". Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Generalmente le definizioni di scambio di dati vengono impostate nella finestra **Definizione scambio di dati**. Tuttavia, quando si imposta una definizione di scambio dati per l'aggiornamento dei tassi di cambio delle valute, il processo viene avviato nella finestra **Scheda Setup aggiornamento tasso di cambio in valuta** semplificata.  
+Generalmente le definizioni di scambio di dati vengono impostate nella pagina **Definizione scambio di dati**. Tuttavia, quando si imposta una definizione di scambio dati per l'aggiornamento dei tassi di cambio delle valute, il processo viene avviato nella pagina **Scheda Setup aggiornamento tasso di cambio in valuta** semplificata.  
 
 > [!NOTE]  
 >  Se il file in fase di conversione è in formato XML, il termine *"colonna"* in questo argomento deve essere interpretato come un *"elemento XML contenente dati"*.  
@@ -36,8 +36,8 @@ In questo argomento sono incluse le seguenti procedure:
 ## <a name="to-create-a-data-exchange-definition"></a>Per creare la definizione di scambio di dati  
 La creazione di una definizione di scambio di dati include due task:  
 
-1. Nella finestra **Definizione di scambio dati** descrivere la formattazione delle righe e delle colonne del file.  
-2. Nella finestra **Mapping scambio dati** eseguire il mapping delle colonne nel file di dati ai campi in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Nella pagina **Definizione di scambio dati** descrivere la formattazione delle righe e delle colonne del file.  
+2. Nella pagina **Mapping scambio dati** eseguire il mapping delle colonne nel file di dati ai campi in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Questa funzionalità è descritta nelle procedure seguenti.  
 
@@ -84,7 +84,7 @@ La creazione di una definizione di scambio di dati include due task:
      Continuare a descrivere la formattazione delle colonne nel file di dati compilando i campi nella Scheda dettaglio **Definizioni colonne** come indicato nella tabella seguente. È possibile utilizzare il file della struttura, ad esempio un file XSD, affinché, tramite il file, la Scheda dettaglio venga precompilata con gli articoli corrispondenti. Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Nella Scheda dettaglio **Definizioni colonne** scegliere **Ottieni struttura file**.  
-7. Nella finestra **Ottieni struttura file** selezionare il file della struttura correlato, quindi scegliere il pulsante **OK**. Le righe nella Scheda dettaglio **Definizioni colonne** vengono compilate in base alla struttura del file di dati.  
+7. Nella pagina **Ottieni struttura file** selezionare il file della struttura correlato, quindi scegliere il pulsante **OK**. Le righe nella Scheda dettaglio **Definizioni colonne** vengono compilate in base alla struttura del file di dati.  
 8. Nella scheda dettaglio **Definizioni colonne** modificare o compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
@@ -105,10 +105,10 @@ La creazione di una definizione di scambio di dati include due task:
  Il passaggio successivo nella creazione di una definizione di scambio dati consiste nel decidere tra quali colonne o elementi XML nel file di dati e quali campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] si desidera eseguire il mapping.  
 
 > [!NOTE]  
->  Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella finestra **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella pagina **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Nella Scheda dettaglio **Definizioni righe** selezionare le righe per le quali di desidera eseguire il mapping tra colonne e campi, quindi scegliere **Mapping campi**. Verrà aperta la finestra **Mapping scambio dati**.  
+1. Nella Scheda dettaglio **Definizioni righe** selezionare le righe per le quali di desidera eseguire il mapping tra colonne e campi, quindi scegliere **Mapping campi**. Verrà aperta la pagina **Mapping scambio dati**.  
 2. Nella Scheda dettaglio **Generale** specificare l'impostazione del mapping compilando i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
@@ -124,7 +124,7 @@ La creazione di una definizione di scambio di dati include due task:
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Nr. colonna**|Specificare la colonna nel file di dati per la quale si desidera definire una mappa.<br /><br /> È possibile selezionare solo le colonne rappresentate da righe nella Scheda dettaglio **Definizioni colonne** nella finestra **Definizione scambio di dati**.|  
+    |**Nr. colonna**|Specificare la colonna nel file di dati per la quale si desidera definire una mappa.<br /><br /> È possibile selezionare solo le colonne rappresentate da righe nella Scheda dettaglio **Definizioni colonne** nella pagina **Definizione scambio di dati**.|  
     |**ID campo**|Specificare il campo al quale viene mappata la colonna nel campo **Nr. colonna** .<br /><br /> È possibile effettuare le selezioni solo da campi che sono presenti nella tabella specificata nel campo **Tabella** della Scheda dettaglio **Generale**.|  
     |**Opzionale**|Specificare che la mappa verrà ignorata se il campo è vuoto. **Nota:** se non si seleziona questa casella di controllo, si verifica un errore di esportazione se il campo è vuoto. **Nota:** il campo è valido solo per l'esportazione.|  
     |**ID tabella di destinazione**|Visibile solo quando la casella di controllo **Utilizza come tabella intermedia** è selezionata.<br /><br /> Specifica la tabella alla quale viene eseguita la mappatura del valore del campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|  
@@ -148,7 +148,7 @@ Dopo aver creato la definizione di scambio di dati per un file di dati specifico
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Per importare una definizione di scambio di dati esistente  
 1. Salvare il file XML che rappresenta la definizione di scambio di dati in un'ubicazione appropriata.  
 2. Nella casella **Cerca**, immettere **Definizioni scambio di dati**, quindi selezionare il collegamento correlato.  
-3. Scegliere l'azione **Nuovo**. Verrà aperta la finestra **Definizione scambio di dati**.  
+3. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Definizione scambio di dati**.  
 4. Scegliere l'azione **Importa definizione scambio dati**.  
 5. Scegliere il file salvato nel passaggio 1.  
 

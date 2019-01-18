@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bbea5a3421863c725652b8a86e573e5a476de716
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflows"></a>Impostazione dei workflow
@@ -24,7 +24,7 @@ ms.lasthandoff: 06/01/2018
 
  Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare gli utenti del flusso di lavoro e gli utenti dell'approvazione, specificare la modalità di ricezione delle notifiche sui passaggi del flusso di lavoro e successivamente creare i flussi di lavoro, potenzialmente preceduti dalla personalizzazione del codice.  
 
- Nella finestra **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
+ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
 
  Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro non supportati, il partner Microsoft deve implementarli tramite la personalizzazione del codice dell'applicazione. Per ulteriori informazioni, vedere [Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) nella Guida per sviluppatori e professionisti IT.
 
@@ -35,8 +35,8 @@ ms.lasthandoff: 06/01/2018
 |Impostare gli utenti e i gruppi di utenti del flusso di lavoro.|[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)|  
 |Impostare gli utenti del flusso di lavoro che partecipano ai flussi di approvazione.|[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)|  
 |Specificare in che modo gli utenti ricevono le notifiche dei passaggi del flusso di lavoro, incluse le richieste di approvazione.|[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)|  
-|Specificare quando gli utenti ricevono le notifiche e se aggregare le notifiche in un unico periodo per ridurne il numero.|[Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Impostare il layout e il contenuto generale di nuovi messaggi di notifica relativi al workflow o esportare, modificare e importare nuovamente i modelli esistenti.|[Gestire i modelli di notifica](across-how-to-manage-notification-templates.md)|  
+|Specificare se gli utenti sono avvertiti mediante e-mail o nota e la frequenza alla quale le notifiche vengono inviate.|[Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|Personalizzare il contenuto delle notifiche e-mail modificando Report 1320, E-mail di notifica.|[Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)|  
 |Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita di [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare la posta elettronica](admin-how-setup-email.md)|
 |Specificare i diversi passaggi di un flusso di lavoro in base al collegamento tra gli eventi del flusso di lavoro e le risposte del flusso di lavoro.|[Creare i workflow](across-how-to-create-workflows.md)|  
 |Usare i modelli di flussi di lavoro per creare nuovi flussi di lavoro.|[Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)|  

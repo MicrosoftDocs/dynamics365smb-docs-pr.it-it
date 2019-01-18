@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22d79f478486bc2a7a58545345d604ac3ddd9755
+ms.sourcegitcommit: 43ad05c39544142a2873d0972b802c7392d853a6
+ms.openlocfilehash: 7f7d07ce7965b0db0f9779e396b1818ce398e812
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
@@ -41,7 +41,7 @@ La strategia di distribuzione di una società si riflette in una configurazione 
 |Consentire ai lavoratori della warehouse di suddividere un'unità di misura più grande in unità di misura più piccole per soddisfare le richieste di documenti di origine.|[Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Impostare la warehouse in modo che venga automaticamente suggerito il prelievo degli articoli che scadono prima.|[Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)|
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
-|Integrare lettori di codici a barre alla soluzione di gestione warehouse.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Integrare lettori di codici a barre alla soluzione di gestione warehouse. Solo per la distribuzione locale.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  

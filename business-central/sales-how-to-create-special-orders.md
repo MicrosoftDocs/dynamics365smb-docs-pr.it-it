@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Creare ordini speciali
@@ -32,9 +32,9 @@ Prima di poter utilizzare questa funzionalità è necessario impostare le schede
     È quindi necessario creare un ordine di acquisto da una richiesta di approvvigionamento.  
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Richiesta di approvvigionamento** e quindi scegliere il collegamento correlato.  
 5. Scegliere l'azione **Ordine speciale** e scegliere l'azione **Ottieni ordini vendite**.  
-6.  Nella finestra **Prendi ordini vendite** vengono visualizzati i risultati in cui **Nr. documento** è il numero dell'ordine di vendita. Scegliere il pulsante **OK**. Viene creata una riga di richiesta di approvvigionamento per l'articolo.  
+6.  Nella pagina **Prendi ordini vendite** vengono visualizzati i risultati in cui **Nr. documento** è il numero dell'ordine di vendita. Scegliere il pulsante **OK**. Viene creata una riga di richiesta di approvvigionamento per l'articolo.  
 7.  Nella riga di richiesta di approvvigionamento selezionare **Nuovo** nel campo **Messaggio azione**.  
-8.  Nella finestra **Richiesta di approvv.** scegliere l'azione **Esegui messaggi di azione**. Viene aperta la finestra **Approv. - Esegui mess. azioni**. Scegliere il pulsante **OK**.  
+8.  Nella pagina **Prospetto rich.** scegliere l'azione **Esegui messaggi di azione**. Viene aperta la pagina **Approv. - Esegui mess. azioni**. Scegliere il pulsante **OK**.  
 
     Verrà quindi visualizzato un messaggio con l'informazione che gli ordini di acquisto sono stati creati. Scegliere il pulsante **OK**.  
 

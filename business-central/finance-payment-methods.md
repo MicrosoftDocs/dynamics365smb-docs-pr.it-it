@@ -1,30 +1,40 @@
 ---
 title: Impostare i metodi di pagamento| Documenti Microsoft
-description: "Utilizzare i metodi di pagamento, ad esempio, assegni, bonifici, contanti o PayPal, per definire le modalità di pagamento di una fattura."
-author: edupont04
+description: "Utilizzare i metodi di pagamento, ad esempio, assegni, bonifici, contanti o PayPal, per definire le modalità di pagamento di fatture di vendita e di acquisto."
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/22/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-payment-methods"></a>Definizione dei metodi di pagamento
-I metodi di pagamento definiscono in modo in cui viene pagata una fattura. Si possono impostare infiniti metodi di pagamento. Esempi dei metodi di pagamento è possibile impostare sono: BANCA, INCASSI, ASSEGNO, o CONTO.
-I metodi di pagamento vengono collegati ai fornitori per specificare come una fattura di un determinato fornitore dovrà essere pagata.
+I metodi di pagamento consentono di definire il modo in cui si desidera essere pagati dai clienti e quello in cui si intende pagare i fornitori. Il metodo può variare per ogni cliente o fornitore. Esempi di metodi di pagamento tipici sono **banca**, **contanti**, **assegno**, **conto**. 
 
-## <a name="to-set-up-a-payment-methods"></a>Per impostare un metodo di pagamento
-Numerosi metodi di pagamento tipici sono già definiti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile definire nuovi metodi di pagamento nella finestra **Metodi di pagamento** che è possibile trovare con la funzione di ricerca o aprire dal campo **Metodo di pagamento** in una scheda fornitore o cliente.
+È possibile assegnare un metodo di pagamento a clienti e fornitori di modo che lo stesso metodo sia sempre utilizzato per i documenti di vendita e di acquisto create per essi. Se necessario, è possibile modificare il metodo nel documento di vendita o di acquisto. Ad esempio, se si desidera pagare una determinata fattura di acquisto in contanti anziché tramite assegno. Ciò non modifica il metodo di pagamento di default assegnato al fornitore.
+
+Gli stessi metodi di pagamento sono utilizzati per documenti di vendita e di acquisto. Ad esempio, il metodo di pagamento _contanti_ viene utilizzato quando si effettuano e si ricevono pagamenti. [!INCLUDE[d365fin](includes/d365fin_md.md)] presuppone che quando si crea una fattura di vendita si prevede di ricevere un pagamento e il contrario per le fatture di acquisto. 
+
+Le note di credito per i resi, tuttavia, sono eccezioni in quanto il flusso di denaro avviene in direzioni opposte, dall'utente al cliente e dal venditore all'utente. Di conseguenza, il metodo di pagamento di default non è assegnato alle note di credito. Esiste, tuttavia, una soluzione alternativa se sono stati specificati i termini di pagamento per il cliente o il fornitore. Sebbene il campo **Calc. sc. pagam. su note credito** non sia destinato a questo scopo, se si sceglie la casella di controllo nella pagina **Condizioni pagamento** il metodo di pagamento di default verrà aggiunto quando si crea una nota di credito.
+
+## <a name="to-set-up-a-payment-method"></a>Per impostare un metodo di pagamento
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce alcuni metodi di pagamento utilizzati spesso dalle aziende. È tuttavia possibile aggiungere tutti quelli desiderati.
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Metodi di pagamento** e quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Per assegnare un metodo di pagamento a un cliente o un fornitore
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore**e quindi scegliere il collegamento correlato.
+2. Nel campo **Metodo di pagamento**, scegliere il metodo da utilizzare per impostazione predefinita per il cliente o il fornitore.
 
 ## <a name="see-also"></a>Vedi anche
 [Finanze](finance.md)  

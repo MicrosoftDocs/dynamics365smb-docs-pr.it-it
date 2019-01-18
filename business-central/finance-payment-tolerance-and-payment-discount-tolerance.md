@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
@@ -45,16 +45,16 @@ Le tolleranze relative a giorni e importi consentono di chiudere una fattura anc
 
 Per impostare le tolleranze è necessario impostare vari conti di tolleranza, specificare entrambi i metodi di registrazione della tolleranza di sconto sul pagamento e della tolleranza di pagamento, quindi eseguire il processo batch **Modifica tolleranza pagamento**.  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Setup registrazioni COGE** impostare un conto di tolleranza a debito e a credito dei pagamenti relativi alle vendite e un conto di tolleranza a debito e a credito dei pagamenti relativi agli acquisti.  
+2. Aprire la pagina **Setup registrazioni COGE**, impostare un conto di tolleranza a debito e a credito dei pagamenti relativi alle vendite e un conto di tolleranza a debito e a credito dei pagamenti relativi agli acquisti.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione clienti** e quindi scegliere il collegamento correlato.    
-4. Nella finestra **Categorie registrazione clienti** impostare un conto di tolleranza a debito e a credito dei pagamenti. Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
+4. Aprire la pagina **Cat. reg. clienti**, impostare un conto di tolleranza a debito e a credito dei pagamenti. Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
 5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni fornitori** e quindi scegliere il collegamento correlato.  
-6. Nella finestra **Categorie registrazione fornitori** impostare un conto di tolleranza a debito e a credito dei pagamenti.  
+6. Aprire la pagina **Cat. reg. fornitori**, impostare un conto di tolleranza a debito e a credito dei pagamenti.  
 7. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
-8. Aprire la finestra **Setup contabilità generale**.  
+8. Aprire la pagina **Setup contabilità generale**.  
 9. Nella Scheda dettaglio **Collegamento** compilare i campi **Registrazione toll. sconto pag.**, **Periodo di dilazione sconto pagamento** e **Registrazione toll. pagamento**.   
 10. Scegliere l'azione **Modifica tolleranza pagamento**.
-11. Nella finestra **Modifica tolleranza pagamento** compilare i campi **% tolleranza pagamento** e **Importo massimo tolleranza pagamento** e quindi scegliere **OK**.
+11. Nella pagina **Modifica tolleranza pagamento** compilare i campi **% tolleranza pagamento** e **Importo massimo tolleranza pagamento** e quindi scegliere **OK**.
 
 > [!IMPORTANT]  
 >  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
@@ -69,10 +69,10 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
-2. Nella Scheda dettaglio **Collegamento** della finestra **Setup contabilità generale** selezionare la casella di controllo **Avviso tolleranza pagamento** per attivare l'avviso. Per disattivare l'avviso, deselezionare la casella di controllo.  
+2. Nella Scheda dettaglio **Collegamento** della pagina **Setup contabilità generale** selezionare la casella di controllo **Avviso tolleranza pagamento** per attivare l'avviso. Per disattivare l'avviso, deselezionare la casella di controllo.  
 
 > [!NOTE]  
->  L'opzione predefinita per la finestra **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la finestra **Avviso toll. sconto pag.** è **Non accettare lo sconto di pagamento ritardato**.
+>  L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso toll. sconto pag.** è **Non accettare lo sconto di pagamento ritardato**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti  
 Per impostazione di default, la tolleranza di pagamento è consentita. Per disattivare la tolleranza di pagamento per un cliente o un fornitore, è necessario bloccare la tolleranza nella relativa scheda cliente o scheda fornitore. Di seguito viene descritto come eseguire l'operazione per un cliente. I passaggi sono simili per un fornitore.
@@ -86,7 +86,7 @@ Per impostazione di default, la tolleranza di pagamento è consentita. Per disat
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esempio 1: calcoli di tolleranza per un singolo documento
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni.  
 
-La finestra **Setup Registrazioni Generali** contiene il setup seguente:
+La pagina **Setup Registrazioni Generali** contiene il setup seguente:
 - Periodo di dilazione sconto pagamento: 5G  
 - Max. Tolleranza Pagamento: 5  
 
@@ -155,7 +155,7 @@ regole di collegamento normali
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Esempio 2: calcoli di tolleranza per più documenti
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni. Questi esempi contemplano solo gli scenari in cui tutti i movimenti del collegamento vengono chiusi.  
 
-La finestra **Setup Registrazioni Generali** contiene il setup seguente:
+La pagina **Setup Registrazioni Generali** contiene il setup seguente:
 - Periodo di dilazione sconto pagamento: 5D  
 - Max. Tolleranza Pagamento: 5  
 

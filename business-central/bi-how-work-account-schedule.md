@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
@@ -26,35 +26,59 @@ Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dat
 
 L'impostazione delle situazioni contabili richiede una comprensione dei dati finanziari nel piano dei conti. Per esempio, è possibile visualizzare i movimenti C/G come percentuali di movimenti budget. Tale operazione richiede che i budget siano creati. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
-## <a name="account-categories-and-account-schedules"></a>Categorie di conti e situazioni contabili
-Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella finestra **Categorie conto C/G** scegliere l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali verranno aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere la sezione Categorie di conti in [Informazioni sulla contabilità generale e COA](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Situazioni contabili
+Le situazioni contabili sono utilizzate per organizzare i conti elencati nel piano dei conti in modi appropriati alla presentazione delle informazioni su tali conti. È possibile impostare vari layout per definire le informazioni che si desidera estrarre dal piano dei conti. Una delle principali funzioni dei piani dei conti consiste nel rendere disponibile un'area per i calcoli che non possono essere eseguiti direttamente nel piano dei conti, ad esempio creare subtotali per gruppi di conti in modo da poterli includere in nuovi totali e utilizzarli in altri totali. Gli utenti possono ad esempio creare piani dei conti per calcolare i margini di profitto in dimensioni quali reparti o gruppi di clienti. Inoltre è possibile filtrare movimenti di contabilità generale e movimenti budget di contabilità generale in base, ad esempio, al saldo periodo o all'importo dare.
 
-## <a name="to-create-new-account-schedules"></a>Per creare nuove situazioni contabili  
- Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti di contabilità generale con i movimenti budget di contabilità generale. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
+È inoltre possibile confrontare due o più situazioni contabili e layout di colonna utilizzando le formule. Questo tipo di confronto consente di effettuare le seguenti operazioni:
+
+* Creare report finanziari personalizzati.
+* Creare tutte le situazioni contabili necessarie, ognuna con un nome univoco.
+* Impostare vari layout di report e stampare i report con le cifre correnti.
+
+## <a name="account-categories"></a>Categorie di conti
+Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere la sezione Categorie di conti in [Informazioni sulla contabilità generale e COA](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>Per creare una nuova situazione contabile  
+Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti di contabilità generale con i movimenti budget di contabilità generale. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
+
+Le situazioni contabili nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono la base dei report finanziari standard, che potrebbero non essere adatti alle esigenze dell'azienda. Per creare rapidamente i propri report finanziari, è possibile iniziare copiando una situazione contabile esistente. Vedere il passaggio 3 di seguito.
+
+Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprima del report finanziario definito dalla situazione contabile. Nella procedura seguente, è importante comprendere che le righe e le colonne della situazione contabile configurate possono essere visualizzate e convalidate solo nella pagina **Sintesi situaz. contabile**, a cui si accede da una situazione contabile scegliendo l'azione **Sintesi**. La pagina **Situazione contabile** è soltanto un'area di configurazione.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Descr. situazioni contabili** scegliere l'azione **Nuovo** per creare una nuova descrizione situazione contabile.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Scegliere l'azione **Modifica situazione contabile**.
-5. Compilare i campi necessari nella finestra **Situazione contabile**.  
+2. Nella pagina **Situazioni contabili** scegliere l'azione **Nuovo** per creare una nuova situazione contabile.
+3. In alternativa, scegliere l'azione **Copia situazione contabile**, compilare i due campi, quindi scegliere **OK**.
+4. Compilare i campi come necessario. Nel campo **Default layout colonna**, selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
 
-    Dopo aver creato una nuova situazione contabile e averne impostato le righe, è necessario impostare le colonne. Le colonne possono essere impostate manualmente oppure assegnando un layout di colonne di default alla situazione contabile.
-6. Scegliere l'azione **Modifica setup layout colonna**.
-7. Compilare i campi necessari nella finestra **Layout colonna**.
+    I layout di colonna sono utilizzati per definire colonne per differenti parametri utilizzati per visualizzare i dati finanziari nelle righe. Ad esempio, è possibile creare un layout di colonna che compara saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente, con quattro colonne. Per ulteriori informazioni, vedere la sezione "Per modificare un layout di colonna".
 
-> [!NOTE]  
-> Se non è stato assegnato un default layout colonna alla situazione contabile, è necessario impostare le colonne manualmente.
+5. Scegliere l'azione **Modifica situazione contabile**.
+6. Creare una riga per ciascun elemento finanziario da visualizzare nel report, ad esempio una riga per i cespiti correnti e un'ulteriore riga per i cespiti. Per avere un'idea, vedere le situazioni contabili esistenti nella società di esempio CRONUS.
+7. Scegliere l'azione **Sintesi** per visualizzare il report finanziario risultante.
+8. Nella pagina **Sintesi situaz. contabile**, nel campo **Nome Layout colonna**, selezionare un altro layout di colonna per visualizzare i dati finanziari mediante altri parametri.
+9. Scegliere il pulsante **OK**.
 
-### <a name="to-copy-an-existing-account-schedule"></a>Per copiare una situazione contabile esistente
-Le situazioni contabili nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono la base dei report finanziari standard, che potrebbero non essere adatti alle esigenze dell'azienda. Per creare rapidamente i propri report finanziari, è possibile iniziare copiando una situazione contabile esistente.
-1. Nella finestra **Situazioni contabili**, selezionare una situazione contabile quindi scegliere l'azione **Copia situazione contabile**.
-2. Nella finestra **Copia situazione contabile** compilare i campi in base alle esigenze, quindi scegliere **OK**.
+A questo punto, si è definita la base della situazione contabile, le righe dei dati finanziari da visualizzare e un layout esistente delle colonne per visualizzare i dati nelle righe per differenti parametri. Se il layout di colonna predefinito selezionato nel passaggio 4 non è adatto allo scopo, attenersi alla procedura seguente.
+
+### <a name="to-edit-a-column-layout"></a>Per modificare un layout di colonna
+I layout di colonna sono utilizzati per definire le colonne da includere nel report risultante. Ad esempio, è possibile creare un layout che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente.
+
+> [!NOTE]
+> In una versione stampata/visualizzata in anteprima/salvata di una situazione contabile è possibile visualizzare al massimo cinque colonne. Se la situazione contabile è utilizzata solo per l'analisi nella pagina **Sintesi situaz. contabile**, è possibile creare tutte le colonne necessarie.
+
+1. Nella pagina **Situazioni contabili**, selezionare la situazione contabile pertinente, quindi scegliere l'azione **Modifica setup layout colonna**.
+2. Nella pagina **Layout colonne**, creare una riga per ogni colonna utilizzata per visualizzare i dati finanziari nel report finanziario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Scegliere il pulsante **OK**.
+4. Aprire la pagina **Sintesi situaz. contabile** di tanto in tanto per verificare che il nuovo layout di colonna funzioni come previsto.
+
+> [!NOTE]
+> Le colonne definite in ciascuna riga rappresentano la colonna 3 e le colonne successive nella pagina **Sintesi situaz. contabile**. Le prime due colonne, **Nr. riga** e **Descrizione**, sono fisse.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Per creare una colonna per il calcolo delle percentuali  
 A volte, potrebbe essere necessario includere in una situazione contabile una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, è possibile inserire una colonna per indicare la percentuale delle vendite totale rappresentata da ogni riga.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Descr. situazioni contabili** selezionare una situazione contabile.  
+2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Selezionare l'azione **Modifica situazione contabile** per impostare una riga della situazione contabile per calcolare il totale su cui saranno basate le percentuali.  
 4. Inserire una riga immediatamente sopra la prima riga per la quale si desidera visualizzare una percentuale.  
 5. Compilare i campi della riga nel modo seguente: Nel campo **Tipo totale** immettere **Imposta base per percentuale**. Nel campo **Totale** immettere una formula del totale su cui sarà basata la percentuale. Ad esempio, se il totale vendite è incluso nella riga 11 immettere **11**.  
@@ -66,15 +90,15 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 È possibile utilizzare una situazione contabile per creare un rendiconto in cui vengono confrontate le cifre C/G con le cifre del budget C/G.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Descr. situazioni contabili** selezionare una situazione contabile.  
+2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Scegliere l'azione **Modifica situazione contabile**  
-4. Nella finestra **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome**.
+4. Nella pagina **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome**.
 5. Scegliere l'azione **Inserisci conti**.  
 6. Selezionare i conti che si intendono includere nella dichiarazione e selezionare il pulsante **OK**.
 
     I conti sono stati inseriti nella situazione contabile. È inoltre possibile modificare il layout colonna.  
 7. Scegliere l'azione **Sintesi**.  
-8. Fare clic sulla Scheda dettaglio **Filtri dimensione** e impostare il filtro budget con il nome di filtro desiderato.  
+8. Nella pagina **Sintesi situaz. contabile**, nella scheda dettaglio **Filtri dimensione**, impostare il filtro budget con il nome di filtro desiderato.  
 9. Scegliere il pulsante **OK**.  
 
 Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.  
@@ -85,7 +109,6 @@ La situazione contabile consente di confrontare i risultati di diversi periodi c
 Un periodo contabile non deve corrispondere esattamente al calendario, ma ogni anno fiscale deve avere lo stesso numero di periodi contabili, che possono tuttavia avere una durata distinta.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] usa la formula periodo per calcolare l'importo dal periodo di confronto in relazione al periodo rappresentato dal filtro data nella richiesta del report. Il periodo di confronto si basa sul periodo indicato dalla data di inizio del filtro data. Le abbreviazioni per l'indicazione dei periodi sono:
-
 
 <table>
 <colgroup>

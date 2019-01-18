@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
 Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 
-Nella finestra **Disponibilità articolo per sequenza temporale** è possibile modificare gli ordini e i suggerimenti di approvvigionamento trascinando gli elementi lungo l'asse x per modificare la quantità o lungo l'asse y per modificare la data di scadenza.  
+Nella pagina **Disponibilità articolo per sequenza temporale** è possibile modificare gli ordini e i suggerimenti di approvvigionamento trascinando gli elementi lungo l'asse x per modificare la quantità o lungo l'asse y per modificare la data di scadenza.  
 
- Nella finestra **Disponibilità articolo per sequenza temporale** e nella finestra **Prospetto pianific.** è possibile effettuare le seguenti modifiche:  
+ Nella pagina **Disponibilità articolo per sequenza temporale** e nella pagina **Prospetto pianific.** è possibile effettuare le seguenti modifiche:  
 
 -   Modificare un ordine di approvvigionamento suggerito che esiste solo come riga di pianificazione.  
 -   Modificare un ordine di approvvigionamento esistente che il sistema di pianificazione suggerisce di modificare.  
@@ -32,14 +32,14 @@ Nella finestra **Disponibilità articolo per sequenza temporale** è possibile m
 
 Per ulteriori informazioni sui tipi di riga di pianificazione visualizzati, vedere il campo Descrizione nella Scheda dettaglio **Modifiche evento**.  
 
-Scegliendo **Salva modifiche** nella finestra **Disponibilità articolo per sequenza temporale**, le modifiche effettuate in corrispondenza vengono copiate nel prospetto di pianificazione o nella richiesta di approvvigionamento. È ora possibile implementarli utilizzando la funzione **Pianificaz. - Esegui mess. azione**.  
+Scegliendo **Salva modifiche** nella pagina **Disponibilità articolo per sequenza temporale**, le modifiche effettuate in corrispondenza vengono copiate nel prospetto di pianificazione o nella richiesta di approvvigionamento. È ora possibile implementarli utilizzando la funzione **Pianificaz. - Esegui mess. azione**.  
 
-La seguente procedura illustra come modificare i suggerimenti di approvvigionamento mediante il trascinamento della selezione. In alternativa, è possibile modificare i campi **Data sc.** e **Quantità** nella Scheda dettaglio **Modifiche evento** e immediatamente visualizzare graficamente le modifiche nella Scheda dettaglio **Sequenza temporale** della finestra **Prospetto pianific.**.  
+La seguente procedura illustra come modificare i suggerimenti di approvvigionamento mediante il trascinamento della selezione. In alternativa, è possibile modificare i campi **Data sc.** e **Quantità** nella Scheda dettaglio **Modifiche evento** e immediatamente visualizzare graficamente le modifiche nella Scheda dettaglio **Sequenza temporale** della pagina **Prospetto pianific.**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Per modificare gli ordini di approvvigionamento suggeriti nella visualizzazione grafica  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Disponibilità articolo per sequenza temporale** e quindi scegliere il collegamento correlato.  
 
-    La finestra **Disponibilità articolo per sequenza temporale** verrà visualizzata con il numero di articolo, l'ubicazione e la variante dell'articolo nella riga di pianificazione selezionata precompilata della Scheda dettaglio **Opzioni**. La Scheda dettaglio **Sequenza temporale** mostra una rappresentazione grafica del magazzino previsto dell'articolo, inclusi i suggerimenti di pianificazione.  
+    La pagina **Disponibilità articolo per sequenza temporale** verrà visualizzata con il numero di articolo, l'ubicazione e la variante dell'articolo nella riga di pianificazione selezionata precompilata della Scheda dettaglio **Opzioni**. La Scheda dettaglio **Sequenza temporale** mostra una rappresentazione grafica del magazzino previsto dell'articolo, inclusi i suggerimenti di pianificazione.  
 
 2.  Assicurarsi che il campo **Includi suggerimenti pianificazione** sia selezionato.  
 3.  Individuare l'ordine di approvvigionamento suggerito che si desidera modificare. È possibile identificare gli articoli modificabili dal cerchio verde e l'icona a forma di disco. Per ulteriori informazioni sui differenti simboli, vedere la sezione "Simboli e icone nella Scheda dettaglio Sequenza temporale".  
@@ -53,7 +53,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
     |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
     |**Elimina approvvigionamento**|Elimina l'elemento nella Scheda dettaglio **Sequenza temporale** ed elimina la riga di pianificazione quando si sceglie **Salva modifiche**. L'icona assume la forma di un disco con una croce rossa quando l'approvvigionamento è stato eliminato.<br /><br /> **NOTA:** è possibile eliminare solo un approvvigionamento del tipo di messaggio di azione **Nuovo**. Dopo aver scelto **Salva modifiche**, è necessario eliminare manualmente la riga di pianificazione in questione nel prospetto di pianificazione o nella richiesta di approvvigionamento.|  
 
-7.  Scegliere l'azione **Ricarica** se si desidera ripristinare tutte le eventuali modifiche apportate dopo l'ultima apertura della finestra **Disponibilità articolo per sequenza temporale** o dopo che si è selezionato **Ricarica**.  
+7.  Scegliere l'azione **Ricarica** se si desidera ripristinare tutte le eventuali modifiche apportate dopo l'ultima apertura della pagina **Disponibilità articolo per sequenza temporale** o dopo che si è selezionato **Ricarica**.  
 8. Quando gli elementi si trovano nel punto desiderato nel diagramma, selezionare **Salva modifiche** per copiare la quantità modificata e le modifiche alle date nelle righe di richiesta di approvvigionamento o di pianificazione che rappresentano gli elementi grafici.  
 
 Per implementare le modifiche del piano di approvvigionamento, è necessario seguire i messaggi di azione risultanti dal prospetto di pianificazione oppure dalla richiesta di approvvigionamento. Per ulteriori informazioni, vedere Pianificaz - Esegui mess. azione.

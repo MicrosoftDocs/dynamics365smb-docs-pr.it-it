@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
@@ -62,7 +62,7 @@ Quando gli articoli vengono caricati nella warehouse, l'utente responsabile dell
 Quando il documento di origine in entrata viene rilasciato, viene creata automaticamente una richiesta warehouse in entrata. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Crea un nuovo stoccaggio magazzino  
-Nella finestra **Stoccaggio magazzino**, l'addetto alla warehouse recupera, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In alternativa, le righe di stoccaggio di magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
+Nella pagina **Stoccaggio magazzino**, l'addetto alla warehouse recupera, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In alternativa, le righe di stoccaggio di magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Registra stoccaggio magazzino  
 In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità**, quindi registra lo stoccaggio di magazzino. I documenti di origine che sono correlati allo stoccaggio di magazzino vengono registrati come ricevuti.  
@@ -81,7 +81,7 @@ Quando gli articoli vengono caricati nella warehouse, l'utente responsabile dell
 Quando il documento di origine in entrata viene rilasciato, viene creata automaticamente una richiesta warehouse in entrata. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Creare il carico warehouse  
-Nella finestra **Carico warehouse**, l'utente responsabile della ricezione degli articoli recupera le righe del documento di origine in attesa in base alla richiesta warehouse in entrata. Più righe del documento di origine possono essere combinate in un unico documento di carico warehouse.  
+Nella pagina **Carico warehouse**, l'utente responsabile della ricezione degli articoli recupera le righe del documento di origine in attesa in base alla richiesta warehouse in entrata. Più righe del documento di origine possono essere combinate in un unico documento di carico warehouse.  
 
 L'utente compila il campo **Qtà da gestire** e, se necessario, seleziona la collocazione e l'area ricevimento.  
 
@@ -106,7 +106,7 @@ Una volta che tutti gli stoccaggi sono pianificati e assegnati agli addetti ware
 L'addetto warehouse che esegue gli stoccaggi crea un documento di stoccaggio warehouse in modalità pull, in base al carico warehouse registrato. In alternativa, il documento di stoccaggio magazzino viene creato e assegnato a un lavoratore del magazzino in modalità push.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Registra Stoccaggio warehouse  
-In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità** della finestra **Stoccaggio warehouse**, quindi registra lo stoccaggio nella warehouse.  
+In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità** della pagina **Stoccaggio warehouse**, quindi registra lo stoccaggio nella warehouse.  
 
 I movimenti warehouse vengono creati e le righe di stoccaggio warehouse vengono eliminate, se completamente gestite. Il documento di stoccaggio warehouse rimane aperto fino a quando la quantità completa del carico warehouse registrato correlato non viene registrata. Il campo **Qtà stoccata** nelle righe dell'ordine di carico warehouse viene aggiornato.  
 

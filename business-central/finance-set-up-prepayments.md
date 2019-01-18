@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
@@ -30,23 +30,23 @@ Poiché l'importo pagamento anticipato è di proprietà dell'acquirente fino a q
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Per aggiungere conti pagamento anticipato al setup registrazioni COGE  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup registrazioni COGE** compilare i campi seguenti:  
+2. Nella pagina **Setup registrazioni COGE** compilare i campi seguenti:  
 
     - **Conto pagam. anticipati vendite**  
     - **Conto pagam. anticipati acquisti**  
 
-Se non sono già stati impostati i conti di contabilità generale per i pagamenti anticipati, è possibile farlo nella finestra **Lista conti C/G**.  
+Se non sono già stati impostati i conti di contabilità generale per i pagamenti anticipati, è possibile farlo nella pagina **Lista conti C/G**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Per impostare la numerazione per i documenti pagamento anticipato  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup contabilità clienti e vendite** compilare i campi seguenti:  
+2. Nella pagina **Setup contabilità clienti e vendite** compilare i seguenti campi:  
 
    - **Nr. fatt. pagam. ant. reg.**
    - **Nr. note cr. pagam. ant. reg.**
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup contabilità fornitori e acquisti** compilare i campi seguenti:
+2. Nella pagina **Setup contabilità fornitori e acquisti** compilare i campi seguenti:
 
     - **Nr. fatt. pagam. ant. reg.**
     - **Nr. note cr. pagam. ant. reg.**
@@ -59,7 +59,7 @@ Per un articolo è possibile impostare una percentuale pagamento anticipato pred
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Selezionare un articolo, quindi scegliere l'azione **Percentuale pagamento anticipato**.  
-3. Nella finestra **Percentuali pagamenti anticipati vendite** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella pagina **Percentuali pagamenti anticipati vendite** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Per un cliente o un fornitore, è possibile impostare una percentuale pagamento anticipato predefinita per tutti gli articoli e tutti i tipi di righe di vendita. Immettere la percentuale nella scheda cliente o nella scheda fornitore.
 

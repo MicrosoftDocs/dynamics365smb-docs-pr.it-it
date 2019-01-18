@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b976ca548bf02511e818fa981395cb9261757468
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
-Nel campo **Tipo** nella finestra **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda e quindi come viene gestito nel sistema. Sono disponibili tre opzioni:
+Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda e quindi come viene gestito nel sistema. Sono disponibili tre opzioni:
 
 |Opzione|Scopo tipico|
 |------|-----------|
@@ -37,7 +37,7 @@ I tre tipi dell'articolo supportano rispettivamente le seguenti funzionalità.
 |Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegni|Gestione della warehouse|Pianificazione|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|
-|Non in inventario|Sì|Sì|Sì|Sì|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|
+|Non in inventario|Sì|Sì|Sì|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|
 |Servizio|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]

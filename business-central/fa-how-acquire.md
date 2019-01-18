@@ -13,23 +13,23 @@ ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a5ce3c514ff649b5ad4a901f257816ae1a59d58
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
 
-Quando un cespite è impostato e un registro beni ammortizzabili è assegnato, è necessario acquisire il cespite. Per acquisire un cespite, occorre registrare il costo di acquisizione nel relativo conto C/G, conto bancario o fornitore registrando una transazione di acquisizione dalla finestra **Registrazioni cespiti in C/G**. È possibile utilizzare la finestra **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni COGE richieste automaticamente.
+Quando un cespite è impostato e un registro beni ammortizzabili è assegnato, è necessario acquisire il cespite. Per acquisire un cespite, occorre registrare il costo di acquisizione nel relativo conto C/G, conto bancario o fornitore registrando una transazione di acquisizione dalla pagina **Registrazioni cespiti in C/G**. È possibile utilizzare la pagina **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni COGE richieste automaticamente.
 
 Il valore residuo di un cespite quando non può più essere utilizzato. È possibile registrare il valore di realizzo contemporaneamente alla registrazione del costo di acquisto. Per ulteriori informazioni, vedere [Ammortamento dei cespiti](fa-how-depreciate-amortize.md).
 
 L'indicizzazione consente di correggere i valori per le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di calcolare i costi di acquisto ai costi di sostituzione.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Per creare un cespite e acquisirlo automaticamente
-Di seguito viene descritto come creare e acquisire un cespite utilizzando la finestra **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni cespiti in C/G richieste. È inoltre possibile creare e registrare manualmente le righe di registrazione. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G".
+Di seguito viene descritto come creare e acquisire un cespite utilizzando la pagina **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni cespiti in C/G richieste. È inoltre possibile creare e registrare manualmente le righe di registrazione. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G".
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,12 +38,12 @@ Di seguito viene descritto come creare e acquisire un cespite utilizzando la fin
 
     Quando tutti i campi necessari per acquisire un cespite vengono compilati, la notifica indicante che **si è pronti ad acquisire il cespite** viene visualizzata nella parte superiore della pagina.
 5. Scegliere l'azione **Acquisisci** nella notifica.
-6. Seguire i passaggi indicati nella finestra **Acquisizione assistita cespiti** per completare l'acquisizione automatica del cespite.
+6. Seguire i passaggi indicati nella pagina **Acquisizione assistita cespiti** per completare l'acquisizione automatica del cespite.
 
 > [!NOTE]  
 >   È inoltre possibile registrare i costi di acquisizione in Avere. In tal caso, ricordare che il valore nel campo **Costo di acquisizione IVA inclusa** deve avere il segno meno per indicare un credito.
 
-Quando si sceglie **Fine**, il campo **Valore contabile** nella finestra **Scheda cespite** viene compilato per indicare che il cespite è stato acquisito al costo di acquisizione specificato.  
+Quando si sceglie **Fine**, il campo **Valore contabile** nella pagina **Scheda cespite** viene compilato per indicare che il cespite è stato acquisito al costo di acquisizione specificato.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Per impostare una lista di componenti per un bene principale
 I cespiti possono essere raggruppati in beni principali e componenti. Un esempio è costituito da un macchinario di produzione composto da molte parti che si intendono raggruppare come segue.  
@@ -52,20 +52,20 @@ il bene principale e tutti i suoi componenti devono essere impostati come schede
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
 2. Selezionare il cespite che costituisce il bene principale, quindi scegliere l'azione **Componenti bene principale**.
-3. Nella finestra **Componenti bene principale** scegliere il campo **Nr. cespite**, quindi selezionare il cespite che si desidera aggiungere come componente del bene principale.
-4. Chiudere la finestra.
+3. Nella pagina **Componenti bene principale** scegliere il campo **Nr. cespite**, quindi selezionare il cespite che si desidera aggiungere come componente del bene principale.
+4. Chiudere la pagina.
 5. Ripetere i passaggi 3 e 4 per ogni bene componente che si intende aggiungere.
 6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup cespiti** e quindi scegliere il collegamento correlato.
 7. Selezionare la casella di controllo **Autorizza reg. in cespiti principali**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Per registrare manualmente un'acquisizione del cespite mediante Registrazioni cespiti in C/G
-Di seguito viene descritto come acquistare manualmente un cespite creando e registrando le righe nella finestra **Reg. cespiti in G/L**. È inoltre possibile acquisire automaticamente un cespite utilizzando la finestra **Acquisizione assistita cespiti**. Per ulteriori informazioni, vedere il passaggio 5 nella sezione "Per creare un cespite e acquisirlo automaticamente".
+Di seguito viene descritto come acquistare manualmente un cespite creando e registrando le righe nella pagina **Reg. cespiti in G/L**. È inoltre possibile acquisire automaticamente un cespite utilizzando la pagina **Acquisizione assistita cespiti**. Per ulteriori informazioni, vedere il passaggio 5 nella sezione "Per creare un cespite e acquisirlo automaticamente".
 
 > [!NOTE]  
 >   È inoltre possibile registrare i costi di acquisizione in Avere. In tal caso, ricordare che il valore nel campo **Importo** deve avere il segno meno per indicare un credito.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Registrazioni cespiti in C/G**, nel campo **Tipo reg. cespite** selezionare **Costo di acquisto**.
+2. Nella pagina **Registrazioni cespiti in C/G**, nel campo **Tipo reg. cespite** selezionare **Costo di acquisto**.
 3. Compilare i rimanenti campi, se necessario.
 4. Scegliere l'azione **Registra**.  
 
@@ -73,7 +73,7 @@ Di seguito viene descritto come acquistare manualmente un cespite creando e regi
 >   Se durante la registrazione di un costo di acquisto viene compilato il campo **Nr. Assicurazione**, il costo di acquisizione del cespite verrà registrato automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)] nel registro di copertura assicurativa. Per ulteriori informazioni, vedere [Assicurazione di cespiti](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Per annullare una registrazione di costo di acquisto per un cespite
-In caso di errore nella registrazione di un costo di acquisto, è possibile rimuovere il movimento con il processo batch **Rimuovi mov. cespiti** e registrare il movimento di acquisto corretto. I movimenti errati vengono trasferiti alla finestra **Mov. cont. cespiti errati**.
+In caso di errore nella registrazione di un costo di acquisto, è possibile rimuovere il movimento con il processo batch **Rimuovi mov. cespiti** e registrare il movimento di acquisto corretto. I movimenti errati vengono trasferiti alla pagina **Mov. cont. cespiti errati**.
 
 Ad esempio, se si registra un acquisto con la data errata, è necessario correggerla prontamente perché la data di registrazione del cespite viene utilizzata in diversi calcoli critici.
 
@@ -96,7 +96,7 @@ Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il p
 4. Scegliere l'azione **Registra**.
 
 > [!NOTE]  
->   Il tipo di registrazione **Valore di realizzo** è un'opzione solo della finestra **Registrazioni cespiti**. Non è disponibile nella finestra **Registrazioni cespiti in C/G** perché il valore di realizzo non è mai registrato nella contabilità generale.
+>   Il tipo di registrazione **Valore di realizzo** è un'opzione solo della pagina **Registrazioni cespiti**. Non è disponibile nella pagina **Registrazioni cespiti in C/G** perché il valore di realizzo non è mai registrato nella contabilità generale.
 
 ## <a name="see-also"></a>Vedi anche
 [Cespiti](fa-manage.md)  

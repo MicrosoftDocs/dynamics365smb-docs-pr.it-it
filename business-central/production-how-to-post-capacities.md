@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80f47bc3af8b26e2a58bca739f2b4f629b9d5dc0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-capacities"></a>Registrare le capacità
@@ -31,11 +31,11 @@ Nelle registrazioni delle rettifiche delle capacità vengono registrate le capac
 6.  Per registrare le capacità scegliere l'azione **Registra**.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>Per visualizzare i movimenti contabili relativi alle aree di produzione:  
-Nelle finestre **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
+Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda **Area di produzione** pertinente dall'elenco e scegliere l'azione **Movimenti contabili capacità**.  
 
-Nella finestra **Movimenti Contabili Capacità** vengono visualizzati i movimenti registrati relativi all'area di produzione in ordine di registrazione.   
+Nella pagina **Movimenti Contabili Capacità** vengono visualizzati i movimenti registrati relativi all'area di produzione in ordine di registrazione.   
 
 ## <a name="see-also"></a>Vedi anche  
 [Manufacturing](production-manage-manufacturing.md)    

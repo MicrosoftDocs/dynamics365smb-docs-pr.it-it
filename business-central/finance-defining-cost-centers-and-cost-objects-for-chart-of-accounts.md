@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5da3967e99bf8a1d5628159a542885ffd1113a02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definizione dei centri di costo e degli oggetti di costo per il piano dei conti
@@ -39,11 +40,10 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 |Oggetto di costo|Nessun Cod.|Codice obbligatorio|  
 
 > [!NOTE]  
->  Per garantire che il centro di costo e l'oggetto di costo predefiniti impostati nella contabilità generale vengano riportati automaticamente nella contabilità industriale, selezionare la casella di controllo **Verifica registrazioni CG** nella finestra Setup contabilità industriale.  
+>  Per garantire che il centro di costo e l'oggetto di costo predefiniti impostati nella contabilità generale vengano riportati automaticamente nella contabilità industriale, selezionare la casella di controllo **Verifica registrazioni CG** nella pagina Setup contabilità industriale.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
-[Impostare i centri di costo](finance-how-to-set-up-cost-centers.md)   
-[Impostare gli oggetti di costo](finance-how-to-set-up-cost-objects.md)  
+[Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

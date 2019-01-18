@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Ristrutturare warehouse
@@ -56,9 +56,9 @@ In questo modo sono state svuotate le collocazioni in cui gli articoli erano con
 
     1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
     2.  Selezionare la riga con l'ubicazione, quindi scegliere l'azione **Collocazioni**.  
-    3.  Nella finestra **Collocazioni** immettere **QC** nel campo **Codice tipo collocazione** per ciascuna delle collocazioni precedenti svuotate nel passaggio 3 della procedura precedente.  
+    3.  Nella pagina **Collocazioni** immettere **QC** nel campo **Codice tipo collocazione** per ciascuna delle collocazioni precedenti svuotate nel passaggio 3 della procedura precedente.  
 
-Sono state rimosse le collocazioni dal flusso warehouse e sono state riclassificate come collocazioni QC. Queste non dispongono dei campi di attività nella finestra **Tipi collocazione** selezionata e pertanto non vengono considerate dal flusso di articoli. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
+Sono state rimosse le collocazioni dal flusso warehouse e sono state riclassificate come collocazioni QC. Queste non dispongono dei campi di attività nella pagina **Tipi collocazione** selezionata e pertanto non vengono considerate dal flusso di articoli. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Per eliminare una collocazione  
 
@@ -69,7 +69,7 @@ Sono state rimosse le collocazioni dal flusso warehouse e sono state riclassific
 
 Se si sceglie il pulsante **Sì**, la collocazione viene eliminata in modo permanente, mentre il codice collocazione rimane invariato in tutti i movimenti warehouse.  
 
-Se si desidera rinominare una collocazione in modo che vengano rinominati anche tutti i record ad essa associati, eseguire questa operazione nella finestra **Collocazioni**. I record includono il contenuto delle collocazioni, le righe attività warehouse, le righe attività warehouse registrate, le righe dei prospetti warehouse, le righe dei carichi warehouse, le righe dei carichi di warehouse registrati, le righe delle spedizioni warehouse, le righe delle spedizioni warehouse registrate e i movimenti warehouse.  
+Se si desidera rinominare una collocazione in modo che vengano rinominati anche tutti i record ad essa associati, eseguire questa operazione nella pagina **Collocazioni**. I record includono il contenuto delle collocazioni, le righe attività warehouse, le righe attività warehouse registrate, le righe dei prospetti warehouse, le righe dei carichi warehouse, le righe dei carichi di warehouse registrati, le righe delle spedizioni warehouse, le righe delle spedizioni warehouse registrate e i movimenti warehouse.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Per rinominare una collocazione e modificare il codice collocazione in tutti i record  
 

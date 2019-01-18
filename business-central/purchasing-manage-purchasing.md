@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4f27c9ad628fa66f692a862e59cd0b306b02c6c
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="purchasing"></a>Acquisti
@@ -40,6 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Eseguire un'azione in una fattura di acquisto registrata non pagata per creare automaticamente una nota di credito e per annullare la fattura di acquisto o per ricrearla in modo da apportare correzioni. |[Correggere o annullare le fatture di vendita non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Creare una nota di credito di acquisto per stornare una fattura di acquisto registrata specifica per riflettere i prodotti resi al fornitore e l'importo di pagamento ricevuto. |[Elaborare i resi o gli annullamenti acquisti](purchasing-how-register-new-vendors.md) |
 |Preparare la fattura per più carichi dallo stesso fornitore dopo aver combinato i carichi in una sola fattura.|[Combinare i carichi in una singola fattura](purchasing-how-to-combine-receipts.md)|
+|Convertire, ad esempio, le fatture elettroniche dei fornitori in fatture di acquisto in Business Central.|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Informazioni su come vengono effettuati i calcoli [!INCLUDE[d365fin](includes/d365fin_md.md)] quando è necessario ordinare un articolo per riceverlo in una determinata data.|[Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Vedi anche
@@ -51,5 +52,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

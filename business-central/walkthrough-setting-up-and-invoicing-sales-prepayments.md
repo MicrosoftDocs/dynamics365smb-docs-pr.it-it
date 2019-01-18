@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
@@ -65,11 +65,11 @@ Le seguenti procedure illustrano come svolgere i task di Barbara:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Per impostare la numerazione per i pagamenti anticipati  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Setup contabilità clienti** espandere la Scheda dettaglio **Numerazione**.  
+2.  Nella pagina **Setup contabilità clienti** espandere la Scheda dettaglio **Numerazione**.  
 3.  Verificare che la numerazione per le fatture di pagamento anticipato registrate nel campo **Nr. fatt. pagam. ant. reg.** sia la stessa delle fatture di vendita registrate (**Nr. fatture registrate**) e che la numerazione per le note di credito registrate per i pagamenti anticipati (**Nr. note cr. pagam. ant. reg.**) sia la stessa delle note di credito registrate (**Nr. note credito registrate**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Per bloccare le spedizioni in caso di mancato versamento del pagamento anticipato  
-1.  Nella Scheda dettaglio **Generale** della finestra **Setup contabilità clienti** selezionare la casella di controllo **Verifica pagamento anticipato durante la registrazione**.
+1.  Nella Scheda dettaglio **Generale** della pagina **Setup contabilità clienti** selezionare la casella di controllo **Verifica pagamento anticipato durante la registrazione**.
 
     Non è possibile spedire o fatturare un ordine con un importo pagamento anticipato non pagato.  
 
@@ -85,7 +85,7 @@ Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per 
 5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 6.  Aprire la scheda per il cliente 1100.
 7.  Scegliere l'azione **Percentuali pagamenti anticipati**.  
-8.  Compilare nel modo seguente due righe della finestra **Percentuali pagamenti anticipati vendite**.  
+8.  Compilare nel modo seguente due righe della pagina **Percentuali pagamenti anticipati vendite**:  
 
     |**Tipo vendita**|**Codice vendita**|**Nr. Articolo**|**% pagamento anticipato**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per 
     > [!IMPORTANT]  
     >  In base al proprio paese, è inoltre necessario specificare un codice gruppo imposta nella Scheda dettaglio **Fatturazione** per gli articoli 1000 e 1100.  
 
-9. Chiudere tutte le finestre.  
+9. Chiudere tutte le pagine.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Per specificare un conto per i pagamenti anticipati di vendita nel setup registrazioni COGE  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
 2.  Selezionare la riga in cui il campo **Cat. reg. business** è impostato su **ESPORTAZ** e il campo **Cat. reg. articolo/servizio** è impostato su **DETTAGLIO**, quindi scegliere l'azione **Modifica**.  
-3.  Nella finestra **Scheda setup reg. gen.**, nel campo **Conto pagam. anticipati vendite** specificare il conto in questione.  
+3.  Nella pagina **Scheda setup reg. gen.**, nel campo **Conto pagam. anticipati vendite** specificare il conto in questione.  
 4.  Scegliere il pulsante **OK**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Creazione di un ordine che richiede un pagamento anticipato  
@@ -126,7 +126,7 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
 
 7. Verificare che il campo **% pagamento anticipato** sulla riga dell'articolo **1000** contenga **30**. Il valore di default è stato copiato dalla testata di vendita, popolata dalla scheda cliente.  
 
-    Il campo **% pagamento anticipato** sulla riga dell'articolo **1100** contiene **40**. Si tratta della percentuale immessa nella finestra **Percentuali pagamenti anticipati vendite** per l'articolo **1100** e il cliente **20000**.  
+    Il campo **% pagamento anticipato** sulla riga dell'articolo **1100** contiene **40**. Si tratta della percentuale immessa nella pagina **Percentuali pagamenti anticipati vendite** per l'articolo **1100** e il cliente **20000**.  
 
     Per ulteriori informazioni, vedere [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).  
 8. Scegliere l'azione **Statistiche**.  
@@ -136,14 +136,14 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
 
     > [!IMPORTANT]  
     >  In base al proprio paese, il seguente passaggio potrebbe non essere applicabile.  
-10. Modificare in **2000** l'importo nel campo **Importo riga pagam. ant. IVA escl.** e chiudere la finestra.  
+10. Modificare in **2000** l'importo nel campo **Importo riga pagam. ant. IVA escl.** e chiudere la pagina.  
 11. Controllare il campo **% pagamento anticipato** nelle righe di vendita: si constaterà che è stato ricalcolato in **40.81625**.  
 
     Il calcolo include tutte le righe che hanno una percentuale di pagamento anticipato superiore a zero.  
 
     Ora il cliente chiede se la percentuale di pagamento anticipato può essere impostata su 35%. Il supervisore di Elisabetta accetta la modifica.  
 
-12. Nella finestra **Ordine vendita**, nel campo **% pagamento anticipato** immettere **35**.  
+12. Nella pagina **Ordine vendita**, nel campo **% pagamento anticipato** immettere **35**.  
 13. Nel messaggio di avviso visualizzato, selezionare il pulsante **Sì** . Un tasso del 35% verrà applicato come percentuale di pagamento per l'intero ordine.  
 14. Verificare che le righe siano state aggiornate di conseguenza.  
 
@@ -152,7 +152,7 @@ Dopo aver inserito nell'ordine i valori di pagamento anticipato corretti, Elisab
 
 #### <a name="to-create-a-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato  
 
-1.  Nella finestra **Ordine vendita** scegliere l'azione **Registra fattura pagamento anticipato**.  
+1.  Nella pagina **Ordine vendita** scegliere l'azione **Registra fattura pagamento anticipato**.  
 
 > [!NOTE]  
 >  Selezionare **Registra e stampa fattura pagam. ant.** e spedire la fattura al cliente.  
@@ -162,7 +162,7 @@ Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine.
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato aggiuntiva  
 
-1.  Nella finestra **Ordine vendita** scegliere l'azione **Riapri**.  
+1.  Nella pagina **Ordine di vendita**, scegliere l'azione **Riapri**.  
 2.  Immettere **2** nel campo **Quantità** della riga dell'articolo **1100**.  
 
     Scorrere per vedere i campi del pagamento anticipato. Il campo **Importo riga pagam. ant. IVA esclusa** ora contiene **630** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **315**. Ciò indica l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
@@ -182,7 +182,7 @@ Il cliente versa il pagamento anticipato e Armando, che lavora nel reparto conta
     |**Tipo conto**|**Cliente**|  
     |**Nr. conto**|**20000**|  
 3. Scegliere l'azione **Collega movimenti**.  
-4.  Nella finestra **Collega mov. cliente** selezionare la prima fattura di pagamento anticipato e quindi scegliere l'azione **Imposta Collega a ID**.  
+4.  Nella pagina **Collega mov. cliente** selezionare la prima fattura di pagamento anticipato e quindi scegliere l'azione **Imposta Collega a ID**.  
 5.  Ripetere il passaggio precedente per il secondo pagamento anticipato.  
 6.  Scegliere il pulsante **OK**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
@@ -31,7 +31,7 @@ Al termine dei periodi contabili, mensili, annuali o altro, è necessario esegui
 |Visualizzare il valore di magazzino degli articoli selezionati, incluso il relativo costo effettivo e previsto alla data specificata.|Report **Valutazione magazzino - Specifica costi**|  
 |Utilizzare un report per analizzare i motivi delle variazioni di costo o per ottenere informazioni relative al dettaglio costi degli articoli venduti (COGS).|Report **Breakdown dettaglio costi**|  
 |Registrare periodicamente i movimenti di valorizzazione delle transazioni di articoli dai movimenti contabili inventario ai conti C/G correlati per riconciliare i due movimenti contabili.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Utilizzare una finestra per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Utilizzare una pagina per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Determinare l'importo WIP che deve essere registrato per i conti patrimoniali il reporting di fine periodo.|[Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Vedi anche  

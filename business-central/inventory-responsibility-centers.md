@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7b8d12d597930824aba96cc894b11419f9ae00b0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 643d0b7be64addf3604283dbed58d59a54df2032
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
@@ -48,7 +48,7 @@ Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assi
 Per poter procedere a queste impostazioni è necessario assegnare i centri di responsabilità agli utenti in tre aree funzionali: Acquisti, Vendite e Gestione assistenza.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella finestra **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
+2.  Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
 3.  Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
 4.  Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
 5.  Nel campo **Filtro Centro Resp. Assistenza** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alla gestione dell'assistenza.  

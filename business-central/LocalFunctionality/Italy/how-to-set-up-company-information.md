@@ -1,6 +1,6 @@
 ---
 title: "Procedura: Impostazione di informazioni sulla società"
-description: "I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella finestra **Informazioni società** durante l'impostazione di una società."
+description: "I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4089b524c828a8c27b3827a5d7a8e6d695f13fd9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be0f75d84569237e12a51dcdf6b2e32fbe064ed7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-company-information"></a>Impostazione di informazioni sulla società
-I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella finestra **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  
+I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  
 
 ## <a name="to-set-up-company-information"></a>Per impostare le informazioni sulla società  
 

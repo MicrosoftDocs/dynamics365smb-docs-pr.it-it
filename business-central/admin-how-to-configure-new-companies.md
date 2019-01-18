@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
@@ -38,7 +38,7 @@ Vengono importate tutte le tabelle selezionate per l'inserimento nella nuova soc
 ## <a name="to-apply-package-data"></a>Per collegare i dati dei del pacchetto  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi selezionare il collegamento correlato.  
 2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Collega dati**. Scegliere il pulsante **Sì** per confermare il collegamento.
-3. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla finestra **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
+3. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
 
 > [!NOTE]  
 >  Dopo il collegamento i dati possono essere visualizzati solo nel database. Non si trova più nel pacchetto.  
@@ -46,9 +46,9 @@ Vengono importate tutte le tabelle selezionate per l'inserimento nella nuova soc
 ## <a name="to-modify-and-apply-package-data"></a>Per modificare e collegare i dati del pacchetto  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi selezionare il collegamento correlato.  
 2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Dati pacchetto**.  
-3. Nella finestra **Record pacchetto di configurazione**, apportare le modifiche. Ad esempio, è possibile eliminare le opzioni non applicabili.  
+3. Nella pagina **Record pacchetto di configurazione**, apportare le modifiche. Ad esempio, è possibile eliminare le opzioni non applicabili.  
 4. Scegliere l'azione **Collega dati**, quindi scegliere il pulsante **OK**.  
-5. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla finestra **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
+5. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Per individuare e identificare un errore di configurazione  
 Possono verificarsi alcuni tipi di errore quando si collegano dati a un database. L'errore più comune consiste nella mancata inclusione delle tabelle correlate richieste. È possibile correggere tali errori nel foglio di lavoro configurazione.
@@ -58,7 +58,7 @@ Possono verificarsi alcuni tipi di errore quando si collegano dati a un database
 
     Vengono evidenziate tutte le tabelle contenenti errori. Il numero di errori del pacchetto viene visualizzato nel campo **Nr. errori del pacchetto**.  
 
-3. Selezionare il campo **Nr. errori pacchetto** per aprire la finestra **Record pacchetto di configurazione**, che elenca i record con errori.  
+3. Selezionare il campo **Nr. errori pacchetto** per aprire la pagina **Record pacchetto di configurazione**, che elenca i record con errori.  
 
 ### <a name="to-fix-an-error"></a>Per correggere un errore  
 1. Aprire la società su cui è stato basato il pacchetto di configurazione.  

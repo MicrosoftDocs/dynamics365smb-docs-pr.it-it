@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
@@ -39,7 +39,7 @@ Anche se nelle aree di produzione specificate non vengono effettuati turni diver
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il calendario reparto prod.  
 3.  Nel campo **Descrizione** immettere una descrizione del calendario.  
 4.  Scegliere l'azione **Giorni lavorativi**.
-5.  Nella finestra **Giorni lavorativi rep. prod.**, specificare una settimana lavorativa completa, con l'ora di inizio e di fine per ogni giorno.  
+5.  Nella pagina **Giorni lavorativi rep. prod.**, specificare una settimana lavorativa completa, con l'ora di inizio e di fine per ogni giorno.  
 
     Nel campo **Cod. turno lavorativo** , selezionare uno dei turni precedentemente definiti. Aggiungere una riga per ogni giorno lavorativo e ogni turno. Ad esempio:  
 
@@ -55,10 +55,10 @@ Anche se nelle aree di produzione specificate non vengono effettuati turni diver
 
     Eventuali giorni della settimana non definiti nel calendario reparto produz., ad esempio sabato e domenica, verranno semplicemente considerati giorni non lavorativi e la relativa capacità disponibile sarà pari a zero in un calendario aree di produzione.  
 
-    Dopo avere definito tutti i giorni lavorativi di una settimana, è possibile chiudere la finestra **Giorni Lavorativi Rep. Prod.** e procedere all'immissione delle ferie.  
+    Dopo avere definito tutti i giorni lavorativi di una settimana, è possibile chiudere la pagina **Giorni Lavorativi Rep. Prod.** e procedere all'immissione delle ferie:  
 
-6.  Nella finestra **Calendari reparto prod.**, selezionare il calendario del reparto produzione, quindi scegliere l'azione **Ferie**.
-7. Nella finestra **Cal. festività rep. prod.**, definire le ferie dell'anno specificando l'ora e la data di inizio e fine e la descrizione di ogni festività in righe distinte. Ad esempio:  
+6.  Nella pagina **Calendari reparto prod.**, selezionare il calendario del reparto produzione, quindi scegliere l'azione **Ferie**.
+7. Nella pagina **Cal. festività rep. prod.**, definire le ferie dell'anno specificando l'ora e la data di inizio e fine e la descrizione di ogni festività in righe distinte. Ad esempio:  
 
     04/07/14 0.00.00 23.59.00 Vacanze estive  
     05/07/14 0.00.00 23.59.00 Vacanze estive  
@@ -74,12 +74,12 @@ La capacità disponibile per le ferie definite sarà pari a zero in un calendari
 2. Aprire l'area di produzione che si desidera aggiornare.  
 3. Nel campo **Cod. calendario reparto prod.**, selezionare il calendario del reparto produzione da utilizzare come base per un calendario delle aree di produzione.  
 4. Scegliere l'azione **Calendario**.  
-5. Nella finestra **Calendario aree di prod.**, scegliere l'azione **Mostra matrice**.  
+5. Nella pagina **Calendario aree di prod.**, scegliere l'azione **Mostra matrice**.  
 
-    Nel lato sinistro della matrice sono elencate le aree di produzione configurate. Nella parte destra è disponibile un calendario, in cui vengono visualizzati i valori relativi alla capacità disponibile per giorno lavorativo nell'unità di misura specificata, ad esempio **480** minuti. Ogni riga rappresenta il calendario relativo a un'area di produzione.  
+    Nel lato sinistro della pagina della matrice sono elencate le aree di produzione configurate. Nella parte destra è disponibile un calendario, in cui vengono visualizzati i valori relativi alla capacità disponibile per giorno lavorativo nell'unità di misura specificata, ad esempio **480** minuti. Ogni riga rappresenta il calendario relativo a un'area di produzione.  
 
     > [!NOTE]  
-    >  È anche possibile selezionare i valori di capacità per ogni settimana o mese cambiando l'opzione del campo **Visualizza per** nella finestra **Calendario aree di prod.**.  
+    >  È anche possibile selezionare i valori di capacità per ogni settimana o mese cambiando l'opzione del campo **Visualizza per** nella pagina **Calendario aree di prod.**.  
 
     Per riflettere il nuovo calendario di reparto come riga dell'area di produzione selezionata, è necessario prima calcolarlo.  
 
@@ -97,13 +97,13 @@ Vengono ora creati o aggiornati i movimenti di calendario, in cui viene visualiz
 Il calendario calcolato dell'area di produzione definirà ora quando e quanta capacità è disponibile in quest'area di produzione. Ciò controlla la pianificazione dettagliata delle operazioni eseguite nell'area di produzione.  
 
 ## <a name="to-record-work-center-absence"></a>Per registrare un'assenza dell'area di produzione  
-1.  Nella finestra **Calendario aree di prod.**, scegliere l'azione **Mostra matrice**.
-2. Nella finestra **Matrice calendario aree di prod.** selezionare l'area di produzione e il giornio di calendario in cui registrare l'orario di assenza, quindi scegliere l'azione **Assenze**.  
-3.  Nella finestra **Assenze** definire l'ora di inizio, l'ora di fine e la descrizione dell'assenza relativa al giorno specificato. Ad esempio:  
+1.  Nella pagina **Calendario aree di prod.**, scegliere l'azione **Mostra matrice**.
+2. Nella pagina **Matrice calendario aree di prod.** selezionare l'area di produzione e il giornio di calendario in cui registrare l'orario di assenza, quindi scegliere l'azione **Assenze**.  
+3.  Nella pagina **Assenze** definire l'ora di inizio, l'ora di fine e la descrizione dell'assenza relativa al giorno specificato. Ad esempio:  
 
     25/01/01 08.00 10.00 Manutenzione  
 
-4.  Scegliere l'azione **Aggiorna** e chiudere la finestra **Assenze**.  
+4.  Scegliere l'azione **Aggiorna** e chiudere la pagina **Assenze**.  
 
 La capacità del giorno selezionato risulta ora diminuita in base al tempo di assenza registrato.  
 

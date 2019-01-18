@@ -12,17 +12,17 @@ ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
 
 > [!NOTE]  
->   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella finestra **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
+>   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
 
 Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario impostare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
 
@@ -38,16 +38,16 @@ Il campo **Nr.** può essere compilato in tre modi:
 1. Se esiste solo una numerazione per il tipo di documento o scheda dove la casella di controllo **Proponi automaticamente** è selezionata e la casella di controllo **Consenti num. manuale** non è selezionata, il campo viene compilato automaticamente con il numero successivo della numerazione e il campo **Nr.** non sarà visibile.
 
     > [!NOTE]  
-    > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella finestra **Elenco nr. serie**.
+    > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella pagina **Elenco nr. serie**.
 
-2. Se esiste più di una numerazione per il tipo di documento o scheda e la casella di controllo **Proponi automaticamente** non è selezionata per la numerazione attualmente assegnata, il campo **Nr.** è visibile ed è possibile cercare la finestra **Elenco nr. serie** e selezionare la numerazione che si desidera utilizzare. Il numero successivo della serie viene quindi inserito nel campo **Nr.**.  
+2. Se esiste più di una numerazione per il tipo di documento o scheda e la casella di controllo **Proponi automaticamente** non è selezionata per la numerazione attualmente assegnata, il campo **Nr.** è visibile ed è possibile cercare la pagina **Elenco nr. serie** e selezionare la numerazione che si desidera utilizzare. Il numero successivo della serie viene quindi inserito nel campo **Nr.**.  
 
 3. Se per il tipo di documento o scheda non è stata impostata alcuna numerazione o se è selezionato il campo **Consenti num. manuale** per la numerazione, il campo **Nr.** è visibile ed è necessario inserire qualsiasi numero manualmente. È possibile immettere un massimo di 20 caratteri, tra numeri e lettere.
 
-Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si apre la relativa finestra **Setup numerazione** in modo da poter impostare una numerazione per il tipo di documento o scheda prima di procedere con un'altra immissione di dati.
+Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si apre la relativa pagina **Setup numerazione** in modo da poter impostare una numerazione per il tipo di documento o scheda prima di procedere con un'altra immissione di dati.
 
 > [!NOTE]  
-> Se è necessario attivare la numerazione manuale, ad esempio su nuove schede articolo create con un processo di migrazione di dati che ha nascosto il campo **Nr.** per impostazione predefinita, passare alla finestra **Setup magazzino** e scegliere il campo **Nr. articoli** per aprire e impostare la relativa numerazione su **Consenti num. manuale**.
+> Se è necessario attivare la numerazione manuale, ad esempio su nuove schede articolo create con un processo di migrazione di dati che ha nascosto il campo **Nr.** per impostazione predefinita, passare alla pagina **Setup magazzino** e scegliere il campo **Nr. articoli** per aprire e impostare la relativa numerazione su **Consenti num. manuale**.
 
 ## <a name="to-create-a-new-number-series"></a>Per creare nuove numerazioni
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Nr. serie** e quindi scegliere il collegamento correlato.
@@ -57,7 +57,7 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
 La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contabilità clienti** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Contabilità clienti** nella Scheda dettaglio **Numerazioni**, selezionare la numerazione desiderata per ogni scheda di vendita o documento.
+2. Nella pagina **Contabilità clienti** nella Scheda dettaglio **Numerazioni**, selezionare la numerazione desiderata per ogni scheda di vendita o documento.
 
 Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella serie di numerazione.
 
@@ -68,7 +68,7 @@ Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella
 2. Selezionare la riga contenente la numerazione per la quale si desidera creare delle relazioni, quindi scegliere **Relazioni**.
 3. Nel campo **Codice serie** immettere il codice della numerazione che si desidera associare alla serie selezionata nel passaggio 2.
 4. Aggiungere una riga per ogni codice che si desidera associare alla numerazione selezionata.
-5. Chiudere la finestra.
+5. Chiudere la pagina.
 
 Ogni volta che verrà impostato un elemento che richiede un numero, è ora possibile utilizzare le relazioni che sono state create per selezionare la numerazione corretta tra quelle poste in relazione.
 

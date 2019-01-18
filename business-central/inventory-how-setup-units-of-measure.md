@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Impostare unità di misura articolo
@@ -30,7 +30,7 @@ Se un articolo viene inserito in stock utilizzando un'unità di misura ma viene 
 ## <a name="to-set-up-a-unit-of-measure"></a>Per impostare un'unità di misura
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda dell'articolo per la quale si intende impostare unità di misura alternative.
-3. Scegliere l'azione **Unità di misura**. Verrà visualizzata la finestra **Unità di misura articoli**.
+3. Scegliere l'azione **Unità di misura**. Verrà visualizzata la pagina **Unità di misura articoli**.
 4. Se il campo **Unità di misura base** nella scheda articolo è compilato, allora tale unità di misura è già impostata.
 5. Scegliere l'azione **Nuovo**. Una nuova riga vuota viene inserita.
 6. Nel campo **Codice** immettere il nome dell'unità di misura. In alternativa, selezionare il campo per selezionare i codici di unità di misura che sono nel database.
@@ -49,12 +49,12 @@ Se si vendono articoli a clienti stranieri, potrebbe essere necessario indicare 
 5. Ripetere i passaggi da 2 a 4 per i codici delle unità di misura e per le lingue per le quali si intendono inserire le traduzioni.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Per immettere codici di unità di misura di default per transazioni di vendita e acquisto
-Se si è soliti effettuare acquisti o vendite utilizzando unità di misura diverse dall'unità di misura di base, è possibile definire unità di misura distinte per gli acquisti e per le vendite. A tal fine, le relative unità di misura devono essere impostate nella finestra **Unità di Misura Articoli**.
+Se si è soliti effettuare acquisti o vendite utilizzando unità di misura diverse dall'unità di misura di base, è possibile definire unità di misura distinte per gli acquisti e per le vendite. A tal fine, le relative unità di misura devono essere impostate nella pagina **Unità di Misura Articoli**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda articolo pertinente per la quale si intende specificare un codice di unità di misura di vendita o acquisto di default.
-3. Per le vendite, nella Scheda dettaglio **Fatturazione**, nel campo **Unità di misura vendita** , aprire la finestra **Unità di misura articoli** .
-4. Per gli acquisti, nella Scheda dettaglio **Rifornimento**, nel campo **Unità di misura acquisto** , aprire la finestra **Unità di misura articoli** .
+3. Per le vendite, nella Scheda dettaglio **Fatturazione**, nel campo **Unità di misura vendita** , aprire la pagina **Unità di misura articoli** .
+4. Per gli acquisti, nella Scheda dettaglio **Rifornimento**, nel campo **Unità di misura acquisto** , aprire la pagina **Unità di misura articoli** .
 5. Selezionare il codice che si intende impostare come unità di misura di default per le vendite o gli acquisti rispettivamente quindi scegliere il pulsante **OK**.
 
 ## <a name="see-also"></a>Vedi anche

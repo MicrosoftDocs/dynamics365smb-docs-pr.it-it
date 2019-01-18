@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importare ed esportare un layout di report o documento
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/28/2018
   
 2.  Selezionare la riga del report che contiene il layout di report personalizzato che si desidera esportare, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
   
-3.  Nella finestra **Layout report**, selezionare il layout di report che si desidera esportare verso un file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Esporta layout**.  
+3.  Nella pagina **Layout report**, selezionare il layout di report che si desidera esportare verso un file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Esporta layout**.  
   
 4.  Nella finestra di dialogo **Esporta file**, selezionare **Salva** quindi salvare il campo in un percorso del computer o in rete.  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/28/2018
   
 3.  Selezionare la riga del report verso cui si desidera importare il layout di report, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
   
-4.  Nella finestra **Layout report**, selezionare il layout di report in cui importare il file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Importa layout**.  
+4.  Nella pagina **Layout report**, selezionare il layout di report in cui importare il file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Importa layout**.  
   
 5.  Nella finestra di dialogo **Importa**, selezionare il documento che definisce il layout di report e scegliere **Apri**.  
   

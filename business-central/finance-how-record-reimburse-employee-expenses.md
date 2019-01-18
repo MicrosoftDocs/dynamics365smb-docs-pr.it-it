@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30d10c443bd69acfec9a30bacef5a8f0d8aece3f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrare e rimborsare le spese dei dipendenti
@@ -28,18 +28,21 @@ ms.lasthandoff: 09/28/2018
 Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.
 
 ## <a name="to-record-an-employees-expense"></a>Per registrare le spese di un dipendente
-Le spese del dipendente vengono registrate nella finestra **Contabilità generale**.
+Le spese del dipendente vengono registrate nella pagina **Contabilità generale**.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
 2. Aprire il batch registrazioni COGE appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. In una nuova riga di registrazione, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+    > [!NOTE]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Ripetere il passaggio 3 per le spese che il dipendente ha pagato.
 
     > [!TIP]  
-    > Se si desidera immettere più righe di spesa sopra una riga di contropartita per il conto bancario del dipendente, selezionare la casella di controllo **Suggerisci importo contropartita** nella riga del batch nella finestra **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le spese.
+    > Se si desidera immettere più righe di spesa sopra una riga di contropartita per il conto bancario del dipendente, selezionare la casella di controllo **Suggerisci importo contropartita** nella riga del batch nella pagina **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le spese.
 5. Scegliere l'azione **Registra** per registrare spese nel conto del dipendente.
 
 ## <a name="to-reimburse-an-employee"></a>Per rimborsare un dipendente
-I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti bancari nella finestra **Registrazioni pagamenti**.
+I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti bancari nella pagina **Registrazioni pagamenti**.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
 2. Aprire il batch registrazioni pagamenti appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. Compilare i campi, se necessario. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).
@@ -47,7 +50,7 @@ I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti banca
 5. Scegliere l'azione **Registra** per registrare il rimborso.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Per riconciliare i rimborsi con movimenti contabili del dipendente
-I pagamenti dei dipendenti si applicano ai movimenti contabili aperti correlati come si fa per i pagamenti dei fornitori, ad esempio nella finestra **Registrazione riconciliazione pagamenti**, in base ai movimenti relativi dell'estratto conto. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md). In alternativa, è possibile applicarli manualmente nella finestra **Movimenti contabili dipendente**. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md).  
+I pagamenti dei dipendenti si applicano ai movimenti contabili aperti correlati come si fa per i pagamenti dei fornitori, ad esempio nella pagina **Registrazione riconciliazione pagamenti**, in base ai movimenti relativi dell'estratto conto. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md). In alternativa, è possibile applicarli manualmente nella pagina **Movimenti contabili dipendente**. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  

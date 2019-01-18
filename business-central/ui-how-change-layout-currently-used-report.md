@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Modificare il layout attualmente utilizzato in un report
@@ -26,8 +26,8 @@ In base ai layout disponibili per un report, è possibile scegliere di utilizzar
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Per modificare il layout utilizzato in un report
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
-   Nella finestra **Selezione layout report** sono elencati tutti i report disponibili per la società che è specificata nel campo Società nella parte superiore della finestra. Il campo Layout selezionato specifica il layout che attualmente è utilizzato nel report.
-2. Impostare il campo **Società** nella parte superiore della finestra alla società che include il report.
+   Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società che è specificata nel campo Società nella parte superiore della pagina. Il campo Layout selezionato specifica il layout che attualmente è utilizzato nel report.
+2. Impostare il campo **Società** nella parte superiore della pagina alla società che include il report.
 3. Per modificare il layout utilizzato da un report, nella riga del report nell'elenco, impostare il campo **Layout selezionato** su una delle seguenti opzioni:
    * RDLC (predefinito) utilizza nel report il layout di report RDLC integrato.
    * Word (predefinito) utilizza nel report il layout di report Word integrato.
@@ -40,10 +40,10 @@ In base ai layout disponibili per un report, è possibile scegliere di utilizzar
 Se è stato selezionato un layout di report RDLC o Word predefinito, non sono necessarie ulteriori azioni e il layout verrà utilizzato alla successiva esecuzione del report.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Per specificare un layout personalizzato in un report
-1. Specificare quale layout personalizzato utilizzare nel report dalla finestra **Layout report personalizzati**. Se la finestra **Layout report personalizzati** non è aperta, nel campo **Descrizione layout report** scegliere il pulsante di ricerca.
-2. Nella finestra **Layout report personalizzati** selezionare la riga di layout personalizzato che si desidera utilizzare, quindi chiudere la finestra.
+1. Specificare quale layout personalizzato utilizzare nel report dalla pagina **Layout report personalizzati**. Se la pagina **Layout report personalizzati** non è aperta, nel campo **Descrizione layout report** scegliere il pulsante di ricerca.
+2. Nella pagina **Layout report personalizzati** selezionare la riga di layout personalizzato che si desidera utilizzare, quindi chiudere la finestra.
 
-Verrà visualizzata nuovamente la finestra **Selezione layout report**. Il nome del layout personalizzato selezionato viene visualizzato nel campo **Descrizione layout personalizzato**. Il layout personalizzato verrà utilizzato la volta successiva che si esegue il report.
+Verrà visualizzata nuovamente la pagina **Selezione layout report**. Il nome del layout personalizzato selezionato viene visualizzato nel campo **Descrizione layout personalizzato**. Il layout personalizzato verrà utilizzato la volta successiva che si esegue il report.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  

@@ -13,10 +13,10 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -103,11 +103,8 @@ Sono necessari solo alcuni passaggi per esportare i dati da C5 e importarli in [
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Migrazione dati** e quindi scegliere **Migrazione dati**.  
 3. Completare i passaggi nella guida di setup assistito. Assicurarsi di scegliere **Importa da Microsoft Dynamcis C5 2012** come origine dati.  
 
-> [!Note]
-> Le aziende spesso aggiungono campi per personalizzare C5 per il proprio settore specifico. [!INCLUDE[d365fin](includes/d365fin_md.md)] non migra i dati dai campi personalizzati. Inoltre, la migrazione non avrà esito positivo se sono presenti più di 10 campi personalizzati.
-
 ## <a name="viewing-the-status-of-the-migration"></a>Visualizzazione dello stato della migrazione
-Utilizzare la finestra **Sintesi migrazione dati** per monitorare il successo della migrazione. La pagina mostra informazioni quali il numero di entità che la migrazione includerà, lo stato della migrazione e il numero di articoli che sono stati migrati e se la migrazione ha avuto esito positivo. Mostra inoltre il numero di errori, consente di analizzare gli errori riscontrati e, se possibile, consente di passare facilmente all'entità per risolvere i problemi. Per ulteriori informazioni, vedere la sezione successiva in questo argomento.  
+Utilizzare la pagina **Sintesi migrazione dati** per monitorare il successo della migrazione. La pagina mostra informazioni quali il numero di entità che la migrazione includerà, lo stato della migrazione e il numero di articoli che sono stati migrati e se la migrazione ha avuto esito positivo. Mostra inoltre il numero di errori, consente di analizzare gli errori riscontrati e, se possibile, consente di passare facilmente all'entità per risolvere i problemi. Per ulteriori informazioni, vedere la sezione successiva in questo argomento.  
 
 > [!Note]
 > Mentre si attendono i risultati della migrazione, è necessario aggiornare la pagina per visualizzare i risultati.
@@ -120,12 +117,12 @@ Per evitare la doppia registrazione in contabilità generale, vengono utilizzati
 * Per gli articoli, si crea una registrazione COGE dove il conto di rettifica è il conto specificato come conto relativo al magazzino nel setup della registrazione magazzino.  
 
 ## <a name="correcting-errors"></a>Correzione degli errori
-Se si verifica un errore, il campo **Stato** mostrerà **Completato con errori**, quindi il campo **Numero di errori** mostrerà il numero degli errori. Per visualizzare un elenco degli errori, è possibile aprire la finestra **Errori di migrazione dati** scegliendo:  
+Se si verifica un errore, il campo **Stato** mostrerà **Completato con errori**, quindi il campo **Numero di errori** mostrerà il numero degli errori. Per visualizzare un elenco degli errori, è possibile aprire la pagina **Errori di migrazione dati** scegliendo:  
 
 * Il numero nel campo **Numero di errori** per l'entità.  
 * L'entità, quindi l'azione **Mostra errori**.  
 
-Nella finestra **Errori di migrazione dati**, per correggere un errore è possibile scegliere un messaggio di errore e **Modifica record** per visualizzare i dati migrati per l'entità. Se sono presenti più errori da correggere, è possibile scegliere **Correzione in blocco errori** per modificare le entità in un elenco. È comunque necessario aprire i singoli record se l'errore è stato causato da una voce correlata. Ad esempio, un fornitore non verrà migrato se un indirizzo e-mail di uno dei suoi contatti ha un formato non valido.
+Nella pagina **Errori di migrazione dati**, per correggere un errore è possibile scegliere un messaggio di errore e **Modifica record** per visualizzare i dati migrati per l'entità. Se sono presenti più errori da correggere, è possibile scegliere **Correzione in blocco errori** per modificare le entità in un elenco. È comunque necessario aprire i singoli record se l'errore è stato causato da una voce correlata. Ad esempio, un fornitore non verrà migrato se un indirizzo e-mail di uno dei suoi contatti ha un formato non valido.
 
 Dopo aver corretto uno o più errori, è possibile scegliere **Esegui migrazione** per migrare solo le entità corrette, senza dover riavviare completamente la migrazione.  
 

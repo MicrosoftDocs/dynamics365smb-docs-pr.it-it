@@ -11,21 +11,21 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8f8db0bd6d12d4a633fe4ea33c732f231d798b3d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrare pagamenti e resi nelle Registrazioni pagamenti
 
-Nella finestra **Registrazioni pagamenti** è possibile registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti. Quando si registra una riga di registrazioni dei pagamenti, l'importo pagato viene registrato sul conto bancario di sistema specificato. È quindi necessario intraprendere le azioni necessarie per eseguire il trasferimento effettivo del denaro dal relativo conto bancario.  
+Nella pagina **Registrazioni pagamenti** è possibile registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti. Quando si registra una riga di registrazioni dei pagamenti, l'importo pagato viene registrato sul conto bancario di sistema specificato. È quindi necessario intraprendere le azioni necessarie per eseguire il trasferimento effettivo del denaro dal relativo conto bancario.  
 
 Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire i pagamenti. È possibile aggiungere rapidamente le righe manualmente, si può consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] di suggerire i pagamenti dei fornitori ed applicare il pagamento ai documenti registrati. Anche se si sta eseguendo i pagamenti, si immette un importo positivo nel campo **Importo documento**. In base al tipo di documento per la riga delle registrazioni, questo importo viene quindi convertito in un importo negativo nelle transazioni sottostanti. In questo modo, è più veloce aggiungere le righe nelle registrazioni manualmente. Se si preferisce immettere importi negativi, è possibile personalizzare le registrazioni pagamenti per mostrare invece il campo **Importo**.  
 
 - Applicare i pagamenti alle fatture o note di credito
 
-    Se si compila il campo **Collega-a nr. doc.** con la fattura o la nota di credito che deve essere pagata o rimborsata, il documento in questione viene impostato su pagato quando tale registrazione viene contabilizzata. Questa procedura viene definita "collegamento". In alternativa all'applicazione durante la registrazione dei pagamenti, è possibile utilizzare le finestre **Collega movimenti fornitori** e **Collega movimenti clienti** dopo aver effettuato la registrazione dei pagamenti. Per ulteriori informazioni, vedere, per esempio, [Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md).  
+    Se si compila il campo **Collega-a nr. doc.** con la fattura o la nota di credito che deve essere pagata o rimborsata, il documento in questione viene impostato su pagato quando tale registrazione viene contabilizzata. Questa procedura viene definita "collegamento". In alternativa all'applicazione durante la registrazione dei pagamenti, è possibile utilizzare le pagine **Collega movimenti fornitori** e **Collega movimenti clienti** dopo aver effettuato la registrazione dei pagamenti. Per ulteriori informazioni, vedere, per esempio, [Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md).  
 
 - Ricevere pagamenti suggeriti per fornitori o dipendenti 
 
@@ -33,14 +33,14 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 
 - Stampare assegni e inviare elettronicamente i pagamenti alla banca
 
-    Oltre alla registrazione che il pagamento è stato effettuato, è possibile utilizzare la finestra **Registrazioni pagamenti** per emettere il pagamento per l'ulteriore elaborazione da parte della banca. Per ulteriori informazioni, vedere [Effettuare pagamenti tramite assegno](payables-how-work-checks.md) e [Effettuare pagamenti elettronici](payables-how-export-payments-bank-file.md).  
+    Oltre alla registrazione che il pagamento è stato effettuato, è possibile utilizzare la pagina **Registrazioni pagamenti** per emettere il pagamento per l'ulteriore elaborazione da parte della banca. Per ulteriori informazioni, vedere [Effettuare pagamenti tramite assegno](payables-how-work-checks.md) e [Effettuare pagamenti elettronici](payables-how-export-payments-bank-file.md).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Per eseguire i pagamenti nelle registrazioni pagamenti 
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
 2. Aprire il batch contabile che verrà dedicato ai pagamenti.
 3. Se si conoscono i clienti da pagare o rimborsare, compilare i campi manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Per collegare anche il pagamento alla relativa fattura o nota di credito, selezionare il campo **Collega-a nr. doc.** nella finestra **Collega movimenti fornitori**, selezionare la relativa fattura o nota di credito, quindi selezionare il pulsante **OK**.
+4. Per collegare anche il pagamento alla relativa fattura o nota di credito, selezionare il campo **Collega-a nr. doc.** nella pagina **Collega movimenti fornitori**, selezionare la relativa fattura o nota di credito, quindi selezionare il pulsante **OK**.
 
     Molti campi, ad esempio i campi **Importo documento** e **Data scadenza** vengono compilati con le informazioni tratte dal documento selezionato.
 5. In alternativa, utilizzare la funzione **Sugg. pagamenti fornitore**. Tutte le informazioni applicabili e gli importi vengono quindi inseriti anche nelle righe del giornale di registrazione. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).

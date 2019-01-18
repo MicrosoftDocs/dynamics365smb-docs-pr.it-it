@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b1712215a392d8abdb0ca549c621d77490e6341c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3e17e6eb7700027d53cbbd2f05292a7bd828d1af
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="manufacturing"></a>Manufacturing
@@ -27,7 +27,7 @@ Quando una domanda viene pianificata e i materiali vengono emessi in base alle D
 
 Una parte importante dell'esecuzione della produzione, dal punto di vista del sistema, è la registrazione dell'output di produzione nel database per indicare l'avanzamento e aggiornare il magazzino con gli articoli finiti. La registrazione dell'output può essere svolta manualmente, compilando e registrando le righe di registrazione dopo le operazioni di produzione. Oppure può essere effettuata automaticamente con il metodo di consuntivazione a ritroso. In tale caso il consumo dei materiali viene registrato automaticamente con l'output quando l'ordine di produzione viene impostato su completato.  
 
-Come alternativa alla registrazione in batch per registrare l'output di più ordini di produzione, è possibile utilizzare la finestra **Registrazioni di produzione** per registrare il consumo e/o l'output per una riga dell'ordine di produzione.
+Come alternativa alla registrazione in batch per registrare l'output di più ordini di produzione, è possibile utilizzare la pagina **Registrazioni di produzione** per registrare il consumo e/o l'output per una riga dell'ordine di produzione.
 
 Prima di iniziare a produrre articoli, è necessario creare diverse impostazioni, ad esempio le aree di produzione, i cicli e le distinte base di produzione. Per ulteriori informazioni, vedere [Impostazione della produzione](production-configure-production-processes.md).
 
@@ -40,10 +40,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Affidare tutte le operazioni o quelle selezionate in un ordine di produzione a un terzista.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|
 |Registrare l'output di produzione, nonché i consumi in termini di materiale e tempo relativi a una singola riga dell'ordine di produzione rilasciato.|[Registrare consumo e output per la riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md)|  
 |Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare il consumo tramite processo batch](production-how-to-post-consumption.md)|
-|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)|  
+|Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)|
+|Annullare l'output, ad esempio a causa di un errore di immissione dei dati e di una quantità non corretta.  |[Stornare la registrazione dell'output](production-how-to-reverse-output-posting.md)|  
 |Registrare il numero di articoli prodotti in ogni operazione completata che non vengono qualificati come output finito ma come materiale di scarto.|[Registrare lo scarto](production-how-to-post-scrap.md)|
 |Visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.|[Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)|      
-|Utilizzare la finestra **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Registrare le capacità](production-how-to-post-capacities.md)|  
+|Utilizzare la pagina **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Registrare le capacità](production-how-to-post-capacities.md)|  
 |Calcolare e rettificare il costo degli articoli di produzione terminati e dei componenti consumati ai fini della riconciliazione finanziaria.|[Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Vedi anche  

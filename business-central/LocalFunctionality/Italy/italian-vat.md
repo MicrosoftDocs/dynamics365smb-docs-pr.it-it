@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8bcd7e6dd50873d2936cf60fb696c88558988221
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7a25e3ac94b62a7efd13abef808a887a0894fc69
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="italian-vat"></a>IVA italiana
 Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
 
- In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile definire i report periodici IVA nella finestra **Report IVA**. È possibile compilare le righe in base ai movimenti IVA, quindi esportare il report IVA alle autorità competenti.  
+ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile definire i report periodici IVA nella pagina **Report IVA**. È possibile compilare le righe in base ai movimenti IVA, quindi esportare il report IVA alle autorità competenti.  
 
 ## <a name="vat-codes-and-rates"></a>Codici e aliquote IVA  
  I codici e le aliquote IVA devono essere impostati anche se alcune transazioni non sono soggette a IVA. Esistono inoltre molte operazioni soggette a IVA per cui è prevista un'aliquota zero per legge.  

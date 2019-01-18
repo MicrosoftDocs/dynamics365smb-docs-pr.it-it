@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
@@ -42,15 +42,15 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendita** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
-   Altri campi nella finestra **Fattura di vendita** contengono informazioni standard sul cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
+   Altri campi nella pagina **Fattura di vendita** contengono informazioni standard sul cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
 3. Nel campo **Cliente** immettere il nome del nuovo cliente.
 4. Nella finestra di dialogo relativa alla registrazione del nuovo cliente fare clic su **Sì**.
-5. Nella finestra **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
+5. Nella pagina **Selezionare un modello per un nuovo cliente** scegliere un modello su cui basare la scheda del nuovo cliente, quindi scegliere **OK**.
 6. Una nuova scheda cliente verrà visualizzata con le informazioni sul modello cliente selezionato. Compilare i campi rimanenti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
-7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla finestra **Fattura vendita**.
+7. Una volta completata la scheda cliente, scegliere **OK** per tornare alla pagina **Fattura di vendita**.
 
    Diversi campi nella fattura di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
-8. Compilare i restanti campi della finestra **Fattura di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Compilare i restanti campi della pagina **Fattura di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Se si consente al cliente di pagare immediatamente, ad esempio, in contanti o tramite PayPal, compilare il campo **Codice metodo di pagamento**. Il pagamento viene quindi registrato non appena si registra la fattura di vendita. Se si seleziona CASSA, il pagamento viene registrato in un conto di contropartita specificato.
@@ -93,7 +93,7 @@ I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la 
 
 In base alle esigenze aziendali, è possibile ottenere pagato e registrare il pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
 
-È possibile elaborare i pagamenti direttamente dalla scheda cliente o dai movimenti contabili clienti. Utilizzare la funzione **Registra pagamenti clienti** per ottenere una sintesi delle fatture pagate non per tale cliente. Quindi, contrassegnare la fattura come pagata parzialmente o interamente. Questi processi di riconciliazione pagamenti elaborano i pagamenti dei clienti facendo corrispondere gli importi ricevuti sul conto bancario alle relative fatture di vendita non pagate, quindi registrare i pagamenti. Per ulteriori informazioni, vedere [Per riconciliare i pagamenti individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+È possibile elaborare i pagamenti direttamente dalla scheda cliente. Utilizzare l'azione **Registra pagamenti clienti** per ottenere una sintesi delle fatture pagate non per tale cliente. Quindi, contrassegnare la fattura come pagata parzialmente o interamente. Questi processi di riconciliazione pagamenti elaborano i pagamenti dei clienti facendo corrispondere gli importi ricevuti sul conto bancario alle relative fatture di vendita non pagate, quindi registrare i pagamenti. Per ulteriori informazioni, vedere [Per riconciliare i pagamenti individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base al termine di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
 

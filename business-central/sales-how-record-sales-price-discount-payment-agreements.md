@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
@@ -62,7 +62,7 @@ Dopo avere stabilito a quali clienti si debbano applicare gli sconti fattura, è
 
 Continuare a impostare le nuove condizioni dello sconto fattura di vendita.
 
-1. Nella finestra **Scheda cliente** scegliere l'azione **Sconti fattura**. Viene aperta la finestra **Sconti fattura clienti**.
+1. Nella pagina **Scheda cliente** scegliere l'azione **Sconti fattura**. Verrà visualizzata la pagina **Sconti fattura clienti**.
 2. Nel campo **Codice valuta** immettere il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
 3. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 4. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
@@ -73,23 +73,23 @@ Lo sconto fattura è ora impostato e assegnato al cliente in questione. Quando s
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Per utilizzare gli sconti su fatture di vendita e addebiti di assistenza
 Quando si utilizzano gli sconti fattura, lo sconto applicato dipende dall'importo della fattura.  
 
-Nella finestra **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
+Nella pagina **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
 
 Prima di utilizzare gli sconti fattura con le vendite è necessario immettere una serie di informazioni. È necessario decidere:  
 
 - a quali clienti verrà concesso questo tipo di sconto.  
 - quali percentuali di sconto verranno applicate.  
 
-Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella finestra **Setup contabilità clienti e vendite**.  
+Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella pagina **Setup contabilità clienti e vendite**.  
 
 Per ciascun cliente è possibile specificare se verranno concessi sconti fattura a condizione che determinati requisiti vengano soddisfatti, cioè quando l'importo della fattura raggiunge una certa somma. Si possono definire le condizioni per gli sconti fattura in valuta locale per i clienti nazionali e in valuta estera per i clienti esteri.  
 
-Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le finestre **Sconti fattura clienti**. È possibile immettere un numero qualsiasi di percentuali in ogni finestra. A ogni cliente è possibile associare una propria finestra oppure è possibile collegare più clienti alla stessa finestra.  
+Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura clienti**. È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni cliente è possibile associare una propria pagina oppure è possibile collegare più clienti alla stessa pagina.  
 
 Oltre a (oppure invece di) una percentuale di sconto, è possibile collegare l'importo di un addebito di assistenza a un importo della fattura specifico.  
 
 > [!TIP]  
->  Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto che si desidera utilizzare. Questo consente di visualizzare più facilmente i clienti che possono essere collegati alla stessa finestra di sconto fattura. Minore è il numero delle finestre da impostare, più veloce risulta l'inserimento delle informazioni principali.  
+>  Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto che si desidera utilizzare. Questo consente di visualizzare più facilmente i clienti che possono essere collegati alla stessa pagina di sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.  
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
 Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.
@@ -114,17 +114,17 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
 ## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita  
-Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare in un gruppo di prezzi cliente, sarà necessario eseguire il processo batch **Suggerisci prezzo vendita in prosp.**. Il comando per il processo batch è disponibile nella finestra **Prospetto Prezzi Vendita**.    
+Eseguire il processo batch **Suggerisci prezzo vendita in prosp.** se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare in un gruppo di prezzi cliente. Il comando per il processo batch è disponibile nella pagina **Prospetto Prezzi Vendita**.    
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Suggerisci prezzo vendita in prosp.** .  
 3.  Nella Scheda dettaglio **Prezzi vendita** immettere i prezzi di vendita originali che si desidera copiare nei campi **Tipo vendita** e **Codice vendita**.  
-4.  Nella sezione superiore della finestra di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.  
+4.  Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.  
 5.  Per creare nuovi prezzi mediante il processo batch, selezionare il campo **Crea nuovi prezzi**.  
-6.  Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della finestra **Prospetto prezzi vendita**, indicando che sono validi per il **Tipo Vendita** selezionato.  
+6.  Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della pagina **Prospetto prezzi vendita**, indicando che sono validi per il **Tipo Vendita** selezionato.  
 
 > [!NOTE]  
->  Il processo batch fornisce soltanto suggerimenti e non implementa le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella tabella **Prezzo vendita**, utilizzare il processo batch **Implementare variazione prezzi**, che è possibile richiamare facendo clic sulla scheda **Azioni**, del gruppo **Funzioni** nella finestra **Prospetto prezzi vendita**.
+>  Il processo batch fornisce soltanto suggerimenti e non implementa le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella tabella **Prezzo vendita**, utilizzare il processo batch **Implementare variazione prezzi**, che è possibile richiamare facendo clic sulla scheda **Azioni**, del gruppo **Funzioni** nella pagina **Prospetto prezzi vendita**.
 
 ## <a name="see-also"></a>Vedi anche
 [Setup Vendite](sales-setup-sales.md)  

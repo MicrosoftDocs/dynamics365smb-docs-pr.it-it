@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Impostare l'assicurazione cespiti
@@ -38,11 +38,11 @@ Per utilizzare le funzionalità dell'assicurazione in [!INCLUDE[d365fin](include
 È possibile raggruppare informazioni relative ad ogni polizza assicurativa nella scheda di assicurazione.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Assicurazione** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** nella finestra **Assicurazione** per creare una nuova scheda per l'assicurazione.  
-3. Compilare i campi, se necessario.
+2. Scegliere l'azione **Nuovo** nella pagina **Assicurazione** per creare una nuova scheda per l'assicurazione.  
+3. Compilare i campi come necessario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Per impostare le definizioni registrazioni assicurazioni
-Una definizione delle registrazioni assicurazioni viene creata automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] la prima volta che si apre la finestra **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
+Una definizione delle registrazioni assicurazioni viene creata automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] la prima volta che si apre la pagina **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. reg. assicurazioni** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.
@@ -52,7 +52,7 @@ I batch possono essere impostati in una definizione registrazioni assicurazioni.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. reg. assicurazioni** e quindi scegliere il collegamento correlato.  
 2. Selezionare una definizione registrazioni assicurazione e quindi scegliere l'azione **Batch**.
-3. Nella finestra **Batch registrazioni assicurazioni** compilare i campi in base alle esigenze.
+3. Nella pagina **Batch registrazioni assicurazioni** compilare i campi in base alle esigenze.
 
 > [!NOTE]  
 >   I numeri hanno una funzione speciale nei nomi delle registrazioni. Se il nome definizione registrazioni o un nome batch registrazioni contiene un numero, quest'ultimo viene automaticamente incrementato di una unità ogni volta che le registrazioni vengono contabilizzate. Se ad esempio si immette HH1 nel campo **Nome**, il nome della registrazione verrà modificato in HH2 dopo la contabilizzazione della registrazione denominata HH1.

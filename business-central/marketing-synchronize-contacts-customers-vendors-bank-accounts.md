@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f377236158ae1035fd40dd15342d76822aa91ac8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari
 Se alcuni contatti sono anche clienti, fornitori o conti correnti bancari, è possibile sincronizzare le informazioni di contatto con il relativo cliente, fornitore o conto corrente bancario. La sincronizzazione rende uguali le informazioni comuni tra i contatti e clienti, fornitori o conti bancari.  
 
-Prima di effettuare tale operazione, è necessario specificare un codice relazione d'affari per clienti, fornitori e conti correnti bancari nella finestra **Setup marketing**. Per ulteriori informazioni, vedere [Setup Relationship Management](marketing-setup-marketing.md).
+Prima di effettuare tale operazione, è necessario specificare un codice relazione d'affari per clienti, fornitori e conti correnti bancari nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Setup Relationship Management](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Differenti modi di sincronizzare i contatti con clienti, fornitori e conti correnti bancari
 È possibile sincronizzare i contatti con clienti, fornitori o i conti correnti bancari grazie a tre metodi:

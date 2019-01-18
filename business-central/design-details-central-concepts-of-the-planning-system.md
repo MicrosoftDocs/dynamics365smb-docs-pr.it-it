@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
 
-![Contenuto della finestra Prospetto pianificazione](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenuto della finestra Prospetto pianificazione")  
+![Contenuto della pagina Prospetto pianificazione](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contenuto della pagina Prospetto pianificazione")  
 
 Si presume che il responsabile della pianificazione della società, ad esempio un addetto acquisti o un responsabile della pianificazione di produzione, sia l'utente del sistema di pianificazione. Il sistema di pianificazione aiuta l'utente eseguendo calcoli complessi ma chiari di un piano. L'utente può quindi concentrarsi sulla soluzione i problemi di più difficili, ad esempio quando si verificano delle situazioni insolite.  
 
@@ -53,7 +53,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Gestione ordini p
 ## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (Pegging)  
 La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
 
-Ad esempio, se l'utente immette o modifica un ordine di vendita, il sistema di tracciamento dinamico dell'ordine avvierà immediatamente la ricerca di un approvvigionamento appropriato per coprire la domanda. Tale approvvigionamento può provenire dal magazzino o da un ordine di approvvigionamento previsto (ad esempio un ordine di acquisto o di produzione). Quando viene individuata un'origine di approvvigionamento, viene creato un collegamento tra domanda e approvvigionamento e tale collegamento viene visualizzato in finestre di sola lettura a cui è possibile accedere dalle righe del documento implicate. Quando non è possibile individuare l'approvvigionamento appropriato, il sistema di tracciabilità ordine dinamica crea dei messaggi di azione nel prospetto di pianificazione con suggerimenti per il piano di approvvigionamento che riflettono il bilanciamento dinamico. Di conseguenza, il sistema di tracciamento dell'ordine dinamico offre un sistema di pianificazione di base che può essere d'aiuto sia per il responsabile che per altri ruoli nella catena di approvvigionamento interna.  
+Ad esempio, se l'utente immette o modifica un ordine di vendita, il sistema di tracciamento dinamico dell'ordine avvierà immediatamente la ricerca di un approvvigionamento appropriato per coprire la domanda. Tale approvvigionamento può provenire dal magazzino o da un ordine di approvvigionamento previsto (ad esempio un ordine di acquisto o di produzione). Quando viene individuata un'origine di approvvigionamento, viene creato un collegamento tra domanda e approvvigionamento e tale collegamento viene visualizzato in pagine di sola lettura a cui è possibile accedere dalle righe del documento implicate. Quando non è possibile individuare l'approvvigionamento appropriato, il sistema di tracciabilità ordine dinamica crea dei messaggi di azione nel prospetto di pianificazione con suggerimenti per il piano di approvvigionamento che riflettono il bilanciamento dinamico. Di conseguenza, il sistema di tracciamento dell'ordine dinamico offre un sistema di pianificazione di base che può essere d'aiuto sia per il responsabile che per altri ruoli nella catena di approvvigionamento interna.  
 
 Di conseguenza, la tracciabilità dinamica dell'ordine può essere considerata uno strumento che consente all'utente di valutare se accettare i suggerimenti di approvvigionamento. Dal lato dell'offerta, un utente può vedere quale domanda ha creato l'approvvigionamento e dal lato della domanda, quale approvvigionamento deve coprire la domanda.  
 
@@ -158,7 +158,7 @@ Un collegamento ordine-a-ordine tra approvvigionamento e domanda è un altro tip
 ### <a name="specific-attributes"></a>Attributi specifici  
 Alcuni attributi a richiesta sono specifici e devono essere corrisposti esattamente da un approvvigionamento corrispondente. Sono disponibili i seguenti due attributi specifici:  
 
--   Numeri di serie o di lotto richiesti che necessitano di applicazione specifica (la casella di controllo **Tracciabilità NS specifico** o **Tracciab. lotto specifico** è selezionata nella finestra **Scheda cod. tracciab. articolo** per il codice di tracciabilità articolo utilizzato dall'articolo).  
+-   Numeri di serie o di lotto richiesti che necessitano di applicazione specifica (la casella di controllo **Tracciabilità NS specifico** o **Tracciab. lotto specifico** è selezionata nella pagina **Scheda cod. tracciab. articolo** per il codice di tracciabilità articolo utilizzato dall'articolo).  
 -   Collegamenti agli ordini di approvvigionamento creati manualmente o automaticamente per una domanda specifica (collegamenti ordine su ordine).  
 
 Per questi attributi, il sistema di pianificazione applica le seguenti regole:  
@@ -211,7 +211,7 @@ La prima colonna nel prospetto di pianificazione è dedicata ai campi di avviso.
 
 L'approvvigionamento nelle righe di pianificazione con avvisi in genere non viene modificato in base ai parametri di pianificazione. Al contrario, il sistema di pianificazione suggerisce solo un approvvigionamento per coprire la quantità di domanda esatta. Tuttavia, il sistema può essere impostato in modo da rispettare parametri specifici per le righe di pianificazione con determinati avvisi. Per ulteriori informazioni, vedere la descrizione di queste opzioni per il processo batch **Calcola piano - Pianif. magaz.** e per il processo batch **Calcola piano - Approvv. magaz.** rispettivamente.  
 
-Le informazioni di avviso vengono visualizzate nella finestra **Elementi di pianificazione non tracciati**, che viene utilizzata anche per visualizzare i collegamenti di tracciabilità alle entità di rete diversa dagli ordini. Sono disponibili i seguenti tipi di avviso:  
+Le informazioni di avviso vengono visualizzate nella pagina **Elementi di pianificazione non tracciati**, che viene utilizzata anche per visualizzare i collegamenti di tracciabilità alle entità di rete diversa dagli ordini. Sono disponibili i seguenti tipi di avviso:  
 
 -   Emergenza  
 -   Eccezione  
@@ -252,7 +252,7 @@ L'avviso di attenzione è visualizzato in tre situazioni:
 ## <a name="error-logs"></a>Registri errore  
 Nella pagina di richiesta Calcola piano, l'utente può selezionare il campo **Interrompi e mostra primo errore** per interrompere l'esecuzione della pianificazione quando incontra il primo errore. Contemporaneamente verrà visualizzato un messaggio contenente informazioni sull'errore. Se è presente un errore, nel prospetto pianificazione verranno presentate solo le righe di pianificazione create prima dell'individuazione dell'errore.  
 
-Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nel programma verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la finestra **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
+Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nel programma verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la pagina **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
 
 ![Messaggi di errore del prospetto di pianificazione](media/NAV_APP_supply_planning_1_error_log.png "Messaggi di errore del prospetto di pianificazione")  
 
@@ -264,10 +264,10 @@ Il campo può essere impostato manualmente dall'utente, tuttavia, in alcuni casi
 Per ulteriori informazioni su come viene utilizzato questo campo, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Pianificazione ordini  
-Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla finestra **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo documento. Per ulteriori informazioni sulla funzionalità di Pianificazione ordini, fare riferimento alla guida di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla pagina **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo documento. Per ulteriori informazioni sulla funzionalità di Pianificazione ordini, fare riferimento alla guida di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Non è consigliabile utilizzare Pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la finestra **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Ciò si verifica perché in fase di pianificazione automatica vengono utilizzati parametri di pianificazione che potrebbero non venire presi in considerazione dall'utente che ha creato la pianificazione manuale nella finestra Pianificazione ordini.  
+>  Non è consigliabile utilizzare Pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la pagina **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Ciò si verifica perché in fase di pianificazione automatica vengono utilizzati parametri di pianificazione che potrebbero non venire presi in considerazione dall'utente che ha creato la pianificazione manuale nella pagina Pianificazione ordini.  
 
 ##  <a name="finite-loading"></a>Programmazione limitata  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è un sistema ERP standard, non un sistema di controllo della produzione o del reparto. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.  

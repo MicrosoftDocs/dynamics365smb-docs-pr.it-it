@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utilizzare gli ordini di vendita programmati
@@ -42,7 +42,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 2.  Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
 3.  Scegliere il pulsante **OK**.  
 4.  Per visualizzare i risultati dei passaggi precedenti, scegliere l'azione **Riga**, l'azione **Righe non registrate** e l'azione **Ordini**.  
-5.  Nella finestra **Righe vendita** selezionare l'ordine di vendita appropriato e scegliere l'azione **Riga** e l'azione **Mostra documento**.  
+5.  Nella pagina **Righe vendita** selezionare l'ordine di vendita appropriato e scegliere l'azione **Riga** e l'azione **Mostra documento**.  
 
 Quanto segue si applica agli ordini di vendita creati da ordini di vendita programmati:  
 
@@ -53,14 +53,14 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - Quando gli ordini di vendita non vengono creati direttamente dall'ordine programmato, ma sono comunque correlati a esso, è possibile creare un collegamento tra un ordine di vendita e un ordine programmato immettendo il numero dell'ordine programmato associato nel campo **Nr. ordine programmato** nella riga dell'ordine di vendita.  
 - Dopo avere creato un ordine di vendita per la quantità totale di una riga di ordine programmato, non è possibile creare altri ordini di vendita per la stessa riga. Agli utenti non è consentito immettere una quantità nel campo **Qtà da spedire**. Se, tuttavia, è necessario aggiungere ulteriori quantità a un ordine programmato, è possibile aumentare il valore del campo **Quantità**, quindi creare ulteriori ordini.  
 - L'ordine di vendita programmato fatturato rimane nel sistema fino a quando non viene eliminato, eliminando i singoli ordini programmati o eseguendo il processo batch **Elimina ord. ven. progr. fatt.**.  
-- Se un cliente è anche registrato come contatto nell'area di applicazione Marketing ed è stato specificato un codice modello di interazione per l'ordine di vendita programmato nella finestra **Setup marketing**, viene registrata un'interazione nella tabella Mov. log interazione quando si seleziona **Stampa** per stampare l'ordine di vendita programmato.
+- Se un cliente è anche registrato come contatto nell'area di applicazione Marketing ed è stato specificato un codice modello di interazione per l'ordine di vendita programmato nella pagina **Setup marketing**, viene registrata un'interazione nella tabella Mov. log interazione quando si seleziona **Stampa** per stampare l'ordine di vendita programmato.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Per visualizzare lo stato di un ordine di acquisto programmato  
-È possibile visualizzare lo stato di un ordine di vendita programmato nella finestra **Statistiche Ordine Acquisto programmato**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di acquisto programmato.  
+È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche Ordine Acquisto programmato**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di acquisto programmato.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto programmati** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un ordine di acquisto programmato quindi scegliere l'azione **Statistiche**.  
-3.  Nella finestra **Statistiche ordine acquisto programmato**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di acquisto programmato.  
+3.  Nella pagina **Statistiche ordine acquisto programmato**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di acquisto programmato.  
 
     - Nella Scheda dettaglio **Fatturazione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da fatturare** delle righe dell'ordine di acquisto programmato.  
     - Nella Scheda dettaglio **Spedizione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da ricevere** delle righe dell'ordine di acquisto programmato.  
@@ -120,7 +120,7 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
     <td>note di credito registrate associate alla riga selezionata.</td>
     </tr>
     </table>
-5. Nella finestra **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
+5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  

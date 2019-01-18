@@ -1,22 +1,17 @@
 ---
 title: 'Procedura: Aggiornare i dati delle transazioni IVA'
-description: "Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti eseguendo il report **Aggiorna data transazione IVA**."
-services: project-madeira
-documentationcenter: 
+description: "Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti nella versione italiana di Business Central."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72756f58446cabb11921c80fe66c70b92477f671
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d43630b118ab0e36ad2b9330d1cfe884ca8251e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-vat-transactions-data"></a>Aggiornare i dati delle transazioni IVA
@@ -25,7 +20,7 @@ Prima di creare il primo report transazioni IVA, è necessario preparare i dati 
 È possibile eseguire il report **Aggiorna data transazione IVA** come test prima di modificare i dati. Dopo avere verificato che i filtri soddisfano le previsioni e le richieste delle autorità fiscali, eseguire nuovamente il report per apportare le modifiche appropriate ai dati.  
 
 > [!CAUTION]  
->  Prima di eseguire il report **Aggiorna data transazione IVA**, è necessario attivare il log delle modifiche nella finestra **Setup log modifiche**. Inoltre, è necessario attivare la registrazione delle modifiche nel campo **Includi in report transazioni IVA** nella tabella **Movimenti IVA**.  
+>  Prima di eseguire il report **Aggiorna data transazione IVA**, è necessario attivare il log delle modifiche nella pagina **Setup log modifiche**. Inoltre, è necessario attivare la registrazione delle modifiche nel campo **Includi in report transazioni IVA** nella tabella **Movimenti IVA**.  
 
 ## <a name="to-update-vat-transaction-data"></a>Per aggiornare i dati delle transazioni IVA  
 

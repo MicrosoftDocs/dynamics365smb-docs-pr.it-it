@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2cf5a57dd45262fc4d748ea36f47b9046b5252d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 70953ba05c681f7ef88f60b759f3479ed5084e92
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="submit-vat-statements"></a>Inviare dichiarazioni IVA
@@ -27,7 +27,7 @@ Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e 
 ## <a name="to-review-and-print-vat-statements"></a>Per esaminare e stampare le dichiarazioni IVA  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta e scegliere l'azione **Stampa**.  
+2.  Nella pagina **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta e scegliere l'azione **Stampa**.  
 3.  Nella Scheda dettaglio **Opzioni**, immettere un intervallo di date per delimitare il periodo di riferimento della dichiarazione e definire il tipo di movimenti IVA da includere.  
 4.  Scegliere il pulsante **Stampa** per stampare la dichiarazione IVA.  
 
@@ -44,7 +44,7 @@ Dopo aver calcolato e registrato la liquidazione IVA gli importi IVA vengono tra
 ## <a name="to-submit-vat-statements"></a>Per inviare le dichiarazioni IVA  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta, scegliere l'azione **Stampa**, quindi scegliere l'opzione **PDF**.  
+2.  Nella pagina **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta, scegliere l'azione **Stampa**, quindi scegliere l'opzione **PDF**.  
 
 Il file esportato può ora essere inviato alle autorità fiscali.  
 

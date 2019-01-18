@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
@@ -35,7 +35,7 @@ Le date di registrazione dei movimenti di contabilità generale vengono impostat
 Quando si esegue il processo batch **Registra costo magazzino in CG**, è possibile che si verifichino degli errori a causa di impostazioni mancanti o di impostazioni delle dimensioni incompatibili. Se vengono rilevati errori nel setup delle dimensioni, questi vengono ignorati e vengono utilizzate le dimensioni del movimento di valorizzazione. In caso di errori di altro tipo, il processo batch non registra i movimenti di valore e li elenca alla fine del report in una sezione intitolata **Movimenti saltati**. Per registrare questi movimenti, è prima necessario correggere gli errori. Per visualizzare un elenco di errori prima di eseguire il processo batch, è possibile eseguire il report **Registra costo mag. in C/G - Test**. Nel report vengono elencati tutti gli errori che si verificano durante una registrazione di test. È quindi possibile correggere gli errori e quindi eseguire il processo batch di registrazione del costo di magazzino senza saltare alcun movimento.  
 
 ## <a name="automatic-cost-posting"></a>Reg. automatica costi  
-Per impostare l'esecuzione automatica della registrazione costi nella contabilità generale quando si registra una transazione di magazzino, selezionare la casella di controllo **Reg. automatica costi** nella finestra **Setup magazzino**. La data di registrazione del movimento di contabilità generale corrisponde alla data di registrazione del movimento contabile articolo.  
+Per impostare l'esecuzione automatica della registrazione costi nella contabilità generale quando si registra una transazione di magazzino, selezionare la casella di controllo **Reg. automatica costi** nella pagina **Setup magazzino**. La data di registrazione del movimento di contabilità generale corrisponde alla data di registrazione del movimento contabile articolo.  
 
 ## <a name="account-types"></a>Tipi conto  
 Durante la riconciliazione, i valori di magazzino vengano registrati nei conti giacenza magazzino nel conto patrimoniale. La stessa quantità, ma con segno opposto, viene registrata nel conto profitti/perdite pertinente. Normalmente la contropartita è un conto di bilancio patrimoniale. Tuttavia, quando si registra un costo diretto correlato al consumo o all'output, la contropartita è un conto di bilancio patrimoniale. Il tipo di movimento contabile articolo e di movimento di valorizzazione determina il conto di contabilità generale in cui registrare.  
@@ -45,7 +45,7 @@ Il tipo di movimento indica in quale conto di contabilità generale effettuare l
 ### <a name="example"></a>Esempio  
 Nel seguente esempio viene visualizzata una catena di bicicletta fabbricata da collegamenti acquistati. In questo esempio viene mostrato in che modo vengono utilizzati i vari tipi di conto di contabilità generale in uno scenario standard.  
 
-La casella di controllo **Reg. costi previsti in CG** nella finestra **Setup magazzino** viene selezionata e viene definita la configurazione seguente.  
+La casella di controllo **Reg. costi previsti in CG** nella pagina **Setup magazzino** viene selezionata e viene definita la configurazione seguente.  
 
 La tabella seguente indica in che modo il collegamento è impostato nella scheda articolo.  
 

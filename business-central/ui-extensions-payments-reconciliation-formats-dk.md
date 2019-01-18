@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2a2fbae74dd5f6c401cfe8fa9b31c27e90a604b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione bus
 
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>Consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] l'esportazione dei dati di pagamento.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
+2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
 3. Scegliere la casella controllo **Consenti esportazione pagamento**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Per specificare il metodo di pagamento per un fornitore

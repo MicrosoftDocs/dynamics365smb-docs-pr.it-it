@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Aggiornare i costi standard
@@ -40,7 +40,7 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
     5. Eseguire il processo batch **Roll up del costo standard**.
     6.  Analizzare i risultati e apportare le modifiche necessarie.
     7.  Eseguire il processo batch **Implementa modifiche costo std.**  
-4.  Esaminare e registrare la finestra **Registrazioni rivalutazioni**, che è stata popolata con le voci dei passaggi precedenti del processo.  
+4.  Analizzare e contabilizzare la pagina **Registrazioni rivalutazioni**, in cui sono stati inseriti i dati ricavati tramite i passaggi precedenti del processo.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   

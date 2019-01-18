@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Archiviare documenti
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/28/2018
 
 La procedura seguente illustra come configurare l'archiviazione automatica di documenti di vendita. I passaggi sono simili per i documenti di acquisto.
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup contabilità clienti e vendite** compilare i campi come descritto di seguito.
+2. Nella pagina **Setup contabilità clienti e vendite** compilare i campi come descritto di seguito.
 
 |Campo|Description|
 |-----|-----------|
@@ -42,7 +42,7 @@ Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono
 2.  Aprire un ordine di vendita da archiviare.  
 3.  Scegliere l'azione **Archivia documento**.
 
-L'ordine di vendita è archiviato. È possibile visualizzarlo nella finestra **Ordine vendite archiviato**. Da qui, è anche possibile utilizzarlo per ricreare l'ordine di vendita da cui è stato archiviato.
+L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ordine vendite archiviato**. Da qui, è anche possibile utilizzarlo per ricreare l'ordine di vendita da cui è stato archiviato.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Per ricreare un ordine di vendita dall'archivio
 Di seguito viene descritto come ricreare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
@@ -50,13 +50,13 @@ Di seguito viene descritto come ricreare un ordine di vendita. I passaggi sono s
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita archiviati** e quindi scegliere il collegamento correlato.
 2.  Selezionare l'ordine di vendita archiviato da ricreare, quindi scegliere l'azione **Ripristina**.  
 
-L'ordine di vendita viene creato e aggiunto alla finestra **Ordini vendita**.
+L'ordine di vendita viene creato e aggiunto alla pagina **Ordini vendita**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Per eliminare ordini di vendita archiviati
 Di seguito viene descritto come eliminare ordini di vendita archiviati. I passaggi sono simili per altri altri documenti di acquisto e vendita archiviati.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina versioni ordine vendita archiviate** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Elimina versioni ordine vendita archiviate**, selezionare i filtri appropriati.  
+2.  Nella pagina **Elimina versioni ordine vendita archiviate**, selezionare i filtri appropriati.  
 3.  Scegliere il pulsante **OK**.
 
 ## <a name="see-also"></a>Vedi anche

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
@@ -45,7 +45,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 ## <a name="calculating-wip"></a>Calcolo del WIP  
  CRONUS ha preso in carico un lungo progetto che si sta estendendo su più periodi contabili. Cinzia, un membro del team di progetto, calcola il WIP per garantire l'accuratezza del rendiconto finanziario della società.  
 
- Durante la procedura, Cinzia selezionerà uno specifico gruppo di task da includere nel calcolo del WIP. Nella finestra **Righe task commessa** può specificare queste righe nella colonna **WIP-Totale**.  
+ Durante la procedura, Cinzia selezionerà uno specifico gruppo di task da includere nel calcolo del WIP. Nella pagina **Righe task commessa** può specificare queste righe nella colonna **WIP-Totale**.  
 
  Nella seguente tabella vengono illustrate tre opzioni.  
 
@@ -77,10 +77,10 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
     |1310|Escluso|  
 
 5.  Scegliere l'azione **WIP**, quindi scegliere l'azione **Calcola WIP**.  
-6.  Nella finestra **Commessa - Calcola WIP** è possibile selezionare la commessa per la quale calcolare il WIP. Nella Scheda dettaglio **Commessa** selezionare **Chernelli** nel campo **Nr.** .  
+6.  Nella pagina **Commessa - Calcola WIP** è possibile selezionare una commessa per la quale calcolare il WIP. Nella Scheda dettaglio **Commessa** selezionare **Chernelli** nel campo **Nr.** .  
 7.  Nel campo **Data di registrazione** immettere una data successiva alla data di lavoro.
 8.  Nel campo **Nr. documento** , immettere **1**. Viene quindi creato un documento a cui è possibile fare riferimento in seguito per la tracciabilità.  
-9. Scegliere **OK** per eseguire il processo batch. Viene visualizzato un messaggio. Fare clic sul pulsante **OK** per continuare. Chiudere la finestra **Righe task commessa**.  
+9. Scegliere **OK** per eseguire il processo batch. Viene visualizzato un messaggio. Fare clic sul pulsante **OK** per continuare. Chiudere la pagina **Righe task commessa**.  
 
     > [!NOTE]  
     >  Il messaggio indica che sono presenti avvisi associati al calcolo WIP. Gli avvisi verranno esaminati nella procedura successiva.  
@@ -93,7 +93,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pannello di controllo WIP commessa** e quindi scegliere il collegamento correlato.  
 2.  Selezionare la commessa **Chernelli**, quindi scegliere l'azione **Mostra avvisi**.  
-3.  Nella finestra **Avvisi WIP commessa** analizzare l'avviso associato alla commessa.  
+3.  Nella pagina **Avvisi WIP commessa** analizzare l'avviso associato alla commessa.  
 
  Dopo il periodo contabile, Cinzia deve ricalcolare il WIP per includervi il lavoro completato finora.  
 
@@ -101,10 +101,10 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 1.  Nella scheda **Commessa**, scegliere l'azione **Movimenti WIP** per visualizzare il calcolo del WIP.  
 
-     La finestra **Movimenti WIP commessa** riporta gli ultimi movimenti WIP calcolati per una commessa, anche se il WIP non è ancora stato registrato nella contabilità generale.  
+     La pagina **Movimenti WIP commessa** riporta gli ultimi movimenti WIP calcolati per una commessa, anche se il WIP non è ancora stato registrato nella contabilità generale.  
 
-2.  È possibile utilizzare i passaggi nella procedura relativa a come calcolare il WIP per ricalcolare il WIP. Ogni volta che si ricalcola il WIP, viene creato un movimento nella finestra **Movimenti WIP commessa**.  
-3.  Chiudere la finestra.  
+2.  È possibile utilizzare i passaggi nella procedura relativa a come calcolare il WIP per ricalcolare il WIP. Ogni volta che si ricalcola il WIP, viene creato un movimento nella pagina **Movimenti WIP commessa**.  
+3.  Chiudere la pagina.  
 
 > [!NOTE]  
 >  Il WIP e il corrispettivo vengono solo calcolati. ma non registrato nella contabilità generale. A tale scopo, è necessario eseguire il processo batch **Registra WIP in C/G** dopo aver calcolato il WIP e il corrispettivo.
@@ -116,18 +116,18 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 1.  Nell'elenco **Commesse** selezionare la commessa **Chernelli**.  
 2.  Scegliere l'azione **WIP**, quindi scegliere l'azione **Registra WIP in C/G**.  
-3.  Nella finestra **Commessa - Registra WIP in C/G**, nella Scheda dettaglio **Commessa** selezionare **Chernelli** nel campo **Nr.**.    
+3.  Nella Scheda dettaglio **Commessa** della pagina **Commessa - Registra WIP in C/G** selezionare **Chernelli** nel campo **Nr.**    
 4.  Inserire **1** nel campo **Nr. documento storno** della Scheda dettaglio **Opzioni**.  
 5.  Scegliere **OK** per registrare il WIP nella contabilità generale.  
-6.  Fare clic sul pulsante **OK** per chiudere la finestra di conferma.  
+6.  Fare clic sul pulsante **OK** per chiudere la pagina di conferma.  
 
-     Dopo avere completato la registrazione, è possibile visualizzare le informazioni di registrazione nella finestra **Movimenti C/G WIP** .  
+     Dopo avere completato la registrazione, è possibile visualizzare le informazioni di registrazione nella pagina **Movimenti C/G WIP**.  
 
 7.  Nell'elenco **Commesse** selezionare la commessa **Chernelli**, quindi scegliere l'azione **Movimenti C/G WIP**.  
 
-     Nella finestra **Movimenti C/G WIP commessa** verificare che il WIP sia stato registrato nella contabilità generale.  
+     Nella pagina **Movimenti C/G WIP commessa** verificare che il WIP sia stato registrato nella contabilità generale.  
 
-8.  Chiudere la finestra.  
+8.  Chiudere la pagina.  
 9. Aprire la scheda **Commessa** per la commessa **Chernelli**.  
 10. Nella Scheda dettaglio **WIP e corrispettivo**, si noti che nella colonna **Registrato** il campo **Importo C/G costi ricon.** ora è compilato, il che indica che il WIP è stato correttamente registrato nella contabilità generale.  
 11. Scegliere il pulsante **OK** per chiudere la scheda.  
@@ -139,16 +139,16 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 1.  Nell'elenco **Commesse** selezionare la commessa **Chernelli**.  
 2.  Scegliere l'azione **WIP**, quindi scegliere l'azione **Registra WIP in C/G**.  
-3.  Nella Scheda dettaglio **Commessa** della finestra **Commessa - Registra WIP in C/G** selezionare **Chernelli** nel campo **Nr.**.    
+3.  Nella Scheda dettaglio **Commessa** della pagina **Commessa - Registra WIP in C/G** selezionare **Chernelli** nel campo **Nr.**    
 4.  Inserire **1** nel campo **Nr. documento storno** della Scheda dettaglio **Opzioni**.  
 5.  Nel campo **Data registrazione storno**, inserire la data di registrazione originale. I dati dovrebbero essere gli stessi utilizzati per calcolare il WIP la prima volta.  
 6.  Selezionare la casella di controllo **Storna solo**. In questo modo il WIP precedentemente registrato viene stornato senza una nuova registrazione nella contabilità generale.  
-7.  Selezionare il pulsante **OK** per eseguire il processo batch e fare clic sul pulsante **OK** per chiudere la finestra di conferma.  
+7.  Selezionare il pulsante **OK** per eseguire il processo batch e fare clic sul pulsante **OK** per chiudere la pagina di conferma.  
 8.  Aprire la scheda **Commessa** per **Chernelli**.  
 9. Nella Scheda dettaglio **WIP e corrispettivo** verificare che non vi siano movimenti WIP registrati.  
-10. Chiudere questa finestra.  
+10. Chiudere questa pagina.  
 11. Nell'elenco **Commesse** selezionare la commessa **Chernelli**, scegliere l'azione **WIP**, quindi scegliere l'azione **Movimenti C/G WIP**. I movimenti WIP hanno la casella di controllo **Stornato** selezionata.  
-12. Chiudere questa finestra.  
+12. Chiudere questa pagina.  
 13. Aprire **Righe task commessa** per la commessa, includere nel calcolo del WIP le parti della commessa necessarie, ricalcolare il WIP e registrare il nuovo valore nella contabilità generale.  
 
     > [!NOTE]  

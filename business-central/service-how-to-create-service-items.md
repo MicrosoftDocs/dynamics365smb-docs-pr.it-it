@@ -11,23 +11,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e251cd1aa071484cbf235feee6f0e891f27020e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-items"></a>Creare articoli in assistenza
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], il termine "articolo in assistenza" si riferisce alle attrezzature o agli articoli che necessitano di assistenza. Quando si crea un ordine di assistenza, si specificano gli articoli che necessitano di assistenza. Nell'ordine, è possibile collegare un articolo in assistenza a un articolo in magazzino o a un gruppo di articoli in assistenza.    
 
-Quando si riceve un articolo che necessita di assistenza, è possibile registrarlo come articolo in assistenza. Questa operazione può essere effettuata in vari modi. Ad esempio, è possibile creare un articolo in assistenza nella finestra **Articoli in assistenza**, o nell'ambito di un altro processo, ad esempio quando si lavora con un ordine di assistenza.   
+Quando si riceve un articolo che necessita di assistenza, è possibile registrarlo come articolo in assistenza. Questa operazione può essere effettuata in vari modi. Ad esempio, è possibile creare un articolo in assistenza nella pagina **Articoli in assistenza**, o nell'ambito di un altro processo, ad esempio quando si lavora con un ordine di assistenza.   
 
 ## <a name="to-create-a-service-item"></a>Per creare un articolo in assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Per creare articoli in assistenza all'interno di un ordine di assistenza  
-Quando si ricevono articoli su cui prestare assistenza e li si intende registrare come articoli in assistenza, è possibile crearli come articoli in assistenza nelle finestre **Ordine Assistenza** o **Offerte Assistenza**.  
+Quando si ricevono articoli su cui prestare assistenza e li si intende registrare come articoli in assistenza, è possibile crearli come articoli in assistenza nelle pagine **Ordine Assistenza** o **Offerte Assistenza**.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Quando si ricevono articoli su cui prestare assistenza e li si intende registrar
     Viene assegnato un numero all'articolo in assistenza e viene creata una scheda articolo in assistenza. Il campo **Nr. articolo in assistenza** viene compilato con il numero del nuovo articolo in assistenza.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Per creare un articolo in assistenza durante la spedizione degli articoli  
-Quando si spediscono articoli registrando ordini o fatture di assistenza, gli articoli spediti vengono automaticamente registrati come articoli in assistenza se è rispettata la seguente condizione. Gli articoli devono appartenere a un gruppo di articoli in assistenza per cui la casella di controllo **Crea articolo in assistenza** risulta selezionata. Se i numeri seriali degli articoli sono registrati nella finestra Righe tracciabilità articolo, tali informazioni verranno automaticamente copiate nel campo **Nr. seriale** della scheda relativa all'articolo in assistenza al momento della creazione degli articoli stessi.  
+Quando si spediscono articoli registrando ordini o fatture di assistenza, gli articoli spediti vengono automaticamente registrati come articoli in assistenza se è rispettata la seguente condizione. Gli articoli devono appartenere a un gruppo di articoli in assistenza per cui la casella di controllo **Crea articolo in assistenza** risulta selezionata. Se i numeri seriali degli articoli sono registrati nella pagina Righe tracciabilità articolo, tali informazioni verranno automaticamente copiate nel campo **Nr. seriale** della scheda relativa all'articolo in assistenza al momento della creazione degli articoli stessi.  
 
 La seguente procedura indica le modalità di creazione di articoli in assistenza durante la spedizione degli articoli presenti negli ordini di assistenza.  
 
@@ -44,7 +44,7 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 2. Aprire l'ordine di assistenza desiderato.  
 3. Scegliere l'azione **Registra** o **Registra e stampa**.  
 4. Scegliere l'azione **Spedizione** o **Spedizione e fattura**.  
-5. Verranno automaticamente creati gli articoli in assistenza per gli articoli dell'ordine che appartengono a un gruppo di articoli in assistenza impostato per la creazione di articoli in assistenza. A tali articoli verranno inoltre assegnati i numeri seriali eventualmente registrati nella finestra **Righe tracciabilità articolo**.  
+5. Verranno automaticamente creati gli articoli in assistenza per gli articoli dell'ordine che appartengono a un gruppo di articoli in assistenza impostato per la creazione di articoli in assistenza. A tali articoli verranno inoltre assegnati i corrispondenti numeri seriali eventualmente registrati nella pagina **Righe tracciabilità articolo**.  
 
 > [!NOTE]  
 >  Se un articolo è una distinta base e la distinta base è stata espansa, gli articoli in essa contenuti verranno trattati come normali articoli. Vengono creati articoli in assistenza in base alla condizione specificata per il gruppo degli articoli in assistenza ed eventualmente alla condizione specificata per i numeri seriali. Inoltre, se viene creato un articolo in assistenza per una distinta base espansa composta da altri componenti DB, tali articoli verranno creati come componenti articolo in assistenza per l'articolo in assistenza della distinta base espansa.  

@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 2. Creare un nuovo modello di contratto di assistenza.  
 3. Nel campo **Nr.** immettere un numero per il modello di contratto.  
   
-     In alternativa, se è stata impostata una numerazione per i modelli di contratti nella finestra **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di modello di contratto disponibile. Compilare gli altri campi, se pertinenti.  
+     In alternativa, se è stata impostata una numerazione per i modelli di contratti nella pagina **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di modello di contratto disponibile. Compilare gli altri campi, se pertinenti.  
   
 4. Nella Scheda dettaglio **Fattura** compilare i campi **Codice gr. conto contratto assist.**, **Periodo di fatturazione** e così via. Compilare gli altri campi, se pertinenti.  
 5. Scegliere l'azione **Sconti assistenza** per aggiungere sconti contrattuali.  

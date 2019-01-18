@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
+# <a name="use-automated-data-capture-systems-adcs"></a>Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
+
+> [!NOTE]
+> Nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)], il sistema ADCS è utilizzato in distribuzioni locali. Tuttavia, un partner Microsoft può utilizzarlo in distribuzioni online utilizzando PowerApps o simili.
+
 È possibile utilizzare il sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System) per registrare il movimento degli articoli nella warehouse e alcune attività di registrazione, ad esempio le rettifiche delle quantità nella registrazioni articoli di warehouse e gli inventari fisici.  
 
 Per utilizzare ADCS, è necessario assegnare a ciascun articolo nella warehouse un identificativo articolo. È inoltre necessario impostare i miniform, le funzioni per l'utilizzo dei palmari, i parametri per lo scambio di dati e specificare le impostazioni per i campi che controllano ADCS. Se è possibile specificare l'utilizzo di ADCS nella scheda Ubicazione di una warehouse.
@@ -38,22 +42,22 @@ Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse 
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e scegliere il collegamento correlato.
 2.  Selezionare una warehouse dall'elenco per cui si desidera abilitare i sistemi ADCS, quindi scegliere l'azione **Modifica**.
-3. Nella finestra **Scheda ubicazione**, selezionare la casella di controllo **Usa ADCS**.  
+3. Nella pagina **Scheda ubicazione**, selezionare la casella di controllo **Usa ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Per specificare un articolo per utilizzare il sistema ADCS  
 A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere assegnato un codice identificativo per collegarlo al numero dell'articolo. Ad esempio, è possibile utilizzare il codice a barre dell'articolo come codice identificativo. Un articolo può anche avere più codici identificativo. Può essere utile qualora un articolo sia disponibile in diverse unità di misura, ad esempio pezzi e pallet. In questo caso, assegnare un codice identificativo a ognuno.    
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un articolo dall'elenco che fa parte della soluzione ADCS in uso, quindi scegliere l'azione **Modifica**.
-3. Nella finestra **Scheda articolo** scegliere l'azione **Identificativi**.
-4. Nella finestra **Identificativi** scegliere l'azione **Nuovo**.
+3. Nella pagina **Scheda articolo** scegliere l'azione **Identificativi**.
+4. Nella pagina **Identificativi articolo** scegliere l'azione **Nuovo**.
 5. Nel campo **Codice**  specificare l'identificativo per l'articolo. Ad esempio, l'identificativo può essere il numero di codice a barre dell'articolo.  
 
     È inoltre possibile impostare **Cod. variante** e un codice **Unità di misura**.  
 
 6. Se necessario, immettere più codici per ciascun articolo.
 7. Scegliere il pulsante **OK**.  
-8.  Per rivedere le informazioni, scegliere il campo **Codice identificativo** per aprire la finestra **Identificativi articolo**.
+8.  Per rivedere le informazioni, scegliere il campo **Codice identificativo** per aprire la pagina **Identificativi articolo**.
 
 ## <a name="to-add-an-adcs-user"></a>Per aggiungere un utente ADCS  
 È possibile aggiungere qualsiasi utente come utente di un sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System). In questo caso, l'utente deve inoltre immettere una password. In alternativa, è anche possibile fornire una connessione che identifichi l'utente ADCS come impiegato warehouse. La password dell'utente ADCS può essere diversa dalla password dell'utente per l'accesso a Windows. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).

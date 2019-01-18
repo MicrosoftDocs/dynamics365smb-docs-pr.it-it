@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
@@ -38,10 +38,10 @@ Per mantenere la corretta valutazione del magazzino, in genere si desidera siste
 
 Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamente.   
 
-|Funzione|Descrizione|  
+|Funzione|Description|  
 |------------------|---------------------------------------|  
-|La funzione**Ottieni righe documento registrato da stornare** nella finestra **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita e la relativa nota di credito di vendita per una o più fatture di vendita registrate".|  
-|La funzione**Copia documento** nelle finestre **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella finestra **Setup contabilità clienti e vendite**.|
+|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da vendita e la relativa nota di credito di vendita per una o più fatture di vendita registrate".|  
+|La funzione**Copia documento** nelle pagine **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità clienti e vendite**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di vendita originale. In questo modo, l'ordine di reso vendita o la nota di credito di vendita verrà collegato al movimento di vendita originale e l'articolo verrà valutato in base al costo unitario originale.
 
@@ -49,17 +49,17 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
-2. Nella finestra **Fatture vendita registrate** selezionare la fattura di vendita registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
+2. Nella pagina **Fatture vendita registrate** selezionare la fattura di vendita registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
 
     Nell'intestazione della nota di credito di vendita sono incluse alcune informazioni contenute nella fattura di vendita registrata. Tali informazioni possono, ad esempio, essere sostituite da nuove informazioni che riflettono il contratto di reso.  
 3. Modificare le informazioni nelle righe in base al contratto, quali il numero di articoli resi o l'importo da rimborsare.
 4. Scegliere l'azione **Collega movimenti**.
-5. Nella finestra **Collega movimenti clienti**, selezionare la riga con il documento di vendita registrato a cui si desidera collegare la nota di credito di vendita, quindi scegliere l'azione **Collega-a ID**.
+5. Nella pagina **Collega movimenti clienti**, selezionare la riga con il documento di vendita registrato a cui si desidera collegare la nota di credito di vendita, quindi scegliere l'azione **Collega-a ID**.
 
     L'identificativo della nota di credito di vendita viene visualizzato nel campo **Collega-a ID**.
 6. Nel campo **Importo da collegare** immettere l'importo che si desidera collegare se è inferiore all'importo originale.  
 
-    Nella parte inferiore della finestra **Collega movimenti clienti** è possibile vedere l'importo totale da collegare per stornare tutti i movimenti coinvolti, ad esempio quando il valore del campo **Saldo** è zero.
+    Nella parte inferiore della pagina **Collega movimenti clienti** è possibile vedere l'importo totale da collegare per stornare tutti i movimenti coinvolti, ad esempio quando il valore del campo **Saldo** è zero.
 7. Scegliere il pulsante **OK**. Quando si registra la nota di credito di vendita, viene applicata ai documenti di vendita registrati.
 
     Dopo avere creato o modificato le righe della nota di credito di vendita e avere specificato le applicazioni singole o multiple, è possibile passare alla registrazione della nota di credito di vendita.   
@@ -74,8 +74,8 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
 3. Nel campo **Cliente** immettere il nome di un cliente esistente.
 4. Scegliere l'azione **Copia documento**.
-5. Nella finestra **Copia documento vendita**, nel campo **Tipo di documento**, selezionare **Fattura registrata**.
-6. Selezionare il campo **Nr. documento** per aprire la finestra **Fatture vendita registrate** e selezionare la fattura di vendita registrata contenente le righe da stornare.
+5. Nella pagina **Copia documento vendita**, nel campo **Tipo di documento**, selezionare **Fattura registrata**.
+6. Selezionare il campo **Nr. documento** per aprire la pagina **Fatture vendita registrate** e selezionare la fattura di vendita registrata contenente le righe da stornare.
 7. Selezionare la casella di controllo **Ricalcola righe** se si desidera che le righe copiate della fattura di vendita registrata vengano aggiornate con le modifiche al prezzo dell'articolo e al costo unitario poiché la fattura è stata registrata.
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito vendite.
 9. Completare la nota di credito di vendita come descritto nella sezione "Per creare una nota di credito di vendita da una fattura di vendita registrata" del presente argomento.
@@ -87,15 +87,15 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
 
     - Utilizzare la funzione **Ottieni righe documento registrato da stornare** per copiare una o più righe da uno o più documenti registrati. Questa funzione consente di stornare sempre esattamente i costi dalle righe del documento registrato. Questa funzionalità è descritta nei passaggi seguenti.    
-    - Utilizzare la funzione **Copia documento** per copiare un documento esistente nell'ordine di reso. Utilizzare questa funzione per copiare l'intero documento. Può essere un documento registrato o un documento non ancora registrato. Questa funzione consente lo storno esatto costo solo quando la casella di controllo **Storno esatto costo obblig.** è selezionata nella finestra **Setup contabilità clienti**.  
+    - Utilizzare la funzione **Copia documento** per copiare un documento esistente nell'ordine di reso. Utilizzare questa funzione per copiare l'intero documento. Può essere un documento registrato o un documento non ancora registrato. Questa funzione consente lo storno esatto costo solo quando la casella di controllo **Storno esatto costo obblig.** è selezionata nella pagina **Setup contabilità clienti**.  
 
 5. Scegliere l'azione **Ottieni righe documento registrato da stornare**.
-6. Nella parte superiore della finestra **Righe documento vendita reg.** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di vendita registrata, potrebbe essere preferibile non rendere tale quantità in un nuovo documento di reso vendita.
+6. Nella parte superiore della pagina **Righe documento vendita registrate** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di vendita registrata, potrebbe essere preferibile non rendere tale quantità in un nuovo documento di reso vendita.
 
     > [!NOTE]  
     >  Questo campo è valido solo per righe di spedizioni registrate e di fatture registrate, ma non per righe di resi registrati o di note di credito registrate.
 
-    Nella parte sinistra della finestra sono elencati i diversi tipi di documento, mentre il numero tra parentesi indica il numero di documenti disponibili per ogni tipo di documento.
+    Nella parte sinistra della pagina sono elencati i diversi tipi di documento, mentre il numero tra parentesi indica il numero di documenti disponibili per ogni tipo di documento.
 
 7. Nel campo **Filtro tipo documento** selezionare il tipo di righe documento registrate che si intende utilizzare.  
 8. Selezionare le righe che si desidera copiare nel nuovo documento.  
@@ -119,28 +119,28 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 
     -   Se la riga del documento registrato include righe di tracciabilità articolo, il campo **Collega-da mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
-     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella finestra **Setup contabilità clienti e vendite** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
+     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità clienti e vendite** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 
      > [!NOTE]  
      >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
      >   
      >  Se il flusso delle merci nel documento registrato corrisponde a quello nel nuovo documento, viene creata una copia della riga del documento registrato originale nel nuovo documento. Il campo **Collega-da mov. art.** non viene compilato perché in questo caso, lo storno esatto costo non è possibile. Se, ad esempio, si utilizza la funzione **Ottieni righe documento registrato da stornare** per ottenere una riga di nota di credito vendita registrata per una nuova nota di credito vendita, nella nuova nota di credito viene copiata esclusivamente la riga di nota di credito registrata originale.  
 
-10. Nella finestra **Ordine di reso vendita**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
+10. Nella pagina **Ordine reso di vendita**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
 11. Scegliere l'azione **Registra**.
 
 ## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Per creare un ordine di vendita sostitutivo da un reso dell'ordine di vendita
 Si potrebbe decidere di compensare un cliente per un articolo venduto sostituendo l'articolo. La sostituzione può essere effettuata con lo stesso articolo o con un articolo differente. Questa situazione potrebbe presentarsi, ad esempio, se è stato erroneamente spedito l'articolo sbagliato.  
 
-1. Nella finestra **Ordine di reso vendita** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
+1. Nella pagina **Ordine reso di vendita** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
 2. Scegliere l'azione **Sposta righe negative**.
-3. Nella finestra **Muovi righe vendita negative** compilare i campi secondo le necessità.
-4. Scegliere il pulsante **OK**. La riga negativa per l'articolo in sostituzione verrà eliminata dall'ordine di reso vendita e inserita in una nuova finestra **Ordine vendita**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
+3. Nella pagina **Muovi righe vendite negative** compilare i campi secondo le necessità.
+4. Scegliere il pulsante **OK**. La riga negativa per l'articolo in sostituzione verrà eliminata dall'ordine di reso vendita e inserita in una nuova pagina **Ordine vendita**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Per creare documenti relativi al reso da un ordine di reso vendita
 È possibile creare automaticamente ordini di vendita di sostituzione, ordini di reso acquisto e ordini di acquisto di sostituzione durante il processo di reso da vendita. Ciò risulta utile, ad esempio, in situazioni in cui si desidera gestire articoli coperti da garanzia del fornitore.
 
-1. Nella finestra **Ordine reso di vendita** per un processo di reso attivo, scegliere l'azione **Crea documenti collegati-resi**.
+1. Nella pagina **Ordine reso di vendita** per un processo di reso attivo, scegliere l'azione **Crea documenti collegati-resi**.
 2. Nel campo **Nr. fornitore**, immettere il numero di un fornitore se si desidera creare automaticamente i documenti del fornitore.
 3. Se è necessario rendere un articolo al fornitore, selezionare la casella di controllo **Crea ordini reso acquisto**.
 4. Se è necessario ordinare un articolo dal fornitore, selezionare la casella di controllo **Crea ordini di acquisto**.
@@ -151,7 +151,7 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 È possibile registrare questo costo aumentato come addebito articolo in una nota di credito o in un ordine di reso e assegnarlo alla spedizione registrata. Di seguito sono descritte le procedure per un ordine di reso da vendita, ma gli stessi passaggi si applicano a una nota di credito di vendita.
 
-1. Aprire la finestra **Ordine reso vendita** per un processo di reso attivo.
+1. Aprire la pagina **Ordine reso vendita** per un processo di reso attivo.
 2. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.  
 3. Compilare i campi relativi a qualsiasi riga di addebito dell'articolo. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md).  
 
@@ -169,7 +169,7 @@ Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggi
      È possibile creare un numero di addebito articolo particolare in cui includere gli abbuoni.  
 6.  Nel campo **Quantità** immettere **1**.  
 7.  Nel campo **Prezzo Unitario** immettere l'importo dell'abbuono.  
-8.  Assegnare l'abbuono di vendita come addebito articolo agli articoli nella spedizione registrata. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito vendita**.  
+8.  Assegnare l'abbuono di vendita come addebito articolo agli articoli nella spedizione registrata. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla pagina **Nota credito**.  
 
 Durante la registrazione dell'ordine di reso da vendita, l'abbuono viene aggiunto all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.
 
@@ -180,7 +180,7 @@ Al momento del carico degli articoli nella warehouse, i relativi ordini di reso 
 
 Al momento della fatturazione al cliente, invece di fatturare ciascun ordine di reso separatamente, è possibile creare una nota di credito di vendita e copiare automaticamente in questo documento le righe di carico da reso registrate. Sarà quindi possibile registrare la nota di credito di vendita e fatturare tutti gli ordini di reso da vendita aperti in una volta sola.  
 
-Per cumulare carichi da reso, è necessario selezionare la casella di controllo **Fatt. cumulative** nella finestra **Scheda cliente**.  
+Per cumulare carichi da reso, è necessario selezionare la casella di controllo **Fatt. cumulative** nella pagina **Scheda cliente**.  
 
 ### <a name="to-manually-combine-return-receipts"></a>Per cumulare manualmente i carichi da reso  
 
@@ -201,7 +201,7 @@ Per cumulare carichi da reso, è necessario selezionare la casella di controllo 
 È possibile cumulare automaticamente i carichi da reso, nonché registrare automaticamente le note di credito utilizzando la funzione **Cumula carichi da reso**.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cumula carichi da reso** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Cumula carichi da reso**, compilare i campi per selezionare i carichi da reso corrispondenti.
+2. Nella pagina **Cumula carichi da reso**, compilare i campi per selezionare i carichi da reso corrispondenti.
 3. Selezionare la casella di controllo **Registra note di credito**. In caso contrario, è necessario registrare manualmente le note di credito di acquisto risultanti.
 4.  Scegliere il pulsante **OK**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Tenere traccia delle relazioni tra domanda e approvvigionamento
@@ -36,12 +36,12 @@ Di seguito viene descritto come tenere traccia degli articoli collegati in un or
 Nelle righe in **Tracciabilità ordine** vengono visualizzati i documenti collegati alla riga dell'ordine di produzione corrente.
 
 ## <a name="untracked-planning-elements"></a>Elementi di pianificazione non tracciati
-Quando si sceglie il campo **Qtà non tracciata** nella finestra **Pianificazione ordini**, viene visualizzata la finestra **Elementi di pianificazione non tracciati**. Questa finestra è utilizzate per due scopi:
+Quando si sceglie il campo **Qtà non tracciata** nella pagina **Pianificazione ordini**, viene visualizzata la pagina **Elementi di pianificazione non tracciati**. Questa finestra è utilizzate per due scopi:
 
-1. Contenere informazioni sulle quantità non tracciate che vengono visualizzate quando l'utente effettua una ricerca dalla finestra Tracciabilità ordine.
-2. Contenere i messaggi di errore visualizzati quando si sceglie un'icona **Avviso** nella finestra **Prospetto pianificazione**.
+1. Contenere informazioni sulle quantità non tracciate che vengono visualizzate quando l'utente effettua una ricerca dalla pagina Tracciabilità ordine.
+2. Contenere i messaggi di errore visualizzati quando si sceglie un'icona **Avviso** nella pagina **Prospetto pianificazione**.
 
-In questa finestra sono contenuti movimenti che rappresentano una quantità di surplus non tracciata nella rete di tracciabilità dell'ordine. Questi movimenti vengono generati durante l'esecuzione della pianificazione e indicano la provenienza di tale quantità presente nelle righe di tracciabilità dell'ordine. Il surplus non tracciato può derivare dai seguenti elementi:
+In questa pagina sono contenuti movimenti che rappresentano una quantità di surplus non tracciata nella rete di tracciabilità dell'ordine. Questi movimenti vengono generati durante l'esecuzione della pianificazione e indicano la provenienza di tale quantità presente nelle righe di tracciabilità dell'ordine. Il surplus non tracciato può derivare dai seguenti elementi:
 
 - Previsione di produzione
 - Ordini programmati

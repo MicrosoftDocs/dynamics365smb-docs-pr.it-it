@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
@@ -27,7 +27,7 @@ L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP"
 
 Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione riguardano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce messaggi di azione. I messaggi di azione sono suggerimenti relativi alla creazione di un nuovo ordine, alla modifica di un ordine (quantità o data) o all'annullamento di un ordine già in ordinazione. Il termine "ordine" include ordini di acquisto, ordini di assemblaggio, ordini di produzione e ordini di trasferimento.
 
-È possibile tenere traccia dei collegamenti creati dal motore di pianificazione tra domanda e il relativo approvvigionamento nella finestra **Tracciabilità ordine**. Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)   
+È possibile tenere traccia dei collegamenti creati dal motore di pianificazione tra domanda e il relativo approvvigionamento nella pagina **Tracciabilità ordine**. Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)   
 
 La correttezza dei risultati di pianificazione dipende dal setup di schede articolo, DB di assemblaggio, DB di produzione e cicli.  
 
@@ -48,17 +48,17 @@ Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera 
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Per calcolare il prospetto pianificazione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetti pianificazione** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la finestra **Calcola piano**.  
+2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la pagina **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Selezionare per iniziare il calcolo di una programmazione di produzione master. Gli articoli con ordini di vendita aperti e/o previsioni della domanda vengono inclusi nell'esecuzione.|  
-    |**MRP**|Selezionare per iniziare il calcolo della pianificazione delle richieste di materiale. Gli articoli con richieste dipendenti vengono inclusi nell'esecuzione. In genere, MPS e MRP sono eseguiti contemporaneamente. Per eseguire MPS e MRP simultaneamente, è necessario che sia selezionato il campo **Calcolo combinato MPS/MRP** nella Scheda dettaglio **Pianificazione** della finestra **Setup manufacturing**.|  
+    |**MRP**|Selezionare per iniziare il calcolo della pianificazione delle richieste di materiale. Gli articoli con richieste dipendenti vengono inclusi nell'esecuzione. In genere, MPS e MRP sono eseguiti contemporaneamente. Per eseguire MPS e MRP simultaneamente, è necessario che sia selezionato il campo **Calcolo combinato MPS/MRP** nella Scheda dettaglio **Pianificazione** della pagina **Setup manufacturing**.|  
     |**Data Inizio**|Questa data viene utilizzata per valutare la disponibilità del magazzino. Se la quantità disponibile di un articolo è inferiore al punto di riordino, nel sistema viene eseguita una programmazione in avanti di un ordine di rifornimento da questa data. Se un articolo è inferiore alla relativa scorta di sicurezza (alla data di inizio), nel sistema viene eseguita una programmazione a ritroso di un ordine di rifornimento con scadenza alla data di inizio della pianificazione.|  
     |**Data Fine**|Data di fine dell'orizzonte di pianificazione. Dopo questa data non viene considerato alcun approvvigionamento o alcuna domanda. Se il ciclo di riordino per un articolo si protrae oltre la data di fine, l'orizzonte di pianificazione effettivo per l'articolo equivale a Data ordine + Ciclo riordino.<br /><br /> L'orizzonte di pianificazione è il tempo per cui si protrae il piano. Se l'orizzonte è troppo ridotto, gli articoli con un lead time maggiore non vengono ordinati in tempo. Se l'orizzonte è troppo esteso, viene impiegata un'eccessiva quantità di tempo nell'esaminare ed elaborare le informazioni soggette a probabili modifiche prima del necessario. Benché non sia obbligatorio, è possibile impostare un orizzonte di pianificazione per la produzione e uno più esteso per gli acquisti. È consigliabile impostare un orizzonte di pianificazione e uno per gli acquisti per coprire il lead time cumulativo per i componenti.|  
-    |**Interrompi e mostra primo errore**|Selezionare se si desidera che l'esecuzione della pianificazione si interrompa non appena viene rilevato un errore. Contemporaneamente verrà visualizzato un messaggio contenente informazioni sul primo errore. Se è presente un errore, nel prospetto pianificazione verranno presentate solo le righe di pianificazione create prima dell'individuazione dell'errore. Se non si seleziona il campo, allora il processo batch **Calcola piano** prosegue fino al completamento, cioè, il processo batch non verrà interrotto da eventuali errori. Se sono presenti uno o più errori, dopo il completamento viene visualizzato un messaggio con informazioni sugli articoli interessati. Verrà quindi visualizzata la finestra **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e i collegamenti alle schede articolo interessate.|  
-    |**Usa previsione**|Selezionare una previsione da includere come domanda durante l'esecuzione del processo batch di pianificazione. La previsione predefinita è impostata nella Scheda dettaglio **Pianificazione** della finestra **Setup manufacturing**.|  
+    |**Interrompi e mostra primo errore**|Selezionare se si desidera che l'esecuzione della pianificazione si interrompa non appena viene rilevato un errore. Contemporaneamente verrà visualizzato un messaggio contenente informazioni sul primo errore. Se è presente un errore, nel prospetto pianificazione verranno presentate solo le righe di pianificazione create prima dell'individuazione dell'errore. Se non si seleziona il campo, allora il processo batch **Calcola piano** prosegue fino al completamento, cioè, il processo batch non verrà interrotto da eventuali errori. Se sono presenti uno o più errori, dopo il completamento viene visualizzato un messaggio con informazioni sugli articoli interessati. Verrà quindi visualizzata la pagina **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e i collegamenti alle schede articolo interessate.|  
+    |**Usa previsione**|Selezionare una previsione da includere come domanda durante l'esecuzione del processo batch di pianificazione. La previsione predefinita è impostata nella Scheda dettaglio **Pianificazione** della pagina **Setup manufacturing**.|  
     |**Escludi previsione prima**|Definire la parte di previsione selezionata da includere nell'esecuzione della pianificazione immettendo una data prima della quale la domanda di previsione non deve essere inclusa, escludendo in tal modo le informazioni meno recenti.|  
     |**Rispetta parametri di pianificazione per avvisi di eccezione**|Questo campo è selezionato di default.<br /><br /> L'approvvigionamento nelle righe di pianificazione con avvisi in genere non viene modificato in base ai parametri di pianificazione. Al contrario, il sistema di pianificazione suggerisce solo un approvvigionamento per coprire la quantità di domanda esatta. Tuttavia, è possibile definire alcuni parametri di pianificazione per le righe di pianificazione da rispettare con determinati avvisi.<br /><br />|  
 
@@ -66,7 +66,7 @@ Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera 
 5.  Scegliere il pulsante **OK**. Verrà eseguito il processo batch, quindi nel prospetto di pianificazione verranno inserite le righe di pianificazione.  
 
 ## <a name="to-perform-action-messages"></a>Per eseguire i messaggi di azione  
-1.  Nella finestra **Prospetto pianificazione** scegliere l'azione **Esegui messaggi di azione**.  
+1.  Nella pagina **Prospetto pianificazione** scegliere l'azione **Esegui messaggi di azione**.  
 2.  Nella Scheda dettaglio **Opzioni** specificare come creare gli approvvigionamenti. Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Descrizione|  

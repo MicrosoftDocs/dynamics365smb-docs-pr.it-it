@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
 
-Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella finestra **Registrazioni pagamenti**. Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
+Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella pagina **Registrazioni pagamenti**. Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
 
 È possibile avviare il processo di eseguire il pagamento da elenchi, schede e movimenti contabili per fornitori, clienti e dipendenti. In ciascuna di tali pagine è presente un pulsante che avvia il flusso di pagamento e aiuta a compilare le registrazioni pagamenti.  
 
@@ -33,13 +33,13 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-|Comprendere la funzioni di base della finestra **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
+|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
 |Registrare i pagamenti ai fornitori o ai dipendenti e i rimborsi ai clienti ed eventualmente collegare i pagamenti alle fatture o note di credito non pagate correlati per consentirne la chiusura come pagate.|[Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)|
-| Utilizzare una funzione nella finestra **Registrazioni pagamenti** per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md) |
+| Utilizzare una funzione nella pagina **Registrazioni pagamenti** per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md) |
 | Emettere assegni per i pagamenti fornitore o i rimborsi ai clienti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Effettuare pagamenti tramite assegno](payables-how-work-checks.md) |
 |Effettuare pagamenti elettronici esportando i pagamenti a un file della banca che viene caricato nella banca per l'elaborazione, incluso l'EFT (trasferimento elettronico di fondi) nell'America del Nord. |[Effettuare pagamenti elettronici](payables-how-export-payments-bank-file.md)|
 |Effettuare pagamenti elettronici in base al bonifico SEPA standard per i paesi dell'UE.|[Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
-| Pagare il fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 |Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 

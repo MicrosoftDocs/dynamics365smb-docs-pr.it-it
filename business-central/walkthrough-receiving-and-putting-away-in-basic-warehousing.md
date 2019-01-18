@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
@@ -32,7 +32,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
-Nelle configurazioni di warehouse di base in cui un'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare la finestra **Stoccaggio in magazzino** per registrare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine in entrata. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio.
+Nelle configurazioni di warehouse di base in cui un'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare la pagina **Stoccaggio in magazzino** per registrare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine in entrata. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio.
 
 > [!NOTE]
 > Anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.  
@@ -63,7 +63,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
     1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella finestra **Utenti**.  
+    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
     4.  Selezionare il campo **Default**.  
 
@@ -71,7 +71,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine di acquisto per 10 unità dell'articolo LS-75 e 30 unità dell'articolo LS-81 per il fornitore 10000 che deve essere consegnato alla warehouse ARGENTO. Quando la consegna arriva alla warehouse, Gianni, il lavoratore warehouse, esegue lo stoccaggio degli articoli nelle collocazioni di default per gli articoli. Quando Gianni registra lo stoccaggio, gli articoli vengono registrati come ricevuti nel magazzino e disponibili alla vendita o a un'altra domanda.  
 
 ## <a name="setting-up-the-location"></a>Impostazione dell'ubicazione  
- L'impostazione della finestra **Scheda Ubicazione** definisce i flussi della warehouse della società.  
+ L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della warehouse della società.  
 
 ### <a name="to-set-up-the-location"></a>Per impostare l'ubicazione  
 
@@ -84,7 +84,7 @@ Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine d
 4.  Scegliere l'azione **Collocazioni**.  
 5.  Selezionare la prima riga, per la collocazione S-01-0001, quindi scegliere l'azione **Contenuti**.  
 
-    Notare che nella finestra **Contenuto collocazione** l'articolo LS-75 è già impostato come contenuto nella collocazione S-01-0001.  
+    Notare che nella pagina **Contenuto collocazione** l'articolo LS-75 è già impostato come contenuto nella collocazione S-01-0001.  
 
 6.  Scegliere l'azione **Nuovo**.  
 7.  Selezionare i campi **Fisso** e **Default**.  
@@ -114,7 +114,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
     La consegna degli altoparlanti dal fornitore 10000 è arrivata alla warehouse ARGENTO e Gianni continua lo stoccaggio.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Ricezione e stoccaggio di articoli  
-Nella finestra **Stoccaggio in magazzino** è possibile gestire tutte le attività di warehouse in entrata per un documento origine specifico, ad esempio un ordine di acquisto.  
+Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività di warehouse in entrata per un documento origine specifico, ad esempio un ordine di acquisto.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Per ricevere e stoccare gli articoli  
 

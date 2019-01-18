@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
@@ -36,10 +36,10 @@ Consente di assegnare priorità ai pagamenti, tenere conto delle penalità per i
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Il suggerimento di pagamento può includere un importo indicato come fondi disponibili per il pagamento e il diritto all'applicazione di sconti sul pagamento.
 
 ## <a name="issue-checks"></a>Emettere assegni
-[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di emettere assegni ai fornitori manualmente ed elettronicamente. È possibile eseguire entrambe le operazioni nella finestra **Registrazioni pagamenti**, in cui è possibile anche annullare assegni e visualizzare movimenti contabili degli assegni.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di emettere assegni ai fornitori manualmente ed elettronicamente. È possibile eseguire entrambe le operazioni nella pagina **Registrazioni pagamenti**, in cui è possibile anche annullare assegni e visualizzare movimenti contabili degli assegni.
 
 ## <a name="export-payments-to-a-bank-file"></a>Esportare pagamenti in un file della banca
-Quando si è pronti a pagare un fornitore, nella finestra **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento dalle righe di registrazione. È quindi possibile caricare il file sul sito elettronico della banca per elaborare i trasferimenti di denaro.
+Quando si è pronti a pagare un fornitore, nella pagina **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento dalle righe di registrazione. È quindi possibile caricare il file sul sito elettronico della banca per elaborare i trasferimenti di denaro.
 
 Se non si desidera registrare una riga di registrazione pagamenti per un pagamento esportato, ad esempio perché si sta attendendo dalla banca la conferma della transazione, è possibile eliminare la riga di registrazione. In seguito quando si crea una riga di registrazione pagamenti per pagare l'importo residuo della fattura, il campo **Importo totale esportato** visualizza la quantità dell'importo pagamento già esportata. Inoltre, è possibile trovare informazioni dettagliate sul totale esportato scegliendo il pulsante **Movimenti dei registri di bonifici**.
 

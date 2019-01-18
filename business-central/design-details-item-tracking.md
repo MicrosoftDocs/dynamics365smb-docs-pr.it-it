@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Dettagli di progettazione: Tracciabilità articolo
@@ -28,7 +28,7 @@ Un sistema di tracciabilità articolo deve offrire a una società la semplice ge
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
 [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
 [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
-[Dettagli di progettazione: Finestra righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
+[Dettagli di progettazione: Pagina righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
 [Dettagli di progettazione: Disponibilità tracciabilità articolo](design-details-item-tracking-availability.md)  
 [Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  

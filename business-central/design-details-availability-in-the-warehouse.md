@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
@@ -32,7 +32,7 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 ## <a name="quantity-available-to-pick"></a>Quantità disponibile per il prelievo  
  Se, ad esempio, l'algoritmo di prelievo non considera le quantità di articoli che sono impegnate per una spedizione di ordine di vendita in attesa, tali articoli potrebbero essere prelevati per un altro ordine di vendita che viene spedito prima, impedendo così il completamento della prima vendita. Per evitare questa situazione, l'algoritmo di prelievo sottrae le quantità impegnate per altri documenti in uscita, le quantità nei documenti di prelievo esistenti e le quantità che sono prelevate ma non ancora spedite o consumate.  
 
- Il risultato viene visualizzato nel campo **Qtà disponibile da prelevare** della finestra **Prospetto prelievi**, dove il campo viene calcolato dinamicamente. Il valore viene calcolato anche quando gli utenti creano prelievi warehouse direttamente per i documenti in uscita. Tali documenti in uscita potrebbero essere ordini di vendita, consumo di produzione o trasferimenti in uscita, dove il risultato viene riflesso nei campi quantità correlati, ad esempio **Qtà da gestire**.  
+ Il risultato viene visualizzato nel campo **Qtà disponibile da prelevare** della pagina **Prospetto prelievi**, dove il campo viene calcolato dinamicamente. Il valore viene calcolato anche quando gli utenti creano prelievi warehouse direttamente per i documenti in uscita. Tali documenti in uscita potrebbero essere ordini di vendita, consumo di produzione o trasferimenti in uscita, dove il risultato viene riflesso nei campi quantità correlati, ad esempio **Qtà da gestire**.  
 
 > [!NOTE]  
 >  Per quanto riguarda la priorità degli impegni, la quantità da impegnare viene sottratta dalla quantità disponibile per il prelievo. Ad esempio, se la quantità disponibile nelle collocazioni di prelievo è 5 unità, ma 100 unità si trovano nelle collocazioni di stoccaggio, quando si tenta di impegnare più di 5 unità per un altro ordine, verrà visualizzato un messaggio di errore perché la quantità supplementare deve essere disponibile nelle collocazioni di prelievo.  
@@ -58,9 +58,9 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 -   Quantità nelle collocazioni di assemblaggio  
 -   Quantità nelle collocazioni di rettifica  
 
- Il risultato viene visualizzato nel campo **Quantità totale disponibile** della finestra **Impegni**.  
+ Il risultato viene visualizzato nel campo **Quantità totale disponibile** della pagina **Impegni**.  
 
- In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della finestra **Impegni**.  
+ In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della pagina **Impegni**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calcolo della quantità disponibile da impegnare  
  La quantità disponibile da impegnare viene calcolata come segue:  

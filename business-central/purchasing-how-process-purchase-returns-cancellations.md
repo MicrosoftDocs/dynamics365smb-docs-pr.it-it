@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
@@ -40,10 +40,10 @@ Per mantenere la corretta valutazione del magazzino, in genere si desidera selez
 
 Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamente.  
 
-|Funzione|Descrizione|  
+|Funzione|Description|  
 |------------------|---------------------------------------|  
-|La funzione**Ottieni righe documento registrato da stornare** nella finestra **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto e la relativa nota di credito di acquisto per una o più fatture di acquisto registrate".|  
-|La funzione**Copia documento** nelle finestre **Nota credito acquisto** e **Ordine di reso acquisto**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella finestra **Setup contabilità fornitori e acquisti**.|
+|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto e la relativa nota di credito di acquisto per una o più fatture di acquisto registrate".|  
+|La funzione **Copia documento** nelle pagine **Nota credito acquisto** e **Ordine di reso acquisto**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità fornitori e acquisti**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di acquisto originale. In questo modo, la nota di credito di acquisto o l'ordine di reso da acquisto viene collegato al movimento di acquisto originale e l'articolo verrà valutato al costo unitario originale.
 
@@ -51,15 +51,15 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto da una fattura di acquisto registrata
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto registrate** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Fatture acquisto registrate** selezionare la fattura di acquisto registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
+2. Nella pagina **Fatture acquisto registrate** selezionare la fattura di acquisto registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
 
     La maggior parte dei campi nella testata della nota di credito di acquisto viene compilata con le informazioni della fattura di acquisto registrata. È possibile modificare tutti i campi, ad esempio con nuove informazioni che riflettono il contratto di reso.
 3. Modificare le informazioni nelle righe in base al contratto, quali il numero di articoli resi o l'importo da rimborsare.
 4. Scegliere l'azione **Collega movimenti**.
-5. Nella finestra **Collega movimenti fornitori**, selezionare la riga con il documento di acquisto registrato a cui si desidera collegare la nota di credito di acquisto, quindi scegliere l'azione **Collega-a ID**. Il numero della nota di credito di acquisto viene inserito nel campo **Collega-a ID**.
+5. Nella pagina **Collega movimenti fornitori**, selezionare la riga con il documento di acquisto registrato a cui si desidera collegare la nota di credito di acquisto, quindi scegliere l'azione **Collega-a ID**. Il numero della nota di credito di acquisto viene inserito nel campo **Collega-a ID**.
 6. Nel campo **Importo da collegare** immettere l'importo che si desidera collegare se inferiore all'importo originale.
 
-    Nella parte inferiore della finestra **Collega movimenti fornitori** è possibile vedere l'importo totale da collegare per stornare tutti i movimenti coinvolti, ad esempio quando il valore del campo **Saldo** è zero.
+    Nella parte inferiore della pagina **Collega movimenti fornitori** è possibile vedere l'importo totale da collegare per stornare tutti i movimenti coinvolti, ad esempio quando il valore del campo **Saldo** è zero.
 7. Scegliere il pulsante **OK**. Quando si registra la nota di credito di acquisto, verrà collegata ai documenti di acquisto registrati specificati.
 
     Dopo avere creato o modificato le righe della nota di credito di acquisto necessarie e aver specificato uno o più collegamenti, è possibile passare alla registrazione della nota di credito di acquisto.
@@ -74,8 +74,8 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.
 3. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 4. Scegliere l'azione **Copia documento**.
-5. Nella finestra **Copia documento acquisto**, nel campo **Tipo di documento**, selezionare **Fattura registrata**.
-6. Selezionare il campo **Nr. documento** per aprire la finestra **Fatture acquisto registrate** e selezionare la fattura di acquisto registrata contenente le righe da stornare.
+5. Nella pagina **Copia documento acquisto**, nel campo **Tipo di documento**, selezionare **Fattura registrata**.
+6. Selezionare il campo **Nr. documento** per aprire la pagina **Fatture acquisto registrate** e selezionare la fattura di acquisto registrata contenente le righe da stornare.
 7. Selezionare la casella di controllo **Ricalcola righe** se si desidera che le righe copiate della fattura di acquisto registrata vengano aggiornate con le modifiche al prezzo dell'articolo e al costo unitario poiché la fattura è stata registrata.
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito di acquisto.
 9. Completare la nota di credito acquisto come descritto nella sezione "Per creare una nota di credito di acquisto da una fattura di acquisto registrata" del presente argomento.
@@ -87,15 +87,15 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
 
     - Utilizzare la funzione **Ottieni righe documento registrato da stornare** per copiare una o più righe da uno o più documenti registrati. Questa funzione consente di stornare sempre esattamente i costi dalle righe del documento registrato. Questa funzionalità è descritta nei passaggi seguenti.    
-    - Utilizzare la funzione **Copia documento** per copiare un documento esistente nell'ordine di reso. Utilizzare questa funzione per copiare l'intero documento. Può essere un documento registrato o un documento non ancora registrato. Questa funzione consente lo storno esatto costo solo quando la casella di controllo **Storno esatto costo obblig.** è selezionata nella finestra **Setup contabilità clienti**.  
+    - Utilizzare la funzione **Copia documento** per copiare un documento esistente nell'ordine di reso. Utilizzare questa funzione per copiare l'intero documento. Può essere un documento registrato o un documento non ancora registrato. Questa funzione consente lo storno esatto costo solo quando la casella di controllo **Storno esatto costo obblig.** è selezionata nella pagina **Setup contabilità clienti**.  
 
 4. Scegliere l'azione **Ottieni righe documento registrato da stornare**.
-5. Nella parte superiore della finestra **Righe documento acquisto reg.** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di acquisto registrata, potrebbe essere preferibile non includere tale quantità in un nuovo documento di reso da a acquisto.
+5. Nella parte superiore della pagina **Righe documento acquisto reg.** selezionare la casella di controllo **Mostra solo righe reversibili** se si desidera visualizzare solo le righe associate a quantità non ancora rese. Se, ad esempio, è già stata resa una quantità della fattura di acquisto registrata, potrebbe essere preferibile non includere tale quantità in un nuovo documento di reso da a acquisto.
 
     > [!NOTE]  
     >  Questo campo è valido solo per righe di carichi registrati e di fatture registrate, ma non per righe di resi registrati o di note di credito registrate.  
 
-    Nella parte sinistra della finestra sono elencati i diversi tipi di documento, mentre il numero tra parentesi indica il numero di documenti disponibili per ogni tipo di documento.
+    Nella parte sinistra della pagina sono elencati i diversi tipi di documento, mentre il numero tra parentesi indica il numero di documenti disponibili per ogni tipo di documento.
 
 6. Nel campo **Filtro tipo documento** selezionare il tipo di righe documento registrate che si intende utilizzare.  
 7. Selezionare le righe che si desidera copiare nel nuovo documento.  
@@ -119,21 +119,21 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
     -   Se la riga del documento registrata include righe di tracciabilità articolo, il campo **Collega-a mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
-     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella finestra **Setup contabilità fornitori e acquisti** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
+     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità fornitori e acquisti** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 
     > [!NOTE]  
     >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
     >   
     >  Se il flusso delle merci nel documento registrato corrisponde a quello nel nuovo documento, viene creata una copia della riga del documento registrato originale nel nuovo documento. Il campo **Collega-da mov. art.** non viene compilato perché in questo caso, lo storno esatto costo non è possibile. Se, ad esempio, si utilizza la funzione **Ottieni righe documento registrato da stornare** per ottenere una riga di nota di credito acquisto registrata per una nuova nota di credito acquisto, nella nuova nota di credito viene copiata esclusivamente la riga di nota di credito registrata originale.  
 
-8. Nella finestra **Ordine di reso acquisto**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
+8. Nella pagina **Ordine di reso acquisto**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
 9. Scegliere l'azione **Registra**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Per creare un ordine di acquisto di sostituzione da un ordine di reso da acquisto
 È possibile raggiungere un accordo con un fornitore per la sostituzione di un articolo quale compensazione per un articolo acquistato. L'articolo sostitutivo può essere uguale oppure diverso. Questa situazione potrebbe presentarsi, ad esempio, se il fornitore ha spedito l'articolo sbagliato.  
-1.  Nella finestra **Ordine di reso acquisto** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
+1.  Nella pagina **Ordine di reso acquisto** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
 2. Scegliere l'azione **Sposta righe negative**.  
-3. Nella finestra **Muovi righe acquisto negative** compilare i campi secondo le necessità.
+3. Nella pagina **Muovi righe acquisto negative** compilare i campi secondo le necessità.
 4. Scegliere il pulsante **OK**. La riga negativa viene eliminata dall'ordine di reso acquisto e un nuovo ordine di acquisto viene creato. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Per creare un abbuono di acquisto  
@@ -150,7 +150,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
     È possibile creare un numero di addebito articolo particolare per coprire gli abbuoni sugli acquisti.  
 6.  Nel campo **Quantità** immettere **1**.  
 7.  Nel campo **Costo Diretto Unitario** immettere l'importo dell'abbuono.  
-8.  Assegnare l'abbuono come addebito sugli articoli nel carico registrato. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla finestra **Nota credito acquisto**.
+8.  Assegnare l'abbuono come addebito sugli articoli nel carico registrato. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla pagina **Nota credito acquisto**.
 
 Durante la registrazione dell'ordine di reso da acquisto, l'abbuono viene aggiunto all'importo del movimento di acquisto corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 

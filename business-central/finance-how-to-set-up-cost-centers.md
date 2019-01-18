@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Impostare i centri di costo
@@ -27,7 +27,7 @@ I centri di costo sono i reparti responsabili dei costi e delle entrate. Il graf
 -   Creare un nuovo grafico del centro di costo che sia indipendente dalla contabilità generale o aggiungere un nuovo centro di costo a un grafico del centro di costo esistente. È necessario creare ogni centro di costo singolarmente.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Per trasferire i valori dimensioni nella contabilità generale al grafico dei centri di costo  
-1.  Impostare una dimensione come dimensione centro di costo nella finestra **Aggiorna dimensioni cont. industriale** . Solo i valori di questa dimensione vengono trasferiti.  
+1.  Impostare una dimensione come dimensione centro di costo nella pagina **Aggiorna dimensioni cont. industriale** . Solo i valori di questa dimensione vengono trasferiti.  
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei centri di costo** e quindi scegliere il collegamento correlato.  
 3.  Nel gruppo **Funzioni** della scheda **Azioni** selezionare **Ottieni centri di costo da dimensione** per trasferire i valori dimensioni al grafico dei centri di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
@@ -36,10 +36,10 @@ I centri di costo sono i reparti responsabili dei costi e delle entrate. Il graf
 
 Il grafico dei centri di costo contiene ora tutti i valori dimensioni specificati della contabilità generale e include i titoli e i subtotali.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Per creare nuovi centri di costo nella finestra Piano dei centri di costo  
-È possibile impostare e gestire centri di costo nella scheda **Scheda centro di costo** o nella finestra **Piano dei centri di costo**. In questa procedura è possibile impostare i centri di costo nella finestra  **Piano dei centri di costo**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Per creare nuovi centri di costo nella pagina Piano dei centri di costo  
+È possibile impostare e gestire centri di costo nella scheda **Scheda centro di costo** o nella pagina **Piano dei centri di costo**. In questa procedura è possibile impostare i centri di costo nella pagina **Piano dei centri di costo**.  
 
-1. Aprire la finestra **Piano dei centri di costo** in modalità di modifica.  
+1. Aprire la pagina **Piano dei centri di costo** in modalità di modifica.  
 2. Nel campo  **Codice** immettere il codice centro di costo. Tutti i centri di costo devono disporre di un codice.  
 3. Nel campo **Nome** immettere il nome del centro di costo.  
 4. Fare clic sulla freccia a discesa nel campo **Tipo riga** per specificare lo scopo del centro di costo.  

@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-reports"></a>Utilizzo dei report
-Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la finestra **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
+Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
 
 I report sono disponibili nella scheda **Reports** elle pagine selezionate oppure è possibile utilizzare una ricerca tramite l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per individuare i report per nome.
 
@@ -58,7 +58,7 @@ Utilizzare la barra dei menu per:
 
 -   Spostarsi tra le pagine
 -   Ingrandire o ridurre
--   Ridimensionare per adattare alla finestra
+-   Ridimensionare per adattare alla pagina
 -   Seleziona testo
 
     È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. È quindi possibile premere il pulsante destro del mouse e selezionare **Copia**. È possibile incollare il testo selezionato nella posizione desiderata.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
@@ -38,8 +38,8 @@ Se si desidera fatturare più di una spedizione per volta, utilizzare la funzion
 7. Per registrare la fattura scegliere l'azione **Registra**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture cumulative** e quindi scegliere il collegamento correlato. Viene visualizzata la finestra di richiesta del processo batch.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture cumulative** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina di richiesta del processo batch.  
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Selezionare la casella di controllo **Registra fatture**.  
 4.  Scegliere il pulsante **OK**.  
 

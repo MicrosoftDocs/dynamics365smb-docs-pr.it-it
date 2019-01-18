@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vendere articoli di assemblaggio su ordine e articoli di magazzino insieme
@@ -31,7 +31,7 @@ Tale flessibilità è disponibile quando si vendono articoli da assemblare su or
 >  La procedura seguente non include i passaggi dell'ordine di vendita standard che occorre eseguire prima di creare un ordine di assemblaggio per le quantità non disponibili.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Per vendere articoli di assemblaggio su ordine e articoli di magazzino insieme  
-1.  In una riga dell'ordine di vendita per un articolo impostato per l'assemblaggio per magazzino, immettere una quantità che supera quella di magazzino nel campo **Quantità**. Viene visualizzata la finestra **Controllo disponibilità**. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
+1.  In una riga dell'ordine di vendita per un articolo impostato per l'assemblaggio per magazzino, immettere una quantità che supera quella di magazzino nel campo **Quantità**. Viene visualizzata la pagina **Controllo disponibilità**. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 2.  Si noti il campo **Quantità totale** (valore negativo), in cui si immetterà un valore nel passaggio successivo.  
 3.  Nel campo **Qtà. per assemblaggio su ordine** immettere il valore del passaggio precedente.  
 4.  Applicare eventuali modifiche ai componenti di assemblaggio. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  

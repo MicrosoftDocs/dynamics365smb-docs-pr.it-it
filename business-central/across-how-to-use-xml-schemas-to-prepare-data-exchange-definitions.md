@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 860de16a7cf5f608b6b1739eb8a4900ebe6c8e11
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utilizzare gli schemi XML per preparare le definizioni di scambio dati
-Per abilitare l'importazione/esportazione di dati in file XML attraverso il framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile usare gli schemi XML per definire quali elementi di dati si desidera scambiare con [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile effettuare questa attività nella finestra **Visualizzatore schema XML** caricando il file di schema XML, selezionando gli elementi dati pertinenti e quindi inizializzando una definizione di scambio dati o un oggetto XMLport.  
+Per abilitare l'importazione/esportazione di dati in file XML attraverso il framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile usare gli schemi XML per definire quali elementi di dati si desidera scambiare con [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile effettuare questa attività nella pagina **Visualizzatore schema XML** caricando il file di schema XML, selezionando gli elementi dati pertinenti e quindi inizializzando una definizione di scambio dati o un oggetto XMLport.  
 
  Dopo avere definito gli elementi dati da includere in base allo schema XML, è possibile utilizzare l'azione **Genera XMLport** per creare l'oggetto XMLport.  
 
- In alternativa, è possibile utilizzare l'azione **Genera definizione scambio dati** per inizializzare una definizione di scambio di dati in base agli elementi dati selezionati, che poi può essere completata nella struttura di scambio di dati. Viene creato un record nella finestra **Registrazione definizioni di scambio** dove si continua il processo definendo il mapping tra gli elementi del file e i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
+ In alternativa, è possibile utilizzare l'azione **Genera definizione scambio dati** per inizializzare una definizione di scambio di dati in base agli elementi dati selezionati, che poi può essere completata nella struttura di scambio di dati. Viene creato un record nella pagina **Registrazione definizioni di scambio** dove si continua il processo definendo il mapping tra gli elementi del file e i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
  In questo argomento sono contenute le seguenti procedure:  
 
@@ -106,12 +106,12 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 3.  Assicurarsi che i nodi pertinenti siano selezionati. Per ulteriori informazioni, vedere la sezione "Per selezionare o rimuovere i nodi in uno schema XML".  
 
-4.  Nella finestra **Visualizzatore schema XML**, nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Genera definizione scambio dati**.  
+4.  Nella pagina **Visualizzatore schema XML**, nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Genera definizione scambio dati**.  
 
- Verrà creata una definizione di scambio dati nella finestra **Registrazione definizioni di scambio** che si potrà completare specificando gli elementi del file da mappare con i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
+ Verrà creata una definizione di scambio dati nella pagina **Registrazione definizioni di scambio** che si potrà completare specificando gli elementi del file da mappare con i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
->  È inoltre possibile utilizzare la funzione **Ottieni struttura file** della finestra **Registrazione definizioni di scambio** che utilizza la funzionalità della finestra **Visualizzatore schema XML** per precompilare la Scheda dettaglio **Definizioni colonne**.  
+>  È inoltre possibile utilizzare la funzione **Ottieni struttura file** della pagina **Registrazione definizioni di scambio** che utilizza la funzionalità della finestra **Visualizzatore schema XML** per precompilare la Scheda dettaglio **Definizioni colonne**.  
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Per generare un oggetto XMLport basato su uno schema XML  
 

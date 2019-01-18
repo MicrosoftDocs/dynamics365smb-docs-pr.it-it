@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
@@ -33,7 +33,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Per aggiungere una tabella al foglio di lavoro  
-1.  Nella finestra **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  
+1.  Nella pagina **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  
 2.  Nella prima riga, nel campo **Tipo riga**, selezionare **Tabella**.  
 4.  Nel campo **ID tabella** selezionare la tabella che si desidera aggiungere alla configurazione.  
 5.  Nel campo **ID pagina** immettere l'ID della pagina associata alla tabella. Per le tabelle standard, questo valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
@@ -53,7 +53,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
 10. Per rimuovere le informazioni di tabella duplicate, che possono risultare dall'utilizzo dell'azione **Ottieni tabelle correlate**, scegliere l'azione **Elimina righe duplicate**. Ciò rimuoverà le tabelle duplicate con lo stesso codice pacchetto.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Per aggiungere più tabelle al foglio di lavoro configurazione  
-1. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la finestra con il processo batch **Ottieni tabelle di configurazione**.  
+1. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina con il processo batch **Ottieni tabelle di configurazione**.  
 2. Nella Scheda dettaglio **Opzioni**, specificare i tipi di tabelle da aggiungere alla configurazione, come descritto nella tabella seguente.
 
     |Opzione|Description|  
@@ -73,7 +73,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
     > - La relazione è condizionale.  
     > Esempio: se si ottengono le tabelle correlate per la tabella **Cliente**, la tabella **Ubicazione** non verrà aggiunta poiché è correlata solo in modo condizionale alla tabella **Cliente**, ovvero se il campo **Codice ubicazione** nella tabella **Cliente** è compilato.  
     > - La tabella correlata è filtrata.  
-    > Esempio: un campo nella tabella relativa dispone di una clausola WHERE. La ragione è che le informazioni implicate di relazioni vengono archiviate nella tabella virtuale **Campo** e non sono disponibili nelle finestre quali il prospetto di configurazione per i motivi di prestazione.  
+    > Esempio: un campo nella tabella relativa dispone di una clausola WHERE. La ragione è che le informazioni implicate di relazioni vengono archiviate nella tabella virtuale **Campo** e non sono disponibili nelle pagine quali il prospetto di configurazione per i motivi di prestazione.  
     > È necessario aggiungere le tabelle correlate caratterizzate da relazioni particolarmente complesse manualmente seguendo il passaggio 4 nella sezione "Per aggiungere una tabella al foglio di lavoro".
 
 7. Per eliminare tabelle dalla lista delle tabelle risultante, selezionare una tabella da rimuovere, quindi scegliere l'azione **Elimina**.  

@@ -1,20 +1,20 @@
 ---
 title: "Registrare le entrate o le spese direttamente nella contabilità generale| Documenti Microsoft"
-description: "Per le attività aziendali che non vengono rappresentate da un documento, ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella finestra Registrazioni COGE."
-author: edupont04
+description: "Per le attività aziendali che non vengono rappresentate da un documento, ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella pagina Registrazioni COGE."
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6aedfbd1decc7d897c7beb4119f7eacdf5d9c23d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2625ad82d2d3c45e607f35d21cac9d943af2d2f2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrare le transazioni direttamente nella contabilità generale
@@ -33,12 +33,12 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 2. Aprire il batch registrazioni COGE appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. In una nuova riga di registrazione, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
-    > [!TIP]
+    > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Ripetere il passaggio 3 tutte le transazioni separate da registrare.
 
     > [!TIP]  
-    > Se si immettono più righe di transazione sopra a una riga di contropartita, ad esempio, per un conto corrente bancario, seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il batch nella finestra **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le transazioni.
+    > Se si immettono più righe di transazione sopra a una riga di contropartita, ad esempio, per un conto corrente bancario, seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il batch nella pagina **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le transazioni.
 5. Scegliere l'azione **Registra** per registrare le transazioni nei conti C/G specificati.
 
 ## <a name="see-also"></a>Vedi anche

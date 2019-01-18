@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
@@ -51,7 +51,7 @@ Una situazione contabile è costituita da un nome della situazione contabile del
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Per impostare un nuovo nome situazione contabile  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Descr. situazioni contabili** scegliere l'azione **Nuovo** per creare un nuovo nome della situazione contabile del conto di cassa.  
+2.  Nella pagina **Descr. situazioni contabili** scegliere l'azione **Nuovo** per creare un nuovo nome della situazione contabile del conto di cassa.  
 3.  Nel campo **Nome** immettere **Previsione**.  
 4.  Nel campo **Descrizione** immettere **Previsione flusso di cassa**.  
 5.  Lasciare vuoti i campi **Default layout colonna** e **Nome visual. analisi**.  
@@ -61,8 +61,8 @@ Dopo aver impostato un nome della situazione contabile, Ken definisce tutte le r
 
 ### <a name="to-set-up-account-schedule-lines"></a>Per impostare le righe della situazione contabile  
 
-1.  Nella finestra **Descr. situazioni contabili** selezionare il nome della nuova situazione contabile **Previsione** creata. Nella scheda **Pagina iniziale** del gruppo **Processo** scegliere **Modifica situazione contabile**.  
-2.  Nella finestra **Situazione contabile** immettere ogni riga esattamente come indicato nella tabella riportata di seguito.  
+1.  Nella pagina **Descr. situazioni contabili** selezionare il nome della nuova situazione contabile **Previsione** creata. Nella scheda **Pagina iniziale** del gruppo **Processo** scegliere **Modifica situazione contabile**.  
+2.  Nella pagina **Situazione contabile** immettere ogni riga esattamente come indicato nella tabella riportata di seguito.  
 
     > [!NOTE]  
     >  Utilizzando la funzione **Inserisci conti di costo e nolo**, è possibile contrassegnare rapidamente i conti di cassa del relativo piano e copiarli nelle righe della situazione contabile.  
@@ -79,12 +79,12 @@ Ken è ora pronto per assegnare il layout colonna al nome della situazione conta
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Per assegnare il layout colonna al nome situaz. contabile.  
 
-1.  Nella finestra **Descr. situazioni contabili** selezionare **Previsione** nel campo **Nome**.  
+1.  Nella pagina **Descr. situazioni contabili** selezionare **Previsione** nel campo **Nome**.  
 2.  Nel campo **Default layout colonna** selezionare il layout colonna **Flusso di cassa** da assegnare come layout colonna predefinito.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Per visualizzare e stampare la previsione del flusso di cassa  
-1.  Nella finestra **Descr. situazioni contabili**, scegliere l'azione **Sintesi** per visualizzare la previsione del flusso di cassa.  
-2.  Nella finestra **Sintesi situaz. contabile** è possibile selezionare un importo e quindi visualizzare i movimenti di previsione del flusso di cassa che compongono l'importo. Inoltre, è possibile visualizzare la formula utilizzata per calcolare l'importo. È anche possibile filtrare gli importi per data e dimensioni.  
+1.  Nella pagina **Descr. situazioni contabili**, scegliere l'azione **Sintesi** per visualizzare la previsione del flusso di cassa.  
+2.  Nella pagina **Sintesi situaz. contabile** è possibile selezionare un importo e quindi visualizzare i movimenti di previsione del flusso di cassa che compongono l'importo. Inoltre, è possibile visualizzare la formula utilizzata per calcolare l'importo. È anche possibile filtrare gli importi per data e dimensioni.  
 3.  Scegliere l'azione **Stampa** per stampare la previsione del flusso di cassa.  
 
 ## <a name="see-also"></a>Vedi anche  

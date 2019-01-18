@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
@@ -41,8 +41,8 @@ Sia per i documenti di vendita che di acquisto, è possibile assegnare un addebi
 I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi di addebito utilizzati nella propria società.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Addebiti articoli** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo** nella finestra **Addebiti articoli** per creare una nuova riga.
-3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Scegliere l'azione **Nuovo** nella pagina **Addebiti articoli** per creare una nuova riga.
+3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
 Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
@@ -58,9 +58,9 @@ Se si conosce l'addebito articolo nel momento in cui si registra una fattura di 
     Nei seguenti passaggi, verrà effettuata l'assegnazione effettiva. Finché l'addebito articolo non è assegnato completamente, il valore nel campo **Qtà da assegnare** verrà visualizzato con carattere rosso.
 8. Nella Scheda dettaglio **Righe** fare clic sull'azione **Assegnazione addebito articolo**.
 
-    Verrà visualizzata la finestra **Assegnazione addebito articolo** che mostra una riga per ogni riga di tipo Articolo nella fattura di acquisto. Per assegnare l'addebito articolo a una o più righe della fattura, è possibile utilizzare una funzione che assegna e distribuisce l'addebito automaticamente oppure è possibile compilare manualmente il campo **Qtà da assegnare**. Nei seguenti passaggi viene descritto come utilizzare la funzione Suggerisci assegnazione addebiti articoli.
+    Verrà visualizzata la pagina **Assegnazione addebito articolo** che mostra una riga per ogni riga di tipo Articolo nella fattura di acquisto. Per assegnare l'addebito articolo a una o più righe della fattura, è possibile utilizzare una funzione che assegna e distribuisce l'addebito automaticamente oppure è possibile compilare manualmente il campo **Qtà da assegnare**. Nei seguenti passaggi viene descritto come utilizzare la funzione Suggerisci assegnazione addebiti articoli.
 
-9. Nella finestra **Assegnazione addebito articolo**, selezionare l'azione **Suggerisci assegnazione addebiti articoli**.
+9. Nella pagina **Assegnazione addebito articolo**, selezionare l'azione **Suggerisci assegnazione addebiti articoli**.
 10. Se vi sono più di una riga fattura di tipo Articolo, selezionare una delle quattro opzioni di distribuzione.  
 
 Finché l'addebito articolo è assegnato completamente, il valore nel campo **Qtà da assegnare** nella fattura di acquisto verrà visualizzato come zero.
@@ -70,8 +70,8 @@ L'addebito è ora assegnato alla fattura di acquisto. Quando si registra il cari
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
 Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registrazione del carico dell'acquisto originale, attenersi alla procedura seguente.
 1. Ripetere i passaggi da 1 a 8 della sezione Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo.
-2. Nella finestra **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico**.
-3. Nella finestra **Righe carico acq.** selezionare il carico di acquisto registrato per l'articolo a cui si desidera assegnare l'addebito quindi scegliere **OK**.
+2. Nella pagina **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico**.
+3. Nella pagina **Righe carico acq.** selezionare il carico di acquisto registrato per l'articolo a cui si desidera assegnare l'addebito quindi scegliere **OK**.
 4. Scegliere l'azione **Suggerisci ass. addebiti art.**.
 
 Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati all'articolo nel carico di acquisto registrato, viene quindi aggiornato il valore di magazzino dell'articolo con il costo dell'addebito articolo.

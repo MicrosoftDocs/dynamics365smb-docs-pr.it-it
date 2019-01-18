@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Aggiungere contatti ai segmenti
-Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della finestra **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
+Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della pagina **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Per aggiungere un contatto a un segmento
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti** e quindi scegliere il collegamento correlato.  
-2. Selezionare il segmento e fare clic sull'azione **Agg. contatti**. Verrà visualizzata la finestra del processo batch **Agg. contatti**.
+2. Selezionare il segmento e fare clic sull'azione **Agg. contatti**. Verrà visualizzata la pagina del processo batch **Agg. contatti**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni in base alle quali si desidera selezionare i contatti.
 
 Per impostare filtri aggiuntivi, ripetere questa procedura in ciascuna delle restanti sezioni rimanenti e quindi fare clic sul pulsante. **OK**.
@@ -32,10 +32,10 @@ Per impostare filtri aggiuntivi, ripetere questa procedura in ciascuna delle res
 Se i contatti sono stati aggiunti per errore e si desidera tornare indietro di un passaggio, fare clic sull'azione **Vai a precedente**.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Per perfezionare il numero dei contatti
-Una volta selezionati i contatti all'interno di un segmento, è possibile eliminarne alcuni e conservarne altri. È possibile effettuare questa operazione eliminando manualmente i contatti dalle righe della finestra **Segmento**, ma il metodo più semplice e rapido è utilizzare l'azione **Ridefinisci contatti**.
+Una volta selezionati i contatti all'interno di un segmento, è possibile eliminarne alcuni e conservarne altri. È possibile effettuare questa operazione eliminando manualmente i contatti dalle righe della pagina **Segmento**, ma il metodo più semplice e rapido è utilizzare l'azione **Ridefinisci contatti**.
 
 1. Aprire il segmento.
-2. Selezionare **Contatti** quindi l'azione **Perfeziona contatti**. Verrà aperta la finestra **Eliminaz. contatti - Perfezion.**.
+2. Selezionare **Contatti** quindi l'azione **Perfeziona contatti**. Verrà aperta la pagina **Eliminaz. contatti - Perfezion.**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni che si desidera utilizzare per selezionare i contatti da rimuovere dal segmento.
 4. Aggiungere i filtri aggiuntivi in base alle esigenze quindi selezionare il pulsante **OK**.
 
@@ -44,10 +44,10 @@ Una volta selezionati i contatti all'interno di un segmento, è possibile elimin
 Per visualizzare una lista dei criteri relativi ai segmenti utilizzati, nella sezione **Generale** selezionare il campo **Nr. di azioni criteri**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Per ridurre il numero dei contatti
-Una volta selezionati i contatti all'interno di un segmento, è possibile eliminarne alcuni. Questa operazione può essere effettuata eliminando manualmente i contatti dalle righe nella finestra Segmento, ma il metodo più semplice e rapido è utilizzare la funzione Riduci contatti per specificare i contatti da eliminare e la funzione Ridefinisci contatti per specificare i contatti da mantenere.
+Una volta selezionati i contatti all'interno di un segmento, è possibile eliminarne alcuni. Questa operazione può essere effettuata eliminando manualmente i contatti dalle righe nella pagina Segmento, ma il metodo più semplice e rapido è utilizzare la funzione Riduci contatti per specificare i contatti da eliminare e la funzione Ridefinisci contatti per specificare i contatti da mantenere.
 
 1. Aprire il segmento.
-2. Selezionare Contatti, quindi l'azione **Riduci contatti**. Verrà visualizzata la finestra **Eliminaz. contatti - Riduzione**.
+2. Selezionare Contatti, quindi l'azione **Riduci contatti**. Verrà aperta la pagina **Eliminaz. contatti - Riduzione**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni che si desidera utilizzare per selezionare i contatti da rimuovere dal segmento.
 4. Aggiungere i filtri aggiuntivi in base alle esigenze quindi selezionare il pulsante **OK**.
 

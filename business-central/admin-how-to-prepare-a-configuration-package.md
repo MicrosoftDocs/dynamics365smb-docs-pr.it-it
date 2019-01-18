@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
@@ -36,10 +36,10 @@ Accertarsi di essere nella Gestione ruolo utente Implementatore di RapidStart Se
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come appropriato nella Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Per escludere i questionari di configurazione, i modelli di configurazione e le tabelle del foglio di lavoro di configurazione dal pacchetto, selezionare la casella di controllo **Escludi tabelle di configurazione**. In caso contrario, tali tabelle verranno aggiunte automaticamente alla lista di tabelle del pacchetto al momento dell'esportazione del pacchetto.  
-5. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la finestra con il processo batch **Ottieni tabelle pacchetto**.  
-6. Selezionare il campo **Seleziona tabelle**. Verrà visualizzata la finestra **Selezione configurazione**.  
+5. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina con il processo batch **Ottieni tabelle pacchetto**.  
+6. Selezionare il campo **Seleziona tabelle**. Verrà visualizzata la pagina **Selezione configurazione**.  
 7. Scegliere l'azione **Seleziona tutto** per aggiungere tutte le tabelle al pacchetto oppure selezionare la casella di controllo **Selezionato** per ogni tabella della lista che si desidera aggiungere.
-8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aggiunte alle righe della finestra **Pacchetto di configurazione**.  
+8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aggiunte alle righe della pagina **Pacchetto di configurazione**.  
 
     > [!NOTE]  
     >  È possibile eseguire questa operazione anche nel foglio di lavoro della configurazione. Selezionare le tabelle che si desidera includere nel pacchetto, quindi selezionare l'azione **Assegna pacchetto**.
@@ -64,13 +64,13 @@ Dopo aver rifinito la lista dei campi da includere in una tabella, è possibile 
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Per includere un modello per il collegamento a una tabella  
 In alcune tabelle, come quella che conterrà dati master, è possibile specificare un modello da applicare ai dati. Il modello può includere i campi richiesti che si desidera collegare a tutti i dati master e che non si desidera mai modificare. È, ad esempio, possibile creare un modello che può essere utilizzato con i dati dei clienti. Il modello può contenere tutti i campi richiesti, consentendo quindi l'importazione coerente di informazioni standardizzate. Le informazioni che non possono essere standardizzate, come la ragione sociale del cliente, vengono quindi considerate quando si effettua l'importazione dei dati dei clienti.
 
-1. Nella finestra **Scheda pacchetto di configurazione**, selezionare una tabella, quindi scegliere il campo **Modello dati**. Viene visualizzata una lista dei modelli in base alla tabella.
+1. Nella pagina **Scheda pacchetto di configurazione**, selezionare una tabella, quindi scegliere il campo **Modello dati**. Viene visualizzata una lista dei modelli in base alla tabella.
 2. Selezionare un modello e scegliere il pulsante **OK**.  
 
 Al completamento del pacchetto, seguire la procedura seguente per salvare il pacchetto in un file. Sarà quindi possibile assegnare il pacchetto a un cliente o a un partner per essere utilizzato.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Per salvare ed esportare un pacchetto di configurazione  
-- Nella finestra gruppo **Scheda pacchetto di configurazione**, scegliere l'azione **Esporta pacchetto**.  
+- Nella pagina **Scheda pacchetto di configurazione**, scegliere l'azione **Esporta pacchetto**.  
 
 Il pacchetto viene creato in un file con estensione rapidstart, che offre il contenuto del pacchetto in un formato compresso. I questionari, i modelli di configurazione così come il foglio di lavoro configurazione vengono aggiunti al pacchetto automaticamente a meno che non si decida specificatamente di escluderli.  
 
@@ -121,7 +121,7 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
     > [!NOTE]  
     >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
 
-3. Scegliere l'azione **Dati database**. Viene visualizzata la finestra per la pagina relativa.
+3. Scegliere l'azione **Dati database**. Viene visualizzata la pagina per la pagina relativa.
 4. Esaminare le informazioni disponibili. Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Per copiare dati da un ambiente di test in uno di produzione  
@@ -130,9 +130,9 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 1. Aprire e inizializzare la nuova società.  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Copia dati da società**.  
-4. Nella finestra **Copia dati società**, selezionare **Copia da**. Viene visualizzata la finestra **Società**.  
+4. Nella pagina **Copia dati società**, selezionare **Copia da**. Verrà aperta la pagina **Società**.  
 5. Selezionare la società da cui copiare i dati e selezionare il pulsante **OK**. Viene visualizzata una lista di tabelle selezionate nel foglio di lavoro configurazione. Solo le tabelle contenenti i record sono incluse nella lista.
-6. Selezionare le tabelle da cui copiare i dati, quindi scegliere l'azione **Copia dati**. Nella finestra **Copia dati società**, selezionare il pulsante **OK**.  
+6. Selezionare le tabelle da cui copiare i dati, quindi scegliere l'azione **Copia dati**. Nella pagina **Copia dati società**, selezionare il pulsante **OK**.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md)  

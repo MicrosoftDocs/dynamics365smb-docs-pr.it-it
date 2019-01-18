@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Registrazione di assistenza
@@ -23,7 +23,7 @@ La funzionalità di registrazione dei servizi di assistenza consente di elaborar
 > [!NOTE]  
 >  Di seguito viene descritta la registrazione di assistenza indipendentemente dalla modalità di gestione fisica degli articoli nella warehouse.  
 >   
->  In un'ubicazione non impostata per richiedere la gestione warehouse, le azioni di registrazione vengono effettuate direttamente nella finestra **Righe assistenza**. Nelle ubicazioni che prevedono la gestione in warehouse, le azioni di registrazione descritte, tranne Spedizione e consumo, vengono eseguite indirettamente tramite diverse funzioni di spedizione warehouse, a seconda del setup. Per ulteriori informazioni, vedere [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  In un'ubicazione non impostata per richiedere la gestione warehouse, le azioni di registrazione vengono effettuate direttamente nella pagina **Righe assistenza**. Nelle ubicazioni che prevedono la gestione in warehouse, le azioni di registrazione descritte, tranne Spedizione e consumo, vengono eseguite indirettamente tramite diverse funzioni di spedizione warehouse, a seconda del setup. Per ulteriori informazioni, vedere [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Spedizione  
 L'opzione relativa alla spedizione consente di registrare gli articoli e il tempo appropriati immessi nelle righe di un ordine di assistenza dopo il completamento dell'assistenza stessa. Viene creata una spedizione registrata e si verificano aggiornamenti nel modulo Magazzino e in altri moduli di [!INCLUDE[d365fin](includes/d365fin_md.md)] con l'indicazione che gli articoli sono stati prelevati dal magazzino e inviati al cliente. In particolare, vengono generati movimenti contabili relativi agli articoli e al valore, movimenti assistenza e movimenti garanzia.  
@@ -42,10 +42,10 @@ L'opzione di spedizione e consumo consente di registrare e contabilizzare artico
 > [!NOTE]  
 >  La procedura di registrazione di assistenza consente di eseguire la registrazione parziale. Prima di effettuare la registrazione, è inoltre possibile creare una spedizione parziale o una fattura parziale compilando i campi **Qtà da spedire** e **Qtà da fatturare** nelle singole righe di assistenza degli ordini di assistenza. Si tenga presente che non è possibile creare una fattura per un articolo che non è stato spedito. Ciò significa che è necessario registrare una spedizione prima di emettere una fattura oppure la spedizione e la fattura devono essere contemporanee.  
 
-Dopo il completamento della registrazione, sarà possibile visualizzare i documenti di assistenza registrati nelle finestre corrispondenti, ovvero **Spedizione assistenza registrata** e **Fattura assistenza registrata**. I movimenti creati possono essere visualizzati in apposite finestre contenenti movimenti registrati, ad esempio **Movimenti C/G**, **Mov. contabili articoli**, **Movimenti warehouse**, **Movimenti assistenza**, **Movimenti cont. commesse** e **Movimenti garanzia**.  
+Dopo il completamento della registrazione, sarà possibile visualizzare i documenti di assistenza registrati nelle pagina corrispondenti, ovvero **Spedizione assistenza registrata** e **Fattura assistenza registrata**. I movimenti creati possono essere visualizzati in apposite pagine contenenti movimenti registrati, ad esempio **Movimenti C/G**, **Mov. contabili articoli**, **Movimenti warehouse**, **Movimenti assistenza**, **Movimenti cont. commesse** e **Movimenti garanzia**.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Per visualizzare informazioni su un documento di assistenza registrato  
-Quando si registra una fattura, una spedizione o una nota di credito di assistenza, le informazioni presenti nel documento vengono trasferite nella finestra **Fattura assistenza registrata**, **Spedizione assistenza registrata** o **Nota credito assistenza registrata** rispettivamente. In queste finestre non è possibile immettere, modificare né eliminare alcuna informazione. Nelle finestre è possibile stampare una spedizione, una fattura o una nota di credito.  
+Quando si registra una fattura, una spedizione o una nota di credito di assistenza, le informazioni presenti nel documento vengono trasferite nelle pagine **Fattura assistenza registrata**, **Spedizione assistenza registrata** o **Nota credito assistenza registrata** rispettivamente. In queste pagine non è possibile immettere, modificare né eliminare alcuna informazione. Nelle pagine è possibile stampare una spedizione, una fattura o una nota di credito.  
 
 Nella procedura seguente viene utilizzata una fattura di assistenza registrata come esempio, ma la stessa procedura può essere applicata alle spedizioni di assistenza registrate e alle note di credito registrate.  
 
@@ -53,7 +53,7 @@ Nella procedura seguente viene utilizzata una fattura di assistenza registrata c
 2. Aprire la fattura di assistenza registrata che si desidera visualizzare.  
 3. Per ottenere una panoramica della fattura registrata, scegliere l'azione **Statistiche**.  
 
-    Viene visualizzata la finestra **Statistiche ordine assistenza**. Nella finestra vengono visualizzate informazioni quali quantità, importo, IVA, costo, margine e limite di credito del cliente per il documento registrato.
+    Viene visualizzata la pagina **Statistiche ordine assistenza**. Nella pagina vengono visualizzate informazioni quali quantità, importo, IVA, costo, margine e limite di credito del cliente per il documento registrato.
 
 ## <a name="see-also"></a>Vedi anche  
 [Registrare ordini di assistenza](service-how-to-post-service-orders.md)   

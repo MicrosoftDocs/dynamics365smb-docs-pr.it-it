@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3c368af3347c72f2cf355876ed5574151095f993
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d5582e1857481d32ad146d0732f4c60d1b678c74
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a>Impostare le unità di stockkeeping
@@ -35,7 +35,11 @@ Una volta impostata la prima unità di stockkeeping per un articolo, la casella 
 Per creare diverse unità di stockkeeping per un articolo, utilizzare il processo batch **Crea unità di stockkeeping**.  
 
 > [!NOTE]  
->  Le informazioni contenute nella scheda **Unità di stockkeeping** sono prioritarie rispetto a quelle della scheda **Articolo**.  
+>  Le informazioni contenute nella scheda **Unità di stockkeeping** sono prioritarie rispetto a quelle della scheda **Articolo**.
+
+> [!Warning]
+> Se la USK viene fornita tramite produzione, il campo **Costo standard** non è utilizzato quando si fattura e si rettifica il costo effettivo dell'articolo prodotto. In alternativa, viene utilizzato il campo **Costo standard** nella scheda articolo sottostante e tutti gli scostamenti vengono calcolati rispetto al dettaglio costi di tale articolo.<br /><br />
+> Poiché le distinte base e il ciclo di produzione non possono essere assegnati a USK, anche il rollup del costo unitario e il calcolo correlato del dettaglio costi non sono disponibili nelle USK. Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md).
 
 ## <a name="see-also"></a>Vedi anche  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  

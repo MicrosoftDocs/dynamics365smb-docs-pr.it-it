@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
@@ -25,8 +25,8 @@ ms.lasthandoff: 09/28/2018
 * Da una riga di ordine di vendita di tipo **Articolo** con un campo vuoto **No***, selezionare un articolo di catalogo. Una scheda articolo viene creata automaticamente per l'articolo di catalogo.
 
 > [!NOTE]  
-> Non è possibile selezionare un articolo di catalogo dalla finestra **Fattura di vendita**.<br /><br />
-> È possibile selezionare un articolo di catalogo dalla finestra **Offerta di vendita**, ma l'articolo di catalogo non verrà convertito in articolo normale quando si utilizza la funzione **Crea ordine**.
+> Non è possibile selezionare un articolo di catalogo dalla pagina **Fattura di vendita**.<br /><br />
+> È possibile selezionare un articolo di catalogo dalla pagina **Offerta di vendita**, ma l'articolo di catalogo non verrà convertito in articolo normale quando si utilizza la funzione **Crea ordine**.
 
 Un articolo di catalogo ha in genere il numero di articolo del fornitore che lo fornisce. Per abilitare la conversione di una scheda articolo di catalogo in una scheda articolo normale, è necessario impostare come la numerazione articolo fornitore viene convertita nella numerazione articolo dell'utente.   
 
@@ -49,7 +49,7 @@ Per abilitare la conversione di una scheda articolo di catalogo in una scheda ar
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Per convertire un articolo di catalogo in articolo normale
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli di catalogo** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda dell'articolo di catalogo da convertire in articolo normale.
-3. Nella finestra **Scheda articolo di catalogo** scegliere l'azione **Crea articolo**.
+3. Nella pagina **Scheda articolo di catalogo** scegliere l'azione **Crea articolo**.
 
 Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo di catalogo e viene creato un modello articolo relativo. È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Verrà visualizzata una nuova scheda articolo precompilata con le informazioni d
 4. Scegliere l'azione **Riga**, quindi l'azione **Selezionare articoli di catalogo**.
 
     L'articolo di catalogo viene convertito in articolo normale. Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo di catalogo e viene creato un modello articolo relativo.
-5. Nella finestra **Articoli di catalogo** selezionare l'articoli di catalogo che si desidera vendere, quindi scegliere **OK**.
+5. Nella pagina **Articoli di catalogo** selezionare l'articoli di catalogo che si desidera vendere, quindi scegliere **OK**.
 6. Una volta completato l'ordine di vendita, scegliere l'azione **Registra**.
 
 È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).

@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Stato di assegnazione e stato di riparazione degli articoli in assistenza
-Lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei movimenti di assegnazione degli articoli in assistenza sono correlati in Gestione assistenza. Lo stato di assegnazione cambia quando lo stato di riparazione dell'articolo in assistenza viene modificato in **Completato** o **Parzialmente Assistito** e quando un'offerta di assistenza viene convertita in ordine di assistenza. Lo stato di riparazione dell'articolo in assistenza cambia quando l'assegnazione dell'articolo in assistenza viene eliminata o quando l'articolo in assistenza viene riassegnato ad un'altra risorsa. Lo stato di riparazione degli articoli in assistenza può essere visualizzato nella finestra **Compiti di Assistenza** e aggiornato nel campo **Codice Stato Riparazione** della finestra **Prospetto Art. in Assist.** È possibile visualizzare lo stato di assegnazione nel campo **Stato** della finestra **Assegnazioni risorse**.  
+Lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei movimenti di assegnazione degli articoli in assistenza sono correlati in Gestione assistenza. Lo stato di assegnazione cambia quando lo stato di riparazione dell'articolo in assistenza viene modificato in **Completato** o **Parzialmente Assistito** e quando un'offerta di assistenza viene convertita in ordine di assistenza. Lo stato di riparazione dell'articolo in assistenza cambia quando l'assegnazione dell'articolo in assistenza viene eliminata o quando l'articolo in assistenza viene riassegnato ad un'altra risorsa. Lo stato di riparazione degli articoli in assistenza può essere visualizzato nella pagina **Compiti di Assistenza** e aggiornato nel campo **Codice Stato Riparazione** della pagina **Prospetto Art. in Assist.** È possibile visualizzare lo stato di assegnazione nel campo **Stato** della pagina **Assegnazioni Risorse**.  
   
 ## <a name="changing-repair-status"></a>Modifica dello stato di riparazione  
 Quando lo stato di riparazione di un articolo in assistenza viene modificato in una riga di articoli in assistenza, viene ricercato un movimento di assegnazione corrispondente per questo articolo in assistenza con stato **Attivo**. Se tale movimento viene individuato, lo stato viene aggiornato in uno dei seguenti modi:  
   
 * Se lo stato di riparazione viene modificato in **Completato**, lo stato di assegnazione passerà da **Attivo** a **Completato**.  
 * Se lo stato di riparazione viene modificato in **Parzialmente assistito**, ovvero parte dell'assistenza è stata completata, o in **Demandato**, ovvero non è stata prestata alcuna assistenza, lo stato di assegnazione passerà da **Attivo** a **Riassegnazione necessaria**.  
-* Quando si crea un movimento di assegnazione di un ordine di assistenza, in cui si indica che non è stata assegnata alcuna risorsa, il campo **Stato** della finestra **Assegnazioni risorse** viene impostato su **Non attivo**.  
+* Quando si crea un movimento di assegnazione di un ordine di assistenza, in cui si indica che non è stata assegnata alcuna risorsa, il campo **Stato** della pagina **Assegnazioni risorse** viene impostato su **Non attivo**.  
 * Lo stato del movimento di assegnazione viene impostato su **Annullato** quando si riassegna l'articolo in assistenza demandato nel movimento di assegnazione dell'ordine di assistenza, indicando che la risorsa o il gruppo di risorse assegnato non ha eseguito il compito di assistenza.  
   
 Lo stato di assegnazione indica quando termina l'assistenza o quando è richiesta un'altra risorsa per completare l'assistenza dell'articolo.  

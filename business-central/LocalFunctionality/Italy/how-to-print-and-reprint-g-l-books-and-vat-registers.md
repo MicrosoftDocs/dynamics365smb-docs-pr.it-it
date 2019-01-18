@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: af2caac034e4ef37c3f47ada5fa6024fd5742e26
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d356510b6c238e94a58c5bb5ab7a6e0ade01e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-and-reprint-gl-books-and-vat-registers"></a>Stampare e ristampare i libri giornale e i registri IVA
@@ -35,16 +35,16 @@ Di seguito viene descritto come stampare o ristampare il report **Libro giornale
     |**Data Inizio**|Immettere la data iniziale del periodo a partire dal quale i movimenti registrati verranno visualizzati.|  
     |**Data Fine**|Immettere la data finale del periodo a partire dal quale i movimenti registrati verranno visualizzati.|  
     |**Da Nr. progressivo**|Indica il numero progressivo del report.|  
-    |**Stampa informazioni società**|Selezionare per stampare le informazioni della società nel report.<br /><br /> I campi restanti sono popolati in base alla finestra **Informazioni società**.|  
+    |**Stampa informazioni società**|Selezionare per stampare le informazioni della società nel report.<br /><br /> I campi restanti sono popolati in base alla pagina **Informazioni società**.|  
 
-    Quando si stampa il report, viene visualizzato un promemoria per aggiornare la finestra **Setup contabilità generale** con il numero dell'ultima pagina.  
+    Quando si stampa il report, viene visualizzato un promemoria per aggiornare la pagina **Setup contabilità generale** con il numero dell'ultima pagina.  
 
     > [!IMPORTANT]  
     >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] non salva automaticamente il numero di pagina quando si esegue il report. Una volta eseguito il report Libro giornale - Stampa o il report Registro IVA - Stampa, è necessario aggiornare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con il numero dell'ultima pagina stampata.  
 
 3.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
 
-    Per impostare il numero dell'ultima pagina stampata per il report registro IVA, cercare **Registro IVA** e scegliere il collegamento per la finestra in **Categorie reg. IVA**.  
+    Per impostare il numero dell'ultima pagina stampata per il report registro IVA, cercare **Registro IVA** e scegliere il collegamento per la pagina in **Categorie reg. IVA**.  
 
 4.  Nella Scheda dettaglio **Stampe Fiscali**, nel campo **Ultima pag. libro giornale stampata**, specificare il numero dell'ultima pagina del report **Libro giornale - Stampa** appena stampato.  
 
@@ -55,9 +55,9 @@ Di seguito viene descritto come visualizzare o modificare la numerazione della p
 ## <a name="to-view-or-change-page-numbering-for-reprinting-the-general-ledger-book-report"></a>Per visualizzare o modificare la numerazione della pagina per la ristampa del report libro contabile  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup contabilità generale**, quindi selezionare il collegamento correlato.  
-2.  Scegliere l'azione **Modifica informazioni ristampa libro giornale** . Nella finestra **Informazioni ristampa libro giornale**, il campo **Numero prima pagina** indica il numero della prima pagina dei report precedentemente stampati.  
+2.  Scegliere l'azione **Modifica informazioni ristampa libro giornale** . Nella pagina **Informazioni ristampa libro giornale**, il campo **Numero prima pagina** indica il numero della prima pagina dei report precedentemente stampati.  
 
-Quando si aggiorna la finestra **Setup contabilità generale** o **Registri IVA** con il numero dell'ultima pagina del report stampato, accertarsi di specificare il numero di pagina corretto. Se il report ristampato inizia con il numero di pagina non corretto, il report non verrà accettato dalle autorità fiscali. La finestra **Informazioni ristampa libro giornale** e **Informazioni ristampa registro IVA** facilitano l'identificazione del numero corretto di pagina.  
+Quando si aggiorna la pagina **Setup contabilità generale** o **Registri IVA** con il numero dell'ultima pagina del report stampato, accertarsi di specificare il numero di pagina corretto. Se il report ristampato inizia con il numero di pagina non corretto, il report non verrà accettato dalle autorità fiscali. La pagina **Informazioni ristampa libro giornale** e **Informazioni ristampa registro IVA** facilitano l'identificazione del numero corretto di pagina.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)

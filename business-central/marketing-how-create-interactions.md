@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee1c27157febaf848c417eb163adea2eaa586e1f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Creare interazioni per i contatti e i segmenti
@@ -39,13 +39,13 @@ Prima di creare interazioni, è necessario impostare i modelli di interazione. P
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Per creare un'interazione in un segmento
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Segmento**, nella sezione **Interazione**, compilare i campi per specificare l'interazione che si desidera assegnare al segmento.
+2. Nella pagina **Segmento**, nella sezione **Interazione**, compilare i campi per specificare l'interazione che si desidera assegnare al segmento.
 
-    Una volta assegnata un'interazione al segmento, è possibile personalizzare l'interazione per ogni singolo contatto all'interno del segmento, ad esempio selezionando un altro modello di interazione nelle righe della finestra **Segmento**.  
-3. Per registrare il segmento e interazioni, selezionare l'azione **Log**. Verrà visualizzata la finestra **Log segmento**.
-4. Se si desidera creare un nuovo segmento contenente gli stessi contatti, selezionare la casella di controllo **Crea segmento di follow-up**. Per creare un segmento di follow-up, è necessario specificare la numerazione dei segmenti nella finestra **Setup marketing**.
+    Una volta assegnata un'interazione al segmento, è possibile personalizzare l'interazione per ogni singolo contatto all'interno del segmento, ad esempio selezionando un altro modello di interazione nelle righe della pagina **Segmento**.  
+3. Per registrare il segmento e interazioni, selezionare l'azione **Log**. Verrà visualizzata la pagina **Log segmento**.
+4. Se si desidera creare un nuovo segmento contenente gli stessi contatti, selezionare la casella di controllo **Crea segmento di follow-up**. Per creare un segmento di follow-up, è necessario specificare la numerazione dei segmenti nella pagina **Setup marketing**.
 
-Un'interazione viene registrata per ogni contatto all'interno del segmento nella tabella **Mov. log interazione** e il segmento viene registrato. È possibile individuare i segmenti registrati nella finestra **Segmento registrato**.
+Un'interazione viene registrata per ogni contatto all'interno del segmento nella tabella **Mov. log interazione** e il segmento viene registrato. È possibile individuare i segmenti registrati nella pagina **Segmento registrato**.
 
 Se è stata selezionata la casella di controllo **Crea segmento di follow-up**, verrà creato un nuovo segmento contenente gli stessi contatti del segmento appena registrato.
 

@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Creare collocazioni
-Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione collocazioni. È tuttavia possibile creare le collocazioni singolarmente dalla scheda ubicazione. È inoltre possibile utilizzare una funzione nella finestra **Prospetto creaz. collocazione** per creare automaticamente le collocazioni.  
+Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione collocazioni. È tuttavia possibile creare le collocazioni singolarmente dalla scheda ubicazione. È inoltre possibile utilizzare una funzione nella pagina **Prospetto creaz. collocazione** per creare automaticamente le collocazioni.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Per creare una collocazione nella scheda ubicazione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e scegliere il collegamento correlato.  
@@ -39,13 +39,13 @@ Prima di avviare la creazione automatica delle collocazioni, è necessario indiv
 > [!NOTE]  
 >  Dopo aver utilizzato una collocazione, non sarà possibile eliminarla a meno che non sia vuota. Se tuttavia si desidera utilizzare un altro sistema di denominazione delle collocazioni, è possibile utilizzare la registrazione di riclassificazione per trasferire gli articoli in un nuovo sistema di collocazioni. Poiché questo processo viene eseguito manualmente e richiede molto tempo, si consiglia di impostare le collocazioni in modo corretto sin dall'inizio.  
 
-Per utilizzare la finestra **Prospetto creaz. collocazione**, è necessario essere impostato come impiegato warehouse nell'ubicazione in cui si trovano le collocazioni. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).    
+Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere impostato come impiegato warehouse nell'ubicazione in cui si trovano le collocazioni. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto creaz. collocazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola collocazioni**.
-3. Nella finestra **Calcola collocazioni**, nel campo **Codice modello collocazione**, quindi selezionare il modello da utilizzare per le collocazioni che si stanno creando.
+3. Nella pagina **Calcola collocazioni**, nel campo **Codice modello collocazione**, quindi selezionare il modello da utilizzare per le collocazioni che si stanno creando.
 4.  Immettere una descrizione per le collocazioni in fase di creazione.  
-5.  Per creare i codici di collocazione, compilare i campi **Dal nr.** e **A nr.** delle tre categorie visualizzate nella finestra: **Scaffalatura**, **Sezione** e **Livello**. Il codice di collocazione può contenere un massimo di 20 caratteri.  
+5.  Per creare i codici di collocazione, compilare i campi **Dal nr.** e **A nr.** delle tre categorie visualizzate nella pagina: **Scaffalatura**, **Sezione** e **Livello**. Il codice di collocazione può contenere un massimo di 20 caratteri.  
 
     > [!NOTE]  
     >  Il numero di caratteri immesso nei singoli campi per le tre categorie, ad esempio i caratteri immessi nei tre campi **Dal nr.**, più gli eventuali separatori di campo, devono essere 20 o meno.  

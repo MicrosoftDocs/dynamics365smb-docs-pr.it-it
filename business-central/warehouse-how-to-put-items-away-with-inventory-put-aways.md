@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
@@ -24,7 +24,7 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 
 È possibile creare uno stoccaggio in magazzino in tre modi:  
 
-- Creare lo stoccaggio in due passaggi redigendo prima una Richiesta Warehouse dal documento di origine, per segnalare alla warehouse che il documento di origine è pronto per lo stoccaggio. Lo stoccaggio in magazzino può quindi essere creato utilizzando la finestra **Stoccaggio Magazzino** in base al documento origine.  
+- Creare lo stoccaggio in due passaggi redigendo prima una Richiesta Warehouse dal documento di origine, per segnalare alla warehouse che il documento di origine è pronto per lo stoccaggio. Lo stoccaggio in magazzino può quindi essere creato utilizzando la pagina **Stoccaggio Magazzino** in base al documento origine.  
 - Creare lo stoccaggio in magazzino direttamente dal documento di origine.  
 - Creare stoccaggi in magazzino per più documenti di origine contemporaneamente utilizzando un processo batch.  
 
@@ -59,13 +59,13 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Per creare più stoccaggi in magazzino utilizzando un processo batch  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
-2.  Nella Scheda dettaglio **Richiesta warehouse** della finestra di richiesta, utilizzare i campi **documento origine** e **Nr. documento** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti.  
+2.  Nella Scheda dettaglio **Richiesta warehouse** della pagina di richiesta, utilizzare i campi **documento origine** e **Nr. documento** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti.  
 3.  Nella Scheda dettaglio **Opzioni** selezionare la casella di controllo **Crea stoccaggio mag.**.
 4.  Scegliere il pulsante **OK**. Verranno creati gli stoccaggi magazzino specificati.
 
 ## <a name="to-record-the-inventory-put-away"></a>Per registrare lo stoccaggio magazzino  
-1. Aprire un documento di stoccaggio creato in precedenza selezionandone uno dalla fnestra **Stoccaggi magazzino**.  
-2. Nel campo **Codice collocazione** nelle righe di stoccaggio, la collocazione in cui gli articoli devono essere stoccati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa finestra, se necessario.  
+1. Aprire un documento di stoccaggio creato in precedenza selezionandone uno dalla pagina **Stoccaggi magazzino**.  
+2. Nel campo **Codice collocazione** nelle righe di stoccaggio, la collocazione in cui gli articoli devono essere stoccati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa pagina, se necessario.  
 3. Eseguire lo stoccaggio e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da Gestire**.
 
     Se è necessario ubicare gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe**. Per ulteriori informazioni sulla divisione delle righe, vedere [Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  

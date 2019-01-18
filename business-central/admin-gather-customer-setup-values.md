@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
@@ -32,7 +32,7 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 ## <a name="to-create-a-configuration-questionnaire"></a>Per creare un questionario di configurazione
 È possibile utilizzare il questionario in modo da determinare l'ambito e le esigenze della configurazione. È possibile creare un nuovo questionario o modificarne uno esistente aggiungendo nuove domande o aree domande.  
 
- È possibile creare questionari solo per le tabelle di tipo setup. Ad esempio, è possibile utilizzare lo strumento per inserire informazioni nelle finestre seguenti:  
+ È possibile creare questionari solo per le tabelle di tipo setup. Ad esempio, è possibile utilizzare lo strumento per inserire informazioni nelle pagine seguenti:  
 
 -   Informazioni società  
 -   Setup cespiti  
@@ -50,9 +50,9 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 >  Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Viene visualizzata la finestra **Questionario su configurazione**.  
-3. Scegliere l'azione **Aree domande**. Verrà aperta la finestra **Aree domande**.  
-4. Scegliere l'azione **Nuovo**. Verrà aperta la finestra **Area domande su configurazione**.  
+2. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Questionario su configurazione**.  
+3. Scegliere l'azione **Aree domande**. Verrà aperta la pagina **Aree domande**.  
+4. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Area domande su configurazione**.  
 5. Nel campo **ID tabella** scegliere l'ID della tabella per cui si desidera raccogliere le informazioni. Il campo **Nome tabella** viene compilato automaticamente.  
 6. Scegliere l'azione **Aggiorna domande**. Ogni campo della tabella viene aggiunto al questionario con un punto interrogativo dopo la relativa etichetta.
 
@@ -94,10 +94,10 @@ Un'operazione di convalida comune consiste nel verificare che stringhe di testo 
 > [!NOTE]  
 >  In generale, la convalida del questionario di configurazione è un processo manuale. Esistono, tuttavia, controlli per le incoerenze di formattazione regionali. Inoltre, si verificheranno degli errori se la struttura del database di [!INCLUDE[d365fin](includes/d365fin_md.md)] non corrisponde alla struttura del database di migrazione.  
 
-1. Nella finestra **Questionari di configurazione**, selezionare il questionario appropriato e quindi scegliere l'azione **Aree domande**.  
+1. Nella pagina **Questionari di configurazione**, selezionare il questionario appropriato e quindi scegliere l'azione **Aree domande**.  
 2. Aprire l'area domande appropriata.  
 3. Per ogni domanda, confermare che il valore nel campo **Risposta** corrisponde al formato fornito nel campo **Opzione risposta**. Confermare ad esempio che l'indirizzo di una società è in formato testo.  
-4. Se si rivelano degli errori, è possibile risolverli e apportare rettifiche in Excel esportando il questionario e quindi importandolo nuovamente. In alternativa, è anche possibile risolvere gli errori direttamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] mentre si rivedono le risposte nella finestra **Area domande su configurazione**.  
+4. Se si rivelano degli errori, è possibile risolverli e apportare rettifiche in Excel esportando il questionario e quindi importandolo nuovamente. In alternativa, è anche possibile risolvere gli errori direttamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] mentre si rivedono le risposte nella pagina **Area domande su configurazione**.  
 5. Ripetere questi passaggi per ogni area domande.  
 
 Dopo avere completato la convalida, i dati sono pronti per essere collegati al database.  
@@ -105,7 +105,7 @@ Dopo avere completato la convalida, i dati sono pronti per essere collegati al d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Per applicare le risposte di un questionario di configurazione
 Dopo aver importato e convalidato le informazioni da un questionario di configurazione, è possibile trasferire oppure applicare i dati di setup alle tabelle corrispondenti nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato. Viene visualizzata la finestra **Questionario su configurazione**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato. Viene visualizzata la pagina **Questionario su configurazione**.  
 2. Selezionare un questionario di configurazione dall'elenco e scegliere l'azione **Modifica lista**.  
 3. È possibile applicare le risposte in uno dei due modi seguenti.  
 
@@ -113,7 +113,7 @@ Dopo aver importato e convalidato le informazioni da un questionario di configur
 - Per applicare le risposte solo per un'**area domande** specifica, scegliere l'azione **Aree domande**, selezionare un'**area domande** nell'elenco, quindi, scegliere l'azione **Applica risposte**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Per verificare che la risposta sia stata applicata correttamente  
-1. Controllare le finestre di setup per le diverse aree funzionali di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per individuare la finestra, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della finestra di sutup e quindi scegliere il collegamento correlato.  
+1. Controllare le pagine di setup per le diverse aree funzionali di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per individuare la pagina, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della pagina di setup e quindi scegliere il collegamento correlato.  
 2. Verificare che i campi siano stato compilati con i dati appropriati provenienti da diverse aree domande del questionario di configurazione.  
 
 A questo punto è stato configurato il setup con le informazioni aziendali e regole del cliente.

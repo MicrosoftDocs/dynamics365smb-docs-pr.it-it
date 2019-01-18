@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
@@ -27,26 +27,26 @@ La scheda articolo può essere di tipo **Inventario**, **Assistenza** o **Non in
 
 È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], una distinta base può essere una DB di assemblaggio o una DB di produzione, a seconda dell'utilizzo. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
-Se si acquista lo stesso articolo da più di un fornitore, è possibile collegare i fornitori alla scheda articolo. I fornitori vengono quindi visualizzati nella finestra **Catalogo art. fornitori** per poter selezionare facilmente un fornitore alternativo.
+Se si acquista lo stesso articolo da più di un fornitore, è possibile collegare i fornitori alla scheda articolo. I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** per poter selezionare facilmente un fornitore alternativo.
 
 Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli possono essere impostati come articoli di catalogo. Gli articoli di catalogo non devono essere confusi con articoli normali di tipo **Non in inventario**. Per ulteriori informazioni, vedere [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
-> Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una finestra quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
+> Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una pagina quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Articoli** scegliere l'azione **Nuovo**.
+2. Nella pagina **Articoli** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello articolo, allora verrà visualizzata una nuova scheda articolo con alcuni campi compilati con le informazioni derivanti dal modello.
-3. Nella finestra **Selezionare un modello per un nuovo articolo** scegliere il modello da utilizzare per la nuova scheda articolo.
+3. Nella pagina **Selezionare un modello per un nuovo articolo** scegliere il modello da utilizzare per la nuova scheda articolo.
 4. Scegliere il pulsante **OK**. Una nuova scheda articolo verrà visualizzata con alcuni campi compilati con le informazioni del modello.
 5. Continuare a compilare o a modificare i campi della scheda articolo in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Nel campo **Metodo di costing** si imposta la modalità in cui viene calcolato il costo unitario dell'articolo tramite presupposizioni sul flusso degli articoli nell'azienda. Cinque metodi di costing sono disponibili, a seconda del tipo di articolo. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).
 >
-> Se si seleziona **Media**, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, è possibile selezionare il campo **Costo unitario** nella finestra **Sintesi calc. costo medio** per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio.
+> Se si seleziona **Media**, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, è possibile selezionare il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio.
 
 Nella Scheda dettaglio **Prezzo e registrazione** è possibile visualizzare gli sconti o i prezzi speciali che si concedono per l'articolo se vengono soddisfatti determinati criteri, come cliente, quantità minima di ordine o data di scadenza. Ogni riga rappresenta un prezzo speciale o uno sconto riga. Ogni colonna rappresenta un criterio da applicare per garantire il prezzo speciale immesso nel campo **Prezzo unitario** o lo sconto riga immesso nel campo **Sconto riga**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,9 +55,9 @@ L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzat
 Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
-1. Nella finestra **Scheda articolo** scegliere l'azione **Salva come modello**. Nella finestra **Modello articolo** verrà visualizzata la scheda articolo come modello.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella finestra **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per l'articolo.
+1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per l'articolo.
 4. Modificare o immettere i codici di dimensione da collegare alle nuove schede articolo create utilizzando la definizione.
 5. Una volta completato il nuovo modello articolo, scegliere **OK**.
 
@@ -73,7 +73,7 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 5.  Facoltativamente, compilare i campi restanti.  
 6.  Ripetere i passaggi da 2 a 5 per ogni fornitore da cui si desidera acquistare l'articolo.
 
-I fornitori vengono quindi visualizzati nella finestra **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
+I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di numerazioni](ui-create-number-series.md)  

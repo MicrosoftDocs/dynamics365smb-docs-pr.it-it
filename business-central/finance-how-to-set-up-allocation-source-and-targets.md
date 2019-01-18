@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Impostare origini e destinazioni dell'allocazione
@@ -25,7 +25,7 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
 
 ## <a name="to-set-up-cost-allocations"></a>Per impostare le allocazioni costi  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Allocazione costi** scegliere l'azione **Modifica**.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Modifica**.  
 3.  Immettere un ID dell'origine allocazione nel campo **ID**.  
 4.  Definire un livello come numero compreso tra 1 e 99 nel campo **Livello**. La registrazione di allocazione seguirà l'ordine dei livelli.  
 5.  Immettere un tipo di costo per definire quali di questi verranno allocati nel campo **Intervallo tipi di costo**. Se tutti i costi per un tipo di costo sono allocati, non viene definito alcun intervallo.  

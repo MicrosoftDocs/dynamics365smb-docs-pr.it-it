@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un workflow automatizzato
-È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.  
+È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.
+
+> [!NOTE]
+> Oltre a Microsoft Flow, è possibile utilizzare la funzionalità Workflow in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si noti che sebbene siano presenti due sistemi del flusso di lavoro, qualsiasi modello di flusso creato con Microsoft Flow viene aggiunta all'elenco dei modelli di flusso in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 >   È necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con Flow.  
@@ -28,7 +31,7 @@ ms.lasthandoff: 09/28/2018
 1. Nel browser passare a [flow.microsoft.com](https://flow.microsoft.com/en-us/), quindi accedere.
 2. Scegliere **I miei flussi** dalla barra nella parte superiore della pagina.
 3. Sono disponibili 2 modi per creare un flusso: **Crea da modello** e **Crea da vuoto**. Un modello è un flusso predefinito che è stato creato per l'utente.  Per utilizzare un modello, selezionarlo semplicemente e creare una connessione per ogni servizio utilizato dal modello. Un modello vuoto consente di creare un nuovo flusso completamente da zero.
-4. Per creare da un modello vuoto, nella finestra **I miei flussi** selezionare l'opzione **Crea da vuoto**.
+4. Per creare da un modello vuoto, nella pagina **I miei flussi** selezionare l'opzione **Crea da vuoto**.
 5. Cercare il connettore **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
 6. Selezionare uno dei trigger [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibili dall'elenco dei trigger:  
     *Approvazione di un cliente necessaria*,  
@@ -58,9 +61,6 @@ A questo punto, è stata stabilita correttamente la connessione ai dati di Busin
     *Richiesta di approvazione per batch registrazioni COGE Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
     *Richiesta di approvazione per righe registrazioni COGE Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
 11. Flow richiederà la selezione di una società presso il tenant [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Poiché ogni fase del flusso è indipendente dalla successiva, è possibile che sia necessario definire la società più volte quando si utilizza un modello di flusso di [!INCLUDE[d365fin_md](includes/d365fin_md.md)].
-
-> [!NOTE]  
-> Il modello di flusso di [!INCLUDE[d365fin_md](includes/d365fin_md.md)] si integra con il motore del flusso di lavoro principale in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Vale a dire che ogni volta che si utilizza uno di questi modelli per creare un flusso, un flusso di lavoro corrispondente viene creato all'interno di [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Inoltre, la persona che crea il flusso deve essere impostata come responsabile approvazione nella guida Setup assistito. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).
 
 Per ulteriori informazioni, vedere la [Documentazione di Flow](https://docs.microsoft.com/en-us/flow/getting-started).
 

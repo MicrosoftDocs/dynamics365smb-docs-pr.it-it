@@ -11,17 +11,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="getting-the-add-in"></a>Come ottenere il componente aggiuntivo
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], uno dei passaggi del setup assistito dell'Introduzione è la finestra **Esegui attività in Office 365**. In quella finestra, quando si sceglie il pulsante **Imposta in Outlook**, è necessario specificare il proprio nome utente e password di Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], uno dei passaggi del setup assistito dell'Introduzione è la pagina **Esegui attività in Office 365**. In quella pagina, quando si sceglie il pulsante **Imposta in Outlook**, è necessario specificare il proprio nome utente e password di Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
 
 Quindi, quando si apre Outlook, si vedrà il messaggio e-mail di Business Center Admin. Il nuovo componente aggiuntivo viene aggiunto alla barra multifunzione di Outlook e in Outlook Web Access nella barra multifunzione del componente aggiuntivo, immediatamente sopra il corpo del messaggio e-mail. Il componente aggiuntivo stesso verrà aggiornato periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
@@ -35,7 +35,7 @@ Una volta che si inseriscono i dati, è possibile registrare l'offerta. È possi
 
 Analogamente, se si riceve un messaggio e-mail a un fornitore, è possibile utilizzare il componente aggiuntivo per lavorare con i fornitori e le fatture di acquisto.  
 
-Talvolta si desidera visualizzare più campi rispetto a quelli che è possibile visualizzare nel componente aggiuntivo, ad esempio se si desidera compilare le righe di una fattura. Per ottenere maggiore spazio, è possibile visualizzare il componente aggiuntivo in una finestra separata. Fa parte ancora di Outlook, ma offre più spazio per il lavoro. Se si digitano i dati per il documento nella nuova finestra, le modifiche vengono salvate automaticamente. Al termine dell'immissione dei dati per il documento, è possibile scegliere il pulsante **OK**. Scegliendo il frame del componente aggiuntivo in Outlook, il documento viene aggiornato automaticamente con le modifiche apportate nella visualizzazione apposita.  
+Talvolta si desidera visualizzare più campi rispetto a quelli che è possibile visualizzare nel componente aggiuntivo, ad esempio se si desidera compilare le righe di una fattura. Per ottenere maggiore spazio, è possibile visualizzare il componente aggiuntivo in una pagina separata. Fa parte ancora di Outlook, ma offre più spazio per il lavoro. Se si digitano i dati per il documento nella nuova finestra, le modifiche vengono salvate automaticamente. Al termine dell'immissione dei dati per il documento, è possibile scegliere il pulsante **OK**. Scegliendo il frame del componente aggiuntivo in Outlook, il documento viene aggiornato automaticamente con le modifiche apportate nella visualizzazione apposita.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Creazione di fatture da appuntamenti per riunioni
 Alcune aziende registrano tutti gli appuntamenti fatturabili nel calendario di Outlook. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare la fattura relativa per il cliente direttamente dall'elemento: aprire l'appuntamento quindi aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)], qui è possibile cercare informazioni esistenti oppure creare una fattura o un'altra destra del documento di vendita direttamente.  
@@ -50,9 +50,9 @@ Nel componente aggiuntivo Collegamenti documento, è possibile modificare ed eff
 ## <a name="adding-the-add-ins-manually"></a>Aggiunta manuale dei componenti aggiuntivi
 In alcuni casi, i componenti aggiuntivi non vengono aggiunti automaticamente a Outlook. Anche se la società oppure un collega ha eseguito la Guida di setup assistito per conto della società, [!INCLUDE[d365fin](includes/d365fin_md.md)] potrebbe non venire visualizzato in Outlook. In questi casi, è possibile aggiungere manualmente i componente aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire la finestra Outlook Web Access in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la finestra **Gestione componenti aggiuntivi** in cui è possibile abilitare [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
+In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire la finestra Outlook Web Access in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la pagina **Gestione componenti aggiuntivi** in cui è possibile abilitare [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
 
-Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella finestra **Gestione componenti aggiuntivi**.  
+Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella pagina **Gestione componenti aggiuntivi**.  
 
 In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di Office 365.
 

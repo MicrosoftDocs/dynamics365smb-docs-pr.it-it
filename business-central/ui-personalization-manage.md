@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gestione della personalizzazione come amministratore
@@ -30,11 +30,11 @@ ms.lasthandoff: 09/28/2018
 
 ## <a name="clear-user-personalizations"></a>Cancellare le personalizzazioni dell'utente
 
-La cancellazione delle modifiche di personalizzazione della pagina ripristina la pagina al layout originale prima che fosse apportata qualsiasi personalizzazione. Ci sono due modi per eliminare le personalizzazioni che gli utenti hanno apportato alle pagine: utilizzando la finestra **Elimina personalizzazione utente** o la finestra **Scheda personalizzazione utente**.
+La cancellazione delle modifiche di personalizzazione della pagina ripristina la pagina al layout originale prima che fosse apportata qualsiasi personalizzazione. Ci sono due modi per eliminare le personalizzazioni che gli utenti hanno apportato alle pagine: utilizzando la pagina **Elimina personalizzazione utente** o la pagina **Scheda personalizzazione utente**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Eliminare le personalizzazioni dell'utente tramite la pagina Elimina personalizzazione utente
 
-La finestra **Elimina personalizzazione utente** consente di eliminare la personalizzazione in base alla pagina e all'utente.
+La pagina **Elimina personalizzazione utente** consente di eliminare la personalizzazione in base alla pagina e all'utente.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina personalizzazione utente** e quindi scegliere il collegamento correlato.
 
@@ -49,11 +49,11 @@ La finestra **Elimina personalizzazione utente** consente di eliminare la person
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Eliminare le personalizzazioni dell'utente tramite la pagina Scheda personalizzazione utente
 
-La finestra **Scheda personalizzazione utente** consente di eliminare la personalizzazione in tutte le pagine per un utente specifico. Questa operazione richiede l'autorizzazione di scrittura per la tabella **Profilo** 2000000072.
+La pagina **Scheda personalizzazione utente** consente di eliminare la personalizzazione in tutte le pagine per un utente specifico. Questa operazione richiede l'autorizzazione di scrittura per la tabella **Profilo** 2000000072.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Personalizzazione utente** e quindi scegliere il collegamento correlato.
 
-    Nella finestra **Personalizzazione utente** vengono elencati tutti gli utenti che potenzialmente dispongono di pagine personalizzate. Se non è presente un utente nell'elenco, significa che non dispone di pagine personalizzate.
+    Nella pagina **Personalizzazione utente** vengono elencati tutti gli utenti che potenzialmente dispongono di pagine personalizzate. Se non è presente un utente nell'elenco, significa che non dispone di pagine personalizzate.
 
 2. Selezionare l'utente dalla lista, quindi scegliere l'azione **Modifica**.
 

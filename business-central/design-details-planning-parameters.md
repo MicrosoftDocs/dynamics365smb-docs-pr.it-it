@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
@@ -40,9 +40,9 @@ Le proposte di riordino vengono in genere rilasciate solo quando la quantità di
 Il campo **Intervallo di tempo** viene utilizzato dai criteri dei punti di riordino (**Qtà Riordino Fissa** e **Qtà Massima**), dove il livello del magazzino viene controllato dopo ogni intervallo di tempo. Il primo intervallo di tempo inizia con la data di inizio pianificazione.  
 
 > [!NOTE]  
->  Durante il calcolo degli intervalli di tempo, il sistema di pianificazione ignora i calendari attivi definiti nel campo **Codice calendario base** delle finestre **Informazioni società** e **Scheda Ubicazione**.  
+>  Durante il calcolo degli intervalli di tempo, il sistema di pianificazione ignora i calendari attivi definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione**.  
 
-Il lead time di sicurezza predefinito, nella finestra **Setup manufacturing**, deve essere impostato su almeno un giorno. La data di scadenza della domanda può essere nota, ma non l'ora di scadenza. Le righe di pianificazione retrocedono per soddisfare la domanda lorda e, se non viene definito alcun lead time di sicurezza, le merci possono giungere troppo tardi per soddisfare la domanda.  
+Il lead time di sicurezza predefinito, nella pagina **Setup manufacturing**, deve essere impostato su almeno un giorno. La data di scadenza della domanda può essere nota, ma non l'ora di scadenza. Le righe di pianificazione retrocedono per soddisfare la domanda lorda e, se non viene definito alcun lead time di sicurezza, le merci possono giungere troppo tardi per soddisfare la domanda.  
 
 I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere la sezione "Ottimizzare il momento e la quantità di riordino".  
 
@@ -100,7 +100,7 @@ Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su)
 
 ![Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità")  
 
-**Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della finestra **Setup manufacturing**.  
+**Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
 
 ## <a name="modify-the-supply-orders"></a>Modificare gli ordini di approvvigionamento  
 Una volta che la quantità della proposta di ordine è stata calcolata, uno o più i modificatori di ordini possono rettificarla. Ad esempio, la quantità ordine massima è più grande o uguale alle quantità ordine minima , che è più grande o uguale al molteplicità ordine.  

@@ -13,10 +13,10 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
@@ -191,7 +191,7 @@ Nella seguente tabella viene illustrato l'effetto dello storno esatto del costo 
 Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il costo aumentato del movimento di acquisto, dovuto all'addebito articolo, viene inoltrato al movimento di vendita (numero movimento 2). Il movimento di vendita inoltra quindi questo costo aumentato al movimento credito di vendita (movimento numero 3). Il risultato finale è che il costo viene stornato correttamente.  
   
 > [!NOTE]  
->  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella finestra **Setup contabilità fornitori e acquisti** o nella finestra **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[d365fin](includes/d365fin_md.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia documento**. Se si utilizza la funzione **Ottieni righe documento registrato da stornare**, allora i campi vengono sempre compilati automaticamente.  
+>  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella pagina **Setup contabilità fornitori e acquisti** o nella pagina **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[d365fin](includes/d365fin_md.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia documento**. Se si utilizza la funzione **Ottieni righe documento registrato da stornare**, allora i campi vengono sempre compilati automaticamente.  
   
 > [!NOTE]  
 >  Se si registra una transazione con un collegamento fisso e il movimento contabile articolo a cui si sta effettuando il collegamento è chiuso, ovvero la quantità residua è zero, allora il collegamento precedente viene automaticamente annullato e il movimento contabile articolo viene collegato di nuovo utilizzando il collegamento fisso specificato.  
@@ -239,7 +239,7 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 * Si desidera oltrepassare il collegamento creato automaticamente durante la registrazione, in base al metodo di costing dell'articolo.  
 * È necessario restituire un articolo a cui è stata stata collegata manualmente una vendita, senza utilizzare la funzione **Ottieni righe documento registrato da stornare**, ed è di conseguenza necessario annullare il collegamento.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella finestra **Prospetto collegamento**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento**.  
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  

@@ -1,6 +1,6 @@
 ---
 title: Storno di scritture contabili
-description: "Nella finestra **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali."
+description: "Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 87049b1357348afbbf8f48a751c2fbf2cd4616fd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6bb700b9d98a57699854d32d9bd4745617d2a321
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reversing-journal-entries"></a>Storno di scritture contabili
-Nella finestra **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali. Tali controlli impediscono l'esecuzione delle seguenti operazioni:  
+Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali. Tali controlli impediscono l'esecuzione delle seguenti operazioni:  
 
 - Storno di una fattura, di una nota di credito o di un documento che implica la gestione IVA.  
 - Storno di fatture, note di credito o note di debito registrate.  

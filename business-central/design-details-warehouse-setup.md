@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
@@ -93,7 +93,7 @@ Nella gestione avanzata della warehouse, le collocazioni possono essere impostat
 
 In ciascuna scheda articolo è possibile assegnare un'unità di misura (UDM) per l'articolo, ad esempio pezzi, pallet, litri, grammi o scatole. È inoltre possibile avere una UDM di base per un articolo e specificare UDM maggiori basate sull'UDM di base. Ad esempio, è possibile definire un pallet di 16 pezzi, e l'ultima è la UDM di base.  
 
-Se si desidera impostare una quantità massima di un articolo specifico da archiviare in una singola collocazione e l'articolo ha più di una UDM, è necessario impostare la quantità massima per ogni UDM presente nella scheda articolo. Di conseguenza, se un articolo è stato impostato per essere gestito in pezzi e pallet, anche il campo **Qtà massima** nella finestra **Contenuto collocazione** per tale articolo deve essere espresso in pezzi e pallet. In caso contrario, la quantità consentita per la collocazione non viene calcolata correttamente.  
+Se si desidera impostare una quantità massima di un articolo specifico da archiviare in una singola collocazione e l'articolo ha più di una UDM, è necessario impostare la quantità massima per ogni UDM presente nella scheda articolo. Di conseguenza, se un articolo è stato impostato per essere gestito in pezzi e pallet, anche il campo **Qtà massima** nella pagina **Contenuto collocazione** per tale articolo deve essere espresso in pezzi e pallet. In caso contrario, la quantità consentita per la collocazione non viene calcolata correttamente.  
 
 Prima di impostare le restrizioni alla capacità per i contenuti della collocazione in una collocazione, è necessario innanzitutto assicurarsi che i UDM e le dimensioni dell'articolo siano stati impostati nella scheda articolo.  
 

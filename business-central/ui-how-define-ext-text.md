@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Aggiungere testo esteso per gli articoli
@@ -25,11 +25,11 @@ ms.lasthandoff: 09/28/2018
 1. Aprire la scheda di un articolo al quale si desidera aggiungere il testo esteso, quindi scegliere l'azione **Testo esteso**.
 2. Nel campo **Codice** immettere il codice. Nel campo **Descrizione** immettere il testo desiderato.
 3. Scegliere **Testi estesi**.
-4. Compilare le righe della finestra **Testi estesi** con il testo aggiuntivo.
+4. Compilare le righe della pagina **Testi estesi** con il testo aggiuntivo.
 5. Compilare il campo **Cod. lingua** o il campo **Tutti cod. lingua** se si utilizzano i codici lingua.
 6. Compilare i campi **Data inizio** e **Data fine** se si desidera limitare il periodo in cui il testo esteso verrà utilizzato.
 7. Selezionare le relative caselle di controllo per i tipi di documento su cui si desidera stampare il testo esteso.
-8. Chiudere la finestra.
+8. Chiudere la pagina.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Per aggiungere testo esteso di articoli in una riga di un ordine di vendita
 1. Aprire un ordine di vendita con una riga di vendita per un articolo che ha testo esteso definito. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).

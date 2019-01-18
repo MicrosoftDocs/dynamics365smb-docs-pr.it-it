@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7184143303dd1a8b04d8d740d83f35f1fa19485a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Pianificare movimentazioni warehouse nei prospetti
 Pianificare i movimenti nel prospetto utilizzando la funzione di rifornimento collocazione o manualmente pianificando le righe che si desidera creare come istruzioni di movimento.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>Per calcolare un movimento di rifornimento  
-Man mano che gli articoli nella warehouse vengono spediti ai clienti, le collocazioni con le valutazioni più elevate contengono un numero di articoli sempre minore. Per reintegrare le collocazioni di prelievo a valutazione elevata mediante gli articoli disponibili in altre collocazioni, è possibile eseguire la funzione **Calcola rifornimento collocazione** nella finestra **Prospetto movimentazioni**.
+Man mano che gli articoli nella warehouse vengono spediti ai clienti, le collocazioni con le valutazioni più elevate contengono un numero di articoli sempre minore. Per reintegrare le collocazioni di prelievo a valutazione elevata mediante gli articoli disponibili in altre collocazioni, è possibile eseguire la funzione **Calcola rifornimento collocazione** nella pagina **Prospetto movimentazioni**.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
 2.  Sceliere l'azione **Calcola rifornimento collocazione**.  
@@ -47,8 +47,8 @@ Man mano che gli articoli nella warehouse vengono spediti ai clienti, le colloca
 Il prospetto movimentazioni consente anche di pianificare altri movimenti delle giacenze all'interno della warehouse. Ad esempio, quando si desidera posizionare gli articoli in una collocazione per il controllo qualità, è possibile pianificare questa azione utilizzando il prospetto movimenti, quindi creare un movimento per ottenere le istruzioni da fornire a un impiegato della warehouse.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Ottieni contenuto collocazione**. Utilizzare la finestra di richiesta per applicare un filtro in modo da determinare le collocazioni e gli articoli da visualizzare nelle righe del prospetto movimentazioni.  
-3.  Compilare i campi pertinenti nella finestra di richiesta del processo batch. Se, ad esempio, si desidera visualizzare il contenuto di tutte le collocazioni di una determinata zona dell'ubicazione, compilare il campo **Cod. zona**. Se si desidera recuperare le righe per ogni collocazione contenente un articolo specifico, compilare il campo **Nr. articolo**.  
+2.  Scegliere l'azione **Ottieni contenuto collocazione**. La pagina di richiesta consente di applicare un filtro in modo da determinare le collocazioni e gli articoli da visualizzare nelle righe del prospetto movimenti.  
+3.  Compilare i campi pertinenti nella pagina di richiesta del processo batch. Se, ad esempio, si desidera visualizzare il contenuto di tutte le collocazioni di una determinata zona dell'ubicazione, compilare il campo **Cod. zona**. Se si desidera recuperare le righe per ogni collocazione contenente un articolo specifico, compilare il campo **Nr. articolo**.  
 
     > [!NOTE]  
     >  Non è possibile spostare manualmente gli articoli all'interno o all'esterno di una collocazione di tipo Ricevi poiché gli articoli presenti in questo tipo di collocazione devono essere registrati come stoccati prima di essere inseriti nella giacenza disponibile.  

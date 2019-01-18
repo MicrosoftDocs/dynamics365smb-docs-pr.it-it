@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Stampa di report Registro beni ammortizzabili'
-description: "**Registro beni ammortizzabili** è un report fiscale ordinato per anno e classe di articoli. Nel report **Registro beni ammortizzabili** vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni."
+description: "Registro beni ammortizzabili è un report fiscale ordinato per anno e classe di articoli. Nel report Registro beni ammortizzabili vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1acb4c5fd76ceb4b3bce3666968bf31b44695519
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 0c2fd2507d26518dc167af1f9f2c998c5490d7d0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="print-depreciation-book-reports"></a>Stampare report dei registri dei beni ammortizzabili

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: it-it
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Abilitare il prelievo di articoli tramite il metodo FEFO
@@ -40,7 +40,7 @@ Se due articoli con numeri seriali o di lotto hanno la stessa data di scadenza, 
 <br /><br />
 Quando si prelevano articoli con numeri di serie o di lotto in ubicazioni impostate per stoccaggi e prelievi guidati, solo le quantità nelle collocazioni di tipo *Prelievo* vengono prelevate in base al metodo FEFO.  
 <br /><br />
-Per abilitare le movimentazioni in base al metodo FEFO, nella finestra **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
+Per abilitare le movimentazioni in base al metodo FEFO, nella pagina **Movimento di magazzino** o **Prospetto movimentazioni**, è necessario lasciare vuoto il campo **Dal codice collocazione**.  
 <br /><br />
 Se il campo **Registrazione scadenza vincolante** è selezionato, solo gli articoli che non sono scaduti verranno inclusi nel prelievo. Ciò si applica anche se non viene utilizzata l'opzione Prelievo in base a FEFO.
 

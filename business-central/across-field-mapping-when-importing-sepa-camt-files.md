@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: abda752ed574245c6d38adb6ee1441bb2b2c80fc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mapping dei campi durante l'importazione dei file SEPA CAMT
 [!INCLUDE[d365fin](includes/d365fin_md.md)]La versione generica di  supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedere [Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md).  
 
- Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella finestra **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella pagina **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Per informazioni sulla creazione o la modifica della definizione di scambio dati, vedere [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non strutturato|Testo|Informazioni fornite per consentire la corrispondenza o riconciliazione di un movimento con gli articoli oggetto del pagamento, come le fatture aziendali in un sistema conto clienti, in un form non strutturato||6|Descrizione|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Testo|Informazioni aggiuntive relative al movimento||16|Informazioni sulla transazione|  
 
- Gli elementi nel nodo **Ntry** importati in [!INCLUDE[d365fin](includes/d365fin_md.md)], ma di cui non è stato eseguito il mapping ad alcun campo, vengono memorizzati nella tabella **Registrazione definizione colonna scambio dati**. Gli utenti possono vedere gli elementi nelle finestre **Registrazione riconciliazione pagamenti**, **Collegamento pagamenti** e **Riconciliazioni C/C bancari** scegliendo l'azione **Dettagli riga rendiconto bancario**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
+ Gli elementi nel nodo **Ntry** importati in [!INCLUDE[d365fin](includes/d365fin_md.md)], ma di cui non è stato eseguito il mapping ad alcun campo, vengono memorizzati nella tabella **Registrazione definizione colonna scambio dati**. Gli utenti possono vedere gli elementi nelle pagine **Registrazione riconciliazione pagamenti**, **Collegamento pagamenti** e **Riconciliazioni C/C bancari** scegliendo l'azione **Dettagli riga rendiconto bancario**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  

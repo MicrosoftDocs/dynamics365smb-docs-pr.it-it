@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7dbdc368350687c9ac8ab78d13312aa059f1c385
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Vendere articoli assemblati su ordine
@@ -38,24 +38,24 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 5.  Nel campo **Quantità** immettere il numero di unità da vendere.  
 
     > [!NOTE]  
-    >  Se uno o più componenti della quantità richiesta dell'articolo di assemblaggio non sono disponibili, viene aperta una finestra di avviso di disponibilità dettagliata. Per ulteriori informazioni, vedere Disponibilità assemblaggio.  
+    >  Se uno o più componenti della quantità richiesta dell'articolo di assemblaggio non sono disponibili, viene aperta una pagina di avviso di disponibilità dettagliata. Per ulteriori informazioni, vedere Disponibilità assemblaggio.  
 
     Un ordine di assemblaggio viene ora automaticamente creato e collegato alla riga dell'ordine di vendita. La data di scadenza dell'ordine di assemblaggio è sincronizzata alla data di spedizione della riga dell'ordine di vendita.  
 
     La quantità da vendere viene copiata nel campo **Qtà per assemblaggio su ordine**, in cui si indica che il setup dell'articolo prevede l'assemblaggio su ordine dell'intera quantità presente nella riga di vendita. È possibile ridurre la quantità da assemblare su ordine, ad esempio se si è a conoscenza che alcuni articoli sono già disponibili. Per altre informazioni, vedere [Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Per indicare che il cliente desidera un articolo aggiuntivo in un kit, nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, l'azione **Assemblaggio su ordine**, quindi l'azione **Righe di assemblaggio su ordine** per visualizzare e modificare i componenti di assemblaggio standard. In alternativa, scegliere il campo **Qtà per assemblaggio su ordine** .  
-7.  Nella finestra **Righe di assemblaggio su ordine** creare una nuova riga di tipo **Articolo** per il contenuto del kit aggiuntivo richiesto. La riga rappresenta un componente di assemblaggio aggiuntivo.  
+7.  Nella pagina **Righe di assemblaggio su ordine** creare una nuova riga di tipo **Articolo** per il contenuto del kit aggiuntivo richiesto. La riga rappresenta un componente di assemblaggio aggiuntivo.  
 
     È anche possibile personalizzare l'ordine aumentando la quantità di un articolo standard nel kit. È possibile eseguire questa operazione aumentando il valore del campo **Quantità per** nella riga specifica dell'ordine di assemblaggio.  
 
     > [!NOTE]  
-    >  La finestra **Righe di assemblaggio su ordine** contiene solo i campi di base che un agente dovrà utilizzare per personalizzare la lista dei componenti, aggiungere i numeri di tracciabilità articolo o risolvere i problemi di disponibilità dei componenti. Per vedere altre informazioni sull'ordine di assemblaggio, ad esempio la data di inizio dell'ordine di assemblaggio, scegli l'azione **Mostra documenti**. Viene aperta una visualizzazione completa dell'ordine di assemblaggio collegato alla riga dell'ordine di vendita. Non è possibile modificare il contenuto della maggior parte dei campi della testata ordine di assemblaggio, né registrare l'output di assemblaggio da questa posizione perché è necessario utilizzare la registrazione di spedizione della riga ordine di vendita.  
+    >  La pagina **Righe di assemblaggio su ordine** contiene solo i campi di base che un agente dovrà utilizzare per personalizzare la lista dei componenti, aggiungere i numeri di tracciabilità articolo o risolvere i problemi di disponibilità dei componenti. Per vedere altre informazioni sull'ordine di assemblaggio, ad esempio la data di inizio dell'ordine di assemblaggio, scegli l'azione **Mostra documenti**. Viene aperta una visualizzazione completa dell'ordine di assemblaggio collegato alla riga dell'ordine di vendita. Non è possibile modificare il contenuto della maggior parte dei campi della testata ordine di assemblaggio, né registrare l'output di assemblaggio da questa posizione perché è necessario utilizzare la registrazione di spedizione della riga ordine di vendita.  
     >   
     >  Nella testata degli ordini di assemblaggio collegati, soltanto il campo **Data inizio** può essere modificato per consentire agli addetti all'assemblaggio di specificare una data antecedente alla data di scadenza per l'inizio del processo. È possibile modificare tutti i campi nelle righe dell'ordine di assemblaggio collegato in modo da permettere agli addetti alla warehouse di immettere i dati relativi al consumo durante il processo.  
 
 8.  Esaminare o rispondere ai problemi di disponibilità dei componenti. Ad esempio, selezionare un articolo sostitutivo disponibile o definire una data di scadenza successiva.  
-9. Chiudere la finestra **Righe di assemblaggio su ordine**. L'ordine di assemblaggio collegato è ora pronto per iniziare l'assemblaggio degli articoli personalizzati entro la data di scadenza.  
+9. Chiudere la pagina **Righe di assemblaggio su ordine**. L'ordine di assemblaggio collegato è ora pronto per iniziare l'assemblaggio degli articoli personalizzati entro la data di scadenza.  
 10. Nell'ordine di vendita, scegliere l'azione **Rilascio** per notificare al reparto di assemblaggio che il processo di assemblaggio può iniziare.  
 11. Nel reparto di assemblaggio eseguire i passaggi di assemblaggio degli articoli venduti in questa procedura. Per ulteriori informazioni, vedere [Assemblare articoli](assembly-how-to-assemble-items.md).  
 

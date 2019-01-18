@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
@@ -26,9 +26,9 @@ Non è possibile creare un documento di prelievo warehouse da zero perché un'at
 
 È possibile creare documenti di prelievo warehouse in modalità pull aprendo un documento di spedizione warehouse vuoto, rilevare i documenti di origine rilasciati per la spedizione, quindi creare righe di prelievo warehouse per tali spedizioni. È possibile utilizzare le funzioni **Prendi documenti origine** o **Usa filtri per richiamare doc. orig.** per rilevare i documenti di origine pronti per la spedizione.
 
-In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per estrarre e creare righe prelievo in modalità batch. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).  
+In alternativa, è possibile utilizzare la pagina **Prospetto prelievi** per estrarre e creare righe prelievo in modalità batch. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-È inoltre possibile creare documenti di prelievo warehouse in modalità push dalla finestra **Spedizione warehouse** selezionando **Crea prelievo**.  
+È inoltre possibile creare documenti di prelievo warehouse in modalità push dalla pagina **Spedizione warehouse** selezionando **Crea prelievo**.  
 
 > [!NOTE]  
 >  Il prelievo per la spedizione warehouse di articoli assemblati nell'ordine di vendita spedito segue gli stessi passaggi dei normali prelievi warehouse per la spedizione, come descritto in questo argomento. Tuttavia, il numero delle righe prelievo per quantità da spedire può essere molti a uno perché vengono selezionati i componenti, non l'articolo assemblato.  
@@ -52,7 +52,7 @@ In alternativa, è possibile utilizzare la finestra **Prospetto prelievi** per e
 
 4.  Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegliere l'azione **Registra prelievo**.  
 
-A questo punto, la persona responsabile della spedizione può immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella finestra **Spedizione warehouse**. Per ulteriori informazioni, vedere [Spedire articoli](warehouse-how-ship-items.md).   
+A questo punto, la persona responsabile della spedizione può immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni, vedere [Spedire articoli](warehouse-how-ship-items.md).   
 
 Oltre al prelievo per i documenti di origine, come descritto in questo argomento, è possibile estrarre e inserire articoli tra le collocazioni senza fare riferimento ai documenti di origine. Per ulteriori informazioni, vedere [Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Per altre righe spedizione warehouse, il valore del campo **Qtà da spedire** è
 
 Quando completano l'assemblaggio delle parti o di tutta la quantità da assemblare su ordine, i lavoratori lo registrano nel campo **Qtà da spedire** sulla riga spedizione warehouse e scelgono l'azione **Registrare spedizione**. In questo modo viene registrato l'output assemblaggio corrispondente, incluso il consumo di componenti. Una spedizione di vendita per la quantità viene registrata per l'ordine di vendita.
 
-Nell'ordine di assemblaggio è possibile scegliere **Riga spediz. whse. assem. su ordine** per accedere alla riga spedizione warehouse. Questa operazione è conveniente per i lavoratori che in genere non utilizzano la finestra **Spedizione warehouse**.
+Nell'ordine di assemblaggio è possibile scegliere **Riga spediz. whse. assem. su ordine** per accedere alla riga spedizione warehouse. Questa operazione è conveniente per i lavoratori che in genere non utilizzano la pagina **Spedizione warehouse**.
 
 Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga ordine di vendita vengono aggiornati per mostrare lo stato di avanzamento nel warehouse. I seguenti campi vengono inoltre aggiornati per mostrare le quantità rimanente da assemblare su ordine e spedire:
 

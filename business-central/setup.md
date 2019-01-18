@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
-Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per informazioni su come accedere a tutte le finestre assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
+Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
 
 > [!NOTE]
 > È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

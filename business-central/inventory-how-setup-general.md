@@ -10,26 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0daae6b5f38c223462cb76d9f34fc6e7b4bae197
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>Impostare le informazioni generali di magazzino
-Le impostazioni generali di magazzino vengono impostate nella finestra **Setup magazzino**.
+Le impostazioni generali di magazzino vengono impostate nella pagina **Setup magazzino**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
+Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella pagina **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Setup magazzino](inventory-setup-inventory.md)  
+[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)    
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi da assemblare su ordine
@@ -41,9 +41,9 @@ Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con l
 4.  Nel Dettaglio informazioni **Dettagli righe vendite** determinare se tutta o parte della quantità richiesta è disponibile.  
 5.  Nel campo **Qtà per assemblaggio su ordine** dedurre la quantità disponibile in modo che solo la quantità non disponibile venga assemblata su ordine. Il campo **Quantità impegnata** viene diminuito di conseguenza per indicare che il collegamento da ordine a ordine, o impegno, si applica solo alla quantità da assemblare.  
 6.  Nella Scheda dettaglio **Righe** scegliere **Funzioni** e quindi scegliere l'azione **Impegna**.  
-7.  Nella finestra **Impegni** selezionare la riga o le righe del movimento contabile articolo che contengono le quantità disponibili, scegliere l'azione **Impegna da riga corrente**, quindi fare clic su **OK**.  
+7.  Nella pagina **Impegni** selezionare la riga o le righe del movimento contabile articolo che contengono le quantità disponibili, scegliere l'azione **Impegna da riga corrente**, quindi fare clic su **OK**.  
 
-    Nel campo **Quantità impegnata** della finestra **Ordine vendita** verrà indicato che l'intera quantità della riga dell'ordine è impegnata. Il campo **Qtà per assemblaggio su ordine** riflette ancora la sottoquantità che deve essere assemblata.  
+    Nella pagina **Quantità impegnata** della finestra **Ordine vendita** verrà indicato che l'intera quantità della riga dell'ordine è impegnata. Il campo **Qtà per assemblaggio su ordine** riflette ancora la sottoquantità che deve essere assemblata.  
 
 8.  Rilasciare l'ordine di vendita per il prelievo degli articoli di magazzino e per l'assemblaggio degli articoli non disponibili. Per ulteriori informazioni, vedere [Assemblare articoli](assembly-how-to-assemble-items.md).  
 

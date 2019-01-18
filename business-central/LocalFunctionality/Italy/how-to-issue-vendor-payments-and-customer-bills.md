@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 381d759d77e8a65207bd507a2f1ca44ad4fbfae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b84d4eeee1697dcb3341764b3ea716188b81c857
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
 La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani. È possibile pagare i fornitori in base al bonifico SEPA standard e riscuotere i pagamenti dai clienti in base al metodo di addebito diretto SEPA standard. Di seguito viene descritto il processo per l'invio del pagamento a un fornitore con bonifico SEPA. I passaggi sono simili per la riscossione del pagamento da un cliente.  
 
- Prima di avviare la seguente procedura, controllare che le informazioni sulla banca della società siano state immesse nella finestra **Scheda conto corrente bancario**. Nella scheda. includere le informazioni per i seguenti campi:  
+ Prima di avviare la seguente procedura, controllare che le informazioni sulla banca della società siano state immesse nella pagina **Scheda conto corrente bancario**. Nella scheda. includere le informazioni per i seguenti campi:  
 
 - IBAN  
 - Codice SWIFT (facoltativo)  
@@ -47,7 +47,7 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 12. Scegliere l'azione **Crea Distinta**.
 13. Scegliere il pulsante **Sì** per inviare il pagamento dell'effetto.  
 14. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Distinta effetti fornitore emessa**, quindi selezionare il collegamento correlato.
-15. Selezionare l'utente dall'elenco quindi scegliere l'azione **Modifica**. Verrà aperta la finestra **Distinta effetti forn. emessa**.  
+15. Selezionare l'utente dall'elenco quindi scegliere l'azione **Modifica**. Verrà aperta la pagina **Distinta effetti forn. emessa**.  
 16. Per esportare le informazioni sui pagamenti, scegliere l'azione **Esporta distinta effetti su file**. È possibile visualizzare il file XML inviato.  
 
     1.  Esportare nel file (per file in formato SEPA standard)  

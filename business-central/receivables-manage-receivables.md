@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f153bd8ff54ed00604ad5ac894b9368575050505
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2e677a1170be8f55421869ca0308fb31961b58f7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-receivables"></a>Gestione della contabilità clienti
@@ -24,25 +24,27 @@ Un passaggio normale nell'iter finanziario consiste nel riconciliare i conti cor
 
 Poiché la maggior parte dei clienti negli ambienti di B2B pagano un certo periodo dopo la consegna, lasciando le fatture di vendita registrate aperte per il reparto Contabilità clienti da chiudere (collegare) quando viene ricevuto il pagamento, alcune fatture di vendita possono essere pagate immediatamente, ad esempio nel caso di pagamenti tramite PayPal. Tali fatture vengono immediatamente collegate come pagate quando vengono registrate e, pertanto, non appaiono come pagamenti da elaborare in Contabilità clienti. Per ulteriori informazioni, vedere, ad esempio, [Fatturare le attività di vendita](sales-how-invoice-sales.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] uno dei modi più rapidi per registrare pagamenti nella finestra **Registrazione riconciliazione pagamenti** consiste nell'importare un file di rendiconto bancario o un feed. I pagamenti sono collegati ai movimenti contabili aperti per clienti o fornitori in base alle corrispondenze tra il testo di pagamento e le informazioni del movimento. È possibile esaminare e modificare le corrispondenze prima di contabilizzare le registrazioni e chiudere i movimenti dei conti correnti bancari per i movimenti contabili quando tale registrazione viene contabilizzata. Il conto bancario viene riconciliato una volta che tutti i pagamenti sono collegati.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] uno dei modi più rapidi per registrare pagamenti nella pagina **Registrazione riconciliazione pagamenti** consiste nell'importare un file di rendiconto bancario o un feed. I pagamenti sono collegati ai movimenti contabili aperti per clienti o fornitori in base alle corrispondenze tra il testo di pagamento e le informazioni del movimento. È possibile esaminare e modificare le corrispondenze prima di contabilizzare le registrazioni e chiudere i movimenti dei conti correnti bancari per i movimenti contabili quando tale registrazione viene contabilizzata. Il conto bancario viene riconciliato una volta che tutti i pagamenti sono collegati.
 
-Sono disponibili altre finestre in cui è possibile collegare i pagamenti o riconciliare i conti bancari:
+Sono disponibili altre pagine in cui è possibile collegare i pagamenti o riconciliare i conti bancari:
 
-* La finestra **Riconciliazione C/C bancari** in cui si possono riconciliare i conti bancari abbinando le righe dell'estratto conto bancario con i movimenti contabili del conto bancario di sistema. Qui è possibile anche riconciliare i pagamenti con assegni. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md). Qui non è possibile collegare i pagamenti.
-* La finestra **Registrazione pagamenti** nella quale è possibile collegare manualmente i pagamenti ricevuti come contante, assegno o transazione bancaria rispetto a una lista generata di documenti di vendita non pagati. Questa funzionalità è disponibile solo per i documenti di vendita. Qui, non è possibile applicare i pagamenti in uscita e non è possibile riconciliare i conti bancari.
-* La finestra **Registrazioni incassi**, nella quale vengono registrate manualmente le ricezioni nel relativo conto COGE, cliente o altro conto immettendo una riga di pagamento. È possibile collegare la ricezione o il rimborso a uno o più movimenti aperti prima di contabilizzare le registrazioni incassi oppure è possibile eseguire il collegamento dai movimenti contabili clienti. Qui, non è possibile riconciliare i conti bancari.  
+* La pagina **Riconciliazione C/C bancari** in cui si possono riconciliare i conti bancari abbinando le righe dell'estratto conto bancario con i movimenti contabili del conto bancario di sistema. Qui è possibile anche riconciliare i pagamenti con assegni. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md). Qui non è possibile collegare i pagamenti.
+* La pagina **Registrazione pagamenti** nella quale è possibile collegare manualmente i pagamenti ricevuti come contante, assegno o transazione bancaria rispetto a una lista generata di documenti di vendita non pagati. Questa funzionalità è disponibile solo per i documenti di vendita. Qui, non è possibile applicare i pagamenti in uscita e non è possibile riconciliare i conti bancari.
+* La pagina **Registrazioni incassi**, nella quale vengono registrate manualmente le ricezioni nel relativo conto COGE, cliente o altro conto immettendo una riga di pagamento. È possibile collegare la ricezione o il rimborso a uno o più movimenti aperti prima di contabilizzare le registrazioni incassi oppure è possibile eseguire il collegamento dai movimenti contabili clienti. Qui, non è possibile riconciliare i conti bancari.  
 
-Un'altra attività di gestione della contabilità clienti riguarda la riscossione dei saldi inevasi, inclusi gli addebiti interessi e l'emissione dei solleciti. [!INCLUDE[d365fin](includes/d365fin_md.md)] offre modi per effettuare anche tali operazioni. Per ulteriori informazioni, vedere [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md).  
+Altri aspetti della gestione dei crediti includono la riscossione di saldi inevasi, tra cui solleciti e addebiti interessi, nonché l'impostazione di conti correnti bancari per consentire il prelevamento automatico dei pagamenti dei clienti dai relativi conti.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
 | Per | Vedere |
 | --- | --- |
 | Collegare i pagamenti a movimenti contabili cliente o fornitore aperti in base a un feed bancario o un file di rendiconto bancario importato e riconciliare il conto bancario una volta che tutti i pagamenti sono collegati. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+|Impostare le mappature tra testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo che i pagamenti vengano registrati nei conti specificati quando si contabilizzano le registrazioni riconciliazione pagamenti.|[Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
 | Collegare i pagamenti a movimenti contabili clienti aperti in base all'immissione manuale in una lista di documenti di vendita non pagati. |[Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Registrare gli incassi o i rimborsi per i clienti nelle registrazioni incassi e collegare ai movimenti contabili clienti, dalle registrazioni o dai movimenti contabili registrati. |[Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md) |
 | Inviare solleciti ai clienti per gli importi insoluti, calcolare interessi e addebiti interessi e gestire i crediti v/clienti. |[Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md) |
 | Prevede quando verranno effettuati i pagamenti ritardati per i documenti di vendita. | [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md) |
+|Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente, solo in Euro.|[Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Blocca l'immissione di un cliente nei documenti o nella registrazione, ad esempio a causa di insolvibilità.|[Blocca clienti](receivables-how-block-customers.md)|
 |È possibile assicurarsi di conoscere il costo degli articoli spediti assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute dopo la vendita.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|

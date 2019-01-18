@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestione di interazioni con i contatti
@@ -30,7 +30,7 @@ L'area di gestione di relazioni consente di registrare tutte le interazioni con 
 
 ##  <a name="setting-up-interaction-templates"></a>Impostazione di modelli di interazione
 Prima di creare e registrare interazioni, è necessario impostare i modelli di interazione. Quando si creano interazioni, è necessario specificare i modelli di interazione su cui si basano. Il termine modello di interazione indica uno schema che definisce le caratteristiche di base di un'interazione.
-Nella finestra **Modello Interazioni** è possibile impostare un modello di interazione.
+Nella pagina **Modello Interazioni** è possibile impostare un modello di interazione.
 
 Una volta inserite le informazioni sul modello interazione, è possibile creare un allegato, ad esempio un documento di Microsoft Word. Ripetere tali passaggi per impostare altri modelli interazione.  
 
@@ -41,13 +41,13 @@ Esistono due modi per registrare interazioni:
 * È possibile fare in modo che le interazioni vengano registrate automaticamente nell'applicazione quando si eseguono azioni specifiche, ad esempio la stampa di una fattura o di un'offerta. Per ulteriori informazioni, vedere [Registrazione automatica delle interazioni con i contatti](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visualizzazione e gestione delle interazioni registrate
-È possibile visualizzare tutte le interazioni registrate non rimosse nella finestra **Mov. Log Interazione**. È possibile aprire la finestra per:
+È possibile visualizzare tutte le interazioni registrate non rimosse nella pagina **Mov. Log Interazione**. È possibile aprire la pagina per:
 
 * Utilizzare l'icona **Cerca pagina o report** per cercare in **Movimenti log interazione**.
 * Scegliere l'azione **Movimenti log interazione** in un contatto o un segmento.
-  La finestra **Movimenti log interazione** contiene le interazioni create manualmente e le interazioni registrate automaticamente dall'applicazione.
+  La pagina **Movimenti log interazione** contiene le interazioni create manualmente e le interazioni registrate automaticamente dall'applicazione.
 
-Nella finestra è possibile fare quanto segue:
+In questa pagina è possibile:
 
 * Visualizzare lo stato delle interazioni.
 * Contrassegnare le interazioni come annullate.

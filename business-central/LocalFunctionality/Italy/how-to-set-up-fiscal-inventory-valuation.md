@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9ee3953ac28a684d2c335eefc22f25c889cf5e2b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73445f134bac7742316cdc90fdda01523f1b65ca
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fiscal-inventory-valuation"></a>Impostare la valutazione magazzino fiscale
@@ -37,7 +37,7 @@ Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metod
 ## <a name="to-set-up-fiscal-inventory-valuation-for-an-item"></a>Per impostare la valutazione del magazzino fiscale per un articolo  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Elenco articoli** selezionare ogni articolo e poi, nella Scheda dettaglio **Generale**, nel campo **Valutazione magazzino**, specificare il tipo di valutazione di magazzino.  
+2.  Nella pagina **Elenco articoli** selezionare ogni articolo e poi, nella Scheda dettaglio **Generale**, nel campo **Valutazione magazzino**, specificare il tipo di valutazione di magazzino.  
 
 3.  Scegliere il pulsante **OK**.  
 

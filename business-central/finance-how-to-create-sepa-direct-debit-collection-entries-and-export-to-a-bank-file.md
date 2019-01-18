@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca
@@ -25,8 +26,8 @@ Per indicare alla banca di trasferire l'importo del pagamento dal conto bancario
 
 ### <a name="to-create-a-direct-debit-collection"></a>Per creare una riscossione di addebiti diretti  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riscossioni addebiti diretti** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Riscossioni addebiti diretti**, nel gruppo **Nuovo** della scheda **Pagina iniziale**, selezionare **Crea riscossione di addebiti diretti**.  
-3. Nella finestra **Crea riscossione di addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
+2. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Nuovo** della scheda **Pagina iniziale**, selezionare **Crea riscossione di addebiti diretti**.  
+3. Nella pagina **Crea riscossione di addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -40,28 +41,28 @@ Per indicare alla banca di trasferire l'importo del pagamento dal conto bancario
 
 4. Scegliere il pulsante **OK**.  
 
-     Alla finestra **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
+     Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Per esportare un movimento riscossione di addebiti diretti in un file della banca  
-1. Nella finestra **Riscossioni addebiti diretti**, nel gruppo **Processo** della scheda **Pagina iniziale**, selezionare **Movimenti riscossioni addebiti diretti**.  
-2. Nella finestra **Movimenti riscossioni addebiti diretti** selezionare il movimento che si desidera esportare, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Crea file addebiti diretti**.  
+1. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Processo** della scheda **Pagina iniziale**, selezionare **Movimenti riscossioni addebiti diretti**.  
+2. Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che si desidera esportare, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Crea file addebiti diretti**.  
 3. Salvare il file di esportazione nel percorso da cui verrà inviato o caricato sul sito elettronico della banca.  
 
-     Nella finestra **Movimenti riscossioni addebiti diretti** il campo **Stato riscossione di addebiti diretti** viene impostato su File creato. Nella finestra **Mandati per addebito diretto SEPA** il campo **Contatore debiti** viene aggiornato con un conteggio.  
+     Nella pagina **Movimenti riscossioni addebiti diretti** il campo **Stato riscossione di addebiti diretti** viene impostato su File creato. Nella pagina **Mandati per addebito diretto SEPA** il campo **Contatore debiti** viene aggiornato con un conteggio.  
 
 Se il file esportato non può essere elaborato, ad esempio perché il cliente è insolvente, è possibile rifiutare il movimento riscossione addebiti diretti. Se il file esportato viene elaborato correttamente dalla banca, i pagamenti in scadenza relativi alle fatture di vendita interessate vengono automaticamente riscossi dai clienti interessati. In questo caso è possibile chiudere la riscossione.  
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Per rifiutare un movimento riscossione di addebiti diretti  
-* Nella finestra **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Rifiuta movimento**.  
+* Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Rifiuta movimento**.  
 
-     Il valore nel campo **Stato** della finestra **Movimenti riscossioni addebiti diretti** viene modificato in **Rifiutato**.  
+     Il valore nel campo **Stato** della pagina **Movimenti riscossioni addebiti diretti** viene modificato in **Rifiutato**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Per chiudere una riscossione di addebiti diretti  
-* Nella finestra **Movimenti riscossioni addebiti diretti** selezionare il movimento che è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Chiudi riscossione**.  
+* Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Chiudi riscossione**.  
 
      La riscossione di addebiti diretti correlata è chiusa.  
 
-È ora possibile registrare le ricevute dei pagamenti per le fatture di vendita interessate. È possibile eseguire questa operazione come si registrano le ricevute dei pagamenti, ad esempio nella finestra **Registrazione pagamenti**, oppure è possibile registrare le ricevute dei pagamenti correlate direttamente nella finestra **Movimenti riscossioni addebiti diretti**. Per ulteriori informazioni, vedere [Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+È ora possibile registrare le ricevute dei pagamenti per le fatture di vendita interessate. È possibile eseguire questa operazione come si registrano le ricevute dei pagamenti, ad esempio nella pagina **Registrazione pagamenti**, oppure è possibile registrare le ricevute dei pagamenti correlate direttamente nella pagina **Movimenti riscossioni addebiti diretti**. Per ulteriori informazioni, vedere [Registrare ricevute di pagamento di addebiti diretti SEPA](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)   

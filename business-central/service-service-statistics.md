@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ ms.lasthandoff: 09/28/2018
 ## <a name="viewing-statistics-for-service-orders"></a>Visualizzazione delle statistiche relative a ordini di assistenza
 La funzionalità di statistiche dell'ordine di assistenza offre una rapida sintesi del contenuto dell'intero ordine di assistenza, dei dettagli delle specifiche righe di assistenza, delle informazioni correlate alla fatturazione, alla spedizione e al consumo nonché del saldo del cliente.  
 
-I dati statistici relativi a un ordine di assistenza vengono visualizzati nella finestra **Statistiche ordine assistenza** relativa all'ordine specifico. È possibile aprire la finestra delle statistiche relativa da un ordine di assistenza. Nella finestra **Ordini assistenza**, scegliere **Statistiche**. Nelle Schede dettaglio di questa finestra sono disponibili informazioni, ad esempio quantità, importo, IVA, costo, profitto e limite di credito del cliente. Salvo diversamente specificato, gli importi presenti nella finestra sono espressi nella valuta dell'ordine di assistenza.  
+I dati statistici relativi a un ordine di assistenza vengono visualizzati nella pagina **Statistiche ordine assistenza** relativa all'ordine specifico. È possibile aprire la pagina delle statistiche relativa da un ordine di assistenza. Nella pagina **Ordini assistenza**, scegliere **Statistiche**. Nelle Schede dettaglio di questa pagina sono disponibili informazioni, ad esempio quantità, importo, IVA, costo, profitto e limite di credito del cliente. Salvo diversamente specificato, gli importi presenti nella pagina sono espressi nella valuta dell'ordine di assistenza.  
 
 ### <a name="view-totals-for-a-service-order"></a>Visualizzare i totali per un ordine di assistenza  
-È possibile visualizzare l'importo totale (IVA inclusa e IVA esclusa), l'importo dell'IVA, il costo e il margine nelle righe di assistenza. In questa finestra sono inoltre visualizzate informazioni relative agli articoli, ad esempio il peso, il volume e la quantità di colli.  
+È possibile visualizzare l'importo totale (IVA inclusa e IVA esclusa), l'importo dell'IVA, il costo e il margine nelle righe di assistenza. In questa pagina sono inoltre visualizzate informazioni relative agli articoli, ad esempio il peso, il volume e la quantità di colli.  
 
 ### <a name="view-shipping-information"></a>Visualizzare le informazioni di spedizione  
 È possibile visualizzare informazioni relative ad articoli, risorse o costi da spedire. Per fornire tali informazioni vengono utilizzati i valori specificati nel campo **Qtà da spedire** di ciascuna riga di assistenza nell'ordine.  
@@ -54,7 +54,7 @@ I dati statistici relativi a un ordine di assistenza vengono visualizzati nella 
 È possibile visualizzare il saldo del conto del cliente, nonché il credito massimo che può essere concesso al cliente per cui è stato creato il documento di assistenza.
 
 ## <a name="viewing-service-item-statistics"></a>Visualizzazione delle statistiche relative agli articoli in assistenza
-Nella finestra **Statistiche Artic. di Assist.** è possibile visualizzare informazioni aggiornate relative a un articolo in assistenza in base ai seguenti tipi di movimenti contabili di assistenza:  
+Nella pagina **Statistiche Artic. di Assist.** è possibile visualizzare informazioni aggiornate relative a un articolo in assistenza in base ai seguenti tipi di movimenti contabili di assistenza:  
 
 * Risorse  
 * Articoli  
@@ -67,7 +67,7 @@ Per ogni tipo di movimento è possibile visualizzare l'importo fatturato, l'impo
 * (Importo fatturato - Utilizzo (Costo)) x 100 / Importo fatturato  
 
 ## <a name="using-trendscapes"></a>Utilizzo di Trendscape
-Per gli articoli in assistenza e i contratti di assistenza, le finestre **Trendscape articolo di assist.** e **Trendscape contratto** forniscono un riepilogo a scorrimento dei movimenti contabili di assistenza per uno specifico articolo in assistenza o contratto di assistenza in un determinato periodo di tempo. Per visualizzare il trendscape, aprire l'articolo in assistenza o il contratto di assistenza, scegliere l'azione **Statistiche** e quindi scegliere **Trendscape**.
+Per gli articoli in assistenza e i contratti di assistenza, le pagine **Trendscape articolo di assist.** e **Trendscape contratto** forniscono un riepilogo a scorrimento dei movimenti contabili di assistenza per uno specifico articolo in assistenza o contratto di assistenza in un determinato periodo di tempo. Per visualizzare il trendscape, aprire l'articolo in assistenza o il contratto di assistenza, scegliere l'azione **Statistiche** e quindi scegliere **Trendscape**.
 
 Scorrendo l'elenco, gli importi vengono calcolati nella valuta locale a seconda dell'intervallo di tempo specificato. Tutti gli importi vengono calcolati dai movimenti contabili di assistenza, ovvero i movimenti creati durante la registrazione di ordini o di fatture di assistenza.
 
@@ -88,25 +88,25 @@ Viene generato un movimento di utili o perdite contratto quando un'offerta di co
 |**Guad./Perd. contr. (ce. resp.)**|Per visualizzare i profitti/perdite del contratto in base al centro di responsabilità.|  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della pagina di visualizzare e quindi scegliere il collegamento correlato.  
-2. Compilare i criteri di filtro da applicare. Ad esempio, nella finestra **Guad.i/Perdite contr. (motivi)** scegliere un valore per **Filtro codice causa**.  
+2. Compilare i criteri di filtro da applicare. Ad esempio, nella pagina **Guad.i/Perdite contr. (motivi)** scegliere un valore per **Filtro codice causa**.  
 3. Scegliere l'azione **Mostra matrice**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visualizzazione di statistiche per documenti di assistenza registrati
 Le statistiche relative all'assistenza consentono di ottenere una panoramica dei dati statistici relativi al contenuto di documenti di assistenza registrati, ad esempio spedizione, fattura o nota di credito registrata.  
 
-Le informazioni statistiche vengono visualizzate nella finestra delle statistiche per il documento di assistenza registrato corrispondente. È possibile aprire la finestra delle statistiche rilevante dai documenti di spedizione assistenza registrata, fattura di assistenza registrata o note di credito di assistenza registrate. Per ognuno di questi tipi di documento, nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Statistiche**. Ad esempio, nella finestra **Fatture assistenza registrate** scegliere **Statistiche** nel gruppo **Processo** della scheda **Pagina iniziale**.  
+Le informazioni statistiche vengono visualizzate nella pagina delle statistiche per il documento di assistenza registrato corrispondente. È possibile aprire la pagina delle statistiche rilevante dai documenti di spedizione assistenza registrata, fattura di assistenza registrata o note di credito di assistenza registrate. Per ognuno di questi tipi di documento, nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Statistiche**. Ad esempio, nella pagina **Fatture assistenza registrate** scegliere **Statistiche** nel gruppo **Processo** della scheda **Pagina iniziale**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiche relative alle spedizioni di assistenza registrate  
-La finestra **Statistiche spedizioni assistenza** consente di visualizzare una panoramica di una spedizione di assistenza registrata. Le informazioni visualizzate sono relative al contenuto fisico della spedizione, ad esempio la quantità degli articoli spediti, le ore o i costi relativi alle risorse, nonché il peso e il volume degli articoli stessi.  
+La pagina **Statistiche spedizioni assistenza** consente di visualizzare una panoramica di una spedizione di assistenza registrata. Le informazioni visualizzate sono relative al contenuto fisico della spedizione, ad esempio la quantità degli articoli spediti, le ore o i costi relativi alle risorse, nonché il peso e il volume degli articoli stessi.  
 
 ### <a name="posted-service-invoice-statistics"></a>Statistiche relative alle fatture di assistenza registrate  
-È possibile visualizzare un riepilogo dei dati statistici relativi a una fattura di assistenza registrata nella finestra **Statistiche fatture assistenza**. È possibile visualizzare i totali della fattura di assistenza registrata. I dati includono l'importo totale nelle righe di assistenza, con IVA inclusa ed esclusa, registrate come fatturate, l'importo dell'IVA, il costo e il margine nella fattura registrata. Nella finestra sono inoltre visualizzate informazioni relative a:  
+È possibile visualizzare un riepilogo dei dati statistici relativi a una fattura di assistenza registrata nella pagina **Statistiche fatture assistenza**. È possibile visualizzare i totali della fattura di assistenza registrata. I dati includono l'importo totale nelle righe di assistenza, con IVA inclusa ed esclusa, registrate come fatturate, l'importo dell'IVA, il costo e il margine nella fattura registrata. Nella pagina sono inoltre visualizzate informazioni relative a:  
 
 * Articoli nelle righe della fattura di assistenza, ad esempio peso, volume e quantità di colli.  
 * Il saldo nel conto del cliente e il credito massimo che è possibile concedere al cliente.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistiche relative alle note di credito di assistenza registrate  
-La finestra **Statistiche note credito assistenza** consente di visualizzare una panoramica dei dati statistici presenti nelle righe di una nota di credito di assistenza registrata. La panoramica può includere:
+La pagina **Statistiche note credito assistenza** consente di visualizzare una panoramica dei dati statistici presenti nelle righe di una nota di credito di assistenza. La panoramica può includere:
 
 * I totali nella nota di credito registrata, ad esempio quantità, importo, IVA, costo e profitto. Sono inoltre contenute informazioni specifiche relative agli articoli presenti sulle righe di assistenza della nota di credito registrata, ad esempio quantità, peso e volume.  
 * Informazioni generali relative al cliente, ad esempio il limite di credito e il saldo del conto.  

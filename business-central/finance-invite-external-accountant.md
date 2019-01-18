@@ -11,19 +11,19 @@ ms.search.keywords: accountant, accounting
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 2408d7df92a8367505bd068dcad22283a7082126
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitare il contabile esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che possa utilizzare i dati fiscali dell'azienda.
 
-Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)], può utilizzare la Gestione ruolo utente **Contabile** che permette di accedere facilmente alle finestre più pertinenti al suo lavoro.  
+Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)], può utilizzare la Gestione ruolo utente **Contabile** che permette di accedere facilmente alle pagine più pertinenti al suo lavoro.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitare il contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Nella versione più recente di [!INCLUDE[d365fin](includes/d365fin_md.md)] è stata semplificata la procedura per invitare il contabile esterno. Aprire semplicemente la finestra **Utenti** e scegliere l'azione **Invita contabile esterno** nella barra multifunzione. Viene presentato un messaggio di posta elettronica nel quale è sufficiente aggiungere l'indirizzo di posta elettronica del contabile e inviare l'invito.  
+Nella versione più recente di [!INCLUDE[d365fin](includes/d365fin_md.md)] è stata semplificata la procedura per invitare il contabile esterno. Aprire semplicemente la pagina **Utenti** e scegliere l'azione **Invita contabile esterno** nella barra multifunzione. Viene presentato un messaggio di posta elettronica nel quale è sufficiente aggiungere l'indirizzo di posta elettronica del contabile e inviare l'invito.  
 
 ![Invitare il contabile](./media/finance-invite-accountant/invite-accountant.png)
 

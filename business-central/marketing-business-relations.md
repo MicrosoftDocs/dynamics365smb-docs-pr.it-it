@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-marketing
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Impostazione delle relazioni d'affari nelle società contatto
@@ -28,7 +29,7 @@ L'utilizzo delle relazioni d'affari nei contatti è un processo a due passaggi. 
 >   Per sincronizzare i contatti con fornitori, clienti o conti correnti bancari in altre sezioni dell'applicazione, è consigliabile impostare una relazione d'affari.
 
 ## <a name="to-define-a-business-relation-code"></a>Per definire un codice relazioni d'affari
-Il codice relazione d'affari definisce una categoria o un tipo della relazione d'affari, ad esempio BANCA o Legge. È possibile impostare più codici di relazione d'affari. Per definire la relazione d'affari, utilizzare la finestra **Relazioni d'affari**.
+Il codice relazione d'affari definisce una categoria o un tipo della relazione d'affari, ad esempio BANCA o Legge. È possibile impostare più codici di relazione d'affari. Per definire la relazione d'affari, utilizzare la pagina **Relazioni d'affari**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Relazioni d'affari** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Nuovo** e immettere un codice e una descrizione. Il codice può avere un massimo di 11 caratteri e può essere qualsiasi combinazione di numeri o lettere.
@@ -39,12 +40,12 @@ Non è possibile assegnare relazioni d'affari a un contatto, ma solo alle societ
 1. Aprire il contatto.
 2. Scegliere l'azione **Società**, quindi l'azione **Relazioni d'affari**.
 
-    Verrà aperta la finestra **Relazioni d'affari contatto**.
+    Verrà aperta la pagina **Relazioni d'affari contatto**.
 3. Nel campo **Codice relazione d'affari** selezionare la relazione d'affari da assegnare.
 
 Ripetere questi passaggi per assegnare altre relazioni d'affari. È inoltre possibile assegnare altre relazioni d'affari dalla lista Contatti seguendo la stessa procedura.
 
-Il numero di relazioni d'affari assegnate al contatto viene visualizzato nel campo **Nr. relazione d'affari** nella sezione **Segmentazione** nella finestra **Contatto**.
+Il numero di relazioni d'affari assegnate al contatto viene visualizzato nel campo **Nr. relazione d'affari** nella sezione **Segmentazione** nella pagina **Contatto**.
 
 Una volta assegnate le relazioni d'affari ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 

@@ -13,16 +13,16 @@ ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95e2a1938585f1ce68e8c1ae51b8a85596fe44e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68505a6507901511578dc3672de013175a3e36ef
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-job-supplies"></a>Gestire gli approvvigionamenti delle commesse
 La gestione degli approvvigionamenti di progetto di articoli, servizi e spese è un aspetto integrale e critico dell'esecuzione di tutte le commesse. È possibile utilizzare le giacenze o effettuare acquisti specifici per delle commesse utilizzando gli ordini di acquisto e/o le fatture di acquisto. Ad esempio, per completare una commessa relativa a un intervento di assistenza su un computer è richiesto un nuovo disco. Si crea quindi una fattura di acquisto per acquistare il nuovo disco e si registra la commessa in cui verrà utilizzato.
 
-Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella finestra **Registrazioni commesse in G/L**. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella pagina **Registrazioni commesse in G/L**. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Per acquistare articoli o servizi per una commessa
 Nella procedura riportata di seguito viene illustrato come utilizzare una fattura di acquisto per acquistare i prodotti per una commessa. La stessa procedura vale anche quando si utilizza un ordine di acquisto.  
@@ -41,10 +41,10 @@ Nella procedura riportata di seguito viene illustrato come utilizzare una fattur
     Nella Scheda dettaglio **Task**, il campo **Ordini inevasi** mostra l'importo inevaso totale, in valuta locale, degli articoli a magazzino e dei servizi sui documenti di acquisto per la riga del task commessa.  
 
     Il campo **Importo carichi non fatt.** mostra il valore di articoli spediti su documenti di acquisto, ma non ancora fatturati.  
-3. Scegliere uno dei campi per aprire la finestra **Righe acquisto** dove è possibile esaminare le informazioni sulle righe del documento di vendita correlate, inclusi gli articoli o i servizi che sono stati ricevuti.
+3. Scegliere uno dei campi per aprire la pagina **Righe acquisto** dove è possibile esaminare le informazioni sulle righe del documento di vendita correlate, inclusi gli articoli o i servizi che sono stati ricevuti.
 
 ## <a name="to-post-a-job-related-expense"></a>Per registrare una spesa correlata a una commessa
-Se si incorre in spese di commessa straordinarie o eccezionali, è possibile utilizzare la finestra **Registrazioni commesse in G/L** per registrarle direttamente nel conto commessa correlato.
+Se si incorre in spese di commessa straordinarie o eccezionali, è possibile utilizzare la pagina **Registrazioni commesse in G/L** per registrarle direttamente nel conto commessa correlato.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse in C/G** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova riga e immettere le informazioni sulla spesa, tra cui le informazioni nei campi **Nr. commessa** e **Nr. task commessa**.  

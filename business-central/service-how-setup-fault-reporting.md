@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,15 +36,15 @@ I codici dei guasti descrivono i guasti tipici degli articoli in assistenza o le
     |Guasto + Indizio | L'utente specifica una combinazione di codici nelle tabelle **Codici guasto** e **Codici indizio**. I codici indizio tipici includono degli indicatori che un cliente potrebbe utilizzare per descrivere un problema, ad esempio un rumore o una qualità.|  
     |Guasto + Indizio + Area | I codici guasto, indizio e area guasto vengono utilizzati come implementazione del sistema di codifica internazionale delle riparazioni (IRIS, International Repair Coding System).|  
 
-Per completare l'impostazione del reporting dei guasti, è anche possibile specificare quali riparazioni o risoluzioni sono associate a un guasto o a un difetto. L'impostazione viene eseguita nella finestra **Relaz. cod. guasto/risoluzione**, in cui sono state impostate le combinazioni di codici per il gruppo a cui appartiene l'articolo in assistenza da cui si è effettuato l'accesso alla finestra e il numero di occorrenze per ciascuno di essi.
+Per completare l'impostazione del reporting dei guasti, è anche possibile specificare quali riparazioni o risoluzioni sono associate a un guasto o a un difetto. L'impostazione viene eseguita nella pagina **Relaz. cod. guasto/risoluzione**, in cui sono state impostate le combinazioni di codici per il gruppo a cui appartiene l'articolo in assistenza da cui si è effettuato l'accesso alla finestra e il numero di occorrenze per ciascuno di essi.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Per creare relazioni codici guasto e risoluzione
-<!--this needs to go in a working with topic--> Al fine di visualizzare le modalità più comuni di riparazione di particolari guasti nell'articolo durante l'assistenza, occorre impostare informazioni relative a relazioni codici guasto/risoluzione. Utilizzare il processo batch **Inser. relaz. cod. guasti/risol.** per trovare tutte le combinazioni di codici di guasto e di risoluzione negli ordini di assistenza registrati e registrarle nella finestra **Relazioni codici guasto/risoluzione** .
+<!--this needs to go in a working with topic--> Al fine di visualizzare le modalità più comuni di riparazione di particolari guasti nell'articolo durante l'assistenza, occorre impostare informazioni relative a relazioni codici guasto/risoluzione. Utilizzare il processo batch **Inser. relaz. cod. guasti/risol.** per trovare tutte le combinazioni di codici di guasto e di risoluzione negli ordini di assistenza registrati e registrarle nella pagina **Relazioni codici guasto/risoluzione**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Inser.relaz. cod. guasti/risol.** e quindi scegliere il collegamento correlato.  
 2. Immettere le date per definire il periodo che si desidera includere nel processo batch.  
 3. Per raggruppare le relazioni in base al gruppo di articoli in assistenza, scegliere la casella di controllo **Relaziona in base a Gruppo art. in ass.**.  
-4. Per mantenere i record già inseriti manualmente nella finestra **Relazioni codici guasto/risoluzione**, scegliere la casella di controllo **Mantieni record inseriti manualm.**.  
+4. Per mantenere i record già inseriti manualmente nella pagina **Relazioni codici guasto/risoluzione**, scegliere la casella di controllo **Mantieni record inseriti manualm.**  
 
 ## <a name="see-also"></a>Vedi anche
 [Impostazione della gestione assistenza](service-setup-service.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c62d26dc9dc444359c0d8b5a9354b29132857de1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="categorize-items"></a>Classificare gli articoli
@@ -26,8 +26,8 @@ Per trovare gli articoli in base alle caratteristiche, è possibile assegnare gl
 
 ## <a name="to-create-an-item-category"></a>Per creare una categoria articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie articoli** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Categorie articoli** scegliere l'azione **Nuovo**.
-3. Nella finestra **Scheda categoria articolo**, nella Scheda dettaglio **Generale**, compilare i campi in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Categorie articoli** scegliere l'azione **Nuovo**.
+3. Nella pagina **Scheda categoria articolo**, nella Scheda dettaglio **Generale**, compilare i campi in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nella Scheda dettaglio **Attributi**, specificare tutti gli attributi per la categoria articolo. Per ulteriori informazioni, vedere la sezione "Per assegnare attributi a una categoria articolo" in [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

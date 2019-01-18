@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
@@ -85,7 +85,7 @@ Se le capacità delle aree di produzione non devono contribuire a formare la cap
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
 
-Nella finestra **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
+Nella pagina **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
 
 Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.
 

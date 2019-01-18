@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: edaa37db760de1b314c36c18efad8a89026670a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8b59e518fe5d2d917ce7edad12a85ca4527fc001
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
@@ -31,7 +31,7 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
 ## <a name="to-set-up-alternate-depreciation-methods"></a>Per impostare metodi di ammortamento alternativi  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Tabelle ammortamento**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
 3.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  

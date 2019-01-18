@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
@@ -27,9 +27,9 @@ Per poter utilizzare i cespiti, è necessario definire alcune opzioni:
 Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. Dopo aver impostato tali opzioni, è possibile avviare diverse attività. Per ulteriori informazioni, vedere [Cespiti](fa-manage.md).  
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella finestra **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la finestra **Reg. cespiti in G/L**.  
+>   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**.  
 
-Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della finestra **Scheda registro beni ammortizz.**, la finestra **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
+Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della pagina **Scheda registro beni ammortizz.**, la pagina **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 

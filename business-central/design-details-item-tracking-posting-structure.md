@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo
@@ -24,7 +24,7 @@ Per conformità con la funzionalità di costing di magazzino e per ottenere una 
   
 I numeri di tracciabilità articolo nelle entità di rete di ordini e nelle entità di rete diverse dagli ordini sono specificati nella tabella **Movimenti impegni** (T337). I numeri di tracciabilità articolo correlati a informazioni dello storico vengono recuperati direttamente dai movimenti contabili articoli correlati alla transazione in questione. Ciò significa che i movimenti contabili articoli riflettono la specifica di tracciabilità articolo della riga dell'ordine registrato.  
   
-La finestra **Righe tracciabilità articolo** recupera le informazioni da T337 e dai movimenti contabili articoli e le mostra attraverso la tabella temporale denominata **Specifica tracciabilità** (T336). La tabella T336 contiene anche i dati temporanei nella finestra **Righe tracciabilità articolo** per le quantità di tracciabilità articolo che restano da fatturare.  
+La pagina **Righe tracciabilità articolo** recupera le informazioni da T337 e dai movimenti contabili articoli e le mostra attraverso la tabella temporale denominata **Specifica tracciabilità** (T336). La tabella T336 contiene anche i dati temporanei nella pagina **Righe tracciabilità articolo** per le quantità di tracciabilità articolo che restano da fatturare.  
   
 ## <a name="one-to-many-relation"></a>Relazione uno-a-molti  
 La tabella **Relazione movimento articolo**, che viene utilizzata per collegare una riga di documento registrata con i relativi movimenti contabili articolo, è costituita da due parti principali:  

@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Metodi ammortamento
@@ -52,7 +52,7 @@ Se viene immesso il periodo di ammortamento (numero di anni di ammortamento, num
 
 I giorni restanti di ammortamento vengono calcolati sottraendo al numero di giorni di ammortamento il numero di giorni intercorsi tra la data di inizio ammortamento e l'ultima data di movimento cespite.  
 
-Al valore contabile può essere sottratta la rivalutazione registrata, la svalutazione, l'ammortamento anticipato e l'ammortamento acc./ridotto, a seconda che il campo **Includi nel calc. ammortamento** sia disattivato e che il campo **Parte del Valore Netto** sia attivo nella finestra **Setup Tipo Reg. Cespiti**. Questo calcolo garantisce che il cespite venga completamente ammortizzato alla data di fine ammortamento.  
+Al valore contabile può essere sottratta la rivalutazione registrata, la svalutazione, l'ammortamento anticipato e l'ammortamento acc./ridotto, a seconda che il campo **Includi nel Calc. Ammortamento** sia disattivato e che il campo **Parte del Valore Netto** sia attivo nella pagina **Setup Tipo Reg. Cespiti**. Questo calcolo garantisce che il cespite venga completamente ammortizzato alla data di fine ammortamento.  
 
 ### <a name="fixed-yearly-percentage"></a>Percentuale annuale fissa
 Se viene immessa una percentuale annuale fissa, l'importo di ammortamento viene calcolato in base alla seguente formula:  
@@ -90,7 +90,7 @@ La formula seguente calcola l'importo di ammortamento:
 
 La base ammortizzabile viene calcolata sottraendo al valore contabile l'ammortamento registrato a partire dalla data di inizio dell'esercizio in corso.  
 
-L'importo di ammortamento registrato può contenere movimenti con diversi tipi di registrazione (svalutazione, personalizzato 1 e personalizzato 2) contabilizzati a partire dalla data di inizio dell'anno fiscale corrente. Questi tipi registrazione sono inclusi nell'importo di ammortamento registrato nel caso in cui siano presenti segni di spunta nei campi **Tipo ammortamento** e **Parte del valore contabile** nella finestra **Setup tipo reg. cespiti**.  
+L'importo di ammortamento registrato può contenere movimenti con diversi tipi di registrazione (svalutazione, personalizzato 1 e personalizzato 2) contabilizzati a partire dalla data di inizio dell'anno fiscale corrente. Questi tipi registrazione sono inclusi nell'importo di ammortamento registrato nel caso in cui siano presenti segni di spunta nei campi **Tipo ammortamento** e **Parte del valore contabile** nella pagina **Setup tipo reg. cespiti**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Esempio: metodo di ammortamento a quote decrescenti 1
 Il costo di acquisto di un cespite è VL 100.000. Il campo **Perc. amm. quote decr. %** è 25. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente.  
@@ -167,10 +167,10 @@ Con il processo batch **Calcola Ammortamento** viene calcolato un importo a quot
 
 È possibile utilizzare le diverse percentuali per calcolare le quote decrescenti.  
 
-Se viene utilizzato questo metodo, occorre immettere la vita utile prevista ed una percentuale di quota decrescente nella finestra **Registro Beni Amm. Cespiti**.  
+Se viene utilizzato questo metodo, occorre immettere la vita utile prevista ed una percentuale di quota decrescente nella pagina **Registro Beni Amm. Cespiti**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Esempio: ammortamento Decrescente 1-Quote Costanti
-Il costo di acquisto di un cespite è VL 100.000. Nella finestra **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 25 e il campo **Nr. anni di ammortamento** contiene 8. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente.  
+Il costo di acquisto di un cespite è VL 100.000. Nella pagina **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 25 e il campo **Nr. anni di ammortamento** contiene 8. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente.  
 
 I movimenti contabili cespiti vengono visualizzati come segue:  
 
@@ -219,21 +219,21 @@ L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisc
 ## <a name="user-defined-depreciation"></a>Ammortamento definito dall'utente
 Il programma dispone di una funzionalità che consente di impostare metodi di ammortamento personalizzati.  
 
-Se si utilizza un metodo personalizzato, occorre inserire nella finestra **Tabelle ammortamento** una percentuale di ammortamento per ogni periodo (mese, trimestre, anno o periodo contabile).  
+Se si utilizza un metodo personalizzato, occorre inserire nella pagina **Tabelle Ammortamento** una percentuale di ammortamento per ogni periodo (mese, trimestre, anno o periodo contabile).  
 
 La formula per il calcolo dell'importo di ammortamento è la seguente:  
 
 Importo di ammortamento = (% ammortamento x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Ammortamento in base al numero di unità
-Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortamento in base al numero di unità, ad esempio nel caso di produzione di macchinari con una determinata durata totale di funzionamento. Nella finestra **Tabelle ammortamento** è possibile immettere il numero di unità che possono essere prodotte in ogni periodo (mese, trimestre, anno o periodo contabile).  
+Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortamento in base al numero di unità, ad esempio nel caso di produzione di macchinari con una determinata durata totale di funzionamento. Nella pagina **Tabelle Ammortamento** è possibile immettere il numero di unità che possono essere prodotte in ogni periodo (mese, trimestre, anno o periodo contabile).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Per impostare i metodi di ammortamento personalizzati
-La finestra **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
+La pagina **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tabelle ammortamento** e quindi scegliere il collegamento correlato.  
-2. Nella finestra **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
-3. Nella finestra **Scheda tabella ammortamento** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
+3. Nella pagina **Scheda tabella ammortamento** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Esempio - ammortamento definito dall'utente
 Ai fini del calcolo dell'imposta sul reddito, l'utilizzo di un determinato metodo di ammortamento consente di ammortizzare i cespiti più velocemente.  
@@ -257,7 +257,7 @@ Il costo di acquisto è VL 100.000 e la durata dell'ammortamento è di 5 anni. L
 
 * Data inizio ammortamento  
 
-Se si utilizza un metodo personalizzato, occorre compilare i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** nella finestra **Registro beni amm. cespiti**. Il campo **Data iniz. amm. personalizzato** e il contenuto del campo **Durata periodo** nella finestra **Tabelle ammortamento** consentono di determinare gli intervalli di tempo da utilizzare per i calcoli di ammortamento. In questo modo, viene garantito che la percentuale indicata sarà utilizzata per la prima volta lo stesso giorno per tutti i cespiti. Il campo **Data inizio ammortamento** consente di calcolare il numero di giorni di ammortamento.  
+Se si utilizza un metodo personalizzato, occorre compilare i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** nella pagina **Registro beni amm. cespiti**. Il campo **Data iniz. amm. personalizzato** e il contenuto del campo **Durata periodo** nella pagina **Tabelle ammortamento** consentono di determinare gli intervalli di tempo da utilizzare per i calcoli di ammortamento. In questo modo, viene garantito che la percentuale indicata sarà utilizzata per la prima volta lo stesso giorno per tutti i cespiti. Il campo **Data inizio ammortamento** consente di calcolare il numero di giorni di ammortamento.  
 
 Nell'esempio precedente, i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** contengono 01/01/01. Se invece nel campo **Data iniz. amm. personalizzato** fosse indicata la data 01/01/10 e nel campo **Data inizio ammortamento** la data riportata fosse 01/04/11, il risultato sarebbe:  
 
@@ -273,7 +273,7 @@ Nell'esempio precedente, i campi **Data iniz. amm. personalizzato** e **Data ini
 * Data inizio ammortamento  
 
 ## <a name="half-year-convention-depreciation"></a>Ammortamento di convenzione semestrale
-Il metodo di ammortamento di convenzione semestrale viene applicato se nel campo **Usa convenzione semestrale** della finestra **Registro beni amm. cespiti** è stato impostato un segno di spunta.  
+Il metodo di ammortamento di convenzione semestrale viene applicato se nel campo **Usa convenzione semestrale** della pagina **Registro beni amm. cespiti** è stato impostato un segno di spunta.  
 
 Questo metodo può essere utilizzato insieme ai seguenti metodi di ammortamento:  
 
@@ -284,7 +284,7 @@ Questo metodo può essere utilizzato insieme ai seguenti metodi di ammortamento:
 Applicando il metodo di convenzione semestrale, i cespiti avranno sei mesi di ammortamento durante il primo anno a prescindere dal contenuto del campo **Data inizio Ammortamento**.  
 
 > [!NOTE]  
->   La vita utile residua del cespite dopo il primo anno finanziario conterrà sempre un semestre in cui viene utilizzato il metodo di convenzione semestrale. Affinché il metodo di convenzione semestrale venga applicato correttamente, nel campo **Data Finale Ammortamento** nella finestra **Registro Beni Ammortizzabili Cespite** deve sempre essere riportata una data che sia esattamente di sei mesi anteriore alla data di fine esercizio in cui il cespite viene ammortizzato completamente.  
+>   La vita utile residua del cespite dopo il primo anno finanziario conterrà sempre un semestre in cui viene utilizzato il metodo di convenzione semestrale. Affinché il metodo di convenzione semestrale venga applicato correttamente, nel campo **Data Finale Ammortamento** nel **Registro Beni Ammortizzabili Cespite** deve sempre essere riportata una data che sia esattamente di sei mesi anteriore alla data di fine esercizio in cui il cespite viene ammortizzato completamente.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Esempio: ammortamento di convenzione semestrale
 Il costo di acquisto di un cespite è VL 100.000. La **Data Inizio Ammortamento** è il 01/03/10. La vita utile prevista è di cinque anni, per cui la **Data Finale Ammortamento** deve essere il 30/06/15. Il processo batch **Calcola Ammortamento** viene eseguita annualmente. Questo esempio si basa su un anno finanziario di calendario.  
@@ -304,7 +304,7 @@ I movimenti contabili cespiti vengono visualizzati come segue:
 * Data inizio ammortamento  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Esempio: ammortamento Decrescente 1/Quote Costanti utilizzando il metodo di convenzione semestrale
-Il costo di acquisto di un cespite è VL 100.000. La **Data Inizio Ammortamento** è il 01/11/10. La vita utile prevista è di cinque anni, per cui la **Data Finale Ammortamento** deve essere il 30/06/15. Nella finestra **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 40. Il processo batch **Calcola Ammortamento** viene eseguita annualmente. Questo esempio si basa su un anno finanziario di calendario.  
+Il costo di acquisto di un cespite è VL 100.000. La **Data Inizio Ammortamento** è il 01/11/10. La vita utile prevista è di cinque anni, per cui la **Data Finale Ammortamento** deve essere il 30/06/15. Nella pagina **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 40. Il processo batch **Calcola Ammortamento** viene eseguita annualmente. Questo esempio si basa su un anno finanziario di calendario.  
 
 I movimenti contabili cespiti vengono visualizzati come segue:  
 

@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddd5ac6a8252b066700b8fd0058f7f772e4fd01b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="revalue-fixed-assets"></a>Rivalutazione dei cespiti
@@ -34,7 +34,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
 
     > [!NOTE]  
-    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
@@ -44,17 +44,17 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
 
     > [!NOTE]  
-    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella finestra **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
-L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di modificare vari importi quali gli importi di svalutazione e di rivalutazione. La casella di controllo **Permetti indicizzazione** nella finestra **Registro beni ammortizzabili** deve essere selezionata.
+L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di modificare vari importi quali gli importi di svalutazione e di rivalutazione. La casella di controllo **Permetti indicizzazione** nella pagina **Registro beni ammortizzabili** deve essere selezionata.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Indice cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.
 3. Scegliere il pulsante **OK**.
 
-    Le righe di rivalutazione vengono create in base alle impostazioni del passaggio 2. Le righe vengono create nella registrazione cespiti o nella registrazione cespiti in C/G, a seconda dell'impostazione del batch e del modello nella finestra **Setup registrazioni cespiti**. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+    Le righe di rivalutazione vengono create in base alle impostazioni del passaggio 2. Le righe vengono create nella registrazione cespiti o nella registrazione cespiti in C/G, a seconda dell'impostazione del batch e del modello nella pagina **Setup registrazioni cespiti**. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
 5. Selezionare la registrazione con i cespiti da rivalutare, quindi scegliere l'azione **Movimenti contabili**.  
 6. Controllare i movimenti creati quindi scegliere l'azione **Registra** per eseguire la registrazione.

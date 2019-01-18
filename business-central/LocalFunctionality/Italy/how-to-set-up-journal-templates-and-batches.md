@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df648e622c39909f360621d90a670da7ed3dd34e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 22432f29e4ba8f10b0ad1e5401b1e3ad14e183b7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-journal-templates-and-batches"></a>Impostazione di definizioni e batch di registrazioni
 Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso. Un report riepilogativo Intrastat viene presentato agli uffici tributari con cadenza mensile, trimestrale o annuale, a seconda dell'entità delle operazioni della società.  
 
-È possibile stampare i report Intrastat nella finestra **Batch reg. Intrastat** in base ai movimenti delle registrazioni Intrastat. I movimenti possono essere inseriti nella registrazione manualmente o mediante un processo batch. Prima di eseguire queste operazioni, è necessario  impostare i batch e le definizioni di registrazioni Intrastat.  
+È possibile stampare i report Intrastat nella pagina **Batch reg. Intrastat** in base ai movimenti delle registrazioni Intrastat. I movimenti possono essere inseriti nella registrazione manualmente o mediante un processo batch. Prima di eseguire queste operazioni, è necessario  impostare i batch e le definizioni di registrazioni Intrastat.  
 
 ## <a name="to-set-up-intrastat-journal-templates"></a>Per impostare definizioni di registrazioni Intrastat  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
 2.  Per creare una nuova definizione di registrazione Intrastat, scegliere l'azione **Nuovo**.  
-3.  Nella finestra **Def. registrazioni Intrastat** compilare i campi come indicato nella tabella riportata di seguito.  
+3.  Nella pagina **Def. registrazioni Intrastat** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
@@ -40,7 +40,7 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 ## <a name="to-set-up-intrastat-journal-batches"></a>Per impostare batch di registrazioni Intrastat  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat**, quindi scegliere il collegamento correlato.  
-2.  Per aprire la finestra **Batch reg. Intrastat**, selezionare il modello desiderato, quindi scegliere **Batch**.  
+2.  Per aprire la pagina **Batch reg. Intrastat**, selezionare il modello desiderato, quindi scegliere **Batch**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -55,7 +55,7 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
     |**Identificatore valuta**|Codice identificativo della valuta per il report Intrastat.|  
     |**Riportato**|Se il movimento è già stato dichiarato agli uffici tributari, selezionare la casella di controllo **Riportato**. Questa casella di controllo viene selezionata automaticamente quando si esegue il processo batch **Intrastat - Floppy dichiaraz.** per il movimento in questione.|  
 
-4.  Scegliere il pulsante **OK** per chiudere la finestra.  
+4.  Per chiudere la pagina, scegliere il pulsante **OK**.  
 
 ## <a name="see-also"></a>Vedi anche  
   [Funzionalità locale per l'Italia](italy-local-functionality.md)   

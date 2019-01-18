@@ -11,10 +11,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Ammortamento dei cespiti
@@ -43,7 +43,7 @@ Una volta al mese, oppure ogniqualvolta sia necessario, è possibile eseguire il
     Il processo batch calcola l'ammortamento e crea righe nelle registrazioni cespiti in contabilità generale.  
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
 
-    Nella finestra **Registrazioni cespiti in C/G**, nel campo **Nr. giorni di ammortamento** sono indicati i giorni di ammortamento calcolati.  
+    Nella pagina **Registrazioni cespiti in C/G**, nel campo **Nr. giorni di ammortamento** sono indicati i giorni di ammortamento calcolati.  
 5. Scegliere l'azione **Registra**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Per registrare un ammortamento manualmente tramite Registrazioni Cespiti in C/G
@@ -81,18 +81,18 @@ Quando si compilano righe di registrazioni da contabilizzare in un registro dei 
 5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti** e quindi scegliere il collegamento correlato.  
 
     > [!NOTE]  
-    >   La finestra **Registrazioni cespiti** contiene le righe nuove per i diversi registri beni ammortizzabili a seconda della lista di duplicazione.  
+    >   La pagina **Registrazioni cespiti** contiene le righe nuove per i diversi registri beni ammortizzabili a seconda della lista di duplicazione.  
 6. Analizzare o modificare le righe e scegliere l'azione **Registra**.  
 
     > [!NOTE]  
     >   Un altro modo per duplicare un movimento in un registro separato è l'inserimento di un codice registro beni ammortizzabili nel campo **Duplica nel reg. beni ammortiz.** durante la compilazione in una riga delle registrazioni.  
 
-È possibile copiare movimenti da un registro dei beni ammortizzabili a un altro mediante il processo batch **Copia reg. beni ammortizz.**. Il processo batch crea le righe di registrazione nel batch delle registrazioni specificato nella finestra **Setup registrazioni cespiti** per il registro beni ammortizzabili in cui si desidera copiare. Per ulteriori informazioni, vedere la seguente procedura.  
+È possibile copiare movimenti da un registro dei beni ammortizzabili a un altro mediante il processo batch **Copia reg. beni ammortizz.**. Il processo batch crea le righe di registrazione nel batch delle registrazioni specificato nella pagina **Setup registrazioni cespiti** per il registro beni ammortizzabili in cui si desidera copiare. Per ulteriori informazioni, vedere la seguente procedura.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Per copiare i movimenti contabili cespiti tra i registri beni ammortizzabili
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri beni ammortizzabili** e quindi scegliere il collegamento correlato.  
 2. Aprire la relativa scheda registro beni ammortizzabili e scegliere l'azione **Copia reg. beni ammortizz.**.  
-3. Nella finestra **Copia reg. beni ammortizz.** compilare i campi secondo le necessità.  
+3. Nella pagina **Copia reg. beni ammortizz.** compilare i campi secondo le necessità.  
 4. Scegliere il pulsante **OK**.  
 
 Le righe copiate vengono create nelle registrazioni cespiti in C/G o nelle registrazioni cespiti, a seconda che sia stata attivata l'integrazione contabilità generale per il registro beni ammortizzabili che si sta copiando.  

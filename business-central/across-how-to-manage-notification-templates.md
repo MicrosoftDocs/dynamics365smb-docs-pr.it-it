@@ -1,6 +1,6 @@
 ---
 title: Come gestire i modelli di notifica | Microsoft Docs
-description: "Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)."
+description: "Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Gestire i modelli di notifica
@@ -28,7 +29,7 @@ Le notifiche vengono inviate agli utenti del workflow per informarli sui passagg
 
 ## <a name="to-create-a-new-notification-template"></a>Per creare un nuovo modello di notifica  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di notifica** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Modelli di notifica** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Modelli di notifica** scegliere l'azione **Nuovo**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -41,9 +42,9 @@ Le notifiche vengono inviate agli utenti del workflow per informarli sui passagg
 
 ## <a name="to-modify-a-notification-template"></a>Per modificare un modello di notifica  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di notifica** e quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Modelli di notifica** selezionare il modello di notifica che si desidera modificare.  
+2.  Nella pagina **Modelli di notifica** selezionare il modello di notifica che si desidera modificare.  
 3.  Scegliere l'azione **Esporta contenuto modello**.  
-4.  Nella finestra **Esporta file** scegliere il pulsante **Salva**, quindi denominare e salvare il file HTML in un percorso appropriato.  
+4.  Nella pagina **Esporta file** scegliere il pulsante **Salva**, quindi denominare e salvare il file HTML in un percorso appropriato.  
 5.  Fare clic con il pulsante destro del mouse sul file, selezionare **Apri con**, quindi scegliere il programma appropriato.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Le notifiche vengono inviate agli utenti del workflow per informarli sui passagg
 6.  Modificare il contenuto del modello di notifica aggiungendo, modificando o rimuovendo le variabili dei parametri per definire il contenuto desiderato, quindi salvarlo. Per ulteriori informazioni, vedere la sezione "Contenuto dei modelli di notifica".  
 
     Continuare a importare il contenuto modificato nello stesso modello di notifica o in uno nuovo.  
-7.  Per modificare il modello di notifica esportato, nella finestra **Modelli di notifica** selezionare il modello scelto nel passaggio 2.  
+7.  Per modificare il modello di notifica esportato, nella pagina **Modelli di notifica** selezionare il modello scelto nel passaggio 2.  
 
     In alternativa, per importare il contenuto del modello modificato in un nuovo modello di notifica, attenersi alla procedura "Per creare un nuovo modello di notifica" e, successivamente, selezionare il nuovo modello di notifica.  
 8.  Scegliere l'azione **Importa contenuto modello**.  
 9. Se si sta modificando un modello di notifica esistente, scegliere il pulsante **Sì** nel messaggio relativo alla sovrascrittura del modello esistente.  
-10. Nella finestra **Seleziona un file da importare** scegliere il file HTML modificato nel passaggio 6, quindi selezionare il pulsante **Apri**.  
+10. Nella pagina **Seleziona un file da importare** scegliere il file HTML modificato nel passaggio 6, quindi selezionare il pulsante **Apri**.  
 
-Il modello di notifica nuovo o esistente nella finestra **Modelli di notifica** è ora aggiornato con il contenuto modificato.  
+Il modello di notifica nuovo o esistente nella pagina **Modelli di notifica** è ora aggiornato con il contenuto modificato.  
 
 ### <a name="content-of-the-notification-templates"></a>Contenuto dei modelli di notifica  
 Nei tre tipi di modelli di notifica, **Nuovo record**, **Approvazione** e **Scaduto** sono presenti contenuti diversi.  

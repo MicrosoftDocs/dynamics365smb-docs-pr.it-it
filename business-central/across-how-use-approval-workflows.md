@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
 Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve essere approvato da una persona della propria organizzazione, inviare una richiesta di approvazione come parte di un flusso di lavoro. In base all'impostazione del flusso di lavoro, al responsabile dell'approvazione appropriato viene inviata una notifica relativa alla richiesta di approvazione del record.
 
-I workflow di approvazione vengono impostati della finestra finestra **Workflow**. Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).
+I workflow di approvazione vengono impostati nella pagina **Workflow**. Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).
 
 Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ I workflow di approvazione principali dei documenti di acquisto e vendita, le re
 ## <a name="to-request-approval-of-a-record"></a>Per richiedere l'approvazione di un record
 La seguente attività viene eseguita da un utente approvazione.
 
-1. Nella finestra del record, selezionare l'azione **Invia richiesta approvazione**.
+1. Nella pagina del record, selezionare l'azione **Invia richiesta approvazione**.
 2. Per visualizzare tutte le richieste di approvazione, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Movimenti richieste approvazione"), immettere **Setup** e quindi scegliere il collegamento correlato.  
 
 Lo stato del movimento di approvazione viene aggiornato da **Creato** ad **Aperto**. Lo stato del record, ad esempio per una una fattura di acquisto, viene aggiornato da **Aperto** a **Approvazione in sospeso** e rimane bloccato per l'elaborazione finché tutti i responsabili dell'approvazione non hanno approvato il record.
@@ -42,14 +42,14 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 È possibile che un cliente desideri modificare un ordine dopo che questo è stato inviato per l'approvazione. In questo caso, è possibile annullare il processo di approvazione e apportare le modifiche necessarie all'ordine prima di richiedere nuovamente l'approvazione.
 
-- Nella finestra in cui viene visualizzato il record, selezionare l'azione **Annulla richiesta approvazione**.
+- Nella pagina in cui viene visualizzato il record, selezionare l'azione **Annulla richiesta approvazione**.
 
 Una volta che la richiesta di approvazione è stata annullata, lo stato della voce di approvazione correlata viene impostato automaticamente su **Annullato**. Lo stato del record viene aggiornato da **Approvazione in sospeso** ad **Aperto**. Il processo di approvazione può quindi essere avviato nuovamente.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Per approvare o rifiutare le richieste di approvazione
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
-È possibile elaborare le richieste di approvazione nella finestra **Richieste da approvare**, ad esempio per approvare più richieste per volta. In alternativa, è possibile elaborare ogni richiesta nel record correlati, ad esempio nella finestra **Fattura acquisto** scegliendo il collegamento nella notifica ricevuta.
+È possibile elaborare le richieste di approvazione nella pagina **Richieste da approvare**, ad esempio per approvare più richieste per volta. In alternativa, è possibile elaborare ogni richiesta nel record correlati, ad esempio nella pagina **Fattura acquisto** scegliendo il collegamento nella notifica ricevuta.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Richieste da approvare** e quindi scegliere il collegamento correlato.
 2. Selezionare una o più righe per il record o i record che si desidera approvare o rifiutare.
@@ -79,7 +79,7 @@ A intervalli regolari, è necessario ricordare, agli utenti del flusso di lavoro
 La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste di approvazione aperte attualmente scadute. Ogni responsabile a cui è associato almeno un movimento di approvazione scaduto riceve una notifica con l'elenco di tutte le relative richieste di approvazione scadute. La notifica viene anche inviata in copia per conoscenza al responsabile dell'approvazione e a tutti i richiedenti delle approvazioni scadute. Questa operazione è utile se il movimento di approvazione scaduto deve essere delegato a un sostituto.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Richieste approvazione scadute** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
+2. Nella pagina **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)    

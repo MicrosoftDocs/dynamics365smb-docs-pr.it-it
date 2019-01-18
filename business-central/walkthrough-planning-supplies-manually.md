@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
-La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione. Nella procedura dettagliata viene impiegata a tal fine la finestra **Pianificazione ordini**, un semplice strumento di pianificazione degli approvvigionamenti che prevede la decisione e l'intervento manuale dell'utente anziché utilizzare parametri predefiniti per la pianificazione automatica.  
+La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione. Nella procedura dettagliata viene impiegata a tal fine la pagina **Pianificazione ordini**, un semplice strumento di pianificazione degli approvvigionamenti che prevede la decisione e l'intervento manuale dell'utente anziché utilizzare parametri predefiniti per la pianificazione automatica.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
  In questa procedura dettagliata sono illustrati i task seguenti:  
@@ -48,30 +48,30 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 ## <a name="story"></a>Scenario  
  Eduardo, l'addetto alla pianificazione della produzione di una piccola società , si sta apprestando a pianificare la produzione e gli ordini di acquisto per soddisfare una nuova domanda di vendita.  
 
- Poiché i prodotti hanno pochi livelli di distinta base e il flusso degli ordini è relativamente basso, Eduardo utilizza la finestra **Pianificazione ordini** per creare manualmente gli ordini di approvvigionamento, un livello di prodotto per volta.  
+ Poiché i prodotti hanno pochi livelli di distinta base e il flusso degli ordini è relativamente basso, Eduardo utilizza la pagina **Pianificazione ordini** per creare manualmente gli ordini di approvvigionamento — un livello di prodotto per volta.  
 
  In un ambiente produttivo più complesso, per pianificare gli approvvigionamenti viene utilizzato il prospetto pianificazione, che applica parametri specifici degli articoli come periodo di riprogrammazione, lead time di sicurezza, punto di riordino e calcoli batch della domanda consolidata per tutti i livelli di prodotto.  
 
 ## <a name="setting-up-the-sample-data"></a>Impostazione dei dati di esempio  
  La società demo CRONUS standard ha attualmente elevati livelli di domanda non pianificata. Durante le differenti attività di pianificazione di questa procedura dettagliata, sarà necessario deviare dalla realtà del flusso aziendale ignorando le domande con data di scadenza prossima e dedicandosi invece a quelle con data di scadenza più lontana nel tempo.  
 
-## <a name="using-the-order-planning-window"></a>Utilizzo della finestra Pianificazione ordini  
+## <a name="using-the-order-planning-page"></a>Utilizzo della pagina Pianificazione ordini  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Per utilizzare la finestra Pianificazione ordini  
+### <a name="to-use-the-order-planning-page"></a>Per utilizzare la pagina Pianificazione ordini  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione ordini** e quindi scegliere il collegamento correlato.  
 
-     Alla prima apertura della finestra **Pianificazione ordini**, è necessario calcolare un piano per mostrare la nuova domanda dall'ultimo calcolo.  
+     Alla prima apertura della pagina **Pianificazione ordini**, è necessario calcolare un piano per mostrare la nuova domanda dall'ultimo calcolo.  
 
 2.  Scegliere l'azione **Calcola piano**.  
 
@@ -79,9 +79,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      La quantità necessaria di ogni riga della domanda viene calcolata sulla base della disponibilità totale. Il calcolo viene eseguito ordine per ordine. Ciò significa che l'ordine che include la riga di domanda con la prima data di scadenza o di spedizione utile verrà calcolato per primo. Dopo questa operazione, le righe di domanda aggiuntive saranno calcolate nello stesso ordine, indipendentemente dalla data di scadenza o la data di spedizione.  
 
-3.  Ingrandire la finestra **Pianificazione ordini** e ridimensionare i campi delle colonne in modo che tutti i nomi di campo predefiniti siano visibili.  
+3.  Ingrandire la pagina **Pianificazione ordini** e ridimensionare i campi delle colonne in modo che tutti i nomi di campo predefiniti siano visibili.  
 
-     Al termine del calcolo, nella finestra sono visualizzate tutte le domande non soddisfatte in righe di testata d'ordine compresse e ordinate in base alla data di richiesta più prossima.  
+     Al termine del calcolo, nella pagina sono visualizzate tutte le domande non soddisfatte in righe di testata d'ordine compresse e ordinate in base alla data di richiesta più prossima.  
 
      Si noti che CRONUS ha diversi ordini con domanda non soddisfatta. Ogni riga di pianificazione in grassetto rappresenta un ordine - di vendita o di produzione - comprendente almeno una riga con disponibilità insufficiente.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Espandere la prima riga (fare clic sul simbolo +).  
 2.  Scegliere la prima riga di domanda, con l'articolo **LSU-15**, quindi scegliere l'azione **Mostra documento**.  
-3.  Chiudere l'ordine di produzione aperto per tornare alla finestra **Pianificazione ordini**.  
+3.  Chiudere l'ordine di produzione aperto per tornare alla pagina **Pianificazione ordini**.  
 4.  Nel campo **Sistema di rifornimento** selezionare **Acquisto**.  
 
      Il valore di default corrisponde alla scheda articolo (o scheda USK), ma è possibile modificarlo selezionando una delle opzioni seguenti:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Se nelle schede articolo è impostato un fornitore predefinito per i componenti, le righe saranno precompilate.  
 
 6.  Selezionare il campo **Approvvigionamento da** .  
-7.  Nella finestra **Catalogo art. fornitori** scegliere l'azione **Nuovo** e selezionare il fornitore **30000**.  
-8.  Fare clic su **OK** per tornare alla finestra **Pianificazione ordini**.  
+7.  Nella pagina **Catalogo art. fornitori** scegliere l'azione **Nuovo** e selezionare il fornitore **30000**.  
+8.  Fare clic su **OK** per tornare alla pagina **Pianificazione ordini**.  
 9. Copiare il fornitore **30000** nelle altre righe del componente "altoparlante" nell'ordine di produzione.  
 
      È ora possibile creare un ordine di acquisto.  
 
-10. Scegliere l'azione **Crea ordini**. Viene visualizzata la finestra **Crea ordini approvvigionamento**.  
+10. Scegliere l'azione **Crea ordini**. Viene visualizzata la pagina **Crea ordini approvvigionamento**.  
 11. Nella Scheda dettaglio **Pianificazione ordini**, nel campo **Crea ordini per**, selezionare l'opzione **Ordine attivo**.  
 12. Nel campo **Crea ordini di acquisto** della Scheda dettaglio **Opzioni** scegliere l'opzione **Crea ordini acquisto**.  
 13. Scegliere **OK** per creare ordini di acquisto per tutti i componenti dell'ordine.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Vengono visualizzati il sistema di rifornimento e il venditore predefiniti dell'articolo.  
 
     > [!NOTE]  
-    >  Nella parte inferiore della finestra sono presenti quattro campi informativi. Il campo **Prima data disponibile** indica che i dieci pezzi necessari saranno disponibili, in un ordine di approvvigionamento in entrata, nove giorni dopo la data di scadenza corrente. Il campo **Disponibile per trasferimento** indica che in un'altra ubicazione sono presenti 13 pezzi dello stesso articolo. Sarà opportuno pianificare l'utilizzo di questa scorta.  
+    >  Nella parte inferiore della pagina sono presenti quattro campi informativi. Il campo **Prima data disponibile** indica che i dieci pezzi necessari saranno disponibili, in un ordine di approvvigionamento in entrata, nove giorni dopo la data di scadenza corrente. Il campo **Disponibile per trasferimento** indica che in un'altra ubicazione sono presenti 13 pezzi dello stesso articolo. Sarà opportuno pianificare l'utilizzo di questa scorta.  
 
-3.  Selezionare il campo **Disponibile per trasferimento** per aprire la finestra **Ottieni approvvigionamento alternativo**.  
+3.  Selezionare il campo **Disponibile per trasferimento** per aprire la pagina **Ottieni approvvigionamento alternativo**.  
 4.  Fare clic su **OK** per prenotare i dieci articoli disponibili.  
 
     > [!NOTE]  
     >  Nella riga di domanda, l'acquisto suggerito è stato sostituito con un trasferimento dall'ubicazione VERDE. La funzione **Crea ordini** genera un ordine di trasferimento dall'ubicazione VERDE all'ubicazione richiesta. Il campo **Esistono sostitutivi** funziona nello stesso modo.  
 
-5.  Scegliere l'azione **Crea ordini**. Viene visualizzata la finestra **Crea ordini approvvigionamento**.  
+5.  Scegliere l'azione **Crea ordini**. Viene visualizzata la pagina **Crea ordini approvvigionamento**.  
 6.  Nella Scheda dettaglio **Pianificazione ordini**, nel campo **Crea ordini per**, selezionare l'opzione **Ordine attivo**.  
 7.  Nel campo **Crea ordine per trasferimenti** della Scheda dettaglio **Opzioni** selezionare l'opzione **Crea ordini di trasferimenti**.  
 8.  Fare clic su **OK** per creare l'ordine di trasferimento per approvvigionare l'ordine di vendita.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Questa domanda è una riga di vendita, ma il sistema di rifornimento previsto per l'articolo è **Ordine di produzione**. È necessario aggiungere un altro campanello ai componenti necessari per ciascuna bicicletta.  
 
-2.  Scegliere l'azione **Componenti** per aprire la finestra **Componenti pianificazione**.  
+2.  Scegliere l'azione **Componenti** per aprire la pagina **Componenti pianificazione**.  
 3.  Nella riga con l'articolo Campanello, modificare il campo **Quantità per** da **1** a **2**.  
-4.  Nella finestra **Pianificazione ordini**, considerare le opzioni di pianificazione. In questo caso non esistono metodi di approvvigionamento alternativi, trasferimento, prodotti sostitutivi o una consegna ritardata. È necessario quindi creare l'ordine di approvvigionamento suggerito, ovvero un ordine di produzione.  
+4.  Nella pagina **Pianificazione ordini**, considerare le opzioni di pianificazione. In questo caso non esistono metodi di approvvigionamento alternativi, trasferimento, prodotti sostitutivi o una consegna ritardata. È necessario quindi creare l'ordine di approvvigionamento suggerito, ovvero un ordine di produzione.  
 5.  Selezionare l'azione **Crea ordini** per creare l'ordine di produzione.  
 
-     Si noti che nella finestra **Pianificazione ordini** la riga di pianificazione per l'ordine di vendita **1001** non è più presente e che la domanda di vendita iniziale è stata coperta.  
+     Si noti che nella pagina **Pianificazione ordini** la riga di pianificazione per l'ordine di vendita **1001** non è più presente e che la domanda di vendita iniziale è stata coperta.  
 
-6.  Chiudere la finestra **Pianificazione ordini**.  
+6.  Chiudere la pagina **Pianificazione ordini**.  
 
-     A questo punto, è possibile completare tutte le attività di pianificazione in questa finestra. Tuttavia, per questo esercizio, si assumerà il ruolo di addetto alla pianificazione della produzione e si aprirà a tal scopo l'ordine appena creato nella finestra **Pianificazione ordini**.  
+     A questo punto, è possibile completare tutte le attività di pianificazione in questa finestra. Tuttavia, per questo esercizio, si assumerà il ruolo di addetto alla pianificazione della produzione e si aprirà a tal scopo l'ordine appena creato nella pagina **Pianificazione ordini**.  
 
  L'addetto alla pianificazione della produzione ha in questo caso il compito di pianificare un ordine di produzione specifico.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Per pianificare un ordine di produzione specifico  
 
 1.  Aprire l'ordine di produzione **101001** (per dieci biciclette) appena creato utilizzando la funzione **Crea ordini**.  
-2.  Aprire la finestra **Componenti ordine produzione** per controllare che il campanello in più sia riflesso nell'ordine di produzione.  
+2.  Aprire la pagina **Componenti ordine produzione** per controllare che il campanello in più sia riflesso nell'ordine di produzione.  
 3.  Scegliere l'azione **Pianifica**.  
 
-     La finestra **Pianificazione ordini** viene aperta in una visualizzazione che è sempre filtrata in modo da mostrare la domanda specifica di produzione. La domanda di vendita non è visualizzata. Per visualizzare la domanda aggiuntiva, occorre ricalcolare il piano.  
+     La pagina **Pianificazione ordini** viene aperta in una visualizzazione che è sempre filtrata in modo da mostrare la domanda specifica di produzione. La domanda di vendita non è visualizzata. Per visualizzare la domanda aggiuntiva, occorre ricalcolare il piano.  
 
 4.  Scegliere l'azione **Calcola piano**.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Prima di fare clic su **OK**, si noti il testo nella Scheda dettaglio **Pianificazione ordini**. Questo testo è importante perché evidenzia che la bicicletta ha diversi componenti prodotti, ovvero sottoassemblaggi, nella sua struttura di produzione, per i quali potrebbe esservi una domanda quando si crea l'ordine di produzione.  
 
-7.  Nella finestra **Crea ordini approvvigionamento** , nel campo **Crea ordini per** , scegliere l'opzione **Tutte le righe** e fare clic sul pulsante **OK** per creare gli ordini di produzione per il secondo livello di prodotto dell'ordine.  
+7.  Nella pagina **Crea ordini approvvigionamento** , nel campo **Crea ordini per** , scegliere l'opzione **Tutte le righe** e fare clic sul pulsante **OK** per creare gli ordini di produzione per il secondo livello di prodotto dell'ordine.  
 
      Si noti che la domanda di produzione di livello superiore per l'ordine di produzione 101001 non è più presente. Ciò significa che la domanda di produzione iniziale di sottoassemblaggi è stata pianificata.  
 
-     Ricalcolare il piano nella finestra **Pianificazione ordini** per pianificare la struttura della bicicletta.  
+     Ricalcolare il piano nella pagina **Pianificazione ordini** per pianificare la struttura della bicicletta.  
 
 8.  Scegliere l'azione **Calcola piano** per ricalcolare il piano come suggerito nel testo della Guida incorporato.  
 
@@ -229,7 +229,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 13. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
 
-     Nella finestra **Ord. produzione confermati** esaminare la pianificazione delle ore di inizio e di fine dei singoli ordini definita in base alla struttura del prodotto. I componenti di ultimo livello sono prodotti per primi. Di conseguenza, è necessario pianificare ordini multilivello come dimostrato nel flusso di lavoro di pianificazione.  
+     Nella pagina **Ord. produzione confermati** esaminare la pianificazione delle ore di inizio e di fine dei singoli ordini definita in base alla struttura del prodotto. I componenti di ultimo livello sono prodotti per primi. Di conseguenza, è necessario pianificare ordini multilivello come dimostrato nel flusso di lavoro di pianificazione.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   

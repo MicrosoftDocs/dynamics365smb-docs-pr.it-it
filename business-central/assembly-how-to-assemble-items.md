@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Assemblare articoli
@@ -44,18 +44,18 @@ In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli
 
 ## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la finestra **Nuovo ordine di assemblaggio**.  
-3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la pagina **Nuovo ordine di assemblaggio**.  
+3.  Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  
 5.  Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
 
     > [!NOTE]  
-    >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la finestra **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la finestra, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
+    >  Se uno o più componenti non sono disponibili per soddisfare la quantità dell'articolo di assemblaggio alla data di scadenza definita, la pagina **Disponibilità assemblaggio** viene visualizzata automaticamente per fornire informazioni dettagliate relative al numero di articoli di assemblaggio che è possibile assemblare in base alla disponibilità dei componenti. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).  Quando si chiude la pagina, l'ordine di assemblaggio viene creato con avvisi di disponibilità nelle righe del componente interessato.  
 
     Le righe ordine di assemblaggio vengono compilate automaticamente con il contenuto della DB di assemblaggio e con le quantità delle righe in base alla testata ordine di assemblaggio.  
 
     > [!NOTE]  
-    >  Se la finestra **Disponibilità assemblaggio** è stata aperta al momento della compilazione della testata dell'ordine di assemblaggio, ogni riga dell'ordine di assemblaggio interessata contiene **Sì** nel campo **Avviso di disponibilità** con un collegamento alle informazioni dettagliate sulla disponibilità. Per ulteriori informazioni, vedere Controllo disponibilità. È possibile risolvere un problema di disponibilità dei componenti rimandando la data di inizio, sostituendo il componente con un altro articolo o selezionando una sostituzione disponibile, se definita.  
+    >  Se la pagina **Disponibilità assemblaggio** è stata aperta al momento della compilazione della testata dell'ordine di assemblaggio, ogni riga dell'ordine di assemblaggio interessata contiene **Sì** nel campo **Avviso di disponibilità** con un collegamento alle informazioni dettagliate sulla disponibilità. Per ulteriori informazioni, vedere Controllo disponibilità. È possibile risolvere un problema di disponibilità dei componenti rimandando la data di inizio, sostituendo il componente con un altro articolo o selezionando una sostituzione disponibile, se definita.  
 
 6.  Nel campo **Quantità da assemblare** immettere il numero di unità dell'articolo di assemblaggio che si desidera registrare come output alla successiva registrazione dell'ordine di assemblaggio. Questa quantità può essere inferiore al valore nel campo **Quantità** per riflettere una registrazione di output parziale.  
 

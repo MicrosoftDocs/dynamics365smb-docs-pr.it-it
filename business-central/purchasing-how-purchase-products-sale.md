@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
@@ -35,7 +35,7 @@ Per creare un ordine di acquisto per ogni quantità articolo non disponibile nel
 2. Aprire un ordine di vendita per cui si desidera acquistare degli articoli.
 3. Scegliere l'azione **Crea ordini di acquisto**.
 
-    Viene visualizzata la finestra **Crea ordini di acquisto** in cui viene mostrata una riga per ogni articolo differente nell'ordine di vendita. Vengono visualizzate per impostazione predefinita le righe per entrambe le quantità di vendita disponibili e non disponibili (in grigio). È possibile scegliere l'azione **Mostra non disponibili** per visualizzare solo le righe relative alle quantità di vendita non disponibili.
+    Viene visualizzata la pagina **Crea ordini di acquisto** in cui viene mostrata una riga per ogni articolo differente nell'ordine di vendita. Vengono visualizzate per impostazione predefinita le righe per entrambe le quantità di vendita disponibili e non disponibili (in grigio). È possibile scegliere l'azione **Mostra non disponibili** per visualizzare solo le righe relative alle quantità di vendita non disponibili.
 
     Il campo **Quantità da acquistare** contiene la quantità di vendita non disponibile per impostazione predefinita.
 4. Per effettuare un acquisto di una quantità diversa dalla quantità di vendita non disponibile, modificare il valore nel campo **Quantità da acquistare**.
@@ -44,7 +44,7 @@ Per creare un ordine di acquisto per ogni quantità articolo non disponibile nel
     >   È possibile modificare anche il campo **Quantità da acquistare** nelle righe inattive anche se rappresentano le quantità di vendita completamente disponibili.
 5. Scegliere il pulsante **OK**.
 
-    Un ordine di acquisto viene creato per ciascun fornitore di articoli nell'ordine di vendita, inclusa qualsiasi modifica delle quantità effettuata nella finestra **Crea ordini di acquisto**.
+    Un ordine di acquisto viene creato per ciascun fornitore di articoli nell'ordine di vendita, inclusa qualsiasi modifica delle quantità effettuata nella pagina **Crea ordini di acquisto**.
 7. Continuare a elaborare l'ordine o gli ordini di acquisto, ad esempio, modificando o aggiungendo altre righe all'ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 

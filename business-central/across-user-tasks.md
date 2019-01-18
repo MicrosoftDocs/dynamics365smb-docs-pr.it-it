@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Definizione dei task degli utenti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  
 
 ## <a name="managing-user-tasks"></a>Gestione dei task degli utenti
-La finestra **Task dell'utente** mostra tutti i task e consente di creare e assegnare facilmente nuovi task. Quando si crea un task, è possibile specificare la data di inizio e di fine e aggiungere un collegamento alla finestra in [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui l'utente deve svolgere l'attività.  
+La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegnare facilmente nuovi task. Quando si crea un task, è possibile specificare la data di inizio e di fine e aggiungere un collegamento alla pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui l'utente deve svolgere l'attività.  
 
 Ad esempio, è possibile creare un task per se stessi per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, Fatture di vendita registrate.  
 
@@ -31,7 +31,7 @@ Ad esempio, è possibile creare un task per se stessi per visualizzare tutte le 
 >  Utilizzare la funzionalità di ricerca nel campo **Pagina**, quindi utilizzare il campo **Cerca pagina o report** per identificare la pagina che si desidera. Per ulteriori informazioni, vedere [Ricerca di una pagina o di un report](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Selezione dei task degli utenti
-Nelle Gestioni ruolo utente di Manager aziendale, Contabile e Addetto contabile, un riquadro mostra i task in sospeso assegnati all'utente. Per selezionare un task, sceglierlo dall'elenco dei task in sospeso dell'utente. Nella barra multifunzione, il collegamento **Vai a elemento task** apre la finestra in cui è possibile svolgere l'attività.  
+Nelle Gestioni ruolo utente di Manager aziendale, Contabile e Addetto contabile, un riquadro mostra i task in sospeso assegnati all'utente. Per selezionare un task, sceglierlo dall'elenco dei task in sospeso dell'utente. Nella barra multifunzione, il collegamento **Vai a elemento task** apre la pagina in cui è possibile svolgere l'attività.  
 
 Una volta completato il task, contrassegnarlo come completato.  
 

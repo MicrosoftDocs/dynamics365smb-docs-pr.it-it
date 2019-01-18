@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
@@ -42,7 +42,7 @@ Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi 
 3. Nel campo **Codice metodo di pagamento** selezionare **Assegno**.
 4. Nel campo **Tipo pagamento banca** selezionare **Assegno automatico**.
 5. Scegliere l'azione **Stampa assegno**.
-6. Nella finestra **Assegno** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Nella pagina **Assegno** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Scegliere il pulsante **Invia a**, selezionare l'opzione **Documento PDF** quindi scegliere il pulsante **OK**.
 
     Gli assegni fisici possono ora essere portati in banca per l'elaborazione. Passare alla registrazione del pagamento come collegato al fornitore e pertanto pagato nel sistema.
@@ -54,16 +54,16 @@ Vengono creati movimenti contabili fornitori collegati completamente e movimenti
 > Se si desidera stampare e pagare gli assegni provenienti da vari conti correnti bancari utilizzando più di una valuta, eseguire un singolo processo batch **Stampa assegno** per ogni valuta, specificando il conto corrente bancario appropriato.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Per annullare assegni stampati che non sono registrati
-È possibile annullare gli assegni non registrati dopo che sono stati stampati utilizzando l'azione **Annullo assegno** della finestra **Registrazioni pagamenti**.
+È possibile annullare gli assegni non registrati dopo che sono stati stampati utilizzando l'azione **Annullo assegno** della pagina **Registrazioni pagamenti**.
 
-1. Nella finestra **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
+1. Nella pagina **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
 
 ## <a name="to-void-checks"></a>Per annullare gli assegni
 Una volta che i pagamenti tramite assegno sono stati registrati, è possibile annullare gli assegni dai movimenti contabili bancari risultanti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato, scegliere l'azione **Modifica**, quindi scegliere l'azione **Mov. contabili assegni**.
-3. Nella finestra **Mov. contabili assegni** scegliere l'azione **Annullo assegno**.
+3. Nella pagina **Mov. contabili assegni** scegliere l'azione **Annullo assegno**.
 4. Selezionare la casella di controllo **Annullo solo assegno**.
 5. Scegliere il pulsante **OK**.
 

@@ -11,10 +11,10 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,8 +26,8 @@ L'estensione dei codici postali di GetAddress.io per il Regno Unito può far ris
 
     > [!NOTE]  
     >   L'opzione **Cercare l'indirizzo dal codice postale** è disponibile solo se il campo **Codice paese** è vuoto o contiene **GB**.
-2. Nella finestra **Ricerca del codice postale**, nel campo **CAP**, immettere o scegliere il codice postale.  
-3. Nella finestra **Selezione Indirizzo** selezionare l'indirizzo.  
+2. Nella pagina **Ricerca del codice postale**, nel campo **CAP**, immettere o scegliere il codice postale.  
+3. Nella pagina **Selezione Indirizzo** selezionare l'indirizzo.  
 
 > [!TIP]  
 >   Se si conosce il numero della via, è possibile filtrare gli indirizzi immettendo il numero completo o parziale nel campo **Punto di consegna**.

@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ L'estensione di analisi delle immagini è incorporata in [!INCLUDE[d365fin](incl
 * Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
 
     > [!TIP]  
-    > Nella finestra **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
+    > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Per analizzare un'immagine di un articolo
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2. Selezionare l'articolo, quindi scegliere l'azione **Analizza immagine**.  
-3. Nella finestra **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Utilizzare le opzioni **Azione da eseguire** per specificare l'azione da intraprendere per l'attributo.  
+3. Nella pagina **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Utilizzare le opzioni **Azione da eseguire** per specificare l'azione da intraprendere per l'attributo.  
 
     > [!TIP]  
     > È possibile aggiungere il nome dell'attributo alla descrizione dell'articolo selezionando **Aggiungi a descrizione articolo**. Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio.  

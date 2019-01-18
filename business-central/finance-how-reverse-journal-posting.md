@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Stornare le registrazioni
@@ -31,10 +31,10 @@ Se è stata eseguita una registrazione di quantità negativa, ad esempio se è s
 Se è stata eseguita una registrazione di quantità positiva, ad esempio se è stato creato un ordine di reso con un numero errato di articoli e lo si è registrato come spedito (ma non fatturato), è possibile annullare la registrazione.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Per stornare la registrazione di un movimento di contabilità generale
-È possibile stornare i movimenti da tutte le finestre **Movimenti contabili**. La seguente procedura è basata sulla finestra **Movimenti C/G**.
+È possibile stornare i movimenti da tutte le pagine **Movimenti contabili**. La seguente procedura è basata sulla pagina **Movimenti C/G**.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti C/G** e quindi scegliere il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**. Si noti che è necessario che il movimento derivi da una registrazione.
-3. Nella finestra **Storna movimenti transazioni**, selezionare il movimento appropriato quindi scegliere l'azione **Storna**.
+3. Nella pagina **Storna movimenti transazioni**, selezionare il movimento appropriato quindi scegliere l'azione **Storna**.
 4. Scegliere il pulsante **Sì** nel messaggio di conferma.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Per annullare la registrazione di una quantità in una ricezione acquisti registrata  
@@ -62,7 +62,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 
     Ora tornare all'ordine di reso di acquisto per ripetere la registrazione.  
 
-5.  Nella finestra **Spedizione reso registrata** prendere nota del numero nel campo **Nr. ordine di reso**.    
+5.  Nella pagina **Spedizione reso registrata** prendere nota del numero nel campo **Nr. ordine di reso**.    
 6.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso acquisto** e scegliere il collegamento correlato.  
 7.  Aprire l'ordine di reso in questione quindi scegliere l'azione **Riapri**.  
 8.  Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  

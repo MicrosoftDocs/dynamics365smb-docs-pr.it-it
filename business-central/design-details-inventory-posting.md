@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Dettagli di progettazione: Registrazione di magazzino
@@ -29,7 +29,7 @@ Ogni transazione di magazzino, ad esempio un carico di acquisto o una spedizione
 
  In relazione alle registrazioni della quantità, i movimenti di collegamento articoli sono disponibili per collegare l'aumento di magazzino con una riduzione di magazzino. Ciò consente al motore di costing di inoltrare i costi dagli aumenti alle diminuzioni correlate e viceversa. Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md).  
 
- I movimenti contabili articoli, i movimenti di valorizzazione e i movimenti di collegamento articoli vengono creati come risultato della registrazione di una riga di registrazioni magazzino, indirettamente tramite la registrazione di una riga ordine o direttamente nella finestra Registrazioni magazzino.  
+ I movimenti contabili articoli, i movimenti di valorizzazione e i movimenti di collegamento articoli vengono creati come risultato della registrazione di una riga di registrazioni magazzino, indirettamente tramite la registrazione di una riga ordine o direttamente nella pagina Registrazioni magazzino.  
 
  A intervalli regolari, i movimenti di valorizzazione creati nei movimenti di magazzino vengono registrati nella contabilità generale per riconciliare i due registri per i motivi di controllo finanziario. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 

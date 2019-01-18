@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: it-it
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Risoluzione dei problemi [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Questo potrebbe verificarsi per diversi motivi, tra cui i seguenti:
   Il cliente dispone di più business unit o società in [!INCLUDE [d365fin](includes/d365fin_md.md)] e l'invito non include sempre tutte le società. Collaborare con il cliente in modo che non sia possibile accedere alle società con cui il cliente desidera che tu lavori.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Perché i dati non vengono aggiornati nel dashboard?
-Quando si aggiunge un cliente o si richiede un aggiornamento dei dati, [!INCLUDE [d365acc](includes/d365acc_md.md)] recupera i dati. Tuttavia è necessario aggiornare la finestra manualmente, ad esempio con l'azione Rivisualizza tutte le società, aggiornando la finestra del browser, uscendo e quindi rientrando nel dashboard o in altri modi simili. Si tratta di un problema noto su cui stiamo lavorando per la risoluzione in un aggiornamento successivo.  
+Quando si aggiunge un cliente o si richiede un aggiornamento dei dati, [!INCLUDE [d365acc](includes/d365acc_md.md)] recupera i dati. Tuttavia è necessario aggiornare la pagina manualmente, ad esempio con l'azione Rivisualizza tutte le società, aggiornando la pagina del browser, uscendo e quindi rientrando nel dashboard o in altri modi simili. Si tratta di un problema noto su cui stiamo lavorando per la risoluzione in un aggiornamento successivo.  
 
 ## <a name="see-also"></a>Vedi anche
 [Introduzione a [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

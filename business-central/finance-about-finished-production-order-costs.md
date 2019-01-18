@@ -1,22 +1,17 @@
 ---
 title: Informazioni sui costi di un ordine di produzione chiuso | Microsoft Docs
-description: "La chiusura di un ordine di produzione è un'attività importante nel completamento del ciclo di vita del costing dell'articolo prodotto. I costi finali, inclusi gli scostamenti in un ambiente con costi standard, i valori effettivi in un ambiente con costi FIFO, medi o LIFO, vengono calcolati tramite il processo batch **Rettifica costo - Movimenti articoli**."
-services: project-madeira
-documentationcenter: 
+description: "La chiusura di un ordine di produzione è un'attività importante nel completamento del ciclo di vita del costing dell'articolo prodotto. I costi finali, inclusi gli scostamenti in un ambiente con costi standard, i valori effettivi in un ambiente con costi FIFO, medi o LIFO, vengono calcolati tramite il processo batch Rettifica costo - Movimenti articoli."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ea69f3c8af84e92f09f4b2046530c9b935905ebe
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 39a5a63141f298de17b0e1ea100f72d956ca8fe3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="about-finished-production-order-costs"></a>Informazioni sui costi di un ordine di produzione chiuso

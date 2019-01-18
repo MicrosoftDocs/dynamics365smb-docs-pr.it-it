@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Dettagli di progettazione: Bilanciamento approvvigionamento con domanda
@@ -59,7 +59,7 @@ In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazion
 
     -   Rappresenta il magazzino (sempre nel giorno zero).  
     -   Contiene un metodo da ordine a ordine collegato a un'altra domanda.  
-    -   Risiede al di fuori della finestra di ripianificazione definita dall'intervallo di tempo.  
+    -   Risiede al di fuori della pagina di ripianificazione definita dall'intervallo di tempo.  
     -   Esiste un approvvigionamento più recente che potrebbe essere utilizzato.  
     -   D'altro canto, l'utente potrebbe scegliere di non ripianificare per i seguenti motivi:  
     -   L'ordine di approvvigionamento è già stato associato a un'altra domanda in una data precedente.  
@@ -68,7 +68,7 @@ In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazion
 -   **Riprogramma all'interno**: la data di un ordine di approvvigionamento esistente può essere programmata nel periodo, ad eccezione delle seguenti condizioni:  
 
     -   È collegata direttamente a un'altra domanda.  
-    -   Risiede al di fuori della finestra di ripianificazione definita dall'intervallo di tempo.  
+    -   Risiede al di fuori della pagina di ripianificazione definita dall'intervallo di tempo.  
 
 > [!NOTE]  
 >  Nella pianificazione di un articolo tramite un punto di riordino, l'ordine di approvvigionamento può sempre essere riprogrammato all'interno, se necessario. Ciò è comune negli ordini di approvvigionamento programmati in avanti attivati da un punto di riordino.  

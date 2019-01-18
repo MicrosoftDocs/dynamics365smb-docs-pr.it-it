@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Gestire clienti e vendite creati in Dynamics 365 for Sales
@@ -89,7 +89,7 @@ Nella seguente tabella vengono illustrate le regole che controllano la sincroniz
 Dalla home page, è possibile accedere alla Guida al setup assistito **Setup connessione a Microsoft Dynamics 365** che fornisce informazioni sull'impostazione della connessione. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Sales e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente gli stessi task nella finestra **Setup connessione Sales**.
+>   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente gli stessi task nella pagina **Setup connessione Sales**.
 
 Nella Guida di setup assistito, scegliere quali dati sincronizzare tra i due servizi. È inoltre possibile specificare se si desidera includere la soluzione Sales esistente. In questo caso, specificare le credenziali per un account utente amministrativo.
 
@@ -113,7 +113,7 @@ Se si sceglie di attivare l'*integrazione ordini di vendita*, è necessario spec
 ### <a name="coupling-records"></a>Associazione di record
 Nella Guida di setup assistito, è possibile scegliere di sincronizzare i due servizi. In seguito, è possibile impostare la sincronizzazione per tipi di dati specifici. Questo processo è detto *associazione* e questa sezione fornisce consigli sugli aspetti che è necessario prendere in considerazione.
 
-Ad esempio, se si desidera visualizzare i conti di Sales come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario associare i due tipi di record. Non è un 'operazione molto complicata: aprire la finestra **Lista clienti** in [!INCLUDE[d365fin](includes/d365fin_md.md)] e individuare l'azione nella barra multifunzione per associare questi dati con Sales. È quindi possibile specificare quali clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondono ai conti specifici di Sales.
+Ad esempio, se si desidera visualizzare i conti di Sales come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario associare i due tipi di record. Non è un 'operazione molto complicata: aprire la pagina **Lista clienti** in [!INCLUDE[d365fin](includes/d365fin_md.md)] e individuare l'azione nella barra multifunzione per associare questi dati con Sales. È quindi possibile specificare quali clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondono ai conti specifici di Sales.
 
 In certe aree, la funzionalità si bassa sull'associazione di determinati set di dati prima di altri set di dati, come indicato nell'elenco seguente:
 
@@ -130,16 +130,16 @@ In certe aree, la funzionalità si bassa sull'associazione di determinati set di
 Gli ordini di vendita di Sales si basano su informazioni aggiuntive come clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse. Affinché l'integrazione con gli ordini di vendita funzioni senza problemi, è necessario associare prima clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse.
 
 ### <a name="synchronizing-records-fully"></a>Sincronizzazione completa dei record
-Alla fine della Guida di setup assistito è possibile scegliere l'azione **Esegui sincronizzazione completa** per iniziare a sincronizzare tutti i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] con tutti i record correlati nella soluzione Sales connessa. Nella finestra **Revisione sincronizzazione completa CRM** scegliere l'azione **Avvia**. La sincronizzazione quindi inizia a eseguire i processi in base alle dipendenze. Ad esempio, i record valuta vengono sincronizzati prima dei record cliente. La sincronizzazione completa può richiedere molto tempo e pertanto venire eseguita in background in modo che sia possibile continuare a lavorare in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Alla fine della Guida di setup assistito è possibile scegliere l'azione **Esegui sincronizzazione completa** per iniziare a sincronizzare tutti i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] con tutti i record correlati nella soluzione Sales connessa. Nella pagina **Revisione sincronizzazione completa CRM** scegliere l'azione **Avvia**. La sincronizzazione quindi inizia a eseguire i processi in base alle dipendenze. Ad esempio, i record valuta vengono sincronizzati prima dei record cliente. La sincronizzazione completa può richiedere molto tempo e pertanto venire eseguita in background in modo che sia possibile continuare a lavorare in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, eseguire il drill down nel campo **Stato movimento coda processi**, **Stato processo a tabella di integrazione** o **Stato processo da tabella di integrazione** nella finestra **Revisione sincronizzazione completa CRM**.
+Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, eseguire il drill down nel campo **Stato movimento coda processi**, **Stato processo a tabella di integrazione** o **Stato processo da tabella di integrazione** nella pagina **Revisione sincronizzazione completa CRM**.
 
-Nella finestra **Setup connessione Microsoft Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la finestra **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle nella soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] e in Sales da sincronizzare.
+Nella pagina **Setup connessione Microsoft Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la pagina **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle nella soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] e in Sales da sincronizzare.
 
 ## <a name="handling-special-sales-order-data"></a>Gestione di dati di ordini di vendita speciali
-Gli ordini di vendita in Sales verranno trasferiti automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Crea ordini di vendita automaticamente** nella finestra **Setup connessione Microsoft Dynamics 365**. In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Gli ordini di vendita in Sales verranno trasferiti automaticamente in [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Crea ordini di vendita automaticamente** nella pagina **Setup connessione Microsoft Dynamics 365**. In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nei prodotti. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella finestra **Setup contabilità clienti e vendite**, in modo che tali vendite di prodotti non registrate siano mappate a un numero di articolo/risorsa specificato per le analisi finanziarie.
+Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nei prodotti. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella pagina **Setup contabilità clienti e vendite**, in modo che tali vendite di prodotti non registrate siano mappate a un numero di articolo/risorsa specificato per le analisi finanziarie.
 
 Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo Commento viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

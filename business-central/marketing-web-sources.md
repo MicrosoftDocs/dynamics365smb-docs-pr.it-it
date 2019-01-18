@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Impostare le origini Web per le società contatto
@@ -29,7 +30,7 @@ L'utilizzo delle origini Web nei contatti è un processo a due passaggi. Innanzi
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi **Codice**, **Descrizione** e **URL**.
 
-    Nel campo **URL** immettere %1 per inserire un segnaposto per una parola di ricerca nell'URL. Quando si apre l'origine Web da un contatto, %1 verrà automaticamente sostituito con la parola da ricercare (ad esempio il nome della società) inserita nella finestra **Origini Web contatto**.
+    Nel campo **URL** immettere %1 per inserire un segnaposto per una parola di ricerca nell'URL. Quando si apre l'origine Web da un contatto, %1 verrà automaticamente sostituito con la parola da ricercare (ad esempio il nome della società) inserita nella pagina **Origini Web contatto**.
 
 Ripetere tali passaggi per impostare altre origini Web.
 
@@ -37,13 +38,13 @@ Ripetere tali passaggi per impostare altre origini Web.
 Quando si assegna un'origine Web, specificare il motore di ricerca e la parola di ricerca che saranno utilizzati per individuare le informazioni richieste.
 
 1. Aprire il contatto.
-2. Scegliere l'azione **Società**, quindi l'azione **Origini Web**. Verrà visualizzata la finestra **Origine Web contatto**.
+2. Scegliere l'azione **Società**, quindi l'azione **Origini Web**. Verrà visualizzata la pagina **Origine Web contatto**.
 3. Nel campo **Codice origine Web** scegliere l'origine Web che si desidera assegnare.
 4. Nel campo **Parola ricerca** inserire la parola ricerca che verrà utilizzata per individuare le informazioni.
 
 Ripetere tali passaggi per assegnare altre origini Web.
 
-È inoltre possibile assegnare l'origine Web dalla finestra **Lista contatti** seguendo la stessa procedura.
+È inoltre possibile assegnare l'origine Web dalla pagina **Lista Contatti** seguendo la stessa procedura.
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di società contatto](marketing-create-contact-companies.md)  

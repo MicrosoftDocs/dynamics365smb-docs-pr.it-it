@@ -1,6 +1,6 @@
 ---
 title: Come creare distinte base di produzione | Microsoft Docs
-description: "Una DB di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella finestra **Componenti ordine produzione** ."
+description: "Una DB di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** ."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f1c27e93dedb12b3b4895cbfc9a22d255fa2120
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
-Una distinta base (DB) di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella finestra **Componenti ordine produzione** .
+Una distinta base (DB) di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta anche le DB di assemblaggio. Utilizzare gli ordini di assemblaggio per la creazione di articoli finali dai componenti in un semplice processo che può essere svolto da una o più risorse di base, che non sono centri di lavoro o aree di produzione, né privi di risorse. Ad esempio, un processo di assemblaggio potrebbe consistere nel prelevare due bottiglie di vino e un pacchetto di caffè, quindi di imballarli come articolo da regalo. Per ulteriori informazioni, vedere la sezione "DB di assemblaggio o DB di produzione" in [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
 

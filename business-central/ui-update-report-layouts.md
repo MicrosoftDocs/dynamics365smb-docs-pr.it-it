@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Aggiornamento dei layout di report o documento
@@ -32,7 +32,7 @@ Non tutte le modifiche del set di dati del report possono essere aggiornate auto
   
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Layout report** e quindi scegliere il collegamento correlato.  
   
-2.  Nella finestra **Layout report**, se si desidera aggiornare un report specifico, selezionare il layout dall'elenco, quindi scegliere l'azione **Aggiorna layout**. In alternativa, se si desidera aggiornare tutti i layout di report personalizzati per la società, scegliere l'azione **Aggiorna tutti i layout**.  
+2.  Nella pagina **Layout report**, se si desidera aggiornare un report specifico, selezionare il layout dall'elenco, quindi scegliere l'azione **Aggiorna layout**. In alternativa, se si desidera aggiornare tutti i layout di report personalizzati per la società, scegliere l'azione **Aggiorna tutti i layout**.  
 
 Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di report. Se si verificano errori, viene visualizzato un messaggio contenente gli errori. Sarà quindi necessario modificare manualmente il layout di report personalizzato per correggere l'errore. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
 
@@ -40,9 +40,9 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
   
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
   
-2.  Nella finestra **Selezione layout report**, scegliere l'azione **Verifica aggiornamenti layout**.  
+2.  Nella pagina **Selezione layout report**, scegliere l'azione **Verifica aggiornamenti layout**.  
   
- Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una finestra **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
+ Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una pagina **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limiti dell'aggiornamento di layout di report personalizzati  
  Sono disponibili diversi tipi di modifiche che l'aggiornamento automatico può applicare ai layout di report personalizzati, ad esempio la rimozione dal set di dati di un campo che è stato utilizzato nel layout. Tuttavia, l'aggiornamento automatico non può gestire le seguenti modifiche da apportare al set di dati di un report.  

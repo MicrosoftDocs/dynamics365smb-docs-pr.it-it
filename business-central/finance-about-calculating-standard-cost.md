@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
@@ -81,7 +81,7 @@ Impostare le tariffe per ognuno di questi tipi di tempo per ogni centro di lavor
 > [!NOTE]  
 >  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Ordinamento** nella scheda articolo.  
 
-Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella finestra **Setup manufacturing**.  
+Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella pagina **Setup manufacturing**.  
 
 A livello singolo, si tratta del costo della manodopera necessaria per produrre l'articolo finito, specificato nel ciclo dell'articolo di produzione. A più livelli, si tratta del costo della capacità specificato per ogni singolo articolo prodotto incluso nella distinta base dell'articolo principale.  
 

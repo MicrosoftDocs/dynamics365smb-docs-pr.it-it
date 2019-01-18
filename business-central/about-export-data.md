@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
@@ -22,6 +22,9 @@ Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
 È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
+
+> [!NOTE]
+> Utilizzare questa opzione se non si desidera apportare modifiche e pubblicare di nuovo tali modifiche su [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Ogni elenco include una serie di colonne e l'esportazione in Excel includerà tutte le colonne che sono incluse nella visualizzazione corrente. Se si desidera aggiungere o rimuovere colonne prima di aprire l'elenco in Excel, è sufficiente aprire il menu di scelta rapida per qualsiasi colonna e specificare le colonne che si desidera visualizzare. L'elenco delle colonne è diverso dalla maggior parte degli elenchi e riflette la struttura del database in cui i dati sono archiviati. Se non si è certi di tipo di dati contenuti in una determinata colonna, è possibile aggiungerla alla visualizzazione e quindi decidere di rimuoverlo di nuovo eventualmente.  
 
@@ -39,7 +42,7 @@ Se si decide di annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fi
 * Banche  
 * Articoli  
 
-Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiederà un tempo superiore. Le transazioni finanziarie sono visualizzate nella finestra **Movimenti C/G**.  
+Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiederà un tempo superiore. Le transazioni finanziarie sono visualizzate nella pagina **Movimenti C/G**.  
 
 È consigliabile anche esportare i dati dalle pagine seguenti:  
 

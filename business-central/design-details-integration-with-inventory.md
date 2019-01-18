@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df77e655c58b6eba6f431ef66be3152f56ac634f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dda69814c0f8b2a21a3e927e2e357817090549f4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-integration-with-inventory"></a>Dettagli di progettazione: Integrazione con il magazzino
 L'area di applicazione Gestione warehouse e l'area di applicazione Magazzino interagiscono tra loro nell'inventario fisico e nella rettifica della warehouse o di magazzino.  
   
-## <a name="physical-inventory"></a>Physical Inventory  
- La finestra **Registrazioni Inventario Whse.** viene utilizzata con la finestra **Registrazioni inventario fis.** per tutte le ubicazioni warehouse avanzate. Il magazzino a livello di collocazione viene calcolato e viene stampato un elenco per l'impiegato warehouse. L'elenco indica quali elementi devono essere conteggiati in quali collocazioni.  
+## <a name="physical-inventory"></a>Inventario fisico  
+ La pagina **Registrazioni Inventario Whse.** viene utilizzata con la pagina **Registrazioni inventario fis.** per tutte le ubicazioni warehouse avanzate. Il magazzino a livello di collocazione viene calcolato e viene stampato un elenco per l'impiegato warehouse. L'elenco indica quali elementi devono essere conteggiati in quali collocazioni.  
   
- Un impiegato warehouse immette la quantità conteggiata nella finestra **Registrazioni Inventario Whse.**, quindi effettua le registrazioni.  
+ Un impiegato warehouse immette la quantità conteggiata nella pagina **Registrazioni Inventario Whse.**, quindi effettua le registrazioni.  
   
  Se la quantità conteggiata è maggiore della quantità nella riga delle registrazioni, verrà registrato un movimento per questa differenza dalla collocazione rettifica predefinita alla collocazione conteggiata. In questo modo viene aumentata la quantità nella collocazione conteggiata e viene diminuita la quantità nella collocazione rettifica predefinita.  
   
@@ -36,7 +36,7 @@ L'area di applicazione Gestione warehouse e l'area di applicazione Magazzino int
  Quando si effettuano le registrazioni di inventario, vengono aggiornati il magazzino e la collocazione rettifica predefinita.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Rettifiche di warehouse nel movimento contabile articolo  
- La finestra **Registrazioni magazzino** e la funzione **Calcola rettifica whse** consentono di rettificare il magazzino nei movimenti magazzino conformemente a una rettifica che è stata eseguita sulla quantità di articoli in una collocazione warehouse. Per creare un collegamento tra il magazzino e la warehouse, è necessario definire una collocazione di rettifica predefinita per ubicazione.  
+ La pagina **Registrazioni magazzino** e la funzione **Calcola rettifica whse** consentono di rettificare il magazzino nei movimenti magazzino conformemente a una rettifica che è stata eseguita sulla quantità di articoli in una collocazione warehouse. Per creare un collegamento tra il magazzino e la warehouse, è necessario definire una collocazione di rettifica predefinita per ubicazione.  
   
  La collocazione rettifica predefinita registra gli articoli nella warehouse quando si registra un aumento del magazzino. Tuttavia, se si registra una riduzione, anche la quantità nella collocazione predefinita viene diminuita. In entrambi i casi, vengono creati movimenti contabili articoli e movimenti warehouse.  
   

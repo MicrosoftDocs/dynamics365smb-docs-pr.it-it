@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
-Dopo avere impostato le collocazioni, è possibile impostare il contenuto collocazione. Ciò significa che è possibile impostare gli articoli che si desidera inserire in una determinata collocazione e le regole che verranno seguite per l'inserimento di uno specifico articolo in una collocazione. Questa operazione può essere effettuata manualmente nella finestra **Contenuto collocazioni** o automaticamente tramite la finestra **Crea prospetto contenuto collocazione**.
+Dopo avere impostato le collocazioni, è possibile impostare il contenuto collocazione. Ciò significa che è possibile impostare gli articoli che si desidera inserire in una determinata collocazione e le regole che verranno seguite per l'inserimento di uno specifico articolo in una collocazione. Questa operazione può essere effettuata manualmente nella pagina **Contenuto collocazioni** o automaticamente tramite la pagina **Crea prospetto contenuto collocazione**.
 
 ## <a name="to-create-bin-content-manually"></a>Per creare manualmente il contenuto collocazione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera impostare contenuti collocazione e scegliere l'azione **Collocazioni**.  
 3.  Selezionare la collocazione in cui si desidera impostare contenuti e scegliere l'azione **Contenuti**.  
-4.  Per ogni articolo che si desidera archiviare nella collocazione, compilare i campi di una riga della finestra **Contenuto collocazioni** immettendo le informazioni appropriate. Alcuni campi sono già compilati con le informazioni relative alla collocazione.  
+4.  Per ogni articolo che si desidera inserire nella collocazione, compilare i campi di una riga della pagina **Contenuto collocazioni** immettendo le informazioni appropriate. Alcuni campi sono già compilati con le informazioni relative alla collocazione.  
 5.  Compilare innanzitutto il campo **Nr. articolo**, quindi, se si utilizzano stoccaggi e prelievi guidati, compilare gli altri campi, quali **Cod. unità di misura**, **Qtà massima** e **Qtà minima**.  
 
 Selezionare il campo **Fisso** se necessario. Se la collocazione deve essere utilizzata come collocazione di default per l'articolo, selezionare il campo **Collocazione di default**.  
 
-Se si utilizzano stoccaggi e prelievi guidati e, nella scheda articolo, sono state specificate le informazioni di dimensione corrette relative alle unità di misura di ciascun articolo, la quantità massima immessa nella finestra **Contenuto collocazioni** viene confrontata con le capacità fisiche della collocazione. I valori di quantità massima e minima verranno utilizzati per il calcolo del rifornimento della collocazione e dei suggerimenti relativi allo stoccaggio.  
+Se si utilizzano stoccaggi e prelievi guidati e, nella scheda articolo, sono state specificate le informazioni di dimensione corrette relative alle unità di misura di ciascun articolo, la quantità massima immessa nella pagina **Contenuto collocazioni** viene confrontata con le capacità fisiche della collocazione. I valori di quantità massima e minima verranno utilizzati per il calcolo del rifornimento della collocazione e dei suggerimenti relativi allo stoccaggio.  
 
 Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere associato principalmente a tale collocazione. Ciò significa che in [!INCLUDE[d365fin](includes/d365fin_md.md)] l'articolo verrà inserito nella collocazione se la quantità di spazio disponibile è sufficiente e il record indicante l'associazione fissa tra articolo e collocazione verrà conservato anche quando la quantità all'interno della collocazione è pari a 0. Il fatto che un determinato articolo venga associato in modo fisso a una specifica collocazione non preclude la possibilità di inserire altri articoli nella collocazione in questione.  
 
 > [!NOTE]  
->  È possibile impostare diversi contenuti collocazione contemporaneamente nella finestra **Prospetto creaz. cont. colloc.**  
+>  È possibile impostare diversi contenuti collocazione contemporaneamente nella pagina **Prospetto creaz. cont. colloc.**  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Per creare il contenuto delle collocazioni con un prospetto  
 Dopo avere creato le collocazioni, è possibile specificare il contenuto desiderato per ciascuna collocazione nel prospetto creazione contenuto collocazione.

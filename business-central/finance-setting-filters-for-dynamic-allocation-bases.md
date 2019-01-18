@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ca8e7008c2bfe4a9abeb9d9b7b467a38e2c1971
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: fcf97328900bb21a85be51452b9e86da8398d195
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-filters-for-dynamic-allocation-bases"></a>Impostazione di filtri per le basi di allocazione dinamica
@@ -35,10 +36,8 @@ Il metodo di allocazione dinamica si basa su valori variabili. Ad esempio, il nu
 |Articoli venduti (qtà)|Nr. Articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
 |Articoli acquistati (qtà)|Nr. Articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
 |Articoli venduti (importo)|Nr. Articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
-|Articoli acquistati (importo)|Nr. articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
+|Articoli acquistati (importo)|Nr. articolo|Sì|Sì|Sì|Gruppo registrazione magazzino|  
 
 ## <a name="see-also"></a>Vedi anche  
- [Esempio di scenario: definizione delle allocazioni dinamiche in base agli articoli venduti](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Impostare origini e destinazioni dell'allocazione](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)
+[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
@@ -44,7 +44,7 @@ La procedura seguente illustra come annullare ordini di assemblaggio registrati 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio  
 1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio registrati**, quindi selezionare il collegamento correlato.  
 
-    Verrà visualizzata la finestra **Ordini di assemblaggio registrati** con uno o più ordini di assemblaggio che sono stati registrati dall'ordine di assemblaggio in questione. Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
+    Verrà visualizzata la pagina **Ordini di assemblaggio registrati** con uno o più ordini di assemblaggio che sono stati registrati dall'ordine di assemblaggio in questione. Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
 2.  Aprire l'ordine di assemblaggio registrato che si desidera annullare, quindi scegliere l'azione **Annulla assemblaggio**.  
 
     Se l'ordine di assemblaggio registrato che si desidera annullare si riferisce a un ordine di assemblaggio registrato completamente che è stato eliminato, è possibile scegliere di ricrearlo, solitamente perché si desidera rielaborarlo.  

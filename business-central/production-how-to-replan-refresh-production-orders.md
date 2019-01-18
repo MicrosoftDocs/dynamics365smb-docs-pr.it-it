@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
@@ -41,7 +41,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 4.  Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
 5.  Nell'ordine di produzione scegliere l'azione **Ripianifica**.  
 
-    Nella finestra **Ripianifica ordine produzione** specificare la modalità desiderata per la ripianificazione e gli elementi da ripianificare.  
+    Nella pagina **Ripianifica ordine produzione** specificare la modalità desiderata per la ripianificazione e gli elementi da ripianificare.  
 6.  Nel campo **Direzione programmazione** selezionare una delle seguenti opzioni.  
 
     |Opzione|Description|  
@@ -68,7 +68,7 @@ Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è n
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
 3.  Scegliere l'azione **Aggiorna**.
-4. Nella finestra **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:
+4. Nella pagina **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:
 
     |Opzione|Description|  
     |----------------------------------|---------------|---------------------------------------|  

@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a>Registrare il movimento di chiusura di fine anno
@@ -24,7 +24,7 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contabilità generale** e quindi scegliere il collegamento correlato.
-2. Nella finestra **Registrazione COGE**, nel campo **Nome batch**, selezionare il batch contenente i movimenti di chiusura.
+2. Nella pagina **Registrazione COGE**, nel campo **Nome batch**, selezionare il batch contenente i movimenti di chiusura.
 3. Analizzare i movimenti.
 4. Per contabilizzare le registrazioni, scegliere l'azione **Registra**.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
@@ -44,15 +44,15 @@ La principale differenza tra impegno specifico e impegno non specifico è defini
 |**Specifico**|Numero seriale o di lotto.|Numero seriale o di lotto.|  
 |**Non specifico**|Numero seriale o di lotto.|Nessun numero seriale o di lotto.|  
   
-Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla finestra **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
+Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla pagina **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
   
 ## <a name="specific-reservation"></a>Impegno specifico  
-Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì**, viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La finestra **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
+Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì**, viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La pagina **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
   
-Se alcuni dei numeri di tracciabilità articolo specifici che si sta tentando di impegnare sono utilizzati in impegni non specifici, verrà visualizzato un messaggio nella parte inferiore della finestra **Impegni** per indicare quanto della quantità impegnata totale è utilizzato in impegni non specifici e se c'è ancora disponibilità.  
+Se alcuni dei numeri di tracciabilità articolo specifici che si sta tentando di impegnare sono utilizzati in impegni non specifici, verrà visualizzato un messaggio nella parte inferiore della pagina **Impegni** per indicare quanto della quantità impegnata totale è utilizzato in impegni non specifici e se c'è ancora disponibilità.  
   
 ## <a name="nonspecific-reservation"></a>Impegno non specifico  
-Se si sceglie **No** nella finestra di dialogo che viene visualizzata, viene visualizzata la finestra **Impegni** nella quale è possibile impegnare i numeri seriali o di lotto nel magazzino.  
+Se si sceglie **No** nella finestra di dialogo che viene visualizzata, viene visualizzata la pagina **Impegni** nella quale è possibile impegnare i numeri seriali o di lotto nel magazzino.  
   
 A causa della struttura del sistema di impegno, quando si inserisce un impegno non specifico di un articolo tracciato, il sistema deve selezionare i movimenti contabili articolo specifici da impegnare. Poiché i movimenti contabili articoli sono dotati di numeri di tracciabilità articolo, specifici numeri di serie o di lotto vengono indirettamente riservati anche se non si intendeva farlo. Per gestire questo caso, il sistema di impegno prova a ridistribuire i movimenti impegni non specifici prima della registrazione.  
   
@@ -81,7 +81,7 @@ Ad esempio, la necessità deriva da quando un gestore ordini ha eseguito prima u
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Impegna un numero seriale o numeri di lotto  
 In questo scenario di business, la funzionalità di combinazione tardiva garantisce che un utente, che tenta di impegnare un numero seriale o di lotto specifico che in quel momento è impegnato in modo non specifico, possa effettuare questa operazione. Un impegno non specifico viene ridistribuito al momento dell'impegno per liberare il numero seriale o di lotto per la richiesta specifica.  
   
-La consuntivazione avviene automaticamente, ma nella parte inferiore della finestra **Impegni** viene visualizzata la Guida incorporata con il seguente testo:  
+La consuntivazione avviene automaticamente, ma nella parte inferiore della pagina **Impegni** viene visualizzata la Guida incorporata con il seguente testo:  
   
 **XX della quantità impegnata totale non è specifico e potrebbe essere disponibile.**  
   

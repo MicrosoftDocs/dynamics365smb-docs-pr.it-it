@@ -13,19 +13,19 @@ ms.search.keywords: reconcile
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 319faa64adc93c9e54cf792325daeb6a5a8e0b80
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 62b2bf8987146a69d17bd343f88d31d60a205ffb
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Gestione di conti correnti bancari
-A intervalli regolari è necessario riconciliare i movimenti contabili bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con le transazioni bancarie relative nei conti bancari presso la banca e quindi registrare il saldo nel conto corrente bancario. È possibile eseguire questa attività come parte dell'elaborazione dei pagamenti rappresentati in un estratto conto bancario in **Registrazione riconciliazione pagamenti**. In alternativa, è possibile eseguire separatamente il task dall'elaborazione del pagamento nella finestra **Riconciliazioni C/C bancari** in cui associare (riconciliare) le righe del rendiconto bancario nel riquadro a sinistra con i movimenti contabili interni del conto corrente nel riquadro di destra. In entrambe le finestre è possibile compilare le informazioni sull'estratto conto bancario importando un file o feed ed è possibile utilizzare i suggerimenti automatici di corrispondenza.
+A intervalli regolari è necessario riconciliare i movimenti contabili bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con le transazioni bancarie relative nei conti bancari presso la banca e quindi registrare il saldo nel conto corrente bancario. È possibile eseguire questa attività come parte dell'elaborazione dei pagamenti rappresentati in un estratto conto bancario in **Registrazione riconciliazione pagamenti**. In alternativa, è possibile eseguire separatamente il task dall'elaborazione del pagamento nella pagina **Riconciliazioni C/C bancari** in cui associare (riconciliare) le righe del rendiconto bancario nel riquadro a sinistra con i movimenti contabili interni del conto corrente nel riquadro di destra. In entrambe le pagina è possibile compilare le informazioni sull'estratto conto bancario importando un file o feed ed è possibile utilizzare i suggerimenti automatici di corrispondenza.
 
 > [!NOTE]  
-> Nelle versioni per il Nord America è possibile eseguire la riconciliazione bancaria nella finestra **Prospetto riconciliazione bancaria**, più adatta per assegni e depositi ma non offre l'importazione di file di rendiconti bancari. Per utilizzare questa finestra al posto della finestra **Riconciliazioni C/C bancari**, deselezionare il campo **Riconciliazione bancaria con collegamento automatico** nella finestra **Setup contabilità generale**. Per ulteriori informazioni, vedere “Riconciliazione dei conti correnti bancari" nella funzionalità locale per gli Stati Uniti.
+> Nelle versioni per il Nord America è possibile eseguire la riconciliazione bancaria nella pagina **Prospetto riconciliazione bancaria**, più adatta per assegni e depositi ma non offre l'importazione di file di rendiconti bancari. Per utilizzare questa finestra al posto della pagina **Riconciliazioni C/C bancari**, deselezionare il campo **Riconciliazione bancaria con collegamento automatico** nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere “Riconciliazione dei conti correnti bancari" nella funzionalità locale per gli Stati Uniti.
 
-Talvolta, è necessario trasferire gli importi tra i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] per riflettere i trasferimenti alla banca. È possibile eseguire questa attività nella finestra **Registrazioni COGE** in modi diversi a seconda della valuta dei fondi.
+Talvolta, è necessario trasferire gli importi tra i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] per riflettere i trasferimenti alla banca. È possibile eseguire questa attività nella pagina **Registrazioni COGE** in modi diversi a seconda della valuta dei fondi.
 
 Prima di poter gestire i conti correnti bancari, è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-setup-banking.md).
 
@@ -33,8 +33,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | Per | Vedere |
 | --- | --- |
-| Riconciliare i conti correnti bancari in relazione all'elaborazione dei pagamenti nella finestra **Registrazione riconciliazione pagamenti**. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Riconciliare i conti bancari, inclusi i movimenti contabili assegni, come attività separata nella finestra **Riconciliazioni C/C bancari**. |[Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md) |
+| Riconciliare i conti correnti bancari in relazione all'elaborazione dei pagamenti nella pagina **Registrazione riconciliazione pagamenti**. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Riconciliare i conti bancari, inclusi i movimenti contabili assegni, come attività separata nella pagina **Riconciliazioni C/C bancari**. |[Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md) |
 | Registrare i bonifici tra conti correnti bancari nella stessa valuta o in valute diverse. |[Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Vedi anche

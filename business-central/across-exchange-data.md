@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 79b7930c62f0b09cffc35bf1b5928197fca14986
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 678b15b8d15dba477ac09c2651964525f4afe26a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="exchanging-data"></a>Scambio di dati
@@ -29,11 +29,11 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Convertire i record del documento di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] in un formato standardizzato e inviarli come documenti elettronici che i clienti possono ricevere nel proprio sistema.|[Inviare documenti elettronici](sales-how-to-send-electronic-documents.md)|  
 |Inviare PDF o file immagine a un provider di servizi OCR e riceverli come documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)|  
 |Ricevere i documenti elettronici dal servizio OCR o dal servizio di scambio documenti in un formato standardizzato che viene convertito nei relativi record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
-|Importare un file dell'estratto conto bancario nella finestra **Registrazione riconciliazione pagamenti** come primo passaggio della riconciliazione dei pagamenti o nella finestra **Riconciliazioni C/C bancari** come primo passaggio nella riconciliazione dei conti bancari.|[Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)|  
-|Esportare i pagamenti dalla finestra **Registrazioni pagamenti** in un file della banca da caricare sul conto corrente bancario elettronico per l'elaborazione.|[Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|
+|Preparare l'importazione di un file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** come primo passaggio della riconciliazione dei pagamenti o nella pagina **Riconciliazioni C/C bancari** come primo passaggio nella riconciliazione dei conti bancari.|[Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)|  
+|Esportare i pagamenti dalla pagina **Registrazioni pagamenti** in un file della banca da caricare sul conto corrente bancario elettronico per l'elaborazione.|[Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|
 |Effettuare pagamenti elettronici in base al bonifico SEPA standard per i paesi dell'UE.|[Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Utilizzare un provider di servizi per i tassi di cambio valuta per aggiornare la finestra **Valute**.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|  
+|Utilizzare un provider di servizi per i tassi di cambio valuta per aggiornare la pagina **Valute**.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|  
 |Visualizzare di quali elementi del file viene eseguito il mapping ai campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] durante l'importazione di file di estratto conto SEPA CAMT.|[Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  
 |Visualizzare i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] di cui viene eseguito il mapping agli elementi del file durante l'esportazione dei file di pagamento tramite la funzionalità del servizio di conversione dati bancari.|[Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 

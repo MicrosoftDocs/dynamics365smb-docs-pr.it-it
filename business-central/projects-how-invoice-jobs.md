@@ -13,16 +13,16 @@ ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
 
-È possibile fatturare l'intera commessa dalla finestra **Righe task commessa** oppure fatturare solo le righe fatturabili selezionate dalla finestra **Righe pianificazione**. La fatturazione può essere effettuata dopo la chiusura della commessa oppure durante lo svolgimento delle operazioni correlate alla commessa, a determinati intervalli basati su un'apposita programmazione.
+È possibile fatturare l'intera commessa dalla pagina **Righe task commessa** oppure fatturare solo le righe fatturabili selezionate dalla pagina **Righe pianificazione**. La fatturazione può essere effettuata dopo la chiusura della commessa oppure durante lo svolgimento delle operazioni correlate alla commessa, a determinati intervalli basati su un'apposita programmazione.
 
 > [!NOTE]  
 >   Se si seleziona **Fatturabile** nel campo **Tipo riga commessa** dei documenti di acquisto per gli acquisti correlati alla commessa, vengono create le righe di pianificazione commessa che sono pronte per la fatturazione al cliente. Per ulteriori informazioni, vedere [Gestire gli approvvigionamenti per un progetto](projects-how-manage-project-supplies.md).
@@ -30,7 +30,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Per creare e registrare una fattura di vendita per una commessa
 È possibile creare una fattura per una commessa o per uno o più task commessa per un cliente al completamento del lavoro da fatturare o al raggiungimento della data per la fatturazione in base a una programmazione di fatturazione.
 
-Dalla finestra **Commesse** è possibile fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa**. Nella procedura che segue viene mostrato come utilizzare un processo batch per fatturare più commesse.  
+Dalla pagina **Commesse** è possibile fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa**. Nella procedura che segue viene mostrato come utilizzare un processo batch per fatturare più commesse.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commessa - Crea fattura vendita** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,13 +45,13 @@ Dalla finestra **Commesse** è possibile fatturare a un cliente selezionando la 
 3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. In una riga di pianificazione commessa, nel campo **Qtà da trasferire in fattura** , immettere la quantità dell'articolo, la risorsa, il tipo del conto di contabilità generale che si desidera fatturare.  
 5. Scegliere l'azione **Crea fattura di vendita**.
-6. Nella finestra **Commessa - Crea fattura vendita**, immettere la data di registrazione e se si desidera creare una nuova fattura o aggiungere questa fattura a una esistente.
+6. Nella pagina **Commessa - Crea fattura vendita**, immettere la data di registrazione e se si desidera creare una nuova fattura o aggiungere questa fattura a una esistente.
 7. Scegliere il pulsante **OK**.  
 
     Nella riga di pianificazione commessa, nel campo **Qtà trasferita in fattura**, è possibile visualizzare la quantità.
-8. Nella finestra **Righe pianificazione commessa** scegliere l'azione **Fatture/Note credito vendite**.
+8. Nella pagina **Righe pianificazione commessa** scegliere l'azione **Fatture/Note credito vendite**.
 
-    Verrà visualizzata la finestra **Fatture di vendita** nella quale sarà mostrata la quantità che è stata trasferita in fattura.  
+    Verrà visualizzata la pagina **Fatture di vendita** nella quale sarà mostrata la quantità che è stata trasferita in fattura.  
 9. Apportare tutte le modifiche aggiuntive, quindi scegliere l'azione **Registra**.
 
 > [!NOTE]  
@@ -65,11 +65,11 @@ Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo 
 3. Nel campo **Stato** selezionare **Completato**.
 4. Seguire i passaggi di assistenza per calcolare e registrare il WIP. In alternativa, seguire i passaggi 5 e 6 per effettuare questa operazione manualmente.  
 5. Scegliere l'azione **Calcola WIP**.
-6. Nella finestra **Commessa - Calcola WIP** compilare i campi in base alle esigenze.  
+6. Nella pagina **Commessa - Calcola WIP** compilare i campi in base alle esigenze.  
 
      Per i movimenti WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.  
 7. Scegliere l'azione **Commessa - Registra WIP in C/G**.
-8. Nella finestra **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
+8. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
 
      Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Prelievo degli articoli
@@ -27,9 +27,9 @@ Se si decide di organizzare e di registrare l'attività di prelievo associata a 
 > [!NOTE]
 > Anche se l'impostazione è chiamata **Richiesto prelievo**, è possibile registrare carichi e spedizioni direttamente dal documento aziendale di origine nell'ubicazione in cui si seleziona questa casella di controllo.
 
-Se l'ubicazione è impostata per la richiesta dell'elaborazione del prelievo, ma non della spedizione, è necessario utilizzare la finestra **Prelievo magazzino** per organizzare le informazioni relative al prelievo, stamparle, immettere i risultati del prelievo e registrare tali informazioni, operazioni che comportano anche la spedizione degli articoli. Nel caso del prelievo di componenti per un ordine di produzione, la registrazione del prelievo comprende anche il consumo.
+Se l'ubicazione è impostata per la richiesta dell'elaborazione del prelievo, ma non della spedizione, è necessario utilizzare la pagina **Prelievo magazzino** per organizzare le informazioni relative al prelievo, stamparle, immettere i risultati del prelievo e registrare tali informazioni, operazioni che comportano anche la spedizione degli articoli. Nel caso del prelievo di componenti per un ordine di produzione, la registrazione del prelievo comprende anche il consumo.
 
-Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, inserendo un segno di spunta nei campi **Richiesta prelievo** e **Richiesta spedizione** della scheda Ubicazione, occorrerà utilizzare la finestra **Prelievo warehouse** per gestire il prelievo. Il prelievo warehouse presenta un funzionamento analogo a quello di magazzino, ad eccezione del fatto che invece di registrare le informazioni sul prelievo viene registrato il prelievo stesso. Tale processo non include la registrazione della spedizione ma semplicemente rende disponibili gli articoli per la spedizione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse.
+Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, inserendo un segno di spunta nei campi **Richiesta prelievo** e **Richiesta spedizione** della scheda Ubicazione, occorrerà utilizzare la pagina **Prelievo warehouse** per gestire il prelievo. Il prelievo warehouse presenta un funzionamento analogo a quello di magazzino, ad eccezione del fatto che invece di registrare le informazioni sul prelievo viene registrato il prelievo stesso. Tale processo non include la registrazione della spedizione ma semplicemente rende disponibili gli articoli per la spedizione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 
