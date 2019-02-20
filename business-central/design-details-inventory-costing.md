@@ -11,10 +11,10 @@ ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 857bb571566f6c20faa5074ef0c81d4ca1f6033b
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
@@ -38,6 +38,7 @@ Il costing di magazzino, detto anche gestione costing riguarda la registrazione 
 [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)  
 [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
 [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)  
-[Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)  
+[Dettagli di progettazione - Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)
+[Dettagli di progettazione - Valutazione di magazzino](design-details-inventory-valuation.md)  
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
@@ -39,11 +39,10 @@ Un altro approccio consiste nel creare un pacchetto che include le tabelle che d
 -   Setup registrazioni IVA  
 -   Setup registrazione magazzino  
 
-Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato.  
+Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manuale** e quindi scegliere il collegamento correlato.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Per creare un pacchetto di configurazione di società personalizzato  
-1.  Creare un nuovo [!INCLUDE[d365fin](includes/d365fin_md.md)] ***IMPOSSIBILE Collegamento alla Guida per "Creazione di un nuovo tenant"***.   
-2.  Creare una nuova società per il modello della soluzione o del settore. Per ulteriori informazioni, vedere [Creare una nuova società](admin-how-to-create-a-new-company.md).  
+1.  Creare una nuova società. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).  
 3.  Impostare la nuova società nel modo desiderato. Compilare tutte le tabelle di setup necessarie.  
 4.  Apre la nuova società.
 5. Aprire la pagina **Foglio di lavoro configurazione**.  

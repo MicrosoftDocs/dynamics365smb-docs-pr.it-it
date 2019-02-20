@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazion
 ## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
 
 Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile utilizzare in una pagina elenco. L'azione di scelta rapida è leggermente diversa a seconda se la pagina viene visualizzata nella visualizzazione elenco o nella visualizzazione pagina.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione pagina |Osservazioni|
 |-----------------|-------|-------|-------|
-|Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |  | 
+|Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |  |
 |Freccia GIÙ|Spostare il cursore nella stessa colonna sul campo nella riga sotto. |Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. | |
 |Freccia destra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro successivo a destra. ||
 |Freccia sinistra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. ||
@@ -71,7 +71,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |FINE<br />(Fn+freccia DESTRA)|Spostare il cursore sull'ultimo campo nella riga.|Spostare il cursore sull'ultimo riquadro nella riga.||
 |Pagina su<br />(Fn+freccia SU)|Scorre per visualizzare le righe del set sopra le righe correnti nella visualizzazione. |Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. ||
 |Pagina giù<br />(Fn+freccia GIÙ)|Scorre per visualizzare le righe del set sotto le righe correnti nella visualizzazione.|Scorre per visualizzare i riquadri del set sotto i riquadri correnti nella visualizzazione.||
-|Invio<br />(Fn+freccia GIÙ)|Aprire il record associato al campo.|Apre il record.| Applicabile solo se una pagina schede è associata al record.|
+|Invio|Aprire il record associato al campo.|Apre il record.| Applicabile solo se una pagina schede è associata al record.|
 |Ctrl+Enter|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.||
 
 ### <a name="CopyRows"></a>Selezionare copiare, quindi incollare
@@ -104,7 +104,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |MAIUSC+ALT+F3|Apre il riquadro dei filtri e aggiunge un filtro alla colonna selezionata nell'elenco. Lo stato attivo si trova sul nuovo campo filtro che consente di iniziare subito a digitare i criteri del filtro.<br /><br /> Questo equivale a selezionare **Filtro** dall'intestazione della colonna. er menu. Visualizza il riquadro dei filtri, aggiunge il filtro, imposta lo stato attivo in modo che l'utente possa digitare un valore da filtrare.<br /><br />Se esiste già un filtro sul campo, viene aggiunto un nuovo filtro. |
 |Ctrl+Maiusc+ALT+F3|Reimposta i filtri. Ciò equivale a scegliere **Reimposta filtri** nel riquadro dei filtri e si applica ai filtri di campi e totali.<br /><br /> I filtri tornano ai filtri predefiniti per la vista corrente. Se la visualizzazione corrente è **Tutto**, equivale a tornare a una visualizzazione non filtrata con tutti i record. |
 |Ctrl+Enter|Ritorna all'elenco dal riquadro dei filtri.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tasti di scelta rapida nel calendario (selezione data)
 Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
 

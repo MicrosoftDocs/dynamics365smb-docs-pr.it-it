@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
@@ -93,9 +93,9 @@ Per impostare un collegamento fisso, è possibile utilizzare i campi **Collega a
 ### <a name="example--fixed-application-in-purchase-return"></a>Esempio: collegamento fisso nel reso di acquisto  
 Il seguente esempio, che illustra l'effetto del collegamento fisso di un reso acquisto di un articolo che utilizza il metodo di costing FIFO, si basa sul seguente scenario:  
 
-1. Nel movimento numero 1, l'utente registra un acquisto a un costo di VL 10,00.  
-2. Nel movimento numero 2, l'utente registra un acquisto a un costo di VL 20,00.  
-3. Nel movimento numero 3, l'utente registra un reso da acquisto. L'utente crea un collegamento fisso al secondo acquisto immettendo il numero del movimento contabile articolo nel campo **Collega a mov. art.** nella riga dell'ordine di reso di acquisto.  
+1. Nel movimento 1, l'utente registra un acquisto a un costo di VL 10,00.  
+2. Nel movimento 2, l'utente registra un acquisto a un costo di VL 20,00.  
+3. Nel movimento 3, l'utente registra un reso da acquisto. L'utente crea un collegamento fisso al secondo acquisto immettendo il numero del movimento contabile articolo nel campo **Collega a mov. art.** nella riga dell'ordine di reso di acquisto.  
 
 Nella seguente tabella vengono mostrati i movimenti contabili articoli risultati dallo scenario.  
 
@@ -111,7 +111,7 @@ Nella seguente tabella viene illustrato il movimento di collegamento articoli ch
 
 |Data di registrazione|Nr. movimento articolo in entrata|Nr. movimento articolo in uscita|Quantità|Nr. movimento cont. articolo|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Il costo del secondo acquisto, VL 20,00 viene passato correttamente al reso di acquisto.  
 

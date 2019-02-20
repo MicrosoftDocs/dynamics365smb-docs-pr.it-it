@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utilizzare gli ordini di vendita programmati
@@ -27,7 +27,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 È ad esempio possibile utilizzare un ordine di vendita programmato se un cliente ordina 1000 unità di un articolo ma richiede che vengano consegnate 250 unità ogni settimana per tutto il mese seguente.
 
 > [!NOTE]
-> Gli ordini di acquisto programmati sono simili agli ordini di vendita programmati. In questa documentazione non sono trattati gli ordini di acquisto programmati.
+> Gli ordini di acquisto programmati sono simili agli ordini di vendita programmati. In questa documentazione vengono descritti solo gli ordini di vendita programmati.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.  
@@ -38,7 +38,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Per creare un ordine di vendita da un ordine di vendita programmato  
 
-1.  Per creare un ordine per una delle righe nell'ordine di assemblaggio programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento NON si desidera spedire.  
+1.  Per creare un ordine per una delle righe nell'ordine di vendita programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento non si desidera spedire.  
 2.  Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
 3.  Scegliere il pulsante **OK**.  
 4.  Per visualizzare i risultati dei passaggi precedenti, scegliere l'azione **Riga**, l'azione **Righe non registrate** e l'azione **Ordini**.  
@@ -55,17 +55,17 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - L'ordine di vendita programmato fatturato rimane nel sistema fino a quando non viene eliminato, eliminando i singoli ordini programmati o eseguendo il processo batch **Elimina ord. ven. progr. fatt.**.  
 - Se un cliente è anche registrato come contatto nell'area di applicazione Marketing ed è stato specificato un codice modello di interazione per l'ordine di vendita programmato nella pagina **Setup marketing**, viene registrata un'interazione nella tabella Mov. log interazione quando si seleziona **Stampa** per stampare l'ordine di vendita programmato.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Per visualizzare lo stato di un ordine di acquisto programmato  
-È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche Ordine Acquisto programmato**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di acquisto programmato.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato  
+È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto programmati** e quindi scegliere il collegamento correlato.  
-2.  Selezionare un ordine di acquisto programmato quindi scegliere l'azione **Statistiche**.  
-3.  Nella pagina **Statistiche ordine acquisto programmato**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di acquisto programmato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.  
+2.  Selezionare un ordine di vendita programmato quindi scegliere l'azione **Statistiche**.  
+3.  Nella pagina **Statistiche ordini vendita programmati**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di vendita programmato.  
 
-    - Nella Scheda dettaglio **Fatturazione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da fatturare** delle righe dell'ordine di acquisto programmato.  
-    - Nella Scheda dettaglio **Spedizione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da ricevere** delle righe dell'ordine di acquisto programmato.  
-    - Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
-    - Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.    
+- Nella Scheda dettaglio **Fatturazione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da fatturare** delle righe dell'ordine di vendita programmato.  
+- Nella Scheda dettaglio **Spedizione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da ricevere** delle righe dell'ordine di vendita programmato.  
+- Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
+- Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate   
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
@@ -74,56 +74,27 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 2. Aprire l'ordine di vendita programmato che si desidera visualizzare.
 3. Per visualizzare i movimenti non registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe non registrate**. Selezionare una delle seguenti opzioni.  
 
-    <table>
-    <tr>
-    <th>Opzione</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Ordini**</td>
-    <td>Specifica ordini aperti associati alla riga selezionata.</td>
-    </tr>
-    <tr>
-    <td>**Fatture**</td>
-    <td>Specifica fatture aperte associate alla riga selezionata. È possibile associare manualmente le fatture aperte a un ordine programmato immettendo il numero dell'ordine programmato nella riga della fattura di vendita.</td>
-    </tr>
-    <tr>
-    <td>**Ordini di reso**</td>
-    <td>Specifica ordini di reso aperti associati alla riga selezionata.</td>
-    </tr>
-    <tr>
-    <td>**Note di credito**</td>
-    <td>Specifica note di credito aperte associate alla riga selezionata.</td>
-    </tr>
-    </table>
+    |Opzione|Description|
+    |--|--|
+    |**Ordini**|Specifica ordini aperti associati alla riga selezionata.|
+    |**Fatture**|Specifica fatture aperte associate alla riga selezionata. È possibile associare manualmente le fatture aperte a un ordine programmato immettendo il numero dell'ordine programmato nella riga della fattura di vendita.|
+    |**Ordini di reso**|Specifica ordini di reso aperti associati alla riga selezionata.|
+    |**Note di credito**|Specifica note di credito aperte associate alla riga selezionata.|
+
 4. Per visualizzare i movimenti registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe registrate**. Selezionare una delle seguenti opzioni.  
 
-    <table>
-    <tr>
-    <th>Opzione</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Spedizioni**</td>
-    <td>spedizioni registrate associate alla riga selezionata.</td>
-    </tr>
-    <tr>
-    <td>**Fatture**</td>
-    <td>fatture registrate associate alla riga selezionata.</td>
-    </tr>
-    <tr>
-    <td>**Carichi da reso**</td>
-    <td>carichi da reso registrati associati alla riga selezionata.</td>
-    </tr>
-    <tr>
-    <td>**Note di credito**</td>
-    <td>note di credito registrate associate alla riga selezionata.</td>
-    </tr>
-    </table>
+    |Opzione|Description|
+    |---|----|
+    |**Spedizioni**|spedizioni registrate associate alla riga selezionata.|
+    |**Fatture**|fatture registrate associate alla riga selezionata.|
+    |**Carichi da reso**|carichi da reso registrati associati alla riga selezionata.|
+    |**Note di credito**|note di credito registrate associate alla riga selezionata.|
+
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
 ## <a name="see-also"></a>Vedi anche
-[Vendite](sales-manage-sales.md)  
+[Vendite](sales-manage-sales.md)
+[Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

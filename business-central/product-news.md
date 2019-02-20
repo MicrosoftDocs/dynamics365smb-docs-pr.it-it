@@ -4,20 +4,18 @@ description: "Come ottenere informazioni sulle novità e gli aggiornamenti più 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: news
-ms.date: 10/01/2018
+ms.search.keywords: news, release notes, roadmap, whats new
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5ec4a7b95fb0287bf0063809c98e675a43fa568
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 39679a81751f49af8ebccbb904f6a2b4466172d1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Novità di Dynamics 365 Business Central
+
 Questa pagina indirizza agli argomenti utili per conoscere le nuove funzionalità delle ultime versioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Se non è ancora stato fatto, registrarsi per una [versione di prova](https://trials.dynamics.com/), verranno illustrate le operazioni fondamentali che è possibile effettuare con [!INCLUDE[d365fin](includes/d365fin_md.md)] e si avrà la possibilità di esplorare la soluzione in autonomia. Per iniziare, è possibile aprire una società vuota e configurare le impostazioni in autonomia.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verrà aggiornato regolarmente con funzionalità supplementari per l'applicazione principale e con nuove [estensioni](ui-extensions.md).  
@@ -31,5 +29,5 @@ Si possono trovare informazioni sulle nuove funzionalità anche nel [blog di Bus
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Prezzi di Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
-[Community di Dynamics 365](https://community.dynamics.com/business/)  
+[Community di Dynamics 365 Business Central](https://community.dynamics.com/business/)  
 

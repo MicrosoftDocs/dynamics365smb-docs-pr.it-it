@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Creare budget C/G
@@ -42,9 +42,16 @@ Nella contabilità industriale si utilizzano i budget costi in modo simile. Per 
 7. Ripetere i passaggi da 5 a 6 per immettere tutti gli importi del budget.  
 
 > [!NOTE]  
->  Nella Scheda dettaglio **Filtri** è possibile filtrare le informazioni in base alle dimensioni di budget impostate per il nome del budget.   
+>  Nella Scheda dettaglio **Filtri** è possibile filtrare le informazioni in base alle dimensioni di budget impostate per il nome del budget.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Esportazione e importazione di budget C/G con Excel
+Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine del budget in Excel per una successiva elaborazione o analisi. Per ulteriori informazioni, vedere [Esportazione dei dati aziendali in Excel](about-export-data.md).
+
+> [!NOTE]
+> Il piano dei conti su cui i budget C/G sono basati include righe di tipo di conto Testata contenenti il totale delle righe sottostanti. Quando si esporta un budget C/G, i dati in tutte le righe vengono esportati indipendentemente dal tipo di conto. Tuttavia, solo i dati nelle righe del tipo di conto Analitico possono essere reimportate. Di conseguenza: <br /><br /> **Quando si importa un budget C/G, tutti i valori presenti nelle righe Testata verranno eliminati.** <br /><br /> Questo per evitare totali non corretti dopo l'importazione di dati creati o modificati in Excel.<br /><br /> **Scenario**: il nuovo costo degli stipendi a budget sarà di 1.200.000 VL. Si desidera lasciare il budget del reparto Stipendi per le tre righe specifiche (di tipo di conto Analitico) per gli impiegati a tempo pieno, gli impiegati part-time e gli aiutanti temporanei. Le tre righe sono raggruppate sotto una riga di intestazione Stipendi.<br /><br />Si immette 1.200.000 nella riga di intestazione, si esporta il budget in Excel e quindi lo si invia al reparto Stipendi, indicando di distribuire 1.200.000 VL.<br /><br /> Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
 
 ## <a name="see-also"></a>Vedi anche
+[Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Finanze](finance.md)  
 [Business Intelligence](bi.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

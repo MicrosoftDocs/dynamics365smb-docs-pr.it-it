@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Prelievo degli articoli
@@ -38,7 +38,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Registrare la spedizione degli articoli direttamente nel documento ordine in uscita in quanto non sono disponibili funzionalità di warehouse. (Funzionamento analogo per ordini di vendita, ordini di trasferimento in uscita e spedizioni di reso.)|[Spedire articoli](warehouse-how-ship-items.md)|  
 |Prelevare gli articoli ordine per ordine e registrare la spedizione nella stessa attività, in una configurazione di base della warehouse.|[Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Prelevare gli articoli per più ordini in una configurazione avanzata della warehouse.|[Prelevare articoli con prelievi warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Prelevare i componenti per la produzione o l'assemblaggio in una configurazione di base o avanzata della warehouse.|[Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)|  
+|Prelevare i componenti per la produzione o l'assemblaggio in una configurazione di base della warehouse.|[Prelevare per produzione o assemblaggio in configurazioni di warehouse di base](warehouse-how-to-pick-for-production.md)|
+|Prelevare i componenti per la produzione o l'assemblaggio in una configurazione avanzata della warehouse.|[Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Pianificare istruzioni di prelievo ottimizzate per diverse spedizioni anziché lasciare che i lavoratori warehouse agiscano direttamente sulle spedizioni registrate.|[Pianificare prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Prelevare tecnicamente gli articoli per uno scopo specifico, ad esempio per un'unità di produzione che necessita di componenti aggiuntivi, in modo che gli articoli non escano tecnicamente dalla warehouse.|[Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Comprendere come prelevare automaticamente gli articoli in base alla loro data di scadenza, ad esempio beni deperibili.|[Prelievo in base al metodo FEFO](warehouse-picking-by-fefo.md)|

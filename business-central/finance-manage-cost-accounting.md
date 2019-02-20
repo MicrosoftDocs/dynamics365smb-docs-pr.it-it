@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f74d8cb6c2c42b3b928a59655bf3ced62d59258
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 86268549bbf5d133b2d077b69507cf1b6a3617a3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="accounting-for-costs"></a>Contabilizzazione dei costi
@@ -26,10 +26,12 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 |--------|---------|  
 |Comprendere la terminologia utilizzata nella contabilità industriale.|[Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)|  
 |Acquisire informazioni generali sulla contabilità industriale.|[Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)|  
-|Informazioni sui processi per impostare la contabilità industriale.|[Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)|  
-|Informazioni sui processi per trasferire i movimenti di contabilità generale ai movimenti di costi.|[Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)|  
-|Informazioni sui processi per definire e allocare costi.|[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)|  
-|Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|  
+|Configurare il sistema di contabilità industriale.|[Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)|  
+|Trasferire movimenti C/G a movimenti di costi.|[Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)|  
+|Assegna costi.|[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)|  
+|Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|
+|Annullare movimenti budget costi dal registro budget costi.|[Eliminare movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)| 
+
 
 ## <a name="see-also"></a>Vedi anche  
 [Finanze](finance.md)  

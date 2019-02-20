@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto
+
+**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+
 In caso di prodotti difettosi, è necessario identificare gli errori e impedire la distribuzione degli articoli interessati. Qualora vengano spediti prodotti difettosi, è necessario risalire al destinatario e, se necessario, richiederne la restituzione.  
 
 Il primo task della gestione dei difetti consiste nell'identificare la provenienza degli articoli difettosi e le ubicazioni in cui sono stati utilizzati. Questa analisi è basata su dati storici e può essere semplificata svolgendo ricerche tra i movimenti di tracciabilità articoli nella pagina **Tracciabilità articolo**.  
@@ -77,7 +80,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     |Descrizione|Unità di misura base|Cat. reg. articolo/servizio|Cat. reg. art./serv. IVA|Cat. reg. magazzino|Codice tracciabilità articolo|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
-    |Telaio da corsa|PZ|MAT. PRIME|IVA20|MAT. PRIME|LOTTI|  
+    |Telaio da corsa|PZ|MAT. PRIME|IVA25|MAT. PRIME|LOTTI|  
 
     > [!NOTE]  
     >  Per immettere l'unità di misura base, fare clic sul pulsante **Nuovo**, quindi selezionare **PSC** nella pagina **Unità di misura articoli**.  
@@ -89,7 +92,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     |Descrizione|Unità di misura base|Cat. reg. articolo/servizio|Cat. reg. art./serv. IVA|Cat. reg. magazzino|Sistema di rifornimento|Codice tracciabilità articolo|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
-    |Bicicletta da corsa|PZ|DETTAGLIO|IVA20|PR. FINITI|Ord. prod.|NSTUTTI|  
+    |Bicicletta da corsa|PZ|DETTAGLIO|IVA25|PR. FINITI|Ord. prod.|NSTUTTI|  
 
     > [!NOTE]  
     >  Per immettere l'unità di misura base, fare clic sul pulsante **Nuovo**, quindi selezionare **PSC** nella pagina **Unità di misura articoli**.  

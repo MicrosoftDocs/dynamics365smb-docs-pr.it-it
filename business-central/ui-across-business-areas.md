@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
@@ -35,6 +35,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md) |
 |Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definizione dei task degli utenti](across-user-tasks.md)|
 |Allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, e allegare file a tutti i tipi di documenti di acquisto e vendita.|[Allegare file a schede e documenti](across-attach-document-master-data.md)|
+|Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)| 
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|
 |Registrare i documenti esterni, inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|

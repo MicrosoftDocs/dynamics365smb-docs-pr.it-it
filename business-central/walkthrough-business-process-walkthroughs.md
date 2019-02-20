@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8adebfb892b00038c010e050018c51a973aeafb8
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
@@ -24,26 +24,26 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 
  Le procedure dettagliate ricreano scenari completi ed è quindi consigliabile, per trarne il massimo insegnamento, seguirle dall'inizio alla fine. Molte sono basate su dimostrazioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] e consentono di provare a svolgere le attività descritte autonomamente e secondo i propri ritmi.  
 
- Per evitare l'accesso a molti profili diversi, i passaggi delle procedure dettagliate sono basati sui menu dei reparti, non sulle pagine Gestione ruolo utente.  
+> [!NOTE]
+> Alcuni procedure dettagliate utilizzano dati di esempio che non sono disponibili nella società CRONUS standard. Per queste procedure dettagliate è necessario eseguire i passaggi in una società creata con l'opzione **Valutazione completa - Completo dati di esempio**, disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
 
 |A|Vedere|  
 |--------|---------|  
-|Impostare una campagna di marketing|[Procedura dettagliata: Conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)|  
-|Utilizzo dei pagamenti anticipati per una parte degli ordini di vendita|[Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Impostare una campagna di marketing.|[Procedura dettagliata: Conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)|  
+|Utilizzare pagamenti anticipati per gestire pagamenti parziali per vendite e acquisti. **Richiede dati di esempio completi** |[Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Impostare gli utenti approvazione, come e quando gli utenti ricevono la notifica sui flussi di lavoro di approvazione, quindi modificare e abilitare il relativo flusso di lavoro di approvazione.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Stoccare gli articoli ricevuti nelle configurazioni di base della warehouse|[Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Stoccare gli articoli ricevuti in configurazione avanzata della warehouse|[Procedura dettagliata: ricezione e stoccaggio nelle configurazioni avanzate della warehouse](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Pianificazione degli ordini di approvvigionamento per soddisfare la domanda manualmente|[Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)|  
-|Pianificazione degli ordini di approvvigionamento per soddisfare la domanda automaticamente|[Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)|  
-|Assemblaggio e spedizione di articoli personalizzati sull'ordini di vendita|[Procedura dettagliata: vendita, assemblaggio e spedizione di kit](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Pianificazione di un progetto, dall'inizio alla fine|[Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)|  
-|Comprensione dei costi di una commessa|[Procedura dettagliata: Calcolo del valore WIP per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Prelevare gli articoli per la spedizione nelle configurazioni di warehouse di base|[Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Implementazione della gestione dei difetti|[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)|  
+|Stoccare gli articoli ricevuti nelle configurazioni di base della warehouse. **Richiede dati di esempio completi**|[Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Stoccare gli articoli ricevuti in configurazione avanzata della warehouse. **Richiede dati di esempio completi**|[Procedura dettagliata: ricezione e stoccaggio nelle configurazioni avanzate della warehouse](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Pianificare gli ordini di approvvigionamento per soddisfare la domanda manualmente. **Richiede dati di esempio completi**|[Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)|  
+|Pianificare gli ordini di approvvigionamento per soddisfare la domanda automaticamente. **Richiede dati di esempio completi**|[Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)|  
+|Assemblare e spedire articoli personalizzati sull'ordini di vendita. **Richiede dati di esempio completi**|[Procedura dettagliata: vendita, assemblaggio e spedizione di kit](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Pianificare un progetto, dall'inizio alla fine. **Richiede dati di esempio completi**|[Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)|  
+|Generare report sui costi di un progetto. **Richiede dati di esempio completi**|[Procedura dettagliata: Calcolo del valore WIP per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Prelevare gli articoli per la spedizione nelle configurazioni di warehouse di base. **Richiede dati di esempio completi**|[Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Eseguire la gestione dei difetti. **Richiede dati di esempio completi**|[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

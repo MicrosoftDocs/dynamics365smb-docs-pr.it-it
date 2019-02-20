@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
@@ -35,7 +35,7 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 | **Premium** |Mostra le azioni e i campi per tutte le funzionalità aziendali, incluse Manufacturing e Gestione assistenza.|
 
 > [!NOTE]  
-> Le esperienze che è possibile selezionare in [!INCLUDE[d365fin](includes/d365fin_md.md)] dipendono dalla licenza della soluzione, denominata piano. Per informazioni sui piani **Essenziale** e **Premium**, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito marketing di Microsoft Dynamics 365. Vedere anche la [[!INCLUDE[d365fin](includes/d365fin_md.md)]Guida alle licenze](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Le esperienze che è possibile selezionare in [!INCLUDE[d365fin](includes/d365fin_md.md)] dipendono dalla licenza della soluzione, denominata piano. Per informazioni sui piani **Essenziale** e **Premium**, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito marketing di Microsoft Dynamics 365. Vedere anche [Guida alle licenze di [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=2068931) (richiede l'accesso a CustomerSource o PartnerSource).
 
 > [!IMPORTANT]  
 > A tutti gli utenti abituali di una soluzione deve essere assegnato lo stesso piano, Essential o Premium, prima che l'esperienza possa essere selezionata per la società. Di conseguenza, un utente non può accedere alle funzionalità Premium se uno o più altri utenti possono accedere solo alle funzionalità Essential. Questo non è il caso per gli utenti non abituali di tipo Membro team, Amministratore interno, Contabile esterno e Amministratore delegato, a cui può essere assegnato un piano diverso rispetto agli altri utenti della soluzione.

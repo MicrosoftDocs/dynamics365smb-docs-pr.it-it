@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Impostare una società con RapidStart Services
@@ -44,8 +44,9 @@ RapidStart Servicest consente di ottenere una panoramica del processo di setup d
 |Distribuire il pacchetto configurato al cliente per l'implementazione.|[Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)|
 |Definire e convalidare i valori di setup del cliente per tutte le aree essenziali, quali informazioni sulla società, contabilità generale, magazzino, vendita o produzione.|[Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md)|  
 |Configurare i record dei dati master utilizzando modelli per preparare la migrazione dei dati clienti esistenti.|[Preparazione per la migrazione dei dati dei clienti](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Definire tabelle e campi, convalidare dati clienti esistenti ed eseguire la migrazione di dati nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md)|  
-|Trovare soluzioni ai problemi noti nel toolkit RapidStart Services.|[Suggerimenti e trucchi: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
+|Definire tabelle e campi, convalidare dati clienti esistenti ed eseguire la migrazione di dati nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md)|
+|Preparare il riutilizzo delle configurazioni di società in altre società.|[Creare pacchetti di configurazione di società personalizzati](admin-how-to-create-custom-company-configuration-packages.md)|
+|Trovare soluzioni ai problemi noti nel toolkit RapidStart Services.|[Suggerimenti e trucchi: Servizi di RapidStart](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Amministrazione](admin-setup-and-administration.md)  

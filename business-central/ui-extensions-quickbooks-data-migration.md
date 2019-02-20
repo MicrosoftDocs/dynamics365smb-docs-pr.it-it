@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Una parte importante del processo di migrazione consiste nello specificare i con
 - La vendita di articoli o servizi ai clienti  
 - L'acquisto di articoli o servizi dai fornitori  
 - Rettifiche nella contabilità generale  
-Business Central richiede che i conti di contabilità generale abbaino numeri assegnati ad essi. Assicurarsi che i numeri vengano assegnati ai conti in QuickBooks Online.
-Se le transazioni in QuickBooks Online includono importi di imposte, è necessario configurare un conto per le imposte in base alle giurisdizioni fiscali di Business Central prima di registrare le transazioni.
 
-Per ottenere i dati dall'applicazione QuickBooks Desktop sarà necessario scaricare lo strumento di esportazione di dati di Microsoft.  Le istruzioni per lo strumento sono contenute nella procedura di migrazione guidata dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo strumento verrà collegato all'applicazione QuickBooks ed esporterà i dati applicabili in un file *.zip.  
+Business Central richiede che i conti di contabilità generale abbaino numeri assegnati ad essi. Assicurarsi che i numeri vengano assegnati ai conti in QuickBooks.
+Se le transazioni in QuickBooks includono importi di imposte, è necessario configurare un conto per le imposte in base alle giurisdizioni fiscali di Business Central prima di registrare le transazioni.
+
+Per ottenere i dati dall'applicazione QuickBooks Desktop sarà necessario scaricare lo strumento di esportazione di dati di Microsoft.  Le istruzioni per lo strumento sono contenute nella procedura di migrazione guidata dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo strumento verrà collegato all'applicazione QuickBooks ed esporterà i dati applicabili in un file .zip.  
+
+> [!NOTE]
+> Attualmente lo strumento di esportazione di dati è compatibile solo con QuickBooks 2017 e 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Utilizzo dell'estensione per la migrazione dei dati QuickBooks
 L'estensione per la migrazione dei dati QuickBooks si trova nella Guida setup assistito Migrazione dati ed è pronta all'uso. Se si è pronti per iniziare, dopo aver esportato i dati da QuickBooks, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato. Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.  

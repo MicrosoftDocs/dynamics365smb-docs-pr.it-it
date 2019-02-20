@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Creazione di contatti
@@ -26,15 +26,22 @@ Qualora sia necessario far tradurre alcune pubblicazioni sui propri prodotti è 
 
 Registrando il numero più elevato possibile di dettagli su un contatto, tutti i gruppi della società saranno in grado di eseguire ricerche di informazioni molto più efficienti.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+È possibile creare una scheda contatto per ogni singolo contatto che opera all'interno delle società con cui si interagisce. Per ogni società contatto è possibile inserire un numero illimitato di contatti. È inoltre possibile creare schede contatto per le persone che si desidera registrare come indipendenti.
 
-| A | Vedere |
-| --- | --- |
-| Fornire informazioni su un contatto. |[Creare contatti](marketing-how-create-contact-persons.md) |
-| Impostare un indirizzo alternativo per un contatto. |[Assegnare indirizzi alternativi](marketing-how-assign-alternate-address.md) |
-| Descrivere la relazione d'affari che intercorre con un contatto di una società. |[Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md) |
-| Descrivere il livello organizzativo dei contatti. |[Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md) |
-| Assegnare gruppi di mailing ai contatti |[Assegnazione di gruppi di mailing a un contatto](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Prima di creare un contatto, si consiglia di verificare le impostazioni di **Eredità** nella pagina **Setup marketing**. L'impostazione dell'eredità consente di abilitare informazioni sulla società contatto che sono comuni alle persone di contatto, ad esempio dettagli dell'indirizzo, per consentire la copia automatica copiate dalla società contatto alla persona contatto ogni volta che si crea un contatto per una società contatto registrata.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>Per creare una scheda contatto per una persona
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.
+2. Scegliere l'azione **Nuovo**.
+3. Nel campo **Nr.** inserire un numero per il contatto.
+
+    In alternativa, se è stata impostata una numerazione per i contatti nella pagina **Setup marketing**, è possibile premere INVIO per selezionare il successivo numero di contatto disponibile. Per ulteriori informazioni, vedere [Creazione di numerazioni](ui-create-number-series.md).
+4. Nel campo **Tipo** selezionare **Persona**.
+5. Compilare gli altri campi nella scheda contatto.
+
+> [!NOTE]  
+>   Il contenuto dei campi selezionati nella sezione **Eredità** nella pagina **Setup marketing** verrà copiato dalla società alle persone all'interno di tale società.
 
 ## <a name="see-also"></a>Vedi anche
 [Creazione di società contatto](marketing-create-contact-companies.md)  

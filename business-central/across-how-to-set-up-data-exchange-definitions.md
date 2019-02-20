@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
@@ -50,7 +50,7 @@ La creazione di una definizione di scambio di dati include due task:
     |---------------------------------|---------------------------------------|  
     |**Codice**|Immettere un codice per identificare la definizione di scambio di dati.|  
     |**Nome**|Immettere un nome per la definizione di scambio di dati.|  
-    |**Tipo di file**|Specificare il tipo di file per il quale viene utilizzata la definizione di scambio di dati. È possibile scegliere tra tre tipi di file:<br /><br /> -   **XML**: stringhe sovrapposte di contenuto e di markup circondate da tag che indicano funzione.<br />-   **Variable Text**: i record hanno lunghezza variabile e sono separati da un carattere come la virgola o il punto e virgola. Noto anche come *file delimitato*.<br />-   **Fixed Text**: i record hanno la stessa lunghezza, si utilizzano i caratteri riempimento e ogni record è in una riga separata. Noto anche come *file a larghezza fissa*.|  
+    |**Tipo di file**|Specificare il tipo di file per il quale viene utilizzata la definizione di scambio di dati. È possibile scegliere tra quattro tipi di file:<br /><br /> -   **XML**: stringhe sovrapposte di contenuto e di markup circondate da tag che indicano funzione.<br />-   **Variable Text**: i record hanno lunghezza variabile e sono separati da un carattere come la virgola o il punto e virgola. Noto anche come *file delimitato*.<br />-   **Fixed Text**: i record hanno la stessa lunghezza, si utilizzano i caratteri riempimento e ogni record è in una riga separata. Noto anche come *file a larghezza fissa*.<br />- **Json**: stringhe sovrapposte di contenuto in JavaScript.|  
     |**Tipo**|Specificare il tipo di attività commerciale per cui viene utilizzata la definizione di scambio di dati, ad esempio **Esportazione pagamento**.|  
     |**Codeunit per la gestione dati**|Specificare la codeunit che trasferisce i dati dentro e fuori dalle tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit per convalida**|Specificare la codeunit che viene utilizzata per convalidare i dati rispetto alle regole commerciali predefinite.|  

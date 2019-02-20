@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
@@ -107,6 +107,22 @@ Dopo aver aggiunto tutte le tabelle necessarie a un pacchetto di configurazione,
 
     > [!NOTE]  
     >  Le tabelle rimangono nel pacchetto anche se vengono eliminate dal foglio di lavoro.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Per esaminare e personalizzare dati nei database esistenti
+Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina.  
+
+## <a name="to-customize-data-in-the-database"></a>Per personalizzare i dati nel database  
+
+1.  Nella pagina **Foglio di lavoro configurazione**, individuare le tabelle di cui si desidera visualizzare o modificare i dati.  
+
+    > [!NOTE]  
+    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate occorre immettere l'ID.  
+
+2.  Scegliere l'azione **Dati database**.  
+
+     Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.  
+
+3.  Esaminare le informazioni disponibili. Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
