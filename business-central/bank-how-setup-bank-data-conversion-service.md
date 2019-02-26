@@ -11,10 +11,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
+ms.sourcegitcommit: 63ad387abc0e244602840771bef6ed2ac09f0799
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/26/2019
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a><span data-ttu-id="37a99-103">Impostare il servizio di conversione di dati bancari</span><span class="sxs-lookup"><span data-stu-id="37a99-103">Set Up the Bank Data Conversion Service</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/26/2018
 <span data-ttu-id="37a99-112">Per importare o esportare i file dei conti correnti bancari, è necessario impostare il proprio conto corrente bancario e i conti correnti bancari dei fornitori.</span><span class="sxs-lookup"><span data-stu-id="37a99-112">To import or export bank files, you must set up your own bank account and your vendors' bank accounts.</span></span> <span data-ttu-id="37a99-113">Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="37a99-113">For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="37a99-114">Il servizio di conversione di dati bancari può imporre un limite al numero di righe che possono essere esportate in un file.</span><span class="sxs-lookup"><span data-stu-id="37a99-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="37a99-115">Se il limite viene superato, viene visualizzato un messaggio di errore.</span><span class="sxs-lookup"><span data-stu-id="37a99-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="37a99-116">È consigliabile che i file del rendiconto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nel servizio di conversione dati bancari può aumentare significativamente.</span><span class="sxs-lookup"><span data-stu-id="37a99-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
+> <span data-ttu-id="37a99-114">Il servizio di conversione di dati bancari può imporre un limite al numero di righe che possono essere esportate in un file.</span><span class="sxs-lookup"><span data-stu-id="37a99-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="37a99-115">Se il limite viene superato, viene visualizzato un messaggio di errore.</span><span class="sxs-lookup"><span data-stu-id="37a99-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="37a99-116">È consigliabile che i file del rendiconto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nel servizio di conversione dati bancari può aumentare significativamente.</span><span class="sxs-lookup"><span data-stu-id="37a99-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a><span data-ttu-id="37a99-117">Per iscrivere la società al servizio di conversione di dati bancari</span><span class="sxs-lookup"><span data-stu-id="37a99-117">To sign your company up for the bank data conversion service</span></span>
 1. <span data-ttu-id="37a99-118">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup servizio conv. dati banca** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="37a99-118">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.</span></span>  
