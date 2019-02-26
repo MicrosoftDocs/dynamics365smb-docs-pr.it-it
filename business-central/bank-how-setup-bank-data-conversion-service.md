@@ -29,7 +29,7 @@ In alternativa all'importazione di estratti conto con il servizio di conversione
 Per importare o esportare i file dei conti correnti bancari, è necessario impostare il proprio conto corrente bancario e i conti correnti bancari dei fornitori. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
->   Il servizio di conversione di dati bancari può imporre un limite al numero di righe che possono essere esportate in un file. Se il limite viene superato, viene visualizzato un messaggio di errore. È consigliabile che i file del rendiconto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nel servizio di conversione dati bancari può aumentare significativamente.
+> Il servizio di conversione di dati bancari può imporre un limite al numero di righe che possono essere esportate in un file. Se il limite viene superato, viene visualizzato un messaggio di errore. È consigliabile che i file del rendiconto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nel servizio di conversione dati bancari può aumentare significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Per iscrivere la società al servizio di conversione di dati bancari
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup servizio conv. dati banca** e quindi scegliere il collegamento correlato.  
