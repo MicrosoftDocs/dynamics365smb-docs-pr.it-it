@@ -1,41 +1,40 @@
 ---
 title: Analisi e personalizzazione dei dati nei database esistenti | Documenti Microsoft
-description: "Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina."
+description: Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801291"
 ---
-# <a name="review-and-customize-existing-database-data"></a><span data-ttu-id="dbbfb-104">Analisi e personalizzazione dei dati nei database esistenti</span><span class="sxs-lookup"><span data-stu-id="dbbfb-104">Review and Customize Existing Database Data</span></span>
-<span data-ttu-id="dbbfb-105">Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-105">As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</span></span> <span data-ttu-id="dbbfb-106">Alla tabella del database deve essere associata una pagina.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-106">The database table has to have an associated page.</span></span>  
+# <a name="review-and-customize-existing-database-data"></a><span data-ttu-id="1769f-104">Analisi e personalizzazione dei dati nei database esistenti</span><span class="sxs-lookup"><span data-stu-id="1769f-104">Review and Customize Existing Database Data</span></span>
+<span data-ttu-id="1769f-105">Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente.</span><span class="sxs-lookup"><span data-stu-id="1769f-105">As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</span></span> <span data-ttu-id="1769f-106">Alla tabella del database deve essere associata una pagina.</span><span class="sxs-lookup"><span data-stu-id="1769f-106">The database table has to have an associated page.</span></span>  
 
-### <a name="to-customize-data-in-the-database"></a><span data-ttu-id="dbbfb-107">Per personalizzare i dati nel database</span><span class="sxs-lookup"><span data-stu-id="dbbfb-107">To customize data in the database</span></span>  
+### <a name="to-customize-data-in-the-database"></a><span data-ttu-id="1769f-107">Per personalizzare i dati nel database</span><span class="sxs-lookup"><span data-stu-id="1769f-107">To customize data in the database</span></span>  
 
-1.  <span data-ttu-id="dbbfb-108">Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-108">In the configuration worksheet, identify the tables whose data that you want to view or customize.</span></span>  
+1.  <span data-ttu-id="1769f-108">Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.</span><span class="sxs-lookup"><span data-stu-id="1769f-108">In the configuration worksheet, identify the tables whose data that you want to view or customize.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="dbbfb-109">Assicurarsi che a ogni tabella sia stato assegnato un ID pagina.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-109">Make sure that each table has a page ID assigned to it.</span></span> <span data-ttu-id="dbbfb-110">Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-110">For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in.</span></span> <span data-ttu-id="dbbfb-111">Per le tabelle personalizzate occorre immettere l'ID.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-111">For custom tables, you have to provide the ID.</span></span>  
+    >  <span data-ttu-id="1769f-109">Assicurarsi che a ogni tabella sia stato assegnato un ID pagina.</span><span class="sxs-lookup"><span data-stu-id="1769f-109">Make sure that each table has a page ID assigned to it.</span></span> <span data-ttu-id="1769f-110">Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="1769f-110">For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in.</span></span> <span data-ttu-id="1769f-111">Per le tabelle personalizzate occorre immettere l'ID.</span><span class="sxs-lookup"><span data-stu-id="1769f-111">For custom tables, you have to provide the ID.</span></span>  
 
-2.  <span data-ttu-id="dbbfb-112">Nel gruppo **Mostra** della scheda **Azioni** scegliere **Dati database**.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-112">On the **Actions** tab, in the **Show** group, choose **Database Data**.</span></span>  
+2.  <span data-ttu-id="1769f-112">Nel gruppo **Mostra** della scheda **Azioni** scegliere **Dati database**.</span><span class="sxs-lookup"><span data-stu-id="1769f-112">On the **Actions** tab, in the **Show** group, choose **Database Data**.</span></span>  
 
-     <span data-ttu-id="dbbfb-113">Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-113">The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.</span></span>  
+     <span data-ttu-id="1769f-113">Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.</span><span class="sxs-lookup"><span data-stu-id="1769f-113">The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.</span></span>  
 
-3.  <span data-ttu-id="dbbfb-114">Esaminare le informazioni disponibili.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-114">Review the available information.</span></span> <span data-ttu-id="dbbfb-115">Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.</span><span class="sxs-lookup"><span data-stu-id="dbbfb-115">Modify it as necessary by deleting records that are not relevant or by adding new ones.</span></span>  
+3.  <span data-ttu-id="1769f-114">Esaminare le informazioni disponibili.</span><span class="sxs-lookup"><span data-stu-id="1769f-114">Review the available information.</span></span> <span data-ttu-id="1769f-115">Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.</span><span class="sxs-lookup"><span data-stu-id="1769f-115">Modify it as necessary by deleting records that are not relevant or by adding new ones.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="dbbfb-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="dbbfb-116">See Also</span></span>  
- [<span data-ttu-id="dbbfb-117">Gestione della configurazione della società in un foglio di lavoro</span><span class="sxs-lookup"><span data-stu-id="dbbfb-117">Manage Company Configuration in a Worksheet</span></span>](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-
+## <a name="see-also"></a><span data-ttu-id="1769f-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="1769f-116">See Also</span></span>  
+ [<span data-ttu-id="1769f-117">Gestione della configurazione della società in un foglio di lavoro</span><span class="sxs-lookup"><span data-stu-id="1769f-117">Manage Company Configuration in a Worksheet</span></span>](admin-how-to-manage-company-configuration-in-a-worksheet.md)
