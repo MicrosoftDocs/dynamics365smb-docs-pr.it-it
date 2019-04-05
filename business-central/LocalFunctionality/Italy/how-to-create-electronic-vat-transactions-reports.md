@@ -1,45 +1,44 @@
 ---
 title: 'Procedura: Creare report elettronici di transazioni IVA'
-description: "È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali."
+description: È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b8466d16469351601f6e4785ef9581d1831d97a1
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826831"
 ---
-# <a name="create-electronic-vat-transactions-reports"></a><span data-ttu-id="5ccc6-104">Creare report elettronici di transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="5ccc6-104">Create Electronic VAT Transactions Reports</span></span>
-<span data-ttu-id="5ccc6-105">È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-105">You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date.</span></span> <span data-ttu-id="5ccc6-106">Inviare il report alle autorità fiscali.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-106">You submit this report to the tax authorities.</span></span>  
+# <a name="create-electronic-vat-transactions-reports"></a><span data-ttu-id="e9b89-104">Creare report elettronici di transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="e9b89-104">Create Electronic VAT Transactions Reports</span></span>
+<span data-ttu-id="e9b89-105">È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata.</span><span class="sxs-lookup"><span data-stu-id="e9b89-105">You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date.</span></span> <span data-ttu-id="e9b89-106">Inviare il report alle autorità fiscali.</span><span class="sxs-lookup"><span data-stu-id="e9b89-106">You submit this report to the tax authorities.</span></span>  
 
-## <a name="to-create-a-vat-transactions-report"></a><span data-ttu-id="5ccc6-107">Per creare un report di transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="5ccc6-107">To create a VAT transactions report</span></span>  
+## <a name="to-create-a-vat-transactions-report"></a><span data-ttu-id="e9b89-107">Per creare un report di transazioni IVA</span><span class="sxs-lookup"><span data-stu-id="e9b89-107">To create a VAT transactions report</span></span>  
 
-1.  <span data-ttu-id="5ccc6-108">Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Report IVA**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="5ccc6-109">Compilare i campi come indicato nella tabella seguente.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-109">Fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="e9b89-108">Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Report IVA**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="e9b89-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="e9b89-109">Compilare i campi come indicato nella tabella seguente.</span><span class="sxs-lookup"><span data-stu-id="e9b89-109">Fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="5ccc6-110">Campo</span><span class="sxs-lookup"><span data-stu-id="5ccc6-110">Field</span></span>|<span data-ttu-id="5ccc6-111">Description</span><span class="sxs-lookup"><span data-stu-id="5ccc6-111">Description</span></span>|  
+    |<span data-ttu-id="e9b89-110">Campo</span><span class="sxs-lookup"><span data-stu-id="e9b89-110">Field</span></span>|<span data-ttu-id="e9b89-111">Description</span><span class="sxs-lookup"><span data-stu-id="e9b89-111">Description</span></span>|  
     |-------------------------------------|---------------------------------------|  
-    |<span data-ttu-id="5ccc6-112">**Senza contratto**</span><span class="sxs-lookup"><span data-stu-id="5ccc6-112">**Without Contract**</span></span>|<span data-ttu-id="5ccc6-113">I movimenti IVA che hanno generato questa riga non sono associati a un contratto.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-113">The VAT entries that resulted in this line are not associated with a contract.</span></span>|  
-    |<span data-ttu-id="5ccc6-114">**Contratto**</span><span class="sxs-lookup"><span data-stu-id="5ccc6-114">**Contract**</span></span>|<span data-ttu-id="5ccc6-115">I movimenti IVA che hanno generato questa riga sono associati a un contratto.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-115">The VAT entries that resulted in this line are associated with a contract.</span></span>|  
-    |<span data-ttu-id="5ccc6-116">**Altro**</span><span class="sxs-lookup"><span data-stu-id="5ccc6-116">**Other**</span></span>|<span data-ttu-id="5ccc6-117">I movimenti IVA che hanno generato questa riga non sono associati a un contratto speciale, ad esempio per manutenzione in corso o altre eccezioni.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-117">The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.</span></span>|  
+    |<span data-ttu-id="e9b89-112">**Senza contratto**</span><span class="sxs-lookup"><span data-stu-id="e9b89-112">**Without Contract**</span></span>|<span data-ttu-id="e9b89-113">I movimenti IVA che hanno generato questa riga non sono associati a un contratto.</span><span class="sxs-lookup"><span data-stu-id="e9b89-113">The VAT entries that resulted in this line are not associated with a contract.</span></span>|  
+    |<span data-ttu-id="e9b89-114">**Contratto**</span><span class="sxs-lookup"><span data-stu-id="e9b89-114">**Contract**</span></span>|<span data-ttu-id="e9b89-115">I movimenti IVA che hanno generato questa riga sono associati a un contratto.</span><span class="sxs-lookup"><span data-stu-id="e9b89-115">The VAT entries that resulted in this line are associated with a contract.</span></span>|  
+    |<span data-ttu-id="e9b89-116">**Altro**</span><span class="sxs-lookup"><span data-stu-id="e9b89-116">**Other**</span></span>|<span data-ttu-id="e9b89-117">I movimenti IVA che hanno generato questa riga non sono associati a un contratto speciale, ad esempio per manutenzione in corso o altre eccezioni.</span><span class="sxs-lookup"><span data-stu-id="e9b89-117">The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.</span></span>|  
 
     > [!TIP]  
-    >  <span data-ttu-id="5ccc6-118">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il contratto che le autorità fiscali cercano può essere ordini programmati oppure contratti di assistenza.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-118">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the contract that the tax authorities are looking for can be blanket orders or service contracts.</span></span> <span data-ttu-id="5ccc6-119">Per identificare se la riga del report IVA appartiene a un ordine programmato o a un contratto di assistenza, è possibile eseguire il drill-down per visualizzare i movimenti IVA sottostanti dal campo **Importo**.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-119">To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.</span></span>  
+    >  <span data-ttu-id="e9b89-118">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il contratto che le autorità fiscali cercano può essere ordini programmati oppure contratti di assistenza.</span><span class="sxs-lookup"><span data-stu-id="e9b89-118">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the contract that the tax authorities are looking for can be blanket orders or service contracts.</span></span> <span data-ttu-id="e9b89-119">Per identificare se la riga del report IVA appartiene a un ordine programmato o a un contratto di assistenza, è possibile eseguire il drill-down per visualizzare i movimenti IVA sottostanti dal campo **Importo**.</span><span class="sxs-lookup"><span data-stu-id="e9b89-119">To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.</span></span>  
 
-<span data-ttu-id="5ccc6-120">Le note di credito vengono incluse nel report transazioni IVA se il cliente o il fornitore è di un paese esterno all'UE e non incluso nella blacklist.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-120">Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and not black-listed.</span></span> <span data-ttu-id="5ccc6-121">Per ulteriori informazioni, vedere [IVA italiana](italian-vat.md).</span><span class="sxs-lookup"><span data-stu-id="5ccc6-121">For more information, see [Italian VAT](italian-vat.md).</span></span>  
+<span data-ttu-id="e9b89-120">Le note di credito vengono incluse nel report transazioni IVA se il cliente o il fornitore è di un paese esterno all'UE e non incluso nella blacklist.</span><span class="sxs-lookup"><span data-stu-id="e9b89-120">Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and not black-listed.</span></span> <span data-ttu-id="e9b89-121">Per ulteriori informazioni, vedere [IVA italiana](italian-vat.md).</span><span class="sxs-lookup"><span data-stu-id="e9b89-121">For more information, see [Italian VAT](italian-vat.md).</span></span>  
 
-<span data-ttu-id="5ccc6-122">Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali.</span><span class="sxs-lookup"><span data-stu-id="5ccc6-122">Now that you have created the VAT report, you must submit it to the tax authorities.</span></span> <span data-ttu-id="5ccc6-123">Per ulteriori informazioni, vedere [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md).</span><span class="sxs-lookup"><span data-stu-id="5ccc6-123">For more information, see [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).</span></span>  
+<span data-ttu-id="e9b89-122">Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali.</span><span class="sxs-lookup"><span data-stu-id="e9b89-122">Now that you have created the VAT report, you must submit it to the tax authorities.</span></span> <span data-ttu-id="e9b89-123">Per ulteriori informazioni, vedere [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md).</span><span class="sxs-lookup"><span data-stu-id="e9b89-123">For more information, see [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="5ccc6-124">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="5ccc6-124">See Also</span></span>  
- [<span data-ttu-id="5ccc6-125">IVA italiana</span><span class="sxs-lookup"><span data-stu-id="5ccc6-125">Italian VAT</span></span>](italian-vat.md)
-
+## <a name="see-also"></a><span data-ttu-id="e9b89-124">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="e9b89-124">See Also</span></span>  
+ [<span data-ttu-id="e9b89-125">IVA italiana</span><span class="sxs-lookup"><span data-stu-id="e9b89-125">Italian VAT</span></span>](italian-vat.md)

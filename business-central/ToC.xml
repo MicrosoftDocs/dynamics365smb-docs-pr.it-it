@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="?" Page="product-get-started.html">
+  <Node Name="" DisplayName="Introduzione" Page="across-get-started.html">
+    <Node Name="" DisplayName="Panoramica sulle funzionalità aziendali" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Importazione dei dati aziendali da altri sistemi contabili" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Scaricare Business Central sul dispositivo mobile" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Eseguire la sincronizzazione con i contatti di Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Utilizzo di Business Central come Posta in arrivo aziendale di Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Abilitare i dati aziendali per Power BI " Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Uso di Business Central come origine dati di Power BI" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Personalizzazione di Business Central con le estensioni" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Suggerimenti e trucchi" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Utilizzo di Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Utilizzo della funzionalità Cerca pagina o report" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Modifica delle impostazioni di base" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Procedura: Modificare la Gestione ruolo utente" Page="change-role.html"/>
+    <Node Name="" DisplayName="Personalizzazione di Business Central" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Suggerimento automatico dei valori in Business Central" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Stampa di un report" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Video delle attività comuni" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Impostazione di Business Central" Page="setup.html">
+    <Node Name="" DisplayName="Setup e amministrazione" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Registrazione di modifiche" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Creazione di nuove società" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Utenti, profili e Gestioni ruolo utente" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Procedura: Gestire gli utenti e le autorizzazioni" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Utilizzare le code processi per pianificare i task" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Procedura: Pubblicare un servizio Web" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione di dati finanziari" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Definizione dei metodi di pagamento" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Impostazione delle categorie di registrazione" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Procedura Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="Procedura: aprire un nuovo anno fiscale" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Impostazione dell'IVA" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Procedura: Aggiornare i tassi di cambio delle valute" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Impostazione del piano dei conti" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Impostazione di un'analisi di un flusso di cassa" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare clienti per vendite in contanti" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare il reporting Intrastat" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare il report Bilancio di verifica consolidato" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione delle attività bancarie" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="Procedura: impostare i conti correnti bancari" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare il servizio di conversione di dati bancari" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setup Vendite" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Procedura: Registrare nuovi clienti" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Procedura: Abilitare i pagamenti clienti tramite i servizi di pagamento" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Procedura: Registrare i prezzi di vendita e gli sconti speciali" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare gli agenti" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare profili di invio documenti" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Procedura: Inviare documenti via e-mail" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Procedura: verificare i numeri di partita IVA" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare gli spedizionieri" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazioni acquisti" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Procedura: Registrare nuovi fornitori" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Procedura: Registrare i prezzi di acquisto e gli sconti speciali" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Procedura: Attribuire un ordine di priorità ai fornitori" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare gli addetti agli acquisti" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione del magazzino" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="Procedura: Impostare le informazioni generali di magazzino" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare i centri di responsabilità" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare le ubicazioni" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Procedura: Registrare nuovi articoli" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="Procedura: impostare le unità di stockkeeping" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="Procedura: Classificare gli articoli" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione della Gestione progetti" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Procedura: Impostare risorse" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare fogli presenze" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare le commesse" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione di cespiti" Page="fa-setup.html">
+      <Node Name="" DisplayName="Procedura: Impostare i valori generali per i cespiti" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare l'ammortamento cespiti" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare l'assicurazione cespiti" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare la manutenzione cespiti" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione gestione warehouse" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Dettagli di progettazione: Panoramica warehouse" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare i tipi di collocazioni" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Procedura: Creare collocazioni" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Procedura: Creare il contenuto delle collocazioni" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare i modelli di stoccaggio" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare impiegati warehouse" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare ubicazioni per l'utilizzo di collocazioni" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Procedura: Convertire le ubicazioni esistenti in ubicazione warehouse" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare le warehouse di base con aree di operazioni" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Procedura: Conteggio, rettifica o riclassificazione dell'inventario" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Procedura: Abilitare breakbulk automatico con stoccaggi e prelievi guidati" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Procedura: Abilitare prelievi tramite il metodo FEFO" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Procedura: Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Procedura: Ristrutturare warehouse" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione della produzione" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Procedura: Creare calendari delle aree di produzione" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare aree di produzione e centri di lavoro" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="Procedura: Creare cicli" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="Procedura: Creare distinte base di produzione" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Attivare la consuntivazione dei componenti in base all'output dell'operazione" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare le unità di misura batch di produzione" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare famiglie di prodotti" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare righe di ciclo standard" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Procedura: Come gestire le attività di conto lavoro" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Impostazione della gestione assistenza" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Procedura: Impostare codici di servizio standard" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="Procedura: Configurazione dei processi di assistenza" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare il reporting dei guasti" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare le offerte di assistenza" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare il troubleshooting:" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare l'assegnazione delle risorse" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare prezzi e costi aggiuntivi per i servizi assistenza" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare gli articoli in assistenza e i componenti degli articoli in assistenza" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare le ore di lavoro e le ore di assistenza" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare gli stati per gli ordini di assistenza e le riparazioni" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare un programma di prestito articoli" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Procedura: Impostare contratti di assistenza" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Metodi ammortamento" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Procedura: Impostare la posta elettronica" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="Procedura: Creazione di numerazioni" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="Procedura: Impostare testo esteso per gli articoli" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Procedura: Impostare i calendari di base" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Impostazione di aree di applicazione complesse utilizzando le procedure ottimali" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Impostare le procedure ottimali: Pianificazione forniture" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Impostare le procedure ottimali: metodi di costing" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Contabilità" Page="finance.html">
+    <Node Name="" DisplayName="Gestione della contabilità clienti" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedura: Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Procedura: Collegare manualmente i pagamenti dei clienti" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Procedura: Riscuotere i saldi inevasi" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Procedura Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gestione della contabilità fornitori" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Effettuare i pagamenti" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedura: Riconciliare manualmente i pagamenti ai fornitori" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Fatturazione dei pagamenti anticipati" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Procedura: Impostare i pagamenti anticipati" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Procedura: Creare fatture di pagamenti anticipati" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Procedura: Rettificare i pagamenti anticipati" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gestione di conti correnti bancari" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Procedura: Riconciliare i conti correnti bancari separatamente" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Procedura: Trasferire fondi bancari" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gestione delle transazioni Intercompany" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Procedura: Impostare intercompany" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Procedura: Utilizzo di documenti e registrazioni intercompany" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="Procedura: Gestire la casella in entrata e in uscita intercompany" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Contabilizzazione dei costi" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Terminologia della contabilità industriale" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Informazioni sulla contabilità industriale" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Impostazione della contabilità industriale" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Trasferimento e registrazione di movimenti di costi" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Definizione e allocazione dei costi" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Creazione di budget di costi" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Gestione dei costi di magazzino" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Informazioni sul costing di magazzino" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Impostazione della valutazione magazzino e i costi" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Procedura: Rivalutare il magazzino" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Procedura: Rettificare i costi degli articoli" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="Procedura: Gestire i costi del magazzino e di produzione" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Procedura: Aggiornare i costi standard" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Creazione di report dei costi e riconciliazione con la contabilità generale" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Dettagli di progettazione: Costing di magazzino" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Informazioni sulla contabilità generale e COA" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Utilizzo delle dimensioni" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="Procedura: Creare budget" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare le transazioni direttamente nella contabilità generale" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="Procedura: Stornare le registrazioni" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procedura: Allocazione di costi e ricavi" Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare e rimborsare le spese dei dipendenti" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Procedura: Differire le entrate e le uscite" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Procedura: Importare transazioni retributive " Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Procedura: Dichiarare l'IVA all'autorità fiscale" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare l'IVA nelle vendite e negli acquisti" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="Procedura: Convertire i contratti di assistenza che includono importi IVA" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Analisi dei rendiconti finanziari in Excel" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Analizzare i flussi di cassa dell'azienda" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Chiusura di anni e periodi" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="Procedura: specificare i periodi di registrazione" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Periodi di chiusura" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Procedura: Aggiornare i tassi di cambio delle valute" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Procedura: Allocazione di costi e ricavi" Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="Procedura: Dichiarare l'IVA all'autorità fiscale" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Predisposizione dei report preliminari alla chiusura" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Chiusura registri" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Preparazione degli estratti conto di chiusura" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Business Intelligence" Page="bi.html">
+    <Node Name="" DisplayName="Procedura: Analisi degli importi effettivi e degli importi di budget" Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare le situazioni contabili" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Procedura: Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Procedura: Analizzare i dati per dimensioni" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Procedura: Creare report di analisi" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Procedura: Creare report con XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Vendite" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Procedura: Fare offerte" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Procedura: Fatturare le vendite" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Procedura: Vendere prodotti" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Procedura: Creare righe di vendite e acquisti ricorrenti" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="Procedura: Effettuare spedizioni dirette" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Procedura: Creare ordini speciali" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Correggere o annullare le fatture di vendita non pagate" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Procedura: Elaborare i resi o gli annullamenti vendite" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare gli ordini di vendita programmati" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Combinare le spedizioni in una singola fattura" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="Procedura: Calcolare le date per la promessa ordine" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Procedura: Rintracciare i colli" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Acquisti" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Procedura: Registrare gli acquisti" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Procedura: Richiedere le offerte" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Procedura: Acquistare articoli per una vendita" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Procedura: Correggere o annullare le fatture di acquisto non pagate" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Procedura: Combinare i carichi in una singola fattura" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Procedura: Elaborare i resi o gli annullamenti acquisti" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Calcolo della data per gli acquisti" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Magazzino" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Procedura: Registrare nuovi articoli" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare le distinte base" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Procedura: Classificare gli articoli" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare gli attributi degli articoli" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare gli articoli non in stock" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Procedura: Conteggio, rettifica e riclassificazione dell'inventario" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Procedura: Visualizzare la disponibilità di articoli" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="Procedura: Trasferire il magazzino tra le ubicazioni" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Procedura: Impegnare articoli" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzo dei numeri di serie e di lotto" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare i centri di responsabilità" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Gestione progetti" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="Procedura: Creare commesse" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare le risorse per le commesse" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare i fogli presenze per le commesse" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Procedura: Gestire i budget delle commesse" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare l'utilizzo nelle commesse" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Procedura: Gestire gli approvvigionamenti delle commesse" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Metodi WIP" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Procedura: Monitorare lo stato di avanzamento e le prestazioni delle commesse" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Procedura: Fatturare commesse" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Cespiti" Page="fa-manage.html">
+    <Node Name="" DisplayName="Procedura: Acquisire i cespiti" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="Procedura: Gestione di cespiti" Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="Procedura: Assicurazione di cespiti" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="Procedura: Trasferimento, divisione o raggruppamento dei cespiti" Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="Procedura: Rivalutazione dei cespiti" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="Procedura: Ammortamento dei cespiti" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="Procedura: Cessione o ritiro dei cespiti" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="Procedura: Gestione dei budget per i cespiti" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Relationship Management" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Setup Relationship Management" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Gestione dei contatti" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Gestione dei segmenti" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Registrazione di interazioni" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Gestione delle opportunità di vendita" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Gestire clienti e vendite creati in Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Gestione personale" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Procedura: registrare gli impiegati:" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Procedura: Gestire le assenze di un impiegato" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Pianificazione" Page="production-planning.html">
+    <Node Name="" DisplayName="Informazioni sulla funzionalità di pianificazione" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Procedura: Come gestire le attività di conto lavoro" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Pianificazione con o senza ubicazioni" Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="Procedura: Creare una previsione" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="Procedura: Creare gli ordini di produzione dagli ordini di vendita" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Pianificare gli ordini di progetto" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Pianificare una nuova domanda ordine per ordine" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Procedura: Eseguire la pianificazione completa, MPS o MRP" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Procedura: Ripianificare o aggiornare direttamente gli ordini di produzione" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Tenere traccia delle relazioni tra domanda e approvvigionamento" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Procedura: Modificare i suggerimenti di pianificazione in una visualizzazione grafica" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Gestione assemblaggio" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Assemblaggio su ordine e assemblaggio per magazzino" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Procedura: Fare un'offerta per una vendita assemblaggio su ordine" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Procedura: Assemblare articoli" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Procedura: Vendere articoli assemblati su ordine" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Procedura: Vendere gli articoli di magazzino nei flussi assemblaggio su ordine" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Procedura: Vedere insieme articoli assemblaggio su ordine e articoli in magazzino" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Procedura: Annullare la registrazione di assemblaggi" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Procedura: Utilizzare le distinte base" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Registrazione dell'ordine di assemblaggio" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Manufacturing" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Informazioni sugli ordini di produzione" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Creare ordini di produzione:" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Procedura: Come gestire le attività di conto lavoro" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato" Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare il consumo tramite processo batch" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare l'output e i tempi di lavorazione tramite processo batch" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare lo scarto" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Procedura: Visualizzare il carico in aree di produzione e centri di lavoro" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="Procedura: Registrare le capacità" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Informazioni sui costi di un ordine di produzione chiuso" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Gestione warehouse" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Procedura: Ricevere articoli" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Procedura: Sottoporre gli articoli a cross-dock" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Stoccaggio di articoli" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Spostamento di articoli" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Prelievo di articoli" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="Procedura: Spedire articoli" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Gestione assistenza" Page="service-service.html">
+    <Node Name="" DisplayName="Pianificazione dell'assistenza" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Adempimento dei contratti di assistenza" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Fornitura dell'assistenza" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Funzionalità aziendali generali" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="Procedura: Impostare testo esteso per gli articoli" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Utilizzo delle registrazioni COGE" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Procedura: Inviare documenti via e-mail" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Utilizzo dei report" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Gestione dei layout di report e documento" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Registrazione di modifiche in Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Procedura: Gestire gli utenti e le autorizzazioni" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Personalizzazione di Business Central con le estensioni" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Documenti in entrata" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Procedura: Impostare documenti in entrata" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Elaborazione di documenti in entrata" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Workflow" Page="across-workflow.html">
+      <Node Name="" DisplayName="Impostazione dei workflow" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Utilizzo dei workflow" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Scambio di dati in modalità elettronica" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Informazioni sul framework di scambio dei dati" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Impostazione dello scambio di dati" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Scambio di dati" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Definizione dei task degli utenti" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Procedure dettagliate per i processi aziendali" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Procedura dettagliata: Conduzione di una campagna di vendita" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse avanzate" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Pianificazione manuale degli approvvigionamenti" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Pianificazione automatica degli approvvigionamenti" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: vendita, assemblaggio e spedizione di kit" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Gestione dei progetti con le commesse" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Calcolo del valore WIP per una commessa" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Procedura dettagliata: Tracciabilità dei numeri seriali/lotto" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Dettagli di progettazione" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Dettagli di progettazione: Movimenti set di dimensioni" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Pianificazione approvvigionamento" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Costing di magazzino" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Gestione warehouse" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Tracciabilità articolo" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Dettagli di progettazione: Riga di registrazione di contabilità generale" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Funzionalità locale" Page="index.html">
+    <Node Name="" DisplayName="Australia" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Austria" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgio" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Canada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Danimarca" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finlandia" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Francia" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Germania" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Islanda" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italia" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Messico" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Paesi Bassi" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Nuova Zelanda" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Norvegia" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Russia" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spagna" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Svezia" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Svizzera" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Regno Unito" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Stati Uniti" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>
