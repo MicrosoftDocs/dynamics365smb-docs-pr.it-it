@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Convertire le ubicazioni esistenti in ubicazione warehouse | Documenti Microsoft'
-description: "È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse."
+description: È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802216"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertire le ubicazioni esistenti in ubicazione warehouse
 È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse.  
@@ -32,7 +32,7 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Per abilitare un'ubicazione esistente come ubicazione di warehouse  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea ubicazione warehouse** e quindi scegliere il collegamento correlato.  
 2.  Nel campo **Cod. ubicazione** specificare l'ubicazione che si desidera abilitare per l'elaborazione warehouse.  
-3.  Nel campo **Codice collocazione rettifica** specificare la collocazione nell'ubicazione in cui sono archiviati i movimenti warehouse non sincronizzati. Per ulteriori informazioni, vedere la sezione "Per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati in [Conteggio, rettifica e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md).  
+3.  Nel campo **Codice collocazione rettifica** specificare la collocazione nell'ubicazione in cui sono archiviati i movimenti warehouse non sincronizzati. Per ulteriori informazioni, vedere [Per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)  
 
     Utilizzando i movimenti contabili articoli aperti per l'ubicazione specificata, vengono create righe di registrazione warehouse, in cui vengono riassunte tutte le combinazioni di Nr. Articolo, Cod. Variante, Cod. Unità di Misura e, se necessario, Nr. Lotto e Nr. Seriale nei movimenti contabili articoli. Le righe di registrazione warehouse vengono quindi registrate, in modo da creare movimenti warehouse che consentano di inserire il magazzino nella collocazione di rettifica della warehouse. Viene inoltre impostata l'opzione **Codice collocazione rettifica** nella scheda Ubicazione.  
 
@@ -51,4 +51,3 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
 title: Registrazione di assistenza | Documenti Microsoft
-description: "La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate."
+description: La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802075"
 ---
 # <a name="service-posting"></a>Registrazione di assistenza
 La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.  
@@ -58,4 +58,3 @@ Nella procedura seguente viene utilizzata una fattura di assistenza registrata c
 ## <a name="see-also"></a>Vedi anche  
 [Registrare ordini di assistenza](service-how-to-post-service-orders.md)   
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)
-

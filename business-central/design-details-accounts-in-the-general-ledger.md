@@ -1,23 +1,23 @@
 ---
-title: "Dettagli di progettazione: Conti nella contabilità generale | Microsoft Docs"
-description: "Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale."
+title: 'Dettagli di progettazione: Conti nella contabilità generale | Microsoft Docs'
+description: Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e5ce2fe305d94378b2bef118237917db6bfba5b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40bad9c2772627f70c0e33c8138539e88a76bdbb
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801637"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: Conti nella contabilità generale
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
@@ -102,4 +102,3 @@ Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi 
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

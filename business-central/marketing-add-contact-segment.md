@@ -1,8 +1,8 @@
 ---
 title: Definire i contatti in un segmento | Documenti Microsoft
-description: "Dopo aver creato un segmento, è possibile aggiungere i contatti al segmento, ad esempio, come parte di una campagna di marketing mirata ai clienti o contatti specifici."
+description: Dopo aver creato un segmento, è possibile aggiungere i contatti al segmento, ad esempio, come parte di una campagna di marketing mirata ai clienti o contatti specifici.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801521"
 ---
 # <a name="add-contacts-to-segments"></a>Aggiungere contatti ai segmenti
 Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della pagina **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
@@ -58,4 +58,3 @@ Una volta selezionati i contatti all'interno di un segmento, è possibile elimin
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

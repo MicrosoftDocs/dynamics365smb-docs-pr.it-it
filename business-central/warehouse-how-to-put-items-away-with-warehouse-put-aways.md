@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Stoccare articoli con gli stoccaggi warehouse | Documenti Microsoft'
-description: "Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli."
+description: Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801816"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.  
@@ -81,4 +81,3 @@ La valutazione della collocazione viene presa in considerazione quando più coll
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

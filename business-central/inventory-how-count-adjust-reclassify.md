@@ -1,6 +1,6 @@
 ---
 title: Conteggio, rettifica e riclassificazione dell'inventario| Documenti Microsoft
-description: "Descrive come eseguire attività di conteggio fisico, rettifiche positive o negative e modificare le informazioni, quali ubicazione o numero di lotto, nei movimenti contabili articoli o nei movimenti warehouse."
+description: Descrive come eseguire attività di conteggio fisico, rettifiche positive o negative e modificare le informazioni, quali ubicazione o numero di lotto, nei movimenti contabili articoli o nei movimenti warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 392b997b5122d7a1419c6b134a2723644fc82cb2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801433"
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Conteggio, adeguamento e riclassificazione dell'inventario
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
 
-Sebbene tutti gli articoli a magazzino vengano conteggiati almeno una volta l'anno, potrebbe essere necessario eseguire il conteggio di determinati articoli con maggiore frequenza, ad esempio nel caso in cui abbiano acquisito maggiore valore o siano prodotti a rapido assorbimento e costituiscano buona parte dell'attività commerciale. A questo scopo, è possibile assegnare speciali periodi di conteggio agli articoli. Per ulteriori informazioni, vedere la sezione "Per eseguire il conteggio ciclico".
+Sebbene tutti gli articoli a magazzino vengano conteggiati almeno una volta l'anno, potrebbe essere necessario eseguire il conteggio di determinati articoli con maggiore frequenza, ad esempio nel caso in cui abbiano acquisito maggiore valore o siano prodotti a rapido assorbimento e costituiscano buona parte dell'attività commerciale. A questo scopo, è possibile assegnare speciali periodi di conteggio agli articoli. Per ulteriori informazioni, vedere [Per eseguire il conteggio ciclico](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
 Se è necessario rettificare le quantità di magazzino registrate, in relazione al conteggio o per altri scopi, è possibile utilizzare una registrazione di magazzino per modificare i movimenti contabili di inventario direttamente senza registrare transazioni aziendali. In alternativa, è possibile rettificare un singolo articolo nella scheda articolo.
 
@@ -81,7 +81,7 @@ Oltre al task di conteggio fisico, il processo completo include i tre task segue
     -   Se le quantità fisiche e le quantità calcolate risultano differenti, viene registrata una quantità positiva o negativa per la collocazione e viene contabilizzata una quantità di compensazione nella collocazione di rettifica dell'ubicazione.  
     -   Se la quantità calcolata è uguale alla quantità fisica, viene automaticamente registrato un movimento pari a 0 sia per la collocazione che per la collocazione di rettifica. I movimenti forniscono pertanto un record indicante che in una data specifica, ovvero quella di registrazione, è stato eseguito un inventario fisico della warehouse e non sono state rilevate discrepanze nelle giacenze per tale articolo.  
 
-Quando si registra l'inventario fisico della warehouse, la registrazione non viene eseguita nei movimenti magazzino, nei movimenti di inventario fisico o nei movimenti di valorizzazione, tuttavia i record sono disponibili per eseguire una riconciliazione immediata qualora necessario. Se tuttavia si desidera conservare record precisi sulla situazione della warehouse e si è proceduto al conteggio di tutte le collocazioni in cui gli articoli erano registrati, si consiglia di registrare immediatamente i risultati della warehouse come inventario fisico. Per ulteriori informazioni, vedere la sezione "Per immettere e registrare le giacenze effettive conteggiate nelle configurazioni di warehouse avanzate".
+Quando si registra l'inventario fisico della warehouse, la registrazione non viene eseguita nei movimenti magazzino, nei movimenti di inventario fisico o nei movimenti di valorizzazione, tuttavia i record sono disponibili per eseguire una riconciliazione immediata qualora necessario. Se tuttavia si desidera conservare record precisi sulla situazione della warehouse e si è proceduto al conteggio di tutte le collocazioni in cui gli articoli erano registrati, si consiglia di registrare immediatamente i risultati della warehouse come inventario fisico. Per ulteriori informazioni, vedere la sezione [Per immettere e registrare le giacenze effettive conteggiate nelle configurazioni di warehouse avanzate](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Per stampare il report da utilizzare nel conteggio
 1. Nella pagina **Registrazioni inventario fis.** contenente le giacenze previste calcolate, scegliere l'azione **Stampa**.
@@ -145,14 +145,14 @@ L'inventario fisico viene in genere eseguito ad intervalli regolari, ad esempio 
 2. Scegliere l'azione **Calcola conteggio periodo**.
 
     Viene visualizzata la pagina **Selez. articoli inv. fis.** contenente gli articoli da conteggiare in base ai periodi di conteggio precedentemente assegnati.
-3. Eseguire l'inventario fisico. Per ulteriori informazioni, vedere la sezione "Per eseguire un inventario fisico".
+3. Eseguire l'inventario fisico. Per ulteriori informazioni, vedere [Per eseguire un inventario fisico](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Per avviare un conteggio basato sui periodi di conteggio nelle configurazioni di warehouse avanzate
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni inventario whse.** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Calcola conteggio periodo**.
 
     Viene visualizzata la pagina **Selez. articoli inv. fis.** contenente gli articoli da conteggiare in base ai periodi di conteggio precedentemente assegnati.
-3. Eseguire l'inventario fisico. Per ulteriori informazioni, vedere la sezione "Per eseguire un inventario fisico".  
+3. Eseguire l'inventario fisico. Per ulteriori informazioni, vedere [Per eseguire un inventario fisico](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
     >  È necessario conteggiare l'articolo in tutte le collocazioni contenenti l'articolo in questione. Se si eliminano alcune righe relative alle collocazioni automaticamente recuperate per il conteggio nella pagina **Inventario fis. whse.**, il conteggio non include tutti gli articoli presenti nella warehouse. Se successivamente si procede alla contabilizzazione di tali risultati incompleti in Registrazioni inventario fis., le quantità registrate non saranno corrette.  
@@ -175,7 +175,7 @@ Il magazzino dell'articolo è ora rettificato. La nuova quantità viene mostrata
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Per rettificare la quantità in giacenza di più articoli nelle configurazioni di warehouse di base
 Nella pagina **Registrazioni magazzino**, è possibile registrare direttamente la transazione dell'articolo per rettificare il magazzino in relazione a rettifiche positive o negative di agli acquisti o vendite senza utilizzare i documenti.
 
-Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di registrazione o per righe di registrazione simili, ad esempio in relazione al consumo di materiale, è possibile utilizzare la pagina **Registrazioni magazzino standard** per rendere più semplice questo tipo di lavoro ricorrente. Per ulteriori informazioni, vedere la sezione "Registrazioni standard" in [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
+Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di registrazione o per righe di registrazione simili, ad esempio in relazione al consumo di materiale, è possibile utilizzare la pagina **Registrazioni magazzino standard** per rendere più semplice questo tipo di lavoro ricorrente. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni standard](ui-work-general-journals.md#working-with-standard-journals).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -227,4 +227,3 @@ Per informazioni sul trasferimento di articoli con controllo totale delle quanti
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

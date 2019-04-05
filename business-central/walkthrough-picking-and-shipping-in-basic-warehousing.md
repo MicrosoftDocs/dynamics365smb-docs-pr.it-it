@@ -1,21 +1,21 @@
 ---
 title: Prelievo e spedizione nelle configurazioni della warehouse di base | Documenti Microsoft
-description: "In Business Central, i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse."
+description: In Business Central, i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801158"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
@@ -70,7 +70,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 
         |Tipo movimento|Numero di articolo|Cod. ubicazione|Codice collocazione|Quantità|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Rettifica positiva|LS-81|ARGENTO|S-01-0001 **Nota:**  la collocazione di default dell'articolo in CRONUS|20|  
+        |Rettifica positiva|LS-81|ARGENTO|S-01-0001 **Nota:**  La collocazione predefinita dell'articolo in CRONUS.|20|  
         |Rettifica positiva|LS-81|ARGENTO|S-01-0002|20|  
 
     3.  Scegliere l'azione **Registra**, quindi selezionare il pulsante **Sì**.  
@@ -131,4 +131,3 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
  [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

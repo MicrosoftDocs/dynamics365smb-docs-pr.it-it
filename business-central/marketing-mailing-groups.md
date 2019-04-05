@@ -1,8 +1,8 @@
 ---
 title: Impostazione di gruppi mailing per i contatti| Documenti Microsoft
-description: "È possibile usare i gruppi di mailing per identificare gruppi di contatti a cui inviare le stesse informazioni, ad esempio per una campagna marketing o promozionale."
+description: È possibile usare i gruppi di mailing per identificare gruppi di contatti a cui inviare le stesse informazioni, ad esempio per una campagna marketing o promozionale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801347"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Impostare i gruppi mailing per i contatti
 È possibile utilizzare i gruppi mailing per identificare gruppi di contatti a cui inviare le stesse informazioni. È possibile, ad esempio, impostare un gruppo mailing relativo ai contatti a cui si desidera inviare una notifica di un cambio di ufficio o un altro gruppo per inviare gli auguri delle festività.
@@ -43,7 +43,5 @@ Il numero di gruppi di mailing assegnati al contatto viene visualizzato nel camp
 Dopo avere assegnato i gruppi di mailing ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di società contatto](marketing-create-contact-companies.md)  
-[Creazione di contatti](marketing-create-contact-persons.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

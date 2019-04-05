@@ -1,23 +1,23 @@
 ---
 title: Preparazione della migrazione dei dati dei clienti | Documenti Microsoft
-description: "Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati."
+description: Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800896"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparazione per la migrazione dei dati dei clienti
 Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.  
@@ -115,7 +115,7 @@ Risulta completo qualsiasi record che presenta questa modalità di collegamento 
 Nella seguente procedura viene illustrato come creare una scheda articolo da un modello dati dell'articolo. È possibile creare un record da qualsiasi modello dati utilizzando la stessa procedura.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
-2. Selezionare il modello **Articolo**, quindi scegliere l'azione **Modifica**. Per ulteriori informazioni, vedere la sezione "Per creare un modello di dati".
+2. Selezionare il modello **Articolo**, quindi scegliere l'azione **Modifica**. Per ulteriori informazioni, vedere [Per creare un modello di dati](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Selezionare l'azione **Crea istanza**. Una scheda articolo viene creata.  
 4. Scegliere il pulsante **OK**.  
 5. Per esaminare la nuova scheda articolo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
@@ -140,4 +140,3 @@ I valori di default dal modello cliente scelto sono inseriti nella scheda client
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)
-

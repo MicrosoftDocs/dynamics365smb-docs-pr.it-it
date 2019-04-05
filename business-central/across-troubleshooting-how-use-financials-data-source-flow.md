@@ -1,7 +1,7 @@
 ---
-title: Risoluzione dei problemi di integrazione con Microsoft Flow | Documenti Microsoft
+title: Risoluzione dei problemi di integrazione con Microsoft Flow | Microsoft Docs
 description: Risolvere i problemi per rendere disponibili i dati di Business Central come origine dati e specificare un URL OData dei service Web per creare un workflow automatizzato.
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801632"
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Risoluzione dei problemi di integrazione con Microsoft Flow - Richiesta di URL troppo lungo
 È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.  
@@ -52,4 +52,3 @@ Ad esempio, se la tabella utilizzata come origine dati contiene 4.000 record, im
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)    
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanze](finance.md)  
-

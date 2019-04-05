@@ -1,8 +1,8 @@
 ---
-title: "Informazioni sulle modalità di registrazione dei documenti di acquisto | Documenti Microsoft"
+title: Informazioni sulle modalità di registrazione dei documenti di acquisto | Documenti Microsoft
 description: Informazioni sulle diverse funzioni di registrazione per i documenti di acquisto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f3c709e6e2588fe7cf409e44291d331acc09432
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801058"
 ---
 # <a name="posting-purchases"></a>Registrazione di acquisti
 Nella **Categoria registrazione** in un documento di acquisto, è possibile scegliere tra le seguenti funzioni di registrazione:
@@ -48,5 +48,4 @@ Una volta completata la registrazione, le righe di acquisto registrate vengono r
 [Acquisti](purchasing-manage-purchasing.md)  
 [Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

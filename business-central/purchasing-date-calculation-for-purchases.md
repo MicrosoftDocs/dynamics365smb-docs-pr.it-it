@@ -1,23 +1,23 @@
 ---
 title: Calcolo della data per gli acquisti | Documenti Microsoft
-description: "Il programma calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo."
+description: Il programma calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 08d2f6498019b8ee0a646cec891ff897a62dc9de
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8224f609dd110cd9f5d01d33d8e207f0c4aef6e0
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801762"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcolo della data per gli acquisti
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.  
@@ -48,4 +48,3 @@ Se si modifica la data dell'ordine nell'intestazione, questa viene copiata nel c
  [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
  [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

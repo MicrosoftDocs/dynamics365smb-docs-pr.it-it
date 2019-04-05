@@ -1,6 +1,6 @@
 ---
 title: Prevedere pagamenti ritardati per documenti di vendita | Documenti Microsoft
-description: "Utilizzare il modello di previsione per verificare se una fattura verrà pagata con puntualità."
+description: Utilizzare il modello di previsione per verificare se una fattura verrà pagata con puntualità.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802038"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.
@@ -72,4 +72,3 @@ Se si crea il proprio modello in Azure Machine Learning Studio, senza utilizzare
 [Documentazione di Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
 [Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-

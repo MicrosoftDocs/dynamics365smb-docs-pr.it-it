@@ -2,22 +2,22 @@
 title: Gestione dei prezzi di assistenza | Documenti Microsoft
 description: In questo argomento viene descritto come applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801928"
 ---
 # <a name="service-price-management"></a>Gestione dei prezzi di assistenza
 La funzionalità di gestione dei prezzi di assistenza consente di applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.  
@@ -69,4 +69,3 @@ Nella seguente tabella vengono illustrati i calcoli.
 ## <a name="see-also"></a>Vedi anche  
 [Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-

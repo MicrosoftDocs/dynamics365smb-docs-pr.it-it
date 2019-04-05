@@ -1,6 +1,6 @@
 ---
 title: Collegare i movimenti contabili clienti per riconciliare i pagamenti | Documenti Microsoft
-description: "Descrive come collegare gli incassi o i rimborsi del cliente a uno o più movimenti contabili aperti del cliente e riconciliare i pagamenti del cliente."
+description: Descrive come collegare gli incassi o i rimborsi del cliente a uno o più movimenti contabili aperti del cliente e riconciliare i pagamenti del cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801904"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Riconciliare manualmente i pagamenti dei clienti
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
 Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti, è necessario stabilire se collegare il pagamento o il rimborso per chiudere uno o più movimenti contabili aperti. È possibile specificare l'importo esatto che si desidera collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. Chiudere i movimenti contabili clienti garantisce che informazioni, quali statistiche dei clienti, estratti conto e addebiti interessi siano corretti.
 
-> [!NOTE]  
+> [!TIP]  
 >   Nella pagina **Movimenti contabili clienti** il carattere rosso indica che il pagamento correlato ha luogo dopo la data di scadenza. Se i pagamenti in ritardo stanno diventando un problema, è possibile ridurne la frequenza. È possibile abilitare l'estensione **Previsioni pagamenti ritardati**, che utilizza un modello predittivo creato in Azure Machine Learning per prevedere i tempi dei pagamenti. Le previsioni aiutano a ridurre i crediti in sospeso e ad affinare la strategia di riscossione. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile adeguare i termini di pagamento o il metodo di pagamento per il cliente. Per ulteriori informazioni, vedere [Previsioni pagamenti ritardati](ui-extensions-late-payment-prediction.md).  
 
 È possibile collegare i movimenti contabili clienti in modi diversi:
 
-* Immettendo informazioni nelle pagine dedicate, ad esempio nella finestra **Registrazioni incassi** e nelle pagine **Registrazione riconciliazione pagamenti**.
-* Dai documenti nota di credito di vendita.
-* Dai movimenti contabili clienti dopo che i documenti di vendita sono stati registrati ma non collegati.
+* Immettendo le informazioni nelle pagine dedicate:
+    * La pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * La pagina **Registrazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti dei clienti da un elenco di documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+    * La finestra **Registrazioni incassi**. Questa finestra è descritta di seguito.
+* La compilazione del campo **Collega-a nr. doc.** nei documenti nota di credito di vendita. Questa finestra è descritta di seguito.
+* Utilizzando l'azione **Imposta Collega a ID** in un movimento registro clienti. Questa finestra è descritta di seguito.
 
 > [!NOTE]  
 >   Se il campo **Metodo Collegamento PA** nella scheda cliente è impostato su **Collega al più Vecchio**, i pagamenti vengono automaticamente collegati al movimento di credito meno recente, a meno che non si specifichi manualmente un movimento. Se il metodo di collegamento è impostato su **Manuale**, i movimenti vengono collegati sempre manualmente.
 
-È possibile collegare i pagamenti dei clienti manualmente nella pagina **Registrazioni incassi**. Una registrazione incassi è un tipo di registrazione generale che può essere utilizzata per registrare transazioni in conti di contabilità generale, bancari, cliente, fornitori e cespiti. È possibile collegare il pagamento a uno o più movimenti Dare quando si registra il pagamento oppure collegare dai movimenti registrati in un momento successivo.
-
-È inoltre possibile collegare i pagamenti dei clienti e dei fornitori nella pagina **Registrazione riconciliazione pagamenti** utilizzando le funzioni per l'importazione del rendiconto bancario, il collegamento automatico e la riconciliazione del conto corrente bancario. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md). In alternativa, è possibile riconciliare i pagamenti dei clienti in base a un elenco di documenti di vendita non pagati nella pagina **Registrazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti dei clienti da un elenco di documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Per compilare e contabilizzare una registrazione incasso
+Una registrazione incassi è un tipo di registrazione generale che può essere utilizzata per registrare transazioni in conti di contabilità generale, bancari, cliente, fornitori e cespiti. È possibile collegare il pagamento a uno o più movimenti Dare quando si registra il pagamento oppure collegare dai movimenti registrati in un momento successivo.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Modifica registrazione**.
 3. Selezionare il batch appropriato nel campo **Nome batch**.
@@ -159,4 +159,3 @@ Quando si corregge un collegamento, vengono creati e registrati movimenti di ret
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

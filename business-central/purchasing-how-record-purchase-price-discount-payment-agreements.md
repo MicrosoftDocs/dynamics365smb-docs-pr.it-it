@@ -1,6 +1,6 @@
 ---
 title: Prezzi e sconti speciali e alternativi per i fornitori | Microsoft Docs
-description: "È possibile definire prezzi e accordi di sconto diversi e alternativi e applicarli ai documenti di acquisto per i fornitori."
+description: È possibile definire prezzi e accordi di sconto diversi e alternativi e applicarli ai documenti di acquisto per i fornitori.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ffdb6c4abc4c3a14714c84c8b53798ab8dcee7f2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802107"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 I differenti accordi relativi a prezzi e sconti applicati quando si effettuano acquisti da fornitori diversi devono essere definiti in modo che le regole e i valori concordati vengano applicati ai documenti di acquisto creati per il fornitore.
 
-Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedere la sezione Calcolo del prezzo migliore.
+Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedere [Calcolo del prezzo migliore](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Per quanto riguarda i prezzi, è possibile fare in modo che venga inserito un prezzo di acquisto speciale nelle righe di acquisto quando si verifica una determinata combinazione di fornitore, articolo, quantità minima, unità di misura o data di inizio o di fine.
 
@@ -125,4 +125,3 @@ Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato n
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

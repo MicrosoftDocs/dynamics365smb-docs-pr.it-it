@@ -1,23 +1,23 @@
 ---
-title: "Copiare dati in nuove società | Documenti Microsoft"
-description: "È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra."
+title: Copiare dati in nuove società | Documenti Microsoft
+description: È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802188"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
 È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.  
@@ -33,4 +33,3 @@ ms.lasthandoff: 11/26/2018
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

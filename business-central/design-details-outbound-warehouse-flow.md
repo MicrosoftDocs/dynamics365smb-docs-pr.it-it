@@ -1,23 +1,23 @@
 ---
 title: 'Dettagli di progettazione: Flusso warehouse in uscita | Microsoft Docs'
-description: "Il flusso in uscita nella warehouse inizia con una richiesta da documenti di origine rilasciati di prelevare gli articoli dall'ubicazione della warehouse, per spedirli a una parte esterna o un'altra ubicazione della società. Dall'area di immagazzinamento, le attività di magazzino vengono eseguite a livelli diversi di complessità per portare gli articoli fuori dai dock di immagazzinamento."
+description: Il flusso in uscita nella warehouse inizia con una richiesta da documenti di origine rilasciati di prelevare gli articoli dall'ubicazione della warehouse, per spedirli a una parte esterna o un'altra ubicazione della società. Dall'area di immagazzinamento, le attività di magazzino vengono eseguite a livelli diversi di complessità per portare gli articoli fuori dai dock di immagazzinamento.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801283"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in uscita
 Il flusso in uscita nella warehouse inizia con una richiesta da documenti di origine rilasciati di prelevare gli articoli dall'ubicazione della warehouse, per spedirli a una parte esterna o un'altra ubicazione della società. Dall'area di immagazzinamento, le attività di magazzino vengono eseguite a livelli diversi di complessità per portare gli articoli fuori dai dock di immagazzinamento.  
@@ -118,4 +118,3 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
-

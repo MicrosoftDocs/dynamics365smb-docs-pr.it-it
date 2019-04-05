@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801169"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
 Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di addebito diretto SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
@@ -80,4 +80,3 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md)
 [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
-

@@ -1,24 +1,24 @@
 ---
 title: 'Dettagli di progettazione: Al di sotto del livello di overflow | Microsoft Docs'
-description: "Quando si utilizzano i campo Qtà Massima e Qtà Riordino Fissa, il sistema di pianificazione si concentra solo sulle giacenze previste nell'intervallo di tempo specificato. Ciò significa che il sistema di pianificazione può suggerire un approvvigionamento superfluo quando si verificano dei cambiamenti nella domanda negativa o nell'approvvigionamento positivo al di fuori dell'intervallo di tempo specificato."
+description: Quando si utilizzano i campo Qtà Massima e Qtà Riordino Fissa, il sistema di pianificazione si concentra solo sulle giacenze previste nell'intervallo di tempo specificato. Ciò significa che il sistema di pianificazione può suggerire un approvvigionamento superfluo quando si verificano dei cambiamenti nella domanda negativa o nell'approvvigionamento positivo al di fuori dell'intervallo di tempo specificato.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801692"
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Dettagli di progettazione: Al di sotto del livello di overflow
 Quando si utilizzano i metodi Qtà Massima e Qtà Riordino Fissa, il sistema di pianificazione si concentra solo sulle giacenze previste nell'intervallo di tempo specificato. Ciò significa che il sistema di pianificazione può suggerire un approvvigionamento superfluo quando si verificano dei cambiamenti nella domanda negativa o nell'approvvigionamento positivo al di fuori dell'intervallo di tempo specificato. Se, per questo motivo, viene suggerito un approvvigionamento inutile, il sistema di pianificazione calcola la quantità alla quale l'approvvigionamento dovrebbe essere ridotto (o eliminato) per evitare l'approvvigionamento superfluo. Questa quantità è denominata “livello di overflow”. L'overflow viene comunicato come una riga di pianificazione con un'azione **Cambia Qtà (riduzione)** o **Annulla** e il seguente messaggio di avviso:  
@@ -111,4 +111,3 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

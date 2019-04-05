@@ -1,24 +1,24 @@
 ---
 title: Come impostare centri di costo | Microsoft Docs
-description: "I centri di costo sono i reparti responsabili dei costi e delle entrate. Il grafico dei centri di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale."
+description: I centri di costo sono i reparti responsabili dei costi e delle entrate. Il grafico dei centri di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801098"
 ---
 # <a name="set-up-cost-centers"></a>Impostare i centri di costo
 I centri di costo sono i reparti responsabili dei costi e delle entrate. Il grafico dei centri di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale. È possibile impostare il grafico dei centri di costo nelle modalità seguenti:  
@@ -59,4 +59,3 @@ Il grafico dei centri di costo contiene ora tutti i valori dimensioni specificat
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
 [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

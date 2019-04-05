@@ -1,8 +1,8 @@
 ---
 title: 'Dettagli di progettazione: Il ruolo del punto di riordino | Microsoft Docs'
-description: "In questo argomento viene evidenziata l'importanza di impostare un punto di riordino, in modo da sapere quando è necessario approvvigionare il magazzino."
+description: In questo argomento viene evidenziata l'importanza di impostare un punto di riordino, in modo da sapere quando è necessario approvvigionare il magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: desigh, reorder, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: e39a7efdc796e8745bd9d8f7d74cdcfb171d851f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a64d71ca9f163793c959126da09ffa4ef281b5e0
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802338"
 ---
 # <a name="design-details-the-role-of-the-reorder-point"></a>Dettagli di progettazione: Il ruolo del punto di riordino
 Oltre alla contropartita generale di approvvigionamento e domanda, il sistema di pianificazione deve inoltre monitorare i livelli di magazzino per gli articoli interessati in modo che siano rispettati i metodi di riordino definiti:  
@@ -34,4 +34,3 @@ Il punto di riordino riflette un determinato livello di magazzino. Tuttavia, i l
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

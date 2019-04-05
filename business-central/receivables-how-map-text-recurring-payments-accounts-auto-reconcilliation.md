@@ -1,6 +1,6 @@
 ---
 title: Impostare la mappatura testo a conto per i pagamenti ricorrenti | Documenti Microsoft
-description: "Si può collegare il testo sui pagamenti con determinati conti, in modo che i pagamenti vengano registrati nei conti quando si effettua la registrazione riconciliazione pagamenti."
+description: Si può collegare il testo sui pagamenti con determinati conti, in modo che i pagamenti vengano registrati nei conti quando si effettua la registrazione riconciliazione pagamenti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 357febcb3984db658c0742f013aff65301ae6f42
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801133"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
 Nella pagina **Mappatura testo a conto** che si apre dalla pagina **Registrazione riconciliazione pagamenti**, è possibile impostare le mappature tra il testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo da registrare questi pagamenti nei conti specificati durante la registrazione della riconciliazione pagamenti.
@@ -55,13 +55,9 @@ Per registrare sempre le spese in combustibile effettuate presso i distributori 
 | --- | --- | --- | --- | --- |
 | Shell |VUOTO |8510 |Conto C/G |VUOTO |
 
-> [!TIP]  
->   Per ulteriori informazioni sull'utilizzo dei campi e delle colonne, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Per ulteriori informazioni su come trovare pagine specifiche, vedere [Ricerca](ui-search.md).
-
 ## <a name="see-also"></a>Vedi anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

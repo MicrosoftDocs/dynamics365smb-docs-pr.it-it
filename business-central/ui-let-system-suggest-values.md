@@ -1,6 +1,6 @@
 ---
 title: Impostazione di valori suggeriti per i campi | Documenti Microsoft
-description: "Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Business Central compili i campi selezionati."
+description: Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Business Central compili i campi selezionati.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 023f67f90b00c53440cb835cd0e3886ced0d3b98
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 74a88d3e81413b4ecf849f500b5b670feea948bf
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801001"
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può aiutare a completare le attività in modo più rapido e più corretto precompilando campi o righe intere con dati che verrebbero altrimenti calcolati e immessi manualmente. Sebbene tale l'immissione dei dati automatica sia sempre corretta, è possibile modificarla in seguito se lo si desidera.
@@ -32,7 +32,7 @@ Se, ad esempio, si intende immettere delle righe di registrazione COGE per più 
 Per informazioni su come impostare un batch registrazioni COGE personale, ad esempio per la gestione delle spese, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Il campo **Compila automaticamente data di ricezione** nella pagina **Registrazione pagamenti**
-Nella pagina **Registrazione pagamenti** vengono mostrati i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo. Per ulteriori informazioni sul collegamento dei pagamenti dei clienti, vedere [Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Nella pagina **Registrazione pagamenti** vengono mostrati i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo. Per ulteriori informazioni sul collegamento dei pagamenti dei clienti, vedere [Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 Le principali azioni che deve effettuare l'utente nella pagina sono la selezione della casella di controllo **Pagamento effettuato** e la compilazione del campo **Data ricezione**. È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che inserisca automaticamente la data di lavoro nel campo **Data ricezione** quando si seleziona la casella di controllo **Pagamento effettuato**.
 
@@ -44,4 +44,3 @@ Le principali azioni che deve effettuare l'utente nella pagina sono la selezione
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finanze](finance.md)
-

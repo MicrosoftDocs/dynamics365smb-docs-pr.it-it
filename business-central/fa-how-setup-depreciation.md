@@ -1,6 +1,6 @@
 ---
 title: Impostare l'ammortamento cespiti| Documenti Microsoft
-description: "Specificare in un registro beni ammortizzabili la modalità di ammortamento o svalutazione dei cespiti."
+description: Specificare in un registro beni ammortizzabili la modalità di ammortamento o svalutazione dei cespiti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801709"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
  È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
@@ -83,4 +83,3 @@ Per ogni registro beni ammortizzabili viene determinato un setup di default dell
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

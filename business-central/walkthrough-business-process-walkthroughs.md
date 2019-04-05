@@ -1,23 +1,23 @@
 ---
 title: Procedure dettagliate per i processi aziendali | Documenti Microsoft
-description: "Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società."
+description: Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801154"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
 Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.  
@@ -46,4 +46,3 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

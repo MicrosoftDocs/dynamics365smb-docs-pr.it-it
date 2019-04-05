@@ -1,6 +1,6 @@
 ---
 title: Impostare la conversione di dati bancari| Documenti Microsoft
-description: "È possibile impostare i conti correnti bancari per tenere traccia delle transazioni e importare o esportare i feed bancari, ad esempio Yodlee."
+description: È possibile impostare i conti correnti bancari per tenere traccia delle transazioni e importare o esportare i feed bancari, ad esempio Yodlee.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/02/2018
 ms.author: sgroespe
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801968"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Impostare il servizio di conversione di dati bancari
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ciò viene indicato in [!INCLUDE[d365fin](includes/d365fin_md.md)] come il servizio di conversione di dati bancari.
@@ -64,4 +64,3 @@ A questo punto è stata eseguita l'iscrizione al servizio di conversione di dati
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

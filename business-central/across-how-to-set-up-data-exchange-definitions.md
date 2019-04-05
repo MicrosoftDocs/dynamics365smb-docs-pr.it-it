@@ -1,21 +1,21 @@
 ---
-title: "Definire la modalità di scambio elettronico dei dati | Microsoft Docs"
-description: "È possibile utilizzare un provider esterno di servizi OCR per convertire file PDF o di immagine in documenti elettronici."
+title: Definire la modalità di scambio elettronico dei dati | Microsoft Docs
+description: È possibile utilizzare un provider esterno di servizi OCR per convertire file PDF o di immagine in documenti elettronici.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801822"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -55,7 +55,7 @@ La creazione di una definizione di scambio di dati include due task:
     |**Codeunit per la gestione dati**|Specificare la codeunit che trasferisce i dati dentro e fuori dalle tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Codeunit per convalida**|Specificare la codeunit che viene utilizzata per convalidare i dati rispetto alle regole commerciali predefinite.|  
     |**Codeunit per lettura/scrittura**|Specificare la codeunit che elabora i dati importati prima di eseguire il mapping e i dati esportati dopo avere eseguito il mapping.|  
-    |**Lettura/Scrittura XMLport**|Specificare l'oggetto XMLport tramite cui un file di dati importato o un servizio entra prima del mapping e tramite cui i dati esportati escono quando l'oggetto viene scritto in un file di dati o un servizio dopo il mapping.|  
+    |**Lettura/Scrittura XMLport**|Specificare l'oggetto XMLport attraverso cui un servizio o un file di dati importato entra nel sistema prima della mappatura e tramite il quale i dati esportati escono dal sistema quando vengono scritti in un servizio o un file di dati dopo la mappatura.|  
     |**Codeunit per la gestione dati est.**|Specificare la codeunit che trasferisce i dati esterni dentro e fuori dal framework di scambio dati.|  
     |**Codeunit per feedback utente**|Specificare la codeunit che esegue varie pulizie dopo il mapping, ad esempio contrassegna le righe come esportate ed elimina i record temporanei.|  
     |**Codifica file**|Specificare la codifica del file. **Nota:** il campo è valido solo per l'importazione.|  
@@ -160,4 +160,3 @@ Dopo aver creato la definizione di scambio di dati per un file di dati specifico
 [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-

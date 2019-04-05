@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Impostare le warehouse di base con aree di operazioni | Documenti Microsoft'
-description: "Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di warehouse di base in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare tre documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne."
+description: Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di warehouse di base in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare tre documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801958"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
 Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di base della warehouse in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare i seguenti documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne:  
@@ -35,7 +35,7 @@ Per utilizzare queste pagine con le operazioni interne, ad esempio prelevare e s
 - Definire le strutture di collocazione di default per i componenti e gli articoli finali trasferiti da e verso le risorse dell'operazione.  
 - Creare collocazioni di provenienza e destinazione dedicate alle risorse specifiche dell'operazione per evitare il prelievo degli articoli per i documenti in uscita.
 
-I codici di collocazione impostati nelle schede ubicazione consentono di definire un flusso di warehouse di default per determinate attività, come i componenti di un reparto di assemblaggio. La funzionalità aggiuntiva consente di garantire che quando gli articoli si trovano in una determinata collocazione, non possono essere spostati o prelevati per altre attività. Per ulteriori informazioni, vedere la sezione "Per creare collocazioni componenti dedicate".
+I codici di collocazione impostati nelle schede ubicazione consentono di definire un flusso di warehouse di default per determinate attività, come i componenti di un reparto di assemblaggio. La funzionalità aggiuntiva consente di garantire che quando gli articoli si trovano in una determinata collocazione, non possono essere spostati o prelevati per altre attività. Per ulteriori informazioni, vedere [Per creare collocazioni componenti dedicate](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Le procedure riportate di seguito sono basate sull'impostazione di attività di warehouse di base relative a un'area di produzione. I passaggi sono simili ad altre aree dell'operazione, come assemblaggio, gestione assistenza e commesse.  
 
@@ -142,4 +142,3 @@ La creazione di una collocazione dedicata fornisce una funzionalità simile all'
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

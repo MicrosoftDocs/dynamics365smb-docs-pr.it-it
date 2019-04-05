@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Pianificare stoccaggi nei prospetti | Documenti Microsoft'
-description: "Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi."
+description: Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801100"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
@@ -58,7 +58,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 
     -   È possibile assegnare lo stoccaggio a un addetto al magazzino specifico.  
     -   È possibile ordinare le righe delle istruzioni di stoccaggio in base agli stessi criteri di ordinamento utilizzati nel prospetto o in base alla valutazione collocazione. Quando si esegue un ordinamento in base alla valutazione collocazione, le righe Prendere vengono visualizzate per prime, in quanto alla maggior parte delle collocazioni carichi è associata una valutazione pari a 0, mentre le righe Mettere vengono visualizzate per ultime a partire dalle collocazioni con valutazione più bassa. Se la warehouse è stata strutturata in modo che le collocazioni con valutazione simile siano posizionate l'una accanto all'altra, questa modalità di ordinamento delle righe comporta una semplificazione delle operazioni che gli impiegati warehouse dovranno eseguire.  
-    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni, vedere [Abilitare breakbulk automatico con stoccaggi e prelievi guidati] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni, vedere [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   È possibile scegliere che il campo **Qtà da gestire** non venga compilato automaticamente nelle istruzioni di stoccaggio.  
     -   È possibile scegliere di stampare il documento immediatamente.  
 
@@ -71,4 +71,3 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

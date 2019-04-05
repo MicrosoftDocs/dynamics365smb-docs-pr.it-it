@@ -1,6 +1,6 @@
 ---
 title: Collegare i pagamenti ai documenti di vendita non pagati | Documenti Microsoft
-description: "Si collegano gli importi pagati dai clienti ai relativi documenti di vendita e si registra il pagamento per aggiornare i movimenti contabili cliente, contabilità generale e i movimenti contabili bancari."
+description: Si collegano gli importi pagati dai clienti ai relativi documenti di vendita e si registra il pagamento per aggiornare i movimenti contabili cliente, contabilità generale e i movimenti contabili bancari.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801250"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati
 Quando i clienti hanno effettuato i pagamenti sul conto corrente elettronico, è necessario collegare ogni importo pagato al documento di vendita corrispondente e registrare il pagamento per aggiornare i movimenti cliente, bancari e di contabilità generale. In base alle esigenze aziendali, è possibile ottenere pagato e registrare il pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
 
 > [!NOTE]  
@@ -54,7 +54,7 @@ Le informazioni sui pagamenti vengono registrate per i documenti rappresentati d
 
 I movimenti dei pagamenti vengono registrati nei conti di contabilità generale, nei conti bancari e nei conti clienti. Ogni pagamento viene collegato al documento di vendita registrato correlato.  
 
-## <a name="to-reconcile-lump-payments"></a>Per riconciliare i pagamenti forfettari
+## <a name="to-reconcile-lump-sum-payments"></a>Per riconciliare i pagamenti forfettari
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazione pagamenti** e quindi scegliere il collegamento correlato.
 2. Selezionare la casella di controllo **Pagamento effettuato** nelle righe che rappresentano i documenti registrati per lo stesso cliente o fornitore per cui è stato eseguito un pagamento forfettario.  
 
@@ -69,15 +69,15 @@ I movimenti dei pagamenti vengono registrati nei conti di contabilità generale,
 4. Nel campo **Importo ricevuto** immettere gli importi su più righe che riassumono l'importo del pagamento forfettario.  
 
     > [!TIP]  
-    >   Provare a registrare quanti più pagamenti completi è possibile con l'importo forfettario. Immettere gli importi che sono gli stessi presenti nel campo **Importo residuo** nel maggior numero di righe possibili.  
+    > Provare a registrare quanti più pagamenti completi è possibile con l'importo forfettario. Immettere gli importi che sono gli stessi presenti nel campo **Importo residuo** nel maggior numero di righe possibili.  
 5. Ripetere i passaggi da 2 a 4 per altre righe che rappresentano i documenti registrati per lo stesso cliente per cui è stato eseguito un pagamento forfettario.  
 6. Scegliere l'azione **Registra come pagamento forfettario**. Le informazioni sui pagamenti immesse vengono registrate per i documenti rappresentati dalle righe in cui è selezionata la casella di controllo **Pagamento effettuato**.  
 
 I movimenti dei pagamenti vengono registrati nei conti di contabilità generale, nei conti bancari e nei conti clienti. Ogni pagamento viene collegato al documento di vendita registrato correlato.  
 
-Se un pagamento della banca non è rappresentato dalla riga della pagina **Registrazione pagamenti**, è possibile che il documento correlato non sia ancora stato registrato. In questo caso, è possibile utilizzare una funzione di ricerca per trovare rapidamente il documento e registrarlo per elaborare il pagamento. Per ulteriori informazioni, vedere la sezione "Per trovare un documento di vendita specifico non completamente fatturato".  
+Se un pagamento della banca non è rappresentato dalla riga della pagina **Registrazione pagamenti**, è possibile che il documento correlato non sia ancora stato registrato. In questo caso, è possibile utilizzare una funzione di ricerca per trovare rapidamente il documento e registrarlo per elaborare il pagamento. Per ulteriori informazioni, vedere [Per trovare un documento di vendita specifico non completamente fatturato](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Se un pagamento della banca non è rappresentato da alcun documento in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile aprire una riga di registrazione COGE precompilata nella pagina **Registrazione pagamenti** per registrare il pagamento direttamente nella contropartita senza collegarlo a un documento. In alternativa, è consigliabile inserire il pagamento nelle registrazioni fino a chiarire l'origine del pagamento. Per ulteriori informazioni, vedere la sezione "Per registrare un pagamento senza un documento correlato".  
+Se un pagamento della banca non è rappresentato da alcun documento in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile aprire una riga di registrazione COGE precompilata nella pagina **Registrazione pagamenti** per registrare il pagamento direttamente nella contropartita senza collegarlo a un documento. In alternativa, è consigliabile inserire il pagamento nelle registrazioni fino a chiarire l'origine del pagamento. Per ulteriori informazioni, vedere [Per registrare un pagamento senza un documento correlato](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Per elaborare manualmente i pagamenti clienti con sconti
 Se è stato pattuito uno sconto nei pagamenti con il cliente, gli importi del pagamento possono essere inferiori rispetto agli importi della fattura se il pagamento viene eseguito prima della data dello sconto stabilita.  
@@ -187,4 +187,3 @@ Se la riga di registrazione non viene registrata, verrà aggiunta al valore del 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

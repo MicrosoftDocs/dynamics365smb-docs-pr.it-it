@@ -1,8 +1,8 @@
 ---
-title: "Impostare le attività bancarie| Documenti Microsoft"
+title: Impostare le attività bancarie| Documenti Microsoft
 description: Utilizzare le schede di conto corrente bancario per tenere traccia dei conti bancari e impostare i feed della banca, ad esempio Yodlee, per scambiare dati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801947"
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
@@ -35,4 +35,3 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

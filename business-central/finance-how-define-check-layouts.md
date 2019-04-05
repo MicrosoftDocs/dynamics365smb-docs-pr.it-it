@@ -1,8 +1,8 @@
 ---
 title: Specificare il layout di un assegno| Documenti Microsoft
-description: "È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard."
+description: È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801900"
 ---
 # <a name="define-check-layouts"></a>Definire i layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -43,4 +43,3 @@ Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pa
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-

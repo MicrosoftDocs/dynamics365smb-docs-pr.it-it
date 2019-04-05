@@ -1,21 +1,21 @@
 ---
 title: Creazione di articoli in assistenza | Documenti Microsoft
-description: "Quando si riceve un articolo non registrato per l'assistenza è possibile registrarlo come articolo in assistenza."
+description: Quando si riceve un articolo non registrato per l'assistenza è possibile registrarlo come articolo in assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801060"
 ---
 # <a name="create-service-items"></a>Creare articoli in assistenza
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], il termine "articolo in assistenza" si riferisce alle attrezzature o agli articoli che necessitano di assistenza. Quando si crea un ordine di assistenza, si specificano gli articoli che necessitano di assistenza. Nell'ordine, è possibile collegare un articolo in assistenza a un articolo in magazzino o a un gruppo di articoli in assistenza.    
@@ -62,4 +62,3 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
-

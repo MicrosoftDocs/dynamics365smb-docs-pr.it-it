@@ -2,7 +2,7 @@
 title: Gestire i segmenti e selezionare i contatti da includere| Documenti Microsoft
 description: Descrive i task per creare un segmento per selezionare un gruppo di contatti in base a criteri specifici, ad esempio, contatti in un settore specifico a cui si desidera rivolgersi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801995"
 ---
 # <a name="managing-segments"></a>Gestione dei segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti in base a criteri specifici. Un segmento potrebbe essere ad esempio il settore industriale a cui appartengono i contatti o la propria relazione d'affari con i contatti. È possibile creare un segmento per selezionare i contatti da utilizzare come target di una campagna.
@@ -39,4 +39,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

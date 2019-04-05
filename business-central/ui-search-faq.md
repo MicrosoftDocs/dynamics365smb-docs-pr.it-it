@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801926"
 ---
 # <a name="tell-me-faq"></a>Domande frequenti relative alle informazioni
 Questo argomento risponde alle domande che gli utenti avanzati spesso pongono sulla nuova funzionalità delle informazioni, che ha sostituito la precedente funzionalità di ricerca della pagina nota come **Trova pagine e report**.
@@ -43,4 +43,3 @@ Gli articoli della guida vengono visualizzati nella lingua specificata in **Impo
 
 ## <a name="see-also"></a>Vedi anche  
 [Individuazione di funzionalità e informazioni](ui-search.md)
-

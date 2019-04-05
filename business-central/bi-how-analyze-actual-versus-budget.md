@@ -2,7 +2,7 @@
 title: Analisi degli importi effettivi e degli importi di budget| Documenti Microsoft
 description: Descrive come analizzare gli importi effettivi e gli importi di budget.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b21354a29c275013b7832459daec392efa6d751d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800897"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
@@ -71,4 +71,3 @@ Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'inter
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

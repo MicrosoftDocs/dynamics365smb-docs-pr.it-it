@@ -1,7 +1,7 @@
 ---
 title: Migrare i dati da Dynamics GP tramite l'estensione per la migrazione dei dati | Documenti Microsoft
-description: "Utilizzare l'estensione per la migrazione dei dati di Dynamics GP per migrare i dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a Business Central."
-documentationcenter: 
+description: Utilizzare l'estensione per la migrazione dei dati di Dynamics GP per migrare i dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a Business Central.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: it-it
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801215"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Estensione di migrazione dei dati Dynamics GP 
 L'estensione semplifica la migrazione dei dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione di migrazione è utilizzabile con tutte le versioni supportate di Microsoft Dyanmics GP. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
@@ -60,4 +60,3 @@ L'ultima opzione visualizzate nella procedura guidata di migrazione dati per Dyn
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di [!INCLUDE[prodshort](includes/prodshort.md)] utilizzando le estensioni ](ui-extensions.md)  
-

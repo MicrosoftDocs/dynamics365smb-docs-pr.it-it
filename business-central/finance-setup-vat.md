@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801438"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Impostazione dei calcoli e registrazione dei metodi per l'IVA
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
 
@@ -271,4 +270,3 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 [Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
 [Procedura: Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801223"
 ---
 # <a name="creating-contact-persons"></a>Creazione di contatti
 La creazione di un contatto avviene impostando un'apposita scheda contatto per la persona. È possibile creare persone di contatto da società di contatto esistenti oppure creare contatti indipendenti.
@@ -44,8 +45,6 @@ Registrando il numero più elevato possibile di dettagli su un contatto, tutti i
 >   Il contenuto dei campi selezionati nella sezione **Eredità** nella pagina **Setup marketing** verrà copiato dalla società alle persone all'interno di tale società.
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di società contatto](marketing-create-contact-companies.md)  
-[Creazione di contatti](marketing-create-contact-persons.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

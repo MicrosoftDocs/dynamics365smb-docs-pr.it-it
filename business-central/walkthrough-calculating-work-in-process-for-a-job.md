@@ -2,22 +2,22 @@
 title: 'Procedura dettagliata: Calcolo del valore WIP per una commessa | Documenti Microsoft'
 description: Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801984"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
@@ -166,4 +166,3 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
  [Metodi WIP](projects-understanding-wip.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

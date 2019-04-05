@@ -1,6 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Pianificazione approvvigionamento | Microsoft Docs'
-description: "Questo argomento fornisce una sintesi dei concetti e dei principi utilizzati nelle funzionalità di pianificazione degli approvvigionamenti in Business Central."
+description: Questo argomento fornisce una sintesi dei concetti e dei principi utilizzati nelle funzionalità di pianificazione degli approvvigionamenti in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 92496f25d354dd766acd8d301546a5bf4f36c1e3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b506561b35cab1fafd4cac05a71de988761cac8
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801122"
 ---
 # <a name="design-details-supply-planning"></a>Dettagli di progettazione: Pianificazione approvvigionamento
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di pianificazione degli approvvigionamenti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,4 +31,3 @@ Viene descritto il funzionamento del sistema di pianificazione e viene spiegato 
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
 [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
-

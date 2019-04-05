@@ -1,6 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Parametri di pianificazione | Microsoft Docs'
-description: "In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in Business Central."
+description: In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801667"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La modalità in cui l'approvvigionamento degli articoli è controllato dal siste
 |-------------|---------------|  
 |Definire se l'articolo deve essere pianificato|Metodo di riordino = Vuoto|  
 |Definire quando riordinare|Intervallo di tempo<br /><br /> Punto riordino<br /><br /> Lead time di sicurezza|  
-|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />- Ordine<br />-   Lotto-per-Lotto|  
+|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordinamento<br />-   Lotto-per-Lotto|  
 |Ottimizzare il momento e la quantità di riordino|Periodo di riprogrammazione<br /><br /> Periodo di accumulo lotti<br /><br /> Periodo di stabilizzazione|  
 |Modificare gli ordini di approvvigionamento|Quantità minima ordine<br /><br /> Quantità massima ordine<br /><br /> Molteplicità ordine|  
 |Delimitare l'articolo pianificato|Politica di produzione:<br /><br /> -   Prod. per Magazzino<br />-   Prod. su Ordine|  
@@ -44,7 +44,7 @@ Il campo **Intervallo di tempo** viene utilizzato dai criteri dei punti di riord
 
 Il lead time di sicurezza predefinito, nella pagina **Setup manufacturing**, deve essere impostato su almeno un giorno. La data di scadenza della domanda può essere nota, ma non l'ora di scadenza. Le righe di pianificazione retrocedono per soddisfare la domanda lorda e, se non viene definito alcun lead time di sicurezza, le merci possono giungere troppo tardi per soddisfare la domanda.  
 
-I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere la sezione "Ottimizzare il momento e la quantità di riordino".  
+I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definire la quantità da riordinare  
 Se il sistema di pianificazione rileva la necessità di un riordino, il metodo di riordino selezionato viene utilizzato per determinare quando e quanto ordinare.  
@@ -57,7 +57,7 @@ Indipendentemente dal metodo di riordino, il sistema di pianificazione in genere
 4. Se esiste più domanda lorda dovuta prima della data finale della proposta di ordine programmata in avanti e questa domanda porta le scorte disponibili previste calcolate correntemente al di sotto della scorta di sicurezza, la quantità dell'ordine viene aumentata per coprire il disavanzo. L'ordine di approvvigionamento suggerito viene pianificato a ritroso dalla data di scadenza della domanda lorda che avrebbe violato la scorta di sicurezza.  
 5. Se il campo **Intervallo di tempo** non è compilato, verrà aggiunta solo la domanda lorda nella stessa data di scadenza.  
 
-     I seguenti campi relativi al periodo di riordino giocano un ruolo nella definizione della quantità da riordinare: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere la sezione "Ottimizzare il momento e la quantità di riordino".  
+     I seguenti campi relativi al periodo di riordino giocano un ruolo nella definizione della quantità da riordinare: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Metodi di riordino  
 I seguenti metodi di riordino influiscono sulla quantità da riordinare.  
@@ -118,4 +118,3 @@ Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione 
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)
-

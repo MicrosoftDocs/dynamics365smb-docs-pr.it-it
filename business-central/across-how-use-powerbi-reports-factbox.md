@@ -1,8 +1,8 @@
 ---
-title: Visualizzare i report personalizzati di Power BI| Documenti Microsoft
-description: "È possibile usare i report Power BI per ottenere informazioni aggiuntive sui dati negli elenchi."
+title: Visualizzare i report personalizzati di Power BI | Microsoft Docs
+description: È possibile usare i report Power BI per ottenere informazioni aggiuntive sui dati negli elenchi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: it-it
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801304"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare i report personalizzati da visualizzare in questo controllo, ma vi sono alcune regole da seguire nella creazione di report per assicurare il comportamento desiderato.  
@@ -58,7 +58,7 @@ Quando si salva il report, è una buona pratica che il nome del report contenga 
 
 Questo non è un requisito; tuttavia, renderà il processo di selezione dei report più veloce. Quando la pagina di selezione dei report viene aperta da una pagina elenco, si passerà in un filtro in base al nome della pagina per limitare i report da visualizzare.  È possibile rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
-## <a name="troubleshooting"></a>Troubleshooting
+## <a name="troubleshooting"></a>Risoluzione dei problemi
 In questa sezione viene fornita una soluzione alternativa per i problemi più comuni che si verificano quando si creano report Power BI.  
 
 **L'utente non visualizza un report che desidera selezionare nella pagina di selezione report.** Se non è possibile selezionare un report, è possibile verificare il nome del report per assicurarsi che esso contenga il nome della pagina elenco. È anche possibile rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
@@ -76,4 +76,3 @@ Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvar
 [Introduzione](product-get-started.md)    
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finanze](finance.md)  
-

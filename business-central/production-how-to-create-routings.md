@@ -1,23 +1,23 @@
 ---
 title: Come creare cicli | Microsoft Docs
-description: "Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella pagina **Cicli ordini produzione** nell'ordine di produzione."
+description: Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella pagina **Cicli ordini produzione** nell'ordine di produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802174"
 ---
 # <a name="create-routings"></a>Creare cicli
 Le aziende manifatturiere utilizzano i cicli per visualizzare e gestire il processo di produzione.
@@ -43,11 +43,11 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 6.  Nel campo **Nr. operazione** immettere il numero della prima operazione, ad esempio **10**.  
 7.  Specificare nel campo **Tipo** il tipo di risorsa utilizzata, ad esempio **Area di produzione**.  
 8.  Nel campo **Nr.** selezionare la risorsa da utilizzare oppure immetterla nel campo.  
-9.  Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere la sezione "Per creare collegamenti ciclo".
-10.  Nei campi **Tempo Lavorazione** e **Tempo di Setup** specificare i tempi di processo necessari per l'esecuzione dell'operazione.  
+9.  Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere [Per creare collegamenti ciclo](production-how-to-create-routings.md#to-create-routing-links).
+10.  Nei campi **Tempo Lavorazione** e **Tempo di Setup** specificare i tempi di processo necessari per l'esecuzione dell'operazione.
 
-    > [!NOTE]  
-    >  il tempo di setup viene calcolato per ordine di produzione, mentre il tempo di lavorazione viene calcolato per articolo prodotto.  
+    > [!NOTE]
+    > il tempo di setup viene calcolato per ordine di produzione, mentre il tempo di lavorazione viene calcolato per articolo prodotto.  
 
 11.  Nel campo **Capacità simultanee** , specificare il numero di unità della risorsa selezionata da utilizzare per eseguire l'operazione. Ad esempio, se si assegnano due persone a un'operazione di imballaggio si dimezzerà il tempo di lavorazione.  
 12.  Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
@@ -126,4 +126,3 @@ La validità temporale della versione viene specificata nel campo **Data di Iniz
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

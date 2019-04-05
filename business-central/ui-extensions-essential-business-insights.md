@@ -1,7 +1,7 @@
 ---
 title: Visualizzare informazioni dettagliate interattive nelle Gestioni ruolo utente | Documenti di Microsoft
 description: L'estensione Informazioni aziendali essenziali ruota una serie di informazioni dettagliate aziendali nelle Gestioni ruolo utente.
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801454"
 ---
-
 # <a name="the-essential-business-insights-extension"></a>Estensione Informazioni aziendali essenziali
 L'estensione Informazioni aziendali essenziali consente di trovare informazioni aziendali utili nei dati dell'azienda e le visualizza come titoli di giornale nelle Gestioni ruolo utente. A seconda di ciò che l'estensione trova nei dati, le informazioni dettagliate sono relative alla settimana, al mese o ai tre mesi precedenti la data corrente. Le informazioni dettagliate vengono aggiornate ogni 10 minuti.  
 
@@ -39,4 +38,3 @@ Nella tabella seguente vengono descritte le informazioni dettagliate che questa 
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)
-

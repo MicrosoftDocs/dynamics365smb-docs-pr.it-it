@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801352"
 ---
 # <a name="transfer-inventory-between-locations"></a>Trasferire il magazzino tra le ubicazioni
 È possibile trasferire articoli di magazzino tra ubicazioni creando ordini di trasferimento. In alternativa, è possibile utilizzare le registrazioni di riclassificazione articoli.
@@ -25,7 +25,7 @@ Con gli ordini di trasferimento, si spedisce il trasferimento in uscita da un'ub
 Con la registrazione di riclassificazione, si compila semplicemente i campi **Codice ubicazione** e **Nuovo codice ubicazione**. Quando si contabilizza la registrazione, i movimenti contabili articoli vengono rettificati nelle ubicazioni in questione. Con questo metodo, le attività di warehouse non vengono gestite.
 
 > [!NOTE]  
->   Se sono stati registrati articoli in magazzino senza un codice ubicazione, ad esempio a partire da un periodo in cui era disponibile solo una warehouse, non è possibile trasferire gli articoli tramite ordini di trasferimento. Al contrario, è necessario utilizzare le registrazioni di riclassificazione per riclassificare gli articoli da un codice di un'ubicazione vuota a un codice di ubicazione effettiva.  Per ulteriori informazioni, vedere il passaggio 3 nella sezione "Per trasferire gli articoli con le registrazioni di riclassificazione articolo".
+>   Se sono stati registrati articoli in magazzino senza un codice ubicazione, ad esempio a partire da un periodo in cui era disponibile solo una warehouse, non è possibile trasferire gli articoli tramite ordini di trasferimento. Al contrario, è necessario utilizzare le registrazioni di riclassificazione per riclassificare gli articoli da un codice di un'ubicazione vuota a un codice di ubicazione effettiva.  Per ulteriori informazioni, vedere il passaggio 3 in [Per trasferire gli articoli con le registrazioni di riclassificazione articolo](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono essere impostati. Per ulteriori informazioni, vedere [Impostare le ubicazioni](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ Per trasferire gli articoli, le ubicazioni e i percorsi di trasferimento devono 
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-

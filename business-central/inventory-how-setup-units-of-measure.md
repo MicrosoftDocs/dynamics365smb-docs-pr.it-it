@@ -1,8 +1,8 @@
 ---
-title: "Procedura: Impostare unità di misura articolo | Documenti Microsoft"
-description: "È possibile impostare più unità di misura per un articolo in modo da poter assegnare le unità di misura all'articolo."
+title: 'Procedura: Impostare unità di misura articolo | Documenti Microsoft'
+description: È possibile impostare più unità di misura per un articolo in modo da poter assegnare le unità di misura all'articolo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802330"
 ---
 # <a name="set-up-item-units-of-measure"></a>Impostare unità di misura articolo
 È possibile impostare più unità di misura per un articolo in modo da poter assegnare le unità di misura all'articolo per i seguenti scopi:
@@ -63,4 +63,3 @@ Se si è soliti effettuare acquisti o vendite utilizzando unità di misura diver
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

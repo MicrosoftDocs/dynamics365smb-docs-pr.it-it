@@ -2,22 +2,22 @@
 title: Come aggiungere campi a un layout di report Word | Microsoft Docs
 description: Descrive come aggiungere campi di un set di dati del report a un layout di report Word esistente per un report.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/22/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
 ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/25/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802171"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -125,4 +125,3 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 ## <a name="see-also"></a>Vedi anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
-

@@ -1,5 +1,5 @@
 ---
-title: "Individuazione di funzionalità e informazioni | Documenti di Microsoft"
+title: Individuazione di funzionalità e informazioni | Documenti di Microsoft
 description: In questo argomento viene descritto come utilizzare la ricerca per trovare azioni, pagine, report, documentazione e dati.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801830"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni  
 Questo argomento descrive i vari modi in cui le informazioni possono aiutare a trovare rapidamente un'azione, una pagina, un report o le procedure per un'operazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] se non si è sicuri.  

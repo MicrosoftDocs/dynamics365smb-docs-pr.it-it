@@ -1,8 +1,8 @@
 ---
-title: "Elaborare le opportunità di vendita nei cicli di vendita| Documenti Microsoft"
-description: "È possibile visualizzare, chiudere o eliminare le opportunità di vendita ed è anche possibile creare offerte e ordini di vendita per opportunità e spostare un'opportunità fra le fasi di un ciclo di vendita."
+title: Elaborare le opportunità di vendita nei cicli di vendita| Documenti Microsoft
+description: È possibile visualizzare, chiudere o eliminare le opportunità di vendita ed è anche possibile creare offerte e ordini di vendita per opportunità e spostare un'opportunità fra le fasi di un ciclo di vendita.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801872"
 ---
 # <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
@@ -87,4 +87,3 @@ Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

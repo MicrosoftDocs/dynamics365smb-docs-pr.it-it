@@ -1,8 +1,8 @@
 ---
 title: Impostazioni di ruoli professionali per i contatti| Documenti Microsoft
-description: "È possibile definire un codice ruolo professionale e assegnarlo a un contatto per indicare i task per cui il contatto è responsabile nella propria società, ad esempio IT o produzione."
+description: È possibile definire un codice ruolo professionale e assegnarlo a un contatto per indicare i task per cui il contatto è responsabile nella propria società, ad esempio IT o produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801172"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Impostare i ruoli professionali per i contatti
 È possibile aggiungere informazioni sui ruoli professionali che indicano il ruolo svolto dal contatto all'interno della propria società, ad esempio IT, gestione o produzione. È possibile utilizzare queste informazioni quando si inseriscono informazioni sui contatti.
@@ -45,7 +45,5 @@ Il numero di ruoli professionali assegnati al contatto viene visualizzato nella 
 Dopo avere assegnato i ruoli professionali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di contatti](marketing-create-contact-persons.md)  
-[Creazione di società contatto](marketing-create-contact-companies.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

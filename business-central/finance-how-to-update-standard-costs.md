@@ -1,23 +1,23 @@
 ---
 title: Come aggiornare i costi standard | Microsoft Docs
-description: "Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre."
+description: Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801867"
 ---
 # <a name="update-standard-costs"></a>Aggiornare i costi standard
 Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre. Il processo in genere è costituito dai quattro passaggi seguenti:  
@@ -45,6 +45,5 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
 ## <a name="see-also"></a>Vedi anche  
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
- [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [[Contabilità](finance.md)]  
+ [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [Contabilità](finance.md)]  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

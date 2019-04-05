@@ -1,23 +1,23 @@
 ---
 title: Come impostare calendari di base | Microsoft Docs
-description: "È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione."
+description: È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801802"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
@@ -41,7 +41,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
 
 > [!IMPORTANT]  
 >  Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
-Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere la sezione "Calcolo Lead Time".
+Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Calcolo lead time
 Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi. Di conseguenza, i due campi data principali nelle righe ordine di acquisto vengono calcolati come segue secondo condizioni diverse.
@@ -55,7 +55,7 @@ Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce 
 > Oltre al calcolo del lead time che influisce sulla data di carico pianificata e sulla data ordine, come illustrato nella tabella di cui sopra, il tempo di gestione warehouse e lead time di sicurezza possono essere aggiunti alle formule per comporre il valore nel campo **Data carico prevista** come segue: Data carico pianificato + Lead time di sicurezza + Tempo gestione entrata da magazzino = Data carico prevista..
 
 > [!Important]
-> Se l'ubicazione utilizza un calendario significativamente diverso rispetto ai fornitori, è importante impostare calendari specifici per tali fornitori, per calcolare i lead time fornitore ottimali. Per ulteriori informazioni su come impostare i calendari fornitore, vedere la sezione "Per assegnare un calendario di base".
+> Se l'ubicazione utilizza un calendario significativamente diverso rispetto ai fornitori, è importante impostare calendari specifici per tali fornitori, per calcolare i lead time fornitore ottimali. Per ulteriori informazioni su come impostare i calendari fornitore, vedere [Per assegnare un calendario di base](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella pagina **Catalogo articolo fornitori**, se il lead time è definito per il fornitore.
 
@@ -119,4 +119,3 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 [Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801052"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importazione dei dati aziendali da altri sistemi contabili
 Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile scegliere di creare una società vuota nella quale caricare i propri dati e testare la nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)]. A seconda della soluzione contabile che l'azienda utilizza correntemente, è possibile trasferire le informazioni sui conti clienti, fornitori, magazzino e bancari.  
@@ -81,4 +81,3 @@ Il pacchetto di configurazione di default supporta le seguenti tabelle:
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

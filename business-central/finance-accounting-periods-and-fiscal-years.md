@@ -1,23 +1,23 @@
 ---
 title: Utilizzare periodi contabili e anni fiscali | Microsoft Docs
-description: "Informazioni su come utilizzare periodi contabili per stabilire quando la società genera report sulle prestazioni finanziarie."
+description: Informazioni su come utilizzare periodi contabili per stabilire quando la società genera report sulle prestazioni finanziarie.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 08/13/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802326"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilizzo di periodi contabili e anni fiscali
 I periodi contabili sono periodi di tempo per i quali una società o un'organizzazione crea report sulle prestazioni finanziarie, ad esempio, generando il relativo conto economico o conto patrimoniale. In genere, i periodi contabili fanno riferimento all'anno fiscale della società, che può contenere diversi periodi contabili, ad esempio mesi o trimestri.
@@ -66,7 +66,6 @@ Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti 
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
   
-
 
 
 

@@ -1,23 +1,23 @@
 ---
 title: Come rimuovere e ricollegare movimenti articoli | Microsoft Docs
-description: "È possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino."
+description: È possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801104"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -80,4 +80,3 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

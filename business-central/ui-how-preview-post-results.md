@@ -1,8 +1,8 @@
 ---
 title: Anteprima dei movimenti prima della contabilizzazione di una registrazione o di un documento | Documenti Microsoft
-description: "È possibile verificare che i movimenti relativi ai documenti e alle registrazioni siano accurati, prima di registrarli in contabilità generale."
+description: È possibile verificare che i movimenti relativi ai documenti e alle registrazioni siano accurati, prima di registrarli in contabilità generale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802321"
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
 In ogni documento e registrazione che è possibile contabilizzare, è possibile scegliere il pulsante **Anteprima registrazione** per esaminare i differenti tipi di movimenti che saranno creati quando si registra il documento o le registrazioni.
@@ -31,5 +31,4 @@ In ogni documento e registrazione che è possibile contabilizzare, è possibile 
 ## <a name="see-also"></a>Vedi anche
 [Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

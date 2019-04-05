@@ -1,7 +1,7 @@
 ---
 title: 'Procedura: Rintracciare i colli | Documenti Microsoft'
-description: "È possibile utilizzare il servizio di tracciabilità degli spedizionieri per vedere lo stato di avanzamento di una consegna."
-documentationcenter: 
+description: È possibile utilizzare il servizio di tracciabilità degli spedizionieri per vedere lo stato di avanzamento di una consegna.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801949"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 Molti spedizionieri forniscono dei servizi via Internet che consentono di seguire il percorso di pacchi che sono stati loro affidati. Se ci si avvale di spedizionieri che offrono questo tipo di servizio può risultare molto utile impostare delle informazioni di base che vengono utilizzate per rintracciare automaticamente le spedizioni registrate. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md).  
@@ -35,4 +35,3 @@ La pagina di tracciabilità dello spedizioniere viene aperta nel browser predefi
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

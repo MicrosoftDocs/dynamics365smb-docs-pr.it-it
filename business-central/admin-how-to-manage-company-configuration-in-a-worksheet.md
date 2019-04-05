@@ -1,23 +1,23 @@
 ---
-title: "Gestione della configurazione della società in un foglio di lavoro | Documenti Microsoft"
-description: "Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un prospetto per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo."
+title: Gestione della configurazione della società in un foglio di lavoro | Documenti Microsoft
+description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un prospetto per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801971"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  
@@ -74,7 +74,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
     > Esempio: se si ottengono le tabelle correlate per la tabella **Cliente**, la tabella **Ubicazione** non verrà aggiunta poiché è correlata solo in modo condizionale alla tabella **Cliente**, ovvero se il campo **Codice ubicazione** nella tabella **Cliente** è compilato.  
     > - La tabella correlata è filtrata.  
     > Esempio: un campo nella tabella relativa dispone di una clausola WHERE. La ragione è che le informazioni implicate di relazioni vengono archiviate nella tabella virtuale **Campo** e non sono disponibili nelle pagine quali il prospetto di configurazione per i motivi di prestazione.  
-    > È necessario aggiungere le tabelle correlate caratterizzate da relazioni particolarmente complesse manualmente seguendo il passaggio 4 nella sezione "Per aggiungere una tabella al foglio di lavoro".
+    > È necessario aggiungere le tabelle correlate caratterizzate da relazioni particolarmente complesse manualmente seguendo il passaggio 4 nella sezione [Per aggiungere una tabella al foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Per eliminare tabelle dalla lista delle tabelle risultante, selezionare una tabella da rimuovere, quindi scegliere l'azione **Elimina**.  
 
@@ -128,4 +128,3 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

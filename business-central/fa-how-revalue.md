@@ -2,21 +2,21 @@
 title: Rivalutare i cespiti| Documenti Microsoft
 description: Informazioni su come rettificare il valore dei cespiti, registrando i nuovi importi come svalutazione o rivalutazione e registrare i costi di acquisto aggiuntivi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bdb382f350e3edbb3e76bac1272ba534fcec8ad4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801640"
 ---
 # <a name="revalue-fixed-assets"></a>Rivalutazione dei cespiti
 La rivalutazione dei cespiti può essere costituita da rivalutazioni, svalutazioni o rettifiche dei valori generali.
@@ -34,7 +34,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
 
     > [!NOTE]  
-    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
@@ -44,7 +44,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
 
     > [!NOTE]  
-    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+    >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
@@ -122,4 +122,3 @@ Se non è stata selezionata la casella di controllo **Ammort. alla data reg. ces
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

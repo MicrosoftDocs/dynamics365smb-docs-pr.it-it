@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801781"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
 Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
@@ -58,4 +58,3 @@ I movimenti interessati vengono registrati nella società e una registrazione co
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

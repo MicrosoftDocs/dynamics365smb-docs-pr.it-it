@@ -2,22 +2,22 @@
 title: Stato ordine assistenza e stato riparazione | Documenti Microsoft
 description: Il campo Stato nella pagina Ordine assistenza e lo stato di riparazione dell'ordine di assistenza, rappresentato dal campo Codice stato riparazione nella pagina Ordine assistenza, sono correlati in Gestione assistenza. Lo stato dell'ordine di assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine di assistenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a7ef1f214bda9c78113b320ddbd331b5a3e7de33
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801246"
 ---
 # <a name="service-order-status-and-repair-status"></a>Stato ordine assistenza e stato riparazione
 Il campo **Stato** nella pagina **Ordine assistenza** e lo stato di riparazione dell'ordine di assistenza, rappresentato dal campo **Codice stato riparazione** nella pagina **Ordine assistenza**, sono correlati in Gestione assistenza. Lo stato dell'ordine di assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine di assistenza.  
@@ -65,4 +65,3 @@ Se ad esempio un articolo in assistenza ha lo stato di riparazione **Iniziale**,
 ## <a name="see-also"></a>Vedi anche  
 [Impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-

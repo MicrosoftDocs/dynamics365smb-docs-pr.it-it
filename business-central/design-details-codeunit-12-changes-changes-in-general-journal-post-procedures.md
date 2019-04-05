@@ -1,5 +1,5 @@
 ---
-title: "Dettagli di progettazione: Modifiche relative alla codeunit 12 nelle procedure di registrazione di contabilità generale | Microsoft Docs"
+title: 'Dettagli di progettazione: Modifiche relative alla codeunit 12 nelle procedure di registrazione di contabilità generale | Microsoft Docs'
 description: Le seguenti modifiche sono state implementate in questa versione di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6f28cf8e465a6c9f29ddf7bd1ac5db54896802cd
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09e52a35909c21eaaf9d2eab37b19dc947a2a8dd
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801308"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Modifiche relative alla codeunit 12: modifiche nelle procedure di registrazione di contabilità generale
 Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -190,4 +190,3 @@ Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d3
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Modifiche relative alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
-

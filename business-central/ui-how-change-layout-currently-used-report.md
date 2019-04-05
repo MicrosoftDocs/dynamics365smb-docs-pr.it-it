@@ -1,8 +1,8 @@
 ---
 title: Modificare l'aspetto di un report selezionando un layout diverso | Documenti Microsoft
-description: "È possibile utilizzare diversi layout per un report e passate tra i layout per modificare l'aspetto di un report."
+description: È possibile utilizzare diversi layout per un report e passate tra i layout per modificare l'aspetto di un report.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802339"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Modificare il layout attualmente utilizzato in un report
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
@@ -48,4 +48,3 @@ Verrà visualizzata nuovamente la pagina **Selezione layout report**. Il nome de
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

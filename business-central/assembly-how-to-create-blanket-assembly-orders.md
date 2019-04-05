@@ -1,8 +1,8 @@
 ---
 title: 'Procedura: Creare ordini di assemblaggio programmati | Documenti Microsoft'
-description: "Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita."
+description: Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
-ms.contentlocale: it-it
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802050"
 ---
 # <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -49,4 +49,3 @@ L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni so
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

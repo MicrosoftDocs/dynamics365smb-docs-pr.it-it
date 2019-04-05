@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a48bb2ab210d954901e8fb39b6e6ec59670bdee4
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801073"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. Inoltre, è necessario impostare le aree correlate, ad esempio i dati principali per i clienti a cui si inviano fatture elettroniche o il servizio di conversione dati bancari nel caso in cui si utilizzi il provider di servizi esterno per convertire i propri file bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -43,4 +43,3 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 [Scambio di dati](across-exchange-data.md)   
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-

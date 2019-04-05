@@ -1,23 +1,23 @@
 ---
-title: 'Procedura: Spostare componenti in un''area di operazione nelle configurazioni della warehouse di base | Documenti Microsoft'
+title: "Procedura: Spostare componenti in un'area di operazione nelle configurazioni della warehouse di base | Documenti Microsoft"
 description: Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801482"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.  
@@ -44,7 +44,7 @@ In alternativa, un lavoratore warehouse può crearlo scegliendo l'ordine di asse
 > [!NOTE]  
 >  Se la movimentazione riguarda un ordine di assemblaggio in cui l'articolo è assemblato in base a un ordine di vendita, è possibile definire che il documento di movimento di magazzino viene creato automaticamente quando si crea il documento di prelievo magazzino che accetta l'articolo di assemblaggio completato e registra la spedizione. Per impostare questa operazione, selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio**.  
 >   
->  Per ulteriori informazioni sugli ordini di assemblaggio e nelle configurazioni di base della warehouse, vedere la sezione "Gestione di articoli da assemblare su ordine con prelievi magazzino" in [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).  
+>  Per ulteriori informazioni sugli ordini di assemblaggio e sulle configurazioni di warehouse di base, vedere [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 La procedura seguente mostra come creare un movimento di magazzino nella pagina **Movimento di magazzino** facendo riferimento a un ordine di assemblaggio rilasciato come documento di origine. La procedura è la stessa quando si spostano componenti per gli ordini di produzione e gli ordini di assistenza.  
 
@@ -79,4 +79,3 @@ La procedura seguente mostra come creare un movimento di magazzino nella pagina 
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

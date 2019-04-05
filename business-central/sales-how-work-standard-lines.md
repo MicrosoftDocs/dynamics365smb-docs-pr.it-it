@@ -1,8 +1,8 @@
 ---
 title: Impostare righe standard per vendite e acquisti ricorrenti| Documenti Microsoft
-description: "È possibile impostare righe di vendita e acquisto più frequentemente usate e quindi inserirle nei documenti di vendita e di acquisto per compilare rapidamente le righe con informazioni standard."
+description: È possibile impostare righe di vendita e acquisto più frequentemente usate e quindi inserirle nei documenti di vendita e di acquisto per compilare rapidamente le righe con informazioni standard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802287"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
@@ -50,7 +50,7 @@ Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle i
 4. Nella pagina **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.
 
     > [!NOTE]
-    > Per utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, è necessario anche compilare i campi **Data di inizio validità** e **Data di fine validità** nella pagina **Righe vendita ricorrenti**. Per ulteriori informazioni, vedere la sezione "Creare più fatture di vendita in base a codici vendite standard".
+    > Per utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, è necessario anche compilare i campi **Data di inizio validità** e **Data di fine validità** nella pagina **Righe vendita ricorrenti**. Per ulteriori informazioni, vedere [Per creare più fatture di vendita in base alle righe di vendita standard](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines).
 
 5. Scegliere il pulsante **OK** per inserire le righe di vendita standard della fattura, in cui è possibile riutilizzare la riga come è o modificarne le informazioni.
 
@@ -70,4 +70,3 @@ Le fatture di vendita vengono create per i clienti con il codice di vendita clie
 ## <a name="see-also"></a>Vedi anche  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

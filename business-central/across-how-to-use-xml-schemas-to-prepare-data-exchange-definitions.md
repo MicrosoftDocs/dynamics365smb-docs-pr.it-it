@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801914"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utilizzare gli schemi XML per preparare le definizioni di scambio dati
 Per abilitare l'importazione/esportazione di dati in file XML attraverso il framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile usare gli schemi XML per definire quali elementi di dati si desidera scambiare con [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile effettuare questa attività nella pagina **Visualizzatore schema XML** caricando il file di schema XML, selezionando gli elementi dati pertinenti e quindi inizializzando una definizione di scambio dati o un oggetto XMLport.  
@@ -69,7 +69,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice schema XML**|Specificare il file schema XML che è stato caricato nel passaggio 5 nella sezione "Per caricare un file schema XML".|  
-    |**Nuovo nr. XMLport**|Specificare il numero dell'oggetto XMLport che viene creato da questo schema XML quando si sceglie l'azione **Genera XMLPort**.|  
+    |**Nuovo nr. XMLport**|Specificare il numero dell'oggetto XMLport che viene creato da questo schema XML quando si sceglie l'azione **Genera XMLport**.|  
 
      Le righe sono ora compilate con nodi che rappresentano tutti gli elementi nello Schema XML. I nodi per gli elementi obbligatori secondo lo Schema XML vengono selezionati per impostazione predefinita.  
 
@@ -123,7 +123,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 4.  Assicurarsi che i nodi pertinenti siano selezionati. Per ulteriori informazioni, vedere la sezione "Per selezionare o rimuovere i nodi in uno schema XML".  
 
-5.  Nella scheda **Pagina iniziale**, nel gruppo **Processo**, scegliere **Genera XMLPort**, quindi salvare l'oggetto come file con estensione TXT nel percorso appropriato.  
+5.  Nella scheda **Pagina iniziale**, nel gruppo **Processo**, scegliere **Genera XMLport**, quindi salvare l'oggetto come file con estensione TXT nel percorso appropriato.  
 
 6. Importare il nuovo oggetto XMLport nell'ambiente di sviluppo di [!INCLUDE[d365fin](includes/d365fin_md.md)] e compilarlo.
 
@@ -132,4 +132,3 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 [Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)   
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)
-

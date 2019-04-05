@@ -1,8 +1,8 @@
 ---
 title: Utilizzare i dati per creare un'app| Documenti Microsoft
-description: "È possibile rendere disponibili i dati di Business Central come origine dati e specificare un URL OData dei service Web per creare un'app aziendale utilizzando PowerApps."
+description: È possibile rendere disponibili i dati di Business Central come origine dati e specificare un URL OData dei service Web per creare un'app aziendale utilizzando PowerApps.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 5c07daf590fb87d318d2d3dc656e17838f23de8a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802069"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Collegamento ai dati Business Central per creare un'app aziendale utilizzando PowerApps
 È possibile rendere disponibili i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati in PowerApps.  
@@ -58,4 +58,3 @@ A questo punto, è stata stabilita correttamente la connessione ai dati di Busin
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanze](finance.md)  
-

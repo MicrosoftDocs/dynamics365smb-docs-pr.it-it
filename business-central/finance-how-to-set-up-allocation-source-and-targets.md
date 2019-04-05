@@ -1,24 +1,24 @@
 ---
 title: Come impostare origini e destinazioni dell'allocazione | Microsoft Docs
-description: "Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati."
+description: Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802214"
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Impostare origini e destinazioni dell'allocazione
 Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati.  
@@ -48,4 +48,3 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
  [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)   
  [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

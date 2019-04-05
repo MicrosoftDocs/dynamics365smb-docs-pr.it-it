@@ -1,8 +1,8 @@
 ---
-title: "Informazioni sulla contabilità generale e COA| Documenti Microsoft"
-description: "Descrive la contabilità generale, il piano dei conti e le categorie dei conti."
+title: Informazioni sulla contabilità generale e COA| Documenti Microsoft
+description: Descrive la contabilità generale, il piano dei conti e le categorie dei conti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802039"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
@@ -65,4 +65,3 @@ Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un
 [Finanze](finance.md)  
 [Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Dettagli di progettazione: Tracciabilità articolo | Microsoft Docs"
-description: "Questo argomento fornisce una sintesi dei dettagli di progettazione per la tracciabilità articolo."
+title: 'Dettagli di progettazione: Tracciabilità articolo | Microsoft Docs'
+description: Questo argomento fornisce una sintesi dei dettagli di progettazione per la tracciabilità articolo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801101"
 ---
 # <a name="design-details-item-tracking"></a>Dettagli di progettazione: Tracciabilità articolo
 Quando il flusso delle merci nella catena di approvvigionamento odierna diventerà sempre più complesso, la capacità di tenere traccia degli articoli è sempre più importante per le società interessate. Il monitoraggio del flusso della transazione di un articolo è un requisito giuridico nell'attività di approvvigionamento medico e chimico, ma in altri settori è possibile che si desideri monitorare i prodotti con garanzie o date di scadenza per motivi di assistenza clienti.  
@@ -33,4 +33,3 @@ Un sistema di tracciabilità articolo deve offrire a una società la semplice ge
 [Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
-

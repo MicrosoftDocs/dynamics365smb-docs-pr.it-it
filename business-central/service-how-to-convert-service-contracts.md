@@ -1,21 +1,21 @@
 ---
 title: 'Procedura: Convertire i contratti di assistenza | Documenti Microsoft'
-description: "Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza."
+description: Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801228"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  
@@ -68,4 +68,3 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 [Finanze](finance.md)  
 [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-

@@ -1,6 +1,6 @@
 ---
 title: Riferimento rapido per tasti di scelta rapida
-description: "Un foglio di riferimento facile da stampare contenente i tasti di scelta rapida più utilizzati."
+description: Un foglio di riferimento facile da stampare contenente i tasti di scelta rapida più utilizzati.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801319"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Riferimento rapido per tasti di scelta rapida
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Copiare e incollare**|CTRL+C<br />CTRL+V<br />F8|Copiare righe<br />Incolla righe<br />Copiare il campo soprastante nella riga corrente|
 |**Cercare, filtrare e ordinare**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />MAIUSC+ALT+F3<br />Ctrl+Alt+Maiusc+F3|Attivare/disattivare la ricerca<br />Attivare/disattivare il riquadro dei filtri; spostare lo stato attivo sui filtri del campo<br />Attivare/disattivare il riquadro dei filtri; spostare lo stato attivo sui filtri dei totali<br />Filtrare il valore della cella selezionata<br />Aggiungere un filtro sul campo selezionato<br />Reimposta filtri|
 |**Visualizzare in anteprima un report**|Su/Giù<br />Destra/Sinistra<br />CTRL+HOME/FINE<br />PGGIÙ/SU|Scorrere la pagina verso il basso e verso l'alto<br />Scorrere a destra/sinistra <br />Passare alla prima/ultima pagina<br />Passare alla pagina precedente/successiva|
-

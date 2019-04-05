@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801264"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
 Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. È necessario disporre dei permessi necessari per creare i fogli presenze.
@@ -153,4 +153,3 @@ Dopo avere registrato i fogli presenze, è possibile archiviarli per riferimento
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)     
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

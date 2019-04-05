@@ -1,7 +1,7 @@
 ---
 title: Impostare cespiti| Documenti Microsoft
-description: "Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici."
-documentationcenter: 
+description: Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801595"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -46,4 +46,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

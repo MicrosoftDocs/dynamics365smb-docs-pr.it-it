@@ -1,21 +1,21 @@
 ---
-title: "Funzionalità di accessibilità"
-description: "Tasti di scelta rapida e altre funzionalità di accessibilità."
+title: Funzionalità di accessibilità
+description: Tasti di scelta rapida e altre funzionalità di accessibilità.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801132"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibilità e tasti di scelta rapida in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In questo argomento vengono fornite informazioni sulle funzionalità che rendono [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibile per gli utenti con esigenze particolari. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le seguenti funzionalità di accessibilità:  
@@ -69,4 +69,3 @@ In questo argomento vengono fornite informazioni sulle funzionalità che rendono
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
-

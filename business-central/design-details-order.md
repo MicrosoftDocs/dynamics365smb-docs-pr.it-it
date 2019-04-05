@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Ordine | Microsoft Docs'
 description: Questo argomento fornisce informazioni a collegamenti ordine-a-ordine in un ambiente di produzione su ordine.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, order
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 4152dfb744215034383239ea98847fbf7b5751e9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 38272b0d777c276c372893082680d89fc33e060c
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801601"
 ---
 # <a name="design-details-order"></a>Dettagli di progettazione: Ordine
 In un ambiente di produzione su ordine, un articolo viene acquistato o prodotto esclusivamente per coprire una domanda specifica. In genere si riferisce ad articoli A e le motivazioni per scegliere il metodo di riordino Ordine può essere quello di una domanda poco frequente, un lead time insignificante o la variazione degli attributi necessari.  
@@ -40,4 +40,3 @@ A differenza della maggior parte dei set di approvvigionamento-domanda, gli ordi
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

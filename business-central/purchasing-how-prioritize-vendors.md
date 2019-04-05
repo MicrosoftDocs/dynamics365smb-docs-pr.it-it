@@ -1,8 +1,8 @@
 ---
-title: "Assegnare un livello di priorità a un fornitore | Documenti Microsoft"
-description: "È possibile assegnare dei numeri ai fornitori per assegnare loro una priorità e semplificare i suggerimenti di pagamento in Business Central."
+title: Assegnare un livello di priorità a un fornitore | Documenti Microsoft
+description: È possibile assegnare dei numeri ai fornitori per assegnare loro una priorità e semplificare i suggerimenti di pagamento in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801372"
 ---
 # <a name="prioritize-vendors"></a>Attribuire un ordine di priorità ai fornitori
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
@@ -37,4 +37,3 @@ Se non si desidera dare la priorità a un fornitore, lasciare vuoto il campo **P
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

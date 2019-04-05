@@ -2,22 +2,22 @@
 title: Impostazione e pubblicazione di servizi Web KPI per situazioni contabili | Microsoft Docs
 description: In questo argomento viene descritto come visualizzare i dati KPI della situazione contabile in base alle situazioni contabili specifiche.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801543"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili
 Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta come visualizzare i dati KPI della situazione contabile e su quali situazioni contabili specifiche basare i KPI. Quando si sceglie il pulsante **Pubblica servizio Web**, i dati KPI della situazione contabile specificati vengono aggiunti all'elenco di servizi Web pubblicati nella pagina **Servizi Web**.  
@@ -57,4 +57,3 @@ Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

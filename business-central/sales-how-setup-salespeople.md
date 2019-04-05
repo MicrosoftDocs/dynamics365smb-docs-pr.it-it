@@ -1,6 +1,6 @@
 ---
 title: Impostare un agente | Documenti Microsoft
-description: "È possibile impostare un identificatore per ciascuno degli agenti, per tenere traccia delle prestazioni di ogni persona o per assegnare un agente a un contatto."
+description: È possibile impostare un identificatore per ciascuno degli agenti, per tenere traccia delle prestazioni di ogni persona o per assegnare un agente a un contatto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801120"
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
 Molte società basano sull'andamento di un singolo impiegato il calcolo della provvigione sulle vendite o del premio. Vedere, ad esempio, il report **Commissioni agente**. La società potrebbe anche decidere di assegnare un agente a ciascun contatto.
@@ -32,4 +32,3 @@ Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile sele
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

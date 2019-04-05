@@ -1,23 +1,23 @@
 ---
 title: Come specificare come e quando ricevere le notifiche | Microsoft Docs
-description: "Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle pagine Setup di notifica e Programmazione notifica come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante Modifica impostazioni di notifica per qualsiasi notifica."
+description: Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle pagine Setup di notifica e Programmazione notifica come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante Modifica impostazioni di notifica per qualsiasi notifica.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801743"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Specificare come e quando ricevere le notifiche
 Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle pagine **Setup di notifica** e **Programmazione notifica** come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante **Modifica impostazioni di notifica** per qualsiasi notifica.  
@@ -65,4 +65,3 @@ Quando si impostano gli utenti nei workflow di approvazione, è necessario speci
  [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801708"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analisi dei rendiconti finanziari in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile vedere i KPI e ottenere le sintesi dello stato finanziario della società. È inoltre possibile aprire elenchi in Excel e analizzarvi i dati. È inoltre possibile esportare rendiconti finanziari complessi, ad esempio il conto patrimoniale o il conto economico in Excel, analizzare i dati e stampare i report.  
@@ -46,4 +46,3 @@ Tramite il componente aggiuntivo è possibile ottenere dati aggiornati da [!INCL
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-

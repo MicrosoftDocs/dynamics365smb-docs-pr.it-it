@@ -1,23 +1,23 @@
 ---
 title: Come modificare i suggerimenti di pianificazione in una visualizzazione grafica | Microsoft Docs
-description: "Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica."
+description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801976"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
 Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
@@ -42,7 +42,7 @@ La seguente procedura illustra come modificare i suggerimenti di approvvigioname
     La pagina **Disponibilità articolo per sequenza temporale** verrà visualizzata con il numero di articolo, l'ubicazione e la variante dell'articolo nella riga di pianificazione selezionata precompilata della Scheda dettaglio **Opzioni**. La Scheda dettaglio **Sequenza temporale** mostra una rappresentazione grafica del magazzino previsto dell'articolo, inclusi i suggerimenti di pianificazione.  
 
 2.  Assicurarsi che il campo **Includi suggerimenti pianificazione** sia selezionato.  
-3.  Individuare l'ordine di approvvigionamento suggerito che si desidera modificare. È possibile identificare gli articoli modificabili dal cerchio verde e l'icona a forma di disco. Per ulteriori informazioni sui differenti simboli, vedere la sezione "Simboli e icone nella Scheda dettaglio Sequenza temporale".  
+3.  Individuare l'ordine di approvvigionamento suggerito che si desidera modificare. È possibile identificare gli articoli modificabili dal cerchio verde e l'icona a forma di disco. Per ulteriori informazioni sui differenti simboli, vedere [Simboli e icone nella Scheda dettaglio Sequenza temporale](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Selezionare il puntatore sul cerchio verde finché non si ingrandisce e il puntatore assume la forma Sposta (quattro frecce).  
 5.  Tenere premuto il pulsante del mouse mentre si trascina il puntatore verso l'alto o verso il basso per modificare la quantità. Tenere premuto il pulsante del mouse mentre si trascina il puntatore a sinistra o a destra per modificare la data di scadenza.  
 6.  Oltre che spostando gli elementi con il trascinamento, è possibile modificare i suggerimenti di pianificazione usando una serie di funzioni del menu a discesa. Accedere al menu a discesa facendo clic con il pulsante destro del mouse sul cerchio verde di un elemento di approvvigionamento suggerito e selezionare una delle seguenti funzioni  
@@ -61,12 +61,12 @@ Per implementare le modifiche del piano di approvvigionamento, è necessario seg
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Simboli e icone nella Scheda dettaglio Sequenza temporale
  |Simbolo/Icona|Descrizione|  
  |------------------|---------------------------------------|  
- |Croce nera|Ordini (sia domanda che approvvigionamento).<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
- |Cerchio rosso|Ordini di approvvigionamento esistenti che non sono nei suggerimenti di pianificazione.<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
- |Stella gialla|Previsione della domanda.<br /><br /> -   Non modificabile.<br />- Visibile quando il campo **Nome previsione** contiene un valore.<br /><br /> Quando i campi **Mostra magazzino previsto** e **Includi suggerimenti pianificazione** sono entrambi selezionati, ciascuna stella gialla ha una controparte collegata nel grafico opposto. Ciò illustra come un approvvigionamento suggerito soddisfa la domanda prevista.|  
- |Cerchio verde con icona a forma di disco con una croce rossa|Ordine di approvvigionamento suggerito con messaggio di azione *Annulla*.<br /><br /> - Non modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
- |Cerchio verde con icona a forma di disco con una stella|Ordini di approvvigionamento suggeriti con messaggio di azione *Nuovo*.<br /><br /> - Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
- |Cerchio verde con icona a forma di disco con una o due frecce|Ordini di approvvigionamento suggeriti con messaggio di azione *Riprogramma*, *Modifica Qtà*, o *Riprogr. e mod. qtà*<br /><br /> - Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).<br /><br /> Le frecce riflettono la direzione del suggerimento di pianificazione. Ad esempio, una freccia sinistra con un freccia rivolta verso l'alto corrisponde a un messaggio di azione *Riprogr. e mod. qtà* composto da una riprogrammazione all'indietro e un aumento della quantità.|  
+ |Croce nera|Ordini (sia domanda che approvvigionamento).<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
+ |Cerchio rosso|Ordini di approvvigionamento esistenti che non sono nei suggerimenti di pianificazione.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
+ |Stella gialla|Previsione della domanda.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Nome previsione** contiene un valore.<br /><br /> Quando i campi **Mostra magazzino previsto** e **Includi suggerimenti pianificazione** sono entrambi selezionati, ciascuna stella gialla ha una controparte collegata nel grafico opposto. Ciò illustra come un approvvigionamento suggerito soddisfa la domanda prevista.|  
+ |Cerchio verde con icona a forma di disco con una croce rossa|Ordine di approvvigionamento suggerito con messaggio di azione *Annulla*.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
+ |Cerchio verde con icona a forma di disco con una stella|Ordini di approvvigionamento suggeriti con messaggio di azione *Nuovo*.<br /><br /> -   Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
+ |Cerchio verde con icona a forma di disco con una o due frecce|Ordini di approvvigionamento suggeriti con messaggio di azione *Riprogramma*, *Modifica Qtà*, o *Riprogr. e mod. qtà*<br /><br /> -   Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).<br /><br /> Le frecce riflettono la direzione del suggerimento di pianificazione. Ad esempio, una freccia sinistra con un freccia rivolta verso l'alto corrisponde a un messaggio di azione *Riprogr. e mod. qtà* composto da una riprogrammazione all'indietro e un aumento della quantità.|  
 
 Quando si accede al menu a discesa per la Scheda dettaglio **Sequenza temporale**, in base alla scelta eseguita vengono visualizzate le seguenti funzioni  
 
@@ -99,4 +99,3 @@ Oltre alle azioni da tastiera descritte in precedenza, è possibile utilizzare l
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

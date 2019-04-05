@@ -2,25 +2,25 @@
 title: Utilizzo della Gestione ruolo utente Implementatore di RapidStart Services | Documenti Microsoft
 description: Quando si utilizza RapidStart Services, si consiglia di tenere traccia del proprio lavoro e di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800991"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services
-Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere la sezione “Per modificare una Gestione ruolo utente" in [Modifica delle impostazioni di base](ui-change-basic-settings.md).
+Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Per modificare una Gestione ruolo utente](ui-change-basic-settings.md#to-change-role-center).
 
 Man mano che si prosegue il lavoro, è possibile assegnare a ogni tabella lo stato che corrisponde alla propria posizione nel processo. [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene quindi traccia dello stato della tabella nella sezione **Attività** della Gestione ruolo utente.  
 
@@ -46,4 +46,3 @@ Nella sezione **Aree di configurazione**, le statistiche di completamento sono v
 ## <a name="see-also"></a>Vedi anche  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

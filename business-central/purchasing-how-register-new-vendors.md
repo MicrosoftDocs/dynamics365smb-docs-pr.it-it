@@ -2,7 +2,7 @@
 title: Creare una scheda fornitore per registrare un nuovo fornitore | Documenti Microsoft
 description: Informazioni su come creare una scheda fornitore per registrare un nuovo fornitore.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802065"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 I fornitori forniscono i prodotti venduti. Ogni fornitore da cui si acquista deve essere registrato come una scheda fornitore.
@@ -58,4 +58,3 @@ Se si desidera utilizzare questa scheda fornitore come modello quando si creano 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)   
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

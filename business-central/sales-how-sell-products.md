@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801876"
 ---
 # <a name="sell-products"></a>Vendere prodotti
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -128,4 +128,3 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 [Magazzino](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801946"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Informazioni su utenti, profili e Gestioni ruolo utente
 
@@ -99,4 +99,3 @@ Gli utenti possono personalizzare l'interfaccia utente della versione personale 
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)  
 [Gestione della personalizzazione come amministratore](ui-personalization-manage.md)  
 [Personalizzazione dell'area di lavoro](ui-personalization-user.md)  
-

@@ -1,21 +1,21 @@
 ---
-title: "Come gestire le attività di conto lavoro | Microsoft Docs"
-description: "Dopo avere creato l'ordine di acquisto nel prospetto conto lavoro, è possibile registrarlo."
+title: Come gestire le attività di conto lavoro | Microsoft Docs
+description: Dopo avere creato l'ordine di acquisto nel prospetto conto lavoro, è possibile registrarlo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801209"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
@@ -103,4 +103,3 @@ Quando l'ordine di acquisto viene registrato come fatturato, il costo diretto de
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

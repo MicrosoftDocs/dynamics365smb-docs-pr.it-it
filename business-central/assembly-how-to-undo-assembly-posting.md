@@ -1,8 +1,8 @@
 ---
 title: Come annullare la registrazione di assemblaggi | Microsoft Docs
-description: "Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback."
+description: Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801897"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
@@ -63,4 +63,3 @@ Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

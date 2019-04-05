@@ -2,7 +2,7 @@
 title: Impostazione del magazzino | Documenti Microsoft
 description: Viene descritto come impostare i processi di magazzino e stock, inclusi i percorsi di trasferimento e le ubicazioni, come le warehouse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800891"
 ---
 # <a name="setting-up-inventory"></a>Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
@@ -43,4 +43,3 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 [Gestione vendite](sales-manage-sales.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-

@@ -1,23 +1,23 @@
 ---
 title: 'Dettagli di progettazione: Rivalutazione | Microsoft Docs'
-description: "È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati."
+description: È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801072"
 ---
 # <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  
@@ -184,4 +184,3 @@ Il magazzino WIP può essere rivalutato finché la data di rivalutazione non è 
  [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

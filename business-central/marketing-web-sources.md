@@ -1,8 +1,8 @@
 ---
-title: "Impostare le origini Web per le società contatto| Documenti Microsoft"
-description: "È possibile definire origini Web o Internet e assegnarle a una società contatto per consentire l'identificazione delle modalità di ricerca delle informazioni sui contatti."
+title: Impostare le origini Web per le società contatto| Documenti Microsoft
+description: È possibile definire origini Web o Internet e assegnarle a una società contatto per consentire l'identificazione delle modalità di ricerca delle informazioni sui contatti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801716"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Impostare le origini Web per le società contatto
 È possibile utilizzare le origini Web con le società contatto per identificare, ad esempio, motori di ricerca e siti Web dove effettuare la ricerca di informazioni sui contatti. Quando si assegna un'origine Web, specificare il motore di ricerca e la parola di ricerca che saranno utilizzati per individuare le informazioni richieste.
@@ -47,6 +47,5 @@ Ripetere tali passaggi per assegnare altre origini Web.
 È inoltre possibile assegnare l'origine Web dalla pagina **Lista Contatti** seguendo la stessa procedura.
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di società contatto](marketing-create-contact-companies.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

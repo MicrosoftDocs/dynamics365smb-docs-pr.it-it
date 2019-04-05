@@ -1,23 +1,23 @@
 ---
-title: 'Dettagli di progettazione: Registrazione dell''ordine di produzione | Microsoft Docs'
+title: "Dettagli di progettazione: Registrazione dell'ordine di produzione | Microsoft Docs"
 description: Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801861"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.
@@ -47,7 +47,7 @@ A seconda del tipo di magazzino, gli aumenti e le diminuzioni sono rappresentati
 ||Aumenti|Diminuzioni|  
 |-|---------------|---------------|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
-|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo della capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
+|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
 |**Magazzino di prodotti finiti**|Output di articoli finali (costo delle merci lavorate)|-   Vendite (costo degli articoli venduti)<br />-   Output negativo|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
 
@@ -112,4 +112,3 @@ Negli ambienti con costi standard, il calcolo dei costi di un ordine di produzio
  [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
  [Utilizzo di Business Central](ui-work-product.md)
-

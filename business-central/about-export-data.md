@@ -1,6 +1,6 @@
 ---
 title: Esportare i dati di Business Central in Excel | Documenti Microsoft
-description: "È possibile esportare i report finanziari e i dati di Business Intelligence da Business Central in Excel o aprire i dati di Business Central in Excel."
+description: È possibile esportare i report finanziari e i dati di Business Intelligence da Business Central in Excel o aprire i dati di Business Central in Excel.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 11/21/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800890"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
@@ -73,4 +73,3 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 [Finanze](finance.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

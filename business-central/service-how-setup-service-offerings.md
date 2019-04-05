@@ -2,7 +2,7 @@
 title: Impostare le offerte di assistenza | Documenti Microsoft
 description: Informazioni su come impostare i servizi di assistenza offerti ai clienti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 93afb98600552e58640d5aa12fa91efd15afebfb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25aea9e2709f0cea32844d60e0dff7ab34c5796b
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801887"
 ---
-
 # <a name="set-up-service-offerings"></a>Impostare le offerte di assistenza
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  
   

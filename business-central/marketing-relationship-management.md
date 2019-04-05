@@ -1,8 +1,8 @@
 ---
 title: Relationship Management| Documenti Microsoft
-description: "Le funzionalità di Relationship Management di Business Central supportano le attività di vendita e consentono di accedere alle informazioni sui contatti e i potenziali clienti in modo da poter assistere in modo efficiente i clienti."
+description: Le funzionalità di Relationship Management di Business Central supportano le attività di vendita e consentono di accedere alle informazioni sui contatti e i potenziali clienti in modo da poter assistere in modo efficiente i clienti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6e1e9f56cede3afe723f4184ce3e7249b61ad6a4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
-ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
-ms.contentlocale: it-it
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801448"
 ---
 # <a name="managing-relationships"></a>Gestione delle relazioni
 Le funzionalità di gestione delle relazioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.
@@ -34,9 +34,7 @@ Per iniziare, vedere i seguenti argomenti:
 
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  
-[Setup Relationship Management](marketing-setup-marketing.md)  
 [Integrazione con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

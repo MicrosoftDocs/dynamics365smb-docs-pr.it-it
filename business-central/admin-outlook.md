@@ -1,6 +1,6 @@
 ---
 title: Utilizzo di Business Central con Outlook | Documenti di Microsoft
-description: "Questo servizio è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook."
+description: Questo servizio è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801625"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
@@ -64,4 +64,3 @@ In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-

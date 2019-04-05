@@ -1,6 +1,6 @@
 ---
 title: Fatturazione delle prenotazioni in Business Central | Documenti Microsoft
-description: "Informazioni su come è possibile eseguire la fatturazione da Microsoft Bookings in Business Central."
+description: Informazioni su come è possibile eseguire la fatturazione da Microsoft Bookings in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: it-it
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802080"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se la società utilizza l'app Bookings in Office 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Bookings non fatturato** di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
@@ -43,4 +43,3 @@ Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

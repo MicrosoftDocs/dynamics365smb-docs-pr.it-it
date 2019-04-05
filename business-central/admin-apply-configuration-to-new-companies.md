@@ -1,23 +1,23 @@
 ---
-title: "Applicazione della configurazione a nuove società | Documenti Microsoft"
-description: "Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Utilizzare la configurazione con una nuova società vuota."
+title: Applicazione della configurazione a nuove società | Documenti Microsoft
+description: Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Utilizzare la configurazione con una nuova società vuota.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c51c3af057e59505ad478b51a40c15605ec0d64b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 68a0c21fd79d0fffcb2a7d7eb9aeb161f06fba33
-ms.contentlocale: it-it
-ms.lasthandoff: 06/11/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802185"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Applicazione della configurazione a nuove società
 Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Il pacchetto di configurazione è utilizzato in una nuova società vuota.  
@@ -35,4 +35,3 @@ Dopo avere creato un pacchetto di configurazione, il passaggio successivo consis
 ## <a name="see-also"></a>Vedi anche  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

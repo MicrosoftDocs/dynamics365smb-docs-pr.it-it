@@ -1,23 +1,23 @@
 ---
-title: "Procedura: Utilizzare i centri di responsabilità | Documenti Microsoft"
-description: "I centri di responsabilità forniscono la possibilità di gestire centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società."
+title: 'Procedura: Utilizzare i centri di responsabilità | Documenti Microsoft'
+description: I centri di responsabilità forniscono la possibilità di gestire centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 643d0b7be64addf3604283dbed58d59a54df2032
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801552"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 I centri di responsabilità consentono di gestire i centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.  
@@ -63,4 +63,3 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 [Gestione warehouse](warehouse-manage-warehouse.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

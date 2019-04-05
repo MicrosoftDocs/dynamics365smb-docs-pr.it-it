@@ -1,8 +1,8 @@
 ---
 title: Impostazione di valute addizionali | Microsoft Docs
-description: "La contabilità generale è impostata per utilizzare la valuta locale (VL) e un'altra valuta viene impostata come valuta addizionale, con un tasso di cambio corrente assegnato."
+description: La contabilità generale è impostata per utilizzare la valuta locale (VL) e un'altra valuta viene impostata come valuta addizionale, con un tasso di cambio corrente assegnato.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: it-it
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801391"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
@@ -125,4 +125,3 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

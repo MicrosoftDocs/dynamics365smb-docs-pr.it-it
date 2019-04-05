@@ -1,21 +1,21 @@
 ---
 title: 'Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite | Documenti Microsoft'
-description: "I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in Business Central consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura."
+description: I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in Business Central consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801852"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
@@ -219,4 +219,3 @@ La funzionalità dei pagamenti anticipati in [!INCLUDE[d365fin](includes/d365fin
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
-

@@ -1,20 +1,20 @@
 ---
-title: "Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale| Documenti Microsoft"
-description: "Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori."
+title: Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale| Documenti Microsoft
+description: Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801729"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -35,7 +35,7 @@ Le informazioni immesse in una registrazione sono temporanee e possono essere mo
 
 ## <a name="using-journal-templates-and-batches"></a>Utilizzo di batch e definizioni di registrazioni
 
-Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni è rappresentata da una pagina dedicata con funzioni specifiche e campi necessari per supportare tali funzioni, ad esempio la pagina **Registrazione riconciliazione pagamenti** per elaborare i pagamenti bancari e la pagina **Registrazioni pagamenti** per pagare i fornitori o rimborsare i dipendenti. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md) e [Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md).
+Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni è rappresentata da una pagina dedicata con funzioni specifiche e campi necessari per supportare tali funzioni, ad esempio la pagina **Registrazione riconciliazione pagamenti** per elaborare i pagamenti bancari e la pagina **Registrazioni pagamenti** per pagare i fornitori o rimborsare i dipendenti. Per ulteriori informazioni, vedere [Effettuare i pagamenti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](payables-make-payments.md).
 
 Per ogni definizione registrazioni è possibile impostare le proprie registrazioni personali come batch registrazioni. Ad esempio, è possibile definire dei batch registrazioni personali per le registrazioni pagamenti che abbiano delle impostazioni e un layout personali. Di seguito viene fornito un suggerimento come esempio per personalizzare una registrazione.
 
@@ -49,7 +49,7 @@ Se sono stati impostati conti di contropartita di default per i batch di registr
 >   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
 
 ## <a name="working-with-recurring-journals"></a>Utilizzo delle registrazioni periodiche
-Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere la sezione "Allocare importi di registrazioni periodiche a vari conti".
+Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Utilizzando registrazioni periodiche, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che i conti, le dimensioni, i valori dimensioni e così via, immessi nei campi rimarranno nelle registrazioni dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
 
@@ -60,7 +60,7 @@ Questo campo consente di determinare in che modo verrà considerato l'importo sp
 | --- | --- |
 |Fisso|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione.|
 |Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione.|
-|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni**. Per ulteriori informazioni, vedere la sezione "Allocare importi di registrazioni periodiche a vari conti".|
+|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni**. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Storno Costante|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
 |Storno Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
 |Storno Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella pagina **Allocazioni**. Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
@@ -69,7 +69,7 @@ Questo campo consente di determinare in che modo verrà considerato l'importo sp
 >  È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella pagina **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
 
 ### <a name="recurring-frequency-field"></a>Campo Frequenza ricorrenza
-Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedere la sezione "Utilizzo di formule per le date" in [Immissione di dati](ui-enter-data.md).
+Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Esempi
 Se è necessario contabilizzare ogni mese la riga delle registrazioni, immettere "1M". Dopo ogni registrazione, la data indicata nel campo **Data di registrazione** verrà aggiornata alla stessa data del mese successivo.
@@ -164,4 +164,3 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Collegamento articoli | Microsoft Docs'
 description: Questo argomento descrive come viene creato un collegamento articoli quando si registra una transazione di magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801833"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 Quando si registra una transazione di magazzino, la registrazione della quantità viene registrata nei movimenti contabili articoli, la registrazione del valore nei movimenti di valorizzazione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione magazzino](design-details-inventory-posting.md).  
@@ -36,7 +36,7 @@ I collegamenti articoli possono essere creati nei seguenti modi.
 |Metodo|Description|Tipo collegamento|  
 |------------|---------------------------------------|----------------------|  
 |Automatico|Viene eseguito come inoltro di costi generale in base al metodo di costing|Collegamento della quantità|  
-|Fisso|Effettuato dall'utente quando:<br /><br /> - Elaborazione dei resi<br />- Registrazione di correzioni<br />- Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
+|Fisso|Effettuato dall'utente quando:<br /><br /> -   Elaborazione dei resi<br />-   Registrazione di correzioni<br />-   Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
   
 La scelta tra la creazione di collegamenti quantità o di collegamenti costi dipende dalla direzione della transazione di magazzino e dal fatto se il collegamento articoli viene eseguito automaticamente oppure è fisso, in relazione a processi speciali.  
   
@@ -246,4 +246,3 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Costo medio](design-details-average-cost.md)  
 [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)  
-

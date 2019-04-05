@@ -1,21 +1,21 @@
 ---
 title: 'Procedura: Utilizzare le distinte base per gestire i componenti | Documenti Microsoft'
 description: Si crea una distinta base di assemblaggio o di produzione per specificare i componenti o le risorse richieste per un l'articolo che la distinta rappresenta.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c838fe39720cd8eaee654fe8933aa1a46ffdfbaf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801675"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -42,7 +42,7 @@ Le DB di assemblaggio in genere contengono articoli ma possono anche contenere u
 
 Le DB di assemblaggio possono essere multilivello, cioè un componente della DB di assemblaggio può essere un articolo di assemblaggio esso stesso. In tal caso, il campo **DB assemblaggio** nella riga della DB di assemblaggio contiene il valore **Sì**.
 
-Requisiti speciali si applicano agli articoli nelle DB di assemblaggio correlati alla disponibilità. Per ulteriori informazioni, vedere la sezione "Per visualizzare la disponibilità di un articolo per l'utilizzo in DB di assemblaggio" in [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
+Requisiti speciali si applicano agli articoli nelle DB di assemblaggio correlati alla disponibilità. Per ulteriori informazioni, vedere [Per visualizzare la disponibilità di un articolo per l'utilizzo in DB di assemblaggio](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 Esistono due passaggi per creare una DB di assemblaggio:
 - Impostazione di un nuovo articolo
@@ -104,4 +104,3 @@ I costi degli articoli che compongono la DB di assemblaggio vengono copiate dall
 [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
 title: Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto | Documenti Microsoft
-description: "È possibile modificare l'importo che verrà fatturato annualmente per i contratti di assistenza o le offerte di contratto."
+description: È possibile modificare l'importo che verrà fatturato annualmente per i contratti di assistenza o le offerte di contratto.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801162"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 È possibile modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto per correggere l'importo da fatturare annualmente.  
@@ -188,4 +188,3 @@ Al termine, le righe di contratto conterranno i seguenti dati.
 ## <a name="see-also"></a>Vedi anche  
 [Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-

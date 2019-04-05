@@ -1,21 +1,21 @@
 ---
 title: Come impostare l'invio e la ricezione di documenti elettronici | Microsoft Docs
-description: "Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente."
+description: Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802116"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Impostare l'invio e la ricezione di documenti elettronici
 Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente. Per documento elettronico si intende un file conforme agli standard che rappresenta un documento aziendale, ad esempio la fattura di un fornitore che può essere ricevuta e convertita in fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo scambio di documenti elettronici tra due partner commerciali viene eseguito da un provider esterno dei servizi di Exchange per documenti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio e la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di Exchange per documenti. Un provider importante dei servizi di Exchange per documenti è preconfigurato e pronto per l'installazione nell'azienda.  
@@ -83,7 +83,7 @@ In questo argomento sono contenute le seguenti procedure:
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Codice standard internazionale**|Specificare il codice dell'unità di misura espresso secondo lo standard UNECERec20 in relazione all'invio di documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **unitCode** dell'elemento **InvoicedQuantity** nel nodo **InvoiceLine**. **Nota:** se il campo **Unità di misura** nella riga di vendita è vuoto, viene inserito per impostazione predefinita il valore dello standard UNECERe20 per "Pezzo" \(H87\). Per ulteriori informazioni e un elenco dei codici unità di misura validi, vedere [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Codice standard internazionale**|Specificare il codice dell'unità di misura espresso secondo lo standard UNECERec20 in relazione all'invio di documenti elettronici.<br /><br /> Ad esempio, quando si inviano fatture elettroniche nel formato PEPPOL, il valore in questo campo viene utilizzato per popolare l'attributo **unitCode** dell'elemento **InvoicedQuantity** nel nodo **InvoiceLine**. **Nota:** se il campo **Unità di misura** nella riga di vendita è vuoto, viene inserito per impostazione predefinita il valore dello standard UNECERe20 per "Pezzo" \(H87\). Per ulteriori informazioni e un elenco dei codici unità di misura validi, vedere [Recommendation No. 20 \-  Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Per impostare i clienti per l'invio di documenti elettronici  
 1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
@@ -140,4 +140,3 @@ In questo argomento sono contenute le seguenti procedure:
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   
 [Fatturare le vendite](sales-how-invoice-sales.md)   
 [Registrare gli acquisti](purchasing-how-record-purchases.md)
-

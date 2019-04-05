@@ -2,22 +2,22 @@
 title: Come eliminare i movimenti di budget costi | Microsoft Docs
 description: Utilizzare il processo batch Elimina mov. budget costi per annullare i movimenti di budget costi dal registro budget costi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 7a5647bcb5a58cdf0a38ec037994d6cbe7a9504d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801610"
 ---
 # <a name="delete-cost-budget-entries"></a>Elimina mov. budget costi
 Utilizzare il processo batch **Elimina mov. budget costi** per annullare i movimenti di budget costi dal registro budget costi.  
@@ -40,4 +40,3 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
 [Creazione di budget di costi](finance-create-cost-budgets.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: 'Dettagli di progettazione: Struttura dell''interfaccia di registrazione | Microsoft Docs'
+title: "Dettagli di progettazione: Struttura dell'interfaccia di registrazione | Microsoft Docs"
 description: Questo argomento fornisce una sintesi delle procedure globali nella struttura dell'interfaccia di registrazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 236cbcc45ccca23905dcb79a491236c80b2bdebf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d5aede731958f6f07b361cf2b4f2351bb5ad06a
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801562"
 ---
 # <a name="design-details-posting-interface-structure"></a>Dettagli di progettazione: struttura dell'interfaccia di registrazione
 Nella struttura dell'interfaccia di registrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] esistono diverse procedure globali che utilizzano la stessa struttura:  

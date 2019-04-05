@@ -1,6 +1,6 @@
 ---
 title: Utilizzare la funzione Trasferisci differenza a conto per riconciliare i pagamenti | Documenti Microsoft
-description: "Descrive modalità di elaborazione dei pagamenti che non possono essere collegati a un documento, ad esempio, quando un tasso di cambio comporta una differenza negli importi."
+description: Descrive modalità di elaborazione dei pagamenti che non possono essere collegati a un documento, ad esempio, quando un tasso di cambio comporta una differenza negli importi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801957"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Riconciliare i pagamenti che non possono essere collegati automaticamente
 Talvolta può essere necessario gestire i pagamenti al conto corrente bancario che non possono essere collegati a un movimento aperto di contabilità generale, cliente o fornitore correlato. I motivi possono essere che in [!INCLUDE[d365fin](includes/d365fin_md.md)] non sono presenti documenti cui possa essere collegato il pagamento o che il documento correlato in [!INCLUDE[d365fin](includes/d365fin_md.md)] ha un importo diverso da quello della transazione, ad esempio, a causa del cambio della valuta. Nella pagina **Registrazione riconciliazione pagamenti** tutti gli importi delle transazioni per i pagamenti che non sono ancora collegati vengono visualizzati nel campo **Differenza**, inclusi gli importi che non possono essere collegati per i motivi citati prima.
@@ -30,7 +30,7 @@ Per riconciliare questi pagamenti, scegliere il pulsante **Trasferisci differenz
 > [!TIP]  
 >   Tale funzionalità consente di impostare la riconciliazione automatica dei pagamenti ricorrenti che non possono essere collegati ai relativi movimenti contabili del conto corrente bancario, fornitore o cliente aperto. Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Per riconciliare i pagamenti che non possono essere collegati
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Per riconciliare i pagamenti che non possono essere collegati automaticamente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riconciliazione pagamenti** e quindi scegliere il collegamento correlato.
 2. Aprire una registrazione della riconciliazione di pagamento. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 3. Scegliere **Trasferisci differenza a conto**. Si apre la pagina **Trasferisci differenza a conto**.
@@ -47,4 +47,3 @@ Se il valore nel campo **Differenza** è inferiore al valore del campo **Importo
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,30 +1,30 @@
 ---
 title: 'Procedura: Prelevare per la produzione in configurazioni di warehouse di base | Documenti Microsoft'
-description: "Quando l'ubicazione della warehouse richiede l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, è possibile utilizzare la pagina **Prelievi Magazzino** per organizzare e registrare il prelievo di componenti."
+description: Quando l'ubicazione della warehouse richiede l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, è possibile utilizzare la pagina **Prelievi Magazzino** per organizzare e registrare il prelievo di componenti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801694"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prelevare per produzione o assemblaggio in configurazioni di warehouse di base
 La modalità di stoccaggio dei componenti di prelievo per gli ordini di produzione o assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).
 
 Nelle configurazioni di warehouse di base, in cui l'ubicazione richiede l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, è possibile utilizzare la pagina **Prelievi magazzino** per organizzare e registrare il prelievo di componenti.  
 
-Nelle configurazioni di wareahouse di base è necessario effettuare prelievi per ordini di assemblaggio tramite la pagina **Movimento di magazzino**. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).  
+Nelle configurazioni di wareahouse di base è necessario effettuare prelievi per ordini di assemblaggio tramite la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere la sezione [Gestione di un articolo da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Nelle configurazioni di warehouse avanzate in cui le ubicazioni richiedono sia prelievi che spedizioni, è possibile utilizzare la pagina **Prelievo warehouse** per immettere componenti negli ordini di produzione o di assemblaggio. Per ulteriori informazioni, vedere [Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** n
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

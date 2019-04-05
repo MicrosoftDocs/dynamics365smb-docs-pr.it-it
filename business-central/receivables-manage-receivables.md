@@ -2,7 +2,7 @@
 title: Panoramica dei task per la gestione degli incassi | Documenti Microsoft
 description: Descrive i task per gestire gli incassi e collegare il pagamento ai movimenti contabili cliente o fornitore.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 11/28/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: da253074b383cb81980e6d41eae460b344b7ee31
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 5621345418f8da0165fa5685fd3b4a50dd43ae9d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801071"
 ---
 # <a name="managing-receivables"></a>Gestione della contabilità clienti
 Un passaggio normale nell'iter finanziario consiste nel riconciliare i conti correnti bancari. Per questa operazione è necessario che i pagamenti in entrata vengano collegati ai movimenti del registro fornitori o clienti in modo da chiudere le fatture di vendita e le note di credito di acquisto come pagate.
@@ -39,16 +39,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Collegare i pagamenti a movimenti contabili cliente o fornitore aperti in base a un feed bancario o un file di rendiconto bancario importato e riconciliare il conto bancario una volta che tutti i pagamenti sono collegati. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Impostare le mappature tra testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo che i pagamenti vengano registrati nei conti specificati quando si contabilizzano le registrazioni riconciliazione pagamenti.|[Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-|Nella pagina **Collegamento pagamenti**, visualizzare tutti i movimenti aperti suggeriti per il pagamento e visualizzare tutte le informazioni dettagliate per ogni movimento sulla corrispondenza dei dati sulla quale si basa il collegamento del pagamento.|[Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md)|
-| Collegare i pagamenti a movimenti contabili clienti aperti in base all'immissione manuale in una lista di documenti di vendita non pagati. |[Riconciliare i pagamenti dei clienti manualmente dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
-| Registrare gli incassi o i rimborsi per i clienti nelle registrazioni incassi e collegare ai movimenti contabili clienti, dalle registrazioni o dai movimenti contabili registrati. |[Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md) |
+| Collegare i pagamenti a movimenti contabili clienti aperti in base a una lista di documenti di vendita non pagati nella pagina **Registrazione pagamenti**. |[Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Registrare gli incassi o i rimborsi per i clienti nelle registrazioni incassi e collegare ai movimenti contabili clienti, dalle registrazioni o dai movimenti contabili registrati. |[Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md) |
 | Inviare solleciti ai clienti per gli importi insoluti, calcolare interessi e addebiti interessi e gestire i crediti v/clienti. |[Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md) |
-| Prevede quando verranno effettuati i pagamenti ritardati per i documenti di vendita. | [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md) |
 |Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente, solo in Euro.|[Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Blocca l'immissione di un cliente nei documenti o nella registrazione, ad esempio a causa di insolvibilità.|[Blocca clienti](receivables-how-block-customers.md)|
 |È possibile assicurarsi di conoscere il costo degli articoli spediti assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute dopo la vendita.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Prevede quando verranno effettuati i pagamenti ritardati per i documenti di vendita. | [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md) |
 ## <a name="see-also"></a>Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
@@ -56,4 +54,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

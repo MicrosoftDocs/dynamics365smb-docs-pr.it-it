@@ -1,23 +1,23 @@
 ---
 title: Impostazione e utilizzo di un workflow di approvazione di acquisto | Documenti Microsoft
-description: "È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche."
+description: È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d7af9edc0620a61f6e3f114feff3a831e91add57
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801420"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
@@ -120,4 +120,3 @@ Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro
 [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)  
 [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)
-

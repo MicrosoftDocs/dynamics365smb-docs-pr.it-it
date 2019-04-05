@@ -1,23 +1,23 @@
 ---
 title: Impostare l'arrotondamento delle fatture | Microsoft Docs
-description: "È possibile arrotondare gli importi delle fatture quando si creano fatture. È inoltre possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05."
+description: È possibile arrotondare gli importi delle fatture quando si creano fatture. È inoltre possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801710"
 ---
 # <a name="set-up-invoice-rounding"></a>Impostare l'arrotondamento delle fatture
 Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica. Quando una fattura viene arrotondata, viene aggiunta un'ulteriore riga con l'importo di arrotondamento. Questa riga verrà contabilizzata insieme alle altre righe della fattura.
@@ -65,4 +65,3 @@ Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automat
 ## <a name="see-also"></a>Vedi anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)
-

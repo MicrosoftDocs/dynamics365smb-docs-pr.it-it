@@ -1,8 +1,8 @@
 ---
 title: Impostare l'assegnazione delle risorse | Documenti Microsoft
-description: "Informazioni su come il sistema può aiutare a garantire che l'assegnazione venga fatta a chi ha le competenze necessarie per fornire a un servizio di assistenza."
+description: Informazioni su come il sistema può aiutare a garantire che l'assegnazione venga fatta a chi ha le competenze necessarie per fornire a un servizio di assistenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801067"
 ---
-
 # <a name="set-up-resource-allocation"></a>Impostare l'assegnazione delle risorse
 Per assicurarsi che un compito di assistenza sia eseguito correttamente, è importante trovare una risorsa qualificata per il lavoro. È possibile configurare [!INCLUDE[d365fin](includes/d365fin_md.md)] di modo che sia semplice assegnare una risorsa che disponga delle competenze necessarie per il compito. In [!INCLUDE[d365fin](includes/d365fin_md.md)] questa funzionalità è detta _assegnazione delle risorse_. È possibile assegnare le risorse in base alla loro competenza, disponibilità o se si trovano nella stessa zona di assistenza del cliente. 
 
@@ -85,5 +84,4 @@ Se si desidera modificare i codici competenza assegnati agli articoli, ad esempi
 [Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)  
 [Impostare codici per servizi standard](service-how-setup-service-coding.md)  
  
-
 

@@ -1,23 +1,23 @@
 ---
 title: Breakbulk automatico con stoccaggi e prelievi guidati | Documenti Microsoft
-description: "Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, è possibile suddividere unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni."
+description: Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, è possibile suddividere unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c328df334d1bb1be33ced814677c3ef3ea634799
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801723"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Abilitare breakbulk automatico con stoccaggi e prelievi guidati
 Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di eseguire in varie situazioni il breakbulk automatico, ovvero la suddivisione di unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni. Talvolta il breakbulk consente di raggruppare unità di misura più piccole, se necessario, in modo da soddisfare le richieste in uscita suddividendo le unità di misura più grandi nel documento di origine o nell'ordine di produzione in unità di misura più piccole disponibili nella warehouse.   
@@ -53,4 +53,3 @@ I risultati del processo di conversione da un'unità di misura all'altra possono
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

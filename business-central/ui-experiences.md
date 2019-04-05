@@ -1,7 +1,7 @@
 ---
 title: Scegliere l'esperienza utente per visualizzare o nascondere le funzioni avanzate | Documenti Microsoft
-description: "Informazioni sulle caratteristiche dei livelli dell'esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società."
-documentationcenter: 
+description: Informazioni sulle caratteristiche dei livelli dell'esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: it-it
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801032"
 ---
 # <a name="changing-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva. Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto. Aggiungere esperienze in base alle esigenze aziendali aggiungendo estensioni da AppSource o modificando l'impostazione Esperienza per l'azienda. Per ulteriori informazioni, vedere la sezione [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) oppure la sezione "Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità" di seguito.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva. Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto. Aggiungere esperienze in base alle esigenze aziendali aggiungendo estensioni da AppSource o modificando l'impostazione Esperienza per l'azienda. Per ulteriori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) oppure [Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità
 L'utilizzo dell'esperienza utente determina la quantità di funzionalità core disponibile quando l'utente e i suoi colleghi usano [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile scegliere l'esperienza utente per la propria società nel campo **Esperienza** della pagina **Informazioni società**.
@@ -71,4 +71,3 @@ Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[d3
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Guida alle licenze](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

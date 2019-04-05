@@ -2,7 +2,7 @@
 title: Pianificazione dei processi di assistenza | Documenti Microsoft
 description: Descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801398"
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
 Con [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
@@ -41,4 +41,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Come impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-

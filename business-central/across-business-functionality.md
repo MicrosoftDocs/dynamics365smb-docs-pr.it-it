@@ -1,5 +1,5 @@
 ---
-title: "Funzionalità aziendali supportate da Business Central | Documenti Microsoft"
+title: Funzionalità aziendali supportate da Business Central | Documenti Microsoft
 description: Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio Finanze, Magazzino e Project Management.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801400"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

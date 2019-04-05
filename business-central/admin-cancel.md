@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801975"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Se si desidera smettere di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile bloccare l'account o rimuovere la licenza dall'account. I passaggi da eseguire sono diversi se si sta utilizzando la versione di prova gratuita o se si dispone di un abbonamento mensile come parte di un account Office 365.  
+Se si desidera smettere di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile bloccare l'account o rimuovere la licenza dall'account. I passaggi da eseguire sono diversi se si sta utilizzando la versione di valutazione gratuita o se si dispone di un abbonamento mensile come parte di un account Office 365.  
 
 Analogamente, è possibile scegliere di reimpostare la società che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ottenere una panoramica veloce, vedere [il blog di [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
@@ -51,4 +51,3 @@ Se si desidera nascondere [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'avvio
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Portale di Office](https://portal.office.com)  
 [Quanto tempo dura il periodo di valutazione e come lo annullo?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

@@ -1,8 +1,8 @@
 ---
 title: Impostare addetti agli acquisti e assegnarli ai fornitori | Documenti Microsoft
-description: "Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche."
+description: Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 508d475ff204d75df70511ab2f4e7de225cd8207
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801682"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.
@@ -36,4 +36,3 @@ Se numerosi addetti agli acquisti lavorano presso la società, si possono impost
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

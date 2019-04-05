@@ -1,6 +1,6 @@
 ---
-title: "Registrare le entrate o le spese direttamente nella contabilità generale| Documenti Microsoft"
-description: "Per le attività aziendali che non vengono rappresentate da un documento, ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella pagina Registrazioni COGE."
+title: Registrare le entrate o le spese direttamente nella contabilità generale| Documenti Microsoft
+description: Per le attività aziendali che non vengono rappresentate da un documento, ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella pagina Registrazioni COGE.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a1e7137cdc08fb558b6a6d423ce9524fa47eec16
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2625ad82d2d3c45e607f35d21cac9d943af2d2f2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801288"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrare le transazioni direttamente nella contabilità generale
 
@@ -48,4 +48,3 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 [Stornare le registrazioni](finance-how-reverse-journal-posting.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

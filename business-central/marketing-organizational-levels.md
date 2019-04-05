@@ -1,8 +1,8 @@
 ---
 title: Impostare i livelli organizzativi per i contatti| Documenti Microsoft
-description: "È possibile definire un livello organizzativo e assegnarlo al contatto per indicare la posizione all'interno della rispettiva società, ad esempio alta dirigenza."
+description: È possibile definire un livello organizzativo e assegnarlo al contatto per indicare la posizione all'interno della rispettiva società, ad esempio alta dirigenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801659"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Configurare i livelli organizzativi per i contatti
 È possibile usare i livelli organizzativi con i contatti per specificarne la posizione all'interno della società, ad esempio alta dirigenza. È possibile utilizzare queste informazioni quando si inseriscono informazioni sui contatti.
@@ -42,7 +42,5 @@ Una volta assegnati livelli organizzativi ai contatti, è possibile utilizzare q
 Dopo avere assegnato i ruoli professionali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di società contatto](marketing-create-contact-companies.md)  
-[Creazione di contatti](marketing-create-contact-persons.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

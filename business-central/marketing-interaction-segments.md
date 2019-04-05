@@ -2,7 +2,7 @@
 title: Tenere traccia dei segmenti e delle interazioni correlate| Documenti Microsoft
 description: Informazioni su come creare segmenti per definire gruppi di contatti e specificare delle interazioni per i segmenti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802305"
 ---
 # <a name="managing-interactions-for-segments"></a>Gestione di interazioni per i segmenti
 La pagina **Segmento** è una sorta di prospetto in cui è possibile:
@@ -52,4 +52,3 @@ Nella pagina **Segmenti registrati**, è possibile decidere di creare un segment
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

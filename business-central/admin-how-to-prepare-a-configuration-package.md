@@ -1,23 +1,23 @@
 ---
 title: Preparazione di un pacchetto di configurazione | Documenti di Microsoft
-description: "Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione."
+description: Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801581"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione.  
@@ -93,7 +93,7 @@ Utilizzare il foglio di lavoro configurazione per raccogliere e classificare le 
 3.  Nel campo **Tipo riga**, scegliere **Gruppo**. Nel campo **Nome** immettere un nome descrittivo.  
 4.  Nel campo **Tipo riga**, scegliere **Tabella**. Nel campo **ID tabella**, selezionare la tabella che si desidera includere nel prospetto.  
 
-A questo punto è possibile assegnare le tabelle a pacchetti di configurazione specifici che sono stati creati o che si intende creare. Per ulteriori informazioni, vedere "Per assegnare una tabella a un pacchetto di configurazione".
+A questo punto è possibile assegnare le tabelle a pacchetti di configurazione specifici che sono stati creati o che si intende creare. Per ulteriori informazioni, vedere [Per assegnare una tabella a un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Per utilizzare le tabelle essenziali  
 1. Selezionare la casella di controllo **Tabella essenziale** per indicare una tabella utilizzata di frequente durante il processo di setup di un cliente standard, ad esempio, la tabella **Conto C/G**. Quando una tabella presenta questa designazione, un cliente potrà filtrare il proprio prospetto in modo semplice per visualizzare solo la lista delle tabelle essenziali che richiedono attenzione.  
@@ -103,7 +103,7 @@ A questo punto è possibile assegnare le tabelle a pacchetti di configurazione s
 Dopo aver definito le tabelle che si desidera gestire come parte della configurazione, è possibile assegnare le tabelle ai pacchetti di configurazione. A ciascuna tabella è possibile assegnare un solo pacchetto. Nella procedura riportata di seguito viene assegnato il pacchetto dall'interno a partire dal foglio di lavoro configurazione.  
 
 > [!NOTE]  
->  È inoltre possibile creare direttamente un pacchetto e aggiungervi tabelle. Per ulteriori informazioni, vedere la sezione "Per creare un pacchetto di configurazione".
+>  È inoltre possibile creare direttamente un pacchetto e aggiungervi tabelle. Per ulteriori informazioni, vedere [Per creare un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Nel foglio di lavoro configurazione, selezionare una riga o un gruppo di righe che si desidera assegnare a un pacchetto di configurazione, quindi scegliere l'azione **Assegna pacchetto**.  
@@ -139,4 +139,3 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 11/15/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800987"
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
 
@@ -31,12 +31,8 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 | --- | --- |
 | Generare i pagamenti fornitori o i rimborsi ai dipendenti in scadenza, preparare i pagamenti degli assegni ed esportare i pagamenti in un file della banca durante la registrazione. |[Effettuare i pagamenti](payables-make-payments.md) |
 | Collegare i pagamenti fornitori automaticamente alle fatture di acquisto non pagate importando un file di rendiconto bancario. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Impostare le mappature tra testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo che i pagamenti vengano registrati nei conti specificati quando si contabilizzano le registrazioni riconciliazione pagamenti.|[Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-| Collegare manualmente i pagamenti fornitori alle fatture di acquisto non pagate. |[Riconciliare manualmente i pagamenti ai fornitori](payables-how-apply-purchase-transactions-manually.md) |
-|Applicare automaticamente i pagamenti, sia in entrata che in uscita, registrati come transazioni nel conto bancario in linea per i relativi movimenti aperti dei conti COGE, fornitore e cliente. La lista viene generata a partire da un feed o un file bancario.|[Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)|
-|Gestire manualmente i pagamenti al conto corrente bancario che non possono essere applicati automaticamente, ad esempio, in quanto non esistono documenti a cui possa essere collegato il pagamento o che il documento correlato ha un importo diverso da quello della transazione a causa del cambio della valuta.|[Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)|
+| Collegare manualmente i pagamenti fornitori alle fatture di acquisto non pagate. |[Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md). |
 |È possibile assicurarsi della corretta valutazione di magazzino assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute per gli acquisti.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
-|Se si deve pagare il fornitore in contanti o con assegno, è possibile registrare il pagamento mentre si registra la fattura.|[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md)|
 |Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Vedi anche
@@ -47,4 +43,3 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Trasferimenti nella pianificazione | Microsoft Docs'
 description: In questo argomento viene descritto il modo in cui utilizzare gli ordini di trasferimento come origine di approvvigionamento quando si pianificano i livelli di magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801907"
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse, le società potrebbero avere una catena di trasferimenti in cui l'approvvigionamento all'ubicazione VERDE viene trasferito da GIALLO e l'approvvigionamento a GIALLO viene trasferito da ROSSO e così via. All'inizio della catena, è presente un sistema di rifornimento di Ordine di produzione o di acquisto.  
@@ -168,4 +168,3 @@ Se la domanda viene modificata da 27 a 22, il sistema abbasserà la quantità lu
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

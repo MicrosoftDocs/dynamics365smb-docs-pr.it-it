@@ -2,22 +2,22 @@
 title: Informazioni sul costing di magazzino | Microsoft Docs
 description: La gestione dei costi di magazzino include la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 89769cf8ad8299c32805bf15b1cc447dac8beabc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8b36555e2853eb46c49aca4c4737e27d39fee929
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801756"
 ---
 # <a name="about-inventory-costing"></a>Informazioni sul costing di magazzino
 La gestione dei costi di magazzino include la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.  
@@ -43,4 +43,3 @@ La gestione dei costi di magazzino include la registrazione e il reporting dei c
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

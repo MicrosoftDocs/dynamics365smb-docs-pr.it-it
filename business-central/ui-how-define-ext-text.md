@@ -1,33 +1,33 @@
 ---
 title: Aggiungere righe ulteriori per definire descrizioni di articoli estese | Documenti Microsoft
-description: "È possibile aggiungere righe supplementari per estendere il testo standard che descrive un articolo."
+description: È possibile aggiungere righe supplementari per estendere il testo standard che descrive un articolo.
 services: project-madeira
-documentationcenter: 
-author: SusanneWindfeldPedersen
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.date: 02/26/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecf0dab7e8c1215c6e121735fe7507ee28cc25b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801393"
 ---
 # <a name="add-extended-item-text"></a>Aggiungere testo esteso per gli articoli
 È possibile estendere un testo standard per gli articoli aggiungendo righe supplementari e impostare delle condizioni per l'utilizzo di tali righe. È possibile eseguire queste operazioni dalle schede articoli.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Per definire il testo esteso per una descrizione dell'articolo
 1. Aprire la scheda di un articolo al quale si desidera aggiungere il testo esteso, quindi scegliere l'azione **Testo esteso**.
-2. Nel campo **Codice** immettere il codice. Nel campo **Descrizione** immettere il testo desiderato.
-3. Scegliere **Testi estesi**.
-4. Compilare le righe della pagina **Testi estesi** con il testo aggiuntivo.
-5. Compilare il campo **Cod. lingua** o il campo **Tutti cod. lingua** se si utilizzano i codici lingua.
-6. Compilare i campi **Data inizio** e **Data fine** se si desidera limitare il periodo in cui il testo esteso verrà utilizzato.
+2. Compilare i campi **Codice** e **Descrizione**.
+3. Scegliere **Nuovo**.
+4. Compilare il campo **Cod. lingua** o selezionare la casella di controllo **Tutti cod. lingua** se si utilizzano i codici lingua.
+5. Compilare i campi **Data inizio** e **Data fine** se si desidera limitare il periodo in cui il testo esteso verrà utilizzato.
+6. Nel campo **Testo** immettere il testo esteso.
 7. Selezionare le relative caselle di controllo per i tipi di documento su cui si desidera stampare il testo esteso.
 8. Chiudere la pagina.
 
@@ -38,4 +38,3 @@ ms.lasthandoff: 11/26/2018
 ## <a name="see-also"></a>Vedi anche
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

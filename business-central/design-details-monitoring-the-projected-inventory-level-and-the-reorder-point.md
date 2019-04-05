@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Monitoraggio del livello di giacenza disponibile e del punto di riordino | Microsoft Docs'
 description: Informazioni sulla distinzione tra il livello di scorte disponibili previste e il livello di giacenza disponibile per la pianificazione del magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, supply, inventory, planning
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: d26790c1c48eff8af150a72f5d5d697eb7b9dc2a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 336b5c300cf3640d7356313d2d627f6b4008c7b4
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800980"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Dettagli di progettazione: Monitoraggio del livello di giacenza disponibile e del punto di riordino
 Il magazzino è un tipo di approvvigionamento, ma per la pianificazione del magazzino, il sistema di pianificazione distingue tra due livelli di magazzino:  
@@ -76,4 +76,3 @@ Di seguito viene illustrato questo principio:
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

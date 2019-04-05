@@ -2,7 +2,7 @@
 title: Collegare un ordine di vendita a un ordine di acquisto per una spedizione diretta | Documenti Microsoft
 description: Viene descritto come creare un ordine di vendita collegato a un ordine di acquisto per consentire la spedizione diretta dal fornitore al cliente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 77bed1563a5c0187e78f7e7013dfed4a723d7702
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801681"
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 Una spedizione diretta è costituita dalla spedizione di articoli direttamente da un fornitore a un cliente.
@@ -36,7 +36,7 @@ Per preparare una spedizione diretta per l'articolo da vendere, si crea un ordin
 1. Creare un ordine di acquisto. Non compilare i campi nelle righe. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 2. Nel campo **Vendere a - Nr. cliente** selezionare il cliente a cui si sta vendendo.
 3. Scegliere l'azione **Spedizioni dirette** e scegliere l'azione **Ottieni ordini vendite**.
-4. Nella pagina **Lista vendite**, selezionare l'ordine di vendita che è stato preparato nella sezione "Per creare un ordine di vendita per una spedizione diretta".
+4. Nella pagina **Lista vendite**, selezionare l'ordine di vendita che è stato preparato nella sezione [Per creare un ordine di vendita per una spedizione diretta](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Scegliere il pulsante **OK**.
 
 Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell'ordine di acquisto.
@@ -50,7 +50,7 @@ Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell
 Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine di vendita come spedito. È possibile registrare anche l'ordine di acquisto, ma solo con l'opzione **Ricevi** finché l'ordine di vendita non viene fatturato.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
-2. Aprire l'ordine di vendita creato nella sezione "Per creare un ordine di vendita per una spedizione diretta".
+2. Aprire l'ordine di vendita creato nella sezione [Per creare un ordine di vendita per una spedizione diretta]().
 3. Nel campo **Qtà da spedire**, specificare la quantità dell'ordine da spedire, la quantità dell'ordine completa o parziale.
 4. Scegliere l'azione **Registra** o **Registra e invia**.
 5. Selezionare l'opzione **Spedizione** per fatturare in seguito oppure l'opzione **Spedisci e fattura** per fatturare immediatamente.
@@ -63,4 +63,3 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 [Vendite](sales-manage-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

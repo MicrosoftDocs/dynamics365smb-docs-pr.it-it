@@ -2,7 +2,7 @@
 title: Elaborare i resi o gli annullamenti | Documenti Microsoft
 description: Descrizione di come creare e registrare una nota di credito acquisto quando si desidera effettuare un reso degli articoli a un fornitore o annullare servizi acquistati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801216"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
 
-Se è necessario più controllo del processo di reso da acquisto, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si restituiscono articoli da più documenti di acquisto con un unico reso acquisto, è possibile creare gli ordini di reso acquisto. Un ordine di reso da acquisto automaticamente crea la nota di credito di acquisto correlata. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati".
+Se è necessario più controllo del processo di reso da acquisto, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si restituiscono articoli da più documenti di acquisto con un unico reso acquisto, è possibile creare gli ordini di reso acquisto. Un ordine di reso da acquisto automaticamente crea la nota di credito di acquisto correlata. Per ulteriori informazioni, vedere la sezione [Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Se una fattura di acquisto registrata non è stata ancora pagata, allora è possibile utilizzare le funzioni **Annulla** o **Rettifica** nella fattura di acquisto registrata per stornare automaticamente le transazioni implicate. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamen
 
 |Funzione|Description|  
 |------------------|---------------------------------------|  
-|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione "Per creare un ordine di reso da acquisto e la relativa nota di credito di acquisto per una o più fatture di acquisto registrate".|  
+|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione [Per creare un ordine di reso da acquisto sulla base di uno o più fatture di acquisto registrate](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |La funzione **Copia documento** nelle pagine **Nota credito acquisto** e **Ordine di reso acquisto**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità fornitori e acquisti**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di acquisto originale. In questo modo, la nota di credito di acquisto o l'ordine di reso da acquisto viene collegato al movimento di acquisto originale e l'articolo verrà valutato al costo unitario originale.
@@ -78,9 +78,9 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 6. Selezionare il campo **Nr. documento** per aprire la pagina **Fatture acquisto registrate** e selezionare la fattura di acquisto registrata contenente le righe da stornare.
 7. Selezionare la casella di controllo **Ricalcola righe** se si desidera che le righe copiate della fattura di acquisto registrata vengano aggiornate con le modifiche al prezzo dell'articolo e al costo unitario poiché la fattura è stata registrata.
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito di acquisto.
-9. Completare la nota di credito acquisto come descritto nella sezione "Per creare una nota di credito di acquisto da una fattura di acquisto registrata" del presente argomento.
+9. Completare la nota di credito acquisto come descritto in [Per creare una nota di credito di acquisto da una fattura di acquisto registrata](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
@@ -186,4 +186,3 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

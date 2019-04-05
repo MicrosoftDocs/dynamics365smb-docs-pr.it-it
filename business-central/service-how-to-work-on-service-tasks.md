@@ -1,23 +1,23 @@
 ---
 title: Utilizzo dei compiti di assistenza | Documenti Microsoft
-description: "Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli."
+description: Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801426"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
@@ -109,4 +109,3 @@ In seguito alla riparazione dell'articolo in assistenza, è possibile registrare
 [Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)
 [Stato di assegnazione e stato di riparazione](service-allocation-status-and-repair-status.md)  
 [Registrazione di assistenza](service-service-posting.md)  
-

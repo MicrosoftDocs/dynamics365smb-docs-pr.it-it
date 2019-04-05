@@ -1,8 +1,8 @@
 ---
-title: "Impostazione di settori industriali per le società contatto| Documenti Microsoft"
-description: "Descrive come definire un settore industriale e assegnarlo a una società contatto, ad esempio il settore del commercio al dettaglio o dell'industria automobilistica."
+title: Impostazione di settori industriali per le società contatto| Documenti Microsoft
+description: Descrive come definire un settore industriale e assegnarlo a una società contatto, ad esempio il settore del commercio al dettaglio o dell'industria automobilistica.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 61d1385691a0ed2bdc11745e98b14fa57e50475a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802054"
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Impostare settori industriali per le società contatto
 I gruppi industriali vengono utilizzati per indicare il tipo di settore industriale a cui appartengono i contatti, ad esempio il settore del commercio al dettaglio o l'industria automobilistica.
@@ -48,6 +48,5 @@ Il numero di settori industriali assegnati al contatto è visibile nel campo **N
 Una volta assegnati i settori industriali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di società contatto](marketing-create-contact-companies.md)  
+[Creazione di contatti](marketing-create-contact-companies.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

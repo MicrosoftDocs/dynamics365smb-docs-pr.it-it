@@ -2,7 +2,7 @@
 title: Business Intelligence| Documenti Microsoft
 description: Acquisire e analizzare i dati aziendali, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget che possono diventare informazioni preziose, vale a dire Business Intelligence, per prendere le decisioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801994"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence, per i responsabili decisionali. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili numerose funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.
@@ -42,9 +42,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Finanze](finance.md)    
 [Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
-[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

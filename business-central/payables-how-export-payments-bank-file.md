@@ -1,6 +1,6 @@
 ---
 title: Esportare i pagamenti in un file di pagamento elettronico| Documenti Microsoft
-description: "Per eseguire i pagamenti ai fornitori, si può attivare un servizio di conversione dati bancari, esportare un file della banca, e caricare il file della banca elettronica per trasferire i fondi."
+description: Per eseguire i pagamenti ai fornitori, si può attivare un servizio di conversione dati bancari, esportare un file della banca, e caricare il file della banca elettronica per trasferire i fondi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801312"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Esportare pagamenti in un file della banca
 Quando si è pronti a effettuare i pagamenti ai fornitori o i rimborsi ai dipendenti, nella pagina **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento delle righe. È quindi possibile caricare il file sulla banca per elaborare i relativi trasferimenti di denaro.
@@ -81,4 +81,3 @@ Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **S
 [Contabilità fornitori](payables-manage-payables.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

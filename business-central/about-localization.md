@@ -1,6 +1,6 @@
 ---
-title: "Funzionalità locale in Business Central | Microsoft Docs"
-description: "Informazioni sulla disponibilità locale e la conformità normativa di Dynamics 365 Business Central."
+title: Funzionalità locale in Business Central | Microsoft Docs
+description: Informazioni sulla disponibilità locale e la conformità normativa di Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: it-it
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802215"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Funzionalità locale in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ha una strategia combinata di localizzazione che include sia i modelli Microsoft che i modelli dei partner. In questa sezione è possibile visualizzare le descrizioni di funzionalità che si applicano ai paesi in cui Microsoft garantisce la conformità normativa e altre funzionalità locali.  
@@ -56,6 +56,5 @@ Per informazioni sulla funzionalità locale per ciascun paese, selezionare il co
 ## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  
 [Conformità](compliance/compliance-overview.md)  
-[Disponibilità internazionale di Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Disponibilità internazionale di  Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Sviluppo di una soluzione di localizzazione](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

@@ -1,7 +1,7 @@
 ---
 title: Immissione di date e ore in Business Central | Documenti Microsoft
-description: "Ottenere informazioni su come immettere le date e le ore inclusi suggerimenti relativi alla produttività quali abbreviazioni, espressioni e intervalli. Filtrare elenchi o report per una data o periodo specifici."
-documentationcenter: 
+description: Ottenere informazioni su come immettere le date e le ore inclusi suggerimenti relativi alla produttività quali abbreviazioni, espressioni e intervalli. Filtrare elenchi o report per una data o periodo specifici.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801495"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
@@ -372,4 +371,3 @@ Ad esempio, il numero `5` viene convertito in 5 h se l'unità di misura è l'ora
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  
-

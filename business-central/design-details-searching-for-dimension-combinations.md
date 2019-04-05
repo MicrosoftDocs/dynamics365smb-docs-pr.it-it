@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802083"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
 Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- Tuttavia, per mantenere la capacità di [!INCLUDE[d365fin](includes/d365fin_md.md)] di rinominare una dimensione e un valore di dimensione, la tabella 348 **Valore dimensioni** viene estesa con un campo di numero intero di **ID valore dimensioni**. Questa tabella converte la coppia di campi **Dimensione** e **Valore dimensioni** in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
+ Tuttavia, per mantenere la capacità di [!INCLUDE[d365fin](includes/d365fin_md.md)] di rinominare una dimensione e un valore di dimensione, la tabella 349 **Valore dimensioni** viene estesa con un campo di numero intero, **ID valore dimensioni**. Questa tabella converte la coppia di campi **Dimensione** e **Valore dimensioni** in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -79,4 +79,3 @@ EXIT(DimSet.ID);
  [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
  [Dettagli di progettazione: Gestione dimensioni della codeunit 408](design-details-codeunit-408-dimension-management.md)   
  [Dettagli di progettazione: Esempi di codice dei modelli modificati nelle modifiche](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

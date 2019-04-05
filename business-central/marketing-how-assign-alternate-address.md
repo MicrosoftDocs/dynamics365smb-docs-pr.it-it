@@ -2,7 +2,7 @@
 title: Assegnare un indirizzo contatto diverso| Documenti Microsoft
 description: Descrive come assegnare un indirizzo alternativo per i contatti o potenziali clienti, dove inviare talvolta le informazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801184"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Impostare un indirizzo alternativo per i contatti
 È possibile assegnare un indirizzo alternativo presso il quale talvolta i contatti ricevono messaggi di posta e informazioni, ad esempio la casa per le vacanze estive. È possibile anche assegnare uno o più intervalli di date per ogni indirizzo alternativo inserito per i contatti per specificarne il periodo di validità.
@@ -43,4 +43,3 @@ Ripetere tali passaggi per assegnare altri intervalli date.
 ## <a name="see-also"></a>Vedi anche
 [Creare società contatto](marketing-create-contact-companies.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

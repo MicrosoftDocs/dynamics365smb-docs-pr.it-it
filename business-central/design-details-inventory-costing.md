@@ -1,6 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Costing di magazzino | Microsoft Docs'
-description: "In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in Business Central."
+description: In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801571"
 ---
 # <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Il costing di magazzino, detto anche gestione costing riguarda la registrazione 
 [Dettagli di progettazione - Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)
 [Dettagli di progettazione - Valutazione di magazzino](design-details-inventory-valuation.md)  
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)
-

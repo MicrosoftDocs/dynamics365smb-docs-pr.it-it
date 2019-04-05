@@ -1,7 +1,7 @@
 ---
 title: Introduzione | Documenti Microsoft
 description: Descrive le guide di setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800985"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -39,7 +39,7 @@ Nella pagina **Setup assistito** sono disponibili le seguenti funzionalità per 
 | Imposta comp. agg. per Office |Imposta la possibilità di utilizzare e avviare [!INCLUDE[d365fin](includes/d365fin_md.md)] da Outlook. |
 | Imposta workflow di approv. |Imposta la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare alcuni valori in documenti, righe registrazioni o schede, ad esempio un importo oltre un limite specificato. |
 | Imposta log delle e-mail |Imposta la possibilità di registrare la corrispondenza tramite e-mail in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un follow-up delle interazioni. |
-| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
+| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare i dati quali contatti e informazioni sull'ordine di vendita. |
 
 Dopo avere eseguito un setup assistito, viene contrassegnato come **Completato**. Per eseguire il setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
 
@@ -69,4 +69,3 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

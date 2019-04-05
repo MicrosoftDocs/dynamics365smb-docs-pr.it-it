@@ -1,8 +1,8 @@
 ---
-title: "Dettagli di progettazione: Tracciabilità articolo nel magazzino | Microsoft Docs"
-description: "La gestione dei numeri seriali e di lotto è principalmente un'attività di warehouse, pertanto tutti i documenti di warehouse in uscita e in entrata hanno funzionalità standard per l'assegnazione e la selezione dei numeri di tracciabilità articolo. Tuttavia, poiché il sistema di impegni è basato sui movimenti contabili articoli, i documenti di attività di warehouse che registrano solo i movimenti warehouse non sono pienamente supportati."
+title: 'Dettagli di progettazione: Tracciabilità articolo nel magazzino | Microsoft Docs'
+description: La gestione dei numeri seriali e di lotto è principalmente un'attività di warehouse, pertanto tutti i documenti di warehouse in uscita e in entrata hanno funzionalità standard per l'assegnazione e la selezione dei numeri di tracciabilità articolo. Tuttavia, poiché il sistema di impegni è basato sui movimenti contabili articoli, i documenti di attività di warehouse che registrano solo i movimenti warehouse non sono pienamente supportati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 01/15/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801014"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Dettagli di progettazione: Tracciabilità articolo nel magazzino
 La gestione dei numeri seriali e di lotto è principalmente un'attività di warehouse, pertanto tutti i documenti di warehouse in uscita e in entrata hanno funzionalità standard per l'assegnazione e la selezione dei numeri di tracciabilità articolo.  
@@ -33,4 +33,3 @@ Tuttavia, il sistema di impegno prende in considerazione le attività di warehou
 [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)  
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)
-

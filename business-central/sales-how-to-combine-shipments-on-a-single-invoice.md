@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Combinare le spedizioni in una singola fattura | Documenti Microsoft'
-description: "Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate."
+description: Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802342"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
@@ -62,4 +62,3 @@ Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esemp
 ## <a name="see-also"></a>Vedi anche  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

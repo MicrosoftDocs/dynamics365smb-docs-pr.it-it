@@ -1,8 +1,8 @@
 ---
 title: Sincronizzare i contatti con clienti e fornitori| Documenti Microsoft
-description: "È possibile associare o sincronizzare le informazioni di contatto dei contatti che sono anche clienti, fornitori o conti correnti bancari, in modo da aggiornate le informazioni una volta sola."
+description: È possibile associare o sincronizzare le informazioni di contatto dei contatti che sono anche clienti, fornitori o conti correnti bancari, in modo da aggiornate le informazioni una volta sola.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,17 +13,15 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 4785e0644e2cb4c615ed79fbd23bef74d25ca547
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801334"
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari
 Se alcuni contatti sono anche clienti, fornitori o conti correnti bancari, è possibile sincronizzare le informazioni di contatto con il relativo cliente, fornitore o conto corrente bancario. La sincronizzazione rende uguali le informazioni comuni tra i contatti e clienti, fornitori o conti bancari.  
-
-Prima di effettuare tale operazione, è necessario specificare un codice relazione d'affari per clienti, fornitori e conti correnti bancari nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Setup Relationship Management](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Differenti modi di sincronizzare i contatti con clienti, fornitori e conti correnti bancari
 È possibile sincronizzare i contatti con clienti, fornitori o i conti correnti bancari grazie a tre metodi:
@@ -48,4 +46,3 @@ Quando il contatto è sincronizzato con il cliente, il fornitore, il conto corre
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

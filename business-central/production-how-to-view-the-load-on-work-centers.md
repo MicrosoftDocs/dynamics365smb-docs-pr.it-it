@@ -1,23 +1,23 @@
 ---
 title: Come visualizzare il carico in aree di produzione e centri di lavoro | Microsoft Docs
-description: "Dalla scheda **Area di produzione** è possibile visualizzare il carico nelle aree di produzione conseguente agli ordini di produzione rilasciati."
+description: Dalla scheda **Area di produzione** è possibile visualizzare il carico nelle aree di produzione conseguente agli ordini di produzione rilasciati.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801921"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Visualizzare il carico in aree di produzione e centri di lavoro
 Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.    
@@ -35,4 +35,3 @@ Utilizzare i campi **Visualizza per** e **Visualizza come** nella Scheda dettagl
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

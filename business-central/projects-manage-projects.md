@@ -2,7 +2,7 @@
 title: Task commesse utilizzando le risorse e i fogli presenze| Microsoft Docs
 description: Descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
-ms.contentlocale: it-it
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802183"
 ---
 # <a name="project-management"></a>Gestione progetti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
@@ -48,4 +48,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

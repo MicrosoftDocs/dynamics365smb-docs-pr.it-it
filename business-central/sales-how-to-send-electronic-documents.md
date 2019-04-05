@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800930"
 ---
 # <a name="send-electronic-documents"></a>Inviare documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio delle fatture e delle note di credito elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Un provider di servizi di Exchange per documenti invia i documenti elettronici tra i partner commerciali. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
@@ -57,4 +57,3 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'i
 [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-

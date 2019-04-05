@@ -1,21 +1,21 @@
 ---
 title: Mapping dei campi per l'esportazione dei file di pagamento bancario | Microsoft Docs
-description: "Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari."
+description: Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802068"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari
 Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sul funzionamento della funzionalità di servizio di conversione dati bancari, vedere [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md).  
@@ -72,4 +72,3 @@ La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
 [Impostare il Servizio di conversione dati bancari](bank-how-setup-bank-data-conversion-service.md)   
 [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-

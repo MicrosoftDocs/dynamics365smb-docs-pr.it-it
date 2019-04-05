@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Prelevare articoli con prelievi magazzino | Documenti Microsoft'
-description: "Se un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare i documenti di prelievo da magazzino per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine."
+description: Se un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare i documenti di prelievo da magazzino per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802178"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono pronti per il prelievo.
@@ -112,4 +112,3 @@ Negli scenari di combinazione, in cui una parte della quantità deve essere asse
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

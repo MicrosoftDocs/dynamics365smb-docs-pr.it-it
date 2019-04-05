@@ -2,7 +2,7 @@
 title: Stato di assegnazione e stato di riparazione | Documenti Microsoft
 description: Informazioni sulla relazione tra lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei relativi movimenti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802226"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Stato di assegnazione e stato di riparazione degli articoli in assistenza
 Lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei movimenti di assegnazione degli articoli in assistenza sono correlati in Gestione assistenza. Lo stato di assegnazione cambia quando lo stato di riparazione dell'articolo in assistenza viene modificato in **Completato** o **Parzialmente Assistito** e quando un'offerta di assistenza viene convertita in ordine di assistenza. Lo stato di riparazione dell'articolo in assistenza cambia quando l'assegnazione dell'articolo in assistenza viene eliminata o quando l'articolo in assistenza viene riassegnato ad un'altra risorsa. Lo stato di riparazione degli articoli in assistenza può essere visualizzato nella pagina **Compiti di Assistenza** e aggiornato nel campo **Codice Stato Riparazione** della pagina **Prospetto Art. in Assist.** È possibile visualizzare lo stato di assegnazione nel campo **Stato** della pagina **Assegnazioni Risorse**.  
@@ -71,5 +71,4 @@ Viene creato un nuovo movimento di assegnazione con stato **Attivo** contenente 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)  
 [Assegnare risorse](service-how-to-allocate-resources.md)  
-
 

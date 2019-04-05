@@ -1,8 +1,8 @@
 ---
 title: Modificare il livello dei dettagli visualizzati negli elenchi | Documenti Microsoft
-description: "È possibile visualizzare le liste nelle visualizzazioni dettagliate che forniscono ulteriori informazioni oppure come riquadri semplici da analizzare visivamente."
+description: È possibile visualizzare le liste nelle visualizzazioni dettagliate che forniscono ulteriori informazioni oppure come riquadri semplici da analizzare visivamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801430"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visualizzazione delle liste con modalità diverse
 Nell'angolo destro di qualsiasi lista di [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile trovare le icone che consentono di passare da una visualizzazione all'altra della lista. Un elenco può essere visualizzato come lista dettagliata, ovvero la visualizzazione standard. Ma è anche possibile passare a una visualizzazione a riquadri, in cui vengono mostrati meno dettagli sul record specifico e in cui i movimenti sono disposti come pile di riquadri. La visualizzazione risulta molto utile per ottenere una panoramica di più movimenti e, in particolare, sui dispositivi più piccoli, perché semplifica il tocco sui singoli movimenti.
@@ -30,4 +30,3 @@ Nella Lista articoli l'inserimento di immagini consente di ottenere una panorami
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
-

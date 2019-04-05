@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Impegnare articoli | Documenti Microsoft'
-description: "È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del documento aperto."
+description: È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del documento aperto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802063"
 ---
 # <a name="reserve-items"></a>Prenotare articoli
 È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del giornale di registrazione o del documento aperto. Eseguire l'operazione nella pagina **Impegno**.
@@ -38,7 +38,7 @@ Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. 
     |**Annulla impegno da riga corrente**|per annullare l'impegno degli articoli dal documento sulla riga selezionata.|
 
 > [!NOTE]  
->  Se per l'ordine di vendita esistono righe di tracciabilità articolo, il sistema di impegno richiederà l'esecuzione di passaggi speciali. Per ulteriori informazioni, vedere la sezione "Per impegnare un numero seriale o di lotto specifico".  
+>  Se per l'ordine di vendita esistono righe di tracciabilità articolo, il sistema di impegno richiederà l'esecuzione di passaggi speciali. Per ulteriori informazioni, vedere [Per impegnare un numero seriale o di lotto specifico](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Per impegnare articoli per le righe degli ordini di produzione  
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
@@ -101,4 +101,3 @@ La seguente procedura è basata su ordine di vendita.
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

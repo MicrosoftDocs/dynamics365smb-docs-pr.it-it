@@ -1,8 +1,8 @@
 ---
 title: Differire le entrate e le uscite| Documenti Microsoft
-description: "Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, puoi differire o posporre automaticamente le entrate e le uscite per una pianificazione specificata."
+description: Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, puoi differire o posporre automaticamente le entrate e le uscite per una pianificazione specificata.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802042"
 ---
 # <a name="defer-revenues-and-expenses"></a>Rateizzare le entrate e le uscite
 Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, utilizzare la funzionalità per differire automaticamente le entrate e le uscite per una pianificazione specificata.
@@ -51,7 +51,7 @@ Per entrambi i tipi di differimenti, selezionare **Conto patrimoniale** nel camp
    * %5 = Il nome del periodo contabile della data di registrazione del periodo
    * %6 = L'anno fiscale della data di registrazione del periodo
 
-Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differite per % 4% 6 ", la descrizione visualizzata sarà “Spese differite per febbraio 2016”.
+Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differite per %4 %6, la descrizione visualizzata sarà “Spese differite per febbraio 2016”.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Per assegnare un modello di differimento a un articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di differimento** e quindi scegliere il collegamento correlato.
@@ -93,4 +93,3 @@ I movimenti C/G da registrare nel conto specificato di differimento, ad esempio,
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

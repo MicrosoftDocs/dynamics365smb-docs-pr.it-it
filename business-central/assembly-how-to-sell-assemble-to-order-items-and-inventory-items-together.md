@@ -1,8 +1,8 @@
 ---
 title: Vendita di articoli di assemblaggio su ordine e articoli di magazzino insieme | Microsoft Docs
-description: "Se un articolo di assemblaggio è impostato per l'assemblaggio per magazzino, il processo dell'ordine di vendita di default presuppone che l'articolo sia già assemblato e che possa essere prelevato dal magazzino, se disponibile. Tuttavia se una parte (o tutta) della quantità non è disponibile, è possibile scegliere al volo di creare un ordine di assemblaggio per la quantità rimanente."
+description: Se un articolo di assemblaggio è impostato per l'assemblaggio per magazzino, il processo dell'ordine di vendita di default presuppone che l'articolo sia già assemblato e che possa essere prelevato dal magazzino, se disponibile. Tuttavia se una parte (o tutta) della quantità non è disponibile, è possibile scegliere al volo di creare un ordine di assemblaggio per la quantità rimanente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801115"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vendere articoli di assemblaggio su ordine e articoli di magazzino insieme
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **assemblaggio per magazzino**, il processo di default dell'ordine di vendita presuppone che l'articolo sia già assemblato e possa essere prelevato dal magazzino, se disponibile. Di conseguenza, un ordine di assemblaggio non viene automaticamente creato e collegato alla riga dell'ordine di vendita. Tuttavia, se la quantità, interamente o in parte, non è disponibile, è possibile creare un ordine di assemblaggio per la quantità rimanente compilando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita. In questo modo, è possibile assemblare l'articolo su ordine anche se di default è impostato per l'assemblaggio per magazzino.  
@@ -46,4 +46,3 @@ Tale flessibilità è disponibile quando si vendono articoli da assemblare su or
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

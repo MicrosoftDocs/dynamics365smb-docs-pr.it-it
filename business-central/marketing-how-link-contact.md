@@ -1,8 +1,8 @@
 ---
 title: Collegamento di contatti con clienti e fornitori| Documenti Microsoft
-description: "Descrive come collegare un contatto con un cliente, un fornitore o un conto corrente bancario dalla medesima società, per poter sincronizzare i dati comuni."
+description: Descrive come collegare un contatto con un cliente, un fornitore o un conto corrente bancario dalla medesima società, per poter sincronizzare i dati comuni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801881"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Collegamento di contatti con clienti, fornitori e conti correnti bancari
 Se è presente un contatto o un cliente, un fornitore o conto bancario per la medesima società, è possibile collegare le due entità. Collegare le due entità consente di sincronizzare i dati comuni in modo che siano identici in entrambe le aree.
@@ -34,4 +34,3 @@ Se è presente un contatto o un cliente, un fornitore o conto bancario per la me
 [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Configurazione dei processi della warehouse | Documenti Microsoft
-description: "La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse."
+description: La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 43ad05c39544142a2873d0972b802c7392d853a6
 ms.openlocfilehash: 7f7d07ce7965b0db0f9779e396b1818ce398e812
-ms.contentlocale: it-it
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801889"
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
 La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.  
@@ -49,4 +49,3 @@ La strategia di distribuzione di una società si riflette in una configurazione 
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

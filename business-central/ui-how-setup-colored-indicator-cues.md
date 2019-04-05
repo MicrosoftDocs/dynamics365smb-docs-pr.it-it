@@ -1,8 +1,8 @@
 ---
-title: "Personalizzare segnali visivi sull'attività di una pila | Documenti Microsoft"
-description: "Impostare un indicatore colorato sulla sezione Pila per fornire un segnale visivo per personalizzato per l'attività di una pila."
+title: Personalizzare segnali visivi sull'attività di una pila | Documenti Microsoft
+description: Impostare un indicatore colorato sulla sezione Pila per fornire un segnale visivo per personalizzato per l'attività di una pila.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801531"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Impostare un indicatore colorato nelle pile
 È possibile impostare le pile che vengono visualizzate in Gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
@@ -46,4 +46,3 @@ Nella tabella seguente sono elencati i colori corrispondenti alle opzioni dei ca
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

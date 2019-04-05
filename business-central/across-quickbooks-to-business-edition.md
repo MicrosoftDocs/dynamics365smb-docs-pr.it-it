@@ -1,7 +1,7 @@
 ---
 title: Trasferire dati da un'app QuickBooks | Documenti Microsoft
-description: "È possibile migrare i dati quali clienti, fornitori, articoli in magazzino e conti C/G dalle app di QuickBooks a Business Central."
-documentationcenter: 
+description: È possibile migrare i dati quali clienti, fornitori, articoli in magazzino e conti C/G dalle app di QuickBooks a Business Central.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,22 +11,20 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801253"
 ---
-
-
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Passare da un'app di QuickBooks a Dynamics 365 Business Central
 Sempre più aziende in crescita stanno passando da app finanziarie come QuickBooks Desktop e QuickBooks Online, progettate per startup e altre piccole imprese, a [!INCLUDE[d365fin](includes/d365fin_md.md)], che supporta anche organizzazioni più grandi e più complesse. 
 
 Durante la transizione, le aziende in genere desiderano portare con sé i propri dati aziendali in modo da non iniziare da zero. Per facilitare il trasferimento dei dati, [!INCLUDE[d365fin](includes/d365fin_md.md)] offre estensioni incorporate che migrano dati come clienti, fornitori, articoli di magazzino e conti C/G. Queste estensioni si trovano nella Guida setup assistito **Migrazione dati** e sono pronte all'uso.
 
 * Migrazione dei dati QuickBooks 
-* Migrazione dei dati online QuickBooks
+* Migrazione dei dati QuickBooks Online
 
 Per ulteriori informazioni, leggi informazioni sull'estensione adatta alla tua app QuickBooks:   
 
@@ -39,4 +37,3 @@ Se si è pronti per iniziare, scegliere l'icona a forma di ![lampadina che conse
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)   
-

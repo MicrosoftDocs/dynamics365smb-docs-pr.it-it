@@ -1,26 +1,30 @@
 ---
 title: Come archiviare documenti di acquisto e vendita | Documenti Microsoft
-description: "È possibile archiviare ordini di acquisto e vendita, offerte, ordini di reso e ordini programmati e utilizzare il documento archiviato per ricreare il documento da cui è stato archiviato."
+description: È possibile archiviare ordini di acquisto e vendita, offerte, ordini di reso e ordini programmati e utilizzare il documento archiviato per ricreare il documento da cui è stato archiviato.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802108"
 ---
 # <a name="archive-documents"></a>Archiviare documenti
-È possibile archiviare ordini di acquisto e vendita, offerte, ordini di reso e ordini programmati e utilizzare il documento archiviato per ricreare il documento da cui è stato archiviato.
+È possibile archiviare ordini di vendita e acquisto, offerte, ordini di reso e ordini programmati, ad esempio perché si desidera salvare una copia di un documento per il riutilizzo in seguito. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.
+
+Per i documenti archiviati di cui l'originale esiste ancora e non è registrato, è possibile utilizzare la funzione **Ripristina** per sovrascrivere l'originale con la versione archiviata del documento. Ciò si rivela particolarmente utile se è necessario ripristinare il contenuto di un documento a uno stato precedente.
+
+Per i documenti archiviati di cui l'originale è stato eliminato, è possibile riutilizzare il contenuto solo copiando i dati, ad esempio con la funzione **Copia documento**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Per impostare l'archiviazione automatica dei documenti  
 È possibile impostare l'archiviazione automatica di documenti di vendita e di acquisto, offerte, ordini programmati e ordini di reso, prima di eliminarli.
@@ -42,15 +46,15 @@ Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono
 2.  Aprire un ordine di vendita da archiviare.  
 3.  Scegliere l'azione **Archivia documento**.
 
-L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ordine vendite archiviato**. Da qui, è anche possibile utilizzarlo per ricreare l'ordine di vendita da cui è stato archiviato.
+L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ordine vendite archiviato**.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>Per ricreare un ordine di vendita dall'archivio
-Di seguito viene descritto come ricreare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Per ripristinare un ordine di vendita non registrato dall'archivio
+Di seguito viene descritto come ripristinare il contenuto di un ordine di vendita archiviato nell'ordine di vendita originale. Questa operazione è possibile soltanto quando il documento originale non è stato registrato. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita archiviati** e quindi scegliere il collegamento correlato.
-2.  Selezionare l'ordine di vendita archiviato da ricreare, quindi scegliere l'azione **Ripristina**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita archiviati** e quindi scegliere il collegamento correlato.
+2. Selezionare l'ordine di vendita archiviato, o una versione dello stesso, che si intende ripristinare, quindi scegliere **Ripristina**.  
 
-L'ordine di vendita viene creato e aggiunto alla pagina **Ordini vendita**.
+Il contenuto dell'ordine di vendita originale viene sostituito con quello della versione archiviata selezionata.
 
 ## <a name="to-delete-archived-sales-orders"></a>Per eliminare ordini di vendita archiviati
 Di seguito viene descritto come eliminare ordini di vendita archiviati. I passaggi sono simili per altri altri documenti di acquisto e vendita archiviati.
@@ -64,4 +68,3 @@ Di seguito viene descritto come eliminare ordini di vendita archiviati. I passag
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

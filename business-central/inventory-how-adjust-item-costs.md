@@ -1,8 +1,8 @@
 ---
 title: Modificare manualmente i costi degli articoli| Documenti Microsoft
-description: "È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO, ad esempio, quando i costi degli articoli cambiano per i motivi diversi dalle transazioni."
+description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO, ad esempio, quando i costi degli articoli cambiano per i motivi diversi dalle transazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800966"
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
 Il costo di un articolo (valore di magazzino) che si acquista e in seguito si vende può variare nel tempo, ad esempio perché un costo di spedizione viene aggiunto al costo di acquisto dopo che è stato venduto l'articolo. La rettifica dei costi è un'operazione particolarmente importante nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Per conoscere sempre il valore di magazzino corretto, i costi degli articoli devono quindi essere regolarmente rettificati. In questo modo si garantisce che le statistiche relative ai margini siano aggiornate e che gli indicatore KPI finanziari siano corretti. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).
 
-Come regola, il valore nel campo **Costo unitario** nella scheda articolo si basa sul costo standard per gli articoli con un metodo di costing standard. Per gli articoli con tutti gli altri metodi di costing, tale valore viene calcolato dividendo le giacenze attuali, ovvero costi fatturati e costi previsti, per il magazzino. Per ulteriori informazioni vedere la sezione "Informazioni sul calcolo costo unitario".
+Come regola, il valore nel campo **Costo unitario** nella scheda articolo si basa sul costo standard per gli articoli con un metodo di costing standard. Per gli articoli con tutti gli altri metodi di costing, tale valore viene calcolato dividendo le giacenze attuali, ovvero costi fatturati e costi previsti, per il magazzino. Per ulteriori informazioni vedere [Informazioni sul calcolo costo unitario](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)]i costi degli articoli vengono rettificati automaticamente ogni volta che avviene una transazione di magazzino , ad esempio quando si registra una fattura di acquisto per un articolo.
 
@@ -86,4 +86,3 @@ Come regola, il valore nel campo **Costo unitario** nella scheda articolo si bas
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

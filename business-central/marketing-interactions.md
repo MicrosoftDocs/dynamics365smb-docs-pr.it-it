@@ -1,8 +1,8 @@
 ---
 title: Gestire le interazioni con i contatti| Documenti Microsoft
-description: "È possibile gestire tutti i tipi di comunicazioni o interazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via."
+description: È possibile gestire tutti i tipi di comunicazioni o interazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801580"
 ---
 # <a name="managing-interactions-with-contacts"></a>Gestione di interazioni con i contatti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
@@ -32,7 +32,7 @@ L'area di gestione di relazioni consente di registrare tutte le interazioni con 
 Prima di creare e registrare interazioni, è necessario impostare i modelli di interazione. Quando si creano interazioni, è necessario specificare i modelli di interazione su cui si basano. Il termine modello di interazione indica uno schema che definisce le caratteristiche di base di un'interazione.
 Nella pagina **Modello Interazioni** è possibile impostare un modello di interazione.
 
-Una volta inserite le informazioni sul modello interazione, è possibile creare un allegato, ad esempio un documento di Microsoft Word. Ripetere tali passaggi per impostare altri modelli interazione.  
+Una volta inserite le informazioni sul modello di interazione, è possibile creare un allegato (ad esempio, un documento di Microsoft Word). Ripetere tali passaggi per impostare altri modelli interazione.  
 
 ## <a name="creating-interactions"></a>Creazione di interazioni
 Esistono due modi per registrare interazioni:
@@ -58,4 +58,3 @@ In questa pagina è possibile:
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-

@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Gestione ordini prima della data di inizio pianificazione | Microsoft Docs'
 description: In questo argomento vengono descritte le regole che la pianificazione applica agli ordini nella zona bloccata.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801803"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Dettagli di progettazione: Gestione ordini prima della data di inizio pianificazione
 Per evitare che un piano di approvvigionamento mostri suggerimenti impossibili e pertanto inutili, il sistema di pianificazione considera il periodo fino alla data di inizio pianificazione come una zona bloccata nella quale nulla viene pianificato. La seguente regola si applica alla zona bloccata:  
@@ -42,4 +42,3 @@ Se i numeri seriali o di lotto sono obbligatori o è presente un collegamento or
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

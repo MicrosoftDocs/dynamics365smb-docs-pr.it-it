@@ -1,24 +1,24 @@
 ---
 title: 'Dettagli di progettazione: Lotto-per-Lotto | Microsoft Docs'
-description: "Informazioni su come utilizzare il metodo lotto-per lotto per stabilire la quantità dell'ordine in base alla domanda."
+description: Informazioni su come utilizzare il metodo lotto-per lotto per stabilire la quantità dell'ordine in base alla domanda.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 7bc65fdb33b94b313b7d2b5b046156ca1d0788a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 712068b5fafb8c5334bf48ddfc9242d21c0995e9
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801504"
 ---
 # <a name="design-details-lot-for-lot"></a>Dettagli di progettazione: Lotto-per-Lotto
 I criteri lotto per lotto sono i più flessibili perché il sistema reagisce solo alla domanda effettiva, agiscono inoltre sulla domanda prevista dalla previsione e dagli ordini programmati e stabiliscono la quantità dell'ordine in base alla domanda. I criteri lotto per lotto sono destinati agli elementi A e B dove il magazzino può essere accettato ma dovrebbe essere evitato.  
@@ -38,4 +38,3 @@ Poiché la quantità dell'ordine di approvvigionamento è basato sulla domanda e
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

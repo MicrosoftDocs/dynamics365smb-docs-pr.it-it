@@ -1,21 +1,21 @@
 ---
 title: Scambiare dati | Microsoft Docs
-description: "È possibile scambiare i dati tra Business Central e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca."
+description: È possibile scambiare i dati tra Business Central e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 678b15b8d15dba477ac09c2651964525f4afe26a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801257"
 ---
 # <a name="exchanging-data"></a>Scambio di dati
 È possibile scambiare i dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.  
@@ -44,4 +44,3 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-

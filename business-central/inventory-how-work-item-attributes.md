@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 9441bee71c6025deed419dec59d3bacf3bdf5e41
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801236"
 ---
 # <a name="work-with-item-attributes"></a>Utilizzare gli attributi degli articoli
 Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in un negozio Web integrato, possono chiedere o cercare in base alle caratteristiche, ad esempio l'altezza e l'anno del modello. Per fornire all'assistenza ai clienti, è possibile assegnare valori di attributo articolo di diversi tipi agli articoli e utilizzarli durante la ricerca degli articoli.
@@ -31,7 +31,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 3. Nella pagina **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Se si seleziona **Opzione** nel campo **Tipo** è possibile scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere la sezione "Per creare i valori per gli attributi articolo di tipo Opzione".  
+>   Se si seleziona **Opzione** nel campo **Tipo** è possibile scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Per creare i valori per gli attributi articolo di tipo Opzione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Attributi articolo** e quindi scegliere il collegamento correlato.
@@ -42,16 +42,16 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Articoli**, selezionare l'articolo a cui si desidera assegnare gli attributi articoli quindi selezionare l'azione **Attributi**.
 3. Nella pagina **Valori attributo articolo** scegliere l'azione **Nuovo**.
-4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto nella sezione "Per creare attributi articolo".
+4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. Nel campo **Valore** immettere il valore dell'attributo articolo, ad esempio "2010" per l'attributo **Anno modello**.
-6. Per gli attributi articolo di tipo **Opzione**, scegliere il pulsante di ricerca nel campo **Valore**, quindi selezionare un valore di attributo articolo. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo valore di attributo articolo come descritto nella sezione "Per creare i valori per gli attributi articolo di tipo Opzione".
+6. Per gli attributi articolo di tipo **Opzione**, scegliere il pulsante di ricerca nel campo **Valore**, quindi selezionare un valore di attributo articolo. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo valore di attributo articolo come descritto in [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Ripetere i passaggi da 4 a 6 per tutti gli attributi articoli che si desidera assegnare all'articolo.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Per assegnare attributi articolo alle categorie articoli
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie articoli** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Categorie articoli**, selezionare la categoria dell'articolo a cui si desidera assegnare gli attributi articolo quindi selezionare l'azione **Modifica**.
 3. Nella pagina **Scheda categoria articolo**, scegliere l'azione **Nuovo** nella Scheda dettaglio **Attributi**.
-4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto nella sezione "Per creare un attributo articolo".
+4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. Nel campo **Valore predefinito** scegliere il pulsante di ricerca e selezionare un valore attributo articolo.
 6. Ripetere i passaggi da 4 a 5 per tutti gli attributi articoli che si desidera assegnare alla categoria articolo.
 
@@ -80,4 +80,3 @@ Gli articoli nella pagina **Articoli** vengono filtrati in base ai valori dell'a
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

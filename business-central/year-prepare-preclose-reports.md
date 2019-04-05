@@ -1,8 +1,8 @@
 ---
 title: Panoramica dei report preliminari alla chiusura per verificare l'accuratezza dei conti | Documenti Microsoft
-description: "Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo."
+description: Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801775"
 ---
 # <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
@@ -40,5 +40,4 @@ Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consent
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

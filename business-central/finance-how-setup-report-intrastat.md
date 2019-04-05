@@ -1,8 +1,8 @@
 ---
 title: Impostare e creare report Intrastat| Microsoft Docs
-description: "Informazioni su come impostare le funzionalità di reporting Intrastat e come segnalare le attività commerciali con società in altri paesi UE."
+description: Informazioni su come impostare le funzionalità di reporting Intrastat e come segnalare le attività commerciali con società in altri paesi UE.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b75d709933cd9d147a9b5e0862a88a44a300f3c1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801624"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Procedura: Impostare e registrare report Intrastat
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
@@ -122,4 +122,3 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione contabile](finance.md)
-

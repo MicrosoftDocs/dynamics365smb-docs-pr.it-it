@@ -1,21 +1,21 @@
 ---
 title: 'Dettagli di progettazione: Gestione warehouse | Microsoft Docs'
-description: "Questo argomento fornisce una panoramica della progettazione, dei concetti e dei principi alla base delle funzionalità di gestione warehouse in Business Central."
+description: Questo argomento fornisce una panoramica della progettazione, dei concetti e dei principi alla base delle funzionalità di gestione warehouse in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 37c432a121c8105fbe982a4f8968094105530e3a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a55be802506d9d8cbaae1cea9801a85c61e7374f
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801332"
 ---
 # <a name="design-details-warehouse-management"></a>Dettagli di progettazione: Gestione warehouse
 La documentazione fornisce una sintesi dei concetti e dei principi utilizzati nelle funzionalità di gestione warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Viene descritta la progettazione dietro le funzionalità della warehouse centrale e viene spiegato in che modo la gestione della warehouse si integra con altre funzionalità della supply chain.  
@@ -30,4 +30,3 @@ Per differenziare i diversi livelli di complessità della gestione della warehou
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  
 [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)
-

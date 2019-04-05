@@ -1,8 +1,8 @@
 ---
 title: Gestire i cespiti| Documenti Microsoft
-description: "Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo dei cespiti."
+description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo dei cespiti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802008"
 ---
 # <a name="fixed-assets"></a>Cespiti
 La funzionalità Cespiti di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
@@ -57,4 +57,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

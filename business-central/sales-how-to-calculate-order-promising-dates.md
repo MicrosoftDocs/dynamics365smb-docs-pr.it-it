@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Calcolare le date per la promessa ordine | Documenti Microsoft'
-description: "La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Consente inoltre di creare delle righe di richiesta per le date confermate dall'utente."
+description: La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Consente inoltre di creare delle righe di richiesta per le date confermate dall'utente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/23/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801210"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
@@ -147,4 +147,3 @@ Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, 
 [Vendite](sales-manage-sales.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

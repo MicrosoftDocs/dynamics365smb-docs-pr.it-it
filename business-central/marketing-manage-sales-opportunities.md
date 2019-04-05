@@ -1,8 +1,8 @@
 ---
-title: "Gestire opportunità di vendita e clienti potenziali| Documenti Microsoft"
-description: "Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Business Central e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali."
+title: Gestire opportunità di vendita e clienti potenziali| Documenti Microsoft
+description: Descrive la gestione delle nuove opportunità di vendita o dei clienti potenziali in Business Central e l'associazione dell'opportunità con un agente per tenere traccia delle vendite potenziali.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2c9ef61555ddf3579172fc1e5b28e8eb4923b4d5
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801045"
 ---
 # <a name="managing-sales-opportunities"></a>Gestione delle opportunità di vendita
 Tutti i clienti potenziali possono essere considerati opportunità di vendita. È possibile creare opportunità e associarle a un agente in modo da tenere traccia delle vendite potenziali.
@@ -36,4 +36,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Presentazione di Microsoft Dynamics 365 Business Central
-description: "Informazioni sulle funzionalità e gli scenari di lavoro in Business Central, una soluzione di gestione aziendale per piccole e medie imprese."
+description: Informazioni sulle funzionalità e gli scenari di lavoro in Business Central, una soluzione di gestione aziendale per piccole e medie imprese.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: landing-page
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 423518d27902cf8c4507a583f660932296789c6e
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801043"
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[d365fin](includes/d365fin_md.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.
@@ -32,4 +32,3 @@ ms.lasthandoff: 12/04/2018
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)
-

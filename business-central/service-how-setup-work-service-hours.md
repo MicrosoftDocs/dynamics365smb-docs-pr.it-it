@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Impostare le ore di lavoro e le ore di assistenza | Documenti Microsoft'
-description: "È possibile specificare le ore lavorative solitamente dedicate all'assistenza nell'azienda. Le ore di assistenza vengono utilizzate per calcolare la data e l'ora di risposta per gli ordini e le offerte di assistenza e per inviare degli avvisi relativi all'ora di risposta."
+description: È possibile specificare le ore lavorative solitamente dedicate all'assistenza nell'azienda. Le ore di assistenza vengono utilizzate per calcolare la data e l'ora di risposta per gli ordini e le offerte di assistenza e per inviare degli avvisi relativi all'ora di risposta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801950"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
 Solitamente, un sistema di gestione dell'assistenza tiene traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza. [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una serie di strumenti integrati che è possibile personalizzare per poter registrare questo tipo di informazioni.  
@@ -60,4 +60,3 @@ Se non si impostano ore di assistenza specifiche per il contratto di assistenza,
 [Informazioni su stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Informazioni su stato assistenza e stato riparazione](service-order-repair-status.md)  
-

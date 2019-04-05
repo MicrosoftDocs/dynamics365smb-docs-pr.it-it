@@ -1,24 +1,24 @@
 ---
 title: Come gestire i modelli di notifica | Microsoft Docs
-description: "Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica."
+description: Le notifiche vengono inviate agli utenti del flusso di lavoro per informarli sui passaggi che devono eseguire o sullo stato dei passaggi del flusso di lavoro. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802218"
 ---
 # <a name="manage-notification-templates"></a>Gestire i modelli di notifica
 Le notifiche vengono inviate agli utenti del workflow per informarli sui passaggi che devono eseguire o sullo stato delle fasi del workflow. È possibile impostare gli utenti che ricevono la notifica e il momento in cui la ricevono configurando gli utenti di approvazione, la pianificazione della notifica agli utenti e le risposte del workflow interessato per definire il destinatario della notifica. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md).  
@@ -83,4 +83,3 @@ I valori dei parametri vengono inseriti automaticamente nelle notifiche in base 
  [Creare i workflow](across-how-to-create-workflows.md)   
  [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   
-

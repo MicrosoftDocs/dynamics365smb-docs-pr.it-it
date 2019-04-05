@@ -2,7 +2,7 @@
 title: Setup categorie di registrazione| Documenti Microsoft
 description: Panoramica delle categorie di registrazione utilizzabili per risparmiare tempo ed evitare errori quando si registrano le transazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801191"
 ---
 # <a name="setting-up-posting-groups"></a>Impostazione delle categorie di registrazione
 Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ Nelle tabelle che seguono sono indicate le categorie di registrazione che rientr
 
 | Categorie di registrazione specifiche | Description |
 | --- | --- |
-| Cat. reg. clienti |Definire i conti da utilizzare quando si registrano transazioni clienti. Se si utilizzano il magazzino insieme alla contabilità clienti, la categoria di registrazione business assegnata al cliente e categoria di registrazione articoli/servizi assegnata all'articolo di magazzino determina i conti in cui registrare i movimenti delle righe dell'ordine di vendita. Impostare questi valori nella pagina **Cat. reg. clienti**. |
+| Cat. reg. clienti |Definire i conti da utilizzare quando si registrano transazioni clienti. Se si utilizzano il magazzino insieme alla contabilità clienti, la categoria di registrazione business assegnata al cliente e categoria di registrazione articoli/servizi assegnata all'articolo di magazzino determina i conti in cui registrare i movimenti delle righe dell'ordine di vendita. Vedere "Categorie di registrazione business" e "Categorie di registrazione articoli/servizi" in **Categorie di registrazione generali** sopra. Impostare questi valori nella pagina **Cat. reg. clienti**. |
 | Cat. reg. fornitori |Definire dove registrare le transazioni relative a conti fornitori, conti di addebito assistenza e conti sconto pagamento. Questo è simile alle categorie di registrazione clienti. Impostare questi valori nella pagina **Cat. reg. fornitori**. |
-| Cat. reg. magazzino |Definire i conti giacenza magazzino patrimoniali. Le categorie di registrazione magazzino rappresentano inoltre un metodo valido per organizzare il magazzino. Quando si generano report, è possibile separare gli articoli in base alle relative categorie di registrazione. Impostare questi valori nella pagina **Cat. reg. magazzino**. |
+| Cat. reg. magazzino |Definire le categorie di registrazione magazzino che si assegnano ai conti articoli pertinenti nella pagina **Setup registrazione magazzino**. Le registrazioni di movimenti relativi a un articolo verranno quindi effettuate nel conto C/G impostato per la combinazione di categoria di registrazione magazzino e ubicazione che è collegata all'articolo. Le categorie di registrazione magazzino rappresentano inoltre un buon metodo per organizzare il magazzino. Quando si generano report, è possibile separare gli articoli in base alle relative categorie di registrazione. Impostare questi valori nella pagina **Cat. reg. magazzino**. |
 | Cat. reg. C/C bancari |Definire i conti per i conti bancari. Ad esempio, è possibile semplificare i processi di tracciamento delle transazioni e di riconciliazione dei conti correnti bancari. Impostare questi valori nella pagina **Cat. reg. C/C bancari**. |
 | Categorie di registrazione cespiti |È possibile definire diversi tipi di spese e costi, come conti per costi di acquisto, importi di fondo ammortamento, costi di acquisto di cessione, fondo ammortamento di cessione, guadagni su cessione, perdite su cessione, spese di manutenzione e spese di ammortamento. Impostare questi valori nella pagina **Cat. reg. cespiti**. |
 
@@ -79,4 +79,3 @@ Maggiore è il numero di categorie di registrazione articoli/servizi e business,
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

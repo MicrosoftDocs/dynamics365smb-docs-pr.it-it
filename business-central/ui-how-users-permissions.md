@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801818"
 ---
 # <a name="managing-users-and-permissions"></a>Gestione di utenti e autorizzazioni
 Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://aka.ms/CreateOffice365Users).
@@ -26,7 +26,7 @@ Una volta che gli utenti vengono creati in Office 365, possono essere inclusi ne
 
 Un set di permessi è un raccolta di permessi per oggetti specifici del database. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Nella pagina **Scheda utente**, aprire la pagina **Autorizzazioni valide** per visualizzare di quali autorizzazioni l'utente dispone e tramite quali set di autorizzazioni vengono assegnate. È inoltre possibile modificare i dettagli di autorizzazione per i set di autorizzazioni di tipo **Personalizzato**. Per ulteriori informazioni, vedere la sezione "Per visualizzare o modificare le autorizzazioni di un utente".
+Nella pagina **Scheda utente**, aprire la pagina **Autorizzazioni valide** per visualizzare di quali autorizzazioni l'utente dispone e tramite quali set di autorizzazioni vengono assegnate. È inoltre possibile modificare i dettagli di autorizzazione per i set di autorizzazioni di tipo **Personalizzato**. Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Gli amministratori possono utilizzare la pagina **Setup utente** per definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi.
 
@@ -38,7 +38,7 @@ Un altro sistema per definire a cosa possono accedere gli utenti è l'impostazio
 
 Ogni nuovo utente che è stato creato per la sottoscrizione a Office 365 verrà aggiunto nella pagina **Utenti**.
 
-## <a name="to-group-users-in-a-user-group"></a>Per raggruppare gli utenti in un gruppo di utenti
+## <a name="to-group-users-in-user-groups"></a>Per raggruppare gli utenti in gruppi di utenti
 È possibile impostare i gruppi di utenti per gestire facilmente i set di autorizzazioni per i gruppi di utenti della società.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di utenti** e quindi scegliere il collegamento correlato.
@@ -46,7 +46,7 @@ Ogni nuovo utente che è stato creato per la sottoscrizione a Office 365 verrà 
 3. Nella pagina **Gruppo di utenti**, scegliere l'azione **Membri gruppo di utenti**.
 4. Nella pagina **Gruppo di utenti**, scegliere l'azione **Aggiungi utenti**.
 
-Quando vengono creati utenti o gruppi di utenti, è necessario assegnare set di autorizzazioni a ciascuno per definire l'oggetto a cui un utente può accedere. Innanzitutto, è necessario organizzare le autorizzazioni pertinenti nei set di autorizzazioni. Per ulteriori informazioni, vedere la sezione "Per creare o modificare un set di autorizzazioni".
+Quando vengono creati utenti o gruppi di utenti, è necessario assegnare set di autorizzazioni a ciascuno per definire l'oggetto a cui un utente può accedere. Innanzitutto, è necessario organizzare le autorizzazioni pertinenti nei set di autorizzazioni. Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni
 Per definire rapidamente un nuovo gruppo di utenti, è possibile copiare tutti i set di autorizzazioni da un gruppo di utenti esistenti al nuovo gruppo di utenti.
@@ -57,7 +57,7 @@ I membri del gruppo di utenti non vengono copiati nel nuovo gruppo di utenti. Bi
 2. Selezionare il gruppo di utenti che si desidera copiare, quindi scegliere l'azione **Copia gruppo di utenti**.
 3. Nel campo **Nuovo codice gruppo di utenti**, immettere un nome per il gruppo, quindi scegliere il pulsante **OK**.
 
-Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Procedere con l'aggiunta di utenti. Per ulteriori informazioni, vedere la sezione “Per raggruppare gli utenti in gruppi di utenti".  
+Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Procedere con l'aggiunta di utenti. Per ulteriori informazioni, vedere [Per raggruppare gli utenti in gruppi di utenti](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
@@ -68,7 +68,7 @@ Gli amministratori possono definire i periodi di tempo in cui utenti specificati
 4. Compilare i campi come necessario.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Per creare o modificare un set di autorizzazioni
-I set di autorizzazioni funzionano come contenitori di autorizzazioni, in modo da poter gestire facilmente più autorizzazioni in un record. Dopo avere creato un set di autorizzazioni, è necessario aggiungere le autorizzazioni effettive. Per ulteriori informazioni, vedere la sezione "Per creare o modificare un set di autorizzazioni".
+I set di autorizzazioni funzionano come contenitori di autorizzazioni, in modo da poter gestire facilmente più autorizzazioni in un record. Dopo avere creato un set di autorizzazioni, è necessario aggiungere le autorizzazioni effettive. Per ulteriori informazioni, vedere [Per creare o modificare le autorizzazioni manualmente](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > Una soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal fornitore software. Tali set di autorizzazioni sono di tipo **Sistema** o **Estensione**. Non è possibile creare o modificare questi tipi di set di autorizzazioni o le autorizzazioni al loro interno. Tuttavia, è possibile copiarli per definire i propri set di autorizzazioni e autorizzazioni personalizzati. <br /><br />
@@ -91,7 +91,7 @@ Quando si creano nuovi set di autorizzazioni, è possibile utilizzare una funzio
 Il nuovo set di autorizzazioni, contenente tutte le autorizzazioni del set di autorizzazioni copiate, viene aggiunto come nuova riga nella pagina **Set di autorizzazioni**. Si noti che le linee sono ordinate alfabeticamente all'interno di ciascun tipo.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Per creare o modificare le autorizzazioni manualmente
-In questa procedura verrà illustrato come aggiungere o modificare autorizzazioni manualmente. Un set di autorizzazioni può anche essere creato automaticamente a partire dalle proprie azioni nell'interfaccia utente. Per ulteriori informazioni, vedere la sezione “Per creare o modificare i set di autorizzazioni registrando le azioni".
+In questa procedura verrà illustrato come aggiungere o modificare autorizzazioni manualmente. Un set di autorizzazioni può anche essere creato automaticamente a partire dalle proprie azioni nell'interfaccia utente. Per ulteriori informazioni, vedere [Per creare o modificare i set di autorizzazioni registrando le azioni](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. Nella pagina **Set di autorizzazioni**, selezionare la riga per un set di autorizzazioni che si desidera copiare, quindi selezionare l'azione **Autorizzazioni**.
 2. Nella pagina **Autorizzazioni**, creare una nuova riga o modificare i campi in una linea esistente.
@@ -109,6 +109,10 @@ In ognuno dei campi dei cinque tipi di accesso (**Autorizzazione di lettura**, *
 Ad esempio, un utente può disporre del permesso di eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita, la codeunit Vendite-Registra, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
 
 Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Righe vendite per eseguire la codeunit. Se l'utente possiede un'autorizzazione indiretta per la tabella Righe vendite, la codeunit Vendite-Registra viene eseguita correttamente. Quando un utente possiede un'autorizzazione indiretta, tale utente può solo modificare la tabella Riga vendite eseguendo la codeunit di Vendite-Registra o un altro oggetto per cui possiede l'autorizzazione per modificare la tabella Righe vendite. L'utente può solo modificare la tabella Righe vendite quando esegue questa operazione da aree di applicazione supportate. L'utente non può eseguire inavvertitamente o intenzionalmente la funzionalità con altri metodi.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Per limitare l'accesso di un utente a record specifici in una tabella
+Per la protezione a livello di record in [!INCLUDE[d365fin](includes/d365fin_md.md)], si utilizzano filtri di protezione per limitare l'accesso dell'utente ai dati in una tabella. I filtri di protezione sono creati sui dati della tabella. Un filtro di protezione descrive un set di record in una tabella che un utente è autorizzato a accedere. È possibile specificare, ad esempio, che un utente può leggere solo i record che contengono informazioni su un determinato cliente. Ciò significa che l'utente non può accedere ai record che contengono informazioni su altri clienti. Per ulteriori informazioni, vedere [Utilizzo di filtri di protezione](/dynamics365/business-central/dev-itpro/security/security-filters) in Guida per sviluppatori e professionisti IT.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Per creare o modificare i set di autorizzazioni registrando le azioni
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Set di autorizzazioni** e quindi scegliere il collegamento correlato.
@@ -138,7 +142,7 @@ Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Rig
 2. Selezionare l'utente a cui si intende assegnare l'autorizzazione.
 Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel Dettaglio informazioni **Set di autorizzazioni**.
 3. Scegliere l'azione **Modifica** per aprire la pagina **Scheda utente**.
-4. Nella Scheda dettaglio **Set di autorizzazioni utente** compilare i campi secondo le necessità su una nuova riga. Per ulteriori informazioni, vedere la sezione "Per creare o modificare un set di autorizzazioni".
+4. Nella Scheda dettaglio **Set di autorizzazioni utente** compilare i campi secondo le necessità su una nuova riga. Per ulteriori informazioni, vedere [Per creare o modificare un set di autorizzazioni](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Per assegnare un set di autorizzazioni nella pagina **Set di autorizzazioni per utente**  
 La seguente procedura illustra come assegnare i set di autorizzazioni a un utente nella pagina **Set di autorizzazioni per utente**. I passaggi sono simili a quelli della pagina **Set di autorizzazioni per gruppo di utenti**.
@@ -161,20 +165,20 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un utent
 
     > [!NOTE]  
     > È possibile modificare solo i set di autorizzazioni di tipo **Definito dall'utente**.<br /><br />
-    > Le righe di autorizzazione di origine derivano dal piano di sottoscrizione. I valori di autorizzazione di diritto annullano i valori in altri set di autorizzazioni se hanno una classificazione più alta. La presenza di un valore in un set di autorizzazioni senza diritti che ha una classificazione superiore rispetto al valore correlato nel diritto sarà racchiuso tra parentesi per indicare che non è valido in quanto è superato dal diritto esistente. Per una spiegazione della classificazione, vedere la sezione "Per creare o modificare un set di autorizzazioni".  
+    > Le righe di autorizzazione di origine derivano dal piano di sottoscrizione. I valori di autorizzazione di diritto annullano i valori in altri set di autorizzazioni se hanno una classificazione più alta. La presenza di un valore in un set di autorizzazioni senza diritti che ha una classificazione superiore rispetto al valore correlato nel diritto sarà racchiuso tra parentesi per indicare che non è valido in quanto è superato dal diritto esistente. Per una spiegazione della classificazione, vedere [Per creare o modificare le autorizzazioni manualmente](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Per modificare un set di autorizzazioni, nella parte **Per set di autorizzazioni**, nella riga per un set di autorizzazioni pertinente di tipo **Definito dall'utente**, selezionare uno dei cinque campi del tipo di accesso e selezionare un valore diverso.
 
-5. Per modificare le singole autorizzazioni all'interno del set di autorizzazioni, selezionare il valore nel campo **Set di autorizzazioni** per aprire la pagina **Autorizzazioni**. Seguire i passaggi descritti nella sezione "Per creare o modificare autorizzazioni".  
+5. Per modificare le singole autorizzazioni all'interno del set di autorizzazioni, selezionare il valore nel campo **Set di autorizzazioni** per aprire la pagina **Autorizzazioni**. Seguire i passaggi descritti in [Per creare o modificare autorizzazioni](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > Quando si modifica un set di autorizzazioni, le modifiche si applicano anche ad altri utenti a cui è stato assegnato il set di autorizzazioni.
 
 ## <a name="see-also"></a>Vedi anche
+[Sicurezza e protezione in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Informazioni su utenti, profili e Gestioni ruolo utente](admin-users-profiles-roles.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Aggiungere utenti a Office 365 per l'azienda](https://aka.ms/CreateOffice365Users)  
 [Guida alle licenze di Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)
-

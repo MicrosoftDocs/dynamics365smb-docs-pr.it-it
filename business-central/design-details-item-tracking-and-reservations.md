@@ -1,23 +1,23 @@
 ---
-title: "Dettagli di progettazione: Tracciabilità articolo e impegni | Microsoft Docs"
-description: "Questo argomento descrive la tracciabilità articolo e gli impegni nonché i relativi concetti."
+title: 'Dettagli di progettazione: Tracciabilità articolo e impegni | Microsoft Docs'
+description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i relativi concetti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802030"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
 L'utilizzo simultaneo degli impegni e della tracciabilità articolo specifica è raro, perché entrambi creano un accoppiamento tra approvvigionamento e domanda. Ad eccezione delle situazioni in cui un cliente o un responsabile della pianificazione di produzione richiede un lotto specifico, raramente ha senso impegnare gli articoli di magazzino che già hanno numeri di tracciabilità articolo per un'applicazione specifica. Sebbene sia possibile impegnare gli articoli che richiedono la tracciabilità articolo specifica, è necessaria una funzionalità speciale per evitare conflitti di disponibilità tra i processori di ordine che richiedono gli stessi articoli tracciati.  

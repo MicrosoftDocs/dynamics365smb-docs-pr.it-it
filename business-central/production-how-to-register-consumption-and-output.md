@@ -1,23 +1,23 @@
 ---
 title: Registrare i consumi e l'output per un ordine di produzione | Microsoft Docs
-description: "Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni."
+description: Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802210"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
 Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni. I valori vengono registrati nei movimenti contabili nell'ordine di produzione rilasciato. Le quantità di produzione sono registrate come movimenti contabili articoli negativi, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimento contabile capacità. Tali valori immessi possono essere anche visualizzati nella parte inferiore della finestra come quantità effettive.  
@@ -73,4 +73,3 @@ Se occorre registrare altri valori, le registrazioni li conterranno alla success
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

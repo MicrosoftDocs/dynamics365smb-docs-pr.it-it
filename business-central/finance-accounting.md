@@ -1,6 +1,6 @@
 ---
 title: Esperienza di contabile in Business Central | Documenti Microsoft
-description: "Informazioni sul portale per contabili per Business Central e la Gestione ruolo utente Contabile che supporta i contabili interni ed esterni nella società client."
+description: Informazioni sul portale per contabili per Business Central e la Gestione ruolo utente Contabile che supporta i contabili interni ed esterni nella società client.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802023"
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
@@ -40,4 +40,3 @@ Se si è un contabile con vari clienti, è possibile utilizzare [!INCLUDE[d365ac
 [Invitare il contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
 [Dynamics 365 - Accountant Hub su Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

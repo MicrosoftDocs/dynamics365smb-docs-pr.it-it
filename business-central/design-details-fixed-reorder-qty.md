@@ -1,24 +1,24 @@
 ---
-title: "Dettagli di progettazione: Qtà riordino fissa | Microsoft Docs"
-description: "Il criterio Qtà Riordino Fissa è correlato alla pianificazione di magazzino dei tipici articoli C (costo di magazzino basso, basso rischio di obsolescenza e/o molti articoli). Questo metodo viene in genere utilizzato in connessione con un punto di riordino che riflette la domanda anticipata durante il lead time dell'articolo."
+title: 'Dettagli di progettazione: Qtà riordino fissa | Microsoft Docs'
+description: Il criterio Qtà Riordino Fissa è correlato alla pianificazione di magazzino dei tipici articoli C (costo di magazzino basso, basso rischio di obsolescenza e/o molti articoli). Questo metodo viene in genere utilizzato in connessione con un punto di riordino che riflette la domanda anticipata durante il lead time dell'articolo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801798"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Dettagli di progettazione: Qtà riordino fissa
 Il criterio Qtà Riordino Fissa è correlato alla pianificazione di magazzino dei tipici articoli C (costo di magazzino basso, basso rischio di obsolescenza e/o molti articoli). Questo metodo viene in genere utilizzato in connessione con un punto di riordino che riflette la domanda anticipata durante il lead time dell'articolo.  
@@ -53,4 +53,3 @@ Il criterio Qtà Riordino Fissa è correlato alla pianificazione di magazzino de
  [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

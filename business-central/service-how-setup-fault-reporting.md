@@ -2,24 +2,23 @@
 title: Impostare il reporting dei guasti in Gestione assistenza | Documenti Microsoft
 description: Informazioni su come impostare i processi di reporting dei guasti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801518"
 ---
-
 # <a name="set-up-fault-reporting"></a>Impostare il reporting dei guasti
 Il reporting dei guasti consente di stabilire degli standard per registrare le informazioni relative ai guasti per gli articoli in assistenza. Ad esempio, è possibile specificare il tipo di problema, gli indizi osservati, il motivo del problema e in che modo risolverlo.  
 
@@ -49,4 +48,3 @@ Per completare l'impostazione del reporting dei guasti, è anche possibile speci
 ## <a name="see-also"></a>Vedi anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
-

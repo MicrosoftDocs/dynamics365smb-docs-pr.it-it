@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801500"
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
@@ -96,7 +96,7 @@ Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, uti
 Il processo di aggiornamento o del calcolo dei costi standard in genere è costituito dai task seguenti:  
 
 1.  Aggiornamento dei costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere i processi batch **Suggerisci costo std. articolo** e **Suggerisci costo standard capacità**.  
-2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione "Per calcolare il costo standard di un articolo di assemblaggio" in [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
+2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione [Per calcolare il costo standard di un articolo di assemblaggio](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere il processo batch **Implementa modifiche costo std.**.  
 4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
@@ -105,4 +105,3 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
  [Utilizzare le distinte base](inventory-how-work-BOMs.md)   
  [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)   
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
-

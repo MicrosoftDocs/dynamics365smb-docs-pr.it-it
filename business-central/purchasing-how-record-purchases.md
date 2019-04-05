@@ -1,7 +1,7 @@
 ---
 title: Creare una fattura di acquisto e registrare gli acquisti | Documenti Microsoft
 description: Viene descritto come acquistare articoli Magazzino o Assistenza creando e registrando le fatture o gli ordini di acquisto.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801869"
 ---
 # <a name="record-purchases"></a>Registrare gli acquisti
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Se è necessario verificare un magazzino, anche le fatture e gli ordini di acquisto vengono utilizzati per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture o degli ordini di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
@@ -79,4 +79,3 @@ L'acquisto si riflette ora nel magazzino e nei record finanziari e il pagamento 
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Preparare le spedizioni dirette](sales-how-drop-shipment.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

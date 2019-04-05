@@ -1,23 +1,23 @@
 ---
 title: Informazioni sugli ordini di produzione | Microsoft Docs
-description: "Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione (ordini di lavoro) diramano il lavoro in diverse unità (aree di produzione o centri di lavoro) nella produzione."
+description: Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione (ordini di lavoro) diramano il lavoro in diverse unità (aree di produzione o centri di lavoro) nella produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802294"
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
 Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione diramano il lavoro in diverse aree di produzione o centri di lavoro nella produzione.  
@@ -237,4 +237,3 @@ Nelle registrazioni di produzione le quantità dei consumi vengono registrate co
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

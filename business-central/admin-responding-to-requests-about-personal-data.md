@@ -1,6 +1,6 @@
 ---
 title: Rispondere a richieste relative a dati personali
-description: "È necessario rispondere alle richieste di oggetti dati."
+description: È necessario rispondere alle richieste di oggetti dati.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801895"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Rispondere a richieste relative a dati personali  
 Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni in **Privacy dati** nella Gestione ruolo utente **Amministrazione di utenti, gruppi di utenti e autorizzazioni** oppure, se si sta utilizzando il client Windows, nella Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
 
@@ -40,7 +39,7 @@ Alcuni tipi di dati personali fanno parte dell'account Office 365 e richiedono l
 
 Se si dispone di un abbonamento a pagamento per [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario contattare l'amministratore del tenant della propria organizzazione per inoltrare una richiesta dell'interessato. L'amministratore ha i diritti e gli strumenti amministrativi per soddisfare tale richiesta.  
 
-Se ci si è registrati a [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite la pagina [Trial](https://trials.dynamics.com/) e si sta ancora utilizzando la versione di prova tramite un abbonamento a pagamento dall'amministratore del tenant dell'organizzazione, è possibile inoltrare la richiesta tramite la pagina dedicata alla [privacy dell'utente nel Portale di Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Qui è possibile esportare e scaricare i dati personali.
+Se ci si è registrati a [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite la pagina [Trial](https://trials.dynamics.com/) e si sta ancora utilizzando la versione di valutazione tramite un abbonamento a pagamento dall'amministratore del tenant dell'organizzazione, è possibile inoltrare la richiesta tramite la pagina dedicata alla [privacy dell'utente nel Portale di Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Qui è possibile esportare e scaricare i dati personali.
 
 Nella pagina sulla privacy per la privacy, è anche possibile chiudere il proprio account. Tuttavia, si consiglia di assicurarsi di aver esportato e cancellato tutti i dati prima, poiché l'eliminazione dell'account comporta la perdita dell'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -55,7 +54,7 @@ Se ci si trova in una situazione in cui è necessario esportare i dati non class
 Se l'età di una persona di contatto è inferiore all'età legale stabilita dalle leggi nella propria area geografica, è possibile indicare tale condizione selezionando la casella di controllo **Minorenne** nella scheda **Contatto**. Quando si seleziona tale casella, la casella di controllo **Bloccato dalla privacy** viene selezionata automaticamente. Quando si riceve il consenso dal genitore o dal tutore legale, è possibile scegliere la casella di controllo **Consenso dei genitori ricevuto** per sbloccare il contatto. Sebbene sia possibile elaborare i dati personali dei minori, non è possibile utilizzare la funzione di profiling in Microsoft Dynamics 365 for Sales.
 
 > [!Note]
-> Il log modifiche consente di registrare informazioni dettagliate, ad esempio quando e da chi la casella di controllo **Consenso dei genitori ricevuto** è stata selezionata. Un amministratore può eseguire tale impostazione utilizzando la guida **Setup log modifiche** e anche scegliendo la casella di controllo **Log Modification for Parental Consent Received** nella scheda **Contatto**. Per ulteriori informazioni, vedere [Registrazione di modifiche](across-log-changes.md).  
+> Il log modifiche consente di registrare informazioni dettagliate, ad esempio quando e da chi la casella di controllo **Consenso dei genitori ricevuto** è stata selezionata. Un amministratore può eseguire tale impostazione utilizzando la guida **Setup log modifiche** e anche scegliendo la casella di controllo **Modifica log per Consenso dei genitori ricevuto** nella scheda **Contatto**. Per ulteriori informazioni, vedere [Registrazione di modifiche](across-log-changes.md).  
 
 ## <a name="see-also"></a>Vedi anche
 [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
@@ -63,4 +62,3 @@ Se l'età di una persona di contatto è inferiore all'età legale stabilita dall
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Registrazione di modifiche](across-log-changes.md)  
 [Richieste degli interessati correlate al GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

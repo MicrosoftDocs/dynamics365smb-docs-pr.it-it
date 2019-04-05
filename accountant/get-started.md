@@ -1,18 +1,18 @@
 ---
-title: "Esperienza di contabilità in Dynamics 365 | Microsoft Docs"
-description: Ottenere informazioni su Accountant Hub per Dynamics 365.
+title: Esperienza di contabilità in Dynamics 365 | Microsoft Docs
+description: Informazioni su Accountant Hub per Dynamics 365
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801200"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Introduzione a [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -22,7 +22,7 @@ Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni az
 È possibile accedere a [!INCLUDE [d365acc](includes/d365acc_md.md)] iscrivendosi da [Dynamics 365 - Accountant Hub su Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Quando si effettua l'iscrizione per [!INCLUDE [d365acc](includes/d365acc_md.md)], è necessario specificare l'indirizzo e-mail di lavoro nel formato <em>me@accountant.com</em>. È consigliabile utilizzare lo stesso indirizzo e-mail quando si lavora in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] dei client, in modo che è possibile passare facilmente tra i client. L'indirizzo e-mail deve essere un indirizzo di lavoro che si basa su Active Directory.
+>  Quando si effettua l'iscrizione per [!INCLUDE [d365acc](includes/d365acc_md.md)], è necessario specificare l'indirizzo e-mail di lavoro, ad esempio <em>me@accountant.com</em>. È consigliabile utilizzare lo stesso indirizzo e-mail quando si lavora in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] dei client, in modo che è possibile passare facilmente tra i client. L'indirizzo e-mail deve essere un indirizzo di lavoro che si basa su Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Utilizzo dei singoli client
 Il dashboard visualizza la maggior parte delle informazioni importanti relative a ogni client.  
@@ -89,5 +89,4 @@ Una volta completato il task, contrassegnarlo come completato.
 [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Esperienze di contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 - Accountant Hub su Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-
+[Dynamics 365 — Accountant Hub su Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

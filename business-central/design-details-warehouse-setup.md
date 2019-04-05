@@ -1,21 +1,21 @@
 ---
 title: 'Dettagli di progettazione: Setup warehouse | Microsoft Docs'
-description: "La funzionalità di warehouse in Business Central contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza."
+description: La funzionalità di warehouse in Business Central contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801770"
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
 La funzionalità di warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza. Inoltre, gli oggetti applicazione della licenza controllano quale documento dell'interfaccia utente utilizzare per le attività di warehouse supportate.  
@@ -37,7 +37,7 @@ Per ulteriori informazioni su ciascuna area, vedere [Elenco prezzi di [!INCLUDE[
 
 Nella seguente tabella viene indicato quali funzionalità sono richieste per definire i livelli di complessità della warehouse, quali documenti dell'interfaccia utente supportano ogni livello e quali codici ubicazione riflettono questi livelli nel database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-|Livello di complessità|Descrizione|Documento IU|Ubicazione di CRONUS|Requisito minimo dell'area|  
+|Livello di complessità|Description|Documento IU|Ubicazione CRONUS|Requisito minimo dell'area|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.|Ordine|BLU|Magazzino di base|  
 |2|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.<br /><br /> Il codice collocazione è obbligatorio.|Ordine, con codice collocazione|ARGENTO|Magazzino di base/Collocazione|  
@@ -117,7 +117,7 @@ Nei flussi in entrata, il codice di classe è evidenziato solo nelle righe in en
 ## <a name="location"></a>Ubicazione  
 Un'ubicazione è una struttura fisica o un'area in cui viene ricevuta, archiviata e spedita la giacenza, potenzialmente organizzata nelle collocazioni. Un'ubicazione può essere un warehouse, un auto assistenza, una sala esposizione, un impianto o un'area in un impianto.  
 
-## <a name="first-expired-first-out"></a>First Expired First Out  
+## <a name="first-expired-first-out"></a>FEFO (First Expired First Out)  
 Se si seleziona la casella di controllo **Prelievo in base a FEFO** nella Scheda dettaglio **Criteri per collocazione** nella scheda ubicazione, gli articoli tracciati vengono prelevati in base alla data di scadenza. Gli articoli con le date di scadenza meno recenti vengono prelevati per primi.  
 
 Le attività di warehouse in tutti i documenti di spostamento e prelievo sono ordinate secondo il metodo FEFO, a meno che gli articoli in questione non dispongano già di numeri seriali o di lotto assegnati. Se solo una parte della quantità della riga è già definita con numeri seriali o di lotto, la quantità rimanente da prelevare verrà ordinata secondo il metodo FEFO.  
@@ -130,4 +130,3 @@ Il modello di stoccaggio può essere assegnato a un articolo e a un'ubicazione. 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)   
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)
-

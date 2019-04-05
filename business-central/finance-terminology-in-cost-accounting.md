@@ -1,23 +1,23 @@
 ---
-title: "Terminologia della contabilità industriale | Microsoft Docs"
-description: "In questo argomento vengono definiti i termini chiave utilizzati nella contabilità industriale."
+title: Terminologia della contabilità industriale | Microsoft Docs
+description: In questo argomento vengono definiti i termini chiave utilizzati nella contabilità industriale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9518c0b249ffe73b90082bd14f350e8fb464d1c9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 424020f808b09e122ac82b47b4e74585a18d8a27
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801046"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologia della contabilità industriale
 In questo argomento vengono definiti i termini chiave utilizzati nella contabilità industriale.  
@@ -53,4 +53,3 @@ In questo argomento vengono definiti i termini chiave utilizzati nella contabili
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

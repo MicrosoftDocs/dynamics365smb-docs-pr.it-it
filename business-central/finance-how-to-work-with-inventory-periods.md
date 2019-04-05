@@ -1,8 +1,8 @@
 ---
 title: Come utilizzare i periodi di magazzino | Microsoft Docs
-description: "È possibile controllare l'intervallo temporale durante il quale si possono registrare modifiche al magazzino defininendo periodi di magazzino."
+description: È possibile controllare l'intervallo temporale durante il quale si possono registrare modifiche al magazzino defininendo periodi di magazzino.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802041"
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
 I periodi di magazzino definiscono un periodo di tempo durante il quale è possibile registrare modifiche al magazzino. Un periodo di magazzino è definito dalla data in cui termina, ovvero la data di fine. Quando il periodo di magazzino è chiuso, non è possibile registrare modifiche al magazzino, previsto o fatturato, precedente alla data di fine. Non è inoltre possibile inserire qualsiasi nuovo valore nel magazzino prima della data di fine. Se nel periodo chiuso sono presenti movimenti articoli aperti, ovvero quantità positive non ancora consumate da, o collegate a, transazioni in uscita, è ancora possibile collegare quantità in uscita a questi movimenti, anche se il periodo è chiuso.  
@@ -71,4 +71,3 @@ Dopo aver chiuso una volta il periodo di magazzino, non è più possibile elimin
 [Finanze](finance.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di Financials](ui-work-product.md)
-

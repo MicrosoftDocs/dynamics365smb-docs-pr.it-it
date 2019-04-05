@@ -1,8 +1,8 @@
 ---
 title: Impostazione di un'analisi di un flusso di cassa| Documenti Microsoft
-description: "Impostare i grafici nella Gestione ruolo utente Conti per consentire di analizzare il flusso di denaro nell'attività commerciale, incluse uscite ed entrate, liquidità, incassi meno i pagamenti in contanti."
+description: Impostare i grafici nella Gestione ruolo utente Conti per consentire di analizzare il flusso di denaro nell'attività commerciale, incluse uscite ed entrate, liquidità, incassi meno i pagamenti in contanti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: it-it
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801477"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  
@@ -73,7 +73,7 @@ Per utilizzare guida al setup assistito:
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
-2. Espandere la Scheda dettaglio **Cortana Intelligence** e selezionare la casella di controllo **Cortana Intelligence abilitata**.  
+2. Espandere la Scheda dettaglio **Cortana Intelligence**, quindi scegliere la casella **Cortana Intelligence abilitato**.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
 4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
@@ -95,4 +95,3 @@ Per utilizzare una procedura manuale:
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

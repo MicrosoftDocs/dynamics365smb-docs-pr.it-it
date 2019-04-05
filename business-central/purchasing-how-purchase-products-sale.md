@@ -1,6 +1,6 @@
 ---
 title: Acquistare articoli per una vendita creando fatture di acquisto | Documenti Microsoft
-description: "Da una fattura di vendita, per acquistare prodotti, è possibile creare una fattura di acquisto per un fornitore."
+description: Da una fattura di vendita, per acquistare prodotti, è possibile creare una fattura di acquisto per un fornitore.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801034"
 ---
 # <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
 Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita. È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.
@@ -70,4 +70,3 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

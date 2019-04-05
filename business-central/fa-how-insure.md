@@ -1,8 +1,8 @@
 ---
 title: Assicurare i cespiti| Documenti Microsoft
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+Description: È possibile assegnare un cespite a una polizza assicurativa che è rappresentata da una scheda assicurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801769"
 ---
 # <a name="insure-fixed-assets"></a>Assicurazione di cespiti
 La polizza assicurativa di un cespite è rappresentata da una scheda assicurazione. È possibile assegnare un solo cespite a una sola polizza assicurativa o più cespiti a una sola polizza assicurativa.
 
 Assegnare un cespite a una polizza assicurativa registrando nel registro di copertura assicurativa dalla pagina **Registr. assicuraz.**.
 
-Inoltre, è possibile assegnare un cespite ad una polizza assicurativa e creare i movimenti contabili della copertura quando si registra il costo di acquisto. Questa operazione si esegue registrando un costo di acquisto dalla registrazione cespiti con il campo **Nr. assicurazione** compilato. La casella di controllo **Reg. automatica assicurazione** nella pagina **Setup cespiti** deve essere selezionata. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G" in [Acquisire cespiti](fa-how-acquire.md).
+Inoltre, è possibile assegnare un cespite ad una polizza assicurativa e creare i movimenti contabili della copertura quando si registra il costo di acquisto. Questa operazione si esegue registrando un costo di acquisto dalla registrazione cespiti con il campo **Nr. assicurazione** compilato. La casella di controllo **Reg. automatica assicurazione** nella pagina **Setup cespiti** deve essere selezionata. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 Se la casella di controllo **Reg. automatica assicurazione** della pagina **Setup cespiti** non è selezionata, la registrazione delle acquisizioni dalla registrazione cespiti creerà righe nella pagina **Registr. assicuraz.** che devono essere registrate manualmente.
 
@@ -119,4 +119,3 @@ Il cespite viene scollegato dalla polizza assicurativa errata, sulla seconda rig
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

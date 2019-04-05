@@ -2,7 +2,7 @@
 title: 'Dettagli di progettazione: Chiusura domanda e approvvigionamento | Microsoft Docs'
 description: In questo argomento viene fornito un suggerimento sulle azioni da eseguire dopo l'esecuzione delle procedure di contropartita di approvvigionamento.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802045"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Dettagli di progettazione: Chiusura domanda e approvvigionamento
 Una volta che sono state eseguite le procedure di contropartita di approvvigionamento, sono disponibili tre casi finali possibili:  
@@ -44,4 +44,3 @@ Ciò conclude le descrizioni delle modalità di caricamento, di assegnazione di 
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

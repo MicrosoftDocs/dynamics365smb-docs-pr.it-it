@@ -1,8 +1,8 @@
 ---
 title: Impostare i feed bancari di Yodlee| Documenti Microsoft
-description: "È possibile convertire le informazioni sui pagamenti in qualsiasi formato di dati richiesto dalla banca e abilitare l'esportazione o l'importazione dei file della banca."
+description: È possibile convertire le informazioni sui pagamenti in qualsiasi formato di dati richiesto dalla banca e abilitare l'esportazione o l'importazione dei file della banca.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802277"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio di Feed bancario di Envestnet Yodlee
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ ms.lasthandoff: 11/26/2018
 Il servizio Feed bancari di Envestnet Yodlee viene installato come un'estensione in [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è pronto per essere abilitato. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
 
 > [!NOTE]
-> Il servizio Feed bancari di Envestnet Yodlee è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
+> Il servizio Feed bancari di Envestnet Yodlee è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.<br /><br />
+> La funzione è supportata solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.
 
 Dopo avere abilitato il servizio di feed bancari, è necessario collegare un conto corrente bancario al conto corrente bancario online da cui deriva il feed. I conti correnti bancari vengono collegati a conti bancari online nelle seguenti situazioni:
 
@@ -45,6 +46,9 @@ Quando il servizio di feed bancari è abilitato, è possibile impostare un conto
 3. Nella pagina **Conto bancario** nel campo **Formato importazione rendiconto bancario** selezionare YODLEEBANKFEED.  
 
 Il servizio di feed bancari verrà abilitato quando si collega un conto corrente bancario al conto corrente bancario online correlato. Vedere la procedura seguente.  
+
+> [!NOTE]
+> Se si utilizza la guida di setup assistito **Setup società**, si attiva l'assistenza selezionando la casella di controllo **Utilizza servizio feed bancari**. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Per creare un nuovo conto bancario collegato
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
@@ -120,4 +124,3 @@ Ogni ora la pagina **Registrazione riconciliazione pagamenti** visualizzerà i n
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

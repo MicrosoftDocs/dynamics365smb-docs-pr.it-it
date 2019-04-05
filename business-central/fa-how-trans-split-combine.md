@@ -2,7 +2,7 @@
 title: Riclassificare i cespiti| Documenti Microsoft
 description: Riclassificare un cespite da trasferire in un altro reparto, dividere o raggruppare con altri cespiti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801825"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 Utilizzare le registrazioni di riclassificazione cespiti per trasferire, suddividere e raggruppare i cespiti. Visualizzare o stampare i risultati della riclassificazione cespiti con il report **Cespiti - Valore contabile 02**.
@@ -76,4 +76,3 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

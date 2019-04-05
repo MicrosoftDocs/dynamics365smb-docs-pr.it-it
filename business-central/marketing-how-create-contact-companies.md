@@ -1,8 +1,8 @@
 ---
-title: "Creare società contatto| Documenti Microsoft"
-description: "Descrive come creare un contatto per ogni società nuova o potenziale con cui si interagisce o si hanno relazioni."
+title: Creare società contatto| Documenti Microsoft
+description: Descrive come creare un contatto per ogni società nuova o potenziale con cui si interagisce o si hanno relazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802356"
 ---
-# <a name="create-contact-companies"></a>Creare società contatto
+# <a name="create-contacts"></a>Crea contatti
 È possibile creare un contatto per ogni nuova società con cui si interagisce, ad esempio cliente, fornitore, potenziale cliente, banca, studio legale, consulente e così via.
 
 Esistono due modi per creare un contatto: da zero o da un cliente, un fornitore o da un conto corrente bancario esistente.
-
-Prima di creare un contatto, si consiglia di verificare le impostazioni nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Setup Relationship Management](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Creare una società contatto da zero
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.
@@ -61,4 +59,3 @@ Se è già stato impostato un numero di clienti, fornitori e conti correnti banc
 [Assegnare gruppi di mailing a un contatto](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Creare contatti](marketing-create-contact-persons.md)  
 [Utilizzo di Business Central](ui-work-product.md)
-

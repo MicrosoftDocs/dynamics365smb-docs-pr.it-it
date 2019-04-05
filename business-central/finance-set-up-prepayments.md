@@ -1,18 +1,18 @@
 ---
 title: Impostare i pagamenti anticipati | Microsoft Docs
-description: "I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. Potrebbe essere necessario richiedere un deposito prima di iniziare la produzione di articoli su ordine oppure richiedere il pagamento prima della spedizione degli articoli a un cliente. La funzionalità di pagamento anticipato consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura."
+description: I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. Potrebbe essere necessario richiedere un deposito prima di iniziare la produzione di articoli su ordine oppure richiedere il pagamento prima della spedizione degli articoli a un cliente. La funzionalità di pagamento anticipato consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 12/04/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801605"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 Se è necessario che i clienti inviino il pagamento prima della spedizione di un ordine, oppure se il fornitore richiede l'invio del pagamento prima di spedire l'ordine, è possibile utilizzare la funzionalità Pagamento anticipato. La funzionalità consente di fatturare e riscuotere i depositi dai clienti o di rimettere i depositi ai fornitori e di garantire che tutti i pagamenti parziali siano registrati a fronte di una fattura. Per ulteriori informazioni, vedere [Creare fatture di pagamenti anticipati](finance-how-to-create-prepayment-invoices.md).
@@ -84,4 +84,3 @@ In altri termini, la percentuale pagamento anticipato indicata nella scheda clie
 [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

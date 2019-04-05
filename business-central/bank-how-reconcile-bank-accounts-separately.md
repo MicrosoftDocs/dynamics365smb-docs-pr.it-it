@@ -1,8 +1,8 @@
 ---
 title: Riconciliare i conti correnti bancari separatamente| Documenti Microsoft
-description: "Descrive come il valore di magazzino è riconciliato con la contabilità generale."
+description: Descrive come il valore di magazzino è riconciliato con la contabilità generale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800974"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Riconciliare i conti correnti bancari separatamente
 Per riconciliare i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con i rendiconti ricevuti dalla banca, è necessario innanzitutto compilare il riquadro a sinistra nella pagina **Riconciliazioni C/C bancari** con le informazioni sul rendiconto bancario che è possibile associare (riconciliare) ai movimenti contabili del conto corrente bancario nel riquadro a destra. Un metodo efficace per compilare le righe del rendiconto è è importare un feed o file di un rendiconto bancario.
@@ -100,4 +100,3 @@ Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'ad
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

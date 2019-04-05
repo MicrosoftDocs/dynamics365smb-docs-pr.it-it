@@ -1,8 +1,8 @@
 ---
 title: Setup della gestione dei contatti e del marketing| Documenti Microsoft
-description: "È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni."
+description: È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
+ms.openlocfilehash: e2fa7fc0c5f2e89f592dca84a89e5e5f551b0d28
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801235"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 Prima di iniziare a lavorare sui contatti e sugli interessi di marketing, è necessario prendere alcune decisioni e seguire alcuni passaggi per definire la modalità di gestione da parte dell'area marketing di alcuni aspetti dei contatti. Ad esempio, è possibile decidere se sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, definire la numerazione o la formula di saluto standard per quando si scrive ai contatti.
@@ -48,7 +49,7 @@ Per ulteriori informazioni, vedere [Registrazione automatica delle interazioni c
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Sincronizzare i contatti con i clienti e altri soggetti
 Per sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, è necessario selezionare un codice di relazione d'affari per clienti, fornitori e conti correnti bancari. È ad esempio possibile collegare un contatto a un cliente esistente solo se è stato selezionato un codice relazione d'affari per i clienti nella pagina **Setup marketing**.
 
-Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assegnare una numerazione ai contatti e alle opportunità
 È possibile impostare una numerazione per contatti e opportunità. Se si è impostata una numerazione per i contatti, quando si crea un contatto e si preme INVIO nel campo Nr. della scheda contatto, viene automaticamente inserito il numero del contatto successivo disponibile.
@@ -61,4 +62,3 @@ Per ulteriori informazioni sulla numerazione, vedere [Creazione di numeri](ui-cr
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

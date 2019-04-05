@@ -2,7 +2,7 @@
 title: Assemblaggio su ordine o assemblaggio per magazzino | Microsoft Docs
 description: Gli articoli di assemblaggio possono essere approvvigionati assemblandoli quando vengono ordinati o assemblandoli per essere conservati in magazzino fino a quando non vengono richiesti in un ordine di vendita.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801951"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -91,4 +91,3 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

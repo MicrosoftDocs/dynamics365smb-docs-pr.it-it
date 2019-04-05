@@ -11,12 +11,12 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+ms.openlocfilehash: 6c35fdb6e5e37eb521b6d51050a552e52b66ec5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801227"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Impostare un bonifico SEPA
 Nella pagina **Registrazioni pagamenti** è possibile esportare i pagamenti in un file da caricare nel sito elettronico della banca per elaborare trasferimenti di denaro correlati. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
@@ -65,4 +65,3 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)  
 [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Collegare i movimenti in diverse valute| Documenti Microsoft
-description: "Se si effettua una vendita in una valuta e si riceve il pagamento in un'altra, è possibile collegare il movimento contabile in più valute."
+description: Se si effettua una vendita in una valuta e si riceve il pagamento in un'altra, è possibile collegare il movimento contabile in più valute.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802012"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
 Se si acquista da un fornitore con una valuta e si paga con un'altra valuta, è possibile collegare il pagamento all'acquisto.
@@ -51,4 +51,3 @@ Se movimenti in diverse valute vengono collegati, è necessario impostare il con
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

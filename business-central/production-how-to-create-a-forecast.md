@@ -1,23 +1,23 @@
 ---
 title: Come creare una previsione della domanda | Microsoft Docs
-description: "Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita."
+description: Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802025"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -77,4 +77,3 @@ Può essere indicato nel setup manufacturing se si desidera filtrare le previsio
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

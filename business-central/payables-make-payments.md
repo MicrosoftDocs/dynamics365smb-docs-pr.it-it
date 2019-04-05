@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 12/07/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801233"
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
 
@@ -40,7 +40,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Effettuare pagamenti elettronici esportando i pagamenti a un file della banca che viene caricato nella banca per l'elaborazione, incluso l'EFT (trasferimento elettronico di fondi) nell'America del Nord. |[Effettuare pagamenti elettronici](payables-how-export-payments-bank-file.md)|
 |Effettuare pagamenti elettronici in base al bonifico SEPA standard per i paesi dell'UE.|[Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
-|Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
 ## <a name="see-also"></a>Vedi anche
@@ -48,4 +47,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,26 +1,29 @@
 ---
 title: Allegare file a schede e documenti | Microsoft Docs
-description: "È possibile allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, nonché allegare file a tutti i tipi di documenti di acquisto e vendita."
+description: È possibile aggiungere immagini, documenti e altri tipi di file a tutte le schede e a tutti i tipi di documenti di acquisto e vendita.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/21/2018
+ms.search.keywords: upload, attach, attachments
+ms.date: 02/21/2019
 ms.author: edupont
+ms.openlocfilehash: f05d12481936e8159631e16f596710cfb13b3b6e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801800"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Allegare file a schede e documenti
 È possibile allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, nonché allegare file a tutti i tipi di documenti di acquisto e vendita.
 
-## <a name="to-attach-a-file-to-a-sales-order"></a>Per allegare un file a un ordine di vendita.
+> [!Note]
+> In generale, la dimensione di file massima per gli allegati è 150 MB. Tuttavia, il limite può essere inferiore per alcune funzionalità. 
+
+## <a name="to-attach-a-file-to-a-sales-order"></a>Per allegare un file a un ordine di vendita
 La seguente procedura è basata su ordine di vendita. I passaggi sono simili per tutti gli altri documenti di acquisto o vendita e per tutte le schede.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
@@ -32,4 +35,3 @@ La seguente procedura è basata su ordine di vendita. I passaggi sono simili per
 ## <a name="see-also"></a>Vedi anche
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Vendere prodotti](sales-how-sell-products.md)
-

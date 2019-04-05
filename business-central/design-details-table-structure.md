@@ -1,23 +1,23 @@
 ---
 title: 'Dettagli di progettazione: Struttura della tabella | Microsoft Docs'
-description: "Per comprendere in che modo sono state riprogettate l'archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella."
+description: Per comprendere in che modo sono state riprogettate l'archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801315"
 ---
 # <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo sono state riprogettate l'archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella.  
@@ -26,7 +26,7 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
  Sono state progettate tre nuove tabelle per gestire i movimenti di set di dimensioni.  
 
 ### <a name="table-480-dimension-set-entry"></a>Voce set di dimensioni tabella 480  
- La tabella 480 **Voce set di dimensioni** è nuova. Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli. L'eliminazione dei dati richiede di controllare tutte le occorrenze dell'ID del set di dimensioni nell'intero database, incluse le soluzioni partner.  
+ Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +37,8 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |5|**Nome dimensione**|Testo 30|CalcField. Vedere la tabella 348.|  
 |6|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Nodo albero set di dimensioni tabella 481  
- La tabella 481 **Nodo albero set di dimensioni** è nuova. Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
+### <a name="table-481-dimension-set-tree-node"></a>Nodo albero set di dimensioni tabella 481  
+ Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +47,8 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |3|**ID set di dimensioni**|Nr. intero|AutoIncrement. Utilizzato nel campo 1 della tabella 480.|  
 |4|**In uso**|Booleano|False se non in uso.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482  
- La tabella 482 **Buffer set di dimensioni di riclassificazione** è nuova. La tabella viene utilizzata per modificare l'ID di set di dimensioni. È necessario quando si modifica un codice valore di dimensioni e un nuovo codice valore di dimensioni, ad esempio, nella tabella **Reg. riclass. articoli**.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482  
+ Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +71,7 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |---------------|----------------|---------------|-------------|  
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Modifiche alla riga registrazione magazzino della Tabella 83  
+### <a name="changes-to-table-83-item-journal-line"></a>Modifiche alla riga registrazione magazzino della Tabella 83  
  Sono stati aggiunti due nuovi campi alla tabella 83 **Righe reg. magazzino**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -79,14 +79,14 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 |481|**Nuovo ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Modifiche al valore delle dimensioni della tabella 349  
+### <a name="changes-to-table-349-dimension-value"></a>Modifiche al valore delle dimensioni della tabella 349  
  Un nuovo campo è stato aggiunto alla tabella 349 **Valore dimensioni**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID valore dimensioni**|Nr. intero|AutoIncrement. Utilizzato per i riferimenti nelle tabelle 480 e 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabelle che ottengono il nuovo campo ID set di dimensioni 480  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabelle che ottengono il nuovo campo ID set di dimensioni 480  
  Un nuovo campo, 480 **ID set di dimensioni**, è stato aggiunto alle seguenti tabelle. Per le tabelle che memorizzano i dati registrati, il campo fornisce soltanto una visualizzazione non modificabile di dimensioni, contrassegnata come drill-down. Per le tabelle che memorizzano i documenti di lavoro, il campo è modificabile. Le tabelle buffer utilizzate internamente non richiedono funzionalità modificabili o non modificabili.  
 
  Il campo 480 non può essere modificato nelle seguenti tabelle.  
@@ -195,4 +195,3 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
  [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
  [Dettagli di progettazione: Gestione dimensioni della codeunit 408](design-details-codeunit-408-dimension-management.md)   
  [Dettagli di progettazione: Esempi di codice dei modelli modificati nelle modifiche](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

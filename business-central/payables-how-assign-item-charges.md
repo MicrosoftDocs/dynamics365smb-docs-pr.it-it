@@ -1,8 +1,8 @@
 ---
 title: Assegnare addebiti articoli a vendite e acquisti| Documenti Microsoft
-description: "Se si desidera aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli, è possibile utilizzare la funzionalità Addebiti articoli."
+description: Se si desidera aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli, è possibile utilizzare la funzionalità Addebiti articoli.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801447"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
@@ -69,7 +69,7 @@ L'addebito è ora assegnato alla fattura di acquisto. Quando si registra il cari
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
 Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registrazione del carico dell'acquisto originale, attenersi alla procedura seguente.
-1. Ripetere i passaggi da 1 a 8 della sezione Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo.
+1. Ripetere i passaggi da 1 a 8 della sezione [Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Nella pagina **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico**.
 3. Nella pagina **Righe carico acq.** selezionare il carico di acquisto registrato per l'articolo a cui si desidera assegnare l'addebito quindi scegliere **OK**.
 4. Scegliere l'azione **Suggerisci ass. addebiti art.**.
@@ -81,4 +81,3 @@ Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati a
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

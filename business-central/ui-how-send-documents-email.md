@@ -1,7 +1,7 @@
 ---
 title: Impostare contenuto e-mail specifico del documento | Documenti di Microsoft
-description: "È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail."
-documentationcenter: 
+description: È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801888"
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commerciali, quali le informazioni sui pagamenti nei documenti di vendita ai clienti, è possibile utilizzare la funzionalità di layout di report per definire il contenuto specifico del documento che deve essere inserito nel corpo e-mail automaticamente. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 7. Nel campo **Allegato** la fattura generata viene allegata per impostazione di default come file PDF. Scegliere il pulsante di ricerca per aprire il file o per allegarne un altro.
 8. Nel campo **Corpo**, immettere un breve messaggio per il destinatario.
 
-    Se il corpo e-mail specifico del documento è impostato nella pagina **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, vedere la sezione "Per impostare un corpo e-mail specifico del documento per le fatture di vendita" in questo argomento.
+    Se il corpo e-mail specifico del documento è impostato nella pagina **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, vedere [Per impostare un corpo e-mail specifico del documento per le fatture di vendita](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Scegliere **OK** per inviare il messaggio e-mail.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 [Impostare la posta elettronica](admin-how-setup-email.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

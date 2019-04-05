@@ -1,8 +1,8 @@
 ---
-title: "Utilizzo della funzionalità Gestione personale| Documenti Microsoft"
-description: "È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze."
+title: Utilizzo della funzionalità Gestione personale| Documenti Microsoft
+description: È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
-ms.contentlocale: it-it
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802158"
 ---
 # <a name="manage-human-resources"></a>Gestione personale
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile conservare record dettagliati degli impiegati. È possibile registrare informazioni sugli impiegati, ad esempio contratti di impiego, informazioni riservate, qualifiche e contratti di impiegati ed eseguirne la manutenzione.
@@ -37,4 +37,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)        
-

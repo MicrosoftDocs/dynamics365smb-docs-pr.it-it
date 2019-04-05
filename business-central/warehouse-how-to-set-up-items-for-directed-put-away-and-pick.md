@@ -1,23 +1,23 @@
 ---
 title: Impostare stoccaggi e prelievi guidati | Documenti Microsoft
-description: "L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile."
+description: L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802001"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).
@@ -71,4 +71,3 @@ Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per 
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

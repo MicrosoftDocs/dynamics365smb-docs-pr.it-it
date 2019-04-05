@@ -1,23 +1,23 @@
 ---
 title: Trasferimento e registrazione di movimenti di costi | Microsoft Docs
-description: "Prima di definire le allocazioni costi, è necessario comprendere da dove derivano i movimenti di costo."
+description: Prima di definire le allocazioni costi, è necessario comprendere da dove derivano i movimenti di costo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800899"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Trasferimento e registrazione di movimenti di costi
 Prima di definire le allocazioni costi, è necessario comprendere come i movimenti di costi derivino dalle origini seguenti:  
@@ -103,4 +103,3 @@ Nella tabella **Registro costi**, [!INCLUDE[d365fin](includes/d365fin_md.md)] cr
  [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)   
  [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
-

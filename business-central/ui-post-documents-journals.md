@@ -1,8 +1,8 @@
 ---
 title: Panoramica della contabilizzazione di documenti e registrazioni | Documenti Microsoft
-description: "Descrive le azioni di registrazione e i modi in cui è possibile contabilizzare documenti e registrazioni."
+description: Descrive le azioni di registrazione e i modi in cui è possibile contabilizzare documenti e registrazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801023"
 ---
 # <a name="post-documents-and-journals"></a>Contabilizzare documenti e registrazioni
 La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
@@ -36,5 +36,4 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 ## <a name="see-also"></a>Vedi anche
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

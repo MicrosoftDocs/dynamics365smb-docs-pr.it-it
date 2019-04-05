@@ -1,7 +1,7 @@
 ---
-title: "Ottenere una panoramica della disponibilità| Documenti Microsoft"
-description: "È possibile ottenere informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo o alla posizione dell'articolo su una DB di assemblaggio o di produzione."
-documentationcenter: 
+title: Ottenere una panoramica della disponibilità| Documenti Microsoft
+description: È possibile ottenere informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo o alla posizione dell'articolo su una DB di assemblaggio o di produzione.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 47634e2af9b109c8102c527508c4a9d94a3cb7c0
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801701"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
@@ -121,4 +121,3 @@ Se uno o più componenti di assemblaggio non sono disponibili, queste informazio
 [Vendere prodotti](sales-how-sell-products.md)      
 [Utilizzo di Business Central](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-

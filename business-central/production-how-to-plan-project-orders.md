@@ -1,23 +1,23 @@
 ---
 title: Come pianificare gli ordini di progetto | Microsoft Docs
-description: "Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**."
+description: Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4cb63a7dc26e13c7947ba2ae071c3dff87c53e9d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802200"
 ---
 # <a name="plan-project-orders"></a>Pianificare gli ordini di progetto
 Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**.  
@@ -50,4 +50,3 @@ La riga di testata ordine per l'ordine progetto verrà visualizzata e tutte le r
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

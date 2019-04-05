@@ -1,24 +1,24 @@
 ---
 title: 'Dettagli di progettazione: Gestione giacenze negative previste | Microsoft Docs'
-description: "Il punto di riordino esprime la domanda prevista durante il lead time dell'articolo. Quando il punto di riordino viene superato, è tempo di ordinare quantità maggiori. Ma le scorte previste devono essere abbastanza grandi da coprire la domanda fino a che non viene ricevuto il nuovo ordine. Nel frattempo, la scorta di sicurezza deve coprire le fluttuazioni della domanda fino a un livello di servizio di destinazione."
+description: Il punto di riordino esprime la domanda prevista durante il lead time dell'articolo. Quando il punto di riordino viene superato, è tempo di ordinare quantità maggiori. Ma le scorte previste devono essere abbastanza grandi da coprire la domanda fino a che non viene ricevuto il nuovo ordine. Nel frattempo, la scorta di sicurezza deve coprire le fluttuazioni della domanda fino a un livello di servizio di destinazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: cfedced3a1e7ccf94294ebd36f4fb5311fd1933e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802097"
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Dettagli di progettazione: Gestione giacenze negative previste
 Il punto di riordino esprime la domanda prevista durante il lead time dell'articolo. Quando il punto di riordino viene superato, è tempo di ordinare quantità maggiori. Ma le scorte previste devono essere abbastanza grandi da coprire la domanda fino a che non viene ricevuto il nuovo ordine. Nel frattempo, la scorta di sicurezza deve coprire le fluttuazioni della domanda fino a un livello di servizio di destinazione.  
@@ -55,4 +55,3 @@ Il punto di riordino esprime la domanda prevista durante il lead time dell'artic
  [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801551"
 ---
 # <a name="create-contact-persons"></a>Creare contatti
 È possibile creare una scheda contatto per ogni singolo contatto che opera all'interno delle società con cui si interagisce. Per ogni società contatto è possibile inserire un numero illimitato di contatti. È inoltre possibile creare schede contatto per le persone che si desidera registrare come indipendenti.
@@ -37,11 +37,9 @@ ms.lasthandoff: 11/26/2018
 >   Il contenuto dei campi selezionati nella sezione **Eredità** nella pagina **Setup marketing** verrà copiato dalla società alle persone all'interno di tale società.
 
 ## <a name="see-also"></a>Vedi anche
-[Setup Relationship Management](marketing-setup-marketing.md)  
 [Assegnazione di gruppi di mailing a un contatto](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Impostare i ruoli professionali nei contatti](marketing-job-responsibilities.md)  
 [Configurare i livelli organizzativi per i contatti](marketing-organizational-levels.md)  
 [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-

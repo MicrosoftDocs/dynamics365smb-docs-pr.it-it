@@ -1,8 +1,8 @@
 ---
-title: Riconciliare manualmente i pagamenti ai fornitori | Documenti Microsoft
-description: "Per elaborare, associare, riconciliare manualmente i pagamenti o i rimborsi dei fornitori, è possibile collegare l'importo a uno o più movimenti contabili aperti del fornitore."
+title: Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori | Microsoft Docs
+description: Per elaborare, associare, riconciliare manualmente i pagamenti o i rimborsi dei fornitori, è possibile collegare l'importo a uno o più movimenti contabili aperti del fornitore.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8c740bd32aeceb273f3accbda7b912350c9be12
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801826"
 ---
-# <a name="reconcile-vendor-payments-manually"></a>Riconciliare manualmente i pagamenti ai fornitori
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori.
 Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessario decidere se collegare il pagamento o il rimborso a uno o più movimenti aperti. È possibile specificare l'importo esatto che si desidera collegare alla ricevuta di pagamento o al rimborso, quindi collegare solo parzialmente i movimenti contabili fornitori. È necessario collegare tutti i movimenti contabili fornitori per ottenere statistiche e report corretti degli estratti conto e degli interessi attivi.
 
 > [!NOTE]  
@@ -123,4 +123,3 @@ Quando si scollega un collegamento errato, vengono creati e registrati movimenti
 [Contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801880"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
@@ -24,7 +24,7 @@ Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di
 **Chrome per Windows e Firefox per Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di questi browser desktop.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Safari in OSX.  
 **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer (11) (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows.  
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM Windows 10 Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  
@@ -43,4 +43,3 @@ Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di
 ## <a name="see-also"></a>Vedi anche
 [Introduzione](product-get-started.md)  
 [Requisiti di sistema per Dynamics 365 Business Central (on-premises)](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-

@@ -1,22 +1,22 @@
 ---
-title: "Conformità dell'applicazione | Microsoft Docs"
-description: "Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a Business Central."
+title: Conformità dell'applicazione | Microsoft Docs
+description: Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801592"
 ---
 # <a name="application-compliance"></a>Conformità dell'applicazione
 Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)], come i principi IFRS, la funzionalità locale, GDPR e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.
@@ -96,4 +96,3 @@ Microsoft sta creando versioni localizzate di Business Central per alcuni paesi.
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

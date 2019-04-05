@@ -1,6 +1,6 @@
 ---
 title: Ammortamento dei cespiti| Documenti Microsoft
-description: "È necessario definire come svalutare o ammortizzare ciascun cespite."
+description: È necessario definire come svalutare o ammortizzare ciascun cespite.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801163"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Ammortamento dei cespiti
 L'ammortamento consente di allocare il costo dei cespiti, come macchinari o attrezzature, in tutto il periodo di ammortamento. Occorre definire le modalità di ammortamento di ogni cespite.  
@@ -50,7 +50,7 @@ Una volta al mese, oppure ogniqualvolta sia necessario, è possibile eseguire il
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. cespiti in C/G** e quindi scegliere il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.  
 3. Nel campo **Tipo reg. cespite** scegliere **Ammortamento**.  
-4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione dell'ammortamento. Per ulteriori informazioni, vedere Impostare la sezione "Per impostare categorie di registrazione cespiti" in [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
+4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione dell'ammortamento. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Nella scheda **Pagina iniziale** selezionare **Registra** per effettuare la registrazione.  
 
 Se sono state impostate le chiavi di allocazione cespiti per allocare importi a diversi reparti o progetti, gli importi vengono allocati durante la registrazione. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
@@ -65,7 +65,7 @@ Se diversi reparti utilizzano lo stesso cespite, l'ammortamento periodico può e
 5. Nella scheda **Pagina iniziale** selezionare **Registra** per effettuare la registrazione.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Utilizzare le liste di duplicazione per preparare la registrazione in diversi registri beni ammortizzabili
-Quando si compilano righe di registrazioni da contabilizzare in un registro dei beni ammortizzabili, è possibile duplicare le righe in una registrazione distinta e quindi contabilizzarle in un registro dei beni ammortizzabili diverso. Per ulteriori informazioni, vedere la sezione "Per registrare i movimenti in diversi registri beni ammortizzabili".
+Quando si compilano righe di registrazioni da contabilizzare in un registro dei beni ammortizzabili, è possibile duplicare le righe in una registrazione distinta e quindi contabilizzarle in un registro dei beni ammortizzabili diverso. Per ulteriori informazioni, vedere la sezione [Per registrare i movimenti in diversi registri beni ammortizzabili](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri beni ammortizzabili** e quindi scegliere il collegamento correlato.  
 2. Aprire il registro beni ammortizzabili e selezionare la casella di controllo **Parte della lista duplicazione**.  
@@ -102,4 +102,3 @@ Le righe copiate vengono create nelle registrazioni cespiti in C/G o nelle regis
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

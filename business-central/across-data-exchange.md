@@ -7,17 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802332"
 ---
-
 # <a name="exchanging-data-electronically"></a>Scambio di dati in modalità elettronica
 È possibile utilizzare il framework di scambio dati per scambiare documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
 
@@ -63,4 +62,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Scambio di dati](across-exchange-data.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-

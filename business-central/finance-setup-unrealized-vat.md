@@ -1,6 +1,6 @@
 ---
-title: "Setup dell'IVA ad esigibilità differita | Documenti Microsoft"
-description: "Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l'IVA ad esigibilità differita per le vendite e acquisti."
+title: Setup dell'IVA ad esigibilità differita | Documenti Microsoft
+description: Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l'IVA ad esigibilità differita per le vendite e acquisti.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 11/15/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801276"
 ---
-
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
 Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché gestisca l'IVA ad esigibilità differita.
 
@@ -51,4 +50,3 @@ Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seg
 
 ## <a name="see-also"></a>Vedi anche
 [impostazione dell'IVA](finance-setup-vat.md)
-

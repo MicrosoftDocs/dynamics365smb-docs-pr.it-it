@@ -1,8 +1,8 @@
 ---
 title: Panoramica dei task per fornire assistenza | Documenti Microsoft
-description: "Descrive i task da impostare per garantire la fornitura di un servizio di qualità e il rispetto degli accordi con i clienti."
+description: Descrive i task da impostare per garantire la fornitura di un servizio di qualità e il rispetto degli accordi con i clienti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802106"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  
@@ -46,4 +46,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Pianificazione dell'assistenza](service-plan-service.md)  
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Gestione di progetti](projects-manage-projects.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: 'Procedura: Utilizzare l''IVA nelle vendite e negli acquisti | Documenti Microsoft'
-description: "In questo argomento viene descritto come eseguire task quali la correzione di movimenti IVA già registrati. Nei paesi dell'Unione Europea ogni transazione di vendita e di acquisto è soggetta ai calcoli IVA. In questo argomento viene descritta la procedura."
+title: "Procedura: Utilizzare l'IVA nelle vendite e negli acquisti | Documenti Microsoft"
+description: In questo argomento viene descritto come eseguire task quali la correzione di movimenti IVA già registrati. Nei paesi dell'Unione Europea ogni transazione di vendita e di acquisto è soggetta ai calcoli IVA. In questo argomento viene descritta la procedura.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801776"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
-Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA] (finance-setup-vat.md).
+Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
 
 Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manualmente. Ad esempio, potrebbe essere necessario correggere un importo già registrato se si scopre che un fornitore utilizza un metodo di arrotondamento diverso.
 
@@ -174,4 +174,3 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)   
 [Procedura: Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)   
-

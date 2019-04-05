@@ -2,22 +2,22 @@
 title: Impostare la valutazione magazzino e i costi | Microsoft Docs
 description: Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f512e4b5469bbf8b9440ac930eb4e7ab2e3e4ac7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800894"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Impostazione della valutazione magazzino e i costi
 Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli.
@@ -41,4 +41,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
 [Finanze](finance.md)  
-

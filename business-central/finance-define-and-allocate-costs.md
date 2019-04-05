@@ -1,23 +1,23 @@
 ---
 title: Definizione e allocazione dei costi | Microsoft Docs
-description: "Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie."
+description: Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d67329ce09b40019d9568abee47cef33e3b60e85
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801110"
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
 Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie. Ogni allocazione è costituita da:  
@@ -145,4 +145,3 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)   
  [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
-

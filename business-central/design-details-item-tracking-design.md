@@ -1,6 +1,6 @@
 ---
-title: "Dettagli di progettazione: Progettazione tracciabilità articolo | Microsoft Docs"
-description: "Questo argomento descrive la progettazione alla base della tracciabilità articolo in Business Central."
+title: 'Dettagli di progettazione: Progettazione tracciabilità articolo | Microsoft Docs'
+description: Questo argomento descrive la progettazione alla base della tracciabilità articolo in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 99534c3cf5c683c1e1d1fe3e6b5940a757fbebca
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801563"
 ---
 # <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
 Nella prima versione della funzionalità di tracciabilità articolo in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, i numeri seriali o di lotto venivano registrati direttamente nei movimenti contabili articoli. Questa progettazione forniva informazioni complete sulla disponibilità e sulla tracciabilità semplice dei movimenti storici, ma mancava di flessibilità e funzionalità.  
@@ -45,4 +45,3 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Struttura di regi
 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
-

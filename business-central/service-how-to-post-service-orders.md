@@ -1,23 +1,23 @@
 ---
 title: Registrare ordini di assistenza | Documenti Microsoft
-description: "Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente."
+description: Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801588"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  
@@ -134,4 +134,3 @@ Nella procedura seguente viene descritta la registrazione della spedizione diret
 ## <a name="see-also"></a>Vedi anche  
 [Pubblicazione nella gestione assistenza](service-service-posting.md)  
 [Creare un ordine di assistenza](service-how-to-create-service-orders.md)  
-

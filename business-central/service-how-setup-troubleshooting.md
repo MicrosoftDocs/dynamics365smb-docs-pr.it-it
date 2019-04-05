@@ -2,7 +2,7 @@
 title: Impostare i processi di troubleshooting | Documenti Microsoft
 description: Informazioni su come impostare i processi che consentono ai rappresentanti dell'assistenza di identificare e risolvere i problemi con gli articoli in assistenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 24a4fa9811547acfd3372d3eaf7de7b9f1882c7d
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801557"
 ---
-
 # <a name="setting-up-troubleshooting-for-service-items"></a>Impostazione del troubleshooting per gli articoli in assistenza
 È possibile impostare delle indicazioni di troubleshooting per consentire ai tecnici di risolvere i problemi mentre forniscono assistenza. Tali indicazioni potrebbero essere, ad esempio, un elenco di passaggi da eseguire per una riparazione o una serie di domande da chiedere in merito agli articoli. Dopo aver impostato le indicazioni di troubleshooting, è possibile assegnarle ai gruppi di articoli di assistenza, agli articoli o agli articoli in assistenza. Esiste una gerarchia di ereditarietà per le indicazioni. Se le indicazioni vengono assegnate a un gruppo di articoli in assistenza, gli articoli inclusi in tale gruppo le erediteranno a meno che non ne vengano specificate altre. Analogamente, gli articoli in assistenza erediteranno tutte le indicazioni dagli articoli.  
 

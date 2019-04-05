@@ -2,24 +2,23 @@
 title: Statistiche assistenza | Microsoft Docs
 description: Ottenere una rapida panoramica del contenuto di un documento di assistenza, ovvero ordini, offerte, fatture o note di credito, dei dettagli relativi alle righe di assistenza e degli articoli in assistenza.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802350"
 ---
-
 # <a name="viewing-service-statistics"></a>Visualizzazione delle statistiche relative all'assistenza
 È possibile utilizzare statistiche che consentono di analizzare i documenti di assistenza e determinare la qualità di gestione dei processi di assistenza. È possibile analizzare contratti, offerte, fatture e note di credito di assistenza nonché articoli in assistenza scegliendo l'azione **Statistiche**. Per gli articoli in assistenza e i contratti di assistenza, è anche possibile utilizzare **Trendscape articolo di assist.** o **Trendscape contratto** per visualizzare un resoconto dei movimenti contabili di assistenza per un articolo in assistenza specifico.   
 
@@ -115,4 +114,3 @@ La pagina **Statistiche note credito assistenza** consente di visualizzare una p
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)   
 [Creare articoli in assistenza](service-how-to-create-service-items.md)   
 [Pianificazione dell'assistenza](service-plan-service.md)  
-

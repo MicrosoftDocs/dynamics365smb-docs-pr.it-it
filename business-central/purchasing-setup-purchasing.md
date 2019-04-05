@@ -1,8 +1,8 @@
 ---
 title: Panoramica dei task per impostare gli acquisti | Documenti Microsoft
-description: "Descrive i task per definire i criteri di acquisto della società e impostare i processi di acquisto."
+description: Descrive i task per definire i criteri di acquisto della società e impostare i processi di acquisto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 267f55c59f910633932c35a36e792a5fbfb0f4a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3409a5f847ddaeae4e96126f364ec300ac2b90d6
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801379"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -38,4 +38,3 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 ## <a name="see-also"></a>Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

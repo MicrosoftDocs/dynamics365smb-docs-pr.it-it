@@ -1,7 +1,7 @@
 ---
 title: Come impostare gli utenti del workflow | Microsoft Docs
-description: "Prima di poter creare i flussi di lavoro, è necessario impostare gli utenti che parteciperanno ai flussi di lavoro. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro."
-documentationcenter: 
+description: Prima di poter creare i flussi di lavoro, è necessario impostare gli utenti che parteciperanno ai flussi di lavoro. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f205520d1028b3de176a720b363ff9c019634df
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801916"
 ---
 # <a name="set-up-workflow-users"></a>Impostare gli utenti del workflow
 Prima di poter creare i workflow, è necessario impostare gli utenti che vi parteciperanno. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro.  
@@ -51,4 +51,3 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
 [Utilizzo dei workflow](across-use-workflows.md)   
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Workflow](across-workflow.md)   
-

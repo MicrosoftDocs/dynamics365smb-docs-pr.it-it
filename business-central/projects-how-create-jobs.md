@@ -1,8 +1,8 @@
 ---
 title: Creare una scheda commessa per una commessa e specificare i task| Documenti Microsoft
-description: "Per un nuovo progetto, è possibile creare una scheda commessa contenente i task commesse e le righe pianificazione, per semplificare la gestione dell'avanzamento e del budget."
+description: Per un nuovo progetto, è possibile creare una scheda commessa contenente i task commesse e le righe pianificazione, per semplificare la gestione dell'avanzamento e del budget.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801386"
 ---
 # <a name="create-jobs"></a>Creare commesse
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
@@ -76,4 +76,3 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

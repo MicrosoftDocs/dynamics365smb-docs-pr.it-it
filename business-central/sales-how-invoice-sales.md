@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801092"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
@@ -95,7 +95,7 @@ In base alle esigenze aziendali, è possibile ottenere pagato e registrare il pa
 
 È possibile elaborare i pagamenti direttamente dalla scheda cliente. Utilizzare l'azione **Registra pagamenti clienti** per ottenere una sintesi delle fatture pagate non per tale cliente. Quindi, contrassegnare la fattura come pagata parzialmente o interamente. Questi processi di riconciliazione pagamenti elaborano i pagamenti dei clienti facendo corrispondere gli importi ricevuti sul conto bancario alle relative fatture di vendita non pagate, quindi registrare i pagamenti. Per ulteriori informazioni, vedere [Per riconciliare i pagamenti individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base al termine di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti dei clienti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
+Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base al termine di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Per ulteriori informazioni, vedere [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-reconcile-payments-auto-application.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-apply-sales-transactions-manually.md).  
 
 Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio tramite PayPal o contanti, il pagamento viene registrato immediatamente quando si registra la fattura di vendita, vale a dire la fattura di vendita pubblicata viene chiusa come interamente applicata. Selezionare il metodo rilevante nel campo **Codice metodo di pagamento** nell'ordine cliente. Vedere il passaggio 8. Per i pagamenti elettronici, come PayPal, compilare anche il campo **Servizio di pagamento**. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).  
 
@@ -106,6 +106,5 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 [Setup Vendite](sales-setup-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central ](finance-bookings.md)  
+[Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

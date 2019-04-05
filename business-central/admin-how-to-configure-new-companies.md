@@ -1,23 +1,23 @@
 ---
-title: "Configurazione di nuove società | Documenti Microsoft"
-description: "È possibile configurare e personalizzare una nuova società creata. Per definire i dettagli dell'implementazione, occorre eseguire tre fasi per completare la configurazione."
+title: Configurazione di nuove società | Documenti Microsoft
+description: È possibile configurare e personalizzare una nuova società creata. Per definire i dettagli dell'implementazione, occorre eseguire tre fasi per completare la configurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802360"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  
@@ -71,10 +71,9 @@ Possono verificarsi alcuni tipi di errore quando si collegano dati a un database
     > [!NOTE]  
     >  Se si importa nuovamente lo stesso pacchetto, è possibile sovrascrivere tutte le modifiche apportate ai dati precedentemente effettuate. Per questo motivo, è possibile aggiungere tutte le nuove tabelle a nuovo pacchetto e importarlo.  
 
-7. Collegare i dati al database, come descritto nella sezione “Per modificare e collegare i dati del pacchetto".
+7. Collegare i dati al database, come descritto nella sezione [Per modificare e collegare i dati del pacchetto](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Vedi anche  
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

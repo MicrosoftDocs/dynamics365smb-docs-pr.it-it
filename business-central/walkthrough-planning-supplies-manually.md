@@ -1,23 +1,23 @@
 ---
 title: 'Procedura dettagliata: Pianificazione manuale degli approvvigionamenti | Documenti Microsoft'
-description: "La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione."
+description: La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801155"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
@@ -56,7 +56,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
  In un ambiente produttivo più complesso, per pianificare gli approvvigionamenti viene utilizzato il prospetto pianificazione, che applica parametri specifici degli articoli come periodo di riprogrammazione, lead time di sicurezza, punto di riordino e calcoli batch della domanda consolidata per tutti i livelli di prodotto.  
 
 ## <a name="setting-up-the-sample-data"></a>Impostazione dei dati di esempio  
- La società demo CRONUS standard ha attualmente elevati livelli di domanda non pianificata. Durante le differenti attività di pianificazione di questa procedura dettagliata, sarà necessario deviare dalla realtà del flusso aziendale ignorando le domande con data di scadenza prossima e dedicandosi invece a quelle con data di scadenza più lontana nel tempo.  
+ La società di esempio CRONUS standard ha attualmente elevati livelli di domanda non pianificata. Durante le differenti attività di pianificazione di questa procedura dettagliata, sarà necessario deviare dalla realtà del flusso aziendale ignorando le domande con data di scadenza prossima e dedicandosi invece a quelle con data di scadenza più lontana nel tempo.  
 
 ## <a name="using-the-order-planning-page"></a>Utilizzo della pagina Pianificazione ordini  
 
@@ -237,4 +237,3 @@ The **Order Planning** page can be accessed from several different locations on 
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
  [Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)
-

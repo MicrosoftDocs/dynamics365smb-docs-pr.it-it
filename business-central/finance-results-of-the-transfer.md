@@ -2,7 +2,7 @@
 title: Risultati del trasferimento | Microsoft Docs
 description: Questo argomento descrive i risultati del trasferimento di movimenti C/G a movimenti di costo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
-ms.contentlocale: it-it
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801774"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Risultati del trasferimento di movimenti C/G a movimenti di costi
 Durante il trasferimento dei movimenti C/G ai movimenti di costo, in [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i collegamenti nei movimenti nelle tabelle **Movimento CG**, **Movimento di costo** e **Registro costi** per consentire di tenere traccia dei collegamenti tra i movimenti di costo e i movimenti C/G.  
@@ -40,4 +40,3 @@ Nella tabella **Registro costi**, [!INCLUDE[d365fin](includes/d365fin_md.md)] cr
 
 ## <a name="see-also"></a>Vedi anche  
 [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)   
-

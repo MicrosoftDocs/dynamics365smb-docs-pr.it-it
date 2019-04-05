@@ -2,22 +2,22 @@
 title: Come impostare aree di produzione e centri di lavoro | Microsoft Docs
 description: Una scheda **Area di produzione** consente di organizzare i valori e i requisiti fissi della risorsa di produzione e, quindi, di gestire l'output della produzione effettuata in tale area di produzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801311"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 Il programma distingue tra tre tipi di capacità. Questi sono disposti in modo gerarchico. Ogni livello contiene i livelli inferiori.  
@@ -48,22 +48,22 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 
 9.  Nel campo **Calcolo costo unitario** specificare se basare il calcolo precedente sulla quantità di tempo utilizzata, ovvero **Ora**, o sul numero di unità prodotte, ovvero **Unità**.  
 10.  Selezionare il campo **Costo unitario specifico** se si desidera definire il costo unitario dell'area di produzione nella riga ciclo in cui viene utilizzato. Tale soluzione potrebbe risultare utile per le operazioni che prevedono costi delle capacità notevolmente diversi rispetto a quelli consueti per l'area di produzione specificata.  
-11.  Nel campo **Metodo consuntivazione** specificare se calcolare e registrare registrazione di output nell'area di produzione manualmente o automaticamente, mediante uno dei metodi seguenti.  
+11.  Nel campo **Metodo consuntivazione** specificare se calcolare e registrare registrazione di output nell'area di produzione manualmente o automaticamente, mediante uno dei metodi seguenti.
 
-    |Opzione|Descrizione|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuale**|Il consumo viene registrato manualmente nelle registrazioni di output o di produzione.|
-    |**Aut. inizio**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene rilasciato.|  
-    |**Aut. fine**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene chiuso.|  
+|Opzione|Descrizione|
+|------|-----------|
+|**Manuale**|Il consumo viene registrato manualmente nelle registrazioni di output o di produzione.|
+|**Aut. inizio**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene rilasciato.|
+|**Aut. fine**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene chiuso.|
 
-    > [!NOTE]  
-    >  Se necessario, il metodo consuntivazione selezionato qui e nella scheda **Articolo** può essere sostituito per singole operazioni, mediante la modifica delle impostazioni delle righe ciclo.
+> [!NOTE]
+> Se necessario, il metodo consuntivazione selezionato qui e nella scheda **Articolo** può essere sostituito per singole operazioni, mediante la modifica delle impostazioni delle righe ciclo.
 
 12.  Nel campo **Cod. Unità di Misura** immettere l'unità di tempo utilizzata per il calcolo del costo dell'area di produzione specificata e per la programmazione della capacità.
     Per tenere costantemente sotto controllo il consumo, è necessario innanzitutto impostare un metodo di misura. Le unità immesse sono unità di base. Ad esempio, il tempo di elaborazione viene misurato in ore e minuti.
 
-    > [!NOTE]  
-    > Se si decide di utilizzare Giorni, tenere presente che un giorno equivale a 24 ore e non a 8 ore lavorative.
+> [!NOTE]  
+> Se si decide di utilizzare Giorni, tenere presente che un giorno equivale a 24 ore e non a 8 ore lavorative.
 
 13.  Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
 14.  Specificare nel campo **Efficienza** la percentuale di output standard previsto prodotta effettivamente dall'area di produzione selezionata. Se si immette un valore pari a **100**, si indica che l'output effettivo dell'area di produzione corrisponde all'output standard.  
@@ -106,4 +106,3 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

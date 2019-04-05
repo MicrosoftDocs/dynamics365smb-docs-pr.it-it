@@ -1,23 +1,23 @@
 ---
 title: Eseguire la migrazione dei dati dei clienti | Documenti Microsoft
-description: "È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a Business Central utilizzando RapidStart Services. È possibile utilizzare i file Excel in formato xlsx come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società."
+description: È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a Business Central utilizzando RapidStart Services. È possibile utilizzare i file Excel in formato xlsx come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800901"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
@@ -92,14 +92,14 @@ Quando si collegano dati importati da Excel o da un pacchetto di RapidStart, [!I
 
 - Se gli stessi mapping sono definiti direttamente per un campo e nella tabella correlata, ma hanno nuovi valori diversi, il mapping definito direttamente per il campo ha la priorità rispetto al mapping definito per la tabella a cui fa riferimento il campo.  
 
-Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere la sezione "Per esportare i file di migrazione dati".
+Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.
 2. Aprire il pacchetto per la società in questione.  
 3. Selezionare la tabella per cui si desidera mappare i valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 4. Per ogni campo da mappare, scegliere l'azione **Mappatura**.  
 5. Nel campo **Vecchio valore**, immettere il valore da modificare. Nel campo **Nuovo valore**, immettere il valore con cui modificare il valore precedente. Scegliere il pulsante **OK**.  
-6. Importare i dati dei clienti. Per ulteriori informazioni, vedere la sezione "Per importare i dati dei clienti".
+6. Importare i dati dei clienti. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data).
 7. Nel campo **Nr. errori del pacchetto**, verificare se sono stati segnalati errori. Se ce ne sono, eseguire il drill-down per visualizzare gli errori. Viene visualizzata la pagina **Record pacchetto di configurazione**.
 8. Scegliere l'azione **Mostra errore**. Verrà visualizzato il seguente errore: **<option> non è un'opzione valida. Le opzioni valide sono <valid option list>**. Scegliere il pulsante **OK**.  
 9. Per collegare la mappatura impostata, scegliere l'azione **Collega dati**.  
@@ -115,7 +115,7 @@ Il seguente esempio illustra come [!INCLUDE[d365fin](includes/d365fin_md.md)] im
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare la tabella per cui si desidera aggiungere ulteriori valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 3. Per i campi per i quali si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
-4. Importare i dati dei clienti. Per ulteriori informazioni, vedere la sezione "Per importare i dati dei clienti".
+4. Importare i dati dei clienti. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Per pulire ed elaborare i dati prima di collegarli
 In alcuni casi, potrebbe essere necessario cancellare i dati dei clienti e elaborarli prima di collegarli al database. A tal fine, è possibile utilizzare il processo batch **Pacchetto di configurazione - Elabora** per correggere i problemi, ad esempio:  
@@ -134,7 +134,7 @@ Dopo aver esportato una tabella di migrazione, il passo successivo prevede l'imm
 
 Per assistenza con XML, attivare la scheda **Developer** della barra multifunzione di Excel, quindi scegliere l'azione **Origine** per visualizzare lo schema XML della tabella di migrazione come rappresentato in Excel.
 
-La procedura riportata di seguito è basata su un foglio di lavoro Excel che è stato creato per la migrazione. Per ulteriori informazioni, vedere la sezione "Per esportare i file di migrazione dati".
+La procedura riportata di seguito è basata su un foglio di lavoro Excel che è stato creato per la migrazione. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Non modificare le colonne nei fogli di lavoro Excel. Se vengono spostate, modificate o eliminate, il prospetto non può essere importato in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Il database della società del cliente è ora impostato e i dati di base vengono
 ## <a name="see-also"></a>Vedi anche  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

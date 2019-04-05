@@ -1,23 +1,23 @@
 ---
 title: Tolleranza pagamento e tolleranza sconto pagamento | Microsoft Docs
-description: "È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura."
+description: È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800944"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -31,14 +31,14 @@ Un documento singolo ha la stessa tolleranza di pagamento indipendentemente dal 
 
 *data sconto sul pagamento < data di pagamento (nel movimento in questione) <= data tolleranza di pagamento*  
 
-Questa regola si applica anche per stabilire se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere la sezione "Esempio 2: calcoli di tolleranza per più documenti".
+Questa regola si applica anche per stabilire se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere [Esempio 2: calcoli di tolleranza per più documenti](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 È possibile scegliere di visualizzare un avviso che è basato su situazioni di tolleranza differenti.  
 
 - Il primo avviso riguarda la tolleranza di sconto sul pagamento. L'utente viene informato che è possibile accettare uno sconto di pagamento ritardato. Egli può quindi scegliere se accettare la tolleranza alla data dello sconto.  
 - Il secondo avviso riguarda la tolleranza di pagamento. L'utente viene informato che tutti i movimenti possono venir chiusi a causa della differenza nella somma della tolleranza di pagamento massima per i movimenti collegati. Egli può quindi scegliere se accettare la tolleranza nell'importo di pagamento.
 
-Per ulteriori informazioni, vedere la sezione "Per abilitare o disabilitare gli avvisi di tolleranza pagamento".     
+Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Per impostare le tolleranze  
 Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
@@ -60,9 +60,9 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 >  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
 
 > [!NOTE]  
->  Se si desidera che venga visualizzato un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione "Per abilitare o disabilitare gli avvisi di tolleranza pagamento".  
+>  Se si desidera che venga visualizzato un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione [Per abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Per disattivare la tolleranza per un cliente o un fornitore, è necessario bloccare le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione "Per bloccare la tolleranza pagamento per i clienti".  
+>  Per disattivare la tolleranza per un cliente o un fornitore, è necessario bloccare le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Quando si imposta la tolleranza, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
 
@@ -262,4 +262,3 @@ regole di collegamento normali
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

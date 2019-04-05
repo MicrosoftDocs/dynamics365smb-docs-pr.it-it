@@ -1,23 +1,23 @@
 ---
 title: Come impostare i calendari del reparto produzione | Microsoft Docs
-description: "In un calendario delle aree di produzione sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area di produzione, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area. Per la creazione e l'attivazione di un calendario delle aree di produzione sono necessarie diverse attività preliminari."
+description: In un calendario delle aree di produzione sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area di produzione, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area. Per la creazione e l'attivazione di un calendario delle aree di produzione sono necessarie diverse attività preliminari.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802164"
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
 In un calendario delle aree di produzione o dei centri di lavoro sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area o del centro, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area o centro.
@@ -113,4 +113,3 @@ La capacità del giorno selezionato risulta ora diminuita in base al tempo di as
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Impostare la contabilità generale cespiti| Documenti Microsoft"
-description: "Prima di utilizzare i cespiti occorre impostare i conti di default in contabilità generale, le categorie di registrazione, le chiavi di allocazione, le definizioni e i batch utilizzati per la registrazione e i codici di classe."
+title: Impostare la contabilità generale cespiti| Documenti Microsoft
+description: Prima di utilizzare i cespiti occorre impostare i conti di default in contabilità generale, le categorie di registrazione, le chiavi di allocazione, le definizioni e i batch utilizzati per la registrazione e i codici di classe.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801842"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
@@ -123,4 +123,3 @@ Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

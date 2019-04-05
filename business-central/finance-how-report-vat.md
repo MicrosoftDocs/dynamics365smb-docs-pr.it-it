@@ -1,6 +1,6 @@
 ---
-title: "Inviare la dichiarazione IVA alle autorità fiscali | Microsoft Docs"
-description: "Informazioni su come preparare un report che elenca l'IVA di vendita durante un periodo, o di vendite e acquisti, e inviarlo a un'autorità fiscale."
+title: Inviare la dichiarazione IVA alle autorità fiscali | Microsoft Docs
+description: Informazioni su come preparare un report che elenca l'IVA di vendita durante un periodo, o di vendite e acquisti, e inviarlo a un'autorità fiscale.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801658"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Procedura: Dichiarare l'IVA a un'autorità fiscale
 Questo argomento descrive i report [!INCLUDE[d365fin](includes/d365fin_md.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese.
 
@@ -117,4 +116,3 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
-

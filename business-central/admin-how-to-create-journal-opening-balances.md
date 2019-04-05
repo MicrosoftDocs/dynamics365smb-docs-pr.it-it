@@ -1,23 +1,23 @@
 ---
 title: Creare bilanci di apertura delle registrazioni | Documenti Microsoft
-description: "Business Central comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire facilmente questi dati con le registrazioni."
+description: Business Central comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire facilmente questi dati con le registrazioni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802349"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.
@@ -45,4 +45,3 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Impl
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

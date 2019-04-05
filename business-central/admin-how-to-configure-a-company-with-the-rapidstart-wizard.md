@@ -1,23 +1,23 @@
 ---
-title: "Configurare una società con la procedura guidata RapidStart Services | Microsoft Docs"
-description: "È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services."
+title: Configurare una società con la procedura guidata RapidStart Services | Microsoft Docs
+description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801786"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart Services
 È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services.
@@ -33,7 +33,7 @@ Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto d
 
     1. Collegare la configurazione scegliendo l'azione **Collega pacchetto**. Questa operazione consente di importare il pacchetto di configurazione e di collegare tutti i dati del database del pacchetto contemporaneamente.  
 
-    2. Esaminare la configurazione dopo che è stata collegata. Questa opzione consente di esaminare i dettagli e i questionari relativi alla configurazione forniti dai partner, nonché di importare alcuni dati master necessari per la società. Scegliere l'azione **Foglio di lavoro configurazione**. Per ulteriori informazioni, vedere la sezione “Completare il questionario di configurazione" in [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md).  
+    2. Esaminare la configurazione dopo che è stata collegata. Questa opzione consente di esaminare i dettagli e i questionari relativi alla configurazione forniti dai partner, nonché di importare alcuni dati master necessari per la società. Scegliere l'azione **Foglio di lavoro configurazione**. Per ulteriori informazioni, vedere [Per completare il questionario di configurazione](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Espandere la Scheda dettaglio **Passaggio 5**. Specificare la Gestione ruolo utente predefinita per la nuova società.  
 
@@ -51,4 +51,3 @@ La società risulta ora configurata e collegata ai dati.
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
 [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-

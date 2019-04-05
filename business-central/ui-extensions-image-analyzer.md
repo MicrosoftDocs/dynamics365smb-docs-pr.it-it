@@ -1,7 +1,7 @@
 ---
 title: Utilizzo dell'estensione di analisi immagini | Documenti Microsoft
 description: Questa estensione consente di analizzare le immagini delle persone di contatto e degli articoli per trovare gli attributi e quindi assegnarli rapidamente in Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802033"
 ---
-
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 L'estensione di analisi immagini utilizza potenti funzionalità di analisi delle immagini fornite dall'API Visione artificiale dei Servizi cognitivi Microsoft per individuare gli attributi nelle immagini importate per gli articoli e le persone di contatto, in modo da potere esaminare e assegnare questi elementi con semplicità. Per gli articoli, agli attributi possono indicare, ad esempio, se si tratta di un tavolo o un'automobile o se è di colore rosso o blu. Per i contatti, gli attributi possono riguardare il sesso o l'età.
 
@@ -95,4 +94,3 @@ Se l'analisi propone un attributo che non si desidera visualizzare, è possibile
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Introduzione](product-get-started.md)  
-

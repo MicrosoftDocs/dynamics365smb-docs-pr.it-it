@@ -1,6 +1,6 @@
 ---
 title: Pacchetti di contenuto per Business Central e Power BI | Documenti Microsoft
-description: "Ottenere informazioni dettagliate, business intelligence e KPI a partire dai dati di Business Central è semplice con Power BI e con i pacchetti di contenuto di Business Central."
+description: Ottenere informazioni dettagliate, business intelligence e KPI a partire dai dati di Business Central è semplice con Power BI e con i pacchetti di contenuto di Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801007"
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI
+# <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI 
 Ottenere informazioni approfondite sui dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] è semplice con Power BI e con i pacchetti di contenuto di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI recupera i dati e quindi sviluppa un dashboard e i report pronti per l'uso basati su tali dati.  
 
-È necessario disporre di un account valido con Dynamics 365 e con Power BI. Inoltre, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) per creare i propri report di Power BI. I pacchetti di contenuto di Power BI richiedono l'autorizzazione per l'accesso alle tabelle da dove vengono recuperati i dati. Più informazioni dettagliate sui requisiti sono descritte di seguito.  
+È necessario disporre di un account valido con Dynamics 365 e Power BI. Inoltre, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) per creare i propri report Power BI. I pacchetti di contenuto di Power BI richiedono l'autorizzazione per l'accesso alle tabelle da dove vengono recuperati i dati. Più informazioni dettagliate sui requisiti sono descritte di seguito.  
 
 Microsoft ha pubblicato i seguenti pacchetti di contenuto:
 
@@ -47,7 +47,7 @@ I pacchetti di contenuti sono preconfigurati per utilizzare i dati della societ�
 1. Selezionare **Ottieni i dati** nella parte inferiore del riquadro di spostamento sinistro.  
 ![Passare a Ottieni i dati](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-È inoltre possibile iniziare dall'interno di Dynamics 365 Business Edition. Dalla Gestione ruolo utente, passare a **Selezione report** nella sezione Gestione ruolo utente Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o alla libreria dei servizi in Power BI, che verranno filtrate per visualizzare solo i pacchetti di contenuto relativi a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+È inoltre possibile iniziare da Dynamics 365 Business Edition. Dalla Gestione ruolo utente, passare a **Selezione report** nella sezione Gestione ruolo utente Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o alla libreria dei servizi in Power BI, che verranno filtrate per visualizzare solo i pacchetti di contenuto relativi a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 2. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una pagina con **AppSource** e **App per app Power BI**.  
 ![Scegliere i pacchetti di contenuto da servizi in linea](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
@@ -75,26 +75,26 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - Modello di Excel Visualizza socetà
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Finance**
+**Microsoft Dynamics 365 Business Central – Dati finanziari**
 - PowerBIFinance
-- Modello di Excel Visualizza socetà
+- Modello di Excel Visualizza società
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs**
+**Microsoft Dynamics 365 Business Central – Commesse**
 - Lista commesse
 - Righe pianificazione commessa
 - Righe task commessa
 - Etichette report Power BI
-- Modello di Excel Visualizza socetà
+- Modello di Excel Visualizza società
 
-**Microsoft Dynamics 365 Business Central - Sales**
+**Microsoft Dynamics 365 Business Central - Vendite**
 - Dashboard vendite
-- Modello di Excel Visualizza socetà
+- Modello di Excel Visualizza società
 - Etichette report Power BI
 
 ## <a name="list-page-reports"></a>Report pagina liste
 
-**Microsoft Dynamics 365 Business Central – Customers List**
+**Microsoft Dynamics 365 Business Central – Lista clienti**
 - Vendite articolo per cliente
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
@@ -103,13 +103,13 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+**Microsoft Dynamics 365 Business Central - Lista movimenti C/G**
 - Lista importo C/G Power BI
 - Importo a budget C/G Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Items List**
+**Microsoft Dynamics 365 Business Central – Lista articoli**
 - Vendite articolo per cliente
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
@@ -117,33 +117,33 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Jobs List**
+**Microsoft Dynamics 365 Business Central – Lista commesse**
 - Lista commesse Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+**Microsoft Dynamics 365 Business Central – Lista fatture di acquisto**
 - Lista acquisti Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
+**Microsoft Dynamics 365 Business Central – Lista ordini di vendita**
 - Lista vendite Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
 
-**Microsoft Dynamics 365 Business Central – Vendors List**
+**Microsoft Dynamics 365 Business Central – Lista fornitori**
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
-- Lista fornitori Power BI
+- Lista fornitori  Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
 ## <a name="web-services"></a>Servizi Web
 Un modo facile di individuare i servizi Web consiste nel ricercarli in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Nell'elenco assicurarsi che la casella Pubblica sia contrassegnata per i servizi Web sopra elencati.
 
-## <a name="troubleshooting"></a>Troubleshooting
+## <a name="troubleshooting"></a>Risoluzione dei problemi
 Il dashboard di Power BI si basa sui servizi Web rilasciati che sono elencati sopra e visualizza i dati della società demo o della società dell'utente se si importano i dati della soluzione finanziario corrente. Tuttavia, se si verifica un errore, in questa sezione viene fornita una soluzione alternativa per i problemi più comuni.
 
 ### <a name="incorrect-company-name"></a>Nome della società non corretto  
@@ -170,4 +170,3 @@ Se si immette un nome di società non valido durante il processo di connessione,
 [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

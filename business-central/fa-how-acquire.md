@@ -1,8 +1,8 @@
 ---
 title: Acquisire cespiti| Documenti Microsoft
-description: "È possibile impostare un cespite, assegnare un registro beni ammortizzabili e registrare il costo di acquisizione del cespite."
+description: È possibile impostare un cespite, assegnare un registro beni ammortizzabili e registrare il costo di acquisizione del cespite.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 56062eb42db00408031cff5438cc2b9276011d27
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801598"
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
@@ -29,12 +29,12 @@ Il valore residuo di un cespite quando non può più essere utilizzato. È possi
 L'indicizzazione consente di correggere i valori per le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di calcolare i costi di acquisto ai costi di sostituzione.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Per creare un cespite e acquisirlo automaticamente
-Di seguito viene descritto come creare e acquisire un cespite utilizzando la pagina **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni cespiti in C/G richieste. È inoltre possibile creare e registrare manualmente le righe di registrazione. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G".
+Di seguito viene descritto come creare e acquisire un cespite utilizzando la pagina **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni cespiti in C/G richieste. È inoltre possibile creare e registrare manualmente le righe di registrazione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Nella Scheda dettaglio **Registro beni ammortizzabili** compilare i campi secondo le necessità. In questo passaggio viene assegnato un registro beni ammortizzabili al cespite.  
-4. Se è necessario assegnare più di un registro beni ammortizzabili al cespite, scegliere l'azione **Aggiungi più registri beni ammortizzabili**. Per ulteriori informazioni, vedere la sezione "Per assegnare un registro beni ammortizzabili a un cespite" in [Impostare i registri beni ammortizzabili cespiti](fa-how-setup-depreciation.md).
+4. Se è necessario assegnare più di un registro beni ammortizzabili al cespite, scegliere l'azione **Aggiungi più registri beni ammortizzabili**. Per ulteriori informazioni, vedere [Per assegnare un registro dei beni ammortizzabili a un cespite](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     Quando tutti i campi necessari per acquisire un cespite vengono compilati, la notifica indicante che **si è pronti ad acquisire il cespite** viene visualizzata nella parte superiore della pagina.
 5. Scegliere l'azione **Acquisisci** nella notifica.
@@ -59,7 +59,7 @@ il bene principale e tutti i suoi componenti devono essere impostati come schede
 7. Selezionare la casella di controllo **Autorizza reg. in cespiti principali**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Per registrare manualmente un'acquisizione del cespite mediante Registrazioni cespiti in C/G
-Di seguito viene descritto come acquistare manualmente un cespite creando e registrando le righe nella pagina **Reg. cespiti in G/L**. È inoltre possibile acquisire automaticamente un cespite utilizzando la pagina **Acquisizione assistita cespiti**. Per ulteriori informazioni, vedere il passaggio 5 nella sezione "Per creare un cespite e acquisirlo automaticamente".
+Di seguito viene descritto come acquistare manualmente un cespite creando e registrando le righe nella pagina **Reg. cespiti in G/L**. È inoltre possibile acquisire automaticamente un cespite utilizzando la pagina **Acquisizione assistita cespiti**. Per ulteriori informazioni, vedere il passaggio 5 in [Per creare un cespite e acquisirlo automaticamente](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   È inoltre possibile registrare i costi di acquisizione in Avere. In tal caso, ricordare che il valore nel campo **Importo** deve avere il segno meno per indicare un credito.
@@ -91,7 +91,7 @@ Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il p
 È possibile registrare il valore di realizzo insieme al costo di acquisto da Registrazioni Cespiti in C/G.    
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rimuovi mov. cespiti** e quindi scegliere il collegamento correlato.
-2. Creare la riga di registrazione acquisizione. Per ulteriori informazioni, vedere la sezione "Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G".
+2. Creare la riga di registrazione acquisizione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. Immettere l'importo del valore di realizzo come avere (con il segno meno) nel campo **Valore di realizzo** nella riga di registrazione.
 4. Scegliere l'azione **Registra**.
 
@@ -104,4 +104,3 @@ Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il p
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

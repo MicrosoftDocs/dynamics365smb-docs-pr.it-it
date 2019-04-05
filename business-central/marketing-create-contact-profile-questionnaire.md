@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801395"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
 
@@ -158,7 +157,4 @@ Compilare la pagina **Dettagli domande profilo** nel modo seguente:
 Quando si assegna il questionario profilo contenente questa domanda a un contatto, la risposta pertinente al contatto viene automaticamente inserita nelle righe profilo della scheda del contatto.
 
 ## <a name="see-also"></a>Vedi anche
-[Creazione di contatti](marketing-create-contact-persons.md)  
-[Creare contatti](marketing-how-create-contact-persons.md)  
-[Creazione di società contatto](marketing-create-contact-companies.md)  
-
+[Creazione di contatti](marketing-create-contact-companies.md)  

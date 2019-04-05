@@ -1,8 +1,8 @@
 ---
-title: "Dettagli di progettazione: Assegnazione priorità ordini | Microsoft Docs"
-description: "Informazioni su come assegnare le priorità per soddisfare domanda e approvvigionamento."
+title: 'Dettagli di progettazione: Assegnazione priorità ordini | Microsoft Docs'
+description: Informazioni su come assegnare le priorità per soddisfare domanda e approvvigionamento.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e09ad64750493f99210d47516410d8471a83011
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802315"
 ---
 # <a name="design-details-prioritizing-orders"></a>Dettagli di progettazione: Assegnazione priorità ordini
 All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda della settimana successiva. Ma oltre a questa priorità globale, il sistema di pianificazione suggerirà inoltre il tipo di domanda da soddisfare prima di soddisfarne un'altra. Analogamente, verrà suggerito quale origine di approvvigionamento deve essere collegata prima di collegare altre origini di approvvigionamento. Questa operazione viene eseguita in base alle priorità degli ordini.  
@@ -60,4 +60,3 @@ Oltre alle priorità specificate dal tipo di domanda e approvvigionamento, lo st
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

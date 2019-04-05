@@ -1,8 +1,8 @@
 ---
 title: Impostare l'assicurazione cespiti| Documenti Microsoft
-description: "Per gestire la copertura assicurativa del cespite è necessario impostare le informazioni generali sull'assicurazione e una scheda assicurazione."
+description: Per gestire la copertura assicurativa del cespite è necessario impostare le informazioni generali sull'assicurazione e una scheda assicurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801455"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Impostare l'assicurazione cespiti
 Per gestire la copertura assicurativa del cespite, è prima necessario impostare alcune informazioni generali sull'assicurazione e una scheda assicurazione per ogni polizza.
@@ -63,4 +63,3 @@ I batch possono essere impostati in una definizione registrazioni assicurazioni.
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

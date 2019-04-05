@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801411"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -99,10 +99,10 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
 |%11|Nome della società|  
 |%12|Contenuto del campo **Onere add. per riga** della testata sollecito|  
 
-Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2.**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di USD 1.200,50 con scadenza 02-02-2014.**.
+Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di 1.200,50 USD con scadenza 02-02-2014.**
 
 > [!NOTE]
-> La data di scadenza viene calcolata in base alla formula immessa per la data. Per ulteriori informazioni, vedere la sezione "Utilizzo di formule per le date" in [Immettere intervalli di date](ui-enter-date-ranges.md).
+> La data di scadenza viene calcolata in base alla formula immessa per la data. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).
 
 Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

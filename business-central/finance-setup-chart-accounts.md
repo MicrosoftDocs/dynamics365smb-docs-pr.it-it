@@ -1,6 +1,6 @@
 ---
 title: Impostazione di un piano dei conti
-description: "È possibile modificare i conti predefiniti nel piano dei conti ed è possibile aggiungere nuovi conti."
+description: È possibile modificare i conti predefiniti nel piano dei conti ed è possibile aggiungere nuovi conti.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802336"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
@@ -37,9 +37,8 @@ Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificar
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
-[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

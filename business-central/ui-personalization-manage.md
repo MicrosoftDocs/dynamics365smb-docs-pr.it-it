@@ -2,7 +2,7 @@
 title: Gestione della personalizzazione come amministratore in Business Central | Documenti Microsoft
 description: Informazioni su come personalizzare l'interfaccia utente in base alle esigenze professionali.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801654"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Gestione della personalizzazione come amministratore
 <!--NAV in the Web client--> Gli utenti possono personalizzare l'area di lavoro per adattarla alle proprie preferenze. In qualità di amministratore, è possibile controllare e gestire la personalizzazione disabilitando la possibilità per gli utenti di personalizzare le pagine e cancellando le personalizzazioni di pagina che gli utenti hanno effettuato.
 
 ## <a name="disable-personalization-for-a-profile"></a>Disabilitare la personalizzazione per un profilo
 È possibile impedire a tutti gli utenti che appartengono a un profilo specifico di personalizzare le proprie pagine.
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili** e scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista profili** e scegliere il collegamento correlato.
 2.  Selezionare dall'elenco il profilo che si desidera modificare.
 3. Selezionare la casella di controllo **Disabilita personalizzazione** e quindi fare clic sul pulsante **OK**.
 
@@ -66,4 +66,3 @@ La pagina **Scheda personalizzazione utente** consente di eliminare la personali
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-

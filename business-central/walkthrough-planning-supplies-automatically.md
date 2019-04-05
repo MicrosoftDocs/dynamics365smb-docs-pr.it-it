@@ -2,22 +2,22 @@
 title: 'Procedura dettagliata: Pianificazione automatica degli approvvigionamenti | Documenti Microsoft'
 description: Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802262"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 
@@ -50,7 +50,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 ## <a name="prerequisites"></a>Prerequisiti  
  Per completare questa procedura dettagliata, sarà necessario:  
 
--   Utilizzare la società demo CRONUS Italia S.p.A.  
+-   La società demo CRONUS Italia S.p.A.  
 -   Modificare vari valori di setup articolo eseguendo i passaggi nella sezione "Preparazione dei dati di esempio", più avanti in questa procedura dettagliata.  
 
 ## <a name="story"></a>Scenario  
@@ -269,4 +269,3 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
  [Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-

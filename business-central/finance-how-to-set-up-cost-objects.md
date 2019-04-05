@@ -1,24 +1,24 @@
 ---
 title: Come impostare oggetti di costo | Microsoft Docs
-description: "Informazioni su come impostare oggetti di costo, i quali sono simili alle dimensioni relative alla contabilità generale."
+description: Informazioni su come impostare oggetti di costo, i quali sono simili alle dimensioni relative alla contabilità generale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802181"
 ---
 # <a name="set-up-cost-objects"></a>Impostare gli oggetti di costo
 Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il grafico degli oggetti di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale. È possibile impostare il grafico degli oggetti di costo nelle modalità seguenti:  
@@ -61,4 +61,3 @@ Il grafico degli oggetti di costo contiene ora tutti i valori dimensioni specifi
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
 [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

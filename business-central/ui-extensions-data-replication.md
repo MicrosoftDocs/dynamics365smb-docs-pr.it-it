@@ -11,17 +11,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/17/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
 ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
-ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "801527"
 ---
-
 # <a name="business-central-intelligent-cloud-extensions"></a>Estensioni Cloud intelligente di Business Central
 
-Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente Cloud intelligente basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente Cloud intelligente, sarà possibile replicare i dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
+Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente Cloud intelligente basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente Cloud intelligente, sarà possibile replicare i dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
 
 ## <a name="business-central-on-premises"></a>Business Central in locale
 Se si utilizza una distribuzione locale di [!INCLUDE[prodshort](includes/prodshort.md)], utilizzare l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e seguire le istruzioni in entrambi.  
@@ -33,4 +32,3 @@ Se si utilizza Dynamics GP, seguire le istruzioni contenute nelle guide dell'est
 
 [Accesso a Cloud intelligente](about-intelligent-cloud.md)  
 [Estensione Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
-
