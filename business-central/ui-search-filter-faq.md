@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852058"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Informazioni su ricerca e filtro in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Domande frequenti su ricerca e filtro
 Questo articolo risponde alle domande più frequenti relative alle operazioni di ricerca e filtro.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>C'è differenza tra la ricerca e il filtro?
@@ -30,7 +29,7 @@ Sì.
 La ricerca e il filtro sono stati notevolmente ottimizzati per gli utenti che preferiscono l'interazione senza mouse per lavorare in modo efficiente con i dati. È disponibile una varietà di tasti di scelta rapida che possono essere utilizzati in sequenza per lavorare ad alta velocità. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Il riquadro dei filtri è disponibile in tutti gli elenchi?
-Il riquadro dei filtri è disponibile nelle pagine in cui l'elenco è il contenuto principale della pagina, come fogli di lavoro e pagine di elenco, inclusi gli elenchi raggiungibili dalla barra di spostamento. Il riquadro dei filtri non è ancora disponibile per gli elenchi incorporati, come le righe di vendita sugli ordini di vendita o per gli elenchi con colonne dinamiche (spesso indicate come pagine di matrice). 
+Il riquadro dei filtri è disponibile nelle pagine in cui l'elenco è il contenuto principale della pagina, come fogli di lavoro e pagine di elenco, inclusi gli elenchi raggiungibili dalla barra di spostamento. Il riquadro dei filtri non è ancora disponibile per gli elenchi incorporati, come le righe di vendita sugli ordini di vendita o per gli elenchi con colonne dinamiche (spesso indicate come pagine di matrice).
 
 ## <a name="how-can-i-save-my-filters"></a>Come posso salvare i filtri personali?
 
@@ -57,4 +56,3 @@ In qualità di amministratore locale, è possibile aumentare il limite di tempo 
 ## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  
 [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)
-

@@ -1,23 +1,23 @@
 ---
-title: 'Procedura: Impostazione dell''ammortamento compresso dei cespiti'
-description: "È possibile comprimere l'ammortamento dei cespiti in sottoclassi e decidere di visualizzare solo la somma totale per sottoclasse."
+title: "Procedura: Impostazione dell'ammortamento compresso dei cespiti"
+description: È possibile comprimere l'ammortamento dei cespiti in sottoclassi e decidere di visualizzare solo la somma totale per sottoclasse.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1e852542428fbd625fb7aac1b16cacd3421f500
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826823"
 ---
 # <a name="set-up-compressed-depreciation-of-fixed-assets"></a>Impostazione dell'ammortamento compresso dei cespiti
 È possibile comprimere l'ammortamento dei cespiti in sottoclassi e decidere di visualizzare solo la somma totale per sottoclasse. È possibile decidere di registrare solo i totali di ammortamento raggruppati per categoria. Questo è particolarmente importante per le società che dispongono di più cespiti suddivisi in molti articoli singoli.  
@@ -41,4 +41,3 @@ Durante il calcolo dell'ammortamento, viene generata una riga per ogni cespite. 
  [Impostare metodi di ammortamento alternativi](how-to-set-up-alternate-depreciation-methods.md)   
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
-

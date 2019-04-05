@@ -1,8 +1,8 @@
 ---
-title: "Utilizzo di funzionalità generali tra le aree aziendali | Documenti Microsoft"
-description: "Informazioni sulle funzionalità comuni alle aree aziendali in Business Central."
+title: Utilizzo di funzionalità generali tra le aree aziendali | Documenti Microsoft
+description: Informazioni sulle funzionalità comuni alle aree aziendali in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 11/21/2018
+ms.date: 03/13/2019
 ms.author: sgroespe
+ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
-ms.contentlocale: it-it
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853096"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
 Per supportare questi task specifici del settore commerciale, è possibile utilizzare un'ampia gamma di funzionalità generali commerciali, ad esempio la definizione del testo esteso per le righe del documento e l'organizzazione del collegamento dei task aziendali nei workflow.
+
+> [!NOTE]
+> Oltre alle funzioni correlate all'azienda descritte in questa sezione, si usano le funzioni generali dell'interfaccia utente ogni giorno per interagire con il sistema. Per ulteriori informazioni, vedere [Utilizzo di Business Central](ui-work-product.md).
 
 Nella tabella seguente sono elencate queste aree generali e sono riportati i collegamenti agli argomenti che le descrivono.
 
@@ -33,9 +36,12 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Comunicare rapidamente i contenuti di documenti aziendali ai partner aziendali, quali le informazioni di pagamento o i documenti di vendita ai clienti. |[Inviare documenti via e-mail](ui-how-send-documents-email.md) |
 |Archiviare ordini di acquisto e vendita, offerte, ordini di reso e ordini programmati e utilizzare il documento archiviato per ricreare il documento da cui è stato archiviato.|[Archiviare documenti](across-how-to-archive-documents.md)|
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md) |
-|Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definizione dei task degli utenti](across-user-tasks.md)|
+|Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definisci task dell'utente](across-user-tasks.md)|
 |Allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, e allegare file a tutti i tipi di documenti di acquisto e vendita.|[Allegare file a schede e documenti](across-attach-document-master-data.md)|
-|Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)| 
+|Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)|
+|Capire cosa accade scegliendo l'azione **Registra**.|[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)|
+|Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
+| Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|
 |Registrare i documenti esterni, inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
@@ -46,4 +52,3 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 [Amministrazione](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

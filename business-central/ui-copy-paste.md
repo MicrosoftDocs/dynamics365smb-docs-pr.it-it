@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853073"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Copia e incolla in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+# <a name="copying-and-pasting"></a>Copia e incolla
 È possibile copiare una o più righe da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook). In breve, per copiare, premere CTRL + C (cmd + C in macOS) sulla tastiera. Per incollare, premere CTRL + V (cmd + V in macOS).
 
 Sono disponibili altri tasti di scelta rapida da tastiera per copiare e incollare che consentono di risparmiare tempo quando si inseriscono i dati. Per ulteriori informazioni su questo argomento, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Quando si incolla in [!INCLUDE[d365fin](includes/d365fin_md.md)], ogni riga vien
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
-

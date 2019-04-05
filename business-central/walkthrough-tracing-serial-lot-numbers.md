@@ -1,25 +1,25 @@
 ---
-title: "Procedura dettagliata: Tracciabilità dei numeri seriali/lotto | Documenti Microsoft"
-description: "In caso di prodotti difettosi, è necessario identificare gli errori e impedire la distribuzione degli articoli interessati. Qualora vengano spediti prodotti difettosi, è necessario risalire al destinatario e, se necessario, richiederne la restituzione."
+title: 'Procedura dettagliata: Tracciabilità dei numeri seriali/lotto | Documenti Microsoft'
+description: In caso di prodotti difettosi, è necessario identificare gli errori e impedire la distribuzione degli articoli interessati. Qualora vengano spediti prodotti difettosi, è necessario risalire al destinatario e, se necessario, richiederne la restituzione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853165"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
 **Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 Per completare questa procedura dettagliata, sarà necessario:  
 
 -   La società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Creare nuovi articoli e diverse transazioni commerciali seguendo la sezione "Preparazione dei dati di esempio", più avanti in questa procedura dettagliata.  
+-   Creare nuovi articoli e diverse transazioni commerciali seguendo i passaggi nella sezione [Preparazione dei dati di esempio](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Scenario  
 Luca, il manager qualità, deve occuparsi di un reso vendita dell'articolo 1002, una bicicletta da corsa. Il cliente, Selangorian Ltd., sostiene che alcune delle saldature presenti sul telaio hanno ceduto. I tecnici del controllo qualità confermano che il telaio della bicicletta restituita è effettivamente difettoso. Il manager qualità deve a questo punto determinare:  
@@ -298,4 +298,3 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
-

@@ -2,22 +2,22 @@
 title: Come impostare metodi di ammortamento alternativi
 description: I metodi di ammortamento alternativi includono l'ammortamento anticipato, accelerato e ridotto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8b59e518fe5d2d917ce7edad12a85ca4527fc001
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826840"
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  
@@ -59,4 +59,3 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Tenere traccia dell'attività dell'utente in un log modifiche| Documenti Microsoft"
-description: "È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate."
+title: Tenere traccia dell'attività dell'utente in un log modifiche| Documenti Microsoft
+description: È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: it-it
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852888"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 
@@ -41,7 +41,6 @@ Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dat
 ## <a name="see-also"></a>Vedi anche
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Ordinamento](ui-sorting.md)  
-[Utilizzo della funzionalità Cerca pagina o report](ui-search.md)  
+[Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

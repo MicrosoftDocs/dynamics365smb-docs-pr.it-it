@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Stampa di report Registro beni ammortizzabili'
-description: "Registro beni ammortizzabili è un report fiscale ordinato per anno e classe di articoli. Nel report Registro beni ammortizzabili vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report Registro beni ammortizzabili viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni."
+description: Registro beni ammortizzabili è un report fiscale ordinato per anno e classe di articoli. Nel report Registro beni ammortizzabili vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report Registro beni ammortizzabili viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: b91cde660c38072eff0b3c4f108010a1e0750a24
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826839"
 ---
 # <a name="print-depreciation-book-reports"></a>Stampare report dei registri dei beni ammortizzabili
 **Registro beni ammortizzabili** è un report fiscale ordinato per anno e classe di articoli. Nel report **Registro beni ammortizzabili** vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.  
@@ -44,4 +44,3 @@ ms.lasthandoff: 01/22/2019
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
  [Impostare l'ammortamento dei cespiti](../../fa-how-setup-depreciation.md)
-

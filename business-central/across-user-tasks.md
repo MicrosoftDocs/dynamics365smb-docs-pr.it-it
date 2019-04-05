@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852357"
 ---
-# <a name="defining-user-tasks"></a>Definizione dei task degli utenti
+# <a name="define-user-tasks"></a>Definisci task dell'utente
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  
 
 ## <a name="managing-user-tasks"></a>Gestione dei task degli utenti
@@ -41,4 +41,3 @@ Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzar
 ## <a name="see-also"></a>Vedi anche
 [Ricerca di una pagina o di un report](ui-search.md)  
 [Esperienze di contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

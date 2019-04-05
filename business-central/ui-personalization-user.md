@@ -2,7 +2,7 @@
 title: Personalizzazione delle pagine | Documenti Microsoft
 description: Informazioni su come personalizzare l'interfaccia utente in base alle esigenze professionali.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852311"
 ---
 # <a name="personalizing-your-workspace"></a>Personalizzazione dell'area di lavoro
-<!--NAV in the Web client--> È possibile *personalizzare* l'area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
+<!--NAV in the Web client-->
+È possibile *personalizzare* l'area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
 
 A seconda del tipo di pagina e del contenuto, è possibile:
 
@@ -29,7 +30,10 @@ A seconda del tipo di pagina e del contenuto, è possibile:
 -   Modificare il riquadro di blocco delle colonne in un elenco. Il riquadro blocca una o più colonne a sinistra di un elenco in modo che siano sempre presenti, anche quando si scorre orizzontalmente.
 -   Modificare la larghezza delle colonne in un elenco.
 -   Spostare ed eliminare le pile (riquadri).
--   Spostare e rimuovere le parti. Le parti sono suddivisioni o aree in una pagina che contengono elementi quali più campi, un'altra pagina, un grafico o dei riquadri.  
+-   Spostare e rimuovere le parti. Le parti sono suddivisioni o aree in una pagina che contengono elementi quali più campi, un'altra pagina, un grafico o dei riquadri.
+
+> [!NOTE]
+> Oltre a ciò che gli utenti possono personalizzare, gli amministratori e i super utenti possono sostituire le personalizzazioni degli utenti e definire quali funzionalità sono accessibili in tutte le società o alcune specifiche. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Per personalizzare una pagina
 
@@ -79,4 +83,3 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-

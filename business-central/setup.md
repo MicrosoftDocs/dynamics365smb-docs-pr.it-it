@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852081"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
@@ -40,10 +40,20 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 | Configurare come assicurare, mantenere e ammortizzare i cespiti e come vengono registrati i costi dei cespiti nei registri della società. |[Impostazione di cespiti](fa-setup.md) |
 |Definire valori e regole generali per i processi di warehouse e la gestione specifica in ogni ubicazione.|[Impostazione gestione warehouse](warehouse-setup-warehouse.md)|
 |Preparare DB e cicli di produzione per definire il modo in cui gli articoli vengono prodotti e preparare aree di produzione o centri di lavoro per eseguire le operazioni richieste.|[Impostazione della produzione](production-configure-production-processes.md)|
+|Stabilire sintomi, codici guasto e servizi standard e impostare gli articoli in assistenza, risorse e la documentazione necessari per fornire assistenza ai clienti.|[Impostazione della gestione assistenza](service-setup-service.md)|
 |Leggere le procedure ottimali per l'impostazione di articoli per i costi di magazzino e la pianificazione degli approvvigionamenti.|[Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)|
+|Migliorare la qualità dell'implementazione e diminuire i tempi di distribuzione utilizzando un set di strumenti per impostare una nuova società utilizzando procedure, modelli, prospetti e questionari dei clienti.|[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Trasferire informazioni su clienti, fornitori, magazzino e conti correnti bancari da un altro sistema in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)|
+|Utilizzare il componente aggiuntivo Outlook di Business Central per visualizzare i dati finanziari relativi a clienti e fornitori o creare e inviare documenti finanziari, quali offerte e fatture.|[Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)|
+|Ottenere informazioni sui dati Business Central con Power BI e pacchetti di contenuto di Business Central.|[Abilitare i dati aziendali per Power BI](admin-powerbi.md)|
+|Utilizzare i dati di Business Central come parte di un flusso di lavoro in Microsoft Flow.|[Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)|
+|Rendere i dati di Business Central disponibili come origine dati in PowerApps.|[Collegamento ai dati Business Central per creare un'app aziendale utilizzando PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Utilizzare le guide di migrazione di Quickbooks dedicate.|[Passare da un'app di QuickBooks a Microsoft Business Central](across-quickbooks-to-business-edition.md)|
+|Accedere ai dati di Business Central dal dispositivo mobile.|[Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)|
+|Eseguire la fatturazione in blocco di appuntamenti creati in Prenotazioni.|[Fatturazione in blocco per Microsoft Bookings](finance-bookings.md)|
 |Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Impostare la posta elettronica manualmente o tramite il setup assistito](admin-how-setup-email.md)|
-| Impostare codici di identificazione univoci per i record, quali schede, documenti e righe delle registrazioni, per monitorarli nel sistema. |[Creazioni di numerazioni](ui-create-number-series.md) |
-|Impostare e assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.|[Impostazione di calendari di base](across-how-to-assign-base-calendars.md)|  
+| Impostare codici di identificazione univoci per i record, quali schede, documenti e righe delle registrazioni, per monitorarli nel sistema. |[Creazione di numerazioni](ui-create-number-series.md) |
+|Impostare e assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.|[Impostare i calendari di base](across-how-to-assign-base-calendars.md)|  
 
 Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Amministrazione](admin-setup-and-administration.md).  
 
@@ -64,5 +74,3 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Introduzione](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

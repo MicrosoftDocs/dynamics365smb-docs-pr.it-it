@@ -1,18 +1,18 @@
 ---
 title: 'Procedura: Definizione di dare e avere'
-description: "I campi Dare e Avere sono presenti in più registrazioni e tabelle nella versione italiana di Business Central."
+description: I campi Dare e Avere sono presenti in più registrazioni e tabelle nella versione italiana di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 46db5f476ee50c8178b90cace5f0609a9180db19
-ms.contentlocale: it-it
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826807"
 ---
 # <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  
@@ -34,4 +34,3 @@ I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra 
 
 ## <a name="see-also"></a>Vedi anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)   
-

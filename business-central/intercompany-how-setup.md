@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: a549dd926894e8c14a5f57437ca9402e2ddde5d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d6e72ed68f2ab28ebd4daef423304a945a719ed
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852541"
 ---
 # <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
@@ -24,7 +24,7 @@ Per inviare una transazione, ad esempio una riga registrazioni vendita, da una s
 
 Se si creano o si ricevono righe intercompany con articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. È inoltre possibile usare la funzione **Cross reference articolo**: per mappare i numeri di articolo alle descrizioni degli articoli dei partner IC, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del partner IC.  
 
-Se si effettuano transazioni di vendita intercompany che includono risorse, è necessario compilare il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Si tratta del numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni, vedere  
+Se si effettuano transazioni di vendita intercompany che includono risorse, è necessario compilare il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Si tratta del numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Per impostare le società per le transazioni intercompany
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.  
@@ -45,9 +45,9 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Per impostare il piano dei conti intercompany
 Per poter effettuare transazioni intercompany, un gruppo di società deve concordare un piano dei conti da utilizzare come riferimento comune. È necessario concordare con le società partner i numeri di conto da utilizzare per la creazione delle transazioni intercompany. La casa madre del gruppo può ad esempio creare una versione semplificata del proprio piano dei conti, esportare tale piano dei conti intercompany dal proprio database a un file XML e distribuirlo a tutte le società del gruppo.  
 
-Se la società è la società padre e dispone del piano dei conti intercompany che dovrà essere utilizzato come riferimento da tutte le società del gruppo, attenersi alla procedura "Impostare il piano dei conti intercompany".  
+Se la società è la società padre e dispone del piano dei conti intercompany che dovrà essere utilizzato come riferimento da tutte le società del gruppo, attenersi alla procedura [Per impostare il piano dei conti intercompany](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
-Se la società è una filiale e si riceve un file XML contenente il piano dei conti intercompany comune, attenersi alla procedura ""Per importare il piano dei conti intercompany"".  
+Se la società è una filiale e si riceve un file XML contenente il piano dei conti intercompany comune, attenersi alla procedura [Per importare il piano dei conti intercompany](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Per impostare il piano dei conti intercompany
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti intercompany** e quindi scegliere il collegamento correlato.
@@ -84,14 +84,14 @@ Quando si specifica un conto C/G nel campo **Nr. contropartita** di una riga int
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2. Nella riga di un conto C/G utilizzato per le transazioni intercompany, nel campo **Conto C/G partner IC di default**, immettere il conto di contabilità generale intercompany in cui il partner effettuerà le registrazioni al momento della registrazione del conto C/G nella riga.  
-3. Ripetere il passaggio 3 per ogni conto immesso di frequente nel campo **Nr. contropartita** di una riga di documento o registrazione intercompany.
+3. Ripetere il passaggio 2 per ogni conto immesso di frequente nel campo **Nr. contropartita** di una riga di documento o registrazione intercompany.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Per impostare le dimensioni intercompany
 Per poter scambiare con i propri partner intercompany transazioni con dimensioni collegate, è necessario concordare le dimensioni che verranno usate da tutti. La casa madre del gruppo può ad esempio creare una versione semplificata del proprio insieme di dimensioni ed esportare tali dimensioni intercompany in un file XML da distribuire a tutte le società del gruppo. Ogni filiale può quindi importare il file XML nella pagina **Dimensioni intercompany** e associare le dimensioni intercompany a quelle presenti nella pagina **Dimensioni** della società.  
 
-Se la società è la società padre e dispone del set di dimensioni intercompany che il gruppo utilizzerà come riferimento comune, seguire la procedura "Per definire le dimensioni intercompany".
+Se la società è la società padre e dispone del set di dimensioni intercompany che il gruppo utilizzerà come riferimento comune, seguire la procedura [Per definire le dimensioni intercompany](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
-Se la società è una filiale ed è stato ricevuto un file XML contenente le dimensioni intercompany che il gruppo utilizzerà come riferimento comune, attenersi alla procedura "Per importare le dimensioni intercompany".
+Se la società è una filiale ed è stato ricevuto un file XML contenente le dimensioni intercompany che il gruppo utilizzerà come riferimento comune, attenersi alla procedura [Per importare le dimensioni intercompany](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Per definire le dimensioni intercompany
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.  
@@ -133,4 +133,3 @@ Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

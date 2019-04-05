@@ -1,23 +1,23 @@
 ---
 title: Come dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist
-description: "È necessario inviare un report periodico delle transazioni con clienti e fornitori in paesi che il governo italiano ha incluso in una blacklist."
+description: È necessario inviare un report periodico delle transazioni con clienti e fornitori in paesi che il governo italiano ha incluso in una blacklist.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e70199f62ccb877b820aabeecca13939a14f7be5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826824"
 ---
 # <a name="report-trade-with-customers-and-vendors-in-blacklist-countries-regions"></a>Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist
 È necessario inviare un report periodico delle transazioni con clienti e fornitori in paesi che il governo italiano ha incluso in una blacklist. Il report comunicazioni blacklist deve essere inviato all'agenzia delle entrate italiana per impedire frodi relative all'IVA. Le transazioni che sono incluse nel report comunicazioni blacklist sono:  
@@ -144,4 +144,3 @@ Il report stampato include tutte le transazioni che soddisfano i requisiti di so
 
 ## <a name="see-also"></a>Vedi anche  
  [IVA italiana](italian-vat.md)
-

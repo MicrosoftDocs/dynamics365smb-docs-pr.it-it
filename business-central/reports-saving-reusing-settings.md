@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853119"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
 Quando si esegue un report, gli utenti di norma vedono una pagina che consente loro di impostare determinate opzioni e filtri per variare i dati inclusi nel report generato. Questa pagina è chiamata la pagina di richiesta report. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni su come utilizzare le impostazioni salvate, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
 
 Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, creare e modificare le impostazioni salvate per tutti i report di tutti gli utenti nella società. È possibile assegnare le impostazioni salvate per un report ai singoli utenti o a tutti gli utenti della società.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Nella pagina **Impostazioni report**, è possibile:
 > La funzionalità delle impostazioni salvate è disponibile solo nei report in cui la [proprietà SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) della pagina di richiesta del report è impostata su `Yes`. La proprietà **SaveValues** viene impostata nell'ambiente di sviluppo.  
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo dei report](ui-work-report.md)  
-
+[Utilizzo di report e processi batch](ui-work-report.md)  

@@ -1,23 +1,23 @@
 ---
 title: 'Procedura dettagliata: vendita, assemblaggio e spedizione di kit | Documenti Microsoft'
-description: "Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio."
+description: Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852702"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -27,7 +27,7 @@ Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare 
 
 Questa funzione speciale consente di gestire la spedizione delle quantità per l'assemblaggio su ordine, sia nella configurazione di base che in quella avanzata di warehouse. Quando i lavoratori completano l'assemblaggio delle parti o di tutta la quantità da assemblare su ordine, registrano il campo **Qtà da spedire** sulla riga spedizione warehouse, in configurazioni avanzate, quindi scelgono **Registrare spedizione**. Il risultato consiste nella registrazione dell'output di assemblaggio, incluso il consumo di componenti correlato, oltre che nella registrazione della spedizione della vendita per la quantità corrispondente all'ordine di vendita collegato. Questa procedura dettagliata illustra il processo avanzato in warehouse.  
 
-Nelle configurazioni di base della warehouse, quando una quantità per l'assemblaggio su ordine è pronta per essere spedita, l'addetto warehouse incaricato registra un prelievo da magazzino per le righe ordine di vendita in questione. Questo crea un movimento di magazzino per i componenti, registra l'output di assemblaggio e la spedizione dell'ordine di vendita. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in Prelievi magazzino.  
+Nelle configurazioni di base della warehouse, quando una quantità per l'assemblaggio su ordine è pronta per essere spedita, l'addetto warehouse incaricato registra un prelievo da magazzino per le righe ordine di vendita in questione. Questo crea un movimento di magazzino per i componenti, registra l'output di assemblaggio e la spedizione dell'ordine di vendita. Per ulteriori informazioni, vedere [Gestione di articoli da assemblare su ordine in prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
 In questa procedura dettagliata sono illustrati i task seguenti:  
@@ -106,7 +106,7 @@ Rimuovere il lead time di default per i processi interni effettuando i seguenti 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manufacturing** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
 
-Creare il magazzino per i componenti di assemblaggio, seguendo le istruzioni fornite nella sezione "Preparazione della sezione dei dati di esempio", in questa procedura dettagliata.  
+Creare il magazzino per i componenti di assemblaggio seguendo le istruzioni [Preparazione dei dati di esempio](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Scenario  
 Il 23 gennaio, Elisabetta, il gestore degli ordini di vendita, accetta un ordine dal reparto dispositivi, di tre unità del Kit B, che è un articolo di ATO. Tutte e tre le unità sono personalizzate e devono contenere la scheda grafica potente e un blocco aggiuntivo di RAM. Devono essere utilizzate unità disco migliori, i DWD, perché le unità CD non sono disponibili. Elisabetta sa che le unità possono essere assemblate immediatamente, pertanto mantiene la data di spedizione suggerita del 23 gennaio.  
@@ -135,7 +135,7 @@ Samuele imballa le dieci unità di ATS con le cinque unità di ATO che Linda ha 
 
 Quando l'ordine di vendita viene successivamente registrato come totalmente fatturato, tale ordine e gli ordini di assemblaggio collegati vengono rimossi.  
 
-## <a name="setting-up-the-sample-data"></a>Impostazione dei dati di esempio  
+## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni articoli whse.** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il campo **Nome batch**, quindi selezionare la registrazione di default.  
@@ -443,4 +443,3 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
  [Dettagli di progettazione: Flussi warehouse interni](design-details-internal-warehouse-flows.md)   
  [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)   
  [Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)
-

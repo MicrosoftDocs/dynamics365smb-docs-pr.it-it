@@ -1,8 +1,8 @@
 ---
 title: Utilizzare le notifiche smart e specificare quando visualizzarle | Documenti Microsoft
-description: "È possibile ricevere notifiche con informazioni sulle modifiche di stato o di eventi, ad esempio, per un saldo scaduto o un magazzino in esaurimento."
+description: È possibile ricevere notifiche con informazioni sulle modifiche di stato o di eventi, ad esempio, per un saldo scaduto o un magazzino in esaurimento.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: it-it
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852159"
 ---
-# <a name="smart-notifications"></a>Notifiche smart
+# <a name="managing-notifications"></a>Gestione delle notifiche
 [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di lavorare in modo più intelligente tramite le notifiche che informano in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Queste notifiche vengono visualizzate come suggerimenti discreti nel contesto dell'attività che si sta eseguendo e consente di scegliere di ignorare la notifica o di visualizzare i dettagli sul problema.  
 
 Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile intraprendere azioni per risolvere il problema, come contattare il cliente, comprare altre scorte e così via. La scelta sulla cosa da fare è dell'utente, mentre [!INCLUDE[d365fin](includes/d365fin_md.md)] offre consigli e avvisi.  
@@ -38,4 +38,3 @@ L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizio
 
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

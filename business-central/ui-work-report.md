@@ -2,7 +2,7 @@
 title: Programmazione dell'esecuzione di un report per una data e un'ora specifiche | Documenti Microsoft
 description: Informazioni su come inserire un report in una coda di processi e programmare per l'elaborazione per una data e un'ora specifiche.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: it-it
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852426"
 ---
-# <a name="working-with-reports"></a>Utilizzo dei report
+# <a name="working-with-reports-and-batch-jobs"></a>Utilizzo di report e processi batch
 Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
+
+I processi batch eseguono più o meno gli stessi report ma per eseguire un processo. Ad esempio, il processo batch **Crea solleciti** crea documenti di sollecito per clienti con pagamenti scaduti.  
+
+> [!NOTE]
+> Questo argomento fa essenzialmente riferimento a “report" ma informazioni simili si applicano ai processi batch.
 
 I report sono disponibili nella scheda **Reports** elle pagine selezionate oppure è possibile utilizzare una ricerca tramite l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per individuare i report per nome.
 
@@ -29,6 +34,10 @@ I report sono disponibili nella scheda **Reports** elle pagine selezionate oppur
 Quando si apre un report, viene di norma visualizzata una pagina dove è possibile impostare varie opzioni e filtri che determinano cosa includere nel report. Questa pagina è chiamata la pagina di richiesta report. Ad esempio, la pagina di richiesta del report consente di creare un report per un cliente specifico, un determinato intervallo di date oppure di stabilire l'ordine delle informazioni nel report. Di seguito è riportato un esempio di pagina di richiesta del report:
 
 ![Opzioni del report](media/report_options.png "Opzioni del report")
+
+> [!Caution]
+> La sezione **Mostra risultati** di una pagina di richiesta fornisce una generica capacità di filtro per i report. Tali filtri sono facoltativi.<br /><br /> Alcuni report ignoreranno tali filtri, nel senso che qualsiasi filtro venga impostato nella sezione **Mostra risultati**, l'output del report è lo stesso. Non è possibile fornire un elenco dei campi che vengono ignorati in quali report, quindi sarà necessario sperimentare con i filtri quando utilizzati.<br /><br />
+**Esempio**: quando si utilizza il processo batch **Crea solleciti**, un filtro per il campo **Movimenti contabili clienti** di **Livello ultimo sollecito emesso** verrà ignorato perché i filtri sono fissi per tale processo batch.
 
 ### <a name="SavedSettings"></a>Uso delle impostazioni salvate
 Con alcuni report, a seconda di come vengono progettati, la pagina del report potrebbe includere la sezione **Impostazioni salvate** contenente uno o più voci nella casella **Utilizza valori predefiniti da**. Le voci in questa casella sono chiamate *impostazioni salvate*. Le Impostazioni salvate sono fondamentalmente un gruppo di default di opzioni e filtri che si possono applicare al report prima di visualizzarlo in anteprima o inviarlo in un file. Esiste sempre una voce Impostazioni salvate, che viene chiamata **Filtri e opzioni utilizzati di recente**. Questa voce imposta il report per utilizzare le opzioni e i filtri che sono stati utilizzati l'ultima volta che è stato visualizzato il report.
@@ -47,7 +56,7 @@ I filtri consentono di visualizzare i dati in base a criteri specifici. I filtri
 
 A seconda del tipo di campo che si sta filtrando, è possibile specificare i criteri di filtro per cercare una corrispondenza esatta, una corrispondenza parziale, un intervallo di valori e altro. Per ulteriori informazioni sull'impostazione dei filtri, vedere:
 -   [Filtri](ui-enter-criteria-filters.md#FilterCriteria)
--   [Immettere intervalli di date](ui-enter-date-ranges.md)
+-   [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 Scegliere **Anteprima** per vedere il report nel browser Internet. Puntare un'area del report per visualizzare la barra dei menu.  
@@ -88,4 +97,3 @@ Un layout di report determina le informazioni che verranno visualizzate nel repo
 [Specificare la selezione della stampante per i report](ui-specify-printer-selection-reports.md)  
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

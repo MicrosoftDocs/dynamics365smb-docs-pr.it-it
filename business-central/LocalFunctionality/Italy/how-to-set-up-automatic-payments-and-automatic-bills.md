@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Impostare i pagamenti automatici e gli effetti automatici'
-description: "In Business Central, è possibile gestire i pagamenti e gli effetti automatici."
+description: In Business Central, è possibile gestire i pagamenti e gli effetti automatici.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8d99528f7775f4404d7495b5f25b9b6203ccf084
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826829"
 ---
 # <a name="set-up-automatic-payments-and-automatic-bills"></a>Impostare i pagamenti automatici e gli effetti automatici
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire i pagamenti e gli effetti automatici.  
@@ -74,4 +74,3 @@ A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo c
 ## <a name="see-also"></a>Vedi anche  
  [Definizione dei metodi di pagamento](../../finance-payment-methods.md)     
   [Funzionalità locale per l'Italia](italy-local-functionality.md)
-

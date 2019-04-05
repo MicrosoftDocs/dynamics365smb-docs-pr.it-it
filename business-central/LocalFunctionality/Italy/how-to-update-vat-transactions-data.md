@@ -1,18 +1,18 @@
 ---
 title: 'Procedura: Aggiornare i dati delle transazioni IVA'
-description: "Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti nella versione italiana di Business Central."
+description: Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti nella versione italiana di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4d43630b118ab0e36ad2b9330d1cfe884ca8251e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826809"
 ---
 # <a name="update-vat-transactions-data"></a>Aggiornare i dati delle transazioni IVA
 Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti eseguendo il report **Aggiorna data transazione IVA**. È inoltre necessario eseguire questo report se sono state apportate modifiche al setup in base ai nuovi requisiti delle autorità fiscali.  
@@ -45,4 +45,3 @@ Quando si esegue il report, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] el
 [Impostare l'IVA](../../finance-setup-vat.md)  
  [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)   
-

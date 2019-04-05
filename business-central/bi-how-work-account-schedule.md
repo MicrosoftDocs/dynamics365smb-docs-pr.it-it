@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852518"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. La visualizzazione dei risultati nei grafici nella Gestione ruolo utente, quali il piano del flusso di cassa e nei report, ad esempio i report Conto economico e Conto patrimoniale,
@@ -36,7 +36,7 @@ Le situazioni contabili sono utilizzate per organizzare i conti elencati nel pia
 * Impostare vari layout di report e stampare i report con le cifre correnti.
 
 ## <a name="account-categories"></a>Categorie di conti
-Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere la sezione Categorie di conti in [Informazioni sulla contabilità generale e COA](finance-general-ledger.md).  
+Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere [Categorie di conti](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>Per creare una nuova situazione contabile  
 Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti di contabilità generale con i movimenti budget di contabilità generale. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
@@ -50,7 +50,7 @@ Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprim
 3. In alternativa, scegliere l'azione **Copia situazione contabile**, compilare i due campi, quindi scegliere **OK**.
 4. Compilare i campi come necessario. Nel campo **Default layout colonna**, selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
 
-    I layout di colonna sono utilizzati per definire colonne per differenti parametri utilizzati per visualizzare i dati finanziari nelle righe. Ad esempio, è possibile creare un layout di colonna che compara saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente, con quattro colonne. Per ulteriori informazioni, vedere la sezione "Per modificare un layout di colonna".
+    I layout di colonna sono utilizzati per definire colonne per differenti parametri utilizzati per visualizzare i dati finanziari nelle righe. Ad esempio, è possibile creare un layout di colonna che compara saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente, con quattro colonne. Per ulteriori informazioni, vedere [Per modificare un layout di colonna](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Scegliere l'azione **Modifica situazione contabile**.
 6. Creare una riga per ciascun elemento finanziario da visualizzare nel report, ad esempio una riga per i cespiti correnti e un'ulteriore riga per i cespiti. Per avere un'idea, vedere le situazioni contabili esistenti nella società di esempio CRONUS.
@@ -199,4 +199,3 @@ Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necess
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

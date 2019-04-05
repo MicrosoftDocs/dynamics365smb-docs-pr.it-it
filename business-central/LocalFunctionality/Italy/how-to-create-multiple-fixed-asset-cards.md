@@ -1,23 +1,23 @@
 ---
-title: "Procedura: Creazione di più schede cespite"
-description: "Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite."
+title: 'Procedura: Creazione di più schede cespite'
+description: Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9b4a3f85d7d61d84ac220d37c535b5fbb02f2dcb
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826845"
 ---
 # <a name="create-multiple-fixed-asset-cards"></a>Creazione di più schede cespite
 Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite. Se ad esempio la società acquista 200 computer dello stesso tipo dallo stesso fornitore, non è necessario creare manualmente una scheda cespite per ogni computer, ma tali schede possono essere create automaticamente.  
@@ -47,4 +47,3 @@ Durante la registrazione delle fatture di acquisto è possibile creare automatic
 ## <a name="see-also"></a>Vedi anche  
  [Cespiti](../../fa-manage.md)  
  [Cespiti italiani](italian-fixed-assets.md)
-

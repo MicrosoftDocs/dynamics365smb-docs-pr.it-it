@@ -6,7 +6,7 @@
     <Node Name="" DisplayName="Scaricare Business Central sul dispositivo mobile" Page="install-mobile-app.html"/>
     <Node Name="" DisplayName="Eseguire la sincronizzazione con i contatti di Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Utilizzo di Business Central come Posta in arrivo aziendale di Outlook" Page="admin-outlook.html"/>
-    <Node Name="" DisplayName="Abilitare i dati aziendali per Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Abilitare i dati aziendali per Power BI " Page="admin-powerbi.html"/>
     <Node Name="" DisplayName="Uso di Business Central come origine dati di Power BI" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Personalizzazione di Business Central con le estensioni" Page="ui-extensions.html"/>
   </Node>
@@ -280,7 +280,7 @@
     <Node Name="" DisplayName="Gestione delle opportunità di vendita" Page="marketing-manage-sales-opportunities.html"/>
     <Node Name="" DisplayName="Gestire clienti e vendite creati in Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
-  <Node Name="" DisplayName="Gestione del personale" Page="hr-manage-human-resources.html">
+  <Node Name="" DisplayName="Gestione personale" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Procedura: registrare gli impiegati:" Page="hr-how-register-employees.html"/>
     <Node Name="" DisplayName="Procedura: Gestire le assenze di un impiegato" Page="hr-how-manage-absence.html"/>
   </Node>
@@ -398,7 +398,7 @@
     <Node Name="" DisplayName="Spagna" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
     <Node Name="" DisplayName="Svezia" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
     <Node Name="" DisplayName="Svizzera" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
-    <Node Name="" DisplayName="Gran Bretagna" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Regno Unito" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
     <Node Name="" DisplayName="Stati Uniti" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
   </Node>
 </Node>

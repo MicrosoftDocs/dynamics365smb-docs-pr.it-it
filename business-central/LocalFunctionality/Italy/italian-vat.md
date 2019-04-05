@@ -1,23 +1,23 @@
 ---
 title: IVA italiana
-description: "Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa."
+description: Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7a25e3ac94b62a7efd13abef808a887a0894fc69
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826799"
 ---
 # <a name="italian-vat"></a>IVA italiana
 Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
@@ -102,4 +102,3 @@ Quando si registrano le note di credito, è necessario aggiornare il campo **Rif
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
  [Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)
-

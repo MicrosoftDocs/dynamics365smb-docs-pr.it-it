@@ -2,22 +2,22 @@
 title: 'Procedura: Impostare i costi iniziali per gli articoli'
 description: Quando si imposta Business Central nell'organizzazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0cc5807f2a522cbf1940ceb9a3d5514f96e8de98
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826833"
 ---
 # <a name="set-up-initial-item-costs"></a>Impostare i costi iniziali per gli articoli
 Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nell'organizzazione.  
@@ -36,4 +36,3 @@ I movimenti in questa pagina vengono utilizzati per calcolare il costo medio ann
 ## <a name="see-also"></a>Vedi anche  
  [Valutazione magazzino fiscale](fiscal-inventory-valuation.md)   
  [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md)   
-

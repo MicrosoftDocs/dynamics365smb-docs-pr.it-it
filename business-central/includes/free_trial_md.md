@@ -1,1 +1,1 @@
-Avviare una [prova gratuita!](https://go.microsoft.com/fwlink/?linkid=847861)
+Avviare una [versione di valutazione gratuita!](https://go.microsoft.com/fwlink/?linkid=847861)

@@ -2,22 +2,22 @@
 title: 'Procedura: Chiusura di un anno fiscale'
 description: Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: aaea48b3e2f47cd20612badaa76dffd2c160922d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3e80ecd3e744f6cf446b3341140beee66f4867df
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826817"
 ---
 # <a name="close-a-fiscal-year"></a>Chiusura di un anno fiscale
 Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.  
@@ -70,4 +70,3 @@ Viene registrato un movimento in ogni conto economico in modo che il saldo sia z
 ## <a name="see-also"></a>Vedi anche  
  [Chiusura di anni e periodi](../../year-close-years-periods.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)
-

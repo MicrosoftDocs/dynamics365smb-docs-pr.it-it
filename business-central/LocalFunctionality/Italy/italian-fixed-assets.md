@@ -1,23 +1,23 @@
 ---
 title: Cespiti italiani
-description: "I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito."
+description: I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 88cf3f0e119077503fac6f48bbd800846b6bf112
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6008e43eeb2c81c5b9bddcab189c41c9293dc437
-ms.contentlocale: it-it
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826811"
 ---
 # <a name="italian-fixed-assets"></a>Cespiti italiani
 I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito. Possono essere tangibili o intangibili e durevoli o non durevoli. Automobili, macchinari e arredamenti sono esempi di cespiti tangibili. Costi di avviamento e licenze sono esempi di cespiti intangibili.  
@@ -41,4 +41,3 @@ L'ammortamento ridotto consente, alle società che siano in grado di dimostrare 
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
-

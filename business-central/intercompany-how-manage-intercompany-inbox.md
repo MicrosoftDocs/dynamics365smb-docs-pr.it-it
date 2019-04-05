@@ -1,8 +1,8 @@
 ---
 title: Elaborare le transazioni IC in entrata e in uscita | Microsoft Docs
-description: "Le transazioni intercompany che si ricevono dai partner IC sono elencate nella posta in arrivo IC. Qui è possibile elaborarle manualmente o automaticamente."
+description: Le transazioni intercompany che si ricevono dai partner IC sono elencate nella posta in arrivo IC. Qui è possibile elaborarle manualmente o automaticamente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853283"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gestire la casella in entrata e in uscita intercompany
 Tutte le transazioni intercompany ricevute elettronicamente dai partner intercompany sono elencate nella posta in arrivo IC.  
@@ -43,7 +43,7 @@ Le operazioni che è possibile eseguire con una determinata transazione variano 
 #### <a name="returned-from-intercompany-partner"></a>Restituita da un partner intercompany  
  Se la transazione è stata rifiutata dal partner IC, l'unica possibilità è annullare la transazione nella casella in arrivo. Successivamente è necessario creare righe di rettifica o stornare la registrazione o il documento della società.  
 
-## <a name="re-creating-inbox-entries"></a>Ricostruzione di movimenti nella casella in arrivo  
+## <a name="recreating-inbox-entries"></a>Ricostruzione di movimenti nella casella in arrivo  
  Se si accetta una transazione nella posta in arrivo/casella in arrivo e, successivamente, si elimina la registrazione o il documento anziché registrarlo, è possibile ricreare il movimento nella posta in arrivo/casella in arrivo e accettarlo nuovamente.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Sintesi delle transazioni intercompany per un periodo specifico  
@@ -105,4 +105,3 @@ Nella procedura seguente viene descritto come ricreare transazioni in arrivo, tu
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

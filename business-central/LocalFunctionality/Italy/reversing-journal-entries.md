@@ -1,23 +1,23 @@
 ---
 title: Storno di scritture contabili
-description: "Nella pagina Storna movimenti transazioni sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali."
+description: Nella pagina Storna movimenti transazioni sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 7ffe99a2c4afef9da235a55b7e5aec79665e8456
-ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826851"
 ---
 # <a name="reversing-journal-entries"></a>Storno di scritture contabili
 Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali. Tali controlli impediscono l'esecuzione delle seguenti operazioni:  
@@ -29,4 +29,3 @@ Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni control
 
 ## <a name="see-also"></a>Vedi anche  
   [Funzionalità locale per l'Italia](italy-local-functionality.md)
-

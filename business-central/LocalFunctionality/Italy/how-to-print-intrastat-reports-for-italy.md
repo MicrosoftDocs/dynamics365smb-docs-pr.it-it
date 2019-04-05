@@ -1,18 +1,18 @@
 ---
-title: 'Procedura: Stampa di report Intrastat per l''Italia'
-description: "È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità nella versione italiana di Business Central. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente."
+title: "Procedura: Stampa di report Intrastat per l'Italia"
+description: È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità nella versione italiana di Business Central. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d473980e3a9600b0e9600e8ea0d41534309a601f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826835"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  
@@ -49,4 +49,3 @@ Sono disponibili i seguenti report Intrastat:
 
 ## <a name="see-also"></a>Vedi anche  
  [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md)
-

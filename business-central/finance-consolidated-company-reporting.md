@@ -1,7 +1,7 @@
 ---
-title: "Consolidare i dati di molteplici società | Microsoft Docs"
-description: "Ottenere una visualizzazione di riepilogo dello stato finanziario delle proprie società."
-documentationcenter: 
+title: Consolidare i dati di molteplici società | Microsoft Docs
+description: Ottenere una visualizzazione di riepilogo dello stato finanziario delle proprie società.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: it-it
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832599"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 Se si hanno più società in [!INCLUDE[d365fin](includes/d365fin_md.md)], il report Bilancio di verifica consolidato nella Gestione ruolo utente Contabile può fornire una panoramica dello stato finanziario dell'attività commerciale globale.  
 
@@ -50,13 +49,16 @@ Per utilizzare la guida al setup assistito, attenersi a questa procedura:
 2. Scegliere **Imposta creazione di report di consolidamento**, quindi completare ogni passaggio nella guida al setup assistito.
 
 ## <a name="to-do-an-advanced-consolidation-setup"></a>Per eseguire un setup avanzato del consolidamento
-Se sono necessarie impostazioni più avanzate per il consolidamento, è possibile impostare il consolidamento manualmente. Ad esempio, se si possiedono solo parzialmente alcune società o se non si intende includere alcune società nel consolidamento. Una società consolidata può essere impostata come qualsiasi altra società. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
+Se sono necessarie impostazioni più avanzate per il consolidamento, è possibile impostare il consolidamento manualmente. Ad esempio, se si possiedono solo parzialmente alcune società o se non si intende includere alcune società nel consolidamento. Una società consolidata viene impostata come qualsiasi altra società. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di impostare un elenco di società da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business unit** e quindi scegliere il collegamento correlato.  
-3. Scegliere **Nuovo** e compilare i campi necessari.  
+3. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Quando si compilano i campi **Data inizio** e **Data fine**, assicurarsi di essere in conformità con le norme GAAP relative ai periodi fiscali della business unit rispetto alla casa madre.
 
 Se una business unit utilizza una valuta straniera, è necessario specificare il tasso di cambio da utilizzare nel consolidamento. È inoltre necessario immettere le informazioni di consolidamento nei conti C/G della business unit. Tali processi sono descritti nelle sezioni riportate di seguito.
 
@@ -120,7 +122,31 @@ Dopo aver verificato i dati, è possibile trasferirli alla società consolidata.
 1. Accedere alla società consolidata.  
 2. In **Gestione ruolo utente Contabile**, scegliere l'azione **Esegui consolidamento**.  
 3. Compilare i campi necessari.  
-4. Nel campo **Dove**, scegliere **Nome Società**, quindi scegliere la società consolidata nel campo **è**.  
+4. Nel campo **Dove**, scegliere **Nome Società**, quindi scegliere la società consolidata nel campo **è**.
+
+## <a name="to-eliminate-repeated-transactions"></a>Per eliminare transazioni ripetute
+Dopo avere eseguito il consolidamento di tutte le società, è necessario trovare le transazioni registrate più di una volta nelle società e quindi registrare i movimenti di eliminazione per rimuoverle.
+
+L'elaborazione delle eliminazioni in seguito al consolidamento è un processo manuale. Seguire i passaggi seguenti:
+1. Individuare le transazioni che potenzialmente devono essere rettificate e immettere le righe delle registrazioni COGE per eliminarle.
+2. Eseguire il report **Eliminaz. consolidamenti C/G** per valutare l'effetto delle righe delle registrazioni COGE prima della registrazione.
+3. Registrare le transazioni di rettifica.
+
+Nel report **Eliminaz. consolidamenti C/G** viene visualizzato un bilancio di verifica provvisorio dove è possibile simulare le conseguenze dell'eliminazione dei movimenti mettendo a confronto i movimenti nella società consolidata con le eliminazioni immesse nelle registrazioni COGE.
+
+Prima di poter includere una business unit nel report è necessario impostarla nella pagina **Business Unit** e selezionare il campo **Consolidare**.
+
+Ogni conto viene visualizzato in una singola riga, secondo la struttura del piano dei conti. Un conto non viene invece visualizzato se tutti gli importi nella riga hanno valore 0. Per ogni conto vengono visualizzate le informazioni seguenti:
+
+* Numero conto
+* Nome conto.
+* Se sono stati selezionati uno o più codici di business unit nel campo **Codice Business Unit** della pagina di richiesta, viene visualizzato un totale per la società consolidata, escluse le business unit e le eliminazioni selezionate. Se il campo **Codice Business Unit** non è stato compilato, viene visualizzato un totale per la società consolidata escluse le eliminazioni.
+* Se è stato selezionato un codice di business unit nel campo **Codice Business Unit** nella pagina di richiesta, viene visualizzato un totale per i movimenti importati dalla business unit. Se il campo **Codice Business Unit** non è stato compilato, viene visualizzato un totale per le eliminazioni registrate nella società consolidata.
+* Il totale relativo alla società consolidata comprese tutte le business unit e le eliminazioni registrate.
+* Le eliminazioni da eseguire nella società consolidata, vale a dire i movimenti nelle registrazioni generali selezionate nella pagina di richiesta.
+* Il testo di registrazione copiato dalle registrazioni generali.
+* Il totale della società consolidata in seguito alle eliminazioni (nel caso vengano registrate).
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Per esportare e importare dati consolidati tra database
 Se i dati di una business unit si trovano in un database diverso, è necessario esportarli in un file prima di includerli nel consolidamento. Ogni società deve essere esportata separatamente. A questo scopo, viene utilizzato il processo batch **Esporta consolidamento**.  
@@ -138,4 +164,3 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)
-
