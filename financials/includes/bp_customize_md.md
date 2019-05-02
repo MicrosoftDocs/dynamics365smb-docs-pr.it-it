@@ -1,1 +1,0 @@
-È possibile modificare il modo in cui determinati elementi dell'interfaccia utente vengono visualizzati. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro](../ui-personalization-user.md).
