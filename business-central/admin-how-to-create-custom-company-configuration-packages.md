@@ -10,47 +10,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0f87e3708802898d1b86dfaae31b37cdee37ff74
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801819"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921365"
 ---
-# <a name="create-custom-company-configuration-packages"></a><span data-ttu-id="6aacd-104">Creare pacchetti di configurazione di società personalizzati</span><span class="sxs-lookup"><span data-stu-id="6aacd-104">Create Custom Company Configuration Packages</span></span>
-<span data-ttu-id="6aacd-105">Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti.</span><span class="sxs-lookup"><span data-stu-id="6aacd-105">As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers.</span></span> <span data-ttu-id="6aacd-106">È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.</span><span class="sxs-lookup"><span data-stu-id="6aacd-106">You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.</span></span>  
+# <a name="create-custom-company-configuration-packages"></a><span data-ttu-id="e8abb-104">Creare pacchetti di configurazione di società personalizzati</span><span class="sxs-lookup"><span data-stu-id="e8abb-104">Create Custom Company Configuration Packages</span></span>
+<span data-ttu-id="e8abb-105">Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti.</span><span class="sxs-lookup"><span data-stu-id="e8abb-105">As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers.</span></span> <span data-ttu-id="e8abb-106">È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.</span><span class="sxs-lookup"><span data-stu-id="e8abb-106">You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.</span></span>  
 
-<span data-ttu-id="6aacd-107">In generale, creare un pacchetto di configurazione per area funzionale, ad esempio, creare un pacchetto per la propria funzionalità di produzione.</span><span class="sxs-lookup"><span data-stu-id="6aacd-107">In general, create a configuration package per functional area, for example, create a package for your manufacturing functionality.</span></span> <span data-ttu-id="6aacd-108">Che consente di collegare e impostare nuove aree in una società in base alla necessità</span><span class="sxs-lookup"><span data-stu-id="6aacd-108">That lets you apply and set up new areas in a company as you need them</span></span>  
+<span data-ttu-id="e8abb-107">In generale, creare un pacchetto di configurazione per area funzionale, ad esempio, creare un pacchetto per la propria funzionalità di produzione.</span><span class="sxs-lookup"><span data-stu-id="e8abb-107">In general, create a configuration package per functional area, for example, create a package for your manufacturing functionality.</span></span> <span data-ttu-id="e8abb-108">Che consente di collegare e impostare nuove aree in una società in base alla necessità</span><span class="sxs-lookup"><span data-stu-id="e8abb-108">That lets you apply and set up new areas in a company as you need them</span></span>  
 
-<span data-ttu-id="6aacd-109">Un altro approccio consiste nel creare un pacchetto che include le tabelle che definiscono il setup, ad esempio:</span><span class="sxs-lookup"><span data-stu-id="6aacd-109">Another approach would be to create a package that includes the tables that define setup, such as the following:</span></span>  
+<span data-ttu-id="e8abb-109">Un altro approccio consiste nel creare un pacchetto che include le tabelle che definiscono il setup, ad esempio:</span><span class="sxs-lookup"><span data-stu-id="e8abb-109">Another approach would be to create a package that includes the tables that define setup, such as the following:</span></span>  
 
--   <span data-ttu-id="6aacd-110">Setup cespiti</span><span class="sxs-lookup"><span data-stu-id="6aacd-110">Fixed Asset Setup</span></span>  
--   <span data-ttu-id="6aacd-111">Setup contabilità generale</span><span class="sxs-lookup"><span data-stu-id="6aacd-111">General Ledger Setup</span></span>  
--   <span data-ttu-id="6aacd-112">Setup magazzino</span><span class="sxs-lookup"><span data-stu-id="6aacd-112">Inventory Setup</span></span>  
--   <span data-ttu-id="6aacd-113">Setup manufacturing</span><span class="sxs-lookup"><span data-stu-id="6aacd-113">Manufacturing Setup</span></span>  
--   <span data-ttu-id="6aacd-114">Setup contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="6aacd-114">Purchases and Payables Setup</span></span>  
--   <span data-ttu-id="6aacd-115">Setup marketing</span><span class="sxs-lookup"><span data-stu-id="6aacd-115">Marketing Setup</span></span>  
--   <span data-ttu-id="6aacd-116">Setup assistenza</span><span class="sxs-lookup"><span data-stu-id="6aacd-116">Service Setup</span></span>  
--   <span data-ttu-id="6aacd-117">Setup contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="6aacd-117">Sales and Receivables Setup</span></span>  
--   <span data-ttu-id="6aacd-118">Setup warehouse</span><span class="sxs-lookup"><span data-stu-id="6aacd-118">Warehouse Setup</span></span>  
--   <span data-ttu-id="6aacd-119">Setup registrazioni COGE</span><span class="sxs-lookup"><span data-stu-id="6aacd-119">General Posting Setup</span></span>  
--   <span data-ttu-id="6aacd-120">Setup registrazioni IVA</span><span class="sxs-lookup"><span data-stu-id="6aacd-120">VAT Posting Setup</span></span>  
--   <span data-ttu-id="6aacd-121">Setup registrazione magazzino</span><span class="sxs-lookup"><span data-stu-id="6aacd-121">Inventory Posting Setup</span></span>  
+-   <span data-ttu-id="e8abb-110">Setup cespiti</span><span class="sxs-lookup"><span data-stu-id="e8abb-110">Fixed Asset Setup</span></span>  
+-   <span data-ttu-id="e8abb-111">Setup contabilità generale</span><span class="sxs-lookup"><span data-stu-id="e8abb-111">General Ledger Setup</span></span>  
+-   <span data-ttu-id="e8abb-112">Setup magazzino</span><span class="sxs-lookup"><span data-stu-id="e8abb-112">Inventory Setup</span></span>  
+-   <span data-ttu-id="e8abb-113">Setup manufacturing</span><span class="sxs-lookup"><span data-stu-id="e8abb-113">Manufacturing Setup</span></span>  
+-   <span data-ttu-id="e8abb-114">Setup contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="e8abb-114">Purchases and Payables Setup</span></span>  
+-   <span data-ttu-id="e8abb-115">Setup marketing</span><span class="sxs-lookup"><span data-stu-id="e8abb-115">Marketing Setup</span></span>  
+-   <span data-ttu-id="e8abb-116">Setup assistenza</span><span class="sxs-lookup"><span data-stu-id="e8abb-116">Service Setup</span></span>  
+-   <span data-ttu-id="e8abb-117">Setup contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="e8abb-117">Sales and Receivables Setup</span></span>  
+-   <span data-ttu-id="e8abb-118">Setup warehouse</span><span class="sxs-lookup"><span data-stu-id="e8abb-118">Warehouse Setup</span></span>  
+-   <span data-ttu-id="e8abb-119">Setup registrazioni COGE</span><span class="sxs-lookup"><span data-stu-id="e8abb-119">General Posting Setup</span></span>  
+-   <span data-ttu-id="e8abb-120">Setup registrazioni IVA</span><span class="sxs-lookup"><span data-stu-id="e8abb-120">VAT Posting Setup</span></span>  
+-   <span data-ttu-id="e8abb-121">Setup registrazione magazzino</span><span class="sxs-lookup"><span data-stu-id="e8abb-121">Inventory Posting Setup</span></span>  
 
-<span data-ttu-id="6aacd-122">Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manuale** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="6aacd-122">To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.</span></span>  
+<span data-ttu-id="e8abb-122">Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manuale** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="e8abb-122">To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.</span></span>  
 
-## <a name="to-create-a-custom-company-configuration-package"></a><span data-ttu-id="6aacd-123">Per creare un pacchetto di configurazione di società personalizzato</span><span class="sxs-lookup"><span data-stu-id="6aacd-123">To create a custom company configuration package</span></span>  
-1.  <span data-ttu-id="6aacd-124">Creare una nuova società.</span><span class="sxs-lookup"><span data-stu-id="6aacd-124">Create a new company.</span></span> <span data-ttu-id="6aacd-125">Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).</span><span class="sxs-lookup"><span data-stu-id="6aacd-125">For more information, see [Creating New Companies in Business Central](about-new-company.md).</span></span>  
-3.  <span data-ttu-id="6aacd-126">Impostare la nuova società nel modo desiderato.</span><span class="sxs-lookup"><span data-stu-id="6aacd-126">Set up the new company in the way you need.</span></span> <span data-ttu-id="6aacd-127">Compilare tutte le tabelle di setup necessarie.</span><span class="sxs-lookup"><span data-stu-id="6aacd-127">Fill in all required setup tables.</span></span>  
-4.  <span data-ttu-id="6aacd-128">Apre la nuova società.</span><span class="sxs-lookup"><span data-stu-id="6aacd-128">Open the new company.</span></span>
-5. <span data-ttu-id="6aacd-129">Aprire la pagina **Foglio di lavoro configurazione**.</span><span class="sxs-lookup"><span data-stu-id="6aacd-129">Open the **Configuration Worksheet** page.</span></span>  
-6.  <span data-ttu-id="6aacd-130">Aggiungere al prospetto le tabelle da trasferire a un'altra società.</span><span class="sxs-lookup"><span data-stu-id="6aacd-130">Add the tables that you want to transfer to another company to the worksheet.</span></span> <span data-ttu-id="6aacd-131">Assegnare le righe del prospetto al pacchetto.</span><span class="sxs-lookup"><span data-stu-id="6aacd-131">Assign the worksheet lines to the package.</span></span>  
-7.  <span data-ttu-id="6aacd-132">Creare un questionario per le tabelle di setup utilizzate con maggiore frequenza.</span><span class="sxs-lookup"><span data-stu-id="6aacd-132">Create a questionnaire for the most frequently used setup tables.</span></span>  
-8.  <span data-ttu-id="6aacd-133">Creare modelli di configurazione per facilitare la creazione di dati master, ad esempio clienti o articoli.</span><span class="sxs-lookup"><span data-stu-id="6aacd-133">Create configuration templates to make it easier to create master data, such as customers or items.</span></span>  
-9.  <span data-ttu-id="6aacd-134">Esportare il pacchetto come file con estensione rapidstart.</span><span class="sxs-lookup"><span data-stu-id="6aacd-134">Export your package as a .rapidstart file.</span></span>  
+## <a name="to-create-a-custom-company-configuration-package"></a><span data-ttu-id="e8abb-123">Per creare un pacchetto di configurazione di società personalizzato</span><span class="sxs-lookup"><span data-stu-id="e8abb-123">To create a custom company configuration package</span></span>  
+1.  <span data-ttu-id="e8abb-124">Creare una nuova società.</span><span class="sxs-lookup"><span data-stu-id="e8abb-124">Create a new company.</span></span> <span data-ttu-id="e8abb-125">Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).</span><span class="sxs-lookup"><span data-stu-id="e8abb-125">For more information, see [Creating New Companies in Business Central](about-new-company.md).</span></span>  
+3.  <span data-ttu-id="e8abb-126">Impostare la nuova società nel modo desiderato.</span><span class="sxs-lookup"><span data-stu-id="e8abb-126">Set up the new company in the way you need.</span></span> <span data-ttu-id="e8abb-127">Compilare tutte le tabelle di setup necessarie.</span><span class="sxs-lookup"><span data-stu-id="e8abb-127">Fill in all required setup tables.</span></span>  
+4.  <span data-ttu-id="e8abb-128">Apre la nuova società.</span><span class="sxs-lookup"><span data-stu-id="e8abb-128">Open the new company.</span></span>
+5. <span data-ttu-id="e8abb-129">Aprire la pagina **Foglio di lavoro configurazione**.</span><span class="sxs-lookup"><span data-stu-id="e8abb-129">Open the **Configuration Worksheet** page.</span></span>  
+6.  <span data-ttu-id="e8abb-130">Aggiungere al prospetto le tabelle da trasferire a un'altra società.</span><span class="sxs-lookup"><span data-stu-id="e8abb-130">Add the tables that you want to transfer to another company to the worksheet.</span></span> <span data-ttu-id="e8abb-131">Assegnare le righe del prospetto al pacchetto.</span><span class="sxs-lookup"><span data-stu-id="e8abb-131">Assign the worksheet lines to the package.</span></span>  
+7.  <span data-ttu-id="e8abb-132">Creare un questionario per le tabelle di setup utilizzate con maggiore frequenza.</span><span class="sxs-lookup"><span data-stu-id="e8abb-132">Create a questionnaire for the most frequently used setup tables.</span></span>  
+8.  <span data-ttu-id="e8abb-133">Creare modelli di configurazione per facilitare la creazione di dati master, ad esempio clienti o articoli.</span><span class="sxs-lookup"><span data-stu-id="e8abb-133">Create configuration templates to make it easier to create master data, such as customers or items.</span></span>  
+9.  <span data-ttu-id="e8abb-134">Esportare il pacchetto come file con estensione rapidstart.</span><span class="sxs-lookup"><span data-stu-id="e8abb-134">Export your package as a .rapidstart file.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6aacd-135">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="6aacd-135">See Also</span></span>  
-[<span data-ttu-id="6aacd-136">Impostare una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="6aacd-136">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="6aacd-137">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="6aacd-137">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="e8abb-135">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="e8abb-135">See Also</span></span>  
+[<span data-ttu-id="e8abb-136">Impostare una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="e8abb-136">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="e8abb-137">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="e8abb-137">Administration</span></span>](admin-setup-and-administration.md)
