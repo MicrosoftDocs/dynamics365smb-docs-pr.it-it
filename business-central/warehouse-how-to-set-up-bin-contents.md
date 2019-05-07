@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ec0dbdd999f2a1bf1f243fec565535752482de41
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801484"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916330"
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
 Dopo avere impostato le collocazioni, è possibile impostare il contenuto collocazione. Ciò significa che è possibile impostare gli articoli che si desidera inserire in una determinata collocazione e le regole che verranno seguite per l'inserimento di uno specifico articolo in una collocazione. Questa operazione può essere effettuata manualmente nella pagina **Contenuto collocazioni** o automaticamente tramite la pagina **Crea prospetto contenuto collocazione**.

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 03/12/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
-ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
+ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836137"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915143"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.

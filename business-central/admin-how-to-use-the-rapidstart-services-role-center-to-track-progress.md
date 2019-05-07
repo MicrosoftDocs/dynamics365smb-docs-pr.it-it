@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800991"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912075"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services
 Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Per modificare una Gestione ruolo utente](ui-change-basic-settings.md#to-change-role-center).

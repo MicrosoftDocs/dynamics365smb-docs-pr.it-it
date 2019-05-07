@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802349"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923814"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.

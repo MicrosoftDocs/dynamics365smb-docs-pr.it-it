@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/08/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0e389e74e01d6e846d7f045069190fa1c67884fc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801743"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912994"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Specificare come e quando ricevere le notifiche
 Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle pagine **Setup di notifica** e **Programmazione notifica** come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante **Modifica impostazioni di notifica** per qualsiasi notifica.  

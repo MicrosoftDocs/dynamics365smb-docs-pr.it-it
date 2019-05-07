@@ -1,6 +1,6 @@
 ---
 title: Introduzione | Documenti Microsoft
-description: Descrive le guide di setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Business Central.
+description: Descrive le guide al setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -9,39 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800985"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923791"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Assistenza Business** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. È possibile accedere alla pagina dal grafico nella Gestione ruolo utente **Manager aziendale** scegliendo il menu a discesa **Assistenza Business**, quindi l'azione **Mostra Setup e risorse della Guida**. Quando si aggiorna la pagina, il grafico viene sostituito con le risorse della Guida e di setup.
 
-Nella Gestione ruolo utente, nella barra di spostamento in alto, è disponibile il menu **Setup ed estensioni**. Qui è possibile visualizzare un elenco di setup assistiti introduttivi per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Nella Gestione ruolo utente, nella barra di spostamento in alto, è disponibile il menu **Setup ed estensioni**. Qui è possibile visualizzare un elenco di guide al setup assistito per iniziare a usare la soluzione. Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altri setup assistiti. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza Essential. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
+>   L'elenco delle guide al setup assistito, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza **Essential**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
-Nella pagina **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Essenziale**:
-
-| Setup assistito | Description |
-| --- | --- |
-| Setup società |Crea una nuova società di prova per consentire l'immissione dei dati e per provare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si utilizza la presentazione di Introduzione questa operazione è già probabilmente **Completata**. |
-| Migra dati aziendali |Consente di importare i dati della società esistente come i fornitori, clienti e articoli da Excel o Quickbooks. |
-| Setup imposta vendita |Consente di iniziare con i Gruppi imposta di default e codici area imposte di assegnazione che è possibile assegnare a clienti e fornitori automaticamente per calcolare l'imposta sulle vendite o nei documenti di acquisto. |
-| Imposta indirizzo e-mail |Consente di preparare l'invio di messaggi di posta elettronica direttamente dagli ordini di vendita o dai contatti in [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio. |
-| Imposta comp. agg. per Office |Imposta la possibilità di utilizzare e avviare [!INCLUDE[d365fin](includes/d365fin_md.md)] da Outlook. |
-| Imposta workflow di approv. |Imposta la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare alcuni valori in documenti, righe registrazioni o schede, ad esempio un importo oltre un limite specificato. |
-| Imposta log delle e-mail |Imposta la possibilità di registrare la corrispondenza tramite e-mail in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un follow-up delle interazioni. |
-| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare i dati quali contatti e informazioni sull'ordine di vendita. |
-
-Dopo avere eseguito un setup assistito, viene contrassegnato come **Completato**. Per eseguire il setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
+Dopo avere eseguito una guida al setup assistito, viene contrassegnata come **Completato**. Per eseguire la guida al setup assistito, scegliere i tre punti noti anche come menu di scelta rapida e quindi selezionare **Avvia setup**.
 
 ## <a name="role-center"></a>Gestione ruolo utente
 Gestione ruolo utente offre una panoramica della propria attività. A sinistra è presente una barra di spostamento che consente di accedere rapidamente a clienti, fornitori, articoli e così via. Al centro si trovano i riquadri **Attività**. I riquadri **Attività** mostrano i dati correnti ed è possibile fare clic su di essi o toccarli per accedere al documento selezionato. È possibile impostare degli **Indicatori delle prestazioni chiave** (KPI) per visualizzare un determinato grafico per rappresentare visivamente i flussi di cassa o le spese e i ricavi. È inoltre possibile creare una lista di **Clienti preferiti** in Gestione ruolo utente per gli account con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
@@ -57,7 +44,7 @@ In **Impostazioni società** è possibile visualizzare e modificare le informazi
 Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Utilizzo della Guida
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. In ogni descrizione comando sarà possibile trovare un collegamento denominato **Ottenere informazioni** che visualizza la Guida del prodotto. Anche il punto interrogativo presente nell'angolo in alto a destra visualizza la Guida del prodotto.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. Per le descrizioni comando dei campi, è possibile premere CTRL+F1 o scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. Anche il punto interrogativo presente nell'angolo in alto a destra visualizza la Guida del prodotto.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Società** della pagina **Home** per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti.
@@ -68,4 +55,3 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

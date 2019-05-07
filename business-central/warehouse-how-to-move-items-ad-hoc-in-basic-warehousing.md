@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3760be8694f8c65ae07abaea9234a5dd524bb47
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802274"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913109"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Spostare articoli ad hoc nelle configurazioni della warehouse di base
 Talvolta può essere necessario spostare gli articoli tra le collocazioni interne, non le collocazioni di ricezione o spedizione, senza una richiesta specifica da un documento di origine. È possibile eseguire queste movimentazioni ad hoc, ad esempio per riorganizzare la warehouse, per immettere gli articoli in un'area di ispezione o inserire o estrarre articoli aggiuntivi da un'area di produzione senza una relazione di sistema al documento di origine dell'ordine di produzione.  
@@ -57,7 +57,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
     Il resto della movimentazione ad hoc si effettua nella pagina **Movimento di magazzino** con la stessa procedura utilizzata per una movimentazione basata su documenti di origine. Per ulteriori informazioni, vedere ad esempio [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
-Anziché utilizzare documenti di movimento di warehouse, è possibile registrare lo spostamento di articoli riclassificando i relativi codici di collocazione. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md).   
+Anziché utilizzare documenti di movimento di warehouse, è possibile registrare lo spostamento di articoli riclassificando i relativi codici di collocazione. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).   
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclass. articolo** e quindi scegliere il collegamento correlato.  
 2.  In ogni riga di registrazione, definire le collocazioni da cui e in cui si desidera spostare articoli compilando i campi **Cod. collocazione** e **Nuovo cod. collocazione**.  
 

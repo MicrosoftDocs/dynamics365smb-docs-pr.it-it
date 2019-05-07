@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3311747fb6bf6482b708948c3a99c9baf91557f8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801219"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912006"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Impostare più tassi d'interesse
 Più tassi di interesse sono utilizzati in periodi differenti per pagamenti in ritardo nelle transazioni commerciali. Ad esempio, un governo specifica il tasso di interesse massimo da imporre ai consumatori. Questo tasso di interesse può essere modificato due volte all'anno, il 1° gennaio e il 1° luglio. Il tasso di interesse tra le aziende (B2B) è concordato tra le parti e non è soggetto ad alcun limite. Il tasso annunciato è in genere superiore del quattro per cento all'interesse bancario normale.

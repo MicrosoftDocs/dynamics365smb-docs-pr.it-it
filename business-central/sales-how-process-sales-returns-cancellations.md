@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801617"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917769"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
 
-Se è necessario più controllo del processo di reso da vendita, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si ricevono gli articoli da più documenti di vendita con un unico reso da vendita, è possibile creare gli ordini di reso da vendita. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per ulteriori informazioni, vedere [Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Se è necessario più controllo del processo di reso da vendita, ad esempio i documenti di warehouse per la gestione degli articoli o una sintesi migliorata quando si ricevono gli articoli da più documenti di vendita con un unico reso da vendita, è possibile creare gli ordini di reso da vendita. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per ulteriori informazioni, vedere [Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamen
 
 |Funzione|Description|  
 |------------------|---------------------------------------|  
-|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere [Per creare un ordine di reso da vendita sulla base di una o più fatture di vendita registrate](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere [Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |La funzione**Copia documento** nelle pagine **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità clienti e vendite**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di vendita originale. In questo modo, l'ordine di reso vendita o la nota di credito di vendita verrà collegato al movimento di vendita originale e l'articolo verrà valutato in base al costo unitario originale.

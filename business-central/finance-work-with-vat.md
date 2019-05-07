@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801776"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919516"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Se è stato calcolato uno sconto sul pagamento sulla base dell'importo di una fa
 1. Aprire l'ordine di vendita appropriato.  
 2. Scegliere l'azione **Statistiche**.  
 3. Scegliere la Scheda dettaglio **Fatturazione**.  
-  
+
     > [!NOTE]  
     >  L'importo totale per la fattura, raggruppato in base al codice IVA, viene visualizzato nelle righe. È possibile rettificare manualmente l'importo nel campo **Importo IVA** nelle righe per ogni codice IVA. Quando si modifica il campo **Importo IVA** viene effettuato un controllo per verificare che l'IVA non sia stata modificata di un importo superiore a quello specificato come massima differenza consentita. Se l'importo è superiore a quello specificato nel campo **Max. differenza IVA permessa**, viene visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo in modo che rientri nei parametri accettabili. Fare clic su **OK** e immettere un diverso **Importo IVA** che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o inferiore a quella massima consentita, l'IVA verrà divisa proporzionalmente tra le righe del documento con lo stesso codice IVA.  
 
@@ -77,7 +77,7 @@ Se è stato calcolato uno sconto sul pagamento sulla base dell'importo di una fa
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Prima di immettere manualmente l'IVA nelle registrazioni vendite e acquisti  
 1. Nella pagina **Setup contabilità fornitori e acquisti** selezionare la casella di controllo **Permetti differenze IVA**.  
 2. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[d365fin](includes/d365fin_md.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
-  
+
     > [!NOTE]  
     > Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrerà la differenza nel campo **Differenza IVA**.  
 
@@ -115,12 +115,12 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
     >  Se l'impostazione della categoria di registrazione IVA non ha la casella di controllo **Certificato di fornitura richiesto** selezionata, viene creato un record e il campo **Stato** è impostato su **Non applicabile**. È possibile aggiornare il campo per riflettere le corrette informazioni relative allo stato. È possibile modificare manualmente lo stato da **Non applicabile** a **Obbligatorio** e da **Obbligatorio** a **Non applicabile** in base alle esigenze.  
 
    Quando si aggiorna il campo **Stato** su **Obbligatorio**, **Ricevuto** o **Non ricevuto**, viene creato un certificato.  
-  
+
     > [!TIP]  
     >  È possibile utilizzare la pagina **Certificati di fornitura** per visualizzare lo stato di tutte le spedizioni registrate per le quali un certificato di fornitura è stato creato.  
 
 5. Scegliere **Stampa certificato di fornitura**.  
-  
+
     > [!Note]  
     >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 

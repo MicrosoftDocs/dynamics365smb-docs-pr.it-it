@@ -2,151 +2,85 @@
 title: Gestire i clienti tramite Dynamics 365 for Sales | Microsoft Docs
 description: È possibile utilizzare Dynamics 365 for Sales da Business Central per mappare i dati e sfruttare l'integrazione ottimale e la sincronizzazione nel processo dai lead agli incassi.
 documentationcenter: ''
-author: edupont04
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 01/24/2019
-ms.author: edupont
-ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: bholtorf
+ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802268"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915192"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Integrazione con Dynamics 365 for Sales
-Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, si può utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per l'elaborazione degli ordini e i dati finanziari e sfruttare un'integrazione ottimale nel processo dai lead agli incassi.
+# <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilizzo di Dynamics 365 for Sales da Business Central
+Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire l'inventario e le finanze.
 
 > [!NOTE]
-> In questo argomento si presuppone che [!INCLUDE[d365fin](includes/d365fin_md.md)] e la soluzione Sales integrata sono distribuiti in un ambiente SaaS. Combinare la versione online e quella locale è possibile, ma è necessaria una configurazione speciale. Per ulteriori informazioni, vedere [Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> In questo argomento si presuppone che si stanno utilizzando le versioni online di [!INCLUDE[d365fin](includes/d365fin_md.md)] e Sales. È possibile combinare le versioni online e locale, ma è necessaria una configurazione speciale. Per ulteriori informazioni, vedere [Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-Quando l'applicazione è impostata per l'integrazione con Sales, è possibile accedere ai dati di vendita da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa, in alcuni casi. Questa integrazione consente di utilizzare e sincronizzare i tipi di dati che sono comuni a entrambi i servizi, quali clienti, contatti e informazioni sulle vendite, e mantenere i dati aggiornati in entrambe le ubicazioni.  
+L'integrazione delle applicazioni consente di accedere ai dati in Sales da [!INCLUDE[d365fin](includes/d365fin_md.md)] e in alcuni casi di effettuare l'operazione inversa. È possibile utilizzare e sincronizzare i dati che sono comuni a entrambi i servizi, quali clienti, contatti e informazioni sulle vendite, e mantenere i dati aggiornati in entrambe le applicazioni.  
 
-Ad esempio, l'agente in Sales può utilizzare listini prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si crea un ordine di vendita. Quando si aggiunge l'articolo alla riga dell'ordine di vendita in Sales, si possono visualizzare il livello di magazzino (disponibilità) dell'articolo da [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ad esempio, un agente in Sales può utilizzare listini prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si crea un ordine di vendita. Quando si aggiunge l'articolo alla riga dell'ordine di vendita in Sales, può visualizzare il livello di magazzino (disponibilità) dell'articolo da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Viceversa, i gestori ordini in [!INCLUDE[d365fin](includes/d365fin_md.md)] possono gestire le caratteristiche specifiche degli ordini di vendita trasferiti automaticamente o manualmente da Sales, come creare e registrare automaticamente righe di ordini di vendita valide per articoli o risorse che sono stati inseriti in Sales come prodotti aggiunti. Per ulteriori informazioni, vedere la sezione “Gestione di dati di ordini di vendita speciali".
+Viceversa, i gestori ordini in [!INCLUDE[d365fin](includes/d365fin_md.md)] possono gestire gli ordini di vendita che vengono trasferiti automaticamente o manualmente da Sales Ad esempio, può creare e registrare righe di ordini di vendita valide per articoli o risorse che sono stati inseriti in Sales come prodotti aggiunti. Per ulteriori informazioni, vedere [Gestione di dati di ordini di vendita](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] è integrabile solo con Dynamics 365 for Sales. Altre applicazioni o soluzioni all'interno di Dynamics 365 che modificano il workflow standard o il modello dati in Sales, ad esempio Project Service Automation, potrebbero interrompere l'integrazione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Sales.
-
-## <a name="standard-sales-entity-mapping-for-synchronization"></a>Mapping delle entità standard di Sales per la sincronizzazione
-Le entità di Sales, quali i conti, sono integrate con i tipi di record equivalenti di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio i clienti. Per utilizzare i dati di Sales, si impostano i mapping, noti come associazioni, tra i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] e i record di entità di Sales. Ad esempio, si imposta un'associazione tra un cliente specifico di [!INCLUDE[d365fin](includes/d365fin_md.md)] e un conto corrispondente di Sales.
-
-Nella tabella seguente sono elencati i tipi di record di [!INCLUDE[d365fin](includes/d365fin_md.md)], ovvero le tabelle, e le entità corrispondenti di Sales che possono essere sincronizzate in modo predefinito.
-
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|Vendite|Direzione della sincronizzazione|Filtro predefinito|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Agenti/Addetti acq.|Utente|Sales -> Business Central|Filtro contatto di Sales: il campo **Stato** è impostato su **No**, **Con licenza utente** è impostato su **Sì**, Modalità utente integrazione è su **No**|
-|Cliente|Conto|Business Central -> Sales e Sales -> Business Central|Filtro conto di Sales: il **Tipo di relazione** è **Cliente** e lo **Stato** è **Attivo**.|
-|Contatto|Contatto|Business Central -> Sales e Sales -> Business Central|Filtro contatto di Business Central: il **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di Sales: il contatto è assegnati a una società e il tipo di cliente padre è **Conto**.|
-|Valuta|Valuta transazione|Business Central -> Sales| |
-|Unità di misura|Unità di vendita|Business Central -> Sales| |
-|Articolo|Prodotto|Business Central -> Sales e Sales -> Business Central|Filtro contatto di Sales: il campo **Tipo prodotto** è **Inventario vendite**|
-|Risorsa|Prodotto|Business Central -> Sales e Sales -> Business Central|Filtro contatto di Sales: il campo **Tipo prodotto** è **Servizi**|
-|Gruppo prezzi cliente|Listino prezzi|Business Central -> Sales| |
-|Prezzo vendita|Listino prezzi prodotto|Business Central -> Sales|Filtro contatto di Business Central: il **Codice vendita** non è vuoto, il **Tipo vendita** è **Gruppo prezzi cliente**|
-|Opportunità|Opportunità|Business Central -> Sales e Sales -> Business Central| |
-|Testate Fatt. Vendita|Fattura|Business Central -> Sales| |
-|Righe Fatt. Vendita|Prodotto di fatturazione|Business Central -> Sales| |
-
-Le entità di Sales e le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] che vengono sincronizzate sono definite dalla tabella che consente di mappare i movimenti della tabella 5335, **Mapping tabella integrazione**. È possibile visualizzare i mapping e configurare i filtri dalla pagina 5335 **Mapping tabella integrazione**.. Il mapping tra i campi dei record di [!INCLUDE[d365fin](includes/d365fin_md.md)] e i campi delle entità di Sales è definito dai movimenti di mapping di campi nella tabella 5336 **Mapping campi integrazione** e con logica aggiuntiva del mapping.
-
-### <a name="field-mapping-for-the-sales-account-option"></a>Mapping dei campi per l'opzione Conto vendite
-Tre tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono mappate ai campi delle opzioni dell'entità **Conto**.   
-
-I record nella tabella non collegati alle opzioni disponibili in Sales verranno ignorati durante la sincronizzazione. Ciò significa che il campo **Opzione** rimarrà vuoto in Sales.
-
-La seguente tabella mostra i mapping delle tabelle di Business Central per il campo **Opzione** nell'entità **Conto**.
-
-|Tavolo|Campo opzioni nell'entità Conto in Sales|
-|----------------------|-------------------------------------------|
-|Condizioni pagamento|Condizioni pagamento|
-|Metodo di spedizione|Indirizzo 1: Termini di spedizione|
-|Spedizioniere|Indirizzo 1: metodo di spedizione|
-
-### <a name="synchronization-rules"></a>Regole di sincronizzazione
-Nella seguente tabella vengono illustrate le regole che controllano la sincronizzazione tra le entità di Business Central e le tabelle di Sales.
-
-> [!NOTE]  
-> Le modifiche apportate ai dati di Sales che vengono eseguite dal conto di connessione di Sales sono ignorate. Le modifiche non verranno sincronizzate. Di conseguenza, viene suggerito di non apportate modifiche ai dati utilizzando il conto di connessione di Sales.
-
-|Tavolo|Regola|
-|-----|----|
-|Clienti|Prima che un cliente possa essere sincronizzato con un conto, l'agente assegnato al cliente deve essere associato a un utente di Sales. Di conseguenza, quando viene eseguito il processo di sincronizzazione per CLIENTI di Dynamics 365 for Sales e lo si imposta per creare nuovi record, assicurarsi di sincronizzare l'agente con gli utenti di Sales prima di sincronizzare i clienti con i conti di Sales. <br /> <br />Il processo di sincronizzazione per CLIENTI di Dynamics 365 for Sales sincronizza solo i conti di Sales con il tipo di relazione Cliente.|
-|Contatti|Solo i contatti di Sales associati a un conto verranno creati in Business Central. Il valore Codice agente indica il proprietario dell'entità associata in Sales.|
-|Valute|Le valute vengono associate alle valute di transazione Sales in base ai codici ISO. Solo le valute con un codice dello standard ISO verranno associate e sincronizzate con le valute di transazione.|
-|Unità di misura|Le unità di misura vengono sincronizzate con le unità di vendita in Sales. Può essere definita solo un'unità di misura nell'unità di vendita.|
-|Articoli|Quando si sincronizzano gli articoli con i prodotti di Sales, Business Central crea automaticamente un listino prezzi in Sales. Per evitare errori di sincronizzazione, è consigliabile non modificare il listino prezzi manualmente.|
-|Agenti|Gli agenti vengono associati agli utenti di sistema in Sales. L'utente deve essere abilitato e disporre di licenza e non deve essere l'utente di integrazione. Si noti che questa è la prima tabella che deve essere sincronizzata perché viene utilizzata nei clienti, nei contatti, nelle opportunità e nelle fatture di vendita.|
-|Risorse|Le risorse vengono sincronizzate con i prodotti di Sales con tipo di prodotto Assistenza.|
-|Gruppi prezzi cliente|Per Gruppi prezzi cliente viene eseguita la sincronizzazione con i listini prezzi di Sales.|
-|Prezzi vendita|I prezzi di vendita con tipo di vendita Gruppo prezzi cliente e un codice di vendita definito vengono sincronizzati con le righe del listino prezzi di Sales.|
-|Opportunità|Le opportunità vengono sincronizzate con le opportunità di Sales. Il valore Codice agente indica il proprietario dell'entità associata in Sales.|
-|Fatture di vendita registrate|Le fatture di vendita registrate vengono sincronizzate con le fatture di Sales. Prima di poter sincronizzare una fattura, è meglio sincronizzare tutte le altre entità che possono essere incluse nella fattura, dai venditori ai listini prezzi. Il valore Codice agente nell'intestazione della fattura indica il proprietario dell'entità associata in Sales.|
-
-## <a name="setting-up-the-connection"></a>Impostazione della connessione
-Da casa, è possibile accedere alla Guida al setup assistito **Setup connessione Microsoft Dynamics 365** che consente di impostare la connessione. Una volta fatto questo, si avrà a disposizione un'associazione perfetta tra i record di Sales e i record di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-> [!NOTE]  
->   Di seguito viene descritto il setup assistito, ma è possibile eseguire manualmente gli stessi task nella pagina **Setup connessione Sales**.
-
-Nella Guida di setup assistito, scegliere quali dati sincronizzare tra i due servizi. È inoltre possibile specificare se si desidera includere la soluzione Sales esistente. In questo caso, specificare le credenziali per un account utente amministrativo.
-
-### <a name="setting-up-the-user-account-for-importing-the-solution"></a>Impostazione dell'account utente per l'importazione della soluzione
-Per importare una soluzione Sales esistente, la Guida di setup utilizza un account amministrativo. Questo account deve corrispondere a un utente valido in Sales con i ruoli di sicurezza seguenti:
-
-* Amministratore di sistema  
-* Addetto alla personalizzazione della soluzione  
-
-Per ulteriori informazioni, vedere [Creare utenti e assegnare i ruoli di protezione in Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) e [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
-
-Questo account è utilizzato solamente durante il setup. Dopo che la soluzione è importata in [!INCLUDE[d365fin](includes/d365fin_md.md)]l'account non è più necessario.
-
-### <a name="setting-up-the-user-account-for-synchronization"></a>Impostazione dell'account utente per la sincronizzazione
-L'integrazione si basa su un account utente condiviso. Così nella sottoscrizione di Office 365, è necessario creare un utente dedicato da utilizzare per la sincronizzazione tra i due servizi. Questo account deve già essere valido un utente valido in Sales, ma non è necessario assegnare i ruoli di protezione all'account perché la Guida di setup eseguirà questa operazione automaticamente. È necessario specificare l'account utente una o più volte nella Guida di setup, in base al numero di sincronizzazioni da abilitare. Per ulteriori informazioni, vedere [Creare utenti e assegnare i ruoli di protezione in Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
-
-Se si sceglie di attivare la *disponibilità degli articoli*, l'account utente di integrazione deve avere una chiave di accesso ai servizi Web. Si tratta di una procedura a due passaggi nella pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] per l'account utente: è necessario scegliere il pulsante **Modifica chiave di accesso ai servizi Web** e, nella guida di connessione Sales, è necessario specificare tale utente come utente del servizio Web OData.
-
-Se si sceglie di attivare l'*integrazione ordini di vendita*, è necessario specificare un utente che può gestire la sincronizzazione. L'utente dell'integrazione o un altro account utente.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] è integrabile solo con Dynamics 365 for Sales. Altre applicazioni di Dynamics 365 che modificano il workflow standard o il modello dati in Sales, ad esempio Project Service Automation, possono interrompere l'integrazione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Sales.
 
 ### <a name="coupling-records"></a>Associazione di record
-Nella Guida di setup assistito, è possibile scegliere di sincronizzare i due servizi. In seguito, è possibile impostare la sincronizzazione per tipi di dati specifici. Questo processo è detto *associazione* e questa sezione fornisce consigli sugli aspetti che è necessario prendere in considerazione.
+La guida al setup assistito consente di scegliere i dati da sincronizzare. In seguito, è anche possibile impostare la sincronizzazione per specifici record. Questa operazione è definita *associazione*. Ad esempio, è possibile associare un conto specifico in Sales a un cliente specifico in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In questa sezione viene descritto cosa prendere in considerazione quando si associano record.
 
-Ad esempio, se si desidera visualizzare i conti di Sales come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario associare i due tipi di record. Non è un 'operazione molto complicata: aprire la pagina **Lista clienti** in [!INCLUDE[d365fin](includes/d365fin_md.md)] e individuare l'azione nella barra multifunzione per associare questi dati con Sales. È quindi possibile specificare quali clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondono ai conti specifici di Sales.
+Ad esempio, se si desidera visualizzare i conti in Sales come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario associare i due tipi di record. A questo proposito, nella pagina elenco **Clienti** in [!INCLUDE[d365fin](includes/d365fin_md.md)], utilizzare l'azione **Imposta associazione**. Specificare quindi quali clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondono ai conti in Sales.
 
-In certe aree, la funzionalità si bassa sull'associazione di determinati set di dati prima di altri set di dati, come indicato nell'elenco seguente:
+È inoltre possibile creare (e associare) un conto in Sales basato, ad esempio, sul record cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando **Crea conto in Dynamics 365 for Sales** o viceversa utilizzando **Crea cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
-* Clienti e conti  
-  * Associare prima gli agenti con gli utenti di Sales  
-* Articoli e risorse  
-  * Associare prima le unità di misura con i gruppi di unità di Sales  
-* Articoli e prezzi risorse  
-  * Associare prima i gruppi di prezzi cliente con i prezzi di Sales  
+Quando si imposta l'associazione tra due record, è anche possibile richiedere manualmente il record corrente, ad esempio un cliente, da sovrascrivere immediatamente con i dati del conto in Sales (o da [!INCLUDE[d365fin](includes/d365fin_md.md)]) utilizzando l'azione **Sincronizza adesso**. L'azione**Sincronizza ora** che chiederà se sovrascrivere i dati dei record di Sales o di  [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+In alcuni casi, è necessario associare determinati set di dati prima di altri, come indicato nella tabella seguente.
+
+|Dati|Cosa associare per primo|
+|-----|----|
+|Clienti e conti|Associare agenti a utenti di Sales|
+|Articoli e risorse|Associare unità di misura a gruppi di unità di Sales|
+|Articoli e prezzi risorse|Associare gruppi di prezzi cliente a prezzi di Sales|
 
 > [!NOTE]  
->   Se si utilizzano i prezzi in valuta estera, verificare di associare le valute alle valute della transazione di Sales.
+> Se i prezzi o i clienti utilizzano valuta estera, verificare di associare le valute alle valute della transazione di Sales.
 
-Gli ordini di vendita di Sales si basano su informazioni aggiuntive come clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse. Affinché l'integrazione con gli ordini di vendita funzioni senza problemi, è necessario associare prima clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse.
+Gli ordini di vendita di Sales dipendono da informazioni come clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse. Affinché l'integrazione con gli ordini di vendita funzioni, è necessario associare clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse.
 
-### <a name="synchronizing-records-fully"></a>Sincronizzazione completa dei record
-Alla fine della Guida di setup assistito è possibile scegliere l'azione **Esegui sincronizzazione completa** per iniziare a sincronizzare tutti i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] con tutti i record correlati nella soluzione Sales connessa. Nella pagina **Revisione sincronizzazione completa CRM** scegliere l'azione **Avvia**. La sincronizzazione quindi inizia a eseguire i processi in base alle dipendenze. Ad esempio, i record valuta vengono sincronizzati prima dei record cliente. La sincronizzazione completa può richiedere molto tempo e pertanto venire eseguita in background in modo che sia possibile continuare a lavorare in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+### <a name="fully-synchronizing-records"></a>Sincronizzazione completa dei record
+Alla fine della guida al setup assistito è possibile scegliere l'azione **Esegui sincronizzazione completa** per iniziare a sincronizzare tutti i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] con tutti i record correlati in Sales. Nella pagina **Revisione sincronizzazione completa di Dynamics 365 for Sales**, scegliere l'azione **Avvia**. Il completamento della sincronizzazione completa può richiedere tempo, ma è possibile continuare a lavorare in [!INCLUDE[d365fin](includes/d365fin_md.md)] mentre viene eseguita in background.
 
-Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, eseguire il drill down nel campo **Stato movimento coda processi**, **Stato processo a tabella di integrazione** o **Stato processo da tabella di integrazione** nella pagina **Revisione sincronizzazione completa CRM**.
+Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, nella pagina **Revisione sincronizzazione completa di Dynamics 365 for Sales** scegliere un record per visualizzare i dettagli. Per aggiornare lo stato durante la sincronizzazione, aggiornare la pagina.
 
-Nella finestra **Setup connessione Microsoft Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la pagina **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle nella soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] e in Sales da sincronizzare.
+Nella finestra **Setup connessione Microsoft Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la pagina **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] e in Sales da sincronizzare.
 
-## <a name="handling-special-sales-order-data"></a>Gestione di dati di ordini di vendita speciali
-Gli ordini di vendita in Sales verranno trasferiti automaticamente a [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Crea ordini di vendita automaticamente** nella pagina **Setup connessione Microsoft Dynamics 365**. In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="handling-sales-order-data"></a>Gestione di dati di ordini di vendita
+Gli ordini di vendita inviati in [!INCLUDE[crm_md](includes/crm_md.md)] verranno trasferiti automaticamente a [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Crea ordini di vendita automaticamente** nella pagina **Setup connessione Microsoft Dynamics 365**.
+In alternativa, è possibile convertire manualmente gli ordini di vendita inviati da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Crea in [!INCLUDE[d365fin](includes/d365fin_md.md)]** disponibile nella pagina **Ordini di vendita - Dynamics 365 for Sales**.
+In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nei prodotti. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella pagina **Setup contabilità clienti e vendite**, in modo che tali vendite di prodotti non registrate siano mappate a un numero di articolo/risorsa specificato per le analisi finanziarie.
+Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nelle app. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella pagina **Setup contabilità clienti e vendite**, in modo che tali vendite di prodotti non registrate siano mappate a un numero di articolo/risorsa specificato per le analisi finanziarie.
 
-Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo Commento viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo **Commento** viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="see-also"></a>Vedi anche
+Gli aggiornamenti dei campi nella testata dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel **Mapping tabella integrazione** SALESORDER-ORDER sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+## <a name="handling-sales-quotes-data"></a>Gestione di dati di offerte di vendita
+Le offerte di vendita attivate in [!INCLUDE[crm_md](includes/crm_md.md)] verranno trasferiti a [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Elabora automaticamente offerte di vendita** nella pagina **Setup connessione Microsoft Dynamics 365**.
+In alternativa, è possibile convertire manualmente offerte di vendita attivate da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Elabora in [!INCLUDE[d365fin](includes/d365fin_md.md)]** nella pagina **Offerte di vendita - Dynamics 365 for Sales**.
+In tali offerte di vendita, il campo **Nome** nell'offerta originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Anche il campo **Data di validità finale** nell'offerta viene trasferito e mappato al campo **Offerta valida fino alla data** in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzazione. Sia l'elaborazione manuale che quella automatica delle offerte di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiscono l'archiviazione delle versioni precedenti delle offerte di vendita prima dell'elaborazione di nuove revisioni delle offerte di vendita da [!INCLUDE[crm_md](includes/crm_md.md)].  
+
+## <a name="see-also"></a>Vedere anche
 [Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Gestione delle relazioni](marketing-relationship-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

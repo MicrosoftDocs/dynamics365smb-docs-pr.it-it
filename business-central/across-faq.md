@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852288"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916151"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -49,12 +49,15 @@ Se si ha accesso a Microsoft CustomerSource, è possibile ottenere accesso al si
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] viene venduto tramite partner ed è necessario contattare il partner rivenditore per ottenere supporto relativo a problemi tecnici. Se il partner [!INCLUDE[d365fin](includes/d365fin_md.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
 
-Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[d365fin](includes/d365fin_md.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft.  
-
-È possibile trovare un partner Business Central nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Per ulteriori informazioni, vedere [Guida e supporto](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Perché la Guida descrive funzionalità a cui non è possibile accedere?
-Se l'impostazione Esperienza nella pagina **Informazioni società** è impostata su **Essential**, gli elementi dell'interfaccia utente per le funzionalità di Manufacturing e Gestione assistenza. non sono visibili perché richiedono l'esperienza **Premium**. Per tali aree di funzionalità, viene inserita una nota di testo negli argomenti della Guida di alto livello. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
+Se l'impostazione Esperienza nella pagina **Informazioni società** è impostata su **Essential**, gli elementi dell'interfaccia utente per le funzionalità di Manufacturing e Gestione assistenza. non sono visibili perché richiedono l'esperienza **Premium**. Per tali aree di funzionalità, viene inserita una nota di testo negli argomenti della Guida di alto livello. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Dov'è il pulsante Salva?
+
+Non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[d365fin](includes/d365fin_md.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio in corso...** nell'angolo in alto a destra della pagina, che diventerà rapidamente **Salvato** se non si verifica alcun errore. Se si verifica un errore, il testo diventerà **Non salvato**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/22/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bb4941c948c2e4479ec36fdebee11f1d75e62c68
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 581098d88ae66800692d509d83c63f3867355a90
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801159"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912337"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate
 Nelle configurazioni di warehouse avanzate in cui l'ubicazione è impostata in modo da utilizzare sia il prelievo che la spedizione, è possibile prelevare componenti per le attività di assemblaggio e produzione tramite la pagina **Prelievo warehouse**.  

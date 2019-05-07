@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802245"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920844"
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
 Per rendere più semplice eseguire analisi sui documenti, quali ordini di vendita, è possibile utilizzare le dimensioni. Le dimensioni sono attributi e valori che categorizzano i movimenti in modo da poterli seguire e analizzare. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
@@ -48,12 +48,12 @@ Quando si crea una riga di registrazione, una testata del documento o una riga d
 
 Vengono inoltre impostati i valori delle dimensioni. Ad esempio, i valori potrebbero essere i reparti della società. I valori di dimensione possono essere impostati in una struttura gerarchica simile al piano dei conti, in modo che i dati possano essere suddivisi in vari livelli di granularità e i sottoinsiemi dei valori di dimensione sommati. In base alle necessità, è possibile impostare un numero illimitato di dimensioni e di valori dimensioni che possono essere utilizzati da tutti gli utenti nella società.
 
-È inoltre possibile impostare alcune dimensioni globali e dimensioni a collegamento rapido:  
+Quando dimensioni e valori sono impostati, è possibile definire dimensioni globali e a collegamento rapido nella pagina **Setup contabilità generale** che saranno sempre disponibili per essere selezionati come campi nelle righe di documenti e registrazioni, senza dover aprire prima la pagina **Dimensioni**. Per ulteriori informazioni, vedere [Per impostare dimensioni globali e a collegamento rapido](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Dimensioni globali** utilizzate come filtro, ad esempio, per report e processi batch. È possibile utilizzare solo due dimensioni globali, scegliere pertanto le dimensioni che verranno utilizzate più spesso.
 * Le **dimensioni a collegamento rapido** sono disponibili come campi nelle righe di registrazioni e documenti. È possibile creare fino a sei dimensioni a collegamento rapido.  
 
-### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Impostazione delle dimensioni di default per clienti, fornitori e altri conti
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Per impostare le dimensioni di default per clienti, fornitori e altri conti
 È possibile assegnare una dimensione di default per un conto specifico. La dimensione verrà copiata nelle registrazioni o nel documento quando si immette il numero di conto in una riga, ma è possibile eliminare o modificare il codice nella riga se il dato non è appropriato. È inoltre possibile impostare una dimensione richiesta per la registrazione del movimento con un tipo di conto specifico.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni** e quindi scegliere il collegamento correlato.  
@@ -102,15 +102,21 @@ Per evitare di registrare movimenti con dimensioni contraddittorie o non pertine
 >   
 >  Per visualizzare il nome delle dimensioni anziché il codice, selezionare il campo **Mostra nome colonna**.
 
-### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Sintesi delle dimensioni utilizzate più volte
-La pagina **Dimensioni di Default-Multipli** consente di determinare come un gruppo di conti utilizza le dimensioni e i valori delle dimensioni. Per effettuare questa operazione, evidenziare i vari conti nella lista dei conti, quindi specificare per essi le dimensioni e i valori dimensioni di default. Se per i conti evidenziati sono state specificate le dimensioni di default, tali dimensioni e i valori dimensioni verranno suggeriti automaticamente ogni volta che si utilizza uno dei conti, ad esempio, in una riga di registrazioni. I campi dimensione vengono compilati automaticamente, facilitando la registrazione dei movimenti. I valori dimensioni suggeriti possono tuttavia essere modificati, ad esempio, in una riga di registrazioni.
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>Per impostare dimensioni globali e a collegamento rapido
+Le dimensioni globali e a collegamento rapido possono essere utilizzate come filtro ovunque in [!INCLUDE[d365fin](includes/d365fin_md.md)], tra cui report, processi batch e visualizzazioni analisi. Le dimensioni globali e a collegamento rapido sono sempre disponibili per essere inserite direttamente senza prima aprire la pagina **Dimensioni**. Nelle righe di registrazioni e documenti, è possibile selezionare dimensioni globali e a collegamento rapido in un campo della riga. È possibile impostare due dimensioni globali e otto dimensioni a collegamento rapido. Scegliere le dimensioni che si utilizzano maggiormente.
 
-La pagina **Dimensioni di Default-Multipli** contiene i seguenti campi:
-|Campo|Description|
-|----------------------------------|---------------------------------------|  
-|**Codice dimensione**|Mostra tutte le dimensioni di default impostate in uno o più conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutte le dimensioni disponibili. Selezionando una dimensione, tale dimensione verrà impostata come default per tutti i conti evidenziati.|
-|**Codice valore dimensioni**|Mostra un valore dimensioni singolo oppure la dicitura Conflitto. Se nel campo è presente un valore dimensioni, a tutti i campi selezionati corrisponderà lo stesso valore dimensioni di default. Se nel campo è presente la dicitura Conflitto, non è stato impostato lo stesso valore dimensioni di default per tutti i conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutti i valori dimensioni disponibili. Selezionando un valore dimensioni, tale valore dimensioni verrà impostato come default per tutti i conti evidenziati.|
-|**Registrazione valore**|Mostra una singola regola per la registrazione del valore oppure la dicitura Conflitto. Se nel campo è presente una regola di registrazione, allora a tutti i conti selezionati corrisponderà la stessa regole di registrazione del valore per un valore dimensioni. Se nel campo è presente la dicitura Conflitto, non è stata impostata la stessa regola di registrazione del valore per un valore dimensione per tutti i conti evidenziati. Selezionando il campo Registrazione valore è possibile visualizzare una lista delle regole per la registrazione del valore. Selezionando una regola per la registrazione del valore, tale regola verrà applicata per tutti i conti evidenziati.|
+> [!Important]  
+> La modifica di una dimensione globale o a collegamento rapido richiede l'aggiornamento di tutti i movimenti registrati con la dimensione. È possibile eseguire questa task con la funzione **Cambia dimensioni globali**, ma può richiedere molto tempo e influire sulle prestazioni. Di conseguenza, scegliere con attenzione le dimensioni globali e a collegamento rapido in modo da non dover modificarle in seguito.
+
+> [!Note]
+> Quando si aggiunge o si modifica una dimensione globale o a collegamento rapido, viene eseguita automaticamente la disconnessione e una nuova connessione di modo che il nuovo valore possa essere utilizzato in tutta l'applicazione.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.
+2. Nella Scheda dettaglio **Dimensioni**, riempire i campi. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-change-global-dimensions"></a>Per cambiare le dimensioni globali
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cambia dimensioni globali** e quindi scegliere il collegamento correlato.
+2. Passare sulle azioni e sui campi nella pagina con il mouse per informazioni su come cambiare le dimensioni globali e a collegamento rapido.
 
 ### <a name="example-of-dimension-setup"></a>Esempio di setup dimensioni
 Supponiamo che la società desideri tenere traccia delle transazioni in base alla struttura organizzativa e alle posizioni geografiche. A tale scopo, è possibile impostare due dimensioni nella pagina **Dimensioni** :
@@ -137,7 +143,8 @@ Per **AREA**, è possibile aggiungere i seguenti valori dimensioni:
 | 80 |Extracomunitaria |Standard |
 | 90 |Europa, totale |Fine-Totale |
 
-Per le zone due are geografiche principali, Europa e America,, si aggiungono sottocategorie per regioni tramite l'indentazione dei valori di dimensione. In questo modo sarà possibile ottenere report per vendite o spese nelle varie regioni e i totali per le aree geografiche più grandi. È anche possibile scegliere di utilizzare paesi o regioni come valori di dimensione, province o città, a seconda della propria attività.  
+Per le zone due are geografiche principali, Europa e America,, si aggiungono sottocategorie per regioni tramite l'indentazione dei valori di dimensione. In questo modo sarà possibile ottenere report per vendite o spese nelle varie regioni e i totali per le aree geografiche più grandi. È anche possibile scegliere di utilizzare paesi o regioni come valori di dimensione, province o città, a seconda della propria attività.
+
 > [!NOTE]  
 >   Per impostare una gerarchia, i codici devono essere in ordine alfabetico. Inclusi quelli dei valori dimensioni che forniti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -149,7 +156,18 @@ Per **REPARTO**, è possibile aggiungere i seguenti valori dimensioni:
 | PROD |Produzione |Standard |
 | VENDITE |Vendite |Standard |
 
-Con questa impostazione, si aggiungono le due dimensioni come dimensioni globali nella pagina **Setup contabilità generale**. Ciò significa che è possibile utilizzare AREA e REPARTO come filtri per i movimenti di contabilità generale, nonché per tutti i report e le situazioni contabili. Le dimensioni globali sono inoltre disponibili automaticamente come dimensioni a collegamento rapido nelle righe di registrazione e nelle testate dei documenti.  
+Con questa impostazione, è possibile aggiungere due dimensioni come dimensioni globali nella pagina **Setup contabilità generale**. Ciò significa che è possibile utilizzare AREA e REPARTO come filtri per i movimenti di contabilità generale, nonché per tutti i report e le situazioni contabili. Le dimensioni globali sono inoltre disponibili automaticamente come dimensioni a collegamento rapido nelle righe di registrazione e nelle testate dei documenti.
+
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Sintesi delle dimensioni utilizzate più volte
+La pagina **Dimensioni di Default-Multipli** consente di determinare come un gruppo di conti utilizza le dimensioni e i valori delle dimensioni. Per effettuare questa operazione, evidenziare i vari conti nella lista dei conti, quindi specificare per essi le dimensioni e i valori dimensioni di default. Se per i conti evidenziati sono state specificate le dimensioni di default, tali dimensioni e i valori dimensioni verranno suggeriti automaticamente ogni volta che si utilizza uno dei conti, ad esempio, in una riga di registrazioni. I campi dimensione vengono compilati automaticamente, facilitando la registrazione dei movimenti. I valori dimensioni suggeriti possono tuttavia essere modificati, ad esempio, in una riga di registrazioni.
+
+La pagina **Dimensioni di Default-Multipli** contiene i seguenti campi:
+
+|Campo|Description|
+|-----|-----------|  
+|**Codice dimensione**|Mostra tutte le dimensioni di default impostate in uno o più conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutte le dimensioni disponibili. Selezionando una dimensione, tale dimensione verrà impostata come default per tutti i conti evidenziati.|
+|**Codice valore dimensioni**|Mostra un valore dimensioni singolo oppure la dicitura Conflitto. Se nel campo è presente un valore dimensioni, a tutti i campi selezionati corrisponderà lo stesso valore dimensioni di default. Se nel campo è presente la dicitura Conflitto, non è stato impostato lo stesso valore dimensioni di default per tutti i conti evidenziati. Selezionando il campo è possibile visualizzare una lista di tutti i valori dimensioni disponibili. Selezionando un valore dimensioni, tale valore dimensioni verrà impostato come default per tutti i conti evidenziati.|
+|**Registrazione valore**|Mostra una singola regola per la registrazione del valore oppure la dicitura Conflitto. Se nel campo è presente una regola di registrazione, allora a tutti i conti selezionati corrisponderà la stessa regole di registrazione del valore per un valore dimensioni. Se nel campo è presente la dicitura Conflitto, non è stata impostata la stessa regola di registrazione del valore per un valore dimensione per tutti i conti evidenziati. Selezionando il campo Registrazione valore è possibile visualizzare una lista delle regole per la registrazione del valore. Selezionando una regola per la registrazione del valore, tale regola verrà applicata per tutti i conti evidenziati.|
 
 ## <a name="using-dimensions"></a>Utilizzo delle dimensioni
 In un documento come un ordine di vendita, è possibile aggiungere le informazioni sulle dimensioni sia per una singola riga del documento che l'intero documento. Ad esempio, nella pagina **Ordine di vendita** è possibile immettere i valori dimensioni per le prime due dimensioni a collegamento rapido nelle singole righe vendita e aggiungere altre informazioni sulle dimensioni selezionando il pulsante **Dimensioni**.  
@@ -158,7 +176,7 @@ Se si lavora nelle registrazioni invece, è possibile aggiungere informazioni su
 
 È possibile impostare le dimensioni di default per i conti o i tipi di conto, in modo che le dimensioni e i valori dimensioni vengano compilati automaticamente.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Per visualizzare le dimensioni globali nelle pagine dei movimenti contabili:  
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Per visualizzare le dimensioni globali nelle pagine dei movimenti contabili:  
 I valori delle dimensioni globali vengono sempre\-definiti e denominati dalla società. Per visualizzare le dimensioni globali della società, aprire la pagina **Setup contabilità generale**.  
 
 In una pagina di movimenti contabili è possibile vedere se sono state impostate le dimensioni globali per i movimenti. Le due dimensioni globali si differenziano da tutte le altre dimensioni in quanto è possibile utilizzarle come filtro in qualsiasi punto di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -169,9 +187,29 @@ In una pagina di movimenti contabili è possibile vedere se sono state impostate
 4.  Per visualizzare tutte le dimensioni di un movimento, selezionare il movimento e scegliere l'azione **Dimensioni**.  
 
 > [!NOTE]  
->  La pagina **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della pagina **Dimensioni Voci Partitario** cambierà al variare del movimento contabile selezionato.  
+>  La pagina **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della pagina **Dimensioni Voci Partitario** cambierà al variare del movimento contabile selezionato.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="troubleshooting-dimensions-errors"></a>Risoluzione dei problemi relativi alle dimensioni
+Quando si registrano documenti o righe di registrazione che contengono dimensioni, possono verificarsi vari errori che in genere sono relativi a un'errata impostazione o assegnazione di dimensioni.
+
+> [!NOTE]
+> Nell'elenco di potenziali messaggi di errore seguente, i codici *%X* sono segnaposti per le variabili di dati che il messaggio effettivo conterrà nell'interfaccia utente a seconda del contesto. Ad esempio, *%1 %2 bloccata.* potrebbe essere visualizzato nell'interfaccia utente come “Codice dimensione AREA bloccato".  
+
+|Problema|Messaggio di errore|Soluzione possibile|
+|-----|-------------|-----------------|
+|Dimensione bloccata|%1 %2 bloccata.|- Trovare documenti non registrati che contengono il set di dimensioni con la dimensione bloccata e sbloccarla.<br />- Rimuovere la riga del set di dimensioni per la dimensione bloccata.|
+|Dimensione eliminata|Impossibile trovare %1 %2.|- Ripristinare la dimensione mancante.<br />- Trovare documenti non registrati che contengono il set di dimensioni con la dimensione mancante e aggiungerla.<br />- Rimuovere la riga del set di dimensioni per la dimensione mancante.|
+|Valore di dimensione bloccato|%1 %2 - %3 bloccato.|- Trovare documenti non registrati che contengono il set di dimensioni con il valore di dimensione bloccato e sbloccarlo.<br />- Rimuovere la riga del set di dimensioni per il valore di dimensione bloccato.|
+|Valore di dimensione eliminato|   %1 per %2 mancante.|- Ripristinare il valore di dimensione mancante.<br />- Trovare documenti non registrati che contengono il set di dimensioni con il valore di dimensione mancante e aggiungerlo.<br />- Rimuovere la riga del set di dimensioni per il valore di dimensione mancante.|
+|Valore di dimensione non consentito|Il tipo di valore di dimensione per %1 %2 - %3 non deve essere %4.|- Impostare il campo **Tipo valori dimensioni** nella pagina **Valori dimensioni** su **Standard** o **Inizio-Totale**.<br />- Rimuovere la riga del set di dimensioni per il valore di dimensione bloccato.|
+|Combinazione di dimensioni bloccata|Le dimensioni %1 e %2 non possono essere utilizzate contemporaneamente.|- Trovare documenti non registrati che contengono il set di dimensioni con la combinazione di dimensioni bloccata e sbloccarla.<br />- Modificare una delle righe del set di autorizzazioni in conflitto per la combinazione di dimensioni.|
+|Combinazione di valori di dimensioni bloccata|Le combinazioni di dimensioni %1 - %2 e %3 - %4 non possono essere usare contemporaneamente.|- Trovare documenti non registrati che contengono il set di dimensioni con la combinazione di valori di dimensioni bloccata e sbloccarla.<br />- Modificare una delle righe del set di autorizzazioni in conflitto per la combinazione di valori di dimensioni.|
+|Codice del valore di dimensione vuoto per la dimensione di default in cui il campo **Registrazione valore** contiene **Codice obbligatorio**|- Selezionare un %1 per %2 %3.<br />- Selezionare un %1 per i %2 %3 per %4 %5.|- Modificare il campo **Registrazione valore** nella pagina **Dimensione di default**.<br />- Immettere un valore di dimensione non vuoto per la dimensione in conflitto nel set di dimensioni.|
+|Codice del valore di dimensione errato per la dimensione di default in cui il campo **Registrazione valore** contiene **Stesso Cod.**|- Selezionare %1 %2 per i %3 %4.<br />- Selezionare %1 %2 per i %3 %4 per %5 %6.|- Modificare il campo **Registrazione valore** nella pagina **Dimensione di default**.<br />- Immettere il valore di dimensione richiesto per la dimensione in conflitto nel set di dimensioni.|
+|Codice del valore di dimensione non vuoto per la dimensione di default vuota in cui il campo **Registrazione valore** contiene **Stesso Cod.**|- %1 %2 deve essere vuoto.<br />- %1 %2 deve essere vuoto per %3 %4.|- Modificare il campo **Registrazione valore** nella pagina **Dimensione di default**.<br />- Immettere un codice del valore di dimensione vuoto per la dimensione in conflitto nel set di dimensioni.|
+|Valore di dimensione non previsto per la dimensione di default in cui il campo **Registrazione valore** contiene **Nessun Cod.**|- %1 %2 non deve essere nominato.<br />- %1 %2 non deve essere nominato per %3 %4.|- Modificare il campo **Registrazione valore** nella pagina **Dimensione di default**.<br />- Rimuovere la riga in conflitto dal set di dimensioni.|
+
+## <a name="see-also"></a>Vedere anche
 [Business Intelligence](bi.md)  
 [Finanze](finance.md)  
 [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  

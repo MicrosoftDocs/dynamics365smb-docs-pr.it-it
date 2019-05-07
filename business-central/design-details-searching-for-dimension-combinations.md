@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802083"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912365"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
 Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- Tuttavia, per mantenere la capacità di [!INCLUDE[d365fin](includes/d365fin_md.md)] di rinominare una dimensione e un valore di dimensione, la tabella 349 **Valore dimensioni** viene estesa con un campo di numero intero, **ID valore dimensioni**. Questa tabella converte la coppia di campi **Dimensione** e **Valore dimensioni** in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
+Tuttavia, per mantenere la capacità di [!INCLUDE[d365fin](includes/d365fin_md.md)] di rinominare una dimensione e un valore di dimensione, la tabella 349, **Valore dimensioni**, viene estesa con un campo di numero intero, **ID valore dimensioni**. Questa tabella converte la coppia di campi, **Dimensione** e **Valore dimensioni**, in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

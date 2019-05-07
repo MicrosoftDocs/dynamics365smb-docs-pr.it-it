@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/05/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c3cb9f82688f89f00f934d1468492cfa752742fd
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b56ec1c5a0646c46ce5da71d35ebcff8bd01d476
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802044"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924430"
 ---
 # <a name="work-with-production-families"></a>Utilizzare famiglie di prodotti
 Una famiglia di prodotti consiste in un gruppo di articoli individuali la cui relazione si basa sulla similarità dei rispettivi processi di lavorazione. Formando delle famiglie di produzione, è possibile che alcuni articoli siano lavorati due o più volte nel corso di una produzione; questa operazione ottimizzerà il consumo di materiale.

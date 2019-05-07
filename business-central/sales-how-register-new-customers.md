@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800960"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917096"
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
 I clienti sono l'origine del reddito. È necessario registrare ogni cliente, cui è stata effettuata una vendita, come una scheda cliente. Le schede cliente contengono le informazioni richieste per la vendita dei prodotti al cliente. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md) e [Registrare nuovi articoli](inventory-how-register-new-items.md).  
@@ -53,7 +53,8 @@ Se si desidera utilizzare questa scheda cliente come modello quando si creano nu
 
 Il modello cliente viene aggiunto all'elenco dei modelli cliente, in modo che sia possibile utilizzarlo per creare nuove schede cliente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+[Unire record duplicati](sales-how-merge-duplicate-records.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  
 [Vendite](sales-manage-sales.md)    
 [Setup Vendite](sales-setup-sales.md)    

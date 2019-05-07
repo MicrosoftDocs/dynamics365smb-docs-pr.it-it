@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c723625bc54c7b885268946f0e7afdf54be20a2b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801725"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923223"
 ---
 # <a name="record-usage-for-jobs"></a>Registrare l'utilizzo nelle commesse
 Nella pagina **Righe pianificazione commessa** è possibile esaminare e registrare l'utilizzo nelle diverse parti della commessa, che viene automaticamente aggiornato quando si modificano e si trasferiscono le informazioni tra le commesse e le registrazioni delle commesse o le fatture commessa. Questo richiede che sia stata impostata una commessa in modo da attivare **Applica collegamento utilizzo per default**. Per ulteriori informazioni, vedere [Impostare le commesse](projects-how-setup-jobs.md).  

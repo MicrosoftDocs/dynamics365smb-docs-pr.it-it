@@ -1,51 +1,51 @@
 ---
 title: Impostare prezzi delle commesse e categorie di registrazione commesse| Documenti Microsoft
 description: Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800900"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918828"
 ---
 # <a name="set-up-jobs"></a>Imposta commesse
-Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
-Nelle singole schede commessa, è necessario impostare i prezzi per gli articoli di commessa, le risorsa di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
+In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE [prodshort](includes/prodshort.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
+
+Per ogni commessa, si specificano quindi singole schede commessa con informazioni sui prezzi per gli articoli di commessa, le risorse di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
 ## <a name="to-set-general-information-for-jobs"></a>Per impostare le informazioni generali relative alle commesse
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup commesse** e quindi scegliere il collegamento correlato.
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   La casella di controllo **Applica collegamento utilizzo per default** è piuttosto complessa, quindi viene spiegata nella sezione che segue.
+> [!NOTE]
+> L'impatto del campo **Applica collegamento utilizzo per default** è piuttosto complesso, quindi viene spiegato nella sezione che segue.
 
-## <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
+### <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
+
 Quando viene eseguita una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è **Budget**, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 
-Se si seleziona la casella di controllo **Applica collegamento utilizzo per default**, è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e quindi indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
+Se si seleziona il campo **Applica collegamento utilizzo per default**, è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e quindi indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
 
-Se la casella di controllo **Applica collegamento utilizzo per default** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, Financials crea una riga di pianificazione commessa di tipo **Budget** dopo che viene registrata la riga di registrazione.
+> [!TIP]  
+> È possibile abilitare o disabilitare la tracciabilità dell'utilizzo in una commessa per una specifica commessa. Il valore del campo **Applica collegamento utilizzo** nella singola scheda commessa sostituisce l'impostazione nella pagina **Setup commesse**.  
 
-> [!NOTE]  
->   Se la casella di controllo **Applica collegamento utilizzo per default** nella scheda commessa è selezionata e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa. Se la casella di controllo **Applica collegamento utilizzo per default** non è selezionata e il campo **Tipo riga** nella riga di registrazione commessa è vuoto, non vengono create righe di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+Se la casella di controllo **Applica collegamento utilizzo per default** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, viene creata una riga di pianificazione commessa di tipo **Budget** dopo la registrazione di una riga di registrazione commessa.
+
+> [!IMPORTANT]
+> Se la tracciabilità dell'utilizzo in una commessa è abilitata nella pagina **Jobs Setup** e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa.  
+>  
+> Se la tracciabilità dell'utilizzo in una commessa *non* è abilitata nella pagina **Setup commesse** o nella singola commessa e il campo **Tipo riga** nelle registrazioni commesse è vuoto, non viene creata nessuna riga di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup commesse**, quindi scegliere il collegamento correlato.
-2. Selezionare o deselezionare la casella di controllo **Applica collegamento utilizzo per default**.
-
-> [!NOTE]  
->   È possibile impostare diversamente la casella di controllo **Applica collegamento utilizzo per default** nelle singole schede commessa. In questo caso, l'impostazione di tale commessa ignora il default generale descritto sopra.
+2. Selezionare la casella di controllo **Applica collegamento utilizzo per default**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Per impostare i prezzi per le risorse di commessa
 È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la pagina **Prezzi risorse commesse**.
@@ -113,10 +113,12 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per la commessa. In genere si tratta di un conto di addebito. |
 | **Conto vendite riconosciute** |Conto avere contenente le entrate riconosciute per la commessa. In genere si tratta di un conto di accredito. |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
 [Impostare Gestione progetti](projects-setup-projects.md)  
+[Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Gestione di progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801486"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925042"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central 
 
@@ -43,6 +43,8 @@ Con le pagine che visualizzano un elenco di record in righe e colonne, come un e
 >[!NOTE]
 >Per [!INCLUDE[prodshort](includes/prodshort.md)] locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato installato dall'amministratore. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Vedere anche
+### <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
+## <a name="see-also"></a>Vedere anche
 [Utilizzo di Business Central](ui-work-product.md)  

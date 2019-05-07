@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 423518d27902cf8c4507a583f660932296789c6e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bcfbd42793e67f306b226c02951fc0227bc095a4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801043"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920440"
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[d365fin](includes/d365fin_md.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.
@@ -24,11 +24,16 @@ ms.locfileid: "801043"
 |||  
 |-|-|  
 |**Processi aziendali**|-   [Introduzione](product-get-started.md)<br />-   [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Amministrazione](admin-setup-and-administration.md)<br />-   [Funzionalità aziendale](across-business-functionality.md)<br />-   [Funzionalità locale](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Funzionalità aziendali generali](ui-across-business-areas.md)<br />-   [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)<br />-   [Dettagli di progettazione dell'applicazione](design-details-application-design.md)|  
-|**Sviluppo**|-   [Introduzione](/dynamics365/business-central/dev-itpro/index)<br />-   [Sviluppo in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Ambiente di sviluppo AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Contenuto per sviluppatori e professionisti IT**|-   [Guida per sviluppatori e professionisti IT per [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Sviluppo in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Ambiente di sviluppo AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Risorse della community**|-   [Community di Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)<br />-   [Blog di Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business/b/financials)<br />-   [Note sulla versione di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics PartnerSource \(è richiesto un account PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(è richiesto un account Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 ## <a name="see-also"></a>Vedi anche
+
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
-[Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)
+[Risorse per Guida e supporto](product-help-and-support.md)  
+[Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

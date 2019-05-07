@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dfe311bacc141bd03de022a5ec3a0d5aa70f8864
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802040"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913389"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
 La funzione **Ripianifica** viene solitamente utilizzata negli ordini di produzione dopo l'aggiunta o la modifica di componenti che costituiscono ordini di produzione sottostanti. La funzione consente di calcolare le modifiche apportate alle righe componente e ciclo e include articoli disponibili nei livelli inferiori della distinta base di produzione per i quali potrebbero essere generati nuovi ordini di produzione.  

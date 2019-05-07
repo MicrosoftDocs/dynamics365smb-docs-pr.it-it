@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: e7430c17e090e2b0c3ca13ee7c52cfec749fcc2b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852518"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918412"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. La visualizzazione dei risultati nei grafici nella Gestione ruolo utente, quali il piano del flusso di cassa e nei report, ad esempio i report Conto economico e Conto patrimoniale,

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852426"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921411"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Utilizzo di report e processi batch
 Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato di stampa facile da leggere. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, le statistiche di vendita e altro ancora.
@@ -50,9 +50,9 @@ L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di genera
 ### <a name="setting-options-and-filters"></a>Filtri e opzioni delle impostazioni
 Se si desidera ulteriormente limitare o definire i dati inclusi in un report, è possibile impostare opzioni e filtri aggiuntivi.
 
-I filtri consentono di visualizzare i dati in base a criteri specifici. I filtri sono raggruppati in base all'entità di appartenenza, ad esempio **Cliente** nell'illustrazione precedente. È possibile definire un filtro impostando la casella **Dove** sul campo a cui si desidera venga applicato quindi aggiungendo criteri nella casella **è:**. Ad esempio, nell'illustrazione precedente, è presente un solo filtro che consente di creare il report per il cliente il cui **Nr.** è pari a **01121212**.
+I filtri consentono di visualizzare i dati in base a criteri specifici. I filtri sono raggruppati in base all'entità di appartenenza, ad esempio **Cliente** nell'illustrazione precedente. È possibile definire un filtro impostando la casella **Dove** sul campo a cui si desidera venga applicato quindi aggiungendo criteri nella casella **è:**.
 
-È possibile aggiungere altri filtri impostando le caselle **Aggiungi**. Quando vengono impostati più filtri, verranno inclusi nel report solo i risultati che soddisfano i criteri di tutti i filtri.
+È possibile aggiungere altri filtri riempiendo le caselle **E** ed **è**. Quando vengono impostati più filtri, verranno inclusi nel report solo i risultati che soddisfano i criteri di tutti i filtri.
 
 A seconda del tipo di campo che si sta filtrando, è possibile specificare i criteri di filtro per cercare una corrispondenza esatta, una corrispondenza parziale, un intervallo di valori e altro. Per ulteriori informazioni sull'impostazione dei filtri, vedere:
 -   [Filtri](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Utilizzare la barra dei menu per:
 -   Ridimensionare per adattare alla pagina
 -   Seleziona testo
 
-    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. È quindi possibile premere il pulsante destro del mouse e selezionare **Copia**. È possibile incollare il testo selezionato nella posizione desiderata.
+    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. È quindi possibile premere il pulsante destro del mouse e selezionare **Copia**. È possibile quindi incollare il testo selezionato nella posizione desiderata.
 -   Panoramica del documento
 
     È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. Ciò risulta utile quando è stato eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.

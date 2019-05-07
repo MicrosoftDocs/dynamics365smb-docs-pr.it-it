@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801822"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914423"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
-Come preparazione alla creazione di una definizione di scambio di dati per un file o flusso di dati, è possibile utilizzare lo schema XML correlato per definire gli elementi dati da includere nella Scheda dettaglio **Definizioni colonne**. Vedere il passaggio 6 nella sezione "Per descrivere la formattazione di righe e colonne nel file". Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Come preparazione alla creazione di una definizione di scambio di dati per un file o flusso di dati, è possibile utilizzare lo schema XML correlato per definire gli elementi dati da includere nella Scheda dettaglio **Definizioni colonne**. Vedere il passaggio 6 nella sezione [Per descrivere la formattazione di righe e colonne nel file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Per altre informazioni, vedere [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Generalmente le definizioni di scambio di dati vengono impostate nella pagina **Definizione scambio di dati**. Tuttavia, quando si imposta una definizione di scambio dati per l'aggiornamento dei tassi di cambio delle valute, il processo viene avviato nella pagina **Scheda Setup aggiornamento tasso di cambio in valuta** semplificata.  
 
@@ -39,7 +39,10 @@ La creazione di una definizione di scambio di dati include due task:
 1. Nella pagina **Definizione di scambio dati** descrivere la formattazione delle righe e delle colonne del file.  
 2. Nella pagina **Mapping scambio dati** eseguire il mapping delle colonne nel file di dati ai campi in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Questa funzionalità è descritta nelle procedure seguenti.  
+Questa funzionalità è descritta nelle procedure seguenti.  
+
+> [!TIP]
+> Per visualizzare quali codeunit Microsoft utilizza nelle definizioni esistenti nel prodotto standard, esaminare i tre campi **Codeunit** nell'intestazione della pagina **Mapping campi** per ogni definizione.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Per descrivere la formattazione di righe e colonne nel file  
 1. Nella casella **Cerca** immettere **Definizioni scambio dati**, quindi selezionare il collegamento correlato.  

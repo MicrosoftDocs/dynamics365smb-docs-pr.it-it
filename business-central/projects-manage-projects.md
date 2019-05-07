@@ -1,23 +1,19 @@
 ---
 title: Task commesse utilizzando le risorse e i fogli presenze| Microsoft Docs
 description: Descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802183"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921030"
 ---
 # <a name="project-management"></a>Gestione progetti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
@@ -38,13 +34,18 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare il consumo di materiali, risorse e altre spese del WIP commessa per monitorare il valore finanziario e per gestire i rendiconti finanziari corretti anche se si registrano delle spese commessa prima di fatturarla. |[Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md) |
 | Registrare i costi della commessa per l'utilizzo di risorse, materiali e acquisti correlati alla commessa su base continuativa e fatturare al cliente, anche quando la commessa è terminata o in base a una pianificazione di fatturazione. |[Fatturazione di commesse](projects-how-invoice-jobs.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="get-started-with-projects"></a>Introduzione ai progetti
+
+La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE [prodshort](includes/prodshort.md)] di YouTube.  
+
+## <a name="see-also"></a>Vedere anche
+
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
-[Modifica delle funzionalità visualizzate](ui-experiences.md)      
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)    
+[Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Modifica delle funzionalità visualizzate](ui-experiences.md)  
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

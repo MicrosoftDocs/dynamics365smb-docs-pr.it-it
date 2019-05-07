@@ -1,23 +1,19 @@
 ---
 title: Creare una scheda commessa per una commessa e specificare i task| Documenti Microsoft
 description: Per un nuovo progetto, è possibile creare una scheda commessa contenente i task commesse e le righe pianificazione, per semplificare la gestione dell'avanzamento e del budget.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801386"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915625"
 ---
 # <a name="create-jobs"></a>Creare commesse
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
@@ -28,8 +24,8 @@ Il secondo livello è costituito dalle righe di pianificazione commessa, che con
 
 La struttura a livelli consente di dividere la commessa in task meno complessi e pertanto di dettagliare maggiormente le fasi di definizione del budget, dell'offerta e della registrazione. Inoltre, consente di ottenere informazioni dettagliate sullo stato di avanzamento di una commessa. Ad esempio, è possibile verificare se si stanno soddisfacendo le attività cardine definite o se si stanno rispettano le previsioni di budget.
 
-> [!NOTE]  
->   L'azione **Nuova commessa** in Gestione ruolo utente **Manager progetto** avvia una finestra di configurazione guidata che aiuta a creare una commessa con task e righe di pianificazione integrati. Di seguito viene descritto come eseguire i passaggi manualmente.
+> [!TIP]
+> Scegliere l'azione **Nuova commessa** in Gestione ruolo utente **Manager progetto** per avviare una guida al setup assistito che consente di creare una commessa con task e righe di pianificazione integrati. Di seguito viene descritto come eseguire i passaggi manualmente. Per un esempio di come creare una commessa manualmente, vedere [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>Per creare una scheda commessa
 Creare una scheda commessa, quindi creare le righe del task commessa e le relative righe di pianificazione commessa.
@@ -70,9 +66,11 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
 [Gestione progetti](projects-manage-projects.md)  
+[Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/19/2019
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0231ab568ea435a389dae6f51f270f5b6363c203
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852380"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914543"
 ---
 # <a name="updating-report-or-document-layouts"></a>Aggiornamento dei layout di report o documento
 Talvolta, potrebbe essere necessario aggiornare il layout personalizzato utilizzato per un report. Ciò è obbligatorio in seguito a una modifica di progettazione al set di dati del report, ad esempio, un campo utilizzato nel layout è stato rimosso da set di dati del report. Se un layout di report necessita di aggiornamento, verrà visualizzato un messaggio di errore quando si tenta di visualizzare l'anteprima, stampare o salvare il report.  

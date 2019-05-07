@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 66b3f7fb4955d66202818a22aaa2a36235c77e9d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801971"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913412"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  

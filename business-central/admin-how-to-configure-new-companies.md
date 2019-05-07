@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802360"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925555"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800945"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922987"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  

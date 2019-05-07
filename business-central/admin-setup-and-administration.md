@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852139"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924453"
 ---
 # <a name="administration"></a>Setup
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
@@ -44,7 +44,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Esporre le pagine, le codeunit e le query come servizi Web.|[Pubblicazione di un servizio Web](across-how-publish-web-service.md)|
 |Come parte della creazione di app Connect tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e soluzioni di terze parti tramite REST API, definire modelli che vengono utilizzati per popolare proprietà vuote in un'entità quando si crea un'azione POST attraverso un'API.|[Configurazione di modelli di API](admin-configuring-api-template.md)|
 |Crittografare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] Server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nel server.|[Gestione crittografia dati](admin-manage-data-encryption.md)|
-|Connettere Dynamics 365 for Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Connettere Dynamics 365 for Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Vedi anche

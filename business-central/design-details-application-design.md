@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e16ebdd8fc7b1b147b17d395241b6e67bb008fd1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801300"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911342"
 ---
 # <a name="design-details"></a>Dettagli di progettazione
 Questo argomento contiene informazioni tecniche dettagliate su funzionalità dell'applicazione complesse in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -25,14 +25,14 @@ Questo argomento contiene informazioni tecniche dettagliate su funzionalità del
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Ottenere informazioni sulla progettazione per archiviare e registrare le dimensioni, inclusi gli esempi di codice su come eseguire la migrazione e aggiornare il codice dimensione.|[Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)|  
 |Informazioni sul funzionamento del sistema di pianificazione e su come rettificare gli algoritmi per soddisfare i requisiti di pianificazione in vari ambienti.|[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)|  
 |Comprendere i meccanismi del motore di costing, ad esempio il metodo di costing e la rettifica costo e i principi di contabilità per cui sono progettati.|[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)|  
 |Informazioni sui principi centrali dietro alle funzionalità di base e avanzate della warehouse e sulla relativa integrazione con altre funzionalità della supply chain.|[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)|  
 |Informazioni sulla progettazione storica e corrente delle funzionalità di tracciabilità articolo e su come si integra con il sistema di impegno per includere i numeri seriali o di lotto nei calcoli della disponibilità.|[Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)|  
-|Ottenere informazioni sulla funzionalità della riga di registrazione di contabilità generale, incluse le semplificazioni recenti della progettazione di codeunit 12.|[Dettagli di progettazione: Riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)|  
+|Ottenere informazioni sulla funzionalità della riga di registrazione di contabilità generale, incluse le semplificazioni recenti della progettazione di codeunit 12.|[Dettagli di progettazione: Riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)|
+|Ottenere informazioni sulla progettazione per archiviare e registrare le dimensioni, inclusi gli esempi di codice su come eseguire la migrazione e aggiornare il codice dimensione.|[Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)| 
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Pianif.](production-planning.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Gestione warehouse](warehouse-manage-warehouse.md)   
@@ -40,4 +40,3 @@ Questo argomento contiene informazioni tecniche dettagliate su funzionalità del
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-  

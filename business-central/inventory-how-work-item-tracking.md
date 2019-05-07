@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801141"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919975"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utilizzo dei numeri di serie e di lotto
 È possibile assegnare i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati. Eseguire l'operazione nella pagina **Righe tracciabilità articolo**, accessibile da un documento in entrata o in uscita.
@@ -240,7 +240,7 @@ Il contenuto dei campi **Nr. lotto** e **Nr. seriale** non è modificabile. Tutt
 Riclassificare la tracciabilità di un articolo significa modificare un numero di lotto o seriale in un nuovo numero o cambiare la data di scadenza impostando una nuova data. Se si utilizzano i lotti, è anche possibile unire più lotti in uno solo. Queste attività possono essere eseguite utilizzando le registrazioni di riclassificazione articoli.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclass. articolo** e quindi scegliere il collegamento correlato.  
-2.  Compilare la riga con le informazioni appropriate. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario](inventory-how-count-adjust-reclassify.md).
+2.  Compilare la riga con le informazioni appropriate. Per ulteriori informazioni, vedere [Conteggiare l'inventario utilizzando documenti](inventory-how-count-adjust-reclassify.md) o [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-inventory-with-documents.md).
 3.  Scegliere l'azione **Righe tracciabilità articolo**.  
 4.  Nel campo **Nr. seriale** o **Nr. lotto** selezionare il numero seriale o di lotto corrente.  
 5.  Se si desidera specificare un nuovo numero di tracciabilità articolo, immetterlo nel campo **Nuovo nr. seriale** o **Nuovo nr. lotto**. Se lo si desidera, è possibile unire uno o più lotti in un lotto nuovo o esistente.  

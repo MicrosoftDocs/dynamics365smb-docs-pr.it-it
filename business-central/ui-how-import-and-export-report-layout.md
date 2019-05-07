@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 1705942e9fa2b3b24f14187c0c70db44d31f313c
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853050"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913017"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importare ed esportare un layout di report o documento
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  

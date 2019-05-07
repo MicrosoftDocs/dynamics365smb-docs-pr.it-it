@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801592"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912804"
 ---
 # <a name="application-compliance"></a>Conformità dell'applicazione
 Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)], come i principi IFRS, la funzionalità locale, GDPR e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.

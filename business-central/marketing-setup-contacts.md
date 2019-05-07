@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801199"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918149"
 ---
-# <a name="setting-up-contacts"></a>Configurazione dei contatti
+# <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.
 
 Prima di creare contatti e registrare dettagli sulle relazioni d'affari, è necessario impostare i diversi codici che verranno utilizzati per assegnare queste informazioni alle persone e alle società di contatto. È possibile impostare codici per gruppi di mailing, settori industriali, relazioni d'affari, origini Web, livelli organizzativi e responsabilità professionali. È possibile eseguire l'impostazione scegliendo l'azione **Nuovo** quando si cercano gli elenchi della scheda contatto.  
@@ -151,12 +151,12 @@ Per sincronizzare la scheda contatto con una scheda cliente, fornitore o conto c
 
 Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Cercare i contatti duplicati quando vengono creati dei contatti
-È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si crea una società contatto; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati.
+## <a name="searching-for-duplicate-contacts"></a>Ricerca di contatti duplicati
+È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
 
-Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
+Una volta individuato un contatto duplicato, è possibile utilizzare la pagina **Unisci duplicato** per unirlo in un record di contatto che si intende mantenere. Per ulteriori informazioni, vedere [Unire record duplicati](sales-how-merge-duplicate-records.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Creare contatti](marketing-create-contact-companies.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  

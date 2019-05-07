@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801911"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915119"
 ---
 # <a name="creating-and-managing-contacts"></a>Creazione e gestione di contatti
 Gruppi diversi della società intratterranno relazioni con società diverse. È ad esempio possibile che un agente si incontri regolarmente con potenziali clienti e che alla fine della settimana registri i risultati di queste visite.
@@ -28,9 +28,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-| Swtup della gestione dei contatti prima di creare i contatti. |[Configurazione dei contatti](marketing-setup-contacts.md) |
-| Creare una scheda contatto per ogni nuova persona o società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creazione di contatti](marketing-create-contact-companies.md) |
+| Swtup della gestione dei contatti prima di creare i contatti. |[Setup contatti](marketing-setup-contacts.md) |
+| Creare una scheda contatto per ogni nuova persona o società con cui si interagisce, ad esempio un cliente o un fornitore. |[Creare contatti](marketing-create-contact-companies.md) |
+|Eliminare la confusione quando due o più record sono presenti per lo stesso contatto.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di Business Central](ui-work-product.md)  

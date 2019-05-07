@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
-ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
+ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832530"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911554"
 ---
 # <a name="finance"></a>Contabilità
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
