@@ -1,8 +1,6 @@
 ---
 title: Impostare le risorse, i fogli presenze e le commesse| Documenti Microsoft
 description: Descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,31 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd297498918630e604a3e9f179c1f7f2a7c2df40
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801603"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937606"
 ---
-# <a name="setting-up-project-management"></a><span data-ttu-id="bc2a8-103">Impostazione della Gestione progetti</span><span class="sxs-lookup"><span data-stu-id="bc2a8-103">Setting Up Project Management</span></span>
-<span data-ttu-id="bc2a8-104">Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
+# <a name="setting-up-project-management"></a><span data-ttu-id="eafb0-103">Impostazione della Gestione progetti</span><span class="sxs-lookup"><span data-stu-id="eafb0-103">Setting Up Project Management</span></span>
+<span data-ttu-id="eafb0-104">Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.</span><span class="sxs-lookup"><span data-stu-id="eafb0-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
 
-<span data-ttu-id="bc2a8-105">È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="bc2a8-106">Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="bc2a8-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
+<span data-ttu-id="eafb0-105">È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze.</span><span class="sxs-lookup"><span data-stu-id="eafb0-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="eafb0-106">Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="eafb0-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
 
-<span data-ttu-id="bc2a8-107">Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="eafb0-107">Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.</span><span class="sxs-lookup"><span data-stu-id="eafb0-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="bc2a8-108">Per</span><span class="sxs-lookup"><span data-stu-id="bc2a8-108">To</span></span> | <span data-ttu-id="bc2a8-109">Vedere</span><span class="sxs-lookup"><span data-stu-id="bc2a8-109">See</span></span> |
+| <span data-ttu-id="eafb0-108">A</span><span class="sxs-lookup"><span data-stu-id="eafb0-108">To</span></span> | <span data-ttu-id="eafb0-109">Vedere</span><span class="sxs-lookup"><span data-stu-id="eafb0-109">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="bc2a8-110">Impostare le risorse e i costi e i prezzi correlati, per singole risorse, gruppi di risorse o per tutte le risorse disponibili nell'azienda.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-110">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="bc2a8-111">Impostare risorse</span><span class="sxs-lookup"><span data-stu-id="bc2a8-111">Set Up Resources</span></span>](projects-how-setup-resources.md) |
-| <span data-ttu-id="bc2a8-112">Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-112">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="bc2a8-113">Impostare fogli presenze</span><span class="sxs-lookup"><span data-stu-id="bc2a8-113">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
-| <span data-ttu-id="bc2a8-114">Creare schede commessa e preparare task commesse.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-114">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="bc2a8-115">Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse.</span><span class="sxs-lookup"><span data-stu-id="bc2a8-115">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="bc2a8-116">Impostazione di commesse</span><span class="sxs-lookup"><span data-stu-id="bc2a8-116">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
+| <span data-ttu-id="eafb0-110">Impostare la gestione progetti.</span><span class="sxs-lookup"><span data-stu-id="eafb0-110">Set up project management.</span></span>|[<span data-ttu-id="eafb0-111">Impostare le informazioni generali relative alle commesse</span><span class="sxs-lookup"><span data-stu-id="eafb0-111">Set general information for jobs</span></span>](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| <span data-ttu-id="eafb0-112">Impostare le risorse e i costi e i prezzi correlati, per singole risorse, gruppi di risorse o per tutte le risorse disponibili nell'azienda.</span><span class="sxs-lookup"><span data-stu-id="eafb0-112">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="eafb0-113">Impostare risorse</span><span class="sxs-lookup"><span data-stu-id="eafb0-113">Set Up Resources</span></span>](projects-how-setup-resources.md) |
+| <span data-ttu-id="eafb0-114">Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione.</span><span class="sxs-lookup"><span data-stu-id="eafb0-114">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="eafb0-115">Impostare fogli presenze</span><span class="sxs-lookup"><span data-stu-id="eafb0-115">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
+| <span data-ttu-id="eafb0-116">Creare schede commessa e preparare task commesse.</span><span class="sxs-lookup"><span data-stu-id="eafb0-116">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="eafb0-117">Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse.</span><span class="sxs-lookup"><span data-stu-id="eafb0-117">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="eafb0-118">Impostazione di commesse</span><span class="sxs-lookup"><span data-stu-id="eafb0-118">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a><span data-ttu-id="bc2a8-117">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="bc2a8-117">See Also</span></span>
-[<span data-ttu-id="bc2a8-118">Gestione di progetti</span><span class="sxs-lookup"><span data-stu-id="bc2a8-118">Managing Projects</span></span>](projects-manage-projects.md)  
-[<span data-ttu-id="bc2a8-119">Finanze</span><span class="sxs-lookup"><span data-stu-id="bc2a8-119">Finance</span></span>](finance.md)  
-<span data-ttu-id="bc2a8-120">[Acquisti](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="bc2a8-120">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
-<span data-ttu-id="bc2a8-121">[Vendite](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="bc2a8-121">[Sales](sales-manage-sales.md)   </span></span>  
-<span data-ttu-id="bc2a8-122">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bc2a8-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="eafb0-119">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="eafb0-119">See Also</span></span>
+
+[<span data-ttu-id="eafb0-120">Gestione di progetti</span><span class="sxs-lookup"><span data-stu-id="eafb0-120">Managing Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="eafb0-121">Video: Come creare una commessa in Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="eafb0-121">Video: How to create a job in Dynamics 365 Business Central</span></span>](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[<span data-ttu-id="eafb0-122">Finanze</span><span class="sxs-lookup"><span data-stu-id="eafb0-122">Finance</span></span>](finance.md)  
+[<span data-ttu-id="eafb0-123">Acquisti</span><span class="sxs-lookup"><span data-stu-id="eafb0-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="eafb0-124">Vendite</span><span class="sxs-lookup"><span data-stu-id="eafb0-124">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="eafb0-125">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="eafb0-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
