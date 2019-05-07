@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801975"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926110"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Annullare la sottoscrizione, rimuovere, o reimpostare [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se si desidera smettere di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile bloccare l'account o rimuovere la licenza dall'account. I passaggi da eseguire sono diversi se si sta utilizzando la versione di valutazione gratuita o se si dispone di un abbonamento mensile come parte di un account Office 365.  

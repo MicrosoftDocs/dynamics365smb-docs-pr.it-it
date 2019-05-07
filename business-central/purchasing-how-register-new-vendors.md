@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802065"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930357"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 I fornitori forniscono i prodotti venduti. Ogni fornitore da cui si acquista deve essere registrato come una scheda fornitore.
@@ -53,7 +53,8 @@ Se si desidera utilizzare questa scheda fornitore come modello quando si creano 
 5. Una volta completato il nuovo modello fornitore, scegliere **OK**.  
    Il modello fornitore viene aggiunto all'elenco dei modelli fornitore, in modo che sia possibile utilizzarlo per creare nuove schede fornitore.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+[Unire record duplicati](sales-how-merge-duplicate-records.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)   

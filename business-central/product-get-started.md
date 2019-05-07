@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801570"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925995"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -41,7 +41,7 @@ Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni pr
 ## <a name="the-role-centers"></a>Gestione ruolo utente
 La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
 
-Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di setup assistiti che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di guide al setup assistito che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza Essential. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
@@ -73,7 +73,7 @@ In alternativa, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [
 
 ## <a name="getting-answers-to-questions"></a>Ottenere risposte alle domande
 
-Se non si è sicuri di come eseguire un'operazione in [!INCLUDE[d365fin](includes/d365fin_md.md)], è eventualmente possibile trovare la risposta leggendo la descrizione comando del campo o il contenuto aprendo il collegamento *Ulteriori informazioni* in una descrizione comando. È inoltre possibile accedere alla documentazione scegliendo il collegamento correlato nel menu ?.  
+Se non si è sicuri di come eseguire un'operazione in [!INCLUDE[d365fin](includes/d365fin_md.md)], è eventualmente possibile trovare la risposta leggendo la descrizione comando del campo o il contenuto aprendo il collegamento *Ulteriori informazioni* in una descrizione comando (utilizzare i tasi di scelta rapida CTRL+F1). È inoltre possibile accedere alla documentazione scegliendo il collegamento correlato nella [pagina Guida e supporto](product-help-and-support.md).  
 
 Tutti i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono descritti in descrizioni comando. È possibile accedere alle descrizioni comando scegliendo il nome del campo. Ad esempio, in una pagina come **Scheda cliente**, selezionare il nome del campo per leggere la descrizione comando. In un elenco come **Clienti** o nelle righe di un documento come un ordine di vendita, è necessario scegliere il menu a discesa a destra del nome della colonna e quindi scegliere la voce di menu **Guida rapida**.  
 
@@ -88,14 +88,16 @@ Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento
 Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] e sfruttare l'integrazione ottimale con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Benvenuto in Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Vedi anche
+
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
+[Risorse per Guida e supporto](product-help-and-support.md)  
 [Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
 [Note sulla versione di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

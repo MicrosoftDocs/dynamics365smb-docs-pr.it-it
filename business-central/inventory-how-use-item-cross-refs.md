@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/12/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 09fb7c17e2fccbd3b2ad3195cffa37493ad40f61
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ca9f31b737fbd81bd1abba2a942301d0c9c919a6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852265"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927104"
 ---
 # <a name="use-item-cross-references"></a>Utilizzare Cross reference articolo
 Se si imposta un cross-reference tra la descrizione articolo utilizzata per un articolo e la descrizione che il fornitore dell'articolo utilizza, la descrizione articolo del fornitore viene inserita automaticamente nei documenti di acquisto per il fornitore quando si compila il campo **Nr. cross-reference**   La stessa funzionalità è valida per i numeri di articolo cliente nei documenti di vendita.

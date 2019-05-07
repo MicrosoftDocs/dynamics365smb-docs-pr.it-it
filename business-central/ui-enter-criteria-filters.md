@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801979"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928071"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ricerca, filtro e ordinamento di elenchi
 La ricerca e l'individuazione di record in un elenco risultano più semplici grazie a l'ordinamento, la ricerca e il filtro. di ordinamento, ricerca e filtro. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
@@ -36,7 +36,8 @@ Per ordinare un elenco, fare clic sull'intestazione di una colonna per passare d
 >   L'ordinamento non è supportato nelle immagini, nei campi BLOB, in FlowFilter e nei campi che non appartengono a una tabella.  
 
 ## <a name="searching"></a>Ricerca
-<!--## Searching by using the Quick Filter --> Nella parte superiore di ogni pagina elenco, c'è un'icona ![Icona di ricerca](media/ui-search/search-list.png "Icona di ricerca") **Cerca** che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo quei record che contengono i dati che interessa vedere.
+<!--## Searching by using the Quick Filter -->
+Nella parte superiore di ogni pagina elenco, c'è un'icona ![Icona di ricerca](media/ui-search/search-list.png "Icona di ricerca") **Cerca** che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo quei record che contengono i dati che interessa vedere.
 
 Per cercare, è sufficiente selezionare l'icona di ricerca, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
@@ -55,27 +56,6 @@ Tuttavia, è possibile effettuare una ricerca più precisa utilizzando i seguent
 
 Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibile utilizzare la funzionalità di ricerca.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Criteri di ricerca|Trova…|
 |---------------|----------|
 |`man`<br />oppure <br />`Man`|Tutti i record con campi che contengono il testo **man**, indipendentemente dal caso. Ad esempio, **Manchester**, **manual** o **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > È possibile premere F3 per attivare e disattivare la casella di ricerca. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtro
+## <a name="Filtering"> </a>Filtri
 l filtraggio fornisce un modo più avanzato e versatile per controllare quali record vengono visualizzati in un elenco. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
 
 || **Ricerca** | **Filtri** |
@@ -97,14 +77,15 @@ l filtraggio fornisce un modo più avanzato e versatile per controllare quali re
 
 Il filtro consente di visualizzare record per account o clienti specifici, date, importi e altre informazioni specificando i criteri di filtro. Solo i record che rispondono a tali criteri vengono visualizzati. Se si specificano i criteri per più campi, verranno visualizzati solo i record che soddisfano tutti i criteri.
 
-### <a name="working-in-the-filter-pane"></a>Utilizzo del riquadro dei filtri
+### <a name="working-in-the-filter-pane"></a>Utilizzo del riquadro Filtri
+
+Per visualizzare il riquadro Filtri, selezionare ![icona riquadro Filtri](media/open-filter-pane-icon.png "Icona riquadro Filtri") nella parte superiore dell'elenco o premere **MAIUSC+F3**. Per gli elenchi all'interno di Gestione ruolo utente, è possibile anche scegliere la freccia verso il basso accanto al titolo della pagina nella barra di spostamento sopra l'elenco, quindi scegliere **Mostra riquadro Filtri**come mostrato di seguito:
+
+![Mostra riquadro Filtri](media/open-filter-pane.png "Mostra riquadro Filtri")
+
 Il riquadro dei filtri visualizza i filtri correnti per un elenco e consente di impostare i propri filtri personalizzati su uno o più campi. La figura seguente mostra un riquadro dei filtri di esempio per un elenco di offerte di vendita.
 
 ![Panoramica del riquadro Filtro ](media/filter-pane-overview.png "Icona Filtro")
-
-Per visualizzare il riquadro dei filtri, utilizzare i tasti di scelta rapida **MAIUSC+F3**. Per gli elenchi all'interno di Gestione ruolo utente, è possibile anche scegliere la freccia verso il basso accanto al titolo della pagina nella barra di spostamento sopra l'elenco, quindi scegliere **Mostra riquadro filtri**.
-
-![Mostra riquadro Filtri](media/open-filter-pane.png "Mostra riquadro Filtri")
 
 Un riquadro dei filtri è diviso in tre sezioni: **Visualizzazioni**, **Filtra elenco per** e **Filtra totali per**:
 
@@ -126,7 +107,7 @@ Un riquadro dei filtri è diviso in tre sezioni: **Visualizzazioni**, **Filtra e
   > I filtri nella sezione **Filtra totali per** sono controllati da FlowFilter nella progettazione della pagina. Per informazioni tecniche, vedere [FlowFilter](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
-### <a name="entering-filter-criteria-in-the-filter-pane"></a>Immissione dei criteri di filtro nel riquadro dei filtri
+### <a name="entering-filter-criteria-in-the-filter-pane"></a>Immissione dei criteri di filtro nel riquadro Filtri
 Per selezionare un campo da filtrare, effettuare una delle seguenti operazioni:
   - Nel riquadro dei filtri, scegliere **+ Campo**. Digitare il nome del campo che si desidera filtrare o selezionare un campo dal menu che visualizza tutti i campi nella tabella.
 
@@ -137,7 +118,7 @@ A questo punto è possibile immettere o selezionare i criteri di filtro nella ca
 Le colonne che hanno già dei filtri sono indicate dall'intestazione dall'![icona Filtro](media/ui-search/filter-icon.png "icona Filtro") nell'intestazione della colonna. Per rimuovere un filtro, selezionare l'intestazione della colonna, quindi **Cancella filtro**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Immissione dei criteri di filtro senza il riquadro dei filtri
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Immissione dei criteri di filtro senza il riquadro Filtri
 È possibile specificare semplici filtri direttamente all'interno dell'elenco senza dover utilizzare il riquadro dei filtri.
 Con qualsiasi campo selezionato su una riga, usa **ALT+F3** per visualizzare solo i record che hanno lo stesso valore. È quindi possibile selezionare un altro campo e utilizzare di nuovo gli stessi tasti di scelta rapida per continuare a perfezionare i filtri. Se il campo selezionato è già filtrato, **ALT + F3** cancellerà quel filtro.
 
@@ -248,7 +229,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 Quando si immettono i criteri di filtro, è anche possibile digitare parole che hanno un significato speciale, chiamate token di filtro. Dopo aver immesso la parola token, la parola viene sostituita dal valore o dai valori che rappresenta. Ciò semplifica il filtro riducendo la necessità di passare ad altre pagine per cercare i valori che si desidera aggiungere al filtro. Le tabelle seguenti descrivono alcuni dei token che è possibile immettere a questo scopo.
 
 > [!TIP]
-> Un'organizzazione potrebbe utilizzare token personalizzati. Per informazioni sul set completo di token disponibili o per aggiungere altri token personalizzati, contattare l'amministratore. Per informazioni tecniche vedere [Aggiunta di token di filtro](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Un'organizzazione potrebbe utilizzare token personalizzati. Per informazioni sul set completo di token disponibili o per aggiungere altri token personalizzati, contattare l'amministratore. Per informazioni tecniche vedere [Aggiunta di token di filtro](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Record assegnati all'utente

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 72538ae86b81ff80154c787ea9306fef7978d1c1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 697c040915b5117dc7aa2140a63e57b60090cd20
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801384"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925811"
 ---
 # <a name="design-details-cost-components"></a>Dettagli di progettazione: Componenti costo
 I componenti di costo sono diversi tipi di costi che compongono il valore di un aumento o di una riduzione di magazzino.  

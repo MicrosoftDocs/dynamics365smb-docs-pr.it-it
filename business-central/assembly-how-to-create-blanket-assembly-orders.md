@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Creare ordini di assemblaggio programmati | Documenti Microsoft'
-description: Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.
+description: Creare ordini di vendita programmati per articoli di assemblaggio personalizzati prima di creare periodicamente gli ordini di vendita effettivi in base al contratto degli ordini programmati.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 12/20/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 06e760f10ae1b427ebc3fb9540740f126caf2d3c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802050"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934677"
 ---
 # <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800891"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934329"
 ---
 # <a name="setting-up-inventory"></a>Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
@@ -32,12 +32,13 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |Configurare un modello di distribuzione efficiente con una combinazione di ubicazioni e centri di responsabilità diversi assegnati a impiegati o partner aziendali.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 | Organizzare le scorte presenti in più ubicazioni, inclusi i percorsi di trasferimento. |[Impostare le ubicazioni](inventory-how-register-new-items.md) |
 | Creare schedhe articolo per ogni articolo di tipo Inventario, Assistenza, non inventario trattato. |[Registrare nuovi articoli](inventory-how-register-new-items.md) |
-|Informazioni su come compilare il campo **Tipo** nelle schede articolo in base allo scopo aziendale.|[Informazioni sui tipi di articolo](inventory-about-item-types.md)| 
+|Informazioni su come compilare il campo **Tipo** nelle schede articolo in base allo scopo aziendale.|[Informazioni sui tipi di articolo](inventory-about-item-types.md)|
 |Impostare più unità di misura per un articolo che può essere utilizzato come UDM alternativa, ad esempio, nelle transazioni di vendita, acquisto o produzione.|[Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md)|
 |In aggiunta alle schede articolo, registrare le informazioni relative agli articoli in una specifica ubicazione e/o di una specifica variante.|[Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assegnare articoli alle categorie e dare loro attributi per consentire alla propria azienda e ai clienti la ricerca degli articoli. |[Classificare gli articoli](inventory-how-categorize-items.md) |
+|Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    

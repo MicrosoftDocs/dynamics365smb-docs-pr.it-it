@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8a43df89261867f80ba16782cde92b040ce180c8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801632"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925926"
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Risoluzione dei problemi di integrazione con Microsoft Flow - Richiesta di URL troppo lungo
 È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.  

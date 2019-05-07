@@ -10,23 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801315"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927520"
 ---
 # <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
-Per comprendere in che modo sono state riprogettate l'archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella.  
+Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
 
-## <a name="new-tables"></a>Nuove tabelle  
- Sono state progettate tre nuove tabelle per gestire i movimenti di set di dimensioni.  
-
-### <a name="table-480-dimension-set-entry"></a>Voce set di dimensioni tabella 480  
- Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
+## <a name="table-480-dimension-set-entry"></a>Tabella 480, Movimento set di dimensioni  
+Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +34,8 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |5|**Nome dimensione**|Testo 30|CalcField. Vedere la tabella 348.|  
 |6|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-### <a name="table-481-dimension-set-tree-node"></a>Nodo albero set di dimensioni tabella 481  
- Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
+## <a name="table-481-dimension-set-tree-node"></a>Tabella 481, Nodo albero set di dimensioni  
+Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +44,8 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |3|**ID set di dimensioni**|Nr. intero|AutoIncrement. Utilizzato nel campo 1 della tabella 480.|  
 |4|**In uso**|Booleano|False se non in uso.|  
 
-### <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482  
- Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482  
+Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -61,35 +58,32 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |7|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 |8|**Nuovo nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-## <a name="modified-tables"></a>Tabelle modificate  
- Tutte le tabelle del budget e delle transazioni sono state modificate per gestire i movimenti set di dimensioni.  
-
-### <a name="changes-to-transaction-and-budget-tables"></a>Modifiche alle Tabelle del budget e delle transazioni  
- Un nuovo campo è stato aggiunto a tutte le tabelle di budget e di transazione.  
+## <a name="transaction-and-budget-tables"></a>Tabelle del budget e delle transazioni  
+Oltre agli altri campi dimensione nella tabella, questo campo è importante:  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### <a name="changes-to-table-83-item-journal-line"></a>Modifiche alla riga registrazione magazzino della Tabella 83  
- Sono stati aggiunti due nuovi campi alla tabella 83 **Righe reg. magazzino**.  
+### <a name="table-83-item-journal-line"></a>Tabella 83, Righe reg. magazzino  
+Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 |481|**Nuovo ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### <a name="changes-to-table-349-dimension-value"></a>Modifiche al valore delle dimensioni della tabella 349  
- Un nuovo campo è stato aggiunto alla tabella 349 **Valore dimensioni**.  
+### <a name="table-349-dimension-value"></a>Tabella 349, Valore dimensioni  
+Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID valore dimensioni**|Nr. intero|AutoIncrement. Utilizzato per i riferimenti nelle tabelle 480 e 481.|  
 
-### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabelle che ottengono il nuovo campo ID set di dimensioni 480  
- Un nuovo campo, 480 **ID set di dimensioni**, è stato aggiunto alle seguenti tabelle. Per le tabelle che memorizzano i dati registrati, il campo fornisce soltanto una visualizzazione non modificabile di dimensioni, contrassegnata come drill-down. Per le tabelle che memorizzano i documenti di lavoro, il campo è modificabile. Le tabelle buffer utilizzate internamente non richiedono funzionalità modificabili o non modificabili.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabelle che contengono il campo ID set di dimensioni
+ Il campo **ID set di dimensioni** (480) esiste nelle seguenti tabelle. Per le tabelle che memorizzano i dati registrati, il campo fornisce soltanto una visualizzazione non modificabile di dimensioni, contrassegnata come drill-down. Per le tabelle che memorizzano i documenti di lavoro, il campo è modificabile. Le tabelle buffer utilizzate internamente non richiedono funzionalità modificabili o non modificabili.  
 
- Il campo 480 non può essere modificato nelle seguenti tabelle.  
+ Il campo 480 non è modificabile nelle seguenti tabelle.  
 
 |Nr. tabella|Nome tabella|  
 |---------------|----------------|  
@@ -143,7 +137,7 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |6660|**Testata carico da reso**|  
 |6661|**Riga carico da reso**|  
 
- Il campo 480 può essere modificato nelle seguenti tabelle.  
+Il campo 480 è modificabile nelle seguenti tabelle.  
 
 |Nr. tabella|Nome tabella|  
 |---------------|----------------|  
@@ -177,7 +171,7 @@ Per comprendere in che modo sono state riprogettate l'archiviazione e la registr
 |7134|**Mov. budget articoli**|  
 |99000829|**Componente Pianificazione**|  
 
- Il campo 480 è stato aggiunto alle seguenti tabelle buffer.  
+Il campo 480 esiste nelle seguenti tabelle buffer.  
 
 |Nr. tabella|Nome tabella|  
 |---------------|----------------|  

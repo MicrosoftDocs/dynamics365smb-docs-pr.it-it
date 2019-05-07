@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/22/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802171"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933934"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -37,7 +37,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
-4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
 > [!IMPORTANT]  
->  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> sarà visualizzato un errore.  
+>  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE sarà visualizzato<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> un errore.  
   
 #### <a name="to-add-an-image"></a>Per aggiungere un'immagine  
   

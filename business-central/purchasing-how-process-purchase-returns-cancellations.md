@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801216"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934372"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
@@ -42,7 +42,7 @@ Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamen
 
 |Funzione|Description|  
 |------------------|---------------------------------------|  
-|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere la sezione [Per creare un ordine di reso da acquisto sulla base di uno o più fatture di acquisto registrate](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
+|La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso acquisto**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da acquisto. Per ulteriori informazioni, vedere [Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
 |La funzione **Copia documento** nelle pagine **Nota credito acquisto** e **Ordine di reso acquisto**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità fornitori e acquisti**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di acquisto originale. In questo modo, la nota di credito di acquisto o l'ordine di reso da acquisto viene collegato al movimento di acquisto originale e l'articolo verrà valutato al costo unitario originale.

@@ -1,6 +1,6 @@
 ---
 title: Come immettere dati nei campi| Microsoft Docs
-description: Numerose funzioni generali consentono di immettere dati in modo semplice e veloce. In questo argomento sono descritte tutte le funzioni generali per l'immissione di dati.
+description: Ottenere informazioni su funzionalità generali che consentono di immettere dati nei campi.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852495"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929075"
 ---
 # <a name="entering-data"></a>Immissione di dati
-Numerose funzioni generali consentono di immettere dati in modo semplice e veloce. In questo articolo sono descritte tutte le funzioni generali per l'immissione di dati.  
 
-Gli esempi in questo articolo utilizzano dati di esempio.
+Sono disponibili numerose funzionalità generali che consentono di immettere dati più facilmente, più velocemente e in modo più preciso. In questo articolo sono descritte tutte le funzionalità generali per l'immissione di dati.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
+
+Esistono vari tasti di scelta rapida che consentono di lavorare “senza mouse" e velocizzare l'immissione di dati, in particolare con immissioni su larga scala e task di digitazione ripetitive.
+
+Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida](keyboard-shortcuts.md). Alcuni dei tasti di scelta rapida vengono discussi in questo articolo.
+
+## <a name="QuickEntry"></a>Accelerazione dell'immissione di dati utilizzando Accesso rapido
+
+Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzando la tastiera. La funzionalità di Accesso rapido viene utilizzata nei campi (come nelle pagine scheda) e negli elenchi (righe e colonne). È utile quando si eseguono task di digitazione ripetitive che richiedono la creazione di più record in sequenza, ad esempio un batch di ordini di vendita o la registrazione di nuovi articoli.
+
+È possibile che si abbia già una certa familiarità nell'utilizzo del tasto TAB per spostarsi da un campo in una pagina al campo modificabile successivo. Uno svantaggio inerente all'utilizzo del tasto TAB è che sposta sempre lo stato attivo al campo seguente in modo sequenziale. <!-- even if the field is non-editable or seldom filled it in.-->Accesso rapido funziona in un altro modo. Con Accesso rapido, si utilizza il tasto INVIO per spostarsi solo nei campi a cui si è interessati, ignorando i campi non modificabili e i campi che in genere non vengono compilati. È possibile che questo comportamento sia già stato osservato in alcune pagine. Questo perché l'applicazione designa già i campi da includere quando si preme INVIO e quali ignorare. È possibile personalizzare Accesso rapido personalizzando l'area di lavoro e ottimizzando il modo di immissione dei dati in ogni pagina.
+
+### <a name="how-quick-entry-works"></a>Funzionamento di Accesso rapido
+
+Ogni campo può essere contrassegnato come *incluso in Accesso rapido* o *escluso da Accesso rapido*. I campi inclusi in Accesso rapido verranno inclusi nel percorso quando si preme INVIO; i campi che sono esclusi da Accesso rapido, non lo saranno.
+
+Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida di Accesso rapido](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Suggerimenti e consigli
+Di seguito vengono fornite alcune informazioni utili sull'utilizzo di Accesso rapido.
+
+- È disponibile per qualsiasi campo modificabile.
+- Funziona anche con colonne e righe.
+- Non impedisce l'accesso ad altri elementi di una pagina, ad esempio le azioni. Questi sono sempre accessibili utilizzando TAB e MAIUSC+TAB.  
+- Le Schede dettaglio non devono essere espanse per utilizzare Accesso rapido. Se il campo Accesso rapido successivo si trova in una Scheda dettaglio compressa, quella scheda verrà espansa automaticamente e lo stato attivo sarà sul campo designato.
+- Il funzionamento di Accesso rapido è indipendente dal fatto che i campi siano obbligatori o meno. È quindi opportuno assicurarsi che i campi obbligatori siano inclusi in Accesso rapido.
+- Per impostazione predefinita, la maggior parte dei campi vengono automaticamente inclusi in Accesso rapido. Quindi inizialmente la task escluderà probabilmente i campi da Accesso rapido.
+
+### <a name="how-to-change-quick-entry-fields"></a>Come modificare i campi Accesso rapido
+
+Per modificare quali campi sono inclusi o esclusi da Accesso rapido in una pagina, si utilizza la personalizzazione.
+
+1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente") e quindi **Personalizza**.
+2. Selezionare un campo che si desidera modificare, o negli elenchi, selezionare l'intestazione di colonna corrispondente, quindi scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
+
+Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Campi obbligatori
+
 Quando si immettono dati nelle pagine, alcuni campi sono contrassegnati con un asterisco rosso. L'asterisco rosso significa che il campo deve essere compilato per completare un determinato processo che utilizza il campo, ad esempio registrare una transazione che utilizza il valore nel campo.  
 
 Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo prima di continuare con altri campi o chiudere la pagina. L'asterisco rosso è solo un promemoria che segnala che l'utente sarà bloccato e non potrà completare un determinato processo.  
 
+## <a name="finding-data-as-you-type"></a>Trovare dati durante la digitazione
 
-## <a name="finding-data-as-you-type"></a>Trovare dati durante la digitazione  
  Quando si inizia a digitare dei caratteri in un campo, un elenco a discesa visualizza i valori di campo possibili. L'elenco cambia se si digitano ulteriori caratteri ed è possibile selezionare il valore corretto quando viene visualizzato.  
 
  In molti campi è disponibile un pulsante Freccia GIÙ che è possibile selezionare. Facendo clic sulla freccia, è possibile ottenere un elenco di tutti i dati disponibili in un quel campo. Il pulsante ha due funzioni, a seconda del tipo di campo:  
@@ -37,32 +76,37 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 
 -   DropDown - Vengono visualizzate le scelte possibili per il campo. È possibile selezionare soltanto una delle opzioni.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Copiare e incollare campi e righe
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+È possibile copiare una o più righe da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook). In breve, per copiare, premere CTRL + C (cmd + C in macOS) sulla tastiera. Per incollare, premere CTRL + V (cmd + V in macOS).
 
--   Copy Cell  
+In un elenco, per copiare il campo nella stessa colonna della riga precedente e incollarlo nella riga corrente, premere F8.
 
--   Copy Rows  
+Per ulteriori informazioni, vedere [Copiare e incollare in Business Central](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Spostamento dello stato attivo sulle voci
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+Quando si lavora su documenti che includono la parte Voci, ad esempio un ordine di vendita o una fattura, è possibile passare a un'altra visualizzazione per spostare lo stato attivo solo sulle voci, essenzialmente espandendo la parte Voci affinché occupi l'intera area di lavoro, nascondendo altre parti della pagina ad eccezione dell'area Azioni nella parte superiore. In questo modo si ha una migliore panoramica delle voci e maggiore spazio per utilizzarle. Ciò è particolarmente utile quando si lavora con elenchi di voci di grandi dimensioni e si desidera un'immissione di dati rapida.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+Un altro vantaggio è che fornisce una funzionalità di filtro avanzata, come in altre elenchi, e quindi la ricerca nelle voci diventa più semplice.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
-#### To copy previous field  
+Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "icona Modalità stato attivo") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
 
-## <a name="entering-quantities-by-calculation"></a>Immettere quantità mediante calcolo  
- Quando si immettono numeri nei campi numerici come il campo **Quantità** in una riga di registrazione magazzino, è possibile immettere la formula invece della quantità della somma.  
+### <a name="filtering-the-line-items"></a>Filtri delle voci
 
-## <a name="examples"></a>Esempi  
+Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona riquadro Filtro") nella parte superiore dell'elenco o premere **MAIUSC+F3** per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
+
+I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Ad esempio, si supponga di aprire una fattura di vendita registrata e di filtrare le voci per visualizzare tutte quelle che hanno un singolo sconto maggiore del 5% oppure per visualizzare solo accessori per biciclette con la parola “pro" nel nome.
+
+## <a name="entering-quantities-by-calculation"></a>Immettere quantità mediante calcolo
+
+Quando si immettono numeri nei campi numerici come il campo **Quantità** in una riga di registrazione magazzino, è possibile immettere la formula invece della quantità della somma.  
+
+### <a name="examples"></a>Esempi  
 
 -   Se si immette 19+19, il valore del campo viene calcolato in 38.  
 
@@ -73,6 +117,7 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 -   Se si immette 12/4, il valore del campo viene calcolato in 3.  
 
 ## <a name="entering-negative-numbers"></a>Immettere numeri negativi
+
 È possibile immettere numeri negativi in due modi. Il numero -20,5 può essere immesso come:  
 
 -   -20,5  
@@ -85,13 +130,17 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
  Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
 
 ## <a name="entering-dates-and-times"></a>Immissione di date e ore
+
 È possibile immettere date e ore in tutti i campi riservati alle date (campi di data). È possibile immettere date con o senza separatori.
 
 > [!NOTE]  
 > La modalità di immissione di date e ore dipende dalle impostazioni di **Area geografica**. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Immissione di date  
- In un campo di data è possibile immettere due, quattro, sei o otto cifre:  
+### <a name="entering-dates"></a>Immissione di date
+
+Per i campi di date, è possibile utilizzare Selezione dati, che consente di selezionare una data da un calendario, oppure immettere manualmente le date. Questa sezione fornisce una breve panoramica della modalità di immissione di date. Per ulteriori informazioni, vedere [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md).
+
+Per l'immissione manuale di date, è possibile due, quattro, sei o otto cifre:  
 
 -   Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.  
 
@@ -99,24 +148,22 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 
 -   Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1930 e 31/12/2029, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.  
 
- È inoltre possibile immettere una data composta da un giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Lu25 o lu25, ad esempio, indica lunedì nella settimana numero 25.  
+È inoltre possibile immettere una data composta da un giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Lu25 o lu25, ad esempio, indica lunedì nella settimana numero 25.  
 
- Anziché immettere una data specifica, è possibile immettere uno dei due codici seguenti.  
+Anziché immettere una data specifica, è possibile immettere uno di questi codici.  
 
-|Codice|Risultato|  
+|Code|Risultato|  
 |--------------|----------------|  
-|t|Si tratta della data odierna (la data di sistema del computer).|  
-|w|La data di lavoro impostata nell'applicazione. Per modificare la data di lavoro, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md). Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.|  
+|t|Specifica la data odierna (la data di sistema del computer).|  
+|P|Specifica un periodo contabile, dove `p` indica il primo periodo contabile, `p2` indica il secondo periodo contabile e così via. |
+|w|Specifica la data di lavoro impostata nell'applicazione. Per modificare la data di lavoro, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md). Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.|
+|c|Indica che la data dopo `c`è una data di chiusura, ad esempio `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Immissione di ore
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+Quando si immette l'ora, è possibile inserire qualsiasi separatore tra le unità. L'immissione di un separatore è tuttavia facoltativa. Non è necessario immettere i minuti, i secondi o l'indicazione AM/PM.  
 
-## <a name="entering-times"></a>Immissione di ore  
- Quando si immette l'ora, è possibile inserire qualsiasi separatore tra le unità. L'immissione di un separatore è tuttavia facoltativa. Non è necessario immettere i minuti, i secondi o l'indicazione AM/PM.  
-
- Nella tabella seguente sono indicati i diversi formati in cui è possibile immettere l'ora e le interpretazioni corrispondenti.  
+Nella tabella seguente sono indicati i diversi formati in cui è possibile immettere l'ora e le interpretazioni corrispondenti.  
 
 |Movimento|Interpretazione|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 
  Se non si utilizza un separatore, è necessario immettere due cifre per ciascuna unità di tempo.  
 
-## <a name="entering-datetimes"></a>Immissione di date e ore  
- Quando si immettono date e ore, è necessario inserire uno spazio tra la data e l'ora.  
+## <a name="entering-datetimes"></a>Immissione di date e ore
 
- Nella tabella seguente sono elencati i vari formati in cui è possibile immettere la data e l'ora e le interpretazioni corrispondenti.  
+Quando si immettono date e ore, è necessario inserire uno spazio tra la data e l'ora.  
+
+Nella tabella seguente sono elencati i vari formati in cui è possibile immettere la data e l'ora e le interpretazioni corrispondenti.  
 
 |Movimento|Interpretazione|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 |ma 10:30|Martedì della settimana corrente 10.30.00|  
 |ma 3:3:3|Martedì della settimana corrente 03.03.03|  
 
-## <a name="entering-duration"></a>Immissione della durata  
- È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.  
+## <a name="entering-duration"></a>Immissione della durata
 
- Di seguito vengono forniti alcuni esempi.  
+È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.  
+
+Di seguito vengono forniti alcuni esempi.  
 
 |Durata|Unità di misura**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Utilizzo di formule per le date  
- Una formula di data è una breve combinazione di lettere e numeri che specifica il modo in cui calcolare le date. È possibile immettere formule per le date in diversi campi di calcolo e in campi relativi alla frequenza della ricorrenza in registrazioni periodiche.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  In tutti i campi di formula di dati, viene automaticamente incluso un giorno per coprire la data odierna come giorno di inizio del periodo. Di conseguenza, se si immette, ad esempio, 1W, il periodo è effettivamente di otto giorni perché la data odierna è inclusa. Per specificare un periodo di sette giorni (una settimana) includendo la data di inizio del periodo, è necessario immettere 6D o 1W-1D.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Di seguito vengono forniti alcuni esempi dell'utilizzo di formule per le date:  
+ Here are some examples of how date formulas can be used:  
 
--   La formula della data nel campo per la ricorrenza della frequenza nelle registrazioni periodiche indica la frequenza con cui il movimento nella riga delle registrazioni verrà registrato.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   La formula nel campo Periodo di dilazione per un livello di sollecito specifico determina il periodo di tempo che deve trascorrere dalla data di scadenza (o dalla data del sollecito precedente) alla creazione del sollecito.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   La formula nel campo Calcolo data di scadenza determina la modalità di calcolo della data di scadenza nel sollecito.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- La formula per il calcolo della data può contenere un massimo di 20 caratteri, sia numeri che lettere. È possibile utilizzare le lettere seguenti, corrispondenti ad abbreviazioni di unità di tempo diverse.  
-
-|||  
-|-|-|  
-|C|Corrente|  
-|D|Giorno/i|  
-|W|Settimana/e|  
-|M|Mese/i|  
-|Q|Trimestre/i|  
-|Y|Anno/i|  
-
- È possibile creare una formula per la data in tre modi diversi.  
-
- Nell'esempio seguente viene illustrato come corrente più un'unità di tempo.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|CW|Settimana corrente|  
-|CM|Mese corrente|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- Nell'esempio seguente viene illustrato come un numero e un'unità di tempo. Il numero non può essere maggiore di 9999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10D|10 giorni a partire da oggi|  
-|2W|2 settimane a partire da oggi|  
-
- Nell'esempio seguente viene illustrato come un'unità di tempo e un numero.  
-
-|||  
-|-|-|  
-|D10|Il successivo giorno 10 del mese|  
-|WD4|Il successivo quarto giorno della settimana (giovedì)|  
-
- Nell'esempio seguente viene mostrato come è possibile combinare i tre formati in base alle esigenze.  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|CM+10D|Mese corrente + 10 giorni|  
+|CW|Current week|  
+|CM|Current month|  
 
- Nell'esempio seguente viene illustrato come utilizzare un segno meno per indicare una data nel passato.  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1A|1 anno fa da oggi|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
-## <a name="see-also"></a>Vedi anche  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
+## <a name="see-also"></a>Vedere anche  
  [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852702"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929747"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -106,7 +106,7 @@ Rimuovere il lead time di default per i processi interni effettuando i seguenti 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manufacturing** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
 
-Creare il magazzino per i componenti di assemblaggio seguendo le istruzioni [Preparazione dei dati di esempio](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
+Creare il magazzino per i componenti di assemblaggio seguendo le istruzioni [Preparazione dei dati di esempio](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## <a name="story"></a>Scenario  
 Il 23 gennaio, Elisabetta, il gestore degli ordini di vendita, accetta un ordine dal reparto dispositivi, di tre unità del Kit B, che è un articolo di ATO. Tutte e tre le unità sono personalizzate e devono contenere la scheda grafica potente e un blocco aggiuntivo di RAM. Devono essere utilizzate unità disco migliori, i DWD, perché le unità CD non sono disponibili. Elisabetta sa che le unità possono essere assemblate immediatamente, pertanto mantiene la data di spedizione suggerita del 23 gennaio.  

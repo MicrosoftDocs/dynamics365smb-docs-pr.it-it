@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852403"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934306"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
@@ -32,7 +32,7 @@ In particolare, un layout di report imposta quanto segue:
 * Il logo della società e la relativa ubicazione.
 * Impostazioni generali della pagina, ad esempio i margini e le immagini di sfondo.
 
-Un report di [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità. È possibile utilizzare uno dei layout di report predefiniti oppure creare layout di report personalizzati e assegnarli ai report in base alle esigenze. Per ulteriori informazioni, vedere [Creare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md).
+Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità. È possibile utilizzare uno dei layout di report predefiniti oppure creare layout di report personalizzati e assegnarli ai report in base alle esigenze. Per ulteriori informazioni, vedere [Creare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md).
 
 Esistono due tipi di layout di report che è possibile utilizzare nei report: Word e RDLC.
 

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801433"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929407"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Conteggio, adeguamento e riclassificazione dell'inventario
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
 
 Sebbene tutti gli articoli a magazzino vengano conteggiati almeno una volta l'anno, potrebbe essere necessario eseguire il conteggio di determinati articoli con maggiore frequenza, ad esempio nel caso in cui abbiano acquisito maggiore valore o siano prodotti a rapido assorbimento e costituiscano buona parte dell'attività commerciale. A questo scopo, è possibile assegnare speciali periodi di conteggio agli articoli. Per ulteriori informazioni, vedere [Per eseguire il conteggio ciclico](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Se è necessario modificare gli attributi dei movimenti contabili articoli, è p
 
 ## <a name="to-perform-a-physical-inventory"></a>Per eseguire un inventario fisico
 Al termine di un anno finanziario, ma anche più spesso, è necessario elaborare un inventario fisico (ovvero conteggiare gli articoli attualmente in magazzino) per controllare se le quantità registrate corrispondono alle quantità fisiche presenti in magazzino. Se esistono differenze, queste devono essere registrate nei conti articoli prima di eseguire la valutazione di inventario.
+
+> [!NOTE]
+> Questa procedura consente come eseguire un inventario fisico utilizzando una registrazione, la pagina **Registrazioni inventario fis.**. È anche possibile eseguire il task utilizzando documenti, le pagine **Ordine inventario fisico** e **Registrazione magazzino fisico**, che forniscono maggiore controllo e supporto distribuendo il conteggio a molteplici dipendenti. Per ulteriori informazioni, vedere [Conteggiare l'inventario utilizzando documenti](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Si noti che la funzionalità basata su documenti non può essere utilizzata per conteggiare articoli in collocazioni e movimenti di warehouse.
 
 Oltre al task di conteggio fisico, il processo completo include i tre task seguenti:
 
@@ -221,7 +225,8 @@ Il seguente esempio si basa su un codice ubicazione. I passaggi sono simili per 
 
 Per informazioni sul trasferimento di articoli con controllo totale delle quantità spedite e ricevute, vedere [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+[Conteggiare l'inventario utilizzando documenti](inventory-how-count-inventory-with-documents.md)  
 [Magazzino](inventory-manage-inventory.md)
 [Gestione warehouse](warehouse-manage-warehouse.md)    
 [Vendite](sales-manage-sales.md)  

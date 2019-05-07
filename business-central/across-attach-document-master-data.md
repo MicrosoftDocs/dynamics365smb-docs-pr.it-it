@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f05d12481936e8159631e16f596710cfb13b3b6e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801800"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934562"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Allegare file a schede e documenti
 È possibile allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, nonché allegare file a tutti i tipi di documenti di acquisto e vendita.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 11/18/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 69e5f439ee8a02ae553d8b148480b655596e2951
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801572"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934608"
 ---
 # <a name="transfer-bank-funds"></a>Trasferimento di fondi bancari
 Talvolta, può anche essere necessario effettuare un bonifico da un conto corrente bancario ad un altro. A tale scopo, è necessario registrare una transazione nelle registrazioni COGE. L'attività varia a seconda se i conti correnti bancari utilizzano la stessa valuta o valute diverse.

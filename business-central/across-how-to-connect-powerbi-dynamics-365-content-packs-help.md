@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802229"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932835"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Collegare Power BI a pacchetti di contenuto di Dynamics 365 Business Central
 Ottenere informazioni approfondite sui dati di Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] è semplice con Power BI e con i pacchetti di contenuto di Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI recupera i dati e quindi sviluppa un dashboard e i report pronti per l'uso basati su tali dati.
@@ -52,29 +52,29 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Opportunità di vendita
-- Modello di Excel Visualizza società
+- Modello di Excel Visualizza socetà
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Dati finanziari**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Modello di Excel Visualizza società
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Commesse**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Lista commesse
 - Righe pianificazione commessa
 - Righe task commessa
 - Etichette report Power BI
 - Modello di Excel Visualizza società
 
-**Microsoft Dynamics 365 Business Central - Vendite**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Dashboard vendite
 - Modello di Excel Visualizza società
 - Etichette report Power BI
 
 ## <a name="list-page-reports"></a>Report pagina liste 
 
-**Microsoft Dynamics 365 Business Central – Lista clienti**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Vendite articolo per cliente
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
@@ -83,13 +83,13 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Etichette report Power BI 
 
-**Microsoft Dynamics 365 Business Central - Lista movimenti C/G**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Lista importo C/G Power BI
 - Importo a budget C/G Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista articoli**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Vendite articolo per cliente
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
@@ -97,23 +97,23 @@ Per importare i dati di [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista commesse**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Lista commesse Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista fatture di acquisto**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Lista acquisti Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
-**Microsoft Dynamics 365 Business Central – Lista ordini di vendita**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Lista vendite Power BI
 - ExcelTemplateViewCompany
 - Etichette report Power BI
 
 
-**Microsoft Dynamics 365 Business Central – Lista fornitori**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Lista acquisti articolo Power BI
 - Lista vendite articolo Power BI
 - Lista fornitori  Power BI

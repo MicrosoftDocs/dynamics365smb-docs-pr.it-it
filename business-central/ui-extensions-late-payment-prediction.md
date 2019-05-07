@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802038"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935805"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Creare un modello predittivo personalizzato
 Per creare un modello predittivo personalizzato, è possibile utilizzare Azure Machine Learning Studio per definire un proprio modello predittivo e utilizzarlo in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per utilizzare il proprio modello, è necessaria una sottoscrizione ad Azure Machine Learning. Per ulteriori informazioni, vedere la [documentazione di Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Tuttavia, è disponibile un modo più semplice per creare e utilizzare il modello predittivo personalizzato. È possibile condividere i dati delle fatture con il sistema sperimentale predittivo in Azure Machine Learning e lasciare che il sistema sperimentale crei e formi un modello predittivo basato sui dati aziendali forniti. Per condividere i tuoi dati, nella pagina **Impostazione previsione pagamento ritardato**, selezionare l' azione **Crea modello personale**. In seguito, le previsioni si baseranno sul modello personalizzato e sui dati aziendali e non sui dati standard.  
+Tuttavia, è disponibile un modo più semplice per creare e utilizzare il modello predittivo personalizzato. È possibile condividere i dati delle fatture con il [sistema sperimentale predittivo per Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) in Azure Machine Learning e lasciare che il sistema sperimentale crei e formi un modello predittivo basato sui dati aziendali forniti. Per condividere i tuoi dati, nella pagina **Impostazione previsione pagamento ritardato**, selezionare l' azione **Crea modello personale**. In seguito, le previsioni si baseranno sul modello personalizzato e sui dati aziendali e non sui dati standard.  
 
 > [!Note]
 >   La qualità del modello è importante. Quando il sistema predittivo sperimentale usa i dati per preparare un modello, determina un valore di qualità per il modello come percentuale. La qualità del modello indica l'accuratezza delle previsioni del modello. Numerosi fattori possono influire sulla qualità di un modello. Ad esempio, questi fattori potrebbero essere una quantità insufficiente di dati oppure dati senza variazioni sufficienti. È possibile visualizzare la qualità del modello attualmente in uso nella pagina **Impostazione previsione pagamento ritardato**. È inoltre possibile specificare una soglia minima per la qualità del modello. I modelli con un valore di qualità inferiore alla soglia non produrranno previsioni.  

@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852242"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926892"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
@@ -39,7 +39,7 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 |Apprendere a come interagire con Excel da qualsiasi elemento di [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Visualizzazione e modifica in Excel](across-work-with-excel.md)|
 |Ricevere notifiche su determinati eventi o modifiche dello stato, ad esempio quando si sta per fatturare un cliente con un saldo scaduto.|[Gestione delle notifiche](ui-smart-notifications.md)|
 | Modificare le impostazioni di base come la società, la data di lavoro e la Gestione ruolo utente. |[Modifica delle impostazioni di base](ui-change-basic-settings.md) |
-| Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società. |[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Modificare quali elementi dell'interfaccia utente vengono modificati e dove in base alle proprie preferenze.|[Personalizzazione dell'area di lavoro](ui-personalization-user.md) |
 |Definire, visualizzare in anteprima, stampare ed eseguire processi batch.|[Utilizzo di report e processi batch](ui-work-report.md)|
 | Gestire il contenuto e il formato di report e documenti, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro.|[Gestione dei layout di report e documento](ui-manage-report-layouts.md) |
 |Ottenere informazioni sulle funzionalità che facilitano l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] da parte di persone disabili.|[Accessibilità e tasti di scelta rapida](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Di seguito un breve video su come esplorare [!INCLUDE[d365fin](includes/d365fin_
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

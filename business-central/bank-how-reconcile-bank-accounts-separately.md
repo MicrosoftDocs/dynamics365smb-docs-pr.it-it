@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800974"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932034"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Riconciliare i conti correnti bancari separatamente
 Per riconciliare i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con i rendiconti ricevuti dalla banca, è necessario innanzitutto compilare il riquadro a sinistra nella pagina **Riconciliazioni C/C bancari** con le informazioni sul rendiconto bancario che è possibile associare (riconciliare) ai movimenti contabili del conto corrente bancario nel riquadro a destra. Un metodo efficace per compilare le righe del rendiconto è è importare un feed o file di un rendiconto bancario.
