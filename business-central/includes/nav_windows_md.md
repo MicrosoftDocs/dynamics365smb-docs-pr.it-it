@@ -1,0 +1,1 @@
+Client Dynamics NAV connesso a Business Central

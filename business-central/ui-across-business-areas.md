@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853096"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939464"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
@@ -40,6 +40,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 |Allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, e allegare file a tutti i tipi di documenti di acquisto e vendita.|[Allegare file a schede e documenti](across-attach-document-master-data.md)|
 |Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)|
 |Capire cosa accade scegliendo l'azione **Registra**.|[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)|
+|Esaminare i risultati di una registrazione prima di eseguirla.|[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)| 
 |Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
 | Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|

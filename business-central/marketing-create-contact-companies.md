@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801002"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938967"
 ---
-# <a name="creating-contacts"></a>Creazione di contatti
-La società si incontra regolarmente con altre società con le quali svilupperà in futuro relazioni commerciali. Quando si stabilisce un nuovo contatto, è necessario registrare queste informazioni affinché la comunicazione possa continuare.
+# <a name="create-contacts"></a>Crea contatti
+Si incontrano regolarmente persone di altre società che possono diventare relazioni d'affari, ad esempio relazioni con i clienti. In caso di nuovo contatto, è necessario registrare il maggior numero di informazioni su una scheda contatti affinché la comunicazione possa continuare.
 
-L'assegnazione del numero più elevato possibile di dati su una determinata società è garanzia di una comunicazione efficiente. Ad esempio, assegnando il settore industriale rilevante, le società specifiche verranno incluse nelle comunicazioni pertinenti. È inoltre possibile definire la relazione d'affari con un contatto. Ad esempio, un contatto potrebbe essere una banca, un potenziale cliente o un terzista.
+## <a name="person-or-company"></a>Persona o società
+È possibile decidere di configurare un contatto come persona o società, in genere a seconda se si conosce il nome della persona contatto al momento della creazione. Si esegue questa operazione quando si immette il valore del campo **Tipo** nella pagina **Scheda contatto**. È inoltre possibile mantenere schede contatti per una società e per una o più persone che lavorano nella società. Ciò avviene automaticamente quando si immette un valore nel campo **Nome Società** nella scheda contatti di tipo **Persona**.
 
-> [!NOTE]
-> Nel campo **Tipo** nella pagina **Scheda contatto**, è possibile impostare un contatto come persona o società, in genere a seconda se si conosce il nome della persona contatto al momento della creazione. La funzionalità è la stessa per entrambi i tipi, ad eccezione di alcuni tipi di informazioni aggiuntivi che è possibile assegnare. Successivamente sarà possibile modificare il valore del campo, oppure utilizzare i campi nella Scheda dettaglio **Eredità** nella pagina **Setup marketing** per verificare quali dati sono condivisi tra una persona e la società correlata.
-
-È possibile creare una scheda contatto per ogni nuova persona o società con cui si interagisce, ad esempio cliente, fornitore, potenziale cliente, banca, studio legale, consulente e così via.
-
-Un contatto può essere creato in due modi:
- * Manualmente.
- * Da un cliente, fornitore o conto bancario esistente.
+La funzionalità è la stessa per entrambi i tipi, salvo che le opzioni per ulteriori informazioni cambiano a seconda del tipo. Ad esempio, è possibile assegnare solo ruoli professionali a una persona e un settore industriale a una società. Ciò è indicato nell'interfaccia utente mediante la disattivazione di campi e azioni non applicabili. Successivamente sarà possibile modificare il valore del campo **Type**, oppure utilizzare i campi nella Scheda dettaglio **Eredità** nella pagina **Setup marketing** per verificare quali dati sono condivisi tra una persona e la società ad essa correlata. Per ulteriori informazioni, vedere [Impostazione di contatti](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Per creare un contatto manualmente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.

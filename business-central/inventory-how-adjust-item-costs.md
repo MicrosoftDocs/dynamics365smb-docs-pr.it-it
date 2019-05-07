@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800966"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941682"
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
 Il costo di un articolo (valore di magazzino) che si acquista e in seguito si vende può variare nel tempo, ad esempio perché un costo di spedizione viene aggiunto al costo di acquisto dopo che è stato venduto l'articolo. La rettifica dei costi è un'operazione particolarmente importante nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Per conoscere sempre il valore di magazzino corretto, i costi degli articoli devono quindi essere regolarmente rettificati. In questo modo si garantisce che le statistiche relative ai margini siano aggiornate e che gli indicatore KPI finanziari siano corretti. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)]i costi degli articoli vengono ret
 
 È inoltre possibile utilizzare una funzione che consente di rettificare manualmente i costi di uno o più articoli. Ciò risulta utile, ad esempio, quando si è certi che i costi degli articoli vengono modificati per motivi diversi dalle transazioni dell'articolo.
 
-I costi dell'articolo vengono rettificati dal metodo di costing FIFO o Media, a seconda dell'opzione selezionata nel setup assistito **Imposta società** o nel campo **Metodo di costing** della scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
+I costi dell'articolo vengono rettificati dal metodo di costing FIFO o Media, a seconda dell'opzione selezionata nella guida al setup assistito **Imposta società** o nel campo **Metodo di costing** della scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 Se si utilizza il metodo di costing FIFO, il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo. Il magazzino viene valutato presupponendo che il primo articolo posizionato nel magazzino venga venduto per primo.
 

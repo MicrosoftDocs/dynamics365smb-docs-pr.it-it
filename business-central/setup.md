@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852081"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969834"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
@@ -27,7 +27,7 @@ Da Gestione ruolo utente è possibile accedere a guide al setup assistito che ai
 > [!NOTE]
 > È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Alcune funzionalità, generali o per processi aziendali specifici, possono essere impostate manualmente oltre che tramite setup assistito. Di seguito sono elencate alcune funzionalità che è possibile impostare manualmente.
+Alcune funzionalità, generali o per processi aziendali specifici, possono essere impostate manualmente oltre che tramite la guida al setup assistito. Di seguito sono elencate alcune funzionalità che è possibile impostare manualmente.
 
 | Per | Vedere |
 | --- | --- |
@@ -48,7 +48,7 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Ottenere informazioni sui dati Business Central con Power BI e pacchetti di contenuto di Business Central.|[Abilitare i dati aziendali per Power BI](admin-powerbi.md)|
 |Utilizzare i dati di Business Central come parte di un flusso di lavoro in Microsoft Flow.|[Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)|
 |Rendere i dati di Business Central disponibili come origine dati in PowerApps.|[Collegamento ai dati Business Central per creare un'app aziendale utilizzando PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Utilizzare le guide di migrazione di Quickbooks dedicate.|[Passare da un'app di QuickBooks a Microsoft Business Central](across-quickbooks-to-business-edition.md)|
+|Utilizzare le guide di migrazione di Quickbooks dedicate.|[Passare da un'app di QuickBooks a Business Central](across-quickbooks-to-business-edition.md)|
 |Accedere ai dati di Business Central dal dispositivo mobile.|[Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)|
 |Eseguire la fatturazione in blocco di appuntamenti creati in Prenotazioni.|[Fatturazione in blocco per Microsoft Bookings](finance-bookings.md)|
 |Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Impostare la posta elettronica manualmente o tramite il setup assistito](admin-how-setup-email.md)|
@@ -58,18 +58,18 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Amministrazione](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Vedi anche
+
 [Amministrazione](admin-setup-and-administration.md)  
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Magazzino](inventory-manage-inventory.md)    
+[Magazzino](inventory-manage-inventory.md)  
 [Gestione progetti](projects-manage-projects.md)  
-[Cespiti](fa-manage.md)    
+[Cespiti](fa-manage.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Amministrazione](admin-setup-and-administration.md)  
 [Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Introduzione](product-get-started.md)  
 

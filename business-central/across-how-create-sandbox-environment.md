@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 02/15/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "801732"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937948"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -38,8 +38,7 @@ Per poter creare un ambiente sandbox, è necessario possedere una sottoscrizione
 
 5. Scegliere **Ulteriori informazioni** per leggere informazioni sugli scenari che è possibile provare in un ambiente sandbox. In alternativa scegliere **Chiudi** per passare al servizio Gestione ruolo utente dell'istanza sandbox di [!INCLUDE[d365fin](includes/d365fin_md.md)].
 6. Nella parte superiore di Gestione ruolo utente viene visualizzato un avviso che informa che ci si trova in un ambiente sandbox. È possibile vedere il tipo di ambiente anche nella barra del titolo del client.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
-Nell'ambiente sandbox è stato creato un tenant nuovo. Questo tenant viene caricato con i dati di esempio di default relativi alla società CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione durante la creazione dell'ambiente sandbox.
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> Nell'ambiente sandbox è stato creato un tenant nuovo. Questo tenant viene caricato con i dati di esempio di default relativi alla società CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione durante la creazione dell'ambiente sandbox.
 
 7. È possibile tornare in qualsiasi momento nella pagina **Ambiente sandbox** e reimpostare l'ambiente sandbox.
 > [!NOTE]  
