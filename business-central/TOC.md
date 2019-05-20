@@ -1,5 +1,6 @@
-# [Introduzione](product-get-started.md)
 # [Benvenuto su Business Central](index.md)
+# Introduzione
+## [Sintesi](product-get-started.md)
 ## [Novità](product-news.md)
 ## [Requisiti minimi](product-requirements.md)
 ## [Domande frequenti](across-faq.md)
@@ -13,9 +14,10 @@
 ## [Visitare la videoteca](across-videos.md)
 ## [Diventare un rivenditore](product-sell.md)
 ## [Estensione di Business Central](about-develop-extensions.md)
-### [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
+## [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
 
-# [Utilizzo di Business Central](ui-work-product.md)
+# Utilizzo di Business Central
+## [Sintesi](ui-work-product.md)
 ## [Individuazione di funzionalità e informazioni](ui-search.md)
 ## [Domande frequenti relative alle informazioni](ui-search-faq.md)
 ## [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)
@@ -28,27 +30,33 @@
 ## [Visualizzazione e modifica in Excel](across-work-with-excel.md)  
 ## [Gestione delle notifiche](ui-smart-notifications.md)
 ## [Modifica delle impostazioni di base](ui-change-basic-settings.md)
-## [Personalizzazione dell'area di lavoro](ui-personalization-user.md)
+## Personalizzazione di Business Central
+### [Personalizzazione dell'area di lavoro](ui-personalization-user.md)
 ### [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md)
 ### [Visualizzazione delle liste con modalità diverse](across-display-lists-different-views.md)
-## [Utilizzo di report e processi batch](ui-work-report.md)
+## Stampa di report ed esecuzione di processi batch
+### [Utilizzo di report e processi batch](ui-work-report.md)
 ### [Specificare la selezione della stampante per i report](ui-specify-printer-selection-reports.md)
 ### [Programmare l'esecuzione di un report o di un processo batch](ui-work-report.md#ScheduleReport)
 ### [Gestione impostazioni salvate nei report](reports-saving-reusing-settings.md)
 ### [Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md)
 ### [Eseguire i processi batch](ui-how-run-batch-jobs.md)
-## [Gestione dei layout di report e documento](ui-manage-report-layouts.md)
+## Modifica dell'aspetto dei documenti
+### [Gestione dei layout di report e documento](ui-manage-report-layouts.md)
 ### [Aggiornamento dei layout di report o documento](ui-update-report-layouts.md)
 ### [Modifica di un layout di report Word](ui-how-create-custom-report-layout.md)
 ### [Importare ed esportare un layout di report o documento](ui-how-import-and-export-report-layout.md)
 ### [Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md)
 ### [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md)
-## [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
+## Utilizzo dei tasti di scelta rapida
+### [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
 ### [Tasti di scelta rapida](keyboard-shortcuts.md)
 ### [Riferimento rapido per tasti di scelta rapida](keyboard-shortcuts-cheatsheet.md)
 
-# [Impostazione di Business Central](setup.md)
-## [Impostazione di dati finanziari](finance-setup-finance.md)
+# Impostazione di Business Central
+## [Sintesi](setup.md)
+## Impostazione di dati finanziari
+### [Sintesi](finance-setup-finance.md)
 ### [Definizione dei metodi di pagamento](finance-payment-methods.md)
 ### [Impostazione delle categorie di registrazione](finance-posting-groups.md)
 ### [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)
@@ -65,16 +73,17 @@
 ### [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)
 ### [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)
 ### [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)
-### [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
 ### [Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)
 
-## [Impostazione delle attività bancarie](bank-setup-banking.md)
+## Impostazione delle attività bancarie
+### [Sintesi](bank-setup-banking.md)
 ### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
-### [Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
+### [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
 ### [Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md)
 ### [Definire i layout degli assegni](finance-how-define-check-layouts.md)
 
-## [Setup Vendite](sales-setup-sales.md)
+## Setup Vendite
+### [Sintesi](sales-setup-sales.md)
 ### [Registrare nuovi clienti](sales-how-register-new-customers.md)
 ### [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md)
 ### [Registrare i prezzi di vendita e gli sconti speciali](sales-how-record-sales-price-discount-payment-agreements.md)
@@ -83,13 +92,15 @@
 ### [Inviare documenti via e-mail](ui-how-send-documents-email.md)
 ### [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)
 
-## [Impostazioni acquisti](purchasing-setup-purchasing.md)
+## Impostazioni acquisti
+### [Sintesi](purchasing-setup-purchasing.md)
 ### [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)
 ### [Registrare i prezzi di acquisto e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### [Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md)
 ### [Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md)
 
-## [Impostazione del magazzino](inventory-setup-inventory.md)
+## Impostazione del magazzino
+### [Sintesi](inventory-setup-inventory.md)
 ### [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)
 ### [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)
 ### [Impostare le ubicazioni](inventory-how-setup-locations.md)
@@ -100,19 +111,22 @@
 ### [Classificare gli articoli](inventory-how-categorize-items.md)
 ### [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)
 
-## [Impostazione della Gestione progetti](projects-setup-projects.md)
+## Impostazione della Gestione progetti
+### [Sintesi](projects-setup-projects.md)
 ### [Impostare risorse](projects-how-setup-resources.md)
 ### [Impostare fogli presenze](projects-how-setup-time-sheets.md)
 ### [Impostazione di commesse](projects-how-setup-jobs.md)
 
-## [Impostazione di cespiti](fa-setup.md)
+## Impostazione di cespiti
+### [Sintesi](fa-setup.md)
 ### [Impostare i valori generali per i cespiti](fa-how-setup-general.md)
 ### [Impostare l'ammortamento dei cespiti](fa-how-setup-depreciation.md)
 ### [Definire metodi di ammortamento](fa-depreciation-methods.md)
 ### [Impostare l'assicurazione cespiti](fa-how-setup-insurance.md)
 ### [Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md)
 
-## [Impostazione gestione warehouse](warehouse-setup-warehouse.md)
+## Impostazione gestione warehouse
+### [Sintesi](warehouse-setup-warehouse.md)
 ### [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)
 ### [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md)
 ### [Creare collocazioni](warehouse-how-to-create-individual-bins.md)
@@ -129,7 +143,8 @@
 ### [Abilitare sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)
 
-## [Impostazione della produzione](production-configure-production-processes.md)
+## Impostazione della produzione
+### [Sintesi](production-configure-production-processes.md)
 ### [Creare calendari delle aree di produzione](production-how-to-create-work-center-calendars.md)
 ### [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)
 ### [Creare cicli](production-how-to-create-routings.md)
@@ -140,7 +155,8 @@
 ### [Impostare righe di ciclo standard](production-how-set-up-standard-routing-lines.md)
 ### [Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)
 
-## [Impostazione della gestione assistenza](service-setup-service.md)
+## Impostazione della gestione assistenza
+### [Sintesi](service-setup-service.md)
 ### [Creare articoli in assistenza](service-how-to-create-service-items.md)
 ### [Impostare codici di servizio standard](service-how-setup-service-coding.md)
 ### [Configurazione dei processi di assistenza](service-setup-service-processes.md)
@@ -155,39 +171,44 @@
 ### [Impostazione di un programma di prestito articoli](service-how-setup-loaner-program.md)
 ### [Impostare i contratti di assistenza](service-how-setup-service-contracts.md)
 
-## [Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)
-### [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)
-### [Impostare le procedure ottimali: Pianificazione dei parametri](setup-best-practices-planning-parameters.md)
-### [Impostare le procedure ottimali: Setup di pianificazione globale](setup-best-practices-global-planning-setup.md)
-#### [Impostare le procedure ottimali: metodi di riordino](setup-best-practices-reordering-policies.md)
+## Impostazione di aree di applicazione complesse utilizzando le procedure ottimali
+### [Sintesi](set-up-complex-application-areas-using-best-practices.md)
+### Impostare le procedure ottimali: Pianificazione forniture
+#### [Sintesi](setup-best-practices-supply-planning.md)
 #### [Impostare le procedure ottimali: Pianificazione dei parametri](setup-best-practices-planning-parameters.md)
 #### [Impostare le procedure ottimali: Setup di pianificazione globale](setup-best-practices-global-planning-setup.md)
+#### [Impostare le procedure ottimali: metodi di riordino](setup-best-practices-reordering-policies.md)
 ### [Impostare le procedure ottimali: metodi di costing](setup-best-practices-costing-method.md)
-### [Impostare le procedure ottimali: metodi di riordino](setup-best-practices-reordering-policies.md)
 
-## [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
+## Impostazione una società con RapidStart Services
+### [Sintesi](admin-set-up-a-company-with-rapidstart.md)
 ### [Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
-### [Impostare la configurazione della società](admin-set-up-company-configuration.md)
+### Impostazione della configurazione della società
+#### [Sintesi](admin-set-up-company-configuration.md)
 #### [Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md)
 #### [Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)
-### [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)
+### Applicazione delle configurazioni a nuove società
+#### [Sintesi](admin-apply-configuration-to-new-companies.md)
 #### [Creare una nuova società](admin-how-to-create-a-new-company.md)
 #### [Configurare nuove società](admin-how-to-configure-new-companies.md)
-#### [Configurare una società con la procedura guidata RapidStart Services](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
+#### [Configurare una società con la procedura guidata RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
 #### [Copiare i dati in nuove società](admin-how-to-copy-data-to-new-companies.md)
 #### [Creare bilanci di apertura delle registrazioni](admin-how-to-create-journal-opening-balances.md)
 ### [Raggruppare i dati di setup del cliente](admin-gather-customer-setup-values.md)
 ### [Preparazione per la migrazione dei dati dei clienti](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md)
 ### [Creare pacchetti di configurazione di società personalizzati](admin-how-to-create-custom-company-configuration-packages.md)
-### [Suggerimenti e trucchi: Servizi di RapidStart](admin-tips-and-tricks-rapidstart-services.md)
-## [Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)
+### [Suggerimenti e consigli: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
+## Utilizzo di Outlook con Business Central
+### [Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)
 ### [Eseguire la sincronizzazione con i contatti di Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Utilizzo di Business Central senza Outlook](admin-no-outlook.md)
-## [Abilitare i dati aziendali per Power BI](admin-powerbi.md)
+## Utilizzo di Power BI con Business Central
+### [Abilitare i dati aziendali per Power BI](admin-powerbi.md)
 ### [Visualizzazione dei dati degli elenchi nei report Power BI in Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)
-## [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)
+## Utilizzo di Flow con Business Central
+### [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)
 ### [Risoluzione dei problemi di integrazione con Microsoft Flow - Richiesta di URL troppo lungo](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Collegamento ai dati Business Central per creare un'app aziendale utilizzando PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Passare da un'app di QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
@@ -199,7 +220,8 @@
 ## [Creazioni di numerazioni](ui-create-number-series.md)
 ## [Impostazione di calendari di base](across-how-to-assign-base-calendars.md)
 
-# [Funzionalità aziendali generali](ui-across-business-areas.md)
+# Funzionalità aziendali generali
+## [Sintesi](ui-across-business-areas.md)
 ## [Aggiungere commenti a schede o documenti](across-how-use-comments.md)
 ## [Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)
 ## [Inviare documenti via e-mail](ui-how-send-documents-email.md)
@@ -215,7 +237,71 @@
 ## [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)
 ## [Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)
 
-# [Amministrazione](admin-setup-and-administration.md)
+## Documenti in entrata
+### [Sintesi](across-income-documents.md)
+### [Impostare documenti in entrata](across-how-setup-income-documents.md)
+### Elaborazione di documenti in entrata
+#### [Sintesi](across-process-income-documents.md)
+#### [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
+#### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
+#### [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)
+#### [Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md)
+#### [Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md)
+
+## Workflow
+### [Sintesi](across-workflow.md)
+### Impostazione dei workflow
+#### [Sintesi](across-set-up-workflows.md)
+#### [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)
+#### [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)
+#### [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)
+#### [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)
+#### [Impostare la posta elettronica](admin-how-setup-email.md)
+#### [Creare i workflow](across-how-to-create-workflows.md)
+#### [Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)
+#### [Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
+### Utilizzo dei workflow
+#### [Sintesi](across-use-workflows.md)
+#### [Abilitare i workflow](across-how-to-enable-workflows.md)
+#### [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)
+#### [Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)
+#### [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)
+#### [Eliminare i workflow](across-how-to-delete-workflows.md)
+
+## Scambio di dati in modalità elettronica
+### [Sintesi](across-data-exchange.md)
+### [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)
+### Impostazione dello scambio di dati
+#### [Sintesi](across-set-up-data-exchange.md)
+#### [Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md)
+#### [Impostare documenti in entrata](across-how-setup-income-documents.md)
+#### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
+#### [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)
+#### [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md)
+#### [Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)
+#### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
+#### [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+#### [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)
+### Scambio di dati
+#### [Sintesi](across-exchange-data.md)
+#### [Inviare documenti elettronici](sales-how-to-send-electronic-documents.md)
+#### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
+#### [Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)
+#### [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+#### [Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)
+#### [Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
+#### [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
+#### [Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
+# Setup
+## [Sintesi](admin-setup-and-administration.md)
 ## [Informazioni su profili e Gestioni ruolo utente](admin-users-profiles-roles.md)
 ## [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)
 ## [Classificazione di dati riservati](admin-classifying-data-sensitivity.md)
@@ -230,29 +316,33 @@
 ## [Estendere la versione di valutazione](admin-extend-trial.md)
 ## [Controllo di pagine](across-inspect-page.md)
 ## [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md)
-## [Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrazione con Dynamics 365 for Sales
+### [Sintesi](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Impostazione dell'integrazione con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Impostare una connessione di Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizzazione di Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-## [Personalizzazione di Business Central](ui-customizing-overview.md)
-### [Personalizzazione utilizzando le estensioni](ui-extensions.md)
+## Personalizzazione di Business Central
+### [Sintesi](ui-customizing-overview.md)
+### Personalizzazione utilizzando le estensioni
+#### [Sintesi](ui-extensions.md)
+#### [Personalizzazione utilizzando le estensioni](ui-extensions.md)
 #### [Registro paga di Ceridian](ui-extensions-ceridian-payroll.md)
 #### [Replica dei dati](ui-extensions-data-replication.md)
 #### [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
 #### [Informazioni aziendali essenziali](ui-extensions-essential-business-insights.md)
 #### [Analisi di immagini](ui-extensions-image-analyzer.md)
 #### [Cloud intelligente](ui-extensions-intelligent-cloud.md)
-#### [Pagamenti di Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+#### [Pagamenti Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)
 #### [Migrazione dei dati di QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 #### [Retribuzioni di QuickBooks](ui-extensions-quickbooks-payroll.md)
 #### [Previsione vendite e magazzino](ui-extensions-sales-forecast.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [Feed bancari di Yodlee](ui-extensions-yodlee-bank-feeds.md)
+#### [Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Portale contabile per Business Central](ui-extensions-accountant-portal.md)
 #### [DK - Migrazione dati C5](ui-extensions-c5-data-migration.md)
 #### [DK - Formati di file .tax](ui-extensions-tax-file-formats-dk.md)
@@ -262,9 +352,12 @@
 ### [Gestione della personalizzazione come amministratore](ui-personalization-manage.md)
 ### [Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)
 
-# [Finanze](finance.md)
-## [Gestione della contabilità clienti](receivables-manage-receivables.md)
-### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+# Contabilità
+## [Sintesi](finance.md)
+## Gestione della contabilità clienti
+### [Sintesi](receivables-manage-receivables.md)
+### Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
+#### [Sintesi](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)
 #### [Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md)
 #### [Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -278,8 +371,10 @@
 ### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
 
-## [Gestione della contabilità fornitori](payables-manage-payables.md)
-### [Effettuare i pagamenti](payables-make-payments.md)
+## Gestione della contabilità fornitori
+### [Sintesi](payables-manage-payables.md)
+### Effettuare i pagamenti
+#### [Sintesi](payables-make-payments.md)
 #### [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)
 #### [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)
 #### [Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md)
@@ -287,7 +382,8 @@
 #### [Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Esportare un file Positive Pay](finance-how-positive-pay.md)
-### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
+#### [Sintesi](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)
 #### [Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md)
 #### [Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -302,22 +398,26 @@
 ### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
 
-## [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)
+## Fatturazione dei pagamenti anticipati
+### [Sintesi](finance-invoice-prepayments.md)
 ### [Impostare i pagamenti anticipati](finance-set-up-prepayments.md)
 ### [Creare fatture per i pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)
 ### [Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)
 
-## [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)
+## Gestione di conti correnti bancari
+### [Sintesi](bank-manage-bank-accounts.md)
 ### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)
 
-## [Gestione delle transazioni Intercompany](intercompany-manage.md)
+## Gestione delle transazioni Intercompany
+### [Sintesi](intercompany-manage.md)
 ### [Impostare la contabilità interaziendale](intercompany-how-setup.md)
 ### [Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)
 ### [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)
 
-## [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
+## Contabilizzazione dei costi
+### [Sintesi](finance-manage-cost-accounting.md)
 ### [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)
 ### [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
 ### [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)
@@ -326,7 +426,8 @@
 ### [Creazione di budget di costi](finance-create-cost-budgets.md)
 ### [Eliminare movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)
 
-## [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)
+## Gestione dei costi di magazzino
+### [Sintesi](finance-manage-inventory-costs.md)
 ### [Informazioni sul costing di magazzino](finance-learn-about-costing.md)
 ### [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)
 ### [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
@@ -338,11 +439,14 @@
 ### [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)
 ### [Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)
 ### [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-### [Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+### Creazione di report dei costi e riconciliazione con la contabilità generale
+#### [Sintesi](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 #### [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 #### [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)
 
-## [Chiusura di anni e periodi](year-close-years-periods.md)
+## Chiusura di anni e periodi
+### [Sintesi](year-close-years-periods.md)
+### [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)
 ### [Specificare i periodi di registrazione](finance-how-specify-posting-periods.md)
 ### [Periodi di chiusura](year-how-complete-period-end-processes.md)
 ### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
@@ -355,10 +459,7 @@
 ### [Chiudere il conto economico](year-close-income-statement.md)
 ### [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)
 
-## [Esperienze contabile in Business Central](finance-accounting.md)
-### [Invitare il contabile esterno in Business Central](finance-invite-external-accountant.md)  
 ## [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)
-## [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)
 ## [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
 ## [Utilizzo delle dimensioni](finance-dimensions.md)
 ## [Creare budget C/G](finance-how-create-budgets.md)
@@ -368,15 +469,18 @@
 ## [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)
 ## [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
 ## [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
+## [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
 ## [Importa transazioni retribuzioni](finance-how-import-payroll-transactions.md)
-## [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)
 ## [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
+## [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)
 ## [Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)
-## [Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md)
 ## [Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md)
 ## [Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## [Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md)
+## [Esperienze contabile in Business Central](finance-accounting.md)
 
-# [Business Intelligence](bi.md)
+# Business Intelligence
+## [Sintesi](bi.md)
 ## [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)
 ## [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)
 ## [Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -384,7 +488,8 @@
 ## [Creare report di analisi](bi-how-create-analysis-views-reports.md)
 ## [Creare report con XBRL](bi-create-reports-with-xbrl.md)
 
-# [Vendite](sales-manage-sales.md)
+# Vendite
+## [Sintesi](sales-manage-sales.md)
 ## [Registrare nuovi clienti](sales-how-register-new-customers.md)
 ## [Creare offerte di vendita](sales-how-make-offers.md)
 ## [Fatturare le vendite](sales-how-invoice-sales.md)
@@ -403,7 +508,8 @@
 ## [Creare una previsione](production-how-to-create-a-forecast.md)
 ## [Unire record duplicati](sales-how-merge-duplicate-records.md)
 
-# [Acquisti](purchasing-manage-purchasing.md)
+# Acquisti
+## [Sintesi](purchasing-manage-purchasing.md)
 ## [Registrare gli acquisti](purchasing-how-record-purchases.md)
 ## [Richiedere le offerte](purchasing-how-request-quotes.md)
 ## [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)
@@ -415,7 +521,8 @@
 ## [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)
 ## [Unire record duplicati](sales-how-merge-duplicate-records.md)
 
-# [Magazzino](inventory-manage-inventory.md)
+# Inventario
+## [Sintesi](inventory-manage-inventory.md)
 ## [Registrare nuovi articoli](inventory-how-register-new-items.md)
 ## [Utilizzare le distinte base](inventory-how-work-BOMs.md)
 ## [Classificare gli articoli](inventory-how-categorize-items.md)
@@ -432,7 +539,8 @@
 ## [Bloccare gli articoli](inventory-how-block-items.md)
 ## [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)
 
-# [Gestione progetti](projects-manage-projects.md)
+# Gestione progetti
+## [Sintesi](projects-manage-projects.md)
 ## [Creare commesse](projects-how-create-jobs.md)
 ## [Utilizzare le risorse per le commesse](projects-how-use-resources.md)
 ## [Utilizzare i fogli presenze per le commesse](projects-how-use-time-sheets.md)
@@ -443,7 +551,8 @@
 ## [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)
 ## [Fatturazione di commesse](projects-how-invoice-jobs.md)
 
-# [Cespiti](fa-manage.md)
+# Cespiti
+## [Sintesi](fa-manage.md)
 ## [Acquisire i cespiti](fa-how-acquire.md)
 ## [Gestione di cespiti](fa-how-maintain.md)
 ## [Assicurazione di cespiti](fa-how-insure.md)
@@ -453,34 +562,43 @@
 ## [Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md)
 ## [Gestione dei budget per i cespiti](fa-how-manage-budgets.md)
 
-# [Gestione delle relazioni](marketing-relationship-management.md)
+# Relationship Management
+## [Sintesi](marketing-relationship-management.md)
 ## [Setup Relationship Management](marketing-setup-marketing.md)
-## [Gestione dei contatti](marketing-contacts.md)
+## Gestione dei contatti
+### [Sintesi](marketing-contacts.md)
 ### [Setup contatti](marketing-setup-contacts.md)
 ### [Creare contatti](marketing-create-contact-companies.md)
+### [Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)
 ### [Unire record duplicati](sales-how-merge-duplicate-records.md)
-### [Creazione di contatti](marketing-create-contact-persons.md)
-## [Gestione dei segmenti](marketing-segments.md)
+## Gestione dei segmenti
+### [Sintesi](marketing-segments.md)
 ### [Creare segmenti](marketing-how-create-segment.md)
 ### [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md)
-### [Gestione di interazioni e segmenti](marketing-interaction-segments.md)
-## [Gestione di interazioni](marketing-interactions.md)
-## [Gestione di campagne di marketing](marketing-campaigns.md)
+### [Gestire interazioni per i segmenti](marketing-interaction-segments.md)
+## Gestione di interazioni
+### [Sintesi](marketing-interactions-overview.md)
+### [Registrare interazioni con i contatti](marketing-interactions.md)
 ### [Creare interazioni per i contatti e i segmenti](marketing-how-create-interactions.md)
 ### [Registrazione automatica delle interazioni con i contatti](marketing-auto-record-interactions.md)
-## [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)
+## Gestione delle opportunità di vendita
+### [Sintesi](marketing-manage-sales-opportunities.md)
 ### [Impostare cicli e fasi di vendita dalle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Creare opportunità](marketing-how-create-opportunities.md)
-### [Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md)
-## [Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)
-## [Utilizzo di Dynamics 365 for Sales da Business Central](marketing-integrate-dynamicscrm.md)
+### [Elaborare le opportunità di vendita](marketing-processing-sales-opportunities.md)
+## [Gestione di campagne di marketing](marketing-campaigns.md)
+## Integrazione con Dynamics 365 for Sales
+### [Utilizzo di Dynamics 365 for Sales da Business Central](marketing-integrate-dynamicscrm.md)
 ### [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Visualizzare lo stato di una sincronizzazione](admin-how-to-view-synchronization-status.md)
-# [Gestione del personale](hr-manage-human-resources.md)
+
+# Gestione personale
+## [Sintesi](hr-manage-human-resources.md)
 ## [Registrare i dipendenti](hr-how-register-employees.md)
 ## [Gestire le assenze di un impiegato](hr-how-manage-absence.md)
 
-# [Pianif.](production-planning.md)
+# Pianificazione
+## [Sintesi](production-planning.md)
 ## [Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md)
 ## [Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)
 ## [Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md)
@@ -493,7 +611,8 @@
 ## [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
 ## [Modificare i suggerimenti di pianificazione in una visualizzazione grafica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
-# [Gestione assemblaggio](assembly-assemble-items.md)
+# Gestione assemblaggio
+## [Sintesi](assembly-assemble-items.md)
 ## [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [Offerta per una vendita assemblaggio su ordine](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [Assemblare articoli](assembly-how-to-assemble-items.md)
@@ -505,7 +624,8 @@
 ## [Utilizzare le distinte base](inventory-how-work-BOMs.md)
 ## [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)
 
-# [Manufacturing](production-manage-manufacturing.md)
+# Manufacturing
+## [Sintesi](production-manage-manufacturing.md)
 ## [Informazioni sugli ordini di produzione](production-about-production-orders.md)
 ## [Creare ordini di produzione](production-how-to-create-production-orders.md)
 ## [Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)
@@ -518,10 +638,12 @@
 ## [Registrare le capacità](production-how-to-post-capacities.md)
 ## [Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)
 
-# [Gestione warehouse](warehouse-manage-warehouse.md)
+# Gestione warehouse
+## [Sintesi](warehouse-manage-warehouse.md)
 ## [Ricevere articoli](warehouse-how-receive-items.md)
 ## [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md)
-## [Stoccaggio di articoli](warehouse-put-away-items.md)
+## Stoccaggio di articoli
+### [Sintesi](warehouse-put-away-items.md)
 ### [Eseguire lo stoccaggio con Stoccaggi Magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 ### [Eseguire lo stoccaggio con Stoccaggi warehouse:](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 ### [Stoccare l'output produzione o l'output assemblaggio](warehouse-how-to-put-away-production-output.md)
@@ -529,13 +651,15 @@
 ### [Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 ### [Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
 ### [Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Spostamento di articoli](warehouse-move-items.md)
+## Spostamento di articoli
+### [Sintesi](warehouse-move-items.md)
 ### [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 ### [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)
 ### [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 ### [Calcola rifornimento collocazione](warehouse-how-to-calculate-bin-replenishment.md)
 ### [Pianificare movimentazioni warehouse nei prospetti](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
-## [Prelievo di articoli](warehouse-pick-items.md)
+## Prelievo di articoli
+### [Sintesi](warehouse-pick-items.md)
 ### [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)
 ### [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 ### [Prelevare per produzione o assemblaggio in configurazioni di warehouse di base](warehouse-how-to-pick-for-production.md)
@@ -549,17 +673,21 @@
 ## [Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)
 
-# [Gestione assistenza](service-service.md)
-## [Pianificazione dell'assistenza](service-plan-service.md)
+# Gestione assistenza
+## [Sintesi](service-service.md)
+## Pianificazione dell'assistenza
+### [Sintesi](service-plan-service.md)
 ### [Gestione dei prezzi di assistenza](service-service-price-management.md)
 ### [Stato ordine assistenza e stato riparazione](service-service-order-status-and-repair-status.md)
 ### [Stato di assegnazione e stato di riparazione degli articoli in assistenza](service-allocation-status-and-repair-status.md)
 ### [Visualizzazione delle statistiche relative all'assistenza:](service-service-statistics.md)
-## [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)
+## Adempimento dei contratti di assistenza
+### [Sintesi](service-fulfill-service-contracts.md)
 ### [Contratti multipli](service-multiple-contracts.md)
 ### [Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ### [Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-## [Fornitura dell'assistenza](service-deliver-service.md)
+## Fornitura dell'assistenza
+### [Sintesi](service-deliver-service.md)
 ### [Creare offerte di assistenza](service-how-to-create-service-quotes.md)
 ### [Creare ordini di assistenza](service-how-to-create-service-orders.md)
 ### [Creare fatture o note di credito di assistenza](service-how-create-invoices.md)
@@ -569,62 +697,8 @@
 ### [Registrare note di credito e ordini di assistenza](service-how-to-post-service-orders.md)
 ### [Dare e ricevere articoli in prestito](service-how-to-lend-receive-loaners.md)
 
-## [Documenti in entrata](across-income-documents.md)
-### [Impostare documenti in entrata](across-how-setup-income-documents.md)
-### [Elaborazione di documenti in entrata](across-process-income-documents.md)
-#### [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
-#### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
-#### [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)
-#### [Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md)
-#### [Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md)
-
-## [Workflow](across-workflow.md)
-### [Impostazione dei workflow](across-set-up-workflows.md)
-#### [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)
-#### [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)
-#### [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)
-#### [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)
-#### [Impostare la posta elettronica](admin-how-setup-email.md)
-#### [Creare i workflow](across-how-to-create-workflows.md)
-#### [Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)
-#### [Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
-### [Utilizzo dei workflow](across-use-workflows.md)
-#### [Abilitare i workflow](across-how-to-enable-workflows.md)
-#### [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)
-#### [Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)
-#### [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)
-#### [Eliminare i workflow](across-how-to-delete-workflows.md)
-
-## [Scambio di dati in modalità elettronica](across-data-exchange.md)
-### [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md)
-### [Impostazione dello scambio di dati](across-set-up-data-exchange.md)
-#### [Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md)
-#### [Impostare documenti in entrata](across-how-setup-income-documents.md)
-#### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
-#### [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md)
-#### [Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)
-#### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
-#### [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-#### [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)
-### [Scambio di dati](across-exchange-data.md)
-#### [Inviare documenti elettronici](sales-how-to-send-electronic-documents.md)
-#### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
-#### [Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)
-#### [Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
-#### [Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)
-#### [Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
-#### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
-#### [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
-
-# [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
+# Procedure dettagliate per i processi aziendali
+## [Sintesi](walkthrough-business-process-walkthroughs.md)
 ## [Procedura dettagliata: Conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)
 ## [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -639,8 +713,10 @@
 ## [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md)
 ## [Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-# [Dettagli di progettazione](design-details-application-design.md)
-## [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
+# Dettagli di progettazione
+## [Sintesi](design-details-application-design.md)
+## Dettagli di progettazione: Pianificazione approvvigionamento
+### [Sintesi](design-details-supply-planning.md)
 ### [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
 ### [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 ### [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
@@ -649,7 +725,8 @@
 ### [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
 ### [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
 ### [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
-## [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
+## Dettagli di progettazione: Costing di magazzino
+### [Sintesi](design-details-inventory-costing.md)
 ### [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 ### [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
 ### [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -668,7 +745,8 @@
 ### [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)
 ### [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md)  
 ### [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)
-## [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+## Dettagli di progettazione: Gestione warehouse
+### [Sintesi](design-details-warehouse-management.md)
 ### [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)  
 ### [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
 ### [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)  
@@ -676,7 +754,8 @@
 ### [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  
 ### [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 ### [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)
-## [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
+## Dettagli di progettazione: Tracciabilità articolo
+### [Sintesi](design-details-item-tracking.md)
 ### [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
 ### [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
 ### [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -685,21 +764,25 @@
 ### [Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
 ### [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 ### [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
-## [Dettagli di progettazione: Riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)
+## Dettagli di progettazione: riga di registrazione di contabilità generale
+### [Sintesi](design-details-general-journal-post-line.md)
 ### [Sintesi della riga di registrazione di contabilità generale](design-details-general-journal-post-line-overview.md)  
 ### [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
 ### [Dettagli di progettazione: Struttura del motore di registrazione](design-details-posting-engine-structure.md)  
 ### [Dettagli di progettazione: Modifiche relative alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ### [Dettagli di progettazione: Modifiche relative alla codeunit 12: modifiche nelle procedure di registrazione di contabilità generale](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-## [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)
+## Dettagli di progettazione: Movimenti set di dimensioni
+### [Sintesi](design-details-dimension-set-entries.md)
 ### [Dettagli di progettazione: Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
 ### [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)  
 ### [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)  
 
-# [Funzionalità locale](about-localization.md)
+# Funzionalità locale
+## [Sintesi](about-localization.md)
 
-## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
-### IVA e imposta
+## Australia
+### [Sintesi](LocalFunctionality/Australia/australia-local-functionality.md)
+### Imposta
 #### [Imposta](LocalFunctionality/Australia/tax.md)
 #### [Ritenute](LocalFunctionality/Australia/withholding-tax.md)
 #### [Impostare la ritenuta d'acconto](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
@@ -730,8 +813,9 @@
 #### [Numeri ABN (Australian Business Number) e note di rettifica](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 #### [Immettere numeri ABN (Australian Business Number)](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
 
-## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
-### IVA e imposta
+## Austria
+### [Sintesi](LocalFunctionality/Austria/austria-local-functionality.md)
+### IVA
 #### [Creare una dichiarazione IVA](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
 #### [Reporting IVA](LocalFunctionality/Austria/vat-reporting.md)
 ### Attività bancarie e pagamenti
@@ -750,8 +834,9 @@
 #### [Stampare le informazioni di setup della contabilità generale](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Stampare ordini di vendita e acquisto durante la registrazione batch](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [Belgio](LocalFunctionality/Belgium/belgium-local-functionality.md)
-### IVA e imposta
+## Belgio
+### [Sintesi](LocalFunctionality/Belgium/belgium-local-functionality.md)
+### IVA
 #### [IVA belga](LocalFunctionality/Belgium/belgian-vat.md)
 #### [Impostare l'IVA non detraibile](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 #### [Correggere manualmente i movimenti IVA](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -804,8 +889,9 @@
 #### [Limitare il periodo di registrazione](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 #### [Impostare la data del lavoro come data di registrazione.](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 
-## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
-### IVA e imposta
+## Canada
+### [Sintesi](LocalFunctionality/Canada/canada-local-functionality.md)
+### Imposta
 #### [Report imposta locale su vendite, beni e servizi in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 #### [Dichiarazione IVA in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 #### [Impostare l'IVA ad esigibilità differita e sconti pagamenti](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -818,13 +904,16 @@
 #### [Stampare report di risoluzione dei problemi](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Utilizzare codici GIFI](LocalFunctionality/Canada/work-gifi-codes.md)
 
-## [Repubblica Ceca](LocalFunctionality/Czech/czech-local-functionality.md)
-### IVA e imposta
+## Repubblica Ceca
+### [Sintesi](LocalFunctionality/Czech/czech-local-functionality.md)
+### IVA
 #### [Report di controllo IVA](LocalFunctionality/Czech/vat-control-report.md)
 ### Attività bancarie e pagamenti
 #### [Registrazione delle vendite (EET)](LocalFunctionality/Czech/eet.md)
-## [Danimarca](LocalFunctionality/Denmark/denmark-local-functionality.md)
-### IVA e imposta
+
+## Danimarca
+### [Sintesi](LocalFunctionality/Denmark/denmark-local-functionality.md)
+### IVA
 #### [Stampare report Riconciliazione IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 #### [Reporting IVA-Intra su disco](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ### Attività bancarie e pagamenti
@@ -839,8 +928,9 @@
 ### Retribuzioni
 #### [Definizioni dei dati di retribuzioni (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
-## [Finlandia](LocalFunctionality/Finland/finland-local-functionality.md)
-### IVA e imposta
+## Finlandia
+### [Sintesi](LocalFunctionality/Finland/finland-local-functionality.md)
+### IVA
 #### [Stampare report Intrastat finlandesi](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 #### [Stampare informazioni IVA su fatture](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 #### [IVA-Intra su disco in Finlandia](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
@@ -855,8 +945,9 @@
 #### [Codici conto automatici](LocalFunctionality/Finland/automatic-account-codes.md)
 #### [Registrazione di differenze di ammortamento](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
-## [Francia](LocalFunctionality/France/france-local-functionality.md)
-### IVA e imposta
+## Francia
+### [Sintesi](LocalFunctionality/France/france-local-functionality.md)
+### IVA
 #### [Esportare movimenti C/G per controlli fiscali](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 #### [Esportare movimenti C/G in un file XML](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 #### [Requisiti per il reporting della Dichiarazione di Scambio di Beni](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -892,8 +983,9 @@
 #### [Ammortamento accelerato](LocalFunctionality/France/accelerated-depreciation.md)
 #### [Calcolare l'ammortamento accelerato](LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md)
 
-## [Germania](LocalFunctionality/Germany/germany-local-functionality.md)
-### IVA e imposta
+## Germania
+### [Sintesi](LocalFunctionality/Germany/germany-local-functionality.md)
+### IVA
 #### [Impostare report per l'IVA e l'Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 #### [Impostare report IVA](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 #### [Reporting IVA](LocalFunctionality/Germany/vat-reporting.md)
@@ -936,8 +1028,9 @@
 #### [Copiare articoli esistenti in nuovi articoli](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certificazione di Business Central per il mercato tedesco (documento in tedesco)](https://go.microsoft.com/fwlink/?linkid=875256)
 
-## [Islanda](LocalFunctionality/Iceland/iceland-local-functionality.md)
-### IVA e imposta
+## Islanda
+### [Sintesi](LocalFunctionality/Iceland/iceland-local-functionality.md)
+### IVA
 #### [Regolamentazioni fiscali per sconti condizionali](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Stampare informazioni di riepilogo su documenti](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Output di dati speciale e report per l'autorità fiscale](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -947,8 +1040,9 @@
 #### [Mappare numeri IRS al piano dei conti](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Eliminazione di note di credito e fatture registrate](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
-## [Italia](LocalFunctionality/Italy/italy-local-functionality.md)
-### IVA e imposta
+## Italia
+### [Sintesi](LocalFunctionality/Italy/italy-local-functionality.md)
+### IVA
 #### [IVA italiana](LocalFunctionality/Italy/italian-vat.md)
 #### [Inviare dichiarazioni IVA](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
 #### [Correggere i report di transazioni IVA](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
@@ -984,8 +1078,9 @@
 #### [Impostazione di definizioni e batch di registrazioni](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
 #### [Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
-## [Messico](LocalFunctionality/Mexico/mexico-local-functionality.md)
-### IVA e imposta
+## Messico
+### [Sintesi](LocalFunctionality/Mexico/mexico-local-functionality.md)
+### Imposta
 #### [IVA messicana](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Impostare l'IVA intracomunitaria e l'imposta sugli acquisti](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Impostare l'IVA ad esigibilità differita e sconti pagamenti](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1003,8 +1098,9 @@
 #### [Impostare servizi Web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 #### [Stampare report di risoluzione dei problemi](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 
-## [Paesi Bassi](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-### IVA e imposta
+## Paesi Bassi
+### [Sintesi](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+### IVA
 #### [Creare un file di controllo per un'autorità fiscale](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 #### [Impostare categorie IVA](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
 #### [Dichiarazioni ICP e IVA elettroniche](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1040,8 +1136,9 @@
 #### [Importare codici postali](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Importare aggiornamenti di codici postali](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
 
-## [Nuova Zelanda](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
-### [IVA e imposta](LocalFunctionality/NewZealand/tax.md)
+## Nuova Zelanda
+### [Sintesi](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
+### Imposta
 #### [Ritenute](LocalFunctionality/NewZealand/withholding-tax.md)
 #### [Impostare la ritenuta d'acconto](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 #### [Impostare tipi di ricavi per la ritenuta d'acconto](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1070,8 +1167,9 @@
 #### [Immettere numeri azienda della Nuova Zelanda](LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md)  
 #### [Note di rettifica e numeri IRD della Nuova Zelanda](LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md)
 
-## [Norvegia](LocalFunctionality/Norway/norway-local-functionality.md)
-### IVA e imposta
+## Norvegia
+### [Sintesi](LocalFunctionality/Norway/norway-local-functionality.md)
+### IVA
 #### [Reporting IVA norvegese](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Codici IVA norvegesi](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Come utilizzare un codice IVA nelle registrazioni](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1116,8 +1214,9 @@
 #### [Impostare numeri KID in documenti di vendita](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Impostare la stampa di documenti](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-## [Spagna](LocalFunctionality/Spain/spain-local-functionality.md)
-### IVA e imposta
+## Spagna
+### [Sintesi](LocalFunctionality/Spain/spain-local-functionality.md)
+### IVA
 #### [Report IVA](LocalFunctionality/Spain/vat-reports.md)
 #### [Report 340](LocalFunctionality/Spain/report-340.md)  
 #### [Creare un report 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1163,8 +1262,9 @@
 #### [Immettere codici NACE](LocalFunctionality/Spain/how-to-enter-nace-codes.md)
 #### [Impostare limiti per le scadenze](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 
-## [Svezia](LocalFunctionality/Sweden/sweden-local-functionality.md)
-### IVA e imposta
+## Svezia
+### [Sintesi](LocalFunctionality/Sweden/sweden-local-functionality.md)
+### IVA
 #### [Impostare triangolazioni intracomunitarie](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 ### Finanze principali
 #### [Codici conto automatici](LocalFunctionality/Sweden/automatic-account-codes.md)  
@@ -1172,8 +1272,9 @@
 #### [Importare ed esportare dati in formato importazione/esportazione standard](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 #### [Stampare report Conto economico e Bilancio patrimoniale](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
-## [Svizzera](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-### IVA e imposta
+## Svizzera
+### [Sintesi](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
+### IVA
 #### [Creare e stampare una dichiarazione IVA svizzera](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 #### [Stampare dichiarazioni IVA svizzere (versioni precedenti)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 #### [IVA svizzera](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
@@ -1215,8 +1316,9 @@
 #### [Documenti di acquisto e ordini di vendita per la Svizzera](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 #### [Stampare ordini di vendita e acquisto durante la registrazione batch](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [Regno Unito](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-### IVA e imposta
+## Regno Unito
+### [Sintesi](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
+### IVA
 #### [Operazioni fiscali digitali - Invio delle dichiarazioni IVA](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 #### [Modificare il setup IVA nelle registrazioni](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 #### [Stampare report Controllo IVA](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
@@ -1235,7 +1337,8 @@
 #### [Immettere numeri di documento esterni](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 #### [Stampare report Dettagli vendite dirette e Dettagli acquisti diretti](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
-## [Stati Uniti](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
+## Stati Uniti
+### [Sintesi](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### Imposta
 #### [Imposta sulle vendite USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 #### [Dichiarazione IVA negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)  
@@ -1250,7 +1353,8 @@
 #### [Come gestire informazioni su crediti cliente](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Stampare report di risoluzione dei problemi](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Inviare avvisi normativi](submit-regulatory-alerts.md)
-# [Conformità](compliance/compliance-overview.md)
+# Conformità
+## [Sintesi](compliance/compliance-overview.md)
 ## [Conformità dell'applicazione](compliance/compliance-application-compliance.md)
 ## [Conformità dell'assistenza](compliance/compliance-service-compliance.md)
 ## [Certificazioni](compliance/compliance-certifications.md)

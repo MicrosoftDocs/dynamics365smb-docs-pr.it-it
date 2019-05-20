@@ -1,0 +1,33 @@
+---
+title: Creare e gestire le interazioni con i contatti| Documenti Microsoft
+description: In Business Central vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 05/02/2019
+ms.author: sgroespe
+ms.openlocfilehash: 504484c5a5afa75890c128fe554a5360e36adfc4
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447085"
+---
+# <a name="managing-interactions"></a><span data-ttu-id="1ce15-104">Gestione di interazioni</span><span class="sxs-lookup"><span data-stu-id="1ce15-104">Managing Interactions</span></span>
+<span data-ttu-id="1ce15-105">In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti,</span><span class="sxs-lookup"><span data-stu-id="1ce15-105">In [!INCLUDE[d365fin](includes/d365fin_md.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="1ce15-106">ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.</span><span class="sxs-lookup"><span data-stu-id="1ce15-106">For example, communications can be email, letter, telephone, meetings, and so on.</span></span>
+
+<span data-ttu-id="1ce15-107">È possibile registrare tutte le interazioni con i contatti al fine di tenere traccia delle operazioni di vendita e marketing ad essi rivolte e migliorare le interazioni commerciali future.</span><span class="sxs-lookup"><span data-stu-id="1ce15-107">You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span>
+
+<span data-ttu-id="1ce15-108">Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.</span><span class="sxs-lookup"><span data-stu-id="1ce15-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+
+| <span data-ttu-id="1ce15-109">A</span><span class="sxs-lookup"><span data-stu-id="1ce15-109">To</span></span> | <span data-ttu-id="1ce15-110">Vedere</span><span class="sxs-lookup"><span data-stu-id="1ce15-110">See</span></span> |
+| --- | --- |
+| <span data-ttu-id="1ce15-111">Impostare il sistema per registrare le interazioni.</span><span class="sxs-lookup"><span data-stu-id="1ce15-111">Set up your system to record interactions.</span></span> |[<span data-ttu-id="1ce15-112">Setup contatti</span><span class="sxs-lookup"><span data-stu-id="1ce15-112">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
+|<span data-ttu-id="1ce15-113">Creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi e-mail.</span><span class="sxs-lookup"><span data-stu-id="1ce15-113">Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.</span></span>|[<span data-ttu-id="1ce15-114">Creare interazioni per i contatti e i segmenti</span><span class="sxs-lookup"><span data-stu-id="1ce15-114">Create Interactions on Contacts and Segments</span></span>](marketing-how-create-interactions.md)|
+|<span data-ttu-id="1ce15-115">Impostare il sistema per registrare automaticamente le interazioni di vendita, acquisto e documenti di assistenza, ad esempio quando un documento viene creato, registrato o stampato.</span><span class="sxs-lookup"><span data-stu-id="1ce15-115">Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.</span></span>|[<span data-ttu-id="1ce15-116">Registrazione automatica delle interazioni con i contatti</span><span class="sxs-lookup"><span data-stu-id="1ce15-116">Automatically Record Interactions with Contacts</span></span>](marketing-auto-record-interactions.md)|
