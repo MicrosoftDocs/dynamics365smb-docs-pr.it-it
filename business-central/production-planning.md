@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929576"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252020"
 ---
 # <a name="planning"></a>Pianificazione
 A seconda del volume e della natura dei prodotti, è necessario pianificare quotidianamente o settimanalmente le operazioni di produzione richieste per trasformare gli input in prodotti finiti. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili funzionalità per gestire la domanda anticipata ed effettiva dei reparti vendite, assemblaggio e produzione, nonché funzionalità per la pianificazione della distribuzione tramite unità di stockkeeping e trasferimenti di ubicazione.

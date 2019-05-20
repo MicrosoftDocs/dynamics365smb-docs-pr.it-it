@@ -9,11 +9,11 @@ ms.search.keywords: projects
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921030"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253104"
 ---
 # <a name="project-management"></a>Gestione progetti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.

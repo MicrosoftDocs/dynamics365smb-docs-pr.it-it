@@ -11,11 +11,11 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 98618f60b0d6ac60ccb55aae56646a5ab13f4530
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923650"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252900"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 I differenti accordi relativi a prezzi e sconti applicati quando si effettuano acquisti da fornitori diversi devono essere definiti in modo che le regole e i valori concordati vengano applicati ai documenti di acquisto creati per il fornitore.

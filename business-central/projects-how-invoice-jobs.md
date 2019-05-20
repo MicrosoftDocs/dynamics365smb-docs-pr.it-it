@@ -13,11 +13,11 @@ ms.search.keywords: project invoice
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 57a0cb6624e122f52aaa0680fd73df8b67a23d30
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927879"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253334"
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.

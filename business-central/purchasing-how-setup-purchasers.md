@@ -13,11 +13,11 @@ ms.search.keywords: purchasing agent
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4ca0dc82cb35062479b7d523d0f4cc56c0b522ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937994"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252828"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.

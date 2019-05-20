@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2049eec4dd4d145021edc0cf8ec9c2452c77cd01
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938446"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253415"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Creare gli ordini di produzione dagli ordini di vendita
 È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.  

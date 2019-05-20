@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dfa339b19d9b6b86bb9153ce7856cb6134463ec8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915552"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251908"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
 Solitamente, un sistema di gestione dell'assistenza tiene traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza. [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una serie di strumenti integrati che è possibile personalizzare per poter registrare questo tipo di informazioni.  

@@ -11,11 +11,11 @@ ms.search.keywords: online payment
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e5d4d9fd0c6857c22f2b4c929a6e6ed528cadf26
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931678"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252667"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali Microsoft Pay, PayPal o WorldPay.  

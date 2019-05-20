@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920417"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447039"
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
 Per velocizzare l'inizio, [!INCLUDE[d365fin](includes/d365fin_md.md)] include le configurazioni di default della maggior parte dei processi finanziari. Se è necessario apportare modifiche alle configurazioni per adattarle alla propria attività, procedere subito. Ad esempio, nella Gestione ruolo utente, è possibile utilizzare la guida al setup assistito per configurare l'aliquota in base all'ubicazione.  
@@ -44,7 +44,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
 |Abilitazione della fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
 | Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
-|Preparare il report Bilancio di verifica consolidato nella Gestione ruolo utente Contabile per ottenere una panoramica di molteplici società.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 |Assicurarsi che un movimento in una registrazione generale sia allocato a più conti diversi quanto tale registrazione viene contabilizzata, in base alla quantità, alla percentuale o all'importo.|[Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Vedi anche

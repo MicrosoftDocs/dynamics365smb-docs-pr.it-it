@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: edupont
-ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911554"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446970"
 ---
 # <a name="finance"></a>Contabilità
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
@@ -33,10 +33,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |I clienti devono eseguire il pagamento prima che venga spedita loro la merce o devono pagare i fornitori prima che questi spediscano la merce.|[Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)|
 | Riconciliare i conti bancari e trasferire i fondi tra conti bancari. |[Gestione di conti correnti bancari](bank-manage-bank-accounts.md) |
 |Impostare i partner intercompany ed elaborare le transazioni, manualmente o automaticamente, tra le persone giuridiche all'interno della stessa società.|[Gestione delle transazioni Intercompany](intercompany-manage.md)|
-|Combinare i movimenti di contabilità generale di più società in una "società consolidata“ virtuale per analisi finanziarie.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 |Analizzare i costi di gestione dell'azienda allocando i costi effettivi e a budget di operazioni, dipartimenti, prodotti e progetti a centri di costo.|[Contabilizzazione dei costi](finance-manage-cost-accounting.md)|
 |Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
 | Comprendere la contabilità generale e il piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |
+|Combinare i movimenti di contabilità generale di più società in una "società consolidata“ virtuale per analisi finanziarie.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 | Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzo delle dimensioni](finance-dimensions.md) |
 | Creare i budget C/G per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Creare budget C/G](finance-how-create-budgets.md) |
 |Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
@@ -47,12 +47,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Riconoscere i ricavi e le spese in periodi diversi da quando sono state registrate le transazioni. |[Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)|
 |Imparare a utilizzare valute aggiuntive e ad aggiornare i tassi di cambio automaticamente. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 | Importare le transazioni degli stipendi dal sistema di gestione delle retribuzioni nella contabilità generale. |[Importa transazioni retribuzioni](finance-how-import-payroll-transactions.md)|
-| Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
-| Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
-| Preparare la chiusura di un anno o un periodo fiscale. |[Chiusura di anni e periodi](year-close-years-periods.md) |
+|Utilizzare le funzioni per calcolare l'imposta sul valore aggiunto (VAT) sulle transazioni di vendita e acquisto in modo da segnalare gli importi alle autorità fiscali.|[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)|
 |Preparare un report che elenca l'IVA di vendita e inviare il report alle autorità fiscali in UE. | [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
+|Convertire manualmente i contratti di servizio per modificare la loro aliquota VAT.|[Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)|
+| Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
+|Seguire una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
+|Imparare a utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare Accountant Hub per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

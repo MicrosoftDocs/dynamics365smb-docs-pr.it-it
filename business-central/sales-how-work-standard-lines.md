@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936790"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252254"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
@@ -33,14 +33,21 @@ La seguente procedura illustra come utilizzare le righe di vendita standard in u
 > [!NOTE]
 > Non è possibile definire i prezzi nelle righe di vendita standard poiché prezzi, sconti e così via sono calcolati nei documenti di vendita effettivi dopo l'inserimento delle righe di vendita standard.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Per assegnare righe di vendita standard ai clienti
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Per assegnare righe di vendita standard a un cliente
 Assegnare una o più righe di vendita standard a un cliente di modo che sia possibile inserirle nei documenti di vendita per quel cliente.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un cliente pertinente.
 3. Scegliere l'azione **Righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, selezionare i codici per le righe di vendita ricorrenti che si intende inserire in documenti di vendita per il cliente.
-5. Compilare i campi aggiuntivi per definire quando, come e dove le righe di vendita ricorrenti devono essere utilizzate. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Compilare i campi aggiuntivi per definire quando, come e dove le righe di vendita ricorrenti devono essere utilizzate.
+6. Nei quattro campi in cui si è scelto in che modo inserire le righe in quattro tipi di documento, selezionare una delle seguenti opzioni:
+
+|Opzione|Descrizione|
+|-|-|
+|**Manuale**|È possibile cercare e inserire manualmente la riga di vendite ricorrenti esistente per il cliente.|
+|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.|
+|**Chiedi sempre**|Una notifica verrà visualizzata e tutte le righe di vendite ricorrenti esistenti vengono visualizzate in modo che sia possibile selezionarne una.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Per inserire righe di vendita ricorrenti in una fattura di vendita
 Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle in tutti i tipi di documenti di vendita come una fattura di vendita. Se è stata attivata la notifica in questione, si verrà informati dell'esistenza di righe di vendita ricorrenti.

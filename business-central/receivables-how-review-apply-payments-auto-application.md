@@ -13,11 +13,11 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c175e15c9a1cf1fae4879a520c26232195b289d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931892"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251794"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).

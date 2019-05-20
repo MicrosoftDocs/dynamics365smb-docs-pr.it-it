@@ -11,11 +11,11 @@ ms.search.keywords: trade
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a8e2d016cc47192bbb05439fa61bab1f246a53bd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924734"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252621"
 ---
 # <a name="sell-products"></a>Vendere prodotti
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.

@@ -11,11 +11,11 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8579a05d60465a769dd34548ec00bb547d4ace5b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932905"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252414"
 ---
 # <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
 Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita. È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.

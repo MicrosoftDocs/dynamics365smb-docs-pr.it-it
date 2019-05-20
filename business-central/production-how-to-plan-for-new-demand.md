@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0c1e2681a9164eba0e3c6c36ebb2c32207711e89
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929724"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253150"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.  

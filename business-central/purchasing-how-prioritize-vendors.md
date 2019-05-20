@@ -13,11 +13,11 @@ ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c709539b24aa1f94c86dee26dd63adead39c892b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915602"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252365"
 ---
 # <a name="prioritize-vendors"></a>Attribuire un ordine di priorità ai fornitori
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).

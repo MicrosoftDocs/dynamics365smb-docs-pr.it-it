@@ -12,11 +12,11 @@ ms.search.keywords: rfq
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923883"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251563"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 Molti spedizionieri forniscono dei servizi via Internet che consentono di seguire il percorso di pacchi che sono stati loro affidati. Se ci si avvale di spedizionieri che offrono questo tipo di servizio può risultare molto utile impostare delle informazioni di base che vengono utilizzate per rintracciare automaticamente le spedizioni registrate. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md).  

@@ -13,11 +13,11 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 16241459bd080b7f1982a42110a834433d9427ea
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913242"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252092"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
 La pagina **Registrazione riconciliazione pagamenti** specifica i pagamenti, sia in entrata che in uscita, registrati come transazioni nel conto bancario in linea e che possono essere collegati ai relativi movimenti aperti dei conti COGE, fornitore e cliente. Le righe delle registrazioni vengono compilate importando un rendiconto bancario come feed bancario o file della banca.
@@ -27,7 +27,7 @@ La pagina **Registrazione riconciliazione pagamenti** specifica i pagamenti, sia
 
 Una registrazione riconciliazione pagamenti è correlata a un conto bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] che riflette il conto bancario online in cui vengono registrate le transazioni di pagamento. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati.
 
-Se si desidera importare i rendiconti bancari come feed bancari, è necessario innanzitutto abilitare il servizio Feed bancari di Envestnet Yodlee e successivamente collegare il conto corrente bancario al relativo conto bancario online. La registrazione riconciliazione pagamenti viene quindi rilevata automaticamente dai feed bancari quando si sceglie l'azione **Importa transazioni bancarie**. Inoltre, è possibile impostare un conto corrente bancario in modo che importi nuovi feed bancari ogni ora. Le transazioni per i pagamenti che sono già state contabilizzate come collegate e/o riconciliate non verranno importate. Per ulteriori informazioni, vedere [Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
+Se si desidera importare i rendiconti bancari come feed bancari, è necessario innanzitutto abilitare il servizio Envestnet Yodlee Bank Feeds e successivamente collegare il conto corrente bancario al relativo conto bancario online. La registrazione riconciliazione pagamenti viene quindi rilevata automaticamente dai feed bancari quando si sceglie l'azione **Importa transazioni bancarie**. Inoltre, è possibile impostare un conto corrente bancario in modo che importi nuovi feed bancari ogni ora. Le transazioni per i pagamenti che sono già state contabilizzate come collegate e/o riconciliate non verranno importate. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Con l'azione **Mappa testo a conto** è possibile impostare le mappature tra testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo che i pagamenti vengano registrati nei conti specificati quando si contabilizzano le registrazioni riconciliazione pagamenti. Vedere il passaggio 8. Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 

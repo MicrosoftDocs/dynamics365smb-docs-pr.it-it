@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 436af4a8e802b76a1f657a0ec0f2b097ac5bea0c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941206"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251701"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcolo della data per gli acquisti
 [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.  

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919077"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446993"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Procedura: Dichiarare l'IVA a un'autorità fiscale
+# <a name="report-vat-to-a-tax-authority"></a>Dichiarare l'IVA a un'autorità fiscale
 Questo argomento descrive i report [!INCLUDE[d365fin](includes/d365fin_md.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese.
 
 È possibile utilizzare i seguenti report:
@@ -110,7 +110,7 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 
 > [!Note]
 > Quando si creano le codeunit per il report, prestare attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2017** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.
- 
+
 ## <a name="see-also"></a>Vedere anche
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  

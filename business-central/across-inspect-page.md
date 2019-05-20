@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969880"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447016"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Controllo di pagine in Business Central
 
@@ -22,7 +22,7 @@ La funzionalità Controllo pagina consente di ottenere dettagli su una pagina, f
 
 ## <a name="working-with-page-inspection"></a>Utilizzo di Controllo pagina
 
-Per controllare una pagina, nell'angolo superiore destro, scegliere l'![icona Impostazioni](media/ui-experience/settings_icon_small.png), quindi scegliere **Controlla**. In alternativa, è possibile utilizzare i tasti di scelta rapida **CTRL+ALT+F1**.
+L'ispezione della pagina inizia dalla pagina **Guida e supporto**. Scegli il punto interrogativo nell'angolo superiore destro, scegli **Guida e supporto**, quindi scegli **Controllare pagine e dati**. In alternativa, è possibile semplicemente utilizzare i tasti di scelta rapida **CTRL+ALT+F1**.
 
 Il riquadro **Controllo pagina** viene visualizzato sul lato. Nella seguente figura viene illustrato il riquadro **Controllo pagina** nella pagina **Ordini Vendita**.
 

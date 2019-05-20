@@ -11,11 +11,11 @@ ms.search.keywords: projects
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dd297498918630e604a3e9f179c1f7f2a7c2df40
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937606"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251632"
 ---
 # <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
 Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.

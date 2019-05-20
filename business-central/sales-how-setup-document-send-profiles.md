@@ -13,11 +13,11 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a6521a6f67fa39ded3b3baa863fc0d4341aa0524
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916944"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252437"
 ---
 # <a name="set-up-document-sending-profiles"></a>Impostare profili di invio documenti
 È possibile impostare per ogni cliente un metodo preferito di invio documenti di vendita, in modo da non dover selezionare un'opzione di invio ogni volta che si sceglie l'azione **Registra e invia**.

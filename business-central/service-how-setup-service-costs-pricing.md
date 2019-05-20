@@ -13,11 +13,11 @@ ms.search.keywords: service, cost, service order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8683d82b4a6f56f415f3b66efa5be11b003fe878
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926608"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251981"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Impostare prezzi e costi aggiuntivi per i servizi assistenza
 È possibile utilizzare le funzionalità di definizione dei prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] per impostare e personalizzare l'applicazione in modo da poter applicare e rettificare i prezzi per articoli in assistenza, riparazioni e ordini. Queste decisioni relative ai prezzi potranno essere in seguito agevolmente trasmesse al processo di fatturazione.  

@@ -11,11 +11,11 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3432e76bd01cb81cbc149f60165371466b3cd220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912971"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253447"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
 Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. È necessario disporre dei permessi necessari per creare i fogli presenze.

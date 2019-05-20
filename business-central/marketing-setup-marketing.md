@@ -3,22 +3,21 @@ title: Setup della gestione dei contatti e del marketing| Documenti Microsoft
 description: È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934005"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446855"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 Prima di iniziare a lavorare sui contatti e sugli interessi di marketing, è necessario prendere alcune decisioni e seguire alcuni passaggi per definire la modalità di gestione da parte dell'area marketing di alcuni aspetti dei contatti. Ad esempio, è possibile decidere se sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, definire la numerazione o la formula di saluto standard per quando si scrive ai contatti.
@@ -27,7 +26,7 @@ La gestione corretta dei contatti e la messa a punto di una strategia per identi
 
 Impostare la gestione dei contatti e del marketing dalla pagina **Setup marketing**. Per aprire la pagina **Setup marketing**, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup marketing** e quindi scegliere il collegamento correlato.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Copiare automaticamente informazioni specifiche dalle società contatto alle persone contatto
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copiare automaticamente informazioni specifiche da Società contatto a Persone contatto
 Alcune informazioni relative alle società contatto sono identiche alle informazioni sulle persone contatto che lavorano all'interno di tali società, ad esempio i dettagli dell'indirizzo. Nella sezione **Eredità** della pagina **Setup marketing** è possibile impostare l'applicazione in modo che, ogni volta che si crea una persona contatto per una società contatto, alcuni campi specifici vengano copiati automaticamente dalla scheda della società contatto alla scheda della persona contatto. Ad esempio, è possibile scegliere di copiare il codice agente, i dettagli dell'indirizzo (indirizzo, indirizzo 2, città, CAP e provincia), i dettagli di comunicazione (numero di fax, telex di risposta e numero di telefono) e altro ancora.
 
 Se si modifica uno di questi campi nella scheda della società contatto, viene modificato automaticamente anche il campo nella scheda della persona contatto, a meno che non sia stato modificato manualmente.

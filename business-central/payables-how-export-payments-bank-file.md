@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.openlocfilehash: 539aac89d2da6b2eb81da7f6df729cdb5bc15cb1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926560"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253794"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Esportare pagamenti in un file della banca
 Quando si è pronti a effettuare i pagamenti ai fornitori o i rimborsi ai dipendenti, nella pagina **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento delle righe. È quindi possibile caricare il file sulla banca per elaborare i relativi trasferimenti di denaro.
