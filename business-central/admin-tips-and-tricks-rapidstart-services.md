@@ -1,25 +1,25 @@
 ---
-title: Suggerimenti e trucchi - RapidStart Services | Documenti Microsoft
+title: Suggerimenti e consigli - RapidStart Services | Microsoft Docs
 description: Quando si configurano le società utilizzando RapidStart Services, vi sono alcuni suggerimenti e trucchi che è possibile adottare per semplificare l'implementazione.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936914"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243482"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Suggerimenti e trucchi: servizi di RapidStart
+# <a name="tips-and-tricks-rapidstart-services"></a>Suggerimenti e consigli: RapidStart Services
 Quando si configurano le società utilizzando RapidStart Services, vi sono alcuni suggerimenti e trucchi che è possibile adottare per semplificare l'implementazione.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Sfruttare i modelli di configurazione  
@@ -39,6 +39,6 @@ Per migliorare il processo di compilazione di un questionario di configurazione,
 3.  Eseguire la migrazione dei movimenti contabili articoli aperti.  
 4.  Eseguire la migrazione i movimenti di cespiti aperti.  
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

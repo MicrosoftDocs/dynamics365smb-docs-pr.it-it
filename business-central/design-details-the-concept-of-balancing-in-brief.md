@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 8684389c75299dc57a2056041b50ebde37a0bea1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941305"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239293"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Dettagli di progettazione: Il concetto di contropartita in breve
 La domanda è fornita dai clienti di una società. L'approvvigionamento è ciò che la società può creare e rimuovere per stabilire il saldo. Il sistema di pianificazione inizia con la domanda indipendente e successivamente risale a ritroso fino all'approvvigionamento.  

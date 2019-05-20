@@ -13,11 +13,11 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913945"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241871"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
 Un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. La funzionalità intercompany consente di effettuare operazioni con le filiali e le organizzazioni partner interne esattamente come con i fornitori e i clienti esterni. Le informazioni sulle transazioni intercompany devono essere immesse una sola volta nei documenti appropriati. È possibile utilizzare le funzionalità già conosciute, quali quelle di gestione di crediti e debiti. Le funzionalità di mappatura per il piano dei conti e le dimensioni garantiscono che le informazioni vengano visualizzate nelle posizioni appropriate.  

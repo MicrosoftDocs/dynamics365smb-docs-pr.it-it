@@ -11,11 +11,11 @@ ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 337f1e679ba2f0b1fcfc0ceb8b3f0ea45ca86ecc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935638"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242994"
 ---
 # <a name="design-details-general-journal-post-line"></a>Dettagli di progettazione: riga di registrazione di contabilità generale
 Questa documentazione fornisce informazioni tecniche dettagliate sui concetti e sui principi utilizzati per riprogettare la funzionalità della riga di registrazione di contabilità generale in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La riprogettazione semplifica e rende più facile la manutenzione di codeunit 12. Viene innanzitutto illustrata una panoramica dei concetti alla base della riprogettazione. Viene quindi illustrata l'architettura tecnica per mostrare le modifiche conseguenti alla riprogettazione.  

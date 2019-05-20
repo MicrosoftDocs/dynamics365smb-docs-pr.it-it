@@ -8,11 +8,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9b044a1914e0c40266203ecf5cc0549869bebb8b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932924"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246148"
 ---
 # <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  

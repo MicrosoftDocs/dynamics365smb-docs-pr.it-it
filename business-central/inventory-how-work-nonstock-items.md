@@ -12,11 +12,11 @@ ms.search.keywords: non-inventoriable
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915143"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244034"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c1ecbbc42fcc5ccf5cb6f0d39c908da36cc8c918
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923417"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246526"
 ---
 # <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
 I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.  

@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932034"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245098"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Riconciliare i conti correnti bancari separatamente
 Per riconciliare i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con i rendiconti ricevuti dalla banca, è necessario innanzitutto compilare il riquadro a sinistra nella pagina **Riconciliazioni C/C bancari** con le informazioni sul rendiconto bancario che è possibile associare (riconciliare) ai movimenti contabili del conto corrente bancario nel riquadro a destra. Un metodo efficace per compilare le righe del rendiconto è è importare un feed o file di un rendiconto bancario.
@@ -28,7 +28,7 @@ Per riconciliare i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin
 > [!TIP]  
 > È inoltre possibile riconciliare i conti correnti bancari nella pagina **Registrazione riconciliazione pagamenti**. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
-Per abilitare l'importazione degli estratti conto bancari come feed bancari, è necessario innanzitutto abilitare il servizio Feed bancari di Envestnet Yodlee e successivamente collegare i conti correnti bancari ai conti bancari online correlati. Per ulteriori informazioni, vedere [Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
+Per abilitare l'importazione degli estratti conto bancari come feed bancari, è necessario innanzitutto abilitare il servizio Envestnet Yodlee Bank Feeds e successivamente collegare i conti correnti bancari ai conti bancari online correlati. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Le righe nella pagina **Riconciliazioni C/C bancari** sono suddivise in due riquadri. Il riquadro **Righe rendiconto bancario** mostra le transazioni bancarie importate o movimenti contabili con pagamenti scaduti. Il riquadro **Mov. contabili C/C bancari** mostra i movimenti contabili del conto corrente bancario.
 

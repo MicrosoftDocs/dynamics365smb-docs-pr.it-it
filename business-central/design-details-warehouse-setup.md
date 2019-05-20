@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939372"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246314"
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
 La funzionalità di warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza. Inoltre, gli oggetti applicazione della licenza controllano quale documento dell'interfaccia utente utilizzare per le attività di warehouse supportate.  

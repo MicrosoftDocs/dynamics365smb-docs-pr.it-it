@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912121"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241146"
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
 È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.  

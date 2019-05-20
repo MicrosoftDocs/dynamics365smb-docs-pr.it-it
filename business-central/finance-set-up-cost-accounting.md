@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bd5cb9d4676f2aac47e14d6795f1820a66522b38
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941844"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240696"
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
 Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare attività di impostazione.

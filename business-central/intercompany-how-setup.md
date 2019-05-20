@@ -11,11 +11,11 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: eca41d78ca6665f8e64f99c448d0d771f7d2ad26
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926798"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244218"
 ---
 # <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  

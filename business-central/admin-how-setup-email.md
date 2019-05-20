@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939154"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245837"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Impostare la posta elettronica manualmente o tramite il setup assistito
 Per registrare e ricevere messaggi e-mail da [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario compilare i campi nella pagina **Setup posta elettronica SMTP**.

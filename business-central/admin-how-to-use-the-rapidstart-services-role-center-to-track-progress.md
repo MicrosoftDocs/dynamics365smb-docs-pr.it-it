@@ -1,6 +1,6 @@
 ---
 title: Utilizzo della Gestione ruolo utente Implementatore di RapidStart Services | Documenti Microsoft
-description: Quando si utilizza RapidStart Services, si consiglia di tenere traccia del proprio lavoro e di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.
+description: Quando si utilizza RapidStart Services, si consiglia di tener traccia del lavoro e utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912075"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245168"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services
 Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Per modificare una Gestione ruolo utente](ui-change-basic-settings.md#to-change-role-center).
@@ -35,7 +35,7 @@ Per default, quando si aggiunge una tabella al foglio di lavoro configurazione, 
 Quando si torna alla Gestione ruolo utente, i riquadri nella sezione **Attività** vengono aggiornati affinché riflettano le modifiche.  
 
 ## <a name="to-track-the-status-of-a-configuration-project"></a>Per tenere traccia dello stato di un progetto di configurazione  
-- Aprire la Gestione ruolo utente di RapidStart Services.  
+- Apri Gestione ruolo utente di RapidStart Services.  
 
 Nella sezione **Aree di configurazione**, le statistiche di completamento sono visualizzate per le aree e per i gruppi che sono stati impostati nella configurazione. Se non è stato impostato alcun gruppo o area, questa parte non conterrà dati.  
 
@@ -43,6 +43,6 @@ Nella sezione **Aree di configurazione**, le statistiche di completamento sono v
 1. Scegliere l'azione **Tabelle**.  
 2. Selezionare la vista filtrata appropriata.  
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

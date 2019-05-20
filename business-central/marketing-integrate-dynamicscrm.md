@@ -12,11 +12,11 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915192"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238028"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilizzo di Dynamics 365 for Sales da Business Central
 Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire l'inventario e le finanze.
@@ -82,7 +82,7 @@ Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzaz
 
 ## <a name="see-also"></a>Vedere anche
 [Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
-[Gestione delle relazioni](marketing-relationship-management.md)  
+[Relationship Management](marketing-relationship-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)    

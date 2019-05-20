@@ -11,11 +11,11 @@ ms.search.keywords: migration, Excel
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926534"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245526"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importazione dei dati aziendali da altri sistemi contabili
 Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile scegliere di creare una società vuota nella quale caricare i propri dati e testare la nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)]. A seconda della soluzione contabile che l'azienda utilizza correntemente, è possibile trasferire le informazioni sui conti clienti, fornitori, magazzino e bancari.  
@@ -76,8 +76,8 @@ Il pacchetto di configurazione di default supporta le seguenti tabelle:
 -   Prezzo vendita
 -   Prezzo acquisto
 
-## <a name="see-also"></a>Vedi anche
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)

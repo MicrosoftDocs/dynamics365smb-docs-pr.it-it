@@ -13,11 +13,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d56801d7bb5f032d6bf0f50816ac2a2a6510ddbd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941798"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245352"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.

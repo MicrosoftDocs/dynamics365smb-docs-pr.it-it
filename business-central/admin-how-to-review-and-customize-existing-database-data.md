@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
 ms.openlocfilehash: 95b16dc77bcdb0051447a4f153dd720661c52cf9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917938"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244563"
 ---
 # <a name="review-and-customize-existing-database-data"></a>Analisi e personalizzazione dei dati nei database esistenti
 Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina.  

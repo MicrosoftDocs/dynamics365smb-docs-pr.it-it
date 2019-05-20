@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912876"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246174"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
 L'utilizzo simultaneo degli impegni e della tracciabilità articolo specifica è raro, perché entrambi creano un accoppiamento tra approvvigionamento e domanda. Ad eccezione delle situazioni in cui un cliente o un responsabile della pianificazione di produzione richiede un lotto specifico, raramente ha senso impegnare gli articoli di magazzino che già hanno numeri di tracciabilità articolo per un'applicazione specifica. Sebbene sia possibile impegnare gli articoli che richiedono la tracciabilità articolo specifica, è necessaria una funzionalità speciale per evitare conflitti di disponibilità tra i processori di ordine che richiedono gli stessi articoli tracciati.  

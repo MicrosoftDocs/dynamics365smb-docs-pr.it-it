@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: edb3ef5d977994588feb4331cf8f15e6f1b32438
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932955"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240840"
 ---
 # <a name="exchanging-data"></a>Scambio di dati
 È possibile scambiare i dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.  
@@ -29,7 +29,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Convertire i record del documento di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] in un formato standardizzato e inviarli come documenti elettronici che i clienti possono ricevere nel proprio sistema.|[Inviare documenti elettronici](sales-how-to-send-electronic-documents.md)|  
 |Inviare PDF o file immagine a un provider di servizi OCR e riceverli come documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)|  
 |Ricevere i documenti elettronici dal servizio OCR o dal servizio di scambio documenti in un formato standardizzato che viene convertito nei relativi record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
-|Preparare l'importazione di un file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** come primo passaggio della riconciliazione dei pagamenti o nella pagina **Riconciliazioni C/C bancari** come primo passaggio nella riconciliazione dei conti bancari.|[Impostare il servizio di Feed bancario di Envestnet Yodlee](bank-how-setup-bank-statement-service.md)|  
+|Preparare l'importazione di un file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** come primo passaggio della riconciliazione dei pagamenti o nella pagina **Riconciliazioni C/C bancari** come primo passaggio nella riconciliazione dei conti bancari.|[Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)|  
 |Esportare i pagamenti dalla pagina **Registrazioni pagamenti** in un file della banca da caricare sul conto corrente bancario elettronico per l'elaborazione.|[Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)|
 |Effettuare pagamenti elettronici in base al bonifico SEPA standard per i paesi dell'UE.|[Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  

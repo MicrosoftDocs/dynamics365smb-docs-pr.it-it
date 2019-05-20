@@ -11,11 +11,11 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c9eace037f6a30fafdd5bc2a3af0af83da73b3f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926345"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244402"
 ---
 # <a name="defining-payment-methods"></a>Definizione dei metodi di pagamento
 I metodi di pagamento consentono di definire il modo in cui si desidera essere pagati dai clienti e quello in cui si intende pagare i fornitori. Il metodo può variare per ogni cliente o fornitore. Esempi di metodi di pagamento tipici sono **banca**, **contanti**, **assegno**, **conto**. 

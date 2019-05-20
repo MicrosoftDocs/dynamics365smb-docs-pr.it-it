@@ -1,6 +1,6 @@
 ---
-title: Configurare una società con la procedura guidata RapidStart Services | Microsoft Docs
-description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services.
+title: Configurare una società con la procedura guidata RapidStart | Microsoft Docs
+description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919273"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239914"
 ---
-# <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart Services
-È possibile configurare rapidamente una nuova società creata utilizzando la procedura guidata RapidStart Services.
+# <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart
+È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
 
-Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto di configurazione che verrà successivamente installato su un computer. Il cliente apre la nuova società, che non contiene dati relativi ai clienti. L'utente o la società del cliente esegue quindi i passaggi descritti nella procedura guidata RapidStart Services per inserire informazioni di base sulla società. La procedura guidata consente di importare il pacchetto di configurazione e di collegarlo alla società.  
+Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto di configurazione che verrà successivamente installato su un computer. Il cliente apre la nuova società, che non contiene dati relativi ai clienti. L'utente o il cliente esegue i passaggi descritti nella procedura guidata RapidStart Services per inserire informazioni di base sulla società. La procedura guidata consente di importare il pacchetto di configurazione e di collegarlo alla società.  
 
 ## <a name="to-configure-a-new-company"></a>Per configurare una nuova società  
-1. Nella Gestione ruolo utente Implementatore di RapidStart Services, scegliere l'azione **Procedura guidata RapidStart Services**.  
+1. Nella Gestione ruolo utente Implementatore di RapidStart Services, scegli l'azione **Procedura guidata RapidStart**.  
 2. Espandere la Scheda dettaglio **Passaggio 1** che contiene informazioni generali sulla nuova società. Compilare i campi con le informazioni appropriate sulla nuova società. Soltanto il campo **Nome** è obbligatorio. I campi restanti sono facoltativi.  
 3. Espandere la Scheda dettaglio **Passaggio 2** che contiene le informazioni di contatto e sulla comunicazione relative alla nuova società. Compilare i campi con le informazioni appropriate sulla nuova società.
 4. Espandere la Scheda dettaglio **Passaggio 3** che contiene il conto corrente bancario e informazioni di pagamento relative alla nuova società. Compilare i campi con le informazioni appropriate sulla nuova società.  
@@ -49,5 +49,5 @@ La società risulta ora configurata e collegata ai dati.
 
 ## <a name="see-also"></a>Vedi anche  
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

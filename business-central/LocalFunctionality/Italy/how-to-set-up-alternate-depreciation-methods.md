@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: aa54049b88a2be889e44eece12d85eb1b862503b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924555"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246101"
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  

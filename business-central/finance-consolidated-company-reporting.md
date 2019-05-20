@@ -12,11 +12,11 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: cdfcd99c484176d709288f2cf27f0a04e43bdf52
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914954"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244471"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 Se si hanno più società in [!INCLUDE[d365fin](includes/d365fin_md.md)], il report Bilancio di verifica consolidato nella Gestione ruolo utente Contabile può fornire una panoramica dello stato finanziario dell'attività commerciale globale.  

@@ -13,11 +13,11 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ef6b6d89ccea59de6a87c062cc6e29a27abe2c88
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921388"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245480"
 ---
 # <a name="configuring-api-templates"></a>Configurazione di modelli di API
 La libreria di API per [!INCLUDE[d365fin_md](includes/d365fin_md.md)] fornisce una rappresentazione semplificata delle entità sottostanti. Tutte le proprietà dell'applicazione non sono esposte tramite l'API associata. La pagina **Setup API** consente di definire modelli utilizzati per popolare le proprietà vuote in un'entità quando si crea un'azione POST tramite l'API. 
@@ -47,5 +47,5 @@ Il modello definito viene applicato a un nuovo record creato tramite l'API se, e
 [Sviluppo di app Connect per [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Abilitare le API](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpoint per le API](/dynamics-nav/endpoints-apis-for-dynamics)  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941564"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238005"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Impostare un indirizzo alternativo per i contatti
 È possibile assegnare un indirizzo alternativo presso il quale talvolta i contatti ricevono messaggi di posta e informazioni, ad esempio la casa per le vacanze estive. È possibile anche assegnare uno o più intervalli di date per ogni indirizzo alternativo inserito per i contatti per specificarne il periodo di validità.

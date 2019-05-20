@@ -11,11 +11,11 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: c483b50e7f1456c06ace27d3893c04a3d59e6ab8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924973"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243827"
 ---
 # <a name="import-payroll-transactions"></a>Importa transazioni retribuzioni
 Per indicare i pagamenti di stipendio e le transazioni correlate, è necessario importare e registrare in contabilità generale le transazioni finanziarie trasformate dal provider di retribuzioni. A tale scopo, è necessario innanzitutto importare un file che si riceve dal provider di retribuzioni nella pagina **Contabilità generale**. Successivamente si esegue il mapping tra i conti esterni nel file retribuzioni e i conti C/G pertinenti. Infine, si registrano le transazioni retribuzioni in base alla mappatura dei conti.

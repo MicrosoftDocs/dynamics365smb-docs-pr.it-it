@@ -11,11 +11,11 @@ ms.search.keywords: tasks, work
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 5befadf7a162cc2094fbb1ef426e25d02d50e856
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918172"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241170"
 ---
 # <a name="define-user-tasks"></a>Definisci task dell'utente
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  

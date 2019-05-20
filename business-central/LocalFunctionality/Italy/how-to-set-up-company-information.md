@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 68c1dedaf9ecb8319dd4f8b8bd84c12a7ab5d038
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927678"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246077"
 ---
 # <a name="set-up-company-information"></a>Impostazione di informazioni sulla società
 I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  

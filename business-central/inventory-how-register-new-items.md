@@ -12,11 +12,11 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924027"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240190"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.

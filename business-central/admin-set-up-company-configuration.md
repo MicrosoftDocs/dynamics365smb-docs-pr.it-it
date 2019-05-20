@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926465"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246701"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
 Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
@@ -37,6 +37,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Pianificare la configurazione di una società compilando il foglio di lavoro configurazione.|[Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
 |Creare un pacchetto di configurazione, personalizzare un pacchetto, assegnare tabelle a un pacchetto, esaminare o modificare dati esistenti del cliente, creare la nuova società e quindi spostare i dati dei test nell'ambiente di produzione.|[Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)| 
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

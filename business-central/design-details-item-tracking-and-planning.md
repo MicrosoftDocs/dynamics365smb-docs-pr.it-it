@@ -13,11 +13,11 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ddb2cd65abc96e27486782a1e9c9937858920f7c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916422"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243022"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 Quando si registra una transazione di magazzino, la registrazione della quantità viene registrata nei movimenti contabili articoli, la registrazione del valore nei movimenti di valorizzazione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione magazzino](design-details-inventory-posting.md).  

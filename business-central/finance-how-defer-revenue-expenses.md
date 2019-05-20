@@ -13,11 +13,11 @@ ms.search.keywords: postpone
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 046d2469c13358942fec767b58f6e9ffe46e7799
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930559"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243459"
 ---
 # <a name="defer-revenues-and-expenses"></a>Rateizzare le entrate e le uscite
 Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, utilizzare la funzionalità per differire automaticamente le entrate e le uscite per una pianificazione specificata.

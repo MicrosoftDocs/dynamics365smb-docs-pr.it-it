@@ -13,11 +13,11 @@ ms.search.keywords: check, clearing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c2a3a1e94eaa5fee747ce52726765ff1f9401bb2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915409"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243620"
 ---
 # <a name="export-a-positive-pay-file"></a>Esportare un file Positive Pay
 Per assicurarsi che la banca compensi solo gli assegni e gli importi convalidati, è possibile esportare un file Positive Pay con informazioni su fornitore, numero di assegno e importo del pagamento da inviare alla banca per riferimento quando si elaborano i pagamenti.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920798"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245574"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] e fornirlo al cliente come file di Excel o file XML.  
@@ -118,6 +118,6 @@ Dopo aver importato e convalidato le informazioni da un questionario di configur
 
 A questo punto è stato configurato il setup con le informazioni aziendali e regole del cliente.
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

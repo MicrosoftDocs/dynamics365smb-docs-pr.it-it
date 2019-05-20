@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919975"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240374"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utilizzo dei numeri di serie e di lotto
 È possibile assegnare i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati. Eseguire l'operazione nella pagina **Righe tracciabilità articolo**, accessibile da un documento in entrata o in uscita.

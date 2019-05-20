@@ -11,11 +11,11 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 382bee236225c1038430bb2243c6c54b56ef772e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935948"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241004"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.

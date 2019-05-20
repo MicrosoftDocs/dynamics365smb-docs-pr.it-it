@@ -11,11 +11,11 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927544"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245026"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Impostare il servizio di conversione di dati bancari
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ciò viene indicato in [!INCLUDE[d365fin](includes/d365fin_md.md)] come il servizio di conversione di dati bancari.
@@ -24,7 +24,7 @@ Tramite la pagina **Registraz. pagamenti** è possibile esportare le righe pagam
 
 È possibile importare i file dell'estratto conto nella pagina **Registrazione riconciliazione pagamenti** utilizzando il servizio di conversione di dati bancari per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-In alternativa all'importazione di estratti conto con il servizio di conversione di dati bancari, è possibile utilizzare il servizio Feed bancari di Envestnet Yodlee. Per ulteriori informazioni, vedere [Impostare il servizio Feed bancari di Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
+In alternativa all'importazione di estratti conto con il servizio di conversione di dati bancari, è possibile utilizzare il servizio Envestnet Yodlee Bank Feeds. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Per importare o esportare i file dei conti correnti bancari, è necessario impostare il proprio conto corrente bancario e i conti correnti bancari dei fornitori. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).
 

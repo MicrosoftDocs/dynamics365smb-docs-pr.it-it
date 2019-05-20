@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941636"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245861"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Per agevolare il cliente nell'utilizzo del pacchetto di configurazione, è possibile aggiungere un questionario o un insieme di questionari al pacchetto di configurazione. Il questionario può agevolare il cliente nella comprensione delle diverse opzioni di setup. In genere, i questionari vengono creati per le tabelle di setup principali dove un cliente può richiedere ulteriori indicazioni su come selezionare un'impostazione appropriata. Per ulteriori informazioni, vedere [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md).
 
-Accertarsi di essere nella Gestione ruolo utente Implementatore di RapidStart Services. Per ulteriori informazioni, vedere [Utilizzo della Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Accertarsi di essere in Gestione ruolo utente Implementatore di RapidStart Services. Per ulteriori informazioni, vedere [Utilizzare Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
@@ -77,7 +77,7 @@ Il pacchetto viene creato in un file con estensione rapidstart, che offre il con
 È possibile salvare il file con un nome significativo, ma non è possibile modificare l'estensione del file. L'estensione del file deve essere rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Per copiare un pacchetto di configurazione  
-Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può essere utilizzato come base per la creazione di pacchetti simili. Tale approccio può velocizzare l'implementazione e migliorare l'aspetto di ripetibilità di RapidStart Services.
+Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può essere utilizzato come base per la creazione di pacchetti simili. Tale approccio può velocizzare l'implementazione e migliorare la ripetibilità di RapidStart Services.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare un pacchetto dalla lista, quindi scegliere l'azione **Copia pacchetto**.  
@@ -137,5 +137,5 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 ## <a name="see-also"></a>Vedi anche  
 [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md)  
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

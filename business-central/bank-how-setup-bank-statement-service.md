@@ -1,5 +1,5 @@
 ---
-title: Impostare i feed bancari di Yodlee| Documenti Microsoft
+title: Impostare Yodlee Bank Feeds| Documenti Microsoft
 description: È possibile convertire le informazioni sui pagamenti in qualsiasi formato di dati richiesto dalla banca e abilitare l'esportazione o l'importazione dei file della banca.
 services: project-madeira
 documentationcenter: ''
@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941821"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246655"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio di Feed bancario di Envestnet Yodlee
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Il servizio Feed bancari di Envestnet Yodlee è supportato nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
-> Il servizio Feed bancari di Envestnet Yodlee è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
+> Il servizio Envestnet Yodlee Bank Feeds è supportato nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
+> Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
 
-Il servizio Feed bancari di Envestnet Yodlee viene installato come un'estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)] online ed è pronto per essere abilitato nei paesi supportati. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
+Il servizio Envestnet Yodlee Bank Feeds viene installato come un'estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)] online ed è pronto per essere abilitato nei paesi supportati. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
 
 Dopo avere abilitato il servizio di feed bancari, è necessario collegare un conto corrente bancario al conto corrente bancario online da cui deriva il feed. I conti correnti bancari vengono collegati a conti bancari online nelle seguenti situazioni:
 
@@ -55,7 +55,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato**. Dopo alcuni istanti, si apre la pagina **Collegamento conto bancario**.
 
     > [!NOTE]  
-    > Questa pagina mostra l'effettiva pagina Web del servizio Feed bancari di Envestnet Yodlee. La terminologia e la funzionalità della pagina potrebbero non corrispondere alle indicazioni fornite in questo argomento.  
+    > Questa pagina mostra l'effettiva pagina Web del servizio Envestnet Yodlee Bank Feeds. La terminologia e la funzionalità della pagina potrebbero non corrispondere alle indicazioni fornite in questo argomento.  
 3. Nella pagina **Collegamento conto bancario online** nel riquadro **Collegamento conto**, utilizzare la funzione di ricerca per trovare la banca presso cui si trovano uno o più conti correnti bancari online.
 4. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 5. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  

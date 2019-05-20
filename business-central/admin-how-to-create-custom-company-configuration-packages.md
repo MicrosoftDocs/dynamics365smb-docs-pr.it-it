@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0f87e3708802898d1b86dfaae31b37cdee37ff74
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921365"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244632"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
 Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti. È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.  
@@ -51,6 +51,6 @@ Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a for
 8.  Creare modelli di configurazione per facilitare la creazione di dati master, ad esempio clienti o articoli.  
 9.  Esportare il pacchetto come file con estensione rapidstart.  
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

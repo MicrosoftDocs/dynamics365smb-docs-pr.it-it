@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924358"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245944"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Informazioni sul framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Il formato di file per lo scambio di dati in file bancari, documenti elettronici, tassi di cambio e altro mediante i sistemi ERP varia in base al provider del file o del flusso di dati e al paese. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta vari formati di file bancari e standard di servizi per i dati. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).    

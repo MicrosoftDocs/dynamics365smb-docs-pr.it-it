@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923814"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246727"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.
@@ -27,7 +27,7 @@ Il primo passaggio consiste di creare un pacchetto di configurazione che include
 Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Per collegare i movimenti in una registrazione a una nuova società  
-1. Configurare una nuova società e collegarla a un pacchetto di configurazione. Per ulteriori informazioni, vedere [Configurare una società con la procedura guidata RapidStart Services](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+1. Configurare una nuova società e collegarla a un pacchetto di configurazione. Per ulteriori informazioni, vedere [Configurare una società con la procedura guidata RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     La nuova società non contiene informazioni sui bilanci di apertura delle registrazioni.  
 
@@ -43,5 +43,5 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Impl
 
 ## <a name="see-also"></a>Vedi anche  
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

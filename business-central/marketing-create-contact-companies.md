@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938967"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243185"
 ---
 # <a name="create-contacts"></a>Crea contatti
 Si incontrano regolarmente persone di altre società che possono diventare relazioni d'affari, ad esempio relazioni con i clienti. In caso di nuovo contatto, è necessario registrare il maggior numero di informazioni su una scheda contatti affinché la comunicazione possa continuare.

@@ -13,11 +13,11 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9ef598ec969e406d2e64519c31521d2444849d58
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910269"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240259"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gestire la casella in entrata e in uscita intercompany
 Tutte le transazioni intercompany ricevute elettronicamente dai partner intercompany sono elencate nella posta in arrivo IC.  

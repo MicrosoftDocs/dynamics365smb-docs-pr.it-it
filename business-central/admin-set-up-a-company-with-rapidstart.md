@@ -1,5 +1,5 @@
 ---
-title: Impostare una società con RapidStart Services | Documenti Microsoft
+title: Impostare una società con RapidStart Services| Microsoft Docs
 description: È possibile impostare una nuova società in Business Central utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti.
 services: project-madeira
 documentationcenter: ''
@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914787"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244317"
 ---
-# <a name="setting-up-a-company-with-rapidstart-services"></a>Impostare una società con RapidStart Services
+# <a name="setting-up-a-company-with-rapidstart-services"></a>Impostazione una società con RapidStart Services
 È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti.  
 
-RapidStart Servicest consente di ottenere una panoramica del processo di setup della nuova società grazie a un prospetto in cui è possibile impostare le tabelle più frequentemente utilizzate nel processo di configurazione di nuove società. Nell'ambito di questa operazione, è possibile creare un questionario per assistere i clienti durante la raccolta delle informazioni relative al setup. I clienti possono scegliere di utilizzare il questionario per impostare le aree di applicazione o di aprire direttamente la pagina di setup e ed eseguire l'impostazione da questa posizione. È importante tenere presente che RapidStart Services consente ai clienti di preparare la società con i dati di setup di default che sarà possibile ottimizzare e personalizzare. Infine, quando si utilizza RapidStart Services, è possibile configurare ed eseguire la migrazione dei dati dei clienti esistenti, ad esempio una lista di clienti o articoli, alla nuova società.
+RapidStart Services consente di ottenere una panoramica del processo di setup della nuova società grazie a un prospetto in cui è possibile impostare le tabelle più frequentemente utilizzate nel processo di configurazione di nuove società. Nell'ambito di questa operazione, è possibile creare un questionario per assistere i clienti durante la raccolta delle informazioni relative al setup. I clienti possono scegliere di utilizzare il questionario per impostare le aree di applicazione o di aprire direttamente la pagina di setup e ed eseguire l'impostazione da questa posizione. È importante tenere presente che RapidStart Services consente ai clienti di preparare la società con i dati di setup di default che sarà possibile ottimizzare e personalizzare. Infine, quando si utilizza RapidStart Services, è possibile configurare ed eseguire la migrazione dei dati dei clienti esistenti, ad esempio una lista di clienti o articoli, alla nuova società.
 
 È possibile utilizzare i componenti seguenti per accelerare il setup della società:  
 
@@ -37,7 +37,7 @@ RapidStart Servicest consente di ottenere una panoramica del processo di setup d
 
  Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-|**Task**|**Vedere**|  
+|**Per**|**Vedere**|  
 |------------|-------------|  
 |Impostare l'interfaccia utente principale di RapidStart Services.|[Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Creare una nuova società e importare modelli e dati di setup di base.|[Impostare la configurazione della società](admin-set-up-company-configuration.md)|  
@@ -46,9 +46,9 @@ RapidStart Servicest consente di ottenere una panoramica del processo di setup d
 |Configurare i record dei dati master utilizzando modelli per preparare la migrazione dei dati clienti esistenti.|[Preparazione per la migrazione dei dati dei clienti](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definire tabelle e campi, convalidare dati clienti esistenti ed eseguire la migrazione di dati nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md)|
 |Preparare il riutilizzo delle configurazioni di società in altre società.|[Creare pacchetti di configurazione di società personalizzati](admin-how-to-create-custom-company-configuration-packages.md)|
-|Trovare soluzioni ai problemi noti nel toolkit RapidStart Services.|[Suggerimenti e trucchi: Servizi di RapidStart](admin-tips-and-tricks-rapidstart-services.md)|  
+|Trovare soluzioni ai problemi noti nel toolkit RapidStart Services.|[Suggerimenti e consigli: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)   

@@ -13,11 +13,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915290"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246912"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence, per i responsabili decisionali. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili numerose funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.

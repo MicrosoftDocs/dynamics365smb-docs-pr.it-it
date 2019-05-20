@@ -13,11 +13,11 @@ ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0ddfa9b2d981f81f649240a08c26e8cca845bd1f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920463"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246131"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Dettagli di progettazione: Pagina righe tracciabilità articolo
 I record di tracciabilità articolo e i record di impegno vengono creati nel sistema di impegno e la relativa disponibilità viene calcolata in modo dinamico. I dati che vengono immessi nella pagina **Righe tracciabilità articolo** vengono gestiti in una versione temporanea della tabella **Specifica tracciabilità**. Quando la pagina viene chiusa, viene eseguito il commit dei dati attivi alla tabella **Movimenti impegni** e viene eseguito il commit dei dati storici alla tabella **Specifica tracciabilità**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md).  
