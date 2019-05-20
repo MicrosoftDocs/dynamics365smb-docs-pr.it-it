@@ -11,11 +11,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 44807f1e5fdbf3295ba0e52ccc0a556d342f3e46
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937506"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250510"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Estensione di migrazione dei dati QuickBooks
 Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli e conti da QuickBooks [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

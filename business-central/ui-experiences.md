@@ -12,11 +12,11 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912416"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251425"
 ---
 # <a name="changing-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per aiutare a gestire l'attività dell'azienda, indipendentemente dalla line of business attiva. Al centro di [!INCLUDE[d365fin](includes/d365fin_md.md)] si trovano la creazione di rendiconti finanziari e i processi di vendita e acquisto. Aggiungere esperienze in base alle esigenze aziendali aggiungendo estensioni da AppSource o modificando l'impostazione Esperienza per l'azienda. Per ulteriori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md) oppure [Scelta di un'esperienza utente per visualizzare o nascondere le funzionalità](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

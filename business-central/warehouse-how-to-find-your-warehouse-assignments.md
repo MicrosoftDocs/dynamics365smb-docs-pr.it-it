@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f0ad51c742e67ba9be77117ea7538d8f56bb6f4e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927058"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248642"
 ---
 # <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
 Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).

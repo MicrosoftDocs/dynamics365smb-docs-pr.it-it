@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934996"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247307"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in uscita
 Il flusso in uscita nella warehouse inizia con una richiesta da documenti di origine rilasciati di prelevare gli articoli dall'ubicazione della warehouse, per spedirli a una parte esterna o un'altra ubicazione della società. Dall'area di immagazzinamento, le attività di magazzino vengono eseguite a livelli diversi di complessità per portare gli articoli fuori dai dock di immagazzinamento.  

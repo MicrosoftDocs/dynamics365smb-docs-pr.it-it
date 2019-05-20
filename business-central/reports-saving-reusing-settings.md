@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941517"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251224"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gestione impostazioni salvate nei report
 Quando si esegue un report, gli utenti di norma vedono una pagina che consente loro di impostare determinate opzioni e filtri per variare i dati inclusi nel report generato. Questa pagina è chiamata la pagina di richiesta report. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni su come utilizzare le impostazioni salvate, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).

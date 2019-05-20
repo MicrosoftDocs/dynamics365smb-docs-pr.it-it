@@ -11,11 +11,11 @@ ms.search.keywords: configure, initialize
 ms.date: 04/05/2019
 ms.author: edupont
 ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969834"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251011"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
@@ -42,7 +42,7 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Preparare DB e cicli di produzione per definire il modo in cui gli articoli vengono prodotti e preparare aree di produzione o centri di lavoro per eseguire le operazioni richieste.|[Impostazione della produzione](production-configure-production-processes.md)|
 |Stabilire sintomi, codici guasto e servizi standard e impostare gli articoli in assistenza, risorse e la documentazione necessari per fornire assistenza ai clienti.|[Impostazione della gestione assistenza](service-setup-service.md)|
 |Leggere le procedure ottimali per l'impostazione di articoli per i costi di magazzino e la pianificazione degli approvvigionamenti.|[Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)|
-|Migliorare la qualità dell'implementazione e diminuire i tempi di distribuzione utilizzando un set di strumenti per impostare una nuova società utilizzando procedure, modelli, prospetti e questionari dei clienti.|[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Migliorare la qualità dell'implementazione e diminuire i tempi di distribuzione utilizzando un set di strumenti per impostare una nuova società utilizzando procedure, modelli, prospetti e questionari dei clienti.|[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Trasferire informazioni su clienti, fornitori, magazzino e conti correnti bancari da un altro sistema in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)|
 |Utilizzare il componente aggiuntivo Outlook di Business Central per visualizzare i dati finanziari relativi a clienti e fornitori o creare e inviare documenti finanziari, quali offerte e fatture.|[Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)|
 |Ottenere informazioni sui dati Business Central con Power BI e pacchetti di contenuto di Business Central.|[Abilitare i dati aziendali per Power BI](admin-powerbi.md)|

@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953512"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247165"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
-È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
+È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
 
 Le pagine **Sintesi migrazione dati** e **Foglio di lavoro configurazione** consentono di accedere alle funzioni e alle visualizzazioni per eseguire tutti i task correlati alla migrazione dei dati. È consigliabile eseguire la migrazione di una tabella alla volta, per gestire le dipendenze nei dati. La migrazione interesserà anche le tabelle di dati master, che contengono informazioni su clienti, fornitori, articoli, contatti e la contabilità generale.  
 
@@ -28,9 +28,9 @@ Le pagine **Sintesi migrazione dati** e **Foglio di lavoro configurazione** cons
 Quando si crea una nuova società, è possibile importare le impostazioni della nuova società. Importare le impostazioni da un file con estensione rapidstart che offre il contenuto del pacchetto in un formato compresso. Viene importato un set corrispondente di tabelle di migrazione dei dati di default. Il set di dati contiene le tabelle di dati master e le tabelle dati di setup. La prima attività nella migrazione di dati consiste nel valutare se il setup di migrazione di default soddisfa i requisiti della nuova società.
 
 > [!NOTE]  
->  Non è possibile rinominare un file che non sia già un pacchetto di configurazione di RapidStart Services come file del pacchetto di configurazione con estensione .rapidstart e quindi provare a importarlo. Se si prova tale operazione, verrà visualizzato un messaggio di errore.  
+>  Non è possibile rinominare un file che non sia già un pacchetto di configurazione di RapidStart Services come file del pacchetto di configurazione con estensione RapidStart e quindi provare a importarlo. Se si prova tale operazione, verrà visualizzato un messaggio di errore.  
 
-Prima di iniziare l'operazione, assicurarsi di essere nella Gestione ruolo utente Implementatore di RapidStart Services.
+Prima di iniziare l'operazione, controllare di essere nella pagina Gestione ruolo utente Implementatore di RapidStart Services.
 
 > [!IMPORTANT]  
 >  Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
@@ -188,6 +188,6 @@ Nel campo **Nr. record di database**, è possibile visualizzare il numero di rec
 
 Il database della società del cliente è ora impostato e i dati di base vengono importati. I passaggi successivi del processo di implementazione sono organizzare utenti, definire processi, creare dati aggiuntivi, personalizzare i report e così via.
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

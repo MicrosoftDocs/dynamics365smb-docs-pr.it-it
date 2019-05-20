@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923768"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249171"
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
 È possibile verificare un documento pronto per la registrazione, ad esempio un ordine di acquisto, una fattura o una nota di credito, per assicurarsi che non vi siano problemi che possano bloccare la registrazione.

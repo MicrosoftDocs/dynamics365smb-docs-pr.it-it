@@ -13,11 +13,11 @@ ms. search.keywords: extension, bank, formats
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: bc93fe469eea824be20942033db0959f8fe643c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930191"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249425"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Estensione per formati di file .tax (DK)
 Se l'azienda ha rapporti commerciali con società, filiali interne o consociate in altri paesi dell'UE, è necessario dichiarare i dati sulle attività agli enti SKAT e Statistics Denmark. Se si utilizzano le funzionalità di dichiarazione IVA e Intrastat di [!INCLUDE[d365fin](includes/d365fin_md.md)], questa estensione assicura che il file esportato sia compatibile con i requisiti di queste organizzazioni. L'estensione aggiunge alla configurazione del report IVA le codeunit necessarie per la preparazione dei file di esportazione per le dichiarazioni INTRASTAT e MS-ECSL, in modo da poter esportare immediatamente i dati nel nuovo formato corretto.

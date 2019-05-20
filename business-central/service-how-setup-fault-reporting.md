@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 48361c529b682fc3989ceaa2baebcb1f4cb529a4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913531"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250850"
 ---
 # <a name="set-up-fault-reporting"></a>Impostare il reporting dei guasti
 Il reporting dei guasti consente di stabilire degli standard per registrare le informazioni relative ai guasti per gli articoli in assistenza. Ad esempio, è possibile specificare il tipo di problema, gli indizi osservati, il motivo del problema e in che modo risolverlo.  

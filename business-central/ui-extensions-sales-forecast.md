@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 6f31f95b521135ce51a8bc9c82dd6b48cec103bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916174"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249562"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Estensione Previsione vendite e magazzino
 La Gestione del magazzino è un trade-off tra l'assistenza clienti e la gestione dei costi. Da un lato, un magazzino basso richiede meno capitale di lavoro, ma dall'altro un magazzino in esaurimento potenzialmente porta a vendite mancate. L'estensione Previsione vendite e magazzino prevede le vendite potenziali utilizzando i dati storici e fornisce una chiara panoramica delle scorte esaurite previste. A seconda della previsione, l'estensione consente di creare le richieste di approvvigionamento per i fornitori e quindi di risparmiare tempo.  

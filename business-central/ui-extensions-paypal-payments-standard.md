@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f715108b17d355084fee7983e106cd33dd476906
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911790"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249769"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Estensione PayPal Payments Standard
 I clienti richiedono continuamente un livello di assistenza clienti più elevato, sia in termini di qualità del prodotto sia in termini di opzioni di consegna e di pagamento. Il servizio PayPal Payments Standard contribuisce a migliorare l'assistenza clienti.

@@ -11,11 +11,11 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935805"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251333"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.

@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: a8274aef0fe9cf7a816b2f3e7c8853576e5bc9de
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934539"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247998"
 ---
 # <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
 Sono disponibili alcuni report standard che è possibile utilizzare per raccogliere le informazioni necessarie per preparare i rendiconto di chiusura della società.

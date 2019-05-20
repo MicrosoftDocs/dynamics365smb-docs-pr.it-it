@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 33f8f1b0844532e32c391c3c474ad555204a600c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927999"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249125"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
 Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.  

@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932835"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247400"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Collegare Power BI a pacchetti di contenuto di Dynamics 365 Business Central
 Ottenere informazioni approfondite sui dati di Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] è semplice con Power BI e con i pacchetti di contenuto di Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Power BI recupera i dati e quindi sviluppa un dashboard e i report pronti per l'uso basati su tali dati.

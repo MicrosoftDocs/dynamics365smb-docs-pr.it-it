@@ -11,11 +11,11 @@ ms.search.keywords: find
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934421"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249907"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[d365fin](includes/d365fin_md.md)].  

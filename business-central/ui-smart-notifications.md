@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926678"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249217"
 ---
 # <a name="managing-notifications"></a>Gestione delle notifiche
 [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di lavorare in modo più intelligente tramite le notifiche che informano in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Queste notifiche vengono visualizzate come suggerimenti discreti nel contesto dell'attività che si sta eseguendo e consente di scegliere di ignorare la notifica o di visualizzare i dettagli sul problema.  

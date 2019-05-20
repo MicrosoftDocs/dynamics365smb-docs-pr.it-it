@@ -13,11 +13,11 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5d7180ad4eb26dc0f42432545da5f0abef5e9d02
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930134"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250971"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  

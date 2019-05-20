@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912439"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247237"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparazione per la migrazione dei dati dei clienti
 Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.  
@@ -136,7 +136,7 @@ La seguente procedura è basata su una nuova scheda cliente.
 
 I valori di default dal modello cliente scelto sono inseriti nella scheda cliente.
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)

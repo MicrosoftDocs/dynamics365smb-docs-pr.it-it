@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938205"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249378"
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commerciali, quali le informazioni sui pagamenti nei documenti di vendita ai clienti, è possibile utilizzare la funzionalità di layout di report per definire il contenuto specifico del documento che deve essere inserito nel corpo e-mail automaticamente. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
