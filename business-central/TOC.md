@@ -51,7 +51,7 @@
 ## Utilizzo dei tasti di scelta rapida
 ### [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
 ### [Tasti di scelta rapida](keyboard-shortcuts.md)
-### [Riferimento rapido per tasti di scelta rapida](keyboard-shortcuts-cheatsheet.md)
+### [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)
 
 # Impostazione di Business Central
 ## [Sintesi](setup.md)
@@ -318,7 +318,7 @@
 ## [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md)
 ## Integrazione con Dynamics 365 for Sales
 ### [Sintesi](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Impostazione dell'integrazione con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Impostazione di account utente per l'integrazione con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Impostare una connessione di Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizzazione di Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Sintesi](ui-extensions.md)
 #### [Personalizzazione utilizzando le estensioni](ui-extensions.md)
 #### [Registro paga di Ceridian](ui-extensions-ceridian-payroll.md)
-#### [Replica dei dati](ui-extensions-data-replication.md)
 #### [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
 #### [Informazioni aziendali essenziali](ui-extensions-essential-business-insights.md)
 #### [Analisi di immagini](ui-extensions-image-analyzer.md)
-#### [Cloud intelligente](ui-extensions-intelligent-cloud.md)
+#### [Cloud intelligente](ui-extensions-data-replication.md)
+#### [Cloud intelligente base](ui-extensions-intelligent-cloud.md)
 #### [Pagamenti Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK - Migrazione dati C5](ui-extensions-c5-data-migration.md)
 #### [DK - Formati di file .tax](ui-extensions-tax-file-formats-dk.md)
 #### [Regno Unito - Codici postali di GetAddress.io per il Regno Unito](ui-extensions-getaddressio.md)
+#### [Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 #### [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
 ### [Modifica delle funzionalità visualizzate](ui-experiences.md)
 ### [Gestione della personalizzazione come amministratore](ui-personalization-manage.md)
@@ -562,9 +563,9 @@
 ## [Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md)
 ## [Gestione dei budget per i cespiti](fa-how-manage-budgets.md)
 
-# Relationship Management
+# Gestione delle relazioni
 ## [Sintesi](marketing-relationship-management.md)
-## [Setup Relationship Management](marketing-setup-marketing.md)
+## [Setup Gestione delle relazioni](marketing-setup-marketing.md)
 ## Gestione dei contatti
 ### [Sintesi](marketing-contacts.md)
 ### [Setup contatti](marketing-setup-contacts.md)
@@ -992,11 +993,7 @@
 #### [Creare report IVA](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Correggere report IVA](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Notifiche dell'acconto IVA sulle vendite](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Creare e inviare notifiche dell'acconto IVA sulle vendite](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Invio elettronico di notifiche dell'acconto IVA sulle vendite a ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [Dichiarare l'IVA-Intra su disco](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [Panoramica della trasmissione ELSTER](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Messaggi di errore del gestore di trasferimenti Elster](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Attività bancarie e pagamenti
 #### [Stampare report di liste di pagamenti fornitore](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Finanze principali
