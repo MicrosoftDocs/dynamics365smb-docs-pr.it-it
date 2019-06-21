@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247142"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540225"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Sincronizzazione di dati in Business Central e Dynamics 365 for Sales
 Quando si integra [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile decidere se sincronizzare i dati nei campi selezionati di [!INCLUDE[d365fin](includes/d365fin_md.md)] (ad esempio clienti, contatti e agenti) con record equivalenti in [!INCLUDE[d365fin](includes/d365fin_md.md)] (come conti, contatti e utenti). A seconda del tipo di record, è possibile sincronizzare i dati da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], o viceversa. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -46,17 +46,17 @@ Nella seguente tabella elenca il mapping standard tra le entità in [!INCLUDE[d3
 |-------------------------------------------|-----|-------------------------|--------------|
 |Agenti/Addetti acq.|Utente|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di Sales: il campo **Stato** è impostato su **No**, **Con licenza utente** è impostato su **Sì**, Modalità utente integrazione è su **No**|
 |Cliente|Conto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro conto di Sales: il **Tipo di relazione** è **Cliente** e lo **Stato** è **Attivo**.|
-|Contatto|Contatto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di Sales: il contatto è assegnati a una società e il tipo di cliente padre è **Conto**.|
+|Contatto|Contatto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di Sales: il contatto è assegnati a una società e il tipo di cliente padre è **Conto**.|
 |Valuta|Valuta transazione|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Unità di misura|Unità di vendita|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Articolo|Prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di Sales: il campo **Tipo prodotto** è **Inventario vendite**|
 |Risorsa|Prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di Sales: il campo **Tipo prodotto** è **Servizi**|
 |Gruppo prezzi cliente|Listino prezzi|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Prezzo vendita|Listino prezzi prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Codice vendita** non è vuoto, **Tipo vendita** è **Gruppo prezzi cliente**|
+|Prezzo vendita|Listino prezzi prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Codice vendita** non è vuoto; il campo **Tipo vendita** è **Gruppo prezzi cliente**|
 |Opportunità|Opportunità|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |Testate Fatt. Vendita|Fattura|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Righe Fatt. Vendita|Prodotto di fatturazione|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Testate ordine cliente|Ordini Vendita|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtro Testate vendita di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Tipo di documento** è Ordine, **Stato** è Rilasciato|
+|Testate ordine cliente|Ordini Vendita|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|Filtro Testate vendita di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Tipo di documento** è Ordine; il campo **Stato** è Rilasciato|
 |Note dell'ordine di vendita|Note dell'ordine di vendita|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Suggerimento per amministratori: visualizzazione di mapping di entità

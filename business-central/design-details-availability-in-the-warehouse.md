@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246866"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620932"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
 Il sistema deve mantenere un controllo costante sulla disponibilità degli articoli nella warehouse, in modo che gli ordini in uscita possano fluire senza problemi e le spedizioni possano essere ottimizzate.  
 
- La disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita.  
+La disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita.
+
+Se una o più condizioni non sono soddisfatte, è possibile che vengano visualizzati differenti messaggi di errore, compreso il messaggio generico "Niente da gestire". da gestire". Il messaggio "Niente da gestire" può essere visualizzato per varie ragioni, nei flussi in uscita e in entrata, dove una riga di documento inclusa direttamente o indirettamente contiene il campo **Qtà da gestire**.
+
+> [!NOTE]
+> Informazioni sulle possibili ragioni e sulle soluzioni per "Niente da gestire" saranno pubblicate presto qui. da gestire".
 
 ## <a name="bin-content-and-reservations"></a>Collocazione e impegno collocazione  
  In qualsiasi installazione della gestione della warehouse, le quantità articolo esistono sia come movimenti warehouse, nell'area dell'applicazione Warehouse, sia come movimenti contabili articoli, nell'area dell'applicazione Magazzino. Questi due tipi di movimento contengono informazioni differenti sulla posizione degli articolo e sulla loro disponibilità. I movimenti warehouse definiscono la disponibilità di un articolo per collocazione e per tipo di collocazione, che è denominato anche contenuto collocazione. I movimenti contabili articoli definiscono la disponibilità di un articolo in base al relativo impegno verso i documenti in uscita.  
@@ -71,5 +76,6 @@ Il sistema deve mantenere un controllo costante sulla disponibilità degli artic
 
  ![Disponibile per la prenotazione, per allocazioni warehouse](media/design_details_warehouse_management_availability_3.png "Disponibile per la prenotazione, per allocazioni warehouse")  
 
-## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+## <a name="see-also"></a>Vedere anche  
+ [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+ [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)

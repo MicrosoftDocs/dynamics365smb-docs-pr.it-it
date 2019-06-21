@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249378"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594129"
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 Per comunicare rapidamente i contenuti dei documenti aziendali ai partner commerciali, quali le informazioni sui pagamenti nei documenti di vendita ai clienti, è possibile utilizzare la funzionalità di layout di report per definire il contenuto specifico del documento che deve essere inserito nel corpo e-mail automaticamente. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 4. Scegliere il pulsante **OK**. Verrà visualizzata la pagina **Invia messaggio e-mail**.
 5. Nel campo **A:** immettere un indirizzo e-mail valido. Il valore di default è l'indirizzo e-mail del cliente.
 6. Nel campo **Oggetto**, immettere un testo descrittivo dell'oggetto. Il valore di default è il nome e il numero di fattura del cliente.
-7. Nel campo **Allegato** la fattura generata viene allegata per impostazione di default come file PDF. Scegliere il pulsante di ricerca per aprire il file o per allegarne un altro.
+7. Nel campo **Allegato** la fattura generata viene allegata per impostazione di default come file PDF.
 8. Nel campo **Corpo**, immettere un breve messaggio per il destinatario.
 
     Se il corpo e-mail specifico del documento è impostato nella pagina **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, vedere [Per impostare un corpo e-mail specifico del documento per le fatture di vendita](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

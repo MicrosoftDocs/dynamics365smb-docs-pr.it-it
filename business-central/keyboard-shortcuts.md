@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240581"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621208"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |MAIUSC+PGSU<br />(MAIUSC+Fn+freccia SU)|Estendere la selezione per includere tutte le righe visibili sopra la selezione di righe corrente.|Non applicabile.|
 |MAIUSC+PGGIÙ<br />(MAIUSC+Fn+freccia GIÙ)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.|
 |CTRL+C<br />(Cmd+C)|Copiare le righe selezionate negli Appunti.|Non applicabile.|
-|CTRL+V<br />(Cmd+V)|Incolla le righe selezionate dagli Appunti nella pagina corrente o in un documento esterno, come Microsoft Excel o Outlook.<br /><br />Questo è possibile solo in elenchi modificabili.|Non applicabile.|
-|F8|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente.<br /><br />Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto TAB consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|Non applicabile.||
+|CTRL+V<br />(Cmd+V)|Incolla le righe selezionate dagli Appunti nella pagina corrente o in un documento esterno, come Microsoft Excel o Outlook. Questo è possibile solo in elenchi modificabili.|Non applicabile.|
+|F8|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente. Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto TAB consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|Non applicabile.|
 
 ### <a name="KeyboardFilter"></a>Cercare e filtrare elenchi
 

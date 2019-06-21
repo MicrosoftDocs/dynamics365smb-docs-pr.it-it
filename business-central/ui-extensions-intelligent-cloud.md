@@ -1,6 +1,6 @@
 ---
 title: Estensione Cloud intelligente base | Microsoft Docs
-description: Utilizzare l'estensione Cloud intelligente per creare una copia nel cloud dei dati per connettersi a Cloud intelligente.
+description: Utilizzare l'estensione Cloud intelligente base per connettere la soluzione locale a Business Central (online).
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -11,18 +11,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72456035c2412eca65100708890e281f7d49a5be
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250206"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594358"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Estensione Cloud intelligente base
 
-Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente. Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedere [Accesso a Cloud intelligente](about-intelligent-cloud.md).  
+Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente. Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedere [Informazioni intelligenti](about-intelligent-cloud.md).  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
-[Accesso a Cloud intelligente](about-intelligent-cloud.md)  
-[Estensione Cloud intelligente di Business Central](ui-extensions-data-replication.md)  
+[Informazioni intelligenti](about-intelligent-cloud.md)  
+[Estensione Replica dei dati](ui-extensions-data-replication.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249055"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620840"
 ---
 # <a name="searching-and-filtering-faq"></a>Domande frequenti su ricerca e filtro
 Questo articolo risponde alle domande più frequenti relative alle operazioni di ricerca e filtro.
@@ -27,7 +27,7 @@ Sì.
 La ricerca e il filtro sono stati notevolmente ottimizzati per gli utenti che preferiscono l'interazione senza mouse per lavorare in modo efficiente con i dati. È disponibile una varietà di tasti di scelta rapida che possono essere utilizzati in sequenza per lavorare ad alta velocità. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Il riquadro dei filtri è disponibile in tutti gli elenchi?
-Il riquadro dei filtri è disponibile nelle pagine in cui l'elenco è il contenuto principale della pagina, come fogli di lavoro e pagine di elenco, inclusi gli elenchi raggiungibili dalla barra di spostamento. Il riquadro dei filtri non è ancora disponibile per gli elenchi incorporati, come le righe di vendita sugli ordini di vendita o per gli elenchi con colonne dinamiche (spesso indicate come pagine di matrice).
+Il riquadro dei filtri è disponibile nelle pagine in cui l'elenco è il contenuto principale della pagina, come fogli di lavoro e pagine di elenco, inclusi gli elenchi raggiungibili dalla barra di spostamento. Il riquadro filtri non è ancora disponibile per gli elenchi visualizzati come parti, ad esempio Dettaglio informazioni o Gestione ruolo utente. Quando un elenco viene incorporato in una pagina, ad esempio delle righe vendita in un ordine di vendita, il riquadro filtri è disponibile quando si sposta lo stato attivo su quell'elenco utilizzando il pulsante modalità stato attivo. Per ulteriori informazioni, vedere [Spostare lo stato attivo su Voci](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Come posso salvare i filtri personali?
 

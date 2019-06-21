@@ -10,19 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243942"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621070"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
-Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  
+Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
 
-|Metodo di costing|Description|Quando utilizzarlo|  
+> [!NOTE]
+> Non è possibile modificare il metodo di costing dell'articolo se esiste un movimento contabile aperto per l'articolo.<br /><br />
+> Informazioni sulle soluzioni relative alla modifica di un metodo di costing in circostanze particolari saranno pubblicate presto qui.
+
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  
+
+|Metodo di costing|Descrizione|Quando utilizzarlo|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola FIFO.<br /><br /> Nella valutazione di magazzino si presuppone che il primo articolo posizionato nel magazzino venga venduto per primo.|Negli ambienti aziendali in cui il costo del prodotto è stabile.<br /><br /> (Quando i prezzi salgono, nei conti patrimoniali viene mostrato un valore maggiore). Ciò significa che la soggettività tributaria aumenta mentre il punteggio del credito e la capacità di prendere in prestito soldi migliora).<br /><br /> Per articoli con una durata a scaffale limitata, poiché le merci più vecchie devono essere vendute prima della data di scadenza.|  
 |LIFO|Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola LIFO.<br /><br /> Nella valutazione di magazzino si presuppone che gli ultimi articoli posizionati nel magazzino vengano venduti per primo.|Operazione non consentita in molti paesi, perché può essere utilizzata per ridurre il profitto.<br /><br /> (Quando i prezzi salgono, il valore nel conto economico diminuisce). Ciò significa che la soggettività tributaria diminuisce mentre la capacità di prendere in prestito soldi peggiora).|  

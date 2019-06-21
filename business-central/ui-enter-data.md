@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252460"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621162"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -39,7 +39,7 @@ Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzan
 
 Ogni campo può essere contrassegnato come *incluso in Accesso rapido* o *escluso da Accesso rapido*. I campi inclusi in Accesso rapido verranno inclusi nel percorso quando si preme INVIO; i campi che sono esclusi da Accesso rapido, non lo saranno.
 
-Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida di Accesso rapido](keyboard-shortcuts.md#QuickEntry).
+Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida di Accesso rapido per campi](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Suggerimenti e consigli
 Di seguito vengono fornite alcune informazioni utili sull'utilizzo di Accesso rapido.
@@ -90,7 +90,7 @@ Quando si lavora su documenti che includono la parte Voci, ad esempio un ordine 
 
 Un altro vantaggio è che fornisce una funzionalità di filtro avanzata, come in altre elenchi, e quindi la ricerca nelle voci diventa più semplice.
 
-### <a name="switch-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
+### <a name="switching-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
 Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "icona Modalità stato attivo") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
 

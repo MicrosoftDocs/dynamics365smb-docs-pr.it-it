@@ -1,21 +1,21 @@
 ---
 title: Ricerca, filtro e ordinamento di elenchi | Documenti Microsoft
 description: Utilizzare in modo efficiente gli elenchi cercando nei dati, ordinando colonne e perfezionando i risultati con potenti simboli di filtro e tasti di scelta rapida da tastiera.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253955"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621185"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ricerca, filtro e ordinamento di elenchi
 La ricerca e l'individuazione di record in un elenco risultano più semplici grazie a l'ordinamento, la ricerca e il filtro. di ordinamento, ricerca e filtro. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
@@ -41,7 +41,7 @@ Nella parte superiore di ogni pagina elenco, c'è un'icona ![Icona di ricerca](m
 
 Per cercare, è sufficiente selezionare l'icona di ricerca, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
-### <a name="fine-tune-the-search"></a>Perfezionare la ricerca
+### <a name="fine-tuning-the-search"></a>Perfezionare la ricerca
 In generale, la ricerca tenterà di far corrispondere il testo in tutti i campi, non distingue tra caratteri maiuscoli e minuscoli (in altre parole, maiuscole e minuscole) e corrisponderà al testo inserito nel campo (all'inizio, alla fine o al centro).
 
 Tuttavia, è possibile effettuare una ricerca più precisa utilizzando i seguenti caratteri speciali:
