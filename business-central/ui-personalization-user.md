@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253725"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632731"
 ---
 # <a name="personalizing-your-workspace"></a>Personalizzazione dell'area di lavoro
 
@@ -60,7 +60,7 @@ A seconda del tipo di pagina e del relativo contenuto, è possibile eseguire var
 |Visualizzare un campo nell'intestazione di un Scheda dettaglio quando questa è compressa.|Selezionare la freccia e scegliere <b>Mostra quando compresso</b>. <br /> <br />Se questa opzione non è visualizzata, è già impostata. In questo caso, per smettere di visualizzare il campo nell'intestazione della Scheda dettaglio, scegliere <b>Mostra sempre</b>.|*Scheda dettaglio* è il termine utilizzato per un gruppo di campi visualizzati sotto un'intestazione comune. Utilizzare l'opzione <b>Mostra quando compresso</b> per visualizzare i campi più importanti. Se si seleziona un campo nell'intestazione, la Scheda dettaglio verrà visualizzata e lo stato attivo sarà sul campo selezionato.<br /><br />Questa opzione è applicabile solo se una pagina ha più di una Scheda dettaglio. Se vi è una sola Scheda dettaglio, può non essere compressa, per cui l'opzione <b>Mostra quando compresso</b> non è disponibile.|
 |Visualizzare un campo solo quando si seleziona **Mostra di più**.|Selezionare la freccia e scegliere <b>Visualizza in "Mostra più"</b>. <br /> <br />Se l'opzione <b>Visualizza in "Mostra più"</b> non è visualizzata, è già impostata. In tal caso, per visualizzare sempre un campo e non solo quando si seleziona **Mostra di più**, scegliere <b>Mostra sempre</b>.||
 |Modificare il riquadro di blocco di un elenco in un'altra colonna. |Selezionare la freccia della colonna che si desidera come ultima colonna del riquadro di blocco, quindi scegliere <b>Imposta Blocca riquadro</b>.<br /><br/>Se si desidera impostare il riquadro di blocco di nuovo sulla posizione originale, selezionare la freccia per la colonna corrente del blocco e scegliere <b>Cancella Blocca riquadro</b>. Nota: non è possibile rimuovere il riquadro di blocco.|Il riquadro di blocco specifica le colonne che sono sempre visualizzate a sinistra, anche quando si scorre orizzontalmente.|  
-|Modificare la larghezza di una colonna.|Nella riga dell'intestazione della tabella, trascinare il bordo destro della colonna. <br /><br />Per massimizzare la larghezza della colonna in base alla riga di testo più lunga nella colonna, fare doppio clic sul bordo destro.||
+|Modificare la larghezza di una colonna.|Nell'intestazione dell'elenco, trascinare il limite tra le colonne. <br /><br />È possibile fare doppio clic sul limite tra le intestazioni di colonna per eseguire un adattamento automatico, che imposta la larghezza su una dimensione appropriata per una corretta leggibilità.||
 |Ignorare un campo quando si preme INVIO.|Selezionare la freccia accanto al campo, o l'intestazione di una colonna in un elenco, e scegliere **Escludi da Accesso rapido**. <br /><br /> Se questa opzione non è visualizzata, il campo è già impostato per essere ignorato. In tal caso, per smettere di ignorare il campo, scegliere **Includi in Accesso rapido**. |Vedere [Accelerazione dell'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Personalizzazione delle azioni

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245733"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629552"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizzare manualmente i mapping di tabella
 Un mapping di tabella di integrazione associa una tabella [!INCLUDE[crm_md](includes/crm_md.md)] (tipo di record), come un cliente, a un'entità di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio un conto. La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record della tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] e dell'entità di [!INCLUDE[crm_md](includes/crm_md.md)] associati. Inoltre, a seconda della configurazione di un mapping di tabella, la sincronizzazione può creare e associare nuovi record nella soluzione di destinazione per i record non associati nell'origine.  
@@ -95,4 +95,4 @@ Modificando il mapping di tabella di integrazione in anticipo, è possibile conf
 
 ## <a name="see-also"></a>Vedere anche  
 [Sincronizzazione di Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Configurare l'integrazione di Dynamics 365 for Sales in Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Impostazione di account utente per l'integrazione con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

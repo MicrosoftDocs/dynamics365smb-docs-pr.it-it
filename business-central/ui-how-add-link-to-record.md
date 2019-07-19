@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250344"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629759"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Aggiunta di collegamenti a siti Web, documenti o programmi nei record
 In un record specifico, ad esempio un cliente, un documento o un ordine di vendita, è possibile aggiungere un collegamento a un sito Web, programma o documento esterno. In alternativa, è possibile creare un collegamento che apre un nuovo messaggio e-mail vuoto a un cliente specifico quando lo si seleziona. La pagina schede di alcuni record, ad esempio schede clienti e fornitori, includono un campo **Home page** in cui è possibile immettere un indirizzo Internet (URL). Per includere altri collegamenti, è possibile utilizzare il metodo descritto in questo articolo.  
@@ -35,10 +35,9 @@ Un altro esempio potrebbe essere quando si ricevono fatture stampate dai fornito
 
 4.  Nel campo **Indirizzo collegamento**, immettere
 
-    -   Per creare un collegamento a un file nel computer o in rete, immettere il percorso completo e il nome di file, ad esempio **C:Documenti\Fattura1.doc**.
+    -   Per creare un collegamento a un file nel computer o in rete, immettere il percorso completo e il nome di file, ad esempio **C:\Documenti\Fattura1.doc**.
     -   Per creare un collegamento a un sito Web, immettere l'indirizzo Internet (URL), ad esempio **www.microsoft.com**.
-    -   Per creare un collegamento a un sito Web, immettere l'indirizzo Internet (URL), ad esempio **www.microsoft.com**.
-    -   Per creare un collegamento a un programma, immettere una stringa specifica per aprire il programma. Ad esempio, per aprire OneNote con una pagina specifica, immettere **onenote:///C:Documenti\test.one**. Oppure per aprire Outlook con una nuova e-mail vuota a un alias specifico, immettere **mailto:testalias**.  
+    -   Per creare un collegamento a un programma, immettere una stringa specifica per aprire il programma. Ad esempio, per aprire OneNote con una pagina specifica, immettere **onenote:///C:\Documenti/test.one**. Oppure per aprire Outlook con una nuova e-mail vuota a un alias specifico, immettere **mailto:testalias**.  
 
 5.  Nel campo **Descrizione** inserire informazioni relative al collegamento.  
 

@@ -1,6 +1,6 @@
 ---
 title: Requisiti minimi per l'utilizzo di Business Central | Microsoft Docs
-description: Informazioni sui requisiti minimi di sistema e di versione per l'utilizzo di Business Central.
+description: Informazioni sui requisiti minimi di sistema e di versione per l'utilizzo di Business Central online.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252891"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711039"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
-Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
+Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
 
 ## <a name="browsers"></a>Browser
 **Chrome per Windows e Firefox per Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di questi browser desktop.  
@@ -33,13 +33,17 @@ Prima di accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], si consiglia di
 **Dimensioni del dispositivo:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è supportato su smartphone con dimensioni minime dello schermo di 4" e tablet con dimensioni minime dello schermo di 7".  
 
 ## <a name="outlook"></a>Outlook
-**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook Web App, OWA per iPhone, OWA per iPad oppure OWA per Android.  
+**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook Web App, OWA per iPhone, OWA per iPad oppure OWA per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)]online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
 **Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook Web App (OWA), il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in OWA per iPhone, OWA per iPad e OWA per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario Excel 2016 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="using-business-central-on-premises"></a>Utilizzo di Business Central in locale
+
+Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
+## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  
-[Requisiti di sistema per Dynamics 365 Business Central (on-premises)](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

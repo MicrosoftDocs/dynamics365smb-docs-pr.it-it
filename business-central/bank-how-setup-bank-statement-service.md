@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246655"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702884"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Il servizio Envestnet Yodlee Bank Feeds è supportato nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
+> Il servizio Envestnet Yodlee Bank Feeds è supportato solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
+
+> [!IMPORTANT]
+> Per assistenza tecnica con la funzionalità Envestnet Yodlee, contattare il supporto Microsoft. Non contattare Envestnet Yodlee. Per ulteriori informazioni, vedere [Configurazione del supporto tecnico per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
 Il servizio Envestnet Yodlee Bank Feeds viene installato come un'estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)] online ed è pronto per essere abilitato nei paesi supportati. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
 

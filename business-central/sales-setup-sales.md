@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6903744c1be0492267c8dee307e4b012aed4ffa4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ece1edb7ba18cb96099cba34065c96164390e82
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251034"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632708"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
@@ -37,6 +37,7 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 | Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
 | Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Inviare documenti via e-mail](ui-how-send-documents-email.md). |
 |Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
+|Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Vedi anche

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242470"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629713"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -218,7 +218,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Regole di tolleranza per più pagamenti 2")  
+![Regole di tolleranza per più pagamenti 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regole di tolleranza per più pagamenti 2")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -229,7 +229,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regole di tolleranza per più pagamenti 3")  
+![Regole di tolleranza per più pagamenti 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regole di tolleranza per più pagamenti 3")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 

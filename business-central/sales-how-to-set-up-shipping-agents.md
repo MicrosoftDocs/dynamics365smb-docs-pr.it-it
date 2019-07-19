@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252345"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632685"
 ---
 # <a name="set-up-shipping-agents"></a>Impostare gli spedizionieri
 È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.  
@@ -38,7 +38,8 @@ Quando a una riga di ordine di vendita viene assegnato un servizio spedizioniere
 > [!NOTE]  
 >  Se uno spedizioniere viene eliminato dalla riga di ordine, verrà eliminato anche il codice di servizio spedizioniere. Il contenuto di campi parzialmente basato sul servizio spedizioniere verrà ricalcolato.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)  
 [Rintracciare i colli](sales-how-track-packages.md)    
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  

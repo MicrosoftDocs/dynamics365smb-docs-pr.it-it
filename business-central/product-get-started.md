@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254082"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629943"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254082"
 Quando si effettua una sottoscrizione per l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere a una società demo. La società demo contiene dati di esempio, ma è possibile creare i propri documenti di vendita, ad esempio, oppure impostare un conto corrente bancario.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione. Per ulteriore assistenza, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione. Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
 > È possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
@@ -36,7 +36,11 @@ Per alcuni suggerimenti utili e immediati, vedere:
 
 Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md). Per una panoramica delle funzionalità correnti e quelle future, leggere [Note sulla versione di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md).
+
+Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire alcune impostazioni. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Si noti che alcuni passaggi di configurazione possono essere eseguiti in modo semi-automatico utilizzando le guide al setup assistito.
+
+Per una panoramica delle funzionalità correnti e quelle future, leggere il piano di rilascio in [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Gestione ruolo utente
 La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_l
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Note sulla versione di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
