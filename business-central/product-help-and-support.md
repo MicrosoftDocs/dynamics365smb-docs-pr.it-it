@@ -1,18 +1,18 @@
 ---
 title: Guida e supporto
-description: Trovare risorse per la Guida del prodotto, indicazioni e assistenza nonché informazioni su come ottenere supporto tecnico per Business Central.
+description: Trovare la Guida del prodotto, indicazioni, suggerimenti sulla risoluzione dei problemi e assistenza nonché informazioni su come ottenere supporto tecnico per Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253679"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726956"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -47,7 +47,7 @@ Il [blog di Business Central](https://community.dynamics.com/business/b/financia
 
 ### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
 
-[!INCLUDE[prodshort](includes/prodshort.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare le note sulla versione più recenti. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nelle note sulla versione di Dynamics 365 all'indirizzo [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel piano di rilascio di Dynamics 365 all'indirizzo [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 Per una panoramica a più lungo termine, la [pagina della roadmap](https://dynamics.microsoft.com/roadmap/business-central/) di [!INCLUDE[prodshort](includes/prodshort.md)] mostra le priorità generali per [!INCLUDE[prodshort](includes/prodshort.md)] nei prossimi anni.  
 

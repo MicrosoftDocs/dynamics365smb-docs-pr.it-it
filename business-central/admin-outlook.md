@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246735"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717586"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="getting-the-add-in"></a>Come ottenere il componente aggiuntivo
-È semplice iniziare a utilizzare il componente aggiuntivo [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Nella guida setup assistito **Imposta Posta in arrivo aziendale in Outlook**, è possibile impostare la connessione per uso personale o per la propria organizzazione. Se la propria organizzazione utilizza Office 365, è necessario specificare il nome utente e la password di Office 365. Se la propria organizzazione non utilizza Office 365, è necessario specificare le informazioni relative a Exchange Server utilizzate. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook.  
+È semplice iniziare a utilizzare il componente aggiuntivo [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Nella guida al setup assistito **Imposta Posta in arrivo aziendale in Outlook**, è possibile impostare la connessione per uso personale o per la propria organizzazione se l'organizzazione utilizza Office 365. Specificare semplicemente il proprio nome utente e la password Office 365. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook. Per ulteriori informazioni, vedere [Requisiti minimi per Outlook ](product-requirements.md#outlook).  
 
 Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'amministratore Dynamics 365 Business Central. I nuovi componenti aggiuntivi sono aggiunti alla barra multifunzione di Outlook, e in Outlook Web App, è possibile vedere i componenti aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)] immediatamente sopra o sotto il corpo del messaggio e-mail. I componenti aggiuntivi sono aggiornati periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
@@ -50,7 +50,7 @@ Nel componente aggiuntivo Collegamenti documento, è possibile modificare ed eff
 ## <a name="adding-the-add-ins-manually"></a>Aggiunta manuale dei componenti aggiuntivi
 In alcuni casi, i componenti aggiuntivi non vengono aggiunti automaticamente a Outlook. Anche se la società oppure un collega ha eseguito la Guida di setup assistito per conto della società, [!INCLUDE[d365fin](includes/d365fin_md.md)] potrebbe non venire visualizzato in Outlook. In questi casi, è possibile aggiungere manualmente i componente aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire la finestra Outlook Web Access in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la pagina **Gestione componenti aggiuntivi** in cui è possibile abilitare [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
+In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Semplicemente aprire Outlook in un browser quindi aggiungere `/owa/#path=/options/manageapps` all'URL sulla barra degli indirizzi. Verrà visualizzata la pagina **Gestione componenti aggiuntivi** in cui è possibile abilitare [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] dovrebbe essere disponibile.  
 
 Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella pagina **Gestione componenti aggiuntivi**.  
 

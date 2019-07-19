@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620863"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726861"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Utilizzo di Dynamics 365 for Sales da Business Central
 Se si utilizza Dynamics 365 for Sales per l'interazione con i clienti, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire l'inventario e le finanze.
 
+Prima di poter utilizzare le funzionalità di integrazione, è necessario impostare la connessione e definire gli utenti in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> In questo argomento si presuppone che si stanno utilizzando le versioni online di [!INCLUDE[d365fin](includes/d365fin_md.md)] e Sales. È possibile combinare le versioni online e locale, ma è necessaria una configurazione speciale. Per ulteriori informazioni, vedere [Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Questi passaggi descrivono il processo Integrazione online delle versioni di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 for Sales per l'integrazione locale ](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 L'integrazione delle applicazioni consente di accedere ai dati in Sales da [!INCLUDE[d365fin](includes/d365fin_md.md)] e in alcuni casi di effettuare l'operazione inversa. È possibile utilizzare e sincronizzare i dati che sono comuni a entrambi i servizi, quali clienti, contatti e informazioni sulle vendite, e mantenere i dati aggiornati in entrambe le applicazioni.  
 
@@ -73,19 +75,22 @@ Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga,
 
 Gli aggiornamenti dei campi nella testata dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel **Mapping tabella integrazione** SALESORDER-ORDER sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Gestione di dati di offerte di vendita
 Le offerte di vendita attivate in [!INCLUDE[crm_md](includes/crm_md.md)] verranno trasferiti a [!INCLUDE[d365fin](includes/d365fin_md.md)] se si seleziona la casella di controllo **Elabora automaticamente offerte di vendita** nella pagina **Setup connessione Microsoft Dynamics 365**.
 In alternativa, è possibile convertire manualmente offerte di vendita attivate da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Elabora in [!INCLUDE[d365fin](includes/d365fin_md.md)]** nella pagina **Offerte di vendita - Dynamics 365 for Sales**.
 In tali offerte di vendita, il campo **Nome** nell'offerta originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Anche il campo **Data di validità finale** nell'offerta viene trasferito e mappato al campo **Offerta valida fino alla data** in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzazione. Sia l'elaborazione manuale che quella automatica delle offerte di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiscono l'archiviazione delle versioni precedenti delle offerte di vendita prima dell'elaborazione di nuove revisioni delle offerte di vendita da [!INCLUDE[crm_md](includes/crm_md.md)]. 
+Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzazione. Sia l'elaborazione manuale che quella automatica delle offerte di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiscono l'archiviazione delle versioni precedenti delle offerte di vendita prima dell'elaborazione di nuove revisioni delle offerte di vendita da [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestione di spedizioni vendita registrate, pagamenti clienti e statistiche
-Dopo l'evasione di un ordine di vendita, verranno create le fatture per lo stesso. Quando si fattura l'ordine di vendita, è possibile trasferire le spedizioni vendita registrate a [!INCLUDE[crm_md](includes/crm_md.md)] se si seleziona **Crea fattura in [!INCLUDE[crm_md](includes/crm_md.md)]** nella pagina Fattura di vendita registrata. Le fatture registrate vengono trasferite a [!INCLUDE[crm_md](includes/crm_md.md)] con lo stato **Fatturato**. Dopo il ricevimento del pagamento cliente per la fattura di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)], lo stato della fattura diventerà **Pagato** con Motivo stato impostato su **Parziale**, se pagata parzialmente, o su **Completo**, se pagata completamente, quando si esegue **Aggiorna statistiche account** nella pagina del cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Aggiorna statistiche account** aggiornerà anche valori come Saldo e Totale vendite nel Dettaglio informazioni statistiche conto di [!INCLUDE[d365fin](includes/d365fin_md.md)] in [!INCLUDE[crm_md](includes/crm_md.md)].
-In alternativa, è possibile avere dei processi programmati (Statistiche cliente e POSTEDSALESINV-INV) che eseguono automaticamente entrambi i processi in background. 
+Dopo l'evasione di un ordine di vendita, verranno create le fatture per lo stesso. Quando si fattura un ordine di vendita, è possibile trasferire le spedizioni vendita registrate a [!INCLUDE[crm_md](includes/crm_md.md)] se si seleziona la casella di controllo **Crea fattura in [!INCLUDE[crm_md](includes/crm_md.md)]** nella pagina **Fattura vendita registrata**. Le fatture registrate vengono trasferite a [!INCLUDE[crm_md](includes/crm_md.md)] con lo stato **Fatturato**.
+
+Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)], lo stato della fattura diventerà **Pagato** con **Motivo stato** impostato su **Parziale**, se pagata parzialmente, o su **Completo**, se pagata completamente, quando si sceglie l'azione **Aggiorna statistiche account** nella pagina del cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La funzione **Aggiorna statistiche account** aggiornerà anche i valori come i campi **Saldo** e **Totale vendite** nel Dettaglio informazioni **Statistiche conto di [!INCLUDE[d365fin](includes/d365fin_md.md)]** in [!INCLUDE[crm_md](includes/crm_md.md)]. In alternativa, è possibile avere i processi programmati, Statistiche cliente e POSTEDSALESINV-INV che eseguono automaticamente questi processi in background.
 
 ## <a name="see-also"></a>Vedere anche
-[Preparazione all'integrazione in Dynamics 365 for Sales (locale)](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gestione delle relazioni](marketing-relationship-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

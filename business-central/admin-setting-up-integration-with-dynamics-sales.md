@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 0f59324e41695e35e09a2dd970492acb3a8dba58
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620955"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726884"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Impostazione di account utente per l'integrazione con Dynamics 365 for Sales
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## <a name="setting-up-the-admininstrator-user-account-in-sales"></a>Impostazione dell'account utente amministratore in Sales
+## <a name="setting-up-the-administrator-user-account-in-sales"></a>Impostazione dell'account utente amministratore in Sales
 È necessario aggiungere l'account utente amministratore per [!INCLUDE[d365fin](includes/d365fin_md.md)] come utente in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi promuovere l'utente ad amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. L'account utente amministratore deve anche avere il ruolo Addetto personalizzazione sistema e almeno un altro ruolo utente non amministrativo, ad esempio Manager vendite, in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Impostazione dell'account utente per l'integrazione
@@ -42,6 +42,97 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 Dopo aver importato gli utenti e assegnato loro le licenze per Dynamics 365 Customer Engagement, è necessario assegnare gli utenti al ruolo **Agente** in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ![Associazione di agenti e utenti in Dynamics 365 for Sales](media/couple-salespeople.png "Visualizzazione dell'associazione di agenti e utenti in Dynamics 365 for Sales")
+
+## <a name="minimum-permissions-for-user-accounts-in-includecrmmdincludescrmmdmd"></a>Autorizzazioni minime per account utente in [!INCLUDE[crm_md](includes/crm_md.md)]
+Quando si installa la soluzione di integrazione, le autorizzazioni per l'account utente di integrazione sono configurate in [!INCLUDE[crm_md](includes/crm_md.md)]. Se tali autorizzazioni vengono modificate, potrebbe essere necessario ripristinarle. È possibile farlo reinstallando la soluzione di integrazione o ripristinandole manualmente. Le seguenti tabelle elencano le autorizzazioni minime per gli account utente in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="integration-administrator"></a>Amministratore di integrazione
+Nella tabella seguente vengono visualizzate le autorizzazioni minime per ogni scheda per ciascun ruolo di sicurezza richiesto per l'utente amministratore.
+
+##### <a name="customization"></a>Personalizzazione
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|App basata su modello|Globale|||Lettura|
+|Assembly del plug-in|Globale|Lettura|Lettura|Lettura|
+|Tipo di plug-in|Globale|Lettura|Lettura|Lettura|
+|Relazione|Globale|||Lettura|
+|Messaggio SDK|Globale|Lettura|Lettura|Lettura|
+|Passaggio di elaborazione messaggio SDK|Globale|Lettura|Lettura|Lettura|
+|Immagine passaggio di elaborazione messaggio SDK|Globale|Lettura|Lettura|Lettura|
+|Sistema da|Globale|||Scrittura|
+
+##### <a name="custom-entities"></a>Entità personalizzate
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Statistiche dell'account Business Central|Globale|Lettura|Lettura|Lettura|
+|Connessione Business Central|Globale|Creazione, Lettura, Scrittura, Eliminazione|Creazione, Lettura, Scrittura, Eliminazione|Creazione, Lettura, Scrittura, Eliminazione|
+|Post-configurazione|Globale|||Scrittura|
+
+#### <a name="integration-user"></a>Utente integrazione
+Nella tabella seguente vengono visualizzate le autorizzazioni minime in ogni scheda per ciascun ruolo di sicurezza richiesto per l'utente integrazione.
+
+##### <a name="core-records"></a>Record principali
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Conto|Globale|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a, Assegnazione|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a, Assegnazione|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a, Assegnazione|
+|Scheda azione|Globale||Lettura|Lettura|
+|Connessione|Globale|Lettura|Lettura|Lettura|
+|Contatto|Globale|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|
+|Nota|Globale|||Creazione, Lettura, Scrittura, Eliminazione, Aggiunta, Assegnazione|
+|Opportunità|Globale||Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|
+|Spedizioni postali|Globale|||Creazione, Lettura, Aggiunta a|
+|Interfaccia utente entità utente|Utente|Creazione, Lettura, Scrittura|Creazione, Lettura, Scrittura|Creazione, Lettura, Scrittura|
+
+##### <a name="sales"></a>Vendite
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Fattura|Globale|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|
+|Ordine|Globale|Lettura, Scrittura, Aggiunta a|Lettura, Scrittura, Aggiunta a|Lettura, Scrittura, Aggiunta, Aggiunta a, Assegnazione|
+|Prodotto|Globale|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|
+|Proprietà|Globale|Lettura|Lettura|Lettura|
+|Associazione proprietà|Globale|Lettura|Lettura|Lettura|
+|Elemento Set di opzioni proprietà|Globale|Lettura|Lettura|Lettura|
+|Offerta|Globale|Lettura|Lettura|Lettura|
+
+##### <a name="service"></a>Assistenza
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Caso|Globale|Lettura|Lettura|Lettura|
+
+##### <a name="business-management"></a>Gestione aziendale
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Valuta|Globale|Creazione, Lettura, Scrittura|Creazione, Lettura, Scrittura|Creazione, Lettura, Scrittura|
+|Organizzazione|Globale|Lettura, Scrittura|Lettura, Scrittura|Lettura, Scrittura|
+|Ruolo di sicurezza|Globale|||Lettura|
+|Utente|Globale|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta, Aggiunta a|
+|Impostazioni utente|Globale|Creazione, Lettura, Scrittura, Eliminazione, Aggiunta a|Creazione, Lettura, Scrittura, Eliminazione, Aggiunta a|Creazione, Lettura, Scrittura, Eliminazione, Aggiunta a|
+|Agisce per conto di un altro utente|Globale|Sì|Sì|Sì|
+
+##### <a name="customization"></a>Personalizzazione
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Campo|Globale||Lettura|Lettura|
+|Assembly del plug-in|Globale|Lettura|Lettura|Lettura|
+|Tipo di plug-in|Globale|Lettura|Lettura|Lettura|
+|Messaggio SDK|Globale|Lettura|Lettura|Lettura|
+|Passaggio di elaborazione messaggio SDK|Globale|Lettura|Lettura|Lettura|
+|Risorsa Web|Globale|Lettura|Lettura|Lettura|
+
+##### <a name="custom-entities"></a>Entità personalizzate
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Statistiche dell'account Dynamics 365 Business Central|Globale|Creazione, Lettura, Scrittura, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta a|
+|Connessione di Dynamics 365 Business Central|Globale|Lettura|Lettura|Lettura|
+
+### <a name="product-availability-user"></a>Utente disponibilità prodotto
+È possibile consentire agli addetti alle vendite di visualizzare i livelli di magazzino per gli articoli che vendono concedendo agli stessi le autorizzazioni descritte nella tabella seguente.
+
+##### <a name="custom-entities"></a>Entità personalizzate
+|Ruolo di sicurezza|Livello di accesso|Dynamics NAV 2018 e versioni precedenti|Business Central <br> Ottobre 2018|Business Central <br> Aprile 2019|
+|----|----|-----|----|----|
+|Statistiche dell'account Dynamics 365 Business Central|Globale|Creazione, Lettura, Scrittura, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta a|Creazione, Lettura, Scrittura, Aggiunta a|
+|Connessione di Dynamics 365 Business Central|Globale|Lettura|Lettura|Lettura|
 
 ## <a name="see-also"></a>Vedere anche  
 [Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

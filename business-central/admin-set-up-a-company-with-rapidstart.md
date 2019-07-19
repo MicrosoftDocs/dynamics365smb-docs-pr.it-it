@@ -1,8 +1,6 @@
 ---
 title: Impostare una società con RapidStart Services| Microsoft Docs
 description: È possibile impostare una nuova società in Business Central utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244317"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726930"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Impostazione una società con RapidStart Services
 È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti.  
@@ -39,7 +37,6 @@ RapidStart Services consente di ottenere una panoramica del processo di setup de
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Impostare l'interfaccia utente principale di RapidStart Services.|[Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Creare una nuova società e importare modelli e dati di setup di base.|[Impostare la configurazione della società](admin-set-up-company-configuration.md)|  
 |Distribuire il pacchetto configurato al cliente per l'implementazione.|[Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)|
 |Definire e convalidare i valori di setup del cliente per tutte le aree essenziali, quali informazioni sulla società, contabilità generale, magazzino, vendita o produzione.|[Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md)|  
