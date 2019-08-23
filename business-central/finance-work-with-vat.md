@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238902"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796851"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Anche se è possibile impostare una o più combinazioni per gestire l'IVA da imp
 
 Se è stato calcolato uno sconto sul pagamento sulla base dell'importo di una fattura che include l'IVA, è possibile stornare la parte di sconto sul pagamento dell'importo IVA quando viene concesso lo sconto. È necessario attivare il campo **Rett. per sconto pagam.** sia nel setup della contabilità generale che nel setup delle registrazioni IVA per combinazioni specifiche di una categoria di registrazione business IVA e una categoria di registrazione articoli/servizi IVA.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Per immettere manualmente l'IVA nei documenti di vendita  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Per impostare il sistema per il movimento IVA manuale nei documenti di vendita
+Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei documenti di vendita. I passaggi sono simili nella pagina **Setup contabilità fornitori**.
+
 1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dal programma e quello immesso manualmente.  
 2. Nella pagina **Setup contabilità clienti e vendite** inserire un segno di spunta nel campo **Permetti differenze IVA**.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Per rettificare l'IVA per un documento di vendita  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Per rettificare l'IVA per un documento di vendita  
 1. Aprire l'ordine di vendita appropriato.  
 2. Scegliere l'azione **Statistiche**.  
-3. Scegliere la Scheda dettaglio **Fatturazione**.  
+3. Nella Scheda dettaglio **Fatturazione**, scegliere il valore nel campo **Nr. righe di imposta**.
+4. Modificare il campo **Importo IVA**.   
 
-    > [!NOTE]  
-    >  L'importo totale per la fattura, raggruppato in base al codice IVA, viene visualizzato nelle righe. È possibile rettificare manualmente l'importo nel campo **Importo IVA** nelle righe per ogni codice IVA. Quando si modifica il campo **Importo IVA** viene effettuato un controllo per verificare che l'IVA non sia stata modificata di un importo superiore a quello specificato come massima differenza consentita. Se l'importo è superiore a quello specificato nel campo **Max. differenza IVA permessa**, viene visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo in modo che rientri nei parametri accettabili. Fare clic su **OK** e immettere un diverso **Importo IVA** che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o inferiore a quella massima consentita, l'IVA verrà divisa proporzionalmente tra le righe del documento con lo stesso codice IVA.  
+> [!NOTE]  
+> L'importo totale per la fattura, raggruppato in base al codice IVA, viene visualizzato nelle righe. È possibile rettificare manualmente l'importo nel campo **Importo IVA** nelle righe per ogni codice IVA. Quando si modifica il campo **Importo IVA** viene effettuato un controllo per verificare che l'IVA non sia stata modificata di un importo superiore a quello specificato come massima differenza consentita. Se l'importo è superiore a quello specificato nel campo **Max. differenza IVA permessa**, viene visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo in modo che rientri nei parametri accettabili. Fare clic su **OK** e immettere un diverso **Importo IVA** che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o inferiore a quella massima consentita, l'IVA verrà divisa proporzionalmente tra le righe del documento con lo stesso codice IVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calcolo manuale dell'IVA utilizzando le registrazioni  
 È anche possibile rettificare gli importi IVA nelle registrazioni COGE, vendite e acquisti. Ad esempio, questa operazione potrebbe essere necessaria quando si immette una fattura del fornitore nelle registrazioni e vi è una differenza tra l'importo IVA calcolato da [!INCLUDE[d365fin](includes/d365fin_md.md)] e quello specificato nella fattura del fornitore.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Prima di immettere manualmente l'IVA in una registrazione COGE  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
+È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione COGE.  
+
 1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dal programma e quello immesso manualmente.  
 2. Nella pagina **Def. registrazioni COGE** selezionare la casella di controllo **Permetti differenze IVA** per le registrazioni pertinenti.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Prima di immettere manualmente l'IVA nelle registrazioni vendite e acquisti  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
+È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione acquisti o vendite.
+
 1. Nella pagina **Setup contabilità fornitori e acquisti** selezionare la casella di controllo **Permetti differenze IVA**.  
-2. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[d365fin](includes/d365fin_md.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
+2. Ripetere il passaggio 1 per la pagina **Setup contabilità clienti**.
+3. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[d365fin](includes/d365fin_md.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
 
     > [!NOTE]  
     > Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrerà la differenza nel campo **Differenza IVA**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Per registrare l'IVA da importazione con le fatture di acquisto
-Anziché utilizzare le registrazioni COGE per registrare una fattura con IVA da importazione, è possibile utilizzare una fattura di acquisto.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Registrare l'IVA da importazione con fatture di acquisto
+Anziché utilizzare le registrazioni per registrare una fattura con IVA da importazione, è possibile utilizzare una fattura di acquisto.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Per impostare l'acquisto per registrare le fatture con IVA da importazione  
 1. Impostare una scheda fornitore per l'autorità di importazione che invia la fattura con IVA da importazione. I campi **Cat. reg. business** e **Cat. reg. business IVA** devono essere impostati in modo analogo al conto C/G per l'IVA da importazione.  
@@ -102,7 +110,7 @@ Anziché utilizzare le registrazioni COGE per registrare una fattura con IVA da 
 6. Nel campo **Costo unitario diretto IVA escl.** specificare l'importo IVA.  
 7. Contabilizzare la fattura.  
 
-## <a name="to-process-certificates-of-supply"></a>Per elaborare i certificati di fornitura
+## <a name="processing-certificates-of-supply"></a>Elaborare certificati di fornitura
 Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare il cliente un certificato di fornitura che il cliente deve firmare e restituire all'utente. Le procedure riportate di seguito sono utili a elaborare i certificati di fornitura per le spedizioni vendita, ma gli stessi passaggi sono applicabili anche per le spedizioni di assistenza per gli articoli e per le spedizioni di reso ai fornitori.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Per visualizzare i dettagli del certificato di fornitura  

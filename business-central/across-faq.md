@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/13/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629483"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858268"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
 Questa sezione contiene le risposte alle domande frequenti sulla registrazione per una versione di valutazione, l'acquisto di una sottoscrizione e l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]. È inoltre possibile ottenere informazioni su come ottenere supporto tecnico.  
 
-## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile nel mio paese?
+## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile nel mio paese?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di mercati, ma nuovi paesi vengono aggiunti trimestralmente grazie alla localizzazione di Microsoft o alla localizzazione dei partner. Per ulteriori informazioni, vedere [Paesi e traduzioni supportati](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
@@ -30,25 +30,27 @@ Per ulteriori informazioni su prepararsi al business in [!INCLUDE [prodshort](in
 
 Quando si è pronti per acquistare [!INCLUDE [prodshort](includes/prodshort.md)], è possibile trovare un partner [!INCLUDE [prodshort](includes/prodshort.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
+[!INCLUDE [prodshort](includes/prodshort.md)] viene venduto e implementato mediante una rete globale di partner Dynamics 365 con esperienza nel settore. Contattare un partner per una valutazione dettagliata, servizi di consulenza e prezzi aggiuntivi. Per ulteriori informazioni, consultare la sezione **Prezzi** [nella pagina Dynamics 365 Business Central in microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
 ## <a name="where-do-i-go-if-i-have-questions"></a>Dove posso trovare risposta alle domande?
 In caso di domande su [!INCLUDE[d365fin](includes/d365fin_md.md)] per cui non è possibile trovare risposta in questa documentazione, rivolgersi alla community di Business Central. Per ulteriori informazioni, vedere [Community di Dynamics 365 Business Central](https://community.dynamics.com/business).  
 
-Nella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Per ulteriori informazioni, vedere [Blog di Dynamics 365 Business Central](https://community.dynamics.com/business/b/financials) e [Blog del supporto di Dynamics 365 Business Central](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+Nella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nel [blog di Dynamics 365 Business Central precedente](https://community.dynamics.com/business/b/financials).  
 
 Infine, è possibile contattare il proprio partner rivenditore di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere la sezione [Come ottenere supporto tecnico](across-faq.md#how-do-i-get-technical-support-for-).  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Perché non si riesce a trovare una funzionalità in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Perché non si riesce a trovare una funzionalità in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Nel piano di rilascio o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] alla versione più recente. Se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la relativa disponibilità in AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Esistono differenze tra una distribuzione locale e la versione cloud di Business Central?
 Sì. Alcune funzionalità basate su cloud possono essere eseguite in locale in determinati casi e altre non sono supportate affatto. Per ulteriori informazioni, vedere [Funzionalità non implementate nelle distribuzioni locali di Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>È possibile ottenere formazione per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>È possibile ottenere formazione per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Sì, è possibile. Tuttavia attualmente, è necessario rivolgersi al partner rivenditore. Per cercare un partner Business Central, andare alla pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 Se si ha accesso a Microsoft CustomerSource, è possibile ottenere accesso al sito Imagine Academy con materiale eLearning. Per ulteriori informazioni su come ottenere accesso, vedere la pagina [Formazione per Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Come ottenere supporto tecnico per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Come ottenere supporto tecnico per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] viene venduto tramite partner ed è necessario contattare il partner rivenditore per ottenere supporto relativo a problemi tecnici. Se il partner [!INCLUDE[d365fin](includes/d365fin_md.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
 
@@ -62,7 +64,7 @@ Se l'impostazione Esperienza nella pagina **Informazioni società** è impostata
 Non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[d365fin](includes/d365fin_md.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio in corso...** nell'angolo in alto a destra della pagina, che diventerà rapidamente **Salvato** se non si verifica alcun errore. Se si verifica un errore, il testo diventerà **Non salvato**.
 
 
-## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.  
 
 Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si riceve un messaggio che richiede di utilizzare un indirizzo e-mail un lavoro o di scuola. Per ulteriori informazioni, vedere [Troubleshooting dell'accesso Self-Service](ui-troubleshoot-self-signup.md).  
@@ -72,12 +74,12 @@ Se si desidera distribuire [!INCLUDE[d365fin](includes/d365fin_md.md)] in locale
 ## <a name="do-i-have-to-buy-office-365"></a>Devo acquistare Office 365?
 Nr. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una valutazione gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
 
-Se l'account utilizzato per la registrazione non è un account aziendale Office 365 (come joe@mysolution.com) e si dispone di una sottoscrizione Office 365, è possibile associare il proprio dominio (mysolution.com) alla sottoscrizione Office 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Se l'account utilizzato per la registrazione non è un account aziendale Office 365 (come *joe@mysolution.com*) e si dispone di una sottoscrizione Office 365, è possibile associare il proprio dominio (*mysolution.com*) alla sottoscrizione Office 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Se non si dispone di una sottoscrizione Office 365 e non si intende acquistarne una, alla registrazione forniamo un nuovo tenant Azure Active Directory di modo che sia possibile accedere al portale di Azure e quindi agli strumenti di amministrazione avanzati in esso contenuti.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Quali sono i vantaggi dell'integrazione con Office 365 ?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>È possibile estendere il periodo di valutazione "Nuova società" di 30 giorni ?
 Sì. Quando la scadenza del periodo di valutazione è imminente, viene visualizzata una notifica che avverte di tale evento. La notifica contiene un collegamento alla guida **Estendi periodo di valutazione** che può essere utilizzata per estendere il periodo di valutazione. L'estensione supplementare di 30 giorni inizia dal momento in cui scegli **Estendi periodo di valutazione** nella guida. L'utente può estendere il periodo di valutazione una volta. Tale periodo può quindi essere esteso una seconda volta per altri 30 giorni da un partner Microsoft. Per ulteriori informazioni, vedere [Estendere la versione di valutazione](admin-extend-trial.md). Per contattare ora un partner Microsoft nel proprio paese o regione, visualizzare l'elenco di numeri di telefono in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
@@ -85,7 +87,7 @@ Sì. Quando la scadenza del periodo di valutazione è imminente, viene visualizz
 > [!NOTE]
 > Il processo di estensione del periodo di valutazione può richiedere fino a 2 giorni lavorativi.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa finestra Gestione ruolo utente in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa finestra Gestione ruolo utente in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 È opportuno verificare se l'amministratore ha modificato la Gestione ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone che determina l'impostazione delle autorizzazioni e della pagina Gestione ruolo utente predefinita. È possibile modificare manualmente la Gestione ruolo utente nelle impostazioni, ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la home page precedente perché le autorizzazioni non sono state modificate.  
 
 ## <a name="can-i-cancel-my-subscription"></a>È possibile annullare la sottoscrizione?

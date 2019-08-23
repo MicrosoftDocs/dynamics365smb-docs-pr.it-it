@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247423"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755220"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 for Sales
 È possibile sincronizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[d365fin](includes/d365fin_md.md)] e nei record di [!INCLUDE[crm_md](includes/crm_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. Esistono vari processi di sincronizzazione predefiniti disponibili. È possibile visualizzarli nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ Per sincronizzare i dati, i record di entità di [!INCLUDE[crm_md](includes/crm_
 -   Per impostazione predefinita, solo i record di [!INCLUDE[d365fin](includes/d365fin_md.md)] che sono associati ai record di [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. È possibile modificare il mapping di tabella tra un'entità di [!INCLUDE[crm_md](includes/crm_md.md)] e una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)], in modo che i processi di sincronizzazione di integrazione creeranno nuovi record nel database di destinazione per ogni record del database di origine che non è associato. Anche i nuovi record vengono associati ai record corrispondenti nell'origine. Ad esempio, quando si sincronizzano clienti con conti di [!INCLUDE[crm_md](includes/crm_md.md)], un nuovo record di conto viene creato per ogni cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. I nuovi conti vengono automaticamente associati ai clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Poiché la sincronizzazione in questo caso è bidirezionale, un nuovo cliente viene creato e associato per ogni conto di [!INCLUDE[crm_md](includes/crm_md.md)] che non è già associato.  
 
     > [!NOTE]  
-    >  Esistono regole e filtri che determinano quali dati vengono sincronizzati. Per ulteriori informazioni, vedere [Regole di sincronizzazione](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Esistono regole e filtri che determinano quali dati vengono sincronizzati. Per ulteriori informazioni, vedere [Regole di sincronizzazione](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Quando vengono creati nuovi record in [!INCLUDE[d365fin](includes/d365fin_md.md)], i record utilizzano il modello che viene definito per il mapping di tabella di integrazione o il modello predefinito disponibile per il tipo di record. I campi vengono popolati con i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] o di [!INCLUDE[crm_md](includes/crm_md.md)] in base alla direzione della sincronizzazione. Per ulteriori informazioni, vedere [Procedura: Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 |Processo di sincronizzazione CLIENTE - Dynamics 365 for Sales|Sincronizza i conti di [!INCLUDE[crm_md](includes/crm_md.md)] e i clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirezionale|CLIENTE|  
 |Processo di sincronizzazione GRPPRZCLNT-PREZZO - Dynamics 365 for Sales|Sincronizza i listini prezzi di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] con gruppi di prezzi cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPPI DI PREZZI CLIENTE-LISTINI PREZZI DI VENDITA|
 |Processo di sincronizzazione ARTICOLO - PRODOTTO - Dynamics 365 for Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con articoli di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTICOLO-PRODOTTO|
-|Processo di sincronizzazione FATTVNDTRGSTR-FATT - Dynamics 365 for Sales|Sincronizza le fatture di [!INCLUDE[crm_md](includes/crm_md.md)] con le fatture di vendita registrate di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|FATTURE-FATTURE DI VENDITA REGISTRATE|
+|Processo di sincronizzazione FATTVNDTRGSTR-FATT - Dynamics 365 for Sales|Sincronizza le fatture di [!INCLUDE[crm_md](includes/crm_md.md)] con le fatture di vendita registrate di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FATTURE-FATTURE DI VENDITA REGISTRATE|
 |Processo di sincronizzazione RISORSA-PRODOTTO - Dynamics 365 for Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con le risorse di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RISORSA-PRODOTTO|  
 |Processo di sincronizzazione AGENTI - Dynamics 365 for Sales|Sincronizza gli agenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] con gli utenti di [!INCLUDE[crm_md](includes/crm_md.md)].|Da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|AGENTI|
 |Processo di sincronizzazione PRZVNDT-PRZPRODOTTI - Dynamics 365 for Sales|Sincronizza i prezzi dei prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con i prezzi di vendita di [!INCLUDE[d365fin](includes/d365fin_md.md)].||PREZZO DEL PRODOTTO - PREZZO DI VENDITA|
@@ -63,7 +63,7 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 2.  Se si sono verificati uno o più errori per un processo di sincronizzazione, il numero di errori viene visualizzato nella colonna **Operazione non riuscita**. Per visualizzare gli errori per il processo, selezionare il numero.  
 
     > [!TIP]  
-    >  È possibile visualizzare tutti gli errori dei processi di sincronizzazione aprendo direttamente il log errori processi di sincronizzazione.
+    > È possibile visualizzare tutti gli errori dei processi di sincronizzazione aprendo direttamente il log errori processi di sincronizzazione.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Per visualizzare il log processi di sincronizzazione dai mapping di tabella  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.

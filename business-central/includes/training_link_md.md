@@ -1,1 +1,1 @@
-Ottenere [formazione!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)
+Ottenere [formazione!](/dynamics365/get-started/training/)

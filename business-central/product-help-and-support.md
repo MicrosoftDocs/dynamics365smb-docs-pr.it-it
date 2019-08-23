@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726956"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755971"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -43,11 +43,11 @@ Se si utilizza una versione di valutazione di [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-Il [blog di Business Central](https://community.dynamics.com/business/b/financials) consente di ottenere informazioni su nuove funzionalità di [!INCLUDE[prodshort](includes/prodshort.md)], rilasci di nuove app, suggerimenti e consigli nonché aggiornamenti su nuove versioni in lingua.  
+Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), incluse le date di disponibilità e considerazioni speciali.  
 
 ### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
 
-[!INCLUDE[prodshort](includes/prodshort.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel piano di rilascio di Dynamics 365 all'indirizzo [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel piano di rilascio di Dynamics 365 all'indirizzo [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 Per una panoramica a più lungo termine, la [pagina della roadmap](https://dynamics.microsoft.com/roadmap/business-central/) di [!INCLUDE[prodshort](includes/prodshort.md)] mostra le priorità generali per [!INCLUDE[prodshort](includes/prodshort.md)] nei prossimi anni.  
 

@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245811"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858222"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Informazioni su utenti, profili e Gestioni ruolo utente
+# <a name="understanding-users-roles-and-profiles"></a>Informazioni su utenti, ruoli e profili
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], gli utenti vengono aggiunti da un amministratore che concede anche l'accesso per gli utenti alle aree di [!INCLUDE[d365fin](includes/d365fin_md.md)] necessarie per il loro lavoro.  
 
-L'accesso alle funzionalità è gestito tramite *gruppi utente* e *profili*. In qualità di amministratore, è possibile rimuovere utenti nell'ambito della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)] e assegnare le autorizzazioni utente nei gruppi utente.  
+L'accesso alle funzionalità è gestito tramite *gruppi utente* e *profili (ruoli)*. In qualità di amministratore, è possibile rimuovere utenti nell'ambito della sottoscrizione di [!INCLUDE[d365fin](includes/d365fin_md.md)] e assegnare le autorizzazioni utente nei gruppi utente.  
 
 ## <a name="adding-users"></a>Aggiunta di utenti
 
@@ -35,20 +35,20 @@ Le autorizzazioni più efficaci che un utente può avere è il set di autorizzaz
 
 Per le distribuzioni locali di [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore può scegliere tra diversi meccanismi di autorizzazione delle credenziali per gli utenti. Pertanto, quando si crea un utente, fornire informazioni diverse a seconda del tipo di credenziali che si stanno utilizzando nell'istanza specifica di [!INCLUDE[server](includes/server.md)]. Per ulteriori informazioni, vedere [Tipi di autenticazione e credenziali](/dynamics365/business-central/dev-itpro/administration/users-credential-types) nella sezione Amministrazione del contenuto per sviluppatori e professionisti IT per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="profiles"></a>Profili
+## <a name="profiles-roles"></a>Profili (ruoli)
 
-A tutte le persone nella società che hanno accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un *profilo* che consente l'utilizzo di una *Gestione ruolo utente*.
+A tutte le persone nella società che hanno accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un ruolo che consente l'utilizzo di una *Gestione ruolo utente*.
 
-I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che condividono la stessa Gestione ruolo utente. Gestione ruolo utente è il punto di ingresso e la home page per [!INCLUDE[d365fin](includes/d365fin_md.md)] che offre rapido accesso alle attività più importanti e visualizza diverse informazioni approfondite e indicatori di prestazioni chiave (KPI) sul proprio lavoro.  
+I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che condividono lo stesso ruolo. Gestione ruolo utente è il punto di ingresso e la home page per [!INCLUDE[d365fin](includes/d365fin_md.md)] che offre rapido accesso alle attività più importanti e visualizza diverse informazioni approfondite e indicatori di prestazioni chiave (KPI) sul proprio lavoro.  
 
 > [!NOTE]  
 >  Nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)] online, non è possibile aggiungere, modificare o eliminare profili.  
 
-### <a name="CreateProfile"></a>Creare un profilo
+### <a name="CreateProfile"></a>Per creare un profilo
 
-1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Lista profili**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Profili**, quindi scegliere il collegamento correlato.  
 
-2.  Nella pagina **Lista profili**, scegliere l'azione **Nuovo** per aprire la pagina **Scheda Nuovo profilo**.  
+2.  Nella pagina **Profili**, scegliere l'azione **Nuovo** per aprire la pagina **Scheda Nuovo profilo**.  
 
 3.  Nel campo **ID profilo** immettere un nome che descriva il ruolo previsto degli utenti.  
 
@@ -56,7 +56,7 @@ I profili sono raccolte di utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] ch
 
 5.  Impostare il campo **ID Gestione ruolo utente** nella Gestione ruolo utente che si intende assegnare al profilo.  
 
-La procedura per modificare un profilo esistente è identica, tranne che si seleziona un profilo esistente nella pagina **Lista profili** invece di scegliere l'azione **Nuovo**.  
+La procedura per modificare un profilo esistente è identica, tranne che si seleziona un profilo esistente nella pagina **Profili** invece di scegliere l'azione **Nuovo**.  
 
 
 ### <a name="copy-a-profile"></a>Copia di un profilo
@@ -78,7 +78,7 @@ La copia di un profilo consente di risparmiare tempo se si desidera utilizzare i
 
 -   Per esportare un profilo, è possibile scegliere l'azione **Esporta profili** nella pagina **Lista profili** o **Scheda profilo** oppure cercare e aprire la pagina **Esporta profili**. Salvare il file XML in un'ubicazione sul computer o sulla rete.
 
--   Per importare un profilo, è possibile scegliere l'azione **Importa profilo** nella pagina **Lista profili** oppure cercare e aprire la pagina **Importa profili**. 
+-   Per importare un profilo, è possibile scegliere l'azione **Importa profilo** nella pagina **Lista profili** oppure cercare e aprire la pagina **Importa profili**.
 
     > [!NOTE]  
     >  Non è possibile importare un profilo già esistente nel database, anche se il file XML è denominato in modo diverso o ha un contenuto diverso. È necessario eliminare il profilo esistente prima di importare quello nuovo.

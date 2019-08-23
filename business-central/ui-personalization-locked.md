@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251287"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796764"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Perché non è possibile personalizzare una pagina
 
@@ -55,7 +55,7 @@ Se esiste un'icona ![Personalizzazione bloccata](media/personalization-blocked-i
 
 ![Blocco della personalizzazione](media/personalization-blocked.png "Blocco della personalizzazione")
 
-Ciò è dovuto al fatto che Gestione ruolo utente o il profilo attualmente associato al proprio account utente modifica questa pagina specificatamente per il ruolo. Contattare l'amministratore per assistenza oppure, se utile, cercare di passare a una Gestione ruolo utente (da [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Passare direttamente alla pagina Impostazioni utente in Business Central")) che include l'adattamento al ruolo per questa pagina.
+Ciò è dovuto al fatto che Gestione ruolo utente o il ruolo attualmente associato al proprio account utente modifica questa pagina specificatamente per il ruolo. Contattare l'amministratore per assistenza oppure, se utile, cercare di passare a una Gestione ruolo utente (da [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Passare direttamente alla pagina Impostazioni utente in Business Central")) che include l'adattamento al ruolo per questa pagina.
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzazione dell'area di lavoro](ui-personalization-manage.md)  

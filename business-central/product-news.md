@@ -5,31 +5,38 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 06/13/2019
+ms.date: 07/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3b1372b5a4a567820e0a4d4d87fffa51fc5bd52b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: a8f9efbf60f7e0d700453508a3f64b6b369ecd62
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629805"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1756017"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Novità di Dynamics 365 Business Central
 
 [!include [release notes](includes/release-notes.md)]
 
-Questa pagina indirizza agli argomenti utili per conoscere le nuove funzionalità delle ultime versioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Se non è ancora stato fatto, registrarsi per una [versione di prova](https://trials.dynamics.com/), verranno illustrate le operazioni fondamentali che è possibile effettuare con [!INCLUDE[d365fin](includes/d365fin_md.md)] e si avrà la possibilità di esplorare la soluzione in autonomia. Per iniziare, è possibile aprire una società vuota e configurare le impostazioni in autonomia.  
+È sempre possibile fare riferimento al piano di rilascio per una panoramica delle funzionalità nuove e imminenti. In questa documentazione, è possibile trovare argomenti con informazioni sulle funzionalità nuove ed esistenti in [!INCLUDE[prodlong](includes/prodlong.md)].  
+
+Se non è ancora stato fatto, registrarsi per una [versione di prova](https://go.microsoft.com/fwlink/?linkid=847861), verranno illustrate le operazioni fondamentali che è possibile effettuare con [!INCLUDE[prodshort](includes/prodshort.md)] e si avrà la possibilità di esplorare la soluzione in autonomia. Per iniziare, è possibile aprire una società vuota e configurare le impostazioni in autonomia. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verrà aggiornato regolarmente con funzionalità supplementari per l'applicazione principale e con nuove estensioni. Per l'elenco corrente di estensioni Microsoft, vedere [Personalizzazione di Business Central con le estensioni](ui-extensions.md).
 
 Per vedere tutte le estensioni offerte dai partner [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
 
-## <a name="check-the-business-central-blog"></a>Scopri il blog di Business Central
-Si possono trovare informazioni sulle nuove funzionalità anche nel [blog di Business Central](https://community.dynamics.com/business/b/financials/), incluse le date di disponibilità e considerazioni speciali.  
+## <a name="check-the-dynamics-365-blog"></a>Verificare il blog di Dynamics 365
 
-## <a name="see-also"></a>Vedi anche
+Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), incluse le date di disponibilità e considerazioni speciali.  
+
+Per la comunità dei partner, pubblichiamo informazioni su [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365 per i partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nella [Guida per sviluppatori e professionisti IT per [!INCLUDE [prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/index).  
+
+## <a name="see-also"></a>Vedere anche
+
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Risorse per Guida e supporto](product-help-and-support.md)  
 [Prezzi di Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
 [Community di Dynamics 365 Business Central](https://community.dynamics.com/business/)
 

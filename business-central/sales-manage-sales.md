@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251517"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796795"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -42,6 +42,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare un'offerta di vendita in cui si presentano prodotti a condizioni negoziabili prima della conversione dell'offerta in una fattura di vendita. |[Creare offerte di vendita](sales-how-make-offers.md) |
 | Creare una fattura di vendita per registrare il contratto con un cliente per vendere prodotti con determinate condizioni di consegna e pagamento. |[Fatturare le vendite](sales-how-invoice-sales.md) |
 | Elaborare un ordine di vendita con la spedizione parziale o la spedizione diretta. |[Vendere prodotti](sales-how-sell-products.md) |
+|Capire cosa accade quando si registrano documenti di vendita.|[Registrazione di vendite](ui-post-sales.md)|
 |Impostare righe di vendita o acquisto standard da inserire nei documenti, ad esempio, per ordini di approvvigionamento ricorrenti.|[Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
 | Collegare un ordine di vendita a un ordine di acquisto per vender un articolo con spedizione diretta che verrà consegnato direttamente dal fornitore al cliente. |[Effettuare spedizioni dirette](sales-how-drop-shipment.md) |
 |Ricevere un articolo di catalogo spedito da un fornitore al magazzino in modo da spedire l'articolo al cliente.|[Creare ordini speciali](sales-how-to-create-special-orders.md)|

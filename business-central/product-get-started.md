@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629943"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858291"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Quando si effettua una sottoscrizione per l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere a una società demo. La società demo contiene dati di esempio, ma è possibile creare i propri documenti di vendita, ad esempio, oppure impostare un conto corrente bancario.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione. Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Se si hanno ulteriori domande, chiedere alla community o contattare il partner r
 Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search). È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
-Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](https://docs.microsoft.com/dynamics365) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](/dynamics365/) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] e sfruttare l'integrazione ottimale con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Benvenuto in Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_l
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
-[Documentazione di Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
+[Documentazione di Dynamics 365](/dynamics365/)  
 [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

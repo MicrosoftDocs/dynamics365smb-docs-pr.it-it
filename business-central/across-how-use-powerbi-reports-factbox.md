@@ -1,8 +1,6 @@
 ---
 title: Visualizzare i report personalizzati di Power BI | Microsoft Docs
 description: È possibile usare i report Power BI per ottenere informazioni aggiuntive sui dati negli elenchi.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241604"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755197"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare i report personalizzati da visualizzare in questo controllo, ma vi sono alcune regole da seguire nella creazione di report per assicurare il comportamento desiderato.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare i report personalizzati da visualizzare in questo controllo, ma vi sono alcune regole da seguire nella creazione di report per assicurare il comportamento desiderato.  
 
 > [!NOTE]  
->   È necessario disporre di un account valido con [!INCLUDE[d365fin](includes/d365fin_md.md)] e con Power BI. Inoltre, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Per ulteriori informazioni, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
+> È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, per creare report personalizzati, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Per ulteriori informazioni, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Set di dati del report
 Quando si crea il report in Power BI Desktop, specificare l'origine dei dati o il servizio Web che contiene i dati relativi all'elenco che si desidera associare al report. Ad esempio, se si desidera creare un report per la lista di vendita, verificare che il set di dati contenga le informazioni relative alle vendite.  
@@ -50,7 +49,7 @@ Allo stesso modo, se si desidera che lo sfondo del report sfumi con il colore di
 Power BI consente di creare un unico report con più pagine. Gli elementi grafici che si desidera visualizzare nelle pagine elenco di [!INCLUDE[d365fin](includes/d365fin_md.md)] devono essere nella prima pagina del report di Power BI.  
 
 > [!NOTE]  
->  Il riquadro dettaglio informazioni di Power BI può mostrare solo la prima pagina del report. Se si desidera visualizzare altre pagine, è necessario espandere il report e utilizzare le schede nella parte inferiore del report per passare ad atre pagine.  
+> Il riquadro dettaglio informazioni di Power BI può mostrare solo la prima pagina del report. Se si desidera visualizzare altre pagine, è necessario espandere il report e utilizzare le schede nella parte inferiore del report per passare ad atre pagine.  
 
 ## <a name="saving-your-report"></a>Salvare il report
 
@@ -71,8 +70,10 @@ In questa sezione viene fornita una soluzione alternativa per i problemi più co
 
 Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvare il report quindi aggiornare la pagina elenco.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
+[Abilitare i dati aziendali per Power BI](admin-powerbi.md)  
 [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Introduzione](product-get-started.md)    
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Introduzione](product-get-started.md)  
+[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanze](finance.md)  

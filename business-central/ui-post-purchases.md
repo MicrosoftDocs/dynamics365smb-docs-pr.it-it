@@ -1,22 +1,21 @@
 ---
 title: Informazioni sulle modalità di registrazione dei documenti di acquisto | Documenti Microsoft
-description: Informazioni sulle diverse funzioni di registrazione per i documenti di acquisto.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Informazioni sulle diverse funzioni di registrazione per registrare documenti di acquisto e sul modo in cui aggiornare documenti registrati.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247854"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796920"
 ---
 # <a name="posting-purchases"></a>Registrazione di acquisti
 Nella **Categoria registrazione** in un documento di acquisto, è possibile scegliere tra le seguenti funzioni di registrazione:
@@ -44,8 +43,10 @@ Prima di avviare la registrazione, è possibile stampare un report di test in cu
 
 Una volta completata la registrazione, le righe di acquisto registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine che contengono movimenti registrati, come ad esempio le pagine **Movimenti contabili fornitori**, **Movimenti C/G**, **Mov. contabili articoli**, **Ricezioni acquisti** e **Fatture acquisto registrate**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
 [Acquisti](purchasing-manage-purchasing.md)  
 [Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
+[Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

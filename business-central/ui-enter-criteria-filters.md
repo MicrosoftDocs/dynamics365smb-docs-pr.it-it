@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629920"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740504"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Ricerca, filtro e ordinamento di elenchi
 La ricerca e l'individuazione di record in un elenco risultano più semplici grazie a l'ordinamento, la ricerca e il filtro. di ordinamento, ricerca e filtro. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
@@ -128,10 +128,15 @@ Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.m
 
 
 ## <a name="FilterCriteria"> </a>Criteri e simboli di filtro
-Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere consentiti nel campo. È inoltre possibile utilizzare alcuni simboli speciali per filtrare ulteriormente i risultati. Nella tabella seguente sono inclusi i simboli che è possibile utilizzare nei filtri. Per date e ore, è anche possibile fare riferimento a [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md) per informazioni più dettagliate.
+Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere consentiti nel campo. È inoltre possibile utilizzare alcuni simboli speciali (o operatori) per filtrare ulteriormente i risultati. Nella tabella seguente sono inclusi i simboli che è possibile utilizzare nei filtri. Per date e ore, è anche possibile fare riferimento a [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md) per informazioni più dettagliate.
 
 > [!IMPORTANT]  
->  In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è `'S&R*'`.  
+>  In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è `'S&R*'`.
+
+Le seguenti sezioni descrivono come utilizzare i diversi operatori.
+
+> [!NOTE]
+> Se sono presenti più di 200 operatori in un singolo filtro, il sistema raggrupperà automaticamente alcune espressioni tra parentesi `()` ai fini del trattamento. Ciò non ha alcun effetto sul filtro o sui risultati.  
 
 ### <a name="-interval"></a>(..) Intervallo
 
@@ -145,7 +150,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |`23..`|Dal 23-mese corrente-anno corrente ore 0:00:00 alla fine|  
 |`22..23`|Dal 22-mese corrente-anno corrente ore 0:00:00 fino al 23-mese corrente-anno corrente ore 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Oppure  
+### <a name="124-eitheror"></a>(&#124;) Oppure 
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
