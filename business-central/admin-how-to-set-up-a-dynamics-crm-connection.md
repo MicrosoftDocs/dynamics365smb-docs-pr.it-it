@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 37728cb92e4b87346cf2be0e2ddc50b5a3b5f25e
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629644"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917393"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Impostare una connessione a Dynamics 365 for Sales.
 Per eseguire l'integrazione con [!INCLUDE[crm_md](includes/crm_md.md)], è necessario impostare una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -34,7 +34,7 @@ Prima di iniziare a connettere le app, è necessario disporre di alcuni informaz
 > [!Note]
 > Tali passaggi descrivono la procedura per la versione online di [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="set-up-test-and-enable-a-connection-to-includecrmmdincludescrmmdmd"></a>Impostare, verificare e abilitare una connessione a [!INCLUDE[crm_md](includes/crm_md.md)]  
+## <a name="set-up-test-and-enable-a-connection-to-includecrm_mdincludescrm_mdmd"></a>Impostare, verificare e abilitare una connessione a [!INCLUDE[crm_md](includes/crm_md.md)]  
 Per tutti i tipi di autenticazione diversi dall'autenticazione di Office 365, si imposta la connessione a Dynamics 365 for Sales nella pagina **Setup connessione a Microsoft Dynamics 365 for Sales**. Per l'autenticazione di Office 365, è possibile anche utilizzare la guida al setup assistito **Setup connessione a Dynamics 365 for Sales**, che consente di fornire le informazioni necessarie.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Per utilizzare una guida al setup assistito:
@@ -52,7 +52,7 @@ La guida al setup assistito **Setup connessione a Dynamics 365 for Sales** è ut
 |**URL servizi Web OData di Dynamics 365 Business Central**|Se si abilita il servizio Web Disponibilità articolo, viene fornito l'URL del service Web OData.|
 |**Nome utente servizi Web OData di Dynamics 365 Business Central**|Il nome dell'account utente di [!INCLUDE[d365fin](includes/d365fin_md.md)] che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per recuperare informazioni sulla disponibilità degli articoli in [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante il servizio Web OData.|
 |**Chiave di accesso servizi Web OData di Dynamics 365 Business Central**|La chiave di accesso per l'account utente che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per ottenere informazioni sulla disponibilità degli articoli da [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante il servizio Web OData. La chiave viene assegnato all'utente selezionato nel campo **Nome utente servizi Web OData di Dynamics 365 Business Central**. Per ottenere la chiave, scegliere il pulsante **Cerca valore** accanto al nome utente, scegliere l'utente, scegliere **Gestisci**, e quindi **Modifica**. Nella scheda utente, scegliere **Azioni**, **Autenticazione** e quindi **Modifica chiave del servizio Web**.|
-|**Abilita integrazione ordini di vendita**|Quando si creano ordini di vendita in [!INCLUDE[crm_md](includes/crm_md.md)], copiare gli ordini in [!INCLUDE[d365fin](includes/d365fin_md.md)]. A questo proposito si forniscono le credenziali per un account utente amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di ordini di vendita](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Abilita integrazione ordini di vendita**|Quando le persone creano ordini di vendita in [!INCLUDE[crm_md](includes/crm_md.md)] e completano gli ordini in [!INCLUDE[d365fin](includes/d365fin_md.md)], questo integra il processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). A questo proposito si forniscono le credenziali per un account utente amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di ordini di vendita](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Abilita connessione a Dynamics 365 for Sales**|Abilitare la connessione a [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Versione Dynamics 365 SDK**|Ciò è pertinente solo se si esegue l'integrazione con una versione locale di [!INCLUDE[crm_md](includes/crm_md.md)]. Si tratta del Dynamics 365 software development kit (denominato anche Xrm) utilizzato per connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versione deve essere compatibile con la versione SDK utilizzata da [!INCLUDE[crm_md](includes/crm_md.md)] ed è uguale o più recente della versione utilizzata da [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -89,7 +89,7 @@ La procedura seguente illustra come compilare manualmente i campi nella pagina *
 
 |Campo|Descrizione|
 |-----|-----|
-|**Integrazione ordini di vendita abilitata**|Consentire agli utenti di inviare ordini di vendita e offerte attivate in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi visualizzarli ed elaborarli in [!INCLUDE[d365fin](includes/d365fin_md.md)].|
+|**Integrazione ordini di vendita abilitata**|Consentire agli utenti di inviare ordini di vendita e offerte attivate in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi visualizzarli ed elaborarli in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questa operazione integra il processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Crea automaticamente ordini vendita**|Creare un ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] quando un utente ne crea e ne invia uno in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Elabora automaticamente offerte di vendita**|Elaborare un'offerta di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] quando un utente ne crea e ne attiva una in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -115,7 +115,7 @@ La procedura seguente illustra come compilare manualmente i campi nella pagina *
 > La connessione a Dynamics 365 for Sales mediante la pagina **Impostazione della connessione di Microsoft Dynamics 365 for Sales** può richiedere l'[assegnazione dei ruoli di sicurezza **Amministratore di integrazione** e **Utente integrazione**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) all'account utente utilizzato per l'integrazione.
 
 
-### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Per disconnettersi da [!INCLUDE[crm_md](includes/crm_md.md)]  
+### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Per disconnettersi da [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Scegliere l'icona ![a forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup connessione Microsoft Dynamics 365 for Sales** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Setup connessione a Microsoft Dynamics 365 for Sales**, deselezionare la casella di controllo **Abilitato**.  
 

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 9cb6047a5293a3134a433ea9610e31dca5943e1d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95408ec41a2252eff5655004a34f376f466b5972
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249332"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921386"
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
 In ogni documento e registrazione che è possibile contabilizzare, è possibile scegliere il pulsante **Anteprima registrazione** per esaminare i differenti tipi di movimenti che saranno creati quando si registra il documento o le registrazioni.
@@ -29,6 +29,6 @@ In ogni documento e registrazione che è possibile contabilizzare, è possibile 
    Nella pagina **Anteprima movimenti C/G** viene mostrato quali movimenti saranno creati quando si registra una fattura di acquisto.
 
 ## <a name="see-also"></a>Vedere anche
-[Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
+[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

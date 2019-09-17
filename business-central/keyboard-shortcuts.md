@@ -1,21 +1,21 @@
 ---
 title: Tasti di scelta rapida
 description: Elenco completo dei tasti di scelta rapida per utilizzare in modo efficiente i dati.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621208"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985912"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |ESC|Chiudere il calendario senza una selezione, mantenere la data corrente.|
 |Pagina giù|Spostare il cursore al mese successivo.|
 |Pagina su|Spostare il cursore al mese precedente.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Tasti di scelta rapida nei campi Data
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|-----------------|-------|
+|t|Immettere la data corrente. "T" sta per "oggi".|
+|w|Immettere la data del lavoro. Per ulteriori informazioni, vedere [Data del lavoro](ui-change-basic-settings.md#work-date).|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tasti di scelta rapida nell'anteprima report
 

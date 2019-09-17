@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446947"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985741"
 ---
 # <a name="managing-contacts"></a>Gestione dei contatti
-Gruppi diversi della società intratterranno relazioni con società diverse. È ad esempio possibile che un agente si incontri regolarmente con potenziali clienti e che alla fine della settimana registri i risultati di queste visite.
-
-Tutte le entità esterne con cui si intrattengono relazioni, ad esempio clienti, clienti potenziali, fornitori, avvocati e consulenti, devono essere registrati come contatti. Disponendo di questi dati in un'unica posizione centrale, ogni gruppo della società sarà in grado di visualizzare e utilizzare le informazioni in modo efficiente. La comunicazione con i contatti risulterà più efficiente se tutti i dettagli sono sempre disponibili. È ad esempio possibile che un addetto del marketing desideri sapere quali altri prodotti sono stati acquistati da un cliente prima di tentare di catturare il suo interesse con un nuovo prodotto.
+I dipendenti della tua azienda incontrano regolarmente potenziali relazioni commerciali che possono svilupparsi in relazioni formali. Tutti questi contatti esterni e le loro informazioni dettagliate dovrebbero essere registrati nel sistema in modo che la comunicazione abbia più successo e che possano quindi essere facilmente convertiti in relazioni formali con clienti, fornitori o banche.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 

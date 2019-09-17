@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796897"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921432"
 ---
 # <a name="posting-sales"></a>Registrazione di vendite
-Nella **Categoria registrazione** in un documento di vendita, è possibile scegliere tra le seguenti funzioni di registrazione:
+Nel menu **Registrazione** in un documento di vendita, è possibile scegliere tra le seguenti funzioni di registrazione:
 
 * **Registra**
-* **Report test**
+* **Registra e nuovo**
 * **Registra e invia**
-* **Registra e stampa**
-* **Registra e invia tramite e-mail**
-* **Registra batch**
 * **Anteprima registrazione**
+* **Fattura in bozza**
+* **Fattura proforma**
+* **Report test**
 
 Una volta completate le righe e immesse tutte le informazioni nell'ordine di vendita, è possibile registrarlo. Vengono create una spedizione e una fattura.
 
@@ -41,9 +41,11 @@ Per ciascuna riga dell'ordine di vendita, verrà creato un movimento contabile a
 
 Una volta completata la registrazione, le righe di vendita registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine che contengono movimenti registrati, ad esempio le pagine **Mov. contabili clienti**, **Movimenti C/G**, **Mov. contabili articoli**, **Spedizioni vendite registrate** e **Fatture di vendita registrate**.  
 
-## <a name="see-also"></a>Vedere anche
+È possibile modificare determinati campi nei documenti di vendita registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
+[Modificare i documenti registrati](across-edit-posted-document.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md)  
 [Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  

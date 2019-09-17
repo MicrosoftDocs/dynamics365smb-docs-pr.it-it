@@ -4,20 +4,21 @@ description: La gestione delle dimensioni della Codeunit 408 è una libreria di 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b0238fb26b71310b1f02e15be7d7040832ca644
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242585"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970972"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Dettagli di progettazione: Gestione dimensioni della codeunit 408
 La gestione delle dimensioni della Codeunit 408 è una libreria di funzione che gestisce le attività comuni correlate alle dimensioni, ad esempio copia da una tabella a un'altra oppure da un documento a un altro. In questo argomento sono elencate le funzioni che vengono modificate in Microsoft Dynamics NAV 2013 R2 e vengono specificate le azioni da intraprendere per le funzioni. Numerose funzioni sono state eliminate in quanto non è necessario eseguire copie tra le tabelle delle dimensioni.  
@@ -190,6 +191,6 @@ La gestione delle dimensioni della Codeunit 408 è una libreria di funzione che 
 ## <a name="see-also"></a>Vedi anche
  [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
  [Dettagli di progettazione: Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
- [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
- [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
- [Dettagli di progettazione: Esempi di codice dei modelli modificati nelle modifiche](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ [Dettagli di progettazione - Ricerca di combinazioni di dimensioni](design-details-searching-for-dimension-combinations.md)   
+ [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)   
+ 

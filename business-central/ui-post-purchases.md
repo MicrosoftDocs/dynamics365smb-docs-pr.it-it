@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796920"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921340"
 ---
 # <a name="posting-purchases"></a>Registrazione di acquisti
 Nella **Categoria registrazione** in un documento di acquisto, è possibile scegliere tra le seguenti funzioni di registrazione:
@@ -43,10 +43,12 @@ Prima di avviare la registrazione, è possibile stampare un report di test in cu
 
 Una volta completata la registrazione, le righe di acquisto registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine che contengono movimenti registrati, come ad esempio le pagine **Movimenti contabili fornitori**, **Movimenti C/G**, **Mov. contabili articoli**, **Ricezioni acquisti** e **Fatture acquisto registrate**.
 
-## <a name="see-also"></a>Vedere anche
+È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Riferimento pagamento**. Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Vedere anche
+[Modificare i documenti registrati](across-edit-posted-document.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
+[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

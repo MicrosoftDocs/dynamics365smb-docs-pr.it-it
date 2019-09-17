@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252759"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985888"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -179,7 +179,7 @@ Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli
 Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una sottotabella, detta tabella Testi addebiti interessi. Per ciascun gruppo di condizioni degli interessi finanziari, è possibile creare un testo iniziale e/o uno finale da inserire nella nota di addebito degli interessi.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condiz. interessi finanziari** e quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario.  
+2. Compilare i campi, se necessario.
 3. Per utilizzare più di una combinazione di condizioni di interessi finanziari, impostare un codice per ciascuno di essi.
 
     Per ogni condizione di interessi finanziari, è possibile specificare singole condizioni, tra cui oneri addizionali sia in VL sia in valuta estera. È possibile definire molti oneri addizionali in valuta estera per ogni codice nella pagina **Condiz. interessi finanziari**.

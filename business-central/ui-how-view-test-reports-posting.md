@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2a0de959150584e56c488335688950a79430da25
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249171"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921317"
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
 È possibile verificare un documento pronto per la registrazione, ad esempio un ordine di acquisto, una fattura o una nota di credito, per assicurarsi che non vi siano problemi che possano bloccare la registrazione.
@@ -31,7 +31,6 @@ ms.locfileid: "1249171"
 
 Tutte le parti della fattura di acquisto vengono controllate e i risultati presentati in un report. Se il report segnala errori o la mancanza di alcune informazioni, occorre correggere il problema prima di registrare la fattura di acquisto.
 
-## <a name="see-also"></a>Vedi anche
-[Contabilizzare documenti e registrazioni](ui-post-documents-journals.md)  
+## <a name="see-also"></a>Vedere anche
+[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
