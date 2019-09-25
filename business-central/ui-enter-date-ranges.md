@@ -2,21 +2,21 @@
 title: Immissione di date e ore in Business Central | Documenti Microsoft
 description: Ottenere informazioni su come immettere le date e le ore inclusi suggerimenti relativi alla produttività quali abbreviazioni, espressioni e intervalli. Filtrare elenchi o report per una data o periodo specifici.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250942"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000765"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
@@ -24,7 +24,7 @@ ms.locfileid: "1250942"
 
 ## <a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
 
-La pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Vai direttamente alla pagina delle impostazioni personali in Business Central") consente di specificare la **Regione** e la **Lingua** che si utilizzano nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore. 
+La pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Vai direttamente alla pagina delle impostazioni personali in Business Central") consente di specificare la **Regione** e la **Lingua** che si utilizzano nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
 -   L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
 
@@ -33,7 +33,7 @@ La pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utilizza il sistema di calendario gregoriano.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ In un campo Data, è possibile immettere una data utilizzando il formato standar
 
 Si noti che il formato in cui le date vengono visualizzate sui report stampati o sui documenti inviati via e-mail non è influenzato dalla scelta personale di impostazione della regione.
 
-Per lavorare in modo più produttivo con date e orari, è possibile utilizzare uno dei metodi o formati descritti nelle sezioni seguenti. 
+Per lavorare in modo più produttivo con date e orari, è possibile utilizzare uno dei metodi o formati descritti nelle sezioni seguenti.
 
 ### <a name="picking-dates-from-the-calendar"></a>Selezionare le date dal calendario
 
@@ -55,9 +55,9 @@ Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-s
 
 ### <a name="day-week-year-pattern"></a>Schema giorno\-settimana\-anno
 
-È possibile immettere una data come giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Ad esempio, `Mon25` o `mon25` indica il lunedì della settimana 25. Se non si immette un anno, viene utilizzato l'anno della data di lavoro.
+È possibile immettere una data come giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Ad esempio, Lun25 o lun25 indica il lunedì della settimana 25. Se non si immette un anno, viene utilizzato l'anno della data di lavoro.
 
-Anziché immettere l'intera parola per il giorno della settimana, è possibile immettere una parte della parola, a partire dall'inizio. Nel caso dei conflitti (come in inglese `s` che potrebbe essere Saturday o Sunday), i giorni vengono valutati in base all'impostazione di un paese. L'input viene prima valutato rispetto a `workdate` e `today`, ricordare questa informazione quando si utilizzano abbreviazioni. Ad esempio, in inglese, `t` indica già oggi (today) pertanto non può significare Tuesday o Thursday.
+Anziché immettere l'intera parola per il giorno della settimana, è possibile immettere una parte della parola, a partire dall'inizio. Nel caso dei conflitti (come in italiano m che potrebbe essere Martedì o Mercoledì), i giorni vengono valutati in base all'impostazione dell'area geografica. L'input viene prima valutato rispetto alla data di lavoro e alla data odierna, quindi è necessario ricordare questa informazione quando si utilizzano abbreviazioni. Ad esempio, in italiano, s indica settimana pertanto non può significare Sabato.
 
 Lo schema del numero della settimana è sempre ISO 8601, dove la settimana 1 è la settimana che include il 4 gennaio o la settimana con il primo giovedì dell'anno.
 
@@ -73,11 +73,11 @@ In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
 ### <a name="today"></a>Oggi
 
-Immettere la parola corrispondente a `today`nella lingua impostata in **Lingua**, questo imposterà la data e sulla data corrente. Anziché immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio `t` o `tod`, purché non sia anche l'inizio di un'altra parola.
+Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua**. La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
 
 ### <a name="period"></a>Periodo
 
-Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera `p` o la parola `period` seguita da un numero che identifica il periodo contabile, ad esempio `p2` o `period4`. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **03/21/20**, `p1`, oppure soltanto `p`, filtra il primo periodo contabile dell'anno fiscale 2020 (come `01/01/20..01/31/20`). `p15` filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come `03/01/21..03/31/21`). 
+Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
 
 I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
@@ -85,7 +85,7 @@ I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visual
 
 La funzionalità della data di lavoro consente di registrare le transizioni utilizzando una data diversa dalla data corrente.
 
-La parola "workdate", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "\"Passare direttamente alla pagina impostazioni utente in Business Central"). Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
+La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "\"Passare direttamente alla pagina impostazioni utente in Business Central"). Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
 
 Se non è stata definita una data di lavoro, per tale valore verrà automaticamente utilizzata la data corrente. Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.
 
@@ -95,7 +95,7 @@ Vedere anche [Modificare le impostazioni di base, quali l'ora di lavoro](ui-chan
 
 Per chiudere un anno fiscale, è possibile utilizzare date di chiusura per indicare un movimento di chiusura. Una data di chiusura è tecnicamente compresa tra due date, ad esempio 31 dicembre e 1 gennaio.
 
-Per specificare che si tratta di una data di chiusura, immettere `C` prima della data, ad esempio `C123101`. Questo metodo può essere utilizzato insieme a tutti i modelli per data.
+Per specificare che si tratta di una data di chiusura, immettere C prima della data, ad esempio C123101. Questo metodo può essere utilizzato insieme a tutti i modelli per data.
 
 ### <a name="examples"></a>Esempi
 
@@ -103,24 +103,24 @@ Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|anno data di lavoro.mese data di lavoro.11.|
-|`1112`|anno data di lavoro.11.12.|
-|`t` o `today`|data odierna|
-|`p4`|intervallo di date che include il quarto periodo contabile, ad esempio `04/01/20..04/30/20`|
-|`w` o `workdate`|la data di lavoro|
-|`m` o `Monday`|Lunedì della settimana della data di lavoro|
-|`tu` o `Tuesday`|Martedì della settimana della data di lavoro|
-|`sa` o `Saturday`|Sabato della settimana della data di lavoro|
-|`s` o `Sunday`|Domenica della settimana della data di lavoro|
-|`t23`|Martedì della settimana 23 dell'anno della data di lavoro|
-|`t 23`|Martedì della settimana 23 dell'anno della data di lavoro|
-|`t-1`|Martedì della settimana 1 dell'anno della data di lavoro|
+|2018.12.31.|31/12/2018|
+|181231|31/12/2018|
+|18.12.31.|31/12/2018|
+|18.12.31.|31/12/2018|
+|20181231|31/12/2018|
+|18/12,31|31/12/2018|
+|11|anno data di lavoro.mese data di lavoro.11.|
+|1112|anno data di lavoro.11.12.|
+|o oppure oggi|data odierna|
+|p4|intervallo di date che include il quarto periodo contabile, ad esempio 01/04/20..30/04/20|
+|l o data di lavoro|la data di lavoro|
+|lu o lunedì|Lunedì della settimana della data di lavoro|
+|ma o martedì|Martedì della settimana della data di lavoro|
+|sa o Sabato|Sabato della settimana della data di lavoro|
+|d o Domenica|Domenica della settimana della data di lavoro|
+|m23|Martedì della settimana 23 dell'anno della data di lavoro|
+|m 23|Martedì della settimana 23 dell'anno della data di lavoro|
+|m-1|Martedì della settimana 1 dell'anno della data di lavoro|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
 
@@ -128,17 +128,17 @@ In elenchi, totali e report, è possibile impostare filtri su date, orari e peri
 
 |**significato**|**Espressione di esempio (data)**|**Dati inclusi nel filtro**|
 |-----------|---------------------|--------------------|
-|intervallo|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Record la cui data di risposta è compresa tra il 12 15 00 e il 01 15 01 inclusi.<br /><br />Record con data 12 15 00 o precedente.<br /><br />Intervallo di date che include il secondo, il terzo e il quarto periodo contabile, ad esempio `01/01/20..04/30/20`.|
-|oppure|`12 15 00|12 16 00`|Record con data 12 15 00 o 12 16 00. Se ci sono record con date in entrambi i giorni, saranno tutti visualizzati.|
-|Combinazione|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Record con data 12 15 00 o in date tra il 12 01 00 e il 12 10 00 compresi.  \nRecord la cui data è il 12 14 00 o una data precedente oppure il 12 30 00 o una data successiva, ossia tutti i record esclusi quelli la cui data di risposta è compresa tra il 12 15 00 e il 12 29 00 inclusi.|
+|intervallo|15 12 00..01 15 01<br /><br />..15 12 00<br /><br />p1..p4|Record la cui data di risposta è compresa tra il 15 12 00 e il 15 01 01 inclusi.<br /><br />Record con data 15 12 00 o precedente.<br /><br />Intervallo di date che include il secondo, il terzo e il quarto periodo contabile, ad esempio 01/01/20..30/04/20..|
+|oppure|15 12 00|16 12 00|Record con data 15 12 00 o 16 12 00. Se ci sono record con date in entrambi i giorni, saranno tutti visualizzati.|
+|Combinazione|15 12 00|01 12 00..10 12 00  \n..14 12 00|30 12 00..|Record con data 15 12 00 o in date tra l'01 12 00 e il 10 12 00 compresi.  \Record la cui data è il 14 12 00 o una data precedente oppure il 30 12 00 o una data successiva, ossia tutti i record esclusi quelli la cui data di risposta è compresa tra il 15 12 00 e il 29 12 00 inclusi.|
 
-È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, `mon14 3..t 4p` applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
+È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, lun14 3..o 4p applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
 
 ## <a name="using-date-formulas"></a>Utilizzo di formule per le date
 Una formula di data è una breve combinazione di lettere e numeri che specifica il modo in cui calcolare le date. È possibile immettere formule per le date in diversi campi o filtri per il calcolo della data.
 
 > [!NOTE]
->  In tutti i campi di formula di dati, viene automaticamente incluso un giorno per coprire la data odierna come giorno di inizio del periodo. Di conseguenza, se si immette, ad esempio, `1W`, il periodo è effettivamente di otto giorni perché la data odierna è inclusa. Per specificare un periodo di sette giorni \(una settimana\) includendo la data di inizio del periodo, è necessario immettere `6D` o `1W-1D`.
+>  In tutti i campi di formula di dati, viene automaticamente incluso un giorno per coprire la data odierna come giorno di inizio del periodo. Di conseguenza, se si immette, ad esempio, 1S, il periodo è effettivamente di otto giorni perché la data odierna è inclusa. Per specificare un periodo di sette giorni \(una settimana\) includendo la data di inizio del periodo, è necessario immettere 6G o 1S-1G.
 
 Di seguito vengono forniti alcuni esempi dell'utilizzo di formule per le date:
 
@@ -152,50 +152,50 @@ La formula per la data può contenere un massimo di 20 caratteri, sia numeri che
 
 |  Lettera  |  Significato  |
 |----------|----------------------|
-|`C`|Corrente|
-|`D`|Giorno\(i\)|
-|`W`|Settimana\(e\)|
-|`M`|Mese\(i\)|
-|`Q`|Trimestre\(i\)|
-|`Y`|Anno\(i\)|
+|C|Corrente|
+|G|Giorno\(i\)|
+|S|Settimana\(e\)|
+|M|Mese\(i\)|
+|T|Trimestre\(i\)|
+|A|Anno\(i\)|
 
 È possibile creare una formula per la data in tre modi diversi.
 
-L'esempio seguente mostra come usare `C`, vale a dire corrente, e un'unità di tempo.
+L'esempio seguente mostra come usare C, vale a dire corrente, e un'unità di tempo.
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|`CW`|Settimana corrente|
-|`CM`|Mese corrente|
+|SC|Settimana corrente|
+|MC|Mese corrente|
 
 L'esempio seguente mostra come usare un numero e un'unità di tempo. Il numero non può essere maggiore di 9999.
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|`10D`|10 giorni a partire da oggi|
-|`2W`|2 settimane a partire da oggi|
+|10G|10 giorni a partire da oggi|
+|2S|2 settimane a partire da oggi|
 
 L'esempio seguente mostra come usare un'unità di tempo e un numero.
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|`D10`|Il successivo giorno 10 del mese|
-|`WD4`|Il successivo quarto giorno della settimana \(Giovedì\)|
+|G10|Il successivo giorno 10 del mese|
+|GS4|Il successivo quarto giorno della settimana \(Giovedì\)|
 
 Nell'esempio seguente viene mostrato come è possibile combinare i tre formati in base alle esigenze.
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|`CM+10D`|Corrente mese \+ 10 giorni|
+|MC+10G|Mese corrente \+ 10 giorni|
 
 Nell'esempio seguente viene illustrato come utilizzare un segno meno per indicare una data nel passato.
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|`-1Y`|1 anno fa da oggi|
+|-1A|1 anno fa da oggi|
 
 > [!IMPORTANT]
->  Se l'ubicazione utilizza un calendario di base, la formula per la data immessa, ad esempio, nel campo **Durata spedizione** verrà interpretata in base ai giorni lavorativi del calendario. Ad esempio la formula `1W` significa sette giorni lavorativi.
+>  Se l'ubicazione utilizza un calendario di base, la formula per la data immessa, ad esempio, nel campo **Durata spedizione** verrà interpretata in base ai giorni lavorativi del calendario. Ad esempio la formula 1S significa sette giorni lavorativi.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05.00.00|
-|`5AM`|05.00.00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05.30.00|
-|`0530`|05.30.00|
-|`5:30:5`|05.30.05|
-|`053005`|05.30.05|
-|`5:30:5,50`|05:30:05,5|
-|`053005050`|05.30.05,05|
+|05:23:17|05:23:17|
+|5|05.00.00|
+|5AM|05.00.00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05.30.00|
+|0530|05.30.00|
+|5:30:5|05.30.05|
+|053005|05.30.05|
+|5:30:5.50|05:30:05,5|
+|053005050|05.30.05,05|
 
-È necessario tenere presente che i millisecondi vengono interpretati come notazione decimale. Così, ad esempio `3`, `30` e `300` tutti significano 300 millisecondi, mentre `03` significa `30` e `003` significa 3 millisecondi.
+È necessario tenere presente che i millisecondi vengono interpretati come notazione decimale. Così, ad esempio, 3, 30 e 300 significano tutti 300 millisecondi, mentre 03 significa 30 e 003 significa 3 millisecondi.
 
-Non è possibile utilizzare `24:00` per indicare la mezzanotte, oppure utilizzare qualsiasi valore superiore a 24:00.
+Non è possibile utilizzare 24:00 per indicare la mezzanotte oppure utilizzare qualsiasi valore superiore a 24:00.
 
-La parola per "ora" nella lingua usata da [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come `t` o `TIM`.
+La parola per "ora" nella lingua usata da [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
 
 ## <a name="entering-combined-dates-and-times"></a>Immissione di date e ore combinate
 Quando si immettono dati di tipo datetime che corrispondono a una data e un'ora combinate in un campo, è necessario inserire uno spazio tra la data e l'ora. La parte della data può contenere solo spazi nella forma del separatore della data ufficiale delle impostazioni del paese. L'ora può contenere spazi attorno all'indicatore AM / PM.
@@ -324,27 +324,27 @@ La seguente tabella elenca alcuni esempi di combinazioni di data/ora. Le imposta
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-mese data di lavoro\-anno data di lavoro 12:00:00|
-|`1112 12`|11\-12\-anno data di lavoro 12:00:00|
-|`t` o `today`|Data odierna 00.00.00|
-|`t 10:30`|Data odierna 10.30.00|
-|`t 3:3:3`|Data odierna 03.03.03|
-|`w` o `workdate`|Data del lavoro 00.00.00|
-|`m` o `Monday`|Lunedì della settimana della data di lavoro 00:00:00|
-|`tu` o `Tuesday`|Martedì della settimana della data di lavoro 00:00:00|
-|`sa` o `Saturday`|Sabato della settimana della data di lavoro 00:00:00|
-|`s` o `Sunday`|Domenica della settimana della data di lavoro 00:00:00|
-|`tu 10:30`|Martedì della settimana della data di lavoro 10:30:00|
-|`tu 3:3:3`|Martedì della settimana della data di lavoro 03:03:03|
-|`t23 t`|Martedì della settimana 23 dell'anno della data di lavoro, ora corrente del giorno|
-|`t23`|Martedì della settimana 23 dell'anno della data di lavoro|
-|`t 23`|Oggi 23:00:00|
-|`t-1`|Martedì della settimana 1 dell'anno della data di lavoro|
+|08-01-2016 05:48:12 PM|08/01/2016 17:48:12|
+|131202 132455|13/12/2002 13:24:55|
+|1-12-02 10|01/12/2002 10:00:00|
+|1.12.02 5|01/12/2002 05:00:00|
+|1.12.02|01/12/2002 00:00:00|
+|11 12|11/mese data di lavoro/anno data di lavoro 12:00:00|
+|1112 12|11/12/anno data di lavoro 12:00:00|
+|o oppure oggi|Data odierna 00.00.00|
+|o 10:30|Data odierna 10.30.00|
+|o 3:3:3|Data odierna 03.03.03|
+|l o data di lavoro|Data del lavoro 00.00.00|
+|lu o lunedì|Lunedì della settimana della data di lavoro 00:00:00|
+|ma o martedì|Martedì della settimana della data di lavoro 00:00:00|
+|sa o Sabato|Sabato della settimana della data di lavoro 00:00:00|
+|d o Domenica|Domenica della settimana della data di lavoro 00:00:00|
+|ma 10:30|Martedì della settimana della data di lavoro 10:30:00|
+|ma 3:3:3|Martedì della settimana della data di lavoro 03:03:03|
+|m23 o|Martedì della settimana 23 dell'anno della data di lavoro, ora corrente del giorno|
+|m23|Martedì della settimana 23 dell'anno della data di lavoro|
+|m 23|Oggi 23:00:00|
+|m-1|Martedì della settimana 1 dell'anno della data di lavoro|
 
 ## <a name="entering-duration"></a>Immissione della durata
 Alcuni campi dell'applicazione rappresentano una durata, o una quantità di tempo trascorso, anziché una data o un'ora specifica. È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.
@@ -353,21 +353,20 @@ Di seguito vengono forniti alcuni esempi.
 
 |**Durata**|**Unità di misura**|
 |------------|-------------------|
-|`2h`|2 ore|
-|`6h 30 m`|6 ore 30 minuti|
-|`6.5h`|6 ore 30 minuti|
-|`90m`|1 ora 30 minuti|
-|`2d 6h 30m`|2 giorni 6 ore 30 minuti|
-|`2d 6h 30m 56s 600ms`|2 giorni 6 ore 30 minuti 56 secondi 600 millisecondi|
+|2h|2 ore|
+|6h 30 m|6 ore 30 minuti|
+|6.5h|6 ore 30 minuti|
+|90m|1 ora 30 minuti|
+|2d 6h 30m|2 giorni 6 ore 30 minuti|
+|2d 6h 30m 56s 600ms|2 giorni 6 ore 30 minuti 56 secondi 600 millisecondi|
 
 È inoltre possibile immettere un numero che verrà automaticamente convertito in una durata. Il numero immesso viene convertito in base all'unità di misura predefinita specificata nel campo relativo alla durata.
 
 Per visualizzare l'unità di misura utilizzata in un campo di durata, immettere un numero e controllare l'unità di misura in cui viene convertito.
 
-Ad esempio, il numero `5` viene convertito in 5 h se l'unità di misura è l'ora.
+Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
-
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  
