@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 496873cf36ec696b081f7f29bcf8b2b9bb3c026f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252529"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312510"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.

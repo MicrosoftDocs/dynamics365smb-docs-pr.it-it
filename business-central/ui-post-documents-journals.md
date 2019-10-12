@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921363"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310699"
 ---
 # <a name="posting-documents-and-journals"></a>Contabilizzazione dei documenti e delle registrazioni
 La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
@@ -29,6 +29,7 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 | --- | --- |
 | Registrazione di documenti di acquisto. |[Registrazione di acquisti](ui-post-purchases.md) |
 | Registrazione di documenti di vendita. |[Registrazione di vendite](ui-post-sales.md) |
+| Pubblicare molteplici documenti di vendita o di acquisto insieme, immediatamente o come previsto.|[Registrare più documenti contemporaneamente](ui-batch-posting.md)|
 | Contabilizzazione delle registrazioni generali. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
 | Visualizzare in anteprima, in una pagina, i movimenti che verranno creati quando si registra. |[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
 | Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |

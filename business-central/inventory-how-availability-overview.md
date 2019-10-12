@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621001"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308598"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.

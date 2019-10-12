@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee54a60705a3dff4313522500e9457243ea4907d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 39b44713eb473e0a5220906a7caa5e7acdce24bc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243988"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309510"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 I centri di responsabilità consentono di gestire i centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.  

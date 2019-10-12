@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7b7a01bc61d55379cd12563d1f31f331c3b4fd74
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ee97797c9dabab188f1e6a2bbf2cb1f9846e7321
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251954"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316166"
 ---
 # <a name="set-up-resource-allocation"></a>Impostare l'assegnazione delle risorse
 Per assicurarsi che un compito di assistenza sia eseguito correttamente, è importante trovare una risorsa qualificata per il lavoro. È possibile configurare [!INCLUDE[d365fin](includes/d365fin_md.md)] di modo che sia semplice assegnare una risorsa che disponga delle competenze necessarie per il compito. In [!INCLUDE[d365fin](includes/d365fin_md.md)] questa funzionalità è detta _assegnazione delle risorse_. È possibile assegnare le risorse in base alla loro competenza, disponibilità o se si trovano nella stessa zona di assistenza del cliente. 

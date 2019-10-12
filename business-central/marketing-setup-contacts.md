@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242274"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308718"
 ---
 # <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.
@@ -152,7 +152,7 @@ Per sincronizzare la scheda contatto con una scheda cliente, fornitore o conto c
 Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Ricerca di contatti duplicati
-È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
+È possibile impostare l'applicazione affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
 
 Una volta individuato un contatto duplicato, è possibile utilizzare la pagina **Unisci duplicato** per unirlo in un record di contatto che si intende mantenere. Per ulteriori informazioni, vedere [Unire record duplicati](sales-how-merge-duplicate-records.md).
 

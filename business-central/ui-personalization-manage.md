@@ -1,115 +1,74 @@
 ---
-title: Gestione della personalizzazione come amministratore in Business Central | Documenti Microsoft
-description: Informazioni su come personalizzare l'interfaccia utente in base alle esigenze professionali.
+title: Personalizzare pagine per ruoli | Microsoft Docs
+description: Informazioni su come personalizzare l'interfaccia utente per un profilo (ruolo) di modo che tutti gli utenti assegnati a quel ruolo vedano un'area di lavoro personalizzata.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887739"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310806"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Gestione della personalizzazione come amministratore
+# <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
+Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
- Gli utenti possono personalizzare l'area di lavoro per adattarla alle proprie preferenze. In veste di amministratore, si controlla e si gestisce la personalizzazione:
+Gli amministratori possono personalizzare le pagine per un profilo, in base al ruolo aziendale o al reparto correlato, ad esempio, in modo che tutti gli utenti a cui è assegnato il profilo visualizzino il layout di pagina personalizzato. L'amministratore personalizza le pagine utilizzando le stesse funzionalità utilizzate dagli utenti quando personalizzano le pagine.
 
--   Abilitando o disabilitando la funzionalità di personalizzazione per l'intera applicazione (solo installazione locale).
--   Abilitando o disabilitando la funzionalità di personalizzazione per gli utenti di un profilo specifico.
--   Annullando qualsiasi personalizzazione di pagina che gli utenti hanno effettuato.
+> [!NOTE]
+> L'uso aziendale tipico di un profilo è un ruolo. Un profilo viene quindi denominato *Profilo (ruolo)* nell'interfaccia utente.
 
-## <a name="EnablePersonalization"></a>Per abilitare o disabilitare la personalizzazione (solo locale)
+La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovvero il punto di partenza dell'amministratore per la gestione dei profili degli utenti in singole schede profilo. Oltre a personalizzare il layout delle pagine, si controllano varie altre impostazioni per i profili nella pagina **Profilo (ruolo)** di ogni profilo. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md).
 
-Per impostazione predefinita, la personalizzazione non è abilitata nel client. La personalizzazione viene abilitata o disabilitata modificando il file di configurazione (navsettings.json) dell'istanza del server Web Business Central che serve i client.
+## <a name="to-customize-pages-for-a-profile"></a>Per personalizzare pagine per un profilo
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili (ruoli)** e scegliere il collegamento correlato.
+2. Selezionare la riga per il profilo per cui si desidera personalizzare le pagine, quindi scegliere l'azione **Modifica**.
+3. Scegliere l'azione **Personalizza pagine**.
 
-1. Per abilitare la personalizzazione, aggiungere la seguente riga nel file navsettings.json:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] viene aperto in una nuova scheda del browser per il profilo selezionato con il banner **Personalizzazione** attivato. Il banner **Personalizzazione** offre le stesse funzionalità del banner **Personalizzazione** disponibile per gli utenti.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Personalizzare le pagine in base alle esigenze del ruolo o del reparto in questione, proprio come farebbe un utente durante la personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-    Per disabilitare la personalizzazione, rimuovere questa riga o modificarla in:
+    > [!NOTE]
+    > Per navigare durante la personalizzazione, utilizzare CTRL+clic su un'azione se è evidenziata dalla freccia.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Al termine della modifica del layout in una o più pagine, selezionare il pulsante **Fatto** nel banner **Personalizzazione**.
+6. Chiudere la scheda del browser.
 
-    Per ulteriori informazioni su come modificare il file navsettings.json, vedere [Modificare direttamente il file navsettings.json](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+La personalizzazione delle pagine è ora registrata per il profilo.
 
-2. Generare e scaricare i simboli dell'applicazione.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Per visualizzare tutte le pagine personalizzate per un profilo
+È possibile ottenere una panoramica di quali pagine sono personalizzate per un profilo, ad esempio per pianificare quali personalizzare ulteriormente o eliminare.
 
-    Questo passaggio è facoltativo e non necessario per abilitare la personalizzazione. Tuttavia, garantisce la possibilità di personalizzare le nuove pagine create dagli sviluppatori.
+- Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
 
-    1. Innanzitutto, generare i simboli eseguendo finsql.exe con il comando `generatesymbolreference`. Il file finsql.exe si trova nella cartella di installazione per [!INCLUDE[server](includes/server.md)] e Dynamics NAV Development Environment (CSIDE). Per generare i simboli, aprire un prompt dei comandi, accedere ala directory in cui si trova il file ed eseguire il comando seguente:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Per eliminare tutte le personalizzazioni per un profilo
+È possibile annullare tutte le personalizzazioni apportate per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare tutte le personalizzazioni con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni eseguite da un utente](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Ad esempio:
+- Nella pagina **Profilo (ruolo)** per un profilo personalizzato, selezionare l'azione **Cancella pagine personalizzate**.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Il layout delle pagine per il profilo viene ripristinato al layout predefinito.  
 
-    Per ulteriori informazioni, vedere [Eseguire C/SIDE e AL contemporaneamente](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Per eliminare la personalizzazione di specifiche pagine per un profilo
+È possibile eliminare personalizzazioni di singole pagine eseguite per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare personalizzazioni di specifiche pagine con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare le personalizzazioni per pagine specifiche](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Configurare l'istanza di [!INCLUDE[nav_server_md](includes/nav_server_md.md)] per **Abilitare il collegamento dei riferimenti dei simboli dell'applicazione all'avvio del server** (EnableSymbolLoadingAtServerStartup). Per ulteriori informazioni, vedere [Configurazione di Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
+2. Nella pagina **Personalizzazioni profilo**, selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Per disabilitare la personalizzazione per un profilo
+Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 
-È possibile impedire a tutti gli utenti che appartengono a un profilo specifico di personalizzare le proprie pagine.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili** e scegliere il collegamento correlato.
-2. Selezionare dall'elenco il profilo che si desidera modificare.
-3. Selezionare la casella di controllo **Disabilita personalizzazione** e quindi fare clic sul pulsante **OK**.
-
-> [!NOTE]  
-> In Business Central online, è possibile disabilitare la personalizzazione solo per un profilo tenant e non per i profili di sistema. 
-
-## <a name="to-clear-user-personalizations"></a>Per eliminare personalizzazioni dell'utente
-
-La cancellazione delle modifiche di personalizzazione della pagina ripristina la pagina al layout originale prima che fosse apportata qualsiasi personalizzazione. Ci sono due modi per eliminare le personalizzazioni che gli utenti hanno apportato alle pagine: utilizzando la pagina **Elimina personalizzazione utente** o la pagina **Scheda personalizzazione utente**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Per eliminare le personalizzazioni dell'utente tramite la pagina Elimina personalizzazione utente
-
-La pagina **Elimina personalizzazione utente** consente di eliminare la personalizzazione in base alla pagina e all'utente.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina personalizzazione utente** e quindi scegliere il collegamento correlato.
-
-    Nella pagina vengono elencate tutte le pagine che sono state personalizzate e l'utente a cui appartengono.
-
-    >[!NOTE]
-    > Un segno di spunta nelle colonne **Personalizzazione legacy** indica che la personalizzazione è stata effettuata in una versione precedente di [!INCLUDE[d365fin](includes/d365fin_md.md)] che gestiva la personalizzazione in modo diverso rispetto ad adesso. Gli utenti che provano a personalizzare queste pagine vengono bloccati a meno che non scelgano di sbloccare la pagina. Per ulteriori informazioni, vedere [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md).
-
-2. Selezionare la voce che si desidera eliminare, quindi scegliere l'azione **Elimina**.
-
-    L'utente visualizzerà le modifiche dopo l'accesso successivo.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Per eliminare le personalizzazioni dell'utente tramite la pagina Scheda personalizzazione utente
-
-La pagina **Scheda personalizzazione utente** consente di eliminare la personalizzazione in tutte le pagine per un utente specifico. Questa operazione richiede l'autorizzazione di scrittura per la tabella **Profilo** 2000000072.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Personalizzazione utente** e quindi scegliere il collegamento correlato.
-
-    Nella pagina **Personalizzazione utente** vengono elencati tutti gli utenti che potenzialmente dispongono di pagine personalizzate. Se non è presente un utente nell'elenco, significa che non dispone di pagine personalizzate.
-
-2. Selezionare l'utente dalla lista, quindi scegliere l'azione **Modifica**.
-
-3. Nella scheda **Azioni**, scegliere **Cancella pagine personalizzate**.
-
-    L'utente visualizzerà le modifiche dopo l'accesso successivo.
-
-## <a name="see-also"></a>Vedi anche
-[Personalizzazione dell'area di lavoro](ui-personalization-user.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
+## <a name="see-also"></a>Vedere anche
+[Personalizzare l'area di lavoro](ui-personalization-user.md)  
+[Gestire profili](admin-users-profiles-roles.md)  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248136"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314990"
 ---
 # <a name="updating-report-or-document-layouts"></a>Aggiornamento dei layout di report o documento
 Talvolta, potrebbe essere necessario aggiornare il layout personalizzato utilizzato per un report. Ciò è obbligatorio in seguito a una modifica di progettazione al set di dati del report, ad esempio, un campo utilizzato nel layout è stato rimosso da set di dati del report. Se un layout di report necessita di aggiornamento, verrà visualizzato un messaggio di errore quando si tenta di visualizzare l'anteprima, stampare o salvare il report.  
@@ -64,6 +64,6 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
  Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Gestione dei layout di report](ui-manage-report-layouts.md)  
- [Utilizzo di report e processi batch](ui-work-report.md)  
+ [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  

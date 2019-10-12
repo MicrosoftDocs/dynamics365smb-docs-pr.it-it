@@ -1,6 +1,6 @@
 ---
 title: Associare e sincronizzare i record manualmente | Microsoft Docs
-description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e nell'entità Dynamics 365 for Sales che sono associati.
+description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e nell'entità Dynamics 365 Sales che sono associati.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726769"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308118"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Associare e sincronizzare i record manualmente
 In questo argomento viene descritto come associare uno o più record in [!INCLUDE[d365fin](includes/d365fin_md.md)] a record in [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di [!INCLUDE[crm_md](includes/crm_md.md)] da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
@@ -46,4 +46,4 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 3.  Se i record possono essere sincronizzati da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] o da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
 
 ## <a name="see-also"></a>Vedere anche  
-[Utilizzo di Dynamics 365 for Sales da Business Central](marketing-integrate-dynamicscrm.md)
+[Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)

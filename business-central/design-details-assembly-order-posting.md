@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246019"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307446"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
@@ -96,11 +96,11 @@ Ciò è possibile grazie alla seguente struttura dei dati.
 
 Inoltre, i campi della categoria di registrazione nella testata ordine di assemblaggio e nelle righe ordine di assemblaggio vengono popolati per impostazione predefinita come indicato di seguito.  
 
-|Entità|Tipo|Business IVA|Cat. reg. articolo/servizio|  
+|Entità|Tipo|Business IVA|Righe Cat. reg. art./serv.|  
 |------------|----------|-------------------|------------------------------|  
-|Testata ordine di assemblaggio|Articolo|Cat. reg. magazzino|Cat. reg. articolo/servizio|  
-|Riga ordine di assemblaggio|Articolo|Cat. reg. magazzino|Cat. reg. articolo/servizio|  
-|Riga ordine di assemblaggio|Risorsa||Cat. reg. articolo/servizio|  
+|Testata ordine di assemblaggio|Articolo|Cat. reg. magazzino|Righe Cat. reg. art./serv.|  
+|Riga ordine di assemblaggio|Articolo|Cat. reg. magazzino|Righe Cat. reg. art./serv.|  
+|Riga ordine di assemblaggio|Risorsa||Righe Cat. reg. art./serv.|  
 
 Di conseguenza, solo i costi effettivi vengono registrati nella contabilità generale e nessun conto provvisorio viene compilato dalla registrazione dell'ordine di assemblaggio. Per ulteriori informazioni, vedere [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).  
 

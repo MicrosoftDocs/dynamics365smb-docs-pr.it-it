@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250077"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311286"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Estensione di migrazione dei dati Dynamics GP 
 L'estensione semplifica la migrazione dei dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione di migrazione è utilizzabile con tutte le versioni supportate di Microsoft Dyanmics GP. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).

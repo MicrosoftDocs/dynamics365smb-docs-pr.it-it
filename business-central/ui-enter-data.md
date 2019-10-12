@@ -1,5 +1,5 @@
 ---
-title: Come immettere dati nei campi| Microsoft Docs
+title: Come immettere dati in Business Central | Documenti Microsoft
 description: Ottenere informazioni su funzionalità generali che consentono di immettere dati nei campi.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000789"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311382"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -39,9 +39,9 @@ Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzan
 
 Ogni campo può essere contrassegnato come *incluso in Accesso rapido* o *escluso da Accesso rapido*. I campi inclusi in Accesso rapido verranno inclusi nel percorso quando si preme INVIO; i campi che sono esclusi da Accesso rapido, non lo saranno.
 
-Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida di Accesso rapido per campi](keyboard-shortcuts.md#QuickEntry).
+Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Scelte rapide di Accesso rapido per campi](keyboard-shortcuts.md#QuickEntry).
 
-#### <a name="tips-and-tricks"></a>Suggerimenti e consigli
+#### <a name="tips-and-tricks"></a>Suggerimenti e trucchi
 Di seguito vengono fornite alcune informazioni utili sull'utilizzo di Accesso rapido.
 
 - È disponibile per qualsiasi campo modificabile.
@@ -51,14 +51,14 @@ Di seguito vengono fornite alcune informazioni utili sull'utilizzo di Accesso ra
 - Il funzionamento di Accesso rapido è indipendente dal fatto che i campi siano obbligatori o meno. È quindi opportuno assicurarsi che i campi obbligatori siano inclusi in Accesso rapido.
 - Per impostazione predefinita, la maggior parte dei campi vengono automaticamente inclusi in Accesso rapido. Quindi inizialmente la task escluderà probabilmente i campi da Accesso rapido.
 
-### <a name="how-to-change-quick-entry-fields"></a>Come modificare i campi Accesso rapido
+### <a name="to-change-quick-entry-fields"></a>Come modificare i campi Accesso rapido
 
 Per modificare quali campi sono inclusi o esclusi da Accesso rapido in una pagina, si utilizza la personalizzazione.
 
-1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente") e quindi **Personalizza**.
+1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
 2. Selezionare un campo che si desidera modificare, o negli elenchi, selezionare l'intestazione di colonna corrispondente, quindi scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
 
-Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).
+Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Campi obbligatori
 
@@ -76,19 +76,25 @@ Anche se il campo contiene un asterisco rosso, non è obbligatorio compilarlo pr
 
 -   DropDown - Vengono visualizzate le scelte possibili per il campo. È possibile selezionare soltanto una delle opzioni.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Copiare e incollare campi e righe
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Copiare e incollare campi e righe
 
 È possibile copiare una o più righe da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook). In breve, per copiare, premere CTRL + C (cmd + C in macOS) sulla tastiera. Per incollare, premere CTRL + V (cmd + V in macOS).
 
 In un elenco, per copiare il campo nella stessa colonna della riga precedente e incollarlo nella riga corrente, premere F8.
 
-Per ulteriori informazioni, vedere [Copiare e incollare in Business Central](ui-copy-paste.md).
+Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di copia e incolla](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtri delle voci
+
+Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona riquadro Filtro") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
+
+I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Ad esempio, si supponga di aprire una fattura di vendita registrata e di filtrare le voci per visualizzare tutte quelle che hanno un singolo sconto maggiore del 5% oppure per visualizzare solo accessori per biciclette con la parola “pro" nel nome.
 
 ## <a name="Focus"></a>Spostamento dello stato attivo sulle voci
 
-Quando si lavora su documenti che includono la parte Voci, ad esempio un ordine di vendita o una fattura, è possibile passare a un'altra visualizzazione per spostare lo stato attivo solo sulle voci, essenzialmente espandendo la parte Voci affinché occupi l'intera area di lavoro, nascondendo altre parti della pagina ad eccezione dell'area Azioni nella parte superiore. In questo modo si ha una migliore panoramica delle voci e maggiore spazio per utilizzarle. Ciò è particolarmente utile quando si lavora con elenchi di voci di grandi dimensioni e si desidera un'immissione di dati rapida.
+Quando si lavora su documenti che includono una parte Voci, ad esempio un ordine cliente o una pagina di fatturazione, è possibile spostare lo stato attivo solo sulle voci. La parte Voci si espande in modo da occupare praticamente l'intera area di lavoro, nascondendo altre parti della pagina tranne l'area delle azioni in alto. In questo modo si ha una migliore panoramica delle voci e maggiore spazio per utilizzarle.
 
-Un altro vantaggio è che fornisce una funzionalità di filtro avanzata, come in altre elenchi, e quindi la ricerca nelle voci diventa più semplice.
+Ciò è particolarmente utile quando si utilizzano elenchi di voci di grandi dimensioni e si desidera un'immissione di dati rapida. Un altro vantaggio è che fornisce una funzionalità di filtro avanzata, come in altre elenchi, e quindi la ricerca nelle voci diventa più semplice.
 
 ### <a name="switching-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
@@ -96,11 +102,16 @@ Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella pa
 
 Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
 
-### <a name="filtering-the-line-items"></a>Filtri delle voci
+## <a name="multitasking-across-multiple-pages"></a>Multitasking in più pagine
+Quando si lavora su più task alla volta o quando si gestiscono interruzioni alla task corrente, come rispondere a una chiamata in arrivo, è possibile aprire una pagina di documento o scheda in una nuova finestra. Ciò consente di tenere aperta una finestra per una task in corso mentre si avvia o si completa un'altra task in una o più finestre.
 
-Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona riquadro Filtro") nella parte superiore dell'elenco o premere **MAIUSC+F3** per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
+Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
 
-I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Ad esempio, si supponga di aprire una fattura di vendita registrata e di filtrare le voci per visualizzare tutte quelle che hanno un singolo sconto maggiore del 5% oppure per visualizzare solo accessori per biciclette con la parola “pro" nel nome.
+> [!NOTE]
+> Quando si aprono altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non si sceglie ![Apri in un'altra finestra ](media/open-new-window-icon.png "icona Apri in un'altra finestra").
+
+> [!NOTE]
+> Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Immettere quantità mediante calcolo
 
@@ -134,7 +145,7 @@ Quando si immettono numeri nei campi numerici come il campo **Quantità** in una
 È possibile immettere date e ore in tutti i campi riservati alle date (campi di data). È possibile immettere date con o senza separatori.
 
 > [!NOTE]  
-> La modalità di immissione di date e ore dipende dalle impostazioni di **Area geografica**. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).  
+> La modalità di immissione di date e ore dipende dalle impostazioni di **Area geografica**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Immissione di date
 
@@ -185,7 +196,7 @@ Nella tabella seguente sono elencati i vari formati in cui è possibile immetter
 
 |Immissione|Interpretazione|  
 |---------------|------------------------|  
-|131202 132455|13/12/02 13.24.55|  
+|`131202` 132455|13/12/02 13.24.55|  
 |1-12-02 10|01/12/02 10.00.00|  
 |1.12.02 5|01/12/02 05.00.00|  
 |1.12.02|01/12/02 00.00.00|  

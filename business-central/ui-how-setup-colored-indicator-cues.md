@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
-ms.openlocfilehash: f79f1a65ee17d8ca46a8ecf1cd9d49c5246bef63
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 69defdcec64cfaa710af7d3f5b9b35e072c7c3d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248113"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315182"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Impostare un indicatore colorato nelle pile
 È possibile impostare le pile che vengono visualizzate in Gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.

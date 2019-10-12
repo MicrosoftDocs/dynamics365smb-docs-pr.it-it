@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 16241459bd080b7f1982a42110a834433d9427ea
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252092"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316574"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
 La pagina **Registrazione riconciliazione pagamenti** specifica i pagamenti, sia in entrata che in uscita, registrati come transazioni nel conto bancario in linea e che possono essere collegati ai relativi movimenti aperti dei conti COGE, fornitore e cliente. Le righe delle registrazioni vengono compilate importando un rendiconto bancario come feed bancario o file della banca.

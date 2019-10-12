@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247237"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307770"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparazione per la migrazione dei dati dei clienti
 Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241822"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309366"
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
 Per identificare, attirare e fidelizzare i clienti, è fondamentale mettere a punto un solido piano di marketing. Un piano di marketing comprende diverse campagne e altre interazioni correlate alle attività di marketing e di vendita. Quando si pianifica una campagna, è necessario decidere a quali contatti rivolgersi, quale tipo di campagna creare (fiera commerciale o messaggi e-mail) e a quali agenti assegnare ogni task.
@@ -39,7 +39,7 @@ Dopo avere impostato la campagna, avere stabilito quali segmenti coprirà la cam
 > [!NOTE]  
 >   Per attivare i prezzi di vendita/ gli sconti riga, è necessario specificare se l'intero segmento o solo alcuni contatti sono obiettivi della campagna. Se i prezzi di vendita e gli sconti riga riguardano tutti i contatti del segmento, selezionare il campo **Target campagna** disponibile nella Scheda dettaglio **Campagna** della scheda **Segmento**.
 
-Se i prezzi di vendita/gli sconti riga non vengono offerti a tutti i contatti del segmento, è possibile deselezionare il campo **Target campagna** per i contatti specifici. Se non è possibile visualizzare questo campo, è possibile aggiungerlo alla vista. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).
+Se i prezzi di vendita/gli sconti riga non vengono offerti a tutti i contatti del segmento, è possibile deselezionare il campo **Target campagna** per i contatti specifici. Se non è possibile visualizzare questo campo, è possibile aggiungerlo alla vista. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Esecuzione di campagne
 Durante l'esecuzione di una campagna, vengono registrate tutte le interazioni con i contatti, o segmenti. In questo modo sarà possibile ottenere statistiche e altre informazioni sui costi e sulle probabilità di successo della campagna.

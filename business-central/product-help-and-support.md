@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755971"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313614"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -43,7 +43,7 @@ Se si utilizza una versione di valutazione di [!INCLUDE [prodshort](includes/pro
 
 ### <a name="blog"></a>Blog
 
-Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), incluse le date di disponibilità e considerazioni speciali.  
+Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), incluse le date di disponibilità e considerazioni speciali.  
 
 ### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
 
@@ -70,20 +70,20 @@ La sezione **Risoluzione dei problemi** include informazioni tecniche che l'ammi
 
 ## <a name="report-a-problem"></a>Segnalare un problema
 
-Il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] deve fornire supporto tecnico agli utenti. [!INCLUDE[prodshort](includes/prodshort.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito l'indirizzo e-mail per il supporto. Se il partner [!INCLUDE[prodshort](includes/prodshort.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
+Il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] fornirà supporto tecnico agli utenti. [!INCLUDE[prodshort](includes/prodshort.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prodshort](includes/prodshort.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
 
 > [!NOTE]
 > Questa sezione è disponibile solo se è stata acquistata una sottoscrizione a [!INCLUDE [prodshort](includes/prodshort.md)]. Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[prodshort](includes/prodshort.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft. È possibile trovare un partner [!INCLUDE[prodshort](includes/prodshort.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>Indirizzo e-mail del supporto
+### <a name="support-contacts"></a>Contatti del supporto
 
-L'indirizzo e-mail indicato nella sezione **Segnalare un problema** può essere per una persona o un team. Se si è il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] per un tenant, è possibile impostare questo indirizzo e-mail nella pagina **Scheda Informazioni sul contatto del supporto**. Per ulteriori informazioni, vedere [Configurazione del supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support) nella guida per sviluppatori e professionisti IT di [!INCLUDE [prodshort](includes/prodshort.md)].  
+La sezione **Segnalare un problema** visualizza un indirizzo e-mail o un collegamento ipertestuale per contattare la persona o il team del supporto clienti. Se si è il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] per un tenant, è possibile impostare le informazioni relative al contatto del supporto preferito nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Configurazione dell'esperienza di supporto](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) nella guida per professionisti IT di [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Per segnalare un problema al proprio partner, scegliere il collegamento. Viene aperta una nuova e-mail nell'editor di posta elettronica predefinito ed è possibile aggiungere informazioni tecniche relative al tenant Azure Active Directory e altre informazioni ritenute pertinenti.  
+Per avvisare il partner di un problema, scegliere il collegamento per inviare un'e-mail o aprire il sito del supporto in una nuova scheda del browser. È quindi possibile aggiungere informazioni tecniche relative al tenant Azure Active Directory dalla sezione **Risoluzione dei problemi** e altre informazioni ritenute pertinenti.  
 
 ## <a name="see-also"></a>Vedere anche
 
 [Post del blog: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Guida di Business Central per sviluppatori e professionisti IT](/dynamics365/business-central/dev-itpro/)  
 [Risorse per Guida e supporto per partner](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Configurazione del supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support)  
+[Supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support)  

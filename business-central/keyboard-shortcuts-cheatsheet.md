@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f23d1ffd1d9f000578269d0ed89c355bc2edb291
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 8712e38d2de04cbaebe810367cfe9aa4f8cf9410
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629736"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309558"
 ---
-# <a name="keyboard-shortcuts-pc-only"></a>Tasti di scelta rapida (solo PC)
+# <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
 ||||  
 |----------------|-----------|----------------|
-|**Generale**|Alt+F2<br />ALT+N<br />ALT+Q<br />ALT+SU<br />ALT + freccia GIÙ<br />ALT + freccia DESTRA<br />ALT+T<br />CTRL+ALT+F1<br />Ctrl+F1<br />F5/CTRL+F5<br />TAB/MAIUSC + TAB<br />|Visualizzare e nascondere il riquadro Dettaglio informazioni<br />Creare un nuovo record<br />Aprire la funzionalità delle **informazioni**<br />Aprire la descrizione comando o l'errore di convalida<br />Aprire un menu a discesa o lookup<br />Visualizzare le transazioni per il valore calcolato<br />Aprire la pagina **Impostazioni personali**<br />Esaminare la pagina<br />Aprire la Guida per la pagina<br />Aggiornare/ricaricare la pagina<br />Spostare lo stato attivo sull'elemento successivo/precedente|
+|**Generale**|Alt+F2<br />ALT+N<br />ALT+MAIUSC+N<br />ALT+O<br />ALT+Q<br />ALT+SU<br />ALT + freccia GIÙ<br />ALT+T<br />ALT+MAIUSC+W<br />CTRL+INS<br />CTRL-CANC<br />Ctrl+Shift+F12<br />Ctrl+F1<br />CTRL+clic<br />Shift+F12<br />F5/CTRL+F5<br />TAB/MAIUSC + TAB<br />|Visualizzare e nascondere il riquadro Dettaglio informazioni<br />Creare un nuovo record<br />Chiudere un record appena creato e creane uno nuovo<br />Aggiungere una nuova nota per il record selezionato<br />Aprire la funzionalità delle **informazioni**<br />Aprire la descrizione comando o l'errore di convalida<br />Aprire un menu a discesa o lookup<br />Aprire la pagina **Impostazioni personali**<br />Aprire la scheda o il documento corrente in una nuova finestra<br />Inserire una nuova riga in un documento<br />Eliminare la riga in un documento, giornale o foglio di lavoro<br />Ingrandire la parte Voci in una pagina del documento<br />Aprire la Guida per la pagina<br />Spostarsi durante la personalizzazione<br />Aprire la panoramica delle funzionalità<br />Aggiornare/ricaricare la pagina<br />Spostare lo stato attivo sull'elemento successivo/precedente|
 |**Spostarsi e<br />selezionare righe**| Home/Fine<br />CTRL+HOME/FINE <br />CTRL+MAIUSC+FRECCIA SU/GIÙ<br />CTRL+A <br />CTRL+SPAZIO<br />Ctrl/Maiusc+Clic<br />MAIUSC+FRECCIA SU/GIÙ<br />MAIUSC+PGGIÙ/SU<br />Ctrl+Enter| Passare al primo/ultimo campo<br />Passare alla prima/ultima riga<br />Spostarsi senza perdere la selezione<br />Selezionare tutto<br />Attivare/disattivare la selezione delle righe<br /> Aggiungere le righe alla selezione<br />Aggiungere la riga precedente/successiva alla selezione<br />Selezionare righe visibili sopra/sotto <br />Spostare lo stato attivo fuori dall'elenco|
 |**Copiare e incollare**|CTRL+C/V<br />F8|Copiare/incollare righe<br />Copiare il campo soprastante nella riga corrente|
 |**Cercare, filtrare <br />e ordinare**|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />MAIUSC+ALT+F3<br />Ctrl+Alt+Maiusc+F3|Spostare il cursore alla Scheda dettaglio successiva.<br />Ordinare la colonna in ordine crescente/decrescente<br />Attivare/disattivare la ricerca<br />Attivare/disattivare il riquadro Filtro	; spostare lo stato attivo sui filtri del campo<br />Attivare/disattivare il riquadro Filtro; spostare lo stato attivo sui filtri dei totali<br />Filtrare il valore della cella selezionata<br />Aggiungere un filtro sul campo selezionato<br />Reimposta filtri|

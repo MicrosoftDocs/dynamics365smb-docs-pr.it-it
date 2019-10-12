@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247004"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307542"
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
 XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata. L'iniziativa XBRL abilita il reporting finanziario globale da parte di numerose società che producono software ERP e organizzazioni contabili internazionali. L'obiettivo dell'iniziativa consiste nel fornire uno standard per il reporting uniforme delle informazioni finanziarie per banche, investitori e autorità governative. Tali funzionalità di reporting possono includere:  
@@ -34,7 +34,7 @@ XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) è un linguaggio 
 
 La gestione delle tassonomie è a cura di www.xbrl.org. Per ulteriori informazioni o se si desidera scaricare le tassonomie, è possibile visitare il sito Web di XBRL.  
 
-Chi richiede informazioni finanziarie fornisce una tassonomia, sotto forma di un documento XML, contenente uno o più schemi, ciascuno con una o più righe da compilare. Le righe corrispondono ai singoli dati finanziari richiesti dal mittente. È innanzitutto necessario importare la tassonomia nel programma, quindi procedere alla compilazione degli schemi, specificando il conto o i conti che corrispondono a ciascuna riga e il tipo di intervallo temporale da utilizzare, ad esempio Saldo Periodo o Saldo alla Data. In alcuni casi, invece, è possibile immettere una costante, ad esempio il numero di dipendenti. A questo punto, il documento di istanza (un documento XML) è pronto per essere inviato alla persona che ha richiesto le informazioni. Poiché questo processo può essere un evento ricorrente, a meno che non vengano apportate modifiche alla tassonomia, sarà sufficiente esportare su richiesta nuovi documenti di istanza per periodi differenti.  
+Chi richiede informazioni finanziarie fornisce una tassonomia, sotto forma di un documento XML, contenente uno o più schemi, ciascuno con una o più righe da compilare. Le righe corrispondono ai singoli dati finanziari richiesti dal mittente. È innanzitutto necessario importare la tassonomia nell'applicazione, quindi procedere alla compilazione degli schemi, specificando il conto o i conti che corrispondono a ciascuna riga e il tipo di intervallo temporale da utilizzare, ad esempio Saldo Periodo o Saldo alla Data. In alcuni casi, invece, è possibile immettere una costante, ad esempio il numero di dipendenti. A questo punto, il documento di istanza (un documento XML) è pronto per essere inviato alla persona che ha richiesto le informazioni. Poiché questo processo può essere un evento ricorrente, a meno che non vengano apportate modifiche alla tassonomia, sarà sufficiente esportare su richiesta nuovi documenti di istanza per periodi differenti.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>Componenti di XBRL  
 La **Specifica** XBRL definisce il linguaggio XBRL, la modalità di creazione di documenti di istanza XBRL e delle tassonomie XBRL. La specifica XBRL illustra il linguaggio in termini tecnici ed è rivolta essenzialmente agli utenti esperti.  

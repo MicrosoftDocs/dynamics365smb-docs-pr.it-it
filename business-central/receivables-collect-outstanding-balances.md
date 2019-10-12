@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985888"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316646"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -161,6 +161,11 @@ L'emissione di un sollecito può inoltre risultare nei movimenti IVA.
 
 Il sollecito viene stampato per l'invio a un indirizzo e-mail specificato come allegato PDF.
 
+### <a name="to-cancel-an-issued-reminder"></a>Per annullare un sollecito emesso
+Se i solleciti sono stati emessi per errore, è possibile annullarli uno a uno o come batch prima che vengano inviati.
+1. Nella pagina **Solleciti emessi**, selezionare una o più righe per i solleciti emessi che si desidera annullare, quindi selezionare l'azione **Annulla**.
+2. Nella pagina **Annulla solleciti emessi** compilare i campi in base alle esigenze, quindi scegliere il pulsante **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
 Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli interessi. Immettere quindi il codice nel campo **Cod. addebito interessi** nelle schede cliente o fornitore.
 
@@ -243,6 +248,11 @@ L'emissione di una nota di addebito di interessi può inoltre risultare nei movi
 4. Scegliere il pulsante **OK**.
 
 La nota di addebito di interessi viene stampata per l'invio a un indirizzo e-mail specificato come allegato PDF.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Per annullare una nota di addebito degli interessi emessa
+Se le note di addebito degli interessi sono state emesse per errore, è possibile annullarle uno a uno o come batch prima che vengano inviate.
+1. Nella pagina **Note addebito interessi emesse**, selezionare una o più righe per le note di addebito degli interessi che si desidera annullare, quindi scegliere l'azione **Annulla**.
+2. Nella pagina **Annulla note addebito interessi emesse** compilare i campi in base alle esigenze, quindi scegliere il pulsante **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Per visualizzare i movimenti di sollecito e di addebito di interessi  
 All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene creato un movimento di sollecito per ciascuna riga di sollecito che contiene un movimento contabile clienti. È possibile quindi ottenere una panoramica dei movimenti di sollecito creati per un cliente specifico.    

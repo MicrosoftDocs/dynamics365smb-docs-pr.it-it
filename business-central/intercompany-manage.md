@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241871"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308574"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
 Un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. La funzionalità intercompany consente di effettuare operazioni con le filiali e le organizzazioni partner interne esattamente come con i fornitori e i clienti esterni. Le informazioni sulle transazioni intercompany devono essere immesse una sola volta nei documenti appropriati. È possibile utilizzare le funzionalità già conosciute, quali quelle di gestione di crediti e debiti. Le funzionalità di mappatura per il piano dei conti e le dimensioni garantiscono che le informazioni vengano visualizzate nelle posizioni appropriate.  
@@ -29,7 +29,7 @@ La funzionalità intercompany offre quattro vantaggi principali:
 - Audit trail e visibilità completi per quanto riguarda le attività aziendali e lo storico delle transazioni.  
 - Transazioni efficaci e convenienti con le consociate e le filiali.  
 
-È possibile disporre di controllo completo su tutti i documenti delle transazioni. È ad esempio possibile rifiutare un documento inviato e, in questo modo, stornare le registrazioni errate. Oppure, quando si effettua un acquisto da un partner o una filiale, è possibile aggiornare l'ordine di acquisto fino a quando la società venditrice non ha spedito le merci.  
+È possibile disporre di controllo completo su tutti i documenti delle transazioni. È ad esempio possibile rifiutare un documento inviato e, in questo modo, stornare le registrazioni e annullare carichi/spedizioni errati. Oppure, quando si effettua un acquisto da un partner o una filiale, è possibile aggiornare l'ordine di acquisto fino a quando la società venditrice non ha spedito le merci.  
 
 Quando si immette una transazione, non è necessario specificare i conti per un singolo gruppo di registri, ma è sufficiente indicare l'identificativo della società partner. Tramite la funzionalità intercompany vengono create righe di registrazioni COGE che comportano il bilancio dei registri di entrambe le società coinvolte in una transazione. Nella contabilità clienti e fornitori è possibile assegnare un codice partner intercompany a qualsiasi cliente o fornitore. Da quel momento, tutte le fatture e gli ordini generati relativi a transazioni con tali società comporteranno la creazione di documenti corrispondenti nella società partner, consentendo un corretto bilancio dei conti.  
 

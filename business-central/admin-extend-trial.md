@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: cefaf4469cb174140833e310e5c28fa6de1baf9c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239937"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308190"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?
 È importante prendere la decisione appropriata quando si sceglie un'applicazione aziendale e sappiamo che ci vuole tempo per esplorare tutte le funzionalità di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se hai bisogno di più tempo per completare la valutazione del prodotto, puoi estendere personalmente il periodo di valutazione di altri 30 giorni. Quando la scadenza del periodo di valutazione è imminente, viene visualizzata una notifica che avverte di tale evento. La notifica contiene un collegamento alla guida **Estendi periodo di valutazione** che può essere utilizzata per estendere il periodo di valutazione. L'estensione supplementare di 30 giorni inizia dal momento in cui scegli **Estendi periodo di valutazione** nella guida.

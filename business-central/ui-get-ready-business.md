@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701223"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315302"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Assistenza Business** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. È possibile accedere alla pagina dal grafico nella Gestione ruolo utente **Manager aziendale** scegliendo il menu a discesa **Assistenza Business**, quindi l'azione **Mostra Setup e risorse della Guida**. Quando si aggiorna la pagina, il grafico viene sostituito con le risorse della Guida e di setup.
+Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Assistenza Business** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. È possibile accedere alla pagina dal grafico nella Gestione ruolo utente **Manager aziendale** scegliendo la freccia rivolta verso il basso **Assistenza Business**, quindi l'azione **Mostra Setup e risorse della Guida**. Quando si aggiorna la pagina, il grafico viene sostituito con le risorse della Guida e di setup.
 
 In alternativa, per aprire l'elenco di guide al setup assistito, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato.
 
@@ -49,7 +49,7 @@ Utilizzare le frecce per comprimere una parte della pagina e per creare più spa
 In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa pagina.    
 
 ## <a name="adding-users-and-permissions"></a>Aggiunta di utenti e permessi
-Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).  
+Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Utilizzo della Guida
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. Per le descrizioni comando dei campi, è possibile premere CTRL+F1 o scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. Anche il punto interrogativo presente nell'angolo in alto a destra visualizza la Guida del prodotto.
@@ -57,9 +57,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni c
 ## <a name="next-steps"></a>Passaggi successivi
 Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Azioni** della Gestione ruolo utente per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)
+[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

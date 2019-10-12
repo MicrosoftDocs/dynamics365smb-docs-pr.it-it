@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250114"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310902"
 ---
-# <a name="managing-users-and-permissions"></a>Gestione di utenti e autorizzazioni
+# <a name="manage-users-and-permissions"></a>Gestire utenti e autorizzazioni
 Per aggiungere utenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore di Office 365 della società deve innanzitutto creare gli utenti tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://aka.ms/CreateOffice365Users).
 
 Una volta che gli utenti vengono creati in Office 365, possono essere inclusi nella pagina **Utenti** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Agli utenti vengono assegnati set di autorizzazioni in base al piano assegnato all'utente in Office 365. Per informazioni dettagliate sulle licenze, vedere [Guida alle licenze di Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Un set di permessi è un raccolta di permessi per oggetti specifici del database
 
 Nella pagina **Scheda utente**, aprire la pagina **Autorizzazioni valide** per visualizzare di quali autorizzazioni l'utente dispone e tramite quali set di autorizzazioni vengono assegnate. È inoltre possibile modificare i dettagli di autorizzazione per i set di autorizzazioni di tipo **Personalizzato**. Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Gli amministratori possono utilizzare la pagina **Setup utente** per definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi.
+## <a name="users-in-on-premises-deployments"></a>Utenti in distribuzioni locali
+Per le distribuzioni locali di [!INCLUDE[d365fin](includes/d365fin_md.md)], l'amministratore può scegliere tra diversi meccanismi di autorizzazione delle credenziali per gli utenti. Pertanto, quando si crea un utente, fornire informazioni diverse a seconda del tipo di credenziali che si stanno utilizzando nell'istanza specifica di [!INCLUDE[server](includes/server.md)]. Per ulteriori informazioni, vedere [Tipi di autenticazione e credenziali](/dynamics365/business-central/dev-itpro/administration/users-credential-types) nella sezione Amministrazione del contenuto per sviluppatori e professionisti IT per [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Un altro sistema per definire a cosa possono accedere gli utenti è l'impostazione Esperienza. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
+## <a name="profiles"></a>Profili
+Dopo aver aggiunto gli utenti, è possibile definire ciò che vedono nell'interfaccia utente e come interagiscono con le funzionalità consentite attraverso le pagine. A questo proposito si utilizzano i profili, i quali riflettono ruoli o reparti, che vengono assegnati a diversi tipi di utenti. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md) e [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Per aggiungere un utente in Business Central
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Ottieni utenti da Office 365**.
 
 Ogni nuovo utente che è stato creato per la sottoscrizione a Office 365 verrà aggiunto nella pagina **Utenti**.
+
+## <a name="to-edit-or-delete-a-user"></a>Per modificare o eliminare un utente
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
+2. Scegliere l'utente che si intende modificare, quindi scegliere l'azione **Modifica**.
+3. Nella pagina **Scheda utente** modificare le informazioni come necessario.    
+4. Per eliminare un utente, selezionarlo, quindi scegliere l'azione **Elimina**.
 
 ## <a name="to-group-users-in-user-groups"></a>Per raggruppare gli utenti in gruppi di utenti
 È possibile impostare i gruppi di utenti per gestire facilmente i set di autorizzazioni per i gruppi di utenti della società.
@@ -110,7 +118,7 @@ Ad esempio, un utente può disporre del permesso di eseguire la codeunit 80, Ven
 
 Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Righe vendite per eseguire la codeunit. Se l'utente possiede un'autorizzazione indiretta per la tabella Righe vendite, la codeunit Vendite-Registra viene eseguita correttamente. Quando un utente possiede un'autorizzazione indiretta, tale utente può solo modificare la tabella Riga vendite eseguendo la codeunit di Vendite-Registra o un altro oggetto per cui possiede l'autorizzazione per modificare la tabella Righe vendite. L'utente può solo modificare la tabella Righe vendite quando esegue questa operazione da aree di applicazione supportate. L'utente non può eseguire inavvertitamente o intenzionalmente la funzionalità con altri metodi.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Per limitare l'accesso di un utente a record specifici in una tabella
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Per limitare l'accesso di un utente a record specifici in una tabella
 Per la protezione a livello di record in [!INCLUDE[d365fin](includes/d365fin_md.md)], si utilizzano filtri di protezione per limitare l'accesso dell'utente ai dati in una tabella. I filtri di protezione sono creati sui dati della tabella. Un filtro di protezione descrive un set di record in una tabella che un utente è autorizzato a accedere. È possibile specificare, ad esempio, che un utente può leggere solo i record che contengono informazioni su un determinato cliente. Ciò significa che l'utente non può accedere ai record che contengono informazioni su altri clienti. Per ulteriori informazioni, vedere [Utilizzo di filtri di protezione](/dynamics365/business-central/dev-itpro/security/security-filters) in Guida per sviluppatori e professionisti IT.
 
 
@@ -174,9 +182,14 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un utent
 > [!NOTE]  
 > Quando si modifica un set di autorizzazioni, le modifiche si applicano anche ad altri utenti a cui è stato assegnato il set di autorizzazioni.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="to-remove-a-users-access-to-the-system"></a>Per rimuovere l'accesso di un utente al sistema
+
+Come amministratore, è possibile rimuovere l'accesso di un utente al sistema impostando il campo **Stato** su **Disabilitato**. Tutti i riferimenti all'utente verranno mantenuti, ma l'utente non potrà più accedere al sistema e le sessioni attive per l'utente verranno interrotte. Per consentire nuovamente l'accesso all'utente, impostare il campo **Stato** su **Abilitato**.
+
+## <a name="see-also"></a>Vedere anche
 [Sicurezza e protezione in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Informazioni su utenti, profili e Gestioni ruolo utente](admin-users-profiles-roles.md)  
+[Gestire profili](admin-users-profiles-roles.md)  
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Amministrazione](admin-setup-and-administration.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248458"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314606"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
@@ -64,7 +64,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 
 8.  Scegliere **OK** e lo stoccaggio verrà automaticamente creato in base alle selezioni effettuate.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     

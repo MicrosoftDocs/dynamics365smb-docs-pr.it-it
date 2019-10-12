@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243413"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307350"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Modifiche relative alla codeunit 12: modifiche nelle procedure di registrazione di contabilità generale
 Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -148,10 +148,10 @@ Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d3
 |ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Spostato in Codeunit 17 Registrazioni gen. - Storno|  
 |ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Spostato in Codeunit 17 Registrazioni gen. - Storno|  
 |PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Spostato in Codeunit 17 Registrazioni gen. - Storno|  
-||CheckDimComb|Aggiunto nella Codeunit 17 Registrazioni gen. - Storno|  
-||CopyCustLedgEntry|Aggiunto nella Codeunit 17 Registrazioni gen. - Storno|  
-||CopyVendLedgEntry|Aggiunto nella Codeunit 17 Registrazioni gen. - Storno|  
-||CopyBankAccLedgEntry|Aggiunto nella Codeunit 17 Registrazioni gen. - Storno|  
+||CheckDimComb|Aggiunto in Codeunit 17 Registrazioni gen. - Storno|  
+||CopyCustLedgEntry|Aggiunto in Codeunit 17 Registrazioni gen. - Storno|  
+||CopyVendLedgEntry|Aggiunto in Codeunit 17 Registrazioni gen. - Storno|  
+||CopyBankAccLedgEntry|Aggiunto in Codeunit 17 Registrazioni gen. - Storno|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Aggiornato|  
 |CollectAddjustment|CollectAdjustment|Aggiornato|  
 |SetOverDimErr|SetOverDimErr|Aggiornato|  
@@ -163,7 +163,7 @@ Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d3
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Aggiornato|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Aggiornato|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Aggiornato|  
-|IncludeVATAmount||Spostato nella tabella 81 Righe registrazioni COGE|  
+|IncludeVATAmount||Spostato nella Tabella 81 Righe registrazioni COGE|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Aggiornato|  
 ||TotalVATAmountOnJnlLines|Aggiunto|  
 ||SetGLRegReverse|Aggiunto|  

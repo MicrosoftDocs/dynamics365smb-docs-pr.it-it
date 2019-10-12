@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 44ffab92930237c5496860771f41b4951b15b0ff
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250666"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315926"
 ---
 # <a name="create-service-quotes"></a>Creare offerte di assistenza
 Le offerte di assistenza possono essere considerate come ordini di assistenza di base. In effetti, sono quasi identici. Entrambi includono informazioni come l'identità del cliente, il tipo di ordine, l'articolo che necessita di assistenza, nonché informazioni di fatturazione, spedizione e relative al lavoro di assistenza effettivo.

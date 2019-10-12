@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921409"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315686"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
@@ -37,11 +37,11 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 |Archiviare ordini di acquisto e vendita, offerte, ordini di reso e ordini programmati e utilizzare il documento archiviato per ricreare il documento da cui è stato archiviato.|[Archiviare documenti](across-how-to-archive-documents.md)|
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md) |
 |Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definisci task dell'utente](across-user-tasks.md)|
-|Allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, e allegare file a tutti i tipi di documenti di acquisto e vendita.|[Allegare file a schede e documenti](across-attach-document-master-data.md)|
 |Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)|
 |Capire cosa accade scegliendo l'azione **Registra**.|[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)|
+|Pubblicare molteplici documenti di vendita o di acquisto insieme, immediatamente o come previsto.|[Registrare più documenti contemporaneamente](ui-batch-posting.md)|  
 |Esaminare i risultati di una registrazione prima di eseguirla.|[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)|
-|Modificare i campi selezionati nei documenti di vendita o di acquisto registrati.|[Modificare i documenti registrati](across-edit-posted-document.md)| 
+|Modificare i campi selezionati nei documenti di vendita o di acquisto registrati.|[Modificare i documenti registrati](across-edit-posted-document.md)|
 |Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
 | Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|

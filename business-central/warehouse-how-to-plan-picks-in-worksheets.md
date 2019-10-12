@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248527"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313954"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 Se la warehouse prevede l'elaborazione dei prelievi e delle spedizioni, è possibile fare in modo che le righe dei documenti di spedizione non vengano convertite automaticamente in istruzioni di prelievo, bensì vengano rese disponibili per il prospetto prelievi.  
@@ -25,7 +25,7 @@ Se la warehouse prevede l'elaborazione dei prelievi e delle spedizioni, è possi
 > [!NOTE]  
 >  Se le istruzioni di prelievo da warehouse sono già state create e si desidera combinarle in un'unica istruzione di prelievo per migliorarne l'efficienza, è necessario eliminare i singoli prelievi da warehouse. Le righe da prelevare possono essere ora elencate nel prospetto.  
 
-Nel prospetto prelievi è possibile impostare liste di prelievi per gli addetti alla warehouse in modo da ridurre il tempo necessario per spostarsi da un punto all'altro della warehouse e prelevare gli articoli. Sono inoltre presenti campi che contengono informazioni sulle quantità degli articoli disponibili nelle collocazioni di cross-dock. Tali informazioni risultano particolarmente utili per pianificare le assegnazioni delle mansioni, in quanto il programma propone automaticamente di eseguire il prelievo da una collocazione di cross-dock prima che da qualsiasi altra collocazione, indipendentemente dall'unità di misura. Le righe del prospetto possono provenire da numerosi documenti di origine ed essere ordinate per articolo, numero di scaffale, documento di origine, data di scadenza o indirizzo di spedizione.  
+Nel prospetto prelievi è possibile impostare liste di prelievi per gli addetti alla warehouse in modo da ridurre il tempo necessario per spostarsi da un punto all'altro della warehouse e prelevare gli articoli. Sono inoltre presenti campi che contengono informazioni sulle quantità degli articoli disponibili nelle collocazioni di cross-dock. Tali informazioni risultano particolarmente utili per pianificare le assegnazioni delle mansioni, in quanto l'applicazione propone automaticamente di eseguire il prelievo da una collocazione di cross-dock prima che da qualsiasi altra collocazione, indipendentemente dall'unità di misura. Le righe del prospetto possono provenire da numerosi documenti di origine ed essere ordinate per articolo, numero di scaffale, documento di origine, data di scadenza o indirizzo di spedizione.  
 
 Se di effettua l'ordinamento in base alla data di scadenza, è possibile scegliere di eliminare dal prospetto tutte le righe, eccetto quelle che richiedono attenzione immediata. Le righe meno urgenti non vengono di fatto eliminate, ma vengono semplicemente inviate di nuovo al prospetto **Selezione prelievo**. Le righe vengono ordinate in base alla data di scadenza prima della creazione del prelievo e, pertanto, è possibile assegnare direttamente il prelievo a un addetto specifico.  
 

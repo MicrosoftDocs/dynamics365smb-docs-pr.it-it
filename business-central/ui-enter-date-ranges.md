@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000765"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315590"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
 
 ## <a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
-
-La pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "Vai direttamente alla pagina delle impostazioni personali in Business Central") consente di specificare la **Regione** e la **Lingua** che si utilizzano nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
+La pagina **Impostazioni personali** specifica la **Regione** e il **Linguaggio** che si sta utilizzando nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
 -   L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
 
@@ -51,7 +50,7 @@ Qualsiasi campo che visualizza un'icona di calendario può essere impostato util
 
 ![Campi Data](media/ui-date-field.png "Esempio di un campo data")
 
-Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-shortcuts.md#calendarshortcuts)
+Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Schema giorno\-settimana\-anno
 
@@ -85,7 +84,7 @@ I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visual
 
 La funzionalità della data di lavoro consente di registrare le transizioni utilizzando una data diversa dalla data corrente.
 
-La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina [**Impostazioni personali**](https://businesscentral.dynamics.com?page=9176 "\"Passare direttamente alla pagina impostazioni utente in Business Central"). Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
+La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali**. Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
 
 Se non è stata definita una data di lavoro, per tale valore verrà automaticamente utilizzata la data corrente. Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.
 
@@ -129,8 +128,8 @@ In elenchi, totali e report, è possibile impostare filtri su date, orari e peri
 |**significato**|**Espressione di esempio (data)**|**Dati inclusi nel filtro**|
 |-----------|---------------------|--------------------|
 |intervallo|15 12 00..01 15 01<br /><br />..15 12 00<br /><br />p1..p4|Record la cui data di risposta è compresa tra il 15 12 00 e il 15 01 01 inclusi.<br /><br />Record con data 15 12 00 o precedente.<br /><br />Intervallo di date che include il secondo, il terzo e il quarto periodo contabile, ad esempio 01/01/20..30/04/20..|
-|oppure|15 12 00|16 12 00|Record con data 15 12 00 o 16 12 00. Se ci sono record con date in entrambi i giorni, saranno tutti visualizzati.|
-|Combinazione|15 12 00|01 12 00..10 12 00  \n..14 12 00|30 12 00..|Record con data 15 12 00 o in date tra l'01 12 00 e il 10 12 00 compresi.  \Record la cui data è il 14 12 00 o una data precedente oppure il 30 12 00 o una data successiva, ossia tutti i record esclusi quelli la cui data di risposta è compresa tra il 15 12 00 e il 29 12 00 inclusi.|
+|oppure|15 12 00\|16 12 00|Record con data 15 12 00 o 16 12 00. Se ci sono record con date in entrambi i giorni, saranno tutti visualizzati.|
+|Combinazione|15 12 00\|01 12 00..10 12 00  <br /><br />..14 12 00\|30 12 00..|Record con data 15 12 00 o in date tra l'01 12 00 e il 10 12 00 compresi.  <br /><br />Record la cui data è il 12 14 00 o una data precedente oppure il 12 30 00 o una data successiva, ossia tutti i record esclusi quelli la cui data di risposta è compresa tra il 12 15 00 e il 12 29 00 inclusi.|
 
 È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, lun14 3..o 4p applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
 

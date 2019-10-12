@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247249"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308406"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per pianificare i task
 Le code processi in [!INCLUDE[d365fin](includes/d365fin_md.md)] consentono agli utenti di pianificare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Potrebbe essere necessario, ad esempio, eseguire il report **Agente - Statistiche vendita** ogni settimana, per tenere traccia delle vendite effettuate da un agente ogni settimana, oppure eseguire la codeunit **Elabora coda e-mail assistenza** ogni giorno, per verificare che i messaggi di posta elettronica in sospeso relativi agli ordini di assistenza vengano inviati ai clienti in modo tempestivo.
@@ -93,7 +93,7 @@ I dati generati quando una coda processi viene eseguita sono memorizzati nel dat
 2. Analizzare il messaggio di errore e correggere il problema.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
-La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).  
+La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
 La parte mostra quali documenti con il proprio ID nel campo **ID utente assegnato** sono in fase di elaborazione o in coda, inclusi quelli relativi alla registrazione in background. La parte indica immediatamente se si è verificato un errore durante la registrazione di un documento oppure se sono presenti errori in un movimento coda processi. La parte consente inoltre di annullare la registrazione del documento se non è in esecuzione.
 
@@ -112,7 +112,7 @@ Quando una coda processi è attivata manualmente, viene eseguita con le credenzi
 ## <a name="using-job-queues-effectively"></a>Utilizzo delle code processi in modo efficace  
 Il record del movimento coda processi ha molti campi di cui lo scopo è quello di portare i parametri in una codeunit specificata per essere eseguita con una coda processi. Questo significa inoltre che le codeunit che devono essere eseguite mediante la coda processi devono essere specificate con il record Movimento coda processi come parametro nel trigger **OnRun**. Cio fornisce un livello di sicurezza aggiuntivo, poiché impedisce agli utenti di eseguire codeunit scelte casualmente tramite la coda processi. Se l'utente deve necessariamente passare i parametri a un report, l'unico modo possibile è eseguire il wrapping dell'esecuzione del report in una codeunit, che analizzerà i parametri di input e li immetterà nel report prima dell'esecuzione.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di Business Central](setup.md)  
-[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  

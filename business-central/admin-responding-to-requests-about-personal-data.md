@@ -5,18 +5,18 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4f96ddb96d9f0b816a4fd6651d4c1453bbf65ca1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244911"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307855"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Rispondere a richieste relative a dati personali  
-Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni in **Privacy dati** nella Gestione ruolo utente **Amministrazione di utenti, gruppi di utenti e autorizzazioni** oppure, se si sta utilizzando il client Windows, nella Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
+Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tipi di richieste
 
@@ -51,7 +51,7 @@ Se ci si trova in una situazione in cui è necessario esportare i dati non class
 -   Aggiungere manualmente questa tabella e la relazione al pacchetto RapidStart ed esportalo direttamente dal pacchetto RapidStart: è per questo che viene generato un pacchetto RapidStart automaticamente, in modo da poterlo modificare in situazioni come questa.
 
 ## <a name="handling-data-about-minors"></a>Gestione di dati relativi ai minori
-Se l'età di una persona di contatto è inferiore all'età legale stabilita dalle leggi nella propria area geografica, è possibile indicare tale condizione selezionando la casella di controllo **Minorenne** nella scheda **Contatto**. Quando si seleziona tale casella, la casella di controllo **Bloccato dalla privacy** viene selezionata automaticamente. Quando si riceve il consenso dal genitore o dal tutore legale, è possibile scegliere la casella di controllo **Consenso dei genitori ricevuto** per sbloccare il contatto. Sebbene sia possibile elaborare i dati personali dei minori, non è possibile utilizzare la funzione di profiling in Dynamics 365 for Sales.
+Se l'età di una persona di contatto è inferiore all'età legale stabilita dalle leggi nella propria area geografica, è possibile indicare tale condizione selezionando la casella di controllo **Minorenne** nella scheda **Contatto**. Quando si seleziona tale casella, la casella di controllo **Bloccato dalla privacy** viene selezionata automaticamente. Quando si riceve il consenso dal genitore o dal tutore legale, è possibile scegliere la casella di controllo **Consenso dei genitori ricevuto** per sbloccare il contatto. Sebbene sia possibile elaborare i dati personali dei minori, non è possibile utilizzare la funzione di profiling in Dynamics 365 Sales.
 
 > [!Note]
 > Il log modifiche consente di registrare informazioni dettagliate, ad esempio quando e da chi la casella di controllo **Consenso dei genitori ricevuto** è stata selezionata. Un amministratore può eseguire tale impostazione utilizzando la guida **Setup log modifiche** e anche scegliendo la casella di controllo **Modifica log per Consenso dei genitori ricevuto** nella scheda **Contatto**. Per ulteriori informazioni, vedere [Registrazione di modifiche](across-log-changes.md).  

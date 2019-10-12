@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248044"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306726"
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse, le società potrebbero avere una catena di trasferimenti in cui l'approvvigionamento all'ubicazione VERDE viene trasferito da GIALLO e l'approvvigionamento a GIALLO viene trasferito da ROSSO e così via. All'inizio della catena, è presente un sistema di rifornimento di Ordine di produzione o di acquisto.  
@@ -29,7 +29,7 @@ Confrontando la situazione in cui un ordine di approvvigionamento è direttament
 ![Esempio di saldo tra approvvigionamento e domanda nei trasferimenti](media/nav_app_supply_planning_7_transfers2.png "Esempio di saldo tra approvvigionamento e domanda nei trasferimenti")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Perché il trasferimento è un caso particolare?  
-Un ordine di trasferimento appare come qualsiasi altro ordine nel programma. In realtà è molto diverso.  
+Un ordine di trasferimento appare come qualsiasi altro ordine nell'applicazione. In realtà è molto diverso.  
 
 Un aspetto fondamentale che differenzia i trasferimenti nella pianificazione dagli ordini di acquisto e di produzione è che una riga di trasferimento rappresenta contemporaneamente la domanda e l'approvvigionamento. La parte in uscita, che viene spedita dall'ubicazione precedente, è la domanda. La parte in entrata, che deve essere ricevuta presso la nuova ubicazione, è l'approvvigionamento in tale ubicazione.  
 

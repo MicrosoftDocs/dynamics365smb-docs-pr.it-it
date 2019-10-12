@@ -1,5 +1,5 @@
 ---
-title: Riconciliazione dei pagamenti con l'estensione Envestnet Yodlee Bank Feeds | Documenti Microsoft
+title: Riconciliazione dei pagamenti con l'estensione Envestnet Yodlee Bank Feeds | Microsoft Docs
 description: Descrive l'estensione Envestnet Yodlee Bank Feeds, che consente di collegare i conti bancari in modo che sia possibile riconciliare rapidamente i pagamenti.
 services: project-madeira
 documentationcenter: ''
@@ -10,22 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248205"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315350"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Estensione Envestnet Yodlee Bank Feeds
 Per riconciliare rapidamente i pagamenti effettuati sui conti correnti bancari, il servizio Envestnet Yodlee Bank Feeds consente di collegare il proprio conto bancario di sistema al conto bancario online. Ciò significa che l'ultimo rendiconto bancario viene caricato automaticamente o manualmente nella registrazione riconciliazione. In questo modo viene garantito che si elaborino sempre gli ultimi pagamenti con il rischio minimo di errori.
 
-> [!NOTE]
-> Questa funzione è supportata solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.
+Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti e in Canada.
 
-Il servizio Envestnet Yodlee Bank Feeds fornisce i vantaggi seguenti:
+> [!NOTE]
+> Questa funzione è supportata solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
+
+> [!IMPORTANT]
+> A causa della nuova direttiva sui servizi di pagamento in Europa (PSD2), dopo il 14 settembre 2019, non sarà più possibile importare automaticamente gli estratti conto bancari dalle banche del Regno Unito in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stiamo esaminando la possibilità di offrire nuovamente questa funzionalità in futuro.
+
+Il servizio Envestnet Yodlee Bank Feeds offre i seguenti vantaggi:
 
 * Elimina la necessità dell'immissione manuale.
 * Migliora l'efficienza e l'accuratezza nella riconciliazione dei pagamenti.
@@ -36,7 +41,7 @@ Il servizio Envestnet Yodlee Bank Feeds fornisce i vantaggi seguenti:
 
 Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)    
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

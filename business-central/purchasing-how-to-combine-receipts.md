@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Cumulare i carichi | Documenti Microsoft'
+title: Come consentire il carico di più articoli di quelli ordinati | Microsoft Docs
 description: Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252878"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312438"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Combinare i carichi in una singola fattura
-Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione **Cumula carichi**.  
+# <a name="allow-receipt-of-more-items-than-ordered"></a>Consentire il carico di più articoli di quelli ordinati
+Quando si ricevono più merci di quelle ordinate, è possibile che si intenda mantenerle anziché annullare il carico. Ad esempio, potrebbe essere più economico mantenere l'eccesso nell'inventario anziché restituirlo oppure il fornitore potrebbe offrire uno sconto per accettarlo.
 
-Prima di creare un carico di acquisto cumulato, è necessario che venga registrato più di un carico per lo stesso fornitore nella stessa valuta. In altri termini, è necessario compilare due o più ordini di acquisto e registrarli come ricevuti, ma non fatturati.  
+I gestori degli ordini e i gli addetti warehouse devono essere in grado di gestire tali "carichi eccessivi" senza passare attraverso un lungo processo di preparazione e di approvazione per un nuovo ordine di acquisto.
 
-Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene creata una fattura di acquisto registrata per le righe fatturate. Il campo **Quantità fatturata** dell'ordine di acquisto o dell'ordine di acquisto programmato di origine viene aggiornato in base alla quantità fatturata. Tuttavia, il documento di acquisto originale non viene eliminato, anche se è stato completamente ricevuto e fatturato; è necessario quindi eliminare il documento di acquisto manualmente.  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Per ricevere più articoli di quelli specificati nel documento di acquisto
 
-## <a name="to-combine-receipts"></a>Per cumulare i carichi  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
-3. Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di carico**.  
-4. Selezionare più righe di carico che si desidera includere nella fattura.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.
+2.   
 
-    Se è stata selezionata una riga di carico non corretta o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura di acquisto ed eseguire nuovamente la funzione **Prendi righe di carico**.  
-5. Per registrare la fattura scegliere l'azione **Registra**.  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Per rimuovere ordini di acquisto aperti dopo la registrazione del carico cumulativa  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini acquisto fatturati** e quindi selezionare il collegamento correlato.  
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Scegliere il pulsante **OK**.  
-
-In alternativa, eliminare i singoli ordini manualmente.
-
-Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di acquisto programmati.
-
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Acquisti](purchasing-manage-purchasing.md)  
+[Ricevere articoli](warehouse-how-receive-items.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

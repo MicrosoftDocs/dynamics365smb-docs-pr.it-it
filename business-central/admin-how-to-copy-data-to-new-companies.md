@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 87b9a6b39128c43d7159fc5e964d307d19013c2b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239868"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308450"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
 È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.  

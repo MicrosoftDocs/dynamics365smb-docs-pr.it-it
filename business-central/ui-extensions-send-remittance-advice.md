@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 06/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9caa026f9edec42e56a035cf8d99228ca18c3c36
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 8f60d3768690514f0995e01d8e0ee08f95ae098c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621254"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311094"
 ---
 # <a name="send-remittance-advice"></a>Invia avviso di rimessa
 Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono in corso dei pagamenti, è ora possibile inviare l'avviso di rimessa in blocco tramite posta elettronica dalle registrazioni pagamenti nonché inviarlo nuovamente dopo l'esecuzione dei pagamenti dai movimenti contabili fornitori utilizzando i profili di invio documenti.

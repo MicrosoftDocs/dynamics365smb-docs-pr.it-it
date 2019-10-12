@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253012"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313062"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
 
-Nel programma sono disponibili diversi strumenti per la gestione delle attività di conto lavoro:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce diversi strumenti per la gestione delle attività di conto lavoro:  
 
 - Aree di produzione con fornitore assegnato: questa funzionalità consente di impostare un'area di produzione associata a un fornitore (terzista). Questa è detta un'area di produzione conto lavoro. È possibile specificare un'area di produzione conto lavoro in un'operazione del ciclo, il che consente di elaborare facilmente l'attività in conto lavoro. Inoltre, il costo dell'operazione può essere designato a livello di ciclo o di area di produzione.  
-- Costo area di produzione basato su unità o tempo: questa funzionalità consente di specificare se i costi associati all'area di produzione sono basati sul tempo di produzione o su un addebito fisso per unità. Benché i terzisti utilizzino in genere una spesa fissa per unità da addebitare per i propri servizi, il programma è in grado di gestire entrambe le opzioni (tempo di produzione e addebito fisso per unità).  
+- Costo area di produzione basato su unità o tempo: questa funzionalità consente di specificare se i costi associati all'area di produzione sono basati sul tempo di produzione o su un addebito fisso per unità. Benché i terzisti utilizzino in genere una spesa fissa per unità da addebitare per i propri servizi, l'applicazione è in grado di gestire entrambe le opzioni (tempo di produzione e addebito fisso per unità).  
 - Prospetto conto lavoro: questa funzionalità consente di trovare gli ordini di produzione con il materiale pronto da inviare a un terzista e di creare automaticamente ordini di acquisto per le operazioni di conto lavoro dai cicli degli ordini di produzione. Gli addebiti dell'ordine di acquisto vengono quindi automaticamente registrati nell'ordine di produzione durante la registrazione dell'ordine di acquisto. È possibile accedere e utilizzare da un prospetto conto lavoro solo gli ordini di produzione con stato rilasciato.  
 
 ## <a name="subcontract-work-centers"></a>Area di produzione conto lavoro  

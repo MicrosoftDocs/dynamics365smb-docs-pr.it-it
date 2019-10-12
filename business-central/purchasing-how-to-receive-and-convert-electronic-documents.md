@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a121363d04de0aea69e423df8de5c50c24744061
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252184"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312390"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].

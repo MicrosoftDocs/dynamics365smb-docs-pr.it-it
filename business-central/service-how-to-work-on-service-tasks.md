@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251172"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311646"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
@@ -100,7 +100,7 @@ In seguito alla riparazione dell'articolo in assistenza, è possibile registrare
 2. Scegliere la riga che comprende l'articolo in assistenza appropriato, quindi scegliere l'azione **Prospetto interv. articolo**.  
 3. Nella pagina **Prospetto articoli in assistenza** scegliere **Relazioni codici guasto/risoluzione**. Viene aperta la pagina **Relazioni codici guasto/risoluzione**.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  I filtri vengono impostati nelle relazioni visualizzate nella pagina copiando il gruppo di articoli in assistenza e i codici guasto dalla pagina **Prospetto articoli in assistenza**.  
 
 4. Compilare la riga. Scegliere la corretta combinazione di codici guasto e risoluzione, quindi scegliere **OK** per copiarla nell'articolo in assistenza. Se non si riesce a trovare una combinazione corretta è possibile creare una nuova combinazione nella pagina.  

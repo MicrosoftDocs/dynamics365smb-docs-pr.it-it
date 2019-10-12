@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 08/19/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f2356299bfa21efda3ec4c98dacfca68539dea
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887601"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312198"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
@@ -69,7 +69,7 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 11. Nel campo **Quantità** immettere qui il numero di unità di articoli, addebiti o transazioni che la riga registrerà per il cliente.  
 
     > [!NOTE]  
-    >   Se l'articolo è di tipo **Assistenza** o se il campo **Tipo** contiene **Risorsa**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.  
+    > Se l'articolo è di tipo **Assistenza** o se il campo **Tipo** contiene **Risorsa**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Per ulteriori informazioni, vedere [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
 
     Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
 

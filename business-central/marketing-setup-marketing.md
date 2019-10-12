@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446855"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308682"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 Prima di iniziare a lavorare sui contatti e sugli interessi di marketing, è necessario prendere alcune decisioni e seguire alcuni passaggi per definire la modalità di gestione da parte dell'area marketing di alcuni aspetti dei contatti. Ad esempio, è possibile decidere se sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, definire la numerazione o la formula di saluto standard per quando si scrive ai contatti.
@@ -38,7 +38,7 @@ Per ulteriori informazioni, vedere [Creare contatti](marketing-how-create-contac
 
 L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad esempio la lingua di default è stata impostata su Inglese ma la lingua della società contatto è Tedesco, quest'ultimo viene automaticamente assegnato come codice lingua per i contatti registrati relativi a tale società.
 
-<!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
+<!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Interazioni di registrazioni automatiche
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può registrare automaticamente documenti di vendita e di acquisto come interazioni, ad esempio ordini, fatture, carichi e così via, oltre a e-mail, telefonate e copertine.
@@ -56,8 +56,8 @@ Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fo
 Per ulteriori informazioni sulla numerazione, vedere [Creazione di numeri](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Cercare i contatti duplicati quando vengono creati dei contatti
-È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si crea una società contatto; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati.
+È possibile impostare l'applicazione affinché vengano ricercati i duplicati ogni volta che si crea una società contatto; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

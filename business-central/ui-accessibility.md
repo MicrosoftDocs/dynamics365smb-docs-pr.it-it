@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 12763990a6d35f1c993e488e476328d1de05338b
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594312"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311454"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilità e tasti di scelta rapida
 In questo argomento vengono fornite informazioni sulle funzionalità che rendono [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibile per gli utenti con esigenze particolari. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le seguenti funzionalità di accessibilità:  

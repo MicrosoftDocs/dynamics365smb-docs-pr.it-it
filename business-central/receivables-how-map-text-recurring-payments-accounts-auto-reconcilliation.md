@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0df165440ebe34c35da8a59289f051239821ea5a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: cde0798a6cd74837c16ccd47a2d669e012925e11
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251931"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312294"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
 Nella pagina **Mappatura testo a conto** che si apre dalla pagina **Registrazione riconciliazione pagamenti**, è possibile impostare le mappature tra il testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo da registrare questi pagamenti nei conti specificati durante la registrazione della riconciliazione pagamenti.
@@ -53,9 +53,9 @@ Per registrare sempre le spese in combustibile effettuate presso i distributori 
 
 | Mapping testo | Nr. conto dare | Nr. conto avere | Tipo di origine saldo | Nr. origine saldo |
 | --- | --- | --- | --- | --- |
-| Shell |VUOTO |8510 |Conto C/G |VUOTO |
+| Shell |VUOTO |8510 |Conti C/G |VUOTO |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

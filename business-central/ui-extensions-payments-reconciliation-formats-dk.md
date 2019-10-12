@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ff09be509c1ab6366dbd852a5c1c6e69f46cc9d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250735"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311214"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Estensione Pagamenti e riconciliazioni (DK)
 Eseguire pagamenti veloci e senza errori esportando file formattati specificamente per gli scambi con i fornitori o la banca. Questi file accelerano i processi di pagamento e riconciliazione ed eliminano gli errori che possono verificarsi quando si immettono manualmente le informazioni su un sito Web della banca.  
@@ -53,7 +53,7 @@ Ecco alcuni passaggi per iniziare.
 
 Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione business** e una **Categoria registrazione fornitori**. L'impostazione del paese per il fornitore deve essere la Danimarca (DK). Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>Consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] l'esportazione dei dati di pagamento.
+### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] l'esportazione dei dati di pagamento.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
 3. Scegliere la casella controllo **Consenti esportazione pagamento**.  

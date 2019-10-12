@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f2357a169684f30dd6e177b1687a387d22e8690
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8d59462f89e8268bdb9def8c455388ccddcea3ac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249493"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310854"
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="letting-included365finincludesd365fin_mdmd-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può aiutare a completare le attività in modo più rapido e più corretto precompilando campi o righe intere con dati che verrebbero altrimenti calcolati e immessi manualmente. Sebbene tale l'immissione dei dati automatica sia sempre corretta, è possibile modificarla in seguito se lo si desidera.
 
 La funzionalità che fornisce in automatico i valori dei campi è in genere offerta per le attività in cui si devono immettere grandi volumi di dati transazionali e per cui si desidera evitare errori e risparmiare tempo. Questo argomento contiene una selezione di tale funzionalità. Nei futuri aggiornamenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno aggiunte altre sezioni.

@@ -1,5 +1,5 @@
 ---
-title: Impostazione di account utente per l'integrazione con Dynamics 365 for Sales | Microsoft Docs
+title: Impostazione di account utente per l'integrazione con Dynamics 365 Sales | Microsoft Docs
 description: Ottenere informazioni su come impostare account utente che le app utilizzano per scambiare dati e che le persone utilizzano per accedere ai dati nelle app e per sincronizzarli.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0f59324e41695e35e09a2dd970492acb3a8dba58
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: a876df301476cb6b4af335e8ee957de26865cbaa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307830"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Impostazione di account utente per l'integrazione con Dynamics 365 for Sales
+# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Impostazione di account utente per l'integrazione con Dynamics 365 Sales
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
@@ -36,14 +36,14 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 > Non utilizzare l'account amministratore per [!INCLUDE[crm_md](includes/crm_md.md)] per la sincronizzazione. In caso contrario, la sincronizzazione verrà interrotta.
 > Inoltre, per evitare una sincronizzazione costante, le modifiche ai dati eseguite dall'account utente di integrazione non vengono sincronizzate. <!--What changes would this account make?--> Dopo la connessione, si consiglia di impostare la modalità di accesso per l'account utente per l'integrazione sulla modalità non interattiva in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Creare un account utente non interattivo](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-for-sales-people"></a>Impostazione di account per agenti
+## <a name="setting-up-accounts-sales-people"></a>Impostazione di account per agenti
 È necessario creare account utente in [!INCLUDE[crm_md](includes/crm_md.md)] per gli agenti da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per semplificare tale operazione, l'interfaccia di amministrazione di Microsoft 365 offre un modello di Excel che è possibile utilizzare. Nella pagina **Utenti attivi** scegliere **Altro**, quindi **Importa più utenti**. Scegliere **Scarica un file CSV solo con le intestazioni** e quindi immettere le informazioni per gli agenti. Per visualizzare un esempio, scegliere **Scarica un file CSV con le intestazioni ed esempi di informazioni degli utenti**. Dopo l'immissione delle informazioni relative agli utenti, il passaggio successivo nel processo di importazione consiste nell'assegnare licenze per il piano Dynamics 365 Customer Engagement agli utenti.  
 
 Dopo aver importato gli utenti e assegnato loro le licenze per Dynamics 365 Customer Engagement, è necessario assegnare gli utenti al ruolo **Agente** in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Associazione di agenti e utenti in Dynamics 365 for Sales](media/couple-salespeople.png "Visualizzazione dell'associazione di agenti e utenti in Dynamics 365 for Sales")
+![Associazione di agenti e utenti in Dynamics 365 Sales](media/couple-salespeople.png "Visualizzazione di agenti e utenti in Dynamics 365 Sales")
 
-## <a name="minimum-permissions-for-user-accounts-in-includecrmmdincludescrmmdmd"></a>Autorizzazioni minime per account utente in [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Autorizzazioni minime per account utente in [!INCLUDE[crm_md](includes/crm_md.md)]
 Quando si installa la soluzione di integrazione, le autorizzazioni per l'account utente di integrazione sono configurate in [!INCLUDE[crm_md](includes/crm_md.md)]. Se tali autorizzazioni vengono modificate, potrebbe essere necessario ripristinarle. È possibile farlo reinstallando la soluzione di integrazione o ripristinandole manualmente. Le seguenti tabelle elencano le autorizzazioni minime per gli account utente in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### <a name="integration-administrator"></a>Amministratore di integrazione
@@ -135,4 +135,4 @@ Nella tabella seguente vengono visualizzate le autorizzazioni minime in ogni sch
 |Connessione di Dynamics 365 Business Central|Globale|Lettura|Lettura|Lettura|
 
 ## <a name="see-also"></a>Vedere anche  
-[Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

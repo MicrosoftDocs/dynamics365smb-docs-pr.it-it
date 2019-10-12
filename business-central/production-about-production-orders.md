@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252966"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313435"
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
 Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione diramano il lavoro in diverse aree di produzione o centri di lavoro nella produzione.  
 
 Prima di procedere con la produzione, la maggior parte delle società esegue, in genere una volta alla settimana, la pianificazione delle forniture, per calcolare il numero di ordini di produzione e di ordini di acquisto da eseguire per soddisfare la domanda di vendita della settimana. Gli ordini di acquisto forniscono i componenti richiesti in base alla DB di produzione per produrre gli articoli finali.
 
-Gli ordini di produzione rappresentano i componenti centrali della funzionalità di produzione del programma e contengono le seguenti informazioni:  
+Gli ordini di produzione rappresentano i componenti centrali della funzionalità di produzione dell'applicazione e contengono le seguenti informazioni:  
 
 -   Prodotti pianificati per la produzione  
 -   Materiali necessari per gli ordini di produzione pianificati  
@@ -63,7 +63,7 @@ Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e
 Gli ordini di produzione creati tramite altri mezzi non vengono impegnati e tracciati automaticamente.   
 
 ## <a name="production-order-status"></a>Stato dell'ordine di produzione  
-Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nel programma. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
+Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nell'applicazione. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
 
 ### <a name="simulated-production-order"></a>Ordine di produzione simulato  
 L'ordine di produzione simulato si distingue in base alle seguenti caratteristiche:  
@@ -115,9 +115,9 @@ Dopo che un ordine di produzione è stato creato e pianificato, deve essere rila
 Queste informazioni possono essere registrate manualmente o tramite reporting automatico, in base al setup degli articoli nel campo Metodo consuntivazione.  
 
 ### <a name="material-consumption"></a>Consumo dei materiali  
-Il programma offre un'ampia gamma di opzioni per la registrazione del consumo dei materiali a un'azienda manifatturiera. Il consumo dei materiali, ad esempio, può essere registrato manualmente, opzione preferibile nel caso di frequenti sostituzioni di componenti o di uno scarto maggiore del previsto.  
+L'applicazione offre un'ampia gamma di opzioni per la registrazione del consumo dei materiali a un'azienda manifatturiera. Il consumo dei materiali, ad esempio, può essere registrato manualmente, opzione preferibile nel caso di frequenti sostituzioni di componenti o di uno scarto maggiore del previsto.  
 
-Il consumo dei materiali può essere elaborato tramite le registrazioni consumi oppure registrato automaticamente dal programma mediante la funzione di reporting automatico. Di seguito vengono indicati i metodi di reporting:  
+Il consumo dei materiali può essere elaborato tramite le registrazioni consumi oppure registrato automaticamente dall'applicazione mediante la funzione di reporting automatico. Di seguito vengono indicati i metodi di reporting:  
 
 -   Manuale  
 -   Avanti  
@@ -143,7 +143,7 @@ Il vantaggio della consuntivazione automatica consiste in una riduzione signific
 - Consuntivazione a ritroso dell'intero ordine  
 
 #### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Reporting automatico - Consuntivazione in avanti dell'intero ordine  
-Se si esegue la consuntivazione in avanti dell'ordine di produzione all'inizio della commessa, il comportamento del programma è molto simile a un consumo manuale. La differenza principale consiste nel fatto che il consumo si verifica automaticamente.  
+Se si esegue la consuntivazione in avanti dell'ordine di produzione all'inizio della commessa, il comportamento dell'applicazione è molto simile a un consumo manuale. La differenza principale consiste nel fatto che il consumo si verifica automaticamente.  
 
 - L'intero contenuto della DB di produzione viene consumato e dedotto dal magazzino nel momento in cui viene aggiornato l'ordine di produzione rilasciato.  
 - La quantità dei consumi è la quantità per assemblaggio indicata nella DB di produzione, moltiplicata per il numero di articoli principali creati.  
@@ -185,9 +185,9 @@ Non viene prelevato alcun componente fino a quando lo stato dell'ordine di produ
 La consuntivazione a ritroso dell'intero ordine di produzione richiede lo stesso setup della consuntivazione in avanti: il metodo di reporting deve essere impostato alla fine in ogni scheda articolo per tutti gli articoli all'interno della DB principale di cui eseguire il reporting. Tutti i codici di legame tra ciclo e distinta base devono essere rimossi dalla DB di produzione.  
 
 ### <a name="production-output"></a>Output di produzione  
-Il programma offre la possibilità di tenere traccia del tempo speso per lavorare su un ordine di produzione, nonché di registrare la quantità prodotta. Queste informazioni possono essere utili per determinare in modo più accurato i costi di produzione. I produttori che utilizzano un sistema di costing standard, inoltre, possono registrare le informazioni effettive per sviluppare standard migliori.  
+L'applicazione offre la possibilità di tenere traccia del tempo speso per lavorare su un ordine di produzione, nonché di registrare la quantità prodotta. Queste informazioni possono essere utili per determinare in modo più accurato i costi di produzione. I produttori che utilizzano un sistema di costing standard, inoltre, possono registrare le informazioni effettive per sviluppare standard migliori.  
 
-L'output può essere elaborato tramite le registrazioni di output oppure può essere registrato automaticamente dal programma. Il metodo di consuntivazione viene copiato dal programma dalla scheda centro di lavoro o area di produzione al ciclo dell'ordine di produzione durante l'aggiornamento. Come per il consumo dei materiali, sono disponibili tre metodi di reporting dell'output:  
+L'output può essere elaborato tramite le registrazioni di output oppure può essere registrato automaticamente dall'applicazione. Il metodo di consuntivazione viene copiato dall'applicazione dalla scheda centro di lavoro o area di produzione al ciclo dell'ordine di produzione durante l'aggiornamento. Come per il consumo dei materiali, sono disponibili tre metodi di reporting dell'output:  
 
 - Manuale  
 - Aut. inizio  

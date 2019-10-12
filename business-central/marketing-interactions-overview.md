@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 504484c5a5afa75890c128fe554a5360e36adfc4
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2b8e3ed1142386a6472feb35e968eeac30da7f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447085"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308934"
 ---
 # <a name="managing-interactions"></a>Gestione di interazioni
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.

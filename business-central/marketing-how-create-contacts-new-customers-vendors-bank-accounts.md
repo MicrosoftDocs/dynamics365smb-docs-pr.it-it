@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: ccddaa5d1c1a5a31c6b82b99520b90bb28fe64dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c91d18fcd2af4204297d64c3ff8bcb4870a7a6da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238396"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309174"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Per creare un contatto da un cliente, un fornitore o un conto corrente bancario
 È possibile registrare alcuni contatti come clienti, fornitori oppure conti correnti bancari esistenti. La creazione di un cliente, un fornitore o un conto bancario da un contatto consente di utilizzare i dati esistenti. Quando si crea un cliente, un fornitore o un conto bancario in questo modo, le informazioni verranno sincronizzate con il contatto. La sincronizzazione rende uguali le informazioni comuni tra i contatti e clienti, fornitori o conti bancari.

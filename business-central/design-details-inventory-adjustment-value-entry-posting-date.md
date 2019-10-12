@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247561"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307134"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
 In questo articolo vengono fornite informazioni per gli utenti della funzionalità Magazzino e costing di [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'articolo fornisce informazioni su come il processo batch **Rettifica costo - Movimenti articoli** identifica e assegna una data di registrazione ai movimenti di valorizzazione che il processo batch crea.  
@@ -351,7 +351,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
  Nel form di richiesta del processo batch Registra costo magazzino in C/G l'utente deve inserire una data di registrazione. Il processo batch esamina tutti i movimenti di valorizzazione nell'eventuale filtro e crea movimenti C/G con la data di registrazione immessa nel form di richiesta.  
 
 ### <a name="version-370b40"></a>Versione 3.70.B..4.0  
- Nel form di richiesta del processo batch Registra costo magazzino in C/G è disponibile il campo relativo alla data di registrazione movimento in periodo chiuso. Il programma utilizza la data in questo campo come data di registrazione per i movimenti di contabilità generale che crea per i movimenti di valorizzazione le cui date di registrazione sono in periodi contabili chiusi. In caso contrario, i movimenti di contabilità generale avranno la stessa data di registrazione dei movimenti di valorizzazione originali. Una data viene considerata in un periodo chiuso quando è antecedente alla data nel campo Consenti registraz. da del setup di contabilità generale. Se si esegue la registrazione in C\/G per gruppo registrazione, i movimenti di contabilità generale avranno la data di registrazione specificata nel campo Data di registrazione nel form di richiesta.  
+ Nel form di richiesta del processo batch Registra costo magazzino in C/G è disponibile il campo relativo alla data di registrazione movimento in periodo chiuso. L'applicazione utilizza la data in questo campo come data di registrazione per i movimenti di contabilità generale che crea per i movimenti di valorizzazione le cui date di registrazione sono in periodi contabili chiusi. In caso contrario, i movimenti di contabilità generale avranno la stessa data di registrazione dei movimenti di valorizzazione originali. Una data viene considerata in un periodo chiuso quando è antecedente alla data nel campo Consenti registraz. da del setup di contabilità generale. Se si esegue la registrazione in C\/G per gruppo registrazione, i movimenti di contabilità generale avranno la data di registrazione specificata nel campo Data di registrazione nel form di richiesta.  
 
  Nelle versioni 3 e 4 il processo esamina tutti i movimenti di valorizzazione per rilevare se esistono eventuali movimenti di valorizzazione in cui Importo costo (effettivo) differisce da Costo registrato in C/G. In caso affermativo, la differenza verrà registrata in un movimento C/G. Se viene utilizzata la registrazione dei costi previsti, i campi corrispondenti vengono elaborati nello stesso modo.  
 

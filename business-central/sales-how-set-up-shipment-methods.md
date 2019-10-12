@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 06/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7248f49e92db98cec047d2035ce82d7caf84799f
-ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
+ms.openlocfilehash: be65cd62cec984cd2571b6e88998dc169741f376
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "1632785"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312078"
 ---
 # <a name="set-up-shipment-methods"></a>Impostare i metodi di spedizione
 I metodi di spedizione, denominati anche incoterm, dipendono spesso dagli articoli, dai clienti e dai fornitori. Se ad esempio il cliente ha sede su un'isola, può scegliere che gli articoli gli vengano spediti sempre per via aerea oppure sempre via mare. Alcuni clienti potrebbero richiedere la consegna il giorno successivo. Alcuni potrebbero voler ritirare l'ordine. Nelle schede cliente e fornitore è possibile specificare il tipo di consegna desiderato.

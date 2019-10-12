@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446740"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308798"
 ---
 # <a name="managing-relationships"></a>Gestione delle relazioni
 Le funzionalità Relationship Management di [!INCLUDE[d365fin](includes/d365fin_md.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.
@@ -34,4 +34,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Definire i segmenti per selezionare un gruppo di contatti in base a criteri specifici, ad esempio il settore industriale a cui appartengono i contatti.|[Gestione dei segmenti](marketing-segments.md)|
 |Elaborare clienti potenziali ricevuti creando opportunità e associandole ad agenti in modo da tenere traccia delle vendite potenziali.|[Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)|
 |Creare i piani di marketing per identificare, attirare e fidelizzare i clienti.|[Gestione di campagne di marketing](marketing-campaigns.md)|
-|Utilizzare Dynamics 365 for Sales for Customer Engagement e sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando Business Central per le attività backend come elaborare ordini e gestire l'inventario e le finanze.|[Integrazione con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Utilizzare Dynamics 365 Sales for Customer Engagement e sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando Business Central per le attività backend come elaborare ordini e gestire l'inventario e le finanze.|[Integrazione con Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

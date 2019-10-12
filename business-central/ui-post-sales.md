@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921432"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310782"
 ---
 # <a name="posting-sales"></a>Registrazione di vendite
 Nel menu **Registrazione** in un documento di vendita, è possibile scegliere tra le seguenti funzioni di registrazione:
@@ -39,14 +39,17 @@ Per ciascuna riga dell'ordine di vendita, verrà creato un movimento contabile a
 > [!IMPORTANT]  
 >   Quando si registra un ordine, è possibile creare sia una spedizione che una fattura. Ciò può avvenire in modo simultaneo oppure indipendente. Prima di effettuare la registrazione, è inoltre possibile creare una spedizione parziale e una fattura parziale immettendo le necessarie informazioni nei campi **Qtà da spedire** e **Qtà da fatturare** nelle singole righe dell'ordine di vendita. Si tenga presente che non è possibile creare una fattura per un articolo che non è stato spedito. Ciò significa che è necessario registrare una spedizione prima di emettere una fattura oppure la spedizione e la fattura devono essere contemporanee.
 
+È possibile effettuare la registrazione oppure effettuare la registrazione e stampare. Quando si seleziona Registra e stampa, viene stampato un report al momento della registrazione dell'ordine. È inoltre possibile scegliere la funzione **Registra batch** che consente di registrare più ordini contemporaneamente. Per ulteriori informazioni, vedere [Pubblicare più documenti contemporaneamente](ui-batch-posting.md).
+
 Una volta completata la registrazione, le righe di vendita registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine che contengono movimenti registrati, ad esempio le pagine **Mov. contabili clienti**, **Movimenti C/G**, **Mov. contabili articoli**, **Spedizioni vendite registrate** e **Fatture di vendita registrate**.  
 
 È possibile modificare determinati campi nei documenti di vendita registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md).
 
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
+[Registrare più documenti contemporaneamente](ui-batch-posting.md)  
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md)  
-[Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  
+[Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

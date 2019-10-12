@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed611dd790685999048887d4a7b96d45a7cd696
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a2a105cbb6a8a449de44c564dc448ec6136d61
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253555"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313470"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 Il sistema di pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.  
@@ -30,13 +30,13 @@ Per informazioni dettagliate, vedere [Dettagli di progettazione: Pianificazione 
 ## <a name="demand-and-supply"></a>Domanda e approvvigionamento  
 La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Tali elementi devono essere proporzionati uno all'altro per assicurare che la domanda sia soddisfatta in modo tempestivo ed economicamente vantaggioso.  
 
-- Domanda è il termine comune utilizzato per qualsiasi fabbisogno lordo quale un ordine di vendita, un ordine di assistenza, un componente necessario da un assemblaggio o ordine di produzione, un trasferimento in uscita, un ordine programmato o una previsione. Oltre a questi, il programma supporta altri tipi tecnici di domanda, ad esempio una produzione negativa o un ordine di acquisto, una giacenza negativa e un reso di acquisto.  
+- Domanda è il termine comune utilizzato per qualsiasi fabbisogno lordo quale un ordine di vendita, un ordine di assistenza, un componente necessario da un assemblaggio o ordine di produzione, un trasferimento in uscita, un ordine programmato o una previsione. Oltre a questi, l'applicazione supporta altri tipi tecnici di domanda, ad esempio una produzione negativa o un ordine di acquisto, una giacenza negativa e un reso di acquisto.  
 - Approvvigionamento è la parola comune utilizzata per qualsiasi tipo di rifornimento, quale magazzino, ordine di acquisto, ordine di assemblaggio, ordine di produzione o trasferimento in entrata. In modo analogo, può essere presente un ordine di vendita o di assistenza negativo oppure un componente necessario o un reso vendite negativo, che rappresentano tutti un tipo di approvvigionamento.  
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, verrà suggerito dal sistema di pianificazione di rimandare, ridurre in quantità o annullare gli ordini di rifornimento esistenti.  
 
 ## <a name="planning-calculation"></a>Calcolo della pianificazione  
-Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dal programma (messaggi di azione) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
+Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione (messaggi di azione) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
 
 Le base della procedura di pianificazione consiste nel calcolo del fabbisogno da lordo a netto. Il fabbisogno netto determina il rilascio degli ordini pianificati, la cui programmazione si basa sulle informazioni relative al ciclo (articoli lavorati) o sul lead time della scheda articolo (articoli acquistati). Le quantità relative al rilascio degli ordini pianificati sono basate sul calcolo della pianificazione e sono influenzate dai parametri impostati nelle singole schede articolo.  
 

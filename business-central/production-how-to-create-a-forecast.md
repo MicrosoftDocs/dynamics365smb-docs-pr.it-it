@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5936343b9a1e1ebd7b871f11b0aeb9a7554636b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253440"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314194"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -27,7 +27,7 @@ La funzionalità di previsione viene utilizzata per creare la domanda prevista; 
 La previsione consente alla società di creare scenari "what if" e di pianificare e soddisfare in modo efficiente e conveniente una domanda. Una previsione accurata può costituire una differenza essenziale nel determinare i livelli di soddisfazione del cliente rispetto alle date di promessa ordine e alla consegna tempestiva.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Previsioni di vendita e previsioni di produzione  
-La funzionalità di previsione disponibile nel programma può essere utilizzata per creare previsioni di vendita o di produzione, in combinazione o indipendentemente. La maggior parte delle società di tipo produzione su ordine non dispone di un magazzino di prodotti finiti, in quanto ogni articolo viene prodotto solo quando viene ordinato. L'anticipo degli ordini (previsione di vendita) è fondamentale per garantire un tempo di completamento ragionevole per i prodotti finiti (previsione di produzione). Ad esempio, le parti di componente con tempi di consegna prolungati, se non in ordine o in magazzino, possono ritardare la produzione.  
+La funzionalità di previsione disponibile nell'applicazione può essere utilizzata per creare previsioni di vendita o di produzione, in combinazione o indipendentemente. La maggior parte delle società di tipo produzione su ordine non dispone di un magazzino di prodotti finiti, in quanto ogni articolo viene prodotto solo quando viene ordinato. L'anticipo degli ordini (previsione di vendita) è fondamentale per garantire un tempo di completamento ragionevole per i prodotti finiti (previsione di produzione). Ad esempio, le parti di componente con tempi di consegna prolungati, se non in ordine o in magazzino, possono ritardare la produzione.  
 
 -   La previsione di vendita è l'ipotesi più verosimile del reparto vendite riguardo a ciò che verrà venduto in futuro e viene specificata in base all'articolo e al periodo. La previsione di vendita, tuttavia, non è sempre adeguata per la produzione.  
 -   La previsione di produzione è la proiezione del responsabile della pianificazione di produzione del numero di elementi finali e subassemblati derivati da produrre nei periodi specifici per soddisfare la previsione di vendita.  

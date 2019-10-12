@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 07/30/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 64b0f8f551ac505e2e289bc1abea719947cc058a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796795"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316310"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8dc710cb95e82e535a1ee694f3aeb510be0a03b5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249930"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311166"
 ---
 # <a name="the-microsoft-pay-extension"></a>Estensione Microsoft Pay
 I clienti richiedono continuamente un livello di assistenza clienti più elevato, sia in termini di qualità del prodotto sia in termini di servizi di consegna e di pagamento. Il servizio Microsoft Pay contribuisce a migliorare l'assistenza clienti.

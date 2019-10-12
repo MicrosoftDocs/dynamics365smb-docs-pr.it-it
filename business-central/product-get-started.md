@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858291"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313590"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,8 +42,10 @@ Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire al
 
 Per una panoramica delle funzionalità correnti e quelle future, leggere il piano di rilascio in [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+È anche possibile trovare contenuto di e-learning su [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Gestione ruolo utente
-La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
+La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
 
 Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di guide al setup assistito che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -65,7 +67,7 @@ Nella pagina **Setup assistito** sono disponibili le seguenti funzionalità per 
 | Imposta creazione di report |Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
 | Imposta un workflow di approvazione articolo |Imposta la capacità di inviare una notifica a un approvatore quando un utente modifica o crea un elemento. |
 | Imposta un workflow di approvazione pagamenti |Imposta la capacità di inviare una notifica ad un approvatore quando un utente invia righe di registrazione pagamenti per l'approvazione. |
-| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 for Sales, che consente di sincronizzare i dati quali contatti e informazioni sull'ordine di vendita. |
+| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
 | Setup imposta vendita |Consente di iniziare con i Gruppi imposta di default e codici area imposte di assegnazione che è possibile assegnare a clienti e fornitori automaticamente per calcolare l'imposta sulle vendite o nei documenti di acquisto. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Sperimentare le operazioni nella propria società
@@ -99,6 +101,7 @@ Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_l
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
+[Dynamics 365 Business Central in Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Documentazione di Dynamics 365](/dynamics365/)  
 [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

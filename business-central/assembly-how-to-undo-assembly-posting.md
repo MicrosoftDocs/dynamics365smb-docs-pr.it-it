@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 776a39f10041dc540de53e5aa724db6fd755c2d6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 22ebbde0d04dfeb03fa52978e2d1e82d40713445
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247083"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307614"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
@@ -39,7 +39,7 @@ Inoltre, gli ordini di assemblaggio esistenti possono essere ripristinati solo s
 > [!TIP]  
 >  Per risolvere i conflitti dovuti a modifiche apportate alle righe, è possibile annullare manualmente le modifiche alle righe in questione prima di annullare l'ordine di assemblaggio registrato correlato. In alternativa, è possibile registrare l'ordine di assemblaggio completamente, quindi selezionare l'opzione per ricrearlo quando si annulla la registrazione.  
 
-La procedura seguente illustra come annullare ordini di assemblaggio registrati in cui gli articoli sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati in cui gli articoli sono stati assemblati in un ordine di vendita, è necessario utilizzare la funzione **Eliminare spedizione** nella spedizione registrata che si riferisce all'ordine di assemblaggio registrato. Per ulteriori informazioni, vedere [Stornare le registrazioni](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene quindi eseguito automaticamente come descritto in questo argomento.  
+La procedura seguente illustra come annullare ordini di assemblaggio registrati in cui gli articoli sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati in cui gli articoli sono stati assemblati in un ordine di vendita, è necessario utilizzare la funzione **Eliminare spedizione** nella spedizione registrata che si riferisce all'ordine di assemblaggio registrato. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene quindi eseguito automaticamente come descritto in questo argomento.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio  
 1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio registrati**, quindi selezionare il collegamento correlato.  
@@ -55,9 +55,9 @@ Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **
 > [!NOTE]  
 >  Per ripristinare quantità da registrazioni parziali multiple in un ordine di assemblaggio, è necessario annullare tutti gli ordini di assemblaggio registrati in questione seguendo i passaggi da 1 a 3 precedenti per ogni ordine di assemblaggio registrato.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Stornare le registrazioni](finance-how-reverse-journal-posting.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)    
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  

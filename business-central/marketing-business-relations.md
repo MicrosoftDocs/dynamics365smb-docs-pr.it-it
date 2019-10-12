@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: ffeb19820b29453750ca9c03258d455dddff287c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6c20dbd1eaa60037f33aee35701c5baa224fbc1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239339"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309390"
 ---
 # <a name="setting-up-business-relations-on-contacts"></a>Impostazione delle relazioni d'affari nei contatti
 È possibile utilizzare le relazioni d'affari vengono utilizzate per indicare il tipo di relazione commerciale che intercorre con i contatti, ad esempio potenziale cliente, banca, consulente e fornitore di servizi e così via.

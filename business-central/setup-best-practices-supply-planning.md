@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74e39f41a885f42dda8aa62f09a210508167982c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2cfb83468cd952f1528783a62a08732af2b9aeb9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250436"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315734"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Impostare le procedure ottimali: Pianificazione forniture
 La pianificazione forniture è un settore commerciale critico. Una volta impostata e utilizzata correttamente, la pianificazione forniture consente a una società di evitare l'esaurimento scorte e di ridurre i costi di ordinazione e di magazzino.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252254"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311958"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
@@ -46,7 +46,7 @@ Assegnare una o più righe di vendita standard a un cliente di modo che sia poss
 |Opzione|Descrizione|
 |-|-|
 |**Manuale**|È possibile cercare e inserire manualmente la riga di vendite ricorrenti esistente per il cliente.|
-|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.|
+|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.<br /><br />Si noti che ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini vendita**. Non funziona se il documento è stato creato, ad esempio, da una scheda cliente.|
 |**Chiedi sempre**|Una notifica verrà visualizzata e tutte le righe di vendite ricorrenti esistenti vengono visualizzate in modo che sia possibile selezionarne una.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Per inserire righe di vendita ricorrenti in una fattura di vendita

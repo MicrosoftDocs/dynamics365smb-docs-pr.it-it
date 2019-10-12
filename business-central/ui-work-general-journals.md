@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249953"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314966"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -28,7 +28,7 @@ In molti casi, tuttavia, si desidera utilizzare le registrazioni ottimizzate per
 
 Le registrazioni generali vengono utilizzate per la contabilizzazione diretta nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari, i conti clienti, fornitori e dipendenti. La contabilizzazione mediante una registrazione generale crea sempre movimenti nei conti di contabilità generale. Ciò è vero anche quando, ad esempio, viene contabilizzata una riga di registrazione in un conto cliente, in quanto tramite una categoria di registrazione viene registrata una riga in un conto crediti nella contabilità generale.
 
-Le informazioni immesse in una registrazione sono temporanee e possono essere modificate mentre si trovano nella registrazione. Quando si contabilizza la registrazione, le informazioni vengono trasferite a movimenti in singoli conti, dove non possono essere modificate. È tuttavia possibile scollegare i movimenti registrati e stornare o correggere i movimenti. Per ulteriori informazioni, vedere [Stornare le registrazioni](finance-how-reverse-journal-posting.md).
+Le informazioni immesse in una registrazione sono temporanee e possono essere modificate mentre si trovano nella registrazione. Quando si contabilizza la registrazione, le informazioni vengono trasferite a movimenti in singoli conti, dove non possono essere modificate. È tuttavia possibile scollegare i movimenti registrati e stornare o correggere i movimenti. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
@@ -158,9 +158,9 @@ La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**,
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile procedere con la contabilizzazione delle registrazioni.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
-[Stornare le registrazioni](finance-how-reverse-journal-posting.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

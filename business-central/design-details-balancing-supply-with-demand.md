@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307398"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Dettagli di progettazione: Bilanciamento approvvigionamento con domanda
 Il cuore del sistema di pianificazione implica il bilanciamento tra domanda e approvvigionamento per mezzo di azioni suggerite all'utente per riesaminare gli ordini di approvvigionamento nel caso di sbilanciamento. Questa operazione viene eseguita per combinazione di variante e ubicazione.  
@@ -109,7 +109,7 @@ Questo avviene per due motivi:
 
 Nel tempo, i collegamenti di tracciabilità ordini dinamici finiscono per non quadrare poiché l'intera rete di tracciabilità ordini non viene ridisposta fino a quando un evento di approvvigionamento o di domanda non viene effettivamente chiuso.  
 
-Prima di bilanciare l'approvvigionamento con la domanda, il programma elimina tutti i collegamenti di tracciabilità ordine esistenti. Quindi durante la procedura di bilanciamento, quando viene chiuso un evento di approvvigionamento o di domanda, il programma stabilisce nuovi collegamenti di tracciabilità ordine tra la domanda e l'approvvigionamento.  
+Prima di bilanciare l'approvvigionamento con la domanda, l'applicazione elimina tutti i collegamenti di tracciabilità ordine esistenti. Quindi durante la procedura di bilanciamento, quando viene chiuso un evento di approvvigionamento o di domanda, il programma stabilisce nuovi collegamenti di tracciabilità ordine tra la domanda e l'approvvigionamento.  
 
 > [!NOTE]  
 >  Anche se l'articolo non è impostato per la tracciabilità dinamica dell'ordine, il sistema pianificato creerà collegamenti di tracciabilità ordine come di seguito illustrato.  

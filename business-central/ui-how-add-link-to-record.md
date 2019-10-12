@@ -1,59 +1,83 @@
 ---
-title: Come creare collegamenti a informazioni o programmi esterni nei record | Microsoft Docs
+title: Aggiungere allegati, collegamenti e note nei record | Microsoft Docs
 description: Aggiungere un collegamento ipertestuale a un documento o un sito Web in un record specifico, ad esempio, un cliente o un documento.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629759"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315278"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Aggiunta di collegamenti a siti Web, documenti o programmi nei record
-In un record specifico, ad esempio un cliente, un documento o un ordine di vendita, è possibile aggiungere un collegamento a un sito Web, programma o documento esterno. In alternativa, è possibile creare un collegamento che apre un nuovo messaggio e-mail vuoto a un cliente specifico quando lo si seleziona. La pagina schede di alcuni record, ad esempio schede clienti e fornitori, includono un campo **Home page** in cui è possibile immettere un indirizzo Internet (URL). Per includere altri collegamenti, è possibile utilizzare il metodo descritto in questo articolo.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
-> [!IMPORTANT]
-> Attualmente, questa funzionalità è disponibile solo in distribuzioni [!INCLUDE [prodshort](includes/prodshort.md)] in locale con il client Windows di Dynamics NAV legacy.  
+Nel riquadro Dettaglio informazioni della maggior parte di schede e documenti, è possibile allegare file, aggiungere collegamenti e scrivere note. Per collegamenti e note, è anche possibile eseguire queste operazioni nella pagina elenco selezionando dapprima la riga correlata.
 
-Un altro esempio potrebbe essere quando si ricevono fatture stampate dai fornitori. È possibile digitalizzarle e salvarle come file .pdf in un sito SharePoint. È quindi possibile creare un collegamento da una fattura di acquisto in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] alla fattura corrispondente in SharePoint. In alternativa, è possibile creare un collegamento da una scheda articolo nella pagina corrispondente nel catalogo in linea del fornitore.
+Per visualizzare o modificare uno di questi tipi di informazioni allegate, è necessario dapprima aprire la scheda **Allegati** nel riquadro Dettaglio informazioni. Il numero dietro il titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
 
-## <a name="to-add-a-link-on-a-record"></a>Per aggiungere un collegamento in un record   
+Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri stati della scheda o del documento, ad esempio da un ordine di vendita in corso a una fattura di vendita registrata. Si noti, tuttavia, che nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
 
-1.  Aprire il record a cui si desidera associare il collegamento, ad esempio una scheda cliente o un ordine di vendita. Se si desidera associare il collegamento a una riga specifica, ad esempio una riga di registrazione, selezionare la riga.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Per allegare un file a una fattura acquisto
+È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-2.  Scegliere l'azione **Collegamenti** per aprire la pagina **Collegamenti** in cui vengono visualizzati tutti i collegamenti correnti aggiunti al record.
+> [!NOTE]
+> I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
 
-3. Per aggiungere un nuovo collegamento, scegliere **Nuovo**.
+La seguente procedura è basata su ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-4.  Nel campo **Indirizzo collegamento**, immettere
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.
+2. Aprire l'ordine di vendita a cui desidera allegare un file.
+3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
+4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
+5. Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere il pulsante **Seleziona file**.
+5. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
 
-    -   Per creare un collegamento a un file nel computer o in rete, immettere il percorso completo e il nome di file, ad esempio **C:\Documenti\Fattura1.doc**.
-    -   Per creare un collegamento a un sito Web, immettere l'indirizzo Internet (URL), ad esempio **www.microsoft.com**.
-    -   Per creare un collegamento a un programma, immettere una stringa specifica per aprire il programma. Ad esempio, per aprire OneNote con una pagina specifica, immettere **onenote:///C:\Documenti/test.one**. Oppure per aprire Outlook con una nuova e-mail vuota a un alias specifico, immettere **mailto:testalias**.  
+Il file è ora allegato alla fattura acquisto.
 
-5.  Nel campo **Descrizione** inserire informazioni relative al collegamento.  
+## <a name="to-add-a-link-from-an-item-card"></a>Per aggiungere un collegamento da una scheda articolo
+È possibile aggiungere un collegamento da una scheda o documento a qualsiasi URL o percorso. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
 
-6.  Fare clic sul pulsante **Salva**.  
+La procedura seguente è basata su una scheda articolo. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-## <a name="to-delete-a-link-from-a-record"></a>Per eliminare un collegamento da un record  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+2. Selezionare l'articolo da cui si desidera aggiungere un collegamento, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
+3. In **Collegamenti**, scegliere l'icona **+**.
+4. Nel campo **Indirizzo collegamento**, immettere il collegamento.
 
-Per eliminare un collegamento, nella pagina **Collegamenti**, è possibile selezionare **…** e quindi **Elimina**.
+    - Per creare un collegamento a un file nel computer o in rete, immettere il percorso completo e il nome di file, ad esempio **C:\Documenti\Fattura1.doc**.
+    - Per creare un collegamento a un sito Web, immettere l'indirizzo Internet (URL), ad esempio **www.microsoft.com**.
+    - Per creare un collegamento a un programma, immettere una stringa specifica per aprire il programma. Ad esempio, per aprire Outlook con una nuova e-mail vuota a un alias specifico, immettere **mailto:testalias**.  
 
-Se si elimina un unico record, ad esempio una riga dell'ordine di vendita, un ordine di vendita o una scheda cliente, tutti i collegamenti associati al record vengono eliminati. Tuttavia, se si eliminano dei record utilizzando un processo batch, ad esempio **Elimina ord. vendita fatturati**, i collegamenti sono ancora archiviati nel database. Per eliminare i collegamenti dal database, eseguire la codeunit **Elimina collegamenti record orfani**. A tale scopo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina collegamenti record orfani** e quindi scegliere il collegamento correlato.   
+5. Nel campo **Descrizione** immettere le informazioni relative al collegamento.  
+6. Scegliere il pulsante **OK**.
 
-<!-- ### To run delete orphaned record links  
+Il collegamento è ora allegato alla scheda articolo.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Per scrivere una nota in un ordine cliente
+È possibile scrivere una nota in un documento o una scheda, ad esempio, per comunicare istruzioni speciali ad altri utenti del documento o della scheda. È possibile includere URL e collegamenti a file nelle note.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Le note nella scheda **Allegati** non sono correlate alla funzionalità Note interne, utilizzata principalmente per la comunicazione tra utenti del flusso di lavoro. Per ulteriori informazioni, vedere [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Vedi anche  
+La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
+2. Selezionare l'ordine di vendita in cui si desidera scrivere una nota, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
+3. Nella sezione **Note**, scegliere l'icona **+**.
+4. Nel campo **Nota**, scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".
+5. Scegliere il pulsante **OK**.
+
+La nota è ora allegata all'ordine cliente.
+
+## <a name="see-also"></a>Vedere anche  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Documenti in entrata](across-income-documents.md)  
+[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

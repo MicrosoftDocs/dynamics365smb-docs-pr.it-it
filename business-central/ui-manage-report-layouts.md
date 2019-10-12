@@ -3,21 +3,21 @@ title: Layout predefiniti e personalizzati per report e documenti | Documenti Mi
 description: Utilizzare i layout di report per personalizzare i documenti, ad esempio, per personalizzare il carattere, il logo o le impostazioni della pagina di file PDF da inviare ai clienti.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594289"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315158"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
@@ -56,12 +56,12 @@ I concetti di progetto generali dei layout Word e RDLC sono molto simili. Tuttav
 
 Il processo di impostazione dei layout di report Word e RDLC nei report è lo stesso. La differenza principale sta nel modo in cui modificano i layout. I layout di report Word in genere sono più facili da creare e modificare rispetto ai layout di report RDLC perché è possibile utilizzare Word. I layout di report RDLC vengono modificati utilizzando il Generatore report di SQL Server, che è indirizzato agli utenti più avanzati.
 
-Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md).
+Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Aggiornamento dei layout di report o documento](ui-update-report-layouts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)  
 [Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di report e processi batch](ui-work-report.md)  
+[Utilizzo di report, processi batch e XMLport](ui-work-report.md)  

@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307590"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> A causa della nuova direttiva sui servizi di pagamento in Europa (PSD2), dopo il 14 settembre 2019, non sarà più possibile importare automaticamente gli estratti conto bancari dalle banche del Regno Unito in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stiamo esaminando la possibilità di offrire nuovamente questa funzionalità in futuro.
+
 > [!NOTE]
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
-> Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti, in Canada e nel Regno Unito.
+> Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti e in Canada.
 
 > [!IMPORTANT]
 > Per assistenza tecnica con la funzionalità Envestnet Yodlee, contattare il supporto Microsoft. Non contattare Envestnet Yodlee. Per ulteriori informazioni, vedere [Configurazione del supporto tecnico per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

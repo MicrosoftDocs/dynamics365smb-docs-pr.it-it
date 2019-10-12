@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249792"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314630"
 ---
 # <a name="create-bins"></a>Creare collocazioni
 Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione collocazioni. È tuttavia possibile creare le collocazioni singolarmente dalla scheda ubicazione. È inoltre possibile utilizzare una funzione nella pagina **Prospetto creaz. collocazione** per creare automaticamente le collocazioni.  
@@ -60,7 +60,7 @@ Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere
     > [!NOTE]  
     >  Il numero di caratteri immesso nei singoli campi per le tre categorie, ad esempio i caratteri immessi nei tre campi **Dal nr.**, più gli eventuali separatori di campo, devono essere 20 o meno.  
 
-     Nel codice è possibile utilizzare lettere per ottenere una combinazione di identificazione alfanumerica, ma in tal caso è necessario immettere le stesse lettere nei campi **Dal nr.** e **A nr.** . È ad esempio possibile definire la parte Scaffalatura del codice come **Dal nr. A01** e **A nr. A10**. Il programma non è impostato per la generazione di codici con sequenze di lettere, ad esempio da A01 a F05.  
+     Nel codice è possibile utilizzare lettere per ottenere una combinazione di identificazione alfanumerica, ma in tal caso è necessario immettere le stesse lettere nei campi **Dal nr.** e **A nr.** . È ad esempio possibile definire la parte Scaffalatura del codice come **Dal nr. A01** e **A nr. A10**. L'applicazione non è impostato per la generazione di codici con sequenze di lettere, ad esempio da A01 a F05.  
 
 6.  Se si desidera utilizzare un carattere, ad esempio il trattino (-), per separare le parti del codice collocazione definite nei campi relativi alle categorie, immettere tale carattere nel campo **Separatore Campo**.  
 7.  Se si desidera che non venga automaticamente creata una riga per una collocazione già esistente, selezionare il campo **Controllo su collocazione esistente**.  

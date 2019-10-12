@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 993c3b539df3a7479ed97eaf03203e3f1cceb4eb
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985789"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311046"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Creare e modificare un layout di documento o report personalizzato
 Per impostazione predefinita, un report avrà un layout di report RDLC o Word predefinito o entrambi. Non è possibile modificare i layout predefiniti. Tuttavia, è possibile creare i propri layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato. È possibile creare più layout di report personalizzati per lo stesso report e alternare il layout utilizzato in un report in base alle esigenze.
@@ -30,18 +30,21 @@ Per creare un layout personalizzato, è possibile effettuare una copia di un lay
 ## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.
 
-    Nella pagina **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Società** nella parte superiore della pagina.
+    Nella pagina **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Nome società** nella parte superiore della pagina.
 2. Impostare il campo **Società** alla società per la quale si desidera creare il layout di report.
 3. Selezionare la riga per il report per il quale si desidera creare il layout, quindi scegliere l'azione **Layout personalizzati**.  
+
    Viene visualizzata la pagina **Layout report personalizzati** nella quale sono elencati tutti i layout personalizzati che sono disponibili per il report selezionato.
 4. Per creare una copia di un layout personalizzato esistente, selezionare il layout personalizzato esistente nell'elenco, quindi scegliere l'azione **Copia**.  
+
    La copia del layout personalizzato viene visualizzata nella pagina **Layout report personalizzati** e nel campo *Descrizione* è presente la dicitura **Copia di**.
 5. Se si desidera aggiungere un nuovo layout personalizzato basato su un layout predefinito, attenersi alla seguente procedura:  
    1. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Inserisci layout predefinito per un report**. I campi **ID** e **Nome** vengono automaticamente compilati.
    2. Per aggiungere un tipo di layout di report Word personalizzato, selezionare la casella di controllo **Inserisci layout Word**.
    3. Per aggiungere un tipo di layout di report RDLC personalizzato, selezionare la casella di controllo **Inserisci layout RDLC**.
    4. Scegliere il pulsante **OK**.  
-      I nuovi layout personalizzati vengono visualizzati nella pagina **Layout report personalizzati**. Se un nuovo layout è basato su un layout predefinito, contiene le parole **Copia di un layout predefinito** nel campo **Descrizione**. Se non è disponibile alcun layout predefinito per il report, il nuovo layout presenta la dicitura **Nuovo layout** nel campo **Descrizione**. Questa dicitura indica che il layout personalizzato è vuoto.
+
+    Il nuovo layout personalizzato viene visualizzato nella pagina **Layout report personalizzati**. Se un nuovo layout è basato su un layout predefinito, contiene le parole **Copia di un layout predefinito** nel campo **Descrizione**. Se non è disponibile alcun layout predefinito per il report, il nuovo layout presenta la dicitura **Nuovo layout** nel campo **Descrizione**. Questa dicitura indica che il layout personalizzato è vuoto.
 6. Per impostazione predefinita, il campo **Nome società** è vuoto, il che significa che il layout personalizzato sarà disponibile per il report in tutte le società. Per rendere il layout personalizzato disponibile solo a una società specifica, scegliere **Modifica**, quindi impostare il campo **Nome società** sulla società desiderata.
 
 Il layout personalizzato è stato creato. È ora possibile modificare il layout personalizzato in base alle esigenze.
@@ -98,9 +101,9 @@ L'aggiunta di campi dati dal set di dati di un report è una funzione più avanz
 ###
 
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
-[Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md)  
+[Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  
 [Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
-[Utilizzo di report e processi batch](ui-work-report.md)  
+[Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

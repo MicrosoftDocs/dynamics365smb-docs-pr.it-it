@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251333"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315505"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.
@@ -41,7 +41,7 @@ Se si abilita l'estensione, nella Gestione ruolo utente **Manager aziendale** sa
 
 * **Pagamento in ritardo**: indica se il pagamento per la fattura è previsto in ritardo.
 * **Affidabilità previsione**: indica quanto è affidabile la previsione. **Alta** significa che la previsione è affidabile almeno al 90%, **Media** è compresa tra l'80% e il 90%, **Bassa** è inferiore all'80%.
-* **Affidabilità previsione in %**: mostra la percentuale effettiva della valutazione di affidabilità. Per impostazione predefinita, questa colonna non viene visualizzata, ma è possibile aggiungerla se lo si desidera. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).
+* **Affidabilità previsione in %**: mostra la percentuale effettiva della valutazione di affidabilità. Per impostazione predefinita, questa colonna non viene visualizzata, ma è possibile aggiungerla se lo si desidera. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 > [!Tip]
 > La pagina Movimenti Contabili Clienti mostra inoltre un riquadro Dettaglio informazioni a destra. Mentre si consultano le previsioni, le informazioni nella sezione **Dettagli cliente** possono essere utili. Quando si sceglie la fattura nell'elenco, la sezione mostra le informazioni sul cliente. È anche possibile agire immediatamente. Ad esempio, se un cliente smarrisce frequentemente il Portafoglio, è possibile aprire la scheda cliente dal riquadro Dettaglio informazioni e bloccare il cliente per le vendite future.  

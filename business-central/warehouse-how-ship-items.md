@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248826"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314678"
 ---
 # <a name="ship-items"></a>Spedire articoli
 Quando gli articoli partono da una warehouse che non è impostata per l'elaborazione delle spedizioni warehouse, occorre registrare semplicemente la spedizione nel documento aziendale correlato, ad esempio un ordine di vendita, un ordine di assistenza, un ordine di reso acquisto o un ordine di trasferimento in uscita.
@@ -25,7 +25,7 @@ Quando gli articoli partono da una warehouse che non è impostata per l'elaboraz
 Quando gli articoli vengono spediti da una warehouse impostata in modo da richiedere l'elaborazione delle spedizioni warehouse, è possibile spedire articoli solo in base ai documenti di origine rilasciati alla warehouse da altri reparti della società affinché vengano elaborati.
 
 > [!NOTE]
-> Se la warehouse prevede cross-docking e collocazioni, per ogni riga, è possibile visualizzare la quantità di articoli inseriti nelle collocazioni di cross-dock. Il programma calcola le quantità automaticamente ogni volta che i campi della spedizione vengono aggiornati. Se si tratta di articoli facenti parte della spedizione che si sta preparando, è possibile creare un prelievo per tutte le righe e completare la spedizione. Per ulteriori informazioni, vedere [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
+> Se la warehouse prevede cross-docking e collocazioni, per ogni riga, è possibile visualizzare la quantità di articoli inseriti nelle collocazioni di cross-dock. L'applicazione calcola le quantità automaticamente ogni volta che i campi della spedizione vengono aggiornati. Se si tratta di articoli facenti parte della spedizione che si sta preparando, è possibile creare un prelievo per tutte le righe e completare la spedizione. Per ulteriori informazioni, vedere [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Per spedire gli articoli con un ordine di vendita
 Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 13f8d163a15424acdf47849551a16fd1a34f4205
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3d236654bb5ee2786d8cfaf3479a883b01795a4a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247768"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314390"
 ---
 # <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, come assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.

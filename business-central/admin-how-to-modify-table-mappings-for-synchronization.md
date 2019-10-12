@@ -1,6 +1,6 @@
 ---
 title: Modificare i mapping di tabella per la sincronizzazione | Microsoft Docs
-description: Ottenere informazioni su come modificare i mapping di tabella che vengono utilizzati quando si sincronizzano dati tra Business Central e Dynamics 365 for Sales.
+description: Ottenere informazioni su come modificare i mapping di tabella che vengono utilizzati quando si sincronizzano dati tra Business Central e Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540202"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308077"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modificare i mapping di tabella per la sincronizzazione
 Un mapping di tabella di integrazione collega una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] a un tabella di integrazione per l'entità di [!INCLUDE[crm_md](includes/crm_md.md)]. Per ogni entità di [!INCLUDE[crm_md](includes/crm_md.md)] che si desidera sincronizzare con i dati corrispondenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], deve esserci un corrispondente mapping di tabella di integrazione. Un mapping di tabella di integrazione comprende diverse impostazioni che consentono di verificare come i record nella tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] e un'entità di [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati dai processi di sincronizzazione di integrazione corrispondenti.  
@@ -33,7 +33,7 @@ Un mapping di tabella di integrazione collega una tabella di [!INCLUDE[d365fin](
 ## <a name="creating-new-records"></a>Creazione di nuovi record  
  Per impostazione predefinita, solo i record di [!INCLUDE[d365fin](includes/d365fin_md.md)]e [!INCLUDE[crm_md](includes/crm_md.md)] associati verranno sincronizzati dai processi di sincronizzazione di integrazione. È possibile impostare i mapping di tabella in modo che i nuovi record vengano creati nella destinazione (ad esempio [!INCLUDE[d365fin](includes/d365fin_md.md)]), per ogni record nell'origine (ad esempio [!INCLUDE[crm_md](includes/crm_md.md)]) non ancora associato.  
 
- Ad esempio, il processo di sincronizzazione AGENTE - Dynamics 365 for Sales utilizza il mapping di tabella AGENTE. Il processo di sincronizzazione copia i dati dai record utente in [!INCLUDE[crm_md](includes/crm_md.md)] nei record agente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si imposta il mapping di tabella per creare nuovi record, per ogni utente di [!INCLUDE[crm_md](includes/crm_md.md)] non ancora associato a un agente di [!INCLUDE[d365fin](includes/d365fin_md.md)], viene creato un nuovo record agente in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Ad esempio, il processo di sincronizzazione AGENTE - Dynamics 365 Sales utilizza il mapping di tabella AGENTE. Il processo di sincronizzazione copia i dati dai record utente in [!INCLUDE[crm_md](includes/crm_md.md)] nei record agente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si imposta il mapping di tabella per creare nuovi record, per ogni utente di [!INCLUDE[crm_md](includes/crm_md.md)] non ancora associato a un agente di [!INCLUDE[d365fin](includes/d365fin_md.md)], viene creato un nuovo record agente in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Per creare nuovi record durante la sincronizzazione  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
@@ -59,6 +59,6 @@ Se si installa il setup di sincronizzazione predefinito, la maggioranza delle vo
 3.  Impostare il campo **Codice modello di configurazione tabella integrazione** nel modello di configurazione da utilizzare per i nuovi record di [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Vedere anche  
-[Informazioni sull'integrazione di Dynamics 365 Business Central con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Sincronizzazione di Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Informazioni sull'integrazione di Dynamics 365 Business Central con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

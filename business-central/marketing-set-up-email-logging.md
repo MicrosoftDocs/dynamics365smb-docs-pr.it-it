@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 08/26/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e42618be17ff4f9bfe0d54a88e70d5a1841568c1
-ms.sourcegitcommit: 8d9f08304b2f3b5504332bc626383797564ac5e3
+ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "1920468"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308742"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti
 Ottenere di più dalle comunicazioni tra i venditori e i tuoi clienti esistenti o potenziali monitorando gli scambi di e-mail e trasformandoli in opportunità fruibili. [!INCLUDE[d365fin](includes/d365fin_md.md)] può utilizzare Exchange Online per tenere un log dei messaggi in entrata e in uscita. È possibile visualizzare e analizzare i contenuti di ciascun messaggio nella pagina **Movimenti log interazione**.

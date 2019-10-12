@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 68ee937b8bf9f9f0784c8e96a78dbc3f0486d50f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251471"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311862"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  

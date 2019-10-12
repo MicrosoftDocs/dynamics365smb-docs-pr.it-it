@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755266"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307974"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI 
 
@@ -27,7 +27,7 @@ Ottenere informazioni dettagliate sui dati di [!INCLUDE[prodshort](includes/prod
 > [!IMPORTANT]
 > Le app Power BI descritte in questo articolo sono progettate per utilizzare Azure Active Directory come meccanismo di autenticazione salvo diversa indicazione. Per installare un'app Power BI è necessario disporre anche di una licenza Power BI Pro.  Dopo l'installazione, l'app Power BI può essere condivisa con utenti con qualsiasi tipo di licenza.
 
-Microsoft ha pubblicato le seguenti app per Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] ha pubblicato le seguenti app per Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
@@ -64,7 +64,7 @@ Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUD
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Selezionare **App** nella scheda **App per Power BI** e scegliere l'app **Microsoft Dynamics 365 Business Central** che si desidera utilizzare e selezionare **Ottienilo ora**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Quando richiesto, immettere il nome dell'azienda nell'istanza di [!INCLUDE[prodshort](includes/prodshort.md)] a cui si intende connettersi. Questo non è il nome visualizzato. È possibile trovare Il nome della società nella pagina **Società'** dell'istanza di [!INCLUDE[prodshort](includes/prodshort.md)].  
+5. Quando richiesto, immettere il nome dell'ambiente e dell'azienda nell'app [!INCLUDE[prodshort](includes/prodshort.md)] a cui si intende connettersi. Se non sono stati creati più ambienti, immettere **Produzione**. Per il parametro dell'azienda, assicurarsi di inserire il nome e non il nome visualizzato. È possibile trovare Il nome della società nella pagina **Società'** dell'istanza di [!INCLUDE[prodshort](includes/prodshort.md)].  
 
     > [!NOTE]
     > Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, è necessario specificare il parametro *URL servizio Web*. Questa parametro è presente nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)]. L'istanza di [!INCLUDE [server](includes/server.md)] deve essere configurata per l'autenticazione Base ed è necessario specificare un utente e la chiave di accesso Web di quell'utente come password. Nell'esempio seguente, sostituire *myserver: 7048* con il nome [!INCLUDE [server](includes/server.md)] e *CRONUS%20US* con il nome della società.  
@@ -162,6 +162,10 @@ Il dashboard di Power BI si basa sui servizi Web rilasciati che sono elencati so
 
 Un account Power BI non è stato impostato. Per disporre di un account Power BI valido, è necessario avere una licenza e aver effettuato l'accesso a Power BI in precedenza per creare l'area di lavoro Power BI.  
 
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
+
+Questo messaggio verrà visualizzato se il report predefinito non viene distribuito alla propria area di lavoro Power BI o il report è stato distribuito ma non aggiornato correttamente. In questo caso, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a Business Central e selezionare manualmente il report dalla pagina **Selezionare i report**. 
+
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
 
 Le app Power BI possono essere installate solo dagli utenti che hanno una licenza Power BI Pro. Dopo l'installazione dell'app Power BI, è possibile condividerla con utenti che non dispongono della licenza Power BI Pro.  
@@ -170,6 +174,7 @@ Le app Power BI possono essere installate solo dagli utenti che hanno una licenz
 
 Questo errore indica che uno o più parametri non sono validi.
 
+- Il parametro di ambiente specificato non corrisponde ad alcun ambiente di produzione o sandbox di [!INCLUDE [prodshort](includes/prodshort.md)]. 
 - Il parametro dell'azienda specificato non corrisponde ad alcuna società [!INCLUDE [prodshort](includes/prodshort.md)] esistente. Verificare il nome della società nella pagina **Società** in [!INCLUDE [prodshort](includes/prodshort.md)].
 - Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, si è immesso un URL non valido. È possibile verificare l'URL nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)].  
 - Una porta non viene aperta per consentire il passaggio della richiesta attraverso il firewall.
@@ -200,10 +205,10 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE [prodshort](in
 
 ## <a name="see-also"></a>Vedere anche
 
-[Introduzione a Power BI](/power-bi/service-get-started)  
-[Power BI - Concetti di base](/power-bi/service-basic-concepts)  
-[App in Power BI](/power-bi/consumer/end-user-app)  
+[Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  
+[Il "nuovo look" del servizio Power BI](/power-bi/service-new-look)  
 [Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Documentazione di Power BI](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Introduzione](product-get-started.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 966aab82c2290c0cdc3af521583f1a4b1efbe76b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b56da66ac87fddbce761ba2ce63edf281efdab19
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247814"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314718"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Abilitare breakbulk automatico con stoccaggi e prelievi guidati
 Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di eseguire in varie situazioni il breakbulk automatico, ovvero la suddivisione di unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni. Talvolta il breakbulk consente di raggruppare unità di misura più piccole, se necessario, in modo da soddisfare le richieste in uscita suddividendo le unità di misura più grandi nel documento di origine o nell'ordine di produzione in unità di misura più piccole disponibili nella warehouse.   
@@ -25,7 +25,7 @@ Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[d365fin
 ## <a name="breakbulking-in-picks"></a>Breakbulk relativo ai prelievi  
 Se si desidera immagazzinare articoli con unità di misura differenti e consentire di combinarli automaticamente a seconda delle esigenze nel processo di prelievo, selezionare il campo **Permettere breakbulk** nella scheda ubicazione.  
 
-Per eseguire un'attività, il programma cerca automaticamente un articolo con la stessa unità di misura. Se tuttavia non è possibile individuare l'articolo sotto tale forma e il campo è selezionato, viene automaticamente suggerito di convertire un'unità di misura più grande nell'unità di misura richiesta.  
+Per eseguire un'attività, l'applicazione cerca automaticamente un articolo con la stessa unità di misura. Se tuttavia non è possibile individuare l'articolo sotto tale forma e il campo è selezionato, viene automaticamente suggerito di convertire un'unità di misura più grande nell'unità di misura richiesta.  
 
 Se vengono individuate solo le unità di misura più piccole, viene suggerito di raggruppare gli articoli in modo da soddisfare la quantità specificata nell'ordine di spedizione o di produzione. Di fatto, l'unità di misura più grande riportata nel documento di origine viene suddivisa in unità di misura più piccole per il prelievo.  
 
@@ -33,7 +33,7 @@ Se vengono individuate solo le unità di misura più piccole, viene suggerito di
 Durante lo stoccaggio nella warehouse, la dimensione automaticamente suggerita nelle righe di azione Mettere è l'unità di misura di stoccaggio, ad esempio pezzi, anche se gli articoli giungono nella warehouse in unità di misura differenti.  
 
 ## <a name="breakbulking-in-movements"></a>Breakbulk relativo ai movimenti  
-Il programma esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella pagina **Calcola rifornimento collocazione**.  
+L'applicazione esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella pagina **Calcola rifornimento collocazione**.  
 
 I risultati del processo di conversione da un'unità di misura all'altra possono essere visualizzati come righe di breakbulk intermedie nelle istruzioni di stoccaggio, prelievo o movimento.  
 

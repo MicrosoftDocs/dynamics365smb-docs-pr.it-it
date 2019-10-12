@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8be7de94b64cb89593df3ea028ab71dddd3d9541
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253978"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314294"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrare pagamenti e resi nelle Registrazioni pagamenti
 
@@ -55,5 +55,5 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Esportare un file Positive Pay](finance-how-positive-pay.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Personalizzazione dell'area di lavoro](ui-personalization-user.md)  
+[Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: bc3cedf31aadb69e380b704f4019a86eb7864882
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6cab6247c8edb050a038ef7641b646f1a7412588
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248078"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310830"
 ---
 # <a name="detecting-mandatory-fields"></a>Rilevare campi obbligatori
 Immettendo i dati nelle pagine in [!INCLUDE[d365fin](includes/d365fin_md.md)], alcuni campi sono contrassegnati con un asterisco rosso. L'asterisco rosso significa che il campo deve essere compilato per completare un determinato processo che utilizza il campo, ad esempio registrare una transazione che utilizza il valore nel campo.

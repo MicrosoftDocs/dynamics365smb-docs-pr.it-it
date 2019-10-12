@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 30fcb660632a529d907ffd675087960ef8ca6674
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a9a98b654ee28fad43feeb827f7d97310df6d4a8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253242"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313326"
 ---
 # <a name="plan-project-orders"></a>Pianificare gli ordini di progetto
 Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**.  

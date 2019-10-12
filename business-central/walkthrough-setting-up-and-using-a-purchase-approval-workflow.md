@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfd2a97c6c41ac43bbe4d33792774f929a68d7f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247960"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310518"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
@@ -45,7 +45,7 @@ Sean è un utente con privilegi avanzati di CRONUS. Crea due utenti approvazione
 Per verificare il flusso di lavoro di approvazione, Sean innanzitutto accede a [!INCLUDE[d365fin](includes/d365fin_md.md)] come Alicia, quindi richiede l'approvazione di un ordine di acquisto. Sean quindi si collega come se stesso, vede la nota in Gestione ruolo utente, seleziona il collegamento della richiesta di approvazione per l'ordine di acquisto e approva la richiesta.  
 
 ## <a name="setting-up-sample-data"></a>Impostazione dei dati di esempio
-Prima di poter impostare gli utenti di approvazione e il relativo metodo di notifica, è necessario assicurarsi che due utenti esistano in [!INCLUDE[d365fin](includes/d365fin_md.md)]: Un utente rappresenterà Alicia. L'altro utente, l'utente corrente, rappresenterà Sean. Per ulteriori informazioni, vedere [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md).
+Prima di poter impostare gli utenti di approvazione e il relativo metodo di notifica, è necessario assicurarsi che due utenti esistano in [!INCLUDE[d365fin](includes/d365fin_md.md)]: Un utente rappresenterà Alicia. L'altro utente, l'utente corrente, rappresenterà Sean. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Impostazione degli utenti approvazione  
 Quando si esegue l'accesso come utente corrente, impostare Alicia come utente di approvazione il cui responsabile è l'utente corrente. Impostare i diritti di approvazione e specificare come e quando si riceve la notifica delle richieste di approvazione.  

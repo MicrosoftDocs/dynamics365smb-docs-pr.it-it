@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251379"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311406"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
+
+> [!Important]
+> Per impostazione predefinita, non sono consentite interruzioni nelle numerazioni poiché, per legge, l'esatta cronologia delle transazioni finanziarie deve essere disponibile per la revisione contabile e pertanto deve seguire una sequenza ininterrotta senza numeri cancellati.<br /><br />
+Se si desidera consentire delle interruzioni in determinate numerazioni, consultare prima il proprio revisore o il proprio responsabile della contabilità per assicurarsi di aderire ai requisiti legali nel proprio paese. Per ulteriori informazioni, vedere [Interruzioni nelle numerazioni](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
@@ -30,6 +34,9 @@ In genere, si imposta la serie di numeri per inserire automaticamente il numero 
 
 Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, ad esempio per utilizzare una numerazione diversa per diverse categorie di articoli, è possibile utilizzare relazioni tra numerazioni.
 
+## <a name="gaps-in-number-series"></a>Interruzioni nelle numerazioni
+Non tutti i record creati in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono transazioni finanziarie che devono utilizzare numerazioni sequenziali. Le schede cliente, le offerte di vendita e le attività di warehouse sono esempi di record a cui è assegnato un numero di una numerazione, ma che non sono soggetti a controlli finanziari e/o che possono essere eliminati. Per tali numerazioni, è possibile selezionare la casella di controllo **Consenti interruzioni in num.** nella pagina **Righe nr. serie**. Per ulteriori informazioni, vedere [Per creare nuove numerazioni](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamento del campo Nr. in documenti e schede
 Nella vendita, acquisto e trasferimento di documenti e su tutte le schede, il campo **Nr.** può essere compilato automaticamente da una serie di numeri o manualmente e può essere impostato per essere invisibile.
 
@@ -38,9 +45,9 @@ Il campo **Nr.** può essere compilato in tre modi:
 1. Se esiste solo una numerazione per il tipo di documento o scheda dove la casella di controllo **Proponi automaticamente** è selezionata e la casella di controllo **Consenti num. manuale** non è selezionata, il campo viene compilato automaticamente con il numero successivo della numerazione e il campo **Nr.** non sarà visibile.
 
     > [!NOTE]  
-    > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella pagina **Elenco nr. serie**.
+    > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella pagina **Nr. serie**.
 
-2. Se esiste più di una numerazione per il tipo di documento o scheda e la casella di controllo **Proponi automaticamente** non è selezionata per la numerazione attualmente assegnata, il campo **Nr.** è visibile ed è possibile cercare la pagina **Elenco nr. serie** e selezionare la numerazione che si desidera utilizzare. Il numero successivo della serie viene quindi inserito nel campo **Nr.**.  
+2. Se esiste più di una numerazione per il tipo di documento o scheda e la casella di controllo **Proponi automaticamente** non è selezionata per la numerazione attualmente assegnata, il campo **Nr.** è visibile ed è possibile cercare la pagina **Nr. serie** e selezionare la numerazione che si desidera utilizzare. Il numero successivo della serie viene quindi inserito nel campo **Nr.**.  
 
 3. Se per il tipo di documento o scheda non è stata impostata alcuna numerazione o se è selezionato il campo **Consenti num. manuale** per la numerazione, il campo **Nr.** è visibile ed è necessario inserire qualsiasi numero manualmente. È possibile immettere un massimo di 20 caratteri, tra numeri e lettere.
 
@@ -53,6 +60,9 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Nr. serie** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Scegliere l'azione **Righe**.
+5. Nella pagina **Righe nr. serie**, compilare i campi per definire l'uso effettivo e il contenuto delle numerazioni create nel passaggio 2.
+6. Ripetere il passaggio 5 per tutti i vari usi delle numerazioni necessari. Il campo **Data inizio** definisce quale riga di numerazione è attiva.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
 La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.
