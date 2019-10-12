@@ -9,24 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b876c4c9328705bc37e552d646fe3aed78e5617d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243654"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307902"
 ---
-# <a name="using-business-central-without-outlook"></a><span data-ttu-id="a8d63-103">Utilizzo di Business Central senza Outlook</span><span class="sxs-lookup"><span data-stu-id="a8d63-103">Using Business Central without Outlook</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="a8d63-104">prevede un'integrazione completa con Office 365 ed è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come posta in arrivo aziendale in Outlook.</span><span class="sxs-lookup"><span data-stu-id="a8d63-104">has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook.</span></span> <span data-ttu-id="a8d63-105">Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] nel browser o nel dispositivo mobile.</span><span class="sxs-lookup"><span data-stu-id="a8d63-105">But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.</span></span>  
+# <a name="using-business-central-without-outlook"></a><span data-ttu-id="e8c0a-103">Utilizzo di Business Central senza Outlook</span><span class="sxs-lookup"><span data-stu-id="e8c0a-103">Using Business Central without Outlook</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="e8c0a-104">prevede un'integrazione completa con Office 365 ed è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come posta in arrivo aziendale in Outlook.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-104">has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook.</span></span> <span data-ttu-id="e8c0a-105">Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] nel browser o nel dispositivo mobile.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-105">But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.</span></span>  
 
-## <a name="sending-email"></a><span data-ttu-id="a8d63-106">Invio di e-mail</span><span class="sxs-lookup"><span data-stu-id="a8d63-106">Sending Email</span></span>
-<span data-ttu-id="a8d63-107">È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale.</span><span class="sxs-lookup"><span data-stu-id="a8d63-107">You can send documents such as invoices as email using your business email address.</span></span> <span data-ttu-id="a8d63-108">Dalla Gestione ruolo utente, è possibile accedere alla guida di setup assistito che consente di impostare la posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="a8d63-108">From your Role Center, you can access an assisted setup guide that helps you set up email.</span></span> <span data-ttu-id="a8d63-109">Se non si utilizza un account di posta elettronica di Office 365, è necessario specificare le informazioni tecniche sul server di posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="a8d63-109">If you do not use an Office 365 email account, you must specify technical information about your mail server.</span></span> <span data-ttu-id="a8d63-110">Se non si dispone di questa informazione, contattare lo staff di supporto IT.</span><span class="sxs-lookup"><span data-stu-id="a8d63-110">If you do not have this information available, please contact your IT support staff.</span></span>  
+## <a name="sending-email"></a><span data-ttu-id="e8c0a-106">Invio di e-mail</span><span class="sxs-lookup"><span data-stu-id="e8c0a-106">Sending Email</span></span>
+<span data-ttu-id="e8c0a-107">È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-107">You can send documents such as invoices as email using your business email address.</span></span> <span data-ttu-id="e8c0a-108">Dalla Gestione ruolo utente, è possibile accedere alla guida di setup assistito che consente di impostare la posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-108">From your Role Center, you can access an assisted setup guide that helps you set up email.</span></span> <span data-ttu-id="e8c0a-109">Se non si utilizza un account di posta elettronica di Office 365, è necessario specificare le informazioni tecniche sul server di posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-109">If you do not use an Office 365 email account, you must specify technical information about your mail server.</span></span> <span data-ttu-id="e8c0a-110">Se non si dispone di questa informazione, contattare lo staff di supporto IT.</span><span class="sxs-lookup"><span data-stu-id="e8c0a-110">If you do not have this information available, please contact your IT support staff.</span></span>  
 
 
-## <a name="see-also"></a><span data-ttu-id="a8d63-111">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="a8d63-111">See Also</span></span>
-[<span data-ttu-id="a8d63-112">Introduzione</span><span class="sxs-lookup"><span data-stu-id="a8d63-112">Getting Started</span></span>](product-get-started.md)  
-[<span data-ttu-id="a8d63-113">Utilizzo di Business Central come Posta in arrivo aziendale di Outlook</span><span class="sxs-lookup"><span data-stu-id="a8d63-113">Using Business Central as your Business Inbox in Outlook</span></span>](admin-outlook.md)  
-[<span data-ttu-id="a8d63-114">Scaricare Business Central sul dispositivo mobile</span><span class="sxs-lookup"><span data-stu-id="a8d63-114">Getting Business Central on my Mobile Device</span></span>](install-mobile-app.md)  
-[<span data-ttu-id="a8d63-115">Inviare documenti via e-mail</span><span class="sxs-lookup"><span data-stu-id="a8d63-115">Send Documents by Email</span></span>](ui-how-send-documents-email.md)
+## <a name="see-also"></a><span data-ttu-id="e8c0a-111">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="e8c0a-111">See Also</span></span>
+[<span data-ttu-id="e8c0a-112">Introduzione</span><span class="sxs-lookup"><span data-stu-id="e8c0a-112">Getting Started</span></span>](product-get-started.md)  
+[<span data-ttu-id="e8c0a-113">Utilizzo di Business Central come Posta in arrivo aziendale di Outlook</span><span class="sxs-lookup"><span data-stu-id="e8c0a-113">Using Business Central as your Business Inbox in Outlook</span></span>](admin-outlook.md)  
+[<span data-ttu-id="e8c0a-114">Scaricare Business Central sul dispositivo mobile</span><span class="sxs-lookup"><span data-stu-id="e8c0a-114">Getting Business Central on my Mobile Device</span></span>](install-mobile-app.md)  
+[<span data-ttu-id="e8c0a-115">Inviare documenti via e-mail</span><span class="sxs-lookup"><span data-stu-id="e8c0a-115">Send Documents by Email</span></span>](ui-how-send-documents-email.md)
