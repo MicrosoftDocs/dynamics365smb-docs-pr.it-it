@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245300"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300787"
 ---
 # <a name="changing-language-and-locale"></a>Modifica di lingua e impostazioni locali
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245300"
 
 Ad esempio, se si utilizza la versione canadese di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare l'interfaccia utente in inglese e in francese, ma rimane una versione canadese di [!INCLUDE[d365fin](includes/d365fin_md.md)] in tutti gli altri aspetti. È quindi diversa, ad esempio, dalla versione di [!INCLUDE[d365fin](includes/d365fin_md.md)] per il Regno Unito.  
 
-Per modificare la lingua dell'interfaccia utente, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md#language).  
+Per modificare la lingua dell'interfaccia utente, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md#language).  
 
 La modifica dei testi memorizzati come dati dell'applicazione non è invece supportata dalla funzionalità multilingue. Tale modifica rientra nell'ambito della progettazione dell'applicazione. Tra gli esempi di questo tipo di testi rientrano i nomi degli articoli in magazzino o i commenti relativi a un cliente. In altre parole, questi testi non vengono tradotti.  
 
@@ -38,9 +38,9 @@ Le impostazioni locali differiscono dalla lingua e dai requisiti legali nei merc
 > [!IMPORTANT]  
 >  Quando si modificano le impostazioni locali, viene visualizzato un lungo elenco di lingue e impostazioni locali. Tuttavia, solo le impostazioni locali selezionate sono utilizzate nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Per modificare le impostazioni locali, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).  
+Per modificare le impostazioni locali, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
 ### <a name="how-do-i-change-the-language"></a>Come si cambia la lingua?
@@ -49,6 +49,6 @@ Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fi
 > [!NOTE]  
 > Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue. Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.
 
-## <a name="see-also"></a>Vedi anche  
-[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
+## <a name="see-also"></a>Vedere anche  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  

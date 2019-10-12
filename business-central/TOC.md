@@ -18,35 +18,39 @@
 
 # Utilizzo di Business Central
 ## [Sintesi](ui-work-product.md)
-## [Individuazione di funzionalità e informazioni](ui-search.md)
-## [Domande frequenti relative alle informazioni](ui-search-faq.md)
-## [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)
+## [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)
+## [Individuazione di pagine da una panoramica delle funzionalità](ui-role-explorer.md)
+## [Domande frequenti relative alla funzionalità delle informazioni](ui-search-faq.md)
+## [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)
 ## [Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)
 ## [Immissione di dati](ui-enter-data.md)
+## [Domande frequenti sulla funzionalità di copia e incolla](ui-copy-paste.md)
 ## [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)
-## [Copia e incolla](ui-copy-paste.md)
 ## [Rilevare campi obbligatori](ui-mandatory-fields.md)
 ## [Modifica di lingua e impostazioni locali](about-locale-language.md)
 ## [Visualizzazione e modifica in Excel](across-work-with-excel.md)  
-## [Gestione delle notifiche](ui-smart-notifications.md)
-## [Modifica delle impostazioni di base](ui-change-basic-settings.md)
+## [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md)
+## [Modificare le impostazioni di base](ui-change-basic-settings.md)
+## [Gestire le notifiche](ui-smart-notifications.md)
 ## Personalizzazione di Business Central
-### [Personalizzazione dell'area di lavoro](ui-personalization-user.md)
+### [Personalizzare l'area di lavoro](ui-personalization-user.md)
 ### [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md)
+### [Salvare e personalizzare visualizzazioni elenco](ui-views.md)
+### [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)
 ### [Visualizzazione delle liste con modalità diverse](across-display-lists-different-views.md)
-## Stampa di report ed esecuzione di processi batch
-### [Utilizzo di report e processi batch](ui-work-report.md)
+## Stampa di report ed esecuzione di processi batch e XMLport
+### [Utilizzo di report, processi batch e XMLport](ui-work-report.md)
 ### [Specificare la selezione della stampante per i report](ui-specify-printer-selection-reports.md)
-### [Programmare l'esecuzione di un report o di un processo batch](ui-work-report.md#ScheduleReport)
-### [Gestione impostazioni salvate nei report](reports-saving-reusing-settings.md)
+### [Programmare l'esecuzione di un report](ui-work-report.md#ScheduleReport)
+### [Gestire impostazioni salvate per report e processi batch](reports-saving-reusing-settings.md)
 ### [Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md)
-### [Eseguire i processi batch](ui-how-run-batch-jobs.md)
-## Modifica dell'aspetto dei documenti
+### [Eseguire processi batch e XMLport](ui-how-run-batch-jobs.md)
+## Modifica dell'aspetto di documenti e report esterni
 ### [Gestione dei layout di report e documento](ui-manage-report-layouts.md)
 ### [Aggiornamento dei layout di report o documento](ui-update-report-layouts.md)
 ### [Modifica di un layout di report Word](ui-how-create-custom-report-layout.md)
 ### [Importare ed esportare un layout di report o documento](ui-how-import-and-export-report-layout.md)
-### [Modificare il layout attualmente utilizzato in un report](ui-how-change-layout-currently-used-report.md)
+### [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)
 ### [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md)
 ## Utilizzo dei tasti di scelta rapida
 ### [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Archiviare documenti](across-how-to-archive-documents.md)
 ## [Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md)
 ## [Definisci task dell'utente](across-user-tasks.md)
-## [Aggiunta di collegamenti a siti Web, documenti o programmi nei record](ui-how-add-link-to-record.md)
-## [Allegare file a schede e documenti](across-attach-document-master-data.md)
 ## [Esportazione dei dati aziendali in Excel](about-export-data.md)
 ## [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)
+## [Registrare più documenti contemporaneamente](ui-batch-posting.md)
 ## [Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)
 ## [Modificare i documenti registrati](across-edit-posted-document.md)
 ## [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Setup
 ## [Sintesi](admin-setup-and-administration.md)
-## [Informazioni su utenti, ruoli e profili](admin-users-profiles-roles.md)
-## [Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)
+## [Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
+## [Gestire profili](admin-users-profiles-roles.md)
 ## [Classificazione di dati riservati](admin-classifying-data-sensitivity.md)
 ## [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)
 ## [Creazione di nuove società](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Estendere la versione di valutazione](admin-extend-trial.md)
 ## [Controllo di pagine](across-inspect-page.md)
 ## [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md)
-## Integrazione con Dynamics 365 for Sales
-### [Sintesi](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Impostazione di account utente per l'integrazione con Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Impostare una connessione di Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sincronizzazione di Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
-### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
 ## Personalizzazione di Business Central
 ### [Sintesi](ui-customizing-overview.md)
+### [Personalizzare pagine per profili](ui-personalization-manage.md)
+### [Modifica delle funzionalità visualizzate](ui-experiences.md)
+### [Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)
 ### Personalizzazione utilizzando le estensioni
 #### [Sintesi](ui-extensions.md)
 #### [Personalizzazione utilizzando le estensioni](ui-extensions.md)
@@ -354,9 +351,15 @@
 #### [Regno Unito - Codici postali di GetAddress.io per il Regno Unito](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 #### [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
-### [Modifica delle funzionalità visualizzate](ui-experiences.md)
-### [Gestione della personalizzazione come amministratore](ui-personalization-manage.md)
-### [Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)
+## Integrazione con Dynamics 365 Sales
+### [Sintesi](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Impostare una connessione a Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
+### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
 
 # Contabilità
 ## [Sintesi](finance.md)
@@ -470,7 +473,7 @@
 ## [Utilizzo delle dimensioni](finance-dimensions.md)
 ## [Creare budget C/G](finance-how-create-budgets.md)
 ## [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
-## [Stornare le registrazioni](finance-how-reverse-journal-posting.md)
+## [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)
 ## [Allocazione di costi e ricavi](year-allocate-costs-income.md)
 ## [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)
 ## [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
@@ -592,8 +595,7 @@
 ### [Impostare cicli e fasi di vendita dalle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Creare opportunità](marketing-how-create-opportunities.md)
 ### [Tracciare gli scambi di messaggi e-mail](marketing-set-up-email-logging.md)
-
-### [Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md)
+### [Elaborare le opportunità di vendita](marketing-processing-sales-opportunities.md)
 ### [Imposta log delle e-mail](marketing-set-up-email-logging.md)
 ## [Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)
 ## [Utilizzo di Dynamics 365 for Sales da Business Central](marketing-integrate-dynamicscrm.md)
@@ -839,7 +841,6 @@
 #### [Stampare report di test per i solleciti di consegna](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Generale
 #### [Stampare le informazioni di setup della contabilità generale](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Stampare ordini di vendita e acquisto durante la registrazione batch](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgio
 ### [Sintesi](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Tassi di cambio valuta](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [Elenco vendite UE in Germania](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Includere numeri di iscrizione al registro imprese nei report vendite e acquisti](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Stampare ordini di vendita e acquisto durante la registrazione batch](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Stampare le informazioni di setup della contabilità generale](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certificazione di Business Central per il mercato tedesco (documento in tedesco)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Impostazione di informazioni sulla società](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Conto lavoro italiano](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Impostazione di definizioni e batch di registrazioni](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Messico
 ### [Sintesi](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Norvegia
 ### [Sintesi](LocalFunctionality/Norway/norway-local-functionality.md)
 ### IVA
+#### [File di controllo standard per la Norvegia - Gestione delle imposte (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Reporting IVA norvegese](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Codici IVA norvegesi](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Come utilizzare un codice IVA nelle registrazioni](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Generale    
 #### [Importare codici postali svizzeri](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Documenti di acquisto e ordini di vendita per la Svizzera](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Stampare ordini di vendita e acquisto durante la registrazione batch](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Regno Unito
 ### [Sintesi](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

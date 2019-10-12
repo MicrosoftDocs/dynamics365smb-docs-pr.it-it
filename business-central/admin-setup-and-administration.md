@@ -1,21 +1,21 @@
 ---
 title: Task amministrativi in Business Central | Documenti di Microsoft
 description: Alcuni task in Business Central richiedono un setup e un'amministrazione centrale. In questa sezione, viene fornita una descrizione di tali task e informazioni su come utilizzarli.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/22/2019
-ms.author: edupont
-ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 70dd0d0e25bca02b87a56a3537ee885d5b802dcc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796713"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304183"
 ---
 # <a name="administration"></a>Setup
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
@@ -33,8 +33,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Informazioni su profili (ruoli) e Gestioni ruolo utente](admin-users-profiles-roles.md)|  
-|Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per autorizzazioni.|[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)|
+|Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per autorizzazioni.|[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)|
+|Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Gestire profili](admin-users-profiles-roles.md)|
 |Classificare i dati riservati per campi in modo da rispondere alle richieste da oggetti dati correlate ai relativi dati personali.|[Classificazione di dati riservati](admin-classifying-data-sensitivity.md)|
 |Rispondere a richieste da oggetti dati riguardanti i relativi dati personali.|[Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)|
 |Impostare una nuova business unit utilizzando modelli|[Creazione di nuove società](about-new-company.md)|
@@ -44,7 +44,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Esporre le pagine, le codeunit e le query come servizi Web.|[Pubblicazione di un servizio Web](across-how-publish-web-service.md)|
 |Come parte della creazione di app Connect tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e soluzioni di terze parti tramite REST API, definire modelli che vengono utilizzati per popolare proprietà vuote in un'entità quando si crea un'azione POST attraverso un'API.|[Configurazione di modelli di API](admin-configuring-api-template.md)|
 |Crittografare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] Server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nel server.|[Gestione crittografia dati](admin-manage-data-encryption.md)|
-|Connettere Dynamics 365 for Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Connettere Dynamics 365 Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Vedi anche

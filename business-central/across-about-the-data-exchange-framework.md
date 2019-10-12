@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e8dc6080f51c1598bb2a003e6b3899c017d2134e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245944"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300715"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Informazioni sul framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365fin_mdmd"></a>Informazioni sul framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Il formato di file per lo scambio di dati in file bancari, documenti elettronici, tassi di cambio e altro mediante i sistemi ERP varia in base al provider del file o del flusso di dati e al paese. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta vari formati di file bancari e standard di servizi per i dati. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).    
 
  Nei seguenti diagrammi viene mostrata l'architettura del framework di scambio dati.  

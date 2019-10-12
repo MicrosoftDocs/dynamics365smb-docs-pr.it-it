@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796851"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301566"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -39,7 +39,7 @@ Se questo campo non è selezionato, nei campi **Prezzo unitario** e **Importo ri
 
 È possibile impostare l'opzione **Prezzi IVA inclusa** come impostazione di default per tutti i documenti di vendita per un cliente nel campo **Prezzi IVA inclusa** della scheda **Cliente**. È inoltre possibile impostare i prezzi degli articoli affinché l'IVA sia inclusa o esclusa. In genere, i prezzi degli articoli nella scheda articolo sono IVA esclusa. Le informazioni del campo **Prezzo IVA inclusa** nella scheda **Articolo** vengono utilizzate per determinare il prezzo unitario per i documenti di vendita.  
 
-Nella tabella seguente viene fornita una panoramica del metodo utilizzato dal programma per calcolare i prezzi unitari per i documenti di vendita quando non sono stati impostati prezzi nella pagina **Prezzi vendita**:  
+Nella tabella seguente viene fornita una panoramica del metodo utilizzato dall'applicazione per calcolare i prezzi unitari per i documenti di vendita quando non sono stati impostati prezzi nella pagina **Prezzi vendita**:  
 
 |**Campo Prezzo IVA inclusa nella scheda articolo**|**Campo Prezzi IVA inclusa nella testata di vendita**|**Azione eseguita**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -58,7 +58,7 @@ Se è stato calcolato uno sconto sul pagamento sulla base dell'importo di una fa
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Per impostare il sistema per il movimento IVA manuale nei documenti di vendita
 Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei documenti di vendita. I passaggi sono simili nella pagina **Setup contabilità fornitori**.
 
-1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dal programma e quello immesso manualmente.  
+1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dall'applicazione e quello immesso manualmente.  
 2. Nella pagina **Setup contabilità clienti e vendite** inserire un segno di spunta nel campo **Permetti differenze IVA**.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Per rettificare l'IVA per un documento di vendita  
@@ -76,7 +76,7 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
 È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione COGE.  
 
-1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dal programma e quello immesso manualmente.  
+1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dall'applicazione e quello immesso manualmente.  
 2. Nella pagina **Def. registrazioni COGE** selezionare la casella di controllo **Permetti differenze IVA** per le registrazioni pertinenti.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE

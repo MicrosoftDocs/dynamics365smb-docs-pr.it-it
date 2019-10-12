@@ -4,20 +4,21 @@ description: Quando si imposta la contabilità industriale, è necessario assicu
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: 7ae54e8a1a011b8e4f1914ef9f15c179794d2675
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239017"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302526"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldi tra tipo di costo, centro di costo e oggetto di costo
 Quando si imposta la contabilità industriale, è necessario assicurarsi che tutti i movimenti vengano assegnati a un tipo di costo, nonché a un centro di costo o a un oggetto di costo. Pertanto, a ogni movimento di costo deve essere assegnato un tipo di costo e un codice del centro di costo o un oggetto di costo. Questa regola garantisce la visualizzazione di ciascun movimento di costo nei centri di costo o negli oggetti di costo, ma mai in entrambe le aree.  

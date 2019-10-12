@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76523523253a0bce8640aadab022e4880133c949
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3bc3699e7ec5d356ed1bd1b85ad574f2e50d831b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239109"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303222"
 ---
 # <a name="design-details-planning-assignment-table"></a>Dettagli di progettazione: Tabella Assegnazione pianificazione
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
 
 Se l'utente ha immesso un nuovo ordine di vendita o ne ha cambiato uno esistente, esiste motivo per ricalcolare il piano. Altri motivi includono una modifica nella previsione o la scorta di sicurezza desiderata. Modificare una distinta base aggiungendo o rimuovendo un componente che molto probabilmente indicherebbe una modifica, ma solo per l'articolo del componente.  
 
-Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se, ad esempio, un ordine di vendita è stato creato solo in un'ubicazione, il programma assegnerà l'articolo a tale specifica ubicazione per la pianificazione.  
+Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se, ad esempio, un ordine di vendita è stato creato solo in un'ubicazione, l'applicazione assegnerà l'articolo a tale specifica ubicazione per la pianificazione.  
 
 Il motivo per selezionare gli articoli per la pianificazione è una questione di prestazioni del sistema. Se non viene apportata alcuna modifica nel modello domanda-approvvigionamento di un articolo, il sistema di pianificazione non suggerirà alcuna azione da intraprendere. Senza l'assegnazione di pianificazione, il sistema deve eseguire i calcoli per tutti gli articoli per determinare cosa pianificare e cosa sfrutta maggiormente le risorse di sistema.  
 

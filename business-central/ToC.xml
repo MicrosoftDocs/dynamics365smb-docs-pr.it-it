@@ -13,7 +13,7 @@
   <Node Name="" DisplayName="Suggerimenti e trucchi" Page="ui-work-product.html">
     <Node Name="" DisplayName="Utilizzo di Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Utilizzo della funzionalità Cerca pagina o report" Page="ui-search.html"/>
-    <Node Name="" DisplayName="Modifica delle impostazioni di base" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Modificare le impostazioni di base" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="Procedura: Modificare la Gestione ruolo utente" Page="change-role.html"/>
     <Node Name="" DisplayName="Personalizzazione di Business Central" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Suggerimento automatico dei valori in Business Central" Page="ui-let-system-suggest-values.html"/>
@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Utilizzo delle dimensioni" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Procedura: Creare budget" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Procedura: Registrare le transazioni direttamente nella contabilità generale" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Procedura: Stornare le registrazioni" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Procedura: Stornare le registrazioni e annullare carichi/spedizioni errati" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Procedura: Allocazione di costi e ricavi" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procedura: Registrare e rimborsare le spese dei dipendenti" Page="finance-how-record-reimburse-employee-expenses.html"/>

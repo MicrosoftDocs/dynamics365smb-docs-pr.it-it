@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858268"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300571"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -40,15 +40,17 @@ Nella home page della community, è anche possibile trovare collegamenti ai nost
 Infine, è possibile contattare il proprio partner rivenditore di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere la sezione [Come ottenere supporto tecnico](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Perché non si riesce a trovare una funzionalità in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Nel piano di rilascio o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] alla versione più recente. Se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la relativa disponibilità in AppSource.  
+Nel piano di rilascio o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[d365fin](includes/d365fin_md.md)] alla versione più recente. È possibile determinare su quale versione è basato [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina [Guida e supporto](product-help-and-support.md).  
+
+Inoltre, se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la relativa disponibilità in AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Esistono differenze tra una distribuzione locale e la versione cloud di Business Central?
 Sì. Alcune funzionalità basate su cloud possono essere eseguite in locale in determinati casi e altre non sono supportate affatto. Per ulteriori informazioni, vedere [Funzionalità non implementate nelle distribuzioni locali di Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>È possibile ottenere formazione per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Sì, è possibile. Tuttavia attualmente, è necessario rivolgersi al partner rivenditore. Per cercare un partner Business Central, andare alla pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Sì, è possibile. Contenuto di eLearning gratuito è disponibile sul [sito di Microsoft Learn](/learn/browse/?products=dynamics-business-central). È anche possibile richiedere della formazione aggiuntiva al proprio partner rivenditore. Per cercare un partner Business Central, andare alla pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-Se si ha accesso a Microsoft CustomerSource, è possibile ottenere accesso al sito Imagine Academy con materiale eLearning. Per ulteriori informazioni su come ottenere accesso, vedere la pagina [Formazione per Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Per ulteriori informazioni sulla formazione fornita da Microsoft, consultare la pagina [Formazione di Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Come ottenere supporto tecnico per [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -74,7 +76,7 @@ Se si desidera distribuire [!INCLUDE[d365fin](includes/d365fin_md.md)] in locale
 ## <a name="do-i-have-to-buy-office-365"></a>Devo acquistare Office 365?
 Nr. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una valutazione gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
 
-Se l'account utilizzato per la registrazione non è un account aziendale Office 365 (come *joe@mysolution.com*) e si dispone di una sottoscrizione Office 365, è possibile associare il proprio dominio (*mysolution.com*) alla sottoscrizione Office 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Se l'account utilizzato per la registrazione non è un account aziendale Office 365 (come joe@mysolution.com) e si dispone di una sottoscrizione Office 365, è possibile associare il proprio dominio (*mysolution.com*) alla sottoscrizione Office 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Se non si dispone di una sottoscrizione Office 365 e non si intende acquistarne una, alla registrazione forniamo un nuovo tenant Azure Active Directory di modo che sia possibile accedere al portale di Azure e quindi agli strumenti di amministrazione avanzati in esso contenuti.  
 
@@ -87,8 +89,8 @@ Sì. Quando la scadenza del periodo di valutazione è imminente, viene visualizz
 > [!NOTE]
 > Il processo di estensione del periodo di valutazione può richiedere fino a 2 giorni lavorativi.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa finestra Gestione ruolo utente in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-È opportuno verificare se l'amministratore ha modificato la Gestione ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone che determina l'impostazione delle autorizzazioni e della pagina Gestione ruolo utente predefinita. È possibile modificare manualmente la Gestione ruolo utente nelle impostazioni, ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la home page precedente perché le autorizzazioni non sono state modificate.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa schermata Home in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+È opportuno verificare se l'amministratore ha modificato il ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] dipende dal tipo di piano (licenza) di cui si dispone, il quale determina l'impostazione delle autorizzazioni, il ruolo assegnato e la schermata Home predefinita. È possibile modificare il ruolo corrente manualmente in Impostazioni personali ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la schermata Home precedente in quanto le autorizzazioni non sono state modificate.  
 
 ## <a name="can-i-cancel-my-subscription"></a>È possibile annullare la sottoscrizione?
 Sì, ma a seconda di come ci si è iscritti a [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati possono essere eliminati o conservati. Per ulteriori informazioni, vedere [Annullamento di [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
@@ -101,9 +103,9 @@ Sì. In tal caso, potrebbe essere necessario una password app per inviare e-mail
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] senza Outlook](admin-no-outlook.md)  
-[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ottenere risposte alle domande](product-get-started.md#getting-answers-to-questions)  
-[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)  
+[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

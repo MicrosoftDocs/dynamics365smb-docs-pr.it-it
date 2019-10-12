@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95a4153c56693d8bdd28980f1acff14b917a9488
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237856"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300069"
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Aggiungere clienti al dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="add-clients-to-your-dashboard-in-include-d365acc_longincludesd365acc_long_mdmd"></a>Aggiungere clienti al dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 È possibile aggiungere un client utilizzando la pagina **Client**, che è possibile aprire scegliendo l'azione **Gestione client** nella barra multifunzione. Scegliere **Nuovo** e compilare i campi.  
@@ -32,7 +32,7 @@ I dati della scheda per ciascun client sono specificati dall'utente e possono es
 
 L'URL del client viene quindi utilizzato quando si sceglie la voce di menu **Vai a società** nel dashboard di [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
-### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Ottenere l'invito per [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] in un client
+### <a name="get-invited-to-a-clients-include-d365fin_longincludesd365fin_long_mdmd"></a>Ottenere l'invito per [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] in un client
 Una società che utilizza [!INCLUDE [d365fin](includes/d365fin_md.md)] può invitare un utente a [!INCLUDE [d365fin](includes/d365fin_md.md)] come contabile esterno. Per ottenere l'invito, è necessario indirizzo e-mail utilizzato con [!INCLUDE [d365acc](includes/d365acc_md.md)], ad esempio <em>me@accountant.com</em>. L'amministratore del client può quindi aggiungere l'utente al sistema tramite la procedura guidata **Invita contabile esterno**.  
 
 Si riceverà di conseguenza un messaggio di posta elettronica dal cliente contenente collegamenti a [!INCLUDE [d365fin](includes/d365fin_md.md)] Il primo collegamento è un invito all'accesso alla società. Apri il collegamento e accetta i passaggi per l'aggiunta a [!INCLUDE [d365fin](includes/d365fin_md.md)] del cliente. Il secondo collegamento è per l'aggiunta del cliente al dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] come descritto sopra.  

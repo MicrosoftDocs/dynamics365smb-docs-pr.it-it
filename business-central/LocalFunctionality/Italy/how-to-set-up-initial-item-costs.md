@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cfb0e77dd2009e238b3227f7aaca228e2d14ea04
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 66c7eba430f5c3633fba47472b579ca428c21a95
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241807"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301296"
 ---
 # <a name="set-up-initial-item-costs"></a>Impostare i costi iniziali per gli articoli
 Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nell'organizzazione.  

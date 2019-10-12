@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238878"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305766"
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
 [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di gestire in modo efficace il conto pagamenti fornitori.  
@@ -47,7 +47,7 @@ Se si aspetta di registrare i pagamenti fino a dopo che la banca ha confermato l
 
 * Nelle registrazioni pagamenti con le righe di pagamento suggerite, è possibile ordinare la colonna **Esportato su file pagamento** o **Importo totale esportato** e poi eliminare i suggerimenti di pagamento per le fatture aperte per le quali i pagamenti sono già stati effettuati e per le quali non si desidera creare pagamenti.
 
-    **Nota:** potrebbe essere necessario aggiungere queste colonne alla lista. Per ulteriori informazioni, vedere [Personalizzazione dell'area di lavoro](ui-personalization-user.md).  
+    **Nota:** potrebbe essere necessario aggiungere queste colonne alla lista. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  
 * In alternativa, nel processo batch di **Sugg. pagamenti fornitore**, in cui vengono specificati i pagamenti da inserire nelle registrazioni pagamenti, è possibile indicare di non inserire le righe delle registrazioni pagamenti che sono già state esportate, scegliendo la casella di controllo **Ignora pagamenti esportati**.
 
 ## <a name="see-also"></a>Vedi anche

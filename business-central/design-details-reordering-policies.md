@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.openlocfilehash: 1212c6f2f7e9da03a15c7fb39496d85869ef3e73
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a48e2998195bccb4ac877e8339612f6cfabb0f3b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238649"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303054"
 ---
 # <a name="design-details-reordering-policies"></a>Dettagli di progettazione: Metodi di riordino
 I metodi di riordino consentono di definire la quantità da ordinare quando l'articolo deve essere rifornito. Esistono quattro metodi diversi di riordine.  
@@ -71,7 +71,7 @@ Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sp
 ## <a name="order"></a>Ordinamento
 In un ambiente di produzione su ordine, un articolo viene acquistato o prodotto esclusivamente per coprire una domanda specifica. In genere si riferisce ad articoli A e le motivazioni per scegliere il metodo di riordino Ordine può essere quello di una domanda poco frequente, un lead time insignificante o la variazione degli attributi necessari.  
 
-Il programma crea un collegamento ordine su ordine, che funge da connessione preliminare tra l'approvvigionamento, un ordine di approvvigionamento o il magazzino e la domanda che deve soddisfare.  
+L'applicazione crea un collegamento ordine su ordine, che funge da connessione preliminare tra l'approvvigionamento, un ordine di approvvigionamento o il magazzino e la domanda che deve soddisfare.  
 
 Oltre all'utilizzo del metodo Ordine, il collegamento ordine-a-ordine può essere applicato durante la pianificazione nei seguenti modi:  
 

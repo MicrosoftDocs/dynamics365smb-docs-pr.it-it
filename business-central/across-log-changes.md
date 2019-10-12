@@ -1,6 +1,6 @@
 ---
-title: Tenere traccia dell'attività dell'utente in un log modifiche| Documenti Microsoft
-description: È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate.
+title: Revisione delle modifiche | Microsoft Docs
+description: È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate. È anche possibile tenere traccia delle attività con determinati tipi di registri attività.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240443"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304933"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 
@@ -38,9 +38,15 @@ Nella pagina **Setup log modifiche** se si sceglie l'azione **Tabelle** è possi
 
 Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dati, è possibile visualizzare e filtrare le modifiche nella pagina **Movimenti log modifiche**. Se si desidera rimuovere i movimenti, è possibile farlo nella pagina **Elimina mov. log modifiche**, in cui è possibile impostare filtri in base alle date e all'ora.  
 
-## <a name="see-also"></a>Vedi anche
-[Modifica delle impostazioni di base](ui-change-basic-settings.md)  
+## <a name="working-with-activity-logs"></a>Utilizzare log di attività
+
+Da alcune pagine in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la finestra dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di 7 giorni.  
+
+## <a name="see-also"></a>Vedere anche
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Ordinamento](ui-sorting.md)  
-[Utilizzo delle funzionalità di informazioni per trovare funzionalità e informazioni](ui-search.md)  
-[Gestione di utenti e autorizzazioni](ui-how-users-permissions.md)    
+[Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
+[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

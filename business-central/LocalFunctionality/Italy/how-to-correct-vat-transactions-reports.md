@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0b269bd6a4aae48c70342ecbe4690059116e485
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: feea7c992e87690bbe70ea860021ab33415811c2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241757"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300169"
 ---
 # <a name="correct-vat-transactions-reports"></a>Correggere i report di transazioni IVA
 

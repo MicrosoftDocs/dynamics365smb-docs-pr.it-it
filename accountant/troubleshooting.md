@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237982"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300403"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Risoluzione dei problemi [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Risoluzione dei problemi [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 L'iscrizione a [!INCLUDE [d365acc](includes/d365acc_md.md)] è facile e può essere effettuata molto rapidamente. Anche aggiungere i clienti al dashboard è facile, ma in questo articolo vengono tratti i problemi che potrebbero verificarsi.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Quale indirizzo e-mail posso utilizzare con [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] richiede l'utilizzo di un indirizzo e-mail di lavoro o della scuola. [!INCLUDE [d365acc](includes/d365acc_md.md)] non supporta gli indirizzi e-mail forniti dai servizi di posta elettronica di tipo consumer o dai provider di telecomunicazione. Questo include indirizzi di outlook.com, hotmail.com, gmail.com e altri simili.  
 
 Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si riceve un messaggio che richiede di utilizzare un indirizzo e-mail un lavoro o di scuola.  

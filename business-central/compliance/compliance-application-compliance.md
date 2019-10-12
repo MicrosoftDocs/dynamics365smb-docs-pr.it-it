@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246889"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303875"
 ---
 # <a name="application-compliance"></a>Conformità dell'applicazione
 Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)], come i principi IFRS, la funzionalità locale, GDPR e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.
@@ -46,15 +46,18 @@ Business Central fornisce informazioni finanziarie e operative integrate e in te
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Controllare processi, report e informazioni critiche
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Gestire la conformità agli standard pertinenti
+
 Per soddisfare le aspettative di gestione finanziaria e gli standard pertinenti a una specifica attività commerciale, è necessario fornire informazioni integrate, processi allineati e strumenti di facile utilizzo.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Adattare le situazioni contabili alle proprie esigenze
+
 - Definire la struttura del piano dei conti della propria società in base a requisiti aziendali e standard normativi applicabili.
 - Creare conti e gestire processi complessi relativi a una gamma di attività aziendali, tra cui valutazione del magazzino, valute estere, reporting di settore e deviazioni rispetto ai GAAP locali.
 - Controllare il livello dei dettagli per ogni transazione registrata e selezionare la registrazione dettagliata per specifici tipi di transazioni, ad esempio cespiti e contabilità fornitori.
-- Adattare la visualizzazione e i calcoli delle situazioni per i rendiconti finanziari o esportare le informazioni in Microsoft® Office Excel® per un'ulteriore analisi.
+- Adattare la visualizzazione e i calcoli delle situazioni per i rendiconti finanziari o esportare le informazioni in Microsoft Excel per un'ulteriore analisi.
 
 ### <a name="improve-information-validity"></a>Migliorare la validità delle informazioni
+
 - Configurare i campi di dati per accettare soltanto informazioni nel formato appropriato, come il numero corretto di decimali o modelli alfanumerici.
 - Garantire la completezza delle informazioni con controlli dell'applicazione, ad esempio richiedere l'immissione di un numero di fattura fornitore prima di registrare un ordine di acquisto.
 - Ridurre il rischio di informazioni inesatte o di alterazione delle stesse e agevolare la protezione delle informazioni sensibili con l'accesso in base al ruolo.
@@ -69,9 +72,10 @@ Per soddisfare le aspettative di gestione finanziaria e gli standard pertinenti 
 - Accelerare la trasmissione di dati finanziari a clienti, azionisti, enti normativi e al pubblico con documenti XBRL basati su XML che supportano lo scambio di informazioni finanziarie tra differenti programmi software e tecnologie tra cui Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Garantire audit trail chiari
+
 - Tracciare in avanti e all'indietro nel sistema documenti e informazioni, dall'origine ai rendiconti finanziari finali e viceversa.
 - Identificare come, quando e da chi le informazioni sono state immesse o modificate e in quale conto sono stati registrati i movimenti finanziari.
-- Cercare modifiche al database, tra cui dati precedenti e rivisti, nel log modifiche della soluzione.
+- Cercare modifiche al database, tra cui dati precedenti e rivisti, nel [log modifiche](../across-log-changes.md) della soluzione.
 - Aumentare la trasparenza e l'usabilità degli audit trail e accelerare l'accesso alle informazioni per revisori di terze parti con funzioni di drill-down, ricerca, filtro, registrazione e navigazione.
 
 ## <a name="compliance-and-local-functionality"></a>Conformità e funzionalità locale
@@ -89,7 +93,8 @@ Microsoft sta creando versioni localizzate di Business Central per alcuni paesi.
 > **Basilea II: implicazioni per reporting e analisi**  
 > L'accordo Basilea II, stipulato dalla Banca dei Regolamenti Internazionali (BRI), garantisce protezione e sicurezza in tre aree chiave del sistema finanziario: requisiti patrimoniali minimi, controllo delle autorità di vigilanza e disciplina di mercato. Sebbene l'accordo venga applicato alle istituzioni finanziarie e non alle PMI, può comunque avere alcune implicazioni per tali organizzazioni a livello di reporting e analisi.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Conformità](compliance-overview.md)  
 [Conformità dell'assistenza](compliance-service-compliance.md)  
 [Certificazioni](compliance-certifications.md)  

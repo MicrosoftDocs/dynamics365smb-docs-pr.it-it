@@ -2,28 +2,28 @@
 title: Impostazione di posta elettronica in Business Central | Microsoft Docs
 description: Descrive come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno di Business Central o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985936"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304614"
 ---
 # <a name="set-up-email"></a>Imposta indirizzo e-mail
 Per inviare e ricevere e-mail da [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario compilare i campi nella pagina Setup posta SMTP.
 
 Invece di immettere manualmente i dettagli del server SMTP, è possibile utilizzare la funzione **Applica impostazioni server Office 365** per immetterli con le informazioni dall'abbonamento a Office 365.
 
-È possibile impostare il messaggio e-mail manualmente oppure ottenere informazioni della Guida utilizzando la guida al setup assistito **Setup e-mail**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
+È possibile impostare il messaggio e-mail manualmente, come descritto di seguito, oppure ottenere informazioni della Guida utilizzando la guida al setup assistito **Setup e-mail**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Per impostare la posta elettronica
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.

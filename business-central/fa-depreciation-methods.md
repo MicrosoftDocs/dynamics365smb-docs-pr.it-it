@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240978"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302886"
 ---
 # <a name="depreciation-methods"></a>Metodi ammortamento
 Esistono otto metodi di ammortamento:  
@@ -217,7 +217,7 @@ L'importo di ammortamento a quote decrescenti viene utilizzato in quanto costitu
 L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisce l'importo maggiore.  
 
 ## <a name="user-defined-depreciation"></a>Ammortamento definito dall'utente
-Il programma dispone di una funzionalità che consente di impostare metodi di ammortamento personalizzati.  
+L'applicazione dispone di una funzionalità che consente di impostare metodi di ammortamento personalizzati.  
 
 Se si utilizza un metodo personalizzato, occorre inserire nella pagina **Tabelle Ammortamento** una percentuale di ammortamento per ogni periodo (mese, trimestre, anno o periodo contabile).  
 

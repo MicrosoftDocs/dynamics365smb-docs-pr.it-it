@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a87250d836739eb3b01cc88a1b2bf3116396ccd0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242171"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303174"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Dettagli di progettazione: Carico dei profili di magazzino
 Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema di pianificazione le organizza su due sequenze temporali chiamate profili di magazzino.  
@@ -42,10 +42,10 @@ Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema 
 ## <a name="item-dimensions-are-separated"></a>Le dimensioni articolo sono separate  
  Il piano di approvvigionamento deve essere calcolato in base alla combinazione delle dimensioni dell'articolo, ad esempio la variante e l'ubicazione. Tuttavia, non esiste motivo per calcolare una combinazione teorica. Solo le combinazioni che includono la necessità di approvvigionamento e/o di domanda devono essere calcolate.  
 
- Ciò è controllato dal sistema di pianificazione attraverso l'esecuzione del profilo di magazzino. Quando viene trovata una nuova combinazione, viene creato un record di controllo interno che contiene le informazioni effettive sulla combinazione. Il programma inserisce la USK come record di controllo o ciclo esterno. Di conseguenza, vengono impostati i parametri di pianificazione appropriati in base a una combinazione di variante e ubicazione e il programma può procedere al ciclo interno.  
+ Ciò è controllato dal sistema di pianificazione attraverso l'esecuzione del profilo di magazzino. Quando viene trovata una nuova combinazione, viene creato un record di controllo interno che contiene le informazioni effettive sulla combinazione. L'applicazione inserisce la USK come record di controllo o ciclo esterno. Di conseguenza, vengono impostati i parametri di pianificazione appropriati in base a una combinazione di variante e ubicazione e l'applicazione può procedere al ciclo interno.  
 
 > [!NOTE]  
->  Il programma non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, il programma crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella pagina Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
+>  L'applicazione non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, l'applicazione crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella pagina Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>I numeri seriali o di lotto vengono caricati dal livello di specifica  
  Gli attributi in forma di numeri di serie o di lotto vengono caricati nei profili del magazzino insieme alla domanda e all'approvvigionamento a cui sono assegnati.  

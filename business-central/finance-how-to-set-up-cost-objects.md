@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: 725ad9ed12dd32dc1cc3257c266efa274ea964a0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae2ca5b4c6f63a004d42c2ae1ef9f0efa95dd02c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239636"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306030"
 ---
 # <a name="set-up-cost-objects"></a>Impostare gli oggetti di costo
 Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il grafico degli oggetti di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale. È possibile impostare il grafico degli oggetti di costo nelle modalità seguenti:  

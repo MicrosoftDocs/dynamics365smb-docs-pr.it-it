@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446970"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301542"
 ---
 # <a name="finance"></a>Contabilità
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzo delle dimensioni](finance-dimensions.md) |
 | Creare i budget C/G per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Creare budget C/G](finance-how-create-budgets.md) |
 |Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
-|Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Stornare le registrazioni](finance-how-reverse-journal-posting.md)|
+|Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)|
 |Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. |[Allocazione di costi e ricavi](year-allocate-costs-income.md) |
 | Assegnare costi aggiuntivi, quali il trasporto e la gestione fisica sopportata durante il commercio, agli articoli interessati in modo da riflettere i costi nella valutazione di magazzino. |[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
 |Registrare le spese personali dei dipendenti per le attività aziendali e rimborsare i dipendenti effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|

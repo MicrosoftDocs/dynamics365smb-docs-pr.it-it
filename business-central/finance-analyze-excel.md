@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239032"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302554"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analisi dei rendiconti finanziari in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile vedere i KPI e ottenere le sintesi dello stato finanziario della società. È inoltre possibile aprire elenchi in Excel e analizzarvi i dati. È inoltre possibile esportare rendiconti finanziari complessi, ad esempio il conto patrimoniale o il conto economico in Excel, analizzare i dati e stampare i report.  
@@ -36,7 +36,7 @@ Si supponga di voler analizzare meglio il flusso di cassa. Nella Gestione ruolo 
 
 In Excel è disponibile una scheda in cui i dati sono disposti automaticamente nel primo foglio di lavoro. Tutti i dati che sono stati esportati sono inoltre presenti in altri fogli di lavoro in caso di necessità. È possibile stampare il report immediatamente o modificarlo fino a ottenere la sintesi e i dettagli desiderati. Utilizzare il componente aggiuntivo per Excel [!INCLUDE[d365fin](includes/d365fin_md.md)] per filtrare e analizzare ulteriormente i dati.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>Componente aggiuntivo per Excel [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>Componente aggiuntivo per Excel [!INCLUDE[d365fin](includes/d365fin_md.md)]
 L'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] include un componente aggiuntivo per Excel. A seconda della sottoscrizione, si viene connessi automaticamente oppure è necessario specificare gli stessi dettagli di accesso che si utilizzano per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Tramite il componente aggiuntivo è possibile ottenere dati aggiornati da [!INCLUDE[d365fin](includes/d365fin_md.md)], e importare nuovamente le modifiche in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tuttavia, la funzionalità che consente di importare nuovamente i dati nel database è disattivata per i report finanziari di Excel nell'elenco precedente.  

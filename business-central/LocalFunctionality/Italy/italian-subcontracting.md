@@ -4,20 +4,20 @@ description: Le società con contratti di produzione spesso affidano la produzio
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57750030029a49536b52b71b6c6747e699d3ee59
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2b1ac078f02aa81795dd820b7084ce6e62ace11
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241654"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301287"
 ---
 # <a name="italian-subcontracting"></a>Conto lavoro italiano
 Le società con contratti di produzione spesso affidano la produzione di componenti a terzisti. Per sapere quanti componenti trasferire al terzista, esiste un collegamento tra le operazioni del terzista e la distinta base. Questo agevola la pianificazione della produzione principale (MPS) e la pianificazione del fabbisogno di materiali (MRP) e consente agli appaltatori di gestire i componenti affidati in outsourcing e in conto lavoro.  

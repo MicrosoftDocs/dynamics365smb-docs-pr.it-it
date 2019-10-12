@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c68b6cb0668e5d5cb20071ecf4c1cc0cc3fff961
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: italy-local-functionality
+ms.openlocfilehash: 0cb0e651770c5fbd157625d92ee7103f3e8a8aa3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241808"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301298"
 ---
 # <a name="report-trade-with-customers-and-vendors-in-blacklist-countries-regions"></a>Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist
 È necessario inviare un report periodico delle transazioni con clienti e fornitori in paesi che il governo italiano ha incluso in una blacklist. Il report comunicazioni blacklist deve essere inviato all'agenzia delle entrate italiana per impedire frodi relative all'IVA. Le transazioni che sono incluse nel report comunicazioni blacklist sono:  

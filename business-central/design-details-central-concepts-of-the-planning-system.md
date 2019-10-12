@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247495"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303750"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
@@ -26,7 +26,7 @@ Le funzioni di pianificazione sono contenute in un processo batch che seleziona 
 
 Si presume che il responsabile della pianificazione della società, ad esempio un addetto acquisti o un responsabile della pianificazione di produzione, sia l'utente del sistema di pianificazione. Il sistema di pianificazione aiuta l'utente eseguendo calcoli complessi ma chiari di un piano. L'utente può quindi concentrarsi sulla soluzione i problemi di più difficili, ad esempio quando si verificano delle situazioni insolite.  
 
-Il sistema di pianificazione si basa sulla domanda prevista ed effettiva da parte dei clienti, ad esempio la previsione e gli ordini di vendita. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dal programma per l'utente da adottare relativamente al possibile approvvigionamento da fornitori, o reparti di assemblaggio o produzione o trasferimenti da altri magazzini. Queste azioni suggerite possono servire a creare nuovi ordini di approvvigionamento, ad esempio gli ordini di acquisto o di produzione. Se sono già presenti ordini di approvvigionamento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
+Il sistema di pianificazione si basa sulla domanda prevista ed effettiva da parte dei clienti, ad esempio la previsione e gli ordini di vendita. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione per l'utente da adottare relativamente al possibile approvvigionamento da fornitori, o reparti di assemblaggio o produzione o trasferimenti da altri magazzini. Queste azioni suggerite possono servire a creare nuovi ordini di approvvigionamento, ad esempio gli ordini di acquisto o di produzione. Se sono già presenti ordini di approvvigionamento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, il sistema di pianificazione suggerirà all'utente di rimandare, ridurre in quantità o annullare gli ordini di approvvigionamento esistenti.  
 
@@ -66,7 +66,7 @@ Nelle società con un flusso di articoli basso e strutture dei prodotti meno ava
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Tracciabilità dinamica dell'ordine rispetto al sistema di pianificazione  
 Ad una rapida occhiata, potrebbe essere difficile fare una differenza tra il sistema di pianificazione e la tracciabilità dinamica dell'ordine. Entrambe le funzionalità visualizzano l'output nel prospetto di pianificazione suggerendo azioni che il responsabile deve eseguire. Tuttavia, il modo in cui viene prodotto questo output è diverso.  
 
-Il sistema di pianificazione si occupa dell'intero modello di approvvigionamento e domanda di un articolo tramite tutti i livelli della gerarchia della DB lungo la linea temporale, mentre la tracciabilità dinamica dell'ordine si occupa solo della situazione dell'ordine che l'ha attivata. Per il bilanciamento tra approvvigionamento e domanda, il sistema di pianificazione crea dei collegamenti in una modalità batch attivata dall'utente, mentre la tracciabilità ordine dinamica crea collegamenti automaticamente e immediatamente, ogni volta che l'utente immette una domanda o un approvvigionamento nel programma, ad esempio un ordine di vendita o di acquisto.  
+Il sistema di pianificazione si occupa dell'intero modello di approvvigionamento e domanda di un articolo tramite tutti i livelli della gerarchia della DB lungo la linea temporale, mentre la tracciabilità dinamica dell'ordine si occupa solo della situazione dell'ordine che l'ha attivata. Per il bilanciamento tra approvvigionamento e domanda, il sistema di pianificazione crea dei collegamenti in una modalità batch attivata dall'utente, mentre la tracciabilità ordine dinamica crea collegamenti automaticamente e immediatamente, ogni volta che l'utente immette una domanda o un approvvigionamento nell'applicazione, ad esempio un ordine di vendita o di acquisto.  
 
 La tracciabilità dinamica dell'ordine stabilisce i collegamenti tra l'approvvigionamento e la domanda quando vengono immessi i dati, in base all'ordine. Ciò può condurre a un certo disordine nelle priorità. Ad esempio, un ordine di vendita immesso prima, con una data di scadenza il mese successivo, può essere collegato all'approvvigionamento in magazzino, mentre l'ordine di vendita successivo con scadenza domani può indurre un messaggio di azione a creare un nuovo ordine di acquisto per coprirlo, come illustrato di seguito.  
 
@@ -97,9 +97,9 @@ Per ulteriori informazioni sulle considerazioni di produzione, vedere [Dettagli 
 ### <a name="locations--transfer-level-priority"></a>Ubicazioni/priorità a livello di trasferimento  
 Per le società che lavorano in più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino potrebbero essere diversi da una posizione a un'altra. In questo caso, i parametri di pianificazione devono essere specificati per articolo e anche per ubicazione.  
 
-Ciò è supportato con l'utilizzo delle unità di stockkeeping, in cui i singoli parametri di pianificazione possono essere specificati a livello di stockkeeping. Una USK può essere valutata come un articolo in una specifica ubicazione. Se l'utente non ha definito una USK per tale ubicazione, il programma imposterà i valori predefiniti ai parametri che sono stati impostati nella scheda articolo. Il programma calcola un piano solo per le ubicazioni attive, ovvero dove esiste una domanda o un approvvigionamento per l'articolo specificato.  
+Ciò è supportato con l'utilizzo delle unità di stockkeeping, in cui i singoli parametri di pianificazione possono essere specificati a livello di stockkeeping. Una USK può essere valutata come un articolo in una specifica ubicazione. Se l'utente non ha definito una USK per tale ubicazione, l'applicazione imposterà i valori predefiniti ai parametri che sono stati impostati nella scheda articolo. L'applicazione calcola un piano solo per le ubicazioni attive, ovvero dove esiste una domanda o un approvvigionamento per l'articolo specificato.  
 
-In linea di principio, qualsiasi articolo può essere gestito in qualsiasi ubicazione, ma l'approccio del programma al concetto di ubicazione è piuttosto rigoroso. Ad esempio, un ordine di vendita in un'ubicazione non può essere soddisfatto da una specifica quantità in stock in un'altra ubicazione. La quantità in stock deve essere prima trasferita nell'ubicazione specificata nell'ordine di vendita.  
+In linea di principio, qualsiasi articolo può essere gestito in qualsiasi ubicazione, ma l'approccio dell'applicazione al concetto di ubicazione è piuttosto rigoroso. Ad esempio, un ordine di vendita in un'ubicazione non può essere soddisfatto da una specifica quantità in stock in un'altra ubicazione. La quantità in stock deve essere prima trasferita nell'ubicazione specificata nell'ordine di vendita.  
 
 ![Pianificazione per le unità di stockkeeping](media/NAV_APP_supply_planning_1_SKU_planning.png "Pianificazione per le unità di stockkeeping")  
 
@@ -124,7 +124,7 @@ Se l'utente ha immesso un nuovo ordine di vendita o ne ha cambiato uno esistente
 
 Il sistema di pianificazione monitorizza tali eventi e assegna gli articoli appropriati per la pianificazione.  
 
-Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se, ad esempio, un ordine di vendita è stato creato solo in un'ubicazione, il programma assegnerà l'articolo a tale specifica ubicazione per la pianificazione.  
+Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se, ad esempio, un ordine di vendita è stato creato solo in un'ubicazione, l'applicazione assegnerà l'articolo a tale specifica ubicazione per la pianificazione.  
 
 Il motivo per selezionare gli articoli per la pianificazione è una questione di prestazioni del sistema. Se non viene apportata alcuna modifica nel modello domanda-approvvigionamento di un articolo, il sistema di pianificazione non suggerirà alcuna azione da intraprendere. Senza l'assegnazione di pianificazione, il sistema deve eseguire i calcoli per tutti gli articoli per determinare cosa pianificare e cosa sfrutta maggiormente le risorse di sistema.  
 
@@ -252,7 +252,7 @@ L'avviso di attenzione è visualizzato in tre situazioni:
 ## <a name="error-logs"></a>Registri errore  
 Nella pagina di richiesta Calcola piano, l'utente può selezionare il campo **Interrompi e mostra primo errore** per interrompere l'esecuzione della pianificazione quando incontra il primo errore. Contemporaneamente verrà visualizzato un messaggio contenente informazioni sull'errore. Se è presente un errore, nel prospetto pianificazione verranno presentate solo le righe di pianificazione create prima dell'individuazione dell'errore.  
 
-Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nel programma verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la pagina **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
+Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nell'applicazione verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la pagina **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
 
 ![Messaggi di errore del prospetto di pianificazione](media/NAV_APP_supply_planning_1_error_log.png "Messaggi di errore del prospetto di pianificazione")  
 

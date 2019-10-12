@@ -1,8 +1,6 @@
 ---
 title: Raggruppare i valori di setup del cliente | Documenti Microsoft
-description: Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in Business Central e fornirlo al cliente come file di Excel con estensione (.xls) o file XML.
-services: project-madeira
-documentationcenter: ''
+description: Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in Business Central e fornirlo al cliente come file di Excel con estensione (.xlsx) o file XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245574"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304638"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] e fornirlo al cliente come file di Excel o file XML.  
@@ -75,7 +73,7 @@ Utilizzare il questionario di configurazione per organizzare e documentare una d
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato.  
 3. Selezionare il questionario per la società, quindi scegliere l'azione **Esporta in Excel**, facoltativamente l'azione **Esporta in XML**.
 4. Far completare il questionario di configurazione al cliente immettendo le risposte nella cartella di lavoro di Excel. Esistono prospetti per ciascuna area domande creata per il questionario.   
-5. Scegliere l'azione **Importa da Excel** e selezionare il file .xlsx con le risposte del cliente.  
+5. Salvare la cartella di lavoro di Excel come *Dati XML*. Scegliere l'azione **Importa da XML** e selezionare il file .xml con le risposte del cliente.
 6. Scegliere l'azione **Aree domande** per avviare il processo di convalida e di applicazione delle risposte al questionario di configurazione.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Per completare un questionario dal foglio di lavoro configurazione  

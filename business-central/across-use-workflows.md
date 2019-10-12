@@ -4,20 +4,20 @@ description: È possibile impostare e utilizzare i workflow che collegano task d
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/04/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e5dee76fa49d66d72c7e20cb9ff5eead63cf37aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6535523fb34504a4f964971f41d4803bdc7b2117
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244865"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304758"
 ---
 # <a name="using-workflows"></a>Utilizzo dei workflow
 È possibile impostare e utilizzare i workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  

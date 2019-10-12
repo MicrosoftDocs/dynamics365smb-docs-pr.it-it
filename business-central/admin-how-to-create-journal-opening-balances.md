@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 837845bfa31217e071d7237591d34eb3a049bad0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246727"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304542"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.
 
 Il primo passaggio consiste di creare un pacchetto di configurazione che include le tabelle di setup di queste registrazioni. La procedura seguente presuppone che questo passaggio sia completato. Per ulteriori informazioni, vedere [Impostare la configurazione della società](admin-set-up-company-configuration.md). Questa procedura descrive i passaggi successivi, tra cui il collegamento del pacchetto fornito da un partner.  
 
-Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Modifica delle impostazioni di base](ui-change-basic-settings.md).
+Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Per collegare i movimenti in una registrazione a una nuova società  
 1. Configurare una nuova società e collegarla a un pacchetto di configurazione. Per ulteriori informazioni, vedere [Configurare una società con la procedura guidata RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  

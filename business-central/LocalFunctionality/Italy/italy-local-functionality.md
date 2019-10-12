@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a0edc7e41f4c542ab64d37958f8bc13a8274ffe0
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: a3f34df8eb9482a1305503980e50940da687feaa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594199"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300158"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -63,7 +63,6 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Impostazione di informazioni sulla società](how-to-set-up-company-information.md) **Disponibile ora**
     * [Conto lavoro italiano](italian-subcontracting.md) **Disponibile ora**
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
-    * [Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

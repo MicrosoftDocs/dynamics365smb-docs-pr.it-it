@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243873"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303774"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  
@@ -28,7 +28,7 @@ Per comprendere il funzionamento del sistema di pianificazione, è necessario co
  In genere, questi obiettivi vengono raggiunti equilibrando l'approvvigionamento con la domanda.  
 
 ## <a name="demand-and-supply"></a>Domanda e approvvigionamento
- La domanda è il termine comune utilizzato per tutti i tipi di domanda lorda, ad esempio un ordine di vendita e un componente necessario da un ordine di produzione. Inoltre, il programma consente i tipi di domanda più tecnici, ad esempio resi di acquisto e delle giacenze negative.  
+ La domanda è il termine comune utilizzato per tutti i tipi di domanda lorda, ad esempio un ordine di vendita e un componente necessario da un ordine di produzione. Inoltre, l'applicazione consente i tipi di domanda più tecnici, ad esempio resi di acquisto e delle giacenze negative.  
 
   Approvvigionamento è il termine comune utilizzato per indicare qualsiasi genere di quantità in entrata o positiva, quale il magazzino, gli acquisti, l'assemblaggio, la produzione o i trasferimenti in entrata. Inoltre, anche un reso di vendita può rappresentare un approvvigionamento.  
 
@@ -84,10 +84,10 @@ Oltre a caricare i tipi di approvvigionamento e di domanda, alcuni tipi vengono 
 ### <a name="item-dimensions-are-separated"></a>Le dimensioni articolo sono separate  
 Il piano di approvvigionamento deve essere calcolato in base alla combinazione delle dimensioni dell'articolo, ad esempio la variante e l'ubicazione. Tuttavia, non esiste motivo per calcolare una combinazione teorica. Solo le combinazioni che includono la necessità di approvvigionamento e/o di domanda devono essere calcolate.  
 
-Ciò è controllato dal sistema di pianificazione attraverso l'esecuzione del profilo di magazzino. Quando viene trovata una nuova combinazione, viene creato un record di controllo interno che contiene le informazioni effettive sulla combinazione. Il programma inserisce la USK come record di controllo o ciclo esterno. Di conseguenza, vengono impostati i parametri di pianificazione appropriati in base a una combinazione di variante e ubicazione e il programma può procedere al ciclo interno.  
+Ciò è controllato dal sistema di pianificazione attraverso l'esecuzione del profilo di magazzino. Quando viene trovata una nuova combinazione, viene creato un record di controllo interno che contiene le informazioni effettive sulla combinazione. L'applicazione inserisce la USK come record di controllo o ciclo esterno. Di conseguenza, vengono impostati i parametri di pianificazione appropriati in base a una combinazione di variante e ubicazione e l'applicazione può procedere al ciclo interno.  
 
 > [!NOTE]  
->  Il programma non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, il programma crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella pagina Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
+>  L'applicazione non richiede all'utente di immettere un record di USK durante l'immissione della domanda e/o dell'approvvigionamento per una particolare combinazione di variante e ubicazione. Di conseguenza, se un USK non esiste per una combinazione specifica, l'applicazione crea un record USK temporaneo in base ai dati della scheda articolo. Se il campo Ubicazione obbligatoria è impostato su Sì nella pagina Setup magazzino, è necessario creare una USK oppure impostare Componenti nell'ubicazione su Sì. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>I numeri seriali o di lotto vengono caricati dal livello di specifica  
 Gli attributi in forma di numeri di serie o di lotto vengono caricati nei profili del magazzino insieme alla domanda e all'approvvigionamento a cui sono assegnati.  
@@ -265,7 +265,7 @@ Questo avviene per due motivi:
 
 Nel tempo, i collegamenti di tracciabilità ordini dinamici finiscono per non quadrare poiché l'intera rete di tracciabilità ordini non viene ridisposta fino a quando un evento di approvvigionamento o di domanda non viene effettivamente chiuso.  
 
-Prima di bilanciare l'approvvigionamento con la domanda, il programma elimina tutti i collegamenti di tracciabilità ordine esistenti. Quindi durante la procedura di bilanciamento, quando viene chiuso un evento di approvvigionamento o di domanda, il programma stabilisce nuovi collegamenti di tracciabilità ordine tra la domanda e l'approvvigionamento.  
+Prima di bilanciare l'approvvigionamento con la domanda, l'applicazione elimina tutti i collegamenti di tracciabilità ordine esistenti. Quindi durante la procedura di bilanciamento, quando viene chiuso un evento di approvvigionamento o di domanda, il programma stabilisce nuovi collegamenti di tracciabilità ordine tra la domanda e l'approvvigionamento.  
 
 > [!NOTE]  
 >  Anche se l'articolo non è impostato per la tracciabilità dinamica dell'ordine, il sistema pianificato creerà collegamenti di tracciabilità ordine come di seguito illustrato.

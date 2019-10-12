@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755243"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304998"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Uso di [!INCLUDE [prodlong](includes/prodlong.md)] come origine dati di Power BI per la creazione di report
 
@@ -28,10 +28,7 @@ ms.locfileid: "1755243"
 1. In Power BI Desktop, nel riquadro di spostamento sinistro, scegliere **Ottieni i dati**.
 2. Nella pagina **Ottieni i dati**, scegliere **Servizi online**, quindi **Microsoft Dynamics 365 Business Central** e infine il pulsante **Connetti**.
 3. Power BI visualizza una procedura guidata per il processo di connessione. Verrà richiesto di accedere a [!INCLUDE [prodshort](includes/prodshort.md)]. Fare clic su **Accedi** e selezionare l'account che si desidera usare per accedere. È necessario che sia lo stesso account usato per accedere a [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Fare clic sul pulsante **Connetti** per continuare. La procedura guidata di Power BI mostra un elenco di origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati, indicano tutti i servizi Web pubblicati da ogni società in [!INCLUDE [prodshort](includes/prodshort.md)].
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Fare clic sul pulsante **Connetti** per continuare. La procedura guidata di Power BI mostra un elenco di ambienti, origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati indicano tutti i servizi Web pubblicati da ogni società/tenant in Microsoft [!INCLUDE [prodshort](includes/prodshort.md)].
 5. In alternativa, creare un nuovo URL del servizio Web di [!INCLUDE [prodshort](includes/prodshort.md)] utilizzano l'azione **Crea set di dati** nella pagina **Servizi Web** tramite la Guida di setup assistito o **Imposta dati reporting** oppure l'azione **Modifica in Excel** in qualsiasi elenco.
 6. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica**.
 7. Ripetere i passaggi precedenti per aggiungere ulteriori [!INCLUDE [prodshort](includes/prodshort.md)], o altri dati, per il modello dati Power BI.

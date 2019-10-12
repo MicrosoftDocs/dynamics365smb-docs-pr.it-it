@@ -1,6 +1,6 @@
 ---
-title: Sincronizzazione di Business Central e Dynamics 365 for Sales | Microsoft Docs
-description: Ottenere informazioni sulla sincronizzazione di dati tra Business Central e Dynamics 365 for Sales.
+title: Sincronizzazione di Business Central e Dynamics 365 Sales | Microsoft Docs
+description: Ottenere informazioni sulla sincronizzazione di dati tra Business Central e Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755220"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304350"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 for Sales
+# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 Sales
 È possibile sincronizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[d365fin](includes/d365fin_md.md)] e nei record di [!INCLUDE[crm_md](includes/crm_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. Esistono vari processi di sincronizzazione predefiniti disponibili. È possibile visualizzarli nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
@@ -46,17 +46,17 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 
 |Movimento coda processi|Descrizione|Direzione|Mapping tabella integrazione|  
 |---------------------|---------------------------------------|---------------|-------------------------------|  
-|Processo di sincronizzazione CONTATTO - Dynamics 365 for Sales|Sincronizza i contatti di [!INCLUDE[crm_md](includes/crm_md.md)] con i contatti di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirezionale|CONTATTO|  
-|Processo di sincronizzazione VALUTA - Dynamics 365 for Sales|Sincronizza le valute di transazione di [!INCLUDE[crm_md](includes/crm_md.md)] con le valute di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|VALUTA|  
-|Processo di sincronizzazione CLIENTE - Dynamics 365 for Sales|Sincronizza i conti di [!INCLUDE[crm_md](includes/crm_md.md)] e i clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirezionale|CLIENTE|  
-|Processo di sincronizzazione GRPPRZCLNT-PREZZO - Dynamics 365 for Sales|Sincronizza i listini prezzi di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] con gruppi di prezzi cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPPI DI PREZZI CLIENTE-LISTINI PREZZI DI VENDITA|
-|Processo di sincronizzazione ARTICOLO - PRODOTTO - Dynamics 365 for Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con articoli di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTICOLO-PRODOTTO|
-|Processo di sincronizzazione FATTVNDTRGSTR-FATT - Dynamics 365 for Sales|Sincronizza le fatture di [!INCLUDE[crm_md](includes/crm_md.md)] con le fatture di vendita registrate di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FATTURE-FATTURE DI VENDITA REGISTRATE|
-|Processo di sincronizzazione RISORSA-PRODOTTO - Dynamics 365 for Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con le risorse di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RISORSA-PRODOTTO|  
-|Processo di sincronizzazione AGENTI - Dynamics 365 for Sales|Sincronizza gli agenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] con gli utenti di [!INCLUDE[crm_md](includes/crm_md.md)].|Da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|AGENTI|
-|Processo di sincronizzazione PRZVNDT-PRZPRODOTTI - Dynamics 365 for Sales|Sincronizza i prezzi dei prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con i prezzi di vendita di [!INCLUDE[d365fin](includes/d365fin_md.md)].||PREZZO DEL PRODOTTO - PREZZO DI VENDITA|
-|Processo di sincronizzazione UNITÀDIMISURA - Dynamics 365 for Sales|Sincronizza le unità di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] con le unità di misura di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|UNITÀ DI MISURA|  
-|Processo di sincronizzazione Statistiche cliente - Dynamics 365 for Sales|Aggiorna i conti di [!INCLUDE[crm_md](includes/crm_md.md)] con i dati cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)] più recenti. In [!INCLUDE[crm_md](includes/crm_md.md)], questa informazione viene visualizzata nel modulo di visualizzazione rapida **Statistiche conto Business Central** dei conti associati ai clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Questi dati possono anche essere aggiornati manualmente da ogni record cliente. Per ulteriori informazioni, vedere [Procedura: Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** questo movimento coda processi è pertinente solo se la soluzione di integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] è installata in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Informazioni sulla soluzione di integrazione di Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Non applicabile.|Non applicabile.|   
+|Processo di sincronizzazione CONTATTI - Dynamics 365 Sales|Sincronizza i contatti di [!INCLUDE[crm_md](includes/crm_md.md)] con i contatti di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirezionale|CONTATTO|  
+|Processo di sincronizzazione VALUTA - Dynamics 365 Sales|Sincronizza le valute di transazione di [!INCLUDE[crm_md](includes/crm_md.md)] con le valute di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|VALUTA|  
+|Processo di sincronizzazione CLIENTE - Dynamics 365 Sales|Sincronizza i conti di [!INCLUDE[crm_md](includes/crm_md.md)] e i clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Bidirezionale|CLIENTE|  
+|Processo di sincronizzazione GRPPRZCLNT-PREZZO - Dynamics 365 Sales|Sincronizza i listini prezzi di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] con gruppi di prezzi cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)].| |GRUPPI DI PREZZI CLIENTE-LISTINI PREZZI DI VENDITA|
+|Processo di sincronizzazione ARTICOLO-PRODOTTO - Dynamics 365 Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con articoli di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|ARTICOLO-PRODOTTO|
+|Processo di sincronizzazione FATTVNDTRGSTR-FATT - Dynamics 365 Sales|Sincronizza le fatture di [!INCLUDE[crm_md](includes/crm_md.md)] con le fatture di vendita registrate di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FATTURE-FATTURE DI VENDITA REGISTRATE|
+|Processo di sincronizzazione RISORSA-PRODOTTO - Dynamics 365 Sales|Sincronizza i prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con le risorse di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|RISORSA-PRODOTTO|  
+|Processo di sincronizzazione AGENTE - Dynamics 365 Sales|Sincronizza gli agenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] con gli utenti di [!INCLUDE[crm_md](includes/crm_md.md)].|Da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)]|AGENTI|
+|Processo di sincronizzazione PRZVNDT-PRZPRODOTTI - Dynamics 365 Sales|Sincronizza i prezzi dei prodotti di [!INCLUDE[crm_md](includes/crm_md.md)] con i prezzi di vendita di [!INCLUDE[d365fin](includes/d365fin_md.md)].||PREZZO DEL PRODOTTO - PREZZO DI VENDITA|
+|Processo di sincronizzazione UNITÀDIMISURA - Dynamics 365 Sales|Sincronizza le unità di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] con le unità di misura di [!INCLUDE[d365fin](includes/d365fin_md.md)].|Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|UNITÀ DI MISURA|  
+|Processo di sincronizzazione Statistiche cliente - Dynamics 365 Sales|Aggiorna i conti di [!INCLUDE[crm_md](includes/crm_md.md)] con i dati cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)] più recenti. In [!INCLUDE[crm_md](includes/crm_md.md)], questa informazione viene visualizzata nel modulo di visualizzazione rapida **Statistiche conto Business Central** dei conti associati ai clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /><br /> Questi dati possono anche essere aggiornati manualmente da ogni record cliente. Per ulteriori informazioni, vedere [Procedura: Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** questo movimento coda processi è pertinente solo se la soluzione di integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] è installata in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Informazioni sulla soluzione di integrazione di Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Non applicabile.|Non applicabile.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Per visualizzare il log processi di sincronizzazione  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Log processi di sincronizzazione** e quindi scegliere il collegamento correlato.
@@ -73,10 +73,10 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 * Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Errori di sincronizzazione integrazione** e quindi scegliere il collegamento correlato.
 
 ## <a name="see-also"></a>Vedere anche  
-[Sincronizzazione di dati in Business Central e Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
+[Sincronizzazione di dati in Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
 [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)  
-[Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 for Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
-[Informazioni sull'integrazione di Dynamics 365 Business Central con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Informazioni sull'integrazione di Dynamics 365 Business Central con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 

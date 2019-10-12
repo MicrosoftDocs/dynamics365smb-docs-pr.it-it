@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f088e1319684b9a18a2b0c8ab5305f73747f6889
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446924"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302597"
 ---
-# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
 
 ## <a name="accountant-role-center"></a>Gestione ruolo utente Contabile
@@ -26,9 +26,12 @@ La Gestione ruolo utente è un dashboard con riquadri di attività che indicano 
 Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare una serie di video direttamente dalla Gestione ruolo utente. È inoltre possibile avviare una **Introduzione** che illustra i punti chiave.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
-Se si è un contabile con vari clienti, è possibile utilizzare [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] per avere una panoramica più precisa dei client. Dal portale, è possibile accedere al tenant di ogni client in [!INCLUDE[d365fin](includes/d365fin_md.md)] e utilizzare la Gestione ruolo utente Contabile come descritto sopra. Per ulteriori informazioni, vedi [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).
+Se si è un contabile con vari clienti, è possibile utilizzare [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] per avere una panoramica più precisa dei client. Dal portale, è possibile accedere al tenant di ogni client in [!INCLUDE[d365fin](includes/d365fin_md.md)] e utilizzare la Gestione ruolo utente Contabile come descritto sopra. Per ulteriori informazioni, vedi [Benvenuto in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitare il contabile esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] è attualmente è in versione di anteprima pubblica in un numero limitato di mercati.
+
+## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitare il contabile esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che possa utilizzare i dati fiscali dell'azienda.
 
 Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)], può utilizzare la Gestione ruolo utente **Contabile** che permette di accedere facilmente alle pagine più pertinenti al suo lavoro.  
@@ -38,7 +41,7 @@ Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[d365fin](includes/d365fi
 ![Invitare il contabile](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  È necessario avere impostato il sistema di posta elettronica SMTP. Questa operazione può essere svolta autonomamente oppure è possibile rivolgersi al proprio partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. È inoltre necessario essere connessi a [!INCLUDE[d365fin](includes/d365fin_md.md)] come amministratore utente, non come imprenditore o altri utenti. Infine, è necessario aver lasciato la società di prova in modo da avere un amministratore di Azure Active Directory.  
+> È necessario avere impostato il sistema di posta elettronica SMTP. Questa operazione può essere svolta autonomamente oppure è possibile rivolgersi al proprio partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. È inoltre necessario essere connessi a [!INCLUDE[d365fin](includes/d365fin_md.md)] come amministratore utente, non come imprenditore o altri utenti. Infine, è necessario aver lasciato la società di prova in modo da avere un amministratore di Azure Active Directory.  
 
 > [!IMPORTANT]  
 > L'indirizzo e-mail del contabile deve essere un indirizzo di lavoro che si basa su Azure Active Directory. Se il contabile utilizza un altro tipo di posta elettronica, l'invito non può essere inviato.  

@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 808459f9c77d797c58a5956a5641c97bc398734e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243735"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306220"
 ---
-# <a name="reverse-postings"></a>Stornare le registrazioni
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
 Per stornare una registrazione errata, selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
 
 È possibile stornare solo movimenti immessi da una riga di registrazioni generali. Un movimento può essere stornato solo una volta.
 
-Per ulteriori informazioni sulla registrazione dalle registrazioni generali, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).
+Per annullare la registrazione di un carico o di una spedizione, prima che vengano registrati come fatturati, è possibile utilizzare la funzione **Annulla** nel documento registrato. È possibile annullare quantità di tipo **Articolo**.
 
-Se è stata eseguita una registrazione di quantità negativa, ad esempio se è stato creato un ordine di acquisto con un numero errato di articoli e lo si è registrato come ricevuto (ma non fatturato), è possibile annullare la registrazione.
+Se è stata eseguita una registrazione di quantità negativa non corretta, ad esempio se è stato creato un ordine di acquisto con un numero errato di articoli e lo si è registrato come ricevuto (ma non fatturato), è possibile annullare la registrazione.
 
-Se è stata eseguita una registrazione di quantità positiva, ad esempio se è stato creato un ordine di reso con un numero errato di articoli e lo si è registrato come spedito (ma non fatturato), è possibile annullare la registrazione.   
+Se è stata eseguita una registrazione di quantità positiva, ad esempio se è stata creata una spedizione vendita o una spedizione di reso acquisto con un numero errato di articoli e lo si è registrato come spedito ma non fatturato, è possibile annullare la registrazione.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Per stornare la registrazione di un movimento di contabilità generale
 È possibile stornare i movimenti da tutte le pagine **Movimenti contabili**. La seguente procedura è basata sulla pagina **Movimenti C/G**.
@@ -37,20 +37,29 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 3. Nella pagina **Storna movimenti transazioni**, selezionare il movimento appropriato quindi scegliere l'azione **Storna**.
 4. Scegliere il pulsante **Sì** nel messaggio di conferma.
 
+## <a name="to-post-a-negative-entry"></a>Per registrare un movimento negativo  
+È possibile utilizzare il campo **Correzione** per registrare un addebito negativo anziché un credito oppure un accredito negativo anziché un addebito su un conto. Per soddisfare i requisiti legali, questo campo è visibile per impostazione predefinita in tutte le registrazioni. I campi **Dare** e **Avere** includono il movimento originale e il movimento corretto. Questi campi non influiscono sul saldo del conto.  
+
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
+2.  Nel campo **Nome batch** selezionare il nome di batch necessario.  
+3.  Immettere informazioni nei campi rilevanti.  
+4.  Nella riga di registrazione che si desidera attivare per i movimenti negativi, selezionare la casella di controllo **Correzione**.  
+5.  Per contabilizzare la registrazione, scegliere l'azione **Registra**, quindi scegliere il pulsante **Sì**.
+
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Per annullare la registrazione di una quantità in una ricezione acquisti registrata  
+Di seguito viene descritto come annullare un carico registrato. I passaggi sono simili a quelli per le spedizioni registrate.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ricezioni acquisti registrate** e quindi scegliere il collegamento correlato.  
 2.  Aprire il carico registrato che si desidera annullare.  
 3.  Selezionare la riga o le righe che si desidera annullare.  
 4.  Scegliere l'azione **Annulla carico**.
 
-    Una riga di rettifica viene registrata sotto la riga di carico selezionata.  
+Una riga di rettifica viene registrata sotto la riga di carico selezionata. Se la quantità è stata ricevuta in un carico warehouse, una riga di rettifica viene inserita nel carico warehouse registrato.  
 
-    Se la quantità è stata ricevuta in un carico warehouse, una riga di rettifica viene inserita nel carico warehouse registrato.  
-
-    I campi **Quantità ricevuta** e **Qtà carichi non fatt.** nell'ordine di acquisto collegato verranno impostati su un valore pari a zero.
+I campi **Quantità ricevuta** e **Qtà carichi non fatt.** nell'ordine di acquisto collegato verranno impostati su un valore pari a zero.
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Per annullare e successivamente ripetere la registrazione di una quantità in una spedizione di reso registrata
+Di seguito viene descritto come annullare una spedizione di reso registrata e quindi registrare di nuovo il reso di acquisto con una nuova quantità.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni reso registrate** e scegliere il collegamento correlato.  
 2.  Aprire la spedizione reso registrata che si desidera annullare.
@@ -67,16 +76,8 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 7.  Aprire l'ordine di reso in questione quindi scegliere l'azione **Riapri**.  
 8.  Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  
 
-## <a name="to-post-a-negative-entry"></a>Per registrare un movimento negativo  
-È possibile utilizzare il campo **Correzione** per registrare un addebito negativo anziché un credito oppure un accredito negativo anziché un addebito su un conto. Per soddisfare i requisiti legali, questo campo è visibile per impostazione predefinita in tutte le registrazioni. I campi **Dare** e **Avere** includono il movimento originale e il movimento corretto. Questi campi non influiscono sul saldo del conto.  
-
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
-2.  Nel campo **Nome batch** selezionare il nome di batch necessario.  
-3.  Immettere informazioni nei campi rilevanti.  
-4.  Nella riga di registrazione che si desidera attivare per i movimenti negativi, selezionare la casella di controllo **Correzione**.  
-5.  Per contabilizzare la registrazione, scegliere l'azione **Registra**, quindi scegliere il pulsante **Sì**.
-
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+[Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)  
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Finanze](finance.md)  
