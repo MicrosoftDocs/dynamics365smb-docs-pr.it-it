@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302718"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554256"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
@@ -105,7 +105,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_m
 
     Consentire l'integrazione con la contabilità generale eseguendo i passaggi seguenti. Innanzitutto, accertarsi che l'integrazione con la contabilità generale sia disabilitata per tutti i registri beni ammortizzabili, quindi registrare l'apertura dei movimenti e infine attivare l'integrazione con la contabilità generale.  
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri beni ammortizzabili** e quindi scegliere il collegamento correlato.  
-5. Selezionare il registro beni ammortizzabili rilevante Nel gruppo **Gestione** della scheda **Pagina iniziale** scegliere **Modifica** per visualizzare la pagina **Scheda registro beni ammortizz.**
+5. Selezionare il registro beni ammortizzabili rilevante e quindi scegliere l'azione **Modifica** per aprire la pagina **Scheda registro beni ammortizz**.
 6. Nella Scheda dettaglio **Integrazione** assicurarsi che tutti i campi rimangano cancellando tutti i segni di spunta. Nel caso in cui si disponga di diversi registri beni ammortizzabili, disattivare l'integrazione contabilità generale per ciascuno di essi.  
 7. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:
    * Una riga con il costo di acquisto.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311646"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553772"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
@@ -31,7 +31,7 @@ Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento d
 2. Se si desidera una lista dei compiti di assistenza a cui sono assegnati una risorsa o un gruppo di risorse specifico, compilare il campo **Filtro per risorsa** o **Filtro gruppo risorse** e premere INVIO.  
 3. Se si desidera una lista di compiti di assistenza con una o più date di risposta specifiche che rientrano in un determinato intervallo di date, compilare il campo **Filtro data di risposta**, quindi premere INVIO.  
 4. Se si desidera una lista di compiti di assistenza con un determinato stato di assegnazione o riparazione, compilare il campo **Filtro stato assegnazione** o **Filtro cod. stato riparaz.** e premere INVIO.  
-5. Selezionare il compito di assistenza che si desidera utilizzare. Nel gruppo **Compiti di assistenza** della scheda **Naviga** scegliere **Prospetto interv. articolo**. Verrà visualizzata la pagina **Prospetto articoli in assistenza**.  
+5. Selezionare il compito di assistenza che si desidera utilizzare. Scegliere l'azione **Prospetto interv. articolo**. Verrà visualizzata la pagina **Prospetto articoli in assistenza**.  
 6. Registrare i testi standard, i pezzi di ricambio, le ore e i costi relativi alle risorse utilizzando le opzioni corrispondenti nel campo **Tipo**: <Blank>, **Articolo**, **Risorsa** e **Costo**.  
 7. Nel campo **Stato riparazione** selezionare lo stato appropriato.  
 
@@ -43,7 +43,7 @@ Quando si esegue un'operazione di assistenza relativa a un ordine specifico, è 
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza per registrare le operazioni di assistenza e scegliere la riga dell'articolo.  
-3. Scegliere **Azioni**, **Riga**, quindi **Prospetto articoli in assistenza**.  
+3. Scegliere l'azione **Prospetto articoli in assistenza**.  
 4. Nelle righe specificare gli articoli utilizzati, i costi sostenuti e il tempo impiegato per prestare assistenza.  
 
    > [!NOTE]  

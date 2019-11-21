@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f054e9be11de6a71e9fe490bcc3d7f47dafff89d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314170"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553748"
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
 Una distinta base (DB) di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
@@ -59,8 +59,8 @@ La data di inizio indica l'inizio del periodo di validità della versione. Costi
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **DB produzione** e quindi scegliere il collegamento correlato.  
 2.  Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni**.  
-3.  Nel gruppo **Nuovo** della scheda **Pagina iniziale** scegliere **Nuovo**.  
-4. Compilare i campi come necessario.
+3.  Scegliere l'azione **Nuovo**.  
+4. Compilare i campi in base alle esigenze.
 5. Nel campo **Cod. versione** immettere il codice identificativo univoco della versione. Nel campo è possibile inserire qualsiasi combinazione di numeri o di lettere.  
 
     Alla versione appena creata viene assegnato automaticamente lo stato **Nuovo**.

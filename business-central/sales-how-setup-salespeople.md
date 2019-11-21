@@ -10,25 +10,27 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1809302d24a7921f06f1ca8532a4fb14291c166d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312054"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764506"
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
 Molte società basano sull'andamento di un singolo impiegato il calcolo della provvigione sulle vendite o del premio. Vedere, ad esempio, il report **Commissioni agente**. La società potrebbe anche decidere di assegnare un agente a ciascun contatto.
 
 Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile selezionarlo nel campo **Codice agente** in tutti i record pertinenti, come le schede conto C/G, cliente, fornitore, contatti e campagna. Quindi quando si contabilizzano o si impostano le fatture, le note di credito, le righe di registrazione, gli addebiti degli interessi e così via, il codice dell'agente viene passato ai movimenti contabili risultanti.
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Per impostare un codice agente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerta di vendita** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Agenti** scegliere l'azione **Nuovo**.
 
 È possibile utilizzare gli agenti in diverse attività di marketing e Relationship Management. Ad esempio, è possibile assegnare task agli agenti, in modo che i task vengano incorporati nelle opportunità di vendita a cui è assegnato l'agente. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

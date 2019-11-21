@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314746"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554646"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
@@ -126,7 +126,7 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
 3.  Selezionare il campo **Documento origine**, quindi selezionare **Ordine acquisto**.  
 4.  Selezionare il campo **Nr. origine**, selezionare la riga per gli acquisti dal fornitore 10000 e fare clic sul pulsante **OK**.  
 
-    In alternativa, nel gruppo **Funzioni** del gruppo **Azioni** selezionare **Prendi documento origine**, quindi selezionare l'ordine di acquisto.  
+    In alternativa, scegliere l'azione **Prendi documento origine**, quindi selezionare l'ordine di acquisto.  
 
 5.  Scegliere l'azione **Autocompil. qtà da gestire**.  
 

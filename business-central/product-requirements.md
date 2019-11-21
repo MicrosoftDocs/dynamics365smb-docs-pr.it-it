@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313518"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649766"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
@@ -33,9 +33,9 @@ Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si con
 **Dimensioni del dispositivo:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è supportato su smartphone con dimensioni minime dello schermo di 4" e tablet con dimensioni minime dello schermo di 7".  
 
 ## <a name="outlook"></a>Outlook
-**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook Web App, OWA per iPhone, OWA per iPad oppure OWA per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)]online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
-**Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook Web App (OWA), il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
-**Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in OWA per iPhone, OWA per iPad e OWA per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook in un browser, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)]online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
+**Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
+**Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook per iPhone, Outlook per iPad e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario Excel 2016 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310542"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554622"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
@@ -169,7 +169,7 @@ Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine.
 2.  Immettere **2** nel campo **Quantità** della riga dell'articolo **1100**.  
 
     Scorrere per vedere i campi del pagamento anticipato. Il campo **Importo riga pagam. ant. IVA esclusa** ora contiene **630** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **315**. Ciò indica l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
-3.  Per registrare una fattura per l'importo aggiuntivo, nel gruppo **Registrazione** della scheda **Azioni**, selezionare **Pagamento anticipato**, quindi scegliere **Registra fattura pagamento anticipato**.  
+3.  Per registrare una fattura per l'importo di pagamento anticipato aggiuntivo, scegliere l'azione **Registra fattura pagamento anticipato**.  
 
 ## <a name="applying-the-prepayments"></a>Collegamento dei pagamenti anticipati  
 Il cliente versa il pagamento anticipato e Armando, che lavora nel reparto contabilità, registra il pagamento e lo collega alle fatture di pagamento anticipato.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304447"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649718"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
@@ -27,6 +27,8 @@ Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'*amministrato
 
 > [!TIP]
 > Se si utilizza il nuovo Outlook in un browser, i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**.
+
+Qualora si collabori con più società [!INCLUDE [prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook.
 
 Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
 

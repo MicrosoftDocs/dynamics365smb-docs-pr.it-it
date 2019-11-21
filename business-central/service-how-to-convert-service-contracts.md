@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316056"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554790"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  
@@ -32,9 +32,9 @@ Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gestione contratti** e quindi scegliere il collegamento correlato.  
 2. In **Liste** selezionare **Contratti assistenza**.  
 3. Creare un nuovo contratto di assistenza prepagato. Immettere una data di inizio **01.01.2017** e un anno del periodo di fatturazione per il cliente **20000**.  
-4. Questo contratto deve essere firmato. Nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Firma contratto**.  
+4. Per firmare il contratto, scegliere l'azione **Firma contratto**.  
 5. Creare una fattura assistenza.
-6. La fattura viene elencata come fattura di assistenza non registrata. Per visualizzare la fattura di assistenza, fare clic su **Assistenza**, selezionare **Gestione contratti**, quindi scegliere **Fatture assistenza**.  
+6. La fattura viene elencata come fattura di assistenza non registrata. Per visualizzare la fattura di assistenza, fare clic sull'azione **Assistenza**, scegliere l'azione **Gestione contratti** e quindi scegliere l'azione **Fatture assistenza**.  
 7. Registrare la fattura di assistenza.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 1. Eseguire lo strumento per la modifica dell'aliquota IVA il 1° luglio 2017. La categoria di registrazione articoli/servizi o la categoria di registrazione articoli/servizi IVA è cambiata. Per ulteriori informazioni, vedere [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md).  
 2. Dopo aver eseguito lo strumento di modifica aliquota IVA, immettere una data di scadenza del contratto per il contratto di assistenza. È ora possibile eliminare la riga del contratto di assistenza e creare una nuova riga identica a quella precedente.  
 3. Creare una nuova fattura per il periodo compreso tra gennaio 2017 e dicembre 2012 utilizzando la nuova aliquota IVA.  
-4. Per creare un'altra nota di credito, selezionare **Nuovo** nella pagina **Note credito assistenza**.  
+4. Per creare un'altra nota di credito, nella pagina **Note credito assistenza** scegliere l'azione **Nuovo** per creare una nuova nota di credito assistenza.  
 5. Scegliere l'azione **Prendi mov. contr. prepagati**.  
 6. Dopo aver completato la conversione, l'IVA e i movimenti contabili verranno corretti.  
 

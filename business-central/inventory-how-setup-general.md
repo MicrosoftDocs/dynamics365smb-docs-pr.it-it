@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: SorenGP
-ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309867"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798403"
 ---
 # <a name="set-up-general-inventory-information"></a>Impostare le informazioni generali di magazzino
 Le impostazioni generali di magazzino vengono impostate nella pagina **Setup magazzino**.
@@ -25,6 +25,8 @@ Le impostazioni generali di magazzino vengono impostate nella pagina **Setup mag
 ## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+Per informazioni dettagliate sui campi di determinazione dei costi, **Reg. automatica costi** e **Reg. costi previsti in C/G**, vedere [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md) e [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md).
 
 Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella pagina **Setup magazzino** per il magazzino e per l'ubicazione. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).  
 

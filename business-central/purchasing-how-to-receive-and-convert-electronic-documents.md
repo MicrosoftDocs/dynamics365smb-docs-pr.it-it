@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312390"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553868"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,7 +43,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.  
 
-2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi, nella scheda **Pagina iniziale**, nel gruppo **Gestione**, scegliere **Modifica**.  
+2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi scegliere l'azione **Modifica**.  
 
      Nella pagina **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
 4.  Per mappare il testo della fattura del fornitore in un conto di addebito specifico, nella scheda **Azioni**, nel gruppo **Generale**, selezionare **Mappa testo a conto** e inserire i dati nella pagina **Foglio di lavoro Mappatura testo a conto**.  
 
-5.  Nella scheda **Azioni**, nel gruppo **Generale**, scegliere **Crea documento**.  
+5.  Selezionare l'azione **Crea documento**.  
 
      Verrà creata una fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)] basata sulle informazioni contenute nel documento elettronico.  
 

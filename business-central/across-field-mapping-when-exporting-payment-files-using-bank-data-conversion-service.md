@@ -1,6 +1,6 @@
 ---
 title: Mapping dei campi per l'esportazione dei file di pagamento bancario | Microsoft Docs
-description: Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari.
+description: Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300523"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692630"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari
-Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, i dati esportati sono esposti al provider del servizio di conversione dati bancari. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sul funzionamento della funzionalità di servizio di conversione dati bancari, vedere [Informazioni sul framework di scambio dati](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
+Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sull'estensione AMC Banking 365 Fundamentals, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Quando si esportano campi pagamento tramite la funzionalità servizio di conversione dati bancari, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Quando si esportano file di pagamento tramite l'estensione AMC Banking 365 Fundamentals, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare i dati verso il provider di servizi.  
+La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare dati.  
 
 |Campo mappato|Campo nella tabella|Tavolo|Descrizione|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)
 |CAP banca mittente|CAP|Conto bancario|Il codice postale del conto corrente bancario del mittente specificato nella scheda conto corrente bancario|  
 |Definizione registrazioni COGE|Nome def. registrazioni|Riga registrazioni COGE|Il template delle registrazioni COGE utilizzato per la riga di pagamento|  
 |Nome batch registrazioni COGE|Nome batch contabile|Riga registrazioni COGE|Il nome del batch registrazioni COGE utilizzato per la riga di pagamento|  
-|Nome banca mittente- Conv. dati|Nome banca – Conversione dati|Conto bancario|Il nome del conto corrente bancario del mittente che viene richiesto dal servizio di conversione dati bancari e viene specificato nella scheda conto corrente bancario|  
+|Nome banca mittente- Conv. dati|Nome banca – Conversione dati|Conto bancario|Il nome del conto corrente bancario del mittente che viene richiesto dall'estensione AMC Banking 365 Fundamentals e che viene specificato nella scheda conto corrente bancario|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
-[Impostare il Servizio di conversione dati bancari](bank-how-setup-bank-data-conversion-service.md)   
+[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed17b601df17ae85424013b6053ef1901082c10
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0091f7ae1e6b22b6228ad903af783fb790faf99d
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300547"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692610"
 ---
 # <a name="exchanging-data"></a>Scambio di dati
 È possibile scambiare i dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.  
 
-Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file bancari, è necessario impostare il framework di scambio dati per elaborare i flussi o i file di dati interessati. Inoltre, è necessario impostare delle aree correlate. Sono inclusi i dati master per i clienti a cui si inviano fatture elettroniche e il servizio di conversione di dati bancari nel caso si distribuiscano traduzioni di file della banca a un provider di servizi esterno. Per ulteriori informazioni, vedere [Impostazione dello scambio di dati](across-set-up-data-exchange.md).  
+Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file bancari, è necessario impostare il framework di scambio dati per elaborare i flussi o i file di dati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche e l'estensione AMC Banking 365 Fundamentals, qualora si distribuiscano conversioni di file bancari a un provider di servizi esterno. Per ulteriori informazioni, vedere [Impostazione dello scambio di dati](across-set-up-data-exchange.md).  
 
  Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
@@ -35,9 +35,9 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Utilizzare un provider di servizi per i tassi di cambio valuta per aggiornare la pagina **Valute**.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|  
 |Visualizzare di quali elementi del file viene eseguito il mapping ai campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] durante l'importazione di file di estratto conto SEPA CAMT.|[Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Visualizzare i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] di cui viene eseguito il mapping agli elementi del file durante l'esportazione dei file di pagamento tramite la funzionalità del servizio di conversione dati bancari.|[Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Visualizzare i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] di cui viene eseguito il mapping agli elementi del file durante l'esportazione dei file di pagamento tramite l'estensione AMC Banking 365 Fundamentals.|[Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)   

@@ -13,12 +13,12 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306150"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767516"
 ---
 # <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 Utilizzare i periodi di registrazione per specificarne quando gli utenti possono registrare nella contabilità generale.  
@@ -28,9 +28,9 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 2. Nella pagina **Impostazione della contabilità generale** specificare il periodo inserendo le date nei campi **Consenti registraz. da** e **Consenti registrazioni fino a**.  
 
 > [!NOTE]  
->   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella pagina **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere [Per impostare i vincoli connessioni utenti](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+>   Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella pagina **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere [Per impostare i vincoli connessioni utenti](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)  
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

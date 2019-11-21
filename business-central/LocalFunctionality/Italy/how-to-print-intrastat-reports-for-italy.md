@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 90ac3b00c0207bd83e1cb6c887c23d8b63e4e0b3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0a460a74f96592dacba42c97276c4dc963a8d436
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301299"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554549"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  
@@ -29,7 +29,7 @@ Sono disponibili i seguenti report Intrastat:
 3.  Per aprire il report **Intrastat - Report mensile** o **Intrastat - Report trimestrale**, scegliere l'azione **Report mensile** o **Report trimestrale**.  
 4.  Nella Scheda dettaglio **Righe reg. Intrastat** selezionare i filtri appropriati.  
 5.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
-6.  Nella pagina **Registrazioni Intrastat**, per salvare i dettagli del report in un file, nella scheda **Azioni** nel gruppo, **Stampa**, scegliere **Crea file**.  
+6.  Nella pagina **Registrazioni Intrastat**, per salvare i dettagli del report in un file, scegliere **Crea file**.  
 
     > [!NOTE]  
     >  Prima della stampa, è possibile selezionare il percorso e il nome file. Se non vengono specificate queste informazioni, il file verrà denominato **scambi.cee** e verrà stampato nella radice dell'unità C.  

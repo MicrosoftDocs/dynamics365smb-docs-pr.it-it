@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
-ms.openlocfilehash: e22b93182627a5954b2aa2f1fb1fa4938d89be89
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300739"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695121"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] i contenitori per i dati aziendali che appartengono alla Business Unit o alla persona giuridica vengono indicati con il termine *società*. Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le aziende è facile; basta accedere a **Impostazioni personali**e passare all'altra azienda. È tuttavia possibile anche creare nuove aziende in [!INCLUDE[d365fin](includes/d365fin_md.md)] in base alle esigenze aziendali. Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] i contenitori per i dati aziendali che appartengono alla Business Unit o alla persona giuridica vengono indicati con il termine *società*. Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)] in base alle esigenze aziendali. Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="create-new-company"></a>Crea nuova società
-Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile utilizzare la guida al setup assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** in **Impostazioni personali**.  
+## <a name="creating-a-new-company"></a>Creazione di una nuova società
+Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile utilizzare la guida al setup assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
 
 Il setup guidato offre tre modelli:
 
@@ -39,6 +39,12 @@ Se si desidera iniziare in modo semplice con una società nuova, scegliere **Pro
 >   La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
 
 Nella versione di valutazione di 30 giorni è possibile creare un numero qualsiasi di nuove società, ma saranno disponibili solo nel periodo di valutazione. Per altre informazioni, contattare il partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="copying-a-company"></a>Copia di una società
+Nella pagina **Società** è possibile utilizzare l'azione **Copia** per creare una seconda società in base al contenuto di una società esistente. Ciò è utile ad esempio quando si desidera testare una società senza interrompere i dati di produzione.
+
+> [!Important]
+> Questa funzione non può essere utilizzata per eseguire il backup di una società. L'esecuzione del backup di una società inizia esportando il database come file con estensione BACPAC. Per ulteriori informazioni, vedere [Esportazione dei database](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in Guida per sviluppatori e professionisti IT.
 
 ## <a name="company-setup"></a>Setup società
 Quando si accede a una nuova società, la procedura guidata **Setup società** si avvia automaticamente e fornisce le istruzioni per iniziare. Verranno richieste le informazioni sulla società, ad esempio l'indirizzo, i dati bancari e il metodo di calcolo dei costi di magazzino. Queste informazioni servono da base per molte aree di [!INCLUDE[d365fin](includes/d365fin_md.md)] che non dovranno quindi più essere impostate manualmente un momento successivo.  

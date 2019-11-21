@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309006"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775573"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -97,7 +97,7 @@ Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[d36
 [Gestione delle relazioni](marketing-relationship-management.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)    
+[Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
 [Panoramica di Sales e dell'Hub delle vendite](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

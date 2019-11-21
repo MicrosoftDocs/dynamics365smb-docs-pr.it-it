@@ -12,40 +12,22 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d74c6d4c43671c90918bfd29640760a4e1a64f65
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304734"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554424"
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
-La videoteca con video sulle procedure è in fase di aggiornamento. Una conseguenza dei recenti miglioramenti in [!INCLUDE[d365fin](includes/d365fin_md.md)] è la necessità di aggiornare il contenuto affinché rifletta in modo accurato il prodotto.
+Alcune persone preferiscono guardare contenuti anziché leggere. Per questo motivo è in corso la produzione di brevi video di facile comprensione, che possono essere utilizzati in modo autonomo o come integrazione al servizio di assistenza fornito all'utente.   
 
-Nell'attesa, vengono forniti tre video con informazioni utili su come iniziare a utilizzare il prodotto.
+Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare i video introduttivi dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**. 
 
-|Titolo|Description|
-|----|----|
-|Introduzione|Organizzazione delle funzionalità del prodotto e come ottenere vari tipi di attività e informazioni.|
-|Inizia|Comprendere le prime fasi chiave quando si prova [!INCLUDE[d365fin](includes/d365fin_md.md)] o si è appena acquistato il prodotto. |
-|Ottenere assistenza|Dove ottenere le risposte a vari tipi di domande.|
-
-È possibile accedere ai video in diversi modi. Quando si esegue [!INCLUDE[d365fin](includes/d365fin_md.md)] per la prima volta, è possibile riprodurre i video dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**.
+È anche possibile visualizzare i video delle procedure e molti altri contenuti nel canale YouTube creato per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per visitare subito il canale, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > I video nella libreria vengono visualizzati in una cornice che potrebbe sembrare un po' piccola. Per ingrandire la cornice, scegli l'icona a forma di freccia a due punte nell'angolo superiore destro. In seguito, i video verranno visualizzati nella cornice più grande finché non la cornice non verrà di nuovo ridotta.
 
-È anche possibile visualizzare i video delle procedure e molti altri contenuti nel canale YouTube creato per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per visitare subito il canale, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
-
-## <a name="content-that-is-coming-soon"></a>Contenuto disponibile a breve
-Solo per menzionare alcuni esempi, i video in fase di aggiornamento mostreranno come effettuare le seguenti operazioni:  
-
-* Migrare i dati aziendali da un'altra app finanziaria in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Impostare le dimensioni in modo da poter analizzare e tenere traccia dei vari documenti e entità
-* Connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] a Dynamics 365 Sales
-* Imposta workflow di approvazione  
-* Utilizzare Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Impostare messaggi e-mail e inviare documenti direttamente da [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)

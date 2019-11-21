@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311694"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553918"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  
@@ -73,7 +73,7 @@ Per i contratti non dettagliati l'importo fatturato verrà calcolato come segue:
 
  Per creare automaticamente una nota di credito durante l'eliminazione delle righe di contratto da un contratto di assistenza, nella Scheda dettaglio **Dettagli fattura** della pagina **Contratto di assistenza** selezionare la casella di controllo **Note credito automatiche**.  
 
- Per creare manualmente una nota di credito durante l'eliminazione delle righe di contratto da un contratto di assistenza, nella pagina **Contratto di assistenza** scegliere **Nota credito** nel gruppo **Funzioni** della scheda **Azioni**.  
+ Per creare manualmente una nota di credito durante l'eliminazione delle righe di contratto da un contratto di assistenza, nella pagina **Contratto di assistenza** scegliere l'azione **Nota credito**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Aggiornamento e valutazione dei contratti
 Talvolta può essere necessario modificare le condizioni di un contratto dopo che è stato creato. Nella maggior parte dei casi è sufficiente aprire il contratto in questione nella pagina **Contratto di assistenza** e apportare le modifiche necessarie.  
@@ -99,12 +99,12 @@ A seguito della rimozione di articoli in assistenza da un contratto di assistenz
 4. Scegliere la riga del contratto che si desidera rimuovere. Compilare il campo **Data scadenza contratto** con la data a partire da cui si desidera rimuovere la riga. Ad esempio, è possibile immettere la data in cui l'articolo in assistenza si è guastato.  
 5. Scegliere l'azione **Rimuovi righe contratto**. Verrà visualizzata la pagina **Eliminaz. righe da contratti**.  
 6. Compilare i filtri di default: **Nr. contratto**, **Nr. articolo in assistenza** e **Tipo contratto**. Se necessario, è possibile applicare più filtri o modificare quelli esistenti.  
-7. Compilare i campi della Scheda dettaglio **Opzioni**. Nel campo **Azione** selezionare **Elimina righe**.  
+7. Compilare i campi della Scheda dettaglio **Opzioni**, quindi scegliere l'azione **Elimina righe** .  
 
 > [!NOTE]  
 >  Se il contratto non è dettagliato, occorre aggiornare il valore del campo **Importo annuo** nella Scheda dettaglio **Dettagli fattura** della pagina **Contratto di assistenza** in modo da riflettere l'eliminazione dell'articolo in assistenza dal contratto.  
 >   
->  Se il contratto è dettagliato e prepagato e sono state registrate fatture per il contratto, è possibile creare una nota di credito per il contratto. Nel gruppo **Funzioni** della scheda **Azioni** scegliere **Crea nota di credito**. Questa operazione non è necessaria se è selezionata la casella di controllo nel campo **Note credito automatiche** nella Scheda dettaglio **Dettagli fattura**. In tal caso, una nota di credito viene automaticamente creata quando si rimuove una riga di contratto.
+>  Se il contratto è dettagliato e prepagato e sono state registrate fatture per il contratto, è possibile creare una nota di credito per il contratto. Scegliere l'azione **Crea nota credito**. Questa operazione non è necessaria se è selezionata la casella di controllo nel campo **Note credito automatiche** nella Scheda dettaglio **Dettagli fattura**. In tal caso, una nota di credito viene automaticamente creata quando si rimuove una riga di contratto.
 
 ## <a name="service-line-cost-and-value"></a>Costo e valore riga assistenza
 Nelle righe di un contratto di assistenza, gli importi in **Costo riga** e **Valore riga** viene calcolato come descritto nelle seguenti tabelle.
@@ -150,7 +150,7 @@ Può essere necessario modificare l'intestatario di un contratto di assistenza. 
 4. Nei campi **Nr. contratto** e **Nr. articolo in assistenza** sono indicati i numeri del contratto e dell'articolo in assistenza intestati al cliente selezionato. Se al cliente sono intestati più contratti in cui sono inclusi più articoli in assistenza, il valore di questi campi sarà **Multiplo**. Per visualizzare la lista dei contratti o degli articoli in assistenza correlati, selezionare i valori di questi campi.  
 5. Nel campo **Nuovo nr. cliente** scegliere il nuovo cliente.  
 6. Nel campo **Nuovo spedire a - Codice** selezionare l'indirizzo.  
-7. Scegliere **OK** per modificare il cliente e il codice di spedizione dei contratti di assistenza.  
+7. Scegliere il pulsante **OK** per modificare il cliente e il codice di spedizione dei contratti di assistenza.  
 8. Scegliere l'azione **Blocca contratto** per bloccare il contratto e garantire che le modifiche vengano applicate ai contratti.  
 
 ## <a name="to-update-a-service-contract-price"></a>Per aggiornare un prezzo del contratto di assistenza  

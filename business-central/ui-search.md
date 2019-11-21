@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310734"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695049"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -29,7 +29,7 @@ Quando si inizia a digitare dei caratteri, [!INCLUDE[d365fin](includes/d365fin_m
 
 La colonna a destra indica la categoria generale del risultato. Ad esempio, se aprirà una pagina elenco o se è un'attività amministrativa.  
 
-Nella parte inferiore della finestra della **funzionalità delle informazioni** vi è un'azione chiamata **esplorare**, la quale apre una panoramica delle funzionalità che mostra tutte le funzionalità disponibili per il proprio ruolo o per tutti i ruoli. Per ulteriori informazioni, vedere [Individuazione di pagine da una panoramica delle funzionalità](ui-role-explorer.md).
+Nella parte inferiore della finestra della **funzionalità delle informazioni** vi è un'azione chiamata **esplorare**, la quale apre una panoramica delle funzionalità che mostra tutte le funzionalità disponibili per il proprio ruolo o per tutti i ruoli. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Se si preferisce utilizzare la tastiera, utilizzare il tasto TAB e i tasti freccia per scegliere un elemento nei risultati. Se si preme il tasto INVIO sulla tastiera senza scegliere un risultato, [!INCLUDE[d365fin](includes/d365fin_md.md)] apre il risultato elencato per primo.
@@ -58,7 +58,7 @@ In **Documentazione** sono disponibili articoli dalla documentazione di [!INCLUD
 La nostra community di partner sviluppa app che aggiungono funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. La sezione **Ottieni da Microsoft AppSource** elenca app per [!INCLUDE[d365fin](includes/d365fin_md.md)] che sono disponibili in Microsoft AppSource e relative alla parola chiave cercata.
 
 ## <a name="searching-for-data"></a>Ricerca di dati
-La funzione **Informazioni sull'operazione che si desidera eseguire** non effettua ricerche nei dati, come i nomi dei clienti, gli indirizzi o le transazioni. Al contrario, è possibile cercare i dati in pagine di elenchi scegliendo l'icona ![Icona Cerca nell'elenco](media/ui-search/search-list.png "Icona Cerca nell'elenco") **Icona Cerca nell'elenco** nell'angolo destro dell'intestazione dell'elenco. La ricerca si applica solo all'elenco che si sta visualizzando. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md).
+La funzione **Informazioni sull'operazione che si desidera eseguire** non effettua ricerche nei dati, come i nomi dei clienti, gli indirizzi o le transazioni. È invece possibile cercare i dati in pagine elenco scegliendo l'icona ![Cerca nell'elenco](media/ui-search/search-list.png "Icona Cerca nell'elenco") **Cerca** nell'angolo destro dell'intestazione dell'elenco. La ricerca si applica solo all'elenco che si sta visualizzando. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Domande?
 La funzionalità delle informazioni è stata mostrata a una serie di parti interessate, si è preso atto delle domande comuni e trasformato gli appunti in un elenco di domande frequenti. Nel caso, vedere le [domande frequenti sulla funzionalità delle informazioni](ui-search-faq.md)

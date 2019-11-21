@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315230"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553820"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importare ed esportare un layout di report o documento
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
@@ -29,11 +29,11 @@ ms.locfileid: "2315230"
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
 
-2.  Selezionare la riga del report che contiene il layout di report personalizzato che si desidera esportare, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
+2.  Selezionare la riga per il report che contiene il layout di report personalizzato che si desidera esportare, quindi scegliere l'azione **Layout personalizzati**.  
 
-3.  Nella pagina **Layout report**, selezionare il layout di report che si desidera esportare verso un file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Esporta layout**.  
+3.  Nella pagina **Layout report** selezionare il layout di report che si desidera esportare verso un file, quindi scegliere l'azione **Esporta layout**.  
 
-4.  Nella finestra di dialogo **Esporta file**, selezionare **Salva** quindi salvare il campo in un percorso del computer o in rete.  
+4.  Nella finestra di dialogo **Esporta file** selezionare il pulsante **Salva** quindi salvare il file in un percorso del computer o in rete.  
 
 ### <a name="to-import-a-report-layout-file"></a>Per importare un file di layout di report  
 
@@ -43,11 +43,11 @@ ms.locfileid: "2315230"
 
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
 
-3.  Selezionare la riga del report verso cui si desidera importare il layout di report, quindi nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Personalizza layout**.  
+3.  Selezionare la riga per il report nel quale si desidera importare il layout di report, quindi scegliere l'azione **Layout personalizzati**.  
 
-4.  Nella pagina **Layout report**, selezionare il layout di report in cui importare il file, quindi nel gruppo **Processo** della scheda **Pagina iniziale**, scegliere **Importa layout**.  
+4.  Nella pagina **Layout report** selezionare il layout di report nel quale si desidera importare il file, quindi scegliere l'azione **Importa layout**.  
 
-5.  Nella finestra di dialogo **Importa**, selezionare il documento che definisce il layout di report e scegliere **Apri**.  
+5.  Nella finestra di dialogo **Importa** selezionare il documento che definisce il layout di report e quindi scegliere il pulsante **Apri**.  
 
  Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d3c72cf638e196d3b39287fef577c8293332aec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310566"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554670"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
@@ -60,15 +60,12 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
 ## <a name="using-the-order-planning-page"></a>Utilizzo della pagina Pianificazione ordini  
 
-<!--
-The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+È possibile accedere alla pagina **Pianificazione ordini** da diverse posizioni:  
 
--   Manufacturing, Planning  
--   Sales & Marketing, Order Processing  
--   Purchase, Planning  
--   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
-
--->  
+-   Manufacturing, Pianificazione  
+-   Vendite e marketing, Gestione ordini  
+-   Acquisto, Pianificazione  
+-   È inoltre possibile aprire questa pagina per un ordine di produzione specifico selezionando l'azione **Pianificazione**.
 
 ### <a name="to-use-the-order-planning-page"></a>Per utilizzare la pagina Pianificazione ordini  
 

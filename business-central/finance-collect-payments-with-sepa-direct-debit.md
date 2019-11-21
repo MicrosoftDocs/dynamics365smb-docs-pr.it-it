@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302502"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554304"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
 Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente in conformità al formato SEPA.  
@@ -43,14 +43,14 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 * Impostare il mandato di addebito diretto che riflette l'accordo con il cliente per riscuotere i pagamenti in un determinato periodo del contratto.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Per impostare il conto bancario per l'addebito diretto SEPA  
-1. Nella casella **Cerca** immettere **C/C bancari**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.  
 2. Aprire il conto bancario che si desidera utilizzare per l'addebito diretto.  
 3. Nella Scheda dettaglio **Trasferimento**, nel campo **Formato esport. addebito dir. SEPA**, scegliere l'opzione per addebito diretto SEPA.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Per impostare il metodo di pagamento del cliente per l'addebito diretto SEPA  
-1. Nella casella **Cerca** immettere **Metodi di pagamento**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Metodi di pagamento** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
-3. Impostare un metodo di pagamento. Compilare i campi specifici dell'addebito diretto come descritto nella tabella riportata di seguito.  
+3. Impostare un metodo di pagamento. Compilare i campi specifici dell'addebito diretto\-come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -61,28 +61,28 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
     >  Non immettere un valore nel campo **Nr. contropartita**.  
 
 4. Fare clic sul pulsante **OK** per chiudere la pagina **Metodi di pagamento**.  
-5. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
+5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 6. Aprire la scheda del cliente che si desidera impostare per la riscossione di addebiti diretti SEPA.  
 7. Scegliere il campo **Codice metodo di pagamento**, quindi selezionare il codice del metodo di pagamento specificato nel passaggio 3.  
 8. Ripetere i passaggi da 6 a 7 per tutti i clienti che si desidera impostare per la riscossione degli addebiti diretti SEPA.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Per impostare il mandato di addebito diretto che rappresenta l'accordo con il cliente  
-1. Nella casella **Cerca** immettere **Clienti**, quindi selezionare il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda del cliente che si desidera impostare per l'addebito diretto SEPA.  
 3. Scegliere l'azione **C/C bancari**.  
-4. Nella pagina **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Mandati di addebito diretto**.  
+4. Nella pagina **Lista C/C bancari clienti** selezionare il conto bancario cliente che utilizzerà gli addebiti diretti, quindi scegliere l'azione **Mandati di addebito diretto**.  
 5. Nella pagina **Mandati per addebito diretto SEPA** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Codice C/C bancario clienti**|Specifica il conto bancario da cui vengono riscossi i pagamenti in addebito diretto. Questo campo viene compilato automaticamente.|  
-    |**Data di inizio validità**|Specificare la data in cui ha inizio il mandato di addebito diretto.|  
-    |**Data di fine validità**|Specificare la data in cui termina il mandato di addebito diretto.|  
-    |**Data di firma**|Specificare la data in cui il cliente ha firmato il mandato di addebito diretto.|  
+    |**Codice C/C bancario clienti**|Specifica il conto bancario da cui vengono riscossi i\-pagamenti in addebito diretto. Questo campo viene compilato automaticamente.|  
+    |**Data di inizio validità**|Specificare la data in cui ha inizio\-il mandato di addebito diretto.|  
+    |**Data di fine validità**|Specificare la data in cui termina\-il mandato di addebito diretto.|  
+    |**Data di firma**|Specificare la data in cui il cliente ha firmato il mandato di\-addebito diretto.|  
     |**Tipo di pagamento**|Specificare se l'accordo riguarda una (**Singola**) o più (**Ricorrente**) riscossioni di addebiti diretti.|  
     |**Numero previsto di debiti**|Specificare il numero di riscossioni di addebiti diretti che si prevede di eseguire. Questo campo è pertinente solo se nel campo **Tipo di pagamento** è stato selezionato **Ricorrente**.|  
-    |**Contatore debiti**|Specifica quante riscossioni di addebiti diretti sono state effettuate mediante il mandato di addebito diretto. Questo campo viene aggiornato automaticamente.|  
-    |**Bloccato**|Specificare che le riscossioni di addebiti diretti non possono essere eseguite mediante questo mandato di addebito diretto.|  
+    |**Contatore debiti**|Specifica quante riscossioni di addebiti diretti sono state effettuate mediante il mandato di\-addebito diretto. Questo campo viene aggiornato automaticamente.|  
+    |**Bloccato**|Specificare che le riscossioni di addebiti diretti non possono essere eseguite mediante questo mandato di\-addebito diretto.|  
 
 6.  Ripetere i passaggi da 1 a 5 per tutti i clienti che si desidera impostare per l'addebito diretto SEPA.  
 
@@ -97,7 +97,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 ### <a name="to-create-a-direct-debit-collection"></a>Per creare una riscossione di addebiti diretti  
 
  1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Riscossioni addebiti diretti** e quindi scegliere il collegamento correlato.  
- 2. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Nuovo** della scheda **Pagina iniziale**, selezionare **Crea riscossione di addebiti diretti**.  
+ 2. Nella pagina **Riscossioni addebiti diretti** scegliere l'azione **Crea riscossione di addebiti diretti**.  
  3. Nella pagina **Crea riscossione di addebiti diretti** compilare i campi come indicato nella tabella riportata di seguito.  
 
      |Campo|Descrizione|  
@@ -115,8 +115,8 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
       Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Per esportare un movimento riscossione di addebiti diretti in un file della banca  
- 1. Nella pagina **Riscossioni addebiti diretti**, nel gruppo **Processo** della scheda **Pagina iniziale**, selezionare **Movimenti riscossioni addebiti diretti**.  
- 2. Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che si desidera esportare, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Crea file addebiti diretti**.  
+ 1. Nella pagina **Riscossioni addebiti diretti** scegliere l'azione **Movimenti riscossioni addebiti diretti**.  
+ 2. Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che si desidera esportare, quindi scegliere l'azione **Crea file addebiti diretti**.  
  3. Salvare il file di esportazione nel percorso da cui verrà inviato o caricato sul sito elettronico della banca.  
 
       Nella pagina **Movimenti riscossioni addebiti diretti** il campo **Stato riscossione di addebiti diretti** viene impostato su File creato. Nella pagina **Mandati per addebito diretto SEPA** il campo **Contatore debiti** viene aggiornato con un conteggio.  
@@ -125,12 +125,12 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Per rifiutare un movimento riscossione di addebiti diretti  
 
- * Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Rifiuta movimento**.  
+ * Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi scegliere l'azione **Rifiuta movimento**.  
 
       Il valore nel campo **Stato** della pagina **Movimenti riscossioni addebiti diretti** viene modificato in **Rifiutato**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Per chiudere una riscossione di addebiti diretti  
- *  Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che è stato elaborato, quindi nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Chiudi riscossione**.  
+ *  Nella pagina **Movimenti riscossioni addebiti diretti** selezionare il movimento che non è stato elaborato, quindi scegliere l'azione **Chiudi riscossione**.  
 
       La riscossione di addebiti diretti correlata è chiusa.  
 

@@ -12,12 +12,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 86178bafa806fb8cba531d5b78157437c242d432
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a46692503b19ddad57c4a68d0f29b588d84f5c9e
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305032"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775453"
 ---
 # <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un workflow automatizzato
 È possibile utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] come parte di un flusso di lavoro in Microsoft Flow.
@@ -81,7 +81,7 @@ Per ulteriori informazioni, vedere la [Documentazione di Flow](/flow/getting-sta
 [Introduzione](product-get-started.md)  
 [Workflow](across-workflow.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)   
+[Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)   
 [Gestire flussi di lavoro [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-use-workflows.md)  
 [Setup utente approvazione](across-how-to-set-up-approval-users.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

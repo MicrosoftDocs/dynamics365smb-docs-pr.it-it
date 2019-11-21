@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314822"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554718"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
@@ -173,7 +173,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
     |1020|Sviluppo|Analitico|  
     |1090|Totale consulenza|Fine-Totale|  
 
-3.  Per indicare che alcuni task sono sottocategorie di altri task, nella scheda **Azioni** , nel gruppo **Funzioni** , selezionare **Indentazione task commesse**.  
+3.  Per mostrare che alcune attività sono sottocategorie di altre attività, scegliere l'azione **Indentazione task commesse**.  
 
  Una riga di pianificazione può essere di uno dei seguenti tipi:  
 
@@ -261,7 +261,7 @@ Le righe sono così registrate.
 4.  Nella Scheda dettaglio **Opzioni** immettere la data di registrazione e specificare se creare una fattura per task oppure una singola fattura per tutti i task.  
 5.  Selezionare il pulsante **OK** per creare la fattura e fare clic sul pulsante **OK** nella pagina di conferma.  
 
- Dopo che Cinzia ha creato la fattura, può accedervi da **Vendite e marketing** sotto **Gestione ordini** per ulteriori elaborazioni.  
+ Dopo che Tricia ha creato la fattura, può ad esempio accedervi da Gestione ruolo utente **Gestione ordini vendite**. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Per registrare una nuova fattura di vendita  
 

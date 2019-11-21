@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300787"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692706"
 ---
 # <a name="changing-language-and-locale"></a>Modifica di lingua e impostazioni locali
 
@@ -40,6 +40,10 @@ Le impostazioni locali differiscono dalla lingua e dai requisiti legali nei merc
 
 Per modificare le impostazioni locali, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Versione applicazione
+
+Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE [prodshort](includes/prodshort.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
@@ -49,6 +53,8 @@ Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fi
 > [!NOTE]  
 > Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue. Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedere anche
+
+[Risorse per Guida e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  

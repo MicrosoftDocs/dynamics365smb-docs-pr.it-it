@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315278"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649790"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -33,7 +33,7 @@ Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri s
 
 La seguente procedura è basata su ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita a cui desidera allegare un file.
 3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
 4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
@@ -52,9 +52,7 @@ La procedura seguente è basata su una scheda articolo. I passaggi sono simili p
 3. In **Collegamenti**, scegliere l'icona **+**.
 4. Nel campo **Indirizzo collegamento**, immettere il collegamento.
 
-    - Per creare un collegamento a un file nel computer o in rete, immettere il percorso completo e il nome di file, ad esempio **C:\Documenti\Fattura1.doc**.
-    - Per creare un collegamento a un sito Web, immettere l'indirizzo Internet (URL), ad esempio **www.microsoft.com**.
-    - Per creare un collegamento a un programma, immettere una stringa specifica per aprire il programma. Ad esempio, per aprire Outlook con una nuova e-mail vuota a un alias specifico, immettere **mailto:testalias**.  
+    Il collegamento deve essere un URL Internet o Intranet.
 
 5. Nel campo **Descrizione** immettere le informazioni relative al collegamento.  
 6. Scegliere il pulsante **OK**.
@@ -69,7 +67,7 @@ Il collegamento è ora allegato alla scheda articolo.
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di vendita in cui si desidera scrivere una nota, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
 3. Nella sezione **Note**, scegliere l'icona **+**.
 4. Nel campo **Nota**, scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".

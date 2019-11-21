@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46fbc3e9c2553a7c45fe571a74126c534d442b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301638"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798525"
 ---
-# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Impostazione dei calcoli e registrazione dei metodi per l'IVA
+# <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
 
 * Persone a cui si vende  
@@ -36,14 +36,14 @@ Se si desidera impostare i calcoli IVA manualmente, o se si desidera conoscere c
 Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito**.  
 2. Scegliere **Imposta IVA**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Per impostare i numeri di partita IVA per il paese
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[d365fin](includes/d365fin_md.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
 Per impostare i numeri di partita VAT, attenersi a questa procedura:
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Paesi**.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Paesi**.
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
 
@@ -72,7 +72,7 @@ Si consiglia di utilizzare codici semplici da ricordare e descrittivi. Ad esempi
 
 Per impostare una categoria di registrazione business IVA, attenersi a questa procedura:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie reg. art./serv. IVA** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazioni articoli/servizi IVA** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Per combinare le categorie di registrazione IVA nei setup registrazione IVA
@@ -93,7 +93,7 @@ Se si desidera applicare le stesse categorie di registrazione IVA a più entità
 
 La categoria registrazione business o articoli/servizi IVA è assegnata quando si sceglie una categoria registrazione business o articoli/servizi per un cliente, un fornitore, un articolo o una risorsa.
 
-## <a name="to-assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Per assegnare le categorie di registrazione IVA a singoli conti, clienti, fornitori, articoli e risorse
+## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Assegnazione di categorie di registrazione IVA a conti, clienti, fornitori, articoli e risorse
 Nelle sezioni successive viene descritto come assegnare le categorie di registrazione IVA alle singole entità.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Per assegnare categorie di registrazione IVA a singoli conti di contabilità generale
@@ -103,7 +103,7 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 5. Scegliere le categorie di registrazione IVA da utilizzare per il conto vendite o acquisti.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Per assegnare le categorie di registrazione business IVA a clienti e fornitori  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore**e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore** e quindi scegliere il collegamento correlato.  
 2. Nella scheda del **Cliente** o **Fornitore**, espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione business IVA.  
 
@@ -115,13 +115,11 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 * Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Impostazione di modelli di dichiarazione IVA e dei nomi della dichiarazione IVA
-Le autorità fiscali possono e devono modificare i requisiti per la registrazione dell'IVA. **Definizioni dichiarazione IVA** e **Nomi dichiarazione IVA** consentono di prepararsi per eventuali modifiche e a effettuare una transizione graduale ai nuovi requisiti. È possibile utilizzare le definizioni di dichiarazione IVA per definire i campi da includere nella dichiarazione IVA, che a loro volta che definiscono i calcoli, ed è possibile creare una nuova definizione di dichiarazione IVA quando i requisiti cambiano. Ad esempio, una definizione potrebbe calcolare l'IVA per quest'anno in base ai requisiti correnti e un altro potrebbe calcolare l'IVA in base ai requisiti per l'anno successivo. Le definizioni sono inoltre un metodo per conservare una cronologia dei formati delle dichiarazioni IVA, ad esempio, ad esempio, per poter verificare come è stata calcolata l'IVA negli anni precedenti.
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA
+Le autorità fiscali possono e devono modificare i requisiti per la registrazione dell'IVA. Definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA consentono di prepararsi per eventuali modifiche e a effettuare una transizione graduale ai nuovi requisiti. È possibile utilizzare le definizioni di dichiarazione IVA per definire i campi da includere nella dichiarazione IVA, che a loro volta che definiscono i calcoli, ed è possibile creare una nuova definizione di dichiarazione IVA quando i requisiti cambiano. Ad esempio, una definizione potrebbe calcolare l'IVA per quest'anno in base ai requisiti correnti e un altro potrebbe calcolare l'IVA in base ai requisiti per l'anno successivo. Le definizioni sono inoltre un metodo per conservare una cronologia dei formati delle dichiarazioni IVA, ad esempio, ad esempio, per poter verificare come è stata calcolata l'IVA negli anni precedenti.
 
-## <a name="how-to-define-and-preview-vat-statements"></a>Come definire e visualizzare l'anteprima della dichiarazione IVA
-Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre. Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprima per assicurarsi che soddisfi le proprie esigenze.
-
-Per definire una dichiarazione IVA, attenersi a questa procedura:
+## <a name="to-define-a-vat-statements"></a>Per definire dichiarazioni IVA
+Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
 2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**.
@@ -131,17 +129,20 @@ Per definire una dichiarazione IVA, attenersi a questa procedura:
 > È possibile filtrare le informazioni che la dichiarazione includerà, a seconda di ciò che viene scelto nel campo **Tipo**. **Totale conto** è utile quando si desidera ottenere l'IVA di un conto specifico.
 **Totale Mov. IVA** ottiene l'IVA da conti assegnati alle selezioni in **Tipo reg. gen.**, **Cat. reg. business IVA** e/o i campi **Cat. reg. art./serv. IVA**. **Totale Riga** consente di immettere un valore o filtrare rapidamente il campo **Totale Riga**. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md). **Descrizione** è spesso utilizzato aggiungere una nota alla dichiarazione. Ad esempio, potrebbe essere utilizzata come intestazione quando si utilizza il totale riga.
 
-Per visualizzare un'anteprima di una dichiarazione IVA, attenersi a questa procedura:
+## <a name="to-preview-the-vat-statement"></a>Per visualizzare in anteprima la dichiarazione IVA
+Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprima per assicurarsi che soddisfi le proprie esigenze.
 
 1. Scegliere **Anteprima**.
 2. Immettere un filtro data per limitare la dichiarazione a un periodo specifico. Per ulteriori informazioni su come personalizzare la pagina per visualizzare il filtro data, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md)..
 3. È possibile selezionare varie opzioni per specificare il tipo di movimenti IVA da includere nella dichiarazione.
 4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.   
 
-## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Per impostare le categorie con cui descrivere l'utilizzo di aliquote IVA non standard
+## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Impostazione delle categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
 È possibile impostare una categoria IVA per descrivere informazioni sul tipo di IVA che viene applicata. Le informazioni possono essere obbligatorie per la normativa statale. Dopo aver impostato una categoria IVA e averla associata a un setup registrazioni IVA, la categoria IVA viene visualizzata su tutti i documenti di vendita stampati con tale categoria di setup registrazioni IVA.
 
 Se necessario, è anche possibile specificare come tradurre automaticamente le categorie IVA in altre lingue. Successivamente, quando si crea e si stampa un documento di vendita contenente un codice IVA, il documento includerà la categoria IVA nel testo tradotto. Il codice lingua specificato nella scheda cliente determina la lingua.
+
+Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti, come fatture o note di credito, le società sono generalmente tenute a includere un testo di esenzione (categoria IVA) indicante il motivo per cui è stata calcolata un'IVA ridotta o un'aliquota IVA zero. È possibile definire diverse categorie IVA da includere nei documenti commerciali per tipo di documento, come fattura o nota di credito. È possibile eseguire questa operazione nella pagina **Categorie IVA per tipo di documento**.
 
 È possibile modificare o eliminare una categoria IVA. Le modifiche si rifletteranno in un report generato. Tuttavia, [!INCLUDE[d365fin](includes/d365fin_md.md)] non conserva una cronologia della modifica. Nel report, le descrizioni della categoria IVA vengono stampate e visualizzate per tutte le righe del report accanto all'importo IVA e all'imponibile IVA. Se una categoria IVA non è stata definita per alcune righe del documento di vendita, allora viene omessa l'intera sezione quando il report viene stampato.
 
@@ -149,9 +150,11 @@ Se necessario, è anche possibile specificare come tradurre automaticamente le c
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie IVA** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Categorie IVA** creare una nuova riga.  
 3. Nel campo **Codice** immettere un identificatore per la categoria. Il codice viene usato per assegnare la categoria ai categorie di registrazione IVA.  
-4. Nel campo **Descrizione** immettere il testo che si desidera visualizzare nei documenti che possono includere l'IVA. Nel campo **Descrizione 2** immettere testo aggiuntivo, se necessario. Il testo viene visualizzato nelle nuove righe.  
-5. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina Setup registrazioni IVA.  
-6. Facoltativo: per specificare come tradurre automaticamente la categoria IVA scegliere l'azione **Traduzioni**.
+4. Nel campo **Descrizione** immettere il testo per l'esenzione IVA che si desidera visualizzare nei documenti che possono includere l'IVA. Nel campo **Descrizione 2** immettere testo aggiuntivo, se necessario. Il testo verrà visualizzato sulle nuove righe dei documenti.
+5. Scegliere l'azione **Descrizione per tipo di documento**.
+6. Nella pagina **Categorie IVA per tipo di documento**, compilare i campi per impostare il testo per l'esenzione IVA da visualizzare tipi di documento specifici.  
+7. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina **Setup registrazioni IVA**.  
+8. Facoltativo: per specificare come tradurre automaticamente la categoria IVA scegliere l'azione **Traduzioni**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Per assegnare una categoria IVA a un setup di registrazione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
@@ -167,7 +170,7 @@ Se necessario, è anche possibile specificare come tradurre automaticamente le c
 La funzionalità relativa all'IVA sulle importazioni viene utilizzata quando è necessario registrare un documento in cui l'intero importo è IVA. Si userà questa funzionalità quando si riceve una fattura con IVA dalle autorità fiscali per merci importate.  
 
 Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura:  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie reg. art./serv. IVA** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazioni articoli/servizi IVA** e quindi scegliere il collegamento correlato.  
 2. Nella pagina Categorie reg. art./serv. IVA impostare una nuova categoria di registrazione articoli/servizi IVA per l'IVA da importazione.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
 4. Nella pagina Setup registrazioni IVA creare una nuova riga o utilizzare una delle categorie di registrazione business IVA esistenti in combinazione con la nuova categoria di registrazione articoli/servizi IVA per l'IVA da importazione.  
@@ -240,7 +243,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Per impostare la conversione delle categorie di registrazione prodotti  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Setup modifiche aliquota IVA**, nella scheda **Pagina iniziale**, nel gruppo **Processo** scegliere **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
+2. Nella pagina **Setup modifiche aliquota IVA** scegliere l'azione **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
 3. Nel campo **Da codice** immettere la categoria di registrazione corrente.  
 4. Nel campo **A codice** immettere la nuova categoria di registrazione.  
 
@@ -253,7 +256,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 > [!IMPORTANT]  
 >  Prima di eseguire la conversione modifica aliquota IVA, è possibile eseguire i test della conversione. A tale scopo, eseguire la procedura riportata di seguito, ma assicurarsi di deselezionare le caselle di controllo **Esegui conversione** e **Strumento di modifica aliquota IVA completato**. Durante la conversione di test, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è stato rimosso e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** è vuoto. Al termine della conversione, scegliere **Voci log modifiche aliquota IVA** per visualizzare i risultati del test di conversione. Verificare ciascun movimento prima di eseguire la conversione. In particolare, verificare le transazioni che usano un'aliquota IVA precedente.     
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento **Setup modifiche aliquota IVA**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modifica aliquota IVA** e quindi scegliere il collegamento **Setup modifiche aliquota**.  
 2. Verificare che sia già stata impostata la conversione della categoria di registrazione articoli/servizi IVA o quella relativa agli articoli/servizi.  
 3. Selezionare la casella di controllo **Esegui conversione**.  
 
@@ -261,12 +264,12 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
     >  Deselezionare la casella controllo **Strumento di modifica aliquota IVA completato**. La casella di controllo viene selezionata automaticamente al termine della conversione della modifica dell'aliquota IVA.  
 
 4. Scegliere l'azione **Converti**.  
-5. Al termine della conversione, nel gruppo **Processo** della scheda **Pagina iniziale** selezionare **Voci log modifiche aliquota IVA** per visualizzare i risultati della conversione.  
+5. Al termine della conversione, scegliere l'azione **Voci log modifiche aliquota IVA** per visualizzare i risultati del test di conversione.  
 
 > [!IMPORTANT]  
 >  Dopo la conversione, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è selezionato e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** visualizza la data di conversione.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
-[Procedura: Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
+[Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  

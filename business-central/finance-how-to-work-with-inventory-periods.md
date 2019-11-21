@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305842"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554040"
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
 I periodi di magazzino definiscono un periodo di tempo durante il quale è possibile registrare modifiche al magazzino. Un periodo di magazzino è definito dalla data in cui termina, ovvero la data di fine. Quando il periodo di magazzino è chiuso, non è possibile registrare modifiche al magazzino, previsto o fatturato, precedente alla data di fine. Non è inoltre possibile inserire qualsiasi nuovo valore nel magazzino prima della data di fine. Se nel periodo chiuso sono presenti movimenti articoli aperti, ovvero quantità positive non ancora consumate da, o collegate a, transazioni in uscita, è ancora possibile collegare quantità in uscita a questi movimenti, anche se il periodo è chiuso.  
 
-Nelle sezioni successive viene descritto come effettuare le seguenti operazioni:  
+Nelle sezioni successive viene descritto come effettuare le seguenti operazioni:
 
 * Creare periodi di magazzino.  
 * Chiudere periodi di magazzino.  
@@ -45,7 +45,7 @@ Il campo **Chiuso** indica se il periodo di magazzino è chiuso, ovvero se non �
 Questo significa che tutte le quantità relative a transazioni in uscita, ad esempio ordini di vendita, trasferimenti in uscita, fatture di vendita, resi di acquisto o note di credito di acquisto, devono essere collegate a quantità esistenti in magazzino.  
 
 ### <a name="to-close-an-inventory-period"></a>Per chiudere un periodo di magazzino  
-1. Prima di chiudere un periodo di magazzino, eseguire il processo batch **Rettifica costo - Mov. art.** per assicurarsi di registrare tutte le rettifiche dei costi. Nel gruppo **Funzioni** della scheda **Azioni** scegliere **Rettifica costo - Mov. art.**.  
+1. Prima di chiudere un periodo di magazzino, scegliere l'azione **Rettifica costo - Movimenti articoli** per assicurarsi di registrare tutte le rettifiche dei costi.
 
      Eseguire il report **Chiudi periodo magazzino - Test** per determinare se vi sono movimenti articoli in uscita inclusi nel periodo di magazzino o se vi sono articoli il cui costo non è ancora stato rettificato.  
 2. Scegliere l'azione **Chiudi periodo di magazzino - Test**.  

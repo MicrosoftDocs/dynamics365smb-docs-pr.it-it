@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309462"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774845"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di scelta rapida (solo PC)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Per una panoramica delle scelte rapide più utilizzate in un formato facile da stampare, vedere [Tasti di scelta rapida (solo PC)](keyboard-shortcuts-cheatsheet.md). Per una rappresentazione grafica, selezionare l'immagine seguente:
+> Per una visualizzazione grafica dei tasti di scelta rapida più utilizzati, vedere l'immagine seguente e scaricare il file PDF.
 >
->[ ![Per eseguire il download per la stampa, fare clic con il pulsante destro del mouse e scegliere Salva immagine con nome](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Sintesi
 I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed efficace la navigazione in differenti aree ed elementi in una pagina. I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web, tuttavia, il comportamento può variare leggermente.
@@ -47,11 +49,11 @@ Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazion
 |ALT+MAIUSC+F2|Spostarsi tra **Dettagli** e **Allegati** nel riquadro Dettaglio informazioni.|
 |ALT+O|Aggiungere una nuova nota per il record selezionato, anche se il riquadro Dettaglio informazioni non è aperto.|
 |ALT+Q<br />(CTRL+Opzione+Q)|Aprire la finestra della **funzionalità delle informazioni**. Per ulteriori informazioni, vedere [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md).|
-|ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+**).
-|ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record.
+|ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+**).|
+|ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
 |ALT+T|Aprire la pagina **Impostazioni personali**.|
-|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit](media/assist-edit-icon.png "pulsante AssistEdit"). Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
-|Shift+F12|Aprire la panoramica delle funzionalità. Per ulteriori informazioni, vedere [Individuazione di pagine da una panoramica delle funzionalità](ui-role-explorer.md).|
+|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit](media/assist-edit-icon.png "Pulsante AssistEdit"). Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
+|Shift+F12|Aprire Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).|
 |CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
 |CTRL+ALT+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |CTRL+C |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|

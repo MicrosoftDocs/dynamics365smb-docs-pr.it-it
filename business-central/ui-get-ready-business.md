@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315302"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775597"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -49,7 +49,7 @@ Utilizzare le frecce per comprimere una parte della pagina e per creare più spa
 In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa pagina.    
 
 ## <a name="adding-users-and-permissions"></a>Aggiunta di utenti e permessi
-Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Gestire gli utenti e le autorizzazioni](ui-how-users-permissions.md).  
+Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Una volta creati gli utenti in Office 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni utenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Utilizzo della Guida
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. Per le descrizioni comando dei campi, è possibile premere CTRL+F1 o scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. Anche il punto interrogativo presente nell'angolo in alto a destra visualizza la Guida del prodotto.
@@ -60,6 +60,6 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 ## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Gestire utenti e autorizzazioni](ui-how-users-permissions.md)
+[Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

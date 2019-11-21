@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 851d5359513d1fe744d265b21f13a3abd9c6867b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304806"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692826"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
-Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. Inoltre, è necessario impostare le aree correlate, ad esempio i dati principali per i clienti a cui si inviano fatture elettroniche o il servizio di conversione dati bancari nel caso in cui si utilizzi il provider di servizi esterno per convertire i propri file bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
+Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
  Se [!INCLUDE[d365fin](includes/d365fin_md.md)] è impostato per scambiare i dati con file esterni, gli utenti possono utilizzare l'impostazione in task aziendali comuni, ad esempio l'invio e la ricezione di documenti elettronici, nonché l'importazione e l'esportazione di file bancari.  
 
@@ -32,7 +32,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |È necessario impostare diversi dati master, ad esempio le informazioni sulla società, i clienti, i fornitori, gli articoli e le unità di misura correlati ai dati di mapping in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Impostare l'autenticazione utente e l'URL del provider di servizi di conversione di dati bancari che è necessario per convertire i file della banca nel formato della banca in uso.|[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md)|  
+|Impostare l'autenticazione utente e l'URL del provider di servizi di conversione di dati bancari che è necessario per convertire i file della banca nel formato della banca in uso.|[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Impostare e abilitare un servizio esterno che consente di importare gli estratti conto bancari direttamente come feed bancari.|[Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)|  
 |Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

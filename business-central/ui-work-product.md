@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310638"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774773"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
 
 È possibile, ad esempio, rettificare le dimensioni e l'ubicazione di una pagina, espandere la larghezza di colonne e aumentare l'altezza delle intestazioni di colonna e modificare l'ordinamento dei dati nelle colonne. Se si desidera utilizzare la barra di scorrimento orizzontale per visualizzare tutte le colonne in una pagina di elenco o nelle righe documenti, è disponibile un blocca quadro verticale per evitare lo scorrimento di alcune colonne.
+
+> [!TIP]
+> Per una versione stampabile della panoramica delle funzioni più utilizzate, vedere l'immagine seguente e scaricare il file PDF.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Oltre alle funzioni dell'interfaccia utente generali descritte in questa sezione, è possibile utilizzare altre funzioni generali più correlate all'azienda. Per ulteriori informazioni, vedere [Funzionalità aziendali generali](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 | A | Vedere |
 | --- | --- |
 |Trovare una pagina, un report, un'azione, un argomento della Guida o un'estensione partner. |[Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md) |
-|Ottenere una panoramica delle pagine per il ruolo e per gli altri ruoli e accedere alle pagine.|[Individuazione di pagine da una panoramica delle funzionalità](ui-role-explorer.md)|
+|Ottenere una panoramica delle pagine per il ruolo e per gli altri ruoli e accedere alle pagine.|[Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)|
 | Filtrare i dati in viste, report o funzioni utilizzando simboli e caratteri speciali. |[Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md) |
 |Apprendere le molte funzioni generali che consentono di immettere dati in modo semplice e rapido.|[Immissione di dati](ui-enter-data.md)|
 |Apprendere a come copiare e incollare dati rapidamente utilizzando i tasti di scelta rapida.|[Domande frequenti sulla funzionalità di copia e incolla](ui-copy-paste.md)|

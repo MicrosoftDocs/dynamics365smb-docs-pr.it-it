@@ -12,17 +12,19 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2586e9a5af338bee79bf73b494a7a653b6bfc2f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312534"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577161"
 ---
 # <a name="prioritize-vendors"></a>Attribuire un ordine di priorità ai fornitori
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
 
 Innanzitutto, è necessario assegnare una priorità ai fornitori assegnando loro dei numeri.
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Per attribuire un ordine di priorità ai fornitori
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.

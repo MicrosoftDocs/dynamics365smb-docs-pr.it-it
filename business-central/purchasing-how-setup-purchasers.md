@@ -12,15 +12,17 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316742"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577185"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agente/Add. acquisti** e quindi scegliere il collegamento correlato.

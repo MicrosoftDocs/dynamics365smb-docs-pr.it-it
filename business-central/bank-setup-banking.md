@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303990"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692730"
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
@@ -28,9 +28,9 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 | --- | --- |
 | Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie. |[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) |
 | Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio di conversione di dati bancari](bank-how-setup-bank-data-conversion-service.md) |
+| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

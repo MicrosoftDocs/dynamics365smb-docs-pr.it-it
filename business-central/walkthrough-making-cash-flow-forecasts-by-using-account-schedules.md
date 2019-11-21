@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314846"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554694"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
 In questa procedura dettagliata viene descritto come utilizzare le situazioni contabili per effettuare previsioni del flusso di cassa. Le situazioni contabili consentono di effettuare i calcoli che non possono essere eseguiti direttamente nel piano dei conti di cassa. Nelle situazioni contabili è possibile impostare i subtotali relativi agli incassi e alle uscite di cassa. I subtotali possono essere inclusi nei nuovi totali che potranno essere utilizzati per effettuare le previsioni del flusso di cassa.  
@@ -61,7 +61,7 @@ Dopo aver impostato un nome della situazione contabile, Ken definisce tutte le r
 
 ### <a name="to-set-up-account-schedule-lines"></a>Per impostare le righe della situazione contabile  
 
-1.  Nella pagina **Descr. situazioni contabili** selezionare il nome della nuova situazione contabile **Previsione** creata. Nella scheda **Pagina iniziale** del gruppo **Processo** scegliere **Modifica situazione contabile**.  
+1.  Nella pagina **Descr. situazioni contabili** selezionare il nuovo nome della situazione contabile **Previsione** creato e quindi scegliere l'azione **Modifica situazione contabile**.  
 2.  Nella pagina **Situazione contabile** immettere ogni riga esattamente come indicato nella tabella riportata di seguito.  
 
     > [!NOTE]  

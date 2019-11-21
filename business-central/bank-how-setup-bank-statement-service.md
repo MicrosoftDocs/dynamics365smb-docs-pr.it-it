@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307590"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692898"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -28,6 +28,7 @@ ms.locfileid: "2307590"
 > [!NOTE]
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un conto cobrand di Envestnet Yodlee.<br /><br />
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti e in Canada.
+> Sono supportate solo le banche residenti in questi paesi, anche se le banche di altri paesi possono comparire nella finestra di selezione della banca Envestnet Yodlee Bank Feeds in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Per assistenza tecnica con la funzionalità Envestnet Yodlee, contattare il supporto Microsoft. Non contattare Envestnet Yodlee. Per ulteriori informazioni, vedere [Configurazione del supporto tecnico per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
@@ -47,7 +48,7 @@ Quando il servizio di feed bancari è abilitato, è possibile impostare un conto
 > Se si utilizza la guida al setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Introduzione](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Per abilitare il servizio di feed bancari
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Aprire il conto corrente bancario da utilizzare per il servizio di feed bancari.
 3. Nella pagina **Conto bancario** nel campo **Formato importazione rendiconto bancario** selezionare YODLEEBANKFEED.  
 
@@ -57,7 +58,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 > Se si utilizza la guida di setup assistito **Setup società**, si attiva l'assistenza selezionando la casella di controllo **Utilizza servizio feed bancari**. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Per creare un nuovo conto bancario collegato
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato**. Dopo alcuni istanti, si apre la pagina **Collegamento conto bancario**.
 
     > [!NOTE]  
@@ -85,7 +86,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 10. Nella pagina **Lista C/C bancari** selezionare il conto bancario per il quale si desidera effettuare il collegamento e quindi fare clic su **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Per collegare un conto bancario a un conto bancario online
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare la riga per un conto bancario non collegato a un conto bancario online quindi selezionare l'azione **Collega a conto bancario online**. Si apre la pagina **Collegamento conto bancario online** con il nome della banca precompilato nel riquadro **Collegamento conto**.
 3. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 4. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
@@ -98,20 +99,20 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 Nella pagina **Lista C/C bancari** è selezionata la casella di controllo **Collegato**.
 
 ## <a name="to-unlink-a-bank-account"></a>Per scollegare un conto bancario
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.  
 2. Selezionare la riga per un conto bancario collegato che si desidera scollegare dal relativo conto bancario online e quindi selezionare l'azione **Scollega conto bancario online**.
 
 > [!NOTE]  
 > Se si sceglie **Sì** nella finestra di dialogo di conferma, il collegamento al conto bancario online viene rimosso e i dettagli di accesso vengono cancellati. Per collegare il nuovo conto bancario al conto bancario online, è necessario collegarsi ancora alla banca. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
 
 ## <a name="to-update-bank-account-linking"></a>Per aggiornare il collegamento del conto bancario
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato e selezionare l'azione **Aggiorna collegamento conto bancario**.
 
 Se esistono dei problemi per uno dei conti bancari collegati nella pagina **Lista C/C bancari** si apre la finestra **Collegamento conto bancario** in cui sono specificati i conti correnti bancari con problemi. Il modo migliore per risolvere i problemi consiste nello scollegare il conto bancario online e quindi ricreare il collegamento. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Per abilitare l'importazione automatica degli estratti conto bancari
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare la riga per un conto corrente bancario collegato quindi selezionare l'azione **Setup importazione automatica rendiconti bancari**.
 3. Nella pagina **Setup importazione automatica rendiconti bancari** nel campo **Numero di giorni inclusi** specificare il periodo per recuperare le nuove transazioni bancarie.
 

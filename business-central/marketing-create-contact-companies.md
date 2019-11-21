@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309318"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798573"
 ---
 # <a name="create-contacts"></a>Crea contatti
 Si incontrano regolarmente persone di altre società che possono diventare relazioni d'affari, ad esempio relazioni con i clienti. In caso di nuovo contatto, è necessario registrare il maggior numero di informazioni su una scheda contatti affinché la comunicazione possa continuare.
 
 È possibile creare il contatto come tipo **Società**, ad esempio, se la relazione non è una singola persona ma un'entità, come un appaltatore o una banca. È inoltre possibile creare il contatto di tipo **Persona**. La funzionalità è più o meno la stessa per entrambi i tipi ed entrambi possono essere modificati con l'evoluzione della relazione.
 
-Quando una scheda contatto viene convertita in una scheda cliente, ad esempio, la persona di contatto o la società di contatto diventa il nome del cliente. La scheda di contatto rimane e i dati sulle due schede verranno sincronizzati andando avanti se li colleghi.
+Quando una scheda contatto viene convertita in una scheda cliente, ad esempio, la persona di contatto o la società di contatto diventa il nome del cliente. La scheda contatto rimane e i dati sulle due schede verranno sincronizzati in avanti, qualora se ne effettui il collegamento.
 
 ## <a name="person-or-company"></a>Persona o società
 È possibile decidere di configurare un contatto come persona o società, in genere a seconda se si conosce il nome della persona contatto al momento della creazione. Si esegue questa operazione quando si immette il valore del campo **Tipo** nella pagina **Scheda contatto**. È inoltre possibile mantenere schede contatti per una società e per una o più persone che lavorano nella società. Ciò avviene automaticamente quando si immette un valore nel campo **Nome Società** nella scheda contatti di tipo **Persona**.
@@ -45,7 +45,7 @@ Se vi sono clienti, fornitori e conti bancari per i quali si intendono creare sc
 > [!NOTE]  
 > Prima di creare contatti basati su dati esistenti, è necessario specificare un codice relazione d'affari per clienti, fornitori o conti bancari nella Scheda dettaglio **Interazioni** nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Impostare i contatti](marketing-setup-contacts.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere una delle seguenti opzioni, in base all'origine da cui si desidera creare contatti, quindi selezionare il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere una delle seguenti opzioni, in base all'origine da cui si desidera creare contatti, quindi selezionare il collegamento correlato.
    * **Crea contatti dai clienti**
    * **Crea contatti dai fornitori**
    * **Crea contatti da conti correnti**

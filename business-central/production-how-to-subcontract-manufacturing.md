@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313062"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553796"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
@@ -61,7 +61,7 @@ La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** ne
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Per creare l'ordine di acquisto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto conto lavoro** e quindi scegliere il collegamento correlato.  
-2.  Nel gruppo **Processo** della scheda **Azioni** scegliere **Esegui messaggi di azione**.  
+2.  Scegliere l'azione **Esegui messaggi di azione**.  
 3.  Selezionare il campo **Stampa ordini** per stampare l'ordine di acquisto mentre viene creato.  
 4.  Scegliere il pulsante **OK**.  
 

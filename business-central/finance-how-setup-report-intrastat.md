@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302190"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554160"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Procedura: Impostare e registrare report Intrastat
+# <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configurazioni obbligatorie e facoltative
 Prima di poter usare la registrazione Intrastat per dichiarare le informazioni Intrastat, è necessario impostare varie opzioni:  
 
-* **Setup Intrastat**: la pagina Setup Intrastat consente di abilitare il reporting Intrastat e impostare i relativi valori predefiniti. È possibile specificare se è necessario creare report Intrastat da spedizioni (invii), entrate (arrivi) o entrambi a seconda delle soglie impostate in base alle normative locali. È anche possibile impostare tipi di transazioni di default per documenti normali e di reso, utilizzati per la natura del reporting delle transazioni. 
+* **Setup Intrastat**: la pagina Setup Intrastat consente di abilitare il reporting Intrastat e impostare i relativi valori predefiniti. È possibile specificare se è necessario creare report Intrastat da spedizioni (invii), entrate (arrivi) o entrambi a seconda delle soglie impostate in base alle normative locali. È anche possibile impostare tipi di transazioni di default per documenti normali e di reso, utilizzati per la natura del reporting delle transazioni.
 * **Definizioni di registrazioni Intrastat**: è necessario impostare le definizioni di registrazioni Intrastat e i batch che verranno utilizzati. Poiché il report Intrastat viene creato mensilmente, è necessario creare 12 batch di registrazioni Intrastat basati sulla stessa definizione.  
 * **Codici voce doganale**: le autorità doganali e fiscali hanno stabilito codici numerici che classificano gli articoli e i servizi. Specificare questi codici negli articoli.
 * **Codici natura transazione**: i paesi e le aree hanno codici differenti per la natura delle transazioni Intrastat, ad esempio acquisto o vendita ordinaria, cambio di merce resa e sostituzione di merce non resa. Impostare tutti codici che si applicano al proprio paese. È possibile utilizzare questi codici nei documenti di vendita e di acquisto e quando si elaborano i resi.  
@@ -47,7 +47,7 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.  
-3. Per creare i batch, scegliere la scheda **Naviga** e quindi scegliere **Batch**.  
+3. Per creare batch, scegliere l'azione **Batch**.  
 4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.  
 
 > [!Note]
@@ -76,7 +76,7 @@ In alcuni paesi, come Spagna e Regno Unito, le autorità richiedono che i report
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Intrastat** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Setup checklist Intrastat**.
-3. Nella pagina **Setup checklist Intrastat**, fare clic su **Nome campo** per selezionare il campo del report Intrastat che si desidera rendere obbligatorio. 
+3. Nella pagina **Setup checklist Intrastat**, fare clic su **Nome campo** per selezionare il campo del report Intrastat che si desidera rendere obbligatorio.
 
 ## <a name="to-report-intrastat"></a>Per creare un report Intrastat
 Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione **Report Intrastat - Checklist** per verificare che tutte le informazioni nelle registrazioni siano corrette. I campi obbligatori impostati nella pagina **Setup checklist Intrastat** in cui mancano i valori verranno mostrati in Dettaglio informazioni di Errori e e avvisi nella pagina **Registrazioni Intrastat**. È successivamente possibile stampare un report Intrastat come form, oppure creare un file da inviare a un'autorità fiscale del proprio paese.  
@@ -98,7 +98,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat** selezionare il batch registrazioni desiderato nel campo **Nome batch**.  
-3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliendo **Suggerisci righe**.  
+3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliere l'azione **Suggerisci righe**.  
 4. Scegliere l'azione **Stampa registrazione Intrastat**.  
 5. Nella Scheda dettaglio **Righe reg. Intrastat** aggiungere un filtro **Tipo**, quindi specificare se si tratta di **Carico** o **Spedizione**.  
 6. Per stampare il report, fare clic su **Invia a**.  
@@ -108,9 +108,9 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat** selezionare il batch registrazioni desiderato nel campo **Nome batch**.  
-3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliendo **Suggerisci righe**.  
+3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliendo l'azione **Suggerisci righe**.  
 4. Scegliere l'azione **Crea file**.  
-5. Nella pagina del processo batch fare clic su **OK**.  
+5. Nella pagina del processo batch scegliere il pulsante **OK**.  
 6. Selezionare **Salva**.  
 7. Spostarsi sul percorso in cui si desidera salvare il file, quindi immettere il nome file desiderato e fare clic su **Salva**.
 
@@ -119,7 +119,7 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Per visualizzare le opzioni, scegliere il campo **Nome batch**.  
-3. Scegliere i batch registrazioni da eliminare a quindi scegliere **Elimina**.  
+3. Scegliere i batch registrazioni da eliminare a quindi scegliere il pulsante **Elimina**.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione contabile](finance.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310758"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695097"
 ---
 # <a name="tell-me-faq"></a>Domande frequenti relative alla funzionalità delle informazioni
 Questo argomento risponde alle domande poste spesso dai nostri utenti esperti sulla funzionalità delle informazioni.
@@ -51,4 +51,4 @@ No. È possibile aggiungere un segnalibro solo a un collegamento a una pagina o 
 ## <a name="see-also"></a>Vedere anche  
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
-[Individuazione di pagine da una panoramica delle funzionalità](ui-role-explorer.md)
+[Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)

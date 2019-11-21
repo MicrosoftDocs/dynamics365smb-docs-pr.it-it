@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304062"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692754"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Impostare il servizio di conversione di dati bancari
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ciò viene indicato in [!INCLUDE[d365fin](includes/d365fin_md.md)] come il servizio di conversione di dati bancari.
@@ -53,14 +53,14 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 2. Nella pagina **Setup servizio conv. dati banca**, scegliere l'azione **Nome banca - Lista conversione dati** per aprire l'elenco dei nomi di banca che rappresentano i formati di dati bancari che sono supportati dal servizio di conversione.
 3. Nella pagina **Nome banca - Lista conversione dati** scegliere l'azione **Aggiorna lista nomi banche**.
 
-La lista dei formati di dati bancari che sono supportati dal servizio di conversione di dati bancari ora è aggiornata. Si tratta dell'elenco di nomi di banca, filtrato per paese, che è possibile selezionare dal campo **Nome banca - Conversione dati** presente nella pagina **Scheda conto bancario**.
+La lista dei formati di dati bancari che sono supportati dall'estensione AMC Banking 365 Fundamentals ora è aggiornata. Si tratta dell'elenco di nomi di banca, filtrato per paese, che è possibile selezionare dal campo **Nome banca - Conversione dati** presente nella pagina **Scheda conto bancario**.
 
 > [!NOTE]  
 >   L'aggiornamento dei formati di dati bancari supportati si verifica anche quando si seleziona o si immette un valore nel campo **Nome banca - Conversione dati** del conto corrente bancario.
 
 A questo punto è stata eseguita l'iscrizione al servizio di conversione di dati bancari. Continuare a riflettere le informazioni di iscrizione in ogni conto bancario che utilizzerà il servizio.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

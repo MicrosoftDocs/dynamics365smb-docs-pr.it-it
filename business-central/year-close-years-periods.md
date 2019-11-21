@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3d236654bb5ee2786d8cfaf3479a883b01795a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314390"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554598"
 ---
 # <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, come assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
@@ -31,7 +31,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Fornisce una panoramica delle attività che vengono comunemente eseguite alla fine di un periodo, come la contabilizzazione di tutti i documenti e le registrazioni o l'esecuzione delle situazioni contabili. |[Periodi di chiusura](year-how-complete-period-end-processes.md) |
 | Aggiornare i tassi di cambio delle valute e rettificare i tassi di cambio dei movimenti clienti, fornitori e di conto corrente registrati. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md) |
 | Assegnare costi ed entrate tra conti e dimensioni. |[Allocazione di costi e ricavi](year-allocate-costs-income.md) |
-| Prepararsi per dichiarare al servizio Web delle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Procedura: Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
+| Prepararsi per dichiarare al servizio Web delle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
 | Stampare report per verificare i saldi relativi a C/G, clienti, fornitori e conti correnti bancari prima della chiusura di un periodo. |[Predisposizione dei report preliminari alla chiusura](year-prepare-preclose-reports.md) |
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |

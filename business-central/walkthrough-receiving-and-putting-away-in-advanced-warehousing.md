@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314703"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553894"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
 
@@ -136,7 +136,7 @@ Nella pagina **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno
 
 ### <a name="to-put-the-items-away"></a>Per stoccare gli articoli  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e nella scheda **Pagina iniziale**, nel gruppo **Gestisci**, scegliere **Modifica**.  
+2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e scegliere l'azione **Modifica**.  
 
     Il documento di stoccaggio warehouse verrà visualizzato con un totale di otto righe Prendere o Mettere per le quattro righe ordine di acquisto.
 

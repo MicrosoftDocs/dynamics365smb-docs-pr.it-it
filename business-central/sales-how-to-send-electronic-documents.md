@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b48dab5b644696bc30dd1748370697ac408f387
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316286"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554817"
 ---
 # <a name="send-electronic-documents"></a>Inviare documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio delle fatture e delle note di credito elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Un provider di servizi di Exchange per documenti invia i documenti elettronici tra i partner commerciali. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
@@ -30,7 +30,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'i
 
 2.  Creare una nuova fattura di vendita.  
 
-3.  Quando la fattura è pronta, nel gruppo **Registrazione** della scheda **Azioni** scegliere **Registra e invia**.  
+3.  Una volta che la fattura di vendita è pronta per essere fatturata, scegliere l'azione **Registra e invia**.  
 
      Se il profilo di invio predefinito del cliente è **Documento elettronico**, sarà mostrato nella finestra di dialogo **Conferma registrazione e invio** e basterà scegliere il pulsante **Sì** per registrare e inviare elettronicamente la fattura nel formato selezionato.  
 
@@ -47,7 +47,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'i
      La fattura di vendita viene registrata e inviata al cliente come documento elettronico in formato PEPPOL.  
 
     > [!NOTE]  
-    >  È inoltre possibile inviare una fattura di vendita registrata come documento elettronico. La procedura è uguale a quella descritta in questo argomento per i documenti di vendita non registrati. Nella pagina **Fatt. di vend. reg.** nella scheda **Azioni**, nel gruppo **Generale**, scegliere **Log attività** per visualizzare lo stato del documento elettronico. Per ulteriori informazioni, vedere **Log attività**.  
+    >  È inoltre possibile inviare una fattura di vendita registrata come documento elettronico. La procedura è uguale a quella descritta in questo argomento per i documenti di vendita non registrati. Nella pagina **Fatt. di vend. reg.** scegliere l'azione **Log attività** per visualizzare lo stato del documento elettronico. Per ulteriori informazioni, vedere **Log attività**.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  

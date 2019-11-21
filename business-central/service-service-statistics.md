@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315878"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553844"
 ---
 # <a name="viewing-service-statistics"></a>Visualizzazione delle statistiche relative all'assistenza
 È possibile utilizzare statistiche che consentono di analizzare i documenti di assistenza e determinare la qualità di gestione dei processi di assistenza. È possibile analizzare contratti, offerte, fatture e note di credito di assistenza nonché articoli in assistenza scegliendo l'azione **Statistiche**. Per gli articoli in assistenza e i contratti di assistenza, è anche possibile utilizzare **Trendscape articolo di assist.** o **Trendscape contratto** per visualizzare un resoconto dei movimenti contabili di assistenza per un articolo in assistenza specifico.   
@@ -93,7 +93,7 @@ Viene generato un movimento di utili o perdite contratto quando un'offerta di co
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visualizzazione di statistiche per documenti di assistenza registrati
 Le statistiche relative all'assistenza consentono di ottenere una panoramica dei dati statistici relativi al contenuto di documenti di assistenza registrati, ad esempio spedizione, fattura o nota di credito registrata.  
 
-Le informazioni statistiche vengono visualizzate nella pagina delle statistiche per il documento di assistenza registrato corrispondente. È possibile aprire la pagina delle statistiche rilevante dai documenti di spedizione assistenza registrata, fattura di assistenza registrata o note di credito di assistenza registrate. Per ognuno di questi tipi di documento, nel gruppo **Processo** della scheda **Pagina iniziale** scegliere **Statistiche**. Ad esempio, nella pagina **Fatture assistenza registrate** scegliere **Statistiche** nel gruppo **Processo** della scheda **Pagina iniziale**.  
+Le informazioni statistiche vengono visualizzate nella pagina delle statistiche per il documento di assistenza registrato corrispondente. È possibile aprire la pagina delle statistiche rilevante dai documenti di spedizione assistenza registrata, fattura di assistenza registrata o note di credito di assistenza registrate. Per ciascuno di questi tipi di documento, selezionare l'azione **Statistiche**. Ad esempio, nella pagina **Fatture assistenza registrate**, scegliere l'azione **Statistiche**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiche relative alle spedizioni di assistenza registrate  
 La pagina **Statistiche spedizioni assistenza** consente di visualizzare una panoramica di una spedizione di assistenza registrata. Le informazioni visualizzate sono relative al contenuto fisico della spedizione, ad esempio la quantità degli articoli spediti, le ore o i costi relativi alle risorse, nonché il peso e il volume degli articoli stessi.  
