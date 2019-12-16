@@ -1,8 +1,6 @@
 ---
 title: Come impostare task standard per le operazioni | Microsoft Docs
 description: È possibile immettere descrizioni per i task standard.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 203b42ed7b9e4650cdf837825603ff4f4a5edf5e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314218"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878025"
 ---
 # <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
 L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli. Questi consentono di allegare rapidamente ulteriori informazioni alle operazioni periodiche.

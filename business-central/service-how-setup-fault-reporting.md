@@ -1,8 +1,6 @@
 ---
 title: Impostare il reporting dei guasti in Gestione assistenza | Documenti Microsoft
 description: Informazioni su come impostare i processi di reporting dei guasti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c3d770f1ee6e0c50439f5d0a4591c463b91631a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26e8e5dcd7ca3e69a3f7fbdfbe8c93d866cbce7d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316190"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882933"
 ---
 # <a name="set-up-fault-reporting"></a>Impostare il reporting dei guasti
 Il reporting dei guasti consente di stabilire degli standard per registrare le informazioni relative ai guasti per gli articoli in assistenza. Ad esempio, è possibile specificare il tipo di problema, gli indizi osservati, il motivo del problema e in che modo risolverlo.  
@@ -41,11 +39,11 @@ Per completare l'impostazione del reporting dei guasti, è anche possibile speci
 <!--this needs to go in a working with topic-->
  Al fine di visualizzare le modalità più comuni di riparazione di particolari guasti nell'articolo durante l'assistenza, occorre impostare informazioni relative a relazioni codici guasto/risoluzione. Utilizzare il processo batch **Inser. relaz. cod. guasti/risol.** per trovare tutte le combinazioni di codici di guasto e di risoluzione negli ordini di assistenza registrati e registrarle nella pagina **Relazioni codici guasto/risoluzione**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Inser.relaz. cod. guasti/risol.** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Inser. relaz. cod. guasti/risol.** e quindi scegliere il collegamento correlato.  
 2. Immettere le date per definire il periodo che si desidera includere nel processo batch.  
 3. Per raggruppare le relazioni in base al gruppo di articoli in assistenza, scegliere la casella di controllo **Relaziona in base a Gruppo art. in ass.**.  
 4. Per mantenere i record già inseriti manualmente nella pagina **Relazioni codici guasto/risoluzione**, scegliere la casella di controllo **Mantieni record inseriti manualm.**  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  

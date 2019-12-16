@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Panoramica warehouse | Microsoft Docs'
 description: Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse. Le informazioni sono gestite nella tabella **Movimento warehouse**. Ogni transazione viene memorizzata in un registro warehouse.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1edf9c9f5b86a618e32820a261f1f9a4597b756a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 20e2d2529ab84184bb55366434b41126703c5107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306654"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879946"
 ---
 # <a name="design-details-warehouse-overview"></a>Dettagli di progettazione: Panoramica warehouse
 Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse. Le informazioni sono gestite nella tabella **Movimento warehouse**. Ogni transazione viene memorizzata in un registro warehouse.  
@@ -79,5 +77,5 @@ Per allinearsi ai concetti finanziari di acquisti e vendite, la documentazione d
 |Flusso interno|Spostamento articoli nell'ubicazione della warehouse, ad esempio i componenti di produzione e l'output.|  
 |Flusso in uscita|Spostamento articoli all'esterno dell'ubicazione della warehouse, ad esempio le vendite e i trasferimenti in uscita.|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)

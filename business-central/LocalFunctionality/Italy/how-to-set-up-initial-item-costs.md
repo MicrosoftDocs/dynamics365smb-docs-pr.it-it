@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Impostare i costi iniziali per gli articoli'
 description: Quando si imposta Business Central nell'organizzazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66c7eba430f5c3633fba47472b579ca428c21a95
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4472809b8924758e55652016bfe295667a8648b3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301296"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878910"
 ---
 # <a name="set-up-initial-item-costs"></a>Impostare i costi iniziali per gli articoli
 Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nell'organizzazione.  
@@ -26,7 +24,7 @@ Nella pagina **Costo articolo prima dell'inizio**, è possibile immettere inform
 
 ## <a name="to-set-up-initial-item-costs"></a>Per impostare i costi iniziali per gli articoli  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Costo articolo prima dell'inizio**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Costo articolo prima dell'inizio** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Immettere informazioni nei campi obbligatori, tra cui i campi **Data inizio**, **Quantità acquisto**, **Importo acquisto**, **Quantità produzione** e **Importo produzione**.  
 4.  Scegliere il pulsante **OK**.  

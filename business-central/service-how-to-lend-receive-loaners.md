@@ -1,8 +1,6 @@
 ---
 title: Dare in prestito articoli per sostituire articoli in assistenza | Documenti Microsoft
 description: È possibile dare in prestito degli articoli ai clienti per sostituire temporaneamente gli articoli in assistenza ricevuti per prestare assistenza.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311670"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882376"
 ---
 # <a name="lend-and-receive-loaners"></a>Dare e ricevere articoli in prestito
 È possibile dare in prestito degli articoli ai clienti per sostituire temporaneamente gli articoli in assistenza ricevuti per prestare assistenza.  
@@ -46,5 +44,5 @@ Quando si riceve un articolo in prestito da un cliente, è necessario registrarn
 4. Immettere una data nel campo **Data**.  
 5. Nel campo **Commento** immettere un commento. È possibile immettere un massimo di 80 caratteri. Se è necessario più spazio, andare alla riga successiva. Compilare tutte le righe necessarie.  
   
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Impostazione di un programma di prestito articoli](service-how-setup-loaner-program.md)   

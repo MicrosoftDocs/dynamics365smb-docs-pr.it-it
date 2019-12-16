@@ -1,8 +1,6 @@
 ---
 title: Come creare una nuova società | Microsoft Docs
 description: Quando si crea una nuova società, vengono create tabelle e pagine di RapidStart Services che non contengono dati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bbd845f7974ce2d0b6ade27d290e1173fad42f37
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304590"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878891"
 ---
 # <a name="create-a-new-company"></a>Creare una nuova società
 Per utilizzare RapidStart Services per [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario dapprima creare una nuova società per la quale si desidera effettuare l'implementazione di un cliente. Quando si crea una nuova società, le tabelle e le pagine standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono create, ma non sono disponibili dati al loro interno.
@@ -76,5 +74,5 @@ Oltre alle tabelle dei dati di setup, in [!INCLUDE[d365fin](includes/d365fin_md.
 
 ## <a name="see-also"></a>Vedi anche  
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ace06e81029ea38bf393502743716b66b10fe74
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316502"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881403"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gestire impostazioni salvate per report e processi batch
 Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la pagina di richiesta. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
@@ -52,7 +52,7 @@ Nella pagina **Impostazioni report**, è possibile:
 > Tenere in considerazione il nome che viene assegnato a una voce di impostazioni salvate. Se si crea una voce di impostazioni salvate per tutti gli utenti e le si assegna lo stesso nome di una voce di impostazioni salvate esistente solo per un utente specifico, tale utente non potrà utilizzare la voce di impostazioni salvate assegnata a tutti gli utenti.  Nella sezione **Impostazioni salvate** nella pagina di richiesta, l'utente vedrà due voci di impostazioni salvate con lo stesso nome. Tuttavia, indipendentemente dall'opzione scelta, verrà usata la voce di impostazioni salvate specifica dell'utente.
 
 > [!NOTE]
-> La funzionalità Impostazioni salvate è disponibile solo nei report in cui la [proprietà SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) della pagina di richiesta del report è impostata su **Sì**. La proprietà **SaveValues** viene impostata nell'ambiente di sviluppo.  
+> La funzionalità Impostazioni salvate è disponibile solo nei report in cui la [proprietà SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) della pagina di richiesta del report è impostata su **Sì**. La proprietà **SaveValues** viene impostata nell'ambiente di sviluppo.  
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  

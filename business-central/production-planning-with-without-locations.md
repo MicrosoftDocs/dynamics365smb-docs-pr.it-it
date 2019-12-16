@@ -1,8 +1,6 @@
 ---
 title: Pianificazione con o senza ubicazioni | Microsoft Docs
 description: È importante comprendere la pianificazione con o senza codici ubicazione nelle righe della domanda.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2ef599e5b02df894ed9b7057892454932d7ff16
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312966"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877689"
 ---
 # <a name="planning-with-or-without-locations"></a>Pianificazione con o senza ubicazioni
 Nel caso della pianificazione con o senza codici ubicazione nelle righe della domanda, il sistema di pianificazione agisce in modo diretto nei casi indicati di seguito.  

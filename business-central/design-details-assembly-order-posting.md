@@ -1,8 +1,6 @@
 ---
 title: "Dettagli di progettazione: Registrazione dell'ordine di assemblaggio | Microsoft Docs"
 description: La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307446"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880642"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
@@ -71,7 +69,7 @@ La funzione di rilevamento del livello di ordine viene utilizzata in scenari di 
 
 Nel seguente grafico viene visualizzata la struttura del movimento di rettifica e in che modo vengono rettificati i costi di assemblaggio.  
 
-![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi")  
+![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
 ### <a name="performing-the-adjustment"></a>Esecuzione della rettifica  
 La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli**. Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  

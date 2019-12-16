@@ -1,8 +1,6 @@
 ---
 title: Preparazione della migrazione dei dati dei clienti | Documenti Microsoft
 description: Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307770"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896087"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Preparazione per la migrazione dei dati dei clienti
 Dopo aver importato e collegato i dati di setup nel nuovo database, è possibile iniziare la migrazione dei dati master esistenti del cliente, ad esempio numeri e nomi di articoli e di clienti. Per assicurarsi che questi dati siano creati rapidamente e in modo accurato nella nuova società, è necessario utilizzare modelli per la strutturazione dei dati.  
@@ -34,9 +32,12 @@ Tuttavia, è possibile creare una struttura del modello a tale scopo e applicarl
 > [!TIP]  
 >  È anche possibile utilizzare modelli dati per le operazioni quotidiane per creare nuovi record basati su modelli. Questi modelli dati funzionano solo per le tabelle di dati master supportate. Per ulteriori informazioni, vedere, ad esempio, [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
-Quando si importano dati sui clienti, ad esempio relativi agli articoli, i dati specificati nei campi obbligatori vengono recuperati dal modello dati collegato. Quando si crea un nuovo articolo, immettere soltanto le informazioni generali quali il numero, la descrizione e il prezzo dell'articolo e quindi recuperare il resto dei dati obbligatori del campo da un modello dati selezionato.  
+Quando si importano dati sui clienti, ad esempio relativi agli articoli, i dati specificati nei campi obbligatori vengono recuperati dal modello dati collegato. Quando si crea un nuovo articolo, immettere soltanto le informazioni generali quali il numero, la descrizione e il prezzo dell'articolo e quindi recuperare il resto dei dati obbligatori del campo da un modello dati selezionato.
 
 Alla creazione di un nuovo record dati master, ad esempio una scheda cliente, alcuni campi sono obbligatori e devono essere compilati. È possibile raggruppare la maggior parte dei campi obbligatori, come le categorie di registrazione e le condizioni di pagamento, per rendere la creazione di record dati master più semplice e stabile. Ad esempio, è possibile raggruppare i campi obbligatori per la tabella 18, **Cliente** come tipi **Nazionale**, **Estero** o **Esporta**.
+
+> [!NOTE]
+> I campi di tipo BLOB non possono essere esportati/importati utilizzando Excel.
 
 ## <a name="to-select-a-data-template"></a>Per selezionare un modello dati
 Quando si seleziona un modello dati esistente, è necessario stabilire se i modelli creati per la nuova azienda sono sufficienti per il cliente. Analizzare i campi e i valori forniti per determinare quali modelli sono appropriati per una nuova società.  
@@ -137,6 +138,6 @@ La seguente procedura è basata su una nuova scheda cliente.
 I valori di default dal modello cliente scelto sono inseriti nella scheda cliente.
 
 ## <a name="see-also"></a>Vedere anche  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)

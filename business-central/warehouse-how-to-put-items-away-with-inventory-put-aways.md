@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Stoccare articoli con gli stoccaggi magazzino | Documenti Microsoft'
 description: Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio Magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaf527802d9b49f84e0c4261d4658f01382efa45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313880"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881704"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di asseblaggio o produzione il cui output è pronto per lo stoccaggio.  
@@ -31,7 +29,7 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Per richiedere uno stoccaggio magazzino emettendo il documento di origine
 Per gli ordini di acquisto, gli ordini di reso vendita, gli ordini di trasferimento in entrata e gli ordini di assemblaggio, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di acquisto.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e selezionare il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di acquisto che si intende rilasciare, quindi scegliere l'azione **Rilascio**.  
 
     Per gli ordini di produzione, la richiesta warehouse viene creata redigendo una richiesta in entrata dall'ordine di produzione rilasciato.  
@@ -45,7 +43,7 @@ In seguito alla creazione della richiesta warehouse, un dipendente della warehou
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Per creare uno stoccaggio in magazzino in base al documento origine
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo stoccaggio in magazzino basato sul documento di origine rilasciato.   
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Documento origine**, selezionare il tipo di documento di origine per cui si esegue lo stoccaggio.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  

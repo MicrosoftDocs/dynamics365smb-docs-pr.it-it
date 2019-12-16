@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 119c3f77d1423daeed519ac22e805b59d689bf51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313542"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883354"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Novità di Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Se non è ancora stato fatto, registrarsi per una [versione di prova](https://go
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verrà aggiornato regolarmente con funzionalità supplementari per l'applicazione principale e con nuove estensioni. Per l'elenco corrente di estensioni Microsoft, vedere [Personalizzazione di Business Central con le estensioni](ui-extensions.md).
 
-Per vedere tutte le estensioni offerte dai partner [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
+Per vedere tutte le estensioni offerte dai partner [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 ## <a name="check-the-dynamics-365-blog"></a>Verificare il blog di Dynamics 365
 
@@ -37,7 +37,7 @@ Per la comunità dei partner, pubblichiamo informazioni su [Microsoft Dynamics 3
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
-[Prezzi di Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
+[Prezzi di Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Community di Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

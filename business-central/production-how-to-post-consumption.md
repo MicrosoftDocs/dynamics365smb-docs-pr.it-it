@@ -1,8 +1,6 @@
 ---
 title: Come registrare il consumo tramite processo batch | Microsoft Docs
 description: Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d84d7d3961a466025b6e38665f88ee58baf153b3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9200256cec074e547bc594950b1eb2d975a8ad9b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313302"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877885"
 ---
 # <a name="batch-post-production-consumption"></a>Registrare il consumo produzione tramite processo batch
 Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.

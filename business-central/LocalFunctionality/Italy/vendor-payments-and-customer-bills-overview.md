@@ -1,8 +1,6 @@
 ---
 title: Panoramica di pagamenti fornitori ed effetti clienti
 description: In Business Central, è possibile gestire gli effetti automatici per i clienti e dai fornitori.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05f6007359110abe1c1321fd8fd13bf4d4e84568
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d76f100a18e4bd7650c6e10459088292359fd764
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300157"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878164"
 ---
 # <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  

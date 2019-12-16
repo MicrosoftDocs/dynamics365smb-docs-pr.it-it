@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Componenti costo | Microsoft Docs'
 description: I componenti di costo sono diversi tipi di costi che compongono il valore di un aumento o di una riduzione di magazzino.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6cd1d8ef57a206bfa077d28c70e04c4032ead0fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc8af7c62702aa701251459a9b373200c61d2035
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307278"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880554"
 ---
 # <a name="design-details-cost-components"></a>Dettagli di progettazione: Componenti costo
 I componenti di costo sono diversi tipi di costi che compongono il valore di un aumento o di una riduzione di magazzino.  

@@ -1,8 +1,6 @@
 ---
 title: Copiare dati in nuove società | Documenti Microsoft
 description: È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87b9a6b39128c43d7159fc5e964d307d19013c2b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f95e7ec5be6e00e908f5cb8cbe6f08528542e150
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308450"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878607"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
 È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.  
@@ -31,5 +29,5 @@ ms.locfileid: "2308450"
 
 ## <a name="see-also"></a>Vedi anche
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

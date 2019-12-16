@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649718"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879132"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="getting-the-add-in"></a>Come ottenere il componente aggiuntivo
@@ -26,9 +27,13 @@ ms.locfileid: "2649718"
 Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'*amministratore Dynamics 365 Business Central*. I nuovi componenti aggiuntivi sono aggiunti alla barra multifunzione di Outlook e nel browser è possibile vedere i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] immediatamente sopra o sotto il corpo del messaggio e-mail. I componenti aggiuntivi sono aggiornati periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
 > [!TIP]
-> Se si utilizza il nuovo Outlook in un browser, i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**.
+> Se si utilizza il nuovo Outlook sul Web, i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**. Se si utilizza spesso il componente aggiuntivo, è possibile aggiungerlo di modo che sia sempre immediatamente visibile. Per ulteriori informazioni, vedere [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Qualora si collabori con più società [!INCLUDE [prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook.
+Qualora si collabori con più società [!INCLUDE [prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook. Nella barra delle azioni del componente aggiuntivo, scegliere **Altre azioni** e quindi puoi vedere l'opzione per passare da una società all'altra.  
+
+<!--TEMP-->
+> [!NOTE]
+> Il passaggio da una società all'altra richiede l'ondata di rilascio 2 o successiva del 2019 di [!INCLUDE [prodshort](includes/prodshort.md)] come annunciato nel [piano di rilascio ](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Requisiti minimi per Outlook](product-requirements.md#outlook)  
-[Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

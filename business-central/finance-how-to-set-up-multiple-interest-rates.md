@@ -1,8 +1,6 @@
 ---
 title: Come impostare più tassi d'interesse
 description: È possibile calcolare gli addebiti di interessi con più tassi di interesse per un periodo specifico. Il calcolo degli interessi è simile per tutti gli addebiti di interessi, con la sola variazione del tasso di interesse in un periodo specifico.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6312b1e00b3267c582dac50da616bdccd2a75b7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fd52a1cb3f139f5c21b4c1f0d6ce86f7aac7167c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305982"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882640"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Impostare più tassi d'interesse
 Più tassi di interesse sono utilizzati in periodi differenti per pagamenti in ritardo nelle transazioni commerciali. Ad esempio, un governo specifica il tasso di interesse massimo da imporre ai consumatori. Questo tasso di interesse può essere modificato due volte all'anno, il 1° gennaio e il 1° luglio. Il tasso di interesse tra le aziende (B2B) è concordato tra le parti e non è soggetto ad alcun limite. Il tasso annunciato è in genere superiore del quattro per cento all'interesse bancario normale.
@@ -35,6 +33,6 @@ Quando si creano le condizioni di addebito degli interessi e i termini di sollec
 
 Quando si emette una nota di addebito interessi, la nota mostra gli addebiti di interessi con più tassi di interesse per un periodo di tempo specifico. La nota contiene anche dettagli relativi a contatti del cliente, società che ha emesso la nota, importo addizionale e importo totale. Il movimento di apertura nella nota è visualizzato in grassetto. Gli addebiti di interessi sono calcolati con più tassi di interesse per un periodo di tempo specifico e vengono stampati dopo il movimento di apertura della nota.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)

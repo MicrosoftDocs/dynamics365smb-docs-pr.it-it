@@ -1,8 +1,6 @@
 ---
 title: Come bloccare le vendite di articoli per i clienti dalle vendite o dagli acquisti
 description: In Business Central, un articolo può essere contrassegnato come bloccato per la vendita, per l'acquisto o per tutti gli scopi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1b055e5101b99f0b0e1b69169d5c9f2f7e21d09
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316622"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882996"
 ---
 # <a name="block-customers"></a>Blocca clienti
 È possibile bloccare un cliente, ad esempio a causa di insolvenza, in modo che il cliente non possa essere aggiunto ai documenti di vendita o che non sia possibile registrare transazioni per il cliente.

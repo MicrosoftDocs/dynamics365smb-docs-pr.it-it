@@ -1,8 +1,6 @@
 ---
 title: Configurazione di nuove società | Documenti Microsoft
 description: È possibile configurare e personalizzare una nuova società creata. Per definire i dettagli dell'implementazione, occorre eseguire tre fasi per completare la configurazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3169663fd764bf4f7c9c6dc8895b152fdca19bd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304566"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878583"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  

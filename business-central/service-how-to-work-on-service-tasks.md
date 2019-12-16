@@ -1,8 +1,6 @@
 ---
 title: Utilizzo dei compiti di assistenza | Documenti Microsoft
 description: Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: a1f448bf0d446d8a7a6bcc1db9a1cd636ea8cdd6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553772"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882400"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
@@ -89,7 +87,7 @@ Quando si presta assistenza ad un articolo in assistenza composto da diverse par
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>Per modificare il tempo di risposta per una riga di articolo in assistenza  
 Quando si registra una riga di articolo in assistenza in un ordine o in un'offerta di assistenza, a seconda che l'articolo in assistenza sia incluso in un contratto di assistenza o meno, viene automaticamente immesso il tempo di risposta espresso in ore e vengono calcolate di conseguenza la data e l'ora della risposta. Se necessario, è possibile modificare il tempo di risposta in ore e la data e l'ora di risposta.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** oppure **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** o **Offerte assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'ordine o l'offerta di assistenza per aprire la scheda.  
 3. Nella riga dell'articolo in assistenza per cui si desidera modificare il tempo di risposta, immettere il nuovo tempo di risposta espresso in ore oppure la data e l'ora di risposta nel campo **Tempo risposta (ore)** o nei campi **Data risposta** e **Ora risposta**.  
 

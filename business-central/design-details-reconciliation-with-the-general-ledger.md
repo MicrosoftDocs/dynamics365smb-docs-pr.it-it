@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Riconciliazione con la contabilità generale | Microsoft Docs'
 description: Questo argomento descrive la riconciliazione con la contabilità generale quando si registrano transazioni di magazzino, ad esempio spedizioni vendite, output di produzione o rettifiche negative.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306822"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880066"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni vendite, output di produzione o rettifiche negative, le modifiche alla quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. È quindi necessario registrare i valori di magazzino nei conti giacenza magazzino nella contabilità generale.  
@@ -115,7 +113,7 @@ La tabella seguente indica in che modo l'area di produzione è impostata nella s
 
 9. L'utente rivaluta la catena da VL 150,00 a VL 140,00. (Rettifica/Rivalutazione/Arrotondamento/Trasferimento)  
 
-    ![Risultati della registrazione delle rettifiche nei conti C/G](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Risultati della registrazione delle rettifiche nei conti C/G")  
+    ![Risultati della registrazione della rettifica nei conti C/G](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Risultati della registrazione della rettifica nei conti C/G")  
 
 Per ulteriori informazioni sulla relazione tra i tipi di conto e i diversi tipi di movimenti di valorizzazione, vedere [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).  
 

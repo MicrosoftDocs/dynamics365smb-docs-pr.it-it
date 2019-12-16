@@ -1,8 +1,6 @@
 ---
 title: Impostare l'arrotondamento delle fatture | Microsoft Docs
 description: È possibile arrotondare gli importi delle fatture quando si creano fatture. È inoltre possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 399216085913c576007bd5996cef4f3192362c4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bb114e6ea550ca5cc453c8319e72da5b11cec6e8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305646"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882472"
 ---
 # <a name="set-up-invoice-rounding"></a>Impostare l'arrotondamento delle fatture
 Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica. Quando una fattura viene arrotondata, viene aggiunta un'ulteriore riga con l'importo di arrotondamento. Questa riga verrà contabilizzata insieme alle altre righe della fattura.
@@ -62,6 +60,6 @@ Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automat
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare la casella di controllo **Arrotondamento fattura**.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)

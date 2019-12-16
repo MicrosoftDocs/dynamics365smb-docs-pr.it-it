@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Flussi warehouse interni | Microsoft Docs'
 description: Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303462"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880354"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
 Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
@@ -118,5 +116,5 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
  ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)

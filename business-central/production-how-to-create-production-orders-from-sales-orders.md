@@ -1,8 +1,6 @@
 ---
 title: Come creare gli ordini di produzione dagli ordini di vendita | Microsoft Docs
 description: È possibile creare ordini di produzione dagli ordini di vendita nell'area di applicazione Vendite e marketing.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 362429f34c326996d9097ff23a0aec02787b2781
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883312"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Creare gli ordini di produzione dagli ordini di vendita
 È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Per creare gli ordini di produzione dagli ordini di vendita  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Selezionare l'ordine di vendita per il quale creare un ordine di produzione.  
 3.  Scegliere l'azione **Pianifica**. Nella pagina **Pianifica ordine vendita** è possibile visualizzare la disponibilità dell'articolo presente nell'ordine di vendita.  
 4.  Selezionare l'azione **Crea ordine produzione**.  

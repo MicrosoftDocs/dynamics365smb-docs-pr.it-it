@@ -1,8 +1,6 @@
 ---
 title: Preparazione di un pacchetto di configurazione | Documenti di Microsoft
 description: Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307998"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879252"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -137,5 +135,5 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 ## <a name="see-also"></a>Vedi anche  
 [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md)  
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

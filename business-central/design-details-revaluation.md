@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Rivalutazione | Microsoft Docs'
 description: È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c60dddbf5e559fbbcf7990cd4a5cc62da2459e63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303030"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880042"
 ---
 # <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  

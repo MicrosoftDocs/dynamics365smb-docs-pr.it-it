@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Pianificare prelievi nei prospetti | Documenti Microsoft'
 description: Se la warehouse prevede l'elaborazione dei prelievi e delle spedizioni, è possibile fare in modo che le righe dei documenti di spedizione non vengano convertite automaticamente in istruzioni di prelievo, bensì vengano rese disponibili per il prospetto prelievi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7b1b8f2fd422fd137950b0a83bd14431e843c67e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313954"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881728"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 Se la warehouse prevede l'elaborazione dei prelievi e delle spedizioni, è possibile fare in modo che le righe dei documenti di spedizione non vengano convertite automaticamente in istruzioni di prelievo, bensì vengano rese disponibili per il prospetto prelievi.  

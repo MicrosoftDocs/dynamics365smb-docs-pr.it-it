@@ -1,8 +1,6 @@
 ---
 title: Contratti multipli | Documenti Microsoft
 description: A seconda degli accordi a livello di assistenza stipulati con un cliente, può essere necessario utilizzare più di un contratto di assistenza per gestire un articolo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ccb677f128262435427f819ba0c24da254e3ce5c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315950"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877185"
 ---
 # <a name="multiple-contracts"></a>Contratti multipli
 A seconda degli accordi a livello di assistenza stipulati con un cliente, può essere necessario utilizzare più di un contratto di assistenza per gestire un articolo.  

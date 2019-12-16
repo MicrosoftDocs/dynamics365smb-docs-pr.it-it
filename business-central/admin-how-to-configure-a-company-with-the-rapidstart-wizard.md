@@ -1,8 +1,6 @@
 ---
 title: Configurare una società con la procedura guidata RapidStart | Microsoft Docs
 description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308142"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878703"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart
 È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
@@ -41,7 +39,7 @@ Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto d
     >  Modificare la Gestione ruolo utente solo dopo avere completato la configurazione della società. Se sono presenti più dettagli di setup da analizzare e modificare, utilizzare innanzitutto il foglio di lavoro configurazione per continuare il proprio lavoro. Quindi, tornare alla procedura guidata per aggiornare il proprio profilo di Gestione ruolo utente, oppure scegliere l'azione **Completa setup**.
 
 7. Scegliere il pulsante **OK**.  
-8. Per verificare che le informazioni sulla configurazione siano state collegate alla nuova società, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere le **informazioni sulla società**, quindi scegliere il collegamento correlato.
+8. Per verificare che le informazioni sulla configurazione siano state collegate alla nuova società, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società**, quindi scegliere il collegamento correlato.
 
 La pagina **Informazioni società** contiene le informazioni precedentemente specificate.   
 
@@ -49,5 +47,5 @@ La società risulta ora configurata e collegata ai dati.
 
 ## <a name="see-also"></a>Vedi anche  
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

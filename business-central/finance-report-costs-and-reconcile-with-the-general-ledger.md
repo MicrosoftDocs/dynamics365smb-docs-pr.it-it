@@ -1,8 +1,6 @@
 ---
 title: Creazione di report dei costi e riconciliazione con la contabilità generale | Microsoft Docs
 description: Al termine dei periodi contabili, mensili, annuali o altro, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare al reparto finanziario il valore di magazzino corretto e bilanciato. Oltre ai comuni processi di registrazione da eseguire per trasferire i singoli movimenti di valorizzazione degli articoli nei conti di contabilità generale rilevanti, per lo svolgimento di questa attività cruciale, il revisore o il controllore dei costi ha a disposizione numerosi report, funzioni di tracciabilità e uno speciale strumento di riconciliazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eafcf0bdd26e26903c17e43d37ca7e35b96f240c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301830"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879515"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
 Al termine dei periodi contabili, mensili, annuali o altro, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare al reparto finanziario il valore di magazzino corretto e bilanciato. Oltre ai comuni processi di registrazione da eseguire per trasferire i singoli movimenti di valorizzazione degli articoli nei conti di contabilità generale rilevanti, per lo svolgimento di questa attività cruciale, il revisore o il controllore dei costi ha a disposizione numerosi report, funzioni di tracciabilità e uno speciale strumento di riconciliazione.  

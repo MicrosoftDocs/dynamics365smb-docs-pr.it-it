@@ -1,8 +1,6 @@
 ---
 title: Impostare prezzi e costi per servizi assistenza | Documenti Microsoft
 description: Informazioni su come impostare prezzi e costi aggiuntivi per i servizi assistenza.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311838"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877378"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Impostare prezzi e costi aggiuntivi per i servizi assistenza
 È possibile utilizzare le funzionalità di definizione dei prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] per impostare e personalizzare l'applicazione in modo da poter applicare e rettificare i prezzi per articoli in assistenza, riparazioni e ordini. Queste decisioni relative ai prezzi potranno essere in seguito agevolmente trasmesse al processo di fatturazione.  
@@ -64,6 +62,6 @@ Quando si utilizzano articoli in assistenza e ordini di assistenza, potrebbe ess
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistenza** e quindi scegliere il collegamento correlato. 
 2. Nel campo **Tariffa iniziale ordine assistenza** selezionare il costo di assistenza appropriato.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  

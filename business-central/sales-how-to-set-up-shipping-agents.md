@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Impostare gli spedizionieri | Documenti Microsoft'
 description: È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311982"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882856"
 ---
 # <a name="set-up-shipping-agents"></a>Impostare gli spedizionieri
 È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.  

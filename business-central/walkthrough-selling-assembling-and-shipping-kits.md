@@ -1,8 +1,6 @@
 ---
 title: 'Procedura dettagliata: vendita, assemblaggio e spedizione di kit | Documenti Microsoft'
 description: Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e138a96bdf2d3a4fd0d06dd913f3434ac4bd5988
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553968"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882064"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -212,7 +210,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="selling-the-assembly-items"></a>Vendita degli articoli di assemblaggio  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare due righe di ordine di vendita per il cliente 62000, reparto dispositivi, per la data di elaborazione con i seguenti dati.  
 
@@ -265,7 +263,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Pianificazione per gli articoli ATS non disponibili  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano** immettere i seguenti filtri.  
 
@@ -426,7 +424,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Il documento di spedizione warehouse viene rimosso ad indicare che le attività di warehouse interessare sono state completate. Infine, verificare che l'ordine di vendita sia stato elaborato.  
 
-10. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
+10. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 11. Aprire l'ordine di vendita per il reparto dispositivi.  
 
     Si noti che il campo **Quantità spedita** contiene la quantità complessiva su entrambe le righe.  

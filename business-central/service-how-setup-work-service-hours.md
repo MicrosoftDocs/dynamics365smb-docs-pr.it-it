@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Impostare le ore di lavoro e le ore di assistenza | Documenti Microsoft'
 description: È possibile specificare le ore lavorative solitamente dedicate all'assistenza nell'azienda. Le ore di assistenza vengono utilizzate per calcolare la data e l'ora di risposta per gli ordini e le offerte di assistenza e per inviare degli avvisi relativi all'ora di risposta.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311766"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877281"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
 Solitamente, un sistema di gestione dell'assistenza tiene traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza. [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una serie di strumenti integrati che è possibile personalizzare per poter registrare questo tipo di informazioni.  

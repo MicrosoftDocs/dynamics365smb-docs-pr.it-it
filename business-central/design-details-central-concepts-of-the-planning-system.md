@@ -1,8 +1,6 @@
 ---
 title: Dettagli di progettazione - Concetti centrali del sistema di pianificazione| Microsoft Docs
 description: Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto gli articoli pertinenti e il periodo per il quale pianificare, quindi suggerisce le azioni che l'utente può effettuare in base alla situazione di domanda/offerta e ai parametri di pianificazione degli articoli.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303750"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880594"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  

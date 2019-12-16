@@ -1,8 +1,6 @@
 ---
 title: Come creare una previsione della domanda | Microsoft Docs
 description: Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314194"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883384"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -53,7 +51,7 @@ Può essere indicato nel setup manufacturing se si desidera filtrare le previsio
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione della domanda** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione domanda** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
 3.  Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.  
 4.  Nel campo **Tipo previsione**, selezionare **Articolo di vendita**, **Componente** o **Entrambi**. Se si seleziona **Articolo di vendita** o **Componente**, è possibile modificare la quantità in base al periodo. Se si seleziona **Entrambi**, non è possibile modificare la quantità, ma è possibile fare clic sul pulsante della freccia in giù e visualizzare i mov. previsioni domanda.  

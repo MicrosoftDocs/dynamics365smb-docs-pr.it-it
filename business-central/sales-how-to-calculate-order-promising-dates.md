@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Calcolare le date per la promessa ordine | Documenti Microsoft'
 description: La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Consente inoltre di creare delle righe di richiesta per le date confermate dall'utente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0bd5943f9c917f02fd319c07e51c95afb2de0a75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316334"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882976"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
@@ -134,7 +132,7 @@ Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, 
 3.  Nella Scheda dettaglio **Pianificazione** selezionare il campo **Critico** .  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Per calcolare una data per la promessa ordine  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine di vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine vendita** e quindi scegliere il collegamento correlato.  
 2.  Aprire l'ordine di vendita appropriato e selezionare la riga o le righe da calcolare automaticamente.  
 3.  Scegliere l'azione **Promessa ordine** quindi scegliere l'azione **Righe promessa ordine**.  
 4.  Selezionare una riga e quindi selezionare una delle seguenti opzioni:  
@@ -143,7 +141,7 @@ Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, 
     - Selezionare **CTP (Capable-To-Promise)** se l'articolo attualmente è esaurito e se si desidera calcolare la prima data in cui può essere disponibile emettendo delle nuove richieste di rifornimento.  
 5.  Selezionare il pulsante **Accetta** per confermare la prima data di spedizione disponibile.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Vendite](sales-manage-sales.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

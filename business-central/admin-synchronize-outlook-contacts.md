@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c28118ad9aa894678e4630800c638cf252c4f524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5690d09423deab5d56b848688f82061c7765e02c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307761"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879016"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizzare i contatti di Business Central con i contatti di Microsoft Outlook
 È possibile visualizzare gli stessi contatti in [!INCLUDE[d365fin](includes/d365fin_md.md)] come visualizzati in Outlook se si imposta la sincronizzazione dei contatti. Ad esempio, un addetto alle vendite potrebbe svolgere parte del lavoro in Outlook e parte del tuo lavoro in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se i contatti sono uguali in entrambi i programmi, il lavoro è più semplice.  
@@ -53,4 +53,4 @@ In Outlook, i contatti di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono vi
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo dei contatti (Persone) in Outlook sul Web](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+[Utilizzo dei contatti (Persone) in Outlook sul Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  

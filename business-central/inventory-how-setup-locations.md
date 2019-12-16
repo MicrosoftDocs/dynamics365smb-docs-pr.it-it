@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5554bb1576705cd1f3cbcddc7ef33da7b5db3796
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309822"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878318"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 Se si acquista, immagazzina o si vendono articoli in più aree o warehouse, è necessario impostare ogni ubicazione con una scheda ubicazione e definire i percorsi di trasferimento.
 
 È quindi possibile creare le righe del documento per una specifica ubicazione, visualizzare la disponibilità per ubicazione e trasferire il magazzino tra le ubicazioni. Per ulteriori informazioni, vedere [Gestire il magazzino](inventory-manage-inventory.md).
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
 
 ## <a name="to-create-a-location-card"></a>Per creare una nuova scheda Ubicazione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.

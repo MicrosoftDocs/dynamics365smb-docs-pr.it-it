@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315614"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882184"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'individuazione, l'analisi e la limitazione di record in un elenco o in un XMLport o report. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
@@ -23,7 +23,7 @@ Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'in
 Per i report e gli XMLport, è possibile impostare filtri come negli elenchi per delimitare i dati da includere in report o XMLport, ma non è possibile ordinare e cercare.
 
 > [!TIP]
-> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare il filtro di base. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "icona Mostra come lista") per visualizzare i record in forma di elenco.
+> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare il filtro di base. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista") per visualizzare i record in forma di elenco.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Per ordinare un elenco, fare clic sull'intestazione di una colonna per passare d
 
 ## <a name="searching"></a>Ricerca
 <!--## Searching by using the Quick Filter -->
-Nella parte superiore di ogni pagina elenco, è presente l'azione ![Cerca](media/ui-search/search-list.png "icona Cerca") **Cerca** che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
+Nella parte superiore di ogni pagina elenco, è presente l'azione **Cerca** ![Cerca nell'elenco](media/ui-search/search-list.png "Icona Cerca nell'elenco") che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
 
 Per cercare, è sufficiente selezionare l'azione **Cerca**, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
@@ -111,7 +111,7 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
   Alcuni elenchi che visualizzano campi calcolati, come importi e quantità, includeranno la sezione **Filtra totali per** in cui è possibile impostare varie dimensioni che influenzano i calcoli. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare l'elenco o selezionare un campo dall'elenco a discesa.
 
   > [!NOTE]
-  > I filtri nella sezione **Filtra totali per** sono controllati da FlowFilter nella progettazione della pagina. Per informazioni tecniche, vedere [FlowFilter](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > I filtri nella sezione **Filtra totali per** sono controllati da FlowFilter nella progettazione della pagina. Per informazioni tecniche, vedere [FlowFilter](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 È possibile impostare un filtro semplice direttamente in un elenco utilizzando il riquadro filtri, ovvero un filtro che visualizza solo i record con lo stesso valore della cella selezionata. Selezionare un cella nell'elenco, selezionare la freccia rivolta verso il basso quindi scegliere l'azione **Filtra in base a questo valore**. In alternativa, premere **ALT+F3**.
 
@@ -127,7 +127,7 @@ Nel riquadro filtri e in una pagina di richiesta, i criteri di filtro vengono im
 
 Il tipo di campo di filtro determina quali criteri è possibile immettere. Ad esempio, il filtro di un campo con valori fissi consente solo di scegliere da tali valori. Per ulteriori informazioni sui simboli speciali del filtro, vedere [Criteri e simboli di filtro](#FilterCriteria) e [Token di filtro](#FilterTokens).
 
-Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro](media/ui-search/filter-icon.png "icona Filtro") nell'intestazione della colonna. Per rimuovere un filtro, fare clic sulla freccia rivolta verso il basso, quindi scegliere l'azione **Cancella filtro**.
+Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro](media/ui-search/filter-icon.png "Icona Filtro") nell'intestazione della colonna. Per rimuovere un filtro, fare clic sulla freccia rivolta verso il basso, quindi scegliere l'azione **Cancella filtro**.
 
 > [!TIP]
 > Accelerare la ricerca e l'analisi dei dati utilizzando combinazioni di tasti di scelta rapida da tastiera. Ad esempio, selezionare un campo, usare **MAIUSC + ALT + F3** per aggiungere quel campo al riquadro dei filtri, digitare i criteri del filtro, usare **CTRL + INVIO** per tornare alle righe, selezionare un altro campo e usare **ALT + F3** per filtrare tale valore. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).

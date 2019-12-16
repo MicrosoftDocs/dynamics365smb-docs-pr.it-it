@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e80887f9c1e1bd5641b496f3dfac01ddcd621f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2609a18c26f968dab65037c684cc770666038e9a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302862"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882760"
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
@@ -88,17 +88,17 @@ Ad esempio, se si registra un acquisto con la data errata, è necessario corregg
 Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il processo batch **Annulla mov. contabili cespiti**.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Per registrare il valore di realizzo con il costo di acquisto
-È possibile registrare il valore di realizzo insieme al costo di acquisto da Registrazioni Cespiti in C/G.    
+È possibile registrare il valore di realizzo insieme al costo di acquisto da Registrazioni Cespiti.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rimuovi mov. cespiti** e quindi scegliere il collegamento correlato.
-2. Creare la riga di registrazione acquisizione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti** e quindi scegliere il collegamento correlato.
+2. Nella pagina **Registrazioni cespiti**, creare la linea di acquisizione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. Immettere l'importo del valore di realizzo come avere (con il segno meno) nel campo **Valore di realizzo** nella riga di registrazione.
 4. Scegliere l'azione **Registra**.
 
-> [!NOTE]  
->   Il tipo di registrazione **Valore di realizzo** è un'opzione solo della pagina **Registrazioni cespiti**. Non è disponibile nella pagina **Registrazioni cespiti in C/G** perché il valore di realizzo non è mai registrato nella contabilità generale.
+> [!NOTE]
+> Se esiste un valore di recupero per un cespite, tale valore verrà utilizzato nella registrazione dell'ammortamento nel campo **Valore contabile finale** della pagina **Registro beni amm. cespiti**. Per ulteriori informazioni, vedere [Per gestire il valore contabile finale](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  

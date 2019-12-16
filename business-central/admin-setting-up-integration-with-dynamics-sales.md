@@ -1,8 +1,6 @@
 ---
 title: Impostazione di account utente per l'integrazione con Dynamics 365 Sales | Microsoft Docs
 description: Ottenere informazioni su come impostare account utente che le app utilizzano per scambiare dati e che le persone utilizzano per accedere ai dati nelle app e per sincronizzarli.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a876df301476cb6b4af335e8ee957de26865cbaa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307830"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879022"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Impostazione di account utente per l'integrazione con Dynamics 365 Sales
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,13 +26,13 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 È necessario aggiungere l'account utente amministratore per [!INCLUDE[d365fin](includes/d365fin_md.md)] come utente in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi promuovere l'utente ad amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. L'account utente amministratore deve anche avere il ruolo Addetto personalizzazione sistema e almeno un altro ruolo utente non amministrativo, ad esempio Manager vendite, in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Impostazione dell'account utente per l'integrazione
-È necessario creare un account utente dedicato nella sottoscrizione di Office 365 che [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] possono utilizzare per sincronizzare i dati. Questo account utente deve essere in grado di accedere a [!INCLUDE[crm_md](includes/crm_md.md)], a indicare che tale utente deve avere una licenza per [!INCLUDE[crm_md](includes/crm_md.md)] e almeno un ruolo di sicurezza ad esso assegnato in [!INCLUDE[crm_md](includes/crm_md.md)] come descritto [qui](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Per ulteriori informazioni su come creare utenti in [!INCLUDE[crm_md](includes/crm_md.md)], vedere [Gestire la sicurezza, utenti e team](http://go.microsoft.com/fwlink/?LinkID=616518). Dopo che la connessione è impostata, [!INCLUDE[d365fin](includes/d365fin_md.md)] assegnerà all'account utente i ruoli di sicurezza di cui necessita in [!INCLUDE[d365fin](includes/d365fin_md.md)] e tale account può essere impostato sulla [modalità di accesso non interattiva](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) in [!INCLUDE[crm_md](includes/crm_md.md)]
+È necessario creare un account utente dedicato nella sottoscrizione di Office 365 che [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] possono utilizzare per sincronizzare i dati. Questo account utente deve essere in grado di accedere a [!INCLUDE[crm_md](includes/crm_md.md)], a indicare che tale utente deve avere una licenza per [!INCLUDE[crm_md](includes/crm_md.md)] e almeno un ruolo di sicurezza ad esso assegnato in [!INCLUDE[crm_md](includes/crm_md.md)] come descritto [qui](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Per ulteriori informazioni su come creare utenti in [!INCLUDE[crm_md](includes/crm_md.md)], vedere [Gestire la sicurezza, utenti e team](https://go.microsoft.com/fwlink/?LinkID=616518). Dopo che la connessione è impostata, [!INCLUDE[d365fin](includes/d365fin_md.md)] assegnerà all'account utente i ruoli di sicurezza di cui necessita in [!INCLUDE[d365fin](includes/d365fin_md.md)] e tale account può essere impostato sulla [modalità di accesso non interattiva](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) in [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Guida al setup assistito che mostra dove immettere le credenziali utente per la sincronizzazione](media/sync-user-setup.png "Visualizzazione della pagina della guida al setup assistito che mostra dove immettere le credenziali utente per la sincronizzazione")
 
 > [!IMPORTANT]  
 > Non utilizzare l'account amministratore per [!INCLUDE[crm_md](includes/crm_md.md)] per la sincronizzazione. In caso contrario, la sincronizzazione verrà interrotta.
-> Inoltre, per evitare una sincronizzazione costante, le modifiche ai dati eseguite dall'account utente di integrazione non vengono sincronizzate. <!--What changes would this account make?--> Dopo la connessione, si consiglia di impostare la modalità di accesso per l'account utente per l'integrazione sulla modalità non interattiva in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Creare un account utente non interattivo](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+> Inoltre, per evitare una sincronizzazione costante, le modifiche ai dati eseguite dall'account utente di integrazione non vengono sincronizzate. <!--What changes would this account make?--> Dopo la connessione, si consiglia di impostare la modalità di accesso per l'account utente per l'integrazione sulla modalità non interattiva in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Creare un account utente non interattivo](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
 ## <a name="setting-up-accounts-sales-people"></a>Impostazione di account per agenti
 È necessario creare account utente in [!INCLUDE[crm_md](includes/crm_md.md)] per gli agenti da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per semplificare tale operazione, l'interfaccia di amministrazione di Microsoft 365 offre un modello di Excel che è possibile utilizzare. Nella pagina **Utenti attivi** scegliere **Altro**, quindi **Importa più utenti**. Scegliere **Scarica un file CSV solo con le intestazioni** e quindi immettere le informazioni per gli agenti. Per visualizzare un esempio, scegliere **Scarica un file CSV con le intestazioni ed esempi di informazioni degli utenti**. Dopo l'immissione delle informazioni relative agli utenti, il passaggio successivo nel processo di importazione consiste nell'assegnare licenze per il piano Dynamics 365 Customer Engagement agli utenti.  

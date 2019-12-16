@@ -4,31 +4,26 @@ description: Informazioni sulle funzionalità e gli scenari di lavoro in Busines
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313590"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878073"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy. Per semplificare la sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy.  
 
-Quando si effettua una sottoscrizione per l'anteprima di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere a una società demo. La società demo contiene dati di esempio, ma è possibile creare i propri documenti di vendita, ad esempio, oppure impostare un conto corrente bancario.  
+Per informazioni sulla sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
+
+Quando si esegue l'iscrizione per [!INCLUDE [prodshort](includes/prodshort.md)], si accede a una società demo. La società demo contiene dati di esempio, ma è possibile creare nuovi documenti di vendita, ad esempio, oppure impostare un conto corrente bancario. Tuttavia, se si desidera utilizzare [!INCLUDE [prodshort](includes/prodshort.md)], è necessario contattare un partner rivenditore di [!INCLUDE [prodshort](includes/prodshort.md)] e acquistare una sottoscrizione. Per ulteriori informazioni su versioni di valutazione e sottoscrizioni, consultare [Versioni di valutazione e sottoscrizioni](across-preview.md).  
 
 ## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Nella società dimostrativa, le guide visive spiegano la funzionalità di base e consentono di provare le attività quotidiane come la creazione di una fattura di vendita e la visualizzazione di un report. Se si lascia una Guida per esplorare [!INCLUDE[d365fin](includes/d365fin_md.md)] in autonomia, ma si desidera tornare indietro, passare a Gestione ruolo utente e avviare il tour di introduzione. Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-> [!TIP]  
-> È possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
-
-Per alcuni suggerimenti utili e immediati, vedere:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Per alcuni suggerimenti utili e immediati, vedere:  
 
 * [Individuare le funzionalità](ui-search.md)  
 * [Ricerca, filtro e ordinamento di liste](ui-enter-criteria-filters.md)  
@@ -36,46 +31,34 @@ Per alcuni suggerimenti utili e immediati, vedere:
 
 Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
+> [!TIP]  
+> È sempre possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
+
+Nella società demo, le pagine Gestione ruolo utente Manager aziendale e Contabile includono il riquadro Introduzione e il riquadro Video dei prodotti. Entrambi i riquadri aprono le pagine in cui è possibile scegliere tra diversi video con informazioni utili per iniziare con diversi aspetti di [!INCLUDE [prodshort](includes/prodshort.md)]. È possibile trovare altri video sul nostro canale YouTube. Per ulteriori informazioni, vedere [Visitare la videoteca](across-videos.md). È anche possibile trovare contenuti di e-learning per la versione di base di [!INCLUDE [prodshort](includes/prodshort.md)] in [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
 Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md).
 
-Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire alcune impostazioni. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Si noti che alcuni passaggi di configurazione possono essere eseguiti in modo semi-automatico utilizzando le guide al setup assistito.
+Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire alcune impostazioni. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!TIP]
+> Alcuni passaggi di configurazione possono essere eseguiti in modo semi-automatico utilizzando le guide al setup assistito.
 
 Per una panoramica delle funzionalità correnti e quelle future, leggere il piano di rilascio in [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-È anche possibile trovare contenuto di e-learning su [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
-
 ## <a name="the-role-centers"></a>Gestione ruolo utente
-La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Per scoprire le diverse finestre Gestione ruolo utente, scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la Gestione ruolo utente che si desidera esplorare. Accedere di nuovo per applicare la modifica. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
+La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per consentire l'accesso rapido ai processi aziendali e agli strumenti di intelligence necessari per lavorare. Ad esempio, un contabile può monitorare i pagamenti e le approvazioni e visualizzare i grafici delle prestazioni finanziarie. Verificare a cosa il ruolo corrente consente di accedere con Esplora ruoli. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md). Per scoprire le varie pagine Gestione ruolo utente, scegliere l'icona Impostazioni **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") nell'angolo superiore destro, scegliere **Impostazioni personali** e quindi la pagina gestione ruolo utente che si desidera esplorare. Si viene disconnessi automaticamente e si accede nuovamente per applicare la modifica. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
-Ogni finestra Gestione ruolo utente include un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di guide al setup assistito che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Alcune pagine Gestione ruolo utente includono un pulsante **Setup ed estensioni**. Qui è possibile accedere a un elenco di guide al setup assistito che consente di iniziare impostando rapidamente le aree selezionate. Se un'area non è gestita dall'impostazione assistita, scegliere l'azione **Setup manuale** per accedere alle pagine di setup dove è possibile compilare manualmente i campi per l'impostazione di tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-> [!NOTE]  
->   L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza Essential. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
-
-Nella pagina **Setup assistito** sono disponibili le seguenti funzionalità per l'esperienza **Essenziale**:
-
-| Setup assistito | Description |
-| --- | --- |
-| Migra dati aziendali |Consente di importare i dati della società esistente come i fornitori, clienti e articoli da Excel o Quickbooks. |
-| Imposta società |Crea una nuova società di prova per immettere i dati e per provare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si utilizza la presentazione di Introduzione questa operazione è già probabilmente **Completata**. |
-| Imposta previsione flusso di cassa |Consente di impostare il grafico Previsioni flusso di cassa, in modo da visualizzare il movimento di contanti previsto in entrata e in uscita dall'attività commerciale. Il grafico è disponibile in **Gestione ruolo utente Contabile**. |
-| Imposta workflow di approvazione |Imposta la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare alcuni valori in documenti, righe registrazioni o schede, ad esempio un importo oltre un limite specificato. |
-| Imposta workflow di approvazione clienti |Consente di impostare la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare una scheda cliente. |
-| Imposta indirizzo e-mail |Consente di preparare l'invio di messaggi di posta elettronica direttamente dagli ordini di vendita o dai contatti in [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio. |
-| Imposta log delle e-mail |Imposta la possibilità di registrare la corrispondenza tramite e-mail in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un follow-up delle interazioni. |
-| Imposta Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Imposta la possibilità di utilizzare e avviare [!INCLUDE[d365fin](includes/d365fin_md.md)] da Outlook. |
-| Imposta creazione di report |Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
-| Imposta un workflow di approvazione articolo |Imposta la capacità di inviare una notifica a un approvatore quando un utente modifica o crea un elemento. |
-| Imposta un workflow di approvazione pagamenti |Imposta la capacità di inviare una notifica ad un approvatore quando un utente invia righe di registrazione pagamenti per l'approvazione. |
-| Impostare Connettore per Business Central |Imposta una connessione a Dynamics 365 Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
-| Setup imposta vendita |Consente di iniziare con i Gruppi imposta di default e codici area imposte di assegnazione che è possibile assegnare a clienti e fornitori automaticamente per calcolare l'imposta sulle vendite o nei documenti di acquisto. |
+> [!NOTE]
+> L'elenco delle guide di installazione, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza Essential. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Sperimentare le operazioni nella propria società
 Valutare la sottoscrizione È possibile passare facilmente dalla società d'esempio a una società creata appositamente e lavorare in autonomia. Questo è un primo passo molto per effettuare il passaggio a una sottoscrizione vera e propria. Le impostazioni per i dati finanziari sono già fornite; è sufficiente creare o importare clienti, fornitori e prodotti o servizi venduti. Dopo questo passaggio, è possibile inviare fatture e utilizzare strumenti di business intelligence per analizzare la propria attività. È possibile utilizzare la società gratuitamente per un periodo di valutazione di 30 giorni. Se si effettua una sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] in questo periodo, si è già pronti. È possibile continuare il lavoro già effettuato durante il test.  
 
 Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società**. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare Gestione ruolo utente e individuare l'azione **Setup assistito**.  
 
-In alternativa, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search).  
+È anche possibile contattare un partner rivenditore di Dynamics 365. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 
 ## <a name="getting-answers-to-questions"></a>Ottenere risposte alle domande
 
@@ -86,22 +69,25 @@ Tutti i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono descritti in d
 Se si hanno ulteriori domande, chiedere alla community o contattare il partner rivenditore. Per ulteriori informazioni, vedere [Dove posso trovare risposta alle domande?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## <a name="ready-to-subscribe"></a>Si desidera effettuare la sottoscrizione?
-Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)] [qui](https://www.microsoft.com/en-us/solution-providers/search). È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di iscriversi, è necessario contattare un partner rivenditore di Dynamics 365. Per ulteriori informazioni, consultare [Come trovare un partner di rivendita?](across-faq.md#findpartner) e [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]Versioni di valutazione e sottoscrizioni](across-preview.md).  
 
 ## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
-Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](/dynamics365/) nel banner blu nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](/dynamics365/) nel banner nero nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/overview/).  
 
-Se hai il ruolo di contabile, puoi effettuare l'iscrizione a [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] e sfruttare l'integrazione ottimale con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Benvenuto in Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[d365fin](includes/d365fin_md.md)] sul dispositivo mobile](install-mobile-app.md)  
+Versioni di valutazione e sottoscrizioni di [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Dynamics 365 Business Central in Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Come trovare un partner di rivendita? ](across-faq.md#findpartner)
 [Documentazione di Dynamics 365](/dynamics365/)  
 [Piano di rilascio di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775333"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882160"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per aiutare l'utente a gestire la propria attività indipendentemente dalle dimensioni e dalla complessità. Alla base del prodotto sono disponibili funzionalità essenziali, come la gestione di report finanziari, vendite, acquisti e magazzino. Con l'aumentare della complessità aziendale,è possibile ad esempio attivare la funzionalità per la produzione e la gestione dell'assistenza.
@@ -30,7 +30,7 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 | **Essential** |Mostra le azioni e i campi per tutte le funzionalità aziendali comuni.|
 | **Premium** |Mostra le azioni e i campi per tutte le funzionalità aziendali, incluse Manufacturing e Gestione assistenza.|
 
-Le esperienze che possono essere selezionate in [!INCLUDE[d365fin](includes/d365fin_md.md)] riflettono licenze della soluzione, denominate piani, definite per il prodotto. Per informazioni sui piani Essenziale e Premium, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito di marketing di Microsoft Dynamics 365. Vedere anche [Guida alle licenze di [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=2068931) (richiede l'accesso a CustomerSource o PartnerSource).
+Le esperienze che possono essere selezionate in [!INCLUDE[d365fin](includes/d365fin_md.md)] riflettono licenze della soluzione, denominate piani, definite per il prodotto. Per informazioni sui piani Essenziale e Premium, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito di marketing di Microsoft Dynamics 365. Vedere anche [Guida alle licenze di [!INCLUDE[d365fin](includes/d365fin_md.md)] ](https://go.microsoft.com/fwlink/?linkid=2068931) (richiede l'accesso a CustomerSource o PartnerSource).
 
 > [!IMPORTANT]  
 > A tutti gli utenti abituali di una soluzione deve essere assegnato lo stesso piano, Essential o Premium, prima che l'esperienza possa essere selezionata per la società. Di conseguenza, un utente non può accedere alle funzionalità Premium se uno o più altri utenti possono accedere solo alle funzionalità Essential. Questo non è il caso per gli utenti non abituali di tipo Membro team, Amministratore interno, Contabile esterno e Amministratore delegato, a cui può essere assegnato un piano diverso rispetto agli altri utenti della soluzione.<br /><br /> Solo gli utenti di tipo Valutazione o Premium possono modificare il valore nel campo **Esperienza** da Essential a Premium.
@@ -40,10 +40,10 @@ Prima di definire l'impostazione dell'esperienza di una società, definire l'acc
 L'impostazione **Esperienza** si applica a tutti gli utenti di una società, ma ogni utente può personalizzare ulteriormente la propria esperienza modificando il layout e il contenuto della pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Abilitazione delle funzioni Premium dopo l'aggiornamento di un piano
-Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione di Office 365 in relazione al lavoro generale per creare gli utenti di Business Central. Per ulteriori informazioni, vedere [Aggiungere utenti a Office 365 per l'azienda](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione di Microsoft 365 in relazione al lavoro generale per creare gli utenti di Business Central. Per ulteriori informazioni, vedere [Aggiungere gli utenti singolarmente o in blocco a Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Per aggiornare le modifiche di piano in gruppi di utenti
-Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministrazione di Office 365, ad esempio dopo avere assegnato più utenti al piano Premium, è necessario riflettere la modifica in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministrazione di Microsoft 365, ad esempio dopo avere assegnato più utenti al piano Premium, è necessario riflettere la modifica in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Accedere come amministratore.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.

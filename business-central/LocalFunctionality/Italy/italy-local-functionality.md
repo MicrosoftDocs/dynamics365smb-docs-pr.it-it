@@ -1,8 +1,6 @@
 ---
 title: Funzionalità locale per l'Italia
 description: Negli argomenti indicati di seguito viene descritta la funzionalità locale nella versione italiana di Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3f34df8eb9482a1305503980e50940da687feaa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5e9146fba37619a8c365663677a1ced049fd36f2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300158"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878165"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775381"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879381"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Controllo di pagine in Business Central
 
@@ -32,7 +32,7 @@ Quando il riquadro **Controllo pagina** viene aperto per la prima volta, visuali
 
 Utilizzare la tastiera o il dispositivo di puntamento per spostare lo stato attivo su elementi differenti nella pagina. Quando si seleziona un riquadro Dettaglio informazioni o una parte nella pagina principale, l'area di delimitazione è evidenziata da un bordo e il riquadro **Controllo pagina** mostra informazioni sull'elemento selezionato. Ad esempio, la figura precedente mostra informazioni su come utilizzare la parte lista nella pagina **Ordine vendita**. Quando ci si sposta ad altre pagine nell'applicazione, il riquadro **Controllo pagina** verrà automaticamente aggiornato con informazioni sulla pagina.
 
-Per ulteriori informazioni relative a quanto visualizzato in Controllo pagina, vedere [Controllo delle pagine e risoluzione dei problemi ad esse relativi](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) nella Guida per sviluppatori e professionisti IT di Business Central.
+Per ulteriori informazioni relative a quanto visualizzato in Controllo pagina, vedere [Controllo delle pagine e risoluzione dei problemi ad esse relativi](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) nella Guida per sviluppatori e professionisti IT di Business Central.
 
 Se le informazioni previste non sono visualizzate nel riquadro **Controllo pagina**, probabilmente non si dispone delle autorizzazioni necessarie, come descritto nella sezione successiva.
 

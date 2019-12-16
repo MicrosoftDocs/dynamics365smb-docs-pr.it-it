@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775573"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878199"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -73,10 +73,10 @@ Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggi
 
 Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo **Commento** viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Gli aggiornamenti dei campi nella testata dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel **Mapping tabella integrazione** SALESORDER-ORDER sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Gli aggiornamenti dei campi nella testata dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel **Mapping tabella integrazione** SALESORDER-ORDER sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> La sincronizzazione periodica basata sul SALESORDER-ORDER **Mapping tabella integrazione** funzionerà solo quando l'integrazione dell'ordine cliente è abilitata. Per ulteriori informazioni, vedere [Connesso a Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Solo gli ordini cliente creati da ordini cliente inviati in [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La sincronizzazione periodica basata sul SALESORDER-ORDER **Mapping tabella integrazione** funzionerà solo quando l'integrazione dell'ordine cliente è abilitata. Per ulteriori informazioni, vedere [Connesso a Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Solo gli ordini cliente creati da ordini cliente inviati in [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

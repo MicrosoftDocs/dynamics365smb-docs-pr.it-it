@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Stampa di report delle ritenute'
 description: Nel report Ritenute viene visualizzato un elenco delle ritenute dovute allo stato.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ca3c3c5f8918dc04a84f5672a19c41cd3f0f237
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1b660600169d57247ca933f813a286726ccac0a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300164"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878913"
 ---
 # <a name="print-withholding-tax-reports"></a>Stampa di report delle ritenute
 Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato.  
 
 ## <a name="to-print-a-withholding-tax-report"></a>Per stampare un report delle ritenute  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ritenute**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Ritenute** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Description|  
@@ -36,5 +34,5 @@ Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo 
 
 3.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md)

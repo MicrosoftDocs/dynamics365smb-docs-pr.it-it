@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308214"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880978"
 ---
 # <a name="classifying-data-sensitivity"></a>Classificazione di dati riservati
-Per classificare i campi che contengono dati riservati o personali, un partner Microsoft può impostare la proprietà ```DataClassification``` nei campi. Per eseguire questa operazione è necessario l'accesso alle tabelle del database, tramite l'ambiente di sviluppo oppure eseguendo uno script Windows PowerShell. Per ulteriori informazioni, vedere [Classificazione di dati](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Per classificare i campi che contengono dati riservati o personali, un partner Microsoft può impostare la proprietà ```DataClassification``` nei campi. Per eseguire questa operazione è necessario l'accesso alle tabelle del database, tramite l'ambiente di sviluppo oppure eseguendo uno script Windows PowerShell. Per ulteriori informazioni, vedere [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Come cliente, è possibile aggiungere un secondo livello di classificazione specificando i livelli di riservatezza per i dati archiviati in campi standard e personalizzati. La classificazione di dati riservati assicura la conoscenza della posizione in cui sono mantenuti i dati personali nel sistema e rende più semplice rispondere alle richieste dagli oggetti dati. Ad esempio, se un contatto o un cliente chiede di esportare i relativi dati personali. Per ulteriori informazioni, vedere [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Ad esempio, il foglio di lavoro di classificazione di dati consente di eseguire 
 > Sono state definite classificazioni di sensibilità di esempio per le tabelle e i campi nella società demo Cronus. È possibile utilizzare queste classificazioni come esempio quando si classificano tabelle e campi.
 
 ## <a name="see-also"></a>Vedi anche
-[Classificazione di dati](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

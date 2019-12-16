@@ -1,8 +1,6 @@
 ---
 title: Definizione e allocazione dei costi | Microsoft Docs
 description: Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306390"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879802"
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
 Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie. Ogni allocazione è costituita da:  

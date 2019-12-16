@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316835"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881992"
 ---
 # <a name="list-views-faq"></a>Domande frequenti sulle visualizzazioni elenco
 Questo argomento contiene le risposte alle domande più frequenti sull'utilizzo di visualizzazioni elenco e sul salvataggio di filtri poste da utenti esperti.  
@@ -58,7 +58,7 @@ Alcune visualizzazioni di sistema possono avere layout univoci delle colonne nel
 ### <a name="what-does-the-show-system-filters-link-do"></a>Qual è la funzione del collegamento Mostra filtri di sistema?
 In alcune pagine di elenco, il riquadro filtri visualizzerà **Mostra filtri di sistema** nella parte inferiore quando la pagina include filtri specificati dal sistema. Questi filtri speciali sono in genere utilizzati per visualizzare record basati sul contesto corrente, ad esempio quando un elenco di ordini deve essere filtrato per un cliente specifico.
 
-I filtri di sistema sono impostati dagli sviluppatori utilizzando il gruppo di filtri 0. Per dettagli tecnici sui filtri di sistema, vedere [Funzione Filtergroup](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+I filtri di sistema sono impostati dagli sviluppatori utilizzando il gruppo di filtri 0. Per dettagli tecnici sui filtri di sistema, vedere [Metodo Filtergroup](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>La pagina contiene varie visualizzazioni non create dall'utente. Qual è la loro origine?
 Le visualizzazioni presenti in un qualsiasi elenco sono una combinazione delle visualizzazioni personali e delle visualizzazioni di sistema. Le visualizzazioni di sistema possono essere originate dall'applicazione aziendale, dalle estensioni oppure possono essere specifiche del ruolo se l'elenco è stato personalizzato per il proprio ruolo.

@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Impostare gli articoli in prestito | Documenti Microsoft'
 description: È possibile impostare degli articoli da prestare ai clienti in sostituzione degli articoli che sono in assistenza.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311862"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877473"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  

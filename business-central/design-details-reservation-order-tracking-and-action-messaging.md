@@ -1,8 +1,6 @@
 ---
 title: "Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni | Microsoft Docs"
 description: Il sistema di impegno è completo e include funzionalità correlate e parallele di tracciabilità ordine e di messaggistica di azione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306846"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878439"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni
 Il sistema di impegno è completo e include funzionalità correlate e parallele di tracciabilità ordine e di messaggistica di azione.  
@@ -31,7 +29,7 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 
  Il sistema di impegno costituisce anche la base strutturale del sistema di tracciabilità articolo. Per ulteriori informazioni, vedere [Dettagli del nuovo ciclo: Tracciabilità articolo](design-details-item-tracking.md).  
 
- Per informazioni più dettagliate su come funziona il sistema di impegno, vedere il white paper "Tabella di movimento impegni" in [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Per informazioni più dettagliate su come funziona il sistema di impegno, vedere il white paper "Tabella di movimento impegni" in [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Impegno  
  Un impegno è collegamento confermato che connette tra loro una domanda specifica e un'offerta specifica. Questo collegamento influisce direttamente sulla transazione di magazzino successiva e garantisce il collegamento appropriato dei movimenti articoli a scopo di costing. Un impegno sostituisce il metodo di costing predefinito di un articolo. Per ulteriori informazioni, vedere "Dettagli del nuovo ciclo: Metodi di costing".  
@@ -184,7 +182,7 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 
  Il campo **Nr. lotto** è ora compilato nel movimento tracciabilità ordine per la tabella 5407, poiché erano stati assegnati i numeri di lotto alle righe componente dell'ordine di produzione.  
 
- Per ulteriori esempi sui movimenti di tracciabilità ordini nella tabella **Movimenti impegni** vedere il white paper "Tabella movimenti impegni" in [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (è richiesto il login).
+ Per ulteriori esempi sui movimenti di tracciabilità ordini nella tabella **Movimenti impegni** vedere il white paper "Tabella movimenti impegni" in [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (è richiesto il login).
 
 ## <a name="action-messaging"></a>Messaggistica di azione  
  Quando il sistema di tracciabilità ordini rileva uno sbilanciamento nella rete di ordini, crea automaticamente un messaggio di azione per informare l'utente. I messaggi di azione sono chiamate generate dal sistema per ogni azione che specifica i dettagli dello squilibrio e i suggerimenti su come ripristinare il saldo nella rete di ordini. Vengono visualizzati come righe di pianificazione nella pagina **Prospetto pianificazione** quando si sceglie **Genera messaggi di azione**. Inoltre, i messaggi di azione vengono visualizzati nelle righe di pianificazione generate in fase di pianificazione per riflettere i suggerimenti del sistema di pianificazione su come ripristinare il saldo nella rete di ordini. In entrambi i casi, i suggerimenti vengono creati nella rete di ordini, scegliendo **Esegui messaggi di azione**.  

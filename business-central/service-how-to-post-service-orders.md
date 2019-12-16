@@ -1,8 +1,6 @@
 ---
 title: Registrare ordini di assistenza | Documenti Microsoft
 description: Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05ee230bd8a68d08223ec9942fd410c4a6b3ce39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554742"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877209"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  
@@ -131,6 +129,6 @@ Nella procedura seguente viene descritta la registrazione della spedizione diret
 4. Sulle righe da registrare, compilare i campi **Qtà da spedire**, **Qtà da fatturare** e **Qtà da consumare**, in base alle modalità di registrazione delle righe.  
 5. Scegliere l'azione **Registra**.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Pubblicazione nella gestione assistenza](service-service-posting.md)  
 [Creare un ordine di assistenza](service-how-to-create-service-orders.md)  

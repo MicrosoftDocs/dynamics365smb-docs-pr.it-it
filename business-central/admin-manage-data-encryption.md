@@ -1,8 +1,6 @@
 ---
 title: Gestire crittografia dati | Microsoft Docs
 description: È possibile crittografare dati in Business Central Server generando nuove chiavi di crittografia o importando chiavi esistenti che vengono abilitate nel server.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3199e044a85377284c97cdebf18907bdf429f649
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4ff0778bce5d995261892c4f98235661a795baa0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304463"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879180"
 ---
 # <a name="managing-data-encryption"></a>Gestione crittografia dati
 È possibile crittografare dati nel server [!INCLUDE[d365fin](includes/d365fin_md.md)] generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server [!INCLUDE[d365fin](includes/d365fin_md.md)] che collega al database.

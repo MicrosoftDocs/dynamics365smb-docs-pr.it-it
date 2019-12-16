@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577233"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883096"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 I fornitori forniscono i prodotti venduti. Ogni fornitore da cui si acquista deve essere registrato come una scheda fornitore.
@@ -28,8 +28,9 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
 
 > [!NOTE]  
 >   Se esistono modelli fornitore per diversi tipi di fornitore, durante la creazione di una nuova scheda fornitore, verrà visualizzata una pagina nella quale sarà possibile selezionare un modello appropriato. Se esiste solo un modello fornitore, allora le nuove schede fornitore utilizzeranno sempre tale modello.
-<br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
+<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Per creare una nuova scheda fornitore
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.  

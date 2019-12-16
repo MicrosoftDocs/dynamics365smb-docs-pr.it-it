@@ -1,8 +1,6 @@
 ---
 title: Specificare indicatori colorati per personalizzare segnali visivi sull'attività di una pila per la società o per singoli utenti| Microsoft Docs
 description: Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308166"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880954"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
 Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.  
@@ -65,5 +63,5 @@ Per impostare l'indicatore, specificare fino a due valori di soglia che definisc
     |**Ambiguo**|Giallo|  
     |**Subordinato**|Grigio|  
   
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Impostare un indicatore colorato nelle pile dell'area di lavoro](ui-how-setup-colored-indicator-cues.md)  

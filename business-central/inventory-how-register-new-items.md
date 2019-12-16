@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 521ebb4ec1a1687ea4263f8f181dc32c69f2ad63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309885"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878343"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
@@ -34,7 +34,9 @@ Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a q
 > [!NOTE]  
 > Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una pagina quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
 
-La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).
+La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
@@ -50,7 +52,7 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 >
 > Se si seleziona **Media**, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, è possibile selezionare il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio.
 
-Nella Scheda dettaglio **Prezzo e registrazione** è possibile visualizzare gli sconti o i prezzi speciali che si concedono per l'articolo se vengono soddisfatti determinati criteri, come cliente, quantità minima di ordine o data di scadenza. Ogni riga rappresenta un prezzo speciale o uno sconto riga. Ogni colonna rappresenta un criterio da applicare per garantire il prezzo speciale immesso nel campo **Prezzo unitario** o lo sconto riga immesso nel campo **Sconto riga**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
+È possibile visualizzare o modificare gli sconti o i prezzi speciali che si concedono per l'articolo se vengono soddisfatti determinati criteri come un cliente, la quantità minima di ordine o la data di scadenza. È possibile farlo scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
 
 L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzata nei documenti di acquisto e vendita.
 

@@ -1,8 +1,6 @@
 ---
 title: Creare fatture o note di credito per servizi | Microsoft Docs
 description: Informazioni su come creare fatture per poter essere pagati per il servizio di assistenza fornito.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 81e1910e861fb999103438c49bbaf8553d9b8419
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 89b3baa44def2899dc3cbeff95c9e74f32deb63b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311886"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877497"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Creare fatture o note di credito di assistenza
 La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile inviare una fattura ai clienti in qualsiasi istante oppure creare fatture su base periodica.  

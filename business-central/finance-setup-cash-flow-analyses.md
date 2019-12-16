@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301710"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879491"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  
@@ -56,7 +56,7 @@ Per agevolare l'inizio, vengono forniti determinati conti ed impostazioni del fl
 Per configurarli, cercare **conti di cassa**, selezionare il collegamento e compilare i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Ripetere questa procedura per il **setup flusso di cassa**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Impostare le previsioni flusso di cassa
-Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le impostazioni del flusso di cassa e le previsioni dei flussi di cassa. Alcuni conti vengono forniti, tuttavia, è possibile impostare il proprio conto utilizzando una guida assistita di setup. La guida aiuta a specificare aspetti, quali la frequenza di aggiornamento della previsione, i conti sui cui basarla, le informazioni su quando effettuare i pagamenti delle imposte e se utilizzare [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
+Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le impostazioni del flusso di cassa e le previsioni dei flussi di cassa. Alcuni conti vengono forniti, tuttavia, è possibile impostare il proprio conto utilizzando una guida assistita di setup. La guida aiuta a specificare aspetti, quali la frequenza di aggiornamento della previsione, i conti sui cui basarla, le informazioni su quando effettuare i pagamenti delle imposte e se utilizzare [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
 La previsione di flussi di cassa possono utilizzare Azure AI per includere i documenti con una data di scadenza in futuro. Il risultato una previsione è più completa. La connessione a Azure AI è già impostata. È solo necessario attivarla. Quando si accede a [!INCLUDE[d365fin](includes/d365fin_md.md)],viene visualizzata una notifica in una barra blue che fornisce un collegamento al setup del flusso di cassa predefinito. La notifica viene visualizzata solo una volta. Se la si chiude, ma si decide di attivare Azure AI, è possibile utilizzare la Guida assistita di setup, o un processo manuale.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4dd32dee8a670a5774de3b9c4afe8367cc44d0fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 924876abbe532384d568c6c260b22397f98a40ad
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302561"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879898"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365fin_mdmd"></a>Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Se la società utilizza l'app Bookings in Office 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Bookings non fatturato** di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
@@ -42,4 +42,4 @@ Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice 
 [Finanze](finance.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

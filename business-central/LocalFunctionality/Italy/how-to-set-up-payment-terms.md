@@ -1,8 +1,6 @@
 ---
 title: Impostazione delle condizioni di pagamento
 description: Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aee237d2146406452ca45dddfff0c5cfb029ad44
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7d646013eecf0401aca832e42bf0735f2f1ed9ef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301295"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878166"
 ---
 # <a name="set-up-payment-terms"></a>Impostazione delle condizioni di pagamento
 Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
@@ -25,7 +23,7 @@ Per ogni condizione di pagamento, è possibile specificare se il pagamento può 
 Se una condizione di pagamento deve prevedere un unico pagamento, è necessario specificare come verrà calcolata la data di scadenza.  
 
 ## <a name="to-set-up-payment-terms"></a>Per impostare le condizioni di pagamento  
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Condizioni pagamento**, quindi scegliere il collegamento correlato.    
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Condizioni pagamento** e quindi scegliere il collegamento correlato.    
 2.  Compilare i campi nella pagina **Condizioni pagamento**. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3.  Scegliere l'azione **Calcola**.  
 4.  Nella pagina **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  

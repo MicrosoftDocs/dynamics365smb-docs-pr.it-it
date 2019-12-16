@@ -1,8 +1,6 @@
 ---
 title: Come utilizzare contratti di assistenza e offerte di contratto di assistenza | Documenti Microsoft
 description: È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. È possibile creare un contratto basato su un'offerta di contratto di assistenza.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ab81ad15ebae118106db1a32a7a45a9fbbc19cf7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553918"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882424"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  
 
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Per creare un contratto o un'offerta di contratto di assistenza  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** oppure **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** o **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo contratto o un'offerta di contratto di assistenza.  
 3. Compilare il campo **Nr.** . Verrà visualizzata una finestra di dialogo in cui viene chiesto se si desidera compilare il contratto o l'offerta utilizzando i dati di un modello di contratto. Se si desidera creare un contratto di assistenza o un'offerta di questo tipo, fare clic sul pulsante **Sì**. Verrà visualizzata la pagina **Lista modelli contr. assist**.  
 4. Selezionare il modello appropriato, quindi scegliere **OK** per creare il contratto o l'offerta di contratto di assistenza.  
@@ -124,7 +122,7 @@ Nelle righe di un contratto di assistenza, gli importi in **Costo riga** e **Val
 ## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Per aggiungere uno sconto contrattuale alle offerte di contratto di assistenza  
 È possibile aggiungere sconti contrattuali relativi all'assistenza in offerte di contratto e in contratti di assistenza. Tali sconti possono essere applicati ai pezzi di ricambio in gruppi specifici di articoli in assistenza, alle ore delle risorse per le risorse che si trovano in particolari gruppi di risorse e a particolari costi di assistenza.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte contratto assistenza** e scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta per cui aggiungere sconti.  
 3. Scegliere l'azione **Sconti assistenza**. Verrà visualizzata la pagina **Sconti contratto/assistenza**.  
 4. Fare clic sull'azione **Nuovo** per creare un nuovo sconto contrattuale.  

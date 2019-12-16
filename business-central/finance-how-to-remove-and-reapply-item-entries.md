@@ -1,8 +1,6 @@
 ---
 title: Come rimuovere e ricollegare movimenti articoli | Microsoft Docs
 description: È possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554136"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882693"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  

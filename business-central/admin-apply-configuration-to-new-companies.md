@@ -1,8 +1,6 @@
 ---
 title: Applicazione della configurazione a nuove società | Documenti Microsoft
 description: Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Utilizzare la configurazione con una nuova società vuota.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 515d60e41baf07b888f0bf6f8b002ebdccc1019e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4034c9d6145d6cc76e8968376f28ef0bb3430db2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308238"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878656"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Applicazione della configurazione a nuove società
 Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Il pacchetto di configurazione è utilizzato in una nuova società vuota.  

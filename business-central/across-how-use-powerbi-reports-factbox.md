@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304934"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879429"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare i report personalizzati da visualizzare in questo controllo, ma vi sono alcune regole da seguire nella creazione di report per assicurare il comportamento desiderato.  
 
 > [!NOTE]  
-> È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, per creare report personalizzati, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Per ulteriori informazioni, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
+> È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, per creare report personalizzati, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Per ulteriori informazioni, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Set di dati del report
 Quando si crea il report in Power BI Desktop, specificare l'origine dei dati o il servizio Web che contiene i dati relativi all'elenco che si desidera associare al report. Ad esempio, se si desidera creare un report per la lista di vendita, verificare che il set di dati contenga le informazioni relative alle vendite.  

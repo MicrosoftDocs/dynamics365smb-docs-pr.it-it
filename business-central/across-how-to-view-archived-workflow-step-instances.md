@@ -1,8 +1,6 @@
 ---
 title: Come visualizzare le istanze di fasi workflow archiviate | Microsoft Docs
 description: Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec36ab8e884ee7f97b2bde8885bed895a81e09f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305142"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881050"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
 Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  

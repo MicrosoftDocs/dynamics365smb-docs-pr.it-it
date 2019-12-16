@@ -1,8 +1,6 @@
 ---
 title: Trasferimento e registrazione di movimenti di costi | Microsoft Docs
 description: Prima di definire le allocazioni costi, è necessario comprendere da dove derivano i movimenti di costo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5391aa089e24dd4ed25e2df4979491433034697e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 87089913799bd265a2d31c0ad10dff849f47aeab
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301597"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882568"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Trasferimento e registrazione di movimenti di costi
 Prima di definire le allocazioni costi, è necessario comprendere come i movimenti di costi derivino dalle origini seguenti:  

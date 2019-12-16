@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Stampa di report Registro beni ammortizzabili'
 description: Registro beni ammortizzabili è un report fiscale ordinato per anno e classe di articoli. Nel report Registro beni ammortizzabili vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report Registro beni ammortizzabili viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5cfbe7d36721536ac01981cbbf9f33688404221
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7cf7ac777a13c37c9ef0a494afd2aa68529e116a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300165"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878914"
 ---
 # <a name="print-depreciation-book-reports"></a>Stampare report dei registri dei beni ammortizzabili
 **Registro beni ammortizzabili** è un report fiscale ordinato per anno e classe di articoli. Nel report **Registro beni ammortizzabili** vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.  
 
 ## <a name="to-print-depreciation-book-reports"></a>Per stampare report dei registri dei beni ammortizzabili  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Cespiti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Report e analisi**, quindi scegliere l'azione **Registro beni ammortizzabili**.  
 3.  Espandere la Scheda dettaglio **Opzioni**.  
 4.  Compilare i campi come indicato nella tabella seguente.  

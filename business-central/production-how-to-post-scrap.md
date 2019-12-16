@@ -1,8 +1,6 @@
 ---
 title: Come registrare lo scarto manualmente | Microsoft Docs
 description: Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. Si noti che la quantità di scarto non va ad aumentare la quantità di output.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 340b66ed5d36e67ffc5c3afb05e38ea36e520e58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31bd5370a2e14e327efa337d5cff0786f93b18ae
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313230"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877800"
 ---
 # <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
 Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. 

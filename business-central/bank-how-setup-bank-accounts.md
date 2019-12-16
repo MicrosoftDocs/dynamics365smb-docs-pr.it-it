@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07274a495ba7047fafaf31a94225ac29b05aabb4
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692778"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880738"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 I conti correnti bancari vengono utilizzati in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari è possibile utilizzare l'opzione per la stampa di assegni.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl]
 
 ## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.

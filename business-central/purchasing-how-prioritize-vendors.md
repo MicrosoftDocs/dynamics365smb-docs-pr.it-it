@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577161"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877593"
 ---
 # <a name="prioritize-vendors"></a>Attribuire un ordine di priorità ai fornitori
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
 
 Innanzitutto, è necessario assegnare una priorità ai fornitori assegnando loro dei numeri.
 <br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Per attribuire un ordine di priorità ai fornitori
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
@@ -35,7 +35,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] il numero più basso, escluso lo 
 
 Se non si desidera dare la priorità a un fornitore, lasciare vuoto il campo **Priorità**. Quindi, se si usa la funzione di suggerimento di pagamento, il fornitore si troverà dopo tutti i fornitori che hanno un numero di priorità. Si possono immettere tutti i livelli di priorità necessari.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

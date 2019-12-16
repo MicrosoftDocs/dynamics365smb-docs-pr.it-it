@@ -1,8 +1,6 @@
 ---
 title: 'Procedura dettagliata: Pianificazione automatica degli approvvigionamenti | Documenti Microsoft'
 description: Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba3e5b085dba8b577ed9ca54e3956a02d5ecd841
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec5de84594d733886bb42cfe251a83230556b060
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314774"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881892"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 
@@ -93,7 +91,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nella pagina **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
 
@@ -105,7 +103,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Per creare un piano rigenerativo per soddisfare la domanda presso l'ubicazione BLU  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
@@ -128,7 +126,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Per calcolare MRP per includere i componenti necessari sottostanti  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
@@ -222,7 +220,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 3.  Accettare l'avviso di disponibilità e scegliere **Sì** per registrare la quantità di domanda.  
 4.  Continuare la pianificazione per rettificare il piano di approvvigionamento corrente.  
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
 6.  Scegliere l'azione **Calcola piano - Solo cambiamenti**.  
 7.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 

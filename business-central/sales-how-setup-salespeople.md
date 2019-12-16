@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764506"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877569"
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
 Molte società basano sull'andamento di un singolo impiegato il calcolo della provvigione sulle vendite o del premio. Vedere, ad esempio, il report **Commissioni agente**. La società potrebbe anche decidere di assegnare un agente a ciascun contatto.
 
 Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile selezionarlo nel campo **Codice agente** in tutti i record pertinenti, come le schede conto C/G, cliente, fornitore, contatti e campagna. Quindi quando si contabilizzano o si impostano le fatture, le note di credito, le righe di registrazione, gli addebiti degli interessi e così via, il codice dell'agente viene passato ai movimenti contabili risultanti.
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Per impostare un codice agente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti** e quindi scegliere il collegamento correlato.

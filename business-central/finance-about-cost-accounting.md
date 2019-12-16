@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulla contabilità industriale | Microsoft Docs
 description: La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302670"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879874"
 ---
 # <a name="about-cost-accounting"></a>Informazioni sulla contabilità industriale
 La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività. Le informazioni sulla contabilità generale sono concepite per analizzare:  

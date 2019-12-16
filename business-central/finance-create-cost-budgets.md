@@ -1,8 +1,6 @@
 ---
 title: Creazione di budget di costi | Microsoft Docs
 description: Questo argomento fornisce informazioni su dove creare e analizzare budget costi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306414"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879826"
 ---
 # <a name="creating-cost-budgets"></a>Creazione di budget di costi
 L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale. Un budget costi viene creato in base ai tipi di costo proprio come il budget della contabilità generale viene creato in base ai conti della contabilità generale.  

@@ -1,8 +1,6 @@
 ---
 title: Impostare gli articoli in assistenza e i componenti degli articoli in assistenza | Documenti Microsoft
 description: Informazioni sulle impostazioni da eseguire prima di poter utilizzare gli articoli di assistenza, inclusi i valori di default, ad esempio il tempo di risposta, la percentuale di sconto contrattuale e il gruppo dei prezzi di assistenza.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41c2a4ea5a79f7fe66eaae93c7bffa2c7bbe3d2e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316118"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877401"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
 Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue
@@ -62,6 +60,6 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Scaffali assistenza** e quindi scegliere il collegamento correlato.
 2. Compilare i campi come necessario.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostare codici per servizi standard](service-how-setup-service-coding.md)   
 [Impostare il troubleshooting](service-how-setup-troubleshooting.md)

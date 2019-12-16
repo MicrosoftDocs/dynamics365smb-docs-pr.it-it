@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315662"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882256"
 ---
 # <a name="copy-and-paste-faq"></a>Domande frequenti sulla funzionalità di copia e incolla
 È possibile copiare una o più righe (record) da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook). In breve, per copiare, premere CTRL+C (cmd+C in macOS) sulla tastiera. Per incollare, premere CTRL+V (cmd+V in macOS).
@@ -38,7 +38,7 @@ Per copiare una singola riga, selezionarla e quindi premere CTRL+C.
 
 Per copiare più righe, è possibile:
 - Premere CTRL+fare clic su un'altra riga o premere MAIUSC+fare clic per selezionare la riga e tutte le righe intermedie. Vedere [Tasti di scelta rapida](keyboard-shortcuts.md#CopyRows) più per combinazioni di tastiera e del mouse per la selezione di righe.
-- Selezionare ![Mostra più opzioni](media/show-more-options-icon.png "Icona Mostra più opzioni") nella prima colonna, selezionare **Seleziona più elementi**, selezionare la casella di controllo accanto a ciascuna riga che si desidera copiare, quindi premere CTRL+C.
+- Selezionare ![Mostra più opzioni](media/show-more-options-icon.png "Icona Mostra altre opzioni") nella prima colonna, selezionare **Seleziona più elementi**, selezionare la casella di controllo accanto a ciascuna riga che si desidera copiare, quindi premere CTRL+C.
 
 ## <a name="how-do-i-paste-rows"></a>Come incollare le righe
 Selezionare una riga vuota, con lo stato attivo in una cella qualsiasi, quindi premere CRTL+V.
@@ -56,7 +56,7 @@ Sì. Queste righe vengono incollate come una tabella ben formattata che conserva
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>In quali elenchi si possono copiare e incollare righe?
 È possibile copiare righe in qualsiasi tipo di elenco, inclusi fogli di lavoro, caselle di controllo o elenchi incorporati in una pagina (come le righe di un ordine di vendita). Tuttavia, per incollare le righe, l'elenco deve essere modificabile.
 
-In alcune pagine, la progettazione dell'applicazione potrebbe impedire di incollare righe. Contattare l'amministratore o lo sviluppatore dell'applicazioni per modificare la [proprietà modificabile](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) nella pagina o la [proprietà PasteIsValid](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) nella tabella di origine.
+In alcune pagine, la progettazione dell'applicazione potrebbe impedire di incollare righe. Contattare l'amministratore o lo sviluppatore dell'applicazioni per modificare la [proprietà modificabile](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) nella pagina o la [proprietà PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) nella tabella di origine.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>In quali client quali client è disponibile copia e incolla?
 Copia e incolla sono disponibili nel browser o nell'app [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows 10

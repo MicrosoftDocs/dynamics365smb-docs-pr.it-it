@@ -1,8 +1,6 @@
 ---
 title: 'Impostare le procedure ottimali: metodi di riordino | Microsoft Docs'
 description: Nel campo Metodo di riordino delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311526"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882232"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
@@ -32,7 +30,7 @@ Una delle migliori basi per la selezione di un metodo di riordino è la classifi
 
 La classificazione ABC stabilisce che è possibile risparmiare tempo e denaro applicando un controllo meno restrittivo agli articoli con un valore-volume basso rispetto agli articoli con un valore-volume alto. L'esempio seguente mostra quale metodo di riordino in [!INCLUDE[d365fin](includes/d365fin_md.md)] è più appropriato per gli articoli con classificazione A, B e C rispettivamente.
 
-![Classificazione ABC](media/abc_classification.png "abc_classification")
+![Classificazione di ABC](media/abc_classification.png "abc_classification")
 
 Nella seguente tabella vengono fornite le procedure consigliate per la selezione tra quattro metodi.  
 

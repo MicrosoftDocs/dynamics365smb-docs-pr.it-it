@@ -1,8 +1,6 @@
 ---
 title: Dettagli di progettazione - Tracciabilità e pianificazione degli articoli | Microsoft Docs
 description: Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303346"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880258"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
 Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini. Ciò significa che agli articoli con record di tracciabilità ordini possono essere assegnati numeri di tracciabilità articoli. Al contrario, gli articoli con numeri di tracciabilità articolo possono diventare record di tracciabilità ordini. Per altre informazioni, vedere [Dettagli di progettazione - Progettazione tracciabilità articolo](design-details-item-tracking-design.md).

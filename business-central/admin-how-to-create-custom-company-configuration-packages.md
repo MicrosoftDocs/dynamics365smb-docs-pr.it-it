@@ -1,8 +1,6 @@
 ---
 title: Creare pacchetti di configurazione di società personalizzati | Documenti Microsoft
 description: Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti. È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6fd35133d16056b947db6680cc9a76cfccaa6a3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 99fad48961dc201a25af061cf982a1c65d9446bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308079"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878867"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
 Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti. È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.  
@@ -52,5 +50,5 @@ Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a for
 9.  Esportare il pacchetto come file con estensione rapidstart.  
 
 ## <a name="see-also"></a>Vedere anche  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

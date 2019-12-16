@@ -1,8 +1,6 @@
 ---
 title: Creare offerte di assistenza | Documenti Microsoft
 description: La pagina **Offerte assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente. Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ordine di assistenza e può essere in seguito convertita in un ordine.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315926"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877233"
 ---
 # <a name="create-service-quotes"></a>Creare offerte di assistenza
 Le offerte di assistenza possono essere considerate come ordini di assistenza di base. In effetti, sono quasi identici. Entrambi includono informazioni come l'identità del cliente, il tipo di ordine, l'articolo che necessita di assistenza, nonché informazioni di fatturazione, spedizione e relative al lavoro di assistenza effettivo.
@@ -37,7 +35,7 @@ Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ord
 6. Compilare le righe di articolo in assistenza.  
 7. Registrare i costi previsti nelle righe di assistenza.  
   
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)  
 [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
 

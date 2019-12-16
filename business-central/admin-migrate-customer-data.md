@@ -1,8 +1,6 @@
 ---
 title: Eseguire la migrazione dei dati dei clienti | Documenti Microsoft
 description: È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a Business Central utilizzando RapidStart Services. È possibile utilizzare i file Excel in formato xlsx come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304417"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896207"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
+
+> [!NOTE]
+> I campi di tipo BLOB non possono essere esportati/importati utilizzando Excel.
 
 Le pagine **Sintesi migrazione dati** e **Foglio di lavoro configurazione** consentono di accedere alle funzioni e alle visualizzazioni per eseguire tutti i task correlati alla migrazione dei dati. È consigliabile eseguire la migrazione di una tabella alla volta, per gestire le dipendenze nei dati. La migrazione interesserà anche le tabelle di dati master, che contengono informazioni su clienti, fornitori, articoli, contatti e la contabilità generale.  
 
@@ -189,5 +190,5 @@ Nel campo **Nr. record di database**, è possibile visualizzare il numero di rec
 Il database della società del cliente è ora impostato e i dati di base vengono importati. I passaggi successivi del processo di implementazione sono organizzare utenti, definire processi, creare dati aggiuntivi, personalizzare i report e così via.
 
 ## <a name="see-also"></a>Vedere anche  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

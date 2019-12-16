@@ -1,8 +1,6 @@
 ---
 title: Tolleranza pagamento e tolleranza sconto pagamento | Microsoft Docs
 description: È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3bed8b9298b668e627691be11598ca8c78238db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 229602a4ca5eb7b2da926171a7ba86a8d103b133
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305742"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879610"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -77,7 +75,7 @@ L'avviso tolleranza pagamento viene visualizzato quando si registra un collegame
 ## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti  
 Per impostazione di default, la tolleranza di pagamento è consentita. Per disattivare la tolleranza di pagamento per un cliente o un fornitore, è necessario bloccare la tolleranza nella relativa scheda cliente o scheda fornitore. Di seguito viene descritto come eseguire l'operazione per un cliente. I passaggi sono simili per un fornitore.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore**e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore** e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Pagamenti** selezionare la casella di controllo **Blocca tolleranza pagam**.  
 
 > [!NOTE]  

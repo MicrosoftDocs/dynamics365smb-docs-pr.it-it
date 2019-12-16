@@ -1,8 +1,6 @@
 ---
 title: Come consentire il carico di più articoli di quelli ordinati | Microsoft Docs
 description: Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3a8a637292f25f683b197d96d55816bfc79d44cf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312438"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883048"
 ---
 # <a name="allow-receipt-of-more-items-than-ordered"></a>Consentire il carico di più articoli di quelli ordinati
 Quando si ricevono più merci di quelle ordinate, è possibile che si intenda mantenerle anziché annullare il carico. Ad esempio, potrebbe essere più economico mantenere l'eccesso nell'inventario anziché restituirlo oppure il fornitore potrebbe offrire uno sconto per accettarlo.

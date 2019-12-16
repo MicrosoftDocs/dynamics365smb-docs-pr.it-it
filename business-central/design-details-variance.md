@@ -1,8 +1,6 @@
 ---
 title: 'Dettagli di progettazione: Scostamento | Microsoft Docs'
 description: Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306702"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882784"
 ---
 # <a name="design-details-variance"></a>Dettagli di progettazione: Scostamento
 Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.  
@@ -61,7 +59,7 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 |**Costo gen. capacità - Ricalcolo**|Non applicabile|![Equazione 8](media/design_details_inventory_costing_11_equation_8.png "Equazione 8")|  
 |**Costo gen. prod.- Ricalcolo**|Non applicabile|![Equazione 9](media/design_details_inventory_costing_11_equation_9.png "Equazione 9")|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
