@@ -1,8 +1,6 @@
 ---
 title: Applicazione della configurazione a nuove società | Documenti Microsoft
 description: Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Utilizzare la configurazione con una nuova società vuota.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 515d60e41baf07b888f0bf6f8b002ebdccc1019e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4034c9d6145d6cc76e8968376f28ef0bb3430db2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308238"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878656"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="5ce70-104">Applicazione della configurazione a nuove società</span><span class="sxs-lookup"><span data-stu-id="5ce70-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="5ce70-105">Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione.</span><span class="sxs-lookup"><span data-stu-id="5ce70-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="5ce70-106">Il pacchetto di configurazione è utilizzato in una nuova società vuota.</span><span class="sxs-lookup"><span data-stu-id="5ce70-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="55634-104">Applicazione della configurazione a nuove società</span><span class="sxs-lookup"><span data-stu-id="55634-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="55634-105">Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione.</span><span class="sxs-lookup"><span data-stu-id="55634-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="55634-106">Il pacchetto di configurazione è utilizzato in una nuova società vuota.</span><span class="sxs-lookup"><span data-stu-id="55634-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="5ce70-107">Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.</span><span class="sxs-lookup"><span data-stu-id="5ce70-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="55634-107">Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.</span><span class="sxs-lookup"><span data-stu-id="55634-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="5ce70-108">**Task**</span><span class="sxs-lookup"><span data-stu-id="5ce70-108">**To**</span></span>|<span data-ttu-id="5ce70-109">**Vedere**</span><span class="sxs-lookup"><span data-stu-id="5ce70-109">**See**</span></span>|  
+|<span data-ttu-id="55634-108">**Task**</span><span class="sxs-lookup"><span data-stu-id="55634-108">**To**</span></span>|<span data-ttu-id="55634-109">**Vedere**</span><span class="sxs-lookup"><span data-stu-id="55634-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="5ce70-110">Creare una nuova società in cui eseguire l'implementazione di un cliente.</span><span class="sxs-lookup"><span data-stu-id="5ce70-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="5ce70-111">Creare una nuova società</span><span class="sxs-lookup"><span data-stu-id="5ce70-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="5ce70-112">Importare e collegare il pacchetto di configurazione a una nuova società.</span><span class="sxs-lookup"><span data-stu-id="5ce70-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="5ce70-113">Configurare nuove società</span><span class="sxs-lookup"><span data-stu-id="5ce70-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="5ce70-114">Utilizzare una guida al setup assistito per completare facilmente la configurazione di una società.</span><span class="sxs-lookup"><span data-stu-id="5ce70-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="5ce70-115">Configurare una società con la procedura guidata RapidStart</span><span class="sxs-lookup"><span data-stu-id="5ce70-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="5ce70-116">Copiare i valori comunemente utilizzati da una società esistente in una nuova, nello stesso database.</span><span class="sxs-lookup"><span data-stu-id="5ce70-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="5ce70-117">Copiare i dati in nuove società</span><span class="sxs-lookup"><span data-stu-id="5ce70-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="5ce70-118">Utilizzare un processo batch per trasferire saldi dei conti legacy a una società appena configurata e quindi applicare le scritture contabili risultanti.</span><span class="sxs-lookup"><span data-stu-id="5ce70-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="5ce70-119">Creare bilanci di apertura delle registrazioni</span><span class="sxs-lookup"><span data-stu-id="5ce70-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="55634-110">Creare una nuova società in cui eseguire l'implementazione di un cliente.</span><span class="sxs-lookup"><span data-stu-id="55634-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="55634-111">Creare una nuova società</span><span class="sxs-lookup"><span data-stu-id="55634-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="55634-112">Importare e collegare il pacchetto di configurazione a una nuova società.</span><span class="sxs-lookup"><span data-stu-id="55634-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="55634-113">Configurare nuove società</span><span class="sxs-lookup"><span data-stu-id="55634-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="55634-114">Utilizzare una guida al setup assistito per completare facilmente la configurazione di una società.</span><span class="sxs-lookup"><span data-stu-id="55634-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="55634-115">Configurare una società con la procedura guidata RapidStart</span><span class="sxs-lookup"><span data-stu-id="55634-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="55634-116">Copiare i valori comunemente utilizzati da una società esistente in una nuova, nello stesso database.</span><span class="sxs-lookup"><span data-stu-id="55634-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="55634-117">Copiare i dati in nuove società</span><span class="sxs-lookup"><span data-stu-id="55634-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="55634-118">Utilizzare un processo batch per trasferire saldi dei conti legacy a una società appena configurata e quindi applicare le scritture contabili risultanti.</span><span class="sxs-lookup"><span data-stu-id="55634-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="55634-119">Creare bilanci di apertura delle registrazioni</span><span class="sxs-lookup"><span data-stu-id="55634-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="5ce70-120">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="5ce70-120">See Also</span></span>  
-[<span data-ttu-id="5ce70-121">Impostazione una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="5ce70-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="5ce70-122">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="5ce70-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="55634-120">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="55634-120">See Also</span></span>  
+[<span data-ttu-id="55634-121">Impostazione una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="55634-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="55634-122">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="55634-122">Administration</span></span>](admin-setup-and-administration.md)
