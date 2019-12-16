@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303438"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832193"
 ---
 # <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Il costing di magazzino, detto anche gestione costing riguarda la registrazione 
 [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)  
 [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
 [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)  
-[Dettagli di progettazione - Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)
-[Dettagli di progettazione - Valutazione di magazzino](design-details-inventory-valuation.md)  
+[Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)  
+[Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md)  
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315158"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809378"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
@@ -59,9 +59,10 @@ Il processo di impostazione dei layout di report Word e RDLC nei report è lo st
 Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Vedere anche
-[Aggiornamento dei layout di report o documento](ui-update-report-layouts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Creare e modificare un layout di documento o report personalizzato](ui-how-create-custom-report-layout.md)  
+[Aggiornare layout report personalizzati](ui-update-report-layouts.md)  
+[Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  
 [Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
+[Definire layout di documenti speciali per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

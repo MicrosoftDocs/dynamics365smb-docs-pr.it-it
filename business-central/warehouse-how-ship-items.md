@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Spedire articoli | Documenti Microsoft'
 description: A seconda della configurazione della warehouse, è possibile registrare la spedizione del documento aziendale in uscita correlato, ad esempio un ordine di vendita, direttamente, oppure è possibile utilizzare i documenti di spedizione warehouse che rispettano un flusso di lavoro e si integrano alle diverse attività di warehouse.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314678"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876777"
 ---
 # <a name="ship-items"></a>Spedire articoli
 Quando gli articoli partono da una warehouse che non è impostata per l'elaborazione delle spedizioni warehouse, occorre registrare semplicemente la spedizione nel documento aziendale correlato, ad esempio un ordine di vendita, un ordine di assistenza, un ordine di reso acquisto o un ordine di trasferimento in uscita.
@@ -29,7 +27,7 @@ Quando gli articoli vengono spediti da una warehouse impostata in modo da richie
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Per spedire gli articoli con un ordine di vendita
 Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Aprire un ordine di vendita esistente o crearne uno. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3. Nel campo **Qtà da Spedire** immettere la quantità ricevuta.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316881"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832096"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Aggiungere un'azione di pagina a Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un collegamento di azione a qualsiasi pagina dal menu di navigazione di Gestione ruolo utente. Si aggiunge il segnalibro dalla pagina di destinazione, ovvero la pagina che deve essere aperta con l'azione in Gestione ruolo utente.
@@ -24,15 +24,18 @@ L'icona segnalibro è visualizzata nell'angolo in alto a destra di tutte le pagi
 
 ## <a name="to-add-a-role-center-action-from-the-target-page"></a>Per aggiungere un'azione di Gestione ruolo utente dalla pagina di destinazione
 1. Aprire qualsiasi pagina per la quale si desidera un'azione in Gestione ruolo utente.
-2. Scegliere l'icona ![segnalibro ](media/ui_bookmark_icon.png "segnalibro ").
+2. Scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
 
 Un'azione con il nome della pagina viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
 ## <a name="to-add-a-role-center-action-from-the-tell-me-window"></a>Per aggiungere un'azione di Gestione ruolo utente dalla finestra della funzionalità delle informazioni
 1. Aprire la finestra della **funzionalità delle informazioni** e immettere, ad esempio, **Ordini vendita**.
-2. Passare sopra il risultato della ricerca per la pagina **Ordini vendita**, quindi scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "segnalibro").
+2. Passare sopra il risultato della ricerca per la pagina **Ordini vendita**, quindi scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
 
 Se un segnalibro esiste per la pagina, l'icona è scura e la descrizione comandi indica "Con segnalibro".
+
+> [!NOTE]  
+> Quando viene aggiunto un segnalibro, anche qualsiasi testo tradotto disponibile in quel momento viene contrassegnato con un segnalibro. Se il nuovo testo tradotto viene aggiunto in un secondo momento, il collegamento con segnalibro non viene aggiornato.
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  

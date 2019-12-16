@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695193"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876873"
 ---
 # <a name="searching-and-filtering-faq"></a>Domande frequenti su ricerca e filtro
 Questo articolo risponde alle domande più frequenti relative alle operazioni di ricerca e filtro.
@@ -47,7 +47,7 @@ In Microsoft, i feedback della nostra variegata comunità di utenti vengono cost
 
 Esiste un limite di tempo su quanto può durare un'operazione di ricerca. Innanzitutto, provare a cambiare i criteri di ricerca e cercare di nuovo. Se si utilizza [!INCLUDE[prodshort](includes/prodshort.md)] in locale, contattare l'amministratore di sistema, poiché un amministratore può aumentare il limite di tempo per le ricerche.
 
-In qualità di amministratore locale, è possibile aumentare il limite di tempo per le ricerche modificando l' impostazione **Timeout ricerca** del server [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Configurazione di Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) nella Guida di Business Central per sviluppatori e professionisti IT.
+In qualità di amministratore locale, è possibile aumentare il limite di tempo per le ricerche modificando l' impostazione **Timeout ricerca** del server [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Configurazione di Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) nella Guida di Business Central per sviluppatori e professionisti IT.
 
 ## <a name="see-also"></a>Vedere anche
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  

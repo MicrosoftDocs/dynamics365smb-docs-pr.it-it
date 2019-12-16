@@ -10,45 +10,51 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af33d0679242e9915bc3e0de5825bf293e22c585
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315254"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809083"
 ---
 # <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
 
 In base ai layout disponibili per un report, è possibile scegliere di utilizzare un layout di report RDLC o Word predefinito o un layout personalizzato. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).
 
+Quando vengono definiti layout di report personalizzati, è possibile selezionarli da schede cliente e fornitore per specificare che i layout selezionati verranno utilizzati per documenti creati per il cliente o il fornitore in questione. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+
 > [!TIP]  
-> I report documento (non elenchi) che utilizzano un layout report Word sono in genere più rapidi di quelli che utilizzano un layout report RDLC. Quindi, se si ha la possibilità di scegliere tra un layout report Word o RDLC per un report documento, utilizzare il report layout Word per ottenere le migliori prestazioni.  
+> I report documento (non elenchi) che utilizzano un layout report Word sono in genere più rapidi di quelli che utilizzano un layout report RDLC. Quindi, se si ha la possibilità di scegliere tra un layout report Word o RDLC per un report documento, utilizzare il report layout Word per ottenere le migliori prestazioni.
 
-## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Per modificare il layout utilizzato in un report
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
-   Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società che è specificata nel campo Società nella parte superiore della pagina. Il campo Layout selezionato specifica il layout che attualmente è utilizzato nel report.
+   Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società specificata nel campo **Società** nella parte superiore della pagina. Il campo **Layout selezionato** specifica il layout che attualmente è utilizzato nel report.
 2. Impostare il campo **Società** nella parte superiore della pagina alla società che include il report.
-3. Per modificare il layout utilizzato da un report, nella riga del report nell'elenco, impostare il campo **Layout selezionato** su una delle seguenti opzioni:
-   * RDLC (predefinito) utilizza nel report il layout di report RDLC integrato.
-   * Word (predefinito) utilizza nel report il layout di report Word integrato.
-   * Personalizzato utilizza nel report un layout personalizzato.  
-
-È possibile visualizzare i layout personalizzati disponibili per il report nel Dettaglio informazioni **Parte di layout report**. Se non esistono layout personalizzati per il report, è necessario innanzitutto creare uno. Se si seleziona questa opzione, andare alla procedura descritta di seguito per specificare il layout personalizzato da utilizzare.
+3. Per modificare il layout utilizzato da un report, nella riga del report, impostare il campo **Layout selezionato** su una delle seguenti opzioni:
+   * **RDLC (predefinito)** utilizza il layout di report RDLC integrato nel report.
+   * **Word (predefinito)** utilizza il layout di report Word integrato nel report.
+   * **Personalizzato** utilizza nel report un layout personalizzato.  
 
 > [!NOTE]
-> Se si sceglie **RDLC (predefinito)** o **Word (predefinito)** e si visualizza un messaggio di errore che indica che il report non dispone di un layout del tipo specificato, è necessario selezionare un'altra opzione di layout o creare un layout di report personalizzato del tipo che si desidera utilizzare.
+> Se si sceglie un layout di report di tipo **RDLC (predefinito)** o **Word (predefinito)** e si visualizza un messaggio di errore che indica che il report non dispone di un layout del tipo specificato, è necessario selezionare un'altra opzione di layout o creare un layout di report personalizzato del tipo che si desidera utilizzare. Vedere la procedura seguente.
 
 Se è stato selezionato un layout di report RDLC o Word predefinito, non sono necessarie ulteriori azioni e il layout verrà utilizzato alla successiva esecuzione del report.
 
-## <a name="to-specify-a-custom-layout-on-a-report"></a>Per specificare un layout personalizzato in un report
-1. Specificare quale layout personalizzato utilizzare nel report dalla pagina **Layout report personalizzati**. Se la pagina **Layout report personalizzati** non è aperta, nel campo **Descrizione layout report** scegliere il pulsante di ricerca.
-2. Nella pagina **Layout report personalizzati** selezionare la riga di layout personalizzato che si desidera utilizzare, quindi chiudere la finestra.
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Per modificare il layout personalizzato da utilizzare per un layout di report
+È anche possibile che si intenda modificare il layout personalizzato attualmente utilizzato. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-Verrà visualizzata nuovamente la pagina **Selezione layout report**. Il nome del layout personalizzato selezionato viene visualizzato nel campo **Descrizione layout personalizzato**. Il layout personalizzato verrà utilizzato la volta successiva che si esegue il report.
+Tutti i layout di report personalizzati esistenti per layout di report in una società sono elencati nella pagina **Layout di report personalizzati**. Nella pagina **Selezione layout report** è possibile visualizzare i layout personalizzati disponibili per ogni report nel Dettaglio informazioni **Report personalizzati**.
 
-## <a name="see-also"></a>Vedi anche
+1. Nella pagina **Selezione layout report**, sulla riga per il layout di report che si desidera modificare, scegliere il pulsante di ricerca nel campo **Descrizione layout personalizzato**.
+2. Nella pagina **Layout report personalizzati** selezionare la riga per il layout personalizzato che si desidera utilizzare, quindi scegliere **OK**.
+
+Il nome del layout personalizzato selezionato è ora visualizzato nel campo **Descrizione layout personalizzato** e verrà utilizzato la volta successiva che il report o il documento viene visualizzato in anteprima, stampato o inviato.
+
+Ora è possibile andare alle schede cliente e fornitore per specificare quali layout utilizzare per diversi documenti creati per il cliente o il fornitore in questione, come conferme di ordini o solleciti di pagamento. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+
+## <a name="see-also"></a>Vedere anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
