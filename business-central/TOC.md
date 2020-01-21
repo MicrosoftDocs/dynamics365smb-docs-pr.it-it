@@ -5,6 +5,15 @@
 ## [Requisiti minimi](product-requirements.md)
 ## [Domande frequenti](across-faq.md)
 ## [Risorse per Guida e supporto](product-help-and-support.md)
+## [Preparazione al business](ui-get-ready-business.md)
+## [Panoramica sulle funzionalità aziendali](across-business-functionality.md)
+## [Accesso a Cloud intelligente con Business Central](about-intelligent-cloud.md)
+## [Visitare la videoteca](across-videos.md)
+## Versioni di valutazione e sottoscrizioni
+### [Sintesi](across-preview.md)
+### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
+### [Estendere la versione di valutazione](admin-extend-trial.md)
+### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
 ## Trovare materiali di formazione
 ### [Catalogo di apprendimento](readiness/readiness-learning-catalog.md)
 ### [Catalogo di apprendimento per decisori aziendali](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Catalogo di apprendimento per consulenti funzionali](readiness/readiness-learning-functional-consultants.md)
 ### [Catalogo di apprendimento per la pre-vendita](readiness/readiness-learning-presales.md)
 ### [Catalogo di apprendimento per la vendita](readiness/readiness-learning-sales.md)
-
-## [Preparazione al business](ui-get-ready-business.md)
-## [Panoramica sulle funzionalità aziendali](across-business-functionality.md)
-## [Versioni di valutazione e sottoscrizioni](across-preview.md)
-### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
-### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
-## [Accesso a Cloud intelligente con Business Central](about-intelligent-cloud.md)
-## [Visitare la videoteca](across-videos.md)
 ## Rivenditori e partner
 ### [Diventare un rivenditore](product-sell.md)
 ### [Estensione di Business Central](about-develop-extensions.md)
@@ -314,7 +315,7 @@
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
 #### [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Mapping dei campi durante l'esportazione dei file di pagamento tramite il servizio di conversione dati bancari](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Mapping dei campi per Estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Setup
 ## [Sintesi](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Impostare una connessione a Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Mapping delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md)
 #### [Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)
 ### [Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)
 ### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md).
 ### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
 ### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-### [Blocca clienti](receivables-how-block-customers.md)
+### [Bloccare i fornitori](payables-how-block-vendors.md)
 ### [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)
 ### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Creare fatture per i pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)
 ### [Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)
 
-## Gestione di conti correnti bancari
+## Riconciliazione dei conti correnti bancari
 ### [Sintesi](bank-manage-bank-accounts.md)
+### [Riconciliazione dei conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)
 ### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md)  
-### [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)
 
 ## Gestione delle transazioni Intercompany
 ### [Sintesi](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md)
 ## [Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md)
+## [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)
 ## [Esperienze contabile in Business Central](finance-accounting.md)
 
 # Business Intelligence
@@ -924,10 +926,29 @@
 
 ## Repubblica Ceca
 ### [Sintesi](LocalFunctionality/Czech/czech-local-functionality.md)
+### Finanze principali  
+#### [Finanze](LocalFunctionality/Czech/finance.md)
+#### [Operazioni di chiusura anno](LocalFunctionality/Czech/year-close-operations.md)
+#### [Collegamento di movimenti C/G](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Aggiornamento di tassi di cambio](LocalFunctionality/Czech/exchange-rate-update.md)
 ### IVA
+#### [Contabilità - IVA](LocalFunctionality/Czech/finance-vat.md)
 #### [Report di controllo IVA](LocalFunctionality/Czech/vat-control-report.md)
+### Cespiti
+#### [Cespiti](LocalFunctionality/Czech/fixed-assets.md)
 ### Attività bancarie e pagamenti
+#### [Funzione bancaria](LocalFunctionality/Czech/bank-feature.md)
+#### [Gestione ufficio cassa](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registrazione delle vendite (EET)](LocalFunctionality/Czech/eet.md)
+#### [Avanzate](LocalFunctionality/Czech/advances.md)
+### Debiti e crediti
+#### [Debiti e crediti](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Inventario
+#### [Magazzino](LocalFunctionality/Czech/inventory.md)
+### Generale
+#### [Controllo utente esteso](LocalFunctionality/Czech/general.md)
+#### [Procedure consigliate](LocalFunctionality/Czech/best-practices.md)
 
 ## Danimarca
 ### [Sintesi](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Messico
 ### [Sintesi](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Imposta
+#### [Impostare e generare report DIOT](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [IVA messicana](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Impostare l'IVA intracomunitaria e l'imposta sugli acquisti](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Impostare l'IVA ad esigibilità differita e sconti pagamenti](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Estensione dei codici postali di GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Impostare l'estensione GetAddress.io per codici postali del Regno Unito](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Immettere numeri di documento esterni](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Stampare report Dettagli vendite dirette e Dettagli acquisti diretti](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## Stati Uniti
 ### [Sintesi](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

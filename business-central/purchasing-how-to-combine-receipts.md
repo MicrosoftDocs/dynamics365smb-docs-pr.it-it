@@ -1,6 +1,8 @@
 ---
-title: Come consentire il carico di più articoli di quelli ordinati | Microsoft Docs
+title: 'Procedura: Cumulare i carichi | Documenti Microsoft'
 description: Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,26 +10,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/17/2018
 ms.author: sgroespe
-ms.openlocfilehash: 3a8a637292f25f683b197d96d55816bfc79d44cf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 08a0bb315916ab2a5d344519b680e48bcf6d95fa
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883048"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911217"
 ---
-# <a name="allow-receipt-of-more-items-than-ordered"></a><span data-ttu-id="c466a-103">Consentire il carico di più articoli di quelli ordinati</span><span class="sxs-lookup"><span data-stu-id="c466a-103">Allow Receipt of More Items Than Ordered</span></span>
-<span data-ttu-id="c466a-104">Quando si ricevono più merci di quelle ordinate, è possibile che si intenda mantenerle anziché annullare il carico.</span><span class="sxs-lookup"><span data-stu-id="c466a-104">When you receive more goods than you ordered, you may want to receive them in stead of canceling the receipt.</span></span> <span data-ttu-id="c466a-105">Ad esempio, potrebbe essere più economico mantenere l'eccesso nell'inventario anziché restituirlo oppure il fornitore potrebbe offrire uno sconto per accettarlo.</span><span class="sxs-lookup"><span data-stu-id="c466a-105">For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.</span></span>
+# <a name="combine-receipts-on-a-single-invoice"></a><span data-ttu-id="9e175-103">Combinare i carichi in una singola fattura</span><span class="sxs-lookup"><span data-stu-id="9e175-103">Combine Receipts on a Single Invoice</span></span>
+<span data-ttu-id="9e175-104">Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione **Cumula carichi**.</span><span class="sxs-lookup"><span data-stu-id="9e175-104">If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.</span></span>  
 
-<span data-ttu-id="c466a-106">I gestori degli ordini e i gli addetti warehouse devono essere in grado di gestire tali "carichi eccessivi" senza passare attraverso un lungo processo di preparazione e di approvazione per un nuovo ordine di acquisto.</span><span class="sxs-lookup"><span data-stu-id="c466a-106">Order processors and warehouse workers must be able to handle such "over receipts" without going through a lengthy process of preparing and getting approval for a new purchase order.</span></span>
+<span data-ttu-id="9e175-105">Prima di creare un carico di acquisto cumulato, è necessario che venga registrato più di un carico per lo stesso fornitore nella stessa valuta.</span><span class="sxs-lookup"><span data-stu-id="9e175-105">Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted.</span></span> <span data-ttu-id="9e175-106">In altri termini, è necessario compilare due o più ordini di acquisto e registrarli come ricevuti, ma non fatturati.</span><span class="sxs-lookup"><span data-stu-id="9e175-106">In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.</span></span>  
 
-## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a><span data-ttu-id="c466a-107">Per ricevere più articoli di quelli specificati nel documento di acquisto</span><span class="sxs-lookup"><span data-stu-id="c466a-107">To receive more items than specified on the purchase document</span></span>
+<span data-ttu-id="9e175-107">Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene creata una fattura di acquisto registrata per le righe fatturate.</span><span class="sxs-lookup"><span data-stu-id="9e175-107">When purchase receipts are combined on an invoice and posted, then a posted purchase invoice is created for the invoiced lines.</span></span> <span data-ttu-id="9e175-108">Il campo **Quantità fatturata** dell'ordine di acquisto o dell'ordine di acquisto programmato di origine viene aggiornato in base alla quantità fatturata.</span><span class="sxs-lookup"><span data-stu-id="9e175-108">The **Quantity Invoiced** field on the originating purchase order, or blanket purchase order, is updated based on the invoiced quantity.</span></span> <span data-ttu-id="9e175-109">Tuttavia, il documento di acquisto originale non viene eliminato, anche se è stato completamente ricevuto e fatturato; è necessario quindi eliminare il documento di acquisto manualmente.</span><span class="sxs-lookup"><span data-stu-id="9e175-109">However, this original purchase document is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase document.</span></span>  
 
-1. <span data-ttu-id="c466a-108">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="c466a-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.</span></span>
-2.   
+## <a name="to-combine-receipts"></a><span data-ttu-id="9e175-110">Per cumulare i carichi</span><span class="sxs-lookup"><span data-stu-id="9e175-110">To combine receipts</span></span>  
+1. <span data-ttu-id="9e175-111">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="9e175-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="9e175-112">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="9e175-112">Choose the **New** action.</span></span> <span data-ttu-id="9e175-113">Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="9e175-113">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>  
+3. <span data-ttu-id="9e175-114">Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di carico**.</span><span class="sxs-lookup"><span data-stu-id="9e175-114">On the **Lines** FastTab, choose the **Get Receipt Lines** action.</span></span>  
+4. <span data-ttu-id="9e175-115">Selezionare più righe di carico che si desidera includere nella fattura.</span><span class="sxs-lookup"><span data-stu-id="9e175-115">Select multiple receipt lines that you want to include in the invoice.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c466a-109">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="c466a-109">See Also</span></span>  
-[<span data-ttu-id="c466a-110">Acquisti</span><span class="sxs-lookup"><span data-stu-id="c466a-110">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="c466a-111">Ricevere articoli</span><span class="sxs-lookup"><span data-stu-id="c466a-111">Receive Items</span></span>](warehouse-how-receive-items.md)  
-<span data-ttu-id="c466a-112">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c466a-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+    <span data-ttu-id="9e175-116">Se è stata selezionata una riga di carico non corretta o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura di acquisto ed eseguire nuovamente la funzione **Prendi righe di carico**.</span><span class="sxs-lookup"><span data-stu-id="9e175-116">If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.</span></span>  
+5. <span data-ttu-id="9e175-117">Per registrare la fattura scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="9e175-117">To post the invoice, choose the **Post** action.</span></span>  
+
+## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a><span data-ttu-id="9e175-118">Per rimuovere ordini di acquisto aperti dopo la registrazione del carico cumulativa</span><span class="sxs-lookup"><span data-stu-id="9e175-118">To remove open purchase orders after combined receipt posting</span></span>  
+1. <span data-ttu-id="9e175-119">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini acquisto fatturati** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="9e175-119">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.</span></span>  
+2. <span data-ttu-id="9e175-120">Compilare i campi, se necessario.</span><span class="sxs-lookup"><span data-stu-id="9e175-120">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="9e175-121">.</span><span class="sxs-lookup"><span data-stu-id="9e175-121">.</span></span>
+3. <span data-ttu-id="9e175-122">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="9e175-122">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="9e175-123">In alternativa, eliminare i singoli ordini manualmente.</span><span class="sxs-lookup"><span data-stu-id="9e175-123">Alternatively, delete the individual orders manually.</span></span>
+
+<span data-ttu-id="9e175-124">Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di acquisto programmati.</span><span class="sxs-lookup"><span data-stu-id="9e175-124">Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="9e175-125">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="9e175-125">See Also</span></span>  
+[<span data-ttu-id="9e175-126">Acquisti</span><span class="sxs-lookup"><span data-stu-id="9e175-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="9e175-127">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9e175-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

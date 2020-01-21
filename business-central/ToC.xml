@@ -6,7 +6,7 @@
     <Node Name="" DisplayName="Scaricare Business Central sul dispositivo mobile" Page="install-mobile-app.html"/>
     <Node Name="" DisplayName="Eseguire la sincronizzazione con i contatti di Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Utilizzo di Business Central come Posta in arrivo aziendale di Outlook" Page="admin-outlook.html"/>
-    <Node Name="" DisplayName="Abilitare i dati aziendali per Power BI " Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Abilitare i dati aziendali per Power BI" Page="admin-powerbi.html"/>
     <Node Name="" DisplayName="Uso di Business Central come origine dati di Power BI" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Personalizzazione di Business Central con le estensioni" Page="ui-extensions.html"/>
   </Node>
@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="Procedura: Creare fatture di pagamenti anticipati" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="Procedura: Rettificare i pagamenti anticipati" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Gestione di conti correnti bancari" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Riconciliazione dei conti correnti bancari" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="Procedura: Riconciliare i conti correnti bancari separatamente" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Procedura: Riconciliazione dei conti correnti bancari" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="Procedura: Trasferire fondi bancari" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Gestione delle transazioni Intercompany" Page="intercompany-manage.html">
@@ -190,7 +190,7 @@
     <Node Name="" DisplayName="Procedura: Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Procedura: Registrare e rimborsare le spese dei dipendenti" Page="finance-how-record-reimburse-employee-expenses.html"/>
     <Node Name="" DisplayName="Procedura: Differire le entrate e le uscite" Page="finance-how-defer-revenue-expenses.html"/>
-    <Node Name="" DisplayName="Procedura: Importare transazioni retributive " Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Procedura: Importare transazioni retributive" Page="finance-how-import-payroll-transactions.html"/>
     <Node Name="" DisplayName="Procedura: Dichiarare l'IVA all'autorità fiscale" Page="finance-how-report-vat.html"/>
     <Node Name="" DisplayName="Procedura: Utilizzare l'IVA nelle vendite e negli acquisti" Page="finance-work-with-vat.html"/>
     <Node Name="" DisplayName="Procedura: Convertire i contratti di assistenza che includono importi IVA" Page="service-how-to-convert-service-contracts.html"/>
