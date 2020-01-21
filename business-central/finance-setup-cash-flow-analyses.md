@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879491"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953709"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  
@@ -28,6 +28,9 @@ Se si desidera informazioni per decidere quali operazioni effettuare con i conta
 * **Previsioni flusso di cassa**  
 
 In questo argomento viene descritta l'origine dei dati nei grafici e, se necessario, cosa fare per iniziare a utilizzare i grafici.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Grafici Ciclo di cassa ed Entrate e uscite
 I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e alle situazioni contabili. I conti sono all'origine dei dati e le situazioni contabili calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e situazioni contabili. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella pagina **Situazioni contabili** per i seguenti nomi della situazione contabile:  
@@ -90,6 +93,8 @@ Per utilizzare una procedura manuale:
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  
 6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup flusso di cassa** e quindi scegliere il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Azure AI** e compilare i campi.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  

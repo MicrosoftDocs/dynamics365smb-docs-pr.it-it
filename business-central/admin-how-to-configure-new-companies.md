@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878583"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910810"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  
 
 Le procedure riportate di seguito presuppongono che sia stato creato e salvato un pacchetto di configurazione. Per ulteriori informazioni, vedere [Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md).  
 
-Le procedure riportate di seguito presuppongono che la nuova società sia stata inizializzata e aperta e che si stia utilizzando la Gestione ruolo utente Implementatore di RapidStart Services.
+Le procedure riportate di seguito presuppongono che la nuova società sia stata inizializzata e aperta e che si stia utilizzando la Gestione ruolo utente Amministratore.
+
+## <a name="before-you-import-a-configuration-package"></a>Prima di importare un pacchetto di configurazione
+Prima di importare un pacchetto di configurazione, è consigliabile verificare che le seguenti istruzioni siano vere. Altrimenti, non sarà possibile importare il pacchetto di configurazione.
+
+* La licenza include le tabelle che si stanno aggiornando. Se non si è sicuri, consultare il **Foglio di lavoro configurazione**. Se la licenza include le tabelle, la la casella di controllo **Tabella con licenza** è selezionata.  
+* L'utente che importa il pacchetto di configurazione dispone delle autorizzazioni di inserimento e modifica valide per tutte le tabelle che verranno aggiornate dal pacchetto. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Per importare un pacchetto di configurazione  
 1. Aprire la nuova società nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  

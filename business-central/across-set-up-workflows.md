@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879357"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910906"
 ---
 # <a name="setting-up-workflows"></a>Impostazione dei workflow
 È possibile impostare e utilizzare i workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).  
@@ -42,8 +42,14 @@ ms.locfileid: "2879357"
 |Come impostare un flusso di lavoro per approvare documenti di vendita seguendo una procedura end-to-end.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Aggiungere supporto per uno scenario aziendale che richiede nuovi eventi o risposte del flusso di lavoro personalizzando il codice dell'applicazione.|[Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="example-of-an-approval-workflow"></a>Esempio di flusso di lavoro di approvazione
+Questo video mostra come impostare un flusso di lavoro che chiede a qualcuno di richiedere l'approvazione di qualcun altro prima di poter modificare le informazioni su un cliente esistente o creare un nuovo cliente.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+
+## <a name="see-also"></a>Vedere anche  
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
- [Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Utilizzo di Business Central](ui-work-product.md)

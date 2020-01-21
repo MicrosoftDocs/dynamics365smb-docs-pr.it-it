@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878988"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918168"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Suggerimenti e consigli: RapidStart Services
 Quando si configurano le società utilizzando RapidStart Services, vi sono alcuni suggerimenti e trucchi che è possibile adottare per semplificare l'implementazione.  
@@ -30,10 +30,10 @@ Per migliorare il processo di compilazione di un questionario di configurazione,
 È consigliabile utilizzare gli strumenti di migrazione dati forniti per eseguire la migrazione dei movimenti delle registrazioni. In caso contrario, se si utilizza un processo batch per creare le righe delle registrazioni, con un ambito di tempo limitato e vengono generati solo i campi precedenti al default nelle registrazioni. Il resto delle registrazioni quindi deve essere completato manualmente.  
 
 ## <a name="migrating-transactions"></a>Migrazione delle transazioni  
-È consigliabile eseguire la migrazione dei bilanci di apertura nel seguente ordine.  
+È consigliabile eseguire la migrazione dei bilanci di apertura nel seguente ordine. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Eseguire il migrazione dei bilanci di apertura di contabilità generale senza utilizzare i registri secondari del conto di contabilità generale. Utilizzare i conti di compensazione specifici del bilancio di apertura, un setup per ogni registro secondario. Impostare i conti di compensazione per abilitare le registrazioni dirette.  
-2.  Eseguire la migrazione dei movimenti contabili clienti aperti.  
+2.  Eseguire la migrazione dei movimenti contabili clienti aperti.  <!--work on these-->
 3.  Eseguire la migrazione dei movimenti contabili articoli aperti.  
 4.  Eseguire la migrazione i movimenti di cespiti aperti.  
 

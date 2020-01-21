@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808579"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911137"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -41,7 +41,7 @@ Per modificare uno di questi layout degli assegni predefinito, utilizzare l'inte
 ## <a name="see-also"></a>Vedere anche
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)   
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)   
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
 [Utilizzo di [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

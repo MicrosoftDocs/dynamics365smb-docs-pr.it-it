@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878750"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952844"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Uso di [!INCLUDE [prodlong](includes/prodlong.md)] come origine dati di Power BI per la creazione di report
 
@@ -41,6 +41,8 @@ Dopo che i dati sono stati caricati verranno visualizzati nel riquadro di sposta
 Prima di creare il report, è consigliabile importare il file del tema [!INCLUDE [prodshort](includes/prodshort.md)].  Il file del tema creerà una tavolozza dei colori in modo da creare report con lo stesso stile cromatico delle app [!INCLUDE [prodshort](includes/prodshort.md)] senza dover defifnire i colori personalizzati per ogni elemento grafico.
 
 Per ulteriori informazioni, vedere [Documentazione di Power BI](/power-bi/consumer/power-bi-consumer-landing/).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

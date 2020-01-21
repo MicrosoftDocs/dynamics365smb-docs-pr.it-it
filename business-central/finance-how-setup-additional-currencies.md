@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2f7376909b2627c61456c9d7a8e9c1a81d20427
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306174"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953733"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
@@ -121,7 +121,9 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 > [!NOTE]  
 >  Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

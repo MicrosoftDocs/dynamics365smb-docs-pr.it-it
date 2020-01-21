@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896159"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943235"
 ---
 # <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
 Di seguito viene descritto in che modo gli amministratori possono creare utenti e definire chi può accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] e vengono indicati i diritti fondamentali di cui dispongono diversi i tipi di utenti in base alle licenze.
@@ -83,6 +83,45 @@ Se si cambia l'utente in Office 365 successivamente ed è necessario sincronizza
 |Aggiornare il record utente in base alle informazioni effettive in Office 365: Stato, Nome completo, Email contatto, Indirizzo e-mail di autenticazione.<br /><br />Codeunit "Utente Azure AD Graph".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Sincronizzare piani utente (licenze) con licenze e ruoli assegnati in Office 365.<br /><br />Codeunit "Utente Azure AD Graph".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Aggiungere l'utente a gruppi di utenti in base ai piani utente correnti. Revocare il set di autorizzazioni SUPER (è necessario almeno un SUPER; non revocare da [amministratori](/dynamics365/business-central/dev-itpro/administration/tenant-administration)).<br /><br />Codeunit "Gestione autorizzazioni". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Sovrascrivi: rimuovere l'utente da altri gruppi. Rimuovere i set di autorizzazioni assegnati manualmente.|**X**<br /><br />Additivo: mantenere intatti l'iscrizione corrente al gruppo di utenti e i set di autorizzazioni assegnati. Aggiungere l'utente solo ai gruppi se necessario.|
+
+## <a name="the-device-license"></a>Licenza per dispositivo
+Con la licenza per dispositivo Dynamics 365 Business Central, più utenti possono utilizzare un dispositivo concesso in licenza per gestire un dispositivo per punto vendita, un dispositivo per officina o un dispositivo per magazzino. Per ulteriori informazioni, vedere [Guida alle licenze di Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+
+La licenza per dispositivo è implementata come modello per utenti simultanei. Dopo aver acquistato il numero X di licenze per dispositivo, fino al numero X di utenti dal gruppo designato chiamato Utenti del dispositivo Dynamics 365 Business Central* possono accedere contemporaneamente.
+
+L'amministratore Office 365 della società o il partner Microsoft deve creare il gruppo di dispositivi designato e aggiungere gli utenti del dispositivo come membri del gruppo. Possono farlo nell'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com/) o nel [Portale di Azure](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Limitazioni dell'utente del dispositivo
+Gli utenti con licenza per dispositivo non possono eseguire le seguenti attività in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-   Impostare i processi da eseguire come attività pianificate nella coda processi. Gli utenti del dispositivo sono utenti simultanei e, pertanto, non è possibile garantire che l'utente interessato sia presente nel sistema quando viene eseguita un'attività richiesta.
+
+-   L'utente del dispositivo non può essere il primo utente a connettersi. Un utente di tipo Amministratore, Utente completo o Contabile esterno deve essere il primo utente ad accedere per poter impostare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Amministratori](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Per creare un gruppo di utenti del dispositivo Dynamics 365 Business Central
+1.  Nell'interfaccia di amministrazione di Microsoft 365, andare alla pagina **Gruppi**.
+2.  Scegliere l'azione **Aggiungi un gruppo**.
+3.  Nella pagina **Scegli un tipo di gruppo**, scegliere l'azione **Sicurezza** quindi scegliere l'azione **Aggiungi**.
+4.  Nella pagina **Nozioni di base**, digitare *Dynamics 365 Business Central Device Users* come nome del gruppo.
+
+    > [!Note]
+    > Il nome del gruppo deve essere scritto esattamente come sopra, anche in una configurazione non inglese.
+5. Selezionare il pulsante **Chiudi**.
+
+> [!NOTE]
+> È anche possibile creare un gruppo di tipo Office 365. Per ulteriori informazioni, vedere [Confrontare i gruppi](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+
+### <a name="to-add-members-to-the-group"></a>Per aggiungere i membri al gruppo
+1.  Nell'interfaccia di amministrazione di Microsoft 365, aggiornare la pagina **Gruppi** in modo che venga visualizzato il nuovo gruppo.
+2.  Selezionare il gruppo **Dynamics 365 Business Central Device Users**, quindi scegliere l'azione **Visualizza tutto e gestisci i membri**.
+3.  Scegliere l'azione **Aggiungi membri**.
+4.  Scegliere gli utenti che si intendono aggiungere, quindi scegliere il pulsante **Salva**.
+5.  Scegliere il pulsante **Chiudi** tre volte.
+
+È possibile aggiungere tutti gli utenti necessari al gruppo Dynamics 365 Business Central Device Users. Il numero di dispositivi a cui gli utenti possono accedere contemporaneamente è definito dal numero di licenze per dispositivo acquistate.
+
+> [!NOTE]
+> Non è necessario assegnare una licenza [!INCLUDE[d365fin](includes/d365fin_md.md)] agli utenti membri del gruppo Dynamics 365 Business Central Device Users.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gestione di utenti e licenze nelle distribuzioni locali
 Per le distribuzioni locali, nel file di licenza (.flf) è specificato un numero di utenti con licenza. Quando l'amministratore o il partner Microsoft carica il file di licenza, l'amministratore può specificare quali utenti possono accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)].

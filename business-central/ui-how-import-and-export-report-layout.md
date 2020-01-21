@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881968"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954047"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importare ed esportare layout di report personalizzati
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
@@ -49,7 +49,9 @@ ms.locfileid: "2881968"
 
  Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
  [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
  [Utilizzo di report, processi batch e XMLport](ui-work-report.md)    

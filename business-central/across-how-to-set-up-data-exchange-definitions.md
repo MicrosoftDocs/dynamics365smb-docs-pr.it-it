@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305262"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952941"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -111,6 +111,9 @@ Questa funzionalità è descritta nelle procedure seguenti.
 >  Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella pagina **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> A volte i valori nei campi che si desidera mappare sono diversi. Ad esempio, in un'app aziendale il codice della lingua per gli Stati Uniti è "U.S.", ma in un'altra è "US". Ciò significa che è necessario trasformare il valore quando si scambiano i dati. Ciò accade attraverso le regole di trasformazione definite per i campi. Per ulteriori informazioni, vedere [Regole di trasformazione](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. Nella Scheda dettaglio **Definizioni righe** selezionare le righe per le quali di desidera eseguire il mapping tra colonne e campi, quindi scegliere **Mapping campi**. Verrà aperta la pagina **Mapping scambio dati**.  
 2. Nella Scheda dettaglio **Generale** specificare l'impostazione del mapping compilando i campi come descritto nella tabella riportata di seguito.  
 
@@ -138,10 +141,45 @@ Questa funzionalità è descritta nelle procedure seguenti.
 
 La definizione di scambio di dati è ora pronta per essere abilitata per gli utenti. Per altre informazioni, vedere [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md) ed [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-Dopo aver creato la definizione di scambio di dati per un file di dati specifico, è possibile esportarla come file XML che può essere utilizzato per abilitare rapidamente l'importazione del file di dati in questione. Questa funzionalità è descritta nella procedura seguente.  
+### <a name="transformation-rules"></a>Regole di trasformazione
+Se i valori nei campi che si stanno mappando differiscono tra loro, è necessario utilizzare le regole di trasformazione per le definizioni di scambio dei dati per renderle uguali. Si definiscono le regole di trasformazione per le definizioni di scambio dei dati aprendo una definizione esistente o creando una nuova definizione e quindi nella scheda dettaglio **Definizioni righe** scegliendo **Gestisci** e poi **Mapping dei campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. La tabella seguente descrive i tipi di trasformazione che è possibile eseguire.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Per esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti  
-1. Nella casella **Cerca** immettere **Definizioni scambio dati**, quindi selezionare il collegamento correlato.  
+|Opzione|Descrizione|
+|---------|---------|
+|**Maiuscole**|In maiuscolo tutte le lettere.|
+|**Minuscole**|Tutte le lettere minuscole.|
+|**Ortografia titolo**|In maiuscolo la prima lettera di ogni parola.|
+|**Taglia**|Rimuovere gli spazi vuoti prima e dopo il valore.|
+|**Sottostringa**|Trasforma una parte specifica di un valore. Per specificare da dove iniziare la trasformazione, scegliere **Posizione iniziale** o **Testo iniziale**. La posizione iniziale è un numero che rappresenta il primo carattere da trasformare. Il testo iniziale è la lettera immediatamente prima della lettera da sostituire. Se si desidera iniziare con la prima lettera del valore, utilizzare una posizione iniziale. Per specificare dove interrompere la trasformazione, scegliere **Lunghezza**, che è il numero di caratteri da sostituire, oppure **Testo finale**, che è il carattere immediatamente successivo all'ultimo carattere da trasformare.|
+|**Sostituisci**|Trovare un valore e sostituirlo con un altro. Ciò è utile per sostituire valori semplici, come una determinata parola.|
+|**Espressione regolare - Sostituisci**|Utilizzare un'espressione regolare come parte di un'operazione Trova e sostituisci. Ciò è utile per sostituire molteplici valori o forse più complessi.|
+|**Rimuovi caratteri non alfanumerici**|Eliminare i caratteri che non sono lettere o numeri, come simboli o caratteri speciali.|
+|**Formattazione della data**|Specificare come visualizzare le date. Ad esempio, è possibile trasformare GG-MM-AAAA in AAAA-MM-GG.|
+|**Formattazione decimale**|Definire le regole per il posizionamento decimale e la precisione di arrotondamento.|
+|**Espressione regolare - Corrispondenza**|Utilizzare un'espressione regolare per trovare uno o più valori. Questo è simile alle opzioni **Sottostringa** e **Espressione regolare - Sostituisci**.|
+|**Personalizzato**|Questa è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se si desidera utilizzare il proprio codice di trasformazione. Se si è uno sviluppatore e si desidera utilizzare questa opzione, consultare l'[esempio](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) seguente.|
+|**Formattazione di data e ora**|Definire come visualizzare la data corrente e l'ora del giorno.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
+L'esempio seguente mostra come implementare il proprio codice di trasformazione.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Dopo aver definito le regole, è possibile verificarle. Nella sezione **Test**, inserire un valore di esempio da trasformare, quindi controllare i risultati.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Per esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti
+Dopo aver creato la definizione di scambio di dati per un file di dati specifico, è possibile esportarla come file XML che può essere importato. Questa funzionalità è descritta nella procedura seguente.  
+
+1. Nella casella **Cerca**, immettere **Definizioni scambio di dati**, quindi selezionare il collegamento correlato.  
 2. Selezionare la definizione di scambi di dati che si desidera esportare.  
 3. Scegliere l'azione **Esporta definizione scambio dati**.  
 4. Salvare il file XML che rappresenta la definizione di scambio di dati in un'ubicazione appropriata.  

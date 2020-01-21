@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810815"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910834"
 ---
 # <a name="set-up-email"></a>Imposta indirizzo e-mail
 Per inviare e ricevere e-mail da [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario compilare i campi nella pagina Setup posta SMTP.
@@ -30,7 +30,7 @@ Invece di immettere manualmente i dettagli del server SMTP, è possibile utilizz
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Se si utilizza un account che richiede l'autenticazione a due fattori, la password immessa nel campo **Password** deve essere la stessa utilizzata per l'abbonamento a Office 365 e deve essere di tipo **Password per app**. Per ulteriori informazioni, vedere [Gestire password di app per la verifica in due passaggi](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Se si utilizza un account che richiede l'autenticazione a due fattori, la password immessa nel campo **Password** deve essere la stessa utilizzata per l'abbonamento a Office 365 e deve essere di tipo **Password per app**. Per ulteriori informazioni, vedere [Gestire password di app per la verifica in due passaggi](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. In alternativa, scegliere l'azione **Applica impostazioni server Office 365** per inserire tutte le informazioni che sono già state definite per la propria sottoscrizione di Office 365.
 4. Quando tutti i campi vengono compilati correttamente, scegliere l'azione **Setup e-mail di verifica**.
 5. Quando il test riesce, chiudere la pagina.
@@ -51,7 +51,7 @@ Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto 
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
 3. Nel campo **Invia come**, immettere l'indirizzo sostitutivo.
 4. Copiare o prendere nota dell'indirizzo nel campo **ID utente**.
-5. Nell'**Interfaccia di amministrazione di Exchange**, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi immettere l'indirizzo nel campo **ID utente** nel campo **Invia come**. Per ulteriori informazioni, vedere [Gestire autorizzazioni per destinatari](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Nell'**Interfaccia di amministrazione di Exchange**, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi immettere l'indirizzo nel campo **ID utente** nel campo **Invia come**. Per ulteriori informazioni, vedere [Utilizzare EAC per assegnare autorizzazioni alle singole cassette postali](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Per utilizzare l'indirizzo sostitutivo nei workflow di approvazione
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.

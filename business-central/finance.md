@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301542"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911097"
 ---
 # <a name="finance"></a>Contabilità
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Collegare i pagamenti in entrata, riconciliare i conti bancari durante il collegamento di pagamento e riscuotere i saldi inevasi. |[Gestione della contabilità clienti](receivables-manage-receivables.md) |
 | Effettuare i pagamenti, collegare i pagamenti in uscita e utilizzare gli assegni. |[Gestione della contabilità fornitori](payables-manage-payables.md) |
 |I clienti devono eseguire il pagamento prima che venga spedita loro la merce o devono pagare i fornitori prima che questi spediscano la merce.|[Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)|
-| Riconciliare i conti bancari e trasferire i fondi tra conti bancari. |[Gestione di conti correnti bancari](bank-manage-bank-accounts.md) |
+| Riconciliare i conti bancari e trasferire i fondi tra conti bancari. |[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md) |
 |Impostare i partner intercompany ed elaborare le transazioni, manualmente o automaticamente, tra le persone giuridiche all'interno della stessa società.|[Gestione delle transazioni Intercompany](intercompany-manage.md)|
 |Analizzare i costi di gestione dell'azienda allocando i costi effettivi e a budget di operazioni, dipartimenti, prodotti e progetti a centri di costo.|[Contabilizzazione dei costi](finance-manage-cost-accounting.md)|
 |Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|

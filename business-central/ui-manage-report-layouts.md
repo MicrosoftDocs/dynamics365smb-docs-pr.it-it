@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/13/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809378"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953205"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
@@ -57,6 +57,8 @@ I concetti di progetto generali dei layout Word e RDLC sono molto simili. Tuttav
 Il processo di impostazione dei layout di report Word e RDLC nei report è lo stesso. La differenza principale sta nel modo in cui modificano i layout. I layout di report Word in genere sono più facili da creare e modificare rispetto ai layout di report RDLC perché è possibile utilizzare Word. I layout di report RDLC vengono modificati utilizzando il Generatore report di SQL Server, che è indirizzato agli utenti più avanzati.
 
 Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Aggiornare layout report personalizzati](ui-update-report-layouts.md)  

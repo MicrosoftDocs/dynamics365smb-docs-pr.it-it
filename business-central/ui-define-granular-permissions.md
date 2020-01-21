@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809350"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943211"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 Il sistema di sicurezza di [!INCLUDE[d365fin](includes/d365fin_md.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ In ognuno dei campi dei cinque tipi di accesso (**Autorizzazione di lettura**, *
 |Opzione|Description|Classificazione|
 |------|-----------|
 |**Sì**|L'utente può eseguire l'azione per l'oggetto in questione.|Il più alto|
-|**Indiretto**|L'utente può eseguire l'azione per l'oggetto in questione ma solo attraverso un altro oggetto correlato a cui l'utente ha accesso completo.|Il secondo più alto|
+|**Indiretto**|L'utente può eseguire l'azione per l'oggetto in questione ma solo attraverso un altro oggetto correlato a cui l'utente ha accesso completo. Per ulteriori informazioni sulle autorizzazioni indirette, vedere [Proprietà delle autorizzazioni](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) nella Guida per sviluppatori e professionisti IT|Il secondo più alto|
 |**Vuoto**|L'utente non può eseguire l'azione per l'oggetto in questione.|Più basso|
 
 ### <a name="example---indirect-permission"></a>Esempio - Autorizzazione indiretta

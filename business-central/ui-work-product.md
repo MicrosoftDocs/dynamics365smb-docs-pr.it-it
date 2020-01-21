@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774773"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953925"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
@@ -56,10 +56,11 @@ Di seguito un breve video su come esplorare [!INCLUDE[d365fin](includes/d365fin_
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  
 [Impostazione di Business Central](setup.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

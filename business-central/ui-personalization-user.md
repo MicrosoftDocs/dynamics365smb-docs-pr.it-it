@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315110"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953349"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -37,7 +37,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Per personalizzare una pagina tramite il banner **Personalizzazione**
 1. Aprire qualsiasi pagina da personalizzare.
-2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente") e quindi scegliere l'azione **Personalizza**.
+2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza**.
 
     Viene visualizzato il banner **Personalizzazione** in alto per indicare che è possibile iniziare ad apportare le modifiche.
 
@@ -56,7 +56,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 |Operazione da eseguire|Procedura|Osservazioni|
 |----|------------|-------|
-|Spostare qualcosa, come un campo, una colonna dell'elenco, un riquadro, un'azione o una parte|Fare clic in un punto qualsiasi dell'elemento che si desidera spostare e trascinarlo nella nuova posizione. La posizione è indicata da una spessa linea orizzontale o verticale.<br /><br />![Icona Impossibile spostare qui](media/personalization-cannot-move-here.png "Modalità di personalizzazione - Icona Impossibile spostare qui") indica che non è possibile spostare l'elemento nella posizione selezionata.|Le parti sono suddivisioni o aree in una pagina che contengono elementi quali più campi, un'altra pagina, un grafico o dei riquadri.<br /><br />Per ulteriori dettagli sulla personalizzazione di azioni, vedere [Personalizzazione delle azioni](ui-personalization-user.md#Actions). |
+|Spostare qualcosa, come un campo, una colonna dell'elenco, un riquadro, un'azione o una parte|Fare clic in un punto qualsiasi dell'elemento che si desidera spostare e trascinarlo nella nuova posizione. La posizione è indicata da una spessa linea orizzontale o verticale.<br /><br />![L'icona Impossibile spostare qui](media/personalization-cannot-move-here.png "Modalità di personalizzazione - Impossibile spostare l'icona qui") indica che non è possibile spostare l'elemento nella posizione selezionata.|Le parti sono suddivisioni o aree in una pagina che contengono elementi quali più campi, un'altra pagina, un grafico o dei riquadri.<br /><br />Per ulteriori dettagli sulla personalizzazione di azioni, vedere [Personalizzazione delle azioni](ui-personalization-user.md#Actions). |
 |Nascondere qualcosa, come un campo, una colonna in un elenco, un riquadro, un'azione o una parte.|Selezionare la freccia e quindi <b>Nascondi</b>.|L'elemento è grigio quando è attivata la modalità di personalizzazione. Se il campo che si nasconde è visualizzato anche nell'intestazione della Scheda dettaglio quando questa è compressa, il campo non verrà più visualizzato.|
 |Mostrare azioni e campi nascosti.|Per un elemento in grigio (nascosto), selezionare la freccia, quindi scegliere <b>Mostra</b>.|L'elemento nascosto è di nuovo visibile.|
 |Aggiungere un campo o una colonna.|Nel banner <b>Personalizzazione</b>, scegliere l'azione <b>+ Campo</b>.<br /></br>Si apre a destra il riquadro <b>Aggiungi campo a pagina</b>. Elenca i campi che possono essere aggiunti nella pagina.<br /><br />Per aggiungere un campo, trascinarlo dal riquadro alla posizione che si desidera. La posizione è indicata da una spessa linea orizzontale o verticale.|Ogni pagina include una serie di campi predefiniti che è possibile visualizzare. Utilizzare questa procedura per aggiungere campi o colonne che non sono state visualizzate precedentemente o per visualizzare campi che sono stati nascosti.|
@@ -115,6 +115,8 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 - Le modifiche effettuate diventeranno effettive in tutte le Gestioni ruolo utente. Ad esempio, se si effettua una modifica all'elenco Cliente quando la Gestione ruolo utente è impostata su Manager aziendale, le modifiche verranno visualizzate anche nella pagina **Clienti** quando Gestione ruolo utente è impostato su Gestore ordini vendite.
 - Le modifiche a una pagina in un riquadro diventeranno effettive nella pagina ovunque viene visualizzata.  
 - È possibile aggiungere solo i campi e le colonne da una lista predefinita, che è basata sulla pagina. Non è possibile creare nuovi campi.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzare pagine per profili](ui-personalization-manage.md)  

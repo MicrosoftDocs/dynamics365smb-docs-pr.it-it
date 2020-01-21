@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808867"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953565"
 ---
 # <a name="administration"></a>Setup
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
@@ -33,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Definire chi può accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] creando utenti nell'interfaccia di amministrazione di Microsoft 365 in base alle licenze del prodotto.|[Creare utenti in base alle licenze](ui-how-users-permissions.md)| 
+|Definire chi può accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] creando utenti nell'interfaccia di amministrazione di Microsoft 365 in base alle licenze del prodotto.|[Creare utenti in base alle licenze](ui-how-users-permissions.md)|
 |Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per una gestione semplificata delle autorizzazioni.|[Assegnare autorizzazioni a utenti e gruppi](ui-how-users-permissions.md)|
 |Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Gestire profili](admin-users-profiles-roles.md)|
 |Classificare i dati riservati per campi in modo da rispondere alle richieste da oggetti dati correlate ai relativi dati personali.|[Classificazione di dati riservati](admin-classifying-data-sensitivity.md)|
@@ -48,7 +48,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Connettere Dynamics 365 Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Funzionalità aziendale](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,39 +10,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 10/01/2019
+ms.date: 01/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e5fe99fe822ca94758a3030659bf484f917fcaa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d1a38468f5d07a1170027bc728ba16996f2b782
+ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308382"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "2947239"
 ---
-# <a name="managing-bank-accounts"></a>Gestione di conti correnti bancari
-A intervalli regolari è necessario riconciliare i movimenti contabili bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] con le transazioni bancarie relative nei conti bancari presso la banca e quindi registrare il saldo nel conto corrente bancario. È possibile eseguire questa attività come parte dell'elaborazione dei pagamenti rappresentati in un estratto conto bancario in **Registrazione riconciliazione pagamenti**. In alternativa, è possibile eseguire separatamente il task dall'elaborazione del pagamento nella pagina **Riconciliazioni C/C bancari** in cui associare (riconciliare) le righe del rendiconto bancario nel riquadro a sinistra con i movimenti contabili interni del conto corrente nel riquadro di destra. In entrambe le pagina è possibile compilare le informazioni sull'estratto conto bancario importando un file o feed ed è possibile utilizzare i suggerimenti automatici di corrispondenza.
+# <a name="reconciling-bank-accounts"></a>Riconciliazione dei conti correnti bancari
+Una riconciliazione bancaria deve essere completata a intervalli regolari per tutti i conti bancari al fine di garantire che i registri di cassa dell'azienda siano corretti. È possibile farlo confrontando e abbinando i movimenti nei conti bancari interni con le transazioni bancarie presso la banca, quindi registrando i saldi sui conti bancari interni per rendere i totali disponibili ai gestori finanziari. La riconciliazione bancaria è anche un modo pratico per scoprire e risolvere i pagamenti mancanti e gli errori di contabilità.
+
+È possibile eseguire l'attività nella pagina **Riconciliazioni C/C bancari** in cui associare (riconciliare) le righe del rendiconto bancario nel riquadro a sinistra con i movimenti contabili interni del conto corrente nel riquadro di destra. In alternativa, è possibile eseguire l'attività come parte dell'elaborazione dei pagamenti rappresentati in un estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti**. In entrambe le pagine è possibile compilare le informazioni sull'estratto conto bancario importando un file o feed ed è possibile utilizzare i suggerimenti automatici di corrispondenza.
 
 > [!NOTE]  
 > Nelle versioni per il Nord America è possibile eseguire la riconciliazione bancaria nella pagina **Prospetto riconciliazione bancaria**, più adatta per assegni e depositi ma non offre l'importazione di file di rendiconti bancari. Per utilizzare questa finestra al posto della pagina **Riconciliazioni C/C bancari**, deselezionare il campo **Riconciliazione bancaria con collegamento automatico** nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere “Riconciliazione dei conti correnti bancari" nella funzionalità locale per gli Stati Uniti.
 
-Talvolta, è necessario trasferire gli importi tra i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)] per riflettere i trasferimenti alla banca. È possibile eseguire questa attività nella pagina **Registrazioni COGE** in modi diversi a seconda della valuta dei fondi.
-
-Prima di poter gestire i conti correnti bancari, è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-setup-banking.md).
+Prima di poter gestire i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-setup-banking.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
+| Riconciliare i conti bancari come attività separata nella pagina **Riconciliazioni C/C bancari**. |[Riconciliazione dei conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md) |
 | Riconciliare i conti correnti bancari in relazione all'elaborazione dei pagamenti nella pagina **Registrazione riconciliazione pagamenti**. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Riconciliare i conti bancari, inclusi i movimenti contabili assegni, come attività separata nella pagina **Riconciliazioni C/C bancari**. |[Riconciliare i conti correnti bancari separatamente](bank-how-reconcile-bank-accounts-separately.md) |
-| Registrare i bonifici tra conti correnti bancari nella stessa valuta o in valute diverse. |[Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsreconcile-bank-accounts-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
+[Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Funzionalità aziendali generali](ui-across-business-areas.md)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+[Funzionalità aziendali generali](ui-across-business-areas.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3ff7d711e7a8f7bfe7acf44c8cd648dcb7a591e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304855"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952868"
 ---
 # <a name="incoming-documents"></a>Documenti in entrata
 Alcune transazioni commerciali non vengono registrate in [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'inizio. Invece, un documento commerciale esterno arriva nella propria società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Ciò è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
@@ -44,6 +44,8 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 | Impostare la funzionalità Documenti in entrata e impostare il servizio OCR. |[Impostare documenti in entrata](across-how-setup-income-documents.md) |
 | Creare i record dei documenti in entrata, allegare i file, utilizzare OCR per convertire i file PDF in documenti elettronici, convertire documenti elettronici in record di documento, controllare i documenti di vendita e di acquisto registrati dei record di documenti in entrata. |[Elaborazione di documenti in entrata](across-process-income-documents.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

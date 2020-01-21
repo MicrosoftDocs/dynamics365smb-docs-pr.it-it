@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66cdbd317d448d42ce46bf6a1d05c78432ffaeee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316670"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954002"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -35,6 +35,8 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Impostare gli addetti agli acquisti |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

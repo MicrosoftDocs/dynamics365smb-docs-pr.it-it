@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 32d9b8a733c3edb2717fca724769feba3ea26321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306462"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953157"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
 Il contante riveste un ruolo fondamentale in azienda. I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
@@ -49,7 +49,9 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
 3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  

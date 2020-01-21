@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302355"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953805"
 ---
 # <a name="create-gl-budgets"></a>Creare budget C/G
 È possibile mantenere più budget per periodi di tempo identici creando budget con nomi separati. Innanzitutto è necessario impostare il nome del budget e immettere le relative cifre. Il nome del budget viene quindi inserito in tutti i movimenti di budget che vengono creati.  
@@ -48,7 +48,9 @@ Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine
 > [!NOTE]
 > Il piano dei conti su cui i budget C/G sono basati include righe di tipo di conto Testata contenenti il totale delle righe sottostanti. Quando si esporta un budget C/G, i dati in tutte le righe vengono esportati indipendentemente dal tipo di conto. Tuttavia, solo i dati nelle righe del tipo di conto Analitico possono essere reimportate. Di conseguenza: <br /><br /> **Quando si importa un budget C/G, tutti i valori presenti nelle righe Testata verranno eliminati.** <br /><br /> Questo per evitare totali non corretti dopo l'importazione di dati creati o modificati in Excel.<br /><br /> **Scenario**: il nuovo costo degli stipendi a budget sarà di 1.200.000 VL. Si desidera lasciare il budget del reparto Stipendi per le tre righe specifiche (di tipo di conto Analitico) per gli impiegati a tempo pieno, gli impiegati part-time e gli aiutanti temporanei. Le tre righe sono raggruppate sotto una riga di intestazione Stipendi.<br /><br />Si immette 1.200.000 nella riga di intestazione, si esporta il budget in Excel e quindi lo si invia al reparto Stipendi, indicando di distribuire 1.200.000 VL.<br /><br /> Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Finanze](finance.md)  
 [Business Intelligence](bi.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 249c38574c2f5ff1babc17df25bf33679a6b6764
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316406"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954006"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
@@ -48,7 +48,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Fatture vendita registrate** selezionare la fattura di vendita registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
 
     Nell'intestazione della nota di credito di vendita sono incluse alcune informazioni contenute nella fattura di vendita registrata. Tali informazioni possono, ad esempio, essere sostituite da nuove informazioni che riflettono il contratto di reso.  
@@ -81,7 +81,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 9. Completare la nota di credito di vendita come descritto in [Per creare una nota di credito di vendita da una fattura di vendita registrata](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso vendita** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), scegliere **Ordini di reso vendita** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
@@ -209,13 +209,15 @@ Per cumulare carichi da reso, è necessario selezionare la casella di controllo 
 Quando si fatturano carichi da reso in questo modo, gli ordini di reso da cui sono stati registrati i carichi da reso vengono mantenuti, anche se sono già stati completamente ricevuti e fatturati.  
 
 Quando i carichi da reso vengono cumulati in una nota di credito e registrati, per le righe accreditate viene creata una nota di credito vendita registrata. Il campo **Quantità fatturata** dell'ordine di reso vendita di origine viene aggiornato in base alla quantità fatturata.   
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso vend. fatturati** e quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso vendita fatturati** e quindi selezionare il collegamento correlato.  
 2.  Specificare nel campo del filtro **Nr.** quali ordini di reso eliminare.  
 3.  Scegliere il pulsante **OK**.  
 
 In alternativa, eliminare i singoli ordini di reso vendita manualmente.   
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  

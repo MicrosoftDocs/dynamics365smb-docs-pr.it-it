@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 10547ee8f8a9e760721e12746fc25031001e7330
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554817"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954106"
 ---
 # <a name="send-electronic-documents"></a>Inviare documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio delle fatture e delle note di credito elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Un provider di servizi di Exchange per documenti invia i documenti elettronici tra i partner commerciali. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
@@ -26,7 +26,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'i
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Per inviare una fattura di vendita elettronica  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
 
 2.  Creare una nuova fattura di vendita.  
 
@@ -49,7 +49,9 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'i
     > [!NOTE]  
     >  È inoltre possibile inviare una fattura di vendita registrata come documento elettronico. La procedura è uguale a quella descritta in questo argomento per i documenti di vendita non registrati. Nella pagina **Fatt. di vend. reg.** scegliere l'azione **Log attività** per visualizzare lo stato del documento elettronico. Per ulteriori informazioni, vedere **Log attività**.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

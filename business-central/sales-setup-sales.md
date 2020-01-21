@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 701556c09944c5dcce74543b550c9036c5cc77dd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311934"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953397"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
@@ -40,6 +40,8 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

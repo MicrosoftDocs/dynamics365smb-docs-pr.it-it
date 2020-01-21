@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882664"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952676"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter vendere e riportare i dati finanziari in più di una valuta. È necessario impostare un codice per ogni valuta utilizzata se si compra o si vende in valute diverse dalla valuta locale, se si hanno debiti o crediti in altre valute o si registrano transazioni C/G in diverse valute.
@@ -63,7 +63,9 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

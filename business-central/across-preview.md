@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879405"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942992"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -29,7 +29,7 @@ In caso di difficoltà, la pagina [Domande frequenti ](across-faq.md) può forni
 
 ### <a name="try-out-your-own-company"></a>Utilizzare la versione di valutazione con i dati della propria società
 
-Se si intende provare [!INCLUDE [prodshort](includes/prodshort.md)] con i propri dati, è possibile passare a una versione di valutazione gratuita di 30 giorni con una società vuota in modo da poter importare i propri dati.  
+Se si intende provare [!INCLUDE [prodshort](includes/prodshort.md)] con i propri dati, è possibile passare a una versione di valutazione gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE [prodshort](includes/prodshort.md)] con i tuoi dati.  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 ## <a name="getting-started-with-sandboxes"></a>Introduzione alle sandbox
 
-Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, se si desidera seguire la formazione online gratuita di [Microsoft Learn](/learn/browse/?products=dynamics-business-central), l'amministratore può creare un ambiente sandbox a disposizione dell'utente e colleghi per esercitarsi anziché farlo nell'ambiente di produzione.  
 
-Una sandbox consente di creare e verificare in modo sicuro le estensioni e di sviluppare nuove funzionalità per personalizzare l'assistenza senza influire sui dati e sulle impostazioni dell'ambiente di produzione. Ad esempio, se si desidera seguire la formazione online gratuita di [Microsoft Learn](/learn/browse/?products=dynamics-business-central), è possibile creare un ambiente sandbox ed utilizzarlo per esercitarsi anziché farlo nell'ambiente di produzione.  
+Se si è uno sviluppatore, una sandbox consente di creare e verificare in modo sicuro le estensioni e di sviluppare nuove funzionalità per personalizzare l'assistenza senza influire sui dati e sulle impostazioni dell'ambiente di produzione.  
 
-Al momento, tutti i clienti possono utilizzare una sandbox. Per ulteriori informazioni su come utilizzare una sandbox, vedere [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md).  
+Al momento, tutti i clienti possono utilizzare un sandbox, comprese le organizzazioni che hanno effettuato la registrazione per una versione di valutazione. Per ulteriori informazioni su come utilizzare una sandbox, vedere [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Le sandbox create in questo modo contengono dati demo per la società fittizia CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Vedere anche
 
 [Introduzione](product-get-started.md)  
+[Estendere la versione di valutazione](admin-extend-trial.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
 [Come trovare un partner di rivendita?](across-faq.md#findpartner)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4a9efd2ef5ac9d3b0335bf887765cf03870fb037
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3f6c42be6f979d2677cb8da57d3c5843d992089a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303963"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952724"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Le dimensioni possono essere utilizzate per i movimenti nelle registrazioni, nei documenti e nei. Con il termine dimensione viene descritta la modalità di esecuzione dell'analisi. Un'analisi bidimensionale, ad esempio, corrisponde a vendite per area. Creando tuttavia più di due dimensioni quando si crea un movimento, è possibile eseguire analisi molto più complesse, ad esempio vendite per campagna di vendita per gruppo di clienti per area. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
@@ -74,7 +74,9 @@ La seguente procedura indica come aggiornare una visualizzazione analisi dalla p
 > [!NOTE]  
 >   Per aggiornare contemporaneamente alcune o tutte le visualizzazioni analisi, è necessario utilizzare il processo batch **Aggiorna visualizzazione analisi**.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Business Intelligence](bi.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

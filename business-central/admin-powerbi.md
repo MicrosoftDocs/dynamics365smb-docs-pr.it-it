@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879108"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952989"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI 
 
@@ -164,7 +164,7 @@ Un account Power BI non è stato impostato. Per disporre di un account Power BI 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
 
-Questo messaggio verrà visualizzato se il report predefinito non viene distribuito alla propria area di lavoro Power BI o il report è stato distribuito ma non aggiornato correttamente. In questo caso, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a Business Central e selezionare manualmente il report dalla pagina **Selezionare i report**. 
+Questo messaggio verrà visualizzato se il report predefinito non viene distribuito alla propria area di lavoro Power BI o il report è stato distribuito ma non aggiornato correttamente. In questo caso, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a Business Central e selezionare manualmente il report dalla pagina **Selezionare i report**.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
 
@@ -174,7 +174,7 @@ Le app Power BI possono essere installate solo dagli utenti che hanno una licenz
 
 Questo errore indica che uno o più parametri non sono validi.
 
-- Il parametro di ambiente specificato non corrisponde ad alcun ambiente di produzione o sandbox di [!INCLUDE [prodshort](includes/prodshort.md)]. 
+- Il parametro di ambiente specificato non corrisponde ad alcun ambiente di produzione o sandbox di [!INCLUDE [prodshort](includes/prodshort.md)].
 - Il parametro dell'azienda specificato non corrisponde ad alcuna società [!INCLUDE [prodshort](includes/prodshort.md)] esistente. Verificare il nome della società nella pagina **Società** in [!INCLUDE [prodshort](includes/prodshort.md)].
 - Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, si è immesso un URL non valido. È possibile verificare l'URL nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)].  
 - Una porta non viene aperta per consentire il passaggio della richiesta attraverso il firewall.
@@ -202,6 +202,8 @@ Una volta che l'app Power BI è installata e i dati sono visualizzati in Power B
 ### <a name="i-only-see-data-for-a-single-company"></a>Visualizzazione unicamente dei dati di una singola società
 
 L'app Power BI visualizzerà solo i dati della società [!INCLUDE [prodshort](includes/prodshort.md)] definita all'installazione dell'app Power BI. I dati di altre società possono essere aggiunti ai report aggiungendo nuove query che utilizzano società differenti come origine dati.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

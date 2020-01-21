@@ -1,6 +1,6 @@
 ---
-title: Modificare i mapping di tabella per la sincronizzazione | Microsoft Docs
-description: Ottenere informazioni su come modificare i mapping di tabella che vengono utilizzati quando si sincronizzano dati tra Business Central e Dynamics 365 Sales.
+title: Mapping delle tabelle e dei campi da sincronizzare | Microsoft Docs
+description: Informazioni su come mappare tabelle e campi per la sincronizzazione dei dati tra Business Central e Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,20 +8,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
-ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 371bd80c04917495ea1b35f214d10d716ed5f9ad
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308077"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943115"
 ---
-# <a name="modify-table-mappings-for-synchronization"></a>Modificare i mapping di tabella per la sincronizzazione
-Un mapping di tabella di integrazione collega una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] a un tabella di integrazione per l'entità di [!INCLUDE[crm_md](includes/crm_md.md)]. Per ogni entità di [!INCLUDE[crm_md](includes/crm_md.md)] che si desidera sincronizzare con i dati corrispondenti in [!INCLUDE[d365fin](includes/d365fin_md.md)], deve esserci un corrispondente mapping di tabella di integrazione. Un mapping di tabella di integrazione comprende diverse impostazioni che consentono di verificare come i record nella tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] e un'entità di [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati dai processi di sincronizzazione di integrazione corrispondenti.  
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
+La base della sincronizzazione dei dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] con dati in [!INCLUDE[crm_md](includes/crm_md.md)] consiste nel mapping delle tabelle e dei campi che contengono i dati tra loro. Il mapping avviene tramite tabelle di integrazione. 
+
+## <a name="mapping-integration-tables"></a>Mapping delle tabelle di integrazione
+La tabella di integrazione è una tabella del database di [!INCLUDE[d365fin](includes/d365fin_md.md)] che rappresenta un'entità, ad esempio un account, in [!INCLUDE[crm_md](includes/crm_md.md)]. Le tabelle di integrazione includono i campi corrispondenti ai campi della tabella dell'entità [!INCLUDE[crm_md](includes/crm_md.md)]. Ad esempio, la tabella di integrazione dell'account si collega all'entità account in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ogni entità di [!INCLUDE[crm_md](includes/crm_md.md)] che si desidera sincronizzare con i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)], deve esserci un corrispondente mapping della tabella di integrazione.
+
+Quando si crea la connessione tra le app, [!INCLUDE[d365fin](includes/d365fin_md.md)] imposta alcuni mapping di tabella e campi predefiniti. È possibile modificare i mapping di tabella se necessario. Per ulteriori informazioni, vedere [Mapping delle entità standard di Sales per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization). Se sono stati modificati i mapping predefiniti e si desidera annullare le modifiche, nella pagina **Setup connessione di Dynamics 365**, scegliere **Utilizza setup di default per la sincronizzazione**.
+
+> [!Note]
+> Se si utilizza una versione locale di [!INCLUDE[d365fin](includes/d365fin_md.md)], i mapping della tabella di integrazione sono memorizzati nella tabella 5335 Mapping tabella integrazione e possono essere visualizzati e modificati dalla pagina 5335 Mapping tabella integrazione. La mappatura e regole complessi di sincronizzazione vengono definiti nella codeunit 5341. 
+
+### <a name="synchronization-rules"></a>Regole di sincronizzazione
+Un mapping della tabella di integrazione include anche le regole che controllano il modo in cui i processi di sincronizzazione dell'integrazione sincronizzano i record in una tabella [!INCLUDE[d365fin](includes/d365fin_md.md)] e un'entità in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Regole di sincronizzazione](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## <a name="mapping-integration-fields"></a>Mapping dei campi di integrazione
+Il mapping delle tabelle è solo il primo passo. È necessario anche eseguire il mapping dei campi nelle tabelle. I mapping dei campi di integrazione collegano i campi nelle tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)] con i campi corrispondenti in [!INCLUDE[crm_md](includes/crm_md.md)] e determinano se vengono sincronizzati i dati in ciascuna tabella. Il mapping della tabella standard fornita da [!INCLUDE[d365fin](includes/d365fin_md.md)] include i mapping dei campi, ma è possibile modificarli se necessario. Per ulteriori informazioni, vedere [Visualizzazione di mapping di entità](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> Se si utilizza una versione locale di [!INCLUDE[d365fin](includes/d365fin_md.md)], i mapping dei campi di integrazione sono definiti nella tabella 5336 Mapping campi integrazione.
+
+## <a name="coupling-records"></a>Associazione di record
+Record dei collegamenti di associazione in [!INCLUDE[crm_md](includes/crm_md.md)] per registrare in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, gli account in [!INCLUDE[crm_md](includes/crm_md.md)] sono in genere associati ai clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. I record di associazione offrono i seguenti vantaggi:
+
+* Rendono possibile la sincronizzazione.
+* Gli utenti possono aprire i record di un'app aziendale da un'altra. Questo richiede che la soluzione di integrazione [!INCLUDE[d365fin](includes/d365fin_md.md)] sia installata in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Le associazioni possono essere impostate automaticamente utilizzando i processi di sincronizzazione o manualmente modificando il record in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Sincronizzazione dei dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) e [Associare e sincronizzare i record manualmente](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## <a name="filtering-records"></a>Filtro dei record  
- Se non si desidera sincronizzare tutti i record per un'entità di [!INCLUDE[crm_md](includes/crm_md.md)] o una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] specifica, è possibile impostare i filtri per limitare i record che vengono sincronizzati. I filtri vengono impostati nella pagina **Mapping tabella integrazione**.  
+Se non si desidera sincronizzare tutti i record per un'entità di [!INCLUDE[crm_md](includes/crm_md.md)] o una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] specifica, è possibile impostare i filtri per limitare i record che vengono sincronizzati. I filtri vengono impostati nella pagina **Mapping tabella integrazione**.  
 
 #### <a name="to-filter-records-for-synchronization"></a>Per filtrare record per la sincronizzazione  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.

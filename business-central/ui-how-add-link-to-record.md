@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649790"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953277"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -23,7 +23,10 @@ Nel riquadro Dettaglio informazioni della maggior parte di schede e documenti, �
 
 Per visualizzare o modificare uno di questi tipi di informazioni allegate, è necessario dapprima aprire la scheda **Allegati** nel riquadro Dettaglio informazioni. Il numero dietro il titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
 
-Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri stati della scheda o del documento, ad esempio da un ordine di vendita in corso a una fattura di vendita registrata. Si noti, tuttavia, che nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
+Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri stati della scheda o del documento, ad esempio da un ordine di vendita in corso a una fattura di vendita registrata. Tuttavia, nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
+
+> [!NOTE]
+> Quando si spedisce e si fattura parzialmente un ordine di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando la funzione Differimenti, l'allegato viene collegato solo ai movimenti C/G per il documento, ma non per i movimenti di differimento.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Per allegare un file a una fattura acquisto
 È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].

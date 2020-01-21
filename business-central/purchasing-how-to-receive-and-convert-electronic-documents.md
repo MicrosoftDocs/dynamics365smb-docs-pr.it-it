@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553868"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953493"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -57,7 +57,9 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
      Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[d365fin](includes/d365fin_md.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

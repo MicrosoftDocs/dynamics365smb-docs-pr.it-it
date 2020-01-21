@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879252"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910614"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 Quando si configura una nuova società, le relazioni tra tabelle vengono riconosciute ed elaborate. I dati vengono importati e collegati in ordine corretto. Anche le tabelle dimensioni vengono importate se sono incluse nel pacchetti di configurazione. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Per agevolare il cliente nell'utilizzo del pacchetto di configurazione, è possibile aggiungere un questionario o un insieme di questionari al pacchetto di configurazione. Il questionario può agevolare il cliente nella comprensione delle diverse opzioni di setup. In genere, i questionari vengono creati per le tabelle di setup principali dove un cliente può richiedere ulteriori indicazioni su come selezionare un'impostazione appropriata. Per ulteriori informazioni, vedere [Raggruppare i valori di setup del cliente](admin-gather-customer-setup-values.md).
 
-Accertarsi di essere in Gestione ruolo utente Implementatore di RapidStart Services. Per ulteriori informazioni, vedere [Utilizzare Gestione ruolo utente Implementatore di RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Prima di creare un pacchetto di configurazione
+Ci sono alcune cose da considerare prima di creare un pacchetto di configurazione perché avranno un impatto su di te o sulla capacità del tuo cliente di importarlo. 
 
-> [!IMPORTANT]  
->  Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
->   
->  È possibile importare un pacchetto di configurazione che è stato esportato da un database con uno schema diverso dal database di destinazione. Tuttavia, i campi o le tabelle nel pacchetto di configurazione mancanti nel database di destinazione non verranno importati. Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
+### <a name="tables-that-contain-posted-entries"></a>Tabelle che contengono voci registrate
+Non è possibile importare dati in tabelle che contengono voci registrate, come le tabelle per movimenti cliente, fornitore e contabili articoli, pertanto non è necessario includere questi dati nel pacchetto di configurazione. È possibile aggiungere voci a queste tabelle dopo aver importato il pacchetto di configurazione utilizzando le registrazioni per pubblicare le voci. Per ulteriori informazioni, vedere [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Licenze
+La licenza deve includere le tabelle che si stanno aggiornando. Se non si è sicuri, consultare la pagina **Foglio di lavoro configurazione**. Se la licenza include la tabella, la la casella di controllo **Tabella con licenza** è selezionata.  
+
+### <a name="permissions"></a>Autorizzazioni
+Il processo di creazione e importazione di un pacchetto di configurazione comporta le seguenti autorizzazioni valide per tutte le tabelle nel pacchetto: 
+
+* L'utente che esporta i dati per il pacchetto di configurazione deve avere autorizzazioni valide in **Lettura**.
+* L'utente che importa il pacchetto di configurazione deve avere autorizzazioni valide in **Inserimento** e **Modifica**.
+
+### <a name="database-schema"></a>Schema del database
+Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
+
+È possibile importare un pacchetto di configurazione che è stato esportato da un database con uno schema diverso dal database di destinazione. Tuttavia, i campi o le tabelle nel pacchetto di configurazione mancanti nel database di destinazione non verranno importati. Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
 ## <a name="to-create-a-configuration-package"></a>Per creare un pacchetto di configurazione  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  

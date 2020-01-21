@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649766"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911241"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
 
 ## <a name="browsers"></a>Browser
+
+### <a name="recommended-browsers"></a>Browser consigliati
+
 **Chrome per Windows e Firefox per Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di questi browser desktop.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Safari in OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Altri browser supportati
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. 
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM Windows 10 Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  

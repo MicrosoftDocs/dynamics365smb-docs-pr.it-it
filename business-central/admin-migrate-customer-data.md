@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896207"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918216"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
@@ -31,13 +31,13 @@ Quando si crea una nuova società, è possibile importare le impostazioni della 
 > [!NOTE]  
 >  Non è possibile rinominare un file che non sia già un pacchetto di configurazione di RapidStart Services come file del pacchetto di configurazione con estensione RapidStart e quindi provare a importarlo. Se si prova tale operazione, verrà visualizzato un messaggio di errore.  
 
-Prima di iniziare l'operazione, controllare di essere nella pagina Gestione ruolo utente Implementatore di RapidStart Services.
+Prima di iniziare, è necessario assicurarsi di disporre dell'autorizzazione per eseguire gli oggetti RapidStart Services. Ad esempio, si potrebbe disporre del set di autorizzazioni SUPER o essere un amministratore interno o delegato. Consigliamo inoltre di poter accedere alla Gestione ruolo utente con i collegamenti a RapidStart Services, ad esempio Gestione ruolo utente Amministratore. Per ulteriori informazioni, vedere [Per modificare il ruolo](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
->   
+> Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
+>
 >  È possibile importare un pacchetto di configurazione che è stato esportato da un database con uno schema diverso dal database di destinazione. Tuttavia, i campi o le tabelle nel pacchetto di configurazione mancanti nel database di destinazione non verranno importati.
->   
+>
 > Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
 1. Apre la nuova società.  
@@ -56,7 +56,11 @@ Prima di iniziare l'operazione, controllare di essere nella pagina Gestione ruol
 Se la selezione delle tabelle non è adeguata, è possibile creare una o più nuovi file di migrazione dei dati. Se i file sono sufficienti, è possibile passare alla migrazione dei dati utilizzando i file Excel o XML.
 
 ## <a name="to-create-a-data-migration-file"></a>Per creare un file di migrazione dati
-È possibile creare nuovi file di migrazione dati e personalizzarli per supportare le proprie attività. Notare, tuttavia, che è possibile utilizzare un file solo per migrare un campo con la relativa proprietà **FieldClass** impostata su **Normale**.  
+
+È possibile creare nuovi file di migrazione dati e personalizzarli per supportare le proprie attività.  
+
+> [!TIP]
+> È possibile utilizzare un file solo per migrare un campo con la relativa proprietà **FieldClass** impostata su **Normale**.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetto di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare e aprire il pacchetto da utilizzare per la migrazione dei dati, quindi scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina **Ottieni tabelle pacchetto**.  

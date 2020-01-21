@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 11/14/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878073"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954261"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy.  
@@ -77,6 +77,8 @@ Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -93,4 +95,3 @@ Versioni di valutazione e sottoscrizioni di [[!INCLUDE[d365fin_long](includes/d3
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  

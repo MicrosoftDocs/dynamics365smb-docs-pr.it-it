@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879022"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910562"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Impostazione di account utente per l'integrazione con Dynamics 365 Sales
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 > Non utilizzare l'account amministratore per [!INCLUDE[crm_md](includes/crm_md.md)] per la sincronizzazione. In caso contrario, la sincronizzazione verrà interrotta.
 > Inoltre, per evitare una sincronizzazione costante, le modifiche ai dati eseguite dall'account utente di integrazione non vengono sincronizzate. <!--What changes would this account make?--> Dopo la connessione, si consiglia di impostare la modalità di accesso per l'account utente per l'integrazione sulla modalità non interattiva in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Creare un account utente non interattivo](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-sales-people"></a>Impostazione di account per agenti
+## <a name="setting-up-accounts-for-salespeople"></a>Impostazione di account per agenti
 È necessario creare account utente in [!INCLUDE[crm_md](includes/crm_md.md)] per gli agenti da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per semplificare tale operazione, l'interfaccia di amministrazione di Microsoft 365 offre un modello di Excel che è possibile utilizzare. Nella pagina **Utenti attivi** scegliere **Altro**, quindi **Importa più utenti**. Scegliere **Scarica un file CSV solo con le intestazioni** e quindi immettere le informazioni per gli agenti. Per visualizzare un esempio, scegliere **Scarica un file CSV con le intestazioni ed esempi di informazioni degli utenti**. Dopo l'immissione delle informazioni relative agli utenti, il passaggio successivo nel processo di importazione consiste nell'assegnare licenze per il piano Dynamics 365 Customer Engagement agli utenti.  
 
 Dopo aver importato gli utenti e assegnato loro le licenze per Dynamics 365 Customer Engagement, è necessario assegnare gli utenti al ruolo **Agente** in [!INCLUDE[crm_md](includes/crm_md.md)].

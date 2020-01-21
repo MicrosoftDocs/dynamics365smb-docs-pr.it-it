@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312222"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943187"
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 Una spedizione diretta è costituita dalla spedizione di articoli direttamente da un fornitore a un cliente.
 
 Quando un ordine cliente è contrassegnato per la spedizione di consegna e si crea un ordine d'acquisto specificando il cliente nel campo **Spedire a** **Indirizzo cliente**, è possibile collegare i due documenti e quindi istruire il fornitore spedire direttamente al cliente.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Per creare un ordine di vendita per una spedizione diretta
 Per preparare una spedizione diretta, si crea un ordine di vendita per un articolo come al solito, ad eccezione del fatto che è necessario indicare sulla riga di vendita che la vendita richiede la spedizione diretta.
@@ -50,7 +53,7 @@ Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell
 ## <a name="to-post-a-drop-shipment"></a>Per registrare una spedizione diretta
 Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine di vendita come spedito. È possibile registrare anche l'ordine di acquisto, ma solo con l'opzione **Ricevi** finché l'ordine di vendita non viene fatturato.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita creato nella sezione [Per creare un ordine di vendita per una spedizione diretta]().
 3. Nel campo **Qtà da spedire**, specificare la quantità dell'ordine da spedire, la quantità dell'ordine completa o parziale.
 4. Scegliere l'azione **Registra** o **Registra e invia**.

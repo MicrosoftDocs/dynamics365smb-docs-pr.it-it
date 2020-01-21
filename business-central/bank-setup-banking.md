@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692730"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910397"
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
@@ -31,7 +31,7 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 | Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Vedere anche
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

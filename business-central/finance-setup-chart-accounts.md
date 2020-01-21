@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879467"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911073"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
@@ -37,9 +37,9 @@ Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificar
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  

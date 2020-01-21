@@ -1,8 +1,6 @@
 ---
 title: Verificare i pagamenti applicati automaticamente e riapplicare i pagamenti manualmente | Documenti Microsoft
 description: Dopo che i pagamenti sono stati collegati automaticamente, è possibile verificare tutti i movimenti relativi a un pagamento e ricollegare manualmente i movimenti che sono stati collegati erroneamente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e87b4c4c22c83f482fcc777eac95df72acbb9eb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25bc9b8525eb3f690677bf37696ec6a69afa8605
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316526"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911025"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
@@ -51,7 +49,7 @@ Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di v
 
 Viene chiusa la pagina **Collegamento pagamenti** e nella pagina **Registrazione riconciliazione pagamenti** il valore del campo **Affidabilità corrispondenza** viene modificato in **Accettato** a indicare che il pagamento è stato esaminato o collegato manualmente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

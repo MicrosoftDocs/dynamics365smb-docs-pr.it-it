@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316646"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953469"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -222,7 +222,7 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
 ## <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
 Talvolta può essere necessario modificare il testo iniziale e finale impostato per le condizioni degli interessi finanziari. Se la modifica viene effettuata dopo la creazione ma prima dell'emissione di note di addebito di interessi, è possibile aggiornare le note con il testo modificato.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Nota addebito interessi** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Notae addebito interessi** e quindi scegliere il collegamento correlato.  
 2. Aprire la nota di addebito degli interessi per cui si desidera modificare il testo di quindi scegliere l'azione **Aggiorna testi add. int.**.
 3. Nella pagina **Aggiorna testi add. int.** è possibile impostare un filtro per aggiornare più note.
 4. Scegliere **OK** per aggiornare il testo iniziale e finale.  
@@ -260,7 +260,9 @@ All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene 
 2. Aprire la scheda cliente interessata e scegliere l'azione **Movimenti contabili**.
 3. Nella pagina **Movimenti contabili clienti** selezionare la riga con il movimento contabile per il quale si desidera visualizzare i movimenti di sollecito, quindi scegliere l'azione **Mov. soll./Note add. int.**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

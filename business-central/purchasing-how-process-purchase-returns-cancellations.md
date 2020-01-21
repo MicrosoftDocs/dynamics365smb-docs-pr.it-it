@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 496873cf36ec696b081f7f29bcf8b2b9bb3c026f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312510"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953541"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
@@ -81,7 +81,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 9. Completare la nota di credito acquisto come descritto in [Per creare una nota di credito di acquisto da una fattura di acquisto registrata](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), scegliere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
@@ -177,11 +177,13 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Per rimuovere ordini di reso acquisto aperti dopo la registrazione della spedizione reso cumulativa  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso acq. fatturati** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso acquisto fatturati** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3.  In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

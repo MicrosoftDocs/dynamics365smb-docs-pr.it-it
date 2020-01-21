@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 078313bb3f437734b6e52f51b6d6512ebf09f1df
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0e91b685f6a8926322ab338b3c060fdac1ff8982
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881428"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954142"
 ---
 # <a name="record-purchases"></a>Registrare gli acquisti
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Se è necessario verificare un magazzino, anche le fatture e gli ordini di acquisto vengono utilizzati per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture o degli ordini di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
@@ -35,7 +35,7 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 
 È possibile compilare i campi fornitore nella fattura di acquisto in due modi a seconda che il fornitore sia già registrato o meno.
 <br><br>  
-  
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## <a name="to-create-a-purchase-invoice"></a>Per creare una fattura di acquisto
@@ -80,7 +80,9 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 
 L'acquisto si riflette ora nel magazzino e nei record finanziari e il pagamento fornitore viene attivato. La fattura di acquisto viene rimossa dall'elenco delle fatture di acquisto e sostituita con un nuovo documento nell'elenco delle fatture di acquisto registrate.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocessing-invoices-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Richiedere le offerte](purchasing-how-request-quotes.md)  

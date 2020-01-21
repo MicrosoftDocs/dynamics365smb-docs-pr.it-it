@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883336"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918144"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Diventare rivenditore di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Espandere la propria opportunità commerciale con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,10 +26,7 @@ Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del
 
 ## <a name="get-started"></a>Inizia
 
-Il programma "Ready to Go" è un metodo per iniziare come rivenditore [!INCLUDE [prodshort](includes/prodshort.md)]. È inoltre possibile contattare Microsoft Office nel proprio paese o area geografica. Per ulteriori informazioni sulle risorse disponibili mediante il programma "Ready to Go" program", vedere [aka.ms/readytogo](https://aka.ms/readytogo). Per ulteriori informazioni su come diventare un rivenditore, consultare [Rivendere soluzioni differenti](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Registrarsi per una versione di valutazione all'indirizzo [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) e inviare feedback all'indirizzo [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Il programma "Ready to Go" è un metodo per iniziare come rivenditore [!INCLUDE [prodshort](includes/prodshort.md)]. È inoltre possibile contattare Microsoft Office nel proprio paese o area geografica. Per ulteriori informazioni sulle risorse disponibili tramite il programma "Ready to Go", vedere [aka.ms/readytogo](https://aka.ms/readytogo), [Diverse soluzioni per il rivenditore](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) e [Iniziare come rivenditore](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Vedere anche
 

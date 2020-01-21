@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798501"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953661"
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
-Per velocizzare l'inizio, [!INCLUDE[d365fin](includes/d365fin_md.md)] include le configurazioni di default della maggior parte dei processi finanziari. Se è necessario apportare modifiche alle configurazioni per adattarle alla propria attività, procedere subito. Ad esempio, nella Gestione ruolo utente, è possibile utilizzare la guida al setup assistito per configurare l'aliquota in base all'ubicazione.  
+Prima di poter iniziare a gestire la propria attività, è necessario specificare le regole e i valori predefiniti per impostare come si desidera gestire i processi finanziari per quella società. Innanzitutto, impostare le basi dei record contabili della società, vale a dire il piano dei conti, dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.
 
-Tuttavia, esistono alcune opzioni che occorre impostare manualmente. Ad esempio, se si desidera utilizzare le dimensioni come base per la categoria di business intelligence.  
+Alcune impostazioni finanziarie possono essere eseguite automaticamente con le guide del setup assistita, mentre altre devono essere eseguite manualmente. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
+
+È possibile utilizzare dimensioni per aggiungere tipi diversi di informazioni a ogni transazione. È possibile impostare le dimensioni di base della società, ad esempio Progetti e Reparti. In seguito, sarà possibile aggiungere ulteriori dimensioni e impostare dimensioni temporanee da utilizzare in un periodo di tempo limitato, ad esempio in occasione di una campagna di vendita. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
+
+Molti dei task di impostazione devono essere completati prima di avviare la registrazione delle transazioni finanziarie, anche se molte impostazioni potranno essere modificate in un momento successivo. Alcuni dei task di impostazione sono facoltativi, ad esempio si imposteranno consolidamenti e registrazioni intercompany solo se si lavora con più società. Alcuni task di impostazione, ad esempio la definizione del periodo in cui è consentita la registrazione, è possibile che debbano essere ripetuti periodicamente.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -46,9 +50,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
 |Assicurarsi che un movimento in una registrazione generale sia allocato a più conti diversi quanto tale registrazione viene contabilizzata, in base alla quantità, alla percentuale o all'importo.|[Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)  
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  

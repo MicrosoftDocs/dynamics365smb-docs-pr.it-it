@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4bc122f2d1dc34f4c36fb74d0d6875f3d82c991a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312198"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953421"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
@@ -39,7 +39,7 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 È possibile compilare i campi cliente nella fattura di vendita in due modi a seconda che il cliente sia già registrato o meno. Vedere i passaggi 2 e 3 della procedura riportata di seguito.
 
 ## <a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendita** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
    Altri campi nella pagina **Fattura di vendita** contengono informazioni standard sul cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
@@ -71,7 +71,7 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
     > [!NOTE]  
     > Se l'articolo è di tipo **Assistenza** o se il campo **Tipo** contiene **Risorsa**, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Per ulteriori informazioni, vedere [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
 
-    Il valore nel campo **Importo riga** viene calcolato come segue *Prezzo unitario* x *Quantità*.  
+    Il valore nel campo **Importo riga** viene calcolato come *Prezzo unitario* x *Quantità*.  
 
     Il prezzo e gli importi riga sono con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda cliente.  
 12. Se si desidera assegnare uno sconto, immettere una percentuale nel campo **% sconto riga**. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.  
@@ -104,7 +104,9 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 È persino possibile creare fatture pagate direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nella fattura di vendita. Per ulteriori informazioni, vedere [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesinvoicing-customers-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  

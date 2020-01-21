@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/12/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b640450df709320b961c042736edeed7554096c4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 44a534a5de37ff1c85aca9f659e113c1b325b850
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882832"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953589"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[d365fin](includes/d365fin_md.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.
@@ -27,7 +27,9 @@ ms.locfileid: "2882832"
 |**Contenuto per sviluppatori e professionisti IT**|-   [Guida per sviluppatori e professionisti IT per [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Sviluppo in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Ambiente di sviluppo AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Risorse della community**|-   [Community di Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Roadmap di Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(è richiesto un account PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(è richiesto un account Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnbrowseproductsdynamics-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+
+## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
@@ -41,4 +43,3 @@ ms.locfileid: "2882832"
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]

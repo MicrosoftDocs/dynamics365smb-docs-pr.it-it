@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798525"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953685"
 ---
 # <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
@@ -37,7 +37,8 @@ Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLU
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito**.  
-2. Scegliere **Imposta IVA**.
+2. Scegliere **Imposta l'IVA** e completare i passaggi.
+3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base alla versione del proprio paese. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Per impostare i numeri di partita IVA per il paese
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[d365fin](includes/d365fin_md.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
@@ -269,7 +270,10 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 > [!IMPORTANT]  
 >  Dopo la conversione, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è selezionato e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** visualizza la data di conversione.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche  
-[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
+[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)      
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+[Funzionalità locale in Business Central](about-localization.md)

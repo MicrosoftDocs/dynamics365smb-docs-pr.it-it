@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304638"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910858"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] e fornirlo al cliente come file di Excel o file XML.  
@@ -29,6 +29,11 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Per creare un questionario di configurazione
 È possibile utilizzare il questionario in modo da determinare l'ambito e le esigenze della configurazione. È possibile creare un nuovo questionario o modificarne uno esistente aggiungendo nuove domande o aree domande.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  È possibile creare questionari solo per le tabelle di tipo setup. Ad esempio, è possibile utilizzare lo strumento per inserire informazioni nelle pagine seguenti:  
 
@@ -48,7 +53,30 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 >  Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Questionario su configurazione**.  
+2. Scegliere l'azione **Nuovo**.   
+3. Nella pagina **Questionari di configurazione**, nel campo **Codice**, immettere... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Scegliere l'azione **Aree domande**. Verrà aperta la pagina **Aree domande**.  
 4. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Area domande su configurazione**.  
 5. Nel campo **ID tabella** scegliere l'ID della tabella per cui si desidera raccogliere le informazioni. Il campo **Nome tabella** viene compilato automaticamente.  
@@ -117,5 +145,5 @@ Dopo aver importato e convalidato le informazioni da un questionario di configur
 A questo punto è stato configurato il setup con le informazioni aziendali e regole del cliente.
 
 ## <a name="see-also"></a>Vedere anche  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)

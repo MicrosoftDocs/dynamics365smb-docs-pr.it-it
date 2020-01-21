@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896187"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910930"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -111,7 +111,7 @@ Se si desidera assistenza da parte di Microsoft, contattare il [Team di vendita 
 Il partner rivenditore fornirà anche supporto tecnico agli utenti. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>Il client Windows è supportato?
-Le prime versioni di [!INCLUDE[prodshort](includes/prodshort.md)] (locale) includevano un client installato derivato da Microsoft Dynamics NAV. A partire dall'ondata 2 del 2019, questo componente legacy, denominato "client Windows", non sarà più disponibile per [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Domande frequenti sul client Windows e Business Central ](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+Le prime versioni di [!INCLUDE[prodshort](includes/prodshort.md)] (locale) includevano un client installato derivato da Microsoft Dynamics NAV. A partire dall'ondata 2 del 2019, questo componente legacy, denominato "client Windows", non sarà più disponibile per [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Domande frequenti sul client Windows e Business Central ](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Vedere anche
 [Introduzione](product-get-started.md)  

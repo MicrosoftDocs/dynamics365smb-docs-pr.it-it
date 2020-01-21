@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879285"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910738"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Impostare una connessione a Dynamics 365 Sales
-Per eseguire l'integrazione con [!INCLUDE[crm_md](includes/crm_md.md)], è necessario impostare una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)].
+Questo argomento descrive come impostare una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Operazioni preliminari
-Prima di iniziare a connettere le app, è necessario disporre di alcuni informazioni:  
+Prima di creare la connessione, è necessario disporre di alcune informazioni:  
 
-* Un URL per l'app [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di ottenere l'URL è di aprire [!INCLUDE[crm_md](includes/crm_md.md)] e copiare l'URL e quindi incollarlo nel campo **URL di Dynamics 365 Sales** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] correggerà automaticamente la formattazione.  
+* Un URL per l'app [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di ottenere l'URL è di aprire [!INCLUDE[crm_md](includes/crm_md.md)], copiare l'URL e quindi incollarlo nel campo **URL di Dynamics 365 Sales** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] correggerà automaticamente la formattazione.  
 * Un nome utente e la password di un account utente utilizzato solo per l'integrazione.  
 * Il nome utente e la password dell'account che dispone di autorizzazioni di amministratore.  
 

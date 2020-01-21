@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306233"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953781"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Dichiarare l'IVA a un'autorità fiscale
+# <a name="report-vat-to-tax-authorities"></a>Dichiarare l'IVA all'autorità fiscale
 Questo argomento descrive i report [!INCLUDE[d365fin](includes/d365fin_md.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese.
 
 È possibile utilizzare i seguenti report:
@@ -55,7 +55,7 @@ Per la dichiarazione IVA è possibile specificare i movimenti per includere:
 
 Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] al servizio Web dell'autorità fiscale. Tale soluzione richiede l'impostazione di un account con l'autorità fiscale. Dopo avere impostato un account, è possibile abilitare la connessione di servizio fornita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere il collegamento appropriato.
 2. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
 3. Scegliere la numerazione da utilizzare per ogni report.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Per salvare e inviare un report IVA
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista vendite UE** o **Dichiarazione IVA** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista vendite UE** o **Dichiarazione IVA** e quindi scegliere il collegamento correlato.  
 2. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per generare il contenuto del report, scegliere l'azione **Suggerisci righe**.  
 
@@ -110,6 +110,8 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 
 > [!Note]
 > Quando si creano le codeunit per il report, prestare attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2017** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554160"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952772"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
@@ -120,6 +120,8 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Per visualizzare le opzioni, scegliere il campo **Nome batch**.  
 3. Scegliere i batch registrazioni da eliminare a quindi scegliere il pulsante **Elimina**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione contabile](finance.md)

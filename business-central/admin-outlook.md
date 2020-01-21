@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/22/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879132"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953020"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
@@ -69,6 +69,8 @@ In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora
 ## <a name="using-other-email-accounts"></a>Utilizzo di altri account e-mail
 
 I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza [!INCLUDE [prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)] ? ](across-faq.md#what-email-address-can-i-use-with-) e [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

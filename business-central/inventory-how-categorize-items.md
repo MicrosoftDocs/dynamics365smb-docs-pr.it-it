@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bf4ae1f000afcae3026b3c35a8097f2fb73a9a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43d125f3d5c7b69b9ddb640d808165b451744513
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309990"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910373"
 ---
 # <a name="categorize-items"></a>Classificare gli articoli
 Per visualizzare una panoramica degli articoli e semplificare l'ordinamento e la ricerca degli articoli, risulta utile organizzare gli articoli in categorie.
 
 Per trovare gli articoli in base alle caratteristiche, è possibile assegnare gli attributi ad articoli e a categorie articolo. Per ulteriori informazioni, vedere [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md).
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo]
 
 ## <a name="to-create-an-item-category"></a>Per creare una categoria articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie articoli** e quindi scegliere il collegamento correlato.

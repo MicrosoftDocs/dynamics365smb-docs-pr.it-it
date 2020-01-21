@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0e47446455da81dc7ca197e769154d4a3dc5f4a1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300859"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952965"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
@@ -66,7 +66,9 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 > [!NOTE]  
 >   Se è stata impostata più di uno società in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario esportare i dati relativi a ogni società.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
+## <a name="see-also"></a>Vedere anche
 [Annullamento della sottoscrizione per [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  

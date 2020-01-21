@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311430"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953306"
 ---
 # <a name="change-basic-settings"></a>Modificare le impostazioni di base
 
@@ -30,7 +30,7 @@ Gestione ruolo utente rappresenta la home page, una schermata iniziale che è pr
 
 ### <a name="to-change-the-role"></a>Per modificare il ruolo
 Il ruolo predefinito è **Manager aziendale**, ma è possibile selezionare un altro ruolo per utilizzare una gestione ruolo utente più adatta alle proprie esigenze.
-1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.
+1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.
 2. Nella pagina **Impostazioni personali** nel campo **Ruolo** selezionare il ruolo che si desidera utilizzare per impostazione predefinita. Ad esempio, selezionare **Contabile**.
 3. Scegliere il pulsante **OK**.
 
@@ -83,6 +83,8 @@ La lingua iniziale è determinata dall'amministratore o dalle impostazioni del b
 
 ## <a name="changing-when-i-receive-notifications"></a>Modifica del momento in cui ricevere le notifiche
 Scegliere questo collegamento per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Gestione delle notifiche](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Creazione di nuove società](about-new-company.md)  

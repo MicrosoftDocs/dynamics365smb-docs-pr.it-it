@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5ea488bc03ffa64b0d6c4b5c1466ddf01ca52ab1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314966"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953901"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -157,6 +157,8 @@ La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**,
 2. Quando si è pronti per contabilizzare la registrazione, scegliere l'azione **Rinumera documenti**.
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile procedere con la contabilizzazione delle registrazioni.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-journals-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  

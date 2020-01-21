@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 11/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695049"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953949"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,6 +62,8 @@ La funzione **Informazioni sull'operazione che si desidera eseguire** non effett
 
 ## <a name="questions"></a>Domande?
 La funzionalità delle informazioni è stata mostrata a una serie di parti interessate, si è preso atto delle domande comuni e trasformato gli appunti in un elenco di domande frequenti. Nel caso, vedere le [domande frequenti sulla funzionalità delle informazioni](ui-search-faq.md)
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di Business Central](ui-work-product.md)  

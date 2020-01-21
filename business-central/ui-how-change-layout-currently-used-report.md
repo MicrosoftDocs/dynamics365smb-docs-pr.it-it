@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: af33d0679242e9915bc3e0de5825bf293e22c585
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809083"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953253"
 ---
 # <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
@@ -54,6 +54,8 @@ Tutti i layout di report personalizzati esistenti per layout di report in una so
 Il nome del layout personalizzato selezionato è ora visualizzato nel campo **Descrizione layout personalizzato** e verrà utilizzato la volta successiva che il report o il documento viene visualizzato in anteprima, stampato o inviato.
 
 Ora è possibile andare alle schede cliente e fornitore per specificare quali layout utilizzare per diversi documenti creati per il cliente o il fornitore in questione, come conferme di ordini o solleciti di pagamento. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878939"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953877"
 ---
 # <a name="assembly-management"></a>Gestione assemblaggio
 Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[d365fin](includes/d365fin_md.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
@@ -46,7 +46,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ottenere informazioni sulla differenza tra DB di assemblaggio e DB di produzione e le relative differenze di elaborazione.|[Utilizzare le distinte base](inventory-how-work-BOMs.md)|
 |Apprendere come vengono gestiti l'output e il consumo in fase di assemblaggio quando si registrano ordini di assemblaggio e come vengono elaborati e distribuiti l'articolo e i costi risorse derivati nella contabilità generale.|[Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  

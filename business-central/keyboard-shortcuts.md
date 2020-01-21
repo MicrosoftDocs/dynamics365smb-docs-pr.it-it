@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774845"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911123"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazion
 |ESC|Chiudere la pagina corrente o l'elenco a discesa.|
 |TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
+|S e N|Attivare i pulsanti **Sìì** e **No** nelle finestre di dialogo. Questo è supportato dalla lingua. Ad esempio, premere J in Germania per attivare il pulsante **Ja**.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
 
@@ -141,6 +142,7 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 |ALT+N |Aprire una pagina per creare un nuovo record; equivale a selezionare l'azione **Nuovo**. |
 |ALT+MAIUSC+N |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo**. |
 |ALT+MAIUSC+W |Aprire la scheda o il documento corrente in una nuova finestra. Per ulteriori informazioni, vedere [Multitasking in più pagine ](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Salvare e chiudere la pagina.|
 |CTRL+Freccia GIÙ|Aprire il record successivo per un'entità.|
 |CTRL+Freccia SU |Aprire il record precedente per un'entità.|
 |CTRL+INS |Inserire una nuova riga in documenti.|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64b0f8f551ac505e2e289bc1abea719947cc058a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d5c47a7dbd4339eff85bd6fe70078f5e56009aa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316310"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954095"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -54,6 +54,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
 |Registrare le stime per vendite future, specificate per articolo e periodo, per funzionare principalmente come input per la pianificazione della produzione.|[Creare una previsione](production-how-to-create-a-forecast.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 [Setup Vendite](sales-setup-sales.md)  

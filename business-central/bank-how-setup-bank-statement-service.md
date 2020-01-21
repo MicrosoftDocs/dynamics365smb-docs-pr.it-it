@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692898"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910714"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -125,9 +125,9 @@ Ogni ora la pagina **Registrazione riconciliazione pagamenti** visualizzerà i n
 > [!NOTE]  
 > Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella pagina **Registrazione riconciliazione pagamenti** non verranno incluse.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

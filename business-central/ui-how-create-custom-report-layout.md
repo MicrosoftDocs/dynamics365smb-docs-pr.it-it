@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882040"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953229"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Creare e modificare layout di report personalizzati
 Per impostazione predefinita, un report avrà un layout di report RDLC o Word predefinito o entrambi. Non è possibile modificare i layout predefiniti. Tuttavia, è possibile creare i propri layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato. È possibile creare più layout di report personalizzati per lo stesso report e alternare il layout utilizzato in un report in base alle esigenze.
@@ -100,8 +100,7 @@ Per assicurarsi che i report siano visualizzati e stampati con i caratteri volut
 ### <a name="adding-data-fields"></a>Aggiunta di campi dati
 L'aggiunta di campi dati dal set di dati di un report è una funzione più avanzata e richiede la conoscenza del set di dati del report. Per informazioni sull'aggiunta di campi per dati, etichette, dati e immagini, vedere [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md).  
 
-###
-
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
