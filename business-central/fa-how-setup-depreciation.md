@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: db3a3cf0426c97ebebff9c4a486975c44b8d6510
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302742"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999573"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
- È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
+ È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito, ad esempio l'ammortamento a quote decrescenti. Definire il metodo di ammortamento di un cespite con il campo **Metodo ammortamento** nella pagina **Scheda cespite**. Per ulteriori informazioni su ciò che fanno i diversi metodi, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
 
- Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un registro ad ogni cespite. Un registro assegnato a un cespite è detto registro beni ammortizzabili. Di conseguenza, la pagina per i registri dei beni ammortizzabili assegnati è denominata **Registro beni amm. cespiti**.
+ Nei registri beni ammortizzabili si definiscono i diversi modi di calcolo dell'ammortamento per i diversi cespiti. In ogni registro è possibile specificare i singoli termini di ammortamento. È possibile ad esempio specificare che un cespite debba essere ammortizzato in un periodo di tre anni in un registro e in un periodo di cinque anni in un altro.
+
+ Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un registro ad ogni cespite. Un registro assegnato a un cespite è detto registro beni ammortizzabili. È possibile impostare un numero illimitato di registri beni ammortizzabili per un cespite. 
 
 ## <a name="to-create-a-depreciation-book"></a>Per creare un registro beni ammortizzabili
 In un registro beni ammortizzabili cespiti, viene specificato come i cespiti vengono ammortizzati. Per facilitare i diversi metodi di ammortamento è possibile impostare diversi registri beni ammortizzabili.  

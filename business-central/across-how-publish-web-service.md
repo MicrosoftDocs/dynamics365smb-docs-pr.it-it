@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305695"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030246"
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
 
@@ -52,8 +52,8 @@ Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile p
     > [!div class="mx-tdBreakAll"]
     > |Tipo|Sintassi|Esempio|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*version*/*tenant*/WS/*CompanyName*/*entity*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*tenant*/ODataV4/Company('*CompanyName*')/*entity*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Per la ragione sociale viene osservata la distinzione tra maiuscole e minuscole.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Per la ragione sociale viene osservata la distinzione tra maiuscole e minuscole.|
 
 2. Esaminare le informazioni visualizzate nel browser. Verificare che sia possibile visualizzare il nome del servizio Web creato.  
 

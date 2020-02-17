@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883384"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999930"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -51,18 +51,18 @@ Può essere indicato nel setup manufacturing se si desidera filtrare le previsio
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione domanda** e quindi scegliere il collegamento correlato.  
-2.  Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
-3.  Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.  
-4.  Nel campo **Tipo previsione**, selezionare **Articolo di vendita**, **Componente** o **Entrambi**. Se si seleziona **Articolo di vendita** o **Componente**, è possibile modificare la quantità in base al periodo. Se si seleziona **Entrambi**, non è possibile modificare la quantità, ma è possibile fare clic sul pulsante della freccia in giù e visualizzare i mov. previsioni domanda.  
-5.  Specificare un filtro in **Filtro data** se si desidera limitare la quantità di dati visualizzati.  
-6.  Nella Scheda dettaglio **Matrice previsioni domanda** immettere le quantità previste di **Articoli di vendita** o **Componenti** per i vari periodi.  
-7.  Nella Scheda dettaglio **Opzioni matrice** impostare l'intervallo di tempo nel campo **Visualizza per** per modificare il periodo visualizzato in ogni colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostazione in Gestione contabile.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione domanda** e quindi scegliere il collegamento correlato.  
+2. Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
+3. Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.
+4. Nel campo **Visualizza per** per modificare il periodo visualizzato in ciascuna colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostato nell'area finanziaria.    
 
-    > [!NOTE]  
-    >  È consigliabile valutare l'intervallo di tempo che si desidera utilizzare per le previsioni future per garantirne la coerenza. Quando si immette una quantità di previsione, questa è valida nel primo giorno dell'intervallo di tempo selezionato. Se, ad esempio, si seleziona un mese, la quantità di previsione viene immessa nel primo giorno del mese. Se si seleziona un trimestre, la quantità di previsione viene immessa nel primo giorno del primo mese del trimestre.  
+> [!NOTE]  
+>  È consigliabile valutare l'intervallo di tempo che si desidera utilizzare per le previsioni future per garantirne la coerenza. Quando si immette una quantità di previsione, questa è valida nel primo giorno dell'intervallo di tempo selezionato. Se, ad esempio, si seleziona un mese, la quantità di previsione viene immessa nel primo giorno del mese. Se si seleziona un trimestre, la quantità di previsione viene immessa nel primo giorno del primo mese del trimestre.
 
-8.  Nel campo **Visualizza come**, selezionare come vengono visualizzate le quantità di previsione per l'intervallo di tempo. Se si seleziona **Saldo periodo**, nel saldo per l'intervallo di tempo verrà visualizzato il saldo periodo. Se si seleziona **Saldo alla data**, nella pagina verrà visualizzato il saldo all'ultimo giorno dell'intervallo di tempo.  
+5. Nel campo **Visualizza come**, selezionare come vengono visualizzate le quantità di previsione per l'intervallo di tempo. Se si seleziona **Saldo periodo**, nel saldo per l'intervallo di tempo verrà visualizzato il saldo periodo. Se si seleziona **Saldo alla data**, nella pagina verrà visualizzato il saldo all'ultimo giorno dell'intervallo di tempo.  
+6. Nel campo **Tipo previsione**, selezionare **Articolo di vendita**, **Componente** o **Entrambi**. Se si seleziona **Articolo di vendita** o **Componente**, è possibile modificare la quantità in base al periodo. Se si seleziona **Entrambi**, non è possibile modificare la quantità, ma è possibile fare clic sul pulsante della freccia in giù e visualizzare i mov. previsioni domanda.  
+7. Specificare un filtro in **Filtro data** se si desidera limitare la quantità di dati visualizzati.  
+8. Nella scheda dettagli **Matrice previsioni domanda**, immettere le quantità previste digitando una quantità nella cella che rappresenta un articolo in una data o un periodo particolari. Si noti che nelle celle vuote, il pulsante di ricerca apre una pagina vuota che indica che è necessario immettere un valore manualmente.   
 
 > [!NOTE]  
 >  È anche possibile modificare una previsione esistente. Nella pagina **Matrice previsioni domanda**, scegliere l'azione **Copia previsioni della domanda** e compilare la pagina **Previsione della domanda** con una previsione esistente. Modificare quindi le quantità come appropriato.  

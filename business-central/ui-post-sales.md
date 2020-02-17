@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 842aaeeb5665e8e02ef6873dd2210e03e415aade
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953973"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992123"
 ---
 # <a name="posting-sales"></a>Registrazione di vendite
 Nel menu **Registrazione** in un documento di vendita, è possibile scegliere tra le seguenti funzioni di registrazione:
@@ -41,9 +41,13 @@ Per ciascuna riga dell'ordine di vendita, verrà creato un movimento contabile a
 
 È possibile effettuare la registrazione oppure effettuare la registrazione e stampare. Quando si seleziona Registra e stampa, viene stampato un report al momento della registrazione dell'ordine. È inoltre possibile scegliere la funzione **Registra batch** che consente di registrare più ordini contemporaneamente. Per ulteriori informazioni, vedere [Pubblicare più documenti contemporaneamente](ui-batch-posting.md).
 
+## <a name="viewing-ledger-entries"></a>Visualizzazione di movimenti contabili
 Una volta completata la registrazione, le righe di vendita registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine che contengono movimenti registrati, ad esempio le pagine **Mov. contabili clienti**, **Movimenti C/G**, **Mov. contabili articoli**, **Spedizioni vendite registrate** e **Fatture di vendita registrate**.  
 
-È possibile modificare determinati campi nei documenti di vendita registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md).
+Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla scheda o dal documento interessato. Ad esempio, nella pagina **Scheda cliente** scegliere l'azione **Movimenti contabili**.
+
+## <a name="editing-ledger-entries"></a>Modifica di movimenti contabili
+È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md). Per i campi più critici che influiscono sulla traccia di controllo, è necessario stornare o annullare la registrazione. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
 
 ## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 

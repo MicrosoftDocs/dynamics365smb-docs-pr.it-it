@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953297"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030078"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
@@ -28,14 +28,14 @@ Se si desidera consentire delle interruzioni in determinate numerazioni, consult
 > [!NOTE]  
 >   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
 
-Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario impostare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
+Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario configurare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
 
 In genere, si imposta la serie di numeri per inserire automaticamente il numero immediatamente successivo nelle nuove schede o documenti creati. Tuttavia, è anche possibile impostare una numerazione che consente l'immissione manuale del nuovo numero. A tale scopo selezionare la casella di controllo **Consenti num. manuale**.
 
 Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, ad esempio per utilizzare una numerazione diversa per diverse categorie di articoli, è possibile utilizzare relazioni tra numerazioni.
 
 ## <a name="gaps-in-number-series"></a>Interruzioni nelle numerazioni
-Non tutti i record creati in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono transazioni finanziarie che devono utilizzare numerazioni sequenziali. Le schede cliente, le offerte di vendita e le attività di warehouse sono esempi di record a cui è assegnato un numero di una numerazione, ma che non sono soggetti a controlli finanziari e/o che possono essere eliminati. Per tali numerazioni, è possibile selezionare la casella di controllo **Consenti interruzioni in num.** nella pagina **Righe nr. serie**. Per ulteriori informazioni, vedere [Per creare nuove numerazioni](ui-create-number-series.md#to-create-a-new-number-series).
+Non tutti i record creati in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono transazioni finanziarie che devono utilizzare numerazioni sequenziali. Le schede cliente, le offerte di vendita e le attività di warehouse sono esempi di record a cui è assegnato un numero di una numerazione, ma che non sono soggetti a controlli finanziari e/o che possono essere eliminati. Per tali numerazioni, è possibile selezionare la casella di controllo **Consenti interruzioni in num.** nella pagina **Righe nr. serie**. Questa impostazione può essere modificata anche dopo aver creato le numerazioni. Per ulteriori informazioni, vedere [Per creare nuove numerazioni](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamento del campo Nr. in documenti e schede
 Nella vendita, acquisto e trasferimento di documenti e su tutte le schede, il campo **Nr.** può essere compilato automaticamente da una serie di numeri o manualmente e può essere impostato per essere invisibile.

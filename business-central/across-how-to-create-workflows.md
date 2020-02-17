@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881194"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991834"
 ---
 # <a name="create-workflows"></a>Creare i workflow
 È possibile creare workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow.  
@@ -59,7 +59,7 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
         |**Notifica mittente**|Specificare se la notifica è inviata al richiedente dell'approvazione anziché al destinatario della richiesta di approvazione. Se si seleziona la casella di controllo, il campo **ID utente destinatario** viene disabilitato poiché la notifica sarà invece inviata al richiedente dell'approvazione, ovvero il mittente. Il nome della risposta workflow cambia di conseguenza in **Crea notifica per &lt;Mittente &gt;**. Se la casella di controllo non è selezionata, il nome della risposta workflow è **Crea notifica per &lt;Utente &gt;**.
         |**ID utente destinatario**|Specificare l'utente a cui deve essere inviata la notifica. Nota: questa opzione è disponibile solo per le risposte workflow con un segnaposto per un utente specifico. Per le risposte del flusso di lavoro senza segnaposto per gli utenti, il destinatario della notifica in genere è definito dall'impostazione dell'utente approvazione.|  
         |**Tipo movimento notifica**|Specifica se la notifica del workflow viene attivata da una modifica del record, una richiesta di approvazione o una data di scadenza superata.|
-        |**Pagina destinazione collegamento**|Specificare un'altra pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] che viene aperta dal collegamento nella notifica al posto della pagina predefinita.|  
+        |**Pagina destinazione collegamento**|Specificare un'altra pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] che viene aperta dal collegamento nella notifica al posto della pagina predefinita.<br /><br />Si noti che la pagina deve avere la stessa tabella di origine del record interessato.|  
         |**Collegamento personalizzato**|Specificare l'URL di un collegamento che viene aggiunto alla notifica insieme al collegamento di una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Per specificare le opzioni per una risposta del flusso di lavoro che includa la creazione di una richiesta di approvazione, compilare i campi come descritto nella tabella seguente.  
 
@@ -91,7 +91,7 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
 >  Non abilitare un flusso di lavoro finché non si è sicuri che quest'ultimo sia completo e che i relativi passaggi interessati possano iniziare.  
 
 > [!TIP]  
->  Per visualizzare le relazioni tra le tabelle utilizzate nei workflow, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "TInformazioni sull'operazione che si desidera eseguire) e quindi immettere **Workflow - Relazione tabella**.  
+>  Per visualizzare le relazioni tra le tabelle utilizzate nei workflow, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e quindi immettere **Workflow - Relazione tabella**.  
 
 ## <a name="see-also"></a>Vedere anche  
 [Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)   

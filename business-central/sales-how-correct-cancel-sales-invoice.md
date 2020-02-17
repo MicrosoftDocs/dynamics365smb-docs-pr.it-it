@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: c20dcb73b52a42d6070fdbcb32c726d2181c8c6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95653acf28c553d8331e2c086b7e84f1518bc3c0
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316478"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992050"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correggere o annullare le fatture di vendita non pagate
 È possibile correggere o annullare una fattura di vendita registrata. Ciò risulta utile se si effettua un errore o se il cliente richiede una modifica.
@@ -33,7 +33,7 @@ Nella pagina **Fatture vendita registrate** è possibile scegliere l'azione **Re
 Quando si rettifica o si annulla una fattura di vendita registrata, la nota di credito di vendita viene applicata a tutti i movimenti contabili generali e di inventario creati quando la fattura di vendita iniziale è stata registrata. Ciò consente di stornare la fattura di vendita nei record finanziari e lascia la nota di credito di vendita registrata correttiva per l'audit trail.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Per correggere una fattura di vendita registrata
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera rettificare.
 
     > [!NOTE]  
@@ -45,7 +45,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 5. Scegliere l'azione **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Per annullare una fattura di vendita registrata
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera annullare.
 
     > [!NOTE]  
@@ -55,7 +55,10 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
     Una nota di credito di vendita viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale. Il campo **Annullato** nella fattura di vendita registrata iniziale viene modificato in **Sì**.
 4. Scegliere **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
-## <a name="see-also"></a>Vedi anche
+### <a name="partial-invoice-posting-also-supported"></a>Anche la registrazione parziale delle fatture è supportata
+Se l'annullamento è correlato a una registrazione parziale della fattura, la riga dell'ordine di vendita di origine viene aggiornata per riflettere la quantità fatturata annullata. I campi **Qtà da fatturare** e **Qtà fatturata** nella riga dell'ordine vendita correlato vengono reimpostati sui valori precedenti alla registrazione parziale.
+
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  

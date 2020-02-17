@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/14/2020
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 820439f8b18026d8a92a07dfe320423381847cb7
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953373"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030270"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
 È necessario definire i diversi criteri di prezzo e di sconto applicati alle transazioni di vendita ai diversi clienti affinché vengano applicati le regole e i valori concordati ai documenti di vendita creati per i clienti.
@@ -49,6 +49,10 @@ Poiché i prezzi di vendita e gli sconti riga di vendita si basano su una combin
 
     Nella pagina **Sconti riga vendita**, il campo **Tipo vendita** viene precompilato con **Cliente** e il campo **Codice vendita** viene precompilato con il numero del cliente.
 3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
+
+> [!Note]
+> Quando si aprono le finestre **Prezzi vendita** e **Sconti riga vendita** di un cliente specifico, i campi **Filtro tipo vendita** e **Filtro codice vendita** sono impostati per il cliente e non possono essere modificati o rimossi, indicati dal valore in grigio del campo **Filtro codice vendita**.<br /><br />
+> Per impostare i prezzi o gli sconti di riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le finestre da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto su fattura per un cliente
 Dopo avere stabilito a quali clienti si debbano applicare gli sconti fattura, è necessario immettere i codici di sconto fattura nelle schede clienti e impostare le condizioni relative ai singoli codici.
@@ -116,7 +120,7 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
 ## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita  
-Eseguire il processo batch **Suggerisci prezzo vendita in prosp.** se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare in un gruppo di prezzi cliente. L'azione per il processo batch è disponibile nella pagina **Prospetto Prezzi Vendita**.    
+Eseguire il processo batch **Suggerisci prezzo vendita in prosp.** se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare il processo batch che si avvia dalla pagina **Prospetto Prezzi Vendita**.    
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Suggerisci prezzo vendita in prosp.** .  

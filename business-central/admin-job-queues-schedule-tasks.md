@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879204"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999785"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per pianificare i task
 Le code processi in [!INCLUDE[d365fin](includes/d365fin_md.md)] consentono agli utenti di pianificare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Potrebbe essere necessario, ad esempio, eseguire il report **Agente - Statistiche vendita** ogni settimana, per tenere traccia delle vendite effettuate da un agente ogni settimana, oppure eseguire la codeunit **Elabora coda e-mail assistenza** ogni giorno, per verificare che i messaggi di posta elettronica in sospeso relativi agli ordini di assistenza vengano inviati ai clienti in modo tempestivo.
@@ -31,6 +31,11 @@ Per riuscirci, impostare la coda processi sull'esecuzione di diversi report di r
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la registrazione in background per tutti i documenti di vendita, acquisto e assistenza.
 
+> [!NOTE]
+> Alcuni processi modificano gli stessi dati e non devono essere eseguiti contemporaneamente perché possono causare conflitti. Ad esempio, i processi in background per i documenti di vendita proveranno a modificare gli stessi dati contemporaneamente. Le categorie della coda lavori aiutano a prevenire questo tipo di conflitti garantendo che quando un lavoro è in esecuzione, un altro lavoro appartenente alla stessa categoria di coda lavori non verrà eseguito fino al termine del primo. Ad esempio, un processo che appartiene a una categoria della coda lavori di vendita attenderà fino al completamento di tutti gli altri processi relativi alle vendite. Specificare una categoria di coda lavori nella scheda dettaglio **Registrazione background** della pagina **Setup contabilità clienti**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce le categorie delle code lavoro per vendite, acquisti e registrazioni di contabilità generale. Si consiglia di specificare sempre una di queste categorie o una creata dall'utente. Se si verificano errori dovuti a conflitti, prendere in considerazione la possibilità di impostare una categoria per le vendite, gli acquisti e la registrazione in background della contabilità generale.
+
 La procedura seguente illustra come configurare la registrazione in background di ordini di vendita. I passaggi sono simili per l'acquisto e l'assistenza.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
@@ -41,7 +46,7 @@ La procedura seguente illustra come configurare la registrazione in background d
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti coda processi** e quindi scegliere il collegamento correlato.
 5. Nella pagina **Movimenti coda processi**, scegliere l'azione **Nuovo**.
 6. Nel campo **Tipo di oggetto da eseguire**, selezionare **Codeunit**.  
-7. Nel campo **ID oggetto da eseguire**, selezionare 88, **Registrazione vendita via coda processi**.
+7. Nel campo **ID oggetto**, selezionare **88**. I campi Descrizione e Didascalia oggetto da eseguire mostreranno Registrazione vendita via coda processi.
 
     Non vi sono altri campi pertinenti per questo scenario.
 8. Scegliere l'azione **Imposta stato su Pronto**.

@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311286"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992147"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Estensione di migrazione dei dati Dynamics GP 
-L'estensione semplifica la migrazione dei dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione di migrazione è utilizzabile con tutte le versioni supportate di Microsoft Dyanmics GP. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
+L'estensione semplifica la migrazione dei dati relativi a clienti, fornitori, articoli di magazzino, conti C/G, transazioni aperte di contabilità fornitori e clienti di e conti da Dynamics GP a [!INCLUDE[prodshort](includes/prodshort.md)]. Se l'azienda al momento utilizza Dynamics GP, è possibile esportare i record rilevanti e aprire una guida al setup assistito per aggiungere i dati in [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione di migrazione è utilizzabile con tutte le versioni supportate di Microsoft Dynamics GP. Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Questa estensione verrà deprecata nell'aggiornamento 15.3. Si consiglia agli utenti che desiderano migrare da Dynamics GP di iniziare utilizzando la procedura **Migrazione cloud**. L'estensione **Migrazione cloud** ha funzionalità più efficaci e porta più dati in Business Central da Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Esportazione dei dati da Dynamics GP
 È necessario aver esportato alcuni o tutti i clienti, i fornitori, gli articoli di magazzino e gli account di contabilità generale esistenti utilizzando la funzionalità di esportazione dei dati di Dynamics GP. Quando si selezionano i dati da esportare, è possibile selezionare i seguenti tipi:

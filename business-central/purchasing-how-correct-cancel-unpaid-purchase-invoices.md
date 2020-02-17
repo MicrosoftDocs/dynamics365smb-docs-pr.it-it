@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81b2ab1956e1468bfcce2f438edbed934f4de703
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2896bfc5cafed679bd54dced6c7726a1c49859de
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883120"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992026"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Correggere o annullare le fatture di acquisto non pagate
 È possibile correggere o annullare una fattura di acquisto registrata. Ciò risulta utile se si desidera correggere un errore di digitazione o se si desidera modificare l'acquisto in una fase iniziale dell'elaborazione dell'ordine.
@@ -49,6 +49,9 @@ Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante 
 
     Una nota di credito di acquisto viene automaticamente creata e registrata per annullare la fattura di acquisto registrata iniziale. Il campo **Annullato** nella fattura di acquisto registrata iniziale viene modificato in **Sì**.
 4. Scegliere **Mostra nota credito di rettifica** per visualizzare la nota di credito di acquisto registrata che annulla la fattura di acquisto registrata iniziale.
+
+### <a name="partial-invoice-posting-also-supported"></a>Anche la registrazione parziale delle fatture è supportata
+Se l'annullamento è correlato a una registrazione parziale della fattura, la riga dell'ordine di acquisto di origine viene aggiornata per riflettere la quantità fatturata annullata. I campi **Qtà da fatturare** e **Qtà fatturata** nella riga dell'ordine fornitore correlato vengono reimpostati sui valori precedenti alla registrazione parziale.
 
 ## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  

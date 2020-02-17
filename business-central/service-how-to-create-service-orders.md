@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877315"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030102"
 ---
 # <a name="create-service-orders"></a>Creare ordini di assistenza
 La pagina **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.  
@@ -27,11 +27,11 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 2. Creare un nuovo ordine di assistenza.  
 3. Nel campo **Nr.** immettere un numero per l'ordine di assistenza.  
 
-     In alternativa, se è stata impostata una numerazione per gli ordini di assistenza nella pagina **Setup gest. assist.**, per selezionare il successivo numero di ordine di assistenza disponibile, premere INVIO.  
+     In alternativa, se è stata impostata una numerazione per gli ordini di assistenza nella pagina **Setup gestione assistenza**, per selezionare il successivo numero di ordine di assistenza disponibile, premere INVIO.  
 
 4. Nel campo **Nr. cliente** selezionare il cliente appropriato dalla lista. I campi rilevanti per il cliente vengono compilati con le informazioni della tabella **Cliente**.  
 
-5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
+5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gestione assistenza** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
 6. Facoltativamente, compilare i campi restanti.  
 7. Registrare le righe di articolo in assistenza.  
 
@@ -43,9 +43,11 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 3. Nella Scheda dettaglio **Opzioni** compilare i campi **Data inizio** e **Data fine** in base al periodo per cui si desidera creare gli ordini di assistenza contratto. Il processo batch procederà alla creazione di ordini di assistenza che includono articoli in contratti di assistenza con le prossime date di assistenza pianificate in tale periodo.  
 
     > [!NOTE]  
-    >  Esiste un limite al numero di giorni che si può utilizzare come intervallo di date ogni volta che si utilizza questo processo batch. Questo limite viene impostato nel campo **Max. giorni ord. assist. da contratto** nella pagina **Setup gest. assist.**  
+    >  Esiste un limite al numero di giorni che si può utilizzare come intervallo di date ogni volta che si utilizza questo processo batch. Questo limite viene impostato nel campo **Max. giorni ord. assist. da contratto** nella pagina **Setup gestione assistenza**  
 
 4. Nel campo **Azione** selezionare **Crea ordine di assistenza**.  
+    > [!NOTE]  
+    >  Non sarà possibile creare un ordine con più articoli di servizio, se il campo **Una riga art. in assistenza/ordine** è stato impostato nella pagina **Setup gestione assistenza**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  

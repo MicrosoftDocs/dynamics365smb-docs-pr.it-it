@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 12/16/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 416ca6f99dec55a9eb0c9a70e9974d2e7bcb348c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910446"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999857"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
 Per stornare una registrazione errata, selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
@@ -34,7 +34,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 È possibile stornare i movimenti da tutte le pagine **Movimenti contabili**. La seguente procedura è basata sulla pagina **Movimenti C/G**.
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti contabilità generale** e quindi scegliere il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**. Si noti che è necessario che il movimento derivi da una registrazione.
-3. Nella pagina **Storna movimenti transazioni**, selezionare il movimento appropriato quindi scegliere l'azione **Storna**.
+3. Nella pagina **Storna movimenti transazioni**, scegliere l'azione **Storna**.
 4. Scegliere il pulsante **Sì** nel messaggio di conferma.
 
 > [!NOTE]

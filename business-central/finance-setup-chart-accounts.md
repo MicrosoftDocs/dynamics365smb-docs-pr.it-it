@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: edupont
-ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 780b42f779fa436716144e4bc598255d913427ed
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911073"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999809"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
-Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere nuovi conti. 
+Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere nuovi conti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
@@ -36,6 +36,8 @@ Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificar
 >   * Se il campo **Verifica Uso Conti C/G** della pagina **Setup Contabilità Generale** è selezionato, il conto non deve essere utilizzato in tutte le categorie di registrazione o impostazioni delle registrazioni.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschart-accounts-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  

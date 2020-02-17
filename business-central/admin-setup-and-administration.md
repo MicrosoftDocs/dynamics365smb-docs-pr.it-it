@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953565"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999689"
 ---
 # <a name="administration"></a>Setup
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
@@ -24,7 +24,7 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 
 Se si utilizza RapidStart Services per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
 
-Un utente o amministratore avanzato può impostare il framework di scambio di dati per consentire agli utenti di esportare e importare i dati nei file bancari e di ruolo paga, ad esempio per i diversi processi di gestione bancaria.
+Un utente o amministratore avanzato può impostare il framework di scambio di dati per consentire agli utenti di esportare e importare i dati nei file bancari e di ruolo paga, ad esempio per i diversi processi di gestione bancaria. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).
 
 > [!NOTE]
 > È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

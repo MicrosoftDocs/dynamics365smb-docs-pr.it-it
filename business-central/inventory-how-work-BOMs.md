@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309678"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030126"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -54,7 +54,14 @@ Esistono due passaggi per creare una DB di assemblaggio:
 2. Nella pagina **Scheda articolo** per un articolo di assemblaggio, scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
 3. Nella pagina **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti di un articolo di assemblaggio con indentazione in base alla struttura DB
+## <a name="to-edit-assembly-boms"></a>Per modificare le DB di assemblaggio
+È possibile modificare le righe di una distinta base di assemblaggio in qualsiasi momento. Tuttavia, tenere presente che la distinta base potrebbe essere in uso nelle vendite o negli assemblaggi dell'elemento padre, che potrebbero essere influenzati dalla modifica. Scegliere l'azione **Dove-usato** per vedere in quali articoli viene utilizzato e quindi se gli ordini di vendita o di assemblaggio possono essere interessati.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+2. Scegliere il valore **Sì** nella colonna **DB assemblaggio**.
+3. Nella pagina **DB assemblaggio**, scegliere l'azione **Modifica elenco**, quindi modificare i campi secondo necessità.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
 Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.

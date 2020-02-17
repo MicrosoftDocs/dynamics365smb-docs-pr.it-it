@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304260"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991810"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Risoluzione dei problemi relativi agli errori di sincronizzazione
 Ci sono molte parti mobili coinvolte nell'integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] e a volte le cose vanno male. Questo argomento evidenzia alcuni degli errori tipici che si verificano e fornisce alcuni suggerimenti su come risolverli.
@@ -37,6 +37,16 @@ Gli errori correlati all'impostazione dell'integrazione richiedono in genere l'a
 
 * I campi **Origine** e **Destinazione** possono contenere collegamenti al record in cui è stato trovato l'errore. Fare clic sul collegamento per aprire il record e analizzare l'errore.  
 * Le azioni **Elimina movimenti risalenti a più di 7 giorni prima**e **Elimina tutti i movimenti** puliranno l'elenco. In genere, si utilizzano queste azioni dopo aver risolto la causa di un errore che interessa molti record. Tuttavia, prestare attenzione. Queste azioni potrebbero eliminare errori che sono ancora rilevanti.
+
+A volte i timestamp sui record possono causare conflitti. La tabella "Record integrazione CRM" mantiene i timestamp "Data ultima modifica sincr." e "Data ultima modifica sincr. CRM" per l'ultima integrazione eseguita in entrambe le direzioni di un record. Questi timestamp vengono confrontati con i timestamp nei record Business Central e Sales. In Business Central, il timestamp è nella tabella Record integrazione.
+
+È possibile filtrare i record che devono essere sincronizzati confrontando i timestamp dei record nella tabella "Mapping tabella integrazione" campi "Sinc. filtro data modifica" e "Sinc. fltr. data mod. tab. int.".
+
+Il messaggio di errore di conflitto "Impossibile aggiornare il record del cliente perché ha una data di modifica più recente del record dell'account" o "Impossibile aggiornare il record dell'account perché ha una data di modifica più recente del record del cliente" può verificarsi se un record ha un timestamp che è più grande di IntegrationTableMapping. "Sinc. filtro data modifica" ma non è più recente del timestamp sul record di integrazione delle vendite. Significa che il record di origine è stato sincronizzato manualmente e non dal movimento coda processi. 
+
+Il conflitto si verifica perché anche il record di destinazione è stato modificato: il timestamp del record è più recente del timestamp del record di integrazione delle vendite. Il controllo della destinazione avviene solo per le tabelle bidirezionali. 
+
+Questi record vengono spostati nella pagina "Record di sincronizzazione ignorati", che si apre dalla pagina Setup connessione Microsoft Dynamics in Business Central. In questa pagina è possibile specificare le modifiche da conservare, quindi sincronizzare nuovamente i record.
 
 ## <a name="see-also"></a>Vedere anche
 [Integrazione con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  

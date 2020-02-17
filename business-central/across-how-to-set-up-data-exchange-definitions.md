@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952941"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030174"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  

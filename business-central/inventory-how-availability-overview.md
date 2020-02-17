@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308598"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991906"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
@@ -91,13 +91,16 @@ In ogni riga della pagina per gli articoli padre e gli articoli figlio, i seguen
 |**Produzione possibile - Padre**|Mostra quante unità di un sottoassemblaggio nell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo padre immediate possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 |**Produzione possibile - Articolo principale**|Mostra quante unità dell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo DB nella prima riga possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 
-### <a name="item-availability-by-bom-level-page"></a>Pagina Disponibilità articolo per livello DB
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Per visualizzare la disponibilità di un articolo in base alla domanda per il relativo articolo principale
 Nella pagina **Disponibilità articolo per livello DB** vengono visualizzate le informazioni relative all'articolo sulla scheda o la riga del documento per il quale viene aperta la pagina. L'articolo viene indicato sempre nella prima riga. È possibile visualizzare informazioni per altri articoli o per tutti gli articoli modificando il valore nel campo **Filtro articolo**.
 
 > [!NOTE]  
 >   Per default, le cifre sulla disponibilità nelle righe mostrano la disponibilità totale di tutti gli articoli sotto l'articolo principale. Le cifre vengono visualizzate nel campo **Quantità disponibile** e lo stato attivo è sull'articolo principale. Tuttavia, le informazioni relative al numero di sottoassemblaggi che è possibile preparare potrebbero essere distorte. Per ottenere un'indicazione vera di quanti dei sottoassemblaggi mostrati è possibile preparare, è necessario cancellare il campo **Mostra disponibilità totale**, quindi visualizzare la cifra nel campo **Produzione possibile - Padre**.
 
 Il campo **Collo di bottiglia** specifica quale articolo nella struttura di DB limita la possibilità di produrre una quantità maggiore di quella indicata nel campo **Produzione possibile - Articolo principale**. Ad esempio, l'articolo collo di bottiglia può essere un componente acquistato con una data di carico prevista troppo in ritardo per creare unità aggiuntive dell'articolo principale entro la data presente nel campo **Disponibile entro**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Per visualizzare la disponibilità di un articolo in base alle unità di misura
+La pagina **Disponibilità articolo per unità di misura** mostra una disponibilità degli articoli suddivisa nelle diverse unità di misura in cui è memorizzata.
 
 ## <a name="assembly-availability-page"></a>Pagina Disponibilità assemblaggio
 Nella pagina **Disponibilità assemblaggio** sono visualizzate le informazioni dettagliate sulla disponibilità per l'articolo di assemblaggio. La finestra viene aperta:

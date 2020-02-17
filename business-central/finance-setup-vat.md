@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953685"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030150"
 ---
 # <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
@@ -116,28 +116,6 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 * Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA
-Le autorità fiscali possono e devono modificare i requisiti per la registrazione dell'IVA. Definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA consentono di prepararsi per eventuali modifiche e a effettuare una transizione graduale ai nuovi requisiti. È possibile utilizzare le definizioni di dichiarazione IVA per definire i campi da includere nella dichiarazione IVA, che a loro volta che definiscono i calcoli, ed è possibile creare una nuova definizione di dichiarazione IVA quando i requisiti cambiano. Ad esempio, una definizione potrebbe calcolare l'IVA per quest'anno in base ai requisiti correnti e un altro potrebbe calcolare l'IVA in base ai requisiti per l'anno successivo. Le definizioni sono inoltre un metodo per conservare una cronologia dei formati delle dichiarazioni IVA, ad esempio, ad esempio, per poter verificare come è stata calcolata l'IVA negli anni precedenti.
-
-## <a name="to-define-a-vat-statements"></a>Per definire dichiarazioni IVA
-Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
-2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**.
-3. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> È possibile filtrare le informazioni che la dichiarazione includerà, a seconda di ciò che viene scelto nel campo **Tipo**. **Totale conto** è utile quando si desidera ottenere l'IVA di un conto specifico.
-**Totale Mov. IVA** ottiene l'IVA da conti assegnati alle selezioni in **Tipo reg. gen.**, **Cat. reg. business IVA** e/o i campi **Cat. reg. art./serv. IVA**. **Totale Riga** consente di immettere un valore o filtrare rapidamente il campo **Totale Riga**. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md). **Descrizione** è spesso utilizzato aggiungere una nota alla dichiarazione. Ad esempio, potrebbe essere utilizzata come intestazione quando si utilizza il totale riga.
-
-## <a name="to-preview-the-vat-statement"></a>Per visualizzare in anteprima la dichiarazione IVA
-Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprima per assicurarsi che soddisfi le proprie esigenze.
-
-1. Scegliere **Anteprima**.
-2. Immettere un filtro data per limitare la dichiarazione a un periodo specifico. Per ulteriori informazioni su come personalizzare la pagina per visualizzare il filtro data, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md)..
-3. È possibile selezionare varie opzioni per specificare il tipo di movimenti IVA da includere nella dichiarazione.
-4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Impostazione delle categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
 È possibile impostare una categoria IVA per descrivere informazioni sul tipo di IVA che viene applicata. Le informazioni possono essere obbligatorie per la normativa statale. Dopo aver impostato una categoria IVA e averla associata a un setup registrazioni IVA, la categoria IVA viene visualizzata su tutti i documenti di vendita stampati con tale categoria di setup registrazioni IVA.
 
@@ -178,24 +156,6 @@ Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura
 5. Nel campo **Tipologia IVA** selezionare **Sola IVA**.  
 6. Nel campo **Conto IVA Acquisti** immettere il conto C/G da utilizzare per registrare l'IVA da importazione. Tutti gli altri conti sono facoltativi.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Per verificare la partita IVA
-È importante che la partita IVA per clienti, fornitori e contatti sia valida. Ad esempio, le aziende cambiano talvolta lo stato di passività fiscale e in alcuni paesi le autorità fiscali potrebbero chiedere di fornire report, come il report IVA dell'elenco vendite UE, che elenca i numeri di partita IVA utilizzati per l'attività.
-
-La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di risparmiare tale passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA per i clienti, i fornitori e i contatti direttamente dalle schede cliente, venditore e di contatto. Il servizio in [!INCLUDE[d365fin](includes/d365fin_md.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella pagina **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e la registrazione non è necessaria.
-
-> [!Note]
-> Per abilitare il servizio di convalida partita IVA comunitaria, è necessario disporre di autorizzazioni di amministratore.
-
-Quando si utilizza la connessione del servizio, viene registrata una cronologia dei numeri di partita IVA e delle verifiche per ogni cliente, fornitore o contatto, nel **Log partita IVA**, in modo da poterli facilmente tracciare. Il log è specifico per ogni cliente. Ad esempio, il log è utile per dimostrare di aver verificato che il numero di partita IVA corrente è corretto. Quando si verifica un numero di partita IVA, la colonna **Identificatore di richiesta** nel log indicherà che l'azione è stata eseguita.
-
-È possibile visualizzare il log di registrazione IVA nella scheda cliente, fornitore o di contatto, nella Scheda dettaglio **Fatturazione**, scegliendo il pulsante di ricerca nel campo **Partita IVA**.  
-
-Il servizio consente anche di risparmiare tempo quando si crea un cliente o un fornitore. Se si conosce il numero di partita IVA del cliente, è possibile immetterlo nel campo **Partita IVA** nelle schede Cliente o Fornitore e la ragione sociale del cliente verrà compilato automaticamente. Alcuni paesi forniscono anche indirizzi aziendali in un formato strutturato. In questi paesi, l'indirizzo verrà compilato automaticamente.  
-
-Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partita IVA VIES:
-
-* Il servizio Web utilizza il protocollo HTTP, il che significa che i dati trasferiti tramite il servizio non sono crittografati.  
-* È possibile che si verifichi un tempo di inattività per questo servizio per cui Microsoft non è responsabile. Il servizio fa parte di un'ampia rete europea di registri IVA nazionali.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Utilizzo dell'IVA intracomunitaria per il commercio tra i paesi della UE
 Per il commercio tre due società nell'Unione Europea, per alcune società è necessario utilizzare l'IVA intracomunitaria. Ad esempio, la regola si applica agli acquisti e alle vendite nei paesi UE.  
@@ -219,61 +179,16 @@ Quando si registra una vendita a un cliente in un altro paese UE, viene calcolat
 ## <a name="understanding-vat-rounding-for-documents"></a>Informazioni sull'arrotondamento IVA per i documenti
 Gli importi nei documenti che non sono ancora stati registrati vengono arrotondati e visualizzati in modo da corrispondere all'arrotondamento finale degli importi effettivamente registrati. L'IVA viene calcolata per un documento completo, cioè l'IVA che viene calcolata è basata sulla somma di tutte le righe con lo stesso identificatore IVA nel documento.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Informazioni sul processo di conversione dell'aliquota IVA  
-Lo strumento di modifica dell'aliquota IVA effettua le conversioni di aliquota IVA per dati master, registrazioni e ordini in modalità diverse. Le registrazioni e i dati master selezionati verranno aggiornati in base alla nuova categoria di registrazione articoli/servizi o a quella relativa agli articoli/servizi IVA. Se un ordine è stato spedito completamente o in parte, gli articoli spediti conserveranno la categoria di registrazione articoli/servizi o quella di articoli/servizi IVA corrente. Per gli articoli non spediti verrà creata una nuova riga ordine che verrà aggiornata in modo da corrispondere alle categorie di registrazione articoli/servizi o a quelle di articoli/servizi IVA correnti e nuove. Inoltre, verranno aggiornati di conseguenza gli impegni, le assegnazioni di addebito articoli e le informazioni sulla tracciabilità degli articoli.  
 
-Esistono, tuttavia, alcuni elementi che lo strumento non converte:
 
-* Ordini e fatture di vendita o di acquisto, in caso di registrazione delle spedizioni. Questi documenti vengono registrati utilizzando l'aliquota IVA corrente.  
-* Documenti con fatture pagamento anticipato registrate. Ad esempio, se sono stati effettuati o ricevuti pagamenti anticipati relativi a fatture che non sono state completate prima dell'utilizzo dello strumento di modifica dell'aliquota IVA. In questo caso, vi sarà una differenza tra l'IVA dovuta e quella pagata nei pagamenti anticipati quando la fattura viene completata. Con lo strumento di modifica dell'aliquota IVA sarà possibile ignorare questi documenti che dovranno però essere aggiornati manualmente.  
-* Spedizioni dirette o ordini speciali.  
-* Ordini di vendita o di acquisto con l'integrazione warehouse qualora siano parzialmente spediti o ricevuti.  
-* Contratti di assistenza.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Per preparare conversioni di modifica dell'aliquota IVA  
-Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario effettuare le preparazioni riportate di seguito.
-
-* Se si effettuano transazioni in cui si utilizzano aliquote differenti, esse devono essere separate in gruppi differenti creando nuovi conti di contabilità generale per ogni aliquota o utilizzando filtri di dati per raggruppare le transazioni in base all'aliquota.  
-* Se si creano nuovi conti di contabilità generale, è necessario creare nuove categorie di registrazioni generali.  
-* Per ridurre il numero di documenti che vengono convertiti, registrare il maggior numero di documenti possibile e ridurre al minimo quelli non registrati.  
-* Eseguire il backup dei dati.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Per impostare lo strumento di modifica dell'aliquota IVA  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
-2. Nelle Schede dettaglio **Dati master**, **Registrazioni** e **Documenti** scegliere un valore della categoria registrazione dall'elenco di opzioni per i campi necessari.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Per impostare la conversione delle categorie di registrazione prodotti  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Setup modifiche aliquota IVA** scegliere l'azione **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
-3. Nel campo **Da codice** immettere la categoria di registrazione corrente.  
-4. Nel campo **A codice** immettere la nuova categoria di registrazione.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Per eseguire la conversione della modifica dell'aliquota IVA  
-È possibile utilizzare lo strumento di modifica aliquota IVA per gestire le modifiche nell'aliquota IVA standard. Vengono eseguite le conversioni della categoria di registrazione generale e dell'IVA per modificare le aliquote IVA e gestire il reporting IVA accurato. In base all'impostazione vengono apportate le modifiche seguenti:  
-
-* Le categorie registrazione generale e IVA vengono convertite.  
-* Le modifiche vengono apportate nei conti di contabilità generale, nei clienti, nei fornitori, nei documenti aperti, nelle righe di registrazione e anche in altri documenti.  
-
-> [!IMPORTANT]  
->  Prima di eseguire la conversione modifica aliquota IVA, è possibile eseguire i test della conversione. A tale scopo, eseguire la procedura riportata di seguito, ma assicurarsi di deselezionare le caselle di controllo **Esegui conversione** e **Strumento di modifica aliquota IVA completato**. Durante la conversione di test, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è stato rimosso e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** è vuoto. Al termine della conversione, scegliere **Voci log modifiche aliquota IVA** per visualizzare i risultati del test di conversione. Verificare ciascun movimento prima di eseguire la conversione. In particolare, verificare le transazioni che usano un'aliquota IVA precedente.     
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modifica aliquota IVA** e quindi scegliere il collegamento **Setup modifiche aliquota**.  
-2. Verificare che sia già stata impostata la conversione della categoria di registrazione articoli/servizi IVA o quella relativa agli articoli/servizi.  
-3. Selezionare la casella di controllo **Esegui conversione**.  
-
-    > [!IMPORTANT]  
-    >  Deselezionare la casella controllo **Strumento di modifica aliquota IVA completato**. La casella di controllo viene selezionata automaticamente al termine della conversione della modifica dell'aliquota IVA.  
-
-4. Scegliere l'azione **Converti**.  
-5. Al termine della conversione, scegliere l'azione **Voci log modifiche aliquota IVA** per visualizzare i risultati del test di conversione.  
-
-> [!IMPORTANT]  
->  Dopo la conversione, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è selezionato e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** visualizza la data di conversione.  
+## <a name="see-also"></a>Vedere anche
+[Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA](finance-how-setup-vat-statement.md)   
+[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)      
+[Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)      
+[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)    
+[Utilizzare lo strumento di modifica dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)    
+[Verificare i numeri di partita IVA](finance-how-validate-vat-registration-number.md)  
+[Funzionalità locale in Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Vedere anche  
-[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)      
-[Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
-[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-[Funzionalità locale in Business Central](about-localization.md)

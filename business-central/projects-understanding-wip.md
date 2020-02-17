@@ -10,16 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: a6f766d30fb61fd7ab67a654c102fc1a4b6e7629
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac6b41d9fe03968531b7d99e534055b6a9955f57
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312606"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030294"
 ---
 # <a name="understanding-wip-methods"></a>Metodi WIP
+Durante lo svolgimento di una commessa, vengono consumati materiali, risorse ed effettuate altre spese che devono essere registrate nella commessa. La funzionalità WIP (Work in Process) consente di stimare il valore finanziario delle commesse nella contabilità generale nelle varie fasi di una commessa. In molti casi è possibile registrare le spese relative a una commessa prima di fatturarla. Se sono state registrate solo le spese, il rendiconto finanziario non sarà accurato.
+
+Per tenere traccia del valore nella contabilità generale, è possibile calcolare il WIP e registrare il valore nella contabilità generale. Per ulteriori informazioni, vedere [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md).
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta i seguenti metodi di calcolo e di registrazione del valore WIP.
 
 | Metodo WIP | Formula di calcolo | Descrizione calcolo |

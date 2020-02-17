@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954006"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991930"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
@@ -32,6 +32,9 @@ Oltre alla fattura di vendita registrata originale, è possibile collegare la no
 È possibile inviare la nota di credito vendita registrata al cliente per confermare il reso o l'annullamento e comunicare che il valore correlato verrà rimborsato, ad esempio quando gli articoli vengono resi.
 
 La registrazione della nota di credito annullerà anche tutti gli addebiti articolo assegnati al documento registrato, in modo che i movimenti valorizzazione articolo siano identici a prima dell'assegnazione dell'addebito articolo.
+
+> [!NOTE]
+> Gli aspetti contabili dei resi di vendita, come i pagamenti ai clienti come rimborso, sono considerati lavori contabili e non sono descritti qui. Per ulteriori informazioni, vedere [Gestione della contabilità fornitori](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Costing di magazzino
 Per mantenere la corretta valutazione del magazzino, in genere si desidera sistemare gli articoli restituiti nuovamente in magazzino al costo unitario con cui sono stati venduti e non al costo unitario corrente. Questa operazione è detta storno esatto costo.
@@ -220,5 +223,6 @@ In alternativa, eliminare i singoli ordini di reso vendita manualmente.
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
+[Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 79fe847cdfaef12c16ce972ec20f3213f0af352a
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692826"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999713"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -38,8 +38,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
-[Scambio di dati](across-exchange-data.md)   
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  

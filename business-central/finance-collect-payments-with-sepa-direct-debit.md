@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554304"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030198"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
 Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente in conformità al formato SEPA.  
@@ -32,7 +32,10 @@ Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente da
 >  Per raccogliere i pagamenti tramite l'Addebito diretto SEPA, la valuta nella fattura di vendita deve essere EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
-Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di addebito diretto SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
+Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca usando il formato di addebito diretto SEPA.
+
+> [!NOTE]
+> La versione globale di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta solo il formato di addebito diretto SEPA. La versione del proprio paese/area geografica può supportare altri formati per i pagamenti elettronici. Vedere **Funzionalità locale** nel sommario.  
 
 Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -43,7 +46,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 * Impostare il mandato di addebito diretto che riflette l'accordo con il cliente per riscuotere i pagamenti in un determinato periodo del contratto.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Per impostare il conto bancario per l'addebito diretto SEPA  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancari** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.  
 2. Aprire il conto bancario che si desidera utilizzare per l'addebito diretto.  
 3. Nella Scheda dettaglio **Trasferimento**, nel campo **Formato esport. addebito dir. SEPA**, scegliere l'opzione per addebito diretto SEPA.  
 
@@ -112,7 +115,7 @@ Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le 
 
  4. Scegliere il pulsante **OK**.  
 
-      Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
+Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione addebiti diretti e vengono creati uno o più movimenti di riscossione addebiti diretti.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Per esportare un movimento riscossione di addebiti diretti in un file della banca  
  1. Nella pagina **Riscossioni addebiti diretti** scegliere l'azione **Movimenti riscossioni addebiti diretti**.  

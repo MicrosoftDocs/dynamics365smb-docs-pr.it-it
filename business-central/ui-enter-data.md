@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311382"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992087"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -55,7 +55,7 @@ Di seguito vengono fornite alcune informazioni utili sull'utilizzo di Accesso ra
 
 Per modificare quali campi sono inclusi o esclusi da Accesso rapido in una pagina, si utilizza la personalizzazione.
 
-1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
+1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
 2. Selezionare un campo che si desidera modificare, o negli elenchi, selezionare l'intestazione di colonna corrispondente, quindi scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
 
 Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -86,7 +86,7 @@ Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di cop
 
 ## <a name="filtering-line-items"></a>Filtri delle voci
 
-Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona riquadro Filtro") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
+Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona del riquadro filtri") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
 
 I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Ad esempio, si supponga di aprire una fattura di vendita registrata e di filtrare le voci per visualizzare tutte quelle che hanno un singolo sconto maggiore del 5% oppure per visualizzare solo accessori per biciclette con la parola “pro" nel nome.
 
@@ -98,20 +98,21 @@ Ciò è particolarmente utile quando si utilizzano elenchi di voci di grandi dim
 
 ### <a name="switching-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
-Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "icona Modalità stato attivo") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
+Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "Icona Modalità messa a fuoco") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
 
-Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
+Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "Icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking in più pagine
 Quando si lavora su più task alla volta o quando si gestiscono interruzioni alla task corrente, come rispondere a una chiamata in arrivo, è possibile aprire una pagina di documento o scheda in una nuova finestra. Ciò consente di tenere aperta una finestra per una task in corso mentre si avvia o si completa un'altra task in una o più finestre.
 
-Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
+Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
 
 > [!NOTE]
-> Quando si aprono altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non si sceglie ![Apri in un'altra finestra ](media/open-new-window-icon.png "icona Apri in un'altra finestra").
+> Quando si aprono altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non si sceglie ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra").
 
 > [!NOTE]
-> Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Lo stesso può accadere in altri browser, come Firefox. Per ulteriori informazioni, vedere [Impostazioni di blocco popup in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Immettere quantità mediante calcolo
 

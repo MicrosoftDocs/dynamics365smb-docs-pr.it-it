@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68168b253fa1d9532298f399030a60c377e67b82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f7a95b297ef494cc3607f4550b6a0e58b18839d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316022"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992171"
 ---
 # <a name="create-service-items"></a>Creare articoli in assistenza
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], il termine "articolo in assistenza" si riferisce alle attrezzature o agli articoli che necessitano di assistenza. Quando si crea un ordine di assistenza, si specificano gli articoli che necessitano di assistenza. Nell'ordine, è possibile collegare un articolo in assistenza a un articolo in magazzino o a un gruppo di articoli in assistenza.    
@@ -36,12 +36,12 @@ Quando si ricevono articoli su cui prestare assistenza e li si intende registrar
     Viene assegnato un numero all'articolo in assistenza e viene creata una scheda articolo in assistenza. Il campo **Nr. articolo in assistenza** viene compilato con il numero del nuovo articolo in assistenza.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Per creare un articolo in assistenza durante la spedizione degli articoli  
-Quando si spediscono articoli registrando ordini o fatture di assistenza, gli articoli spediti vengono automaticamente registrati come articoli in assistenza se è rispettata la seguente condizione. Gli articoli devono appartenere a un gruppo di articoli in assistenza per cui la casella di controllo **Crea articolo in assistenza** risulta selezionata. Se i numeri seriali degli articoli sono registrati nella pagina Righe tracciabilità articolo, tali informazioni verranno automaticamente copiate nel campo **Nr. seriale** della scheda relativa all'articolo in assistenza al momento della creazione degli articoli stessi.  
+Quando si spediscono articoli registrando ordini o fatture di vendita, gli articoli spediti vengono automaticamente registrati come articoli in assistenza se è rispettata la seguente condizione. Gli articoli devono appartenere a un gruppo di articoli in assistenza per cui la casella di controllo **Crea articolo in assistenza** risulta selezionata. Se i numeri seriali degli articoli sono registrati nella pagina Righe tracciabilità articolo, tali informazioni verranno automaticamente copiate nel campo **Nr. seriale** della scheda relativa all'articolo in assistenza al momento della creazione degli articoli stessi.  
 
-La seguente procedura indica le modalità di creazione di articoli in assistenza durante la spedizione degli articoli presenti negli ordini di assistenza.  
+La seguente procedura indica le modalità di creazione di articoli in assistenza durante la spedizione degli articoli presenti negli ordini di vendita.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
-2. Aprire l'ordine di assistenza desiderato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+2. Aprire l'ordine di vendita appropriato.  
 3. Scegliere l'azione **Registra** o **Registra e stampa**.  
 4. Scegliere l'azione **Spedizione** o **Spedizione e fattura**.  
 5. Verranno automaticamente creati gli articoli in assistenza per gli articoli dell'ordine che appartengono a un gruppo di articoli in assistenza impostato per la creazione di articoli in assistenza. A tali articoli verranno inoltre assegnati i corrispondenti numeri seriali eventualmente registrati nella pagina **Righe tracciabilità articolo**.  

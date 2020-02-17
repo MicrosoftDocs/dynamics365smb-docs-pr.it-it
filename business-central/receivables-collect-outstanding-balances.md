@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953469"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991978"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -216,7 +216,10 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note addebito interessi** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari.  
 3. Scegliere l'azione **Sugg. righe note add. int.**
-4. Se si desidera creare note di addebito interessi solo per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti** della pagina **Sugg. righe note add. int.**.  
+4. Se si desidera creare note di addebito interessi solo per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti** della pagina **Sugg. righe note add. int.**.
+
+    > [!NOTE]
+    > Sebbene siano elencati, selezionando **Pagamento** e **Nota di credito** come **tipo di documento** i filtri non avranno alcun effetto perché la funzione **Sugg. righe note add. int.** gestisce solo importi positivi.
 5.  Scegliere **OK** per avviare il processo batch.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
