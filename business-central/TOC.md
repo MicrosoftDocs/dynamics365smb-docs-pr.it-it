@@ -47,7 +47,7 @@
 ### [Personalizzare l'area di lavoro](ui-personalization-user.md)
 ### [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md)
 ### [Salvare e personalizzare visualizzazioni elenco](ui-views.md)
-### [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)
+### [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)
 ### [Visualizzazione delle liste con modalità diverse](across-display-lists-different-views.md)
 ## Stampa di report ed esecuzione di processi batch e XMLport
 ### [Utilizzo di report, processi batch e XMLport](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Aggiornare layout report personalizzati](ui-update-report-layouts.md)
 ### [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)
 ### [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md)
+### [Font disponibili](ui-fonts.md)
 ## Utilizzo dei tasti di scelta rapida
 ### [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
 ### [Tasti di scelta rapida](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Impostare documenti in entrata](across-how-setup-income-documents.md)
 #### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
 #### [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)
 #### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
 #### [Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Esportare pagamenti in un file della banca](payables-how-export-payments-bank-file.md)
-#### [Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
 #### [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)
 #### [Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md)
 #### [Effettuare pagamenti tramite assegno](payables-how-work-checks.md)
-#### [Effettuare i pagamenti con servizio di conversione dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Esportare un file Positive Pay](finance-how-positive-pay.md)
 ### Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
@@ -918,7 +918,6 @@
 #### [Impostare l'IVA intracomunitaria e l'imposta sugli acquisti](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Attività bancarie e pagamenti
 #### [Creare depositi](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Gestire informazioni su crediti cliente](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generale
 #### [Stampare report di risoluzione dei problemi](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Islanda
 ### [Sintesi](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### IVA
-#### [Regolamentazioni fiscali per sconti condizionali](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Stampare informazioni di riepilogo su documenti](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Output di dati speciale e report per l'autorità fiscale](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Fatturazione elettronica
@@ -1459,7 +1457,6 @@
 #### [Riconciliazione dei conti correnti bancari](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generale
-#### [Come gestire informazioni su crediti cliente](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Stampare report di risoluzione dei problemi](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Inviare avvisi normativi](submit-regulatory-alerts.md)
 # Conformità
