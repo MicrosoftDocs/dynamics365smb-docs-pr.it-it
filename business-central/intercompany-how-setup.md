@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d284783f389ea8e60027d02cc225b16c44b9d03
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300093"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097674"
 ---
 # <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
@@ -117,6 +117,8 @@ Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Dimensioni intercompany** selezionare le righe che si desidera associare automaticamente, quindi scegliere l'azione **Associa a dim. con stesso codice**.
 3. Per ogni dimensione intercompany di cui non viene eseguito automaticamente il mapping, compilare il campo **Codice dim. associaz.**.
+
+    Potrebbe essere necessario aggiungere il campo alla visualizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 4. Scegliere l'azione **Valori dimensioni intercompany**.
 5. Nella pagina **Valori dimensioni intercompany** compilare il campo **Codice val. dim. associaz.**.
 

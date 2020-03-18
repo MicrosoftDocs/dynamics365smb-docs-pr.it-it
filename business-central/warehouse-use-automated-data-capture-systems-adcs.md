@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832337"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097794"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
 
 > [!NOTE]
-> Nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)], il sistema ADCS è utilizzato in distribuzioni locali. Tuttavia, un partner Microsoft può utilizzarlo in distribuzioni online utilizzando Power Apps o simili.
+> La soluzione Automated Data Capture System (ADCS) offre una modo per [!INCLUDE[d365fin](includes/d365fin_md.md)] per comunicare con dispositivi portatili tramite servizi Web. È necessario contattare un partner Microsoft in grado di fornire il collegamento tra il servizio Web e il dispositivo portatile specifico. 
 
 È possibile utilizzare il sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System) per registrare il movimento degli articoli nella warehouse e alcune attività di registrazione, ad esempio le rettifiche delle quantità nella registrazioni articoli di warehouse e gli inventari fisici. ADCS in genere comporta la scansione di un codice a barre.
 
@@ -32,7 +32,23 @@ In base alle esigenze della warehouse, nel setup del miniform per il computer pa
 - Informazioni testuali.  
 - Messaggi per visualizzare le conferme o gli errori sulle attività eseguite e registrate dall'utente del palmare.
 
-Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](/dynamics-nav/Configuring-Automated-Data-Capture-System) nella Guida per sviluppatori e professionisti IT.
+## <a name="to-enable-web-services-for-adcs"></a>Per abilitare i servizi Web per ADCS
+Per utilizzare il sistema di acquisizione automatica dei dati, è necessario abilitare il servizio Web ADCS.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Per abilitare e pubblicare il servizio Web ADCS  
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi Web** e quindi scegliere il collegamento correlato.
+2. Scegliere l'azione **Nuovo**.  
+3. Nella pagina **Servizi Web**, inserire le seguenti informazioni su una nuova riga:  
+
+    |Campo|Valore|  
+    |---------------------------------|-----------|  
+    |**Tipo oggetto**|Codeunit|  
+    |**ID oggetto**|7714|  
+    |**Nome servizio**|ADCS **Importante:** è necessario denominare il servizio **ADCS**.|  
+
+5. Selezionare la casella di controllo **Pubblicato**.  
+6. Scegliere il pulsante **OK**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Per impostare una warehouse per l'utilizzo di ADCS  
 Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse utilizzano la tecnologia.  
@@ -79,7 +95,8 @@ A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere ass
 ## <a name="to-create-and-customize-miniforms"></a>Per creare e personalizzare miniform
 Utilizzare i miniform per descrivere le informazioni che si desidera visualizzare in un palmare. Ad esempio, è possibile creare miniform per supportare l'attività di warehouse di prelievo articoli. Dopo aver creato un miniform, è possibile aggiungervi funzioni per le azioni comuni effettuate dall'utente con i palmari, ad esempio spostarsi su o giù di una riga.  
 
-Per implementare o modificare la funzionalità di una funzione miniform, è necessario creare una nuova codeunit o modificarne una esistente per eseguire l'azione o la risposta richiesta. È possibile ottenere ulteriori informazioni sulla funzionalità ADCS esaminando le codeunit, ad esempio la 7705, ovvero la codeunit di gestione per la funzionalità di accesso. La codeunit 7705 mostra il funzionamento di un miniform di tipo scheda.  
+> [!NOTE] 
+> Per implementare o modificare la funzionalità di una funzione miniform, è necessario creare una nuova codeunit per il campo **Codeunit per la gestione** per eseguire l'azione o la risposta richiesta. È possibile ottenere ulteriori informazioni sulla funzionalità ADCS esaminando le codeunit, come 7705, 7706, 7712 e 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Per creare un miniform per ADCS  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
@@ -92,27 +109,13 @@ Per implementare o modificare la funzionalità di una funzione miniform, è nece
 
 Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzioni e associare funzionalità per i diversi input da tastiera.  
 
-### <a name="to-add-support-for-a-function-key"></a>Per aggiungere il supporto per un tasto funzione  
-1.  Aggiungere codice simile al seguente esempio a file con estensione xsl per il plug-in. Viene creata una funzione per il tasto **F6**. Le informazioni sulla sequenza di tasti possono essere ottenute dal produttore del dispositivo.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Nell'ambiente di sviluppo di [!INCLUDE[d365fin](includes/d365fin_md.md)] aprire la tabella 7702 e aggiungere un codice che rappresenti il nuovo tasto. Nell'esempio, creare un tasto denominato **F6**.  
-3.  Aggiungere il codice C/AL alla funzione della codeunit specifica del miniform per gestire il tasto funzione.  
-
 ### <a name="to-customize-miniform-functions"></a>Per personalizzare le funzioni del miniform  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un miniform dalla lista, quindi scegliere l'azione **Modifica**.  
 3.  Scegliere l'azione **Funzioni**.  
 4.  Nell'elenco a discesa **Codice funzione** selezionare un codice per rappresentare la funzione che si desidera associare al miniform. Ad esempio, è possibile scegliere il pulsante ESC, che associa la funzionalità alla pressione del tasto ESC.  
 
-Nell'ambiente di sviluppo di [!INCLUDE[d365fin](includes/d365fin_md.md)] modificare il codice del campo **Codeunit per la gestione** per creare o modificare il codice in modo che venga eseguita la richiesta o la risposta necessaria.
-
-Per ulteriori informazioni, vedere [Configurazione di un sistema di acquisizione automatica dei dati](/dynamics-nav/Configuring-Automated-Data-Capture-System) nella Guida per sviluppatori e professionisti IT.
-
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     

@@ -1,20 +1,20 @@
 ---
 title: Catalogo di apprendimento per utenti aziendali
-description: Catalogo di apprendimento per utenti aziendali
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 00ee925575dbdfe6eb32e78e3051c7bb8c6d7d96
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 51e8249f504e9182bf9e427e15629dd51fc804b5
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767892"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097770"
 ---
 # <a name="business-users-learning-catalog"></a>Catalogo di apprendimento per utenti aziendali
+
+Si è appena ricevuta una nuova applicazione da utilizzare?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze. 
 

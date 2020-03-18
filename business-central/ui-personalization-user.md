@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 01/13/2020
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953349"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071984"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -58,13 +58,14 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |----|------------|-------|
 |Spostare qualcosa, come un campo, una colonna dell'elenco, un riquadro, un'azione o una parte|Fare clic in un punto qualsiasi dell'elemento che si desidera spostare e trascinarlo nella nuova posizione. La posizione è indicata da una spessa linea orizzontale o verticale.<br /><br />![L'icona Impossibile spostare qui](media/personalization-cannot-move-here.png "Modalità di personalizzazione - Impossibile spostare l'icona qui") indica che non è possibile spostare l'elemento nella posizione selezionata.|Le parti sono suddivisioni o aree in una pagina che contengono elementi quali più campi, un'altra pagina, un grafico o dei riquadri.<br /><br />Per ulteriori dettagli sulla personalizzazione di azioni, vedere [Personalizzazione delle azioni](ui-personalization-user.md#Actions). |
 |Nascondere qualcosa, come un campo, una colonna in un elenco, un riquadro, un'azione o una parte.|Selezionare la freccia e quindi <b>Nascondi</b>.|L'elemento è grigio quando è attivata la modalità di personalizzazione. Se il campo che si nasconde è visualizzato anche nell'intestazione della Scheda dettaglio quando questa è compressa, il campo non verrà più visualizzato.|
-|Mostrare azioni e campi nascosti.|Per un elemento in grigio (nascosto), selezionare la freccia, quindi scegliere <b>Mostra</b>.|L'elemento nascosto è di nuovo visibile.|
+|Mostrare azioni e parti nascosti.|Per un elemento in grigio (nascosto), selezionare la freccia, quindi scegliere <b>Mostra</b>.|L'elemento nascosto è di nuovo visibile.|
 |Aggiungere un campo o una colonna.|Nel banner <b>Personalizzazione</b>, scegliere l'azione <b>+ Campo</b>.<br /></br>Si apre a destra il riquadro <b>Aggiungi campo a pagina</b>. Elenca i campi che possono essere aggiunti nella pagina.<br /><br />Per aggiungere un campo, trascinarlo dal riquadro alla posizione che si desidera. La posizione è indicata da una spessa linea orizzontale o verticale.|Ogni pagina include una serie di campi predefiniti che è possibile visualizzare. Utilizzare questa procedura per aggiungere campi o colonne che non sono state visualizzate precedentemente o per visualizzare campi che sono stati nascosti.|
 |Visualizzare un campo nell'intestazione di un Scheda dettaglio quando questa è compressa.|Selezionare la freccia e quindi <b>Mostra quando compresso</b>. <br /> <br />Se questa opzione non è visualizzata, è già impostata. In questo caso, per smettere di visualizzare il campo nell'intestazione della Scheda dettaglio, scegliere <b>Mostra sempre</b>.|*Scheda dettaglio* è il termine utilizzato per un gruppo di campi visualizzati sotto un'intestazione comune. Utilizzare l'opzione <b>Mostra quando compresso</b> per visualizzare i campi più importanti. Se si seleziona un campo nell'intestazione, la Scheda dettaglio verrà visualizzata e lo stato attivo sarà sul campo selezionato.<br /><br />Questa opzione è applicabile solo se una pagina ha più di una Scheda dettaglio. Se vi è una sola Scheda dettaglio, può non essere compressa, per cui l'opzione <b>Mostra quando compresso</b> non è disponibile.|
 |Visualizzare un campo solo quando si seleziona **Mostra di più**.|Selezionare la freccia e quindi <b>Visualizza in "Mostra più"</b>. <br /> <br />Se l'opzione <b>Visualizza in "Mostra più"</b> non è visualizzata, è già impostata. In tal caso, per visualizzare sempre un campo e non solo quando si seleziona **Mostra di più**, scegliere <b>Mostra sempre</b>.||
 |Modificare il riquadro di blocco di un elenco in un'altra colonna. |Selezionare la freccia della colonna che si desidera come ultima colonna del riquadro di blocco, quindi scegliere <b>Imposta Blocca riquadro</b>.<br /><br/>Se si desidera impostare il riquadro di blocco di nuovo sulla posizione originale, selezionare la freccia per la colonna corrente del blocco e scegliere <b>Cancella Blocca riquadro</b>. Nota: non è possibile rimuovere il riquadro di blocco.|Il riquadro di blocco specifica le colonne che sono sempre visualizzate a sinistra, anche quando si scorre orizzontalmente.|  
 |Ignorare un campo quando si preme INVIO.|Selezionare la freccia accanto al campo, o l'intestazione di una colonna in un elenco, e scegliere **Escludi da Accesso rapido**. <br /><br /> Se questa opzione non è visualizzata, il campo è già impostato per essere ignorato. In tal caso, per smettere di ignorare il campo, scegliere **Includi in Accesso rapido**. |Vedere [Accelerazione dell'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry)|
-|Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta**, **Rimuovi** o **Nascondi**.|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|
+|Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta**, **Rimuovi** o **Nascondi**.|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|  
+|Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
 
 ## <a name="Actions"></a>Personalizzazione delle azioni
 
@@ -75,6 +76,9 @@ Per comprendere meglio la personalizzazione delle azioni, è necessario avere un
 Un *gruppo di azioni* è un elemento che si espande per visualizzare altre azioni o gruppi. Ad esempio, nella pagina **Ordini vendita**, l'azione **Funzioni** che viene visualizzata quando si sceglie l'azione **Azioni** è un gruppo di azioni.
 
 Una *categoria promossa* è un gruppo di azioni visualizzato prima della riga verticale `|` nella barra delle azioni. Le categorie includono in genere le azioni più utilizzate, affinché sia possibile trovarle rapidamente. Ad esempio, nella pagina **Ordini vendita**, le azioni **Ordine**, **Rilascia** e **Registrazione**, le azioni sono categorie promosse.
+
+> [!NOTE]
+> Non è possibile personalizzare la barra delle azioni che appare nelle parti della pagina (ad esempio, la parte delle righe di vendita nella pagina **Ordine di vendita**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Per rimuovere, nascondere e visualizzare azioni e gruppi di azioni
 Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia definiscono le operazioni consentite in base allo stato dell'azione.
@@ -90,8 +94,8 @@ Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia 
 ### <a name="to-move-actions-and-action-groups"></a>Per spostare azioni e gruppi di azioni
 La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indicata da una riga orizzontale tra le due azioni o da un bordo intorno a un gruppo di azioni. Sono presenti le seguenti limitazioni:
 
-    - È possibile spostare singole azioni nelle categorie promosse, ma non è possibile riorganizzare l'ordine delle azioni nella categoria.
-    - Non è possibile spostare un gruppo di azioni in una categoria promossa.
+- È possibile spostare singole azioni nelle categorie promosse, ma non è possibile riorganizzare l'ordine delle azioni nella categoria.
+- Non è possibile spostare un gruppo di azioni in una categoria promossa.
 
 1. Per spostare un azione o un gruppo di azioni, trascinarlo nella posizione desiderata, esattamente come per campi e colonne.
 2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione**.
@@ -104,6 +108,7 @@ In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche
 
 |Opzione|Funzione|
 |------|------------
+|**Solo menu di navigazione**|Cancella tutte le modifiche di personalizzazione che apportate al menu di navigazione condiviso in Gestione ruolo utente e in altre pagine. Ciò include tutte le nuove azioni che sono state aggiunte come segnalibri e qualsiasi modifica ai collegamenti e ai gruppi nel menu.|  
 |**Solo azioni**|Cancella qualsiasi modifica di personalizzazione alla barra delle azioni nella pagina.|
 |**Solo campi, colonne e parti**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
 |**Tutto**|Cancella tutte le modifiche di personalizzazione alla pagina per ripristinarne l'aspetto originale. Sono incluse le modifiche alla barra delle azioni, a campi, colonne, parti e riquadri.|
@@ -116,7 +121,7 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 - Le modifiche a una pagina in un riquadro diventeranno effettive nella pagina ovunque viene visualizzata.  
 - È possibile aggiungere solo i campi e le colonne da una lista predefinita, che è basata sulla pagina. Non è possibile creare nuovi campi.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzare pagine per profili](ui-personalization-manage.md)  

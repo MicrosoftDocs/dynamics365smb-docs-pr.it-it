@@ -1,20 +1,20 @@
 ---
 title: Catalogo di apprendimento per decisori aziendali
 description: Catalogo di apprendimento per decisori aziendali
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: fee5c53d49e8a03fce2c7274f6e41689905dab7c
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767754"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097577"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Catalogo di apprendimento per decisori aziendali
+
+Si è responsabili delle decisioni relative agli investimenti in nuove tecnologie?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze.  
 

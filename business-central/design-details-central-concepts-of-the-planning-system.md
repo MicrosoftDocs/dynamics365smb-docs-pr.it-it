@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880594"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076516"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
@@ -46,7 +46,7 @@ Tutta le domande e l'approvvigionamento prima della data di inizio del periodo d
 
 In altre parole, si presuppone che il piano per il passato sia eseguito secondo il piano specificato.  
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Gestione ordini prima della data di inizio pianificazione](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Per ulteriori informazioni, vedere [Gestione ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (Pegging)  
 La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
@@ -76,7 +76,7 @@ Invece, il sistema di pianificazione si occupa di tutta la domanda e l'approvvig
 
 Dopo la pianificazione dell'esecuzione, non resta alcun messaggio nella tabella Movimenti messaggi azione, in quanto sono stati sostituiti dalle azioni suggerite nel prospetto di pianificazione  
 
-Per ulteriori informazioni, vedere i collegamenti di tracciabilità ordine durante la pianificazione in [Dettagli di progettazione: Bilanciamento approvvigionamento con domanda](design-details-balancing-supply-with-demand.md).  
+Per ulteriori informazioni, vedere i collegamenti di tracciabilità ordine durante la pianificazione in [Bilanciamento approvvigionamento con domanda](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Sequenza e priorità nella pianificazione  
 Quando si imposta un piano, la sequenza dei calcoli è importante per ottenere il completamento del processo entro un intervallo temporale ragionevole. Inoltre, la priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
@@ -90,7 +90,7 @@ In un ambiente di produzione, la domanda di un articolo finito e vendibile produ
 
 Le cifre mostrano in quale sequenza il sistema offre suggerimenti per gli ordini di approvvigionamento di articoli del livello massimo e, presupponendo che l'utente accetterà i suggerimenti, anche per gli articoli dei livelli inferiori.  
 
-Per ulteriori informazioni sulle considerazioni di produzione, vedere [Dettagli di progettazione - Carico dei profili di magazzino](design-details-loading-the-inventory-profiles.md).  
+Per ulteriori informazioni sulle considerazioni di produzione, vedere [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Ubicazioni/priorità a livello di trasferimento  
 Per le società che lavorano in più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino potrebbero essere diversi da una posizione a un'altra. In questo caso, i parametri di pianificazione devono essere specificati per articolo e anche per ubicazione.  
@@ -106,14 +106,14 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione - Trasferimenti ne
 ### <a name="order-priority"></a>Priorità ordini  
 All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda dei giorni successivi. Oltre a questo tipo di priorità, i diversi tipi di domanda e approvvigionamento vengono ordinati in base all'importanza del business per decidere quale domanda deve essere soddisfatte prima di soddisfare un'altra domanda. Dal lato fornitore, la priorità dell'ordine indicherà quale origine di approvvigionamento deve essere collegata prima di collegare altre origini di approvvigionamento.  
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Assegnazione priorità ordini](design-details-prioritizing-orders.md).  
+Per ulteriori informazioni, vedere [Assegnazione priorità ordini](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Previsioni della domanda e ordini programmati  
 Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordine programmato, che copre gli acquisti destinati a un cliente in un determinato periodo di tempo, serve a ridurre le incertezze della previsione globale. L'ordine programmato è una previsione specifica del cliente sopra la previsione non specificata come illustrato di seguito.  
 
 ![Pianificazione con le previsioni](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Pianificazione con le previsioni")  
 
-Per ulteriori informazioni, vedere la sezione "La domanda di previsione viene ridotta dagli ordini di vendita" in [Dettagli di progettazione - Carico dei profili di magazzino](design-details-loading-the-inventory-profiles.md).  
+Per ulteriori informazioni, vedere la sezione "La domanda di previsione viene ridotta dagli ordini di vendita" in [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Compiti di pianificazione  
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
@@ -171,9 +171,9 @@ Gli articoli con numeri seriali/di lotto senza un'impostazione di tracciabilità
 
 La domanda e l'approvvigionamento con i numeri seriali o di lotto, specifici o non specifici, sono considerati di alta priorità e sono quindi esenti dalla zona bloccata, ciò significa che faranno parte della pianificazione anche se la scadenza è precedente alla data di inizio della pianificazione.  
 
-Per ulteriori informazioni, vedere la sezione "I numeri seriali o di lotto vengono caricati dal livello di specifica" in [Dettagli di progettazione - Carico dei profili di magazzino](design-details-loading-the-inventory-profiles.md).  
+Per ulteriori informazioni, vedere la sezione "I numeri seriali o di lotto vengono caricati dal livello di specifica" in [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Per ulteriori informazioni su come il sistema di pianificazione bilancia gli attributi, vedere "I numeri seriali o di lotto e i collegamenti ordine su ordine sono esenti dalla zona bloccata" in [Dettagli di progettazione - Gestione ordini prima della data di inizio pianificazione](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Per ulteriori informazioni su come il sistema di pianificazione bilancia gli attributi, vedere [Numeri di serie o di lotto e collegamenti ordine-a-ordine sono esenti dalla zona bloccata](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Collegamenti ordine su ordine  
 L'approvvigionamento ordine su ordine significa che un articolo viene acquistato, assemblato o prodotto esclusivamente per coprire una domanda specifica. In genere si riferisce ad articoli A e le motivazioni per scegliere questo metodo può essere quello di una domanda poco frequente, un lead time insignificante o la variazione degli attributi necessari.  
@@ -223,14 +223,14 @@ L'avviso di emergenza è visualizzato in due situazioni:
 -   Quando alla data di inizio pianificazione le giacenze sono negative.  
 -   Quando sono presenti eventi di approvvigionamento o domanda arretrati.  
 
-Se le giacenze di un articolo sono negative alla data di inizio pianificazione, il sistema di pianificazione suggerisce un approvvigionamento di emergenza per la quantità negativa che pervenga alla data di inizio pianificazione. Il testo di avviso riporta la data di inizio e la quantità dell'ordine di emergenza. Per ulteriori informazioni, vedere [Dettagli di progettazione: Gestione giacenze negative previste](design-details-handling-projected-negative-inventory.md).  
+Se le giacenze di un articolo sono negative alla data di inizio pianificazione, il sistema di pianificazione suggerisce un approvvigionamento di emergenza per la quantità negativa che pervenga alla data di inizio pianificazione. Il testo di avviso riporta la data di inizio e la quantità dell'ordine di emergenza. Per ulteriori informazioni, vedere [Gestione giacenze negative previste](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Tutte le righe di documento con data di scadenza precedente la data di inizio pianificazione sono consolidate in un unico ordine di approvvigionamento di emergenza che pervenga nella data di inizio pianificazione.  
 
 ### <a name="exception"></a>Eccezione  
 L'avviso di eccezione viene visualizzato se la proiezione delle giacenze disponibili scende al di sotto della scorta di sicurezza. Il sistema di pianificazione suggerisce un ordine di approvvigionamento per soddisfare la domanda alla data di scadenza. Il testo dell'avviso riporta la quantità di scorte di sicurezza dell'articolo e la data in cui è stata intaccata.  
 
-Intaccare la scorta di sicurezza è considerato un'eccezione perché non dovrebbe verificarsi se il punto di riordino è stato impostato correttamente. Per ulteriori informazioni, vedere [Dettagli di progettazione - Il ruolo del punto di riordino](design-details-the-role-of-the-reorder-point.md).  
+Intaccare il livello di scorta di sicurezza è considerata un'eccezione perché non dovrebbe verificarsi se il punto di riordino è stato impostato correttamente. Per ulteriori informazioni, vedere [Il ruolo del punto di riordino](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Le proposte d'ordine eccezionali assicurano che normalmente le scorte disponibili previste non siano mai più basse del livello di scorta di sicurezza. Ciò significa che la quantità proposta sia sufficiente per coprire la scorta di sicurezza, senza considerare i parametri di pianificazione. Tuttavia, in alcuni scenari, verranno presi in considerazione i modificatori di ordine.  
 
@@ -242,7 +242,7 @@ L'avviso di attenzione è visualizzato in tre situazioni:
 
 -   La data di inizio pianificazione precede la data di lavoro.  
 -   La riga di pianificazione suggerisce di cambiare un ordine di acquisto o di produzione rilasciato.  
--   La giacenza disponibile supera il livello di overflow alla data di scadenza. Per ulteriori informazioni, vedere [Dettagli di progettazione: Al di sotto del livello di overflow](design-details-staying-under-the-overflow-level.md).  
+-   La giacenza disponibile supera il livello di overflow alla data di scadenza. Per ulteriori informazioni, vedere [Al di sotto del livello di overflow](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  Nella pianificazione delle righe con avvisi, il campo **Accetta messaggio errore** non è selezionato perché si prevede che l'addetto alla pianificazione effettui ulteriori indagini su tali righe prima di eseguire il piano.  

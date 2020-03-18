@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0ba75760ed6727b397a5343460061aac8e5887d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a68d0e24677c146915881a1d4fddf79d59bd5adf
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301288"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076404"
 ---
 # <a name="italian-vat"></a>IVA italiana
 Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
@@ -100,5 +100,4 @@ Quando si registrano le note di credito, è necessario aggiornare il campo **Rif
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)   
  [Inviare dichiarazioni IVA](how-to-submit-vat-statements.md)   
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
- [Dichiarare operazioni commerciali con clienti e fornitori in paesi inclusi nella blacklist](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)

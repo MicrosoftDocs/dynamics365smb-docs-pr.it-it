@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308797"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076589"
 ---
 # <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
@@ -28,7 +28,7 @@ Le opportunità di vendita esistenti sono disponibili nella pagina **Lista oppor
 | Per visualizzare le opportunità per | Quindi |
 | --- | --- |
 | Tutti gli agenti e contatti |Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista opportunità** e quindi scegliere il collegamento correlato. |
-| Un agente specifico |Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerta di vendita** e quindi scegliere il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
+| Un agente specifico |Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti** e quindi scegliere il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
 | Un contatto specifico |Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato. Selezionare il contatto dalla lista, quindi scegliere l'azione **Opportunitià**. |
 
 Ciascuna di queste attività apre la pagina **Lista opportunità**.
@@ -50,7 +50,7 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 2. Compilare i relativi campi.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Per creare ordini di vendita per opportunità
-È possibile creare ordini di vendita a partire dalle offerte di vendita create per le opportunità. Prima di creare ordini di vendita per i contatti, è necessario creare il contatto come cliente. Per ulteriori informazioni, vedere [Creare un un cliente, un fornitore o un conto corrente bancario da un contatto](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+È possibile creare ordini di vendita a partire dalle offerte di vendita create per le opportunità. Prima di creare ordini di vendita per i contatti, è necessario creare il contatto come cliente. Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-companies.md).
 
 1. Nella pagina **Lista opportunità** individuare l'opportunità per la quale è stata creata un'offerta di vendita.
 2. Scegliere l'azione **Assegna offerta di vendita**. Verrà visualizzata la pagina **Offerta vendita** per visualizzare l'offerta di vendita assegnata all'opportunità.
@@ -83,7 +83,7 @@ Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o
    * **Aggiorna** consente di modificare le informazioni, ad esempio modificare la valutazione delle possibilità di successo e i valori previsti, senza spostarsi in un'altra fase.
 3. Compilare gli altri campi come appropriato e fare clic sul pulsante **OK**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

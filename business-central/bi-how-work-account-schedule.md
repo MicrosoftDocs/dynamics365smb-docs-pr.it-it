@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 02/12/2020
 ms.author: edupont
-ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 21e83f37405c01d5df00e6b392ded3ce3996d0c2
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953829"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071960"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. La visualizzazione dei risultati nei grafici nella Gestione ruolo utente, quali il piano del flusso di cassa e nei report, ad esempio i report Conto economico e Conto patrimoniale,
@@ -35,8 +35,12 @@ Le situazioni contabili sono utilizzate per organizzare i conti elencati nel pia
 * Creare tutte le situazioni contabili necessarie, ognuna con un nome univoco.
 * Impostare vari layout di report e stampare i report con le cifre correnti.
 
-## <a name="account-categories"></a>Categorie di conti
-Le categorie di conto consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report Conto patrimoniale, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche. Per ulteriori informazioni, vedere [Categorie di conti](finance-general-ledger.md#account-categories).  
+## <a name="gl-account-categories"></a>Categorie conto C/G
+Le categorie di conto C/G consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report **Conto patrimoniale**, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche.
+
+> [!NOTE]
+> Le categorie di conto di livello superiore, come ad esempio il nodo **Passività** sono fisse e non è possibile aggiungere. Tuttavia, è possibile eliminare e aggiungere categorie di conto ai livelli inferiori e modificarne la struttura per definire la modalità di visualizzazione della situazione contabile correlata nei report.<br /><br />
+> Si consiglia di creare e strutturare da zero le proprie categorie di conto C/G di livello inferiore, se necessario in una gerarchia, anziché tentare di riorganizzare quelle esistenti. Ad esempio, è possibile ristrutturare il nodo **Passività** per contenere un nuovo nodo **Equità** seguito dai nodi **Passività correnti** e **Debiti a lungo termine**.
 
 ## <a name="to-create-a-new-account-schedule"></a>Per creare una nuova situazione contabile  
 Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti di contabilità generale con i movimenti budget di contabilità generale. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
@@ -192,7 +196,7 @@ Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necess
 > [!NOTE]
 > Non è sempre trasparente quali periodi si stanno confrontando perché è possibile impostare un filtro per data su un report che si estende su date diverse rispetto ai periodi contabili che si riflettono nei dati nel piano dei conti. Ad esempio, si crea una situazione contabile in cui si desidera confrontare il periodo corrente con lo stesso periodo dell'anno precedente, quindi si imposta il campo **Filtro periodo di confronto** su *-1AF*. Quindi, si esegue il report il 28 febbraio e si imposta il filtro della data su gennaio e febbraio. Di conseguenza, la situazione contabile confronta gennaio e febbraio di quest'anno con gennaio dell'anno scorso, che è l'unico periodo contabile completato dei due per l'anno prima.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 [Business Intelligence](bi.md)  

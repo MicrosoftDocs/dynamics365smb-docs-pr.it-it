@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878439"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076951"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni
 Il sistema di impegno è completo e include funzionalità correlate e parallele di tracciabilità ordine e di messaggistica di azione.  
@@ -80,7 +80,7 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 
 -   Un ordine di produzione multilivello nel campo **Politica di produzione** degli articoli padre e figlio interessati è impostato su **Prod. su Ordine**. Il sistema di pianificazione crea degli impegni tra l'ordine di produzione padre e gli ordini di produzione sottostanti per garantire che vengano elaborati insieme. Tale associazione di impegni sostituisce il metodo predefinito di costing e di collegamento dell'articolo.  
 
--   Una produzione, un assemblaggio o un ordine di acquisto in cui il campo **Metodo di riordino** dell'articolo interessato è impostato su **Ordine**. Il sistema di pianificazione crea gli impegni tra domanda e approvvigionamento pianificato per garantire la creazione dello specifico approvvigionamento. Per ulteriori informazioni, vedere [Dettagli progettazione: Ordine](design-details-order.md).  
+-   Una produzione, un assemblaggio o un ordine di acquisto in cui il campo **Metodo di riordino** dell'articolo interessato è impostato su **Ordine**. Il sistema di pianificazione crea gli impegni tra domanda e approvvigionamento pianificato per garantire la creazione dello specifico approvvigionamento. Per ulteriori informazioni, vedere [Ordine](design-details-handling-reordering-policies.md#order).  
 
 -   Un ordine di produzione creato da un ordine di vendita con la funzione **Pianifica ordine vendita** viene collegato all'ordine di vendita con un impegno automatico.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/07/2020
+ms.date: 02/11/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030174"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076784"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Questa funzionalità è descritta nelle procedure seguenti.
 > [!NOTE]  
 >  Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella pagina **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 > [!TIP]
 > A volte i valori nei campi che si desidera mappare sono diversi. Ad esempio, in un'app aziendale il codice della lingua per gli Stati Uniti è "U.S.", ma in un'altra è "US". Ciò significa che è necessario trasformare il valore quando si scambiano i dati. Ciò accade attraverso le regole di trasformazione definite per i campi. Per ulteriori informazioni, vedere [Regole di trasformazione](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -124,7 +124,7 @@ Questa funzionalità è descritta nelle procedure seguenti.
     |**Nome**|Immettere un nome per l'impostazione del mapping.|  
     |**Codeunit pre-mappatura**|Specificare la codeunit che prepara il mapping tra i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] e i dati esterni.|  
     |**Codeunit mapping**|Specificare la codeunit che viene utilizzata per eseguire il mapping tra le colonne o gli elementi dati XML specificati e i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit post-mappatura**|Specificare la codeunit che completa il mapping tra i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] e i dati esterni. **Nota:** se si utilizza la funzionalità del servizio di conversione di dati bancari, la codeunit converte i dati esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)] in formato generico pronto per l'esportazione. Per l'importazione, la codeunit converte i dati esterni in un formato pronto per l'importazione in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit post-mappatura**|Specificare la codeunit che completa il mapping tra i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] e i dati esterni. **Nota:** se si utilizza la funzionalità dell'estensione AMC Banking 365 Fundamentals, la codeunit converte i dati esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)] in formato generico pronto per l'esportazione. Per l'importazione, la codeunit converte i dati esterni in un formato pronto per l'importazione in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Nella Scheda dettaglio **Mapping campi** specificare il mapping tra le colonne e i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] compilando i campi come indicato nella tabella che segue.  
 
@@ -139,7 +139,7 @@ Questa funzionalità è descritta nelle procedure seguenti.
     |**Didascalia campo di destinazione**|Visibile solo quando la casella di controllo **Utilizza come tabella intermedia** è selezionata.<br /><br /> Specifica il nome del campo nella tabella di destinazione al quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|  
     |**Opzionale**|Visibile solo quando la casella di controllo **Utilizza come tabella intermedia** è selezionata.<br /><br /> Specificare se la mappa deve essere ignorata se il campo è vuoto. Se non si seleziona questa casella di controllo, si verificherà un errore di esportazione se il campo è vuoto.|  
 
-La definizione di scambio di dati è ora pronta per essere abilitata per gli utenti. Per altre informazioni, vedere [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Impostare il bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md), [Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md) ed [Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+La definizione di scambio di dati è ora pronta per essere abilitata per gli utenti. Per altre informazioni, vedere [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Impostare il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Impostare gli addebiti diretti SEPA](finance-collect-payments-with-sepa-direct-debit.md) ed [Eseguire i pagamenti con l'estensione AMC Banking 365 Fundamentals o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Regole di trasformazione
 Se i valori nei campi che si stanno mappando differiscono tra loro, è necessario utilizzare le regole di trasformazione per le definizioni di scambio dei dati per renderle uguali. Si definiscono le regole di trasformazione per le definizioni di scambio dei dati aprendo una definizione esistente o creando una nuova definizione e quindi nella scheda dettaglio **Definizioni righe** scegliendo **Gestisci** e poi **Mapping dei campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. La tabella seguente descrive i tipi di trasformazione che è possibile eseguire.
@@ -157,7 +157,7 @@ Se i valori nei campi che si stanno mappando differiscono tra loro, è necessari
 |**Formattazione della data**|Specificare come visualizzare le date. Ad esempio, è possibile trasformare GG-MM-AAAA in AAAA-MM-GG.|
 |**Formattazione decimale**|Definire le regole per il posizionamento decimale e la precisione di arrotondamento.|
 |**Espressione regolare - Corrispondenza**|Utilizzare un'espressione regolare per trovare uno o più valori. Questo è simile alle opzioni **Sottostringa** e **Espressione regolare - Sostituisci**.|
-|**Personalizzato**|Questa è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se si desidera utilizzare il proprio codice di trasformazione. Se si è uno sviluppatore e si desidera utilizzare questa opzione, consultare l'[esempio](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) seguente.|
+|**Personalizzato**|Questa è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se si desidera utilizzare il proprio codice di trasformazione. Se si è uno sviluppatore e si desidera utilizzare questa opzione, consultare la sezione "Suggerimento per gli sviluppatori: esempio dell'opzione personalizzata" di seguito.|
 |**Formattazione di data e ora**|Definire come visualizzare la data corrente e l'ora del giorno.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
@@ -196,8 +196,7 @@ Dopo aver creato la definizione di scambio di dati per un file di dati specifico
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Impostare un bonifico SEPA](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Impostare gli addebiti diretti SEPA](finance-how-to-set-up-sepa-direct-debit.md)  
-[Eseguire i pagamenti con servizio di conversione di dati bancari o bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882952"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076414"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  
@@ -66,7 +66,7 @@ Se la giacenza disponibile iniziale è minore di zero, il sistema di pianificazi
 ## <a name="loading-the-inventory-profiles"></a>Carico dei profili di magazzino
 Per ordinare le numerose origini di approvvigionamento e di domanda, il sistema di pianificazione le organizza su due sequenze temporali chiamate profili di magazzino.  
 
-I normali tipi di domanda e approvvigionamento con date di scadenza corrispondenti o successive alla data iniziale di pianificazione vengono caricati in ciascun profilo di magazzino. Una volta caricati, i diversi tipi di domanda e approvvigionamento vengono ordinati in base alle priorità globali, ad esempio la data di scadenza, i codici di ultimo livello, l'ubicazione e la variante. Inoltre, vengono applicate delle priorità di ordine a diversi tipi per garantire che la domanda più importante sia completata per prima. Per ulteriori informazioni, vedere [Dettagli di progettazione: Assegnazione priorità ordini](design-details-prioritizing-orders.md).  
+I normali tipi di domanda e approvvigionamento con date di scadenza corrispondenti o successive alla data iniziale di pianificazione vengono caricati in ciascun profilo di magazzino. Una volta caricati, i diversi tipi di domanda e approvvigionamento vengono ordinati in base alle priorità globali, ad esempio la data di scadenza, i codici di ultimo livello, l'ubicazione e la variante. Inoltre, vengono applicate delle priorità di ordine a diversi tipi per garantire che la domanda più importante sia completata per prima. Per ulteriori informazioni, vedere [Assegnazione priorità ordini](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Come precedentemente citato, la domanda potrebbe essere anche negativa. Ciò significa che deve essere considerata come approvvigionamento; tuttavia, a differenza dei tipi normali di approvvigionamento, la domanda negativa viene considerata un approvvigionamento fisso. Il sistema di pianificazione può prenderlo in considerazione, ma non suggerirà modifiche.  
 

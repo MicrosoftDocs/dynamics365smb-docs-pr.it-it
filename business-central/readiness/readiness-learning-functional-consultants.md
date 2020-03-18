@@ -1,20 +1,20 @@
 ---
 title: Catalogo di apprendimento per consulenti funzionali
-description: Catalogo di apprendimento per consulenti funzionali
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: a9c0ba279a61bb2c09fbc221c4f1772229fe52e2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: fa3ec715fdf018ff73a9560c1aa32167cdf11764
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767823"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097553"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Catalogo di apprendimento per consulenti funzionali
+
+Si è esperti di implementazione per un dominio aziendale?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze. 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999906"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076709"
 ---
 # <a name="about-the-data-exchange-framework"></a>Informazioni sul framework di scambio dei dati
 È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
@@ -40,13 +40,13 @@ In qualità di amministratore o partner Microsoft, è possibile utilizzare il fr
   Per ricevere, ad esempio, una fattura come documento elettronico OCR, si elabora la fattura come quando si riceve un documento PEPPOL elettronico. La ricezione e la conversione dei documenti elettronici da OCR vengono eseguite dalla struttura di scambio dei dati, rappresentata dalla definizione di scambio di dati **OCR - Fattura**.  
 
  ## <a name="bank-files"></a>File della banca  
- I formati di file per lo scambio di dati bancari con i sistemi ERP variano a seconda del fornitore del file e a seconda del paese o dell'area geografica. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione e l'esportazione dei file della banca SEPA (Single Euro Payments Area) e l'estensione AMC Banking 365 Fundamentals consente di connettersi al servizio di conversione dati bancari fornito da AMC Consult, un provider esterno. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
+ I formati di file per lo scambio di dati bancari con i sistemi ERP variano a seconda del fornitore del file e a seconda del paese o dell'area geografica. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'importazione e l'esportazione dei file della banca SEPA (Single Euro Payments Area) e l'estensione AMC Banking 365 Fundamentals consente di connettersi all'estensione AMC Banking 365 Fundamentals fornita dal provider esterno AMC Consult. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
 
- Per esportare i bonifici SEPA, scegliere il pulsante **Esporta pagamenti su file** nella pagina **Registrazioni pagamenti**, quindi caricare il file per elaborare i pagamenti nella propria banca. È innanzitutto necessario impostare i dati principali, come ad esempio il conto corrente bancario, i fornitori e i metodi di pagamento. La conversione dei dati e l'esportazione dei dati bancari SEPA vengono eseguite da una codeunit e da XMLport dedicati, rappresentati dall'impostazione dell'importazione/esportazione della banca per **Bonifico SEPA**. In alternativa, è possibile impostare l'estensione AMC Banking 365 Fundamentals per eseguire l'esportazione, rappresentata dalla definizione dello scambio di dati **Servizio di conversione dati bancari - Bonifico**.  
+ Per esportare i bonifici SEPA, scegliere il pulsante **Esporta pagamenti su file** nella pagina **Registrazioni pagamenti**, quindi caricare il file per elaborare i pagamenti nella propria banca. È innanzitutto necessario impostare i dati principali, come ad esempio il conto corrente bancario, i fornitori e i metodi di pagamento. La conversione dei dati e l'esportazione dei dati bancari SEPA vengono eseguite da una codeunit e da XMLport dedicati, rappresentati dall'impostazione dell'importazione/esportazione della banca per **Bonifico SEPA**. In alternativa, è possibile impostare l'estensione AMC Banking 365 Fundamentals per eseguire l'esportazione, rappresentata dalla definizione di scambio dati **Estensione AMC Banking 365 Fundamentals - Bonifico**.  
 
  Per esportare le istruzioni di addebito diretto SEPA, scegliere il pulsante **Esporta file addebiti diretti** nella pagina **Riscossioni addebiti diretti**, quindi inviarlo alla propria banca in modo che raccolga automaticamente i dovuti pagamenti dei clienti. È innanzitutto necessario impostare i conti correnti bancari, i clienti, i mandati di addebito diretto e i metodi di pagamento. La conversione dei dati e l'esportazione dei dati bancari SEPA vengono eseguite da una codeunit e da XMLport dedicati, rappresentati dall'impostazione dell'importazione/esportazione della banca per **Addebito diretto SEPA**.  
 
- Per importare gli estratti conto bancari SEPA, scegliere il pulsante Importa rendiconto bancario nelle pagine **Registrazione riconciliazione pagamenti** e **Riconciliazioni C/C bancari**, quindi applicare ciascuna voce dell'estratto conto ai pagamenti o ai movimenti contabili bancari, manualmente o automaticamente. Innanzitutto è necessario impostare i conti correnti bancari. L'importazione e la conversione dei dati bancari SEPA vengono eseguite dalla struttura di scambio dei dati, rappresentata dalla definizione dello scambio di dati **SEPA CAMT**. In alternativa, è possibile impostare l'estensione AMC Banking 365 Fundamentals per eseguire l'importazione, rappresentata dalla definizione dello scambio di dati **Servizio di conversione dati bancari - Estratto conto bancario**.  
+ Per importare gli estratti conto bancari SEPA, scegliere il pulsante Importa rendiconto bancario nelle pagine **Registrazione riconciliazione pagamenti** e **Riconciliazioni C/C bancari**, quindi applicare ciascuna voce dell'estratto conto ai pagamenti o ai movimenti contabili bancari, manualmente o automaticamente. Innanzitutto è necessario impostare i conti correnti bancari. L'importazione e la conversione dei dati bancari SEPA vengono eseguite dalla struttura di scambio dei dati, rappresentata dalla definizione dello scambio di dati **SEPA CAMT**. In alternativa, è possibile impostare l'estensione AMC Banking 365 Fundamentals per eseguire l'importazione, rappresentata dalla definizione di scambio dati **Estensione AMC Banking 365 Fundamentals - Estratto conto bancario**.  
 
  Inoltre, le versioni locali di [!INCLUDE[d365fin](includes/d365fin_md.md)] supportano vari altri formati di file per l'importazione e l'esportazione dei dati bancari, le transazioni retributive e altri dati. Per altre informazioni, vedere la sezione della Guida "Funzionalità locale" nella versione di [!INCLUDE[d365fin](includes/d365fin_md.md)] del proprio paese.
 
