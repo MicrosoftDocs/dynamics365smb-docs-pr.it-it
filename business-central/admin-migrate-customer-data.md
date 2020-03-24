@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918216"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097698"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
@@ -31,7 +31,7 @@ Quando si crea una nuova società, è possibile importare le impostazioni della 
 > [!NOTE]  
 >  Non è possibile rinominare un file che non sia già un pacchetto di configurazione di RapidStart Services come file del pacchetto di configurazione con estensione RapidStart e quindi provare a importarlo. Se si prova tale operazione, verrà visualizzato un messaggio di errore.  
 
-Prima di iniziare, è necessario assicurarsi di disporre dell'autorizzazione per eseguire gli oggetti RapidStart Services. Ad esempio, si potrebbe disporre del set di autorizzazioni SUPER o essere un amministratore interno o delegato. Consigliamo inoltre di poter accedere alla Gestione ruolo utente con i collegamenti a RapidStart Services, ad esempio Gestione ruolo utente Amministratore. Per ulteriori informazioni, vedere [Per modificare il ruolo](ui-change-basic-settings.md#to-change-the-role).  
+Prima di iniziare, è necessario assicurarsi di disporre dell'autorizzazione per eseguire gli oggetti RapidStart Services. Ad esempio, è possibile disporre dei set di autorizzazioni SUPER o D365 RAPIDSTART. Consigliamo inoltre di poter accedere alla Gestione ruolo utente con i collegamenti a RapidStart Services, ad esempio Gestione ruolo utente Amministratore. Per ulteriori informazioni, vedere [Per modificare il ruolo](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Durante l'esportazione e l'importazione di pacchetti di configurazione tra due database aziendali, i database devono possedere lo stesso schema al fine di garantire il corretto trasferimento di tutti i dati. Ciò significa che i database devono avere la medesima struttura di tabelle e campi, nella quale le tabelle hanno le stesse chiavi primarie e i campi hanno gli stessi ID e tipi di dati.  
@@ -116,7 +116,7 @@ Il seguente esempio illustra come [!INCLUDE[d365fin](includes/d365fin_md.md)] im
 2. Aggiungere tabelle aggiuntive al pacchetto, ad esempio **Cliente** e **Fornitore**. Queste tabelle fanno entrambe riferimento alla tabella **Agenti/Addetti acq.** rispettivamente tramite i campi **Codice agente** e **Codice addetto acquisti**.  
 3. Quando si collegano dati, anche la mappatura fornita per il campo **Codice** nella tabella **Agenti/Addetti acq.** verrà considerata anche durante l'elaborazione dei campi **Codice agente** e **Codice addetto acquisti**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Per aggiungere altri valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Per aggiungere altri valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare la tabella per cui si desidera aggiungere ulteriori valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 3. Per i campi per i quali si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
