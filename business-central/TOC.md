@@ -28,7 +28,7 @@
 
 # Utilizzo di Business Central
 ## [Sintesi](ui-work-product.md)
-## [Scheda di riferimento rapido (versione stampabile)](ui-work-product.md)
+## [Scheda di riferimento rapido (versione stampabile)](ui-work-product.md#cheatsheet)
 ## [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)
 ## [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)
 ## [Domande frequenti relative alla funzionalità delle informazioni](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md)
 ## [Modificare le impostazioni di base](ui-change-basic-settings.md)
 ## [Gestire le notifiche](ui-smart-notifications.md)
+## [Suggerimenti sulle prestazioni per utenti aziendali](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizzazione di Business Central
 ### [Personalizzare l'area di lavoro](ui-personalization-user.md)
 ### [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Visualizzazione delle liste con modalità diverse](across-display-lists-different-views.md)
 ## Stampa di report ed esecuzione di processi batch e XMLport
 ### [Utilizzo di report, processi batch e XMLport](ui-work-report.md)
-### [Specificare la selezione della stampante per i report](ui-specify-printer-selection-reports.md)
+### [Configurare le stampanti](ui-specify-printer-selection-reports.md)
 ### [Programmare l'esecuzione di un report](ui-work-report.md#ScheduleReport)
 ### [Gestire impostazioni salvate per report e processi batch](reports-saving-reusing-settings.md)
 ### [Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Impostazione delle categorie di registrazione](finance-posting-groups.md)
 ### [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)
 ### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)
+### [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)
 ### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
 ### [Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)
 ### [Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Creare utenti in base alle licenze](ui-how-users-permissions.md)
 ## [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)
 ## [Gestire profili](admin-users-profiles-roles.md)
+## [Configurare le stampanti](ui-specify-printer-selection-reports.md)
 ## [Classificazione di dati riservati](admin-classifying-data-sensitivity.md)
 ## [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)
 ## [Creazione di nuove società](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
 ## Integrazione con Dynamics 365 Sales
 ### [Sintesi](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Impostare una connessione a Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrazione con Common Data Service
+### [Sintesi](admin-common-data-service.md)
+### [Modelli di proprietà dei dati](admin-cds-company-concept.md)
+### [Impostazione di account utente per l'integrazione con Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connettersi a Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sincronizzazione di Business Central e Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Contabilità
 ## [Sintesi](finance.md)
@@ -414,7 +420,7 @@
 #### [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ### [Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)
-### [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md).
+### [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md)
 ### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
 ### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ### [Bloccare i fornitori](payables-how-block-vendors.md)
@@ -511,6 +517,7 @@
 ## [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
 ## [Creare report di analisi](bi-how-create-analysis-views-reports.md)
 ## [Creare report con XBRL](bi-create-reports-with-xbrl.md)
+## [Gestire l'intento di accesso al database](admin-data-access-intent.md)
 
 # Vendite
 ## [Sintesi](sales-manage-sales.md)
@@ -1162,7 +1169,7 @@
 #### [Modificare importi documento in fatture di acquisto e note di credito](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 #### [Impostare la convalida di importi di acquisto](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 ### Generale
-#### [Note di richiesta di gestione catalogo](LocalFunctionality/Netherlands/cmr-notes.md):
+#### [Note di richiesta di gestione catalogo](LocalFunctionality/Netherlands/cmr-notes.md)
 #### [Codici postali olandesi](LocalFunctionality/Netherlands/dutch-post-codes.md)
 #### [Importare codici postali](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Importare aggiornamenti di codici postali](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
@@ -1390,7 +1397,7 @@
 #### [IVA svizzera](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Aliquote IVA per la Svizzera](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Attività bancarie e pagamenti
-#### Codice a matrice su distinte di pagamento svizzere
+#### Gestione delle fatture (LocalFunctionality/Svizzera/ui-extensions-qr-bill-management.md)
 #### [Chiudere una riscossione LSV](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Esportare pagamenti tramite LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importare i pagamenti ESR](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

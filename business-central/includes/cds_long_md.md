@@ -1,0 +1,1 @@
+<span data-ttu-id="e4fca-101">Common Data Service</span><span class="sxs-lookup"><span data-stu-id="e4fca-101">Common Data Service</span></span>
