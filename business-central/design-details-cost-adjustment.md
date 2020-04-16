@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79633ad4488a5fbe9df372331c54dd3a0e15f929
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 85f8de1a0e3aadbf55fb8c4292aeb1e216817a23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303678"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185638"
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
 Il principale scopo della rettifica dei costi è di inoltrare le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta.  
@@ -63,7 +63,7 @@ Questa funzione di rilevamento viene utilizzata in scenari di conversione, produ
 
 La funzione di livello di ordine viene utilizzata per rilevare le rettifiche nella registrazione di assemblaggi. Nel seguente grafico viene visualizzata la struttura dei movimenti di rettifica:  
 
-![Flusso di movimenti nella rettifica costo](media/design_details_assembly_posting_3.png "Flusso di movimenti nella rettifica costo")  
+![Flusso di voci nella rettifica dei costi](media/design_details_assembly_posting_3.png "Flusso di voci nella rettifica dei costi")  
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 

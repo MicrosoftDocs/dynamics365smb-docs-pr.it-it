@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692706"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189023"
 ---
 # <a name="changing-language-and-locale"></a>Modifica di lingua e impostazioni locali
 
@@ -44,7 +44,7 @@ Per modificare le impostazioni locali, accedere alla pagina **Impostazioni perso
 
 Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE [prodshort](includes/prodshort.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-d365fin-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
 ### <a name="how-do-i-change-the-language"></a>Come si cambia la lingua?

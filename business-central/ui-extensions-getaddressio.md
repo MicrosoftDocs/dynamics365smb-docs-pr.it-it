@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 489106d6e4e5dbb6f9c787d6ad5de556c5ec5bee
-ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
+ms.openlocfilehash: 98465aed1ce01122d82dbb2e0157539d014eeb03
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622355"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194213"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Estensione dei codici postali di GetAddress.io per il Regno Unito
 L'estensione dei codici postali di GetAddress.io per il Regno Unito può far risparmiare tempo ed evitare errori durante l'inserimento degli indirizzi per entità come clienti, fornitori, conti bancari e impiegati. Ad esempio, quando si crea un cliente, si sceglie solo un codice postale e in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene visualizzata una lista di indirizzi. Selezionare l'indirizzo che si desidera e in un attimo i campi degli indirizzi sono compilati.  

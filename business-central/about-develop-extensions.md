@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e1ef15d8076aa0a17978de5418f39a2de8a1ac0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881266"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188950"
 ---
-# <a name="extending-included365finincludesd365fin_mdmd"></a>Estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-d365fin"></a>Estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] è una soluzione di gestione aziendale che aiuta le aziende a connettere dati finanziari, dati di vendite, servizi e operazioni per snellire i processi aziendali, migliorare le interazioni con i clienti e prendere decisioni migliori. [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile nel cloud e per gli utenti su vari tipi di dispositivi, sempre aggiornato. Questa moderna piattaforma aziendale consente di personalizzare, ampliare e creare applicazioni in modo semplice e rapido per rispondere a esigenze specifiche, con sviluppo di codice minimo o praticamente nullo.  
 
 L'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come piattaforma per sviluppatori di app offre numerosi vantaggi, tra cui:
@@ -39,11 +39,11 @@ L'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come piattaforma per s
 
 I nuovi strumenti di sviluppo consentono di creare estensioni per utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera acquisire familiarità con i nuovi strumenti oppure ottenere informazioni sulle estensioni 2.0, vedere [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Maggiori informazioni su quali app e servizi di consulenza sono attualmente disponibili su [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Maggiori informazioni su quali app e servizi di consulenza sono attualmente disponibili su [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
 Per aiutare gli utenti business a iniziare rapidamente, Microsoft ha aggiunto un catalogo di servizi di consulenza per soluzioni basate su [!INCLUDE[prodshort](includes/prodshort.md)], Power BI e Power Apps in AppSource. Ulteriori informazioni sui [Servizi di consulenza](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Scelta dei servizi da offrire con [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-d365fin"></a>Scelta dei servizi da offrire con [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Integrare una soluzione di terze parti
 [!INCLUDE[d365fin](includes/d365fin_md.md)] espone molte API pronte all'uso per le [app Connect](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) per un'integrazione perfetta tra il servizio e [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile creare un pacchetto di servizi con [!INCLUDE[d365fin](includes/d365fin_md.md)] e offrire ai clienti un'esperienza completa. Ulteriori informazioni sull'[integrazione di una soluzione di terze parti](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -76,7 +76,7 @@ Il programma Ready to Go è progettato per supportare i partner nell'inserimento
 
 Per ulteriori informazioni su come sviluppare un'offerta [!INCLUDE[d365fin](includes/d365fin_md.md)], consultare i dettagli del [programma Ready to Go](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Per domande o feedback sul programma **Ready to Go**, [contattatare Microsoft](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>Estensioni [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da Microsoft
+## <a name="d365fin-extensions-provided-by-microsoft"></a>Estensioni [!INCLUDE[d365fin](includes/d365fin_md.md)] fornite da Microsoft
 La versione standard del prodotto include un numero crescente di estensioni sviluppate da Microsoft. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
 
 ## <a name="see-also"></a>Vedi anche

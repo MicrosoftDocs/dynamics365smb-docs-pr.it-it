@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992087"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194429"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -29,7 +29,7 @@ Esistono vari tasti di scelta rapida che consentono di lavorare “senza mouse" 
 
 Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida](keyboard-shortcuts.md). Alcuni dei tasti di scelta rapida vengono discussi in questo articolo.
 
-## <a name="QuickEntry"></a>Accelerazione dell'immissione di dati utilizzando Accesso rapido
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Accelerazione dell'immissione di dati utilizzando Accesso rapido
 
 Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzando la tastiera. La funzionalità di Accesso rapido viene utilizzata nei campi (come nelle pagine scheda) e negli elenchi (righe e colonne). È utile quando si eseguono task di digitazione ripetitive che richiedono la creazione di più record in sequenza, ad esempio un batch di ordini di vendita o la registrazione di nuovi articoli.
 
@@ -86,11 +86,11 @@ Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di cop
 
 ## <a name="filtering-line-items"></a>Filtri delle voci
 
-Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona del riquadro filtri") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#Filtering).
+Per avviare il filtro, selezionare l'![icona riquadro Filtro](media/open-filter-pane-icon.png "Icona del riquadro filtri") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro Filtro. il riquadro Filtro viene utilizzato come qualsiasi altro elenco. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#filtering).
 
 I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Ad esempio, si supponga di aprire una fattura di vendita registrata e di filtrare le voci per visualizzare tutte quelle che hanno un singolo sconto maggiore del 5% oppure per visualizzare solo accessori per biciclette con la parola “pro" nel nome.
 
-## <a name="Focus"></a>Spostamento dello stato attivo sulle voci
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Spostamento dello stato attivo sulle voci
 
 Quando si lavora su documenti che includono una parte Voci, ad esempio un ordine cliente o una pagina di fatturazione, è possibile spostare lo stato attivo solo sulle voci. La parte Voci si espande in modo da occupare praticamente l'intera area di lavoro, nascondendo altre parti della pagina tranne l'area delle azioni in alto. In questo modo si ha una migliore panoramica delle voci e maggiore spazio per utilizzarle.
 
@@ -113,6 +113,11 @@ Per aprire la scheda o il documento corrente in una nuova finestra, selezionare 
 > [!NOTE]
 > Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo stesso può accadere in altri browser, come Firefox. Per ulteriori informazioni, vedere [Impostazioni di blocco popup in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Un altro modo per eseguire il multitasking è aprire [!INCLUDE[d365fin](includes/d365fin_md.md)] su due o più schede del browser. Quando esegui questa operazione, devi creare una nuova scheda e quindi copiare/incollare l'URL della scheda originale nella nuova scheda. Questo crea una nuova sessione.   
+
+> [!NOTE]
+> Non utilizzare la funzione **Duplica** del browser per creare la nuova scheda in quanto le azioni su una scheda potreebbero bloccare le azioni su altre schede perché fanno parte della stessa sessione.
 
 ## <a name="entering-quantities-by-calculation"></a>Immettere quantità mediante calcolo
 

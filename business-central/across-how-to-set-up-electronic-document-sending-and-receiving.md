@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188134"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Impostare l'invio e la ricezione di documenti elettronici
 Come alternativa all'invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente. Per documento elettronico si intende un file conforme agli standard che rappresenta un documento aziendale, ad esempio la fattura di un fornitore che può essere ricevuta e convertita in fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo scambio di documenti elettronici tra due partner commerciali viene eseguito da un provider esterno dei servizi di Exchange per documenti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta l'invio e la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di Exchange per documenti. Un provider importante dei servizi di Exchange per documenti è preconfigurato e pronto per l'installazione nell'azienda.  
@@ -136,7 +136,7 @@ In questo argomento sono contenute le seguenti procedure:
     |---------------------------------|---------------------------------------|  
     |**Conto C/G per righe non articolo**|Specifica il conto C/G che viene inserito automaticamente nelle righe di acquisto create dai documenti elettronici quando la riga del documento in ingresso non contiene un articolo identificabile. Tutte le righe di documenti in entrata che non hanno un GTIN o il numero di articolo del fornitore verranno convertite in una riga di acquisto di tipo **Conto C/G** e il campo **Nr.** della riga di acquisto conterrà il conto selezionato nel campo **Conto C/G per righe non articolo**.<br /><br /> Se si lascia vuoto il campo **Conto C/G per righe non articolo** e il documento in entrata dispone di righe senza articoli identificabili, il documento di acquisto non verrà creato. Un messaggio di errore avviserà l'utente che è necessario compilare il campo **Conto C/G per righe non articolo** prima di poter completare il task.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   

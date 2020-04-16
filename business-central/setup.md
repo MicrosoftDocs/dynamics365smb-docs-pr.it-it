@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832361"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194669"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
+# <a name="setting-up-prodshort"></a>Impostazione di [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione.
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
-Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
-
-> [!NOTE]
-> È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Dal menu ![icona dell'ingrannagio per aprire il menu Impostazioni ](media/ui-experience/settings_icon_small.png), è possibile accedere alle guide di setup assistito che consentono di configurare determinati scenari e aggiungere funzionalità a [!INCLUDE[prodshort](includes/prodshort.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
 
 Alcune funzionalità, generali o per processi aziendali specifici, possono essere impostate manualmente oltre che tramite la guida al setup assistito. Di seguito sono elencate alcune funzionalità che è possibile impostare manualmente.
 
@@ -57,7 +55,10 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 
 Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Amministrazione](admin-setup-and-administration.md).  
 
-## <a name="see-also"></a>Vedi anche
+> [!NOTE]
+> In qualità di amministratore puoi impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+## <a name="see-also"></a>Vedere anche
 
 [Amministrazione](admin-setup-and-administration.md)  
 [Finanze](finance.md)  

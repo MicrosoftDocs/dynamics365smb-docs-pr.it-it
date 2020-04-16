@@ -2,15 +2,15 @@
 title: Catalogo di apprendimento per decisori aziendali
 description: Catalogo di apprendimento per decisori aziendali
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097577"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190877"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Catalogo di apprendimento per decisori aziendali
 
@@ -18,13 +18,13 @@ Si è responsabili delle decisioni relative agli investimenti in nuove tecnologi
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze.  
 
-## Valore aziendale<a name="busvalue"></a>
+## <a name="business-value"></a>Valore aziendale<a name="busvalue"></a>
 
 | Contenuto                                                                 | Descrizione                                                                                                | Formato                                | Lunghezza     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione. | Percorso di apprendimento online gratuito e personalizzato | 24 minuti |
 
-## Introduzione<a name="get-started"></a>
+## <a name="getting-started"></a>Introduzione<a name="get-started"></a>
 
 | Contenuto                                                                                                                             | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

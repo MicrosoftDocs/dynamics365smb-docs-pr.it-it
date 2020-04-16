@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0def7cba6f3929304094b3d213a8745ea97721ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 29be6613c251316f8b6eec5478677302d2806ca3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314918"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189437"
 ---
 # <a name="add-and-view-notes-on-records"></a>Aggiungere e visualizzare note nei record
  È <!--OnPrem and your colleagues -->possibile aggiungere note ai record presenti nell'applicazione. Molte pagine, in particolare quelle in cui viene visualizzato un elenco di record, ad esempio la pagina **Ordini di vendita**, includono l'azione **Note** oppure il riquadro Dettaglio informazioni **Note**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

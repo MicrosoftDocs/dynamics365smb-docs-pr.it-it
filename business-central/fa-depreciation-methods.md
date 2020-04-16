@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 549334bf04427a44473319a9d7cfe1a7c2a12b54
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302886"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184510"
 ---
 # <a name="depreciation-methods"></a>Metodi ammortamento
 Esistono otto metodi di ammortamento:  

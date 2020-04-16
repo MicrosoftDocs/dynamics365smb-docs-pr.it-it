@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952989"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186887"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI 
 
@@ -25,18 +25,15 @@ Ottenere informazioni dettagliate sui dati di [!INCLUDE[prodshort](includes/prod
 È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/desktop/) per creare i propri report Power BI. Le app Power BI richiedono autorizzazioni di accesso alle tabelle da dove vengono recuperati i dati. Più informazioni dettagliate sui requisiti sono descritte di seguito.  
 
 > [!IMPORTANT]
-> Le app Power BI descritte in questo articolo sono progettate per utilizzare Azure Active Directory come meccanismo di autenticazione salvo diversa indicazione. Per installare un'app Power BI è necessario disporre anche di una licenza Power BI Pro.  Dopo l'installazione, l'app Power BI può essere condivisa con utenti con qualsiasi tipo di licenza.
+> Le app Power BI descritte in questo articolo sono progettate per utilizzare Azure Active Directory come meccanismo di autenticazione salvo diversa indicazione. Inoltre, è necessaria una [licenza di Power BI Pro](/power-bi/service-features-license-type) per condividere il contenuto e anche le persone con cui li condividi, oppure il contenuto devono trovarsi in un'area di lavoro in una [Capacità premium ](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] ha pubblicato le seguenti app per Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (in locale) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (in locale) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (in locale) - Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Utilizzo dei dashboard di [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilizzo dei dashboard di [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
 
 Ogni app include report che è possibile analizzare in dettaglio:
 
@@ -81,7 +78,7 @@ Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUD
 - [Selezionare un riquadro](/power-bi/service-dashboard-tiles) per aprire il report sottostante.  
 - Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora**. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
 
 La Home page in [!INCLUDE [prodshort](includes/prodshort.md)] può includere un elemento di controllo Power BI che può essere configurato per la visualizzazione dei report Power BI nella Home page.
 
@@ -166,9 +163,9 @@ Un account Power BI non è stato impostato. Per disporre di un account Power BI 
 
 Questo messaggio verrà visualizzato se il report predefinito non viene distribuito alla propria area di lavoro Power BI o il report è stato distribuito ma non aggiornato correttamente. In questo caso, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a Business Central e selezionare manualmente il report dalla pagina **Selezionare i report**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
 
-Le app Power BI possono essere installate solo dagli utenti che hanno una licenza Power BI Pro. Dopo l'installazione dell'app Power BI, è possibile condividerla con utenti che non dispongono della licenza Power BI Pro.  
+Inoltre, è necessaria una [licenza di Power BI Pro](/power-bi/service-features-license-type) per condividere il contenuto e anche le persone con cui li condividi, oppure il contenuto devono trovarsi in un'area di lavoro in una [Capacità premium ](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"La convalida dei parametri non è riuscita. Assicurarsi che tutti i parametri siano validi"
 
@@ -179,7 +176,7 @@ Questo errore indica che uno o più parametri non sono validi.
 - Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, si è immesso un URL non valido. È possibile verificare l'URL nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)].  
 - Una porta non viene aperta per consentire il passaggio della richiesta attraverso il firewall.
 
-### <a name="login-failed"></a>Accesso non riuscito
+### <a name="cannot-sign-in"></a>Impossibile accedere
 
 Se viene visualizzato un errore "Accesso non riuscito" dopo l'utilizzo delle credenziali utente di [!INCLUDE [prodshort](includes/prodshort.md)] per eseguire l'accesso, è probabile che si sia verificato uno dei seguenti problemi:
 
@@ -203,7 +200,7 @@ Una volta che l'app Power BI è installata e i dati sono visualizzati in Power B
 
 L'app Power BI visualizzerà solo i dati della società [!INCLUDE [prodshort](includes/prodshort.md)] definita all'installazione dell'app Power BI. I dati di altre società possono essere aggiunti ai report aggiungendo nuove query che utilizzano società differenti come origine dati.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

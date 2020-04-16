@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953109"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189389"
 ---
 # <a name="update-custom-report-layouts"></a>Aggiornare layout report personalizzati
 Talvolta, potrebbe essere necessario aggiornare il layout personalizzato utilizzato per un report. Ciò è obbligatorio in seguito a una modifica di progettazione al set di dati del report, ad esempio, un campo utilizzato nel layout è stato rimosso da set di dati del report. Se un layout di report necessita di aggiornamento, verrà visualizzato un messaggio di errore quando si tenta di visualizzare l'anteprima, stampare o salvare il report.  
@@ -42,7 +42,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
  Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una pagina **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Limiti dell'aggiornamento di layout di report personalizzati  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Limiti dell'aggiornamento di layout di report personalizzati  
  Sono disponibili diversi tipi di modifiche che l'aggiornamento automatico può applicare ai layout di report personalizzati, ad esempio la rimozione dal set di dati di un campo che è stato utilizzato nel layout. Tuttavia, l'aggiornamento automatico non può gestire le seguenti modifiche da apportare al set di dati di un report.  
 
 1.  Eliminazione di campi, etichette o elementi di dati.  
@@ -53,7 +53,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
  Se il processo di aggiornamento rileva uno qualsiasi di questi problemi, l'aggiornamento non può essere applicato. Sarà necessario risolvere i problemi manualmente, ad esempio modificando il layout di report in Word o, a livello di codice, utilizzando le codeunit di aggiornamento.  
 
-##  <a name="FixErrors"></a> Risolvere gli errori  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Risolvere gli errori  
  Se si visualizza un messaggio di errore quando si eseguono o si verificano gli aggiornamenti del layout di report, molto probabilmente sarà necessario modificare il layout di report per risolvere il problema. Leggere il messaggio di errore per aiutare a determinare la causa del problema.  
 
  Il problema più frequente si verifica quando un campo utilizzato nel layout è stato rimosso dal set di dati del report. In questo caso, verrà visualizzata una riga nel messaggio di errore che indica che un articolo è stato rimosso. Per risolvere il problema, sarà necessario modificare il layout e rimuovere il campo in questione.  
@@ -62,7 +62,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche  
  [Gestione dei layout di report](ui-manage-report-layouts.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cfa08ce37ae548997e0c7a16c812f57076e345bf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0ffec6928f68d1430c2d68f49196ff5eaf2babed
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883168"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191429"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Visualizzare il carico in aree di produzione e centri di lavoro
 Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.    

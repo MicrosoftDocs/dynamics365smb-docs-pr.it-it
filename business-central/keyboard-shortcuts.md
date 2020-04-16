@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911123"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181749"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ Molti dei tasti di scelta rapida sono uguali indipendentemente dal sistema opera
 > [!NOTE]
 > Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], F9 registra un documento e CTRL+F7 mostra i movimenti finanziari per un record (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
 
-##  <a name="Keyboard"></a> Tasti di scelta rapida generali
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Tasti di scelta rapida generali
 Nella tabella seguente sono descritti i tasti di scelta rapida per la navigazione e l'accesso a differenti elementi di una pagina, come azioni, elenchi a discesa e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva.
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
@@ -83,7 +83,8 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |ALT+N|Inserire una nuova riga in un elenco modificabile, ad esempio la pagina **Budget C/G**.|Stessa operazione.|
 |Shift+F10 |Aprire un menu di opzioni disponibili per la riga selezionata.|Stessa operazione.|
 
-### <a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
+Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prodshort](includes/prodshort.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |FINE<br />(Fn+freccia DESTRA)|Spostare il cursore sull'ultimo campo nella riga.|Spostare il cursore sull'ultimo riquadro nella riga.|
 |Immettere|Aprire il record associato al campo.<br /><br />Applicabile solo se una pagina schede è associata al record.|Apre il record.<br /><br />Applicabile solo se una pagina schede è associata al record.|
 |Ctrl+Enter|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|
+|Pagina su<br />(Fn+freccia SU)|Scorrere per visualizzare il set di righe sopra le righe correnti nella visualizzazione. |Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. |
+|Pagina giù<br />(Fn+freccia GIÙ)|Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione.|Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione.|
 |Freccia GIÙ|Spostare il cursore nella stessa colonna sul campo nella riga sotto. |Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. |
 |Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |
 |Freccia destra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro successivo a destra. |
 |Freccia sinistra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |
-|Pagina su<br />(Fn+freccia SU)|Scorrere per visualizzare il set di righe sopra le righe correnti nella visualizzazione. |Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. |
-|Pagina giù<br />(Fn+freccia GIÙ)|Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione.|Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione.|
 |TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra.|Non applicabile.||
 |MAIUSC+TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
 
-### <a name="CopyRows"></a>Selezionare, copiare e incollare
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |MAIUSC+PGGIÙ<br />(MAIUSC+Fn+freccia GIÙ)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.|
 |F8|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente. Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto TAB consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|Non applicabile.|
 
-### <a name="KeyboardFilter"></a>Cercare e filtrare elenchi
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Cercare e filtrare elenchi
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |-----------------|-------|
@@ -138,7 +140,7 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |----------------|-----------|
-|Alt+F6|Attivare/disattivare la compressione/espansione per la Scheda dettaglio orrente.|
+|Alt+F6|Attivare/disattivare la compressione/espansione per la Scheda dettaglio o parte (pagina secondaria) corrente.|
 |ALT+N |Aprire una pagina per creare un nuovo record; equivale a selezionare l'azione **Nuovo**. |
 |ALT+MAIUSC+N |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo**. |
 |ALT+MAIUSC+W |Aprire la scheda o il documento corrente in una nuova finestra. Per ulteriori informazioni, vedere [Multitasking in più pagine ](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 |F6|Spostare il cursore alla Scheda dettaglio o alla parte successiva (pagina secondaria).|
 |Shift+F6|Spostarsi sulla parte o Scheda dettaglio precedente (pagina secondaria).|
 
-## <a name="QuickEntry"></a>Scelte rapide di Accesso rapido per campi
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Scelte rapide di Accesso rapido per campi
 
 I tasti di scelta rapida seguenti sono relativi alla funzionalità Accesso rapido in carte, documenti e pagine elenco. Negli elenchi, i tasti di scelta rapida non possono essere utilizzati quando l'elenco è nella visualizzazione riquadri. Per ulteriori informazioni su Accesso rapido, vedere [Accelerare l'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ I tasti di scelta rapida seguenti sono relativi alla funzionalità Accesso rapid
 |MAIUSC+INVIO|Confermare il valore nel campo corrente e passare al campo Accesso rapido precedente.||
 |CTRL+MAIUSC+INVIO|Confermare il valore nella colonna corrente e passare al campo Accesso rapido successivo al di fuori dell'elenco.<br /><br />Questa combinazione di tasti di scelta rapida si applica agli elenchi incorporati in una pagina, ad esempio voci in un ordine di vendita. Consente di uscire rapidamente dall'elenco e di continuare a immettere dati in altri campi nella pagina.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tasti di scelta rapida nel calendario (selezione data)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tasti di scelta rapida nel calendario (selezione data)
 
 Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
 
@@ -185,7 +187,7 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |t|Immettere la data corrente. "T" sta per "oggi".|
 |w|Immettere la data del lavoro. Per ulteriori informazioni, vedere [Data del lavoro](ui-change-basic-settings.md#work-date).|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tasti di scelta rapida nell'anteprima report
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tasti di scelta rapida nell'anteprima report
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |-----------------|-------|

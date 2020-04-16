@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809035"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186502"
 ---
 # <a name="manage-profiles"></a>Gestire profili
 A tutti gli utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un profilo che ne riflette il ruolo aziendale, il reparto in cui lavorano o un'altra categorizzazione. I profili consentono agli amministratori di definire e gestire centralmente ciò che i vari tipi di utenti possono vedere e fare nell'interfaccia utente in modo da poter eseguire le proprie attività aziendali in modo efficiente.
@@ -79,12 +79,23 @@ Quando si crea un profilo, è possibile selezionare diverse caselle di controllo
     - **Disabilita personalizzazione** per specificare se gli utenti del ruolo correlato possono personalizzare la propria area di lavoro.
     - **Mostra in Esplora ruoli** per specificare se le azioni per le funzionalità aziendali incluse nel profilo vengono visualizzate nella vista estesa di Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>Per esportare profili creati dagli utenti
-È possibile esportare profili che sono stati modificati personalmente o dagli utenti, come indicato da **(Creato dall'utente)** nel campo **Origine**. Il profilo viene esportato in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedere [Utilizzo del client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Per esportare profili
+Puoi esportare i profili da [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio per riutilizzarli in un altro tenant. I profili vengono esportati in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedere [Utilizzo del client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Nella pagina **Profili (ruoli)**, scegliere l'azione **Esporta profili creati dall'utente**.
+* Nella pagina **Profili (ruoli)**, scegliere l'azione **Esporta profili**.
 
-Viene esportato un file zip con i file .al per i profili appena aggiunti o modificati.
+Viene esportato un file zip con i file .al per tutti i profili.
+
+## <a name="to-import-profiles"></a>Per importare profili
+Puoi importare i profili che sono stati esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. I passaggi sono più o meno l'opposto dei passaggi per esportare i profili. Per ulteriori informazioni, vedere [Per esportare profili](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Nella pagina **Profili (ruoli)**, scegliere l'azione **Importa profili**.
+2. Segui i passaggi della procedura guidata **Importa profili**.
+
+    Se si desidera importare solo i profili selezionati, utilizzare la casella di controllo **Selezionato** per indicare quale importare.
+3. Scegli il pulsante **Importa selezionato**.
+
+Viene esportato un file zip con i file .al per i profili selezionati.
 
 ## <a name="to-delete-a-profile"></a>Per eliminare un profilo
 È possibile eliminare un profilo selezionando l'azione **Elimina** nella pagina **Profili (ruoli)**. Tuttavia, si applicano le seguenti limitazioni:

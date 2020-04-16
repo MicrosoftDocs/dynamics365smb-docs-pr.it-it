@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953277"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193878"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -34,7 +34,7 @@ Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri s
 > [!NOTE]
 > I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
 
-La seguente procedura è basata su ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
+La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita a cui desidera allegare un file.
@@ -44,6 +44,16 @@ La seguente procedura è basata su ordine di vendita. I passaggi sono simili per
 5. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
 
 Il file è ora allegato alla fattura acquisto.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Per salvare un documento come allegato PDF
+Ogni volta che è necessario salvare un documento come file, è possibile utilizzare l'azione **Allega come PDF** per acquisire il contenuto del documento corrente come file PDF allegato al riquadro Dettaglio informazioni del documento. Ciò è utile, ad esempio, quando i documenti seguono più passaggi in un processo, come un processo di vendita o un flusso di lavoro di approvazione, e si desidera fare riferimento a una stampa del passaggio precedente.
+
+La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti supportati.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+2. Selezionare un ordine di vendita programmato quindi scegliere l'azione **Allega come PDF**.
+
+Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Per aggiungere un collegamento da una scheda articolo
 È possibile aggiungere un collegamento da una scheda o documento a qualsiasi URL o percorso. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.

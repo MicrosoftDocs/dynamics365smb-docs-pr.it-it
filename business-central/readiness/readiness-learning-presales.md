@@ -2,15 +2,15 @@
 title: Catalogo di apprendimento per la pre-vendita per i partner
 description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: e5341a17626b693cf49d74d398ee5bb657ba3afd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097818"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190744"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catalogo di apprendimento per la pre-vendita per i partner
 
@@ -18,7 +18,7 @@ Si ha la responsabilità della dimostrazione delle funzionalità chiave 
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze. 
 
-## Inizia<a name="get-started"></a>
+## <a name="get-started"></a>Inizia<a name="get-started"></a>
 
 | Contenuto                                                                                                                              | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,27 +28,27 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Playlist YouTube per Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | Pagina di destinazione YouTube per video su Dynamics 365 Business Central                                                                                                                                                                                                                                    | Video YouTube                        |                    |
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Scopri le funzionalità di Dynamics 365 Business Central                                                                                                                                                                                                                                               | Sito Web                               |                    |
 
-## Fare crescere la propria attività<a name="grow"></a>
+## <a name="grow-your-business"></a>Fare crescere la propria attività<a name="grow"></a>
 
 | Contenuto                                                                                                                                | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central- Conversazioni coinvolgenti con i potenziali clienti (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)                                             | È possibile ascoltare Errol Schoenfish, direttore del marketing dei prodotti, mentre parla di come avere conversazioni coinvolgenti con potenziali clienti su Microsoft Dynamics 365 Business Central.                                                                                                                        | Video                                 | 11 minuti e 16 secondi |
 | [Dynamics 365 Business Central- Come renderlo reale](https://mbspartner.microsoft.com/D365/Videos/101787)                                                                   | È possibile ascoltare Errol Schoenfish, direttore del marketing dei prodotti, mentre parla di come iniziare abilitando le demo per Microsoft Dynamics 365 Business Central.                                                                                                                                           | Video                                 | 12 minuti e 29 secondi |
 
-## Valore aziendale<a name="busvalue"></a>
+## <a name="business-value"></a>Valore aziendale<a name="busvalue"></a>
 
 | Contenuto                                                                                                                                | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Scopri le funzionalità di Dynamics 365 Business Central                                                                                                                                                                                                                                                        | Sito Web                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione.                                                                                                                                                                                                | Percorso di apprendimento online gratuito e personalizzato | 24 minuti          |
 
-## Novità<a name="whatsnew"></a>
+## <a name="whats-new"></a>Novità<a name="whatsnew"></a>
 
 | Contenuto                                                                                                                                | Descrizione                                 | Formato                                | Lunghezza                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: piano della seconda ondata di rilascio del 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Il piano di rilascio di Dynamics 365 (precedentemente note sulla versione) per la seconda ondata di rilascio del 2019 descrive tutte le nuove funzionalità rilasciate da ottobre 2019 a marzo 2020.                                                                                                                                          | Sito Web e white paper scaricabile  |                       |
 
-## Dimostrazione<a name="demo"></a>
+## <a name="demo"></a>Dimostrazione<a name="demo"></a>
 
 | Contenuto                                                                                                                                                           | Descrizione                                                                                                                                                                                                                                                     | Formato                           | Lunghezza                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|

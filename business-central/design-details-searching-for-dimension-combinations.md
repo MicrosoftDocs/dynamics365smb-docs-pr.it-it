@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e118ad07537cdaa0d6ed526ab8e91461cd430f08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3fe943fd3c2925f1c80107e23b389cd09958a47b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303006"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184702"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
 Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
@@ -76,5 +76,5 @@ EXIT(DimSet.ID);
  [Funzione GET (Record)](/dynamics-nav/GET-Function--Record-)    
  [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
  [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
- [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
+ [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)   
  

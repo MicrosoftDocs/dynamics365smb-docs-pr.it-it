@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774797"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195365"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Ricerca di pagine con Esplora ruoli
 È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli. Nella seguente documentazione questa panoramica delle funzionalità viene definita come *Esplora ruoli*.
@@ -26,6 +26,8 @@ Ogni elemento in Esplora ruoli è un'azione che apre una pagina. Di conseguenza,
 
 - In Gestione ruolo utente o in qualsiasi pagina elenco selezionare il ![pulsante Menu](media/ui_menu_button.png "Pulsante Menu") a destra della barra di navigazione oppure premere MAIUSC+F12.
 - Nella finestra della **funzionalità delle informazioni**, scegliere l'azione **esplorare** nella parte inferiore.
+
+Scegliere l'azione **Trova** nella parte superiore di Esplora ruoli per individuare rapidamente i nomi delle funzionalità che contengono un determinato termine.
 
 Per ottenere una panoramica delle funzionalità aziendali disponibili per tutti gli altri ruoli, oltre al proprio, scegliere l'azione **Esplora tutto** nella pagina con Esplora ruoli.
 

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304494"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196617"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
-Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
+Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
 
 * Due persone hanno apportato una modifica allo stesso record in entrambe le app aziendali.
 * Qualcuno ha cancellato un record in una delle app, ma non entrambe.
@@ -37,10 +37,10 @@ Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizz
 |**Rimuovi associazione**|Elimina l'associazione dei record, che non verranno più sincronizzati. Per riprendere la sincronizzazione dei record, è necessario associarli nuovamente.|
 |**Riprova**|Per ogni record in cui viene rilevato un errore, la sincronizzazione viene saltata a meno che non si risolva il problema manualmente. Riprova includerà il record nella prossima sincronizzazione.|
 |**Sincronizza**|L'app proverà a risolvere un conflitto in cui un record è stato modificato in entrambe le app aziendali. È possibile scegliere la versione del record da utilizzare in entrambe le app.|
-|**Ripristina record**ed **Elimina record**|Sono utili quando un record è stato eliminato in una delle app. Elimina record elimina il record nell'app in cui è ancora presente. Ripristina record ricrea il record nell'app in cui è stato eliminato.|
+|**Ripristina record**ed **Elimina record**|Sono utili quando un record è stato eliminato in una delle app aziendali. Elimina record elimina il record nell'app in cui è ancora presente. Ripristina record ricrea il record nell'app aziendale in cui è stato eliminato.|
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Per visualizzare il registro di sincronizzazione per uno specifico record (sincronizzato manualmente)
-1. Aprire, ad esempio, un cliente, un articolo o qualunque altro record che esegue la sincronizzazione dei dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Aprire, ad esempio, un cliente, un articolo o qualunque altro record che esegue la sincronizzazione dei dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Scegliere l'azione **Registro sincronizzazione** per visualizzare il registro di sincronizzazione per un record selezionato. Ad esempio, un cliente specifico sincronizzato manualmente.
 
 ## <a name="see-also"></a>Vedere anche  

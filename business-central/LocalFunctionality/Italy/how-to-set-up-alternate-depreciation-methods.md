@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4be433b53ba36dec7b7ed0c8fc524abb71beab25
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: decdf65682f74638e9a789ee7fd16324638830de
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300161"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181129"
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  
@@ -30,7 +30,7 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
 
 ## <a name="to-set-up-alternate-depreciation-methods"></a>Per impostare metodi di ammortamento alternativi  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Tabelle ammortamento**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Tabelle ammortamento** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
 3.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 

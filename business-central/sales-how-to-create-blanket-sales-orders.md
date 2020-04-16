@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316358"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194837"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Utilizzare gli ordini di vendita programmati
 Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine fra la società e un cliente.
@@ -29,20 +29,21 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 > [!NOTE]
 > Gli ordini di acquisto programmati sono simili agli ordini di vendita programmati. In questa documentazione vengono descritti solo gli ordini di vendita programmati.
 
-## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato  
+## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
-5. Nella Scheda dettaglio **Righe** creare righe separate per ogni spedizione. Se, ad esempio, un cliente desidera che 1000 unità vengano divise equamente per quattro settimane, immettere quattro righe separate, ognuna per 250 unità.   
+4. Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
+5. Nella Scheda dettaglio **Righe** creare righe separate per ogni spedizione. Se, ad esempio, un cliente desidera che 1000 unità vengano divise equamente per quattro settimane, immettere quattro righe separate, ognuna per 250 unità.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Per creare un ordine di vendita da un ordine di vendita programmato  
 
-1.  Per creare un ordine per una delle righe nell'ordine di vendita programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento non si desidera spedire.  
-2.  Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
-3.  Scegliere il pulsante **OK**.  
-4.  Per visualizzare i risultati dei passaggi precedenti, scegliere l'azione **Riga**, l'azione **Righe non registrate** e l'azione **Ordini**.  
-5.  Nella pagina **Righe vendita** selezionare l'ordine di vendita appropriato e scegliere l'azione **Riga** e l'azione **Mostra documento**.  
+1. Per creare un ordine per una delle righe nell'ordine di vendita programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento non si desidera spedire.  
+2. Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
+3. Scegliere il pulsante **OK**.  
+4. Per visualizzare i risultati dei passaggi precedenti, scegliere l'azione **Riga**, l'azione **Righe non registrate** e l'azione **Ordini**.  
+5. Nella pagina **Righe vendita** selezionare l'ordine di vendita appropriato e scegliere l'azione **Riga** e l'azione **Mostra documento**.  
 
 Quanto segue si applica agli ordini di vendita creati da ordini di vendita programmati:  
 

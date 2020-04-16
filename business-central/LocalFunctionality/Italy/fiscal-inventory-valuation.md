@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a86fc89c25ef00746f983f703b4160a60484f036
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2e27023a7a41167ac852cd5aaae8c51b8e150e72
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878169"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181142"
 ---
 # <a name="fiscal-inventory-valuation"></a>Valutazione magazzino fiscale
 È necessario inviare un report annuale che indichi il valore monetario degli articoli di magazzino per l'anno fiscale. A seconda dei requisiti italiani per la valutazione del magazzino fiscale, è necessario calcolare i seguenti tipi di costi:  
@@ -26,7 +26,7 @@ ms.locfileid: "2878169"
 - Costo LIFO (Last-In-First-Out)  
 - Costo LIFO discreto  
 
-## <a name="fiscal-inventory-valuation-in-included365finincludesd365fin_mdmd"></a>Valutazione magazzino fiscale in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## <a name="fiscal-inventory-valuation-in-d365fin"></a>Valutazione magazzino fiscale in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 Inizialmente, è necessario impostare la valutazione magazzino fiscale per tutti i tipi di costo nella pagina **Setup costing articolo** e nella pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md).  
 
 Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è necessario immettere i movimenti contabili del magazzino per il primo anno per calcolare la valutazione dell'articolo. È possibile effettuare questa operazione nella pagina Costo articolo prima dell'inizio.  

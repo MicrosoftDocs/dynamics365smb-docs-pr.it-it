@@ -7,16 +7,16 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 44a534a5de37ff1c85aca9f659e113c1b325b850
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 695283e8d06c4c8bceb6eb0003687de0cc0eee6e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953589"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182518"
 ---
-# <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="welcome-to-d365fin_long"></a>Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[d365fin](includes/d365fin_md.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è rapido da implementare, veloce da configurare e la semplicità guida le innovazioni nella progettazione, nello sviluppo, nell'implementazione e nell'usabilità del prodotto. Nel riquadro di spostamento a sinistra, è possibile trovare informazioni relative all'uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] nella propria società. Alcuni articoli chiave sono elencati anche nella prima sezione della tabella seguente. Inoltre, se si è un partner o un cliente che desidera estenderne le funzionalità, i relativi collegamenti sono disponibili nella sezione **Contenuto per sviluppatori e professionisti IT**.  
@@ -27,7 +27,7 @@ ms.locfileid: "2953589"
 |**Contenuto per sviluppatori e professionisti IT**|-   [Guida per sviluppatori e professionisti IT per [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Sviluppo in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Ambiente di sviluppo AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Risorse della community**|-   [Community di Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Roadmap di Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(è richiesto un account PartnerSource\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(è richiesto un account Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnbrowseproductsdynamics-business-central"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911241"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190085"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
@@ -30,7 +30,7 @@ Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si con
 
 ### <a name="other-supported-browsers"></a>Altri browser supportati
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. È inoltre possibile eseguire il nuovo Edge e accedere comunque ai siti Web che richiedono Internet Explorer. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM Windows 10 Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  

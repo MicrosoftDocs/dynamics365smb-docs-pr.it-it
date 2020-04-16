@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 35732cca95a2943c9c80ea1dee96c80e4bbc32fd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881050"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188110"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
 Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  

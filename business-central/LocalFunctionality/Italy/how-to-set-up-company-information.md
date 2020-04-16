@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bc089af45696d0f5d98b8a7c49cd3113b3efe9f8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c6fb634c39121de070418d75b23f8c27da685f99
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878911"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181127"
 ---
 # <a name="set-up-company-information"></a>Impostazione di informazioni sulla società
 I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  
 
 ## <a name="to-set-up-company-information"></a>Per impostare le informazioni sulla società  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona ingranaggio per aprire il menu Impostazioni](../../media/ui-experience/settings_icon_small.png), quindi scegliere l'azione **Informazioni società**.
 2.  Immettere le informazioni nelle Schede dettaglio, come indicato nella tabella riportata di seguito.
 
     |Campo|Description|  
@@ -35,5 +35,5 @@ I documenti fiscali devono contenere tutte le informazioni sulla società. È po
 
 3.  Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
  [Funzionalità locale per l'Italia](italy-local-functionality.md)   

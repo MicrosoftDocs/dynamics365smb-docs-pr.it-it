@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303353"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185206"
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
 In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti quantità.  
 
-![Flusso della rettifica costo dall'acquisto alla vendita](media/helene/TechArticleInventoryZero2.png "Flusso della rettifica costo dall'acquisto alla vendita")
+![Flusso di rettifica dei costi dall'acquisto alla vendita](media/helene/TechArticleInventoryZero2.png "Flusso di rettifica dei costi dall'acquisto alla vendita")
 
  Da notare che il movimento contabile articolo 1 (Acquisto) è il fornitore dell'articolo e l'origine del costo per il movimento contabile articolo collegato, movimento contabile articolo 2 (Vendita).  
 
@@ -78,7 +78,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Il seguente diagramma illustra il flusso dei costi.  
 
-![Flusso della rettifica costo dalla vendita al reso](media/helene/TechArticleInventoryZero4.png "Flusso della rettifica costo dalla vendita al reso")
+![Flusso di rettifica dei costi dalla vendita al reso di vendita](media/helene/TechArticleInventoryZero4.png "Flusso di rettifica dei costi dalla vendita al reso di vendita")
 
  Da notare che il costo viene trasferito al movimento contabile articolo 2 (Vendita), quindi al movimento contabile articolo 3 (Reso vendita) e infine al movimento contabile articolo 4 (Vendita 2).  
 
@@ -91,7 +91,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti articolo in entrambi gli scenari  
 
-![Il flusso della rettifica costo si applica in entrambe le direzioni](media/helene/TechArticleInventoryZero6.png "Il flusso della rettifica costo si applica in entrambe le direzioni")  
+![Il flusso di rettifica dei costi va in entrambe le direzioni](media/helene/TechArticleInventoryZero6.png "Il flusso di rettifica dei costi va in entrambe le direzioni")  
 
  Da notare che un collegamento costo viene eseguito (frecce blu) per garantire che al movimento contabile articolo 2 (Reso vendita) siano assegnati gli stessi costi del movimento contabile articolo stornato, movimento contabile articolo 1 (Vendita). Tuttavia, un collegamento quantità (frecce rosse) non viene eseguito.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308339"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185998"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence, per i responsabili decisionali. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili numerose funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.
@@ -37,8 +37,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare le visualizzazioni di analisi per analizzare i dati utilizzando le dimensioni.|[Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)|
 |Creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi.|[Creare report di analisi](bi-how-create-analysis-views-reports.md)|
 |Abilitare il reporting finanziario globale da parte di organizzazioni contabili internazionali con lo standard eXtensible Business Reporting Language.|[Creare report con XBRL](bi-create-reports-with-xbrl.md)|
+|Modificare l'intento di accesso al database su report, pagine di tipo API e query per ridurre il carico e migliorare le prestazioni.|[Gestire l'intento di accesso al database](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
 [Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  

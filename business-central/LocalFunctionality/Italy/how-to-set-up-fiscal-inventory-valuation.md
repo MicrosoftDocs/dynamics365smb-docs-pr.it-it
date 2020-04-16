@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 06bbd02cf6fec7a02ee4fd727284c00a815f1101
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4d5a8a484f25694001e6bce0ac3810b158bd43b2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300160"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181125"
 ---
 # <a name="set-up-fiscal-inventory-valuation"></a>Impostare la valutazione magazzino fiscale
 Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metodi di valutazione magazzino.  
 
 ## <a name="to-set-up-fiscal-inventory-valuation-for-item-costing"></a>Per impostare la valutazione del magazzino fiscale per il costing dell'articolo  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Setup costing articolo**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup costing articolo** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -36,10 +36,10 @@ Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metod
 
 ## <a name="to-set-up-fiscal-inventory-valuation-for-an-item"></a>Per impostare la valutazione del magazzino fiscale per un articolo  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Articoli**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Elenco articoli** selezionare ogni articolo e poi, nella Scheda dettaglio **Generale**, nel campo **Valutazione magazzino**, specificare il tipo di valutazione di magazzino.  
 
 3.  Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Valutazione magazzino fiscale](fiscal-inventory-valuation.md)   

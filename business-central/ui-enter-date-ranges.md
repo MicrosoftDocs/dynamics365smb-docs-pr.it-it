@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315590"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194405"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
@@ -48,7 +48,7 @@ Per lavorare in modo più produttivo con date e orari, è possibile utilizzare u
 
 Qualsiasi campo che visualizza un'icona di calendario può essere impostato utilizzando il selettore di date del calendario. Per visualizzare il selettore di date del calendario, attivare l'icona del calendario o premere CTRL+tasto HOME nel campo.
 
-![Campi Data](media/ui-date-field.png "Esempio di un campo data")
+![Campi data](media/ui-date-field.png "Esempio di un campo data")
 
 Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati
 |m 23|Martedì della settimana 23 dell'anno della data di lavoro|
 |m-1|Martedì della settimana 1 dell'anno della data di lavoro|
 
-##  <a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
 
 In elenchi, totali e report, è possibile impostare filtri su date, orari e periodi di tempo contenenti un valore iniziale e facoltativamente un valore finale per visualizzare solo i dati contenuti in tale intervallo. All'impostazione di intervalli di date si applicano regole standard.
 

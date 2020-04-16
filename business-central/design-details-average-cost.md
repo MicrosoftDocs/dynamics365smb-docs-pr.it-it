@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b26201d68a4ccc2a50b567275ad1dbe2ed0c55b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bcc33f3aabc41ca7b4bf383d5843e309350954d9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307422"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185734"
 ---
 # <a name="design-details-average-cost"></a>Dettagli di progettazione: Costo medio
 Il costo medio di un articolo viene calcolato con una media ponderata periodica, in base al costo medio del periodo che è impostato in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

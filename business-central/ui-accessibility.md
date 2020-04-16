@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311454"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192125"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilità e tasti di scelta rapida
 In questo argomento vengono fornite informazioni sulle funzionalità che rendono [!INCLUDE[d365fin](includes/d365fin_md.md)] disponibile per gli utenti con esigenze particolari. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le seguenti funzionalità di accessibilità:  
@@ -48,18 +48,18 @@ In questo argomento vengono fornite informazioni sulle funzionalità che rendono
 
 -->
 
-##  <a name="Navigation"></a> Spostamento  
+##  <a name="navigation"></a><a name="Navigation"></a> Spostamento  
  È possibile spostarsi tra schede e azioni nella barra multifunzione, elementi nella barra di spostamento e altri comandi nelle pagine e nei report di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando la tastiera. Per spostare lo stato attivo da un comando, scheda o azione all'altro, premere il tasto TAB per spostarsi in avanti. Premere MAIUSC + TAB per spostarsi all'indietro.  
 
  Utilizzando l'ordine delle schede è inoltre possibile passare, ad esempio, dalla pagina principale del browser alle finestre di dialogo che richiedono conferma o alla pagina di connessione e viceversa.  
 
-##  <a name="Headings"></a> Intestazioni  
+##  <a name="headings"></a><a name="Headings"></a> Intestazioni  
  L'origine HTML per il contenuto di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizza tag per aiutare gli utenti della tecnologia per l'accessibilità a comprendere la struttura e il contenuto della pagina. Ad esempio, nelle pagine di elenchi, le colonne vengono definite in tag TH e le intestazioni di colonna sono impostate con l'attributo TITLE all'interno del tag. Le didascalie per elementi quali Schede dettaglio, Riquadri Dettaglio informazioni e campi sono incluse nei tag delle intestazioni (H1, H2, H3 e H4).  
 
-##  <a name="Images"></a> Immagine e collegamenti  
+##  <a name="image-and-links"></a><a name="Images"></a> Immagine e collegamenti  
  Un testo descrittivo per le immagini è impostato con l'attributo ALT all'interno del tag IMG. Un testo descrittivo per i collegamenti ipertestuali è impostato con l'attributo TITLE all'interno del tag A.  
 
-##  <a name="AssistiveTech"></a> Tecnologie per l'accessibilità  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Tecnologie per l'accessibilità  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta diverse tecnologie per l'accessibilità, ad esempio il contrasto elevato, le utilità per la lettura dello schermo e il software di riconoscimento vocale. Alcune tecnologie per l'accessibilità potrebbero non funzionare correttamente con determinati elementi nelle pagine di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Per ulteriori informazioni sull'accessibilità  

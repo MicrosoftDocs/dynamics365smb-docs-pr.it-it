@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071984"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195389"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -35,7 +35,7 @@ Gli amministratori possono anche sostituire o disabilitare la personalizzazione 
 
 Come per altre personalizzazioni, le modifiche apportate alla larghezza della colonna vengono archiviate nel proprio account e sono visibili indipendentemente dal dispositivo utilizzato.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Per personalizzare una pagina tramite il banner **Personalizzazione**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Per avviare la personalizzazione di una pagina tramite il banner **Personalizzazione**
 1. Aprire qualsiasi pagina da personalizzare.
 2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza**.
 
@@ -52,7 +52,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 6. Scegliere l'elemento, quindi scegliere **Sposta**, **Rimuovi**, **Nascondi**, **Mostra**, **Visualizza in "Mostra più"**, **Mostra quando compresso**, **Mostra sempre**, **Imposta/Cancella Blocco riquadro** o **Includi/Escludi da Accesso rapido**, a seconda del tipo e dello stato dell'elemento dell'interfaccia utente. Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
 7. Al termine della modifica del layout in una o più pagine, selezionare il pulsante **Fatto** nel banner **Personalizzazione**.
 
-## <a name="What"></a>Elementi personalizzabili
+## <a name="what-you-can-personalize"></a><a name="What"></a>Elementi personalizzabili
 
 |Operazione da eseguire|Procedura|Osservazioni|
 |----|------------|-------|
@@ -67,9 +67,10 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta**, **Rimuovi** o **Nascondi**.|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|  
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Personalizzazione delle azioni
 
-La personalizzazione consente di specificare quali azioni visualizzare nella barra delle azioni e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni. La personalizzazione della barra delle azioni è praticamente uguale a quella degli altri elementi dell'interfaccia di lavoro. Tuttavia, ciò che è possibile eseguire con un'azione o un gruppo dipende dalla posizione dell'azione o del gruppo. Il modo migliore per saperlo è di attivare la modalità di personalizzazione e di seguire le istruzioni visualizzate.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Personalizzazione delle azioni
+
+La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni. La personalizzazione delle barre di spostamento e azione è praticamente uguale a quella degli altri elementi dell'interfaccia di lavoro. Tuttavia, ciò che è possibile eseguire con un'azione o un gruppo dipende dalla posizione dell'azione o del gruppo. Il modo migliore per saperlo è di attivare la modalità di personalizzazione e di seguire le istruzioni visualizzate.
 
 Per comprendere meglio la personalizzazione delle azioni, è necessario avere una certa familiarità con alcuni termini, ovvero *gruppo di azioni* e *categoria promossa*.  
 
@@ -87,9 +88,9 @@ Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia 
 
 |Opzione|Funzione|
 |------|------------
-|**Elimina**|Questa opzione viene visualizzata se l'azione selezionata è visibile anche altrove nella barra delle azioni. La scelta di questa opzione elimina l'azione dalla posizione selezionata di modo che non sia più visualizzata. L'azione o il gruppo di azioni sarà visibile in altre posizioni. |
-|**Nascondi**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni non si trova altrove nella barra delle azioni. Come per **Elimina**, la scelta di questa opzione rimuoverà l'azione o il gruppo di azioni dalla barra delle azioni. Tuttavia, in modalità di personalizzazione, l'azione o il gruppo di azioni sarà ancora visualizzato nella posizione corrente, ma sarà inattivo.|
-|**Mostra**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni è stato nascosto (inattivo). La scelta di questa opzione visualizzerà l'azione o il gruppo di azioni nella barra delle azioni.|
+|**Elimina**|Questa opzione viene visualizzata se l'azione selezionata è visibile anche altrove nella barra di spostamento o azione. La scelta di questa opzione elimina l'azione dalla posizione selezionata di modo che non sia più visualizzata. L'azione o il gruppo di azioni sarà visibile in altre posizioni. |
+|**Nascondi**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni non si trova altrove nella barra di spostamento o delle azioni. Come per **Elimina**, la scelta di questa opzione rimuoverà l'azione o il gruppo di azioni dalla barra di spostamento o delle azioni. Tuttavia, in modalità di personalizzazione, l'azione o il gruppo di azioni sarà ancora visualizzato nella posizione corrente, ma sarà inattivo.|
+|**Mostra**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni è stato nascosto (inattivo). La scelta di questa opzione visualizzerà l'azione o il gruppo di azioni nella barra di spostamento o delle azioni.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Per spostare azioni e gruppi di azioni
 La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indicata da una riga orizzontale tra le due azioni o da un bordo intorno a un gruppo di azioni. Sono presenti le seguenti limitazioni:
@@ -100,6 +101,18 @@ La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indic
 1. Per spostare un azione o un gruppo di azioni, trascinarlo nella posizione desiderata, esattamente come per campi e colonne.
 2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizzazione delle parti
+
+Le parti sono aree di una pagina in genere composte da più campi, grafici o altri contenuti e possono essere identificate da un bordo colorato quando si imposta lo stato attivo sulla parte. Ad esempio, una schermata iniziale di Gestione ruolo utente ha più parti. A causa del loro contorno ben definito, puoi personalizzare l'intera parte e il suo contenuto.
+
+- Per spostare una parte, trascinala e rilasciala nella posizione desiderata. Una linea colorata indica posizioni valide sullo schermo. Ad esempio, i riquadri Dettaglio informazioni possono essere spostati solo accanto ad altri riquadri Dettaglio informazioni nel riquadro Dettaglio informazioni.
+- Puoi nascondere una parte scegliendo l'opzione **Nascondi** sotto la freccia.
+- Quando inizi a personalizzare o vai a una nuova pagina, tutte le parti che sono attualmente nascoste appariranno sulla pagina con elementi visivi distintivi per indicare che sono nascoste. Puoi visualizzare la parte scegliendo l'opzione **Mostra** sotto la freccia.
+
+Puoi cancellare tutte le modifiche di personalizzazione che hai apportato all'interno di una singola parte scegliendo l'opzione **Cancella personalizzazione** sotto la freccia della parte. L'annullamento della personalizzazione di una parte influisce solo sulle modifiche ai contenuti della parte, non sul posizionamento o sulla visibilità della parte nella pagina.  
+
+
 ## <a name="to-clear-personalization"></a>Per cancellare la personalizzazione
 In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche di personalizzazione effettuate nel tempo in una pagina.
 
@@ -109,9 +122,9 @@ In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche
 |Opzione|Funzione|
 |------|------------
 |**Solo menu di navigazione**|Cancella tutte le modifiche di personalizzazione che apportate al menu di navigazione condiviso in Gestione ruolo utente e in altre pagine. Ciò include tutte le nuove azioni che sono state aggiunte come segnalibri e qualsiasi modifica ai collegamenti e ai gruppi nel menu.|  
-|**Solo azioni**|Cancella qualsiasi modifica di personalizzazione alla barra delle azioni nella pagina.|
-|**Solo campi, colonne e parti**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
-|**Tutto**|Cancella tutte le modifiche di personalizzazione alla pagina per ripristinarne l'aspetto originale. Sono incluse le modifiche alla barra delle azioni, a campi, colonne, parti e riquadri.|
+|**Solo azioni**|Cancella qualsiasi modifica di personalizzazione alla barra di spostamento o delle azioni nella pagina.|
+|**Solo campi, colonne e parti**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra di spostamento o delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
+|**Tutto**|Cancella tutte le modifiche di personalizzazione alla pagina per ripristinarne l'aspetto originale. Sono incluse le modifiche alla barra di spostamento o delle azioni, a campi, colonne, parti e riquadri.|
 
 ## <a name="additional-points-of-interest"></a>Ulteriori punti di interesse
 Per agevolare la comprensione della personalizzazione, di seguito sono elencati alcuni puntatori.

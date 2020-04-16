@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305070"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187966"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.
@@ -36,6 +36,6 @@ Di seguito viene descritto come aggiungere un commento a una scheda articolo. I 
 3. Scegliere l'azione **Commenti**.
 4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

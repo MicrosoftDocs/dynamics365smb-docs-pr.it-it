@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076414"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185710"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  
@@ -99,7 +99,7 @@ Durante la contropartita, il sistema di pianificazione considera l'approvvigiona
 
 Un altro motivo per cui l'approvvigionamento con numero seriale o di lotto non è flessibile è che ai numeri seriali o di lotto in genere vengono assegnati in ritardo nel processo potrebbe confondere se vengono suggerite le modifiche.  
 
-Il saldo dei numeri seriali o di lotto non rispetta la [Zona bloccata](design-details-dealing-with-orders-before-the-planning-starting-date.md). Se la domanda e l'approvvigionamento non sono sincronizzati, il sistema di pianificazione suggerirà delle modifiche o dei nuovi ordini, indipendentemente dalla data di inizio della pianificazione.  
+Il saldo dei numeri seriali o di lotto non rispetta la *Zona bloccata*. Se la domanda e l'approvvigionamento non sono sincronizzati, il sistema di pianificazione suggerirà delle modifiche o dei nuovi ordini, indipendentemente dalla data di inizio della pianificazione.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>I collegamenti ordine su ordine non sono mai interrotti  
 Nella pianificazione di un articolo ordine su ordine, l'approvvigionamento collegato non deve essere utilizzato per domande diverse da quella originariamente di destinazione. La domanda collegata non dovrebbe essere coperta da un altro approvvigionamento casuale, anche se, in questa situazione, è disponibile per tempo e quantità. Ad esempio, un ordine di assemblaggio collegato a un ordine di vendita in uno scenario di assemblaggio su ordine non può essere utilizzato per coprire un'altra domanda.  
@@ -117,7 +117,7 @@ Questo bilanciamento influisce anche sui tempi. L'orizzonte limitato che viene f
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Il componente richiesto viene caricato in base alle modifiche dell'ordine di produzione  
 Nella gestione degli ordini di produzione, il sistema di pianificazione deve monitorare i componenti necessari prima di caricarli nel profilo della domanda. Le righe componenti derivanti da un ordine di produzione corretto sostituiranno quelle dell'ordine originale. In questo modo il sistema di pianificazione stabilisce sicuramente che le righe di pianificazione per componenti necessari non vengano mai duplicate.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> La scorta di sicurezza può essere consumata  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> La scorta di sicurezza può essere consumata  
 La scorta di sicurezza è principalmente un tipo di domanda e pertanto viene caricata nel profilo di magazzino alla data di inizio della pianificazione.  
 
 La scorta di sicurezza è una quantità di magazzino accantonata per compensare le incertezze della domanda durante il lead time di rifornimento. Tuttavia, può essere consumato se è necessario attingere per soddisfare una domanda. In tal caso, il sistema assicura che la scorta di sicurezza sia rapidamente reintegrata suggerendo un ordine di approvvigionamento per rifornire la quantità di scorta di sicurezza alla data in cui è stata consumata. La riga di pianificazione relativa a tale ordine conterrà un'icona di avviso di eccezione indicante che la scorta di sicurezza è stata parzialmente o completamente consumata per mezzo di un ordine di eccezione per la quantità mancante.  

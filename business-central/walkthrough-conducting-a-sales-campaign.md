@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314894"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195293"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
 Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte importante dell'impostazione di una campagna è la selezione del target. A questo scopo, in [!INCLUDE[d365fin](includes/d365fin_md.md)] si crea un segmento, o gruppo di contatti, utilizzando dei filtri.  
@@ -148,7 +148,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 9. Gli allegati vengono inviati. Al termine del processo, fare clic sul pulsante **OK** all'interno del messaggio che indica che il segmento è stato registrato.  
 
-     Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
+     Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per visualizzare tale elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
 
 10. Dopo che il segmento è stato registrato, ogni lettera inviata viene registrata come un'interazione, che è possibile visualizzare nel log.  
 
@@ -165,7 +165,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 7.  Selezionare la casella di controllo **Crea segmento di follow-up**.  
 8.  Scegliere il pulsante **OK**.  
 
-     Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per visualizzare l'elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
+     Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per visualizzare tale elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
 
 ## <a name="registering-campaign-responses"></a>Registrazione delle risposte alla campagna  
  Nel corso delle due settimane seguenti, i potenziali clienti rispondono alla lettera. Il responsabile del marketing desidera tenere traccia delle risposte e registrare le interazioni.  
@@ -196,6 +196,6 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
      Dopo la registrazione del segmento, viene automaticamente creato un movimento per la campagna per registrare questa azione nella pagina **Movimenti campagna**.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Relationship Management](marketing-relationship-management.md)  
+[Gestione delle relazioni](marketing-relationship-management.md)  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

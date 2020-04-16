@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 37dfdf4805e5d11f2ede11f8b0454407debe9940
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306966"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184894"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -86,19 +86,19 @@ Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su)
 
 **Esempio 1**: la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione e Periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e Periodo di accumulo lotti")  
+![Periodo di riprogrammazione e periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
 
 **Esempio 2**: la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione, Periodo di accumulo lotti e Riprogramma](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, Periodo di accumulo lotti e Riprogramma")  
+![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
 
 **Esempio 3**: esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
 
-![Periodo di stabilizzazione e Periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e Periodo di accumulo lotti")  
+![Periodo di stabilizzazione e periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
 
 **Esempio 4**: esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
 
-![Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, Periodo di accumulo lotti e Modifica quantità")  
+![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
 
 **Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
 

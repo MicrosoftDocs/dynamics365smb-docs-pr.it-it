@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8c2ce255e9dac1fd7d832afb310ca0ae80e47ec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 828a6e91a55786603b019e29e49d0e14bf4f57f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308288"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187582"
 ---
 # <a name="define-user-tasks"></a>Definisci task dell'utente
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  
@@ -25,7 +25,7 @@ La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegn
 
 Ad esempio, è possibile creare un task per se stessi per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, Fatture di vendita registrate.  
 
-![Esempio di un task dell'utente](media/across-user-tasks/sample-user-task.png "Esempio di un task dell'utente")
+![Esempio di un'attività utente](media/across-user-tasks/sample-user-task.png "Esempio di un'attività utente")
 
 > [!TIP]  
 >  Utilizzare la funzionalità di ricerca nel campo **Pagina**, quindi utilizzare il campo **Cerca pagina o report** per identificare la pagina che si desidera. Per ulteriori informazioni, vedere [Ricerca di una pagina o di un report](ui-search.md).  
@@ -38,6 +38,6 @@ Una volta completato il task, contrassegnarlo come completato.
 ### <a name="deleting-user-tasks"></a>Eliminazione di task degli utenti
 Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzare il report **Elimina task dell'utente**. Nella pagina di richiesta, è possibile impostare i filtri per determinare quali task devono essere eliminati.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Ricerca di una pagina o di un report](ui-search.md)  
 [Esperienze di contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  

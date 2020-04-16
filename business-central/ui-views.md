@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316812"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189413"
 ---
 # <a name="save-and-personalize-list-views"></a>Salvare e personalizzare visualizzazioni elenco
 Dopo aver impostato un filtro in un elenco e si desidera conservare il filtro per un utilizzo successivo, è possibile salvarlo come visualizzazione. Per ulteriori informazioni sui filtri di elenchi, vedere [Impostazione di filtri negli elenchi](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Se esistono delle visualizzazioni, il gruppo **Visualizzazioni** è visualizzato
 
 ## <a name="to-save-a-view"></a>Per salvare una visualizzazione
 1. Aprire qualsiasi pagina elenco.
-2. Selezionare l'![icona del riquadro filtri](media/open-filter-pane-icon.png "icona del riquadro filtri") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro filtri.
+2. Selezionare l'![icona del riquadro filtri](media/open-filter-pane-icon.png "Icona del riquadro filtri") nella parte superiore dell'elenco o premere MAIUSC+F3 per aprire il riquadro filtri.
 3. Impostare uno o più nuovi filtri. Per ulteriori informazioni, vedere [Impostazione di filtri negli elenchi](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Dopo aver impostato i filtri, selezionare l'icona ![Salva visualizzazione](media/save_view_icon.png "Salva visualizzazione").
 

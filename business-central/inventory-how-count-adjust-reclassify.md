@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c565f3f4419f8132ac643ca47c071b3791e147c2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309942"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182230"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
@@ -58,20 +58,20 @@ Oltre al task di conteggio fisico, il processo completo include i tre task segue
 >   I movimenti articoli vengono elaborati in base alle informazioni inserite e le righe vengono create in registrazioni inventario fisico. Si noti che il campo **Qtà (inv. fisico)** viene compilato automaticamente con la stessa quantità del campo **Qtà (calcolata)** . Con questa funzionalità non è necessario immettere le giacenze conteggiate disponibili per gli articoli quando sono corrispondenti alla quantità calcolata. Tuttavia, se la quantità conteggiata è diversa da quella immessa nel campo **Qtà (calcolata)** , è necessario sovrascriverla con la quantità effettivamente conteggiata.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Per calcolare le giacenze previste nelle configurazioni di warehouse avanzate
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. Magazzino** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola rettifica whse.**.  
 3.  Compilare i campi nella pagina di richiesta del processo batch specificando i numeri degli articoli che si desidera conteggiare e l'ubicazione.
 4. Scegliere il pulsante **OK** e registrare le eventuali rettifiche.
 
     Se non si esegue questa operazione prima di eseguire l'inventario fisico della warehouse, i risultati registrati nelle registrazioni di inventario fisico e nei movimenti contabili magazzino nella seconda parte del processo corrispondono ai risultati dell'inventario fisico combinati con altre rettifiche di warehouse precedenti relative agli articoli conteggiati.  
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni inventario whse.** e quindi scegliere il collegamento correlato.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registr. invent. whse.** e quindi scegliere il collegamento correlato.  
 6. Scegliere l'azione **Calcola giacenze**. Verrà visualizzata la pagina di richiesta del processo batch **Calcola inventario whse.**.  
 7.  Impostare i filtri per limitare gli articoli che verranno conteggiati nelle registrazioni e fare clic sul pulsante **OK**.
 
     Verrà automaticamente creata una riga per ciascuna collocazione che soddisfa i requisiti del filtro. A questo punto, è possibile eliminare alcune righe. Tuttavia, se si desidera registrare i risultati come inventario fisico, è necessario conteggiare l'articolo in tutte le collocazioni in cui è contenuto.  
 
      Se si sceglie di conteggiare l'articolo solo in alcune collocazioni, è possibile rilevare le eventuali discrepanze, registrarle e successivamente contabilizzarle nelle registrazioni di magazzino utilizzando la funzione **Calcola rettifica whse.**  
-8.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista inventari fis. whse.** e quindi scegliere il collegamento correlato.  
+8.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista inventari fisici whse.** e quindi scegliere il collegamento correlato.  
 9.  Aprire la pagina di richiesta del report e stampare le liste in cui si desidera che gli addetti annotino la quantità di articoli da loro conteggiata in ciascuna collocazione.  
 10. Una volta completato il conteggio manuale, immettere le quantità conteggiate nel campo **Qtà (inv. fisico)** nelle registrazioni di inventario fisico della warehouse.  
 
@@ -112,7 +112,7 @@ Gli addetti al magazzino potranno quindi eseguire l'inventario e registrare tutt
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Per immettere e registrare le giacenze effettive conteggiate nelle configurazioni di warehouse avanzate
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. Magazzino** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola rettifica whse.**.  
 3.  Selezionare gli stessi articoli conteggiati per l'inventario fisico nel ciclo di conteggio appena eseguito e tutti gli altri articoli che richiedono la rettifica, quindi fare clic sul pulsante **OK**.  
 
@@ -135,7 +135,7 @@ L'inventario fisico viene in genere eseguito ad intervalli regolari, ad esempio 
 
 È innanzitutto necessario impostare i periodi di conteggio dell'inventario da utilizzare, quindi assegnarne uno a ciascun articolo. Quando si esegue un inventario fisico e si utilizza la funzione **Calcola conteggio periodo** nelle registrazioni di inventario fisico, le righe relative agli articoli vengono create automaticamente.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi di conteggio inventario fisico** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conteggio periodo invent. fis.** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Per assegnare un periodo di conteggio a un articolo  
@@ -145,14 +145,14 @@ L'inventario fisico viene in genere eseguito ad intervalli regolari, ad esempio 
 4. Scegliere il pulsante **Sì** per modificare il codice e calcolare il primo periodo di conteggio per l'articolo. Alla successiva scelta di calcolare un periodo di conteggio nelle registrazioni di inventario fisico, l'articolo verrà visualizzato come riga nella pagina **Selez. articoli inv. fis.**. A questo punto è possibile iniziare a conteggiare l'articolo su base periodica.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Per avviare un conteggio basato sui periodi di conteggio nelle configurazioni di warehouse di base
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazione inventario fisico** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni inventario fis.** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Calcola conteggio periodo**.
 
     Viene visualizzata la pagina **Selez. articoli inv. fis.** contenente gli articoli da conteggiare in base ai periodi di conteggio precedentemente assegnati.
 3. Eseguire l'inventario fisico. Per ulteriori informazioni, vedere [Per eseguire un inventario fisico](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Per avviare un conteggio basato sui periodi di conteggio nelle configurazioni di warehouse avanzate
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni inventario whse.** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registr. invent. whse.** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Calcola conteggio periodo**.
 
     Viene visualizzata la pagina **Selez. articoli inv. fis.** contenente gli articoli da conteggiare in base ai periodi di conteggio precedentemente assegnati.
@@ -203,7 +203,7 @@ Diversamente dalla registrazione delle rettifiche nelle registrazioni di magazzi
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati
 A intervalli appropriati in base a quanto definito dalla politica aziendale, è necessario registrare i record delle collocazioni warehouse nei movimenti contabili magazzino. Alcune società ritengono che sia più appropriato registrare le rettifiche nei movimenti contabili magazzino ogni giorno, mentre altre ritengono più opportuno effettuare una riconciliazione con minore frequenza.
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. Magazzino** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi di ogni riga di registrazione.  
 3.  Scegliere l'azione **Calcola rettifica whse.** e definire i filtri in modo appropriato nella pagina di richiesta del processo batch. Le rettifiche vengono calcolate solo per i movimenti nella collocazione rettifica che soddisfano i criteri dei filtri.  
 4.  Nella Scheda dettaglio **Opzioni** immettere un numero nel campo **Nr. documento**. Poiché non è stata impostata alcuna numerazione per questo processo batch, utilizzare lo schema di numerazione impostato dalla warehouse oppure immettere la data seguita dalle proprie iniziali.  
@@ -217,7 +217,7 @@ Passaggi speciali si applicano quando si desidera riclassificare i numeri di ser
 
 Il seguente esempio si basa su un codice ubicazione. I passaggi sono simili per altri tipi di attributi degli articoli.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclassificazioni articoli** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclass. articoli** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Batch reg. riclass. articoli** compilare i campi in base alle esigenze.
 3. Nel campo **Codice ubicazione**, immettere il codice dell'ubicazione corrente dell'articolo.
 4. Nel campo **Nuovo codice ubicazione**, immettere il nuovo codice dell'ubicazione dell'articolo.

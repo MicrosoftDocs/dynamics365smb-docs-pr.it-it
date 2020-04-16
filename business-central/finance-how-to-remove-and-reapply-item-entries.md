@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882693"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183334"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -28,7 +28,7 @@ Gli scenari seguenti potrebbero richiedere di annullare un collegamento o di ric
 - È stato creato un collegamento fisso non corretto.
 - È necessario restituire un articolo a cui è stata già collegata una vendita.
 
-Se possibile, utilizzare un documento per ricollegare un movimento contabile articolo. Se, ad esempio, è necessario effettuare un reso di acquisto di un articolo a cui è già stata collegata una vendita, è possibile creare il nuovo collegamento semplicemente creando e registrando il documento di reso di acquisto utilizzando il collegamento corretto nel campo **Collega-a mov. art.** della riga di reso di acquisto. Per semplificare questa operazione, è possibile utilizzare la funzione **Ottieni righe documento registrato da stornare** o **Copia documento** nel documento di reso di acquisto. Quando si registra il documento, il movimento contabile articolo viene ricollegato automaticamente. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
+Se possibile, utilizzare un documento per ricollegare un movimento contabile articolo. Se, ad esempio, è necessario effettuare un reso di acquisto di un articolo a cui è già stata collegata una vendita, è possibile creare il nuovo collegamento semplicemente creando e registrando il documento di reso di acquisto utilizzando il collegamento corretto nel campo **Collega-a mov. art.** della riga di reso di acquisto. Per semplificare questa operazione, è possibile utilizzare la funzione **Ottieni righe documento registrato da stornare** o **Copia da documento** nel documento di reso di acquisto. Quando si registra il documento, il movimento contabile articolo viene ricollegato automaticamente. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
 
 Se non è possibile utilizzare un documento per ricollegare, ad esempio quando si deve correggere un collegamento fisso, utilizzare la pagina **Prospetto collegamento** per correggere un collegamento.
 

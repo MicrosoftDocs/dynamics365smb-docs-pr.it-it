@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4a385862efa82f923996f2d15b0a72a6869b5330
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2e60164f7ae20492b0582199e949a6acfe42ff1b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301291"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181121"
 ---
 # <a name="submit-vat-statements"></a>Inviare dichiarazioni IVA
 Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni e i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
@@ -26,7 +26,7 @@ Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e 
 
 ## <a name="to-review-and-print-vat-statements"></a>Per esaminare e stampare le dichiarazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta e scegliere l'azione **Stampa**.  
 3.  Nella Scheda dettaglio **Opzioni**, immettere un intervallo di date per delimitare il periodo di riferimento della dichiarazione e definire il tipo di movimenti IVA da includere.  
 4.  Scegliere il pulsante **Stampa** per stampare la dichiarazione IVA.  
@@ -35,7 +35,7 @@ Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e 
 
 ## <a name="to-settle-and-post-vat-transactions"></a>Per liquidare e registrare le transazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Calcolo e registrazione liquidazione IVA** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni**, immettere un intervallo di date per delimitare il periodo di riferimento della dichiarazione IVA, selezionare il conto liquidazione IVA corretto e selezionare l'azione **Registra** se si desidera registrare gli importi IVA in un conto di liquidazione.  
 3.  Scegliere il pulsante **Stampa** per stampare la dichiarazione IVA e registrare i movimenti.  
 
@@ -43,10 +43,10 @@ Dopo aver calcolato e registrato la liquidazione IVA gli importi IVA vengono tra
 
 ## <a name="to-submit-vat-statements"></a>Per inviare le dichiarazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Dichiarazioni IVA**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Dichiarazione IVA**, nel campo **Nome**, selezionare la dichiarazione IVA richiesta, scegliere l'azione **Stampa**, quindi scegliere l'opzione **PDF**.  
 
 Il file esportato può ora essere inviato alle autorità fiscali.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md)

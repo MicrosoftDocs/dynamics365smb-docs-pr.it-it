@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1fae944598a988c739978f69bace612c57de0ef6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879515"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182926"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
 Al termine dei periodi contabili, mensili, annuali o altro, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare al reparto finanziario il valore di magazzino corretto e bilanciato. Oltre ai comuni processi di registrazione da eseguire per trasferire i singoli movimenti di valorizzazione degli articoli nei conti di contabilità generale rilevanti, per lo svolgimento di questa attività cruciale, il revisore o il controllore dei costi ha a disposizione numerosi report, funzioni di tracciabilità e uno speciale strumento di riconciliazione.  

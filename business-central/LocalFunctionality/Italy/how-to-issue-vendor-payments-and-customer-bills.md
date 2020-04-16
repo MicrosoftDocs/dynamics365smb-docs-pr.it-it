@@ -1,8 +1,6 @@
 ---
 title: 'Procedura: Emettere pagamenti fornitori ed effetti clienti'
 description: La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8ff9a35fa1cb78ba084513fa3d61756c1a469b1
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: eda9e6601867acab8bec2ea2b798b7c1cd4aa968
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076403"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181135"
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
+
 La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani. È possibile pagare i fornitori in base al bonifico SEPA standard e riscuotere i pagamenti dai clienti in base al metodo di addebito diretto SEPA standard. Di seguito viene descritto il processo per l'invio del pagamento a un fornitore con bonifico SEPA. I passaggi sono simili per la riscossione del pagamento da un cliente.  
 
- Prima di avviare la seguente procedura, controllare che le informazioni sulla banca della società siano state immesse nella pagina **Scheda conto corrente bancario**. Nella scheda. includere le informazioni per i seguenti campi:  
+Prima di avviare la seguente procedura, controllare che le informazioni sulla banca della società siano state immesse nella pagina **Scheda conto corrente bancario**. Nella scheda. includere le informazioni per i seguenti campi:  
 
 - IBAN  
 - Codice SWIFT (facoltativo)  
@@ -41,7 +40,7 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 6. Scegliere il pulsante **OK**.  
 7. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Distinta fornitore** e quindi scegliere il collegamento correlato.  
 8. Scegliere l'azione **Nuovo**.  
-9.  Nella Scheda dettaglio **Generale**, immettere le informazioni nei seguenti campi: **Nr. conto bancario** del fornitore e **Codice metodo di pagamento**.  
+9. Nella Scheda dettaglio **Generale**, immettere le informazioni nei seguenti campi: **Nr. conto bancario** del fornitore e **Codice metodo di pagamento**.  
 10. Scegliere l'azione **Suggerisci Pagamenti**.
 11. Impostare i filtri appropriati e scegliere il pulsante **OK** per eseguire il processo batch.  
 12. Scegliere l'azione **Crea Distinta**.
@@ -50,10 +49,11 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 15. Selezionare l'utente dall'elenco quindi scegliere l'azione **Modifica**. Verrà aperta la pagina **Distinta effetti forn. emessa**.  
 16. Per esportare le informazioni sui pagamenti, scegliere l'azione **Esporta distinta effetti su file**. È possibile visualizzare il file XML inviato.  
 
-    1.  Esportare nel file (per file in formato SEPA standard)  
-    2.  Esporta distinta effetti su file  
+    1. Esportare nel file (per file in formato SEPA standard)  
+    2. Esporta distinta effetti su file  
 
 È possibile visualizzare il file XML prima di inviarlo. Per esaminare e correggere gli errori, è possibile fare riferimento al riquadro Dettaglio informazioni **Errori esportazione file**.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)

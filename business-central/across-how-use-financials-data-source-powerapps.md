@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf587dca8224e742ecbde30bcabc35697bb6f2a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881002"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187918"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Collegamento ai dati Business Central per creare un'app aziendale utilizzando Power Apps
 
@@ -24,7 +24,7 @@ ms.locfileid: "2881002"
 > [!NOTE]  
 > È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power Apps.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps"></a>Per aggiungere [!INCLUDE[prodshort](includes/prodshort.md)] come origine dati in Power Apps
+## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>Per aggiungere [!INCLUDE[prodshort](includes/prodshort.md)] come origine dati in Power Apps
 
 1. Nel browser passare a [powerapps.microsoft.com](https://powerapps.microsoft.com/), quindi accedere.
 2. Nella home page, scegliere **App**, **Crea un'app** e **Canvas** per creare una nuova app canvas. Questa app verrà progettata per l'uso su un dispositivo mobile, ma è anche possibile scegliere di utilizzare un altro modello.

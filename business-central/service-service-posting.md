@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6522d2ab515cc32144b2860038f7c71dcd4b53e9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315902"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192461"
 ---
 # <a name="service-posting"></a>Registrazione di assistenza
 La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.  
@@ -55,6 +55,6 @@ Nella procedura seguente viene utilizzata una fattura di assistenza registrata c
 
     Viene visualizzata la pagina **Statistiche ordine assistenza**. Nella pagina vengono visualizzate informazioni quali quantità, importo, IVA, costo, margine e limite di credito del cliente per il documento registrato.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Registrare ordini di assistenza](service-how-to-post-service-orders.md)   
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)
