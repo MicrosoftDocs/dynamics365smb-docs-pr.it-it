@@ -70,6 +70,7 @@
 ### [Accessibilità e tasti di scelta rapida](ui-accessibility.md)
 ### [Tasti di scelta rapida](keyboard-shortcuts.md)
 ### [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)
+## [Risoluzione dei problemi: accesso alla fotocamera e alla posizione](ui-troubleshooting-camera-location.md)
 
 # Impostazione di Business Central
 ## [Sintesi](setup.md)
@@ -82,6 +83,7 @@
 ### [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)
 ### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
 ### [Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)
+### [Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)
 ### [Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)
 ### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Gestione crittografia dati](admin-manage-data-encryption.md)
 ## [Estendere la versione di valutazione](admin-extend-trial.md)
 ## [Controllo di pagine](across-inspect-page.md)
+## [Visualizzazione di blocchi di database](admin-view-database-locks.md)
+## [Visualizzazione di Informazioni tabella](admin-view-table-information.md)
 ## [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md)
+## [Abilitazione di nuove funzionalità in anticipo](admin-feature-management.md)
 ## Personalizzazione di Business Central
 ### [Sintesi](ui-customizing-overview.md)
 ### [Personalizzare pagine per profili](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Creare offerte di vendita](sales-how-make-offers.md)
 ## [Fatturare le vendite](sales-how-invoice-sales.md)
 ## [Vendere prodotti](sales-how-sell-products.md)
+## [Stampare la lista prelievo](sales-how-print-picking-list.md)
 ## [Registrazione di vendite](ui-post-sales.md)
 ## [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)
 ## [Effettuare spedizioni dirette](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ## [Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md)
 ## [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
-## [Modificare i suggerimenti di pianificazione in una visualizzazione grafica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Gestione assemblaggio
 ## [Sintesi](assembly-assemble-items.md)
@@ -808,7 +814,7 @@
 ### [Sintesi](design-details-dimension-set-entries.md)
 ### [Dettagli di progettazione: Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
 ### [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)  
-### [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)  
+### [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)  
 
 # Funzionalità locale
 ## [Sintesi](about-localization.md)
@@ -816,7 +822,7 @@
 ## Australia
 ### [Sintesi](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Imposta
-#### [Imposta](LocalFunctionality/Australia/tax.md)
+#### [Sintesi](LocalFunctionality/Australia/tax.md)
 #### [Ritenute](LocalFunctionality/Australia/withholding-tax.md)
 #### [Impostare la ritenuta d'acconto](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Impostare tipi di ricavi per la ritenuta d'acconto](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Stampare report IVA periodici](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Impostare la nomenclatura combinata belga](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Reporting Intrastat belga](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Impostare numeri Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Impostare numeri Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Stampare il report Intrastat - Form](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Impostare tipi di dichiarazione](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Esportare dichiarazioni Intrastat di terzi](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Impostare pagamenti OCR](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importare ed esportare pagamenti OCR](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Stampare il report Giornale OCR - Test](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Finanze principali    
+### Finanze principali
 #### [Collegare movimenti C/G in periodi chiusi](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Generale
 #### [Ordini ricorrenti](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Inventario
 #### [Gestione del magazzino per la Svizzera](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Stampare una lista prelievi magazzino da un ordine di vendita](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Generale    
+### Generale
 #### [Importare codici postali svizzeri](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Documenti di acquisto e ordini di vendita per la Svizzera](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
