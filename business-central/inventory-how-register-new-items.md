@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182158"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324152"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
@@ -52,11 +52,14 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 >
 > Se si seleziona **Media**, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, è possibile selezionare il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio.
 
-È possibile visualizzare o modificare gli sconti o i prezzi speciali che si concedono per l'articolo se vengono soddisfatti determinati criteri come un cliente, la quantità minima di ordine o la data di scadenza. È possibile farlo scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
+È possibile visualizzare o modificare gli sconti o i prezzi speciali che si concedono o concessi dai fornitori per l'articolo se vengono soddisfatti determinati criteri come un cliente, la quantità minima di ordine o la data di scadenza. È possibile farlo scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni, vedere [Registrare prezzi di vendita, sconti e accordi di pagamento](sales-how-record-sales-price-discount-payment-agreements.md) o [Registra i prezzi e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzata nei documenti di acquisto e vendita.
 
 Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:
+
+### <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
+Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
 1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
@@ -79,9 +82,10 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
-## <a name="see-also"></a>Vedi anche
-[Creazione di numerazioni](ui-create-number-series.md)  
+## <a name="see-also"></a>Vedere anche
 [Magazzino](inventory-manage-inventory.md)  
+[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Creazione di numerazioni](ui-create-number-series.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

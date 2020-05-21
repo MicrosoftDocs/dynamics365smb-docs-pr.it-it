@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183046"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262240"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
-È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
+È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
 
 È possibile utilizzare le tolleranze di pagamento in modo che ogni importo inevaso abbia una tolleranza di pagamento massima consentita. Se la tolleranza di pagamento viene soddisfatta, l'importo pagamento viene quindi analizzato. Se l'importo del pagamento rappresenta un sottopagamento, l'importo inevaso viene chiuso completamente dal sottopagamento. Viene registrato un movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di fattura collegato. Se l'importo del pagamento rappresenta un sovrapagamento, viene registrato un nuovo movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di pagamento.
 
@@ -36,7 +36,10 @@ Questa regola si applica anche per stabilire se visualizzare avvisi quando si co
 - Il primo avviso riguarda la tolleranza di sconto sul pagamento. L'utente viene informato che è possibile accettare uno sconto di pagamento ritardato. Egli può quindi scegliere se accettare la tolleranza alla data dello sconto.  
 - Il secondo avviso riguarda la tolleranza di pagamento. L'utente viene informato che tutti i movimenti possono venir chiusi a causa della differenza nella somma della tolleranza di pagamento massima per i movimenti collegati. Egli può quindi scegliere se accettare la tolleranza nell'importo di pagamento.
 
-Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> L'abilitazione del messaggio di avviso consentirà di scegliere come elaborare i pagamenti che rientrano nella tolleranza. Se non si abilita il messaggio e si specifica un livello di tolleranza, le fatture con importi entro la tolleranza verranno chiuse automaticamente e non sarà possibile scegliere di lasciare l'importo residuo. 
+
+Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Per impostare le tolleranze  
 Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
@@ -67,7 +70,7 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
-2. Nella Scheda dettaglio **Collegamento** della pagina **Setup contabilità generale** selezionare la casella di controllo **Avviso tolleranza pagamento** per attivare l'avviso. Per disattivare l'avviso, deselezionare la casella di controllo.  
+2. Nella Scheda dettaglio **Collegamento** della pagina **Setup contabilità generale**, attivare l'opzione **Avviso tolleranza pag.** per attivare l'avviso. Per disattivare l'avviso, disattivare l'opzione.  
 
 > [!NOTE]  
 >  L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso toll. sconto pag.** è **Non accettare lo sconto di pagamento ritardato**.

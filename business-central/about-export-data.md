@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188973"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333886"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
@@ -64,7 +64,14 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 * Agenti  
 
 > [!NOTE]  
->   Se è stata impostata più di uno società in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario esportare i dati relativi a ogni società.
+> Se è stata impostata più di uno società in [!INCLUDE[prodshort](includes/prodshort.md)], è necessario esportare i dati relativi a ogni società.
+
+> [!NOTE]
+> È necessario disporre di almeno una delle seguenti autorizzazioni per aprire o modificare i dati in Excel:
+>    - Set di autorizzazioni *D365 Azione esportazione Excel*  
+>    - Autorizzazione di sistema 6110 *Consenti l'azione Esporta in Excel*.  
+
+Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: d8377e5042ac647386e1b3b02e1f97d2e14eb3ae
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196521"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271992"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
 La base della sincronizzazione dei dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] con dati in [!INCLUDE[d365fin](includes/cds_long_md.md)] consiste nel mapping delle tabelle e dei campi che contengono i dati tra loro. Il mapping avviene tramite tabelle di integrazione. 
 
 ## <a name="mapping-integration-tables"></a>Mapping delle tabelle di integrazione
-La tabella di integrazione è una tabella del database di [!INCLUDE[d365fin](includes/d365fin_md.md)] che rappresenta un'entità, ad esempio un account, in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Le tabelle di integrazione includono i campi corrispondenti ai campi della tabella dell'entità [!INCLUDE[d365fin](includes/cds_long_md.md)]. Ad esempio, la tabella di integrazione dell'account si collega all'entità account in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Per ogni entità di [!INCLUDE[d365fin](includes/cds_long_md.md)] che si desidera sincronizzare con i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)], deve esserci un corrispondente mapping della tabella di integrazione.
+La tabella di integrazione è una tabella del database di [!INCLUDE[d365fin](includes/d365fin_md.md)] che rappresenta un'entità, ad esempio un account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Le tabelle di integrazione includono i campi corrispondenti ai campi della tabella dell'entità [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Ad esempio, la tabella di integrazione dell'account si collega all'entità account in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Per ogni entità di [!INCLUDE [cds_short_md](includes/cds_short_md.md)] che si desidera sincronizzare con i dati in [!INCLUDE[prodshort](includes/prodshort.md)], deve esserci un corrispondente mapping della tabella di integrazione.
 
 Quando si crea la connessione tra le app, [!INCLUDE[d365fin](includes/d365fin_md.md)] imposta alcuni mapping di tabella e campi predefiniti. È possibile modificare i mapping di tabella se necessario. Per ulteriori informazioni, vedere [Mapping delle entità standard per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Se sono stati modificati i mapping predefiniti e si desidera annullare le modifiche, nella pagina **Setup connessione di [!INCLUDE[d365fin](includes/cds_long_md.md)]**, scegliere **Utilizza setup di default per la sincronizzazione**.
 

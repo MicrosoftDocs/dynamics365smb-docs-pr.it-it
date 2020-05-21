@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulla contabilità generale e COA| Documenti Microsoft
 description: Descrive la contabilità generale, il piano dei conti e le categorie dei conti.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183766"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372545"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
+
 La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
+
 Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati.  
 
 Nella pagina **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
@@ -31,9 +31,13 @@ Nella pagina **Setup contabilità generale** è possibile specificare le modalit
 * Formati indirizzi  
 * Report finanziari  
 
-Analogamente, nella pagina **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md)  
+Analogamente, nella pagina **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md).  
+
+> [!TIP]
+> La pagina **Setup contabilità generale** include campi generici e campi specifici per il paese o la regione. Se non si è certi del significato di un campo, suggeriamo di collaborare con il contabile per determinare se è rilevante per l'organizzazione.  
 
 ## <a name="the-chart-of-accounts"></a>Piano dei Conti
+
 Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
 
 * Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.  
@@ -45,6 +49,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti.  
 
 ## <a name="account-categories"></a>Categorie di conti
+
 È possibile personalizzare la struttura dei rendiconti finanziari mappando i conti di contabilità generale alle categorie dei conti.  
 
 La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
@@ -62,6 +67,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 
 ## <a name="see-also"></a>Vedi anche
+
 [Finanze](finance.md)  
 [Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  

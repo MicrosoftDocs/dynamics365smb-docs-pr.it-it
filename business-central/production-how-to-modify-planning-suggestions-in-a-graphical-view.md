@@ -1,6 +1,6 @@
 ---
 title: Come modificare i suggerimenti di pianificazione in una visualizzazione grafica | Microsoft Docs
-description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
+description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione Esegui messaggi di azione . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,92 +8,98 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 51c52da767fb9c192fbadbdfe68df8c36b17fb2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190421"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339948"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
-Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 
-Nella pagina **Disponibilità articolo per sequenza temporale** è possibile modificare gli ordini e i suggerimenti di approvvigionamento trascinando gli elementi lungo l'asse x per modificare la quantità o lungo l'asse y per modificare la data di scadenza.  
+Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica. Tuttavia, non è attualmente supportata in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
- Nella pagina **Disponibilità articolo per sequenza temporale** e nella pagina **Prospetto pianific.** è possibile effettuare le seguenti modifiche:  
+<!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
--   Modificare un ordine di approvvigionamento suggerito che esiste solo come riga di pianificazione.  
--   Modificare un ordine di approvvigionamento esistente che il sistema di pianificazione suggerisce di modificare.  
--   Creare un nuovo ordine di approvvigionamento suggerito e modificarlo.  
+When you open the **Item Availability by Timeline** page from the **Planning Worksheet** page, you can make the following changes:  
 
-Per ulteriori informazioni sui tipi di riga di pianificazione visualizzati, vedere il campo Descrizione nella Scheda dettaglio **Modifiche evento**.  
+- Modify a suggested supply order that only exists as a planning line.  
+- Modify an existing supply order that the planning system suggests to change.  
+- Create a new suggested supply order and modify it.  
 
-Scegliendo **Salva modifiche** nella pagina **Disponibilità articolo per sequenza temporale**, le modifiche effettuate in corrispondenza vengono copiate nel prospetto di pianificazione o nella richiesta di approvvigionamento. È ora possibile implementarli utilizzando la funzione **Pianificaz. - Esegui mess. azione**.  
+For more information about the planning line types that are shown, see the Description field on the **Event Changes** FastTab.  
 
-La seguente procedura illustra come modificare i suggerimenti di approvvigionamento mediante il trascinamento della selezione. In alternativa, è possibile modificare i campi **Data sc.** e **Quantità** nella Scheda dettaglio **Modifiche evento** e immediatamente visualizzare graficamente le modifiche nella Scheda dettaglio **Sequenza temporale** della pagina **Prospetto pianific.**.  
+When you choose **Save Changes** on the **Item Availability by Timeline** page, the modifications that you have made are copied to the planning or requisition worksheet. You can now implement them using the **Carry Out Action Msg.-Plan.** function.  
 
-## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Per modificare gli ordini di approvvigionamento suggeriti nella visualizzazione grafica  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Disponibilità articolo per sequenza temporale** e quindi scegliere il collegamento correlato.  
+The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab on the **Planning Worksheet** page.  
 
-    La pagina **Disponibilità articolo per sequenza temporale** verrà visualizzata con il numero di articolo, l'ubicazione e la variante dell'articolo nella riga di pianificazione selezionata precompilata della Scheda dettaglio **Opzioni**. La Scheda dettaglio **Sequenza temporale** mostra una rappresentazione grafica del magazzino previsto dell'articolo, inclusi i suggerimenti di pianificazione.  
+## To modify suggested supply orders in the graphical view
 
-2.  Assicurarsi che il campo **Includi suggerimenti pianificazione** sia selezionato.  
-3.  Individuare l'ordine di approvvigionamento suggerito che si desidera modificare. È possibile identificare gli articoli modificabili dal cerchio verde e l'icona a forma di disco. Per ulteriori informazioni sui differenti simboli, vedere [Simboli e icone nella Scheda dettaglio Sequenza temporale](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
-4.  Selezionare il puntatore sul cerchio verde finché non si ingrandisce e il puntatore assume la forma Sposta (quattro frecce).  
-5.  Tenere premuto il pulsante del mouse mentre si trascina il puntatore verso l'alto o verso il basso per modificare la quantità. Tenere premuto il pulsante del mouse mentre si trascina il puntatore a sinistra o a destra per modificare la data di scadenza.  
-6.  Oltre che spostando gli elementi con il trascinamento, è possibile modificare i suggerimenti di pianificazione usando una serie di funzioni del menu a discesa. Accedere al menu a discesa facendo clic con il pulsante destro del mouse sul cerchio verde di un elemento di approvvigionamento suggerito e selezionare una delle seguenti funzioni  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
-    |Funzione|Descrizione|  
+2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
+
+    The **Item Availability by Timeline** page opens with the item number, location, and variant of the item on the selected planning line prefilled in the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory, including planning suggestions.  
+
+<!--3. Make sure that the **Include Planning Suggestions** field is selected.  
+3. Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see [Symbols and Icons on the Timeline FastTab](#symbols-and-icons-on-the-timeline-fasttab).  
+4. Place the pointer over the green circle until it enlarges and the pointer changes to Move shape (four arrows).  
+5. Press and hold the mouse button while you drag the pointer up or down to modify the quantity. Press and hold the mouse button while you drag the pointer left or right to modify the due date.  
+6. In addition to moving elements by drag and drop, you can modify planning suggestions by using a number of drop-down menu functions. Access the drop-down menu for the green circle of a suggested supply element and select one the following functions  
+
+    |Function|Description|  
     |--------------|---------------------------------------|  
-    |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche**.<br /><br /> **NOTA:** se i campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** sono vuoti o hanno più di un valore di filtro, il nuovo approvvigionamento viene creato e successivamente viene salvato nel prospetto di pianificazione o nella richiesta di approvvigionamento con i seguenti codici:<br /><br /> * Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.<br /><br /> * Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato per il primo valore del filtro in base al metodo di ordinamento.<br /><br /> Se si desidera un altro codice variante o ubicazione, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
-    |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
-    |**Elimina approvvigionamento**|Elimina l'elemento nella Scheda dettaglio **Sequenza temporale** ed elimina la riga di pianificazione quando si sceglie **Salva modifiche**. L'icona assume la forma di un disco con una croce rossa quando l'approvvigionamento è stato eliminato.<br /><br /> **NOTA:** è possibile eliminare solo un approvvigionamento del tipo di messaggio di azione **Nuovo**. Dopo aver scelto **Salva modifiche**, è necessario eliminare manualmente la riga di pianificazione in questione nel prospetto di pianificazione o nella richiesta di approvvigionamento.|  
+    |**Create New Supply**|Creates a new element point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> * If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> * If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
+    |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it results in zero inventory before the next supply.|  
+    |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes**. The icon changes to a disk that has a red cross when the supply has been deleted.<br /><br /> **NOTE:** You can only delete a supply of action message type **New**. After you choose **Save Changes**, you must manually delete the planning line in question in the planning or requisition worksheet.|  
 
-7.  Scegliere l'azione **Ricarica** se si desidera ripristinare tutte le eventuali modifiche apportate dopo l'ultima apertura della pagina **Disponibilità articolo per sequenza temporale** o dopo che si è selezionato **Ricarica**.  
-8. Quando gli elementi si trovano nel punto desiderato nel diagramma, selezionare **Salva modifiche** per copiare la quantità modificata e le modifiche alle date nelle righe di richiesta di approvvigionamento o di pianificazione che rappresentano gli elementi grafici.  
+7. Choose the **Reload** action if you want to reset all the changes that you have made after you last opened the **Item Availability by Timeline** page or selected **Reload**.  
+8. When the elements are placed where you want them in the diagram, choose **Save Changes** to copy modified quantity and date changes to the planning or requisition lines that represent the graphical elements.  
 
-Per implementare le modifiche del piano di approvvigionamento, è necessario seguire i messaggi di azione risultanti dal prospetto di pianificazione oppure dalla richiesta di approvvigionamento. Per ulteriori informazioni, vedere Pianificaz - Esegui mess. azione.
+To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet. For more information, see Carry Out Action Msg.-Plan..
 
-## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Simboli e icone nella Scheda dettaglio Sequenza temporale
- |Simbolo/Icona|Descrizione|  
+## Symbols and Icons on the Timeline FastTab
+ |Symbol/Icon|Description|  
  |------------------|---------------------------------------|  
- |Croce nera|Ordini (sia domanda che approvvigionamento).<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
- |Cerchio rosso|Ordini di approvvigionamento esistenti che non sono nei suggerimenti di pianificazione.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Mostra magazzino previsto** è selezionato (grafico arancione).|  
- |Stella gialla|Previsione della domanda.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Nome previsione** contiene un valore.<br /><br /> Quando i campi **Mostra magazzino previsto** e **Includi suggerimenti pianificazione** sono entrambi selezionati, ciascuna stella gialla ha una controparte collegata nel grafico opposto. Ciò illustra come un approvvigionamento suggerito soddisfa la domanda prevista.|  
- |Cerchio verde con icona a forma di disco con una croce rossa|Ordine di approvvigionamento suggerito con messaggio di azione *Annulla*.<br /><br /> -   Non modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
- |Cerchio verde con icona a forma di disco con una stella|Ordini di approvvigionamento suggeriti con messaggio di azione *Nuovo*.<br /><br /> -   Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).|  
- |Cerchio verde con icona a forma di disco con una o due frecce|Ordini di approvvigionamento suggeriti con messaggio di azione *Riprogramma*, *Modifica Qtà*, o *Riprogr. e mod. qtà*<br /><br /> -   Modificabile.<br />-   Visibile quando il campo **Includi suggerimenti pianificazione** è selezionato (grafico verde).<br /><br /> Le frecce riflettono la direzione del suggerimento di pianificazione. Ad esempio, una freccia sinistra con un freccia rivolta verso l'alto corrisponde a un messaggio di azione *Riprogr. e mod. qtà* composto da una riprogrammazione all'indietro e un aumento della quantità.|  
+ |Black cross|Orders (both supply and demand).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Red circle|Existing supply orders that are not in planning suggestions.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Yellow star|Forecast demand.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Forecast Name** field has a value.<br /><br /> When both the **Show Projected Inventory** and the **Include Planning Suggestions** fields are selected, then each yellow star has a linked counterpart in the opposite graph. This illustrates how a suggested supply fulfills the forecasted demand.|  
+ |Green circle with an icon shaped as a disk that has a red cross|Suggested supply order with action message *Cancel*.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has a star|Suggested supply orders with action message *New*.<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has one or two arrows|Suggested supply orders with action message *Reschedule*, *Change Qty.*, or *Resched. and Chg. Qty.*<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).<br /><br /> The arrows reflect the direction of the planning suggestion. For example, a left arrow together with an up arrow reflects a *Resched. and Chg. Qty.* action message that consists of a backward rescheduling and a quantity increase.|  
+-->
+<!--When you access the drop-down menu for the **Timeline** FastTab, the following functions appear depending what you choose  
 
-Quando si accede al menu a discesa per la Scheda dettaglio **Sequenza temporale**, in base alla scelta eseguita vengono visualizzate le seguenti funzioni  
-
- |Funzione|Descrizione|  
+ |Function|Description|  
  |--------------|---------------------------------------|  
- |**Crea nuovo approvvigionamento**|Crea un nuovo elemento nel punto in cui si accede al menu a discesa. Tale elemento rappresenta un nuovo ordine di approvvigionamento suggerito. Diventa una nuova riga del prospetto di pianificazione quando si sceglie **Salva modifiche** nella scheda **Processo**.<br /><br /> Tutti i valori dei filtri definiti nei campi **Filtro ubicazione** o **Filtro variante** nella Scheda dettaglio **Opzioni** verranno applicati al nuovo ordine di approvvigionamento. **Nota:**  Se i campi filtro sono vuoti o hanno più di un valore, il nuovo ordine di approvvigionamento viene creato utilizzando i seguenti codici: <ul><li>Se il campo del filtro è vuoto, il nuovo approvvigionamento viene creato senza un'ubicazione o un codice variante.</li><li>Se più di un valore di filtro è definito, il nuovo approvvigionamento viene creato utilizzando il primo valore del filtro in base all'ordinamento.</li></ul> Se si desidera un altro codice variante o ubicazione nel nuovo ordine di approvvigionamento, è necessario modificarlo manualmente nella nuova riga di pianificazione.|  
- |**Regola automaticamente approvvigionamento**|Ottimizza un nuovo approvvigionamento creato nel grafico assicurando che risulti come magazzino zero prima dell'approvvigionamento successivo.|  
- |**Elimina approvvigionamento**|Elimina l'elemento nella Scheda dettaglio **Sequenza temporale** e la riga di pianificazione quando si sceglie **Salva modifiche** nella scheda **Processo**. L'icona diventa un disco con una croce rossa quando l'approvvigionamento è stato eliminato. **Nota:** è possibile eliminare solo un approvvigionamento del tipo di messaggio di azione *Nuovo*. Dopo aver scelto **Salva modifiche** nella scheda **Processo**, è necessario eliminare manualmente la riga di pianificazione in questione nel prospetto di pianificazione o nella richiesta di approvvigionamento.|  
- |**Mostra documento**|Apre l'ordine, la riga di pianificazione o la previsione che l'elemento rappresenta.|  
- |**Zoom indietro (CTRL++)**|Ingrandisce la scala dell'asse x, in modo che vengano visualizzati meno giorni. **Nota:**  È possibile ottenere lo stesso risultato tenendo premuto CTRL mentre si ruota la rotellina del mouse.|  
- |**Zoom avanti (CTRL+-)**|Riduce la scala dell'asse x, in modo che vengano visualizzati più giorni. **Nota:**  È possibile ottenere lo stesso risultato tenendo premuto CTRL mentre si ruota la rotellina del mouse.|  
- |**Reimposta zoom (CTRL+0)**|Ripristina la scala originale dell'asse x.|  
+ |**Create New Supply**|Creates a new element on the point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes** on the **Process** tab.<br /><br /> Any filter values that are defined in the **Location Filter** or **Variant Filter** fields on the **Options** FastTab will be applied to the new supply order. **Note:**  If the filter fields are empty or have more than one filter value, then the new supply order is created by using the following codes: <ul><li>If the filter field is empty, then the new supply is created without a location or variant code.</li><li>If more than one filter value is defined, then the new supply is created by using the first filter value according to the sorting order.</li></ul> If you want another variant or location code in the new supply order, then you must manually change it on the new planning line.|  
+ |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it creates zero inventory before the next supply.|  
+ |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes** on the **Process** tab. The icon changes to a disk that has a red cross when the supply has been deleted. **Note:**  You can only delete a supply of action message type *New*. After you choose **Save Changes** on the **Process** tab, you must manually delete the planning line in question in the planning or requisition worksheet.|  
+ |**Show Document**|Opens the order, planning line, or forecast that the element represents.|  
+ |**Zoom Out (Ctrl++)**|Makes the scale of the x-axis larger, so that fewer days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Zoom In (Ctrl+-)**|Makes the scale of the x-axis smaller, so that more days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Reset Zoom (Ctrl+0)**|Reverts the scale of the x-axis to what was used before you zoomed.|  
+-->
+<!--In addition to the keyboard actions that were mentioned earlier, you can also use the following keyboard actions in the **TimeLine** FastTab.  
 
-Oltre alle azioni da tastiera descritte in precedenza, è possibile utilizzare le seguenti azioni da tastiera nella Scheda dettaglio **Sequenza temporale**.  
-
- |Azione da tastiera|Descrizione|  
+ |Keyboard Action|Description|  
  |---------------------|---------------------------------------|  
- |CTRL + rotellina di scorrimento del mouse|Modifica la scala dell'asse x.|  
- |Selezionare un elemento, quindi premere MAIUSC+FRECCIA|Sposta l'elemento nella direzione della freccia utilizzata.|  
- |TAB|Passa all'elemento successivo.|  
- |MAIUSC+TAB|Passa all'elemento precedente.|  
- |Mentre si sposta un elemento, premere Esc.|Annulla lo spostamento. **Nota:** Non funziona se è stato rilasciato il pulsante del mouse.|
+ |Ctrl + scroll mouse wheel|Changes the scale of the x-axis.|  
+ |Select an element, then press Shift+Arrow|Moves the element in the direction of the arrow stroke.|  
+ |Tab|Moves to the next element.|  
+ |Shift+Tab|Moves to the previous element.|  
+ |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
+-->
 
-## <a name="see-also"></a>Vedi anche  
-[Pianif.](production-planning.md)   
+## <a name="see-also"></a>Vedere anche
+
+[Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
+[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

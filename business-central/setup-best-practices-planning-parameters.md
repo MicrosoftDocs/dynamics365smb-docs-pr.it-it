@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50e548a2e2272e0771a754f0ea2aee318433f761
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192233"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271920"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
@@ -26,7 +26,7 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
 |-----------------|-------------------|-------------|  
 |Metodo di riordino||Per ulteriori informazioni, vedere [Impostare le procedure ottimali: metodi di riordino](setup-best-practices-reordering-policies.md).|  
 |Impegna|Selezionare **Mai** quando l'articolo viene pianificato utilizzando un punto di riordino.<br /><br /> Nella produzione selezionare **Mai** per consentire al sistema di pianificazione di soddisfare tutte le richieste.<br /><br /> Selezionare **Facoltativo** per gli articoli che si potrebbero voler riservare a clienti prioritari.<br /><br /> Selezionare **Sempre** per articoli non specifici, come, ad esempio, articoli di tipo vario che sono in entrata per domande specifiche.|Gli impegni in genere neutralizzano lo scopo della pianificazione, ovvero bilanciare la domanda e l'approvvigionamento. Pertanto, gli articoli impostati per la pianificazione in genere non devono essere impegnati.<br /><br /> Se l'utente impegna una quantità di magazzino per una richiesta futura, la struttura di pianificazione verrà disturbata e il punto di riordino potrebbe non funzionare correttamente. Anche se il livello della quantità scorte previste è ammesso relativamente al punto di riordino, le quantità potrebbero non essere disponibili a causa dell'impegno.|  
-|Periodo di stabilizzazione|Impostare relativamente alla flessibilità del fornitore.<br /><br /> Un periodo più lungo consente di offrire un servizio clienti migliore, ma causa anche ulteriori azioni di riprogrammazione.|Se il fornitore accetta le modifiche dell'ultimo minuto agli ordini, utilizzare un periodo più lungo, ma essere pronti a più azioni di riprogrammazione. Se il fornitore richiede una pianificazione costante, abbreviare il periodo il più possibile.<br /><br /> Per informazioni sul campo **Periodo di stabilizzazione**, vedere [Mostra dettagli di pianificazione: Parametri di pianificazione](design-details-planning-parameters.md).|  
+|Periodo di stabilizzazione|Impostare relativamente alla flessibilità del fornitore.<br /><br /> Un periodo più breve consente di ridurre il capitale di lavoro evitando scorte eccessive, ma comporta anche azioni di riprogrammazione.|Se il fornitore accetta le modifiche dell'ultimo minuto agli ordini, utilizzare un periodo più breve, ma essere pronti a più azioni di riprogrammazione. Se il fornitore richiede una pianificazione costante, estendere il periodo il più possibile.<br /><br /> Per informazioni sul campo **Periodo di stabilizzazione**, vedere [Mostra dettagli di pianificazione: Parametri di pianificazione](design-details-planning-parameters.md).|  
 |Includi giacenze|Selezionare sempre quando si sta utilizzando il metodo di riordino lotto-per-lotto.|Non selezionare solo in circostanze particolari, come, ad esempio, quando gli articoli in magazzino non sono vendibili.|  
 |Lead time di sicurezza|Impostare un valore compreso tra 1D e 6D.<br /><br /> Impostare un lead time di sicurezza di almeno un giorno per assicurarsi che i rifornimenti siano disponibili il giorno precedente alla richiesta.<br /><br /> Se si utilizza un nuovo fornitore, definire un tempo maggiore finché non sono note le prestazioni di consegna.<br /><br /> Nella produzione definire lead time di sicurezza più lunghi per componenti critici.|L'approvvigionamento pianificato dal sistema per evitare l'esaurimento delle scorte arriverà lo stesso giorno in cui si verifica l'esaurimento delle scorte. Potrebbe risultare in ritardo di alcune ore se, ad esempio, la domanda è richiesta di mattina e l'approvvigionamento arriva nel pomeriggio. **Nota:** Il campo **Lead time di sicurezza** utilizza il calendario di base. Pertanto, 14D non significa necessariamente due settimane.|  
 |Scorta di sicurezza|Utilizzare per gli articoli con grandi fluttuazioni della domanda.<br /><br /> Nella produzione utilizzare per i componenti critici.<br /><br /> Utilizzare gli articoli che sono soggetti ai contratti di assistenza.|Se il campo **Punto riordino** non è compilato, la scorta di sicurezza funziona anche come punto di riordino.|  

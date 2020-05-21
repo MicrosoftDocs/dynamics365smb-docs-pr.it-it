@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183790"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262168"
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
 Per rendere più semplice eseguire analisi sui documenti, quali ordini di vendita, è possibile utilizzare le dimensioni. Le dimensioni sono attributi e valori che categorizzano i movimenti in modo da poterli seguire e analizzare. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
@@ -96,7 +96,7 @@ Per evitare di registrare movimenti con dimensioni contraddittorie o non pertine
 4.  Selezionare una combinazione bloccata di valori di dimensione e selezionare l'opzione **Bloccato** nel campo. Un campo vuoto indica che la combinazione di valori di dimensione corrispondente è ammessa. Ripetere la procedura se sono presenti altre combinazioni bloccate  
 
 > [!NOTE]  
->  Su righe e colonne vengono visualizzate le stesse dimensioni e pertanto tutte le combinazioni sono presenti due volte. In [!INCLUDE[d365fin](includes/d365fin_md.md)]l'impostazione scelta viene automaticamente visualizzata in entrambi i campi. Non è possibile immettere alcuna selezione nei campi lungo la diagonale che ha origine nell'angolo in alto a sinistra perché questi campi hanno la stessa dimensione sia sulla riga che sulla colonna.  
+>  Su righe e colonne vengono visualizzate le stesse dimensioni e pertanto tutte le combinazioni sono presenti due volte. In [!INCLUDE[d365fin](includes/d365fin_md.md)] l'impostazione scelta viene automaticamente visualizzata in entrambi i campi. Non è possibile immettere alcuna selezione nei campi lungo la diagonale che ha origine nell'angolo in alto a sinistra perché questi campi hanno la stessa dimensione sia sulla riga che sulla colonna.  
 >   
 >  L'opzione selezionata viene visualizzata dopo l'uscita dal campo.  
 >   
@@ -106,7 +106,8 @@ Per evitare di registrare movimenti con dimensioni contraddittorie o non pertine
 Le dimensioni globali e a collegamento rapido possono essere utilizzate come filtro ovunque in [!INCLUDE[d365fin](includes/d365fin_md.md)], tra cui report, processi batch e visualizzazioni analisi. Le dimensioni globali e a collegamento rapido sono sempre disponibili per essere inserite direttamente senza prima aprire la pagina **Dimensioni**. Nelle righe di registrazioni e documenti, è possibile selezionare dimensioni globali e a collegamento rapido in un campo della riga. È possibile impostare due dimensioni globali e otto dimensioni a collegamento rapido. Scegliere le dimensioni che si utilizzano maggiormente.
 
 > [!Important]  
-> La modifica di una dimensione globale o a collegamento rapido richiede l'aggiornamento di tutti i movimenti registrati con la dimensione. È possibile eseguire questa task con la funzione **Cambia dimensioni globali**, ma può richiedere molto tempo e influire sulle prestazioni. Di conseguenza, scegliere con attenzione le dimensioni globali e a collegamento rapido in modo da non dover modificarle in seguito.
+> La modifica di una dimensione globale o a collegamento rapido richiede l'aggiornamento di tutti i movimenti registrati con la dimensione. È possibile eseguire questa attività con la funzione **Cambia dimensioni globali**, ma può richiedere molto tempo e influire sulle prestazioni. Di conseguenza, scegliere con attenzione le dimensioni globali e a collegamento rapido in modo da non dover modificarle in seguito. <br /><br />
+> Per ulteriori informazioni, vedere [Per cambiare le dimensioni globali](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Quando si aggiunge o si modifica una dimensione globale o a collegamento rapido, viene eseguita automaticamente la disconnessione e una nuova connessione di modo che il nuovo valore possa essere utilizzato in tutta l'applicazione.
@@ -115,8 +116,24 @@ Le dimensioni globali e a collegamento rapido possono essere utilizzate come fil
 2. Nella Scheda dettaglio **Dimensioni**, riempire i campi. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Per cambiare le dimensioni globali
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cambia dimensioni globali** e quindi scegliere il collegamento correlato.
-2. Passare sulle azioni e sui campi nella pagina con il mouse per informazioni su come cambiare le dimensioni globali e a collegamento rapido.
+Quando si modifica una dimensione globale o a collegamento rapido, tutti movimenti registrati con la dimensione in questione vengono aggiornati. Poiché questo processo può richiedere molto tempo e influire sulle prestazioni, vengono fornite due diverse modalità per adattare il processo alle dimensioni del database.  
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.
+2. Scegliere l'azione **Cambia dimensioni globali**.
+3. Nella parte superiore della pagina, selezionare una delle seguenti opzioni per definire in quale modalità viene eseguito il processo batch.
+
+    |Opzione|Descrizione|
+    |-|-|
+    |**Sequenziale**|(Predefinita) L'intera modifica della dimensione viene eseguita in una transazione riportando tutti i movimenti alle dimensioni precedenti alla modifica.<br /><br />Questa opzione è consigliata se la società contiene relativamente pochi movimenti pubblicati in cui il completamento richiederà il tempo più breve. Il processo blocca più tabelle e blocca altri utenti fino al suo completamento. Da notare che su database di grandi dimensioni, il completamento del processo potrebbe non riuscire in questa modalità. In tal caso, utilizzare l'opzione **Parallela**.|
+    |**Parallela**|(Selezionare la casella di controllo **Elaborazione parallela**). La modifica della dimensione viene eseguita come sessioni in background multiple e l'operazione viene suddivisa in più transazioni.<br /><br />Questa opzione è consigliata per società o database di grandi dimensioni con molti movimenti pubblicati in cui il completamento richiederà il tempo più breve. Da notare che con questa modalità, il processo di aggiornamento non verrà avviato se sono presenti più sessioni di database attive.|  
+
+4. Nei campi **Cod. dimens. globale 1** e/o **Cod. dimens. globale 2** immettere la/e nuova/e dimensione/i. Le dimensioni correnti sono visualizzate in grigio dietro i campi.
+5. Se è stata selezionata la modalità **Sequenziale**, selezionare l'azione **Avvia**.
+6. Se è stata selezionata la modalità **Parallela**, selezionare l'azione **Prepara**.
+
+    La scheda **Movimenti log** viene compilato con le informazioni sulle dimensioni che verranno modificate.
+7. Uscire da [!INCLUDE[d365fin](includes/d365fin_md.md)], quindi accedere nuovamente.
+8. Scegliere l'azione **Avvia** per avviare l'elaborazione parallela delle modifiche delle dimensioni.
 
 ### <a name="example-of-dimension-setup"></a>Esempio di setup dimensioni
 Supponiamo che la società desideri tenere traccia delle transazioni in base alla struttura organizzativa e alle posizioni geografiche. A tale scopo, è possibile impostare due dimensioni nella pagina **Dimensioni** :

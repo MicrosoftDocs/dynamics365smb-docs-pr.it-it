@@ -2,15 +2,15 @@
 title: Catalogo di apprendimento per utenti aziendali
 description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190853"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271944"
 ---
 # <a name="business-users-learning-catalog"></a>Catalogo di apprendimento per utenti aziendali
 
@@ -33,7 +33,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Utilizzare la contabilità in Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | È necessario utilizzare la contabilità nell'ambito della propria società? Questo percorso di apprendimento può essere utile per iniziare a utilizzare funzionalità di contabilità in Business Central. Vengono fornite informazioni sul setup della contabilità industriale costi e viene indicato come creare l'anagrafica per la contabilità industriale, trasferire le transazioni e allocare i costi a un gruppo di conti.   | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 16 minuti |
 | [Usare registrazioni in Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Devi creare e contabilizzare voce di registrazione in Business Central? Questo percorso fornisce le informazioni necessarie. Nei moduli di questo percorso di apprendimento vengono fornite informazioni sulle definizioni di registrazioni COGE, sulla creazione di transazioni di registrazione, incluse transazioni ricorrenti, e sulla registrazione di transazioni.                  | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 1 minuto   |
 | [Riconciliare i conti correnti bancari in Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Si desidera scoprire come conciliare i conti correnti bancari in Business Central? In questo percorso di apprendimento vengono fornite informazioni sulla funzionalità di riconciliazione bancaria e sulle registrazioni di riconciliazione.                                                                                                                           | Percorso di apprendimento online gratuito e personalizzato | 1 ora e 3 minuti   |
-| [Utilizzare più valute in Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | È necessario utilizzo più valute? In tal caso, questo percorso sarà utile per comprendere i passaggi da completare per configurare e utilizzare più valute, elaborare pagamenti e fatture in diverse valute e adeguare i tassi di cambio quando necessario.                                             | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 4 minuti  |
+| [Utilizzare più valute in Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | È necessario utilizzo più valute? In tal caso, questo percorso sarà utile per comprendere i passaggi da completare per configurare e utilizzare più valute, elaborare pagamenti e fatture in diverse valute e adeguare i tassi di cambio quando necessario.                                             | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 4 minuti  |
 | [Creare report finanziari in Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Si ha la responsabilità della generazione di report finanziari in Business Central? Questo percorso di apprendimento illustra come creare budget e utilizzare situazioni contabili, dimensioni e standard eXtensible Business Reporting Language (XBRL) per generare report finanziari in genere necessari per la maggior parte delle aziende. | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 44 minuti |
 | [Elaborare attività finanziarie periodiche in Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Si ha la responsabilità dei processi di chiusura di fine periodo e anno? Completare questo modulo, che spiega come inviare promemoria e note di addebito interessi ai clienti. Vengono anche fornite informazioni su elaborazione e report Intrastat e sulla chiusura di un anno fiscale.                                                     | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 3 minuti  |
 ## <a name="trade"></a>Commercio<a name="trade"></a>

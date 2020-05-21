@@ -1,23 +1,24 @@
 ---
 title: Estensione Invia avviso di rimessa | Microsoft Docs
 description: Descrive l'estensione Invia avviso di rimessa, che consente di inviare l'avviso di rimessa dai movimenti contabili fornitori e dalle voci di registrazione pagamenti tramite posta elettronica.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 439f9997e9ee70ff290a42e5044a9dbaff1112de
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 05/05/2020
+ms.author: edupont
+ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190349"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339924"
 ---
 # <a name="send-remittance-advice"></a>Invia avviso di rimessa
+
 Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono in corso dei pagamenti, è ora possibile inviare l'avviso di rimessa in blocco tramite posta elettronica dalle registrazioni pagamenti nonché inviarlo nuovamente dopo l'esecuzione dei pagamenti dai movimenti contabili fornitori utilizzando i profili di invio documenti.
 
 > [!NOTE]
@@ -26,9 +27,11 @@ Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono
 È possibile inviare l'avviso di rimessa in due modi:
 
 * Nella pagina **Registrazioni pagamenti**, scegliere **Naviga**, **Pagamenti**, **Invia avviso di rimessa** per inviare l'avviso di rimessa per uno o più righe di registrazione pagamenti via posta elettronica
-* Nella pagina **Movimenti contabili fornitori**, scegliere Azione, Funzioni, Invia avviso di rimessa per inviare l'avviso di rimessa via posta elettronica dopo la registrazione dei pagamenti fornitori per uno o più movimenti contabili fornitori
+* Nella pagina **Movimenti contabili fornitori**, scegliere **Azione**, **Funzioni**, **Invia avviso di rimessa** per inviare l'avviso di rimessa via posta elettronica dopo la registrazione dei pagamenti fornitori per uno o più movimenti contabili fornitori
 
 ## <a name="see-also"></a>Vedere anche
+
 [Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Inviare documenti via e-mail](ui-how-send-documents-email.md)  

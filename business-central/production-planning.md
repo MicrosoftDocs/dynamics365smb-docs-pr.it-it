@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 279ca56885eb4bab95322387bc6b9f857139c370
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191309"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339972"
 ---
 # <a name="planning"></a>Pianificazione
 A seconda del volume e della natura dei prodotti, è necessario pianificare quotidianamente o settimanalmente le operazioni di produzione richieste per trasformare gli input in prodotti finiti. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili funzionalità per gestire la domanda anticipata ed effettiva dei reparti vendite, assemblaggio e produzione, nonché funzionalità per la pianificazione della distribuzione tramite unità di stockkeeping e trasferimenti di ubicazione.
@@ -43,14 +43,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ricalcolare i calendari dell'area di produzione o del centro di lavoro in seguito alle modifiche alla pianificazione.|[Per calcolare un calendario aree di produzione](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.|[Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)|
 |Visualizzare le scorte disponibili previste di un articolo in modi diversi e sapere quali fattori, tra domanda lorda, carico ordini pianificati e di altro tipo, influiscono nel tempo sulla giacenza.|[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)|  
-|Eseguire le attività di pianificazione selezionate, come la modifica o aggiunta di riga del prospetto di pianificazione, in una visualizzazione grafica del piano di approvvigionamento.|[Modificare i suggerimenti di pianificazione in una visualizzazione grafica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|
+<!--|Eseguire le attività di pianificazione selezionate, come la modifica o aggiunta di riga del prospetto di pianificazione, in una visualizzazione grafica del piano di approvvigionamento.|[Modificare i suggerimenti di pianificazione in una visualizzazione grafica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
 ## <a name="see-also"></a>Vedi anche
+
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
+[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

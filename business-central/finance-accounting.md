@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184030"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372618"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
@@ -40,7 +40,7 @@ Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[d365fin](includes/d365fi
 > [!IMPORTANT]  
 > L'indirizzo e-mail del contabile deve essere un indirizzo di lavoro che si basa su Azure Active Directory. Se il contabile utilizza un altro tipo di posta elettronica, l'invito non può essere inviato. 
 > 
-> Poiché questa attività richiede l'accesso alla gestione di utenti e licenze in Azure Active Directory, all'utente che invia questo invito deve essere assegnato il ruolo **Amministratore globale** o **Amministratore utente** nell'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Informazioni sui ruoli di amministratore](/office365/admin/add-users/about-admin-roles) nell'interfaccia di amministrazione di Office 365.  
+> Poiché questa attività richiede l'accesso alla gestione di utenti e licenze in Azure Active Directory, all'utente che invia questo invito deve essere assegnato il ruolo **Amministratore globale** o **Amministratore utente** nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Informazioni sui ruoli di amministratore](/microsoft-365/admin/add-users/about-admin-roles) nei contenuti di amministrazione di Microsoft 365.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Aggiunta del contabile a Office 365 tramite il portale di Azure
 

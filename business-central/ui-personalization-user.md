@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195389"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262192"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -66,7 +66,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |Ignorare un campo quando si preme INVIO.|Selezionare la freccia accanto al campo, o l'intestazione di una colonna in un elenco, e scegliere **Escludi da Accesso rapido**. <br /><br /> Se questa opzione non è visualizzata, il campo è già impostato per essere ignorato. In tal caso, per smettere di ignorare il campo, scegliere **Includi in Accesso rapido**. |Vedere [Accelerazione dell'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry)|
 |Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta**, **Rimuovi** o **Nascondi**.|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|  
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
-
+|Avvia sempre un elenco come espanso o compresso|Scegli il pulsante Espandi tutto o Comprimi tutto nell'angolo in alto a sinistra dell'elenco oppure scegli l'azione Espandi tutto o Comprimi tutto nel menu della prima colonna. |Si applica agli elenchi di gerarchie comprimibili.|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Personalizzazione delle azioni
 

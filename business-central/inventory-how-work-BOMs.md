@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 517d293c172480d9efc875718cc0daf49947d9b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181918"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324224"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -72,17 +72,21 @@ Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
 
-**Attenzione**: una volta utilizzata la funzione **Esplodi DB**, non è possibile annullare l'operazione facilmente. È necessario eliminare le righe ordine di vendita che rappresentano i componenti e registrare nuovamente una riga ordine di vendita per l'articolo di assemblaggio.
+La funzione Esplodi DB è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli figlio su tutti i sottoassemblaggi in una DB di assemblaggio.
+
+> [!CAUTION]  
+>  Una volta utilizzata la funzione **Esplodi DB**, non è possibile annullare l'operazione facilmente. È necessario eliminare le righe ordine di vendita che rappresentano i componenti e registrare nuovamente una riga ordine di vendita per l'articolo di assemblaggio.
 
 La seguente procedura è basata su fattura di vendita. La stessa procedura si applica ad altri documenti di vendita e a tutti i documenti di acquisto.
 
-1. Nell'angolo superiore destro scegliere l'icona **Cerca pagina o report**, immettere **Fatture vendite**, quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.
 2. Aprire una fattura di vendita che contiene una riga per un articolo di assemblaggio.
 3. Scegliere la riga per un articolo di assemblaggio quindi l'azione riga **Esplodi DB**.
 
 Tutti i campi nella riga della fattura di vendita per l'articolo di assemblaggio vengono cancellati ad eccezione dei campi **Descrizione** e **Articolo**. Le righe intere della fattura di vendita vengono immesse per i componenti e le risorse possibili che costituiscono l'articolo di assemblaggio.
 
-**Nota**: la funzione Esplodi DB è anche disponibile nella pagina **DB assemblaggio**.
+> [!NOTE]
+> Il report **Lista prelievo per ordine** viene inoltre modificato per mostrare solo i componenti. Ciò significa che un lavoratore warehouse che preleva l'articolo principale, l'articolo di assemblaggio non lo vedrà nella lista prelievo. Per ulteriori informazioni, vedere [Stampare la lista prelievo](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Per calcolare il costo standard di un articolo di assemblaggio
 Si calcola il costo unitario di un articolo di assemblaggio eseguendo il ricalcolo del costo unitario di ciascun componente e risorsa nella DB di assemblaggio dell'articolo.

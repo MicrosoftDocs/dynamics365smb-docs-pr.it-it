@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196877"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324056"
 ---
 # <a name="data-ownership-models"></a>Modelli di proprietà dei dati
 [!INCLUDE[d365fin](includes/cds_long_md.md)] richiede di specificare un proprietario per i dati archiviati. Per ulteriori informazioni, vedere [Proprietà delle entità](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) nella documentazione di Power Apps. Quando si imposta l'integrazione tra [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)] devi scegliere uno dei due modelli di proprietà per i record sincronizzati:
@@ -34,6 +34,9 @@ Poiché le Business Unit non hanno implicazioni legali e commerciali, non è pos
 * Creiamo una Business Unit predefinita con lo stesso nome della società. Ad esempio, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Creiamo un team proprietario separato con lo stesso nome della società e lo associamo alla Business Unit. Il nome del team è preceduto dal prefisso "BCI -." Ad esempio, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * I record creati e sincronizzati con [!INCLUDE[d365fin](includes/cds_long_md.md)] sono assegnati al team "Proprietario BCI" collegato alla Business Unit.
+
+> [!NOTE]
+> Se si rinomina una società in [!INCLUDE[d365fin](includes/d365fin_md.md)], i nomi della società, dell'attività e del team che creiamo automaticamente [!INCLUDE[d365fin](includes/cds_long_md.md)] non sono aggiornati. Poiché per l'integrazione viene utilizzato solo l'ID società, ciò non influisce sulla sincronizzazione. Se si desidera che i nomi corrispondano, è necessario aggiornare la società, la Business Unit e il team in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 L'immagine seguente mostra un esempio di questa configurazione dei dati in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ La sincronizzazione determina a quale team devono appartenere i record. Questo �
 > [!NOTE]
 > I record diventano di sola lettura dopo che una società è stata aggiunta e salvata, quindi assicurati di scegliere la società corretta.
 
-### <a name="choosing-a-different-business-unit"></a>Scelta di una Business Unit diversa
-La selezione della Business Unit può essere modificata manualmente. Se scegli un'altra unità, ad esempio quella creata in precedenza in CDS, manterrà il nome originale. Cioè, non verrà aggiunto il suffisso con l'ID società. Creeremo un team che utilizza la convenzione di denominazione.
+## <a name="choosing-a-different-business-unit"></a>Scelta di una Business Unit diversa
+È possibile modificare la selezione della Business Unit se si utilizza il modello di proprietà Team. Se si utilizza il modello di proprietà Persona, la Business Unit predefinita è sempre selezionata. 
+
+Se si sceglie un'altra Business Unit, ad esempio quella creata in precedenza in [!INCLUDE[d365fin](includes/cds_long_md.md)], manterrà il nome originale. Cioè, non verrà aggiunto il suffisso con l'ID società. Creeremo un team che utilizza la convenzione di denominazione.
+
+Quando si cambia una Business Unit, è possibile scegliere solo le Business Unit che si trovano a un livello al di inferiore alla Business Unit principale.
 
 ## <a name="person-ownership"></a>Proprietà della persona
-Se scegli il modello di proprietà Persona, devi specificare ciascun venditore che sarà proprietario di nuovi record. La Business Unit e il team vengono creati come descritto nella sezione precedente.  
+Se scegli il modello di proprietà Persona, devi specificare ciascun venditore che sarà proprietario di nuovi record. La Business Unit e il team vengono creati come descritto nella sezione precedente [Proprietà del team](admin-cds-company-concept.md#team-ownership).
+
+La Business Unit predefinita viene utilizzata quando viene scelto il modello di proprietà Persona e non è possibile scegliere un'altra Business Unit. Il team associato alla Business Unit predefinita disporrà di record per entità comuni, come l'entità Prodotto, che non sono correlate a specifici venditori.
 
 ## <a name="see-also"></a>Vedere anche
 [Informazioni su [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

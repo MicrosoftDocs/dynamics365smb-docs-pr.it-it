@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Office 365
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: b04da7a7fa6d831646c6af9f0606afa90dc00bd6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188854"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333862"
 ---
 # <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Utilizzo dello stesso account di Office 365 in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] e Microsoft Invoicing
-Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]. In tutti i casi, se si accede al portale di Office, è possibile che venga visualizzata una sezione denominata **Microsoft Invoicing** selezionabile con un clic. Questo elemento fa parte della sottoscrizione a Office 365 Business Premium, quindi non tutti gli utenti visualizzeranno tale sezione nel portale di Office.  
+Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]. In tutti i casi, ad un certo punto potrebbe essere stato visualizzato un riquadro chiamato **Microsoft Invoicing** e potrebbe essere stato fatto clic su di esso. Era un'app che faceva parte di quello che ora è Microsoft 365 Business Standard ed era precedentemente noto come la sottoscrizione a Office 365 Business Premium, quindi non tutti avranno visto quel riquadro nella propria esperienza di Office 365.  
 
-Se si accede a Microsoft Invoicing, verrà visualizzato un messaggio nel quale viene comunicato che non è possibile accedere a Microsoft Invoicing perché l'account è utilizzato in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Microsoft Invoicing non è più disponibile, ma se fosse necessario accedere a Invoicing per recuperare i dati, è possibile che venga visualizzato un messaggio in cui non è possibile accedere a Microsoft Invoicing poiché l'account è utilizzato in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Un messaggio simile viene visualizzato se si installa l'app mobile per Invoicing.  
 
 ## <a name="workaround"></a>Soluzione alternativa
-Invoicing e [!INCLUDE[d365fin](includes/d365fin_md.md)] dispongono di una piattaforma condivisa. Di conseguenza, quando l'utente fa clic su Invoicing nel portale di Office, viene riconosciuto come un utente esistente di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ciò si verifica perché Invoicing non può utilizzare la stessa società in uso in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing e [!INCLUDE[d365fin](includes/d365fin_md.md)] dispongono di una piattaforma condivisa. Di conseguenza, quando si fa clic su Invoicing nell'interfaccia di amministrazione di Microsoft 365, si viene riconosciuti come un utente esistente di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ciò si verifica perché Invoicing non può utilizzare la stessa società in uso in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Sarà necessario accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], rinominare la società esistente, quindi creare una nuova società che potrà essere utilizzata in Invoicing. Nessun dato viene spostato né sovrascritto durante questa soluzione alternativa.
 
@@ -41,7 +41,7 @@ Sarà necessario accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)], rinomin
 7.  Quando il sistema è nuovamente pronto all'uso, scegliere il pulsante **Crea nuova società**.  
 8.  Nella finestra di dialogo visualizzata, specificare il nome come *La mia società*, quindi scegliere l'opzione **Produzione - Solo dati setup**.  
 
-Anche tale operazione richiede alcuni minuti. Al completamento del processo, sarà possibile accedere a Invoicing come parte dell'esperienza Office 365 Business Premium.  
+Anche tale operazione richiede alcuni minuti. Al completamento del processo, sarà possibile accedere a Invoicing come parte dell'esperienza Microsoft 365 Business Standard. Ma solo per esportare i dati poiché l'app Invoicing è obsoleta.  
 
 ### <a name="what-about-my-data"></a>Quali modifiche vengono apportate ai miei dati?
 Quando si rinomina l'elemento originale in La mia società, le tabelle del database in cui sono memorizzati i dati [!INCLUDE[d365fin](includes/d365fin_md.md)] esistenti vengono rinominate, ma i dati stessi non subiscono alcuna modifica.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195956"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324008"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Abilitare il prelievo di articoli tramite il metodo FEFO
 FEFO (First-Expired-First-Out) è un metodo di ordinamento che assicura che vengano prelevati per primi gli articoli meno recenti, ovvero quelli con le date di scadenza più prossime.  
@@ -23,7 +23,7 @@ FEFO (First-Expired-First-Out) è un metodo di ordinamento che assicura che veng
  La funzionalità può essere utilizzata solo quando vengono soddisfatti i seguenti criteri:  
 
 -   L'articolo deve avere un numero seriale o di lotto.  
--   Nel setup del codice di tracciabilità dell'articolo è necessario selezionare il campo **Tracciabilità NS specifico** o **Tracciab. lotto specifico**.  
+-   Nel setup del codice di tracciabilità dell'articolo è necessario selezionare il campo **Tracciab. NS in warehouse** o **Tracciab. lotto in warehouse**.  
 -   L'articolo deve essere registrato in magazzino con una data di scadenza.  
 -   Nella scheda Ubicazione, la casella di controllo **Richiesto prelievo** deve essere selezionata.  
 -   Nella scheda ubicazione è necessario selezionare la casella di controllo **Prelievo in base a FEFO**.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189485"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272088"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
@@ -27,6 +27,9 @@ Se una stampante cloud non è installata e configurata, o se una stampante insta
 Nella pagina **Gestione stampante**, è possibile visualizzare le stampanti configurate. Dopo aver configurato una o più stampanti, è possibile aprire la pagina **Selezioni stampante** per effettuare la confiugurazione per l'account utente per indicare i report specifici da stampare e con quale stampante.
 
 Quando una stampante viene configurata e assegnata a report specifici, si stampa un report selezionando il pulsante **Stampa** nella pagina di richiesta del report. Per ulteriori informazioni, vedere [Stampa di un report](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Ridimensionamento dei lavori di stampa
+La stampa cloud è progettata per documenti di dimensioni ragionevoli. La maggior parte dei servizi cloud, inclusi PrintNode e HP ePrint, ha un limite di 10 MB per processo. Se è necessario stampare report più grandi, potrebbe essere necessario dividerli in più stampe.
 
 ## <a name="to-set-up-a-printer"></a>Per configurare una stampante
 Nella pagina **Gestione della stampante**, puoi vedere le stampanti che sono state configurate e puoi accedere alla pagina **Impostazioni** per ciascuna stampante per modificare una configurazione esistente o configurare una nuova stampante.

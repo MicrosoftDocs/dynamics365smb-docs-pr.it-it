@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194477"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324032"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 Il sistema di sicurezza di [!INCLUDE[d365fin](includes/d365fin_md.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ I set di autorizzazioni creati dagli utenti, come nuovi o come copie, sono di ti
 
 Il nuovo set di autorizzazioni, contenente tutte le autorizzazioni del set di autorizzazioni copiate, viene aggiunto come nuova riga nella pagina **Set di autorizzazioni**. È ora possibile modificare le autorizzazioni nel nuovo set di autorizzazioni. Si noti che le linee sono ordinate alfabeticamente all'interno di ciascun tipo.
 
+### <a name="to-export-and-import-a-permission-set"></a>Per esportare e importare un set di autorizzazioni
+Per impostare rapidamente le autorizzazioni, è possibile importare set di autorizzazioni che sono state esportate da un altro tenant [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+In ambienti multitenant, un set di autorizzazioni verrà importato in un tenant specifico, ossia l'ambito dell'importazione è "Tenant".
+
+1. Nella pagina **Set di autorizzazioni** nel tenant 1, selezionare la riga o le tighe per i set di autorizzazioni, quindi selezionare l'azione **Esporta set di autorizzazioni**.
+
+    Un file XML viene creato nella cartella di download sul computer. Per impostazione predefinita, si chiama "Export Permission Sets.xml"
+
+2. Nella pagina **Set di autorizzazioni** nel tenant 2, selezionare l'azione **Importa set di autorizzazioni**.
+3. Nella finestra di dialogo **Importa set di autorizzazioni**, valutare se si desidera unire i set di autorizzazioni esistenti con eventuali nuovi set di autorizzazioni nel file XML.
+
+    Se si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni esistenti con lo stesso nome di quelli esistenti nel file XML verranno uniti ai set di autorizzazioni importati.
+
+    Se non si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni esistenti con lo stesso nome di quelli esistenti nel file XML verranno ignorati durante l'importazione. In tal caso, si riceve una notifica relativa ai set di autorizzazioni ignorati.
+
+4. Dalla finestra di dialogo **Importa**, trovare e selezionare il file XML da importare, quindi scegliere l'azione **Apri**.
+
+I set di autorizzazioni vengono importati.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Per creare o modificare le autorizzazioni manualmente
 In questa procedura verrà illustrato come aggiungere o modificare autorizzazioni manualmente. Le autorizzazioni possono anche essere create automaticamente a partire dalle proprie azioni nell'interfaccia utente. Per ulteriori informazioni, vedere [Per creare o modificare le autorizzazioni registrando le azioni](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un grupp
 2. Nella pagina **Utenti** selezionare l'utente pertinente quindi scegliere l'azione **Set di autorizzazioni per gruppo di utenti**.
 3. Nella pagina **Set di autorizzazioni per gruppo di utenti** selezionare la casella di controllo **[nome gruppo di utenti]** in una riga per il set di autorizzazioni pertinente per assegnare il set al gruppo di utenti.
 4. Selezionare la casella di controllo **Tutti i gruppi di utenti** per assegnare il set di autorizzazioni a tutti i gruppi di utenti.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Per rimuovere le autorizzazioni obsolete da tutti i set di autorizzazioni
+1. Nella pagina **Set di autorizzazioni**, scegliere l'azione **Rimuovi autorizzazioni obsolete**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).

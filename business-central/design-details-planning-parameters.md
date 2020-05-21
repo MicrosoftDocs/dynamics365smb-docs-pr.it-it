@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184894"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272040"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La modalità in cui l'approvvigionamento degli articoli è controllato dal siste
 |-------------|---------------|  
 |Definire se l'articolo deve essere pianificato|Metodo di riordino = Vuoto|  
 |Definire quando riordinare|Intervallo di tempo<br /><br /> Punto riordino<br /><br /> Lead time di sicurezza|  
-|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordinamento<br />-   Lotto-per-Lotto|  
+|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordine<br />-   Lotto-per-Lotto|  
 |Ottimizzare il momento e la quantità di riordino|Periodo di riprogrammazione<br /><br /> Periodo di accumulo lotti<br /><br /> Periodo di stabilizzazione|  
 |Modificare gli ordini di approvvigionamento|Quantità minima ordine<br /><br /> Quantità massima ordine<br /><br /> Molteplicità ordine|  
 |Delimitare l'articolo pianificato|Politica di produzione:<br /><br /> -   Prod. per Magazzino<br />-   Prod. su Ordine|  
@@ -77,6 +77,8 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 |**Periodo di riprogrammazione**|Questo campo viene utilizzato per determinare se il messaggio di azione deve ripianificare un ordine esistente o annullarlo e creare un nuovo ordine. L'ordine esistente verrà riprogrammato all'interno di un periodo di riprogrammazione prima dell'approvvigionamento corrente e fino a un periodo di riprogrammazione dopo l'approvvigionamento corrente.|  
 |**Periodo di accumulo lotti**|Con il metodo di riordino lotto per lotto, questo campo viene utilizzato per accumulare più esigenze di approvvigionamento in un unico ordine di approvvigionamento. A partire dal primo approvvigionamento pianificato, il sistema accumula tutte le necessità di approvvigionamento nel periodo di accumulo lotti in un approvvigionamento, che viene inserito nella data del primo approvvigionamento. La domanda esterna al periodo di accumulo lotto non è coperta da questo approvvigionamento.|  
 |**Periodo di stabilizzazione**|Questo campo viene utilizzato per evitare la riprogrammazione secondaria di un approvvigionamento esistente nel tempo. Le modifiche a partire dalla data di approvvigionamento fino a un periodo di stabilizzazione dalla data di approvvigionamento non genereranno messaggi di azione.<br /><br /> Il periodo di stabilizzazione specifica un periodo di tempo durante il quale non deve essere proposta alcuna ripianificazione degli ordini di approvvigionamento esistenti. Ciò limita il numero di inutili ripianificazioni dell'approvvigionamento esistente a una data successiva se la data riprogrammata è compresa nel periodo di stabilizzazione.<br /><br /> Di conseguenza, un delta positivo tra la nuova data di approvvigionamento suggerita e la data di approvvigionamento originale sarà sempre maggiore del periodo di stabilizzazione.|  
+> [!NOTE]
+> Con il metodo di riordino lotto per lotto, il valore del campo **Periodo di accumulo lotti** deve essere uguale o superiore rispetto al valore del campo **Periodo di stabilizzazione**. In caso contrario, il periodo di stabilizzazione verrà automaticamente ridotto durante la procedura di pianificazione in base al periodo di accumulo lotti.  
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 

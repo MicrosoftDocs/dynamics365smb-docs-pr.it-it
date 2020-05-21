@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41584b676db045bdf7317ced9b519f0784b41453
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192629"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262096"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 Molti spedizionieri forniscono dei servizi via Internet che consentono di seguire il percorso di pacchi che sono stati loro affidati. Se ci si avvale di spedizionieri che offrono questo tipo di servizio può risultare molto utile impostare delle informazioni di base che vengono utilizzate per rintracciare automaticamente le spedizioni registrate. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md).  
@@ -24,8 +24,9 @@ Molti spedizionieri forniscono dei servizi via Internet che consentono di seguir
 ## <a name="to-track-a-package"></a>Per rintracciare un collo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
 2. Aprire la spedizione desiderata.
-3. Nel campo **Nr. identificazione collo** immettere il numero di collo che è stato comunicato dallo spedizioniere.
-4. Scegliere l'azione **Traccia collo**.
+3. Scegliere l'azione **Aggiorna documento**.
+4. Nel campo **Nr. identificazione collo** immettere il numero di collo che è stato comunicato dallo spedizioniere. Aggiornare **Spedizioniere** se necessario e chiudere la pagina.
+5. Scegliere l'azione **Traccia collo**.
 
 La pagina di tracciabilità dello spedizioniere viene aperta nel browser predefinito.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194813"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324368"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -45,6 +45,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare una fattura di vendita per registrare il contratto con un cliente per vendere prodotti con determinate condizioni di consegna e pagamento. |[Fatturare le vendite](sales-how-invoice-sales.md) |
 | Elaborare un ordine di vendita con la spedizione parziale o la spedizione diretta. |[Vendere prodotti](sales-how-sell-products.md) |
 |Capire cosa accade quando si registrano documenti di vendita.|[Registrazione di vendite](ui-post-sales.md)|
+|Prepararsi a prelevare articoli per la spedizione.|[Stampare la lista prelievo](sales-how-print-picking-list.md)|
 |Impostare righe di vendita o acquisto standard da inserire nei documenti, ad esempio, per ordini di approvvigionamento ricorrenti.|[Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)|  
 | Collegare un ordine di vendita a un ordine di acquisto per vender un articolo con spedizione diretta che verrà consegnato direttamente dal fornitore al cliente. |[Effettuare spedizioni dirette](sales-how-drop-shipment.md) |
 |Ricevere un articolo di catalogo spedito da un fornitore al magazzino in modo da spedire l'articolo al cliente.|[Creare ordini speciali](sales-how-to-create-special-orders.md)|

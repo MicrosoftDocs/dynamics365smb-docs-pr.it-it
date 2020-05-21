@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190685"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262120"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
@@ -123,11 +123,12 @@ Nella pagina **Sollecito** è possibile compilare manualmente la Scheda dettagli
 4. Scegliere l'azione selezionare **Suggerisci riga sollecito**.
 5. Nella finestra **Crea solleciti** compilare i campi per definire come e per chi vengono creati i solleciti.
 6. Se si desidera che i solleciti contengano i movimenti aperti con importi insoluti che sono in sospeso, selezionare la casella di controllo **Includi movimenti in sospeso**.
+7. Se si desidera che i solleciti contengano solo i movimenti aperti con importi insoluti, selezionare la casella di controllo **Solo movimenti con importi insoluti**. Verranno visualizzate solo fatture e pagamenti in quanto si tratta dei movimenti per i quali i pagamenti dei clienti potrebbero essere scaduti.
 
     > [!Important]
-    > I movimenti aperti che sono in sospeso verranno inseriti, indipendentemente dall'impostazione nella casella di controllo Solo movimenti con importi insoluti.
+    > I movimenti aperti che sono in sospeso verranno inseriti, indipendentemente dall'impostazione nella casella di controllo **Solo movimenti con importi insoluti**.
 
-7. Scegliere il pulsante **OK**.
+8. Scegliere il pulsante **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Per sostituire i testi di un sollecito  
 Esistono diverse modalità per determinare il testo che verrà visualizzato nella stampa del sollecito. In alcuni casi può essere necessario sostituire i testi iniziali e finali definiti per il livello attuale con i testi di un livello diverso.

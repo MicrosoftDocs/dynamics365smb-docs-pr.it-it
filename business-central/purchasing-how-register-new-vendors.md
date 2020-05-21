@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ce41715830545c89651bac7d117b6c356650b7c3
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191045"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324176"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 I fornitori forniscono i prodotti venduti. Ogni fornitore da cui si acquista deve essere registrato come una scheda fornitore.
@@ -47,6 +47,9 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
 Il fornitore è ora registrato e la scheda fornitore è pronta per essere utilizzata nei documenti di acquisto.
 
 Se si desidera utilizzare questa scheda fornitore come modello quando si creano nuove schede fornitore, è possibile salvarla come modello fornitore. Per ulteriori informazioni, vedere la seguente sezione:
+
+### <a name="deleting-vendor-cards"></a>Eliminazione delle schede fornitori
+Se è stata registrata una transazione per un fornitore, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo. Per eliminare le schede fornitori con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Per salvare la scheda fornitore come modello
 1. Nella pagina **Scheda fornitore** scegliere l'azione **Salva come modello**. Nella pagina **Modello fornitore** verrà visualizzata la scheda fornitore come modello.

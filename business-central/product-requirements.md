@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190085"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372594"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
@@ -24,13 +24,14 @@ Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si con
 
 ### <a name="recommended-browsers"></a>Browser consigliati
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente del nuovo Microsoft Edge.  
 **Chrome per Windows e Firefox per Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di questi browser desktop.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Safari in OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Microsoft Edge.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione corrente di Safari in macOS.  
 
 ### <a name="other-supported-browsers"></a>Altri browser supportati
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. È inoltre possibile eseguire il nuovo Edge e accedere comunque ai siti Web che richiedono Internet Explorer. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](/deployedge/edge-ie-mode).
+**Microsoft Edge legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione legacy di Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. È inoltre possibile eseguire il nuovo Edge e accedere comunque ad altri siti Web che richiedono Internet Explorer. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM Windows 10 Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  
@@ -39,12 +40,19 @@ Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si con
 **Dimensioni del dispositivo:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è supportato su smartphone con dimensioni minime dello schermo di 4" e tablet con dimensioni minime dello schermo di 7".  
 
 ## <a name="outlook"></a>Outlook
-**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook in un browser, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)]online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
+**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook in un browser, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
 **Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook per iPhone, Outlook per iPad e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario Excel 2016 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
+L'Interfaccia di amministrazione è progettata per funzionare con la versione corrente dei seguenti browser:
+- Il nuovo Microsoft Edge
+- Chrome per Windows
+- Firefox per Windows
+- Safari per macOS
 
 ## <a name="using-business-central-on-premises"></a>Utilizzo di Business Central in locale
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182230"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272064"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
@@ -94,6 +94,9 @@ Quando si registra l'inventario fisico della warehouse, la registrazione non vie
 4. Selezionare il pulsante **Stampa**.
 
 Gli addetti al magazzino potranno quindi eseguire l'inventario e registrare tutte le differenze nel report stampato.
+
+> [!NOTE]
+> Potrebbero essere necessari diversi giorni prima che i report stampati tornino per l'elaborazione e la registrazione finali. Quando si specificano e registrano le giacenze effettive conteggiate, il sistema rettifica le giacenze in modo da riflettere la differenza tra le giacenze previste e quelle effettive conteggiate. È necessario mantenere le righe di registrazione calcolate originariamente e non ricalcolare le giacenze previste, poiché le giacenze previste potrebbero cambiare e determinare livelli di magazzino errati. Se è necessario emettere più report, ad esempio per ubicazioni o gruppi di articoli diversi, è necessario creare e conservare batch di registrazioni separati.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Per immettere e registrare le giacenze effettive conteggiate nelle configurazioni di warehouse di base
 1. In ogni riga della pagina **Registrazioni inventario fis.** in cui le giacenze effettive, determinate dal conteggio fisico, sono diverse dalla quantità calcolata, immettere le giacenze effettive nel campo **Qtà (inv. fisico)**.
