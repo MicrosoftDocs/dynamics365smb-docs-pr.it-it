@@ -318,7 +318,7 @@
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
 #### [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Mapping dei campi per Estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Mappatura dei campi per l'estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Setup
 ## [Sintesi](admin-setup-and-administration.md)
@@ -544,6 +544,7 @@
 ## [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)
 ## [Creare una previsione](production-how-to-create-a-forecast.md)
 ## [Unire record duplicati](sales-how-merge-duplicate-records.md)
+## [Utilizzo del ricavo ricorrente](finance-recurring-invoicing.md)
 
 # Acquisti
 ## [Sintesi](purchasing-manage-purchasing.md)
