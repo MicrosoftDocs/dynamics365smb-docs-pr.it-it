@@ -8,21 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5303974c1f7e9c4b2386980c949b67df7d60f457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189917"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402527"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Creare fatture o note di credito di assistenza
-La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile inviare una fattura ai clienti in qualsiasi istante oppure creare fatture su base periodica.  
-  
-Per creare direttamente una fattura, è possibile utilizzare la pagina **Contratto di assistenza**. È inoltre possibile impostare il sistema in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente.  
+La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[prodshort](includes/prodshort.md)]. È possibile impostare [!INCLUDE[prodshort](includes/prodshort.md)] in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente. In alternativa, impostare [!INCLUDE[prodshort](includes/prodshort.md)] in modo da fatturare periodicamente i contratti di assistenza. Il periodo di fatturazione di ogni contratto definisce con quale frequenza avviene la fatturazione.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Per fatturare un contratto di assistenza dalla pagina Contratto assistenza   
+## <a name="to-invoice-several-service-contracts"></a>Per fatturare più contratti di assistenza
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea fatture contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Impostare i filtri che si desidera applicare.  
 3. Nel campo **Data di registrazione** inserire la data che si intende utilizzare come data di registrazione nelle fatture di assistenza.  
@@ -30,9 +29,17 @@ Per creare direttamente una fattura, è possibile utilizzare la pagina **Contrat
 5. Nel campo **Azione** scegliere **Crea fatture**.  
 6. Scegliere **OK** per creare le fatture di assistenza.  
   
-  > [!NOTE]  
-  >  Non è possibile creare fatture di assistenza per il contratto di assistenza quando il valore del campo **Modifica stato** è impostato su **Aperto**.  
+È anche possibile fatturare un contratto di assistenza direttamente dalla pagina **Contratto di Assistenza** se la data della prossima fatturazione nel contratto risulta precedente alla data di lavoro.
+
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Per fatturare un contratto di assistenza dalla pagina Contratto assistenza   
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** e quindi scegliere il collegamento correlato.  
+2. Scegliere il contratto di assistenza da fatturare e aprire la scheda contratto.  
+3. Scegliere l'azione **Crea fattura assistenza**. 
+4. Scegliere **Sì** per creare le fatture di assistenza.  
   
+  > [!NOTE]  
+  > Non è possibile creare fatture di assistenza per il contratto di assistenza quando il valore del campo **Modifica stato** è impostato su **Aperto**.  
+
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Per registrare una fattura da un ordine di assistenza  
 La procedura seguente indica le modalità di definizione della parte dei servizi di assistenza da addebitare al cliente.  
 
@@ -42,9 +49,9 @@ La procedura seguente indica le modalità di definizione della parte dei servizi
 4. Individuare i movimenti necessari, quindi specificare le quantità da addebitare al cliente nel campo **Qtà da fatturare**.  
   
    > [!NOTE]  
-   >  È possibile emettere una fattura relativa all'assistenza registrata totale o parziale. Se la fattura è totale, il valore del campo **Qtà da fatturare** deve corrispondere a quello del campo **Quantità**. È possibile registrare una fattura totale con una spedizione completa ed è possibile registrare una fattura totale per una spedizione completa già registrata non fatturata né consumata in precedenza.  
-   >   
-   >  Quando si registra una fattura parziale, è possibile specificare la quantità da fatturare in due modi diversi. Se l'assistenza viene registrata mediante l'opzione **Spedisci e fattura**, il valore del campo **Qtà da fatturare** deve corrispondere a quello del campo **Qtà da spedire**. Se si desidera fatturare una spedizione già registrata, la quantità da fatturare non deve superare il valore specificato nel campo **Quantità spedita**.  
+   > È possibile emettere una fattura relativa all'assistenza registrata totale o parziale. Se la fattura è totale, il valore del campo **Qtà da fatturare** deve corrispondere a quello del campo **Quantità**. È possibile registrare una fattura totale con una spedizione completa ed è possibile registrare una fattura totale per una spedizione completa già registrata non fatturata né consumata in precedenza.  
+   >  
+   > Quando si registra una fattura parziale, è possibile specificare la quantità da fatturare in due modi diversi. Se l'assistenza viene registrata mediante l'opzione **Spedisci e fattura**, il valore del campo **Qtà da fatturare** deve corrispondere a quello del campo **Qtà da spedire**. Se si desidera fatturare una spedizione già registrata, la quantità da fatturare non deve superare il valore specificato nel campo **Quantità spedita**.  
   
 5. Scegliere **Registra**, quindi **Fattura** o **Spedisci e fattura**. Per ulteriori informazioni su queste opzioni, vedere [Registrazione in Gestione assistenza](service-service-posting.md).  
   
@@ -70,7 +77,7 @@ In genere, dopo la registrazione di un ordine di assistenza mediante l'opzione *
 6. Immettere una data nel campo **Data documento**. Tale data verrà visualizzata nella fattura stampata e verrà utilizzata per calcolare la data di scadenza.  
 7. Compilare le righe di assistenza della fattura. Compilare i campi **Tipo**, **Nr.** e **Quantità** per registrare articoli, risorse e costi utilizzati durante le operazioni di assistenza. 
 
-## <a name="to-invoice-posted-shipment-lines"></a>Per fatturare righe di spedizione registrate  
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Per creare una fattura che combina le righe di spedizione registrate da uno o più ordini di assistenza 
 Può essere necessario creare una fattura relativa a un'assistenza che è già stata spedita da uno o più ordini, ma non ancora fatturata o consumata. È possibile compilare automaticamente le righe della fattura con le righe di spedizione registrate e selezionate relative a un cliente specifico.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture assistenza** e quindi scegliere il collegamento correlato.  
@@ -79,14 +86,6 @@ Può essere necessario creare una fattura relativa a un'assistenza che è già s
 4. Registrare la fattura di assistenza.  
   
  Verranno creati la fattura di assistenza registrata e i movimenti contabili corrispondenti. Verranno aggiornati i documenti di spedizione registrati in precedenza, nonché le quantità fatturate e quelle relative alle righe di assistenza degli ordini di origine.  
-
-## <a name="to-create-a-combined-invoice"></a>Per creare una fattura cumulativa  
-È possibile fatturare l'assistenza fornita mediante ordini di assistenza diversi. Verranno create righe di fattura per articoli, ore o costi relativi alle risorse già spediti da ordini di assistenza diversi, ma non ancora fatturati.  
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture assistenza** e quindi scegliere il collegamento correlato.  
-2. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Scegliere l'azione **Prendi righe di spedizione**. Nella pagina **Ottieni righe spedizioni assistenza** vengono visualizzate tutte le righe spedite, ma non ancora fatturate, relative al cliente.  
-4. Scegliere le righe relative all'assistenza da fatturare, quindi scegliere **OK** per aggiungere le righe di spedizione di assistenza nella fattura.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Per creare una nota di credito di assistenza  
 Una nota di credito di assistenza viene in genere utilizzata quando un cliente restituisce un articolo, ma può essere creata anche per risarcire un cliente o per correggere una fattura non corretta.  

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190133"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428373"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -68,9 +68,11 @@ Assicurarsi di effettuare la ricerca nell'elenco dei suggerimenti inviati. È po
 
 La sezione **Risoluzione dei problemi** include informazioni tecniche che l'amministratore o il partner [!INCLUDE[prodshort](includes/prodshort.md)] può utilizzare per assistere gli utenti. Ciò include informazioni sui messaggi di errore più recenti, la versione corrente di [!INCLUDE[prodshort](includes/prodshort.md)] e un collegamento per accedere alla pagina **Controllo pagina**. Per ulteriori informazioni, vedere [Controllo di pagine in Business Central](across-inspect-page.md).  
 
+Come amministratore interno, è possibile accedere all'interfaccia di amministrazione dove continuare la risoluzione dei problemi. Per ulteriori informazioni, vedere [Ricerca di informazioni tecniche](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) nel contenuto amministrativo.  
+
 ## <a name="report-a-problem"></a>Segnalare un problema
 
-Il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] fornirà supporto tecnico agli utenti. [!INCLUDE[prodshort](includes/prodshort.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prodshort](includes/prodshort.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
+Il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] fornirà supporto tecnico agli utenti. [!INCLUDE[prodshort](includes/prodshort.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prodshort](includes/prodshort.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft. Per ulteriori informazioni, vedere [Riassegnazione di problemi di assistenza a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) nel contenuto amministrativo.  
 
 > [!NOTE]
 > Questa sezione è disponibile solo se è stata acquistata una sottoscrizione a [!INCLUDE [prodshort](includes/prodshort.md)]. Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[prodshort](includes/prodshort.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft. È possibile trovare un partner [!INCLUDE[prodshort](includes/prodshort.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  

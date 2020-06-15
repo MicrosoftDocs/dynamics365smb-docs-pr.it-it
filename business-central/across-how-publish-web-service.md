@@ -4,18 +4,15 @@ description: Pubblicare oggetti come servizi Web per renderli immediatamente dis
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324080"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402455"
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
 
@@ -23,7 +20,8 @@ I servizi Web sono un modo semplice ed efficace per rendere le funzionalità di 
 
 Si configura un servizio Web nel client [!INCLUDE[d365fin](includes/d365fin_md.md)]. È necessario pubblicare il servizio Web per renderlo disponibile alle richieste di assistenza nella rete. Gli utenti possono individuare i servizi Web puntando un browser al percorso del server e richiedendo un elenco dei servizi disponibili. Quando si pubblica un servizio Web, diviene immediatamente disponibile in rete per gli utenti autenticati. Tutti gli utenti autorizzati possono accedere ai metadati per i servizi Web, ma solo gli utenti che dispongono di permessi sufficienti possono accedere ai dati effettivi.
 
-## <a name="creating-and-publishing-a-web-service"></a>Creazione e pubblicazione di un servizio Web  
+## <a name="creating-and-publishing-a-web-service"></a>Creazione e pubblicazione di un servizio Web
+
 I seguenti passaggi illustrano come creare e pubblicare un servizio Web.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Amministrazione](admin-setup-and-administration.md)  
 [Servizi Web di Business Central per sviluppatori](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[Limiti richieste OData](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

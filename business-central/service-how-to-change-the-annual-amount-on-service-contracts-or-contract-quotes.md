@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195053"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402560"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 È possibile modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto per correggere l'importo da fatturare annualmente.  
@@ -80,45 +80,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
     * % sconto riga = Importo sconto riga / Valore riga * 100  
     * Margine = Importo riga - Costo riga  
 
-### <a name="distribution-based-on-line-amount"></a>Ripartizione basata sull'importo riga
-Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di contratto, è possibile che sia necessario ripartire la differenza tra il nuovo importo annuo e l'importo annuo calcolato nelle righe di contratto. La ripartizione basata sull'importo riga è un metodo automatico che consente di ripartire la differenza degli importi annui nuovo e calcolato tra gli importi delle righe nelle righe di contratto. Questa ripartizione viene eseguita proporzionalmente alle quote degli importi delle righe sull'importo annuo calcolato. I passaggi riportati di seguito descrivono la procedura di ripartizione per ogni riga di contratto.  
-
-1. Il contributo percentuale dell'importo riga viene calcolato dividendo il contenuto del campo **Importo riga** per i valori del campo **Importo annuo calcolato** in tutte le righe di contratto.  
-2. Il valore del campo **Importo riga** viene aggiornato aggiungendo al valore stesso la differenza tra gli importi annui nuovo e calcolato, che viene moltiplicata per il contributo percentuale dell'importo riga.  
-3. Il contenuto dei campi **Importo sconto riga**, **% sconto riga** e **Margine** viene aggiornato rispetto al nuovo valore del campo **Importo sconto riga** nel modo seguente.  
-
-    * Importo sconto riga = Valore riga - Importo riga  
-    * % sconto riga = Importo sconto riga / Valore riga * 100  
-    * Margine = Importo riga - Costo riga  
-
 I passaggi vengono ripetuti per ogni riga di contratto.  
-
-#### <a name="example"></a>Esempio  
-La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
-
-|Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Articolo 1|15.00|17.00|3.00|0.51|25.00|1.49|  
-|Articolo 2|20,00|23.00|Nessuno|0.00|55.10|3.00|  
-|Articolo 3|24.00|27.00|3.00|0.81|112.70|2.19|  
-
-Il valore del campo **Importo annuo** è uguale al contenuto del campo **Importo annuo calcolato**, che è sempre impostato sulla somma degli importi delle righe. In questo caso equivale a 16,49 + 23,00 + 26,19 = 65,68.  
-
-Se si imposta **Importo annuo** su 60, vengono calcolati i contributi percentuale del margine per ogni riga di contratto:  
-
-* Articolo 1 – 5 / (5 + 5,1 + 12,7) = 0,2193 %  
-* Articolo 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
-* Articolo 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557 %  
-
-Il valore del campo **Importo riga** viene aggiornato in ogni riga del contratto mediante la formula seguente: Importo riga = Importo riga + differenza tra gli importi annui nuovo e calcolato * Contributo percentuale. Successivamente, i valori dei campi **Importo sconto riga**, **% sconto riga** e **Margine** vengono aggiornati tramite le formule descritte nella procedura riportata sopra.  
-
-Al termine, le righe di contratto conterranno i seguenti dati.  
-
-|Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Articolo 1|15.00|17.00|11.41|1.94|15.06|0.06|  
-|Articolo 2|20,00|23.00|8.65|1.99|21.01|1.01|  
-|Articolo 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % sconto riga = Importo sconto riga / Valore riga * 100  
 
 #### <a name="example"></a>Esempio  
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
