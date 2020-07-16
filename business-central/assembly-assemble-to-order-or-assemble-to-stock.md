@@ -1,7 +1,7 @@
 ---
 title: Assemblaggio su ordine o assemblaggio per magazzino | Microsoft Docs
 description: Gli articoli di assemblaggio possono essere approvvigionati assemblandoli quando vengono ordinati o assemblandoli per essere conservati in magazzino fino a quando non vengono richiesti in un ordine di vendita.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186814"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496802"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -66,11 +66,11 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  Tuttavia, negli scenari di combinazione, il valore completo del campo **Qtà da spedire** non viene copiato nel campo **Quantità da assemblare** nell'intestazione dell'ordine di assemblaggio. Viene invece inserito un valore di default nel campo **Quantità da assemblare** calcolato in base al campo **Qtà da spedire** secondo una regola predefinita che assicura che vengano spedite prima le quantità per l'assemblaggio su ordine.  
 
- Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire**, è possibile modificare il campo **Quantità da assemblare**, ma esclusivamente in base a regole predefinite, come illustrato di seguito  
+ Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire**, è possibile modificare il campo **Quantità da assemblare**, ma esclusivamente in base a regole predefinite, come illustrato di seguito.  
 
  Un esempio del motivo per cui è consigliabile modificare la quantità da assemblare è la possibilità di registrare parzialmente la spedizione di quantità di magazzino prima che possa essere spedito l'output di assemblaggio.  
 
- Di seguito sono illustrate le regole che definiscono i valori minimo e massimo che è possibile immettere manualmente in **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
+ La seguente tabella illustra le regole che definiscono i valori minimo e massimo che è possibile immettere nel campo **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
 
 ||Riga ordine vendita|Testata ordine di assemblaggio|  
 |-|----------------------|---------------------------|  

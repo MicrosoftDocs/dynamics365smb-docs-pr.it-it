@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9345c30b1419e49300746076c48c8d44e9d4a6d1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189941"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542669"
 ---
 # <a name="receive-items"></a>Ricevere articoli
+
 Quando gli articoli arrivano in una warehouse che non è impostata per l'elaborazione dei carichi warehouse, occorre registrare semplicemente la ricezione nel documento aziendale correlato, ad esempio un ordine di acquisto, un ordine di reso da vendita o un ordine di trasferimento in entrata.
 
 Quando gli articoli arrivano in una warehouse impostata per l'elaborazione dei carichi warehouse, è necessario recuperare le righe del documento di origine rilasciato che ha dato origine al carico. Se si utilizzano le collocazioni, è possibile accettare la collocazione di default specificata oppure, se l'articolo non è mai stato utilizzato in precedenza nella warehouse, specificare la collocazione in cui si desidera stoccarlo. È necessario immettere le quantità degli articoli ricevuti e registrare il carico.  
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Per ricevere gli articoli con un ordine di acquisto
+
 Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. I passaggi riguardanti gli ordini di reso vendita e gli ordini di trasferimento sono simili.  
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.
 2. Aprire un ordine di acquisto esistente o crearne uno. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Nel campo **Qtà da Ricevere** immettere la quantità ricevuta.
@@ -38,8 +41,9 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 > Se si utilizza un documento di magazzino per registrare la ricevuta, non è possibile utilizzare l'azione **Registra** sull'ordinedi acquisto. Al contrario, un addetto al magazzino ha già registrato la quantità dell'ordine d'acquisto ricevuta. Per ulteriori informazioni, vedere [Per ricevere gli articoli con un carico warehouse](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Per ricevere gli articoli con un carico warehouse
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
 
     Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
 
@@ -47,7 +51,7 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
     > [!NOTE]  
     > Se si desidera ricevere gli articoli con codici classe warehouse diversi dal codice classe della collocazione specificato nel campo **Cod. collocazione** della testata del documento, è necessario eliminare il contenuto del campo **Cod. collocazione** della testata prima di recuperare le righe del documento di origine per gli articoli.  
-3.  Scegliere l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
+3. Scegliere l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
 
     Da un carico warehouse o una spedizione warehouse nuova o aperta, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli ricevere o spedire.
 
@@ -60,7 +64,7 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
     Le combinazioni di filtri definite vengono salvate nella pagina **Filtri per ottenere documenti origine** finché non saranno necessarie in momento successivo. È possibile creare un numero indefinito di combinazioni di filtri. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
 
-4.  Selezionare i documenti di origine per i quali si desidera ricevere gli articoli, quindi scegliere **OK**.  
+4. Selezionare i documenti di origine per i quali si desidera ricevere gli articoli, quindi scegliere **OK**.  
 
     Le righe dei documenti di origine verranno visualizzate nella pagina **Carico warehouse**. Il campo **Qtà da ricevere** viene compilato con la quantità inevasa per ciascuna riga, ma è possibile modificare tale quantità in base alle esigenze. Se è stato eliminato il contenuto del campo **Cod. collocazione** della Scheda dettaglio **Generale** prima di recuperare le righe, è necessario immettere un codice collocazione appropriato in ogni riga di carico.  
 
@@ -70,38 +74,41 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
     > [!NOTE]  
     >  Non è possibile ricevere un numero di articoli maggiore di quello indicato nel campo **Qtà inevasa** della riga del documento di origine. Per ricevere più articoli, recuperare un altro documento di origine contenente una riga per l'articolo utilizzando la funzione di filtro appropriata.  
 
-5.  Registrare il carico warehouse. I campi relativi alle quantità nei documenti di origine vengono aggiornati e gli articoli vengono registrati come parte dell'inventario della società.  
+5. Registrare il carico warehouse. I campi relativi alle quantità nei documenti di origine vengono aggiornati e gli articoli vengono registrati come parte dell'inventario della società.  
 
 Se si utilizza lo stoccaggio warehouse, le righe di carico vengono inviate alla funzione di stoccaggio warehouse. Gli articoli, sebbene ricevuti, non possono essere prelevati finché non sono messi a magazzino. Gli articoli ricevuti vengono inclusi nell'inventario disponibile solo dopo la registrazione dello stoccaggio.  
 
 Se non si utilizza lo stoccaggio warehouse ma si impiegano le collocazioni, viene registrato lo stoccaggio degli articoli nella collocazione specificata nella riga del documento di origine.  
 
 > [!NOTE]  
->  La funzione **Registra e stampa** consente di registrare il carico e di stampare un'istruzione di stoccaggio indicante la posizione in cui immagazzinare gli articoli.  
->   
->  Se l'ubicazione utilizza stoccaggi e prelievi guidati, vengono utilizzati i modelli di stoccaggio per calcolare la migliore posizione di stoccaggio per gli articoli. Questa viene quindi stampata nell'istruzione di stoccaggio.
+> La funzione **Registra e stampa** consente di registrare il carico e di stampare un'istruzione di stoccaggio indicante la posizione in cui immagazzinare gli articoli.  
+>
+> Se l'ubicazione utilizza stoccaggi e prelievi guidati, vengono utilizzati i modelli di stoccaggio per calcolare la migliore posizione di stoccaggio per gli articoli. Questa viene quindi stampata nell'istruzione di stoccaggio.
 
 ## <a name="to-receive-more-items-than-ordered"></a>Per ricevere più articoli di quelli ordinati
+
 Quando si ricevono più merci di quelle ordinate, è possibile che si intenda mantenerle anziché annullare il carico. Ad esempio, potrebbe essere più economico mantenere l'eccesso nell'inventario anziché restituirlo oppure il fornitore potrebbe offrire uno sconto per accettarlo.
 
 ### <a name="to-set-up-over-receipts"></a>Per configurare le ricevute in eccesso
+
 È necessario definire una percentuale in base alla quale consentire il superamento della quantità ordinata durante la ricezione. Si definisce questo in un codice di ricevuta in eccesso, che contiene la percentuale nel campo **% tolleranza per ricezione eccessiva**. Quindi assegni il codice alle schede degli articoli e/o venditori rilevanti.  
 
 Di seguito viene descritto come confgurare e assegnare un codice di ricevuta eccessiva a un articolo. I passaggi sono simili per un fornitore.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Apri la scheda per un articolo che sospetti possa essere talvolta consegnato con una quantità superiore a quella ordinata.
-2. Scegli il pulsante di ricerca nel campo **Codice di ricezione eccessiva**.
-3. Scegliere l'azione **Nuovo**.
-4. Nella pagina **Codici di ricezione eccessiva**, creare una o più nuove righe che definiscono diversi criteri di ricezione eccessiva. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-5. Selezionare una riga e scegliere il pulsante **OK**.
+3. Scegli il pulsante di ricerca nel campo **Codice di ricezione eccessiva**.
+4. Scegliere l'azione **Nuovo**.
+5. Nella pagina **Codici di ricezione eccessiva**, creare una o più nuove righe che definiscono diversi criteri di ricezione eccessiva. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+6. Selezionare una riga e scegliere il pulsante **OK**.
 
 Il codice di ricezione eccessiva viene assegnato all'articolo. Qualsiasi ordine di acquisto o ricevuta di magazzino per l'articolo ora consente di ricevere più della quantità ordinata in base alla percentuale di tolleranza di ricezione specificata.
 
 > [!NOTE]
-> È possibile configurare un flusso di lavoro di approvazione per richiedere che le ricezioni eccessive debbano essere approvate prima di poter essere gestite. In tal caso, è necessario selezionare la casella di conteollo **Approvazione richiesta** nella pagina **Codici di ricezione eccessiva**. Una risposta workflow, **Approva ricezione eccessiva** esiste nei dati del flusso di lavoro standard per questo scopo. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).
+> È possibile configurare un flusso di lavoro di approvazione per richiedere che le ricezioni eccessive debbano essere approvate prima di poter essere gestite. In tal caso, è necessario selezionare la casella di conteollo **Approvazione richiesta** nella pagina **Codici di ricezione eccessiva**. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).
 
 ### <a name="to-perform-an-over-receipt"></a>Per eseguire una ricezione in eccesso
+
 Sulle righe di acquisto e sulle righe di ricevuta del magazzino, il campo **Quantità di ricezione eccessiva** viene utilizzato per registrare le quantità ricevute in eccesso, ovvero le quantità che superano il valore nel campo **Quantità**, la quantità ordinata.
 
 Quando si gestisce una ricezione in eccesso, è possibile aumentare il valore nel campo **Qtà da Ricevere** per la quantità effettivamente ricevuta. Il campo **Quantità di ricezione in eccesso** viene quindi aggiornato per mostrare la quantità in eccesso. In alternativa, è possibile inserire la quantità in eccesso nel campo **Quantità di ricezione in eccesso**. Il campo **Qtà da Ricevere** viene quindi aggiornato per mostrare la quantità ordinata più quella in eccesso. La seguente procedura ha descritto come compilare il campo **Qtà da Ricevere**.  
@@ -119,10 +126,11 @@ Quando si gestisce una ricezione in eccesso, è possibile aumentare il valore ne
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedere anche
+
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

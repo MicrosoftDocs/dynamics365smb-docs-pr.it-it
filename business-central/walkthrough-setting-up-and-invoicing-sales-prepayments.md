@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 29ab09f12a31339810bd01af72ee488bfa879dc4
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193397"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529365"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in [!INCLUDE[d365fin](includes/d365fin_md.md)]  consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.  
 

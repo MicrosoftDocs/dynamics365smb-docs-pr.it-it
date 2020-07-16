@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89a99080723ee57270583ee2f277250d767b8dde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b914c3c1c5e640894f1ee48639c547421c27be4
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181942"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484036"
 ---
 # <a name="use-item-cross-references"></a>Utilizzare Cross reference articolo
 Se si imposta un cross-reference tra la descrizione articolo utilizzata per un articolo e la descrizione che il fornitore dell'articolo utilizza, la descrizione articolo del fornitore viene inserita automaticamente nei documenti di acquisto per il fornitore quando si compila il campo **Nr. cross-reference**   La stessa funzionalità è valida per i numeri di articolo cliente nei documenti di vendita.
@@ -25,12 +25,17 @@ Se si imposta un cross-reference tra la descrizione articolo utilizzata per un a
 Di seguito viene descritto come utilizzare i cross reference articolo per gli acquisti. I passaggi sono simili per gli acquisti.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Per impostare un cross reference articolo per una descrizione articolo di un fornitore
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un articolo per il quale si desidera creare un cross reference per la descrizione articolo che il fornitore utilizza per l'articolo.
 3. Scegliere l'azione **Cross reference**.
+
+     Se non si riesce a trovare l'azione **Cross reference**, scegliere di visualizzare più opzioni, quindi trovarla in **Naviga**, **Articolo**.
+  
 4. In una nuova riga nella pagina **Cross reference per l'articolo**, compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Per immettere la descrizione articolo di un fornitore in un ordine di acquisto
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.
 2. Creare un ordine di acquisto per il fornitore per il quale si è impostato un cross-reference articolo nella procedura precedente.
 3. Creare una riga acquisto per l'articolo per il quale si è impostato un cross reference articolo nella procedura precedente.

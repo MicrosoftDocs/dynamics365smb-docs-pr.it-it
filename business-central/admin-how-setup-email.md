@@ -1,7 +1,6 @@
 ---
 title: Impostazione di posta elettronica in Business Central | Microsoft Docs
 description: Descrive come utilizzare il server SMTP della società per inviare e ricevere messaggi e-mail all'interno di Business Central o, in alternativa, come utilizzare le impostazioni del server di posta elettronica create con la sottoscrizione di Office 365.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187270"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528389"
 ---
 # <a name="set-up-email"></a>Imposta indirizzo e-mail
+
 Per registrare e ricevere messaggi e-mail da [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario compilare i campi nella pagina **Setup posta elettronica SMTP**.
 
 Invece di immettere manualmente i dettagli del server SMTP, è possibile utilizzare la funzione **Applica impostazioni server Office 365** per immetterli con le informazioni dall'abbonamento a Office 365.
@@ -26,6 +26,7 @@ Invece di immettere manualmente i dettagli del server SMTP, è possibile utilizz
 È possibile impostare il messaggio e-mail manualmente, come descritto di seguito, oppure ottenere informazioni della Guida utilizzando la guida al setup assistito **Setup e-mail**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Per impostare la posta elettronica
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Invece di immettere manualmente i dettagli del server SMTP, è possibile utilizz
 5. Quando il test riesce, chiudere la pagina.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Utilizzo di un indirizzo mittente sostitutivo nei messaggi di posta elettronica in uscita
+
 Tutti i messaggi di posta elettronica in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzeranno l'indirizzo predefinito per l'account specificato nella pagina Setup e-mail SMTP, come descritto sopra. È tuttavia possibile utilizzare le funzionalità **Invia come** o **Invio per conto di** sul server Exchange per modificare l'indirizzo del mittente nei messaggi in uscita. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzerà l'account predefinito per l'autenticazione su Exchange, ma sostituirà l'indirizzo del mittente con quello specificato o lo modificherà con "per conto di".
 
 Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto di in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
@@ -54,6 +56,7 @@ Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto 
 5. Nell'**Interfaccia di amministrazione di Exchange**, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi immettere l'indirizzo nel campo **ID utente** nel campo **Invia come**. Per ulteriori informazioni, vedere [Utilizzare EAC per assegnare autorizzazioni alle singole cassette postali](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Per utilizzare l'indirizzo sostitutivo nei workflow di approvazione
+
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
 2. Copiare o prendere nota dell'indirizzo nel campo **ID utente**.
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.
@@ -64,6 +67,13 @@ Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto 
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] determinerà quale indirizzo visualizzare nel seguente ordine: <br><br> 1. L'indirizzo specificato nel campo **Posta elettronica** della pagina **Setup utente approvazione** per i messaggi in un workflow. <br> 2. L'indirizzo specificato nel campo **Invia come** della pagina **Setup e-mail SMTP**. <br> 3. L'indirizzo specificato nel campo **ID utente** della pagina **Setup e-mail SMTP**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Impostare le cartelle pubbliche e le regole per il log delle e-mail in Exchange Online
+
+Ottenere di più dalle comunicazioni tra i venditori e i tuoi clienti esistenti o potenziali monitorando gli scambi di e-mail e trasformandoli in opportunità fruibili. Per ulteriori informazioni, vedere [Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Quindi, connettersi a [!INCLUDE[prodshort](includes/prodshort.md)] con Exchange Online. Per ulteriori informazioni, vedere [Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Vedere anche
 

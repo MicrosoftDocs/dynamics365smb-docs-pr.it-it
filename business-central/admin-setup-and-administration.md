@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 464a1b7b06e4d656e8542655ab307ba0108425c4
+ms.sourcegitcommit: 836b232d0149f9732884c9f44d53928725a8759d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186646"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3506307"
 ---
 # <a name="administration"></a>Setup
+
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
 
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio. [!INCLUDE[d365fin](includes/d365fin_md.md)] include varie guide di setup per la configurazione dei dati principali. Per ulteriori informazioni, vedere [Impostazione di Business Central](setup.md).
@@ -29,13 +30,14 @@ Un utente o amministratore avanzato può impostare il framework di scambio di da
 > [!NOTE]
 > È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
 |Definire chi può accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)] creando utenti nell'interfaccia di amministrazione di Microsoft 365 in base alle licenze del prodotto.|[Creare utenti in base alle licenze](ui-how-users-permissions.md)|
 |Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per una gestione semplificata delle autorizzazioni.|[Assegnare autorizzazioni a utenti e gruppi](ui-how-users-permissions.md)|
 |Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Gestire profili](admin-users-profiles-roles.md)|
+|Gestire le impostazioni dell'utente, come azienda, ruolo, lingua, area geografica e fuso orario.|[Impostazioni utente](admin-manage-user-settings-preferences.md)|
 |Configurare le stampanti e specificare quali report stampare su quali stampanti.|[Configurare le stampanti](ui-specify-printer-selection-reports.md)|
 |Classificare i dati riservati per campi in modo da rispondere alle richieste da oggetti dati correlate ai relativi dati personali.|[Classificazione di dati riservati](admin-classifying-data-sensitivity.md)|
 |Rispondere a richieste da oggetti dati riguardanti i relativi dati personali.|[Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)|
@@ -48,13 +50,16 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Crittografare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)] Server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nel server.|[Gestione crittografia dati](admin-manage-data-encryption.md)|
 |Connettere Dynamics 365 Sales a [!INCLUDE[d365fin](includes/d365fin_md.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+|Monitorare l'utilizzo e risolvere i problemi delle sessioni.|[Telemetria dell'ambiente nell'interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Gestire le sessioni utente, inclusa l'annullamento di una sessione se l'utente è bloccato.|[Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Funzionalità aziendale](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Introduzione](product-get-started.md)    
+[Introduzione](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

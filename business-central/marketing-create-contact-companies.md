@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181606"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528439"
 ---
 # <a name="create-contacts"></a>Crea contatti
 Si incontrano regolarmente persone di altre società che possono diventare relazioni d'affari, ad esempio relazioni con i clienti. In caso di nuovo contatto, è necessario registrare il maggior numero di informazioni su una scheda contatti affinché la comunicazione possa continuare.
@@ -37,7 +37,7 @@ La funzionalità è la stessa per entrambi i tipi, salvo che le opzioni per ulte
 3. Nel campo **Nr.** inserire un numero per il contatto.
 
     In alternativa, se è stata impostata una numerazione per i contatti nella pagina **Setup marketing**, è possibile premere INVIO per inserire il successivo numero di contatto disponibile.  
-5. Compilare i rimanenti campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Compilare i rimanenti campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Per creare un contatto da un cliente, fornitore o conto corrente bancario
 Se vi sono clienti, fornitori e conti bancari per i quali si intendono creare schede contatto, è possibile utilizzare i processi batch **Crea contatti dai** per creare contatti sulla base dei dati esistenti. Quando si crea un contatto in questo modo, le informazioni di contatto vengono successivamente sincronizzate con clienti, fornitori o informazioni di conto bancario correlati. Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

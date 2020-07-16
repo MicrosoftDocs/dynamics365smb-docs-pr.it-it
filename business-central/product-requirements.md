@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372594"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528715"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
-Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
+Prima di accedere a [!INCLUDE[prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
 
 ## <a name="browsers"></a>Browser
 
@@ -40,7 +40,7 @@ Prima di accedere a [!INCLUDE [prodshort](includes/prodshort.md)] online, si con
 **Dimensioni del dispositivo:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è supportato su smartphone con dimensioni minime dello schermo di 4" e tablet con dimensioni minime dello schermo di 7".  
 
 ## <a name="outlook"></a>Outlook
-**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook in un browser, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE [prodshort](includes/prodshort.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
+**Applicazioni di Outlook:** per utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2016 o versione successiva, Outlook in un browser, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Office 365. Non è possibile utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
 **Browser:** quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook per iPhone, Outlook per iPad e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

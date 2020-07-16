@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186022"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528940"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Le situazioni contabili analizzano le cifre nei conti di contabilità generale e confrontano i movimenti di contabilità generale con i movimenti budget di contabilità generale. La visualizzazione dei risultati nei grafici nella Gestione ruolo utente, quali il piano del flusso di cassa e nei report, ad esempio i report Conto economico e Conto patrimoniale,
@@ -71,7 +71,7 @@ I layout di colonna sono utilizzati per definire le colonne da includere nel rep
 > In una versione stampata/visualizzata in anteprima/salvata di una situazione contabile è possibile visualizzare al massimo cinque colonne. Se la situazione contabile è utilizzata solo per l'analisi nella pagina **Sintesi situaz. contabile**, è possibile creare tutte le colonne necessarie.
 
 1. Nella pagina **Situazioni contabili**, selezionare la situazione contabile pertinente, quindi scegliere l'azione **Modifica setup layout colonna**.
-2. Nella pagina **Layout colonne**, creare una riga per ogni colonna utilizzata per visualizzare i dati finanziari nel report finanziario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella pagina **Layout colonne**, creare una riga per ogni colonna utilizzata per visualizzare i dati finanziari nel report finanziario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Scegliere il pulsante **OK**.
 4. Aprire la pagina **Sintesi situaz. contabile** di tanto in tanto per verificare che il nuovo layout di colonna funzioni come previsto.
 

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190229"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503800"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
+
 È possibile emettere assegni elettronici e manuali in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In entrambi i metodi vengono utilizzate le registrazioni pagamenti per emettere assegni ai fornitori. È inoltre possibile annullare assegni e visualizzare movimenti contabili assegni.
 
 La seguente procedura mostra come pagare un fornitore con un assegno automatico applicando il pagamento alla fattura del fornitore pertinente, stampando l'assegno e quindi registrando il pagamento come pagato. Questa operazione determina la registrazione di movimenti contabili fornitori positivi, collegati a movimenti contabili negativi della banca e ad assegni fisici per l'elaborazione della banca.
@@ -30,7 +31,8 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 > [!NOTE]  
 > Per assicurarsi che la banca compensi solo gli assegni e gli importi convalidati, è possibile inviarle un file che contenga informazioni sul fornitore, l'assegno e il pagamento. Per ulteriori informazioni, vedere [Esportare un file Positive Pay](finance-how-positive-pay.md).
 
-La stampante deve essere configurata per i moduli di assegni e deve essere definito il layout dell'assegno da utilizzare. Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> La stampante deve essere configurata per i moduli di assegni e deve essere definito il layout dell'assegno da utilizzare. Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance-how-define-check-layouts.md). In alternativa, è possibile inviare l'assegno come file PDF, ad esempio.  
 
 È possibile stampare fino a 10 fatture in una pagina per una matrice. Se un assegno si applica a più di 10 fatture, quando si stampa la matrice l'assegno viene annullato alla prima pagina e viene stampata la parola ANNULLATO sull'assegno. Quindi si stampa il resto delle fatture e l'importo totale degli assegni nella seconda pagina.
 
@@ -43,7 +45,7 @@ Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi 
 4. Nel campo **Tipo pagamento banca** selezionare **Assegno automatico**.
 5. Scegliere l'azione **Stampa assegno**.
 6. Nella pagina **Assegno** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Scegliere il pulsante **Invia a**, selezionare l'opzione **Documento PDF** quindi scegliere il pulsante **OK**.
+7. Se la stampante è configurata per la stampa di assegni, selezionare il pulsante **Stampa**. In caso contrario, scegliere il pulsante **Invia a**, selezionare l'opzione **Documento PDF** quindi scegliere il pulsante **OK** e stampare il documento PDF.
 
     Gli assegni fisici possono ora essere portati in banca per l'elaborazione. Passare alla registrazione del pagamento come collegato al fornitore e pertanto pagato nel sistema.
 8. Scegliere l'azione **Registra**.

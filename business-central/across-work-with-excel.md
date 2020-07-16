@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187510"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534595"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
 
@@ -30,7 +30,7 @@ Con le pagine che visualizzano un elenco di record in righe e colonne, come un e
 - Questa azione è compatibile con Windows e macOS.
 
 > [!NOTE]
-> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale l'azione **Apri in Excel** è disponibile per impostazione predefinita. Tuttavia, se [!INCLUDE [prodshort](includes/prodshort.md)] in locale è configurato per la modifica dei dati in Excel, l'azione **Apri in Excel** è sostituita dall'azione **Modifica in Excel**.
+> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale l'azione **Apri in Excel** è disponibile per impostazione predefinita. Tuttavia, se [!INCLUDE[prodshort](includes/prodshort.md)] in locale è configurato per la modifica dei dati in Excel, l'azione **Apri in Excel** è sostituita dall'azione **Modifica in Excel**.
 
 ## <a name="edit-in-excel"></a>Modifica in Excel
 
@@ -40,15 +40,15 @@ Con le pagine che visualizzano un elenco di record in righe e colonne, come un e
 
 - È compatibile con Windows ma non con macOS.
 
-- Puoi cambiare la società con cui stai lavorando. Per fare ciò, selezionare l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona la società dal campo **Società**. 
+- Puoi cambiare la società con cui stai lavorando. Per fare ciò, selezionare l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona la società dal campo **Società**.  
 
     > [!IMPORTANT]
     > Quando si cambia la società, assicurarsi che il campo **Ambiente** non sia vuoto. In tal caso, impostarlo su una delle opzioni disponibili; in caso contrario, il componente aggiuntivo non funzionerà correttamente.  
 
-Il componente aggiuntivo di Excel è stato migliorato nella seconda ondata di rilascio del 2019. Per ulteriori informazioni, vedere [Miglioramenti all'integrazione di Excel](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo per aggiornare la connessione. Per ricaricare, utilizzare il ![menu del componente aggiuntivo per Excel](media/excel-addin-menu.png "Menu del componente aggiuntivo per Excel") nell'angolo in alto a destra del componente aggiuntivo.
 
 > [!NOTE]
-> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale.
+> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
 ### <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni
 <br><br>  
@@ -58,4 +58,6 @@ Il componente aggiuntivo di Excel è stato migliorato nella seconda ondata di ri
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzo di Business Central](ui-work-product.md)  
+[Miglioramenti all'integrazione di Excel nella seconda ondata di rilascio del 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

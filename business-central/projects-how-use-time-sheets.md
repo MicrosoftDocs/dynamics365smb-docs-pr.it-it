@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191093"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499568"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
+
 Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. È necessario disporre dei permessi necessari per creare i fogli presenze.
 
 È possibile copiare e utilizzare le righe di pianificazione commessa in un foglio presenze. In questo modo, sarà sufficiente immettere le informazioni in un punto per essere sicuri che le informazioni siano sempre corrette.
@@ -27,16 +28,16 @@ Dopo avere approvato i movimenti del foglio presenze per una commessa, è possib
 Prima di poter utilizzare i fogli presenze, è necessario impostare le informazioni generali e specificare un amministratore e uno o più responsabili approvazione dei fogli presenze. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Per creare un foglio presenze
+
 È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Lista fogli presenze** scegliere l'azione **Crea fogli presenze**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   I campi **Usa foglio presenze** e **ID utente proprietario foglio presenze** devono essere compilati nella scheda della risorsa del foglio presenze.
-
-1. Scegliere il pulsante **OK**.  
+    > [!NOTE]  
+    > I campi **Usa foglio presenze** e **ID utente proprietario foglio presenze** devono essere compilati nella scheda della risorsa del foglio presenze.
+4. Scegliere il pulsante **OK**.  
 
 È possibile visualizzare i fogli presenze creati nella pagina **Lista fogli presenze**.
 

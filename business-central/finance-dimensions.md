@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262168"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528890"
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
 Per rendere più semplice eseguire analisi sui documenti, quali ordini di vendita, è possibile utilizzare le dimensioni. Le dimensioni sono attributi e valori che categorizzano i movimenti in modo da poterli seguire e analizzare. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
@@ -113,7 +113,7 @@ Le dimensioni globali e a collegamento rapido possono essere utilizzate come fil
 > Quando si aggiunge o si modifica una dimensione globale o a collegamento rapido, viene eseguita automaticamente la disconnessione e una nuova connessione di modo che il nuovo valore possa essere utilizzato in tutta l'applicazione.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.
-2. Nella Scheda dettaglio **Dimensioni**, riempire i campi. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Nella Scheda dettaglio **Dimensioni**, riempire i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Per cambiare le dimensioni globali
 Quando si modifica una dimensione globale o a collegamento rapido, tutti movimenti registrati con la dimensione in questione vengono aggiornati. Poiché questo processo può richiedere molto tempo e influire sulle prestazioni, vengono fornite due diverse modalità per adattare il processo alle dimensioni del database.  

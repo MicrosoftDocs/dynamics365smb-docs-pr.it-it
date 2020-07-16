@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185906"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528337"
 ---
 # <a name="service-compliance"></a>Conformità dell'assistenza
 Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Se si è interessati all'elenco completo delle offerte di conformità di Microso
 
 ## <a name="service-terms"></a>Condizioni di servizio
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online è regolato dai [Criterio del ciclo di vita moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). I termini dei contratti di servizio sono descritti nel documento che è possibile scaricare dalla sezione **Contratti di servizio per Microsoft Online Services** nella pagina [Condizioni di licenza](https://www.microsoft.com/licensing/product-licensing/products).  
+[!INCLUDE[prodshort](../includes/prodshort.md)] online è regolato dai [Criterio del ciclo di vita moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). I termini dei contratti di servizio sono descritti nel documento che è possibile scaricare dalla sezione **Contratti di servizio per Microsoft Online Services** nella pagina [Condizioni di licenza](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Inoltre, è possibile monitorare lo stato del tenant e specificare finestre di aggiornamento in [Centro amministrativo tenant](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

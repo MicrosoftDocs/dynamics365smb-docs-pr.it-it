@@ -1,8 +1,6 @@
 ---
 title: Setup della gestione dei contatti e del marketing| Documenti Microsoft
 description: È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181222"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529140"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
+
 Prima di iniziare a lavorare sui contatti e sugli interessi di marketing, è necessario prendere alcune decisioni e seguire alcuni passaggi per definire la modalità di gestione da parte dell'area marketing di alcuni aspetti dei contatti. Ad esempio, è possibile decidere se sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, definire la numerazione o la formula di saluto standard per quando si scrive ai contatti.
 
 La gestione corretta dei contatti e la messa a punto di una strategia per identificare, attirare e fidelizzare i clienti sono fondamentali per ottimizzare il business e aumentare la soddisfazione dei clienti. Anche l'utilizzo di un efficiente sistema di gestione dei contatti si rivelerà importante per stabilire e mantenere le relazioni con i clienti. La comunicazione è l'aspetto chiave di queste relazioni. Riuscire a comunicare con clienti esistenti e potenziali, fornitori e partner aziendali nel rispetto delle loro esigenze è fondamentale per garantire il successo delle società. Il passaggio principale consiste nel definire una strategia e la modalità di utilizzo delle informazioni di contatto della società. Queste informazioni verranno visualizzate da molti gruppi diversi all'interno della società, pertanto l'utilizzo di un ottimo sistema di gestione renderà tutti molto più produttivi.
@@ -48,7 +47,7 @@ Per ulteriori informazioni, vedere [Registrazione automatica delle interazioni c
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Sincronizzare i contatti con i clienti e altri soggetti
 Per sincronizzare la scheda contatto con la scheda cliente, la scheda fornitore e la scheda conto corrente bancario, è necessario selezionare un codice di relazione d'affari per clienti, fornitori e conti correnti bancari. È ad esempio possibile collegare un contatto a un cliente esistente solo se è stato selezionato un codice relazione d'affari per i clienti nella pagina **Setup marketing**.
 
-Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assegnare una numerazione ai contatti e alle opportunità
 È possibile impostare una numerazione per contatti e opportunità. Se si è impostata una numerazione per i contatti, quando si crea un contatto e si preme INVIO nel campo Nr. della scheda contatto, viene automaticamente inserito il numero del contatto successivo disponibile.

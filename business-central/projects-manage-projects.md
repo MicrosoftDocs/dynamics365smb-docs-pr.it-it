@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190013"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529040"
 ---
 # <a name="project-management"></a>Gestione progetti
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="get-started-with-projects"></a>Introduzione ai progetti
 
-La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE [prodshort](includes/prodshort.md)] di YouTube.  
+La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prodshort](includes/prodshort.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prodshort](includes/prodshort.md)] di YouTube.  
 
 ## <a name="see-also"></a>Vedere anche
 

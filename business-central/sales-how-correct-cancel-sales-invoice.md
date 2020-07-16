@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: e37d1c20032629f3a457e515a22e82a7a7eeb021
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 248e8fd461abd42cfdac257d7e519723350fe174
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191837"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534698"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correggere o annullare le fatture di vendita non pagate
+
 È possibile correggere o annullare una fattura di vendita registrata. Ciò risulta utile se si effettua un errore o se il cliente richiede una modifica.
 
 > [!NOTE]  
->   Dopo che una fattura di vendita registrata è stata parzialmente o interamente pagata, non è possibile correggerla o annullarla dalla fattura di vendita registrata stessa. In alternativa, è necessario creare manualmente una nota di credito di vendita per annullare la vendita e per rimborsare il cliente, facoltativamente gestito con un ordine di reso vendita. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).
+> Dopo che una fattura di vendita registrata è stata parzialmente o interamente pagata, non è possibile correggerla o annullarla dalla fattura di vendita registrata stessa. In alternativa, è necessario creare manualmente una nota di credito di vendita per annullare la vendita e per rimborsare il cliente, facoltativamente gestito con un ordine di reso vendita. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).
 
 Nella pagina **Fatture vendita registrate** è possibile scegliere l'azione **Rettifica** o **Annulla** per eseguire le operazioni descritte nella seguente tabella.
 
@@ -30,9 +31,13 @@ Nella pagina **Fatture vendita registrate** è possibile scegliere l'azione **Re
 | **Correzione** |La fattura di vendita registrata viene annullata. Una nuova fattura di vendita con le stesse informazioni viene creata. È possibile apportare la correzione e successivamente continuare il processo di vendita. La nuova fattura di vendita ha un numero diverso rispetto alla fattura di vendita iniziale. Una nota di credito di vendita correttiva viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale. Nella fattura di vendita registrata iniziale, le caselle di controllo Annullato e Pagato sono selezionate. |
 | **Annulla** |La fattura di vendita registrata viene annullata. Una nota di credito di vendita correttiva viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale. Nella fattura di vendita registrata iniziale, le caselle di controllo Annullato e Pagato sono selezionate. |
 
-Quando si rettifica o si annulla una fattura di vendita registrata, la nota di credito di vendita viene applicata a tutti i movimenti contabili generali e di inventario creati quando la fattura di vendita iniziale è stata registrata. Ciò consente di stornare la fattura di vendita nei record finanziari e lascia la nota di credito di vendita registrata correttiva per l'audit trail.
+Quando si rettifica o si annulla una fattura di vendita registrata, la nota di credito di vendita viene applicata a tutti i movimenti contabili generali e di inventario creati quando la fattura di vendita iniziale è stata registrata. Ciò consente di stornare la fattura di vendita nei record finanziari e lascia la nota di credito di vendita registrata correttiva per l'audit trail.  
+
+> [!TIP]
+> Se è stata registrata una fattura di pagamento anticipato per una fattura di vendita che si corregge o si annulla, è necessario correggere o annullare anche il pagamento anticipato. Per ulteriori informazioni, vedere [Correggere i pagamenti anticipati](finance-how-to-correct-prepayments.md).
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Per correggere una fattura di vendita registrata
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera rettificare.
 
@@ -45,6 +50,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 5. Scegliere l'azione **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Per annullare una fattura di vendita registrata
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera annullare.
 
@@ -56,9 +62,11 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 4. Scegliere **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
 ### <a name="partial-invoice-posting-also-supported"></a>Anche la registrazione parziale delle fatture è supportata
+
 Se l'annullamento è correlato a una registrazione parziale della fattura, la riga dell'ordine di vendita di origine viene aggiornata per riflettere la quantità fatturata annullata. I campi **Qtà da fatturare** e **Qtà fatturata** nella riga dell'ordine vendita correlato vengono reimpostati sui valori precedenti alla registrazione parziale.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  

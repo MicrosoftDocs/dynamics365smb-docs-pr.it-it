@@ -8,36 +8,36 @@ ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187750"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529090"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero crescente di paesi in tutto il mondo. Per ulteriori informazioni su [!INCLUDE [prodshort](includes/prodshort.md)], è possibile iscriversi per ottenere una versione di valutazione gratuita. Quindi, quando si è pronti, è possibile contattare un partner rivenditore per informazioni su come ottenere una sottoscrizione.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero crescente di paesi in tutto il mondo. Per ulteriori informazioni su [!INCLUDE[prodshort](includes/prodshort.md)], è possibile iscriversi per ottenere una versione di valutazione gratuita. Quindi, quando si è pronti, è possibile contattare un partner rivenditore per informazioni su come ottenere una sottoscrizione.  
 
 Se non stai già lavorando con un partner, vedi [Come trovare un partner di rivendita?](across-faq.md#findpartner).  
 
 ## <a name="getting-started-with-a-trial"></a>Introduzione a una versione di valutazione
 
-Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare clic [qui](https://go.microsoft.com/fwlink/?linkid=847861). Ti consigliamo di lavorare con [un partner di rivendita](across-faq.md#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE [prodshort](includes/prodshort.md)].  
+Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare clic [qui](https://go.microsoft.com/fwlink/?linkid=847861). Ti consigliamo di lavorare con [un partner di rivendita](across-faq.md#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 A seconda del paese, la versione di valutazione include le lingue e le funzionalità necessarie per quel paese. Per ulteriori informazioni, vedere [Modifica di lingua e impostazioni locali](about-locale-language.md).  
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a video utili per iniziare. Per ulteriori informazioni, vedere [Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-In caso di difficoltà, la pagina [Domande frequenti ](across-faq.md) può fornire le risposte ad alcune domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md). Puoi anche contattare un [partner](across-faq.md#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE [prodshort](includes/prodshort.md)] per te.  
+In caso di difficoltà, la pagina [Domande frequenti ](across-faq.md) può fornire le risposte ad alcune domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md). Puoi anche contattare un [partner](across-faq.md#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prodshort](includes/prodshort.md)] per te.  
 
 ### <a name="try-out-your-own-company"></a>Utilizzare la versione di valutazione con i dati della propria società
 
-Se si intende provare [!INCLUDE [prodshort](includes/prodshort.md)] con i propri dati, è possibile passare a una versione di valutazione gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE [prodshort](includes/prodshort.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](across-faq.md#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE [prodshort](includes/prodshort.md)].  
+Se si intende provare [!INCLUDE[prodshort](includes/prodshort.md)] con i propri dati, è possibile passare a una versione di valutazione gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prodshort](includes/prodshort.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](across-faq.md#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prodshort"></a>Impostazione della propria società in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="setting-up-your-company-in-prodshort"></a>Impostazione della propria società in [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Per impostare la propria società, la pagina **Setup assistito** elenca le guide al setup assistito che possono fornire informazioni utili. A seconda del proprio ruolo e paese, la pagina mostra diverse guide al setup assistito come illustrato nella tabella seguente:
 
@@ -55,7 +55,7 @@ Per impostare la propria società, la pagina **Setup assistito** elenca le guide
 | Imposta una connessione a Dynamics 365 Sales |Imposta una connessione a Dynamics 365 Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
 | Imposta previsione flusso di cassa |Consente di impostare il grafico Previsioni flusso di cassa, in modo da visualizzare il movimento di contanti previsto in entrata e in uscita dall'attività commerciale. Il grafico è disponibile in **Gestione ruolo utente Contabile**. |
 | Imposta dati reporting|Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
-| Invita contabile esterno |Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE [prodshort](includes/prodshort.md)] in modo che possa utilizzare i dati fiscali dell'azienda. |
+| Invita contabile esterno |Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[prodshort](includes/prodshort.md)] in modo che possa utilizzare i dati fiscali dell'azienda. |
 
 La pagina **Setup assistito** può contenere altre voci. Quando si esegue un setup, questo verrà contrassegnato come **Completato**. È possibile impostare aree aggiuntive della società utilizzando il setup manuale. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -64,13 +64,13 @@ La pagina **Setup assistito** può contenere altre voci. Quando si esegue un set
 Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[prodshort](includes/prodshort.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società di valutazione e quindi eliminare la prima società. Apri la pagina **Società** e scegli **Nuovo** per iniziare la guida al setup assistito **Crea una nuova società**. La guida può aiutarti a creare una nuova società di valutazione con dati di esempio. È anche possibile creare una copia della società corrente, disconnettersi e quindi accedere alla nuova società.  
 
 > [!IMPORTANT]
-> Quando si condivide [!INCLUDE [prodshort](includes/prodshort.md)] con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si elimina una società.  
+> Quando si condivide [!INCLUDE[prodshort](includes/prodshort.md)] con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si elimina una società.  
 
 ## <a name="getting-started-with-a-subscription"></a>Introduzione a una sottoscrizione
 
-Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner) Il partner rivenditore può fornire assistenza per impostare [!INCLUDE [prodshort](includes/prodshort.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. Puoi anche personalizzare [!INCLUDE [prodshort](includes/prodshort.md)] aggiungendo app da [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner) Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prodshort](includes/prodshort.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. Puoi anche personalizzare [!INCLUDE[prodshort](includes/prodshort.md)] aggiungendo app da [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
 
-[!INCLUDE [prodshort](includes/prodshort.md)] online utilizza Office 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE [prodshort](includes/prodshort.md)] (locale).  
+[!INCLUDE[prodshort](includes/prodshort.md)] online utilizza Office 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] (locale).  
 
 È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 
@@ -85,7 +85,7 @@ Al momento, tutti i clienti possono utilizzare un sandbox, comprese le organizza
 > [!NOTE]
 > Le sandbox create in questo modo contengono dati demo per la società fittizia CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.  
 
-L'amministratore di [!INCLUDE [prodshort](includes/prodshort.md)] e il partner rivenditore possono creare ambienti aggiuntivi nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+L'amministratore di [!INCLUDE[prodshort](includes/prodshort.md)] e il partner rivenditore possono creare ambienti aggiuntivi nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Vedere anche
 

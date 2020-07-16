@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 37a69940d6b449a779a6bf8fb9d9729c99aa9ea4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189356"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454433"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -41,6 +41,9 @@ Per ogni definizione registrazioni è possibile impostare le proprie registrazio
 
 > [!TIP]  
 > Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella pagina **Batch registrazioni COGE**, il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-let-system-suggest-values.md).
+
+> [!TIP]
+> Per aggiungere o rimuovere campi nelle registrazioni, utilizzare il banner **Personalizzazione**. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Informazioni su conti principali e contropartita
 Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
@@ -161,8 +164,15 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Rivalutare il magazzino nelle registrazioni rivalutazioni](inventory-how-revalue-inventory.md)  
+[Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  
+[Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)  
+[Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md)  
+[Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)  

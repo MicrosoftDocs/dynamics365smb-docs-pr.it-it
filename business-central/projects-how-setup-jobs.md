@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191179"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527962"
 ---
 # <a name="set-up-jobs"></a>Imposta commesse
 
-In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE [prodshort](includes/prodshort.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
+In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
 Per ogni commessa, si specificano quindi singole schede commessa con informazioni sui prezzi per gli articoli di commessa, le risorse di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 

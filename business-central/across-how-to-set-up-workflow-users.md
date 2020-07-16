@@ -1,7 +1,6 @@
 ---
 title: Come impostare gli utenti del workflow | Microsoft Docs
 description: Prima di poter creare i flussi di lavoro, è necessario impostare gli utenti che parteciperanno ai flussi di lavoro. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2020
+ms.date: 06/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5206874a8a39e06c711c31c681a18c0bae5b183
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187996"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454273"
 ---
 # <a name="set-up-workflow-users"></a>Impostare gli utenti del workflow
+
 Prima di poter creare i workflow, è necessario impostare gli utenti che vi parteciperanno. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro.  
 
 Nella pagina **Gruppo di utenti del workflow** è possibile impostare gli utenti in gruppi di utenti del workflow e specificare il numero di utenti in una sequenza di processo, ad esempio una catena di responsabili di approvazione.  
@@ -26,11 +26,11 @@ Nella pagina **Gruppo di utenti del workflow** è possibile impostare gli utenti
 Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i richiedenti sia i responsabili dell'approvazione, devono essere impostati come utenti del workflow nella pagina **Gruppo di utenti del workflow**. Per ulteriori informazioni, vedere [Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]  
->  Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili di una catena di approvazione, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza**   Per ulteriori informazioni, vedere questo argomento e [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
->   
->  Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili uguali, indipendentemente da una gerarchia, impostare un normale gruppo di utenti del flusso di lavoro. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e assegnare lo stesso numero a ogni responsabile nel campo **Nr. sequenza** . Per ulteriori informazioni, vedere questo argomento.  
+> Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili di una catena di approvazione, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza** . Per ulteriori informazioni, vedere [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md) e la sezione successiva.  
+>
+> Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili uguali, indipendentemente da una gerarchia, impostare un normale gruppo di utenti del flusso di lavoro. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e assegnare lo stesso numero a ogni responsabile nel campo **Nr. sequenza** . Per ulteriori informazioni, vedere la seguente sezione:  
 
-### <a name="to-set-up-a-workflow-user"></a>Per impostare un utente del flusso di lavoro  
+## <a name="to-set-up-a-workflow-user"></a>Per impostare un utente del flusso di lavoro
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di utenti del workflow** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Gruppo di utenti del workflow**.  
@@ -45,9 +45,10 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
 6. Ripetere il passaggio 5 per aggiungere altri utenti del flusso di lavoro nel gruppo di utenti.  
 7. Ripetere i passaggi da 2 a 6 per aggiungere altri gruppi di utenti del flusso di lavoro.  
 
-## <a name="see-also"></a>Vedi anche  
-[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
-[Impostazione dei workflow](across-set-up-workflows.md)   
-[Utilizzo dei workflow](across-use-workflows.md)   
-[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+## <a name="see-also"></a>Vedi anche
+
+[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
+[Impostazione dei workflow](across-set-up-workflows.md)  
+[Utilizzo dei workflow](across-use-workflows.md)  
+[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  

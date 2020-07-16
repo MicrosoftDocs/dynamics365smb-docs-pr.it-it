@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b21d23b081782ad6416613d107bb7cb4e67162c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1a1e0414bfb276a86eabbb1b3557375cf02271b0
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189797"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528037"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.  
 

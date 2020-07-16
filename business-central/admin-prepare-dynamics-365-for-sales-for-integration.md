@@ -1,8 +1,6 @@
 ---
 title: Integrazione con Dynamics 365 Sales | Microsoft Docs
 description: Informazioni su come prepararsi all'integrazione di Dynamics 365 Business Central con Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: b4e3181564f351979bcb22512ab02a9a43456bde
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c42393145fc921c85570e0829c0953757981b53e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196569"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529015"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrazione con Dynamics 365 Sales
+
 Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azienda. Tuttavia, può essere utile per gli agenti essere in grado di guardare dentro l'azienda e di osservare ciò che avviene nel back end. L'integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] fornire agli agenti tale possibilità consentendo agli stessi di visualizzare informazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)] mentre lavorano in [!INCLUDE[crm_md](includes/crm_md.md)]. Ad esempio, durante la preparazione di un'offerta di vendita può essere utile sapere se si dispone di giacenza sufficiente per soddisfare l'ordine. Per ulteriori informazioni, vedere [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> Questo argomento descrive il processo di integrazione delle versioni online di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite [!INCLUDE[d365fin](includes/cds_long_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 Sales per l'integrazione locale](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration.md).
+> Questo argomento descrive il processo di integrazione delle versioni online di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite [!INCLUDE[d365fin](includes/cds_long_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 Sales per l'integrazione locale](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-common-data-service"></a>Integrazione tramite Common Data Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] si integra anche con [!INCLUDE[d365fin](includes/cds_long_md.md)], che semplifica la connessione e la sincronizzazione dei dati con altre applicazioni di Dynamics 365, come [!INCLUDE[crm_md](includes/crm_md.md)] o anche le app che crei autonomamente. Se stai effettuando l'integrazione per la prima volta, ti consigliamo di farlo tramite [!INCLUDE[d365fin](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Integrazione con Common Data Service](admin-common-data-service.md).
@@ -52,7 +51,7 @@ Puoi utilizzare guida al setup assistito per impostare rapidamente la connession
 4. Eventualmente, esistono delle impostazioni avanzate che possono migliorare la sicurezza e abilitare ulteriori funzionalità di , come l'elaborazione degli ordini di vendita e la visualizzazione dei livelli di magazzino. Nella seguente tabella vengono illustrate le impostazioni avanzate.  
 
 |Campo|Descrizione|
-|-----|-----|
+|-----|-----------|
 |**Importa soluzione di Dynamics 365 Sales**|Abilitare questa impostazione per installare e configurare la soluzione di integrazione in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic-->|
 |**Pubblica servizio Web Disponibilità articolo**|Consentire alla persone che utilizzano [!INCLUDE[crm_md](includes/crm_md.md)] di visualizzare la disponibilità degli articoli (prodotti) in magazzino in [!INCLUDE[d365fin](includes/d365fin_md.md)]. A questo proposito, è necessario un account utente di [!INCLUDE[d365fin](includes/d365fin_md.md)] con una chiave di accesso ai servizi Web. L'assegnazione della chiave è un processo in due tappe. Nell'account utente di [!INCLUDE[d365fin](includes/d365fin_md.md)] è necessario scegliere l'azione **Modifica chiave del servizio Web**. Nella guida al setup assistito Setup connessione a Dynamics 365 Sales, è necessario specificare l'URL del servizio Web OData di Dynamics 365 Business Central e fornire le credenziali utente di [!INCLUDE[d365fin](includes/d365fin_md.md)] per l'accesso al servizio. Per ulteriori informazioni, vedere [Servizi Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL servizi Web OData di Business Central**|Se si abilita il servizio Web per la visualizzazione della disponibilità degli articoli, viene fornito l'URL del service Web OData.|
@@ -66,9 +65,9 @@ Puoi utilizzare guida al setup assistito per impostare rapidamente la connession
 Immettere le seguenti informazioni per la connessione da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Campo|Descrizione|
-|-----|-----|
+|-----|-----------|
 |**URL di Dynamics 365 Sales**|L'URL dell'istanza di [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò consente agli utenti di aprire record corrispondenti in [!INCLUDE[d365fin](includes/d365fin_md.md)] dai record di [!INCLUDE[crm_md](includes/crm_md.md)], ad esempio un conto o un prodotto. I record di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aperti in [!INCLUDE[d365fin](includes/d365fin_md.md)].|
-|**Servizio Web Disponibilità articolo abilitato**|Consentire alla persone che utilizzano [!INCLUDE[crm_md](includes/crm_md.md)] di visualizzare la disponibilità degli articoli (prodotti) in magazzino in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si abilita questa funzionalità, è inoltre necessario fornire un nome utente e una chiave di accesso per [!INCLUDE[crm_md](includes/crm_md.md)] da utilizzare per eseguire una query sul servizio Web OData per la disponibilità degli articoli (prodotti). Per ulteriori informazioni, vedere [Servizi Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Servizio Web Disponibilità articolo abilitato**|Consentire alla persone che utilizzano [!INCLUDE[crm_md](includes/crm_md.md)] di visualizzare la disponibilità degli articoli (prodotti) in magazzino in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si abilita questa funzionalità, è inoltre necessario fornire un nome utente e una chiave di accesso per [!INCLUDE[crm_md](includes/crm_md.md)] da utilizzare per eseguire una query sul servizio Web OData per la disponibilità degli articoli (prodotti). Per ulteriori informazioni, vedere [Servizi Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL servizi Web OData di Dynamics 365 Business Central**|Se si abilita il servizio Web Disponibilità articolo, viene fornito l'URL del service Web OData. Impostare il campo sull'URL dell'istanza di [!INCLUDE[d365fin](includes/d365fin_md.md)] da utilizzare.<br /><br /> Per reimpostare il campo sull'URL predefinito per [!INCLUDE[d365fin](includes/d365fin_md.md)], scegliere l'azione **Reimposta URL client Web**.<br /><br /> Questo campo è pertinente solo se la soluzione di integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] è installata in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Nome utente servizi Web OData di Dynamics 365 Business Central**|Il nome dell'account utente che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per ottenere informazioni sulla disponibilità degli articoli da [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante il servizio Web OData.|
 |**Chiave di accesso servizi Web OData di Dynamics 365 Business Central**|La chiave di accesso dell'account utente che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per ottenere informazioni sulla disponibilità degli articoli da [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante il servizio Web OData. La chiave viene assegnato all'utente selezionato nel campo **Nome utente servizi Web OData di Dynamics 365 Business Central**. Per ottenere la chiave, scegliere il pulsante **Cerca valore** accanto al nome utente, scegliere l'utente, scegliere **Gestisci**, e quindi **Modifica**. Nella scheda utente, scegliere **Azioni**, **Autenticazione** e quindi **Modifica chiave del servizio Web**.|
@@ -92,7 +91,7 @@ Le entità in [!INCLUDE[crm_md](includes/crm_md.md)], come gli ordini, vengono i
 Nella seguente tabella elenca il mapping standard tra le entità in [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] che [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Direzione della sincronizzazione|Filtro predefinito|
-|-------------------------------------------|-----|-------------------------|--------------|
+|-------------------------------------------|--------------------------------------|-----------------|--------------|
 |Unità di misura|Unità di vendita|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Articolo|Prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di Sales: il campo **Tipo prodotto** è **Inventario vendite**|
 |Risorsa|Prodotto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di Sales: il campo **Tipo prodotto** è **Servizi**|
@@ -122,7 +121,7 @@ Nella seguente tabella vengono elencate le regole che controllano la sincronizza
 |Ordini vendita|Quando l'integrazione dell'ordine cliente è abilitata, gli ordini cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] creati dagli ordini cliente inviati in  [!INCLUDE[crm_md](includes/crm_md.md)] sono sincronizzati con ordini di vendita in INCLUDE SALES quando vengono rilasciati. Prima di sincronizzare gli ordini, si consiglia di sincronizzare innanzitutto tutte le entità che sono coinvolte nell'ordine, come addetti alle vendite e listini prezzi. Il campo Codice agente nell'intestazione dell'ordine definisce il proprietario dell'entità associata in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Processi di sincronizzazione un'integrazione delle vendite.
-I processi sono eseguiti nel seguente ordine per evitare di associare dipendenze tra entità. Sono disponibili altri processi da Common Data Service. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+I processi sono eseguiti nel seguente ordine per evitare di associare dipendenze tra entità. Sono disponibili altri processi da Common Data Service. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. Processo di sincronizzazione UNITÀDIMISURA - Dynamics 365 Sales  
 2. Processo di sincronizzazione RISORSA-PRODOTTO - Dynamics 365 Sales  

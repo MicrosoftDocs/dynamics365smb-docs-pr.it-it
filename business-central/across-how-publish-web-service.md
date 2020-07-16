@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402455"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528187"
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
 
@@ -39,7 +39,7 @@ I seguenti passaggi illustrano come creare e pubblicare un servizio Web.
 Quando si pubblica il servizio Web, nei campi **URL OData** e **URL SOAP** è possibile vedere gli URL che sono generati per il servizio Web. È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, è possibile copiare il valore del campo e salvarlo per un successivo utilizzo.  
 
 > [!NOTE]
-> Se gli oggetti esposti come servizi Web non devono essere accessibili da [!INCLUDE [prodshort](includes/prodshort.md)] online, è necessario contrassegnare i metodi esposti nel codice come `[Scope('OnPrem')]`. Per ulteriori informazioni, vedere [Attributo dell'ambito](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Se gli oggetti esposti come servizi Web non devono essere accessibili da [!INCLUDE[prodshort](includes/prodshort.md)] online, è necessario contrassegnare i metodi esposti nel codice come `[Scope('OnPrem')]`. Per ulteriori informazioni, vedere [Attributo dell'ambito](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser, oppure è possibile scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella pagina **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
 

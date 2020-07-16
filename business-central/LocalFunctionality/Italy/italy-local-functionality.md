@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: sgroespe
-ms.openlocfilehash: ffc18561041d0d2a7fe0a92a5f265ea5bb0b7b03
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 63229494b5a210c118f651b71c844006bd314d3b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181115"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454322"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
+
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
@@ -63,6 +64,8 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

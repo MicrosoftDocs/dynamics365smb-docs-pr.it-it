@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183670"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458926"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -54,6 +54,9 @@ Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono
 
 ![Specifiche MICR E-13B](media/font_MICR_E-13B_Specifications.png "Specifiche MICR E-13B")
 
+### <a name="delimiter-characters"></a>Caratteri delimitatori
+![Caratteri delimitatori](media/font-micr-letters.png "Caratteri delimitatori")
+
 Le specifiche complete dei caratteri MICR E-13B sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>Specifiche MICR CMC-7
@@ -67,6 +70,9 @@ I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[d365fin](includes/d365f
 Di seguito sono riepilogate le specifiche per i caratteri MICR CMC-7 che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
 ![Specifiche MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Specifiche MICR CMC-7")
+
+### <a name="delimiter-characters"></a>Caratteri delimitatori
+![Caratteri delimitatori](media/font-cmc7-letters.png "Caratteri delimitatori")
 
 Le specifiche complete dei caratteri MICR CMC-7 sono disponibili nella documentazione del fornitore qui: (http://www.idautomation.com/micr-fonts/cmc7/).
 

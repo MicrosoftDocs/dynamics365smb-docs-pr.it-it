@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a2fdbaafd2a6668d7fb4edf42c25438bd881e98
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 529985b477da5079beadc5c4014aa9bdfd3ecb6c
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324440"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534798"
 ---
 # <a name="sell-products"></a>Vendere prodotti
+
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
 
 > [!NOTE]  
->   È necessario utilizzare gli ordini di vendita se il processo di vendita richiede che si possano spedire parti di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile in una sola volta. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di vendita. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md).
+> Utilizzare gli ordini di vendita se il processo di vendita richiede che si possano spedire parti di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile in una sola volta. Se si utilizzano fatture di vendita, [!INCLUDE [prodshort](includes/prodshort.md)] presuppone che si spedisca l'intero quantitativo quando si registra la fattura. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di vendita. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md).
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in un ordine di vendita quando ci si accorda sulla vendita. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md).
 

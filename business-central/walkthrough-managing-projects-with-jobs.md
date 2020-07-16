@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: a83a6aa09ecfd6bb6ae459096707d0fbb5ff234f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6fd4091a921c519c82e43bce868181bb77b66caf
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189821"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528915"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 In questa procedura dettagliata vengono presentate le funzionalità di gestione dei progetti nelle commesse. Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.  
 

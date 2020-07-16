@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: a3536c1e23ef5c9def211f9c2a28a719b556d1ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7a638ce63cf56d0de156271297a8cc0dbb699d
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195677"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528287"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione. Nella procedura dettagliata viene impiegata a tal fine la pagina **Pianificazione ordini**, un semplice strumento di pianificazione degli approvvigionamenti che prevede la decisione e l'intervento manuale dell'utente anziché utilizzare parametri predefiniti per la pianificazione automatica.  
 

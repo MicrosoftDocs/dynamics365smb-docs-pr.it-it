@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190109"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528765"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Novità di Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 È sempre possibile fare riferimento al piano di rilascio per una panoramica delle funzionalità nuove e imminenti. In questa documentazione, è possibile trovare argomenti con informazioni sulle funzionalità nuove ed esistenti in [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Per vedere tutte le estensioni offerte dai partner [!INCLUDE[d365fin](includes/d
 
 Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/), incluse le date di disponibilità e considerazioni speciali.  
 
-Per la comunità dei partner, pubblichiamo informazioni su [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365 per i partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nella [Guida per sviluppatori e professionisti IT per [!INCLUDE [prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/index).  
+Per la comunità dei partner, pubblichiamo informazioni su [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365 per i partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nella [Guida per sviluppatori e professionisti IT per [!INCLUDE[prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Vedere anche
 

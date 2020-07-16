@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190157"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528740"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy.  
 
 Per informazioni sulla sottoscrizione, cercare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 
-Quando si esegue l'iscrizione per [!INCLUDE [prodshort](includes/prodshort.md)], si accede a una società demo. La società demo contiene dati di esempio, ma è possibile creare nuovi documenti di vendita, ad esempio, oppure impostare un conto corrente bancario. Tuttavia, se si desidera utilizzare [!INCLUDE [prodshort](includes/prodshort.md)], è necessario contattare un partner rivenditore di [!INCLUDE [prodshort](includes/prodshort.md)] e acquistare una sottoscrizione. Per ulteriori informazioni su versioni di valutazione e sottoscrizioni, consultare [Versioni di valutazione e sottoscrizioni](across-preview.md).  
+Quando si esegue l'iscrizione per [!INCLUDE[prodshort](includes/prodshort.md)], si accede a una società demo. La società demo contiene dati di esempio, ma è possibile creare nuovi documenti di vendita, ad esempio, oppure impostare un conto corrente bancario. Tuttavia, se si desidera utilizzare [!INCLUDE[prodshort](includes/prodshort.md)], è necessario contattare un partner rivenditore di [!INCLUDE[prodshort](includes/prodshort.md)] e acquistare una sottoscrizione. Per ulteriori informazioni su versioni di valutazione e sottoscrizioni, consultare [Versioni di valutazione e sottoscrizioni](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Scoprire [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Per altre informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_
 > [!TIP]  
 > È sempre possibile ritornare a Gestione ruolo utente selezionando il nome della società nell'angolo in alto a sinistra.
 
-Nella società demo, le pagine Gestione ruolo utente Manager aziendale e Contabile includono il riquadro Introduzione e il riquadro Video dei prodotti. Entrambi i riquadri aprono le pagine in cui è possibile scegliere tra diversi video con informazioni utili per iniziare con diversi aspetti di [!INCLUDE [prodshort](includes/prodshort.md)]. È possibile trovare altri video sul nostro canale YouTube. Per ulteriori informazioni, vedere [Visitare la videoteca](across-videos.md). È anche possibile trovare contenuti di e-learning per la versione di base di [!INCLUDE [prodshort](includes/prodshort.md)] in [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Nella società demo, le pagine Gestione ruolo utente Manager aziendale e Contabile includono il riquadro Introduzione e il riquadro Video dei prodotti. Entrambi i riquadri aprono le pagine in cui è possibile scegliere tra diversi video con informazioni utili per iniziare con diversi aspetti di [!INCLUDE[prodshort](includes/prodshort.md)]. È possibile trovare altri video sul nostro canale YouTube. Per ulteriori informazioni, vedere [Visitare la videoteca](across-videos.md). È anche possibile trovare contenuti di e-learning per la versione di base di [!INCLUDE[prodshort](includes/prodshort.md)] in [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Per ulteriore assistenza, contattare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md).
 

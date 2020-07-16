@@ -1,7 +1,6 @@
 ---
 title: Creare schede articolo per beni o servizi| Documenti Microsoft
 description: Creare le schede articolo per i servizi che si vendono a ora e per i prodotti fisici, ad esempio articoli di assemblaggio, prodotti finiti, componenti o materie prime, che si vendono dal magazzino.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/27/2020
+ms.date: 07/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 84880df39dd573e24c11e81321f023e24cd1094a
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324152"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535342"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
+
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
 
 Le schede articolo contengono le informazioni richieste per l'acquisto, l'archiviazione, la consegna e la contabilità degli articoli.
@@ -34,11 +34,12 @@ Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a q
 > [!NOTE]  
 > Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una pagina quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
 
-La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).<br><br>  
+La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Articoli** scegliere l'azione **Nuovo**.
 
@@ -56,12 +57,10 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 
 L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzata nei documenti di acquisto e vendita.
 
-Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:
+Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:  
 
-### <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
-Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.
+### <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
 
-## <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
 1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per l'articolo.
@@ -70,22 +69,38 @@ Se è stata registrata una transazione per un articolo, non è possibile elimina
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Per impostare più fornitori per un articolo  
+### <a name="items-used-in-production-orders"></a>Articoli utilizzati negli ordini di produzione
+
+Se si desidera registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specificare il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
+
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Per impostare più fornitori per un articolo
+
 Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le informazioni relative a ogni singolo fornitore dell'articolo quali il prezzo, il lead time, lo sconto e così via.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2.  Selezionare il relativo articolo, quindi scegliere l'azione **Modifica**.  
-3.  Scegliere l'azione **Fornitori**.  
-4.  Selezionare il campo **Nr. fornitore** e selezionare il fornitore che si intende impostare per l'articolo.  
-5.  Facoltativamente, compilare i campi restanti.  
-6.  Ripetere i passaggi da 2 a 5 per ogni fornitore da cui si desidera acquistare l'articolo.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+2. Selezionare il relativo articolo, quindi scegliere l'azione **Modifica**.  
+3. Scegliere l'azione **Fornitori**.  
+4. Selezionare il campo **Nr. fornitore** e selezionare il fornitore che si intende impostare per l'articolo.  
+5. Facoltativamente, compilare i campi restanti.  
+6. Ripetere i passaggi da 2 a 5 per ogni fornitore da cui si desidera acquistare l'articolo.
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
+## <a name="categories-attributes-and-variants"></a>Categorie, attributi e varianti
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+## <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
+
+Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.
+
 ## <a name="see-also"></a>Vedere anche
+
 [Magazzino](inventory-manage-inventory.md)  
+[Impostare unità di misura](inventory-how-setup-units-of-measure.md)  
 [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  
+[Impostazione delle categorie di registrazione](finance-posting-groups.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

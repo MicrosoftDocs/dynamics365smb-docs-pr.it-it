@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186887"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528590"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Abilitare i dati aziendali per Power BI 
 
@@ -27,13 +27,13 @@ Ottenere informazioni dettagliate sui dati di [!INCLUDE[prodshort](includes/prod
 > [!IMPORTANT]
 > Le app Power BI descritte in questo articolo sono progettate per utilizzare Azure Active Directory come meccanismo di autenticazione salvo diversa indicazione. Inoltre, è necessaria una [licenza di Power BI Pro](/power-bi/service-features-license-type) per condividere il contenuto e anche le persone con cui li condividi, oppure il contenuto devono trovarsi in un'area di lavoro in una [Capacità premium ](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] ha pubblicato le seguenti app per Power BI:
+[!INCLUDE[prodlong](includes/prodlong.md)] ha pubblicato le seguenti app per Power BI:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] - Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilizzo dei dashboard di [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Utilizzo dei dashboard di [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI
 
 Ogni app include report che è possibile analizzare in dettaglio:
 
@@ -42,7 +42,7 @@ Ogni app include report che è possibile analizzare in dettaglio:
 - Aggiungere la visualizzazione personalizzata al dashboard per continuare la tracciabilità.  
   È possibile aggiornare manualmente i dati e configurare la pianificazione degli aggiornamenti. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)  
 
-Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUDE[prodshort](includes/prodshort.md)]. Quando si installa l'app Power BI, si specificano uno o più parametri per la connessione a [!INCLUDE [prodshort](includes/prodshort.md)].  
+Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUDE[prodshort](includes/prodshort.md)]. Quando si installa l'app Power BI, si specificano uno o più parametri per la connessione a [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > È inoltre possibile creare i propri report e dashboard in Power BI in base ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Collegare i dati aziendali a Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUD
 
     ![Passare a Ottieni i dati](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    È inoltre possibile iniziare da [!INCLUDE [prodshort](includes/prodshort.md)]. Nella Home page, passare a **Selezione report**nella sezione Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o a Microsoft AppSource e le app verranno filtrate per visualizzare solo quelle relative a [!INCLUDE[prodshort](includes/prodshort.md)].
+    È inoltre possibile iniziare da [!INCLUDE[prodshort](includes/prodshort.md)]. Nella Home page, passare a **Selezione report**nella sezione Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. Quando viene selezionata una di queste azioni, si verrà reindirizzati alla raccolta dell'organizzazione in Power BI o a Microsoft AppSource e le app verranno filtrate per visualizzare solo quelle relative a [!INCLUDE[prodshort](includes/prodshort.md)].
 
 3. Nella casella **Servizi**, selezionare **Ottieni**. Viene visualizzata una pagina che visualizza **AppSource** e **App per Power BI**.  
 
@@ -64,7 +64,7 @@ Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUD
 5. Quando richiesto, immettere il nome dell'ambiente e dell'azienda nell'app [!INCLUDE[prodshort](includes/prodshort.md)] a cui si intende connettersi. Se non sono stati creati più ambienti, immettere **Produzione**. Per il parametro dell'azienda, assicurarsi di inserire il nome e non il nome visualizzato. È possibile trovare Il nome della società nella pagina **Società'** dell'istanza di [!INCLUDE[prodshort](includes/prodshort.md)].  
 
     > [!NOTE]
-    > Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, è necessario specificare il parametro *URL servizio Web*. Questa parametro è presente nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)]. L'istanza di [!INCLUDE [server](includes/server.md)] deve essere configurata per l'autenticazione Base ed è necessario specificare un utente e la chiave di accesso Web di quell'utente come password. Nell'esempio seguente, sostituire *myserver: 7048* con il nome [!INCLUDE [server](includes/server.md)] e *CRONUS%20US* con il nome della società.  
+    > Se ci si connette a [!INCLUDE[prodshort](includes/prodshort.md)] in locale, è necessario specificare il parametro *URL servizio Web*. Questa parametro è presente nella pagina **Servizi web** in [!INCLUDE[prodshort](includes/prodshort.md)]. L'istanza di [!INCLUDE[server](includes/server.md)] deve essere configurata per l'autenticazione Base ed è necessario specificare un utente e la chiave di accesso Web di quell'utente come password. Nell'esempio seguente, sostituire *myserver: 7048* con il nome [!INCLUDE[server](includes/server.md)] e *CRONUS%20US* con il nome della società.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Dopo la connessione, un dashboard e i report vengono aggiunti all'area di lavoro Power BI. Al termine, i riquadri visualizzano i dati della società [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -78,18 +78,18 @@ Le app sono progettate per l'utilizzo dei dati di qualsiasi società in [!INCLUD
 - [Selezionare un riquadro](/power-bi/service-dashboard-tiles) per aprire il report sottostante.  
 - Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora**. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
 
-## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-La Home page in [!INCLUDE [prodshort](includes/prodshort.md)] può includere un elemento di controllo Power BI che può essere configurato per la visualizzazione dei report Power BI nella Home page.
+La Home page in [!INCLUDE[prodshort](includes/prodshort.md)] può includere un elemento di controllo Power BI che può essere configurato per la visualizzazione dei report Power BI nella Home page.
 
 > [!IMPORTANT]
-> È necessario disporre di un account valido con [!INCLUDE [prodshort](includes/prodshort.md)] e con Power BI. Inoltre, se si desidera modificare qualsiasi report, è necessario scaricare Power BI Desktop. Per ulteriori informazioni, vedere [Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
+> È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, se si desidera modificare qualsiasi report, è necessario scaricare Power BI Desktop. Per ulteriori informazioni, vedere [Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>Al primo accesso
 
-Quando si esegue il primo accesso a [!INCLUDE [prodshort](includes/prodshort.md)], si noterà che una parte di Power BI nella Home page è vuota. Per visualizzare i report, è necessario innanzitutto connettersi a Power BI selezionando il collegamento *Introduzione a Power BI*.
+Quando si esegue il primo accesso a [!INCLUDE[prodshort](includes/prodshort.md)], si noterà che una parte di Power BI nella Home page è vuota. Per visualizzare i report, è necessario innanzitutto connettersi a Power BI selezionando il collegamento *Introduzione a Power BI*.
 
-[!INCLUDE [prodshort](includes/prodshort.md)] comunica quindi con il servizio Power BI per determinare se si dispone di un account Power BI valido. Dopo la verifica della licenza, i report Power BI predefiniti sono visualizzati nella Home page.
+[!INCLUDE[prodshort](includes/prodshort.md)] comunica quindi con il servizio Power BI per determinare se si dispone di un account Power BI valido. Dopo la verifica della licenza, i report Power BI predefiniti sono visualizzati nella Home page.
 
 ### <a name="selecting-power-bi-reports"></a>Selezione di report Power BI
 
@@ -115,11 +115,11 @@ Ritornare a Gestione ruolo utente; il ruolo aggiornato verrà visualizzato. Se s
 
 ### <a name="uploading-reports"></a>Caricamento dei report
 
-È possibile caricare nuovi report Power BI e condividerli con tutti gli utenti di [!INCLUDE [prodshort](includes/prodshort.md)]. I report sono condivisi in ogni società in [!INCLUDE [prodshort](includes/prodshort.md)].  
+È possibile caricare nuovi report Power BI e condividerli con tutti gli utenti di [!INCLUDE[prodshort](includes/prodshort.md)]. I report sono condivisi in ogni società in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Per caricare un report, selezionare l'azione **Carica report** dall'elenco a discesa. È quindi possibile caricare un file .pbix che definisce i report che si desidera condividere. È possibile modificare il nome predefinito del file.  
 
-Una volta che il rapporto è stato caricato nella propria area di lavoro Power BI, viene caricato automaticamente nelle aree di lavoro Power BI di tutti gli altri utenti fino al successivo accesso a [!INCLUDE [prodshort](includes/prodshort.md)].
+Una volta che il rapporto è stato caricato nella propria area di lavoro Power BI, viene caricato automaticamente nelle aree di lavoro Power BI di tutti gli altri utenti fino al successivo accesso a [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 
@@ -145,7 +145,7 @@ Per importare i dati di [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI
 - Etichette report Power BI
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] in locale utilizza gli stessi endpoint del servizio Web di [!INCLUDE [prodshort](includes/prodshort.md)] online.
+> [!INCLUDE[prodshort](includes/prodshort.md)] in locale utilizza gli stessi endpoint del servizio Web di [!INCLUDE[prodshort](includes/prodshort.md)] online.
 
 ## <a name="web-services"></a>Servizi Web
 
@@ -163,7 +163,7 @@ Un account Power BI non è stato impostato. Per disporre di un account Power BI 
 
 Questo messaggio verrà visualizzato se il report predefinito non viene distribuito alla propria area di lavoro Power BI o il report è stato distribuito ma non aggiornato correttamente. In questo caso, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a Business Central e selezionare manualmente il report dalla pagina **Selezionare i report**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI
 
 Inoltre, è necessaria una [licenza di Power BI Pro](/power-bi/service-features-license-type) per condividere il contenuto e anche le persone con cui li condividi, oppure il contenuto devono trovarsi in un'area di lavoro in una [Capacità premium ](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ Inoltre, è necessaria una [licenza di Power BI Pro](/power-bi/service-features-
 
 Questo errore indica che uno o più parametri non sono validi.
 
-- Il parametro di ambiente specificato non corrisponde ad alcun ambiente di produzione o sandbox di [!INCLUDE [prodshort](includes/prodshort.md)].
-- Il parametro dell'azienda specificato non corrisponde ad alcuna società [!INCLUDE [prodshort](includes/prodshort.md)] esistente. Verificare il nome della società nella pagina **Società** in [!INCLUDE [prodshort](includes/prodshort.md)].
-- Se ci si connette a [!INCLUDE [prodshort](includes/prodshort.md)] in locale, si è immesso un URL non valido. È possibile verificare l'URL nella pagina **Servizi web** in [!INCLUDE [prodshort](includes/prodshort.md)].  
+- Il parametro di ambiente specificato non corrisponde ad alcun ambiente di produzione o sandbox di [!INCLUDE[prodshort](includes/prodshort.md)].
+- Il parametro dell'azienda specificato non corrisponde ad alcuna società [!INCLUDE[prodshort](includes/prodshort.md)] esistente. Verificare il nome della società nella pagina **Società** in [!INCLUDE[prodshort](includes/prodshort.md)].
+- Se ci si connette a [!INCLUDE[prodshort](includes/prodshort.md)] in locale, si è immesso un URL non valido. È possibile verificare l'URL nella pagina **Servizi web** in [!INCLUDE[prodshort](includes/prodshort.md)].  
 - Una porta non viene aperta per consentire il passaggio della richiesta attraverso il firewall.
 
 ### <a name="cannot-sign-in"></a>Impossibile accedere
 
-Se viene visualizzato un errore "Accesso non riuscito" dopo l'utilizzo delle credenziali utente di [!INCLUDE [prodshort](includes/prodshort.md)] per eseguire l'accesso, è probabile che si sia verificato uno dei seguenti problemi:
+Se viene visualizzato un errore "Accesso non riuscito" dopo l'utilizzo delle credenziali utente di [!INCLUDE[prodshort](includes/prodshort.md)] per eseguire l'accesso, è probabile che si sia verificato uno dei seguenti problemi:
 
-- L'account che si sta utilizzando non dispone delle autorizzazioni per recuperare i dati di [!INCLUDE [prodshort](includes/prodshort.md)] da tale account. Verificare di disporre delle autorizzazioni per i dati richiesti in [!INCLUDE [prodshort](includes/prodshort.md)] e riprovare.
-- Si è selezionato un tipo di autenticazione diverso da Base per la connessione a [!INCLUDE [prodshort](includes/prodshort.md)] in locale.
+- L'account che si sta utilizzando non dispone delle autorizzazioni per recuperare i dati di [!INCLUDE[prodshort](includes/prodshort.md)] da tale account. Verificare di disporre delle autorizzazioni per i dati richiesti in [!INCLUDE[prodshort](includes/prodshort.md)] e riprovare.
+- Si è selezionato un tipo di autenticazione diverso da Base per la connessione a [!INCLUDE[prodshort](includes/prodshort.md)] in locale.
 - Non è stato inserito un nome utente o una password validi.
 
 ### <a name="incorrect-company-name"></a>Nome della società non corretto
@@ -198,7 +198,7 @@ Una volta che l'app Power BI è installata e i dati sono visualizzati in Power B
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Visualizzazione unicamente dei dati di una singola società
 
-L'app Power BI visualizzerà solo i dati della società [!INCLUDE [prodshort](includes/prodshort.md)] definita all'installazione dell'app Power BI. I dati di altre società possono essere aggiunti ai report aggiungendo nuove query che utilizzano società differenti come origine dati.  
+L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prodshort](includes/prodshort.md)] definita all'installazione dell'app Power BI. I dati di altre società possono essere aggiunti ai report aggiungendo nuove query che utilizzano società differenti come origine dati.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

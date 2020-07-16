@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183550"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528840"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
@@ -103,7 +103,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 5. Verrà aperto il processo batch **Rett. valuta cont. aggiuntiva**.
 
     Con questo processo è possibile convertire gli importi VL nei movimenti esistenti nella valuta contabile addizionale. Nel processo batch viene utilizzato un tasso di cambio predefinito copiato dal tasso di cambio valido alla data di lavoro nella pagina **Tassi di cambio valuta**. Gli importi residui che si verificano nella conversione della valuta locale in valuta contabile addizionale vengono registrati nei conti utili e nei conti perdite residui specificati nella pagina **Valute**. La data di registrazione e il numero di documento di questi movimenti saranno gli stessi del movimento C/G originale. Dopo la registrazione di tutti questi movimenti residui, con il processo batch viene registrato un movimento di arrotondamento alla data di chiusura di ogni anno chiuso nel conto profitti/perdite. In questo modo viene garantito che il saldo finale dei conti di entrata di ogni anno chiuso sia 0, sia in valuta locale sia nella valuta contabile addizionale.
-6. Compilare i campi come necessario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Scegliere **OK** per eseguire il processo batch.  
 
 Dopo avere eseguito il processo batch, gli importi nei seguenti movimenti esistenti saranno espressi sia nella valuta locale che in quella addizionale:  

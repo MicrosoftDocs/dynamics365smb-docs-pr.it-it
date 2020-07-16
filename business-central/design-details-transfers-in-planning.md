@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5940319c254c97040c3f3b15fc540ed9cfecda5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6016feb4a65fe869d2c29c107afc19dd7756b011
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184657"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503646"
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse, le società potrebbero avere una catena di trasferimenti in cui l'approvvigionamento all'ubicazione VERDE viene trasferito da GIALLO e l'approvvigionamento a GIALLO viene trasferito da ROSSO e così via. All'inizio della catena, è presente un sistema di rifornimento di Ordine di produzione o di acquisto.  

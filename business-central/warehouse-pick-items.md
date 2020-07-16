@@ -1,6 +1,6 @@
 ---
 title: Prelevare articoli | Documenti Microsoft
-description: L'attività di warehouse di prelievo degli articoli prima della spedizione o dell'utilizzo viene eseguita in modi diversi a seconda della configurazione delle funzionalità di gestione warehouse. La complessità delle operazioni di [setup](../configure-warehouse-processes.md) può andare dall'assenza delle funzionalità di warehouse, alle configurazioni di warehouse di base per la gestione ordine per ordine in una o più attività, fino alle configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro guidato.
+description: L'attività di warehouse di prelievo degli articoli prima della spedizione o dell'utilizzo viene eseguita in modi diversi a seconda della configurazione delle funzionalità di gestione warehouse. La complessità delle operazioni di setup può andare dall'assenza delle funzionalità di warehouse, alle configurazioni di warehouse di base per la gestione ordine per ordine in una o più attività, fino alle configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro guidato.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4b7f183c36c739f4dcb92b901639de6ebe8af97f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a19496eafcacb3a2c021d78da5e5b7130300154a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196062"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529290"
 ---
 # <a name="pick-items"></a>Prelievo degli articoli
+
 L'attività di warehouse di prelievo degli articoli prima della spedizione o dell'utilizzo viene eseguita in modi diversi a seconda della configurazione delle funzionalità di gestione warehouse. La complessità può andare dall'assenza delle funzionalità di warehouse, alle configurazioni di warehouse di base per la gestione ordine per ordine in una o più attività, fino alle configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro guidato. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).
 
 Se si decide di organizzare e di registrare l'attività di prelievo associata a documenti di warehouse, inserire un segno di spunta nel campo **Richiesto prelievo** nella scheda Ubicazione. Ciò indica che, nel caso di articoli che devono essere prelevati per un documento di origine in uscita, il prelievo dovrà essere controllato dal sistema. Un documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita, un ordine di assistenza o un ordine di produzione di cui è richiesto il prelievo dei componenti.

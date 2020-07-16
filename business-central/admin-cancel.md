@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187438"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528414"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Annullare la sottoscrizione o rimuovere [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Se è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Annullare la sottoscrizione rimuovendo [!INCLUDE[d365fin](includes/d365fin_md.md)] dalla propria esperienza di Office 365
 
-Se la società esegue la sottoscrizione a [!INCLUDE [prodshort](includes/prodshort.md)] ma in veste di utente non si desidera più accedervi, è necessario chiedere all'amministratore o al partner rivenditore di Dynamics 365 di rimuovere la licenza di [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'account utente di Office 365. Se [!INCLUDE[d365fin](includes/d365fin_md.md)] viene rimosso dall'account utente e la società non interrompe la sottoscrizione, i colleghi di lavoro avranno ancora accesso ai dati condivisi nella società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Se la società esegue la sottoscrizione a [!INCLUDE[prodshort](includes/prodshort.md)] ma in veste di utente non si desidera più accedervi, è necessario chiedere all'amministratore o al partner rivenditore di Dynamics 365 di rimuovere la licenza di [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'account utente di Office 365. Se [!INCLUDE[d365fin](includes/d365fin_md.md)] viene rimosso dall'account utente e la società non interrompe la sottoscrizione, i colleghi di lavoro avranno ancora accesso ai dati condivisi nella società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Se la società desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], il partner rivenditore di Dynamics 365 può rimuovere la sottoscrizione a pagamento dall'account della società. Per ulteriori informazioni, vedere [Amministrazione di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) nella Guida per sviluppatori e professionisti IT.  
 

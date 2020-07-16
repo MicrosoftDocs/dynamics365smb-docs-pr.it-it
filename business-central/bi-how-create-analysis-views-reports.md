@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186094"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496827"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
@@ -41,9 +41,9 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 - Percentuale vendite mese precedente  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Impostazione dei layout di riga e di colonna  
- Nella pagina **Report analisi**, è possibile visualizzare layout di riga e colonna diversi a seconda di ciò che è stato impostato. Le righe o i modelli righe devono essere impostati nella pagina **Modelli righe analisi**. In questa pagina è possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella pagina **Modelli colonne analisi**. In questa pagina è possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella pagina **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  
+ Nella pagina **Report analisi** è possibile visualizzare diversi layout di righe e colonne in base alle righe o ai modelli di riga impostati nella pagina **Modelli righe analisi**. È possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella pagina **Modelli colonne analisi**. È possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella pagina **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  
 
-In base alle righe e alle colonne impostate, il risultato del report viene aggregato automaticamente nella pagina della matrice **Report Analisi**, come nel seguente esempio:  
+In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Report analisi**, come nella tabella seguente.  
 
 | |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
 |-|-|-|-|  

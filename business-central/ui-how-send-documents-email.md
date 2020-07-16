@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402508"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527987"
 ---
 # <a name="send-documents-by-email"></a>Inviare documenti via e-mail
 
@@ -65,7 +65,7 @@ Nella procedura riportata di seguito viene descritto come inviare una fattura di
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
 
-Alcuni documenti in [!INCLUDE [prodshort](includes/prodshort.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il campo viene aggiornato anche se non si stampa il documento ma lo si invia tramite e-mail. Il campo viene aggiornato anche se non si invia effettivamente il documento, ad esempio quando l'organizzazione non ha impostato la posta elettronica o quando il contatto a cui si desidera inviare il documento non ha un indirizzo di posta elettronica elencato. In tutti gli scenari, per quanto riguarda [!INCLUDE [prodshort](includes/prodshort.md)], il documento viene stampato perché viene generato un file PDF.  
+Alcuni documenti in [!INCLUDE[prodshort](includes/prodshort.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il campo viene aggiornato anche se non si stampa il documento ma lo si invia tramite e-mail. Il campo viene aggiornato anche se non si invia effettivamente il documento, ad esempio quando l'organizzazione non ha impostato la posta elettronica o quando il contatto a cui si desidera inviare il documento non ha un indirizzo di posta elettronica elencato. In tutti gli scenari, per quanto riguarda [!INCLUDE[prodshort](includes/prodshort.md)], il documento viene stampato perché viene generato un file PDF.  
 
 L'utente potrebbe non vedere questo file generato, ma è per questo che il campo è stato aggiornato.
 

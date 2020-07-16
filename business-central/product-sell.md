@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190061"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528690"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Diventare rivenditore di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Espandere la propria opportunità commerciale con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del
 
 ## <a name="get-started"></a>Inizia
 
-Il programma "Ready to Go" è un metodo per iniziare come rivenditore [!INCLUDE [prodshort](includes/prodshort.md)]. È inoltre possibile contattare Microsoft Office nel proprio paese o area geografica. Per ulteriori informazioni sulle risorse disponibili tramite il programma "Ready to Go", vedere [aka.ms/readytogo](https://aka.ms/readytogo), [Diverse soluzioni per il rivenditore](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) e [Iniziare come rivenditore](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+Il programma "Ready to Go" è un metodo per iniziare come rivenditore [!INCLUDE[prodshort](includes/prodshort.md)]. È inoltre possibile contattare Microsoft Office nel proprio paese o area geografica. Per ulteriori informazioni sulle risorse disponibili tramite il programma "Ready to Go", vedere [aka.ms/readytogo](https://aka.ms/readytogo), [Diverse soluzioni per il rivenditore](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) e [Iniziare come rivenditore](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Vedere anche
 

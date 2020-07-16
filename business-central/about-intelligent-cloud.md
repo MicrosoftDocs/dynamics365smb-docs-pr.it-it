@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188926"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528865"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Informazioni intelligenti con [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ Come utente di [!INCLUDE[prodshort](includes/prodshort.md)] online, si dispone d
 
 Se si è interessati a [!INCLUDE[prodshort](includes/prodshort.md)], è possibile registrarsi per una valutazione gratuita online oppure scegliere di lavorare con un partner per distribuire [!INCLUDE[prodshort](includes/prodshort.md)] localmente nell'hardware preferito. Sarà quindi possibile decidere di acquisire informazioni intelligenti eseguendo la connessione a un tenant nel cloud. Di conseguenza, i dati provenienti dalla soluzione [!INCLUDE[prodshort](includes/prodshort.md)] distribuita localmente verranno replicati nel cloud per scenari cloud intelligenti.  
 
-La connessione al cloud intelligente da una soluzione locale richiede che l'amministratore specifichi le informazioni sul database. Gli strumenti utilizzati per connettere la distribuzione locale a [!INCLUDE [prodshort](includes/prodshort.md)] online sono gli stessi utilizzati anche per la migrazione da locale a online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].  
+La connessione al cloud intelligente da una soluzione locale richiede che l'amministratore specifichi le informazioni sul database. Gli strumenti utilizzati per connettere la distribuzione locale a [!INCLUDE[prodshort](includes/prodshort.md)] online sono gli stessi utilizzati anche per la migrazione da locale a online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Visualizzare Informazioni su Cloud intelligente in [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

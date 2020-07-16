@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413645"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528112"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Esperienze di contabile in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
@@ -54,14 +54,14 @@ Se l'amministratore o il partner di rivendita non desidera utilizzare la guida *
 4. Selezionare **Nuovo utente guest**.
 5. Nella pagina **Nuovo utente**, selezionare **Invita utente** e aggiungere le informazioni sul contabile esterno.  
 
-   Facoltativamente, includere un messaggio di benvenuto personale per il contabile per fargli sapere che lo stai aggiungendo a [!INCLUDE [prodshort](includes/prodshort.md)].
+   Facoltativamente, includere un messaggio di benvenuto personale per il contabile per fargli sapere che lo stai aggiungendo a [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Selezionare **Invita** per inviare automaticamente l'invito. Viene visualizzata una notifica in alto a destra con il messaggio **L'utente è stato invitato**. 
 7. Dopo aver inviato l'invito, l'account utente viene automaticamente aggiunto alla directory come guest.
 
-Successivamente, è necessario assegnare una licenza al nuovo utente guest per [!INCLUDE [prodshort](includes/prodshort.md)].
+Successivamente, è necessario assegnare una licenza al nuovo utente guest per [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Per concedere al contabile l'accesso a [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Per concedere al contabile l'accesso a [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Nel portale di Azure, per l'utente appena aggiunto, selezionare **Profilo** e quindi scegliere **Modifica**
 2. Aggiornare il campo **Posizione di utilizzo** con il paese pertinente, quindi selezionare **Salva**.
@@ -73,26 +73,26 @@ Successivamente, è necessario assegnare una licenza al nuovo utente guest per [
 
 Se l'operazione viene completata, la licenza viene assegnata all'utente guest e viene creato l'account guest.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importazione del nuovo utente in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importazione del nuovo utente in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Il contabile riceverà un messaggio e-mail che lo informa che gli è stato concesso l'accesso ad Active Directory. Successivamente, è necessario assegnare l'accesso alla società giusta in [!INCLUDE [prodshort](includes/prodshort.md)].
+Il contabile riceverà un messaggio e-mail che lo informa che gli è stato concesso l'accesso ad Active Directory. Successivamente, è necessario assegnare l'accesso alla società giusta in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Per aggiungere il contabile alla società giusta
 
-1. Aprire la società [!INCLUDE [prodshort](includes/prodshort.md)] a cui si desidera che il contabile acceda all'indirizzo [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Aprire la società [!INCLUDE[prodshort](includes/prodshort.md)] a cui si desidera che il contabile acceda all'indirizzo [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Ottieni nuovi utenti da Office 365**.
 
 In tal modo l'account utente creato nel portale di Azure viene importato nella società. Per ulteriori informazioni, vedere [Per aggiungere un utente in Business Central](ui-how-users-permissions.md#adduser).  
 
-Se si desidera consentire l'accesso a più società, è necessario accedere a ciascuna società e ripetere questo processo. In alternativa, è possibile aggiornare i gruppi di autorizzazioni per il profilo utente del contabile in [!INCLUDE [prodshort](includes/prodshort.md)], ad esempio assegnando il gruppo di utenti *D365 Bus Premium*. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
+Se si desidera consentire l'accesso a più società, è necessario accedere a ciascuna società e ripetere questo processo. In alternativa, è possibile aggiornare i gruppi di autorizzazioni per il profilo utente del contabile in [!INCLUDE[prodshort](includes/prodshort.md)], ad esempio assegnando il gruppo di utenti *D365 Bus Premium*. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Vedere anche
 

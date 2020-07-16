@@ -8,22 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189269"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527810"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
+
 Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.  
 
  Le procedure dettagliate ricreano scenari completi ed è quindi consigliabile, per trarne il massimo insegnamento, seguirle dall'inizio alla fine. Molte sono basate su dimostrazioni di [!INCLUDE[d365fin](includes/d365fin_md.md)] e consentono di provare a svolgere le attività descritte autonomamente e secondo i propri ritmi.  
 
 > [!NOTE]
-> Alcuni procedure dettagliate utilizzano dati di esempio che non sono disponibili nella società CRONUS standard. Per queste procedure dettagliate è necessario eseguire i passaggi in una società creata con l'opzione **Valutazione completa - Completo dati di esempio**, disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+> Alcune procedure dettagliate richiedono dati di esempio non disponibili nella società dimostrativa predefinita in [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Per creare una società con dati di esempio completi in una sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |A|Vedere|  
 |--------|---------|  
@@ -40,7 +41,8 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 |Prelevare gli articoli per la spedizione nelle configurazioni di warehouse di base. **Richiede dati di esempio completi**|[Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Eseguire la gestione dei difetti. **Richiede dati di esempio completi**|[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

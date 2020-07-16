@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f140303f037ea4a914cba1ded44fd453bcdfabb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b42437f0759ecb6d977797b31222bfa2b88cdb13
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187894"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528464"
 ---
-# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Uso di [!INCLUDE [prodlong](includes/prodlong.md)] come origine dati di Power BI per la creazione di report
+# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Uso di [!INCLUDE[prodlong](includes/prodlong.md)] come origine dati di Power BI per la creazione di report
 
 È possibile rendere disponibili i dati di [!INCLUDE[prodlong](includes/prodlong.md)] come origine di dati in Power BI e sviluppare report efficaci dello stato dell'attività.  
 
@@ -27,24 +27,24 @@ ms.locfileid: "3187894"
 
 1. In Power BI Desktop, nel riquadro di spostamento sinistro, scegliere **Ottieni i dati**.
 2. Nella pagina **Ottieni i dati**, scegliere **Servizi online**, quindi **Microsoft Dynamics 365 Business Central** e infine il pulsante **Connetti**.
-3. Power BI visualizza una procedura guidata per il processo di connessione, incluso l'accesso a [!INCLUDE [prodshort](includes/prodshort.md)]. Scegli **Accedi**, quindi seleziona l'account pertinente. Utilizza lo stesso account usato per accedere a [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Fare clic sul pulsante **Connetti** per continuare. La procedura guidata di Power BI mostra un elenco di ambienti, origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati, indicano tutti i servizi Web pubblicati tramite [!INCLUDE [prodshort](includes/prodshort.md)].
+3. Power BI visualizza una procedura guidata per il processo di connessione, incluso l'accesso a [!INCLUDE[prodshort](includes/prodshort.md)]. Scegli **Accedi**, quindi seleziona l'account pertinente. Utilizza lo stesso account usato per accedere a [!INCLUDE[prodshort](includes/prodshort.md)].
+4. Fare clic sul pulsante **Connetti** per continuare. La procedura guidata di Power BI mostra un elenco di ambienti, origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati, indicano tutti i servizi Web pubblicati tramite [!INCLUDE[prodshort](includes/prodshort.md)].
 
-    Puoi anche creare un nuovo URL del servizio web in [!INCLUDE [prodshort](includes/prodshort.md)]. Scegli uno dei seguenti metodi:
+    Puoi anche creare un nuovo URL del servizio web in [!INCLUDE[prodshort](includes/prodshort.md)]. Scegli uno dei seguenti metodi:
 
       - Usa l'azione **Crea set di dati** della pagina **Servizi Web**
       - Usa la guida del setup assistito **Imposta creazione di report**
       - Scegli l'azione **Modifica in Excel** in qualsiasi elenco
 
 5. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica**.
-6. Ripetere i passaggi precedenti per aggiungere ulteriori [!INCLUDE [prodshort](includes/prodshort.md)], o altri dati, per il modello dati Power BI.
+6. Ripetere i passaggi precedenti per aggiungere ulteriori [!INCLUDE[prodshort](includes/prodshort.md)], o altri dati, per il modello dati Power BI.
 
 > [!NOTE]  
-> Una volta eseguita la connessione a [!INCLUDE [prodshort](includes/prodshort.md)], non verrà richiesto nuovamente di eseguire l'accesso.
+> Una volta eseguita la connessione a [!INCLUDE[prodshort](includes/prodshort.md)], non verrà richiesto nuovamente di eseguire l'accesso.
 
-Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento destro nella pagina. Hai stabilito correttamente la connessione ai dati di [!INCLUDE [prodshort](includes/prodshort.md)] e sei pronto per iniziare a creare il report di Power BI.  
+Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento destro nella pagina. Hai stabilito correttamente la connessione ai dati di [!INCLUDE[prodshort](includes/prodshort.md)] e sei pronto per iniziare a creare il report di Power BI.  
 
-Prima di creare il report, è consigliabile importare il file del tema [!INCLUDE [prodshort](includes/prodshort.md)].  Il file del tema creerà una tavolozza dei colori in modo da creare report con lo stesso stile cromatico delle app [!INCLUDE [prodshort](includes/prodshort.md)] senza dover defifnire i colori personalizzati per ogni elemento grafico.
+Prima di creare il report, è consigliabile importare il file del tema [!INCLUDE[prodshort](includes/prodshort.md)].  Il file del tema creerà una tavolozza dei colori in modo da creare report con lo stesso stile cromatico delle app [!INCLUDE[prodshort](includes/prodshort.md)] senza dover defifnire i colori personalizzati per ogni elemento grafico.
 
 Per ulteriori informazioni, vedere [Documentazione di Power BI](/power-bi/consumer/).
 

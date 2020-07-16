@@ -1,7 +1,7 @@
 ---
 title: 'Dettagli di progettazione: Metodi di costing | Microsoft Docs'
-description: Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
-author: SorenGP
+description: In questo argomento viene descritto come il metodo di costing determina se i valori effettivi o a budget vengono capitalizzati e utilizzati nel calcolo dei costi.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 66ae7f2bb4c8a8cc6705be9c4b0fdd183eecd3e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185590"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496677"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.

@@ -1,25 +1,25 @@
 ---
 title: 'Procedura dettagliata: Tracciabilità dei numeri seriali/lotto | Documenti Microsoft'
-description: In caso di prodotti difettosi, è necessario identificare gli errori e impedire la distribuzione degli articoli interessati. Qualora vengano spediti prodotti difettosi, è necessario risalire al destinatario e, se necessario, richiederne la restituzione.
-author: SorenGP
+description: Questo argomento descrive le azioni da intraprendere per interrompere la vendita di un articolo difettoso.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193349"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528137"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 In caso di prodotti difettosi, è necessario identificare gli errori e impedire la distribuzione degli articoli interessati. Qualora vengano spediti prodotti difettosi, è necessario risalire al destinatario e, se necessario, richiederne la restituzione.  
 
@@ -27,34 +27,38 @@ Il primo task della gestione dei difetti consiste nell'identificare la provenien
 
 Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina **Naviga**. È possibile utilizzare la funzione Naviga per individuare tutti i tipi di record di database.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+
 In questa procedura dettagliata viene illustrato come identificare gli articoli difettosi, il loro fornitore e in quali ubicazioni sono stati utilizzati in modo da poter fare un richiamo sugli ordini o bloccarli.  
 
 In questa procedura dettagliata sono illustrati i task seguenti:  
 
--   Tracciabilità dall'utilizzo all'origine.  
--   Tracciabilità dall'origine all'utilizzo.  
--   Ricerca di tutti i record correnti che contengono il numero seriale/di lotto tracciato  
+- Tracciabilità dall'utilizzo all'origine.  
+- Tracciabilità dall'origine all'utilizzo.  
+- Ricerca di tutti i record correnti che contengono il numero seriale/di lotto tracciato  
 
-## <a name="roles"></a>Ruoli  
+## <a name="roles"></a>Ruoli
+
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
--   Manager qualità  
--   Manager warehouse  
--   Gestore ordini  
--   Rivenditore  
+- Manager qualità  
+- Manager warehouse  
+- Gestore ordini  
+- Rivenditore  
 
-## <a name="prerequisites"></a>Prerequisiti  
+## <a name="prerequisites"></a>Prerequisiti
+
 Per completare questa procedura dettagliata, sarà necessario:  
 
--   La società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Creare nuovi articoli e diverse transazioni commerciali seguendo i passaggi nella sezione [Preparazione dei dati di esempio](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+- La società [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Creare nuovi articoli e diverse transazioni commerciali seguendo i passaggi nella sezione [Preparazione dei dati di esempio](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
 Luca, il manager qualità, deve occuparsi di un reso vendita dell'articolo 1002, una bicicletta da corsa. Il cliente, Selangorian Ltd., sostiene che alcune delle saldature presenti sul telaio hanno ceduto. I tecnici del controllo qualità confermano che il telaio della bicicletta restituita è effettivamente difettoso. Il manager qualità deve a questo punto determinare:  
 
--   Il lotto dei telai difettosi.  
--   L'ordine di acquisto con cui è stato ricevuto il lotto difettoso.  
+- Il lotto dei telai difettosi.  
+- L'ordine di acquisto con cui è stato ricevuto il lotto difettoso.  
 
 Il reparto vendite comunica al manager qualità che il numero seriale della bicicletta restituita, l'articolo 1002, è NS1. Con questa informazione di base Luca dovrà determinare il luogo in cui la bicicletta da corsa finita è stata utilizzata l'ultima volta e quindi tracciare all'indietro l'origine per stabilire il lotto di provenienza del componente difettoso.  
 
@@ -62,31 +66,32 @@ I risultati di questo primo task di tracciabilità articolo consentono di identi
 
 I primi due task di gestione dei difetti vengono eseguiti nella pagina **Tracciabilità articolo**. L'ultimo task viene invece eseguito nella pagina **Naviga** in combinazione con la pagina **Tracciabilità articolo**.  
 
-## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio  
+## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio
+
 È necessario creare i nuovi articoli seguenti:  
 
--   2000, Telaio da corsa: tracciabilità basata sul lotto, componente di 1002  
--   1002, Bicicletta da corsa: tracciabilità basata sul numero seriale  
+- 2000, Telaio da corsa: tracciabilità basata sul lotto, componente di 1002  
+- 1002, Bicicletta da corsa: tracciabilità basata sul numero seriale  
 
 Sarà quindi necessario creare diverse transazioni di acquisto, produzione e vendita con i due articoli.  
 
 ### <a name="to-create-the-items"></a>Per creare gli articoli  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Nel campo **Nr.** immettere **2000**, quindi procedere al completamento dei campi seguenti.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Nel campo **Nr.** immettere **2000**, quindi procedere al completamento dei campi seguenti.  
 
     |Descrizione|Unità di misura base|Righe Cat. reg. art./serv.|Cat. reg. art./serv. IVA|Cat. reg. magazzino|Codice tracciabilità articolo|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Telaio da corsa|PZ|MAT. PRIME|IVA25|MAT. PRIME|LOTTI|  
 
     > [!NOTE]  
     >  Per immettere l'unità di misura base, fare clic sul pulsante **Nuovo**, quindi selezionare **PSC** nella pagina **Unità di misura articoli**.  
 
-4.  Tutti gli altri campi contengono dati di default accettabili o non devono essere compilati.  
-5.  Scegliere **OK** per creare la prima nuova scheda articolo, 2000.  
-6.  Selezionare **Nuovo**.  
-7.  Nel campo **Nr.** immettere **1002**, quindi procedere al completamento dei campi seguenti.  
+4. Tutti gli altri campi contengono dati di default accettabili o non devono essere compilati.  
+5. Scegliere **OK** per creare la prima nuova scheda articolo, 2000.  
+6. Selezionare **Nuovo**.  
+7. Nel campo **Nr.** immettere **1002**, quindi procedere al completamento dei campi seguenti.  
 
     |Descrizione|Unità di misura base|Righe Cat. reg. art./serv.|Cat. reg. art./serv. IVA|Cat. reg. magazzino|Sistema di rifornimento|Codice tracciabilità articolo|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     A questo punto, definire il setup manufacturing dell'articolo.
 
-9. Nella Scheda dettaglio **Rifornimento** immettere **1000** nel campo **Nr. ciclo**.  
-10. Scegliere il campo **Nr. DB di produzione**, quindi **Avanzate**.  
-11. Nella pagina **Lista DB produzione** scegliere la prima riga, **1000**, quindi selezionare l'azione **Modifica**.  
-12. Nella pagina **DB produzione** modificare il valore nel campo **Stato** in **In sviluppo**.  
-13. Spostarsi su una riga vuota, immettere **2000** nel campo **Nr.** quindi immettere **1** nel campo **Quantità per**.  
-14. Modificare il valore nel campo **Stato** in **Certificata**.  
-15. Selezionare il pulsante **OK** per registrare la distinta base di produzione nella scheda articolo e chiudere la pagina **DB produzione**.  
+8. Nella Scheda dettaglio **Rifornimento** immettere **1000** nel campo **Nr. ciclo**.  
+9. Scegliere il campo **Nr. DB di produzione**, quindi **Avanzate**.  
+10. Nella pagina **Lista DB produzione** scegliere la prima riga, **1000**, quindi selezionare l'azione **Modifica**.  
+11. Nella pagina **DB produzione** modificare il valore nel campo **Stato** in **In sviluppo**.  
+12. Spostarsi su una riga vuota, immettere **2000** nel campo **Nr.** quindi immettere **1** nel campo **Quantità per**.  
+13. Modificare il valore nel campo **Stato** in **Certificata**.  
+14. Selezionare il pulsante **OK** per registrare la distinta base di produzione nella scheda articolo e chiudere la pagina **DB produzione**.  
 
     A questo punto, acquistare telai da corsa da Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Per acquistare i componenti  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Creare un ordine di acquisto per il fornitore, Custom Metals Incorporated, compilando i seguenti campi della riga.  
+### <a name="to-purchase-components"></a>Per acquistare i componenti
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Creare un ordine di acquisto per il fornitore, Custom Metals Incorporated, compilando i seguenti campi della riga.  
 
     |Articolo|Quantità|Nr. lotto|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|LOTTO1|  
 
-4.  Per immettere il numero di lotto, scegliere l'azione **Righe tracciabilità articolo**.  
-5.  Nella pagina **Righe tracciabilità articolo** compilare i campi **Nr. lotto** e **Quantità (base)**, quindi chiudere la pagina.  
-6.  Immettere un valore nel campo **Nr. fatt. fornitore**.  
-7.  Scegliere l'azione **Registra**, selezionare l'opzione **Carico e fattura**, quindi il pulsante **OK**.  
+4. Per immettere il numero di lotto, scegliere l'azione **Righe tracciabilità articolo**.  
+5. Nella pagina **Righe tracciabilità articolo** compilare i campi **Nr. lotto** e **Quantità (base)**, quindi chiudere la pagina.  
+6. Immettere un valore nel campo **Nr. fatt. fornitore**.  
+7. Scegliere l'azione **Registra**, selezionare l'opzione **Carico e fattura**, quindi il pulsante **OK**.  
 
     A questo punto, acquistare i telai da corsa da Coolwood Technologies.  
-8.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+8. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
 9. Scegliere l'azione **Nuovo**.
 10. Creare un ordine di acquisto per il fornitore, Coolwood Technologies, compilando i seguenti campi della riga.  
 
@@ -137,23 +143,24 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Quindi, produrre due biciclette da corsa, NS1 e NS2.  
 
-### <a name="to-produce-end-items"></a>Per produrre gli articoli finali  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
-2.  Scegliere il gruppo **Nuovo**.  
-3.  Creare un nuovo ordine di produzione rilasciato compilando i campi seguenti.  
+### <a name="to-produce-end-items"></a>Per produrre gli articoli finali
 
-    |-|-|-|  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
+2. Scegliere il gruppo **Nuovo**.  
+3. Creare un nuovo ordine di produzione rilasciato compilando i campi seguenti.  
+
     |Nr. origine|Quantità|Nr. seriale|  
-    |1002|2|NS1|  
-    |1002|2|NS2|  
+    |----------|--------|----------|  
+    |1002|2|SN1|  
+    |1002|2|SN2|  
 
-4.  Scegliere l'azione **Aggiorna ordine produzione**, quindi scegliere il pulsante **OK** per compilare la riga.  
-5.  Per immettere i numeri seriali, scegliere l'azione **Righe tracciabilità articolo**.  
-6.  Nella pagina **Righe tracciabilità articolo** compilare i campi **Nr. seriale** e **Quantità (base)**, quindi chiudere la pagina.  
+4. Scegliere l'azione **Aggiorna ordine produzione**, quindi scegliere il pulsante **OK** per compilare la riga.  
+5. Per immettere i numeri seriali, scegliere l'azione **Righe tracciabilità articolo**.  
+6. Nella pagina **Righe tracciabilità articolo** compilare i campi **Nr. seriale** e **Quantità (base)**, quindi chiudere la pagina.  
 
     Successivamente, registrare i consumi dei telai da corsa dal LOTTO1.  
-7.  Nella pagina **Ordine produzione rilasciato** selezionare l'azione **Registrazioni di produzione**.  
-8.  Nella pagina **Registrazioni di produzione** selezionare la riga consumi per l'articolo 2000 e scegliere l'azione **Righe tracciabilità articolo**.
+7. Nella pagina **Ordine produzione rilasciato** selezionare l'azione **Registrazioni di produzione**.  
+8. Nella pagina **Registrazioni di produzione** selezionare la riga consumi per l'articolo 2000 e scegliere l'azione **Righe tracciabilità articolo**.
 9. Nella pagina **Righe tracciabilità articolo** scegliere il campo **Nr. lotto**, selezionare **LOTTO1**, quindi scegliere **OK**.  
 10. Lasciare invariati tutti gli altri valori di default nella pagina **Registrazioni di produzione** e scegliere l'azione **Registra**.  
 
@@ -240,9 +247,9 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     È possibile analizzare il seguente storico delle transazioni:  
 
-    -   Il primo documento registrato immediatamente precedente nella catena di transazioni è la registrazione di output SN1 dal primo ordine di produzione rilasciato.  
-    -   Questo documento è a sua volta preceduto dalla registrazione consumi dal primo ordine di produzione rilasciato. Il manager qualità nota che è stato utilizzato un telaio da corsa appartenente al LOTTO1.  
-    -   L'ultimo documento registrato di questa catena è la ricezione acquisti registrata con cui i telai da corsa del LOTTO1 sono entrati in magazzino.  
+    - Il primo documento registrato immediatamente precedente nella catena di transazioni è la registrazione di output SN1 dal primo ordine di produzione rilasciato.  
+    - Questo documento è a sua volta preceduto dalla registrazione consumi dal primo ordine di produzione rilasciato. Il manager qualità nota che è stato utilizzato un telaio da corsa appartenente al LOTTO1.  
+    - L'ultimo documento registrato di questa catena è la ricezione acquisti registrata con cui i telai da corsa del LOTTO1 sono entrati in magazzino.  
 
     Il manager qualità ha così individuato il lotto dei telai difettosi e può quindi cercare l'ultima riga di tracciabilità per vedere il fornitore, ovvero Custom Metals Incorporated.  
 

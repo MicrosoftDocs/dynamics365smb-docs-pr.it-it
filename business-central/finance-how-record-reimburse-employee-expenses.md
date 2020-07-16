@@ -1,8 +1,6 @@
 ---
 title: Registrare e rimborsare le spese di lavoro dei dipendenti | Microsoft Docs
 description: Registrare le spese di un dipendente con le registrazioni COGE nel conto del dipendente e successivamente registrare un pagamento verso il conto bancario del dipendente per rimborsarlo delle spese sostenute per il lavoro.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184078"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503521"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrare e rimborsare le spese dei dipendenti
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le transazioni per i dipendenti in modo simile alle transazioni per i fornitori. Di conseguenza, sono disponibili alcune categorie di registrazione dipendenti che consentono di assicurarsi che i movimenti contabili per i dipendenti siano registrati nei conti di pertinenza nella contabilità COGE.
 
 > [!NOTE]  
 > Le transazioni relative ai dipendenti possono essere registrate solo nella valuta locale. I rimborsi ai dipendenti non supportano sconti e e tolleranze sui pagamenti.
 
-Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.
+Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.  
+
+> [!TIP]
+> Questo articolo spiega come registrare le spese nei libri e come rimborsare il dipendente. L'organizzazione potrebbe avere un portale o un'app in cui i dipendenti possono inviare le proprie note spese.
 
 ## <a name="to-record-an-employees-expense"></a>Per registrare le spese di un dipendente
 Le spese del dipendente vengono registrate nella pagina **Contabilità generale**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194453"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529115"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'individuazione, l'analisi e la limitazione di record in un elenco o in un XMLport o report. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
@@ -68,6 +68,9 @@ Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibi
 
 > [!TIP]
 > È possibile premere **F3** per attivare e disattivare la casella di ricerca. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> La ricerca non restituisce i valori di immagini, campi BLOB, FlowFilters, FlowField e altri campi che non fanno parte di una tabella. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtro
 I filtri forniscono un modo più avanzato e versatile per controllare quali record vengono visualizzati in un elenco o inclusi in un report o XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.

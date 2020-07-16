@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339948"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528615"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
 
-Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica. Tuttavia, non è attualmente supportata in [!INCLUDE [prodshort](includes/prodshort.md)].  
+Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica. Tuttavia, non è attualmente supportata in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 

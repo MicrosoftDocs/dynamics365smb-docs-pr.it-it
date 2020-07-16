@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187716"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528815"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 
@@ -40,7 +40,7 @@ Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dat
 
 ## <a name="working-with-activity-logs"></a>Utilizzare log di attività
 
-Da alcune pagine in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prodshort](includes/prodshort.md)].  
+Da alcune pagine in [!INCLUDE[prodshort](includes/prodshort.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la finestra dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di 7 giorni.  
 

@@ -8,21 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 692eb7c5856e7c80f8ab047882539276e1829e45
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324320"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534773"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
+
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
 
 In un paio di scenari è necessario utilizzare un ordine di vendita invece di una fattura di vendita:  
 
 * Se è necessario spedire solo una parte della quantità degli ordini, ad esempio, perché la quantità completa non è disponibile.  
+* Se si spediscono i prodotti dopo aver registrato le fatture di vendita corrispondenti.
 * Se si vendono articoli che il fornitore consegna direttamente al cliente. Questa operazione viene denominata spedizione diretta. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md).  
 
 In tutti gli altri scenari, gli ordini di vendita e le fatture di vendita funzionano nello stesso modo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).

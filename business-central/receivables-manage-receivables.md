@@ -1,8 +1,6 @@
 ---
 title: Panoramica dei task per la gestione degli incassi | Documenti Microsoft
 description: Descrive i task per gestire gli incassi e collegare il pagamento ai movimenti contabili cliente o fornitore.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191909"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484213"
 ---
 # <a name="managing-receivables"></a>Gestione della contabilità clienti
+
 Un passaggio normale nell'iter finanziario consiste nel riconciliare i conti correnti bancari. Per questa operazione è necessario che i pagamenti in entrata vengano collegati ai movimenti del registro fornitori o clienti in modo da chiudere le fatture di vendita e le note di credito di acquisto come pagate.
 
 Poiché la maggior parte dei clienti negli ambienti di B2B pagano un certo periodo dopo la consegna, lasciando le fatture di vendita registrate aperte per il reparto Contabilità clienti da chiudere (collegare) quando viene ricevuto il pagamento, alcune fatture di vendita possono essere pagate immediatamente, ad esempio nel caso di pagamenti tramite PayPal. Tali fatture vengono immediatamente collegate come pagate quando vengono registrate e, pertanto, non appaiono come pagamenti da elaborare in Contabilità clienti. Per ulteriori informazioni, vedere, ad esempio, [Fatturare le attività di vendita](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Sono disponibili altre pagine in cui è possibile collegare i pagamenti o riconc
 * La pagina **Registrazione pagamenti** nella quale è possibile collegare manualmente i pagamenti ricevuti come contante, assegno o transazione bancaria rispetto a una lista generata di documenti di vendita non pagati. Questa funzionalità è disponibile solo per i documenti di vendita. Qui, non è possibile applicare i pagamenti in uscita e non è possibile riconciliare i conti bancari.
 * La pagina **Registrazioni incassi**, nella quale vengono registrate manualmente le ricezioni nel relativo conto COGE, cliente o altro conto immettendo una riga di pagamento. È possibile collegare la ricezione o il rimborso a uno o più movimenti aperti prima di contabilizzare le registrazioni incassi oppure è possibile eseguire il collegamento dai movimenti contabili clienti. Qui, non è possibile riconciliare i conti bancari.
 
-Le pagine **Registrazione riconciliazione pagamenti** e **Riconciliazioni C/C bancari** utilizzano la logica di corrispondenza automatica che è possibile impostare nella pagina **Regole di collegamento pagamenti**. Per ulteriori informazioni, vedere [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md).
+La pagina **Registrazione riconciliazione pagamenti** utilizza la logica di corrispondenza automatica che è possibile impostare nella pagina **Regole di collegamento pagamenti**. Per ulteriori informazioni, vedere [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md).  
 
 Altri aspetti della gestione dei crediti includono la riscossione di saldi inevasi, tra cui solleciti e addebiti interessi, nonché l'impostazione di conti correnti bancari per consentire il prelevamento automatico dei pagamenti dei clienti dai relativi conti.
 

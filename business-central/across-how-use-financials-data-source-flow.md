@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187942"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528990"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Uso di [!INCLUDE[prodshort](includes/prodshort.md)] in un workflow automatizzato
 
@@ -55,7 +55,7 @@ ms.locfileid: "3187942"
     > [!NOTE]
     > Il connettore [!INCLUDE[prodshort](includes/prodshort.md)] per Power Automate supporta più ambienti di produzione e sandbox. Se non sono stati creati più ambienti di produzione o sandbox, **Produzione** è l'unica opzione disponibile che è possibile scegliere.  
 
-    A questo punto, è stata stabilita correttamente la connessione ai dati di Business Central[!INCLUDE [prodshort](includes/prodshort.md)] e si è pronti per iniziare a creare il flusso.
+    A questo punto, è stata stabilita correttamente la connessione ai dati di Business Central[!INCLUDE[prodshort](includes/prodshort.md)] e si è pronti per iniziare a creare il flusso.
 
 9. Per creare da un modello, selezionare l'opzione **Inizia da modello**.
 10. Cercare i modelli **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.

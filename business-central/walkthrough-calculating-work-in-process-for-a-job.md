@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2b964b448b380bf3094f5b8093095103c67139a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189245"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527910"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce. Se una commessa si protrae per lungo tempo, può essere opportuno trasferire questi costi a un conto WIP (Work in Process, ovvero semilavorati) nel conto patrimoniale fino al completamento della commessa. Sarà possibile riconoscere conti e vendite nel conto economico quando opportuno.  
 

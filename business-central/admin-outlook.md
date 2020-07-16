@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186902"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529265"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
@@ -27,13 +27,13 @@ ms.locfileid: "3186902"
 Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'*amministratore Dynamics 365 Business Central*. I nuovi componenti aggiuntivi sono aggiunti alla barra multifunzione di Outlook e nel browser è possibile vedere i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] immediatamente sopra o sotto il corpo del messaggio e-mail. I componenti aggiuntivi sono aggiornati periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
 > [!TIP]
-> Se si utilizza il nuovo Outlook sul Web, i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**. Se si utilizza spesso il componente aggiuntivo, è possibile aggiungerlo di modo che sia sempre immediatamente visibile. Per ulteriori informazioni, vedere [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Se si utilizza il nuovo Outlook sul Web, i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**. Se si utilizza spesso il componente aggiuntivo, è possibile aggiungerlo di modo che sia sempre immediatamente visibile. Per ulteriori informazioni, vedere [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Qualora si collabori con più società [!INCLUDE [prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook. Nella barra delle azioni del componente aggiuntivo, scegliere **Altre azioni** e quindi puoi vedere l'opzione per passare da una società all'altra.  
+Qualora si collabori con più società [!INCLUDE[prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook. Nella barra delle azioni del componente aggiuntivo, scegliere **Altre azioni** e quindi puoi vedere l'opzione per passare da una società all'altra.  
 
 <!--TEMP-->
 > [!NOTE]
-> Il passaggio da una società all'altra richiede l'ondata di rilascio 2 o successiva del 2019 di [!INCLUDE [prodshort](includes/prodshort.md)] come annunciato nel [piano di rilascio ](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Il passaggio da una società all'altra richiede l'ondata di rilascio 2 o successiva del 2019 di [!INCLUDE[prodshort](includes/prodshort.md)] come annunciato nel [piano di rilascio ](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
 
@@ -68,7 +68,7 @@ In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora
 
 ## <a name="using-other-email-accounts"></a>Utilizzo di altri account e-mail
 
-I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza [!INCLUDE [prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)] ? ](across-faq.md#email) e [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)] ? ](across-faq.md#email) e [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

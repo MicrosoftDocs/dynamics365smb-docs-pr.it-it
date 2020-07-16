@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e3d3e7d93bcfe93de8c528143f8c9edf816c42
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 23fd8809c49397e4f7c87cbab109e694d33cad93
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193445"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528362"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio.  
 
