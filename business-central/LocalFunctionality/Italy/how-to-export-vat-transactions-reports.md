@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4b9a56911400710af15d2a1448c6516052ab2cd5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 275580beb784e653d8bee70736c63c5b3fe3cc4b
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181136"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677069"
 ---
 # <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
 Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
@@ -26,7 +26,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 
 ## <a name="to-export-and-submit-a-vat-transaction-report"></a>Per esportare e inviare un report di transazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
 2.  selezionare un report esistente o crearne uno nuovo.  
 
     - Selezionare il report IVA pertinente dall'elenco, quindi scegliere l'azione **Modifica**.  

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50dd15fc3c048fd78bf6711692bd65d769c7320e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aace7b7213156e3e3e00393f53ad2dfb7aef1acd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181132"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677057"
 ---
 # <a name="print-depreciation-book-reports"></a>Stampare report dei registri dei beni ammortizzabili
 **Registro beni ammortizzabili** è un report fiscale ordinato per anno e classe di articoli. Nel report **Registro beni ammortizzabili** vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.  
 
 ## <a name="to-print-depreciation-book-reports"></a>Per stampare report dei registri dei beni ammortizzabili  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Report e analisi**, quindi scegliere l'azione **Registro beni ammortizzabili**.  
 3.  Espandere la Scheda dettaglio **Opzioni**.  
 4.  Compilare i campi come indicato nella tabella seguente.  

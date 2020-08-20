@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185158"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617629"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
+
 Quando si registra una transazione di magazzino, la registrazione della quantità viene registrata nei movimenti contabili articoli, la registrazione del valore nei movimenti di valorizzazione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione magazzino](design-details-inventory-posting.md).  
 
 Inoltre, viene creato un collegamento articoli per collegare il destinatario di costo alla relativa origine di costo per fornire l'inoltro di costi secondo il metodo di costing. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
@@ -34,21 +35,21 @@ I collegamenti articoli possono essere creati nei seguenti modi.
 |Metodo|Description|Tipo collegamento|  
 |------------|---------------------------------------|----------------------|  
 |Automatico|Viene eseguito come inoltro di costi generale in base al metodo di costing|Collegamento della quantità|  
-|Fisso|Effettuato dall'utente quando:<br /><br /> -   Elaborazione dei resi<br />-   Registrazione di correzioni<br />-   Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
+|Fisso|Effettuato dall'utente quando:<br /><br /> - Elaborazione dei resi<br />- Registrazione di correzioni<br />- Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
 
 La scelta tra la creazione di collegamenti quantità o di collegamenti costi dipende dalla direzione della transazione di magazzino e dal fatto se il collegamento articoli viene eseguito automaticamente oppure è fisso, in relazione a processi speciali.  
 
 Nella seguente tabella viene mostrato, in base ai campi di applicazione centrali nelle righe di transazione di magazzino, il flusso dei costi a seconda della direzione della transazione. Indica inoltre quando e perché il collegamento articoli è di tipo quantità o costo.  
 
-||Campo Collega-a mov. art.|Campo Collega-da mov. art.|  
+|-|Campo Collega-a mov. art.|Campo Collega-da mov. art.|  
 |-|--------------------------------|----------------------------------|  
 |Collegamento per il movimento in uscita|Il movimento in uscita esegue il pull del costo dal movimento in entrata aperto.<br /><br /> **Collegamento della quantità**|Non supportato|  
 |Collegamento per il movimento in entrata|Il movimento in entrata esegue il push del costo sul movimento in uscita aperto.<br /><br /> Il movimento in entrata è l'origine del costo.<br /><br /> **Collegamento della quantità**|Il movimento in entrata esegue il pull del costo dal movimento in uscita. **Nota:** nella creazione di questo collegamento fisso, la transazione in entrata viene gestita come un reso di vendita. Di conseguenza, il movimento in uscita collegato rimane aperto. <br /><br /> Il movimento in entrata NON è l'origine del costo.<br /><br /> **Collegamento costo**|  
 
 > [!IMPORTANT]  
->  Un reso di vendita NON viene considerato un'origine di costo quando viene collegato in modo fisso.  
->   
->  Il movimento di vendita rimane aperto fino alla registrazione dell'origine reale.  
+> Un reso di vendita NON viene considerato un'origine di costo quando viene collegato in modo fisso.  
+>
+> Il movimento di vendita rimane aperto fino alla registrazione dell'origine reale.  
 
 In un movimento di collegamento articoli vengono registrate le seguenti informazioni.  
 

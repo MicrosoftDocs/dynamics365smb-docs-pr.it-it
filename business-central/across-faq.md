@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528087"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611586"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
 Questa sezione contiene le risposte alle domande frequenti sulla registrazione per una versione di valutazione, l'acquisto di una sottoscrizione e l'utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]. È inoltre possibile ottenere informazioni su come ottenere supporto tecnico.  
 
-## <a name="is-d365fin-available-in-my-country"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile nel mio paese?
+## <a name="is-d365fin-available-in-my-countryregion"></a>In quale paese/area geografica è disponibile [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di mercati, ma nuovi paesi vengono aggiunti trimestralmente grazie alla localizzazione di Microsoft o alla localizzazione dei partner. Per ulteriori informazioni, vedere [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponibile solo in inglese).  
 
@@ -108,6 +108,10 @@ Quando si è pronti per acquistare [!INCLUDE[prodshort](includes/prodshort.md)],
 Se si desidera assistenza da parte di Microsoft, contattare il [Team di vendita Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Il partner rivenditore fornirà anche supporto tecnico agli utenti. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Dove si trova quel numero di riga?
+
+Documenti quali ordini di vendita o fatture di acquisto sono costituiti da intestazioni e righe. Ogni riga ha un numero che [!INCLUDE [prodshort](includes/prodshort.md)] utilizza per identificare la particolare riga. Di conseguenza, è possibile che venga visualizzato un avviso o un messaggio di errore indicante un problema nella riga numero 1000, ad esempio. Nella versione predefinita di [!INCLUDE [prodshort](includes/prodshort.md)], i numeri di riga sono nascosti. Per vedere i numeri di riga, è necessario personalizzare la pagina corrente e aggiungere il **Nr. riga** . Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Perché le nuove informazioni non sono disponibili nella lingua dell'utente?
 

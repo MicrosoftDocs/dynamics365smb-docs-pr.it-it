@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187174"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666849"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Creare pacchetti di configurazione di società personalizzati
 Con la crescita della propria azienda, è probabile che ci si dovrà basare su un set di tipi di società utilizzati con la maggior parte dei clienti. È possibile perfezionare il processo di implementazione trasformando questi tipi in pacchetti di configurazione aziendali disponibili al riutilizzo.  
@@ -38,6 +38,11 @@ Un altro approccio consiste nel creare un pacchetto che include le tabelle che d
 -   Setup registrazione magazzino  
 
 Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manuale** e quindi scegliere il collegamento correlato.  
+
+> [!IMPORTANT]
+> Prestare attenzione se sono stati scelti campi o tabelle con lo stesso nome temporale ma differenziati da caratteri speciali, ad esempio %, &, <, >, ( e ). Ad esempio, la tabella "XYZ" potrebbe contenere i campi "Campo 1" e "Campo 1%".
+>
+> Il processore XML accetta solo alcuni caratteri speciali e rimuove quelli che non accetta. Se la rimozione di un carattere speciale, come il segno % in "Campo 1%", genera due o più tabelle o campi con lo stesso nome, si verificherà un errore durante l'esportazione o l'importazione di un pacchetto di configurazione.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Per creare un pacchetto di configurazione di società personalizzato  
 1.  Creare una nuova società. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).  

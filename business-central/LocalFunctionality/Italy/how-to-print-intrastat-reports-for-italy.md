@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0161587c10748135fb73061d815a48e47386dc50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ca06a5f4552507b639cf978f0d346ee999e2f78e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181130"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676700"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  
@@ -24,7 +24,7 @@ Sono disponibili i seguenti report Intrastat:
 
 ## <a name="to-print-quarterly-or-monthly-reports"></a>Per stampare report trimestrali o mensili  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il batch contabile desiderato.  
 3.  Per aprire il report **Intrastat - Report mensile** o **Intrastat - Report trimestrale**, scegliere l'azione **Report mensile** o **Report trimestrale**.  
 4.  Nella Scheda dettaglio **Righe reg. Intrastat** selezionare i filtri appropriati.  
@@ -36,14 +36,14 @@ Sono disponibili i seguenti report Intrastat:
 
 ## <a name="to-print-intrastat---checklist-reports"></a>Per stampare report Intrastat - Checklist  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Intrastat - Checklist** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Intrastat - Elenco di controllo** e quindi scegliere il collegamento correlato.  
 2.  Per includere informazioni dettagliate sulle righe registrazioni nel report, selezionare la casella di controllo **Mostra righe registr. Intrastat** nella Scheda dettaglio **Opzioni**.  
 3.  Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
 4.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
 ## <a name="to-print-intrastat---form-reports"></a>Per stampare report Intrastat - Form  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Intrastat - Form** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Intrastat - Modulo** e quindi scegliere il collegamento correlato.  
 2.  Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
 3.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 

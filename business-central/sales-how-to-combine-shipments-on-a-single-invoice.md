@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52312113328aadb82a1149ecf03b3e870ae3c288
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f6ce4c0c304fc8255789ec91fb3a00ba78170d6d
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194861"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666924"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
 
- Prima di creare una spedizione cumulata, è necessario che venga registrata più di una spedizione di vendita per lo stesso cliente nella stessa valuta. In altri termini, è necessario compilare due o più ordini di vendita e registrarli come spediti, ma non fatturati. Per cumulare le spedizioni, è necessario selezionare la casella di controllo **Fatt. cumulative** nella Scheda dettaglio **Spedizione** della scheda **Cliente**.  
+Prima di creare una spedizione cumulata, è necessario che venga registrata più di una spedizione di vendita per lo stesso cliente nella stessa valuta. In altri termini, è necessario creare due o più ordini di vendita e registrarli come spediti, ma non fatturati. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Per combinare manualmente le spedizioni in una singola fattura  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
@@ -36,10 +36,12 @@ Se si desidera fatturare più di una spedizione per volta, utilizzare la funzion
 7. Per registrare la fattura scegliere l'azione **Registra**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture cumulative** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina di richiesta del processo batch.  
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Selezionare la casella di controllo **Registra fatture**.  
-4.  Scegliere il pulsante **OK**.  
+2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Scegliere la casella di controllo **Registra fatture**.  
+4. Scegliere il pulsante **OK**.  
 
 > [!NOTE]  
 >  Se la casella di controllo **Registra fatture** non è selezionata per il processo batch, sarà necessario registrare manualmente le fatture.  

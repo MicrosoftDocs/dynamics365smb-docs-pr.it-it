@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7880b47e306d430a26274f99765aff09af4b6ca1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8d8f726dd8db734e187e3da71f0876432441d750
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181139"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676544"
 ---
 # <a name="create-electronic-vat-transactions-reports"></a>Creare report elettronici di transazioni IVA
 È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.  
 
 ## <a name="to-create-a-vat-transactions-report"></a>Per creare un report di transazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  

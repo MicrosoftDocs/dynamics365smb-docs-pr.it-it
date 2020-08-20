@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496677"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617913"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
+
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ Il metodo di costing determina se un valore effettivo o a budget viene capitaliz
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  
 
-|Metodo di costing|Descrizione|Quando utilizzarlo|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola FIFO.<br /><br /> Nella valutazione di magazzino si presuppone che il primo articolo posizionato nel magazzino venga venduto per primo.|Negli ambienti aziendali in cui il costo del prodotto è stabile.<br /><br /> (Quando i prezzi salgono, nei conti patrimoniali viene mostrato un valore maggiore). Ciò significa che la soggettività tributaria aumenta mentre il punteggio del credito e la capacità di prendere in prestito soldi migliora).<br /><br /> Per articoli con una durata a scaffale limitata, poiché le merci più vecchie devono essere vendute prima della data di scadenza.|  
-|LIFO|Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola LIFO.<br /><br /> Nella valutazione di magazzino si presuppone che gli ultimi articoli posizionati nel magazzino vengano venduti per primo.|Operazione non consentita in molti paesi, perché può essere utilizzata per ridurre il profitto.<br /><br /> (Quando i prezzi salgono, il valore nel conto economico diminuisce). Ciò significa che la soggettività tributaria diminuisce mentre la capacità di prendere in prestito soldi peggiora).|  
-|Media|Il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto.<br /><br /> Per la valutazione magazzino si presuppone che tutte le giacenze siano vendute simultaneamente.|Negli ambienti aziendali in cui il costo del prodotto non è stabile.<br /><br /> Quando gli inventari sono impilati o mischiati e non è possibile differenziarli, ad esempio con gli agenti chimici.|  
-|Specifico|Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta.|Nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Per gli articoli che sono soggetti a regolazione.<br /><br /> Per articoli con numeri di serie.|  
-|Standard|Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento.|Quando il controllo costi è fondamentale.<br /><br /> Nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Dove esiste una disciplina e del personale per gestire gli standard.|  
+| Metodo di costing | Descrizione | Quando utilizzarlo |
+|--|--|--|
+| FIFO | Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola FIFO.<br /><br /> Nella valutazione di magazzino si presuppone che il primo articolo posizionato nel magazzino venga venduto per primo. | Negli ambienti aziendali in cui il costo del prodotto è stabile.<br /><br /> (Quando i prezzi salgono, nei conti patrimoniali viene mostrato un valore maggiore). Ciò significa che la soggettività tributaria aumenta mentre il punteggio del credito e la capacità di prendere in prestito soldi migliora).<br /><br /> Per articoli con una durata a scaffale limitata, poiché le merci più vecchie devono essere vendute prima della data di scadenza. |
+| LIFO | Il costo unitario di un articolo è il valore effettivo di tutto il carico dell'articolo, selezionato secondo la regola LIFO.<br /><br /> Nella valutazione di magazzino si presuppone che gli ultimi articoli posizionati nel magazzino vengano venduti per primo. | Operazione non consentita in molti paesi, perché può essere utilizzata per ridurre il profitto.<br /><br /> (Quando i prezzi salgono, il valore nel conto economico diminuisce). Ciò significa che la soggettività tributaria diminuisce mentre la capacità di prendere in prestito soldi peggiora). |
+| Media | Il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto.<br /><br /> Per la valutazione magazzino si presuppone che tutte le giacenze siano vendute simultaneamente. | Negli ambienti aziendali in cui il costo del prodotto non è stabile.<br /><br /> Quando gli inventari sono impilati o mischiati e non è possibile differenziarli, ad esempio con gli agenti chimici. |
+| Specifico | Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta. | Nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Per gli articoli che sono soggetti a regolazione.<br /><br /> Per articoli con numeri di serie. |
+| Standard | Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento. | Quando il controllo costi è fondamentale.<br /><br /> Nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Dove esiste una disciplina e del personale per gestire gli standard. |
 
  Nell'immagine seguente viene mostrato il flusso dei costi attraverso il magazzino per ciascun metodo di costing.  
 
@@ -40,7 +41,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi
 
  I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzino e se utilizzano il costo effettivo o il costo standard come base di valutazione. Nella seguente tabella vengono illustrate le differenti caratteristiche. (Il metodo LIFO è escluso, in quanto è molto simile al metodo FIFO).  
 
-||FIFO|Media|Standard|Specifico|  
+|<!--blank -->|FIFO|Media|Standard|Specifico|  
 |-|----------|-------------|--------------|--------------|  
 |Caratteristica generale|Semplice da comprendere|In base alle opzioni del periodo: **Giorno**/**Settimana**/**Mese**/**Trimestre**/**Periodo contabile**.<br /><br /> Può essere calcolato per articolo oppure per articolo/ubicazione/variante.|Semplice da utilizzare, ma richiede la manutenzione qualificata.|Richiede la tracciabilità articolo sia sulla transazione in entrata che sulla transazione in uscita.<br /><br /> Viene solitamente utilizzato per gli articoli serializzati.|  
 |Collegamento o rettifica|Il collegamento tiene traccia della **quantità residua**.<br /><br /> La rettifica inoltra i costi in base al collegamento alla quantità.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> I costi vengono calcolati e inviati per la **data di valutazione**.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> Il collegamento è basato su FIFO.|Tutti i collegamenti sono fissi.|  

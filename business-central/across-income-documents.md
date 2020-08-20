@@ -1,8 +1,6 @@
 ---
 title: Utilizzare i documenti in entrata| Documenti Microsoft
 description: È possibile gestire i documenti aziendali esterni in entrata, ad esempio le ricevute di pagamento o i PDF, gestire attività OCR e convertire i file in record e documenti in formato elettronico.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c0c71de9b560f94427c26ffed944a8155639028
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187798"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676871"
 ---
 # <a name="incoming-documents"></a>Documenti in entrata
+
 Alcune transazioni commerciali non vengono registrate in [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'inizio. Invece, un documento commerciale esterno arriva nella propria società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Ciò è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
 
-Dai PDF o dai file di immagine dei documenti in entrata è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Dai PDF o dai file di immagine dei documenti in entrata è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Scegliere un pacchetto di servizi appropriato per l'organizzazione e/o paese/area geografica. In alternativa, è possibile creare manualmente voci per rappresentare i documenti esterni.  
 
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
@@ -47,5 +46,6 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

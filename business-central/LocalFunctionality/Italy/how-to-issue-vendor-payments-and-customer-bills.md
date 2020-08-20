@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eda9e6601867acab8bec2ea2b798b7c1cd4aa968
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d8ec39cd5d0442c042d92d7b16aa9ea693092270
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181135"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677067"
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
 
@@ -32,20 +32,20 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 
 ## <a name="to-issue-payment-to-a-vendor"></a>Per emettere il pagamento per un fornitore  
 
-1. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Fornitori** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.  
 2. Selezionare il fornitore al quale si desidera inviare il pagamento. Nella Scheda dettaglio **Pagamento**, nel campo **Codice metodo di pagamento** scegliere l'opzione **TRASFBANC**.
 3. Scegliere l'azione **C/C bancari**.  
 4. In **Lista C/C bancari fornitori**, selezionare il conto C/C bancari del fornitore e scegliere l'azione **Modifica**.
 5. Nella Scheda dettaglio **Trasferimento**, specificare le informazioni relative al campo **IBAN**.  
 6. Scegliere il pulsante **OK**.  
-7. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Distinta fornitore** e quindi scegliere il collegamento correlato.  
+7. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Distinta fornitore** e quindi scegliere il collegamento correlato.  
 8. Scegliere l'azione **Nuovo**.  
 9. Nella Scheda dettaglio **Generale**, immettere le informazioni nei seguenti campi: **Nr. conto bancario** del fornitore e **Codice metodo di pagamento**.  
 10. Scegliere l'azione **Suggerisci Pagamenti**.
 11. Impostare i filtri appropriati e scegliere il pulsante **OK** per eseguire il processo batch.  
 12. Scegliere l'azione **Crea Distinta**.
 13. Scegliere il pulsante **Sì** per inviare il pagamento dell'effetto.  
-14. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Distinta effetti fornitore emessa** e quindi scegliere il collegamento correlato.
+14. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Distinta effetti fornitore emessa** e quindi scegliere il collegamento correlato.
 15. Selezionare l'utente dall'elenco quindi scegliere l'azione **Modifica**. Verrà aperta la pagina **Distinta effetti forn. emessa**.  
 16. Per esportare le informazioni sui pagamenti, scegliere l'azione **Esporta distinta effetti su file**. È possibile visualizzare il file XML inviato.  
 

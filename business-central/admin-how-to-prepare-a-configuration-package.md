@@ -1,7 +1,7 @@
 ---
 title: Preparazione di un pacchetto di configurazione | Documenti di Microsoft
 description: Informazioni su come configurare un pacchetto di configurazione RapidStart che può aiutare a creare nuove società in base ai dati esistenti.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535974"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666999"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 
@@ -30,6 +30,12 @@ Ci sono alcune cose da considerare prima di creare un pacchetto di configurazion
 ### <a name="tables-that-contain-posted-entries"></a>Tabelle che contengono voci registrate
 
 Non è possibile importare dati in tabelle che contengono voci registrate, come le tabelle per movimenti cliente, fornitore e contabili articoli, pertanto non è necessario includere questi dati nel pacchetto di configurazione. È possibile aggiungere voci a queste tabelle dopo aver importato il pacchetto di configurazione utilizzando le registrazioni per pubblicare le voci. Per ulteriori informazioni, vedere [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Nomi di tabella che contengono caratteri speciali
+
+Prestare attenzione se si dispone di tabelle o campi con lo stesso nome temporale ma differenziati da caratteri speciali, ad esempio %, &, <, >, ( e ). Ad esempio, la tabella "XYZ" potrebbe contenere i campi "Campo 1" e "Campo 1%".
+
+Il processore XML accetta solo alcuni caratteri speciali e rimuove quelli che non accetta. Se la rimozione di un carattere speciale, come il segno % in "Campo 1%", genera due o più tabelle o campi con lo stesso nome, si verificherà un errore durante l'esportazione o l'importazione di un pacchetto di configurazione. 
 
 ### <a name="licensing"></a>Licenze
 

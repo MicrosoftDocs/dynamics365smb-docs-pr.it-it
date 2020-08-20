@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262192"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666949"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -27,6 +27,11 @@ A seconda del tipo di pagina e del relativo contenuto, è possibile eseguire var
 > [!NOTE]
 > Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando l'area di lavoro per un profilo a cui sono assegnati più utenti. Per ulteriori informazioni, vedere [Personalizzare pagine per ruoli](ui-personalization-manage.md).<br /><br />
 Gli amministratori possono anche sostituire o disabilitare la personalizzazione degli utenti e definire quali funzionalità sono visualizzabili in tutte o alcune società. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Video di panoramica
+Il video seguente mostra alcuni dei modi per personalizzare il Centro gestione ruoli.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Per modificare la larghezza di una colonna
 È possibile ridimensionare facilmente le colonne di qualsiasi elenco trascinando il bordo tra due colonne verso sinistra o verso destra.

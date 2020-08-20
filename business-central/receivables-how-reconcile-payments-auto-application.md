@@ -1,8 +1,6 @@
 ---
-title: Utilizzare il collegamento automatico per riconciliare i pagamenti | Documenti Microsoft
+title: Riconciliare i pagamenti utilizzando il collegamento automatico
 description: Descrive come utilizzare la funzione automatica di collegamento per collegare i pagamenti o gli incassi ai movimenti aperti relativi e per riconciliare i pagamenti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0acef518c6333061aa9c321b91c47aa1da8df2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17d0a3acb019643d7ccf39013dede82e311245b6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191986"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617602"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
+
 La pagina **Registrazione riconciliazione pagamenti** specifica i pagamenti, sia in entrata che in uscita, registrati come transazioni nel conto bancario in linea e che possono essere collegati ai relativi movimenti aperti dei conti COGE, fornitore e cliente. Le righe delle registrazioni vengono compilate importando un rendiconto bancario come feed bancario o file della banca.
 
 > [!NOTE]

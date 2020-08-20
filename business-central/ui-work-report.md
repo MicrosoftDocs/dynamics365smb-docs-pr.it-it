@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454331"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549894"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
 
@@ -50,7 +50,7 @@ L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di genera
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 
-Scegliere il pulsante **Anteprima** per visualizzare il report. Utilizzare la barra dei menu nell'anteprima del report per:
+Scegliere il pulsante **Anteprima** per visualizzare il report nella pagina di richiesta del report. Utilizzare la barra dei menu nell'anteprima del report per:
 
 - Spostarsi tra le pagine
 - Ingrandire o ridurre
@@ -77,17 +77,32 @@ Quando si pianifica l'esecuzione di un report, è possibile specificare che deve
 È possibile salvare il report elaborato in un file, ad esempio un file Excel, Word, PDF, o stamparlo con una stampante selezionata, o semplicemente elaborare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della Gestione ruolo utente, dove è possibile visualizzarlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Stampa di un report
-È possibile stampare un report selezionando il pulsante **Stampa** nella pagina di richiesta del report o nella barra dei menu della pagina **Anteprima**.
 
-Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
+Stampare un report selezionando il pulsante **Stampa** nella pagina di richiesta del report o nella barra dei menu della pagina **Anteprima**.
 
-Se una stampante cloud non è installata e configurata, o se una stampante installata non funziona, la stampa imposterà automaticamente le opzioni di stampa per il browser. Questo è indicato da questo valore nel campo **Stampante** della pagina di richiesta del report: *(nessuno, gestito dal browser)*.
+### <a name="printer-selection"></a>Selezione della stampante
 
-Nella pagina **Gestione stampante**, è possibile visualizzare le stampanti configurate. Per ulteriori informazioni, vedere [Impostare le stampanti](ui-specify-printer-selection-reports.md).
+Il report viene stampato dalla stampante indicata nel campo **Stampante selezionata** nella pagina di richiesta del report. Non è possibile cambiare la stampante da questa pagina.
+
+La stampante selezionata è impostata nella pagina **Selezioni stampante** oppure è la stampante predefinita impostata nella pagina **Gestione stampante**. Per usare un'altra stampante, vedere [Configurare le stampanti](ui-specify-printer-selection-reports.md).
+
+Se nessuna stampante è specificata nella pagina **Selezioni stampante** o impostata come predefinita nella pagina **Gestione stampante**, viene utilizzata la funzione di stampa del browser. In questo caso, **Browse** appare nel campo **Stampante selezionata** nella pagina di richiesta del report. 
+
+### <a name="browser-printing"></a>Stampa tramite browser
+
+Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate al computer dell'utente. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
+
+Se una stampante cloud non è installata e configurata, o se una stampante installata non funziona, la stampa imposterà automaticamente le opzioni di stampa per il browser.
 
 > [!NOTE]
-> Non puoi modificare il campo **Stampante** nella pagina di richiesta del report. Per utilizzare un'altra stampante, è necessario selezionarla dalla pagina **Gestione stampante**.
+> Le opzioni di stampa del browser funzionano indipendentemente da [!INCLUDE[prodshort](includes/prodshort.md)]. Quindi tutte le impostazioni della stampante che potrebbero essere state configurate dalle stampanti in [!INCLUDE[prodshort](includes/prodshort.md)] non vengono trasferiti alle opzioni di stampa del browser.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Stampa di report nella versione tailandese
 Nella versione tailandese di [!INCLUDE[prodshort](includes/prodshort.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
 

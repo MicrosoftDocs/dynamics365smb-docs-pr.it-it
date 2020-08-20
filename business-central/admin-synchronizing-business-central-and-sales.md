@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484111"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617706"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Sincronizzazione di dati in Business Central con Common Data Service
+
 Quando si integra [!INCLUDE[d365fin](includes/cds_long_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile decidere se sincronizzare i dati nei campi selezionati di [!INCLUDE[d365fin](includes/d365fin_md.md)] (ad esempio clienti, contatti e agenti) con record equivalenti in [!INCLUDE[d365fin](includes/cds_long_md.md)] (come conti, contatti e utenti). A seconda del tipo di record, è possibile sincronizzare i dati da [!INCLUDE[d365fin](includes/cds_long_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], o viceversa. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 La sincronizzazione utilizza i seguenti elementi:
@@ -42,13 +43,13 @@ Le entità in [!INCLUDE[d365fin](includes/cds_long_md.md)], come i conti, vengon
 
 Nella seguente tabella elenca il mapping standard tra le entità in [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] che [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce.
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Direzione della sincronizzazione|Filtro predefinito|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Agenti/Addetti acq.|Utente|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)] : il campo **Stato** è impostato su **No**, **Con licenza utente** è impostato su **Sì**, Modalità utente integrazione è su **No**|
-|Cliente|Conto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Cliente** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il cliente non è bloccato).|
-|Fornitore|Conto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Fornitore** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il fornitore non è bloccato).|
-|Contatto|Contatto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il contatto è assegnati a una società e il tipo di cliente padre è **Conto**|
-|Valuta|Valuta transazione|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Direzione della sincronizzazione | Filtro predefinito |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Agenti/Addetti acq. | Utente | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)] : il campo **Stato** è impostato su **No**, **Con licenza utente** è impostato su **Sì**, Modalità utente integrazione è su **No** |
+| Cliente | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Cliente** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il cliente non è bloccato). |
+| Fornitore | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Fornitore** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il fornitore non è bloccato). |
+| Contatto | Contatto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il contatto è assegnati a una società e il tipo di cliente padre è **Conto** |
+| Valuta | Valuta transazione | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Suggerimento per amministratori: visualizzazione di mapping di entità

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496827"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617681"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
@@ -45,7 +45,7 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 
 In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Report analisi**, come nella tabella seguente.  
 
-| |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
+|- |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
 |-|-|-|-|  
 |Computer| | | |  
 |Monitor| | | |  

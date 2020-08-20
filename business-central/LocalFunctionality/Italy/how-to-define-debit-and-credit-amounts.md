@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a0f8a88294c26343b5b039cedf3ff6a5d0b29239
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 876ad217e2ab7ccffe045f8c85d119c32b1951de
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181137"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677071"
 ---
 # <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  
 
 ## <a name="to-define-debit-and-credit-amounts"></a>Per definire gli importi dare e avere  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  

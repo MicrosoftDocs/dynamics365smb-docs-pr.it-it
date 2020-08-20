@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182782"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611669"
 ---
 # <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
+
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
 
 * Persone a cui si vende  
@@ -28,22 +29,26 @@ I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acq
 È possibile impostare manualmente i calcoli IVA, ma può essere complesso e richiedere molto tempo. Per rendere più semplice questa operazione, è disponibile un setup assistito **Setup IVA** con passaggi guidati. Si consiglia di utilizzare il setup assistito per impostare l'IVA.
 
 > [!NOTE]  
->   Si può utilizzare questa procedura guidata solo se è stata creata una società La mia azienda e se non sono state registrate transazioni con IVA. In caso contrario, sarebbe molto facile utilizzare erroneamente diverse aliquote IVA e rendere inaccurati i report sull'IVA.  
+> Si può utilizzare questa procedura guidata solo se è stata creata una società La mia azienda e se non sono state registrate transazioni con IVA. In caso contrario, sarebbe molto facile utilizzare erroneamente diverse aliquote IVA e rendere inaccurati i report sull'IVA.  
 
 Se si desidera impostare i calcoli IVA manualmente, o se si desidera conoscere ciascun passaggio, in questo argomento vengono fornite descrizioni per ogni fase.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Per utilizzare il setup IVA assistito per impostare l'IVA (consigliato)
+
 Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito**.  
 2. Scegliere **Imposta l'IVA** e completare i passaggi.
-3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base alla versione del proprio paese. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
+3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Per impostare i numeri di partita IVA per il paese
+
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[d365fin](includes/d365fin_md.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
 Per impostare i numeri di partita VAT, attenersi a questa procedura:
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Paesi**.
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  

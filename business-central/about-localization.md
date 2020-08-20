@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188878"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611536"
 ---
 # <a name="local-functionality-in-prodlong"></a>Funzionalità locale in [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -25,7 +25,7 @@ Per un elenco dei mercati attualmente supportati, vedere la presentazione [Dispo
 
 ## <a name="local-functionality"></a>Funzionalità locale
 
-Per informazioni sulla funzionalità locale per ciascun paese, selezionare il collegamento correlato:
+Per informazioni sulla funzionalità locale per ciascun paese/area geografica, selezionare il collegamento correlato:
 
 | Area geografica | Paese | Ulteriori informazioni |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Per informazioni sulla funzionalità locale per ciascun paese, selezionare il co
 |        | Nuova Zelanda | [Funzionalità locale per la Nuova Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Altri paesi
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile anche in altri mercati attraverso le app di localizzazione. Se un partner Microsoft ha sviluppato un'app di localizzazione per il paese interessato, è possibile trovarla in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile anche in altri mercati attraverso le app di localizzazione. Se un partner Microsoft ha sviluppato un'app di localizzazione per il paese/area geografica interessato, è possibile trovarla in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
+
 [Introduzione](product-get-started.md)  
 [Conformità](compliance/compliance-overview.md)  
 [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

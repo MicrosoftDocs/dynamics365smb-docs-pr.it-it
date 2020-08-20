@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188017"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577380"
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
 È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.  
@@ -28,6 +28,8 @@ Di seguito viene descritto come tenere traccia a partire da una riga ordine di v
 3.  Selezionare una riga, quindi scegliere l'azione **Tracciabilità riga documento**.
 4. Nella pagina **Tracciabilità righe documenti** selezionare il documento che si desidera visualizzare, quindi scegliere l'azione **Mostra** per visualizzare la riga correlata.
 5. Per visualizzare l'intero documento per la linea di documento selezionata, scegliere l'azione **Mostra documento**.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  

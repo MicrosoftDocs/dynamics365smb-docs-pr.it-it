@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 13e2cec6cc3405ffc452d17dbb1416f133b41f03
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3c9d220b9b6faf3cf98cbd8681b841b72b240765
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181120"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676792"
 ---
 # <a name="update-vat-transactions-data"></a>Aggiornare i dati delle transazioni IVA
 Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti eseguendo il report **Aggiorna data transazione IVA**. È inoltre necessario eseguire questo report se sono state apportate modifiche al setup in base ai nuovi requisiti delle autorità fiscali.  
@@ -24,7 +24,7 @@ Prima di creare il primo report transazioni IVA, è necessario preparare i dati 
 
 ## <a name="to-update-vat-transaction-data"></a>Per aggiornare i dati delle transazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Aggiorna data transazione IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aggiorna data transazione IVA** e quindi scegliere il collegamento correlato.  
 2.  Facoltativamente, nella Scheda dettaglio **Movimenti IVA** impostare i filtri appropriati.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 

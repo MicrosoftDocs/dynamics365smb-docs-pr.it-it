@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189845"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666874"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Estensione Envestnet Yodlee Bank Feeds
 Per riconciliare rapidamente i pagamenti effettuati sui conti correnti bancari, il servizio Envestnet Yodlee Bank Feeds consente di collegare il proprio conto bancario di sistema al conto bancario online. Ciò significa che l'ultimo rendiconto bancario viene caricato automaticamente o manualmente nella registrazione riconciliazione. In questo modo viene garantito che si elaborino sempre gli ultimi pagamenti con il rischio minimo di errori.
@@ -40,6 +40,9 @@ Il servizio Envestnet Yodlee Bank Feeds offre i seguenti vantaggi:
 * Offre informazioni aggiornate sulle transazioni bancarie da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Supporta i feed bancari manuali e automatici.
 * Consente di assegnare in outsourcing la riconciliazione dei pagamenti a un ragioniere fornendo l'accesso ai rendiconti bancari.
+
+## <a name="available-bank-feeds"></a>Feed bancari disponibili
+È possibile verificare se una banca è supportata configurando la connessione al servizio Envestnet Yodlee Bank Feeds. La banca apparirà nell'elenco se è supportata da Envestnet Yodlee.
 
 Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 

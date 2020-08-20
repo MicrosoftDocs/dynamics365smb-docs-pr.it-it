@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a66c66770b30ac64604cb36fcf26cd1a1919f25
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 106af2b330168e8fefc645fedeb738a748c953fe
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181122"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676790"
 ---
 # <a name="set-up-payment-terms"></a>Impostazione delle condizioni di pagamento
 Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
@@ -23,7 +23,7 @@ Per ogni condizione di pagamento, è possibile specificare se il pagamento può 
 Se una condizione di pagamento deve prevedere un unico pagamento, è necessario specificare come verrà calcolata la data di scadenza.  
 
 ## <a name="to-set-up-payment-terms"></a>Per impostare le condizioni di pagamento  
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Condizioni pagamento** e quindi scegliere il collegamento correlato.    
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condizioni pagamento** e quindi scegliere il collegamento correlato.    
 2.  Compilare i campi nella pagina **Condizioni pagamento**. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3.  Scegliere l'azione **Calcola**.  
 4.  Nella pagina **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  

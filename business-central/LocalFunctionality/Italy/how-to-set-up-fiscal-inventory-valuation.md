@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d5a8a484f25694001e6bce0ac3810b158bd43b2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 20cdbe9bb885827018b8013710a1294376d534b3
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181125"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676800"
 ---
 # <a name="set-up-fiscal-inventory-valuation"></a>Impostare la valutazione magazzino fiscale
 Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metodi di valutazione magazzino.  
 
 ## <a name="to-set-up-fiscal-inventory-valuation-for-item-costing"></a>Per impostare la valutazione del magazzino fiscale per il costing dell'articolo  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup costing articolo** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup costing articolo** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -36,7 +36,7 @@ Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metod
 
 ## <a name="to-set-up-fiscal-inventory-valuation-for-an-item"></a>Per impostare la valutazione del magazzino fiscale per un articolo  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Elenco articoli** selezionare ogni articolo e poi, nella Scheda dettaglio **Generale**, nel campo **Valutazione magazzino**, specificare il tipo di valutazione di magazzino.  
 
 3.  Scegliere il pulsante **OK**.  

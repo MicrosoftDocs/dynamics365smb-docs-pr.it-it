@@ -8,33 +8,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 58cbec2b697a0fdabd5749000ea94145d07fc62f
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188734"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611511"
 ---
 # <a name="edit-posted-documents"></a>Modifica dei documenti registrati
+
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
 Eseguire la modifica su una versione modificabile del documento originale, indicata da "**- Aggiornamento**" nel titolo della pagina. La pagina contiene un sottoinsieme dei campi nel documento originale, di cui alcuni sono campi non modificabili che vengono visualizzati solo a scopo informativo.
 
-La funzionalità è disponibile per i seguenti documenti in tutte le versioni per i paesi:
+La funzionalità è disponibile per i seguenti documenti in tutti i mercati supportati:
+
 - Spedizioni vendita registrate
 - Fatture acquisto registrate
 - Spedizione reso registrata
 - Carico da reso registrato
 
-I seguenti documenti aggiuntivi possono essere modificati nelle versioni per i paesi selezionate:
+I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geografiche specificati:
+
 - ES: Fatture di vendita registrate, Nota credito vendita registrata, Nota credito acquisto registrata
 - APAC: Nota credito vendita registrata, Nota credito acquisto registrata
 - RU: Nota credito di vendita registrate
 - IT: Spedizione trasferimento registrata, Spedizione assistenza registrata
 
 ## <a name="to-edit-a-posted-sales-shipment"></a>Per modificare una spedizione vendita registrata
+
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
@@ -45,7 +49,8 @@ Di seguito viene spiegato come modificare una spedizione vendita registrata. I p
 La spedizione vendita registrata viene aggiornata.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

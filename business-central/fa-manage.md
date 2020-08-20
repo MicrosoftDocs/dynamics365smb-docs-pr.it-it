@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184198"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666799"
 ---
 # <a name="fixed-assets"></a>Cespiti
 La funzionalità Cespiti di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
@@ -47,6 +47,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Calcolo dell'ammortamento, registrazione dell'ammortamento e analisi dell'ammortamento nei report sui cespiti. |[Ammortamento dei cespiti](fa-how-depreciate-amortize.md) |
 | Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
 | Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Video di panoramica
+Il video seguente illustra le nozioni di base dei cespiti.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione di cespiti](fa-setup.md)  

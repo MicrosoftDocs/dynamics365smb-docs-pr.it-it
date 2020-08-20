@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191453"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677310"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
@@ -71,13 +71,6 @@ Le righe del prospetto trasformate in ordine di acquisto vengono eliminate dal p
 
 ## <a name="posting-subcontract-purchase-orders"></a>Registrazione di ordini di acquisto conto lavoro  
 Dopo avere creato gli ordini di acquisto conto lavoro, è possibile registrarli. La ricezione dell'ordine comporta la pubblicazione di un movimento contabile capacità nell'ordine di produzione, mentre la fatturazione dell'ordine comporta la registrazione del costo diretto dell'ordine di acquisto nell'ordine di produzione.  
-
-Quando l'acquisto viene registrato come ricevuto, viene automaticamente registrato un movimento delle registrazioni di output per l'ordine di produzione. Questa opzione è valida solo se l'operazione di conto lavoro è l'ultima del ciclo ordine di produzione.  
-
-> [!CAUTION]  
->  È possibile che non si desideri registrare automaticamente l'output per un ordine di produzione in corso quando vengono ricevuti gli articoli in conto lavoro. I motivi potrebbero essere che la quantità di output prevista che è stata registrata potrebbe essere diversa dalla quantità effettiva e che la data di registrazione dell'output automatico è fuorviante.  
->   
->  Per evitare che l'output previsto di un ordine di produzione venga registrato quando vengono ricevuti gli acquisti di conto lavoro, verificare che l'operazione in conto lavoro non sia l'ultima. In alternativa, inserire una nuova ultima operazione per la quantità di output finale.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Per registrare un ordine di acquisto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b0ec8e5a23b387c52998369e440462613b7cc1fe
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183190"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666899"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter vendere e riportare i dati finanziari in più di una valuta. È necessario impostare un codice per ogni valuta utilizzata se si compra o si vende in valute diverse dalla valuta locale, se si hanno debiti o crediti in altre valute o si registrano transazioni C/G in diverse valute.
@@ -56,6 +56,9 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere la casella controllo **Abilitato** per abilitare il servizio.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Per aggiornare i tassi di cambio delle valute mediante un servizio
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valute** e quindi scegliere il collegamento correlato.

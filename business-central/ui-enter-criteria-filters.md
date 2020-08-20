@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529115"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619433"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
+
 Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'individuazione, l'analisi e la limitazione di record in un elenco o in un XMLport o report. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
 
 Per i report e gli XMLport, è possibile impostare filtri come negli elenchi per delimitare i dati da includere in report o XMLport, ma non è possibile ordinare e cercare.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Ordinamento
+
 L'ordinamento consente di ottenere in modo semplice e rapido una panoramica dei dati. Se si dispone di molti clienti, ad esempio, è possibile scegliere di ordinarli in base a **Nr. cliente**, **Cat. reg. cliente**, **Codice valuta**, **Codice paese** o **Identificativo fiscale** per ottenere la panoramica desiderata.
 
 Per ordinare un elenco, fare clic sull'intestazione di una colonna per passare dall'ordine crescente a quello decrescente e viceversa, oppure scegliere la freccia rivolta verso il basso nell'intestazione della colonna e scegliere l'azione **Crescente** o **Decrescente**.  
 
 > [!NOTE]  
->   L'ordinamento non è supportato nelle immagini, nei campi BLOB, in FlowFilter e nei campi che non appartengono a una tabella.  
+> L'ordinamento non è supportato nelle immagini, nei campi BLOB, in FlowFilter e nei campi che non appartengono a una tabella.  
 
 ## <a name="searching"></a>Ricerca
+
 <!--## Searching by using the Quick Filter -->
 Nella parte superiore di ogni pagina elenco, è presente l'azione **Cerca** ![Cerca nell'elenco](media/ui-search/search-list.png "Icona Cerca nell'elenco") che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
 
 Per cercare, è sufficiente selezionare l'azione **Cerca**, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
 ### <a name="fine-tuning-the-search"></a>Perfezionare la ricerca
+
 In generale, la ricerca tenta di trovare il testo corrispondente in tutti i campi, non fa la distinzione tra maiuscole e minuscole e trova il testo corrispondente ovunque nel campo (all'inizio, alla fine o nel mezzo).
 
 Tuttavia, è possibile effettuare una ricerca più precisa utilizzando caratteri speciali.
@@ -70,9 +74,10 @@ Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibi
 > È possibile premere **F3** per attivare e disattivare la casella di ricerca. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> La ricerca non restituisce i valori di immagini, campi BLOB, FlowFilters, FlowField e altri campi che non fanno parte di una tabella. 
+> La ricerca non restituisce i valori di immagini, campi BLOB, FlowFilters, FlowField e altri campi che non fanno parte di una tabella.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtro
+
 I filtri forniscono un modo più avanzato e versatile per controllare quali record vengono visualizzati in un elenco o inclusi in un report o XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
 
 || **Ricerca** | **Filtri** |
@@ -85,6 +90,7 @@ Il filtro consente di visualizzare record per account o clienti specifici, date,
 Per gli elenchi, i filtri vengono visualizzati in un riquadro filtri visualizzato a sinistra dell'elenco quando viene attivato. Per report, processi batch e XMLport, i filtri sono visibili direttamente nella pagina di richiesta.
 
 ### <a name="filtering-with-option-fields"></a>Filtro con campi di tipo opzione
+
 Per i campi "ordinari" che contengono dati, data di impostazione o dati aziendali, è possibile impostare filtri selezionando i dati e digitando valori di filtro e quindi utilizzare i simboli per definire criteri di filtro avanzati. Per ulteriori informazioni, vedere [Immissione dei criteri di filtro](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 Tuttavia, per i campi di tipo **Opzione**, è possibile soltanto impostare un filtro selezionando una o più opzioni da un elenco a discesa delle opzioni disponibili. Un esempio di campo di tipo opzione è il campo **Stato** nella pagina **Ordini vendita**.
@@ -93,6 +99,7 @@ Tuttavia, per i campi di tipo **Opzione**, è possibile soltanto impostare un fi
 > Quando si selezionano più opzioni come valore di filtro, la relazione tra le opzioni viene definita come *O*. Ad esempio, se si selezionano le caselle di controllo **Aperto** e **Rilasciato** nel campo di filtro **Stato** della pagina **Ordini vendita**, significa che sono visualizzati gli ordini vendita aperti o rilasciati.
 
 ### <a name="setting-filters-on-lists"></a>Impostazione di filtri negli elenchi
+
 Negli elenchi, i filtri vengono impostati utilizzando il riquadro filtri. Per visualizzare il riquadro filtri per un elenco, selezionare la freccia rivolta verso il basso accanto al nome della pagina, quindi selezionare l'azione **Mostra riquadro Filtri**. In alternativa, premere **MAIUSC+F3**.
 
 Per visualizzare il riquadro filtri per una colonna in un elenco, selezionare la freccia rivolta verso il basso quindi selezionare l'azione **Filtro**. In alternativa, premere **MAIUSC+F3**. Il riquadro filtri si apre con la colonna selezionata visualizzata come campo di filtro nella sezione **Filtra elenco per**.
@@ -119,6 +126,7 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
 È possibile impostare un filtro semplice direttamente in un elenco utilizzando il riquadro filtri, ovvero un filtro che visualizza solo i record con lo stesso valore della cella selezionata. Selezionare un cella nell'elenco, selezionare la freccia rivolta verso il basso quindi scegliere l'azione **Filtra in base a questo valore**. In alternativa, premere **ALT+F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Impostazione di filtri in report, processi batch e XMLport
+
 Per report e XMLport, i filtri sono visibili direttamente nella pagina di richiesta. La pagina di richiesta visualizza gli ultimi filtri utilizzati in base alla selezione effettuata nel campo **Utilizza valori predefiniti da**. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
 
 La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati per delimitare i record da includere in report o XMLport. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
@@ -126,6 +134,7 @@ La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati
 Nella sezione **Filtra totali per**, è possibile regolare varie dimensioni che influenzano i calcoli in report o XMLport. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
 
 ## <a name="entering-filter-criteria"></a>Immissione di criteri di filtro
+
 Nel riquadro filtri e in una pagina di richiesta, i criteri di filtro vengono immessi nella casella sotto il campo di filtro.
 
 Il tipo di campo di filtro determina quali criteri è possibile immettere. Ad esempio, il filtro di un campo con valori fissi consente solo di scegliere da tali valori. Per ulteriori informazioni sui simboli speciali del filtro, vedere [Criteri e simboli di filtro](#FilterCriteria) e [Token di filtro](#FilterTokens).
@@ -136,10 +145,11 @@ Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro](me
 > Accelerare la ricerca e l'analisi dei dati utilizzando combinazioni di tasti di scelta rapida da tastiera. Ad esempio, selezionare un campo, usare **MAIUSC + ALT + F3** per aggiungere quel campo al riquadro dei filtri, digitare i criteri del filtro, usare **CTRL + INVIO** per tornare alle righe, selezionare un altro campo e usare **ALT + F3** per filtrare tale valore. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Criteri e simboli di filtro
+
 Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere consentiti nel campo. È inoltre possibile utilizzare alcuni simboli speciali (o operatori) per filtrare ulteriormente i risultati. Nella tabella seguente sono inclusi i simboli che è possibile utilizzare nei filtri. Per date e ore, è anche possibile fare riferimento a [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md) per informazioni più dettagliate.
 
 > [!IMPORTANT]  
->  In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è `'S&R*'`.
+> In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è `'S&R*'`.
 
 Le seguenti sezioni descrivono come utilizzare i diversi operatori.
 
@@ -273,6 +283,7 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 |`%myvendors`|Fornitori in **Fornitori personali** in Gestione ruolo utente. |  
 
 ## <a name="see-also"></a>Vedere anche
+
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

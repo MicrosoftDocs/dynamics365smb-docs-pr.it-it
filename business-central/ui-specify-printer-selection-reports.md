@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272088"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549869"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
@@ -55,7 +55,11 @@ Se si utilizza l'estensione Stampante e-mail, tutti o alcuni lavori di stampa ve
 È necessario prendere tutte le precauzioni sulla privacy necessarie, incluso assicurarsi che la soluzione di stampa e-mail abbia le autorizzazioni, le impostazioni sulla privacy e i criteri di conservazione configurati correttamente. È responsabilità dell'utente fornire un indirizzo e-mail corretto, verificato e operativo. Per ulteriori informazioni, vedere [Informativa sulla privacy di Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Per scegliere quali stampanti devono stampare quali report
+
 Nella pagina **Selezioni stampante**, è possibile impostare per il proprio account utente quali report vengono stampati da quale stampante. Ciò è utile se si lavora con report diversi che richiedono stampanti diverse a causa del loro posizionamento nell'azienda o delle loro capacità di output.
+
+> [!IMPORTANT]
+> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, la pagina **Selezioni stampante** può essere utilizzata solo per le stampanti definite dalle estensioni della stampante. Non può essere utilizzata per le stampanti locali.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Selezioni stampante**, quindi seleziona il collegamento correlato. In alternativa, dalla pagina **Gestione stampante**, seleziona una stampante, quindi scegli l'azione **Selezioni stampante**.
 2. Scegli l'azione **Nuovo** per aggiungere una selezione di stampanti per un report specifico.

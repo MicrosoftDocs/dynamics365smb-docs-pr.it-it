@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7b697f1bb49f41f88faf2b5ed35dec6450b3f524
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8ed9506eb6baf3b11d41cd20052d0c0430dc4388
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181123"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676796"
 ---
 # <a name="set-up-journal-templates-and-batches"></a>Impostazione di definizioni e batch di registrazioni
 Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso. Un report riepilogativo Intrastat viene presentato agli uffici tributari con cadenza mensile, trimestrale o annuale, a seconda dell'entità delle operazioni della società.  
@@ -26,7 +26,7 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 
 ## <a name="to-set-up-intrastat-journal-templates"></a>Per impostare definizioni di registrazioni Intrastat  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2.  Per creare una nuova definizione di registrazione Intrastat, scegliere l'azione **Nuovo**.  
 3.  Nella pagina **Def. registrazioni Intrastat** compilare i campi come indicato nella tabella riportata di seguito.  
 
@@ -39,7 +39,7 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 
 ## <a name="to-set-up-intrastat-journal-batches"></a>Per impostare batch di registrazioni Intrastat  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2.  Per aprire la pagina **Batch reg. Intrastat**, selezionare il modello desiderato, quindi scegliere **Batch**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 

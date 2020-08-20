@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c371d8206603ab8004319b888f8bc781cb9dcaf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 63850ff4844a38ffd21b31dbeda3179ac7d7f82c
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181134"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677065"
 ---
 # <a name="prepare-for-vat-transactions-reports"></a>Preparare i report di transazioni IVA
 È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA. L'autorità fiscale stabilisce le soglie richieste per la dichiarazione. Attualmente, la soglia è impostata su zero, a indicare che tutte le transazioni vengono dichiarate. Per prepararsi per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA.  
 
 ## <a name="to-set-up-vat-transaction-amounts"></a>Per impostare gli importi delle transazioni IVA  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup registrazione IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Importo report transazioni IVA**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
@@ -42,7 +42,7 @@ ms.locfileid: "3181134"
 
 ### <a name="to-specify-a-tax-representative-for-a-non-resident-customer"></a>Per specificare un rappresentante fiscale per un cliente non residente  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2. Selezionare un cliente.
 2.  Compilare i campi nella Scheda dettaglio **Commercio estero** come descritto nella tabella riportata di seguito.  
 

@@ -1,5 +1,5 @@
 ---
-title: Utilizzare il collegamento automatico per riconciliare i pagamenti | Documenti Microsoft
+title: Impostare le regole per il collegamento automatico dei pagamenti
 description: Nella pagina Regole di collegamento pagamenti, si impostano le regole per stabilire in che modo i pagamenti e le transazioni bancarie devono essere collegati automaticamente ai relativi movimenti contabili aperti quando si utilizza la funzione Collega automaticamente nella pagina Registrazione riconciliazione pagamenti.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191933"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617575"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
+
 Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire il modo in cui il testo del pagamento (in una transazione bancaria) viene automaticamente abbinato al testo dei movimenti aperti nei seguenti due processi:
+
 - Collegare automaticamente i pagamenti a fatture aperte (non pagate), note di credito o altre voci correlate quando si usa la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 - Corrispondere automaticamente le transazioni bancarie con i relativi movimenti contabili interni del conto bancario quando si sceglie l'opzione **Corrispondenza automatica** nella pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
