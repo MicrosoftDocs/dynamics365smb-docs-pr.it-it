@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196876"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693026"
 ---
 # <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tre campi di set di opzioni che contengono valori di opzioni su cui è possibile eseguire il mapping ai campi [!INCLUDE[d365fin](includes/d365fin_md.md)] di tipo Opzione<!-- Option type, not enum? @Onat can you vertify this? --> per la sincronizzazione automatica. Durante la sincronizzazione, le opzioni non mappate vengono ignorate e le opzioni mancanti vengono aggiunte alla relativa tabella [!INCLUDE[d365fin](includes/d365fin_md.md)] e aggiunte alla tabella di sistema **Mappatura opzione CDS** da gestire manualmente in seguito. Ad esempio, aggiungendo le opzioni mancanti in entrambi i prodotti e quindi aggiornando la mappatura. Questa sezione descrive come funziona.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > È necessario utilizzare gli stessi valori ID opzione da [!INCLUDE[d365fin](includes/cds_long_md.md)]quando estendi il valore di enumerazione [!INCLUDE[d365fin](includes/d365fin_md.md)]. In caso contrario la sincronizzazione non riesce.
+
+> [!IMPORTANT]  
+> Non utilizzare il carattere "," nei valori e nelle didascalie Enum. Questo non è attualmente supportato dal runtime [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > I primi dieci caratteri dei nomi e delle didascalie della nuova opzione devono essere univoci. Ad esempio, due opzioni denominate "Trasferimento 20 giorni lavorativi" e "Trasferimento 20 giorni di calendario" causeranno un errore perché entrambi hanno gli stessi primi 10 caratteri, "Trasferimento 2". Denominali, ad esempio "TRF20 WD" e "TRF20 CD".

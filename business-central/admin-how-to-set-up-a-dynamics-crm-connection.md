@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619412"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701994"
 ---
 # <a name="connect-to-common-data-service"></a>Connettersi a Common Data Service
 
@@ -71,7 +71,7 @@ La procedura seguente illustra come configurare la connessione manualmente nella
     |Campo|Descrizione|
     |-----|-----|
     |**Gli utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] devono essere mappati a quelli di CDS**|Se si sta utilizzando il modello di proprietà Persona, specificare se gli account utente [!INCLUDE[d365fin](includes/d365fin_md.md)] devono avere un account utente corrispondente in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. L'**indirizzo e-mail di autenticazione di Office 365** dell'utente di [!INCLUDE[d365fin](includes/d365fin_md.md)] deve essere uguale all'**indirizzo e-mail principale** dell'utente di [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Se si imposta il valore **Sì**, gli utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] che non hanno un account utente corrispondente in [!INCLUDE[crm_md](includes/crm_md.md)] non disporranno della funzionalità di integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] nell'interfaccia utente. L'accesso ai dati di [!INCLUDE[crm_md](includes/crm_md.md)] direttamente da [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguito per conto dell'account utente di [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Se si imposta il valore **No**, tutti gli utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] disporranno della funzionalità di integrazione di [!INCLUDE[crm_md](includes/crm_md.md)] nell'interfaccia utente. L'accesso ai dati di [!INCLUDE[crm_md](includes/crm_md.md)] viene eseguito per conto dell'utente di connessione (integrazione) [!INCLUDE[crm_md](includes/crm_md.md)].|
-    |**Agente di Business Central corrente mappato a un utente**|Indica se l'account utente è mappato a un account in [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Agente di Business Central corrente mappato a un utente**|Indica se l'account utente utilizzato viene mappato a account in [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Per verificare le impostazioni di connessione, scegli **Connessione**, quindi **Test connessione**.  
 

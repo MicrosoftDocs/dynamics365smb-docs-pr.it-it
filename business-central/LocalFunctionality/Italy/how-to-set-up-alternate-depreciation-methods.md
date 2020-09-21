@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 542ea4a52f5a8269afbebd30e51bb1489b0a2257
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: de4e4b51a4698ea21dee426488a2d8663fdbbf7a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677061"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778590"
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  

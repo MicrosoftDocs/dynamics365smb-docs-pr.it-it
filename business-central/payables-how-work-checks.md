@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503800"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777988"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
@@ -47,7 +47,7 @@ Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi 
 6. Nella pagina **Assegno** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Se la stampante è configurata per la stampa di assegni, selezionare il pulsante **Stampa**. In caso contrario, scegliere il pulsante **Invia a**, selezionare l'opzione **Documento PDF** quindi scegliere il pulsante **OK** e stampare il documento PDF.
 
-    Gli assegni fisici possono ora essere portati in banca per l'elaborazione. Passare alla registrazione del pagamento come collegato al fornitore e pertanto pagato nel sistema.
+    Gli assegni fisici possono ora essere inviati ai fornitori per l'elaborazione. Passare alla registrazione del pagamento come collegato al fornitore e pertanto pagato nel sistema.
 8. Scegliere l'azione **Registra**.
 
 Vengono creati movimenti contabili fornitori collegati completamente e movimenti contabili bancari.
@@ -61,7 +61,11 @@ Vengono creati movimenti contabili fornitori collegati completamente e movimenti
 1. Nella pagina **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
 
 ## <a name="to-void-checks"></a>Per annullare gli assegni
+
 Una volta che i pagamenti tramite assegno sono stati registrati, è possibile annullare gli assegni dai movimenti contabili bancari risultanti.
+
+> [!IMPORTANT]
+> Se l'assegno viene applicato a una fattura, annullare prima l'assegno in modo che la fattura possa essere rimborsata, quindi annullare l'assegno. Se l'assegno è stato stampato e non ha pagato la fattura, scegliere **Annullo solo assegno** come descritto in questa sezione.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato, scegliere l'azione **Modifica**, quindi scegliere l'azione **Mov. contabili assegni**.

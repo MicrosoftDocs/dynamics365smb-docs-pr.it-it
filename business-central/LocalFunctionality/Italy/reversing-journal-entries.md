@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9ec92fae275d3be0f9c1c58f2b7884394a68f9f0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9523a55e86873057613a11c18245ec6b14ca2d4e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181116"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779053"
 ---
 # <a name="reversing-journal-entries"></a>Storno di scritture contabili
 Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali. Tali controlli impediscono l'esecuzione delle seguenti operazioni:  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d2deb1c824f5b3fce8c2e6702e97de4cd9909794
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ed022ead8151d7a17269fd0282fa54cc9acd34dc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192437"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777518"
 ---
 # <a name="service-order-status-and-repair-status"></a>Stato ordine assistenza e stato riparazione
 Il campo **Stato** nella pagina **Ordine assistenza** e lo stato di riparazione dell'ordine di assistenza, rappresentato dal campo **Codice stato riparazione** nella pagina **Ordine assistenza**, sono correlati in Gestione assistenza. Lo stato dell'ordine di assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine di assistenza.  

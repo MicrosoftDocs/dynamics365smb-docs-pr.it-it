@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182830"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701867"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 Se è necessario che i clienti inviino il pagamento prima della spedizione di un ordine, oppure se il fornitore richiede l'invio del pagamento prima di spedire l'ordine, è possibile utilizzare la funzionalità Pagamento anticipato. La funzionalità consente di fatturare e riscuotere i depositi dai clienti o di rimettere i depositi ai fornitori e di garantire che tutti i pagamenti parziali siano registrati a fronte di una fattura. Per ulteriori informazioni, vedere [Creare fatture di pagamenti anticipati](finance-how-to-create-prepayment-invoices.md).
@@ -20,6 +20,11 @@ Se è necessario che i clienti inviino il pagamento prima della spedizione di un
 Prima di registrare le fatture di pagamento anticipato, è necessario impostare i conti di registrazione nella contabilità generale e la numerazione per i documenti di pagamento anticipato. È necessario specificare un account per i pagamenti anticipati relativi alle vendite e un account per i pagamenti anticipati relativi agli acquisti. È possibile specificare gli stessi conti di registrazione da utilizzare per tutti i pagamenti anticipati relativi a tutte le categorie registrazione di attività generali o categorie registrazione di prodotti generici oppure è possibile specificare conti specifici per categorie registrazione specifiche rispettivamente per vendite e acquisti. Ciò dipende dai requisiti dell'azienda per il monitoraggio dei pagamenti anticipati.  
 
 È possibile definire la percentuale dell'importo riga che verrà fatturato per il pagamento anticipato, per un cliente o un fornitore, per tutti gli articoli o per quelli selezionati. Una volta completata l'impostazione, è possibile generare fatture di pagamento anticipato da ordini vendita o da ordini d'acquisto. È possibile utilizzare le percentuali di default per ogni riga di vendita o di acquisto oppure modificare gli importi nella fattura come necessario. È ad esempio possibile specificare un importo totale per l'intero ordine.  
+
+> [!NOTE]
+> Si consiglia di non utilizzare una percentuale di pagamento anticipato del 100% nei seguenti casi:
+> * Se ci si trova in Nord America. A causa del modo in cui vengono calcolate le imposte, una percentuale di pagamento anticipato del 100% può causare problemi con le fatture di pagamento anticipato.
+> * In tutte le regioni, se si deduce manualmente uno sconto di pagamento dalla fattura. Una percentuale di pagamento anticipato del 100% non lascerà automaticamente un importo da cui detrarre lo sconto. 
 
 Poiché l'importo pagamento anticipato è di proprietà dell'acquirente fino a quando non riceve le merci o i servizi, è necessario impostare conti di contabilità generale per la gestione degli importi pagamento anticipato fino a quando non viene registrata la fattura finale. I pagamenti anticipati di vendita devono essere registrati in un conto passività fino a quando gli articoli non vengono spediti. I pagamenti anticipati di acquisto devono essere registrati in un conto cespiti fino a quando gli articoli non vengono ricevuti. È inoltre necessario impostare un conto di contabilità generale separato per ogni codice IVA.  
 

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410789"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693151"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, vedere [Ordini ricorrenti (Norvegia)](/localfunction
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Ricavo ricorrente e fatturazione in abbonamento da parte di altri fornitori
 
-In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ottenere estensioni per Business Central. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) e scaricare app per semplificare il proprio lavoro in Business Central.  
+In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ottenere estensioni per Business Central. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) e scaricare app per semplificare il proprio lavoro in Business Central.  
 
 ## <a name="see-also"></a>Vedere anche
 

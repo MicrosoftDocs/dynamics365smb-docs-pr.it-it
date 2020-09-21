@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528690"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693051"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Diventare rivenditore di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Espandere la propria opportunità commerciale con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del settore, analisi, ERP, CRM, software di contabilità e/o nel software/in servizi di ottimizzazione dei processi aziendali, Business Central è una nuova opportunità.   
+Se si è specializzati in soluzioni cloud, Office 365, SharePoint, soluzioni del settore, analisi, ERP, CRM, software di contabilità e/o nel software/in servizi di ottimizzazione dei processi aziendali, Business Central è una nuova opportunità.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] può aiutare a differenziare e approfondire le relazioni con i clienti dando la capacità di consegnare una soluzione per la gestione aziendale end-to-end che collega le persone e i processi come mai prima, inclusa all'interno degli strumenti familiari di Microsoft Office che le piccole e medie imprese utilizzano ogni giorno.  
 
@@ -32,4 +33,4 @@ Il programma "Ready to Go" è un metodo per iniziare come rivenditore [!INCLUDE[
 
 [Introduzione](product-get-started.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

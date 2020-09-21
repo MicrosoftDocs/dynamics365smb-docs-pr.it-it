@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be0222536f0281a700542b7ada80a327b9f21317
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 18be3b3e5757f3d108ddc9b413eb075aec5ae3af
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183214"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779003"
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
 I periodi di magazzino definiscono un periodo di tempo durante il quale è possibile registrare modifiche al magazzino. Un periodo di magazzino è definito dalla data in cui termina, ovvero la data di fine. Quando il periodo di magazzino è chiuso, non è possibile registrare modifiche al magazzino, previsto o fatturato, precedente alla data di fine. Non è inoltre possibile inserire qualsiasi nuovo valore nel magazzino prima della data di fine. Se nel periodo chiuso sono presenti movimenti articoli aperti, ovvero quantità positive non ancora consumate da, o collegate a, transazioni in uscita, è ancora possibile collegare quantità in uscita a questi movimenti, anche se il periodo è chiuso.  

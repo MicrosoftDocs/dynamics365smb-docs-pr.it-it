@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: 63229494b5a210c118f651b71c844006bd314d3b
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: 822d4f788c5625d21ce0b78db2509c102f93f22a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454322"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779057"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 

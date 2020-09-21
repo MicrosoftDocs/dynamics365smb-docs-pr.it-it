@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528490"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765948"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -166,7 +166,7 @@ I tasti di scelta rapida seguenti sono relativi alla funzionalità Accesso rapid
 |MAIUSC+INVIO|Confermare il valore nel campo corrente e passare al campo Accesso rapido precedente.||
 |CTRL+MAIUSC+INVIO|Confermare il valore nella colonna corrente e passare al campo Accesso rapido successivo al di fuori dell'elenco.<br /><br />Questa combinazione di tasti di scelta rapida si applica agli elenchi incorporati in una pagina, ad esempio voci in un ordine di vendita. Consente di uscire rapidamente dall'elenco e di continuare a immettere dati in altri campi nella pagina.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tasti di scelta rapida nel calendario (selezione data)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Tasti di scelta rapida nel calendario (selezione data)
 
 Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
 
@@ -185,12 +185,13 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |Pagina su|Spostare il cursore al mese precedente.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Tasti di scelta rapida nei campi Data
+
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |t|Immettere la data corrente. "T" sta per "oggi".|
 |w|Immettere la data del lavoro. Per ulteriori informazioni, vedere [Data del lavoro](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tasti di scelta rapida nell'anteprima report
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Tasti di scelta rapida nell'anteprima report
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|

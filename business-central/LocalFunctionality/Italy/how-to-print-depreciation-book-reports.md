@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: aace7b7213156e3e3e00393f53ad2dfb7aef1acd
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 35c6b81591139d008ba506f12969859f7350c668
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677057"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778596"
 ---
 # <a name="print-depreciation-book-reports"></a>Stampare report dei registri dei beni ammortizzabili
 **Registro beni ammortizzabili** è un report fiscale ordinato per anno e classe di articoli. Nel report **Registro beni ammortizzabili** vengono visualizzate le modifiche allo stock di cespiti in un determinato anno per classe di articoli, anziché per singolo articolo. Il report **Registro beni ammortizzabili** viene eseguito dopo l'impostazione del metodo di ammortamento e l'immissione dei beni.  

@@ -6,13 +6,13 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3c9d220b9b6faf3cf98cbd8681b841b72b240765
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 044e37e30209223621b6b3220bbc5297f0993a2d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676792"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779063"
 ---
 # <a name="update-vat-transactions-data"></a>Aggiornare i dati delle transazioni IVA
 Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti eseguendo il report **Aggiorna data transazione IVA**. È inoltre necessario eseguire questo report se sono state apportate modifiche al setup in base ai nuovi requisiti delle autorità fiscali.  

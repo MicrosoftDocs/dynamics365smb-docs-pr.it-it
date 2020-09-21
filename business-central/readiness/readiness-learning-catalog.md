@@ -4,13 +4,13 @@ description: Catalogo di apprendimento Business Central
 author: loreleishannonmsft
 ms.date: 04/01/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 0aa0446d1940571687c9b00cfb3a6fc692a361aa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: margoc
+ms.openlocfilehash: a8a235e07b887653d2b1a68acb03c6b589bc358c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190829"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778767"
 ---
 # <a name="business-central-learning-catalog"></a>Catalogo di apprendimento Business Central
 Trovare la formazione online appropriata, eventi e workshop di persona per il proprio ruolo di utente o partner di Business Central.

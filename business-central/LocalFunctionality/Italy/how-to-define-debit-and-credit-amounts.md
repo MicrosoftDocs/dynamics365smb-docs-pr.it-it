@@ -6,13 +6,13 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 876ad217e2ab7ccffe045f8c85d119c32b1951de
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 36a885db3825712699da46a257cb8aa98df0240f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677071"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779077"
 ---
 # <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  

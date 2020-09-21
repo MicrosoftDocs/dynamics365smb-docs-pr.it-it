@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d0375039a9bcd1e369fc1819d8fd8824a265c5a8
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: fd625344c16e41dd98c86f5f9fd579109b8e41c9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677059"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778592"
 ---
 # <a name="print-withholding-tax-reports"></a>Stampa di report delle ritenute
 Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato.  

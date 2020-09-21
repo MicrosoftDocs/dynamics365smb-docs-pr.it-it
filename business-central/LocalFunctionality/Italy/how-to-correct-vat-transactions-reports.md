@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 736d8ac6bb14c8c16379b7da84079ac611cc6e56
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 5bf172e21e8bab0dddf4cdfd0fc93b602c3ea2e1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676702"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779083"
 ---
 # <a name="correct-vat-transactions-reports"></a>Correggere i report di transazioni IVA
 

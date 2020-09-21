@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: d976ad8644df20821143a9ab31349a77a58eb73a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182590"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777668"
 ---
 # <a name="manage-employee-absence"></a>Gestire le assenze di un impiegato
 Per gestire le assenze di un impiegato, è necessario registrare l'assenza nella pagina **Registrazione assenza**. Le informazioni possono quindi essere visualizzate in diversi modi per esigenze di analisi e creazione report.

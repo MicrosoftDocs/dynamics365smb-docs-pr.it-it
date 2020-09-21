@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528715"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731220"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 Prima di accedere a [!INCLUDE[prodshort](includes/prodshort.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
@@ -32,6 +32,9 @@ Prima di accedere a [!INCLUDE[prodshort](includes/prodshort.md)] online, si cons
 
 **Microsoft Edge legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare la versione legacy di Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. È inoltre possibile eseguire il nuovo Edge e accedere comunque ad altri siti Web che richiedono Internet Explorer. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> A partire da aprile 2021, Internet Explorer 11 ed Edge Legacy non saranno più supportati. Consigliamo di passare a uno dei browser moderni consigliati il prima possibile.
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM Windows 10 Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  
