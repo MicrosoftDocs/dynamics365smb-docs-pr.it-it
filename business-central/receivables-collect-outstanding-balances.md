@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/02/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: b37ded96ebfd541d23b18fdf55ab0fb33ff98c48
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262120"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781437"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.

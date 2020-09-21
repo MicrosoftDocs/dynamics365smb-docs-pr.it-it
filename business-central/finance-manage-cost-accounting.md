@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9539cbf3926a782bdaaf49a7054358e653c5e1ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 69f39226c5fcca8adf9843bad42a2f060e7386d8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183022"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781062"
 ---
 # <a name="accounting-for-costs"></a>Contabilizzazione dei costi
 La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività. Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.  

@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 285752074585eef8378f54b0f8dfa0d11b913a50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 29aa67a3b892b07139975cf805ce33960b22bdab
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182446"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780162"
 ---
 # <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
 
 È inoltre necessario impostare un codice partner IC per ogni società partner, accettato da tutte le società, quindi assegnarlo alle schede clienti e fornitori rispettivamente compilando il campo **Codice partner IC**.  
 
-Se si creano o si ricevono righe intercompany con articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. È inoltre possibile usare la funzione **Cross reference articolo**: per mappare i numeri di articolo alle descrizioni degli articoli dei partner IC, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del partner IC.  
+Se si creano o si ricevono righe intercompany con articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. È inoltre possibile usare la funzione **Cross reference articolo**: per mappare i numeri di articolo alle descrizioni degli articoli dei partner IC, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del partner IC. Per ulteriori informazioni, vedere [Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md). 
 
 Se si effettuano transazioni di vendita intercompany che includono risorse, è necessario compilare il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Si tratta del numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
 
@@ -34,6 +34,9 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Partner IC** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Partner IC** compilare i campi secondo le necessità.
+
+> [!NOTE]
+> In [!INCLUDE[d365fin](includes/d365fin_md.md)]online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[d365fin](includes/d365fin_md.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Per impostare fornitori intercompany e clienti intercompany
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.

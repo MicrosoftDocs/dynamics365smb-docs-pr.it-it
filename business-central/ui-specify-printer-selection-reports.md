@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549869"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781187"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.

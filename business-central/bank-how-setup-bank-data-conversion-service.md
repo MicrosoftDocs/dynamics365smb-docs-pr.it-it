@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e222e133313147cecd94c8cb7f2644776ee1034a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186262"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779788"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Impostare l'estensione AMC Banking 365 Fundamentals
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questo è indicato in [!INCLUDE[d365fin](includes/d365fin_md.md)] come l'estensione AMC Banking 365 Fundamentals.
 
 Tramite la pagina **Registraz. pagamenti** è possibile esportare le righe pagamento in un file o in un flusso di dati che viene quindi caricato nella banca per l'elaborazione automatica in modo che non sia necessario eseguire singolarmente i pagamenti elettronici. Per ulteriori informazioni, vedere [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-È possibile importare i file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** utilizzando l'estensione AMC Banking 365 Fundamentals extension per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+È possibile importare i file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** utilizzando l'estensione AMC Banking 365 Fundamentals per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 In alternativa all'importazione di estratti conto con l'estensione AMC Banking 365 Fundamentals, è possibile utilizzare il servizio Envestnet Yodlee Bank Feeds. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 

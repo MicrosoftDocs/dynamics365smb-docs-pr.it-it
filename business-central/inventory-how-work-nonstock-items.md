@@ -10,19 +10,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181846"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781037"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.
 
 * Dalla scheda articolo di catalogo, creare una nuova scheda articolo in base a un modello.
-* Da una riga di ordine di vendita di tipo **Articolo** con un campo vuoto **No***, selezionare un articolo di catalogo. Una scheda articolo viene creata automaticamente per l'articolo di catalogo.
+* Da una riga di ordine di vendita di tipo **Articolo** con un campo vuoto **No**, selezionare un articolo di catalogo. Una scheda articolo viene creata automaticamente per l'articolo di catalogo.
 
 > [!NOTE]  
 > Non è possibile selezionare un articolo di catalogo dalla pagina **Fattura di vendita**.<br /><br />
