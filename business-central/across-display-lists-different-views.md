@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188772"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784259"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visualizzazione degli elenchi in modalità differenti
 Nell'angolo destro di qualsiasi elenco di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono presenti delle icone che consentono di scegliere il tipo di visualizzazione dei record. Un elenco può essere visualizzato come righe dettagliate, soluzione ideale quando si devono utilizzare molti campi o modificare campi nell'elenco. È tuttavia possibile visualizzare i record anche come riquadri: una soluzione più compatta che comporta meno campi sul record specifico. Questa modalità di visualizzazione è molto utile per ottenere una panoramica con più movimenti, soprattutto sui dispositivi più piccoli, in quanto è più compatta e semplifica il tocco.
