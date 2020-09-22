@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194597"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782445"
 ---
 # <a name="change-basic-settings"></a>Modificare le impostazioni di base
 
@@ -67,10 +67,11 @@ La data di lavoro più comunemente utilizzata è la data odierna. Per poter eseg
 ### <a name="work-date-indication"></a>Indicazione della data di lavoro
 Ogni volta che la data di lavoro non è impostata sulla data odierna, nelle pagine verranno visualizzati due tipi di indicatori modificabili in cui la data di lavoro è quindi essenziale:
 
-- Un promemoria viene visualizzato nella parte superiore della pagina e indica l'impostazione della data di lavoro. Questo promemoria fornisce un collegamento diretto all'impostazione della data di lavoro nella pagina **Impostazioni personali** in modo da poter modificare la data, se lo si desidera. È anche possibile scegliere di chiudere il promemoria per il resto della sessione. A meno che non si imposti la data di lavoro su "oggi", il promemoria verrà visualizzato al prossimo accesso.
+* Un promemoria viene visualizzato nella parte superiore della pagina e indica l'impostazione della data di lavoro. Questo promemoria fornisce un collegamento diretto all'impostazione della data di lavoro nella pagina **Impostazioni personali** in modo da poter modificare la data, se lo si desidera. È anche possibile scegliere di chiudere il promemoria per il resto della sessione. A meno che non si imposti la data di lavoro su "oggi", il promemoria verrà visualizzato al prossimo accesso.
 
-- Se si chiude il promemoria, la data di lavoro verrà visualizzata nel titolo della pagina.  
---> Se la data di lavoro non è impostata sul giorno corrente (oggi), in tutte le pagine in cui è possibile modificare dati, la data di lavoro corrente è visualizzata nell'angolo superiore sinistro.
+* Se si chiude il promemoria, la data di lavoro verrà visualizzata nel titolo della pagina.  
+
+Se la data di lavoro non è impostata sul giorno corrente (oggi), in tutte le pagine in cui è possibile modificare dati, la data di lavoro corrente è indicata nell'angolo superiore sinistro della pagina.
 
 ## <a name="region"></a><a name="region"></a> Area geografica
 

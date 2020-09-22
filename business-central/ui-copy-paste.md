@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: aca14f68e0e1923addbc1cf61926ff5078d6b078
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194573"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782470"
 ---
 # <a name="copy-and-paste-faq"></a>Domande frequenti sulla funzionalità di copia e incolla
 È possibile copiare una o più righe (record) da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook). In breve, per copiare, premere CTRL+C (cmd+C in macOS) sulla tastiera. Per incollare, premere CTRL+V (cmd+V in macOS).
