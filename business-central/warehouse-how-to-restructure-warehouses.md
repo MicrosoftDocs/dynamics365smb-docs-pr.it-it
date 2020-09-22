@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e531088146dedb429e6a261f52acf39054b158d4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 3a0d397695dfdd1d60a13c5e387c0de05127c737
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196237"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789127"
 ---
 # <a name="restructure-warehouses"></a>Ristrutturare warehouse
 È possibile che si desideri ristrutturare la warehouse e definire nuovi codici collocazione e nuove caratteristiche per le collocazioni. Questo tipo di attività, in genere, non viene eseguita di frequente. È tuttavia possibile che si verifichino situazioni in cui si renda necessario eseguire una riclassificazione per raggiungere o mantenere una maggiore efficienza. Ad esempio:  

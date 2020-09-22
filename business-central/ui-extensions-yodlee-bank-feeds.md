@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: c97673ceda1765033877318b46d63652ec318ae9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666874"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789427"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Estensione Envestnet Yodlee Bank Feeds
 Per riconciliare rapidamente i pagamenti effettuati sui conti correnti bancari, il servizio Envestnet Yodlee Bank Feeds consente di collegare il proprio conto bancario di sistema al conto bancario online. Ciò significa che l'ultimo rendiconto bancario viene caricato automaticamente o manualmente nella registrazione riconciliazione. In questo modo viene garantito che si elaborino sempre gli ultimi pagamenti con il rischio minimo di errori.
