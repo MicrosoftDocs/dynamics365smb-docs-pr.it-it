@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617629"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787673"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 
@@ -35,7 +35,7 @@ I collegamenti articoli possono essere creati nei seguenti modi.
 |Metodo|Description|Tipo collegamento|  
 |------------|---------------------------------------|----------------------|  
 |Automatico|Viene eseguito come inoltro di costi generale in base al metodo di costing|Collegamento della quantità|  
-|Fisso|Effettuato dall'utente quando:<br /><br /> - Elaborazione dei resi<br />- Registrazione di correzioni<br />- Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
+|Fisso|Effettuato dall'utente quando:<br /><br /> -   Elaborazione dei resi<br />-   Registrazione di correzioni<br />-   Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
 
 La scelta tra la creazione di collegamenti quantità o di collegamenti costi dipende dalla direzione della transazione di magazzino e dal fatto se il collegamento articoli viene eseguito automaticamente oppure è fisso, in relazione a processi speciali.  
 

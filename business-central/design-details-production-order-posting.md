@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184822"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787323"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.

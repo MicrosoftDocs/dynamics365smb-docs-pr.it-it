@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.author: edupont
+ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272040"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787373"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La modalità in cui l'approvvigionamento degli articoli è controllato dal siste
 |-------------|---------------|  
 |Definire se l'articolo deve essere pianificato|Metodo di riordino = Vuoto|  
 |Definire quando riordinare|Intervallo di tempo<br /><br /> Punto riordino<br /><br /> Lead time di sicurezza|  
-|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordine<br />-   Lotto-per-Lotto|  
+|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordinamento<br />-   Lotto-per-Lotto|  
 |Ottimizzare il momento e la quantità di riordino|Periodo di riprogrammazione<br /><br /> Periodo di accumulo lotti<br /><br /> Periodo di stabilizzazione|  
 |Modificare gli ordini di approvvigionamento|Quantità minima ordine<br /><br /> Quantità massima ordine<br /><br /> Molteplicità ordine|  
 |Delimitare l'articolo pianificato|Politica di produzione:<br /><br /> -   Prod. per Magazzino<br />-   Prod. su Ordine|  

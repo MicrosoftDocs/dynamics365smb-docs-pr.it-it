@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185062"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787573"
 ---
 # <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
 Nella prima versione della funzionalità di tracciabilità articolo in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, i numeri seriali o di lotto venivano registrati direttamente nei movimenti contabili articoli. Questa progettazione forniva informazioni complete sulla disponibilità e sulla tracciabilità semplice dei movimenti storici, ma mancava di flessibilità e funzionalità.  

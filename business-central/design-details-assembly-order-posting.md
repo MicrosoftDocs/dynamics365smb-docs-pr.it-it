@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 22a31f050c1b1a25e17076c3f1469d97b638add5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185806"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788248"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  

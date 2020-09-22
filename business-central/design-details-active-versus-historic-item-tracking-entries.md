@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 35fafa5ed84c2435b2227b2c1e4c9ca683fe7a22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6611c6967a89d9a94110d30b0ebdfbe872df2ce8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185854"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788298"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi
 Quando vengono registrate parti di una quantità di una riga documento, solo quella quantità in questione viene trasferita ai movimenti contabili articoli e ai relativi numeri di tracciabilità articolo. Tuttavia, è opportuno accedere a tutte le informazioni rilevanti di tracciabilità articoli direttamente dalla riga del documento attivo. Ovvero non solo si desidererà vedere i movimenti che sono correlati alla quantità residua, ma si vorranno anche informazioni sulle unità che sono state registrate. Quando si visualizza o si modifica la pagina **Righe tracciabilità articolo**, i contenuti collettivi delle tabelle **Specifica tracciabilità** (T336) e **Movimenti impegni** (T337) vengono presentati in una versione temporanea di T336. In questo modo si garantisce l'accesso unico ai dati di tracciabilità articolo attivi e storici.  

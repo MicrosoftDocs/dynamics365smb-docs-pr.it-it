@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 037af68ad735b84ca9cb0bf038bf2705d08aff7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b86bc97ec6064ee1e4b8f56c444d03cdecc4cc4b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184606"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787073"
 ---
 # <a name="design-details-variance"></a>Dettagli di progettazione: Scostamento
 Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.  

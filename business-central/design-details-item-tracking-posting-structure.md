@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5fc178585579d4f4f8b253ecdb696964993e09c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184990"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787498"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo
 Per conformità con la funzionalità di costing di magazzino e per ottenere una soluzione più semplice e più affidabile, i movimenti contabili articoli vengono utilizzati come principali vettori dei numeri di tracciabilità articolo.  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7e8c5298fe098659aeab81eb3da64456c6d2a8ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4d1c48ebc03eab75f6959591c039eaeda07d2ceb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193229"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788348"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
 Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione. Le priorità includono le quantità minima e massima di contenuto collocazione fissate per una collocazione specifica e le valutazioni delle collocazioni. Pertanto, se gli articoli giungono in magazzino a intervalli regolari, le collocazioni di prelievo più utilizzate vengono riempite non appena vengono svuotate.  

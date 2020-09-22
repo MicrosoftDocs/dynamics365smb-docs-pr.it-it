@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542669"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786598"
 ---
 # <a name="receive-items"></a>Ricevere articoli
 
@@ -33,6 +33,7 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
   > [!NOTE]
   > Se la quantità ricevuta è superiore a quella ordinata nell'ordine acquisto, in base al campo **Quantità**, e il fornitore è stato configurato per consentire le ricevute in eccesso, puoi utilizzare il campo **Ricezione eccessiva** per gestire la quantità in eccesso. Per ulteriori informazioni, vedere [Per ricevere più articoli di quelli ordinati](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Scegliere l'azione **Registra**.
 
   Il valore nel campo **Qtà ricevuta** viene aggiornato. Se si tratta di una ricezione parziale, il valore è inferiore al valore nel campo **Quantità**.

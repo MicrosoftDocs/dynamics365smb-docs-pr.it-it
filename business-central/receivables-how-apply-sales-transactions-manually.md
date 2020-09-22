@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 84c5107df8603585e4bf304d4a8c56fec87fb282
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192029"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788414"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
 Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti, è necessario stabilire se collegare il pagamento o il rimborso per chiudere uno o più movimenti contabili aperti. È possibile specificare l'importo esatto che si desidera collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. Chiudere i movimenti contabili clienti garantisce che informazioni, quali statistiche dei clienti, estratti conto e addebiti interessi siano corretti.

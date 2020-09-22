@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74f8d9dcb309581681e6161a12e7e52fac066726
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193373"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786648"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
