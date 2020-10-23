@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37d02ef2685ba07a7b09cdf4fb034c0ad63a86db
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c6410f1b96aa1c1f8251738184db07aba0d94c4b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784286"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915287"
 ---
 # <a name="multiple-contracts"></a>Contratti multipli
 A seconda degli accordi a livello di assistenza stipulati con un cliente, può essere necessario utilizzare più di un contratto di assistenza per gestire un articolo.  
