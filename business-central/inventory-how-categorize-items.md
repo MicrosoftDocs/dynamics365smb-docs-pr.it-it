@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777593"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914107"
 ---
 # <a name="categorize-items"></a>Classificare gli articoli
 
@@ -37,6 +37,8 @@ Per trovare gli articoli in base alle caratteristiche, è possibile assegnare gl
 
 > [!NOTE]  
 > Gli attributi degli articoli assegnati a una categoria articolo vengono applicati automaticamente all'articolo a cui la categoria articolo è assegnata.
+
+Se si cambia idea su una categoria di articoli, è possibile eliminarla. Tuttavia, se è già stato assegnato a un articolo, è necessario rimuovere l'assegnazione prima di poter eliminare la categoria dell'articolo.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Per assegnare una categoria articolo a un articolo
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193925"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915012"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -49,7 +49,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Posizionare il cursore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
   
     > [!NOTE]  
     >  Non è possibile aggiungere un campo manualmente digitando il nome del campo set di dati nel controllo contenuto. Utilizzare il riquadro di **Mapping XML** per mappare i campi.  
@@ -68,7 +68,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
     1.  Posizionare il puntatore in una colonna.  
   
-    2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+    2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
   
     3.  Ripetere i passaggi a e b per ogni campo.  
   
@@ -84,7 +84,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Posizionare il puntatore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Immagine**.  
+2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Immagine**.  
   
 3.  Per aumentare o diminuire la dimensione dell'immagine, trascinare un quadratino di ridimensionamento verso il centro o lontano dal centro del controllo contenuto.  
 

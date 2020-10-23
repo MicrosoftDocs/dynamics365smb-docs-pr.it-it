@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bca9e6b466944982ac3ac5dc9a6ca93fbdd9d4da
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 764961bef3278ade54bdbe40d2b722072b19185b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919973"
 ---
 # <a name="set-up-company-information"></a>Impostazione di informazioni sulla società
 I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  

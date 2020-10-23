@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617913"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927024"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
 
 > [!NOTE]
-> Non è possibile modificare il metodo di costing dell'articolo se esiste un movimento contabile aperto per l'articolo.<br /><br />
-> Informazioni sulle soluzioni relative alla modifica di un metodo di costing in circostanze particolari saranno pubblicate presto qui.
+> Non è possibile modificare il metodo di costing dell'articolo se esiste un movimento contabile aperto per l'articolo. Per ulteriori informazioni, vedere [Dettagli di progettazione: modifica del metodo di determinazione dei costi per gli articoli](design-details-changing-costing-methods.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  
 
@@ -41,7 +40,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi
 
  I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzino e se utilizzano il costo effettivo o il costo standard come base di valutazione. Nella seguente tabella vengono illustrate le differenti caratteristiche. (Il metodo LIFO è escluso, in quanto è molto simile al metodo FIFO).  
 
-|<!--blank -->|FIFO|Media|Standard|Specifico|  
+|Categoria|FIFO|Media|Standard|Specifico|  
 |-|----------|-------------|--------------|--------------|  
 |Caratteristica generale|Semplice da comprendere|In base alle opzioni del periodo: **Giorno**/**Settimana**/**Mese**/**Trimestre**/**Periodo contabile**.<br /><br /> Può essere calcolato per articolo oppure per articolo/ubicazione/variante.|Semplice da utilizzare, ma richiede la manutenzione qualificata.|Richiede la tracciabilità articolo sia sulla transazione in entrata che sulla transazione in uscita.<br /><br /> Viene solitamente utilizzato per gli articoli serializzati.|  
 |Collegamento o rettifica|Il collegamento tiene traccia della **quantità residua**.<br /><br /> La rettifica inoltra i costi in base al collegamento alla quantità.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> I costi vengono calcolati e inviati per la **data di valutazione**.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> Il collegamento è basato su FIFO.|Tutti i collegamenti sono fissi.|  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196545"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922394"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Risoluzione dei problemi relativi agli errori di sincronizzazione
 Ci sono molte parti mobili coinvolte nell'integrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] con Common Data Service e a volte le cose vanno male. Questo argomento evidenzia alcuni degli errori tipici che si verificano e fornisce alcuni suggerimenti su come risolverli.
@@ -50,6 +50,9 @@ Il messaggio di errore di conflitto "Impossibile aggiornare il record del client
 Il conflitto si verifica perché anche il record di destinazione è stato modificato: il timestamp del record è più recente del timestamp del record di integrazione delle vendite. Il controllo della destinazione avviene solo per le tabelle bidirezionali. 
 
 Questi record vengono spostati nella pagina "Record di sincronizzazione ignorati", che si apre dalla pagina Setup connessione Microsoft Dynamics in Business Central. In questa pagina è possibile specificare le modifiche da conservare, quindi sincronizzare nuovamente i record.
+
+## <a name="remove-couplings-between-records"></a>Rimuovere associazioni tra record
+Quando qualcosa va storto nell'integrazione ed è necessario annullare l'associazione dei record per interrompere la sincronizzazione, è possibile farlo per uno o più record alla volta. Nella pagina **Mapping tabelle di integrazione** è possibile scegliere scegliere **Annullamento associazione** e quindi **Elimina associazione**. In alternativa, nella pagina **Errori di sincronizzazione dati associati** è possibile scegliere gli errori e quindi **Rimuovi associazioni**. 
 
 ## <a name="see-also"></a>Vedere anche
 [Integrazione con Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

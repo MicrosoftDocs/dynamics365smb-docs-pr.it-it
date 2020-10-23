@@ -1,36 +1,28 @@
 ---
-title: Esporre oggetti come servizi Web | Microsoft Docs
+title: Esporre oggetti come servizi Web
 description: Pubblicare oggetti come servizi Web per renderli immediatamente disponibili per la propria soluzione di Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 05/19/2020
+ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 230f3a7fc11e19813d77da2ff15388433642c744
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
+ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697649"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989490"
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
 
-I servizi Web sono un modo semplice ed efficace per rendere le funzionalità di applicazioni disponibili a vari sistemi e utenti esterni. [!INCLUDE[d365fin](includes/d365fin_md.md)] include vari oggetti che, per impostazione predefinita, vengono esposti come servizi Web in seguito all'integrazione in altri servizi Microsoft, ma è anche possibile aggiungere altri servizi Web.  
+I servizi Web sono un modo semplice ed efficace per rendere le funzionalità di applicazioni disponibili a diversi tipi di sistemi e utenti esterni. Per impostazione predefinita, [!INCLUDE[d365fin](includes/d365fin_md.md)] espone una serie di oggetti come servizi Web per una migliore integrazione con altri servizi Microsoft. È possibile aggiungere altri servizi Web in base alle esigenze dell'azienda.  
 
-Si configura un servizio Web nel client [!INCLUDE[d365fin](includes/d365fin_md.md)]. È necessario pubblicare il servizio Web per renderlo disponibile alle richieste di assistenza nella rete. Gli utenti possono individuare i servizi Web puntando un browser al percorso del server e richiedendo un elenco dei servizi disponibili. Quando si pubblica un servizio Web, diviene immediatamente disponibile in rete per gli utenti autenticati. Tutti gli utenti autorizzati possono accedere ai metadati per i servizi Web, ma solo gli utenti che dispongono di permessi sufficienti possono accedere ai dati effettivi.
+Configurare un servizio Web in [!INCLUDE[d365fin](includes/d365fin_md.md)] e quindi pubblicare il servizio Web in modo che sia disponibile per gli utenti autenticati. Tutti gli utenti autorizzati possono accedere ai metadati per i servizi Web, ma solo gli utenti che dispongono di permessi sufficienti possono accedere ai dati effettivi.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Creazione e pubblicazione di un servizio Web
 
 I seguenti passaggi illustrano come creare e pubblicare un servizio Web.  
-
-<!--
-    You can also create a new web service URL in [!INCLUDE [prodshort](includes/prodshort.md)] instead. Choose one of the following methods:
-
-      - Use the **Create Data Set** action on the **Web Services** page
-      - Use the **Set Up Reporting** Assisted Setup guide
-      - Choose the **Edit in Excel** action in any lists
-    -->
 
 ### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
 
@@ -38,18 +30,19 @@ I seguenti passaggi illustrano come creare e pubblicare un servizio Web.
 2. Nella pagina **Servizi Web** selezionare **Nuovo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > **Codeunit** e **Pagina** sono tipi validi per servizi Web SOAP. **Pagina** e **Query** sono tipi validi per i servizi Web OData.  
-    > Inoltre, se il database contiene più società, è possibile scegliere un ID oggetto specifico di una delle società.  
+    > **Codeunit** e **Pagina** sono tipi validi per servizi Web SOAP. **Pagina** e **Query** sono tipi validi per i servizi Web OData. A partire dalla versione 16.3, **Codeunit** è anche un tipo valido per i servizi Web OData v4, ma non viene visualizzato alcun URL nell'interfaccia utente. Inoltre, se il database contiene più società, è possibile scegliere un ID oggetto specifico di una delle società.  
     > Il nome del servizio è visibile agli utenti del servizio Web e poiché è la base per l'identificazione e la distinzione dei servizi Web, è importante che sia un nome significativo.
 
 3. Selezionare la casella di controllo nella colonna **Pubblicato**.  
 
-Quando si pubblica il servizio Web, nei campi **URL OData** e **URL SOAP** è possibile vedere gli URL che sono generati per il servizio Web. È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, è possibile copiare il valore del campo e salvarlo per un successivo utilizzo.  
+Quando si pubblica il servizio Web, i campi **URL OData** e **URL SOAP** mostrano i nuovi URL. Tuttavia, per le codeunit esposte come azioni non associate OData v4, i campi URL non vengono visualizzati.  
+
+È possibile verificare il servizio web immediatamente selezionando i collegamenti nei campi **URL SOAP** e **URL OData**. In alternativa, copiare il valore del campo e salvarlo per un successivo utilizzo. Per testare le codeunit esposte come azioni non associate OData v4, seguire le istruzioni nella sezione [Verifica della disponibilità del servizio Web](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) nel contenuto per gli sviluppatori.
 
 > [!NOTE]
 > Se gli oggetti esposti come servizi Web non devono essere accessibili da [!INCLUDE[prodshort](includes/prodshort.md)] online, è necessario contrassegnare i metodi esposti nel codice come `[Scope('OnPrem')]`. Per ulteriori informazioni, vedere [Attributo dell'ambito](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
-Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser, oppure è possibile scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella pagina **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
+Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile per le parti esterne. È possibile verificare la disponibilità del servizio Web utilizzando un browser oppure scegliere il collegamento nei campi **URL SOAP** e **URL OData** nella pagina **Servizi Web**. La procedura seguente illustra come verificare la disponibilità del servizio Web per un uso successivo.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>Per verificare la disponibilità di un servizio Web  
 
@@ -63,7 +56,7 @@ Dopo la pubblicazione di un servizio Web, questo è immediatamente disponibile p
 
 2. Esaminare le informazioni visualizzate nel browser. Verificare che sia possibile visualizzare il nome del servizio Web creato.  
 
-Quando si accede a un servizio Web e si desidera scrivere i dati di nuovo in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario specificare il nome della società. È possibile specificare la società come parte di URI come illustrato negli esempi, oppure è possibile specificare la società come parte dei parametri di query. Ad esempio, gli URI successivi scelgono lo stesso servizio Web OData e sono entrambi URI validi.  
+Quando si accede a un servizio Web e si desidera scrivere i dati di nuovo in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario specificare il nome della società. È possibile specificare la società come parte di URI come illustrato negli esempi oppure specificare la società come parte dei parametri di query. Ad esempio, gli URI successivi scelgono lo stesso servizio Web OData e sono entrambi URI validi.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

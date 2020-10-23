@@ -2,19 +2,19 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 06/25/2020
+ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 8c5f4205128d52ec88f432cea7ece98e0310546d
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528012"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931273"
 ---
-Prima di poter configurare il log delle e-mail, è necessario preparare Exchange Online con le [cartelle pubbliche](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). È possibile farlo nell'[interfaccia di amministrazione di Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019) oppure è possibile usare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps).  
+Prima di poter configurare il log delle e-mail, è necessario preparare Exchange Online con le [cartelle pubbliche](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). È possibile farlo nell'[interfaccia di amministrazione di Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) oppure è possibile usare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
 > [!TIP]
-> Se si desidera utilizzare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps), è possibile trovare ispirazione su come impostare lo script in uno script di esempio pubblicato nel [repository BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Se si desidera utilizzare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ), è possibile trovare ispirazione su come impostare lo script in uno script di esempio pubblicato nel [repository BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
 
 Il seguente elenco descrive i passaggi principali con i collegamenti per ulteriori informazioni.  
 
@@ -26,7 +26,7 @@ Il seguente elenco descrive i passaggi principali con i collegamenti per ulterio
   |Ruoli selezionati  |Cartelle pubbliche            |
   |Membri selezionati|L'e-mail dell'account utente che Business Central utilizzerà per eseguire il processo di log delle e-mail|
 
-  Per ulteriori informazioni, vedere [Gestire i gruppi di ruoli](/exchange/permissions/role-groups?view=exchserver-2019).
+  Per ulteriori informazioni, vedere [Gestire i gruppi di ruoli](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
 
 - Creare una nuova cassetta postale della cartella pubblica in base alle informazioni nella seguente tabella:
 
@@ -43,15 +43,15 @@ Il seguente elenco descrive i passaggi principali con i collegamenti per ulterio
     - ```\Email Logging\Queue\```
     - ```\Email Logging\Storage\```
 
-  Per ulteriori informazioni, vedere [Creare una cartella pubblica](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).
+  Per ulteriori informazioni, vedere [Creare una cartella pubblica](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
 
 - Abilitare alla posta la cartella pubblica *Coda*
 
-  Per ulteriori informazioni, vedere [Abilitare o disabilitare alla posta una cartella pubblica](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)
+  Per ulteriori informazioni, vedere [Abilitare o disabilitare alla posta una cartella pubblica](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
 
 - Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda* utilizzando Outlook o la shell di gestione di Exchange
 
-  Per ulteriori informazioni, vedere [Consentire agli utenti anonimi di inviare e-mail a una cartella pubblica abilitata alla posta](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)
+  Per ulteriori informazioni, vedere [Consentire agli utenti anonimi di inviare e-mail a una cartella pubblica abilitata alla posta](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
 - Impostare l'utente del log delle e-mail come proprietario di entrambe le cartelle pubbliche, *Coda* e *Archiviazione* utilizzando Outlook o la shell di gestione di Exchange in base alle informazioni nella tabella seguente:
 
@@ -69,7 +69,7 @@ Il seguente elenco descrive i passaggi principali con i collegamenti per ulterio
   |Regola per le e-mail in entrata |Registra messaggi e-mail inviati all'organizzazione|*Il mittente* si trova *all'esterno dell'organizzazione* e *il destinatario* si trova *all'interno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
   |Regola per le e-mail in uscita | Registra messaggi e-mail inviati dall'organizzazione |*Il mittente* si trova *all'interno dell'organizzazione* e *il destinatario* si trova *all'esterno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
   
-  Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
+  Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
 > Se si apportano modifiche nella shell di gestione di Exchange, le modifiche diventano visibili nell'interfaccia di amministrazione di Exchange dopo un certo tempo. Inoltre, le modifiche apportate in Exchange saranno disponibili in [!INCLUDE[prodshort](prodshort.md)] dopo un certo tempo.

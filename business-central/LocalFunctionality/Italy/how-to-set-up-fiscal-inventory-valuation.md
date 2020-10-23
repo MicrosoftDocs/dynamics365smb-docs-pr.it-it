@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d953d0734b3e876ee7e6bce0edb1646f8c3a7237
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d581bc87319689f64bd13e904777240007f4c332
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919971"
 ---
 # <a name="set-up-fiscal-inventory-valuation"></a>Impostare la valutazione magazzino fiscale
 Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metodi di valutazione magazzino.  

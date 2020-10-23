@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219826af340d887b4856841b5600da4448190504
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785873"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916095"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
-È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e Naviga.  
+È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
 
- Queste funzionalità possono essere particolarmente utili in ambito di controllo qualità quando è necessario determinare quali clienti hanno ricevuto prodotti con un numero di lotto specifico o quando si desidera stabilire da quale lotto proviene un componente difettoso.  
+Queste funzionalità possono essere particolarmente utili in ambito di controllo qualità quando è necessario determinare quali clienti hanno ricevuto prodotti con un numero di lotto specifico o quando si desidera stabilire da quale lotto proviene un componente difettoso.  
 
  Nella pagina **Tracciabilità articolo** è possibile analizzare in avanti e indietro in una sequenza di transazioni di magazzino registrate per il numero seriale o di lotto.  
 
- Nella pagina **Naviga** non è possibile visualizzare la sequenza di transazioni, ma è possibile visualizzare tutti i record del numero seriale o di lotto, sia i movimenti registrati che i record aperti.  
+ Nella pagina **Trova movimenti** non è possibile visualizzare la sequenza di transazioni, ma è possibile visualizzare tutti i record del numero seriale o di lotto, sia i movimenti registrati che i record aperti.  
 
- Le due funzionalità possono essere utilizzate in combinazione trasferendo un numero seriale o un numero di lotto analizzato alla pagina **Naviga** per completare lo scenario di analisi. Per ulteriori informazioni, vedere [Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md).  
+ Le due funzionalità possono essere utilizzate in combinazione trasferendo un numero seriale o un numero di lotto analizzato alla pagina **Trova movimenti** per completare lo scenario di analisi. Per ulteriori informazioni, vedere [Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Analizzare articoli tracciati  
 
@@ -57,11 +57,12 @@ ms.locfileid: "3785873"
 >   
 >  Per individuare le righe di tracciabilità dell'articolo in cui lo storico delle transazioni è già stato analizzato, fare clic sul pulsante **Vai a Elemento già analizzato**. La riga di tracciabilità articolo in questione viene selezionata e tutte le righe sottostanti vengono espanse.  
 
-## <a name="to-find-item-tracked-items-with-navigate"></a>Per trovare gli articoli tracciati con la funzionalità Naviga  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Per trovare gli articoli tracciati con la funzionalità Trova movimenti  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Naviga** e quindi selezionare il collegamento correlato.  
-2.  Nella Scheda dettaglio **Tracciabilità articolo**, nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
-3.  Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Trova movimenti** e quindi selezionare il collegamento correlato.  
+2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo**.
+3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
+4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Magazzino](inventory-manage-inventory.md)  
@@ -69,4 +70,5 @@ ms.locfileid: "3785873"
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)
+[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)  
+[Trova movimenti](ui-find-entries.md)  

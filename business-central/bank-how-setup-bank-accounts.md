@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779813"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921074"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 I conti correnti bancari vengono utilizzati in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari è possibile utilizzare l'opzione per la stampa di assegni.<br><br>  
@@ -46,7 +46,7 @@ I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda di un conto corrente bancario fornitore nel quale verranno esportati i file di pagamento della banca.
-3. Scegliere **Naviga**, quindi scegliere l'azione **C/C bancari**.
+3. Scegliere l'azione **C/C bancari**.
 4. Dall'**elenco dei conti bancari del fornitore**, scegliere il conto bancario pertinente o aggiungere un nuovo conto bancario.  
 5. Nella Scheda dettaglio **Trasferimenti** della pagina **Scheda C/C bancari fornitori** compilare i campi come richiesto. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

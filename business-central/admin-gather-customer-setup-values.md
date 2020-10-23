@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ddd7300786c3f028a71abe5f70bf63a23c542f6a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 77534395d868b1ea82317c32aaed0e70d222e1e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784711"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911482"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] e fornirlo al cliente come file di Excel o file XML.  

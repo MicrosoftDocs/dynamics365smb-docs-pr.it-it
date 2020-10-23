@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: acd08841a8fe26be7fcc3442a8453af4e0108c36
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782095"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922896"
 ---
 # <a name="import-multiple-item-pictures"></a>Importare molteplici immagini articolo
 È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file ZIP, quindi utilizzare la pagina **Importa immagini articolo** per gestire le immagini articolo da importare.

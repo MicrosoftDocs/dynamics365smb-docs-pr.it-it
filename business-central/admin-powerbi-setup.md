@@ -1,6 +1,6 @@
 ---
-title: Abilitazione dell'integrazione Power BI con Business Central | Microsoft Docs
-description: Ottenere informazioni dettagliate, business intelligence e KPI a partire dai dati di Business Central è semplice con le app Business Central per Power BI.
+title: Abilitazione dell'integrazione di Power BI con Business Central
+description: Informazioni su come configurare la connessione a Power Bi in modo da poter ottenere informazioni dettagliate, business intelligence e KPI dai dati di Business Central con le app Business Central per Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697775"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927074"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Abilitazione dell'integrazione Power BI con [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Con [!INCLUDE[prodshort](includes/prodshort.md)], gli utenti ottengono una licen
 
 |Licenza Power|Visualizzare report|Creare report|Condividere report|Aggiornare report| App [!INCLUDE[prodshort](includes/prodshort.md)]|
 |-------------|--------||
-|Power BI gratuito|![selezionato](media/check.png)|![selezionato](media/check.png)|(limitato)|(limitato)||
-|Power BI Pro|![selezionato](media/check.png)|![selezionato](media/check.png)|![selezionato](media/check.png)|(esteso)|![selezionato](media/check.png)|
+|Power BI gratuito|![un segno di spunta](media/check.png)|![un altro segno di spunta](media/check.png)|(limitato)|(limitato)||
+|Power BI Pro|![ancora un altro segno di spunta](media/check.png)|![è un segno di spunta](media/check.png)|![ancora un segno di spunta](media/check.png)|(esteso)|![ultimo segno di spunta](media/check.png)|
 
 Per ulteriori informazioni, vedere [Concedere in licenza il servizio Power BI per gli utenti dell'organizzazione](/power-bi/admin/service-admin-licensing-organization) o [Iscriversi al servizio Power BI come utente singolo](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

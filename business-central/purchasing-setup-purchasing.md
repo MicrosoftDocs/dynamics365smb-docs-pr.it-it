@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783277"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918733"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -32,6 +32,9 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Registrazione di prezzi, sconti e contratti di pagamento per gli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Impostare gli addetti agli acquisti |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

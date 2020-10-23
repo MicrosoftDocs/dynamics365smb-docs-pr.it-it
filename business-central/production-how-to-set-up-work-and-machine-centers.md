@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784134"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910707"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
@@ -27,7 +27,10 @@ A ogni area di produzione è possibile assegnare diversi centri di lavoro. Un ce
 
 La capacita pianificata di un'area di produzione consiste della disponibilità dei centri di lavoro corrispondenti oltre che della disponibilità pianificata dell'area stessa. La disponibilità pianificata di un reparto di produzione è data quindi dalla somma di tutte le disponibilità delle relative aree di produzione e dei relativi centri di lavoro.  
 
-La disponibilità viene memorizzata nei movimenti di calendario. Prima di impostare le aree di produzione o i centri di lavoro, è necessario impostare calendari del reparto produzione. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
+La disponibilità viene memorizzata nei movimenti di calendario.  
+
+> [!IMPORTANT]
+> Prima di impostare le aree di produzione o i centri di lavoro, è necessario impostare calendari del reparto produzione. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>Per impostare un'area di produzione
 

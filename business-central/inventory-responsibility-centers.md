@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/06/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc6505ac9efd29fe22634f0e83e09e2f71dbaa4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780387"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968335"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
+
 I centri di responsabilità consentono di gestire i centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.  
 
 L'utilizzo di più ubicazioni insieme ai centri di responsabilità offre la possibilità di gestire le operazioni aziendali nel modo più flessibile e ottimale.
 
 Il supporto di più ubicazioni consente alle società di gestire il magazzino in più luoghi utilizzando un singolo database. I due concetti di ubicazione e unità di stockkeeping costituiscono il punto centrale di questa area. Per ubicazione si intende un luogo in cui vengono gestiti il posizionamento fisico e le quantità degli articoli. Il concetto è sufficientemente vasto per includere ubicazioni quali impianti o unità di produzione, nonché centri di distribuzione, warehouse, showroom e automezzi di servizio. Per unità di stockkeeping si intende un articolo in un'ubicazione specifica e/o come variante. Utilizzando le unità di stockkeeping, le società con più ubicazioni possono aggiungere informazioni sul rifornimento, indirizzi e alcune informazioni relative alla registrazione finanziaria a livello di ubicazione. Di conseguenza, le società possono rifornire varianti dello stesso articolo per ciascuna ubicazione, nonché ordinare articoli sulla base di informazioni sul rifornimento specifiche dell'ubicazione.  
 
-I centri di responsabilità estendono le funzionalità relative alle ubicazioni multiple offrendo agli utenti la possibilità di gestire centri amministrativi. Un centro di responsabilità può essere un centro di costo, un centro di utile, un centro di investimento o un altro centro amministrativo definito dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.
+## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità
 
-## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Centri di responsabilità** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Centri di responsabilità** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
@@ -38,26 +38,28 @@ I centri di responsabilità estendono le funzionalità relative alle ubicazioni 
 Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assistenza, se per l'utente, il cliente o il fornitore non è stato impostato un centro di responsabilità di default. In tutti i documenti di acquisto, vendita o assistenza è possibile immettere un altro centro di responsabilità diverso da quello di default.
 
 > [!NOTE]  
->  L'immissione di un codice di centro di responsabilità in un documento influisce sull'indirizzo, le dimensioni e i prezzi del documento.  
+> L'immissione di un codice di centro di responsabilità in un documento influisce sull'indirizzo, le dimensioni e i prezzi del documento.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Per assegnare i centri di responsabilità agli utenti  
+## <a name="to-assign-responsibility-centers-to-users"></a>Per assegnare i centri di responsabilità agli utenti
+
 È possibile impostare gli utenti in modo che durante il lavoro quotidiano vengano automaticamente recuperati soltanto i documenti relativi alla loro area di lavoro specifica. Gli utenti sono normalmente associati con un centro di responsabilità e hanno accesso soltanto a documenti collegati a specifiche aree di applicazione presso quel centro in particolare.  
 
 Per poter procedere a queste impostazioni è necessario assegnare i centri di responsabilità agli utenti in tre aree funzionali: Acquisti, Vendite e Gestione assistenza.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
-3.  Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
-4.  Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
-5.  Nel campo **Filtro Centro Resp. Assistenza** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alla gestione dell'assistenza.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.  
+2. Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
+3. Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
+4. Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
+5. Nel campo **Filtro Centro Resp. Assistenza** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alla gestione dell'assistenza.  
 
 > [!NOTE]  
->  Gli utenti rimarranno comunque in grado di visualizzare tutti i documenti e i movimenti contabili registrati e non soltanto quelli relativi al proprio centro di responsabilità.
+> Gli utenti rimarranno comunque in grado di visualizzare tutti i documenti e i movimenti contabili registrati e non soltanto quelli relativi al proprio centro di responsabilità.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)
 [Magazzino](inventory-manage-inventory.md)[Gestione warehouse](warehouse-manage-warehouse.md)  
-[Gestione warehouse](warehouse-manage-warehouse.md)    
+[Gestione warehouse](warehouse-manage-warehouse.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

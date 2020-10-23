@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788123"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917503"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
@@ -91,6 +91,14 @@ In un ambiente di produzione, la domanda di un articolo finito e vendibile produ
 Le cifre mostrano in quale sequenza il sistema offre suggerimenti per gli ordini di approvvigionamento di articoli del livello massimo e, presupponendo che l'utente accetterà i suggerimenti, anche per gli articoli dei livelli inferiori.  
 
 Per ulteriori informazioni sulle considerazioni di produzione, vedere [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Ottimizzazione delle prestazioni per calcoli del codice di ultimo livello
+I calcoli del codice di ultimo livello possono influire sulle prestazioni del sistema. Per mitigare l'impatto, è possibile disabilitare **Calcolo dinamico del codice di ultimo livello** nella pagina **Setup manufacturing**. In tal caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggerirà di creare una voce ricorrente nella coda processi che aggiornerà quotidianamente i codici di ultimo livello. È possibile garantire che il processo venga eseguito al di fuori dell'orario di lavoro specificando un'ora di inizio nel campo **Prima data/ora inizio**.
+
+È inoltre possibile abilitare la logica che accelera i calcoli del codice di ultimo livello selezionando **Ottimizza il calcolo del codice di ultimo livello** nella pagina **Setup manufacturing**. 
+
+> [!IMPORTANT]
+> Se si sceglie di ottimizzare le prestazioni, [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzerà nuovi metodi di calcolo per determinare i codici di ultimo livello. Se si dispone di un'estensione che si basa sugli eventi utilizzati dai calcoli precedenti, l'estensione potrebbe smettere di funzionare.   
 
 ### <a name="locations--transfer-level-priority"></a>Ubicazioni/priorità a livello di trasferimento  
 Per le società che lavorano in più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino potrebbero essere diversi da una posizione a un'altra. In questo caso, i parametri di pianificazione devono essere specificati per articolo e anche per ubicazione.  

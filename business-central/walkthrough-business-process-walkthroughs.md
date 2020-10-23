@@ -1,6 +1,6 @@
 ---
 title: Procedure dettagliate per i processi aziendali | Documenti Microsoft
-description: Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.
+description: Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS International Ltd.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788373"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923322"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
 
@@ -39,7 +39,8 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 |Pianificare un progetto, dall'inizio alla fine. **Richiede dati di esempio completi**|[Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)|  
 |Generare report sui costi di un progetto. **Richiede dati di esempio completi**|[Procedura dettagliata: Calcolo del valore WIP per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Prelevare gli articoli per la spedizione nelle configurazioni di warehouse di base. **Richiede dati di esempio completi**|[Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Eseguire la gestione dei difetti. **Richiede dati di esempio completi**|[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)|  
+|Eseguire la gestione dei difetti. **Richiede dati di esempio completi**|[Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)|
+|Esportare i dati aziendali per scopi di controllo in Germania.|[Procedura dettagliata: Esportazione di dati per un audit digitale](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Vedere anche
 

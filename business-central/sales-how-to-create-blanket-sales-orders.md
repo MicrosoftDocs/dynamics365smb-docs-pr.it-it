@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creare ordini di vendita programmati | Documenti Microsoft'
-description: Gli ordini programmati vengono utilizzati quando un cliente si impegna ad acquistare grandi quantità che verranno consegnate con diverse spedizioni più piccole effettuate in un determinato periodo di tempo.
+title: Utilizzare gli ordini di vendita programmati o gli ordini di acquisto
+description: Gli ordini programmati vengono utilizzati quando un cliente si impegna ad acquistare grandi quantità che verranno consegnate con diverse spedizioni più piccole effettuate in un determinato periodo di tempo. Lo stesso vale per l'acquisto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788977"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925924"
 ---
-# <a name="work-with-blanket-sales-orders"></a>Utilizzare gli ordini di vendita programmati
-Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine fra la società e un cliente.
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
+
+Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine fra la società e un cliente. Allo stesso modo, utilizzare gli ordini di acquisto programmati per gestire contratti a lungo termine tra l'utente e il fornitore.
 
 Un ordine programmato viene in genere creato quando un cliente si impegna ad acquistare grandi quantità che verranno consegnate con diverse spedizioni più piccole effettuate in un determinato periodo di tempo. Gli ordini programmati riguardano spesso un solo articolo con date di consegna predefinite. Il motivo principale dell'utilizzo di un ordine programmato anziché di un ordine di vendita consiste nel fatto che le quantità immesse in un ordine programmato non hanno influenza sulla disponibilità dell'articolo e pertanto tali ordini possono essere utilizzati come prospetto per il monitoraggio, le previsioni e le pianificazioni.
 
@@ -94,7 +95,8 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
 ## <a name="see-also"></a>Vedi anche
-[Vendite](sales-manage-sales.md)
+
+[Vendite](sales-manage-sales.md)  
 [Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bf172e21e8bab0dddf4cdfd0fc93b602c3ea2e1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7dab5f664bf101916826fa86a1969027ff69b832
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779083"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919999"
 ---
 # <a name="correct-vat-transactions-reports"></a>Correggere i report di transazioni IVA
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528137"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925449"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
@@ -25,7 +25,7 @@ In caso di prodotti difettosi, è necessario identificare gli errori e impedire 
 
 Il primo task della gestione dei difetti consiste nell'identificare la provenienza degli articoli difettosi e le ubicazioni in cui sono stati utilizzati. Questa analisi è basata su dati storici e può essere semplificata svolgendo ricerche tra i movimenti di tracciabilità articoli nella pagina **Tracciabilità articolo**.  
 
-Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina **Naviga**. È possibile utilizzare la funzione Naviga per individuare tutti i tipi di record di database.  
+Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina ****. È possibile utilizzare la funzione Trova movimenti per individuare tutti i tipi di record di database.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
@@ -64,7 +64,7 @@ Il reparto vendite comunica al manager qualità che il numero seriale della bici
 
 I risultati di questo primo task di tracciabilità articolo consentono di identificare i telai difettosi e il loro fornitore. In seguito, ma nello stesso processo di tracciabilità, il manager qualità dovrà trovare tutte le biciclette vendute prodotte con il telaio proveniente dal lotto difettoso in modo da poter fare un richiamo o bloccare tutti gli ordini interessati. Infine, il manager qualità dovrà trovare tutti i documenti aperti in cui viene utilizzato il lotto difettoso, affinché non vengano effettuate ulteriori transazioni.  
 
-I primi due task di gestione dei difetti vengono eseguiti nella pagina **Tracciabilità articolo**. L'ultimo task viene invece eseguito nella pagina **Naviga** in combinazione con la pagina **Tracciabilità articolo**.  
+I primi due task di gestione dei difetti vengono eseguiti nella pagina **Tracciabilità articolo**. L'ultimo task viene invece eseguito nella pagina **Trova movimenti** in combinazione con la pagina **Tracciabilità articolo**.  
 
 ## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio
 
@@ -227,7 +227,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
     > [!NOTE]  
     >  Non registrare l'ultimo ordine di vendita per cinque telai da corsa.  
 
-    I dati necessari per illustrare le funzionalità Tracciabilità articolo e Naviga sono pronti.  
+    I dati necessari per illustrare le funzionalità Tracciabilità articolo e Trova movimenti sono pronti.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Tracciabilità dall'utilizzo all'origine  
  Il reparto vendite comunica al manager qualità che il numero seriale della bicicletta restituita, l'articolo 1002, è NS1. Con questa informazione di base può determinare dove la bicicletta da corsa finita è stata utilizzata l'ultima volta, in questo caso nella spedizione a Selangorian Ltd. Il manager qualità deve quindi tracciare all'indietro l'origine per stabilire il lotto di provenienza del telaio difettoso e il relativo fornitore.  
@@ -279,27 +279,29 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Allo stesso tempo, nota dalle ultime tre righe di tracciabilità che altri due articoli, NS3 e NS4, sono stati prodotti con telai del LOTTO1. Decide di agire per bloccare questi articoli in magazzino.  
 
-    Il secondo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Poiché la pagina **Tracciabilità articolo** è basata unicamente sui movimenti registrati, il manager qualità deve passare alla pagina **Naviga** per assicurarsi che il LOTTO1 non venga utilizzato nei documenti non registrati.  
+    Il secondo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Poiché la pagina **Tracciabilità articolo** è basata unicamente sui movimenti registrati, il manager qualità deve passare alla pagina **Trova movimenti** per assicurarsi che il LOTTO1 non venga utilizzato nei documenti non registrati.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Ricerca di tutti i record di un numero seriale/di lotto  
- Tramite la pagina **Tracciabilità articolo** il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1, ha individuato il loro fornitore e le transazioni registrate in cui sono state utilizzate. Deve ora determinare se il LOTTO1 esiste in documenti aperti passando alla pagina **Naviga** in cui può eseguire una ricerca in tutti i record di database.  
+ Tramite la pagina **Tracciabilità articolo** il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1, ha individuato il loro fornitore e le transazioni registrate in cui sono state utilizzate. Deve ora determinare se il LOTTO1 esiste in documenti aperti passando alla pagina **Trova movimenti** in cui può eseguire una ricerca in tutti i record di database.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti  
 
 1.  Nella pagina **Tracciabilità articolo** selezionare la prima riga di tracciabilità, la ricezione acquisti del LOTTO1.  
-2.  Scegliere l'azione **Naviga**.  
+2.  Scegliere l'azione **Trova movimenti**.  
 
-    La pagina **Naviga** viene preimpostata con filtri di ricerca in base al risultato di analisi per il LOTTO1. Il manager qualità riconosce la maggior parte dei record che riguarda documenti già identificati nella pagina **Tracciabilità articolo**. Ad esempio, l'ultima riga Naviga di tipo Ordine di produzione fa riferimento ai due ordini di produzione rilasciati che hanno utilizzato i telai del LOTTO1.  
+    La pagina **Trova movimenti** viene preimpostata con filtri di ricerca in base al risultato di analisi per il LOTTO1. Il manager qualità riconosce la maggior parte dei record che riguarda documenti già identificati nella pagina **Tracciabilità articolo**. Ad esempio, l'ultima riga Trova movimenti di tipo Ordine di produzione fa riferimento ai due ordini di produzione rilasciati che hanno utilizzato i telai del LOTTO1.  
 
-    Tuttavia, la seconda riga Naviga di tipo **Righe vendite** è una riga documento non registrata, pertanto il manager qualità procede con l'analisi.  
+    Tuttavia, la seconda riga Trova movimenti di tipo **Righe vendite** è una riga documento non registrata, pertanto il manager qualità procede con l'analisi.  
 
-3.  Per aprire il record Righe vendite, selezionare la seconda riga Naviga e scegliere l'azione **Mostra**. In alternativa, selezionare il valore nel campo **Nr. di record**.  
+3.  Per aprire il record Righe vendite, selezionare la seconda riga Trova movimenti e scegliere l'azione **Mostra**. In alternativa, selezionare il valore nel campo **Nr. di record**.  
 
     Il manager qualità nota una riga vendite aperta per i telai da corsa difettosi. Suggerisce immediatamente al reparto vendite che questo ordine deve essere annullato e che è necessario avviare un nuovo ordine di produzione basato su telai non difettosi.  
 
- La procedura dettagliata relativa all'utilizzo della pagina **Naviga** per la gestione dei difetti in combinazione con la pagina **Tracciabilità articolo** è stata completata.  
+ La procedura dettagliata relativa all'utilizzo della pagina **Trova movimenti** per la gestione dei difetti in combinazione con la pagina **Tracciabilità articolo** è stata completata.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
+[Trova movimenti](ui-find-entries.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
+

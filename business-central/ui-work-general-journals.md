@@ -1,24 +1,25 @@
 ---
 title: Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale| Documenti Microsoft
 description: Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785248"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920699"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
-La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 La maggior parte delle registrazioni sono basate *Contabilità generale* ed è possibile elaborare tutte le operazioni nella pagina **Contabilità generale**. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ Per ogni definizione registrazioni è possibile impostare le proprie registrazio
 
 > [!TIP]
 > Per aggiungere o rimuovere campi nelle registrazioni, utilizzare il banner **Personalizzazione**. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+
+### <a name="validating-general-journal-batches"></a>Convalida di batch registrazioni COGE
+Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare un controllo in background che avviserà quando si verifica un errore nel giornale di registrazione finanziario su cui si sta lavorando che impedisce la registrazione del giornale. Nella pagina **Batch registrazioni COGE** è possibile scegliere **Controllo degli errori in background** per permettere a [!INCLUDE[d365fin](includes/d365fin_md.md)] di convalidare i giornali finanziari, come le registrazioni COGE o pagamenti, mentre ci si lavora. 
+
+Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
+
+È possibile utilizzare le azioni **Mostra righe con problemi** e **Mostra tutte le righe** per alternare tra le righe di registrazione che presentano o non presentano problemi. La nuova scheda dettaglio **Dettagli riga di registrazione** fornisce una rapida panoramica e l'accesso ai dati dalle righe di registrazione, come il conto CoGe, il cliente o il fornitore, nonché all'impostazione di registrazione per conti specifici.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Storno delle registrazioni per correggere gli errori
+Quando si lavora con registrazioni che hanno molte righe e si verifica un errore, è importante avere un modo semplice per correggere gli errori. La pagina **Registrazioni COGE registrate** offre un paio di azioni che possono aiutare.
+
+* **Copia righe selezionate in registrazioni** - Copia solo le righe selezionate.
+* **Copia registro C/G in registrazioni** - Copia tutte le righe che appartengono allo stesso registro C/G.
+
+Queste azioni consentono di creare una copia di una riga di registrazione COGE o di un batch, quindi di specificare quanto segue:
+
+* La registrazione in cui copiare le righe
+* L'indicazione se con segni opposti (storno di scritture contabili)
+* Un numero di documento o una data di registrazione diversi
+
+Per consentire la copia delle registrazioni nelle registrazioni COGE registrate, nella pagina **Definizioni registrazioni COGE** scegliere la casella di controllo **Copia in righe reg. contabilizzate**. Dopo aver consentito alle persone di copiare le registrazioni COGE registrate, se necessario è possibile disattivare la copia per batch specifici.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Informazioni su conti principali e contropartita
 Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
@@ -99,6 +121,18 @@ Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Sald
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
 l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle pagina **Allocazioni**, è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
+
+### <a name="reversal-date-calculation"></a>Calcolo data storno
+Quando si utilizzano le registrazioni COGE ricorrenti per registrare i ratei alla fine di un periodo, è importante avere il pieno controllo sui movimenti di storno. Nella pagina **Registrazioni COGE ricorrenti** il campo **Calcolo data storno** consente di controllare la data in cui verranno registrati i movimenti di storno quando vengono utilizzati metodi ricorrenti di storno.
+
+#### <a name="example"></a>Esempio
+I ratei vengono generalmente registrati con i metodi ricorrenti Fisso, Variabile o Saldo nella riga di registrazione. La data di registrazione dell'importo registrato nel conto nella riga di registrazione viene calcolata utilizzando la frequenza ricorrente. La data di registrazione per il movimento di contropartita viene calcolata utilizzando il campo **Calcolo data storno** come segue:
+
+* Se il campo è vuoto, il movimento di contropartita verrà registrata il giorno successivo.
+* Se il campo contiene una formula di data (ad esempio, **5G** per cinque giorni), il movimento di contropartita verrà registrato con una data di registrazione calcolata utilizzando il calcolo della data di storno.
+
+> [!NOTE]
+> Per impostazione predefinita, il campo **Calcolo data storno** non è disponibile nella pagina **Registrazioni COGE ricorrenti**. Per utilizzare il campo, è necessario aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Utilizzo delle registrazioni standard
 Quando si creano righe di registrazione che verranno probabilmente create di nuovo successivamente, è possibile scegliere di salvarle come registrazioni standard prima di contabilizzare la registrazione. Questa funzionalità si applica alle registrazioni di magazzino e alle registrazioni COGE.

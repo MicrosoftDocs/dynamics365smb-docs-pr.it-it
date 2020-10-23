@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697674"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917878"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] e Power BI
 
@@ -31,10 +31,10 @@ Ci sono varie funzionalità da utilizzare con [!INCLUDE[prodshort](includes/prod
 
 |Funzionalità|Descrizione|Online|Locale|Ulteriori informazioni|
 |-------|-----------|--------------|-----------|----------------|
-|Visualizzare dati [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prodshort](includes/prodshort.md)] nei report in Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![selezionato](media/check.png)|![selezionato](media/check.png)|[Vedere...](across-working-with-powerbi.md)|
-|Visualizzare report Power BI nel client [!INCLUDE[prodshort](includes/prodshort.md)].| I report Power BI che visualizzano dati [!INCLUDE[prodshort](includes/prodshort.md)] possono essere incorporati direttamente nelle pagine [!INCLUDE[prodshort](includes/prodshort.md)] delle parti. È possibile cambiare la parte per visualizzare qualsiasi report reso disponibile. |![selezionato](media/check.png)|![selezionato](media/check.png)<sup>[*](#onprem)</sup>|[Vedere...](across-working-with-business-central-in-powerbi.md).|
-|Creare report e dashboard in Power BI che visualizzano dati [!INCLUDE[prodshort](includes/prodshort.md)].|Usare Power BI Desktop per creare report e dashboard personalizzati. È possibile pubblicare i report nel servizio Power BI o condividerli con altri utenti dell'organizzazione.|![selezionato](media/check.png)|![selezionato](media/check.png)|[Vedere...](across-how-use-financials-data-source-powerbi.md)
-|App [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] pubblica tre app per Power BI in Microsoft AppSource. Queste app creano report e dashboard dettagliati nel servizio Power BI per la visualizzazione dei dati [!INCLUDE[prodshort](includes/prodshort.md)]. Le app disponibili includono: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![selezionato](media/check.png)||[Vedere...](across-powerbi-business-central-apps.md)
+|Visualizzare dati [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prodshort](includes/prodshort.md)] nei report in Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![Funziona online](media/check.png)|![Funziona in locale](media/check.png)|[Vedere...](across-working-with-powerbi.md)|
+|Visualizzare report Power BI nel client [!INCLUDE[prodshort](includes/prodshort.md)].| I report Power BI che visualizzano dati [!INCLUDE[prodshort](includes/prodshort.md)] possono essere incorporati direttamente nelle pagine [!INCLUDE[prodshort](includes/prodshort.md)] delle parti. È possibile cambiare la parte per visualizzare qualsiasi report reso disponibile. |![funziona online](media/check.png)|![Funziona in locale](media/check.png)<sup>[*](#onprem)</sup>|[Vedere...](across-working-with-business-central-in-powerbi.md).|
+|Creare report e dashboard in Power BI che visualizzano dati [!INCLUDE[prodshort](includes/prodshort.md)].|Usare Power BI Desktop per creare report e dashboard personalizzati. È possibile pubblicare i report nel servizio Power BI o condividerli con altri utenti dell'organizzazione.|![Funziona online](media/check.png)|![funziona in locale](media/check.png)|[Vedere...](across-how-use-financials-data-source-powerbi.md)
+|App [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] pubblica tre app per Power BI in Microsoft AppSource. Queste app creano report e dashboard dettagliati nel servizio Power BI per la visualizzazione dei dati [!INCLUDE[prodshort](includes/prodshort.md)]. Le app disponibili includono: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Funziona online](media/check.png)||[Vedere...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a>Questa funzione richiede un'applicazione registrata per Business Central in Microsoft Azure. Per ulteriori informazioni, vedere [Registrazione di Business Central locale in Azure AD per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

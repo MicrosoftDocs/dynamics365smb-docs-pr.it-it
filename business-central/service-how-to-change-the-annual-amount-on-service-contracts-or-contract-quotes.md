@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402560"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925724"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 È possibile modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto per correggere l'importo da fatturare annualmente.  

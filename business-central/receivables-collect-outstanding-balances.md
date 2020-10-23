@@ -1,6 +1,6 @@
 ---
-title: Sollecitare o applicare sanzioni per clienti con pagamenti scaduti | Documenti Microsoft
-description: Descrive come inviare un sollecito a un cliente per un pagamento scaduto e come aggiungere addebiti, od oneri aggiuntivi, al pagamento per il ritardo.
+title: Riscuotere i saldi inevasi
+description: Informazioni su come inviare un sollecito a un cliente per un pagamento scaduto e come aggiungere addebiti, od oneri aggiuntivi, al pagamento per il ritardo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b37ded96ebfd541d23b18fdf55ab0fb33ff98c48
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781437"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926598"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
-La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report Rendiconto cliente come promemoria. In alternativa, è possibile emettere dei solleciti.
+
+La gestione dei crediti comprende il controllo del pagamento degli importi dovuti entro i termini di scadenza. Per i clienti con pagamenti scaduti, è possibile inviare innanzitutto il report **Rendiconto cliente** come promemoria. In alternativa, è possibile emettere dei solleciti.
 
 È possibile utilizzare i solleciti per indicare ai clienti gli importi insoluti. È anche possibile calcolare addebiti di interessi, ad esempio interessi o commissioni, e includerli nei solleciti. Utilizzare note di addebito interessi se si desidera addebitare ai clienti interessi o commissioni senza inviare solleciti relativi agli importi insoluti.
 
+## <a name="statements"></a>Estratti conto
+
+Dalla scheda cliente, è possibile creare un estratto conto con le transazioni del cliente con l'utente. Quindi, si invia al cliente il file PDF generato. In alternativa, usare il report **Rendiconto cliente** per inviare ai clienti una panoramica della loro attività con l'utente. Il rendiconto del cliente può essere inviato a Excel per un'ulteriore elaborazione.  
+
+### <a name="to-send-the-customer-statement-report"></a>Per inviare il report estratto conto cliente
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rendiconto cliente** e quindi scegliere il collegamento correlato.
+2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In **Opzioni output** selezionare una modalità di invio del report al cliente.
+
+> [!NOTE]
+> Se si utilizzano più valute, il report Rendiconto cliente viene sempre stampato nella valuta del cliente. L'ultima data in un periodo di rendiconto viene inoltre utilizzata come data di rendiconto e data di aging, se è incluso l'aging.
+
 ## <a name="reminders"></a>Solleciti
+
 Prima di creare i solleciti, è necessario impostarne i termini e assegnarli ai clienti. Ogni termine di sollecito ha un livelli di sollecito predefinito. e ogni livello include le regole relative all'emissione del sollecito, ad esempio il numero di giorni dopo la data di scadenza della fattura o dopo la data del sollecito precedente. Nella pagina **Condiz. interessi finanziari** viene determinato se nel sollecito vengono calcolati anche gli interessi.  
 
 È possibile eseguire periodicamente il processo batch **Crea solleciti** per creare solleciti per tutti i clienti con saldi scaduti oppure creare manualmente un sollecito per un cliente particolare e calcolare e compilare le righe automaticamente.  
@@ -33,37 +48,16 @@ Per un movimento contabile cliente con selezionato il campo **In sospeso** non v
 
 Dopo avere creato i solleciti e apportato le modifiche necessarie, è possibile stampare report di test o emettere i solleciti, in genere tramite posta elettronica.
 
-## <a name="finance-charges"></a>Spese finanziarie
-Quando un cliente non effettua il pagamento entro la data di scadenza, è possibile fare in modo che gli addebiti per interessi vengano calcolati automaticamente e aggiunti agli importi insoluti nel conto del cliente. È possibile informare i clienti degli interessi aggiunti mediante l'invio di note di addebito interessi.  
+### <a name="to-set-up-reminder-terms"></a>Per impostare i termini di sollecito
 
-> [!NOTE]  
-> Le note di addebito interessi vengono utilizzate per calcolare interessi e addebiti interessi e informare i clienti su tali interessi e addebiti interessi senza inviare solleciti relativi ai pagamenti scaduti. In alternativa è possibile calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti.  
-
-È possibile creare manualmente una nota di addebito interessi per un singolo cliente e compilare le righe automaticamente. In alternativa è possibile utilizzare il processo della funzione **Crea note add. interessi** per creare tali documenti per tutti i clienti selezionati con saldi scaduti.  
-
-Una volta create, le note di addebito interessi possono essere modificate. Il testo visualizzato all'inizio e alla fine della nota è determinato dalle condizioni relative agli interessi finanziari e può essere visualizzato nella colonna **Descrizione** delle righe. Se un importo calcolato è stato inserito automaticamente nel testo iniziale o finale, questo non verrà rettificato se si eliminano righe e sarà necessario utilizzare la funzione **Aggiorna testi add. int.**.  
-
-Dopo avere creato le note di addebito interessi e apportato le modifiche necessarie, è possibile stampare report di test o emettere le note di addebito interessi, in genere tramite posta elettronica.
-
-## <a name="multiple-interest-rates"></a>Tassi d'interesse multipli
-Quando si impostano le condizioni di addebito degli interessi e i termini di sollecito, per la penalità per pagamento ritardato, è possibile specificare più tassi di interesse in modo che la penalità sia calcolata in base a tassi di interesse differenti in diversi periodi. Se non si impostano più tassi di interesse, verranno utilizzati il tasso di interesse e il periodo definito nelle pagine **Condiz. interessi finanziari** e **Termini di sollecito** per l'intero periodo di calcolo. Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
-
-## <a name="to-send-the-customer-statement-report"></a>Per inviare il report estratto conto cliente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rendiconto cliente** e quindi scegliere il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. In **Opzioni output** selezionare una modalità di invio del report al cliente.
-
-> [!NOTE]  
->   Se si utilizzano più valute, il report Rendiconto cliente viene sempre stampato nella valuta del cliente. L'ultima data in un periodo di rendiconto viene inoltre utilizzata come data di rendiconto e data di aging, se è incluso l'aging.
-
-## <a name="to-set-up-reminder-terms"></a>Per impostare i termini di sollecito
 Se per un cliente sono presenti pagamenti scaduti, è necessario decidere quando e con quale modalità inviare un sollecito. Può inoltre essere necessario addebitare sul relativo conto gli interessi e/o altre competenze. È possibile impostare un numero qualsiasi di termini di sollecito. A ciascun codice dei termini di sollecito corrispondono un numero illimitato di livelli di sollecito.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.  
 3. Per utilizzare più di una combinazione dei termini di sollecito, impostare un codice per ciascuno di essi.
 
-## <a name="to-set-up-reminder-levels"></a>Per impostare i livelli di sollecito
+### <a name="to-set-up-reminder-levels"></a>Per impostare i livelli di sollecito
+
 La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impostazione del livello 1. Quando si emette il solletico, il numero del livello viene registrato nei movimenti del sollecito creati e collegati ai singoli movimenti contabili cliente. Se è necessario sollecitare nuovamente il cliente, vengono controllati tutti i movimenti del sollecito collegati ai movimenti contabili cliente aperti per individuare il numero di livello più alto. Per il nuovo sollecito verranno quindi utilizzate le condizioni del numero di livello successivo.
 
 Se si creano più solleciti di quanti livelli sono stati definiti, verranno utilizzate le condizioni del livello massimo. È possibile creare tanti solleciti quanti sono consentiti dall'impostazione del campo **Nr. max solleciti** nei termini del sollecito.
@@ -106,7 +100,8 @@ Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2**, ne
 
 Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 
-## <a name="to-create-a-reminder-automatically"></a>Per creare un sollecito automaticamente
+### <a name="to-create-a-reminder-automatically"></a>Per creare un sollecito automaticamente
+
 Un sollecito è simile a una fattura. Quando viene creato un sollecito, è necessario compilare una testata e una o più righe. È possibile utilizzare una funzione che consente di creare i solleciti automaticamente per tutti i clienti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
@@ -114,7 +109,8 @@ Un sollecito è simile a una fattura. Quando viene creato un sollecito, è neces
 3. Nella pagina **Crea solleciti** compilare i campi per definire come e per chi vengono creati i solleciti.
 4. Scegliere il pulsante **OK**.
 
-## <a name="to-create-a-reminder-manually"></a>Per creare un sollecito manualmente
+### <a name="to-create-a-reminder-manually"></a>Per creare un sollecito manualmente
+
 Nella pagina **Sollecito** è possibile compilare manualmente la Scheda dettaglio **Generale** e quindi compilare automaticamente le righe.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
@@ -130,15 +126,17 @@ Nella pagina **Sollecito** è possibile compilare manualmente la Scheda dettagli
 
 8. Scegliere il pulsante **OK**.
 
-## <a name="to-replace-reminder-texts"></a>Per sostituire i testi di un sollecito  
+### <a name="to-replace-reminder-texts"></a>Per sostituire i testi di un sollecito
+
 Esistono diverse modalità per determinare il testo che verrà visualizzato nella stampa del sollecito. In alcuni casi può essere necessario sostituire i testi iniziali e finali definiti per il livello attuale con i testi di un livello diverso.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Solleciti** e quindi scegliere il collegamento correlato.
 2. Aprire il sollecito pertinente quindi scegliere l'azione **Aggiorna testo sollecito**.
 3. Nella pagina **Aggiorna testo sollecito**, immettere il livello richiesto nel campo **Livello di sollecito**.
-3. Scegliere **OK** per aggiornare il testo iniziale e finale.
+4. Scegliere **OK** per aggiornare il testo iniziale e finale.
 
-## <a name="to-issue-a-reminder"></a>Per emettere un sollecito
+### <a name="to-issue-a-reminder"></a>Per emettere un sollecito
+
 Dopo avere creato i solleciti e apportato le modifiche necessarie, è possibile stampare report di test o emettere i solleciti.
 
 Quando si emette un sollecito, i dati vengono trasferiti in una pagina distinta relativa ai solleciti emessi e vengono contemporaneamente registrati i movimenti del sollecito. Se sono stati calcolati interessi o oneri addizionali, i movimenti vengono registrati nella contabilità clienti e nella contabilità generale.
@@ -149,7 +147,7 @@ Per ogni movimento contabile cliente sulla nota addebito interessi, viene creato
 
 Se sono selezionate le caselle di controllo **Registra interesse** o **Registra onere addizionale** nella pagina **Termini di Sollecito**, vengono creati anche i seguenti movimenti:
 
-- un movimento nella pagina **Mov. contabili clienti**
+- un movimento nella pagina **Movimenti contabili clienti**
 - un movimento incassi nel relativo Conto C/G
 - un movimento interessi e/o un movimento onere addizionale nel relativo Conto C/G
 
@@ -163,11 +161,27 @@ L'emissione di un sollecito può inoltre risultare nei movimenti IVA.
 Il sollecito viene stampato per l'invio a un indirizzo e-mail specificato come allegato PDF.
 
 ### <a name="to-cancel-an-issued-reminder"></a>Per annullare un sollecito emesso
+
 Se i solleciti sono stati emessi per errore, è possibile annullarli uno a uno o come batch prima che vengano inviati.
+
 1. Nella pagina **Solleciti emessi**, selezionare una o più righe per i solleciti emessi che si desidera annullare, quindi selezionare l'azione **Annulla**.
 2. Nella pagina **Annulla solleciti emessi** compilare i campi in base alle esigenze, quindi scegliere il pulsante **OK**.
 
-## <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
+## <a name="finance-charges"></a>Spese finanziarie
+
+Quando un cliente non effettua il pagamento entro la data di scadenza, è possibile fare in modo che gli addebiti per interessi vengano calcolati automaticamente e aggiunti agli importi insoluti nel conto del cliente. È possibile informare i clienti degli interessi aggiunti mediante l'invio di note di addebito interessi.  
+
+> [!NOTE]  
+> Le note di addebito interessi vengono utilizzate per calcolare interessi e addebiti interessi e informare i clienti su tali interessi e addebiti interessi senza inviare solleciti relativi ai pagamenti scaduti. In alternativa è possibile calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti.  
+
+È possibile creare manualmente una nota di addebito interessi per un singolo cliente e compilare le righe automaticamente. In alternativa è possibile utilizzare il processo della funzione **Crea note add. interessi** per creare tali documenti per tutti i clienti selezionati con saldi scaduti.  
+
+Una volta create, le note di addebito interessi possono essere modificate. Il testo visualizzato all'inizio e alla fine della nota è determinato dalle condizioni relative agli interessi finanziari e può essere visualizzato nella colonna **Descrizione** delle righe. Se un importo calcolato è stato inserito automaticamente nel testo iniziale o finale, questo non verrà rettificato se si eliminano righe e sarà necessario utilizzare la funzione **Aggiorna testi add. int.**.  
+
+Dopo avere creato le note di addebito interessi e apportato le modifiche necessarie, è possibile stampare report di test o emettere le note di addebito interessi, in genere tramite posta elettronica.
+
+### <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
+
 Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli interessi. Immettere quindi il codice nel campo **Cod. addebito interessi** nelle schede cliente o fornitore.
 
 È possibile calcolare gli addebiti degli interessi utilizzando il metodo del saldo giornaliero medio oppure il metodo del saldo dovuto.
@@ -211,7 +225,7 @@ Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una
 |%8|Contenuto del campo **Codice valuta** della testata della nota di addebito interessi|  
 |%9|Contenuto del campo **Data reg.** della testata della nota di addebito interessi|  
 
-## <a name="to-create-a-finance-charge-memo-manually"></a>Per creare una nota di addebito di interessi manualmente  
+### <a name="to-create-a-finance-charge-memo-manually"></a>Per creare una nota di addebito di interessi manualmente  
 Una nota di addebito di interessi è simile a una fattura. È possibile compilare una testata manualmente e le righe automaticamente, oppure le note di addebito di interessi possono venire create automaticamente per tutti i clienti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note addebito interessi** e quindi scegliere il collegamento correlato.  
@@ -223,7 +237,7 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
     > Sebbene siano elencati, selezionando **Pagamento** e **Nota di credito** come **tipo di documento** i filtri non avranno alcun effetto perché la funzione **Sugg. righe note add. int.** gestisce solo importi positivi.
 5.  Scegliere **OK** per avviare il processo batch.  
 
-## <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
+### <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
 Talvolta può essere necessario modificare il testo iniziale e finale impostato per le condizioni degli interessi finanziari. Se la modifica viene effettuata dopo la creazione ma prima dell'emissione di note di addebito di interessi, è possibile aggiornare le note con il testo modificato.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Notae addebito interessi** e quindi scegliere il collegamento correlato.  
@@ -231,7 +245,7 @@ Talvolta può essere necessario modificare il testo iniziale e finale impostato 
 3. Nella pagina **Aggiorna testi add. int.** è possibile impostare un filtro per aggiornare più note.
 4. Scegliere **OK** per aggiornare il testo iniziale e finale.  
 
-## <a name="to-issue-finance-charge-memos"></a>Per emettere note di addebito interessi
+### <a name="to-issue-finance-charge-memos"></a>Per emettere note di addebito interessi
 Dopo avere creato le note di addebito interessi e apportato le modifiche necessarie, è possibile stampare report di test o emettere le note di addebito interessi.
 
 Quando viene generato un sollecito, vengono registrati i movimenti secondo le scelte immesse nella pagina **Condiz. interessi finanziari**. Questa specifica determina se interessi e/o oneri addizionali vengono registrati nel conto del cliente e nella contabilità generale. Il setup nella pagina **Cat. reg. cliente** stabilisce in quali conti vengono registrati.
@@ -258,15 +272,20 @@ Se le note di addebito degli interessi sono state emesse per errore, è possibil
 1. Nella pagina **Note addebito interessi emesse**, selezionare una o più righe per le note di addebito degli interessi che si desidera annullare, quindi scegliere l'azione **Annulla**.
 2. Nella pagina **Annulla note addebito interessi emesse** compilare i campi in base alle esigenze, quindi scegliere il pulsante **OK**.
 
-## <a name="to-view-reminder-and-finance-charge-entries"></a>Per visualizzare i movimenti di sollecito e di addebito di interessi  
+### <a name="to-view-reminder-and-finance-charge-entries"></a>Per visualizzare i movimenti di sollecito e di addebito di interessi  
 All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene creato un movimento di sollecito per ciascuna riga di sollecito che contiene un movimento contabile clienti. È possibile quindi ottenere una panoramica dei movimenti di sollecito creati per un cliente specifico.    
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda cliente interessata e scegliere l'azione **Movimenti contabili**.
 3. Nella pagina **Movimenti contabili clienti** selezionare la riga con il movimento contabile per il quale si desidera visualizzare i movimenti di sollecito, quindi scegliere l'azione **Mov. soll./Note add. int.**.
 
+## <a name="multiple-interest-rates"></a>Tassi d'interesse multipli
+
+Quando si impostano le condizioni di addebito degli interessi e i termini di sollecito, per la penalità per pagamento ritardato, è possibile specificare più tassi di interesse in modo che la penalità sia calcolata in base a tassi di interesse differenti in diversi periodi. Se non si impostano più tassi di interesse, verranno utilizzati il tasso di interesse e il periodo definito nelle pagine **Condiz. interessi finanziari** e **Termini di sollecito** per l'intero periodo di calcolo. Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

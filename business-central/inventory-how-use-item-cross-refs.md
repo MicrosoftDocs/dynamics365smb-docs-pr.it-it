@@ -1,28 +1,31 @@
 ---
 title: Utilizzare cross reference articolo | Microsoft Docs
-description: "Se si imposta un cross-reference tra la descrizione articolo utilizzata per un articolo e la descrizione che il fornitore dell'articolo utilizza, la descrizione articolo del fornitore viene inserita automaticamente nei documenti di acquisto per il fornitore quando si compila il campo **Nr. cross-reference**  "
+description: Impostare i riferimenti tra le descrizioni che l'utente e il fornitore utilizzano per un articolo in modo da poter inserire la descrizione dell'articolo del fornitore nei documenti di acquisto.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.keywords: item reference, cross reference, inventory
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c676af23e5a6e988ab5d89d07118b9ff1cce86b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777963"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919440"
 ---
 # <a name="use-item-cross-references"></a>Utilizzare Cross reference articolo
 Se si imposta un cross-reference tra la descrizione articolo utilizzata per un articolo e la descrizione che il fornitore dell'articolo utilizza, la descrizione articolo del fornitore viene inserita automaticamente nei documenti di acquisto per il fornitore quando si compila il campo **Nr. cross-reference**   La stessa funzionalità è valida per i numeri di articolo cliente nei documenti di vendita.
 
 Di seguito viene descritto come utilizzare i cross reference articolo per gli acquisti. I passaggi sono simili per gli acquisti.
+
+> [!NOTE]
+> Sta diventando sempre più comune che gli identificatori degli articoli come GTIN o GUID contengano 30 o più caratteri, che è più di quanto la funzionalità corrente per i riferimenti incrociati degli articoli possa gestire. Se è necessario utilizzare riferimenti che contengono più di 30 caratteri, l'amministratore può attivare la funzionalità **scrittura di riferimenti articolo più lunghi** nella pagina [Gestione delle funzionalità](https://businesscentral.dynamics.com/?page=xzy) (il collegamento richiede un tenant [!INCLUDE[d365fin](includes/d365fin_md.md)]). Il modo in cui si usano i riferimenti non cambia, ma i nomi di cose come pagine e pulsanti cambia. Ad esempio, la pagina **Cross reference per l'articolo** diventerà la pagina**Movimenti riferimento per l'articolo**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Per impostare un cross reference articolo per una descrizione articolo di un fornitore
 
@@ -30,7 +33,7 @@ Di seguito viene descritto come utilizzare i cross reference articolo per gli ac
 2. Aprire la scheda di un articolo per il quale si desidera creare un cross reference per la descrizione articolo che il fornitore utilizza per l'articolo.
 3. Scegliere l'azione **Cross reference**.
 
-     Se non si riesce a trovare l'azione **Cross reference**, scegliere di visualizzare più opzioni, quindi trovarla in **Naviga**, **Articolo**.
+     Se non si riesce a trovare l'azione **Cross reference**, scegliere di visualizzare più opzioni, quindi trovarla in **Correlato** > **Articolo**.
   
 4. In una nuova riga nella pagina **Cross reference per l'articolo**, compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 

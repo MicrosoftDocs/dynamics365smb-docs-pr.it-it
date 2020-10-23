@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786098"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922294"
 ---
 # <a name="manage-profiles"></a>Gestire profili
 
@@ -67,7 +67,7 @@ Nella pagina **Impostazioni personali**, gli utenti possono definire il comporta
 Come amministratore, è possibile definire queste impostazioni per un profilo e quindi applicarle a tutti gli utenti del ruolo correlato.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili (Ruoli)** e quindi scegliere il collegamento correlato.
-2. Selezionare la riga per il profilo per il quale si desidera modificare le impostazioni utente, selezionare l'azione **Naviga**, quindi scegliere l'azione **Personalizzazioni utente**.
+2. Selezionare la riga per il profilo per il quale si desidera modificare le impostazioni utente e scegliere l'azione **Elenco personalizzazioni utente**.
 3. Nella pagina **Personalizzazioni utente**, aprire la scheda per l'utente di cui si desidera modificare le impostazioni.
 4. Nella pagina **Scheda personalizzazione utente** modificare i campi come necessario.
 
@@ -139,7 +139,7 @@ L'utente visualizzerà le modifiche dopo l'accesso successivo.
 
 Come amministratore di [!INCLUDE[prodshort](includes/prodshort.md)] online, è possibile gestire le sessioni utente nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) nel contenuto amministrativo.  
 
-Per [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+Per [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Vedere anche  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  

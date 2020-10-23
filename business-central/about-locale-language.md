@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528665"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914566"
 ---
 # <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
 
@@ -26,7 +26,7 @@ Ad esempio, se si utilizza la versione canadese di [!INCLUDE[d365fin](includes/d
 Per modificare la lingua dell'interfaccia utente, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> La scelta delle lingue verrà ripristinata sulle impostazioni del profilo di Office 365 se l'amministratore sincronizza gli utenti da Office 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> La scelta delle lingue verrà ripristinata sulle impostazioni del profilo di Microsoft 365 se l'amministratore sincronizza gli utenti da Microsoft 365 a [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 La modifica dei testi memorizzati come dati dell'applicazione non è invece supportata dalla funzionalità multilingue. Tale modifica rientra nell'ambito della progettazione dell'applicazione. Tra gli esempi di questo tipo di testi rientrano i nomi degli articoli in magazzino o i commenti relativi a un cliente. In altre parole, questi testi non vengono tradotti.  
 
@@ -36,7 +36,7 @@ La modifica dei testi memorizzati come dati dell'applicazione non è invece supp
 ## <a name="changing-the-region"></a>Cambiare l'area geografica
 L'area geografica differisce dalla lingua e dai requisiti legali nei mercati locali. L'area geografica determina la visualizzazione dei dati in termini di separatore, allineamento a sinistra o a destra ed alcune altre impostazioni. L'area geografica determina anche alcuni degli elementi di sistema nel browser, ad esempio l'azione per creare un nuovo elemento in un elenco.  
 
-È possibile modificare l'area geografica nella scheda del browser utilizzato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  La scelta dell'area geografica verrà ripristinata sulle impostazioni del profilo di Office se l'amministratore sincronizza gli utenti da Office 365 in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+È possibile modificare l'area geografica nella scheda del browser utilizzato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  La scelta dell'area geografica verrà ripristinata sulle impostazioni del profilo di Office se l'amministratore sincronizza gli utenti da Microsoft 365 in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  Quando si modifica l'area geografica viene visualizzato un lungo elenco di lingue e aree geografiche. Tuttavia, la lingua non è influenzata dalla scelta dell'area geografica.  

@@ -8,41 +8,69 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 1497051beebd01839dfc4b4fe2dce6b46977eef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528815"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922669"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
+Una sfida comune in molte applicazioni di gestione aziendale è evitare modifiche indesiderate nei dati. Potrebbe trattarsi di un numero di telefono errato del cliente o di una registrazione errata nella contabilità generale. Questo argomento descrive le funzionalità per scoprire cosa è cambiato, chi l'ha cambiato e quando è stato cambiato.
 
-È possibile abilitare il log modifiche in [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo da disporre di uno storico delle attività. Il log è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano le modifiche apportate ai campi nelle tabelle specificate. Il log modifiche raccoglie tutte le modifiche apportate alla tabella.
+## <a name="about-the-change-log"></a>Informazioni sul log modifiche 
+Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. È necessario specificare cosa si desidera venga registrato per ciascuna tabella e campo, quindi attivare il log modifiche.  
+
+Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano tutte le modifiche apportate ai valori dei campi nelle tabelle specificate.
 
 > [!Important]
-> Le modifiche di un utente non sono visibili in **Movimenti log modifiche** fino al riavvio della sessione dell'utente, che avviene nei seguenti casi:
+> Le modifiche vengono visualizzate in **Voci log modifiche** solo dopo il riavvio della sessione dell'utente, che avviene come segue:
 <br />
 > * La sessione è scaduta ed è stata aggiornata.
 > * L'utente ha selezionato un'altra società o gestione ruolo utente.
 > * L'utente si è disconnesso e connesso di nuovo.
 
-## <a name="working-with-the-change-log"></a>Utilizzo del log modifiche
-
-Un problema comune in diversi sistemi finanziari è individuare l'origine degli errori e delle modifiche dei dati. Potrebbe trattarsi di un numero di telefono errato del cliente o di una registrazione errata nella contabilità generale. Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. È necessario specificare cosa si desidera venga registrato per ciascuna tabella e campo, quindi attivare il log modifiche.  
-
+### <a name="working-with-the-change-log"></a>Utilizzo del log modifiche
 Il log modifiche viene attivato e disattivato nella pagina **Setup log modifiche**. Quando un utente attiva o disattiva il log modifiche, questa attività viene registrata, in modo da poter visualizzare sempre quale utente ha disattivato o riattivato il log modifiche.
 
 Nella pagina **Setup log modifiche** se si sceglie l'azione **Tabelle** è possibile specificare le tabelle di cui si desidera tracciare le modifiche e le modifiche da tracciare. [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene traccia anche di una serie di tabelle di sistema.
 
+> [!NOTE]
+> È possibile monitorare campi specifici per le modifiche, come i campi che contengono dati sensibili, impostando il monitoraggio dei campi. In caso contrario, per evitare la ridondanza, la tabella che contiene il campo non sarà disponibile per l'impostazione del log delle modifiche. Per ulteriori informazioni, vedere [Monitoraggio di campi sensibili](across-log-changes.md#monitoring-sensitive-fields).
+
 Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dati, è possibile visualizzare e filtrare le modifiche nella pagina **Movimenti log modifiche**. Se si desidera rimuovere i movimenti, è possibile farlo nella pagina **Elimina mov. log modifiche**, in cui è possibile impostare filtri in base alle date e all'ora.  
 
-## <a name="working-with-activity-logs"></a>Utilizzare log di attività
+## <a name="about-activity-logs"></a>Informazioni sui log attività
+Da alcune pagine in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Da alcune pagine in [!INCLUDE[prodshort](includes/prodshort.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE[prodshort](includes/prodshort.md)].  
+### <a name="working-with-activity-logs"></a>Utilizzare log di attività
+Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la pagina dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di sette giorni.  
 
-Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la finestra dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di 7 giorni.  
+## <a name="monitoring-sensitive-fields"></a>Monitoraggio dei campi riservati
+Mantenere i dati sensibili protetti e privati è una preoccupazione fondamentale per la maggior parte delle aziende. Per aggiungere un livello di sicurezza, è possibile monitorare i campi importanti ed essere avvisati tramite e-mail quando qualcuno modifica un valore. Ad esempio, è possibile essere avvisati se qualcuno cambia il numero IBAN della tua azienda.
+
+> [!NOTE]
+> L'invio di notifiche tramite e-mail richiede la configurazione della funzione e-mail in [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Imposta indirizzo e-mail](admin-how-setup-email.md).
+
+### <a name="setting-up-field-monitoring"></a>Impostazione del monitoraggio campi
+Usare la guida al setup assistito **Setup monitoraggio modifiche campi** per specificare i campi che si desidera monitorare in base a criteri di filtro, come la classificazione dei dati riservati per i campi. Per ulteriori informazioni, vedere [Classificazione di dati riservati](admin-classifying-data-sensitivity.md). La guida consente inoltre di specificare la persona che riceverà la notifica e-mail quando si verifica una modifica e l'account e-mail che invierà l'e-mail di notifica. È necessario specificare sia la notifica dell'utente che l'account da cui inviare la notifica. Al termine della guida, è possibile gestire le impostazioni per il monitoraggio dei campi nella pagina **Setup monitoraggio campi**. 
+
+Nel tempo, l'elenco delle voci nella pagina **Voci del log dei campi monitorati** cresce. Per ridurre il numero di voci è possibile creare un criterio di conservazione che eliminerà le voci dopo un periodo di tempo specificato. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
+
+Quando si imposta il monitoraggio dei campi o si cambia qualcosa nella configurazione, vengono create voci per le modifiche. È possibile specificare se visualizzare le voci relative alla configurazione del monitoraggio mostrandole o nascondendole. 
+
+È possibile gestire le impostazioni per il monitoraggio dei campi, ad esempio se inviare una notifica e-mail o semplicemente registrare la modifica, per ogni campo nella pagina **Foglio di lavoro dei campi monitorati**. Nella pagina è anche possibile aggiungere o rimuovere i campi da monitorare.
+
+> [!NOTE]
+> Dopo aver aggiunto uno o più campi e avviato il monitoraggio, è necessario disconnettersi da [!INCLUDE[prodshort](includes/prodshort.md)] e accedere di nuovo per applicare le tue impostazioni.
+
+### <a name="working-with-field-monitoring"></a>Utilizzo del monitoraggio campi
+Le voci per tutti i valori modificati per i campi monitorati sono disponibili nella pagina **Voci del log dei campi monitorati**. Ad esempio, le voci contengono informazioni come il campo per il quale il valore è stato modificato, i valori originali e nuovi e chi ha apportato la modifica e quando lo ha fatto. Per esaminare ulteriormente una modifica, scegliere un valore per aprire la pagina in cui è stata apportata. Per visualizzare un elenco di tutte le voci, scegliere **Movimenti modifica campo**.
+
+## <a name="defining-retention-policies"></a>Definizione dei criteri di conservazione
+È possibile creare criteri di conservazione per eliminare i dati non necessari nei log dopo un periodo di tempo specificato. Ad esempio, nel tempo il numero di voci in un log può aumentare. Eliminando le vecchie voci è possibile concentrarsi più facilmente sulle voci più recenti e probabilmente più rilevanti. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Vedere anche
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
@@ -50,3 +78,4 @@ Le informazioni vengono visualizzate nella finestra **Log attività** in base al
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Definire i criteri di conservazione](admin-data-retention-policies.md)  

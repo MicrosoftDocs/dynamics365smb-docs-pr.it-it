@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8d87619fece935945e7e5c329e7737e05d40383
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4a7fd3068cbcaeae1180781cd1377f0913406af4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787473"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917328"
 ---
 # <a name="design-details-item-tracking"></a>Dettagli di progettazione: Tracciabilità articolo
 Quando il flusso delle merci nella catena di approvvigionamento odierna diventerà sempre più complesso, la capacità di tenere traccia degli articoli è sempre più importante per le società interessate. Il monitoraggio del flusso della transazione di un articolo è un requisito giuridico nell'attività di approvvigionamento medico e chimico, ma in altri settori è possibile che si desideri monitorare i prodotti con garanzie o date di scadenza per motivi di assistenza clienti.  

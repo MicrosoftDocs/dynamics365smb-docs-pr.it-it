@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781887"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924880"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: a19c11e98c9b263c601e0e8f34fb24036126350f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693076"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910682"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Scaricare Business Central sul dispositivo mobile
-Accedere ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]  dal dispositivo mobile. È possibile accedere ai dati aziendali, utilizzare le funzionalità come l'invio a Excel o Office 365, visualizzare grafici e indicatore KPI aggiornati, inviare tramite posta elettronica offerte e fatture di vendita, scattare e allegare foto tramite la fotocamera. Seguire i passaggi indicati di seguito per scaricare l'app e per iniziare.
+Accedere ai dati di [!INCLUDE[d365fin](includes/d365fin_md.md)]  dal dispositivo mobile. È possibile accedere ai dati aziendali, utilizzare le funzionalità come l'invio a Excel o Microsoft 365, visualizzare grafici e indicatore KPI aggiornati, inviare tramite posta elettronica offerte e fatture di vendita, scattare e allegare foto tramite la fotocamera. Seguire i passaggi indicati di seguito per scaricare l'app e per iniziare.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

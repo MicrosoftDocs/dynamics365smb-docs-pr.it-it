@@ -4,15 +4,15 @@ description: Risposte a domande comuni su come registrarsi a Business Central o 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918103"
 ---
 # <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -72,15 +72,15 @@ Se si prova a effettuare l'iscrizione con un indirizzo e-mail personale, si rice
 
 Se si desidera distribuire [!INCLUDE[d365fin](includes/d365fin_md.md)] in locale, è possibile utilizzare altri metodi di autenticazione. Per ulteriori informazioni, vedere [Distribuzione di Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Devo acquistare Office 365?
-Nr. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Office 365, è possibile registrarsi per una valutazione gratuita di 1 mese di Office 365 [qui](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Devo acquistare Microsoft 365?
+No. Se tuttavia si desidera ottenere un'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrata con Microsoft 365, è possibile registrarsi per una prova gratuita di 1 mese di Microsoft 365 [qui](https://products.office.com/try).  
 
-Se l'account utilizzato per la registrazione non è un account aziendale Office 365 (come joe@mysolution.com) e si dispone di una sottoscrizione Office 365, è possibile associare il proprio dominio (*mysolution.com*) alla sottoscrizione Office 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Se l'account utilizzato per la registrazione non è un account aziendale Microsoft 365 (come joe@mysolution.com) e si dispone di una sottoscrizione Microsoft 365, è possibile associare il proprio dominio (*mysolution.com*) alla sottoscrizione Microsoft 365. Per ulteriori informazioni, vedere [Ottenere assistenza con i domini Microsoft 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Se non si dispone di una sottoscrizione Office 365 e non si intende acquistarne una, alla registrazione forniamo un nuovo tenant Azure Active Directory di modo che sia possibile accedere al portale di Azure e quindi agli strumenti di amministrazione avanzati in esso contenuti.  
+Se non si dispone di una sottoscrizione Microsoft 365 e non si intende acquistarne una, alla registrazione forniamo un nuovo tenant Azure Active Directory di modo che sia possibile accedere al portale di Azure e quindi agli strumenti di amministrazione avanzati in esso contenuti.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Quali sono i vantaggi dell'integrazione con Office 365 ?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online è completamente integrato con Office 365 e consente di navigare liberamente tra le applicazioni di Office 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Quali sono i vantaggi dell'integrazione con Microsoft 365?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online è completamente integrato con Microsoft 365 e consente di navigare liberamente tra le applicazioni di Microsoft 365 e [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando l'avvio delle applicazioni. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile visualizzare i dati in Excel, stampare report utilizzando Word e usare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Outlook, ad esempio. Per ulteriori informazioni, vedere [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>È possibile estendere il periodo di valutazione "Nuova società" di 30 giorni ?
 Sì. Quando la scadenza del periodo di valutazione è imminente, viene visualizzata una notifica che avverte di tale evento. La notifica contiene un collegamento alla guida **Estendi periodo di valutazione** che può essere utilizzata per estendere il periodo di valutazione. L'estensione supplementare di 30 giorni inizia dal momento in cui scegli **Estendi periodo di valutazione** nella guida. L'utente può estendere il periodo di valutazione una volta. Tale periodo può quindi essere esteso una seconda volta per altri 30 giorni da un partner Microsoft. Per ulteriori informazioni, vedere [Estendere la versione di valutazione](admin-extend-trial.md).
@@ -97,7 +97,7 @@ Per ulteriori informazioni su come trovare un partner, vedere [Come trovare un p
 Sì, ma a seconda di come ci si è iscritti a [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati possono essere eliminati o conservati. Per ulteriori informazioni, vedere [Annullamento di [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>È possibile utilizzare l'autenticazione a più fattori?
-Sì. In tal caso, potrebbe essere necessario una password app per inviare e-mail. Le password app forniscono a un'app o a un dispositivo l'accesso all'account di posta elettronica. La procedura per ottenere una password app varia in base al provider di posta elettronica Per ulteriori informazioni, vedere la guida relativa al provider. Ad esempio, se si utilizza Outlook, vedere [Creare una password app per Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Sì. In tal caso, potrebbe essere necessario una password app per inviare e-mail. Le password app forniscono a un'app o a un dispositivo l'accesso all'account di posta elettronica. La procedura per ottenere una password app varia in base al provider di posta elettronica Per ulteriori informazioni, vedere la guida relativa al provider. Ad esempio, se si utilizza Outlook, vedere [Creare una password app per Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Come trovare un partner di rivendita?
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410749"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970466"
 ---
 # <a name="finance"></a>Contabilità
 [!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
@@ -54,7 +54,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
 |Seguire una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
-|Imparare a utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare Accountant Hub per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
+|Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Guardare un video
+Il video seguente presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione di dati finanziari](finance-setup-finance.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924655"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -70,7 +70,7 @@ Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[p
 
 Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner) Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prodshort](includes/prodshort.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. Puoi anche personalizzare [!INCLUDE[prodshort](includes/prodshort.md)] aggiungendo app da [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online utilizza Office 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] (locale).  
+[!INCLUDE[prodshort](includes/prodshort.md)] online utilizza Microsoft 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] (locale).  
 
 È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 

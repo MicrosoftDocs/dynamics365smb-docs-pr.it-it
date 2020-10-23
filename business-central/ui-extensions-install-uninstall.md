@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766093"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970362"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installare e disinstallare le estensioni in Business Central
 
@@ -48,29 +48,29 @@ Alcune estensioni sono fornite da Microsoft, altre sono fornite da [altre societ
 
 Microsoft fornisce le seguenti estensioni:
 
-* [Portale contabile per Business Central](ui-extensions-accountant-portal.md)  
-* [Registro paga di Ceridian](ui-extensions-ceridian-payroll.md) 
-* [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Informazioni aziendali essenziali](ui-extensions-essential-business-insights.md)   
-* [Analisi di immagini](ui-extensions-image-analyzer.md) 
-* [Cloud intelligente](ui-extensions-data-replication.md)    
+* [Estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [Registro paga di Ceridian](ui-extensions-ceridian-payroll.md)
+* [Hub aziendale](ui-extensions-company-hub.md)  
+* [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Informazioni aziendali essenziali](ui-extensions-essential-business-insights.md)
+* [Analisi di immagini](ui-extensions-image-analyzer.md)
+* [Cloud intelligente](ui-extensions-data-replication.md)
 * [Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
-* [Previsioni pagamenti ritardati](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)   
-* [Migrazione dei dati di QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md) 
-* [Importazione del file retribuzioni di Quickbooks](ui-extensions-quickbooks-payroll.md) 
-* [Previsione vendite e magazzino](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [Estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)    
-* [DK - Migrazione dati C5](ui-extensions-c5-data-migration.md)  
-* [DK - Pagamenti e riconciliazioni](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - Formati di file .tax](ui-extensions-tax-file-formats-dk.md) 
-* [Regno Unito - Codici postali di GetAddress.io per il Regno Unito](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md) 
-* [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
+* [Previsioni pagamenti ritardati](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)
+* [Migrazione dei dati di QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
+* [Importazione del file retribuzioni di Quickbooks](ui-extensions-quickbooks-payroll.md)
+* [Previsione vendite e magazzino](ui-extensions-sales-forecast.md)
+* [Gruppo IVA](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - Migrazione dati C5](ui-extensions-c5-data-migration.md)
+* [DK - Pagamenti e riconciliazioni](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Formati di file .tax](ui-extensions-tax-file-formats-dk.md)
+* [Regno Unito - Codici postali di GetAddress.io per il Regno Unito](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Disinstallazione di un'estensione
 
@@ -80,8 +80,8 @@ Si disinstalla un'estensione utilizzando la pagina **Gestione estensioni**. Se s
 > Se si abilita la casella di controllo **Elimina dati dell'estensione** viene visualizzata una finestra di dialogo di conferma in cui è necessario scegliere **OK**. Con la casella di controllo **Elimina dati dell'estensione** abilitata, è possibile disinstallare l'estensione e verrà chiesto di riconfermare che si desidera disinstallare l'estensione ed eliminare i dati. Questa azione non può essere annullata.
 Alcune estensioni sono obbligatorie. Non è possibile disinstallarle dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.  
 
-
 ## <a name="see-also"></a>Vedere anche
+
 [Estensione di Dynamics 365 Business Central](about-develop-extensions.md)  
 [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)  
 [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

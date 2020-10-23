@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ae40390d2aa095739154a635c0e4fdf77933e648
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782120"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923847"
 ---
 # <a name="count-inventory-using-documents"></a>Conteggiare l'inventario utilizzando documenti
 È possibile eseguire un inventario fisico degli articoli utilizzando documenti di ordine di inventario fisico e di registrazioni di inventario fisico. La pagina **Ordine inventario fisico** è utilizzata per organizzare il progetto di conteggio dell'inventario completo, ad esempio uno per posizione. La pagina **Registrazione inventario fisico** è utilizzata per comunicare e acquisire il conteggio effettivo degli articoli. È possibile creare molteplici registrazioni per un ordine, ad esempio per distribuire gruppi di articoli a dipendenti differenti.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72a184236ffb040b90b5de780f92e140d6838cd0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786448"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913423"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
 Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente in conformità al formato SEPA.  

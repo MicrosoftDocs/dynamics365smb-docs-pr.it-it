@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339924"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912223"
 ---
 # <a name="send-remittance-advice"></a>Invia avviso di rimessa
 
@@ -26,7 +26,7 @@ Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono
 
 È possibile inviare l'avviso di rimessa in due modi:
 
-* Nella pagina **Registrazioni pagamenti**, scegliere **Naviga**, **Pagamenti**, **Invia avviso di rimessa** per inviare l'avviso di rimessa per uno o più righe di registrazione pagamenti via posta elettronica
+* Nella pagina **Registrazioni pagamenti**, scegliere **Correlato**, **Pagamenti**, **Invia avviso di rimessa** per inviare l'avviso di rimessa per uno o più righe di registrazione pagamenti via posta elettronica
 * Nella pagina **Movimenti contabili fornitori**, scegliere **Azione**, **Funzioni**, **Invia avviso di rimessa** per inviare l'avviso di rimessa via posta elettronica dopo la registrazione dei pagamenti fornitori per uno o più movimenti contabili fornitori
 
 ## <a name="see-also"></a>Vedere anche

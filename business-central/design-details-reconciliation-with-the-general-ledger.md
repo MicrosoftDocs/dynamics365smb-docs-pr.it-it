@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787298"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917278"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni vendite, output di produzione o rettifiche negative, le modifiche alla quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. È quindi necessario registrare i valori di magazzino nei conti giacenza magazzino nella contabilità generale.  

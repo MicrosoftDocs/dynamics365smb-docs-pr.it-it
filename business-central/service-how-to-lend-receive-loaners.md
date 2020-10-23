@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7398c89877551cfe1d5a78cb902d1c66e9efc9c6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fd5fc6ad6dabcd3c7bc47caa1af4810474d9a6da
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192605"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918665"
 ---
 # <a name="lend-and-receive-loaners"></a>Dare e ricevere articoli in prestito
 È possibile dare in prestito degli articoli ai clienti per sostituire temporaneamente gli articoli in assistenza ricevuti per prestare assistenza.  

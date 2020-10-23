@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183526"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920524"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
@@ -42,13 +42,13 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 
 È possibile esportare i movimenti in un file da inviare successivamente alle autorità Intrastat. È inoltre possibile stampare un report manualmente, immettere le informazioni nei moduli delle autorità, quindi inviare le informazioni.
 
->  [!Note]
+> [!Note]
 > È consigliabile impostare un batch Registrazione Intrastat per ogni mese.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.  
 3. Per creare batch, scegliere l'azione **Batch**.  
-4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.  
+4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza. 
 
 > [!Note]
 > Nel campo **Periodo statistico** immettere il periodo statistico sotto forma di numero a quattro cifre, dove le prime due rappresentano l'anno e le altre due il mese. Immettere, ad esempio, 1706 per indicare giugno 2017.
@@ -120,6 +120,12 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
 2. Per visualizzare le opzioni, scegliere il campo **Nome batch**.  
 3. Scegliere i batch registrazioni da eliminare a quindi scegliere il pulsante **Elimina**.  
+
+## <a name="tariff-numbers"></a>Nomenclatura combinata
+
+In molti paesi, le autorità doganali e fiscali hanno stabilito dei codici a otto cifre per i vari articoli. Perché i movimenti degli articoli contengano le necessarie informazioni quando vengono importati nella riga delle registrazioni Intrastat, è necessario che nella pagina **Nomenclature combinate** vengano specificate le opportune informazioni sulle nomenclature combinate. È necessario trovare i codici degli articoli di cui si occupa la propria società e immetterli nella pagina **Nomenclatura combinata**.
+
+Impostare nella pagina **Nomenclature combinate** tutti i codici utilizzati. Prima di iniziare la registrazione è necessario immettere i codici nella scheda articolo. Una volta impostati, immetterli nel campo **Nomenclatura combinata** della scheda articolo. Compilare anche il campo **Peso netto** della scheda articolo.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2117013919085bcd63684e8635b733922c03bfbc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7b5a485c3149b4d937fefc6443221fb1ffafcb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779055"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919947"
 ---
 # <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  

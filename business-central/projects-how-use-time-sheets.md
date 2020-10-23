@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780337"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921369"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
 
@@ -113,6 +113,27 @@ Una volta approvato o rifiutato, un foglio presenze non può essere modificato a
     >   È possibile riaprire solo le righe con lo stato **Approvato**. Non è possibile riaprire le righe con lo stato **Rifiutato**. Non è possibile riaprire un foglio presenze se è stato registrato.  
 3. Nella pagina **Foglio presenze** scegliere l'azione **Riapri**, quindi scegliere l'azione **Tutte le righe inviate** per riaprire tutte le righe oppure l'azione **Solo le righe selezionate** per riaprire solo le righe che sono state selezionate nella pagina **Foglio presenze**.
 4. Scegliere il pulsante **OK**. Lo stato della riga o delle righe del foglio presenze cambia in **Inviato**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Per visualizzare e approvare fogli presenze in base alla commessa
+
+Per una commessa, è possibile specificare una persona responsabile della commessa. Le informazioni sono collegate alle righe del foglio presenze e possono essere utilizzate per fornire una lista dei fogli presenze che un manager di progetto è tenuto a esaminare ed approvare. Ad esempio, il manager di progetto del team può essere responsabile di alcune commesse nella società. In questo caso, il manager deve essere designato come **Persona responsabile** nella scheda commessa. In questa visualizzazione delle informazioni del foglio presenze, è possibile visualizzare i task associati a una commessa e la quantità di ore utilizzate.
+
+> [!NOTE]
+> Per poter approvare i fogli presenze nella finestra **Foglio presenze manager per commessa**, è necessario selezionare un'opzione **Foglio presenze per approvazione commesse** nella pagina **Setup risorse**. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Per approvare o rifiutare un foglio presenze in base alla commessa
+
+1. Nella casella **Cerca** immettere **Foglio presenze manager per commessa**, quindi selezionare il collegamento correlato. Microsoft Dynamics NAV visualizza un elenco di righe del foglio presenze associate alle commesse di cui si ha la responsabilità.
+2. Nella scheda **Pagina iniziale** scegliere **Approva**. Scegliere **Tutti** per approvare tutte le righe. Scegliere **Selezionata** per approvare solo le righe selezionate.
+
+    > [!NOTE]
+    > È possibile approvare solo i fogli presenze che presentano lo stato **Inviato**.
+
+3. Per fornire informazioni aggiuntive sull'approvazione o il rifiuto, selezionare una riga del foglio presenze e nella scheda **Naviga** scegliere **Commenti**. Nel campo **Data** specificare una data e immettere un commento nel campo **Commento**.
+4. Scegliere il pulsante **OK**.
+
+> [!NOTE]
+> Dopo essere stata approvata o rifiutata, una riga del foglio presenze per commessa non può essere riaperta o modificata nella finestra **Foglio presenze**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Per registrare le righe del foglio presenze nelle registrazioni risorse
 Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nelle registrazioni risorse corrispondenti.

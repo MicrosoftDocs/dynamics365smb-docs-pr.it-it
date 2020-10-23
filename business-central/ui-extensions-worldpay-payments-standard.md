@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6506398391871621e994c74ba5499ebc6715f7b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2cca707134ec4072aa1e87206c8f78619164d450
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189605"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912178"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Estensione WorldPay Payments Standard
 L'estensione WorldPay Payments Standard consente di offrire a clienti un'alternativa conveniente per eseguire i pagamenti tramite bonifici bancari o carte di credito. Non solo, i pagamenti effettuati tramite i servizi di pagamento finiscono in genere più rapidamente nel conto corrente bancario.

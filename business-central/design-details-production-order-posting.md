@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917303"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.
@@ -45,7 +45,7 @@ A seconda del tipo di magazzino, gli aumenti e le diminuzioni sono rappresentati
 ||Aumenti|Diminuzioni|  
 |-|---------------|---------------|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
-|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
+|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo della capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
 |**Magazzino di prodotti finiti**|Output di articoli finali (costo delle merci lavorate)|-   Vendite (costo degli articoli venduti)<br />-   Output negativo|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
 

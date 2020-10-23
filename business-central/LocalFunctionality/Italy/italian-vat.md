@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 743578c1e8b86a0aba8227649d984efa2662563e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: b5e908f2c5465e001c318f1c96d27e8c877b8590
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611402"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919953"
 ---
 # <a name="italian-vat"></a>IVA italiana
 
@@ -50,7 +50,7 @@ In Italia, i report elenco vendite UE (Intrastat) ed elenco annuale vengono aggi
 
 ## <a name="vat-transaction-reports"></a>Report transazioni IVA
 
-È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati in base alla blacklist italiana. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. Le transazioni con clienti o fornitori dai paesi inclusi nella blacklist sono riportate nel report **Report comunicazioni blacklist**. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] fornisce il supporto per i seguenti tipi di transazione:  
+È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. Le transazioni con clienti o fornitori dai paesi inclusi nella blacklist sono riportate nel report **Report comunicazioni blacklist**. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] fornisce il supporto per i seguenti tipi di transazione:  
 
 |**Tipo di transazione**|**Supportata**|
 |--------------------|-------------|  

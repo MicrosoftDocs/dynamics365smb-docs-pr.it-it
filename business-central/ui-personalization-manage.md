@@ -1,23 +1,18 @@
 ---
 title: Personalizzare pagine per ruoli | Microsoft Docs
 description: Informazioni su come personalizzare l'interfaccia utente per un profilo (ruolo) di modo che tutti gli utenti assegnati a quel ruolo vedano un'area di lavoro personalizzata.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781337"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912073"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
 Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -47,9 +42,12 @@ La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovver
 La personalizzazione delle pagine è ora registrata per il profilo.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>Per visualizzare tutte le pagine personalizzate per un profilo
+
 È possibile ottenere una panoramica di quali pagine sono personalizzate per un profilo, ad esempio per pianificare quali personalizzare ulteriormente o eliminare.
 
-- Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
+- Nella pagina **Profilo (ruolo)**, scegliere l'azione **Gestisci pagine personalizzate**.
+
+Nella pagina **Pagine personalizzate** è possibile eliminare le personalizzazioni e risolvere i problemi analizzando i potenziali problemi.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Per eliminare tutte le personalizzazioni per un profilo
 È possibile annullare tutte le personalizzazioni apportate per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare tutte le personalizzazioni con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni eseguite da un utente](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -61,12 +59,13 @@ Il layout delle pagine per il profilo viene ripristinato al layout predefinito.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Per eliminare la personalizzazione di specifiche pagine per un profilo
 È possibile eliminare personalizzazioni di singole pagine eseguite per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare personalizzazioni di specifiche pagine con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare le personalizzazioni per pagine specifiche](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
-2. Nella pagina **Personalizzazioni profilo**, selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
+1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Gestisci pagine personalizzate**.
+2. Nella pagina **Pagine personalizzate** selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
 
 Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  

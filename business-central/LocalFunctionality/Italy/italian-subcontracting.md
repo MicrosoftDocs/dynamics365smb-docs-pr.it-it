@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1bea7117bd4ea93df334298d87da4fb8d44f5253
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3718b1e19ad08e219bd6e3b3834cef3bd4746e52
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779059"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919955"
 ---
 # <a name="italian-subcontracting"></a>Conto lavoro italiano
 Le società con contratti di produzione spesso affidano la produzione di componenti a terzisti. Per sapere quanti componenti trasferire al terzista, esiste un collegamento tra le operazioni del terzista e la distinta base. Questo agevola la pianificazione della produzione principale (MPS) e la pianificazione del fabbisogno di materiali (MRP) e consente agli appaltatori di gestire i componenti affidati in outsourcing e in conto lavoro.  

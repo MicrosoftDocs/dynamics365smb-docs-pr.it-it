@@ -1,28 +1,28 @@
 ---
 title: Utilizzo di Business Central con Outlook | Documenti di Microsoft
-description: Questo servizio è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook.
+description: Questo servizio è completamene integrato con Microsoft 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2167336c2fe4555a28d3d3eeaf4829d815d8fa04
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529265"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915737"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
 ## <a name="getting-the-add-in"></a>Come ottenere il componente aggiuntivo
-È semplice iniziare a utilizzare il componente aggiuntivo [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Nella guida al setup assistito **Imposta Posta in arrivo aziendale in Outlook**, è possibile impostare la connessione per uso personale o per la propria organizzazione se l'organizzazione utilizza Office 365. Specificare semplicemente il nome utente e la password Office 365, se richiesto, e indicare se si intende ricevere un messaggio di posta elettronica di esempio. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook. Per ulteriori informazioni, vedere [Requisiti minimi per Outlook ](product-requirements.md#outlook).  
+È semplice iniziare a utilizzare il componente aggiuntivo [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Nella guida al setup assistito **Imposta Posta in arrivo aziendale in Outlook**, è possibile impostare la connessione per uso personale o per la propria organizzazione se l'organizzazione utilizza Microsoft 365. Specificare semplicemente il nome utente e la password Microsoft 365, se richiesto, e indicare se si intende ricevere un messaggio di posta elettronica di esempio. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook. Per ulteriori informazioni, vedere [Requisiti minimi per Outlook ](product-requirements.md#outlook).  
 
 Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'*amministratore Dynamics 365 Business Central*. I nuovi componenti aggiuntivi sono aggiunti alla barra multifunzione di Outlook e nel browser è possibile vedere i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] immediatamente sopra o sotto il corpo del messaggio e-mail. I componenti aggiuntivi sono aggiornati periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
@@ -35,7 +35,7 @@ Qualora si collabori con più società [!INCLUDE[prodshort](includes/prodshort.m
 > [!NOTE]
 > Il passaggio da una società all'altra richiede l'ondata di rilascio 2 o successiva del 2019 di [!INCLUDE[prodshort](includes/prodshort.md)] come annunciato nel [piano di rilascio ](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
+Alcune società che utilizzano Microsoft 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Microsoft 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Microsoft 365 gratis](https://www.microsoft.com/microsoft-365/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Utilizzo del componente aggiuntivo Informazioni contatto
 Supponiamo che si riceva un'email da un cliente che vuole un preventivo per alcuni articoli. Direttamente in Outlook, è possibile aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui il mittente viene riconosciuto come cliente e verrà aperta la scheda cliente relativa alla società. Dal dashboard, è possibile visualizzare le informazioni generali per il cliente ed eseguire il drill-down per ulteriori dettagli sui documenti specifici. È inoltre possibile approfondire le informazioni cronologiche di vendita per il cliente. Se si tratta di un nuovo contatto, è possibile crearlo come nuovo cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] senza uscire da Outlook.  
@@ -60,15 +60,15 @@ Nel componente aggiuntivo Collegamenti documento, è possibile modificare ed eff
 ## <a name="adding-the-add-ins-manually"></a>Aggiunta manuale dei componenti aggiuntivi
 In alcuni casi, i componenti aggiuntivi non vengono aggiunti automaticamente a Outlook. Anche se la società oppure un collega ha eseguito la Guida di setup assistito per conto della società, [!INCLUDE[d365fin](includes/d365fin_md.md)] potrebbe non venire visualizzato in Outlook. In questi casi, è possibile aggiungere manualmente i componente aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Basta semplicemente aprire Outlook in un browser, aprire un messaggio, selezionare **Più azioni** (...) nella parte superiore del messaggio, quindi, in fondo all'elenco, scegliere **Ottieni componenti aggiuntivi** . Viene visualizzata la pagina **Componenti aggiuntivi per Outlook** dove è possibile abilitare [!INCLUDE[prodshort](includes/prodshort.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] dovrebbe essere disponibile.  
+In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Microsoft 365. Basta semplicemente aprire Outlook in un browser, aprire un messaggio, selezionare **Più azioni** (...) nella parte superiore del messaggio, quindi, in fondo all'elenco, scegliere **Ottieni componenti aggiuntivi** . Viene visualizzata la pagina **Componenti aggiuntivi per Outlook** dove è possibile abilitare [!INCLUDE[prodshort](includes/prodshort.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] dovrebbe essere disponibile.  
 
 Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella pagina **Scarica componenti aggiuntivi**.  
 
-In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di Office 365.
+In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di sistema Microsoft 365.
 
 ## <a name="using-other-email-accounts"></a>Utilizzo di altri account e-mail
 
-I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)] ? ](across-faq.md#email) e [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+I componenti aggiuntivi sono progettati per l'uso con Microsoft 365. Se si utilizza [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) e l'articolo [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) e la sezione [Perché il componente aggiuntivo di Outlook non funziona per gli utenti?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) nelle domande frequenti generali nel contenuto per amministratori.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

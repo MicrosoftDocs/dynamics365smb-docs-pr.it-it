@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186766"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917853"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Rispondere a richieste relative a dati personali  
 Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
@@ -35,7 +35,7 @@ Nella tabella seguente vengono forniti esempi dei tipi di richieste a cui è pos
 Un oggetto dati può richiedere di interrompere temporaneamente l'elaborazione dei relativi dati personali. Per soddisfare tali richieste, è possibile contrassegnare i record come bloccati a causa della privacy. Quando un record viene contrassegnato come bloccato, non è possibile creare nuove transazioni che utilizzano quel record. Ad esempio, non è possibile creare una nuova fattura per un cliente quando il cliente o il venditore è bloccato. Per contrassegnare un oggetto dati come bloccato, aprire la scheda per l'oggetto dati, ad esempio le schede cliente, fornitore o contatto, e scegliere la casella du controllo **Bloccato dalla privacy**. Potrebbe essere necessario scegliere **Mostra di più** per visualizzare il campo.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Gestione delle richieste dell'interessato in una versione di valutazione
-Alcuni tipi di dati personali fanno parte dell'account Office 365 e richiedono l'accesso amministrativo per l'esportazione, se si riceve una richiesta da parte di un utente in merito a questo tipo di dati personali ai sensi del Regolamento generale sulla protezione dei dati (GDPR). Il processo per la gestione delle richieste degli interessati è diverso in base al tipo di tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Alcuni tipi di dati personali fanno parte dell'account Microsoft 365 e richiedono l'accesso amministrativo per l'esportazione, se si riceve una richiesta da parte di un utente in merito a questo tipo di dati personali ai sensi del Regolamento generale sulla protezione dei dati (GDPR). Il processo per la gestione delle richieste degli interessati è diverso in base al tipo di tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Se si dispone di un abbonamento a pagamento per [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario contattare l'amministratore del tenant della propria organizzazione per inoltrare una richiesta dell'interessato. L'amministratore ha i diritti e gli strumenti amministrativi per soddisfare tale richiesta.  
 

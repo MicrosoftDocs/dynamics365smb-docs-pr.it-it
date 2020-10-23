@@ -1,16 +1,16 @@
 ---
 title: Catalogo per l'apprendimento per vendite e marketing partner
-description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
+description: Trovare tutta l'apprendimento disponibile per i ruoli di vendita e marketing dei partner in Business Central.
 author: loreleishannonmsft
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 4b6fd743dd65cacb3d3e9ffa91b46cb9cc69cbd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781487"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926649"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Catalogo per l'apprendimento per vendite e marketing partner
 
@@ -22,7 +22,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 
 | Contenuto     | Descrizione    | Formato                                | Lunghezza              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Solo partner) Questa sessione illustrerà il valore di Business Central. Business Central offre un valore eccezionale perché si integra con altri servizi cloud Microsoft con Office 365 e può essere personalizzato o esteso per esigenze specifiche di settore con Power Apps, Power Automate e Power BI. | Video                                 | 8 minuti e 5 secondi |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Solo partner) Questa sessione illustrerà il valore di Business Central. Business Central offre un valore eccezionale perché si integra con altri servizi cloud Microsoft tra cui Microsoft 365 e può essere personalizzato o esteso per esigenze specifiche di settore con Power Apps, Power Automate e Power BI. | Video                                 | 8 minuti e 5 secondi |
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Scopri le funzionalità di Dynamics 365 Business Central    | Sito Web    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione.    | Percorso di apprendimento online gratuito e personalizzato | 24 minuti          |
 
@@ -43,7 +43,6 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Cercare le storie dei clienti](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Trovare le storie di riferimento dei clienti per Dynamics 365 Business Central in [https://customer.microsoft.com](https://customer.microsoft.com).  | Sito Web |                       |
 | [Programma Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Solo partner) Informazioni sul programma Cloud Solution Provider     | Sito Web |                       |
 | [Marketing in un mondo cloud](https://mbspartner.microsoft.com/OSS/Topic/19) | (Solo partner) Individuare come ottimizzare le iniziative di marketing e riallineare i propri principi di marketing per un mondo orientato al cloud sarà un fattore fondamentale che consentirà di determinare il successo o il fallimento della propria organizzazione in futuro. Questa serie di video e risorse fornisce procedure consigliare sul marketing, indicazioni sulla creazione di contenuti, suggerimenti pragmatici e strumenti utili per applicare i principi del cloud marketing al fine di promuovere la domanda per le soluzioni offerte. | Pagina di argomenti | 35 minuti |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Solo partner) Individuare come ottimizzare le iniziative di marketing e riallineare i propri principi di marketing per un mondo orientato al cloud sarà un fattore fondamentale che consentirà di determinare il successo o il fallimento della propria organizzazione in futuro. Questa serie di video e risorse fornisce procedure consigliare sul marketing, indicazioni sulla creazione di contenuti, suggerimenti pragmatici e strumenti utili per applicare i principi del cloud marketing al fine di promuovere la domanda per le soluzioni offerte.   | Pagina di argomenti    | 35 minuti            |
 | [Programma Cloud Solution Provider - Vendita di soluzioni cloud nella domanda](https://docs.microsoft.com/partner-center/csp-overview)  | Il programma Cloud Solution Provider (CSP) consente di andare oltre la rivendita delle licenze ed avere un maggiore coinvolgimento nell'attività dei clienti.   | Sito Web      |                       |
 | [Programma Cloud Solution Provider - Confrontare i programmi di supporto per i partner](https://partner.microsoft.com/support/partnersupport) | Guardare questo video per scoprire come scegliere il piano di supporto per i partner adatto alla propria attività. È quindi disponibile un confronto tra i vari piani.    | Sito Web                               |                       |
 | [Vendita accelerata Cloud SureStep](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Solo per i partner) Il processo di vendita accelerata Cloud SureStep si basa sulle esigenze dell'acquirente moderno e mira a generare un punto di informazioni strategico emotivo e orientato all'esperienza nelle prime fasi del processo di vendita. Questa serie di video e risorse illustra un processo di vendita prescrittivo specificamente progettato per contrastare il tradizionale approccio di vendita di soluzioni "basato su demo" ad alto utilizzo delle risorse, che in genere porta a dimostrazioni sul prodotto personalizzate, cicli di vendita complessi e lunghi progetti di implementazione. La libreria di risorse include una serie di modelli personalizzabili che consentono di creare il proprio set di risorse di vendita a supporto della vendita accelerata. | Sito Web     |                       |

@@ -4,27 +4,29 @@ description: Nella tabella seguente viene descritta una sequenza di task, con co
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a615e4b605267f12913dbcfee8e8a00e659369e4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780412"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910732"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Impostazione della valutazione magazzino e i costi
-Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli.
+
+Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli. In genere, le aziende scelgono un metodo di determinazione dei costi specifico e lo applicano agli articoli di magazzino, ad esempio, per aiutarle a tenere traccia del valore degli articoli in magazzino.  
+
+> [!TIP]
+> Per un'introduzione alla determinazione dei costi in [!INCLUDE [prodshort](includes/prodshort.md)], vedere [Informazioni sul costing di magazzino](finance-learn-about-costing.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
 |**Per**|**Vedere**|  
-|------------|-------------|  
-|Impostare un metodo di costing per ogni articolo in modo da definire come verrà utilizzato il relativo costo in entrata per valutare il valore di magazzino e il delle merci vendute.|[Registrare nuovi articoli](inventory-how-register-new-items.md)|  
+|------------|-------------|
+|Specificare un metodo di costing predefinito per la società in modo da definire come verrà utilizzato il relativo costo in entrata per valutare il valore di magazzino e il costo delle merci vendute.|[Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)|  
+|Specificare un metodo di determinazione dei costi per i singoli articoli se richiedono un metodo di determinazione dei costi diverso.|[Registrare nuovi articoli](inventory-how-register-new-items.md)|  
 |Assicurarsi che il costo venga registrato automaticamente nella contabilità generale ogni volta che viene contabilizzata una transazione di magazzino.|Campo **Reg. automatica costi** nella pagina **Setup magazzino**|  
 |Assicurarsi che i costi previsti siano registrati nella contabilità generale per visualizzare, dai conti C/G provvisori, una stima degli importi residui e il costo degli articoli trattati, prima dell'effettiva fatturazione.|Campo **Reg. costi previsti in C/G** nella pagina **Setup magazzino**|  
 |Impostare il sistema affinché venga effettuata la rettifica automatica delle eventuali modifiche dei costi ogni volta che si registrano transazioni di magazzino.|[Rettifica costi articolo](inventory-how-adjust-item-costs.md)|  
@@ -35,7 +37,13 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Assicurarsi che i resi di acquisto vengano applicati alla transazione in entrata originale per mantenere il valore di magazzino.|Campo **Storno esatto costo obblig.** nella pagina **Contabilità fornitori**|
 |Impostare le regole di arrotondamento da applicare quando i prezzi degli articoli e i costi standard vengono rettificati o suggeriti.|Pagina **Metodo di arrotondamento**|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche
+
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
+[Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)  
+[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Impostare le procedure ottimali: metodo di costing](setup-best-practices-costing-method.md)  
+[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: modifica dei metodi di costing per gli articoli](design-details-changing-costing-methods.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
 [Finanze](finance.md)  

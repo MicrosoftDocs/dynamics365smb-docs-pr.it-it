@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196737"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923697"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -69,14 +69,17 @@ Gli ordini di vendita che le persone inviano in [!INCLUDE[crm_md](includes/crm_m
 In alternativa, è possibile convertire manualmente gli ordini di vendita inviati da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Crea in [!INCLUDE[d365fin](includes/d365fin_md.md)]** disponibile nella pagina **Ordini di vendita - Dynamics 365 for Sales**.
 In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nelle app. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella pagina **Setup contabilità clienti e vendite**, in modo che tali vendite di prodotti non registrate siano mappate a un numero di articolo/risorsa specificato per le analisi finanziarie.
+Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggiunti, ovvero articoli o risorse che non sono registrati nelle app. In tal caso, è necessario compilare i campi **Tipo prodotto aggiunto** e **Nr. prodotto aggiunto** nella pagina **Setup contabilità clienti e vendite**, in modo che le vendite di prodotti non registrati siano mappate a un numero di articolo o risorsa specificato.
+
+> [!NOTE]
+> Non è possibile mappare un'aggiunta a un articolo o una risorsa in [!INCLUDE[d365fin](includes/d365fin_md.md)] che è associato a un prodotto in [!INCLUDE[crm_md](includes/crm_md.md)]. Per consentire le aggiunte è consigliabile creare un articolo o una risorsa appositamente per quello scopo e non associarlo a un prodotto in [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo **Commento** viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Gli aggiornamenti dei campi nelle testate dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel **Mapping tabella integrazione** SALESORDER-ORDER sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Gli aggiornamenti dei campi nelle testate dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel Mapping tabella integrazione **SALESORDER-ORDER** sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> La sincronizzazione periodica basata sul SALESORDER-ORDER **Mapping tabella integrazione** funzionerà solo quando l'integrazione dell'ordine cliente è abilitata. Per ulteriori informazioni, vedere [Impostazioni di connessione nella pagina di impostazione della connessione di vendita](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo gli ordini cliente creati da ordini cliente inviati in [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> La sincronizzazione periodica basata sul Mapping tabella integrazione **SALESORDER-ORDER** funzionerà solo quando l'integrazione dell'ordine cliente è abilitata. Per ulteriori informazioni, vedere [Impostazioni di connessione nella pagina di impostazione della connessione di vendita](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo gli ordini cliente creati da ordini cliente inviati in [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -86,6 +89,8 @@ In alternativa, è possibile convertire manualmente offerte di vendita attivate 
 In tali offerte di vendita, il campo **Nome** nell'offerta originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Anche il campo **Data di validità finale** nell'offerta viene trasferito e mappato al campo **Offerta valida fino alla data** in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzazione. Sia l'elaborazione manuale che quella automatica delle offerte di vendita in [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiscono l'archiviazione delle versioni precedenti delle offerte di vendita prima dell'elaborazione di nuove revisioni delle offerte di vendita da [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Quando si sceglie **Processi** in [!INCLUDE[d365fin](includes/d365fin_md.md)] per un'offerta nello stato **Vinta**, viene creato un ordine cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] solo se viene inviato un ordine di vendita corrispondente in [!INCLUDE[crm_md](includes/crm_md.md)]. In caso contrario, l'offerta viene rilasciata solo in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se un ordine di vendita corrispondente viene inviato in [!INCLUDE[crm_md](includes/crm_md.md)] in seguito e da esso viene creato un ordine di vendita, il **numero di offerta** viene aggiornato sull'ordine di vendita e l'offerta viene archiviata.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestione di spedizioni vendita registrate, pagamenti clienti e statistiche
 Dopo l'evasione di un ordine di vendita, verranno create le fatture per lo stesso. Quando si fattura un ordine di vendita, è possibile trasferire le spedizioni vendita registrate a [!INCLUDE[crm_md](includes/crm_md.md)] se si seleziona la casella di controllo **Crea fattura in [!INCLUDE[crm_md](includes/crm_md.md)]** nella pagina **Fattura vendita registrata**. Le fatture registrate vengono trasferite a [!INCLUDE[crm_md](includes/crm_md.md)] con lo stato **Fatturato**.
