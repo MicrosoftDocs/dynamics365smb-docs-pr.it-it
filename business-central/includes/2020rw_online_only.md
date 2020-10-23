@@ -1,0 +1,1 @@
+> <span data-ttu-id="de412-101">**SI APPLICA A:** Business Central Online (secondo ciclo di rilascio del 2020 e successivi)</span><span class="sxs-lookup"><span data-stu-id="de412-101">**APPLIES TO:** Business Central online (2020 release wave 2 and later)</span></span>
