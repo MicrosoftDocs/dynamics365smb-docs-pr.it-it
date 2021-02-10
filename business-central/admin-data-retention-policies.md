@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 279a76751b6652221d83ee453cc171bf357c0328
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927688"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754044"
 ---
 # <a name="define-retention-policies"></a>Definire i criteri di conservazione
-Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prodshort](includes/prodshort.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 
+Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prod_short](includes/prod_short.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 
 
 ## <a name="required-setups-and-permissions"></a>Configurazioni obbligatorie e autorizzazioni
 Prima di poter creare i criteri di conservazione, è necessario impostare quanto segue.
@@ -31,7 +31,7 @@ Prima di poter creare i criteri di conservazione, è necessario impostare quanto
 Inoltre, è necessario disporre delle autorizzazioni utente con privilegi avanzati o del set di autorizzazioni Setup criteri di conservazione. Gli utenti a cui viene concesso il set di autorizzazioni Setup criteri di conservazione possono definire criteri di conservazione per le tabelle, anche se non dispongono delle autorizzazioni di lettura ed eliminazione per tali tabelle. Il movimento coda processi deve essere eseguito come utente con autorizzazioni per leggere ed eliminare i dati. Si consiglia di non concedere il set di autorizzazioni Setup criteri di conservazione agli utenti a cui non è consentito eliminare i dati.
 
 > [!NOTE]
-> Se si utilizza [!INCLUDE[prodshort](includes/prodshort.md)] in locale e si desidera provare i criteri di conservazione nel database dimostrativo di Cronus, è necessario eseguire alcune operazioni. La società di dimostrazione non contiene tabelle che è possibile utilizzare con i criteri di conservazione, quindi è necessario aggiungerle. A tale scopo, creare una nuova società vuota nel database dimostrativo. Nella nuova società, importare il pacchetto di configurazione RapidStart per il proprio paese che corrisponde al pacchetto NAV17.0.W1.ENU.STANDARD.rapidstart standard. I dati di setup per i criteri di conservazione saranno disponibili nella nuova società.
+> Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale e si desidera provare i criteri di conservazione nel database dimostrativo di Cronus, è necessario eseguire alcune operazioni. La società di dimostrazione non contiene tabelle che è possibile utilizzare con i criteri di conservazione, quindi è necessario aggiungerle. A tale scopo, creare una nuova società vuota nel database dimostrativo. Nella nuova società, importare il pacchetto di configurazione RapidStart per il proprio paese che corrisponde al pacchetto NAV17.0.W1.ENU.STANDARD.rapidstart standard. I dati di setup per i criteri di conservazione saranno disponibili nella nuova società.
 
 ### <a name="to-create-retention-periods"></a>Per creare periodi di conservazione
 I periodi di conservazione possono essere lunghi o brevi come si desidera. Per creare periodi di conservazione, nella pagina **Criteri di conservazione** usare l'azione **Periodo di conservazione**. I periodi definiti saranno disponibili per tutte i criteri.
@@ -59,7 +59,7 @@ Per applicare automaticamente un criterio di conservazione, è sufficiente crear
 È possibile visualizzare l'attività relativa ai criteri di conservazione nella pagina **Log criteri di conservazione**. Ad esempio, le voci vengono create quando viene applicato un criterio o se si sono verificati errori all'applicazione del criterio. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Includere l'estensione in un criterio di conservazione (richiede l'aiuto di uno sviluppatore)
-Per impostazione predefinita, i criteri di conservazione coprono solo le tabelle incluse nell'elenco di tabelle di [!INCLUDE[prodshort](includes/prodshort.md)] fornito. È possibile rimuovere le tabelle predefinite dall'elenco e aggiungere le tabelle di proprietà dell'utente. Cioè, non è possibile aggiungere una tabella che è stata creata personalmente. Ad esempio, non è possibile aggiungere altre tabelle da [!INCLUDE[prodshort](includes/prodshort.md)] o da un'estensione acquistata.
+Per impostazione predefinita, i criteri di conservazione coprono solo le tabelle incluse nell'elenco di tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] fornito. È possibile rimuovere le tabelle predefinite dall'elenco e aggiungere le tabelle di proprietà dell'utente. Cioè, non è possibile aggiungere una tabella che è stata creata personalmente. Ad esempio, non è possibile aggiungere altre tabelle da [!INCLUDE[prod_short](includes/prod_short.md)] o da un'estensione acquistata.
 
 Per aggiungere le tabelle all'elenco delle tabelle consentite, uno sviluppatore deve aggiungere del codice, ad esempio alla codeunit del programma di installazione per l'estensione (una codeunit con il sottotipo *installa*). 
 
@@ -104,4 +104,4 @@ Dopo che uno sviluppatore ha aggiunto le tabelle all'elenco, un amministratore p
 [Revisione delle modifiche in Business Central](across-log-changes.md)  
 [Filtri](ui-enter-criteria-filters.md#filtering)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

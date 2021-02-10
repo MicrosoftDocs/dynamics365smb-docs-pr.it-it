@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755294"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
-I conti correnti bancari vengono utilizzati in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari è possibile utilizzare l'opzione per la stampa di assegni.<br><br>  
+I conti correnti bancari vengono utilizzati in [!INCLUDE[prod_short](includes/prod_short.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari è possibile utilizzare l'opzione per la stampa di assegni.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
@@ -55,4 +55,4 @@ I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

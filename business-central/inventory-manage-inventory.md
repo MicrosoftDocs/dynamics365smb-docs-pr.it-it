@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921769"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755469"
 ---
 # <a name="inventory"></a>Magazzino
 Per ogni prodotto fisico trattato è necessario creare una scheda articolo di tipo **Magazzino**. Gli articoli che si offrono ai clienti ma che non sono presenti in magazzino possono essere registrati come articoli di catalogo che possono essere convertiti in articoli di magazzino se necessario. È possibile aumentare o diminuire la quantità di un articolo in magazzino registrando direttamente nei movimenti contabili articoli, ad esempio, dopo un conteggio fisico oppure se non si registrano gli acquisti.
@@ -33,7 +33,11 @@ La pianificazione degli articoli per soddisfare la domanda è coperta nella funz
 ## <a name="inventory-reconciliation"></a>Magazzino - Riconciliazione
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Per ulteriori informazioni, vedere [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).
+Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).  
+
+## <a name="related-tasks"></a>Attività correlate
+
+La tabella seguente descrive le attività correlate.
 
 |A |Vedere |
 |---|----|
@@ -53,14 +57,14 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 |È possibile trovare dove un numero seriale o di lotto è stato utilizzato nella sua catena di approvvigionamento, ad esempio in caso di richiamate.|[Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)|
 |Bloccare gli articoli in modo che non vengano immessi in righe di acquisto o di vendita o che non vengano registrati in una qualsiasi transazione.|[Bloccare gli articoli](inventory-how-block-items.md)|
 |È possibile gestire le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
+|Utilizzare risorse con competenze specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>Vedere anche
 
-
-## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Funzionalità aziendali generali](ui-across-business-areas.md)
+[Vendite](sales-manage-sales.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Funzionalità aziendali generali](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

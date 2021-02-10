@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ff52767bbd0a5661cad2dd80abb20885f3fca6d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919640"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754944"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gestire più record di documenti in entrata
 Quando si creano o elaborate i record del documento in entrata, il numero delle righe della pagina **Documenti in entrata** possono aumentare fino a perdere la visibilità di una panoramica. Di conseguenza, è possibile impostare i record del documento in entrata su Elaborato per rimuoverli dalla visualizzazione predefinita. Scegliendo l'azione **Mostra tutto** è possibile visualizzare sia i record elaborati che non elaborati.
@@ -56,4 +56,4 @@ Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in 
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

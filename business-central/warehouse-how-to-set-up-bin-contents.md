@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923147"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756044"
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
 
@@ -33,7 +33,7 @@ Selezionare il campo **Fisso** se necessario. Se la collocazione deve essere uti
 
 Se si utilizzano stoccaggi e prelievi guidati e, nella scheda articolo, sono state specificate le informazioni di dimensione corrette relative alle unità di misura di ciascun articolo, la quantità massima immessa nella pagina **Contenuto collocazioni** viene confrontata con le capacità fisiche della collocazione. I valori di quantità massima e minima verranno utilizzati per il calcolo del rifornimento della collocazione e dei suggerimenti relativi allo stoccaggio.  
 
-Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere associato principalmente a tale collocazione. Ciò significa che in [!INCLUDE[d365fin](includes/d365fin_md.md)] l'articolo verrà inserito nella collocazione se la quantità di spazio disponibile è sufficiente e il record indicante l'associazione fissa tra articolo e collocazione verrà conservato anche quando la quantità all'interno della collocazione è pari a 0. Il fatto che un determinato articolo venga associato in modo fisso a una specifica collocazione non preclude la possibilità di inserire altri articoli nella collocazione in questione.  
+Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere associato principalmente a tale collocazione. Ciò significa che in [!INCLUDE[prod_short](includes/prod_short.md)] l'articolo verrà inserito nella collocazione se la quantità di spazio disponibile è sufficiente e il record indicante l'associazione fissa tra articolo e collocazione verrà conservato anche quando la quantità all'interno della collocazione è pari a 0. Il fatto che un determinato articolo venga associato in modo fisso a una specifica collocazione non preclude la possibilità di inserire altri articoli nella collocazione in questione.  
 
 > [!NOTE]  
 > È possibile impostare diversi contenuti collocazione contemporaneamente nella pagina **Prospetto creaz. cont. colloc.**  
@@ -65,4 +65,4 @@ Poiché questo prospetto consente di utilizzare più righe di contenuto collocaz
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

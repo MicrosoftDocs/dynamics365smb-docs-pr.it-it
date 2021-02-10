@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914416"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753519"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
+[!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | A | Vedere |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914416"
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
-|Registrare i documenti esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
+|Registrare i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)], inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 
 ## <a name="see-also"></a>Vedere anche
 
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Amministrazione](admin-setup-and-administration.md)  
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

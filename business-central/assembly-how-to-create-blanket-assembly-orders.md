@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 93ff6228855c2dccd3d032523c3f0bd38a54a6d2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755269"
 ---
 # <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -46,4 +46,4 @@ L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni so
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

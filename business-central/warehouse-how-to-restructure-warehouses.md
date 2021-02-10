@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 71f6109c7e4fc2a66896cd14352c19e2e08b51c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910082"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756069"
 ---
 # <a name="restructure-warehouses"></a>Ristrutturare warehouse
 È possibile che si desideri ristrutturare la warehouse e definire nuovi codici collocazione e nuove caratteristiche per le collocazioni. Questo tipo di attività, in genere, non viene eseguita di frequente. È tuttavia possibile che si verifichino situazioni in cui si renda necessario eseguire una riclassificazione per raggiungere o mantenere una maggiore efficienza. Ad esempio:  
@@ -87,4 +87,4 @@ Se si desidera rinominare una collocazione in modo che vengano rinominati anche 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

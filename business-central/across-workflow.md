@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1685ca2ab698cad1b1c7a84f65b5633d1234624b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 95290ba7170e2390e83d4b12e5d988760c2f3c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752927"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflow in Dynamics 365 Business Central
 
@@ -23,11 +23,11 @@ ms.locfileid: "3927249"
 
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
 
- La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] include una serie di workflow preconfigurati, rappresentati da modelli di workflow che si possono copiare per creare workflow. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-". Per ulteriori informazioni, vedere l'elenco dei modelli di workflow nella pagina Modelli del workflow.  
+ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] include una serie di workflow preconfigurati, rappresentati da modelli di workflow che si possono copiare per creare workflow. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-". Per ulteriori informazioni, vedere l'elenco dei modelli di workflow nella pagina Modelli del workflow.  
 
- Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro non supportati, è possibile utilizzare Power Automate o lavorare con un partner Microsoft per personalizzare il codice dell'applicazione. Per ulteriori informazioni, vedere [Uso di [!INCLUDE[prodshort](includes/prodshort.md)] in un workflow automatizzato](across-how-use-financials-data-source-flow.md).
+ Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro non supportati, è possibile utilizzare Power Automate o lavorare con un partner Microsoft per personalizzare il codice dell'applicazione. Per ulteriori informazioni, vedere [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in un workflow automatizzato](across-how-use-financials-data-source-flow.md).
 
-Qualsiasi modello di workflow creato con Power Automate viene aggiunto all'elenco dei modelli di workflow in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md).  
+Qualsiasi modello di workflow creato con Power Automate viene aggiunto all'elenco dei modelli di workflow in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md).  
 
  Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
@@ -41,4 +41,4 @@ Qualsiasi modello di workflow creato con Power Automate viene aggiunto all'elenc
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione di progetti](projects-manage-projects.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

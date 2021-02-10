@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925349"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755719"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
 
 > [!NOTE]
-> La soluzione Automated Data Capture System (ADCS) offre una modo per [!INCLUDE[d365fin](includes/d365fin_md.md)] per comunicare con dispositivi portatili tramite servizi Web. È necessario contattare un partner Microsoft in grado di fornire il collegamento tra il servizio Web e il dispositivo portatile specifico. 
+> La soluzione Automated Data Capture System (ADCS) offre una modo per [!INCLUDE[prod_short](includes/prod_short.md)] per comunicare con dispositivi portatili tramite servizi Web. È necessario contattare un partner Microsoft in grado di fornire il collegamento tra il servizio Web e il dispositivo portatile specifico. 
 
 È possibile utilizzare il sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System) per registrare il movimento degli articoli nella warehouse e alcune attività di registrazione, ad esempio le rettifiche delle quantità nella registrazioni articoli di warehouse e gli inventari fisici. ADCS in genere comporta la scansione di un codice a barre.
 
@@ -28,7 +28,7 @@ Per utilizzare ADCS, è necessario assegnare a ciascun articolo nella warehouse 
 
 In base alle esigenze della warehouse, nel setup del miniform per il computer palmare specifico è possibile definire la quantità di informazioni visualizzate. Di seguito sono descritti alcuni esempi di informazioni che è possibile visualizzare:  
 
-- Dati dalle tabelle all'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio un elenco dei documenti di prelievo che l'utente può selezionare.  
+- Dati dalle tabelle all'interno di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio un elenco dei documenti di prelievo che l'utente può selezionare.  
 - Informazioni testuali.  
 - Messaggi per visualizzare le conferme o gli errori sulle attività eseguite e registrate dall'utente del palmare.
 
@@ -121,4 +121,4 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

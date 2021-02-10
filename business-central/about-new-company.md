@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 891718f35c2d2edfe4e4956a2de4124d77749b2b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914529"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753594"
 ---
-# <a name="creating-new-companies-in-d365fin"></a>Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-prod_short"></a>Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ci si iscrive a [!INCLUDE[d365fin](includes/d365fin_md.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)] in base alle esigenze aziendali. Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In [!INCLUDE[prod_short](includes/prod_short.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ci si iscrive a [!INCLUDE[prod_short](includes/prod_short.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze aziendali. Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="creating-a-new-company"></a>Creazione di una nuova società
 
-Se si decide di aggiungere un'azienda a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile utilizzare la guida al setup assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
+Se si decide di aggiungere un'azienda a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare la guida al setup assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
 
 La procedura guidata di installazione offre tre modelli e un'opzione vuota:
 
@@ -38,9 +38,9 @@ La procedura guidata di installazione offre tre modelli e un'opzione vuota:
 Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegliere il modello **Nuovo** se si desidera impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
 
 > [!NOTE]  
-> La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
+> La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
 
-Nella versione di valutazione di 30 giorni è possibile creare un numero qualsiasi di nuove società, ma saranno disponibili solo nel periodo di valutazione. Per altre informazioni, contattare il partner [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Nella versione di valutazione di 30 giorni è possibile creare un numero qualsiasi di nuove società, ma saranno disponibili solo nel periodo di valutazione. Per altre informazioni, contattare il partner [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="copying-a-company"></a>Copia di una società
 
@@ -51,22 +51,29 @@ Nella pagina **Società** è possibile utilizzare l'azione **Copia** per creare 
 
 ## <a name="company-setup"></a>Setup società
 
-Quando si accede a una nuova società, la procedura guidata **Setup società** si avvia automaticamente e fornisce le istruzioni per iniziare. Verranno richieste le informazioni sulla società, ad esempio l'indirizzo, i dati bancari e il metodo di calcolo dei costi di magazzino. Queste informazioni servono da base per molte aree di [!INCLUDE[d365fin](includes/d365fin_md.md)] che non dovranno quindi più essere impostate manualmente un momento successivo.  
+Quando si accede a una nuova società, la procedura guidata **Setup società** si avvia automaticamente e fornisce le istruzioni per iniziare. Verranno richieste le informazioni sulla società, ad esempio l'indirizzo, i dati bancari e il metodo di calcolo dei costi di magazzino. Queste informazioni servono da base per molte aree di [!INCLUDE[prod_short](includes/prod_short.md)] che non dovranno quindi più essere impostate manualmente un momento successivo.  
 
 L'indirizzo della società, ad esempio, è incluso nelle fatture e in altri documenti e i dati bancari vengono utilizzati per i pagamenti. Il metodo di calcolo dei costi viene utilizzato per calcolare i prezzi, nonché valutare il magazzino.  
 
-Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Società e ambienti
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Per ulteriori informazioni, vedere [Passare a un'altra società o ambiente](ui-organization-switch.md).  
+Per ulteriori informazioni, vedere [Passare a un'altra società o ambiente](ui-organization-switch.md). 
+
+## <a name="changing-a-companys-name"></a>Modificare il nome di una società
+
+Una volta creata una società, non puoi modificarne il nome. Puoi tuttavia modificarne il **Nome visualizzato**, ovvero il testo che verrà visualizzato per la società nell'applicazione.  
+
+> [!TIP]
+> Puoi rinominare una società se utilizzi [!INCLUDE[prod_short](includes/prod_short.md)] locale.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di Business Central](ui-customizing-overview.md)  
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  

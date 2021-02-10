@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c827297a120b866e908edee34ccb7203fea419e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e15284452bb80acc329e46df7361ee9dea556996
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919665"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754969"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>Trovare documenti registrati senza record di documenti in entrata
 Nelle pagine **Piano dei conti** e **Movimenti C/G** è possibile utilizzare una funzione di ricerca per trovare movimenti di contabilità generale per documenti di vendita e di acquisto registrati che non hanno record di documenti in entrata e successivamente collegarli centralmente a record esistenti o crearne di nuovi con file di documento allegati.
@@ -41,4 +41,4 @@ Se nella pagina **Documenti in entrata** non è presente un record di documento 
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

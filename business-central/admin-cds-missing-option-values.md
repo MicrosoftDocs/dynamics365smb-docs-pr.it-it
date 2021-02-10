@@ -8,15 +8,17 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
-ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911671"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752877"
 ---
 # <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
-[!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tre campi di set di opzioni che contengono valori di opzioni su cui è possibile eseguire il mapping ai campi [!INCLUDE[d365fin](includes/d365fin_md.md)] di tipo Opzione<!-- Option type, not enum? @Onat can you vertify this? --> per la sincronizzazione automatica. Durante la sincronizzazione, le opzioni non mappate vengono ignorate e le opzioni mancanti vengono aggiunte alla relativa tabella [!INCLUDE[d365fin](includes/d365fin_md.md)] e aggiunte alla tabella di sistema **Mappatura opzione CDS** da gestire manualmente in seguito. Ad esempio, aggiungendo le opzioni mancanti in entrambi i prodotti e quindi aggiornando la mappatura. Questa sezione descrive come funziona.
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contiene solo tre campi di set di opzioni che contengono valori di opzioni su cui è possibile eseguire il mapping ai campi [!INCLUDE[prod_short](includes/prod_short.md)] di tipo Opzione<!-- Option type, not enum? @Onat can you vertify this? --> per la sincronizzazione automatica. Durante la sincronizzazione, le opzioni non mappate vengono ignorate e le opzioni mancanti vengono aggiunte alla relativa tabella [!INCLUDE[prod_short](includes/prod_short.md)] e aggiunte alla tabella di sistema **Mappatura opzione CDS** da gestire manualmente in seguito. Ad esempio, aggiungendo le opzioni mancanti in entrambi i prodotti e quindi aggiornando la mappatura. Questa sezione descrive come funziona.
 
 La pagina **Mapping tabella integrazione** contiene tre mapping per i campi che contengono uno o più valori di opzione mappati. Dopo una sincronizzazione completa, la pagina **Mappatura opzione CDS** contiene le opzioni non mappate rispettivamente nei tre campi.
 
@@ -36,7 +38,7 @@ La pagina **Mapping tabella integrazione** contiene tre mapping per i campi che 
 | Spedizioniere: FULLLOAD   | 6            | Carico completo            |
 | Spedizioniere: WILLCALL   | 7            | Chiamata            |
 
-Il contenuto della pagina **Mappatura opzione CDS** si basa su valori di enumerazione nella tabella **Account CDS**. In [!INCLUDE[d365fin](includes/cds_long_md.md)], i seguenti campi sull'entità account vengono mappati ai campi nei record cliente e fornitore:
+Il contenuto della pagina **Mappatura opzione CDS** si basa su valori di enumerazione nella tabella **Account CDS**. In [!INCLUDE[prod_short](includes/cds_long_md.md)], i seguenti campi nella tabella account vengono mappati ai campi nei record cliente e fornitore:
 
 - **Indirizzo 1: termini di spedizione** del tipo di dati Enum, dove i valori sono definiti come segue:
 
@@ -82,9 +84,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Tutti i valori di enumerazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] precedenti sono mappati ai set di opzioni in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+Tutti i valori di enumerazione di [!INCLUDE[prod_short](includes/prod_short.md)] precedenti sono mappati ai set di opzioni in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-d365fin"></a>Estensione dei set di opzioni in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="extending-option-sets-in-prod_short"></a>Estensione dei set di opzioni in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Crea una nuova estensione AL.
 
 2. Aggiungi un'estensione Enum per le opzioni che desideri estendere. Assicurati di utilizzare lo stesso valore. 
@@ -98,16 +100,16 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> È necessario utilizzare gli stessi valori ID opzione da [!INCLUDE[d365fin](includes/cds_long_md.md)]quando estendi il valore di enumerazione [!INCLUDE[d365fin](includes/d365fin_md.md)]. In caso contrario la sincronizzazione non riesce.
+> È necessario utilizzare gli stessi valori ID opzione da [!INCLUDE[prod_short](includes/cds_long_md.md)]quando estendi il valore di enumerazione [!INCLUDE[prod_short](includes/prod_short.md)]. In caso contrario la sincronizzazione non riesce.
 
 > [!IMPORTANT]  
-> Non utilizzare il carattere "," nei valori e nelle didascalie Enum. Questo non è attualmente supportato dal runtime [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Non utilizzare il carattere "," nelle didascalie e nei valori Enum. Questo non è attualmente supportato dal runtime [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > I primi dieci caratteri dei nomi e delle didascalie della nuova opzione devono essere univoci. Ad esempio, due opzioni denominate "Trasferimento 20 giorni lavorativi" e "Trasferimento 20 giorni di calendario" causeranno un errore perché entrambi hanno gli stessi primi 10 caratteri, "Trasferimento 2". Denominali, ad esempio "TRF20 WD" e "TRF20 CD".
 
-### <a name="update-d365fin-option-mapping"></a>Aggiornare la mappatura delle opzioni [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Ora puoi ricreare la mappatura tra le opzioni [!INCLUDE[d365fin](includes/cds_long_md.md)] e i record [!INCLUDE[d365fin](includes/d365fin_md.md)].
+### <a name="update-prod_short-option-mapping"></a>Aggiornare la mappatura delle opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Ora puoi ricreare la mappatura tra le opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)] e i record [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Nella pagina **Mapping tabella integrazione**, scegli la riga per il mapping **Condizioni pagamento**, quindi scegliere l'azione **Sincronizza record modificati**. La pagina **Mappatura opzione CDS** viene aggiornata con i record aggiuntivi di seguito.
 
@@ -120,7 +122,7 @@ Nella pagina **Mapping tabella integrazione**, scegli la riga per il mapping **C
 | **Condizioni pagamento: CASH PAYME**  | **779800001**  | **Pagamento contante**     |
 | **Condizioni pagamento: TRANSFER**    | **779800002**  | **Trasferimento**         |
 
-La tabella **Condizioni pagamento** in [!INCLUDE[d365fin](includes/d365fin_md.md)] avrà quindi nuovi record per le opzioni [!INCLUDE[d365fin](includes/cds_long_md.md)]. Nella tabella seguente le nuove opzioni sono in grassetto. Le righe in corsivo rappresentano tutte le opzioni che ora possono essere sincronizzate. Le righe rimanenti rappresentano le opzioni non utilizzate e che verranno ignorate durante la sincronizzazione. Puoi rimuoverle o estendere le opzioni CDS con gli stessi nomi.)
+La tabella **Condizioni pagamento** in [!INCLUDE[prod_short](includes/prod_short.md)] avrà quindi nuovi record per le opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]. Nella tabella seguente le nuove opzioni sono in grassetto. Le righe in corsivo rappresentano tutte le opzioni che ora possono essere sincronizzate. Le righe rimanenti rappresentano le opzioni non utilizzate e che verranno ignorate durante la sincronizzazione. Puoi rimuoverle o estendere le opzioni CDS con gli stessi nomi.)
 
 | Code       | Calcolo Data di Scadenza | Calcolo Sconto per Data | Sconto % | Calc. sc. pagam. su note credito | Descrizione       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -134,12 +136,13 @@ La tabella **Condizioni pagamento** in [!INCLUDE[d365fin](includes/d365fin_md.md
 | 30 GIORNI    | 30G                  |                           | 0.         | FALSE                         | 30 GG data fattura       |
 | 60 GIORNI    | 60G                  |                           | 0.         | FALSE                         | 60 GG data fattura       |
 | 7 GIORNI     | 7G                   |                           | 0.         | FALSE                         | 7 GG data fattura        |
-| ***CASH PAYME*** |                      |                           | 0.         | FALSE                         |                   |
+| ***CASH PAYME** _ |                      |                           | 0.         | FALSE                         |                   |
 | MC         | MC                   |                           | 0.         | FALSE                         | Mese corrente     |
 | PAC        | 0G                   |                           | 0.         | FALSE                         | Pagamento alla consegna  |
-| *NET30*      |                      |                           | 0.         | FALSE                         |                   |
+| _NET30*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
 ## <a name="see-also"></a>Vedere anche
+[Mapping delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)

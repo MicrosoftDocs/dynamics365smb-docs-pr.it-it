@@ -10,30 +10,30 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b2ea6b02613f120cf96f330379bf9928aad4b17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f6250dd8921f50c4bb8ac2beba52a3aaf54df1c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924730"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754419"
 ---
 # <a name="incoming-documents"></a>Documenti in entrata
 
-Alcune transazioni commerciali non vengono registrate in [!INCLUDE[d365fin](includes/d365fin_md.md)] dall'inizio. Invece, un documento commerciale esterno arriva nella propria società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Ciò è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
+Alcune transazioni commerciali non vengono registrate in [!INCLUDE[prod_short](includes/prod_short.md)] dall'inizio. Invece, un documento commerciale esterno arriva nella propria società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Ciò è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
 
-Dai PDF o dai file di immagine dei documenti in entrata è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Scegliere un pacchetto di servizi appropriato per l'organizzazione e/o paese/area geografica. In alternativa, è possibile creare manualmente voci per rappresentare i documenti esterni.  
+Dai PDF o dai file di immagine dei documenti in entrata è possibile impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Scegliere un pacchetto di servizi appropriato per l'organizzazione e/o paese/area geografica. In alternativa, è possibile creare manualmente voci per rappresentare i documenti esterni.  
 
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
 L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni principali:
 
-* Registrare i documenti esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)] creando le righe nella pagina **Documenti in entrata** attenendosi a uno dei modi seguenti:
+* Registrare i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)] creando le righe nella pagina **Documenti in entrata** attenendosi a uno dei modi seguenti:
   * Manualmente, utilizzando le funzioni semplici da un PC o un dispositivo mobile, in uno dei seguenti modi:
     * Utilizzare il pulsante **Crea da file** e compilare i campi pertinenti nella pagina **Documento in entrata**. Il file viene automaticamente allegato.  
     * Utilizzare il pulsante **Nuovo** e compilare i campi pertinenti nella pagina **Documento in entrata** e allegare manualmente il relativo file.
     * Da un tablet o un telefono, utilizzare il pulsante **Crea da fotocamera** per creare un nuovo record di documento in entrata e quindi inviare l'immagine, ad esempio al servizio OCR.
   * Automaticamente, ricevendo il documento dal servizio OCR come documento elettronico dopo aver inviato tramite e-mail il PDF o il file di immagine correlato al servizio OCR. La Scheda dettaglio **Informazioni finanziarie** viene automaticamente compilata nella pagina **Documento in entrata**.
-* Utilizzare il servizio OCR per convertire PDF o file di immagine in documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Utilizzare il servizio OCR per convertire PDF o file di immagine in documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[prod_short](includes/prod_short.md)].
 * Creare nuovi documenti o righe registrazione COGE dai record di un documento in entrata immettendo le informazioni mentre vengono lette nei file del documento in entrata.
 * Allegare i file di documenti in entrata ai documenti di acquisto e vendita con qualsiasi stato, ad esempio fornitore, cliente e movimenti di contabilità generale derivanti dalla registrazione.
 * Visualizzare i record di documenti in entrata e i relativi allegati in qualsiasi documento o movimento di acquisto e vendita oppure individuare tutti i movimenti di contabilità generale senza i record di documenti in entrata nella pagina **Piano dei conti**.
@@ -48,4 +48,4 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 ## <a name="see-also"></a>Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

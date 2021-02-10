@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916220"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754769"
 ---
 # <a name="export-and-import-workflows"></a>Importa ed esporta workflow
-Per trasferire i workflow ad altri database di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio per risparmiare tempo durante la creazione di nuovi workflow, è possibile esportare e importare i workflow.  
+Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per risparmiare tempo durante la creazione di nuovi workflow, è possibile esportare e importare i workflow.  
 
- Un altro modo per creare rapidamente i flussi di lavoro prevede la creazione dei flussi di lavoro dai modelli di flusso di lavoro. Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
+ Un altro modo per creare rapidamente i flussi di lavoro prevede la creazione di workflow da modelli di workflow. Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
 
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
@@ -40,7 +40,7 @@ Per trasferire i workflow ad altri database di [!INCLUDE[d365fin](includes/d365f
 
 ## <a name="see-also"></a>Vedi anche  
  [Creare i workflow](across-how-to-create-workflows.md)   
- [Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)   
+ [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)   
  [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)   
  [Eliminare i workflow](across-how-to-delete-workflows.md)   
  [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

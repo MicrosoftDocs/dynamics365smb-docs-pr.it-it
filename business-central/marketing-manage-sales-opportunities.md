@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c53722ad94cf4a2469d314ab30445e4ac5ccc80c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923598"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755344"
 ---
 # <a name="managing-sales-opportunities"></a>Gestione delle opportunità di vendita
 Tutti i clienti potenziali possono essere considerati opportunità di vendita. È possibile creare opportunità e associarle a un agente in modo da tenere traccia delle vendite potenziali.
@@ -35,4 +35,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

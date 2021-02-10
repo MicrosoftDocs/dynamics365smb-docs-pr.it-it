@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e79957c7e9106b4f67c3d4c7b6ac58703e8eb2f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2831471be76e776966a533c428a5698307826b1c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918265"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756094"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di asseblaggio o produzione il cui output è pronto per lo stoccaggio.  
@@ -77,4 +77,4 @@ Il processo di registrazione contabilizzerà il carico, o nel caso di ordini di 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

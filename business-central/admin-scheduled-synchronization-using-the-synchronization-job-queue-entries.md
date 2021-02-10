@@ -1,6 +1,6 @@
 ---
-title: Sincronizzazione di Business Central e Common Data Service | Microsoft Docs
-description: Ottenere informazioni sulla sincronizzazione di dati tra Business Central e Common Data Service.
+title: Sincronizzazione di Business Central e Dataverse | Microsoft Docs
+description: Ottenere informazioni sulla sincronizzazione di dati tra Business Central e Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,19 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917803"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755194"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Pianificazione di una sincronizzazione tra Business Central e Common Data Service
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Pianificazione di una sincronizzazione tra Business Central e Dataverse
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-È possibile sincronizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[d365fin](includes/d365fin_md.md)] e nei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. 
+È possibile sincronizzare [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[prod_short](includes/prod_short.md)] e nei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. 
 
-Esistono vari processi di sincronizzazione predefiniti disponibili. I processi sono eseguiti nel seguente ordine per evitare di associare dipendenze tra entità. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+Esistono vari processi di sincronizzazione predefiniti disponibili. I processi sono eseguiti nel seguente ordine per evitare di associare dipendenze tra tabelle. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 1. Processo di sincronizzazione VALUTA - Common Data Service.
 2. Processo di sincronizzazione FORNITORE - Common Data Service.
@@ -37,45 +38,44 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 
 | Movimento coda processi | Descrizione | Direzione | Mapping tabella integrazione | Frequenza di sincronizzazione predefinita (minuti) | Tempo di inattività predefinito (minuti) |
 |--|--|--|--|--|--|--|
-| Processo di sincronizzazione CONTATTO - Common Data Service | Sincronizza i contatti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con i contatti di [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Bidirezionale | CONTATTO | 30 | 720 <br>(12 ore) |
-| Processo di sincronizzazione VALUTA - Common Data Service | Sincronizza le valute di transazione di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con le valute di [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | VALUTA | 30 | 720 <br> (12 ore) |
-| Processo di sincronizzazione CLIENTE - Common Data Service | Sincronizza i conti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e i clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Bidirezionale | CLIENTE | 30 | 720<br> (12 ore) |
-| Processo di sincronizzazione FORNITORE - Common Data Service. | Sincronizza i conti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e i clienti di [!INCLUDE[d365fin](includes/d365fin_md.md)]. | Bidirezionale | FORNITORE | 30 | 720<br> (12 ore) |
-| Processo di sincronizzazione AGENTI - Common Data Service | Sincronizza gli agenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] con gli utenti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. | Da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)] | AGENTI | 30 | 1440<br> (24 ore) |
+| Processo di sincronizzazione CONTATTO - Common Data Service | Sincronizza i contatti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con i contatti di [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidirezionale | CONTATTO | 30 | 720 <br>(12 ore) |
+| Processo di sincronizzazione VALUTA - Common Data Service | Sincronizza le valute di transazione di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con le valute di [!INCLUDE[prod_short](includes/prod_short.md)]. | Da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | VALUTA | 30 | 720 <br> (12 ore) |
+| Processo di sincronizzazione CLIENTE - Common Data Service | Sincronizza i conti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e i clienti di [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidirezionale | CLIENTE | 30 | 720<br> (12 ore) |
+| Processo di sincronizzazione FORNITORE - Common Data Service. | Sincronizza i conti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e i clienti di [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidirezionale | FORNITORE | 30 | 720<br> (12 ore) |
+| Processo di sincronizzazione AGENTI - Common Data Service | Sincronizza gli agenti di [!INCLUDE[prod_short](includes/prod_short.md)] con gli utenti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. | Da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)] | AGENTI | 30 | 1440<br> (24 ore) |
 
 ## <a name="synchronization-process"></a>Processo di sincronizzazione
 
-Ogni movimento coda processi di sincronizzazione utilizza un mapping di tabella di integrazione che specifica quale tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] e quale entità di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare. I mapping di tabella includono anche alcune impostazioni che controllano quali record della tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)] e dell'entità di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare.  
+Ogni movimento coda processi di sincronizzazione utilizza un mapping di tabella di integrazione che specifica quale tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e quale tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare. I mapping di tabella includono anche alcune impostazioni che controllano quali record della tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e della tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare.  
 
-Per sincronizzare i dati, i record di entità di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] devono essere associati a record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, un cliente di [!INCLUDE[d365fin](includes/d365fin_md.md)] deve essere associato a un conto di [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. È possibile impostare le associazioni manualmente, prima di eseguire i processi di sincronizzazione, oppure permettere ai processi di sincronizzazione di impostare le associazioni automaticamente. Nel seguente elenco viene descritto come i dati vengono sincronizzati tra Common Data Service e [!INCLUDE[d365fin](includes/d365fin_md.md)] quando si utilizzano i movimenti coda processi di sincronizzazione. Per ulteriori informazioni, vedere [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md).
+Per sincronizzare i dati, i record di tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] devono essere associati a record di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, un cliente di [!INCLUDE[prod_short](includes/prod_short.md)] deve essere associato a un conto di [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. È possibile impostare le associazioni manualmente, prima di eseguire i processi di sincronizzazione, oppure permettere ai processi di sincronizzazione di impostare le associazioni automaticamente. Nel seguente elenco viene descritto come i dati vengono sincronizzati tra [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] quando si utilizzano i movimenti coda processi di sincronizzazione. Per ulteriori informazioni, vedere [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- La casella di controllo **Sinc. solo record associati** controlla se vengono creati nuovi record durante la sincronizzazione. Per impostazione predefinita, la casella di controllo è selezionata, il che significa che verranno sincronizzati solo i record associati. Nel mapping di tabella di integrazione, è possibile modificare il mapping di tabella tra un'entità di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)], in modo che i processi di sincronizzazione di integrazione creeranno nuovi record nel database di destinazione per ogni record del database di origine che non è associato. Per altre informazioni, vedere [Creazione di nuovi record](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- La casella di controllo **Sinc. solo record associati** controlla se vengono creati nuovi record durante la sincronizzazione. Per impostazione predefinita, la casella di controllo è selezionata, il che significa che verranno sincronizzati solo i record associati. Nel mapping di tabella di integrazione, è possibile modificare il mapping di tabella tra una tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e una tabella di [!INCLUDE[prod_short](includes/prod_short.md)], in modo che i processi di sincronizzazione di integrazione creeranno nuovi record nel database di destinazione per ogni riga del database di origine che non è associato. Per altre informazioni, vedere [Creazione di nuovi record](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
 
-    **Esempio** Se si deseleziona la casella di controllo **Snc. solo record associati**, quando si sincronizzano i clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)] con account in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], un nuovo account viene creato e automaticamente associato per ciascun cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inoltre, poiché in questo caso la sincronizzazione è bidirezionale, un nuovo cliente viene creato e associato per ogni account di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che non è già associato.  
+    **Esempio** Se si deseleziona la casella di controllo **Snc. solo record associati**, quando si sincronizzano i clienti in [!INCLUDE[prod_short](includes/prod_short.md)] con account in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], un nuovo account viene creato e automaticamente associato per ciascun cliente in [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, poiché in questo caso la sincronizzazione è bidirezionale, un nuovo cliente viene creato e associato per ogni account di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che non è già associato.  
 
     > [!NOTE]  
     > Esistono regole e filtri che determinano quali dati vengono sincronizzati. Per ulteriori informazioni, vedere [Regole di sincronizzazione](admin-synchronizing-business-central-and-sales.md).
 
-- Quando vengono creati nuovi record in [!INCLUDE[d365fin](includes/d365fin_md.md)], i record utilizzano il modello che viene definito per il mapping di tabella di integrazione o il modello predefinito disponibile per il tipo di record. I campi vengono popolati con i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] o di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in base alla direzione della sincronizzazione. Per ulteriori informazioni, vedere [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md).  
+- Quando vengono creati nuovi record in [!INCLUDE[prod_short](includes/prod_short.md)], i record utilizzano il modello che viene definito per il mapping di tabella di integrazione o il modello predefinito disponibile per il tipo di riga. I campi vengono popolati con i dati di [!INCLUDE[prod_short](includes/prod_short.md)] o di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in base alla direzione della sincronizzazione. Per ulteriori informazioni, vedere [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
-- Con le sincronizzazioni successive, verranno aggiornati solo i record che sono stati modificati o aggiunti dopo l'ultimo processo di sincronizzazione completato per le entità.  
+- Con le sincronizzazioni successive, verranno aggiornati solo i record che sono stati modificati o aggiunti dopo l'ultimo processo di sincronizzazione completato per la tabella.  
 
-     I nuovi record in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vengono aggiunti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se i dati nei campi dei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vengono modificati, i dati vengono copiati nel campo corrispondente di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+     I nuovi record in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vengono aggiunti in [!INCLUDE[prod_short](includes/prod_short.md)]. Se i dati nei campi dei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vengono modificati, i dati vengono copiati nel campo corrispondente di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- Con la sincronizzazione bidirezionale, il processo sincronizza da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e quindi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Con la sincronizzazione bidirezionale, il processo sincronizza da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e quindi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="about-inactivity-timeouts"></a>Informazioni sui timeout di inattività
-
-Alcuni movimenti coda processi, come quelli che pianificano la sincronizzazione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)], utilizzano il campo **Timeout inattività** nella scheda Movimento coda processi per impedire l'esecuzione inutile del movimento coda processi.  
+Alcuni movimenti coda processi, come quelli che pianificano la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)], utilizzano il campo **Timeout inattività** nella pagina Movimento coda processi per impedire l'esecuzione inutile del movimento coda processi.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Diagramma di flusso per quando i movimenti coda processi vengono sospesi a causa di inattività.":::
 
-Quando il valore in questo campo non è zero e la coda processi non ha trovato alcuna modifica durante l'ultima esecuzione, [!INCLUDE[d365fin](includes/d365fin_md.md)] sospende il movimento coda processi. Quando ciò accade, il campo **Stato della coda processi** visualizzerà **In sospeso a causa di inattività** e [!INCLUDE[d365fin](includes/d365fin_md.md)] attenderà il periodo di tempo specificato nel campo **Timeout inattività** prima di eseguire nuovamente il movimento coda processi.  
+Quando il valore in questo campo non è zero e la coda processi non ha trovato alcuna modifica durante l'ultima esecuzione, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi. Quando ciò accade, il campo **Stato della coda processi** visualizzerà **In sospeso a causa di inattività** e [!INCLUDE[prod_short](includes/prod_short.md)] attenderà il periodo di tempo specificato nel campo **Timeout inattività** prima di eseguire nuovamente il movimento coda processi.  
 
-Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[d365fin](includes/d365fin_md.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[d365fin](includes/d365fin_md.md)] sospende il movimento coda processi CURRENCY per 720 minuti (sei ore). Se un tasso di cambio viene modificato in [!INCLUDE[d365fin](includes/d365fin_md.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[d365fin](includes/d365fin_md.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
+Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[prod_short](includes/prod_short.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi CURRENCY per 720 minuti (sei ore). Se un tasso di cambio viene modificato in [!INCLUDE[prod_short](includes/prod_short.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[prod_short](includes/prod_short.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
 
 > [!Note]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] attiverà automaticamente i movimenti coda processi sospesi solo quando si verificano delle modifiche in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modifiche in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non attiveranno i movimenti coda processi.
+> [!INCLUDE[prod_short](includes/prod_short.md)] attiverà automaticamente i movimenti coda processi sospesi solo quando si verificano delle modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Le modifiche in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non attiveranno i movimenti coda processi.
 
 ## <a name="to-view-the-synchronization-job-log"></a>Per visualizzare il log processi di sincronizzazione
 

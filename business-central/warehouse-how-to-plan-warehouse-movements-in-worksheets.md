@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ae0386c4fc2e3ac216d4228c94e7447a808cf50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923222"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756119"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Pianificare movimentazioni warehouse nei prospetti
 Pianificare i movimenti nel prospetto utilizzando la funzione di rifornimento collocazione o manualmente pianificando le righe che si desidera creare come istruzioni di movimento.  
@@ -26,7 +26,7 @@ Man mano che gli articoli nella warehouse vengono spediti ai clienti, le colloca
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
 2.  Sceliere l'azione **Calcola rifornimento collocazione**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] crea alcune righe con indicazioni precise in merito allo spostamento di articoli dalle collocazioni con valutazione inferiore alle collocazioni con valutazione più elevata.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] crea alcune righe con indicazioni precise in merito allo spostamento di articoli dalle collocazioni con valutazione inferiore alle collocazioni con valutazione più elevata.  
 
     > [!NOTE]  
     >  Una movimentazione viene suggerita in base al metodo FEFO quando si attiva la funzione **Crea movimento** se vengono soddisfatte le seguenti condizioni per un articolo:  
@@ -71,4 +71,4 @@ Il prospetto movimentazioni consente anche di pianificare altri movimenti delle 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

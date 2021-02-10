@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924980"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754644"
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
 È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.  
@@ -34,4 +34,4 @@ Di seguito viene descritto come tenere traccia a partire da una riga ordine di v
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

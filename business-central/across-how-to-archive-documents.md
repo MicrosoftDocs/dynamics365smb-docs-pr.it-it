@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919590"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754869"
 ---
 # <a name="archive-documents"></a>Archiviare documenti
 È possibile archiviare ordini di vendita e acquisto, offerte, ordini di reso e ordini programmati, ad esempio perché si desidera salvare una copia di un documento per il riutilizzo in seguito. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.
@@ -65,4 +65,4 @@ Di seguito viene descritto come eliminare ordini di vendita archiviati. I passag
 [Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)  
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

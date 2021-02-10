@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e3b209471dda0c76b201471947b0f109a7dc76d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b3595e933b40300bfd8eb8f53be5df5b2980623
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911773"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755494"
 ---
 # <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
 Sono disponibili alcuni report standard che è possibile utilizzare per raccogliere le informazioni necessarie per preparare i rendiconto di chiusura della società.
@@ -36,5 +36,5 @@ Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consent
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)

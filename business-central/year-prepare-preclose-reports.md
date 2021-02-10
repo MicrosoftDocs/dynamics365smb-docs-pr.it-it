@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923122"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755519"
 ---
 # <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
@@ -39,5 +39,5 @@ Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consent
 
 ## <a name="see-also"></a>Vedere anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

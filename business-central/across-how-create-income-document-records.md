@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919717"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753294"
 ---
 # <a name="create-incoming-document-records"></a>Creare i record di documenti in entrata
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
-Per registrare un documento esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
+Per registrare un documento esterno in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
 
 Per poter utilizzare la funzionalità Documenti in entrata, è necessario eseguire l'impostazione necessaria. Per ulteriori informazioni, vedere [Impostare documenti in entrata](across-how-setup-income-documents.md).
 
@@ -36,7 +36,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Per creare un record di documento in entrata facendo una foto
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
+>   La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
 
 1. Sulla barra delle applicazioni, scegliere il riquadro **Crea documento in entrata da fotocamera** e andare al passaggio 4.
 2. In alternativa, nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
@@ -47,7 +47,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Per allegare un'immagine a un record di documento in entrata facendo una foto
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
+>   La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
 
 1. Nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
 2. Aprire la scheda di un record di documento in entrata esistente.
@@ -69,4 +69,4 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

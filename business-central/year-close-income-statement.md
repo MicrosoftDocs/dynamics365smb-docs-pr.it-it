@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a07e490b51d882e3699e0c37f23aadda8a38ca8a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d221e0960eb49ba018ae34f73f2360a502465d61
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914687"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755594"
 ---
 # <a name="close-income-statement-accounts"></a>Chiudere il conto economico
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.
@@ -39,4 +39,4 @@ Il processo batch **Chiudi conto economico** può essere utilizzato più di una 
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

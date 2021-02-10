@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968387"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754469"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare report personalizzati da visualizzare in questo controllo. Tuttavia, esistono alcune regole da seguire per garantire che i report funzionino come previsto.  
+[!INCLUDE[prod_long](includes/prod_long.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare report personalizzati da visualizzare in questo controllo. Tuttavia, esistono alcune regole da seguire per garantire che i report funzionino come previsto.  
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Un account Power BI.
 - Power BI Desktop.
 
-Per ulteriori informazioni su come iniziare, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).
+Per ulteriori informazioni su come iniziare, vedere [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Definizione del set di dati del report
 
@@ -42,7 +42,7 @@ Per definire un filtro per il report, selezionare la chiave primaria dall'elenco
 
 ## <a name="setting-the-report-size-and-color"></a>Impostazione della dimensione e del colore del report
 
-La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
+La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[prod_short](includes/prod_short.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
 
 ![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Power BI consente di creare un unico report con più pagine. Tuttavia, per i rep
 
 Assegnare al report un nome che contenga il nome della pagina di elenco associata al report. Ad esempio, se il report è per la pagina di elenco **Fornitore**, includere la parola *fornitore* da qualche parte nel nome.  
 
-Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[d365fin](includes/d365fin_md.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente filtrata in base al nome della pagina. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
+Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[prod_short](includes/prod_short.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente filtrata in base al nome della pagina. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
 ## <a name="fixing-problems"></a>Risolvere i problemi
 
@@ -85,7 +85,7 @@ Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvar
 ## <a name="see-also"></a>Vedere anche
 
 [Abilitare i dati aziendali per Power BI](admin-powerbi.md)  
-[Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Introduzione](product-get-started.md)  
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanze](finance.md)  

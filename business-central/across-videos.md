@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927299"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752951"
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
 
 Alcune persone preferiscono guardare contenuti anziché leggere. Per questo motivo è in corso la produzione di brevi video di facile comprensione, che possono essere utilizzati in modo autonomo o come integrazione al servizio di assistenza fornito all'utente.  
 
-Se non si ha familiarità con [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile guardare i video introduttivi dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**.  
+Se non si ha familiarità con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare i video introduttivi dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**.  
 
-È anche possibile visualizzare i video delle procedure e molti altri contenuti nella playlist YouTube creata per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per guardare subito i video, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
+È anche possibile visualizzare i video delle procedure e molti altri contenuti nella playlist YouTube creata per [!INCLUDE[prod_short](includes/prod_short.md)]. Per guardare subito i video, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > I video nella libreria vengono visualizzati in una cornice che potrebbe sembrare un po' piccola. Per ingrandire la cornice, scegli l'icona a forma di freccia a due punte nell'angolo superiore destro. In seguito, i video verranno visualizzati nella cornice più grande finché non la cornice non verrà di nuovo ridotta.

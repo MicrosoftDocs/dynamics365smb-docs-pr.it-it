@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 303d84e317814e4baeb686d190037194794bfb50
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 61d6aab8435297d2e41c777df38d9656dc426fbf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3909982"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755693"
 ---
 # <a name="allocate-costs-and-income"></a>Allocazione di costi e ricavi
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'assegnazione può essere effettuata in base a tre diversi metodi:
@@ -56,4 +56,4 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)    
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

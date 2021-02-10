@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911557"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752827"
 ---
 # <a name="managing-database-access-intent"></a>Gestione dell'intento di accesso al database 
 
@@ -23,13 +23,13 @@ In qualità di utente con privilegi avanzati o amministratore, puoi modificare l
 
 ## <a name="overview"></a>Sintesi
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] può essere configurata per utilizzare repliche di sola lettura del database primario (lettura-scrittura). L'uso della replica del database riduce il carico sul database primario. In alcuni casi, migliorerà anche le prestazioni durante la visualizzazione dei dati nel client. Le repliche sono utili per oggetti, come report, query e pagine API, che vengono utilizzati solo per visualizzare i dati, non per modificarli.
+[!INCLUDE[prod_short](includes/prod_short.md)] può essere configurata per utilizzare repliche di sola lettura del database primario (lettura-scrittura). L'uso della replica del database riduce il carico sul database primario. In alcuni casi, migliorerà anche le prestazioni durante la visualizzazione dei dati nel client. Le repliche sono utili per oggetti, come report, query e pagine API, che vengono utilizzati solo per visualizzare i dati, non per modificarli.
 
 Quando gli oggetti vengono eseguiti, l'intento di accesso al database determina se utilizzare una replica di sola lettura, se disponibile, o il database primario. Report, pagine API e query sono sviluppati con un intento di accesso al database predefinito (vedere [Proprietà DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 La pagina **Elenco di intenti di accesso al database** consente di ignorare l'intento di accesso al database predefinito per gli oggetti quando vengono eseguiti.
 
-In termini di database, questa funzione è comunemente nota come *scale-out di lettura*. Per ulteriori informazioni sullo scale-out di lettura e sull'intento di accesso ai dati in [!INCLUDE[prodshort](includes/prodshort.md)], vedere [Utilizzo dello scale-out di lettura per prestazioni migliori](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) nella Guida di amministrazione e per sviluppatori di [!INCLUDE[prodshort](includes/prodshort.md)].
+In termini di database, questa funzione è comunemente nota come *scale-out di lettura*. Per ulteriori informazioni sullo scale-out di lettura e sull'intento di accesso ai dati in [!INCLUDE[prod_short](includes/prod_short.md)], vedere [Utilizzo dello scale-out di lettura per prestazioni migliori](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) nella Guida di amministrazione e per sviluppatori di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>Per modificare l'intento di accesso al database
 
@@ -55,7 +55,7 @@ In termini di database, questa funzione è comunemente nota come *scale-out di l
 ## <a name="see-also"></a>Vedere anche
 [Funzionalità aziendale](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Introduzione](product-get-started.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

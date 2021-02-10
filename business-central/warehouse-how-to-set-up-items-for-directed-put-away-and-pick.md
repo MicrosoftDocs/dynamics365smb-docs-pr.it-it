@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb31975e076a923d1e1f371fa27ccbf4f1c01661
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0829b941abdff610ea2597dac1451ebc28ab2086
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918215"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755994"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).
@@ -68,4 +68,4 @@ Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

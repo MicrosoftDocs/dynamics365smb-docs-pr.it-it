@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 870b629ea5f4cae25d81f5348b5d616508cb91c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914341"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753444"
 ---
 # <a name="edit-posted-documents"></a>Modifica dei documenti registrati
 
@@ -53,4 +53,4 @@ La spedizione vendita registrata viene aggiornata.
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b6400b304c24dff6cb0aa29bdfb5463340c466c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754819"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
@@ -116,4 +116,4 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 [Acquisti](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

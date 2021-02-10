@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4da451f6715c1569d49638e93ef67327562112be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cd3bf23b72d34bb0c36f00e4b6be02b4abaafbe1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918028"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753319"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Creare i record di documenti in entrata direttamente da documenti e movimenti
-È possibile archiviare i documenti aziendali esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)] allegando i file del documento ai record di documento in entrata correlati. Se il documento, ad esempio una fattura di acquisto, non è stato creato come record di documento in arrivo, è comunque possibile creare e connettere ad esso un record di documento in arrivo in un secondo momento. È inoltre possibile allegare file di documento in entrata a documenti di vendita e di acquisto registrati e a movimenti di contabilità cliente o fornitore utilizzando il Dettaglio informazioni di **File di documento in entrata** ad esempio nelle pagine **Fatture acquisto registrate** e **Movimenti contabili fornitori**.
+È possibile archiviare i documenti aziendali esterni in [!INCLUDE[prod_short](includes/prod_short.md)] allegando i file del documento ai record di documento in entrata correlati. Se il documento, ad esempio una fattura di acquisto, non è stato creato come record di documento in arrivo, è comunque possibile creare e connettere ad esso un record di documento in arrivo in un secondo momento. È inoltre possibile allegare file di documento in entrata a documenti di vendita e di acquisto registrati e a movimenti di contabilità cliente o fornitore utilizzando il Dettaglio informazioni di **File di documento in entrata** ad esempio nelle pagine **Fatture acquisto registrate** e **Movimenti contabili fornitori**.
 
 Nelle pagine **Piano dei conti** e **Movimenti C/G** è possibile utilizzare una funzione di ricerca per trovare movimenti di contabilità generale per documenti di vendita e di acquisto registrati che non hanno record di documenti in entrata e successivamente collegarli centralmente a record esistenti o crearne di nuovi con file di documento allegati. Per ulteriori informazioni, vedere [Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md).
 
@@ -50,4 +50,4 @@ La connessione al documento registrato viene rimossa. È ora possibile connetter
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

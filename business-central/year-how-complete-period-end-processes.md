@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918240"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755569"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] non è obbligatorio chiudere i periodi, tuttavia, vi sono numerose attività di chiusura del periodo (chiusura del mese) che è possibile svolgere. In questo argomento viene fornita una sintesi dei processi e delle attività facoltativi per periodi di chiusura.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i periodi, tuttavia, vi sono numerose attività di chiusura del periodo (chiusura del mese) che è possibile svolgere. In questo argomento viene fornita una sintesi dei processi e delle attività facoltativi per periodi di chiusura.  
 
 ## <a name="general-ledger"></a>Contabilità generale
 * Specificare periodi di registrazione a livello di sistema e specifici dell'utente.  
@@ -62,4 +62,4 @@ Intercompany
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Chiusura registri](year-close-books.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

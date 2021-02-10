@@ -1,6 +1,6 @@
 ---
-title: Impostazione dei workflow | Microsoft Docs
-description: È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow.
+title: Impostare i flussi di lavoro
+description: È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. Scopri i differenti passaggi che devi eseguire.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,42 +8,42 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: cfceeb302c825d32d132d446882e98b7f6b07e27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a104065d8f52ca9d1bb9221cd43917253c640ca4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913940"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754225"
 ---
-# <a name="setting-up-workflows"></a>Impostazione dei workflow
-È possibile impostare e utilizzare i workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).  
+# <a name="set-up-workflows"></a>Impostare i flussi di lavoro
 
- Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare gli utenti del flusso di lavoro e gli utenti dell'approvazione, specificare la modalità di ricezione delle notifiche sui passaggi del flusso di lavoro e successivamente creare i flussi di lavoro, potenzialmente preceduti dalla personalizzazione del codice.  
+È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).  
 
- Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
+ Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare gli utenti del workflow e gli utenti dell'approvazione, specificare la modalità di ricezione delle notifiche sui passaggi del workflow e successivamente creare i flussi di lavoro, potenzialmente preceduti dalla personalizzazione del codice.  
 
- Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro non supportati, il partner Microsoft deve implementarli tramite la personalizzazione del codice dell'applicazione. Per ulteriori informazioni, vedere [Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) nella Guida per sviluppatori e professionisti IT.
+ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del workflow, moderato dalle condizioni di evento, e in una risposta del workflow, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
+
+ Se uno scenario aziendale richiede un evento o una risposta del workflow non supportati, un partner Microsoft deve implementarli tramite il codice o e possibile impostare un workflow utilizzando Power Automate. Per ulteriori informazioni, vedi rispettivamente [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in un workflow automatizzato](across-how-use-financials-data-source-flow.md) o [Eventi in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) nella guida per sviluppatori.
 
  Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
 |**Task**|**Vedere**|  
 |------------|-------------|  
-|Impostare gli utenti e i gruppi di utenti del flusso di lavoro.|[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)|  
-|Impostare gli utenti del flusso di lavoro che partecipano ai flussi di approvazione.|[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)|  
-|Specificare in che modo gli utenti ricevono le notifiche dei passaggi del flusso di lavoro, incluse le richieste di approvazione.|[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)|  
+|Impostare gli utenti e i gruppi di utenti del workflow.|[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)|  
+|Impostare gli utenti del workflow che partecipano ai flussi di approvazione.|[Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)|  
+|Specificare in che modo gli utenti ricevono le notifiche dei passaggi del workflow, incluse le richieste di approvazione.|[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)|  
 |Specificare se gli utenti sono avvertiti mediante e-mail o nota e la frequenza alla quale le notifiche vengono inviate.|[Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Personalizzare il contenuto delle notifiche e-mail modificando Report 1320, E-mail di notifica.|[Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)|  
-|Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita di [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Impostare la posta elettronica](admin-how-setup-email.md)|
-|Specificare i diversi passaggi di un flusso di lavoro in base al collegamento tra gli eventi del flusso di lavoro e le risposte del flusso di lavoro.|[Creare i workflow](across-how-to-create-workflows.md)|  
-|Usare i modelli di flussi di lavoro per creare nuovi flussi di lavoro.|[Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Condividere workflow con altri database [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)|  
-|Come impostare un flusso di lavoro per approvare documenti di vendita seguendo una procedura end-to-end.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Aggiungere supporto per uno scenario aziendale che richiede nuovi eventi o risposte del flusso di lavoro personalizzando il codice dell'applicazione.|[Procedura dettagliata: Implementazione di nuovi eventi e risposte workflow](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+|Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita di [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurare la posta elettronica](admin-how-setup-email.md)|
+|Specificare i diversi passaggi di un workflow in base al collegamento tra gli eventi del workflow e le risposte del workflow.|[Creare i workflow](across-how-to-create-workflows.md)|  
+|Usare i modelli di flussi di lavoro per creare nuovi flussi di lavoro.|[Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Condividere workflow con altri database [!INCLUDE[prod_short](includes/prod_short.md)].|[Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)|  
+|Come impostare un workflow per approvare documenti di vendita seguendo una procedura end-to-end.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Esempio di flusso di lavoro di approvazione
-Questo video mostra come impostare un flusso di lavoro che chiede a qualcuno di richiedere l'approvazione di qualcun altro prima di poter modificare le informazioni su un cliente esistente o creare un nuovo cliente.  
+## <a name="example-of-an-approval-workflow"></a>Esempio di workflow di approvazione
+Questo video mostra come impostare un workflow che chiede a qualcuno di richiedere l'approvazione di qualcun altro prima di poter modificare le informazioni su un cliente esistente o creare un nuovo cliente.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]

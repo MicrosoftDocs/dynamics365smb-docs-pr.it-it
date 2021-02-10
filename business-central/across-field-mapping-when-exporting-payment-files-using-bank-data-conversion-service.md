@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918078"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753369"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
 Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sull'estensione AMC Banking 365 Fundamentals, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 F
 > [!CAUTION]  
 >  Quando si esportano file di pagamento tramite l'estensione AMC Banking 365 Fundamentals, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare dati.  
+La tabella seguente elenca i campi in [!INCLUDE[prod_short](includes/prod_short.md)] da cui è possibile esportare dati.  
 
 |Campo mappato|Campo nella tabella|Tavolo|Descrizione|  
 |------------------|--------------------|-----------|---------------------------------------|  

@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911282"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753869"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
 Un ruolo centrale, ad esempio l'amministratore dell'applicazione, deve occuparsi regolarmente dell'accumularsi dei documenti storici, eliminandoli o comprimendoli.  
 
+> [!TIP]
+> Per informazioni su altri modi di ridurre la quantità di dati archiviati in un database, vedi [Ridurre i dati archiviati nei database di Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) nella guida per sviluppatori e professionisti IT.
+
 ## <a name="delete-documents"></a>Eliminare documenti
 
-In certe situazioni, si ha la necessità di eliminare degli ordini di acquisto fatturati. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica che gli ordini di acquisto eliminati siano stati completamente fatturati. Non è possibile eliminare ordini che non siano stati completamente fatturati e ricevuti.  
+In certe situazioni, si ha la necessità di eliminare degli ordini di acquisto fatturati. [!INCLUDE[prod_short](includes/prod_short.md)] verifica che gli ordini di acquisto eliminati siano stati completamente fatturati. Non è possibile eliminare ordini che non siano stati completamente fatturati e ricevuti.  
 
 Gli ordini di reso sono in genere eliminati dopo la fatturazione. Quando si registra una fattura, viene trasferita nella pagina **Note credito acq. registrate** . Se si seleziona la casella di controllo **Spediz. resi in nota credito** nella pagina **Setup contabilità fornitori**, la fattura viene trasferita nella pagina **spedizione reso registrata**. È possibile eliminare i documenti mediante il processo batch **Rimuovi ordini resi acq. fatt.** . Prima di eliminarli, il processo batch verifica se gli ordini di reso acquisto sono completamente spediti e fatturati.  
 
@@ -31,13 +34,13 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 
 ## <a name="compress-data-with-date-compression"></a>Comprimere i dati con la compressione della data
 
-È possibile comprimere i dati in [!INCLUDE [prodshort](includes/prodshort.md)] in modo da risparmiare spazio nel database, che in [!INCLUDE [prodshort](includes/prodshort.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. È possibile comprimere soltanto movimenti appartenenti ad anni fiscali chiusi e movimenti contabili fornitori nel cui campo **Aperto** è impostato su *No*.  
+È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] in modo da risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. È possibile comprimere soltanto movimenti appartenenti ad anni fiscali chiusi e movimenti contabili fornitori nel cui campo **Aperto** è impostato su *No*.  
 
 Ad esempio, i movimenti di registro fornitori dell'ultimo anno fiscale trascorso possono essere compressi in modo da ottenere un solo valore di dare/avere per ogni mese. L'importo del nuovo movimento corrisponderà alla somma di tutti i movimenti compressi. La data assegnata sarà la data iniziale del periodo compresso, ad esempio il primo giorno del mese se i movimenti sono stati compressi per mese. In seguito alla compressione sarà comunque possibile visualizzare il saldo periodo per ogni conto dell'anno fiscale trascorso.
 
 Il numero dei movimenti creati da una compressione data dipende dal numero di filtri impostati, dai campi che vengono associati e dalla durata del periodo. Il risultato del processo sarà sempre di almeno un movimento. Al termine del processo batch è possibile visualizzare il risultato nella pagina **Registri compressione data**.
 
-È possibile comprimere i seguenti tipi di dati in [!INCLUDE [prodshort](includes/prodshort.md)] utilizzando i processi batch:
+È possibile comprimere i seguenti tipi di dati in [!INCLUDE [prod_short](includes/prod_short.md)] utilizzando i processi batch:
 
 * Movimenti contabili C/C bancari
 
@@ -47,6 +50,9 @@ Il numero dei movimenti creati da una compressione data dipende dal numero di fi
   In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
 
   Con la funzionalità **Mantieni contenuto campo** è inoltre possibile mantenere anche le informazioni contenute nei campi aggiuntivi seguenti: **Nr. documento**, **Acquistare da - Nr. for.**, **Cod. addetto acq.**, **Cod. dimens. globale 1** e **Cod. dimens. globale 2**.
+
+> [!NOTE]
+> Dopo aver eseguito la compressione della data, tutti i conti nel libro mastro vengono bloccati. Ad esempio, non è possibile annullare l'applicazione di movimenti contabili bancari o fornitore per qualsiasi conto durante il periodo in cui le date sono compresse.
 
 <!--* General ledger entries
 * Customer ledger entries-->

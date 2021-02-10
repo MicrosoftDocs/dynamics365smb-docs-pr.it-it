@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095d939d247a419d2adba16f9d3f61c8afb70e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7583837e515a4fd5fb415fe1b482512e7edf6b5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911357"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754002"
 ---
 # <a name="create-a-new-company"></a>Creare una nuova società
-Per utilizzare RapidStart Services per [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario dapprima creare una nuova società per la quale si desidera effettuare l'implementazione di un cliente. Quando si crea una nuova società, le tabelle e le pagine standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono create, ma non sono disponibili dati al loro interno.
+Per utilizzare RapidStart Services per [!INCLUDE[prod_short](includes/prod_short.md)], è necessario dapprima creare una nuova società per la quale si desidera effettuare l'implementazione di un cliente. Quando si crea una nuova società, le tabelle e le pagine standard di [!INCLUDE[prod_short](includes/prod_short.md)] vengono create, ma non sono disponibili dati al loro interno.
 
 Inoltre, è possibile collegare dati di setup specifici alla società dopo l'inizializzazione. Le informazioni vengono fornite in un pacchetto di configurazione, un file con estensione rapidstart che offre il contenuto in un formato compresso.  
 
@@ -32,13 +32,13 @@ Pacchetti di configurazione di esempio, inclusi i file specifici di ciascun paes
 Attenersi alla procedura riportata di seguito per creare una nuova società e utilizzare il pacchetto BASICCONFIG come parte del processo.  
 
 ## <a name="to-create-a-new-company"></a>Per creare una nuova società  
-1. Creare una nuova società. Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
+1. Creare una nuova società. Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 2. Nella Gestione ruolo utente Implementatore di RapidStart Services, è ora possibile importare il pacchetto di configurazione esportato dalla società CRONUS Italia S.p.A..
 
-Dopo aver creato una nuova società, le tabelle vengono automaticamente compilate, anche se non esiste alcun modello della società collegato. Ad esempio, è possibile esaminare i codici standard per transazioni di registrazione e batch nella pagina **Codice origine**. Se si immette una versione locale di [!INCLUDE[d365fin](includes/d365fin_md.md)], è consigliabile verificare la tabella e considerare eventuali problemi relativi alla lingua locale.
+Dopo aver creato una nuova società, le tabelle vengono automaticamente compilate, anche se non esiste alcun modello della società collegato. Ad esempio, è possibile esaminare i codici standard per transazioni di registrazione e batch nella pagina **Codice origine**. Se si immette una versione locale di [!INCLUDE[prod_short](includes/prod_short.md)], è consigliabile verificare la tabella e considerare eventuali problemi relativi alla lingua locale.
 
 ## <a name="about-data-tables"></a>Informazioni sulle tabelle dati
-Le tabelle dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] presentano due tipologie di base: master e setup. Quando si imposta una configurazione di società, è possibile utilizzare queste tipologie per identificare la strategia di configurazione.  
+Le tabelle dati di [!INCLUDE[prod_short](includes/prod_short.md)] presentano due tipologie di base: master e setup. Quando si imposta una configurazione di società, è possibile utilizzare queste tipologie per identificare la strategia di configurazione.  
 
 ### <a name="master-data-tables"></a>Tabelle di dati master  
 Nella seguente tabella vengono elencati alcuni esempi di tabelle di dati master. Quando si inizializza una nuova società, queste tabelle sono vuote.  
@@ -61,7 +61,7 @@ Nella seguente tabella vengono elencate tabelle dei dati di setup, dove vengono 
 |312|Setup contabilità fornitori|  
 |313|Setup magazzino|  
 
-Oltre alle tabelle dei dati di setup, in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono presenti tabelle dati di tipo setup che specificano le informazioni principali relative alla società e ai relativi processi aziendali. La tabella riportata di seguito ne elenca alcuni.  
+Oltre alle tabelle dei dati di setup, in [!INCLUDE[prod_short](includes/prod_short.md)] sono presenti tabelle dati di tipo setup che specificano le informazioni principali relative alla società e ai relativi processi aziendali. La tabella riportata di seguito ne elenca alcuni.  
 
 |Nr. tabella|Nome tabella|  
 |-------------------|--------------------|  

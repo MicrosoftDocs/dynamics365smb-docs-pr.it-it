@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fcdaf30443151919f0760ad18cce1cb7df25d36
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d11b1298e55eb6d034ee173df70ad77478f4c1d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923672"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755369"
 ---
 # <a name="managing-interactions"></a>Gestione di interazioni
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.
+In [!INCLUDE[prod_short](includes/prod_short.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.
 
 È possibile registrare tutte le interazioni con i contatti al fine di tenere traccia delle operazioni di vendita e marketing ad essi rivolte e migliorare le interazioni commerciali future.
 

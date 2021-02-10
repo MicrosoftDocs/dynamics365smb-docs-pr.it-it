@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915887"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754794"
 ---
 # <a name="create-workflows"></a>Creare i workflow
 È possibile creare workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow.  
 
 Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni passaggio consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro con le opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
 
-Quando si creano i flussi di lavoro, è possibile copiare i passaggi dai flussi di lavoro esistenti o dai modelli di flusso di lavoro. I modelli di flusso di lavoro rappresentano flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-", ad esempio "MS-PIW". Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
+Quando si creano i flussi di lavoro, è possibile copiare i passaggi dai flussi di lavoro esistenti o dai modelli di flusso di lavoro. I modelli di flusso di lavoro rappresentano flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-", ad esempio "MS-PIW". Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non supportati, il partner Microsoft deve implementarli tramite la personalizzazione del codice dell'applicazione.  
 
@@ -59,8 +59,8 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
         |**Notifica mittente**|Specificare se la notifica è inviata al richiedente dell'approvazione anziché al destinatario della richiesta di approvazione. Se si seleziona la casella di controllo, il campo **ID utente destinatario** viene disabilitato poiché la notifica sarà invece inviata al richiedente dell'approvazione, ovvero il mittente. Il nome della risposta workflow cambia di conseguenza in **Crea notifica per &lt;Mittente &gt;**. Se la casella di controllo non è selezionata, il nome della risposta workflow è **Crea notifica per &lt;Utente &gt;**.
         |**ID utente destinatario**|Specificare l'utente a cui deve essere inviata la notifica. Nota: questa opzione è disponibile solo per le risposte workflow con un segnaposto per un utente specifico. Per le risposte del flusso di lavoro senza segnaposto per gli utenti, il destinatario della notifica in genere è definito dall'impostazione dell'utente approvazione.|  
         |**Tipo movimento notifica**|Specifica se la notifica del workflow viene attivata da una modifica del record, una richiesta di approvazione o una data di scadenza superata.|
-        |**Pagina destinazione collegamento**|Specificare un'altra pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] che viene aperta dal collegamento nella notifica al posto della pagina predefinita.<br /><br />Si noti che la pagina deve avere la stessa tabella di origine del record interessato.|  
-        |**Collegamento personalizzato**|Specificare l'URL di un collegamento che viene aggiunto alla notifica insieme al collegamento di una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Pagina destinazione collegamento**|Specificare un'altra pagina in [!INCLUDE[prod_short](includes/prod_short.md)] che viene aperta dal collegamento nella notifica al posto della pagina predefinita.<br /><br />Si noti che la pagina deve avere la stessa tabella di origine del record interessato.|  
+        |**Collegamento personalizzato**|Specificare l'URL di un collegamento che viene aggiunto alla notifica insieme al collegamento di una pagina in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Per specificare le opzioni per una risposta del flusso di lavoro che includa la creazione di una richiesta di approvazione, compilare i campi come descritto nella tabella seguente.  
 
         |Campo|Description|  
@@ -94,7 +94,7 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
 >  Per visualizzare le relazioni tra le tabelle utilizzate nei workflow, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e quindi immettere **Workflow - Relazione tabella**.  
 
 ## <a name="see-also"></a>Vedere anche  
-[Creare flussi di lavoro da modelli di flusso di lavoro](across-how-to-create-workflows-from-workflow-templates.md)   
+[Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)   
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)   
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)   

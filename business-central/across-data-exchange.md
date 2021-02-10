@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914367"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753494"
 ---
 # <a name="exchanging-data-electronically"></a>Scambio di dati in modalità elettronica
 È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
 
-Nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)], il framework di scambio dati viene utilizzato in funzionalità quali ad esempio documenti elettronici, importazione/esportazione di file bancari e aggiornamento dei tassi di cambio. Per ulteriori informazioni, vedere [Informazioni sul framework di scambio dei dati](across-about-the-data-exchange-framework.md).
+Nella versione standard di [!INCLUDE[prod_short](includes/prod_short.md)], il framework di scambio dati viene utilizzato in funzionalità quali ad esempio documenti elettronici, importazione/esportazione di file bancari e aggiornamento dei tassi di cambio. Per ulteriori informazioni, vedere [Informazioni sul framework di scambio dei dati](across-about-the-data-exchange-framework.md).
 
 In qualità di amministratore o partner Microsoft, è possibile utilizzare il framework nelle nuove funzionalità di integrazione impostando quali dati scambiare e come scambiarli. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
 
