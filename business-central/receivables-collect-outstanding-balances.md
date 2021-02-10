@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926598"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758394"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 
@@ -38,7 +38,7 @@ Dalla scheda cliente, è possibile creare un estratto conto con le transazioni d
 
 ## <a name="reminders"></a>Solleciti
 
-Prima di creare i solleciti, è necessario impostarne i termini e assegnarli ai clienti. Ogni termine di sollecito ha un livelli di sollecito predefinito. e ogni livello include le regole relative all'emissione del sollecito, ad esempio il numero di giorni dopo la data di scadenza della fattura o dopo la data del sollecito precedente. Nella pagina **Condiz. interessi finanziari** viene determinato se nel sollecito vengono calcolati anche gli interessi.  
+Prima di creare i solleciti, è necessario impostarne i termini e assegnarli ai clienti. Per ulteriori informazioni, vedere [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Il contenuto della pagina **Condiz. interessi finanziari** determina se nel sollecito vengono calcolati anche gli interessi.  
 
 È possibile eseguire periodicamente il processo batch **Crea solleciti** per creare solleciti per tutti i clienti con saldi scaduti oppure creare manualmente un sollecito per un cliente particolare e calcolare e compilare le righe automaticamente.  
 
@@ -47,58 +47,6 @@ Una volta creati i solleciti, è possibile modificarli. Il testo visualizzato al
 Per un movimento contabile cliente con selezionato il campo **In sospeso** non verrò richiesta la creazione di un sollecito. Se tuttavia viene creato un sollecito in base a un altro movimento, nel sollecito verrà incluso anche un movimento scaduto contrassegnato come in sospeso. Per le righe di questi movimenti non verranno calcolati interessi.
 
 Dopo avere creato i solleciti e apportato le modifiche necessarie, è possibile stampare report di test o emettere i solleciti, in genere tramite posta elettronica.
-
-### <a name="to-set-up-reminder-terms"></a>Per impostare i termini di sollecito
-
-Se per un cliente sono presenti pagamenti scaduti, è necessario decidere quando e con quale modalità inviare un sollecito. Può inoltre essere necessario addebitare sul relativo conto gli interessi e/o altre competenze. È possibile impostare un numero qualsiasi di termini di sollecito. A ciascun codice dei termini di sollecito corrispondono un numero illimitato di livelli di sollecito.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario.  
-3. Per utilizzare più di una combinazione dei termini di sollecito, impostare un codice per ciascuno di essi.
-
-### <a name="to-set-up-reminder-levels"></a>Per impostare i livelli di sollecito
-
-La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impostazione del livello 1. Quando si emette il solletico, il numero del livello viene registrato nei movimenti del sollecito creati e collegati ai singoli movimenti contabili cliente. Se è necessario sollecitare nuovamente il cliente, vengono controllati tutti i movimenti del sollecito collegati ai movimenti contabili cliente aperti per individuare il numero di livello più alto. Per il nuovo sollecito verranno quindi utilizzate le condizioni del numero di livello successivo.
-
-Se si creano più solleciti di quanti livelli sono stati definiti, verranno utilizzate le condizioni del livello massimo. È possibile creare tanti solleciti quanti sono consentiti dall'impostazione del campo **Nr. max solleciti** nei termini del sollecito.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Termini di sollecito** selezionare la riga con i termini di sollecito per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
-3. Compilare i campi, se necessario.  
-
-    Per ogni livello di sollecito, è possibile specificare singole condizioni, tra cui oneri addizionali sia in VL sia in valuta estera. È possibile definire molti oneri addizionali in valuta estera per ogni codice nella pagina **Livelli di sollecito**.
-4. Scegliere l'azione **Valute**.
-5. Nella pagina **Valute per livello sollecito**, per ogni codice del livello di sollecito e per il corrispondente numero del livello di sollecito, definire un codice di valuta e un onere addizionale.
-
-    > [!NOTE]  
-    > Creando solleciti in valuta estera, le condizioni per la valuta estera impostate qui verranno utilizzate per la creazione di solleciti. Se non sono state impostate condizioni per i solleciti in valuta estera, verranno utilizzate le condizioni per i solleciti in valuta locale impostate nella pagina **Livelli di sollecito** e quindi convertite nella relativa valuta.
-
-    Per ogni livello di sollecito è possibile specificare il testo che verrà stampato prima (**Testo iniziale**) o dopo (**Testo finale**) nei movimenti nel sollecito.
-
-6. Scegliere rispettivamente le azioni **Testo iniziale** o **Testo finale** e compilare la pagina **Testi di sollecito**.
-7. Per inserire automaticamente i relativi valori nel testo di sollecito risultante, fornire seguenti segnaposti nel campo **Testo**.  
-
-|Segnaposto|Valore|  
-|-----------------|-----------|  
-|%1|Contenuto del campo **Data documento** della testata sollecito|  
-|%2|Contenuto del campo **Data scadenza** della testata sollecito|  
-|%3|Contenuto del campo **Tasso di interesse** nelle condizioni di addebito degli interessi finanziari correlate|  
-|%4|Contenuto del campo **Importo residuo** della testata sollecito|  
-|%5|Contenuto del campo **Importo interessi** della testata sollecito|  
-|%6|Contenuto del campo **Onere addizionale** della testata sollecito|  
-|%7|Importo totale del sollecito|  
-|%8|Contenuto del campo **Livello di sollecito** della testata sollecito|  
-|%9|Contenuto del campo **Codice valuta** della testata sollecito|  
-|%10|Contenuto del campo **Data di registrazione** della testata sollecito|  
-|%11|Nome della società|  
-|%12|Contenuto del campo **Onere add. per riga** della testata sollecito|  
-
-Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di 1.200,50 USD con scadenza 02-02-2014.**
-
-> [!NOTE]
-> La data di scadenza viene calcolata in base alla formula immessa per la data. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).
-
-Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 
 ### <a name="to-create-a-reminder-automatically"></a>Per creare un sollecito automaticamente
 
@@ -174,58 +122,16 @@ Quando un cliente non effettua il pagamento entro la data di scadenza, è possib
 > [!NOTE]  
 > Le note di addebito interessi vengono utilizzate per calcolare interessi e addebiti interessi e informare i clienti su tali interessi e addebiti interessi senza inviare solleciti relativi ai pagamenti scaduti. In alternativa è possibile calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti.  
 
+Prima di poter creare nota addebito interessi, è necessario impostare i termini. Per ulteriori informazioni, vedere [Impostare condizioni interessi finanziari](finance-setup-finance-charges.md).  
+
 È possibile creare manualmente una nota di addebito interessi per un singolo cliente e compilare le righe automaticamente. In alternativa è possibile utilizzare il processo della funzione **Crea note add. interessi** per creare tali documenti per tutti i clienti selezionati con saldi scaduti.  
 
 Una volta create, le note di addebito interessi possono essere modificate. Il testo visualizzato all'inizio e alla fine della nota è determinato dalle condizioni relative agli interessi finanziari e può essere visualizzato nella colonna **Descrizione** delle righe. Se un importo calcolato è stato inserito automaticamente nel testo iniziale o finale, questo non verrà rettificato se si eliminano righe e sarà necessario utilizzare la funzione **Aggiorna testi add. int.**.  
 
 Dopo avere creato le note di addebito interessi e apportato le modifiche necessarie, è possibile stampare report di test o emettere le note di addebito interessi, in genere tramite posta elettronica.
 
-### <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
+### <a name="to-create-a-finance-charge-memo-manually"></a>Per creare una nota di addebito di interessi manualmente
 
-Interessi Finanziari per impostare le condizioni per i calcoli di addebito degli interessi. Immettere quindi il codice nel campo **Cod. addebito interessi** nelle schede cliente o fornitore.
-
-È possibile calcolare gli addebiti degli interessi utilizzando il metodo del saldo giornaliero medio oppure il metodo del saldo dovuto.
-
-* Metodo del saldo dovuto
-
-    L'addebito di interessi è semplicemente una percentuale dell'importo insoluto:  
-    *Metodo del saldo dovuto* - *Addebito interessi* = *Importo insoluto* x *(Tasso di interesse / 100)*
-
-*   Metodo del saldo giornaliero medio
-
-    Viene considerato il numero di giorni che il pagamento è dovuto:  
-    *Metodo Saldo giornaliero medio* - *Addebito interessi* = *Importo insoluto* x *(Giorni in arretrato / Periodo di interesse)* x *(Tasso di interesse/100)*
-
-Inoltre ogni codice nella tabella Condiz.Interessi Finanziari è collegato a una sottotabella, detta tabella Testi addebiti interessi. Per ciascun gruppo di condizioni degli interessi finanziari, è possibile creare un testo iniziale e/o uno finale da inserire nella nota di addebito degli interessi.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condiz. interessi finanziari** e quindi scegliere il collegamento correlato.  
-2. Compilare i campi, se necessario.
-3. Per utilizzare più di una combinazione di condizioni di interessi finanziari, impostare un codice per ciascuno di essi.
-
-    Per ogni condizione di interessi finanziari, è possibile specificare singole condizioni, tra cui oneri addizionali sia in VL sia in valuta estera. È possibile definire molti oneri addizionali in valuta estera per ogni codice nella pagina **Condiz. interessi finanziari**.
-4. Scegliere l'azione **Valute**.
-5. Nella pagina **Valute per addebito interessi**, specificare per ogni termine un codice valuta e un onere addizionale.
-
-    > [!NOTE]  
-    > Creando addebiti di interessi in una valuta estera, le condizioni per la valuta estera impostate qui verranno utilizzate per creare note di addebito interessi. Se non sono state impostate condizioni degli interessi finanziari in valuta estera, verranno automaticamente utilizzate le condizioni degli interessi finanziari in valuta locale impostate nella pagina **Condiz. interessi finanziari** convertite nella relativa valuta.
-
-    Per ciascuna condizione di interessi finanziari è possibile specificare il testo che sarà stampato prima (**Testo Iniziale**) o dopo (**Testo Finale**) nei movimenti nella nota di addebito di interessi.  
-6. Scegliere rispettivamente le azioni **Testo iniziale** o **Testo finale** e compilare la pagina **Testi addebiti interessi**.
-7. Per inserire automaticamente i relativi valori nel testo di addebito di interessi risultante, fornire seguenti segnaposti nel campo **Testo**.
-
-|Segnaposto|Valore|  
-|-----------------|-----------|  
-|%1|Contenuto del campo **Data documento** della testata della nota di addebito interessi|  
-|%2|Contenuto del campo **Data scadenza** della testata della nota di addebito interessi|  
-|%3|Contenuto del campo **Tasso di interesse** nelle condizioni di addebito degli interessi finanziari correlate|  
-|%4|Contenuto del campo **Importo residuo** della testata della nota di addebito interessi|  
-|%5|Contenuto del campo **Importo interessi** della testata della nota di addebito interessi|  
-|%6|Contenuto del campo **Onere addizionale** della testata della nota di addebito interessi|  
-|%7|Importo totale del sollecito|  
-|%8|Contenuto del campo **Codice valuta** della testata della nota di addebito interessi|  
-|%9|Contenuto del campo **Data reg.** della testata della nota di addebito interessi|  
-
-### <a name="to-create-a-finance-charge-memo-manually"></a>Per creare una nota di addebito di interessi manualmente  
 Una nota di addebito di interessi è simile a una fattura. È possibile compilare una testata manualmente e le righe automaticamente, oppure le note di addebito di interessi possono venire create automaticamente per tutti i clienti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note addebito interessi** e quindi scegliere il collegamento correlato.  
@@ -286,6 +192,8 @@ Quando si impostano le condizioni di addebito degli interessi e i termini di sol
 
 ## <a name="see-also"></a>Vedere anche
 
+[Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)  
+[Impostare condizioni interessi finanziari](finance-setup-finance-charges.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

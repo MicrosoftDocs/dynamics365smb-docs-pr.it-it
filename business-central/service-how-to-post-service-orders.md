@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915312"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757869"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  
@@ -85,7 +85,7 @@ La procedura seguente indica le modalità di registrazione degli articoli, delle
 L'assistenza viene registrata come parzialmente o completamente consumata, a seconda del valore nel campo **Qtà da consumare** e vengono creati i movimenti contabili pertinenti. I documenti di spedizione assistenza registrati in precedenza vengono inoltre aggiornati cronologicamente con le quantità consumate. Le quantità pertinenti verranno aggiornate nelle righe di assistenza dell'ordine.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Per registrare spedizioni da ordini di assistenza  
-Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possibile rettificare e registrare le quantità degli articoli utilizzati, il tempo impiegato e i costi sostenuti. In [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno apportate le modifiche necessarie per riflettere il nuovo stato del magazzino e lo stato corrente del processo di gestione dell'ordine specifico.  
+Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possibile rettificare e registrare le quantità degli articoli utilizzati, il tempo impiegato e i costi sostenuti. In [!INCLUDE[prod_short](includes/prod_short.md)] verranno apportate le modifiche necessarie per riflettere il nuovo stato del magazzino e lo stato corrente del processo di gestione dell'ordine specifico.  
 
 Nella seguente procedura viene illustrato come registrare la spedizione di articoli nelle righe di assistenza in ubicazioni non impostate per richiedere la gestione in warehouse.  
 
@@ -97,7 +97,7 @@ Nella seguente procedura viene illustrato come registrare la spedizione di artic
 
 4. Scegliere l'azione **Registra**. Nella pagina visualizzata, selezionare il pulsante **Spedizione**.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
 
 Se l'ubicazione è impostata in modo da richiedere la gestione warehouse, la spedizione e la movimentazione degli articoli nelle righe di assistenza funzionano allo stesso modo di altri documenti di origine. La sola differenza sta nel fatto che gli articoli nelle righe di assistenza possono essere consumati esternamente o internamente e pertanto richiedono in due diverse funzioni di rilascio.  
 

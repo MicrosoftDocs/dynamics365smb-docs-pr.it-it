@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911948"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756344"
 ---
 # <a name="receive-items"></a>Ricevere articoli
 
@@ -123,7 +123,7 @@ Quando si gestisce una ricezione in eccesso, è possibile aumentare il valore ne
 2. Registra la ricevuta come faresti per qualsiasi altra ricevuta.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] non include funzionalità per avviare automaticamente l'amministrazione finanziaria delle ricezioni eccessive. È necessario gestirle manualmente in accordo con il fornitore, ad esempio, chiedendo al fornitore di inoltrare una fattura nuova o aggiornata.
+> [!INCLUDE[prod_short](includes/prod_short.md)] non include funzionalità per avviare automaticamente l'amministrazione finanziaria delle ricezioni eccessive. È necessario gestirle manualmente in accordo con il fornitore, ad esempio, chiedendo al fornitore di inoltrare una fattura nuova o aggiornata.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Quando si gestisce una ricezione in eccesso, è possibile aumentare il valore ne
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915012"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756994"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -35,7 +35,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
-4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
 > [!IMPORTANT]  
->  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE sarà visualizzato<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> un errore.  
+>  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE sarà visualizzato<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> un errore.  
   
 #### <a name="to-add-an-image"></a>Per aggiungere un'immagine  
   
@@ -99,8 +99,8 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Testata|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Specifica di spazio dei nomi XML. `<reportname>` è il nome assegnato al report. `<id>` corrisponde all'ID assegnato al report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Colonne ed elemento dati di livello principale. Le colonne sono elencate in ordine alfabetico.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Colonne ed elemento dati di livello principale. Le colonne sono elencate in ordine alfabetico.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gli elementi di dati e le colonne che sono annidati nell'elemento dati di livello superiore. Le colonne sono elencate in ordine alfabetico sotto il rispettivo elemento di dati.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
@@ -119,7 +119,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 -   Per le etichette, l'effettivo testo che viene visualizzato nel report generato corrisponde al valore della proprietà **Didascalia** del campo nella tabella elemento di dati (se l'etichetta è correlata alla colonna nel set di dati del report) o un'etichetta in progettazione etichette report (se l'etichetta non è correlata a una colonna del set di dati).  
   
--   La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
+-   La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report.  
   
 ## <a name="see-also"></a>Vedere anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   

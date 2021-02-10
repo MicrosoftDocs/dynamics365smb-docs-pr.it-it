@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9647dcebb949519c187d7289467e462b66dc32a2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89e7117e7dbc8d0b2865edbd318858e59f6a76f6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912957"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757819"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Impostare aree di applicazione complesse utilizzando le procedure ottimali
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.  
 
  Se si utilizza Avvio rapido per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
 
- Nella guida di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:  
+ Nella guida di [!INCLUDE[prod_short](includes/prod_short.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:  
 
 -   [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 
@@ -31,7 +31,7 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

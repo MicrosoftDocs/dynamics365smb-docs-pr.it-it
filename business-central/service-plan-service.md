@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915262"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757844"
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
-Con [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
+Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
   
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
   

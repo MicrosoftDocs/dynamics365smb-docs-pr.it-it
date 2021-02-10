@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914862"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756519"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
@@ -38,7 +38,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
  Questa procedura dettagliata è svolta da un membro del team (Cinzia Di Marco).  
 
 ## <a name="prerequisites"></a>Prerequisiti  
- Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Scenario  
  Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte di lavoro in CRONUS è svolto sulla base di un progetto e Cinzia, un membro del team di progetto, utilizza le commesse per avere una panoramica delle commesse in corso avviate da CRONUS e di quelle completate. Alcune commesse risultano estremamente lunghe e possono durare mesi. Cinzia può utilizzare un conto WIP per registrare i semilavorati e per tenere traccia dei costi in varie parti della commessa.  
@@ -156,11 +156,11 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
     >  Si supponga che Cinzia abbia calcolato e registrato il WIP per una commessa con date errate. Seguendo il metodo che è stato discusso in precedenza, il programma consente di stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
 
 ## <a name="next-steps"></a>Passaggi successivi  
- In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
+ In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)   
  [Metodi WIP](projects-understanding-wip.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

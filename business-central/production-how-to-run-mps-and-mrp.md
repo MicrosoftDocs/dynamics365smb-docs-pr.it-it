@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915436"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759019"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
@@ -23,7 +23,7 @@ L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP"
 -   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione della domanda. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  
 -   Per MRP si intende il calcolo delle richieste di materiale in base alla domanda effettiva di componenti e alla previsione della domanda a livello di componente. La programmazione MRP viene calcolata solo per articoli diversi dagli articoli MPS. Lo scopo generale della pianificazione MRP consiste nel fornire piani formali rapportati alla scala cronologica, in base all'articolo, per fornire l'articolo corretto al momento giusto, nel luogo adatto e nella quantità appropriata.  
 
-Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione riguardano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce messaggi di azione. I messaggi di azione sono suggerimenti relativi alla creazione di un nuovo ordine, alla modifica di un ordine (quantità o data) o all'annullamento di un ordine già in ordinazione. Il termine "ordine" include ordini di acquisto, ordini di assemblaggio, ordini di produzione e ordini di trasferimento.
+Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algoritmi di pianificazione riguardano il confronto. il riutilizzo di ordini di approvvigionamento esistenti e messaggi di azione. Il processo del sistema di pianificazione analizza cosa è necessario o sarà necessario (domanda) e cosa è disponibile o previsto (approvvigionamento). Quando tali quantità vengono confrontate, [!INCLUDE[prod_short](includes/prod_short.md)] fornisce messaggi di azione. I messaggi di azione sono suggerimenti relativi alla creazione di un nuovo ordine, alla modifica di un ordine (quantità o data) o all'annullamento di un ordine già in ordinazione. Il termine "ordine" include ordini di acquisto, ordini di assemblaggio, ordini di produzione e ordini di trasferimento.
 
 È possibile tenere traccia dei collegamenti creati dal motore di pianificazione tra domanda e il relativo approvvigionamento nella pagina **Tracciabilità ordine**. Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)   
 
@@ -37,7 +37,7 @@ La correttezza dei risultati di pianificazione dipende dal setup di schede artic
     - **Cambiamenti relativi ai parametri di pianificazione:** tali cambiamenti includono modifiche alla scorta di sicurezza, al punto di riordino, al ciclo, alla distinta base e alle modifiche all'intervallo di tempo o al calcolo del lead time.  
 -   **Genera messaggi di azione:** questa funzione funge da strumento di pianificazione a breve termine tramite l'emissione di messaggi di azione per avvisare l'utente di eventuali modifiche apportate dall'ultimo calcolo del piano rigenerativo o relativo ai cambiamenti.  
 
-Con ogni metodo pianificato, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera movimenti di prospetto in cui si presuppone una capacità infinita. La capacità del centro di lavoro e dell'area di produzione non viene presa in considerazione durante lo sviluppo delle pianificazioni.  
+Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] genera movimenti di prospetto in cui si presuppone una capacità infinita. La capacità del centro di lavoro e dell'area di produzione non viene presa in considerazione durante lo sviluppo delle pianificazioni.  
 
 > [!IMPORTANT]  
 >  La funzione Calcola piano - Rigenerativo rappresenta il processo utilizzato più comunemente. Le funzioni Calcola piano e Esegui messaggi di azione, tuttavia, possono essere utilizzate per eseguire il processo Calcola Piano - Solo Cambiamenti.  
@@ -98,10 +98,10 @@ In risposta a qualsiasi mancato saldo tra approvvigionamento e domanda, vengono 
 |Messaggio azione|Descrizione|  
 |--------------------|---------------------------------------|  
 |**Nuova**|Se non è possibile soddisfare una domanda tramite i messaggi di azione in **Modifica qtà**, **Riprogramma** o **Riprogr. e mod. qtà** per gli ordini esistenti, viene generato il messaggio azione **Nuovo**, in cui viene suggerito un nuovo ordine. Viene generato un messaggio **Nuovo** anche se non sono presenti ordini di approvvigionamento esistenti nel ciclo di riordino dell'articolo in questione. Questo parametro determina il numero di periodi in avanti e a ritroso nel profilo di disponibilità durante la ricerca di un ordine da ripianificare.|  
-|**Modifica qtà**|Quando la domanda tracciata in uno o più ordini di approvvigionamento è soggetta a una modifica della quantità, viene generato il messaggio di azione **Modifica qtà**, che indica che è necessario modificare l'approvvigionamento correlato in base alla modifica verificatasi nella domanda. Se viene rilevata una nuova domanda, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguita la ricerca del più vicino ordine di approvvigionamento non impegnato esistente nel ciclo di riordino e per tale ordine viene generato un messaggio di azione di modifica.|  
+|**Modifica qtà**|Quando la domanda tracciata in uno o più ordini di approvvigionamento è soggetta a una modifica della quantità, viene generato il messaggio di azione **Modifica qtà**, che indica che è necessario modificare l'approvvigionamento correlato in base alla modifica verificatasi nella domanda. Se viene rilevata una nuova domanda, in [!INCLUDE[prod_short](includes/prod_short.md)] viene eseguita la ricerca del più vicino ordine di approvvigionamento non impegnato esistente nel ciclo di riordino e per tale ordine viene generato un messaggio di azione di modifica.|  
 |**Ripianifica**|Quando in un ordine di approvvigionamento o domanda si verifica una modifica alla data che provoca un mancato saldo nella rete di ordini, viene generato il messaggio azione **Riprogramma**. Se tra la domanda e l'approvvigionamento vi è una relazione uno a uno, viene generato un messaggio di azione che suggerisce lo spostamento corrispondente dell'ordine di approvvigionamento. Se l'ordine di approvvigionamento riguarda una domanda da più ordini di vendita, l'ordine di approvvigionamento viene riprogrammato in base alla data della prima domanda.|  
 |**Riprogr. e mod. qtà.**|Se sono state modificate sia le date sia le quantità di un ordine, è necessario modificare i piani relativamente a entrambe le situazioni. Le due azioni vengono riunite in un unico messaggio, **Riprogr. e mod. qtà.**, per garantire il ripristino del saldo nella rete di ordini.|  
-|**Annulla**|Se una domanda, trattata su base ordine-a-ordine, viene eliminata, viene generato un messaggio di azione per annullare gli ordini di approvvigionamento correlati. Se la relazione non è di tipo ordine-a-ordine, viene generato un messaggio di azione per ridurre l'approvvigionamento. Se a causa di altri fattori, ad esempio le rettifiche del magazzino, non è necessario alcun ordine di approvvigionamento nel momento in cui i messaggi di azione vengono generati dall'utente, viene generato da [!INCLUDE[d365fin](includes/d365fin_md.md)] un messaggio di azione **Annulla**.|  
+|**Annulla**|Se una domanda, trattata su base ordine-a-ordine, viene eliminata, viene generato un messaggio di azione per annullare gli ordini di approvvigionamento correlati. Se la relazione non è di tipo ordine-a-ordine, viene generato un messaggio di azione per ridurre l'approvvigionamento. Se a causa di altri fattori, ad esempio le rettifiche del magazzino, non è necessario alcun ordine di approvvigionamento nel momento in cui i messaggi di azione vengono generati dall'utente, viene generato da [!INCLUDE[prod_short](includes/prod_short.md)] un messaggio di azione **Annulla**.|  
 
 ## <a name="see-also"></a>Vedi anche  
 [Pianif.](production-planning.md)  
@@ -111,4 +111,4 @@ In risposta a qualsiasi mancato saldo tra approvvigionamento e domanda, vengono 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912323"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757494"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Estensione Pagamenti e riconciliazioni (DK)
 
@@ -53,7 +53,7 @@ Ecco alcuni passaggi per iniziare.
 
 Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione business** e una **Categoria registrazione fornitori**. L'impostazione del paese per il fornitore deve essere la Danimarca (DK). Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] l'esportazione dei dati di pagamento.
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Consentire a [!INCLUDE[prod_short](includes/prod_short.md)] l'esportazione dei dati di pagamento.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
@@ -61,7 +61,7 @@ Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione bus
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Per specificare il metodo di pagamento per un fornitore
 
-La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO supportate da [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO supportate da [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Combinazione|Tipo 01 | Tipo 04 | Tipo 71 | Tipo 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 4. Nel campo **Riferimento pagamento**, immettere il numero a 15 cifre della fattura del fornitore.  
 
     > [!Tip]
-    > È necessario aggiungere solo le ultime 11 cifra del numero. [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiungerà quattro zeri all'inizio del numero.  
+    > È necessario aggiungere solo le ultime 11 cifra del numero. [!INCLUDE[prod_short](includes/prod_short.md)] aggiungerà quattro zeri all'inizio del numero.  
 
 5. Contabilizzare la fattura.
 
@@ -105,6 +105,6 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 
 ## <a name="see-also"></a>Vedere anche
 
-[Personalizzazione di Business Central per [!INCLUDE[d365fin](includes/d365fin_md.md)] con le estensioni](ui-extensions.md)  
+[Personalizzazione di Business Central per [!INCLUDE[prod_short](includes/prod_short.md)] con le estensioni](ui-extensions.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  

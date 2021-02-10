@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914787"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756542"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
 In questa procedura dettagliata viene descritto come utilizzare le situazioni contabili per effettuare previsioni del flusso di cassa. Le situazioni contabili consentono di effettuare i calcoli che non possono essere eseguiti direttamente nel piano dei conti di cassa. Nelle situazioni contabili è possibile impostare i subtotali relativi agli incassi e alle uscite di cassa. I subtotali possono essere inclusi nei nuovi totali che potranno essere utilizzati per effettuare le previsioni del flusso di cassa.  
@@ -32,7 +32,7 @@ In questa procedura dettagliata sono descritti i task seguenti:
 ### <a name="prerequisites"></a>Prerequisiti  
 Per completare questa procedura dettagliata, sarà necessario:  
 
-- Aver installato [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Aver installato [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Registrazione delle righe del prospetto del flusso di cassa.  
 
 ## <a name="roles"></a>Ruoli  
@@ -89,4 +89,4 @@ Ken è ora pronto per assegnare il layout colonna al nome della situazione conta
 ## <a name="see-also"></a>Vedi anche  
  [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

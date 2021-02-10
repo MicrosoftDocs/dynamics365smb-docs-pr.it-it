@@ -1,21 +1,21 @@
 ---
 title: Ricerca, filtro e ordinamento di elenchi | Documenti Microsoft
-description: Utilizzare in modo efficiente gli elenchi cercando nei dati, ordinando colonne e perfezionando i risultati con potenti simboli di filtro e tasti di scelta rapida da tastiera.
-author: SorenGP
+description: Utilizzare in modo efficiente gli elenchi cercando nei dati, ordinando colonne e perfezionando i risultati con simboli di filtro e tasti di scelta rapida da tastiera.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.date: 11/16/2020
+ms.author: jswymer
+ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912573"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757594"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 
@@ -24,7 +24,7 @@ Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'in
 Per i report e gli XMLport, è possibile impostare filtri come negli elenchi per delimitare i dati da includere in report o XMLport, ma non è possibile ordinare e cercare.
 
 > [!TIP]
-> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare il filtro di base. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista") per visualizzare i record in forma di elenco.
+> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare i filtri. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista") per visualizzare i record in forma di elenco.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -32,9 +32,12 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Ordinamento
 
-L'ordinamento consente di ottenere in modo semplice e rapido una panoramica dei dati. Se si dispone di molti clienti, ad esempio, è possibile scegliere di ordinarli in base a **Nr. cliente**, **Cat. reg. cliente**, **Codice valuta**, **Codice paese** o **Identificativo fiscale** per ottenere la panoramica desiderata.
+L'ordinamento consente di ottenere in modo semplice e rapido una panoramica dei dati. Ad esempio, se si dispone di molti clienti, si potrebbe ordinarli in base a **Nr. cliente**, **Codice valuta** o **Codice paese** per ottenere la panoramica desiderata.
 
-Per ordinare un elenco, fare clic sull'intestazione di una colonna per passare dall'ordine crescente a quello decrescente e viceversa, oppure scegliere la freccia rivolta verso il basso nell'intestazione della colonna e scegliere l'azione **Crescente** o **Decrescente**.  
+Per ordinare un elenco, è possibile:
+
+- Selezionare il testo di un'intestazione di colonna per passare dall'ordinamento ascendente a quello discendente e viceversa, oppure
+- Scegliere la freccia del menu a discesa nell'intestazione della colonna, quindi scegliere l'azione **Ascendente** o **Discendente**.  
 
 > [!NOTE]  
 > L'ordinamento non è supportato nelle immagini, nei campi BLOB, in FlowFilter e nei campi che non appartengono a una tabella.  
@@ -46,29 +49,7 @@ Nella parte superiore di ogni pagina elenco, è presente l'azione **Cerca** ![Ce
 
 Per cercare, è sufficiente selezionare l'azione **Cerca**, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
-### <a name="fine-tuning-the-search"></a>Perfezionare la ricerca
-
 In generale, la ricerca tenta di trovare il testo corrispondente in tutti i campi, non fa la distinzione tra maiuscole e minuscole e trova il testo corrispondente ovunque nel campo (all'inizio, alla fine o nel mezzo).
-
-Tuttavia, è possibile effettuare una ricerca più precisa utilizzando caratteri speciali.
-
-- Per trovare solo i valori dei campi che corrispondono esattamente all'intero testo e al caso, posizionare il testo di ricerca tra virgolette singole `''` (ad esempio `'man'`).
-
-- Per trovare valori di campo che iniziano con un determinato testo e corrispondono al caso, posizionare `*` dopo il testo di ricerca (ad esempio `man*`).
-
-- Per trovare valori di campo che terminano con un determinato testo e corrispondono al caso, posizionare `*` prima del testo di ricerca (ad esempio `*man`).
-
-- Quando si utilizza `''` o `*`, la ricerca è sensibile alla distinzione maiuscola/minuscola. Se si desidera ignorare la distinzione tra maiuscole e minuscole, posizionare `@` prima del testo di ricerca, (ad esempio `@man*`).
-
-Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibile utilizzare la funzionalità di ricerca.
-
-|Criteri di ricerca|Trova…|
-|---------------|----------|
-|`man`<br />oppure <br />`Man`|Tutti i record con campi che contengono il testo **man**, indipendentemente dal caso. Ad esempio, **Manchester**, **manual** o **Sportsman**. |
-|`'Man'`|Tutti i record con campi che contengono solo il testo **Man**, che corrisponde al caso.|
-|`Man*`|Tutti i record con campi che iniziano con il testo <b>man</b>, con corrispondenza al caso. Ad esempio, **Manchester**, ma non **manual** o **Sportsman**.|
-|`@Man*`|Tutti i record con campi che iniziano con il testo **man**, indipendentemente dal caso. Ad esempio, **Manchester** e **manual**, ma non **Sportsman**.|
-|`@*man`|Tutti i record con campi che finiscono con il testo **man**, indipendentemente dal caso. Ad esempio, **Sportsman**, ma non **Manchester** o **manual**.|
 
 > [!TIP]
 > È possibile premere **F3** per attivare e disattivare la casella di ricerca. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
@@ -76,14 +57,38 @@ Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibi
 > [!NOTE]  
 > La ricerca non restituisce i valori di immagini, campi BLOB, FlowFilters, FlowField e altri campi che non fanno parte di una tabella.
 
+
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Perfezionamento della ricerca con criteri di filtro
+
+È possibile effettuare una ricerca più precisa utilizzando operatori di filtro, espressioni e token di filtro. A differenza dei filtri, questi vengono applicati a tutti i campi quando utilizzati nella casella di ricerca, rendendoli meno efficienti dei filtri.
+
+- Per trovare solo i valori dei campi che corrispondono esattamente all'intero testo e all'uso di maiuscole/minuscole, posizionare il testo di ricerca tra virgolette singole `''` (ad esempio `'man'`).
+
+- Per trovare valori di campo che iniziano con un determinato testo e corrispondono all'uso di maiuscole/minuscole, posizionare `*` dopo il testo di ricerca (ad esempio `man*`).
+
+- Per trovare valori di campo che terminano con un determinato testo e corrispondono all'utilizzo di maiuscole/minuscole, posizionare `*` prima del testo di ricerca (ad esempio `*man`).
+
+- Quando si utilizza `''` o `*`, la ricerca è sensibile alla distinzione maiuscola/minuscola. Se si desidera ignorare la distinzione tra maiuscole e minuscole, posizionare `@` prima del testo di ricerca, (ad esempio `@man*`).
+
+Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibile utilizzare la funzionalità di ricerca.
+
+|Criteri di ricerca|Trova…|
+|---------------|----------|
+|`man`<br />oppure <br />`Man`|Tutti i record con campi che contengono il testo **man**, indipendentemente dall'uso di maiuscole/minuscole. Ad esempio, **Manchester**, **manual** o **Sportsman**. |
+|`'Man'`|Tutti i record con campi che contengono solo il testo **Man**, che corrisponde all'uso di maiuscole/minuscole.|
+|`Man*`|Tutti i record con campi che iniziano con il testo <b>man</b>, corrispondenti all'uso di maiuscole/minuscole. Ad esempio, **Manchester**, ma non **manual** o **Sportsman**.|
+|`@Man*`|Tutti i record con campi che iniziano con il testo **man**, indipendentemente dall'uso di maiuscole/minuscole. Ad esempio, **Manchester** e **manual**, ma non **Sportsman**.|
+|`@*man`|Tutti i record con campi che finiscono con il testo **man**, indipendentemente dall'uso di maiuscole/minuscole. Ad esempio, **Sportsman**, ma non **Manchester** o **manual**.|
+
+
 ## <a name="filtering"></a><a name="filtering"></a>Filtro
 
-I filtri forniscono un modo più avanzato e versatile per controllare quali record vengono visualizzati in un elenco o inclusi in un report o XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
+I filtri forniscono un modo più avanzato e versatile per controllare quali record sono inclusi in un elenco in un report o in XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
 
 || **Ricerca** | **Filtri** |
 |--|----------|------------|
 | **Campi applicabili** | Cerca in tutti i campi visibili nella pagina. | Filtra uno o più campi singolarmente, selezionando da qualsiasi campo sulla tabella, inclusi i campi che non sono visibili sulla pagina. |
-| **Corrispondenza** | Visualizza i record con campi che corrispondono al testo di ricerca, indipendentemente dal caso o dal posizionamento del testo. | Visualizza i record in cui il campo corrisponde esattamente al filtro e fa distinzione tra maiuscole e minuscole, a meno che non vengano inseriti simboli di filtro speciali.
+| **Corrispondenza** | Visualizza i record con campi che corrispondono al testo di ricerca, indipendentemente dall'uso di maiuscole/minuscole. o dal posizionamento del testo nel campo. | Visualizza i record in cui il campo corrisponde esattamente al filtro, incluse maiuscole e minuscole, a meno che non vengano inseriti simboli di filtro speciali.
 
 Il filtro consente di visualizzare record per account o clienti specifici, date, importi e altre informazioni specificando i criteri di filtro. Solo i record che soddisfano i criteri vengono visualizzati nell'elenco o inclusi in un report, processo batch o XMLport. Se si specificano i criteri per più campi, verranno visualizzati solo i record che soddisfano tutti i criteri.
 
@@ -110,15 +115,15 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
 
 - **Visualizzazioni**
 
-  Alcuni elenchi includono la sezione **Visualizzazioni**. Le visualizzazioni sono variazioni dell'elenco che sono state preconfigurate con i filtri. È possibile definire e salvare un numero illimitato di visualizzazioni per elenco e le visualizzazioni saranno disponibili in qualsiasi dispositivo a cui si accede. Per ulteriori informazioni, vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).
+  Alcuni elenchi includono la sezione **Visualizzazioni**. Le visualizzazioni sono variazioni dell'elenco che sono state preconfigurate con i filtri. È possibile definire e salvare tutte le visualizzazioni desiderate per elenco. Le visualizzazioni saranno disponibili su qualsiasi dispositivo a cui si accede. Per ulteriori informazioni, vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).
 
 - **Filtra elenco per**
 
-  Consente di aggiungere filtri in campi specifici per ridurre il numero di record visualizzati. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare l'elenco o selezionare un campo dall'elenco a discesa.
+  Questa sezione consente di aggiungere filtri in campi specifici per ridurre il numero di record visualizzati. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare l'elenco o selezionare un campo dall'elenco a discesa.
 
 - **Filtra totali per**
 
-  Alcuni elenchi che visualizzano campi calcolati, come importi e quantità, includeranno la sezione **Filtra totali per** in cui è possibile impostare varie dimensioni che influenzano i calcoli. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare l'elenco o selezionare un campo dall'elenco a discesa.
+  Alcuni elenchi che visualizzano campi calcolati, come importi e quantità, includeranno la sezione **Filtra totali per** in cui è possibile impostare varie dimensioni che influenzano i calcoli. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare l'elenco o selezionare un campo dall'elenco a discesa.
 
   > [!NOTE]
   > I filtri nella sezione **Filtra totali per** sono controllati da FlowFilter nella progettazione della pagina. Per informazioni tecniche, vedere [FlowFilter](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -129,9 +134,9 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
 
 Per report e XMLport, i filtri sono visibili direttamente nella pagina di richiesta. La pagina di richiesta visualizza gli ultimi filtri utilizzati in base alla selezione effettuata nel campo **Utilizza valori predefiniti da**. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
 
-La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati per delimitare i record da includere in report o XMLport. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
+La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati per delimitare i record da includere in report o XMLport. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
 
-Nella sezione **Filtra totali per**, è possibile regolare varie dimensioni che influenzano i calcoli in report o XMLport. Per aggiungere un filtro, selezionare l'azione **+ Filtro**, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
+Nella sezione **Filtra totali per**, è possibile regolare varie dimensioni che influenzano i calcoli in report o XMLport. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
 
 ## <a name="entering-filter-criteria"></a>Immissione di criteri di filtro
 
@@ -144,17 +149,17 @@ Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro](me
 > [!TIP]
 > Accelerare la ricerca e l'analisi dei dati utilizzando combinazioni di tasti di scelta rapida da tastiera. Ad esempio, selezionare un campo, usare **MAIUSC + ALT + F3** per aggiungere quel campo al riquadro dei filtri, digitare i criteri del filtro, usare **CTRL + INVIO** per tornare alle righe, selezionare un altro campo e usare **ALT + F3** per filtrare tale valore. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Criteri e simboli di filtro
+### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Criteri e operatori di filtro
 
-Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere consentiti nel campo. È inoltre possibile utilizzare alcuni simboli speciali (o operatori) per filtrare ulteriormente i risultati. Nella tabella seguente sono inclusi i simboli che è possibile utilizzare nei filtri. Per date e ore, è anche possibile fare riferimento a [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md) per informazioni più dettagliate.
+Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere utilizzati nel campo. È inoltre possibile utilizzare un set di simboli speciali come operatori per filtrare ulteriormente i risultati. Le sezioni seguenti descrivono questi simboli e come utilizzarli come operatori nei filtri.
 
-> [!IMPORTANT]  
-> In alcuni casi è possibile che alcuni valori campo contengano tali simboli e che si intenda filtrarli. Per farlo, è necessario includere l'espressione di filtro contenente il simbolo tra virgolette ("). Ad esempio, se si desidera filtrare i record che iniziano con il testo *S&R*, l'espressione di filtro è `'S&R*'`.
+> [!TIP]
+> Per ulteriori informazioni su come filtrare date e orari, vedere [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).
 
-Le seguenti sezioni descrivono come utilizzare i diversi operatori.
-
-> [!NOTE]
-> Se sono presenti più di 200 operatori in un singolo filtro, il sistema raggrupperà automaticamente alcune espressioni tra parentesi `()` ai fini del trattamento. Ciò non ha alcun effetto sul filtro o sui risultati.  
+> [!IMPORTANT]
+> - Potrebbero verificarsi situazioni in cui il valore in base al quale si desidera filtrare contiene un simbolo che è un operatore. Per ulteriori informazioni sulla gestione di queste situazioni, vedere [Filtrare in base a valori che contengono simboli](#symbols).
+>
+> - Se sono presenti più di 200 operatori in un singolo filtro, il sistema raggrupperà automaticamente alcune espressioni tra parentesi `()` ai fini del trattamento. Ciò non ha alcun effetto sul filtro o sui risultati.  
 
 #### <a name="-interval"></a>(..) Intervallo
 
@@ -214,27 +219,27 @@ Le seguenti sezioni descrivono come utilizzare i diversi operatori.
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
-|`'man'`|Testo con corrispondenza esatta a man e con distinzione tra maiuscole e minuscole.|  
+|`'man'`|Testo con corrispondenza esatta a **man** e con distinzione tra maiuscole e minuscole.|  
 
 #### <a name="-case-insensitive"></a>(@) Senza distinzione tra maiuscole e minuscole  
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
-|`@man*`|Testo che inizia con man e senza distinzione tra maiuscole e minuscole.|  
+|`@man*`|Testo che inizia con **man** e senza distinzione tra maiuscole e minuscole.|  
 
 #### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un numero indefinito di caratteri non noti
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
-|`*Co*`|Testo contenente "Co" per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
-|`*Co`|Testo che termina con "Co" e per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
-|`Co*`|Testo che inizia con "Co" e per il quale viene osservata la distinzione tra maiuscole e minuscole.|  
+|`*Co*`|Testo contenente **Co** e con distinzione tra maiuscole e minuscole.|  
+|`*Co`|Testo che termina con **Co** e con distinzione tra maiuscole e minuscole.|  
+|`Co*`|Testo che inizia con **Co** e con distinzione tra maiuscole e minuscole.|  
 
 #### <a name="-one-unknown-character"></a>(?) Un carattere non noto  
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
-|`Hans?n`|Testo come Marco o Mario|  
+|`Hans?n`|Testo come **Marco** o **Mario**|  
 
 #### <a name="combined-format-expressions"></a>Espressioni di formato combinate  
 
@@ -244,8 +249,23 @@ Le seguenti sezioni descrivono come utilizzare i diversi operatori.
 |`..1299|1400..`|Include record con un numero minore o uguale a 1299 oppure un numero uguale a 1400 o maggiore, vale a dire tutti i numeri tranne quelli compresi tra 1300 e 1399.|  
 |`>50&<100`|Include record con numeri maggiori di 50 e minori di 100, vale a dire i numeri compresi tra 51 e 99.|  
 
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrare in base a valori che contengono simboli
+
+Potrebbero verificarsi casi in cui i valori dei campi contengono uno dei seguenti simboli:
+
+- &
+- (
+- )
+- =
+- &#124;
+
+Se si desidera filtrare in base a uno qualsiasi di questi simboli, inserire l'espressione di filtro tra virgolette (""). Ad esempio, se si desidera filtrare i record che iniziano con il testo *J & V*, l'espressione di filtro è `'J & V*'`.
+
+Questo requisito non è necessario per altri simboli.
+
 ### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Token di filtro
-Quando si immettono i criteri di filtro, è anche possibile digitare parole che hanno un significato speciale, chiamate token di filtro. Dopo aver immesso la parola token, la parola viene sostituita dal valore o dai valori che rappresenta. Ciò semplifica il filtro riducendo la necessità di passare ad altre pagine per cercare i valori che si desidera aggiungere al filtro. Le tabelle seguenti descrivono alcuni dei token che è possibile immettere a questo scopo.
+
+Quando si immettono i criteri di filtro, è anche possibile digitare parole che hanno un significato speciale, chiamate token di filtro. Dopo aver immesso la parola token, la parola viene sostituita dal valore o dai valori che rappresenta. I token di filtro semplificano l'operazione di filtro riducendo la necessità di passare ad altre pagine per cercare i valori che si desidera aggiungere al filtro. Le tabelle seguenti descrivono alcuni dei token che è possibile immettere a questo scopo.
 
 > [!TIP]
 > Un'organizzazione potrebbe utilizzare token personalizzati. Per informazioni sul set completo di token disponibili o per aggiungere altri token personalizzati, contattare l'amministratore. Per informazioni tecniche vedere [Aggiunta di token di filtro](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
@@ -286,4 +306,4 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

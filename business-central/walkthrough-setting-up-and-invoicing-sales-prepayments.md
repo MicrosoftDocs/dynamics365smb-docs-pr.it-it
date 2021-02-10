@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914812"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756419"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in [!INCLUDE[d365fin](includes/d365fin_md.md)]  consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.  
+I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. La società può richiedere un deposito prima di produrre gli articoli oppure esigere il pagamento prima di spedire gli articoli al cliente. La funzionalità di pagamento anticipato in [!INCLUDE[prod_short](includes/prod_short.md)]  consente di fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.  
 
  I requisiti del pagamento anticipato possono essere definiti per un cliente o un fornitore per tutti gli articoli o solo per alcuni. Una volta definite le impostazioni necessarie, è possibile generare fatture di pagamento anticipato da ordini di vendita o di acquisto per l'importo calcolato. È possibile modificare gli importi di default nella fattura in base alle esigenze. Ad esempio, è possibile inviare ulteriori fatture di pagamento anticipato se vengono aggiunti altri articoli all'ordine.  
 
@@ -43,7 +43,7 @@ I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un o
 -   Amministratore contabilità clienti (Armando Pinto)  
 
 ## <a name="story"></a>Scenario  
- Barbara Zighetti è un manager contabilità. Spetta a lei decidere quali clienti devono versare un deposito prima che gli articoli siano lavorati o spediti. Barbara imposta [!INCLUDE[d365fin](includes/d365fin_md.md)] per calcolare i pagamenti anticipati automaticamente.  
+ Barbara Zighetti è un manager contabilità. Spetta a lei decidere quali clienti devono versare un deposito prima che gli articoli siano lavorati o spediti. Barbara imposta [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare i pagamenti anticipati automaticamente.  
 
  Elisabetta Scotti è un gestore ordini di vendita. Quando un cliente chiama per effettuare un ordine, inserisce l'ordine nel sistema mentre il cliente è al telefono. In questo modo, può verificare subito i prezzi e le condizioni di pagamento con il cliente e può procedere alle rettifiche all'ordine mentre negozia con il cliente.  
 
@@ -208,14 +208,14 @@ Armando può visualizzare lo storico per verificare che la fattura di vendita si
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
 
 ## <a name="next-steps"></a>Passaggi successivi  
-In questa procedura dettagliata sono stati esaminati i passaggi necessari per impostare la funzione di gestione dei pagamenti anticipati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sono state impostate le percentuali di pagamento anticipato di default per clienti e articoli e sono stati inoltre utilizzati diversi metodi per calcolare il pagamento anticipato per un ordine. Si è cercato anche di assegnare un intero importo di pagamento anticipato all'ordine e calcolare la percentuale dell'anticipo rispetto all'ordine totale.  
+In questa procedura dettagliata sono stati esaminati i passaggi necessari per impostare la funzione di gestione dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)]. Sono state impostate le percentuali di pagamento anticipato di default per clienti e articoli e sono stati inoltre utilizzati diversi metodi per calcolare il pagamento anticipato per un ordine. Si è cercato anche di assegnare un intero importo di pagamento anticipato all'ordine e calcolare la percentuale dell'anticipo rispetto all'ordine totale.  
 
 Inoltre, è stata registrata una fattura di pagamento anticipato, creata una fattura per un secondo pagamento anticipato in seguito alla modifica dell'ordine e registrata la fattura finale per l'importo residuo.  
 
-La funzionalità dei pagamenti anticipati in [!INCLUDE[d365fin](includes/d365fin_md.md)] agevola l'impostazione e l'applicazione di regole di pagamento anticipato per clienti e articoli e consente di registrare ogni pagamento a fronte di una fattura.  
+La funzionalità dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)] agevola l'impostazione e l'applicazione di regole di pagamento anticipato per clienti e articoli e consente di registrare ogni pagamento a fronte di una fattura.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)

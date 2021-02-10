@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912873"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757744"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
@@ -28,7 +28,7 @@ Una delle migliori basi per la selezione di un metodo di riordino è la classifi
 |B|20|20|
 |C|60-70|10-30|
 
-La classificazione ABC stabilisce che è possibile risparmiare tempo e denaro applicando un controllo meno restrittivo agli articoli con un valore-volume basso rispetto agli articoli con un valore-volume alto. L'esempio seguente mostra quale metodo di riordino in [!INCLUDE[d365fin](includes/d365fin_md.md)] è più appropriato per gli articoli con classificazione A, B e C rispettivamente.
+La classificazione ABC stabilisce che è possibile risparmiare tempo e denaro applicando un controllo meno restrittivo agli articoli con un valore-volume basso rispetto agli articoli con un valore-volume alto. L'esempio seguente mostra quale metodo di riordino in [!INCLUDE[prod_short](includes/prod_short.md)] è più appropriato per gli articoli con classificazione A, B e C rispettivamente.
 
 ![Classificazione di ABC](media/abc_classification.png "abc_classification")
 
@@ -45,4 +45,4 @@ Nella seguente tabella vengono fornite le procedure consigliate per la selezione
  [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)   
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918894"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758594"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcolo della data per gli acquisti
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.  
 
 Se si specifica una data di carico richiesta nella testata di un ordine di acquisto, la data dell'ordine calcolata è la data in cui si deve effettuare l'ordine per ricevere gli articoli alla data richiesta. Quindi, la data in cui gli articoli saranno disponibili per il prelievo viene calcolata e immessa nel campo **Data carico prevista**.  
 
@@ -50,7 +50,7 @@ Se si modifica la data dell'ordine nell'intestazione, questa viene copiata nel c
 
 ## <a name="default-values-for-lead-time-calculation"></a>Valori predefiniti per il calcolo del lead time
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilizza il valore del campo **Calcolo lead time** nella riga dell'ordine acquisto per calcolare l'ordine e le date carico previste.  
+[!INCLUDE[prod_short](includes/prod_short.md)] utilizza il valore del campo **Calcolo lead time** nella riga dell'ordine acquisto per calcolare l'ordine e le date carico previste.  
 
 È possibile specificare manualmente il valore sulla riga o lasciare che il programma utilizzi i valori definiti nella scheda fornitore, nella scheda articolo, nella scheda unità di stockkeeping o nel catalogo del fornitore articolo.
 Tuttavia, il valore del lead time sulla scheda fornitore viene utilizzato solo se non è specificato un lead time nella scheda articolo, nella scheda unità di stockkeeping o nel catalogo fornitore per l'articolo. Questo è anche l'ordine di priorità di riassegnazione per questi valori. Se sono tutti forniti, il lead time dalla scheda fornitore ha la priorità più bassa e il lead time dal catalogo fornitore dell'articolo ha la priorità più alta.  
@@ -59,4 +59,4 @@ Tuttavia, il valore del lead time sulla scheda fornitore viene utilizzato solo s
 
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

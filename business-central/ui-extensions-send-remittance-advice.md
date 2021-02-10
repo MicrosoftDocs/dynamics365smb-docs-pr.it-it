@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ae8d131b714b0d7ffb60727d1a991cd6e4ab692
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912223"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757069"
 ---
 # <a name="send-remittance-advice"></a>Invia avviso di rimessa
 
@@ -32,6 +32,6 @@ Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono
 ## <a name="see-also"></a>Vedere anche
 
 [Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  

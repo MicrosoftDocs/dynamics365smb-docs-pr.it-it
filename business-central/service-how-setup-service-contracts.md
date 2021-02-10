@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910307"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757919"
 ---
 # <a name="set-up-service-contracts"></a>Impostare i contratti di assistenza
 Prima di poter utilizzare i contratti, è necessario impostare quanto segue: 
@@ -23,7 +23,7 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 * **Gruppi contratti assistenza**: raggruppano i contratti di assistenza in qualche modo correlati tra di loro.
 * **Gruppi conto del contratto di assistenza**: raggruppano i conti dei contratti di assistenza per le fatture di assistenza create per i contratti di assistenza. È possibile assegnare tali gruppi ai contratti di assistenza.  
 * **Modelli di contratto**: definiscono i layout dei contratti che includono i dettagli dei contratti di assistenza utilizzati più comunemente. È possibile creare le offerte di contratto di assistenza utilizzando i modelli. Quando si crea un'offerta di contratto, i campi vengono automaticamente riempiti con il contenuto dei campi del modello.
-* **Modelli clienti**: consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Modelli clienti**: consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Per impostare un gruppo di contratti di assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi contratti assistenza** e quindi scegliere il collegamento correlato.  

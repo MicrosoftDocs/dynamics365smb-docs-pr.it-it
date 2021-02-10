@@ -10,25 +10,25 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915212"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757294"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Estensioni cloud intelligente per la migrazione al cloud
 
-A seconda della soluzione locale, è necessario utilizzare estensioni diverse per connettere i dati con [!INCLUDE[prodshort](includes/prodshort.md)] online allo scopo di migrare la soluzione nel cloud.  
+A seconda della soluzione locale, è necessario utilizzare estensioni diverse per connettere i dati con [!INCLUDE[prod_short](includes/prod_short.md)] online allo scopo di migrare la soluzione nel cloud.  
 
-Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente cloud basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente cloud, sarà possibile migrare i dati dalla soluzione locale a [!INCLUDE[prodshort](includes/prodshort.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
+Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente cloud basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente cloud, sarà possibile migrare i dati dalla soluzione locale a [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
 
-Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].  
+Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central in locale
 
-Se si utilizza una distribuzione locale di [!INCLUDE[prodshort](includes/prodshort.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+Se si utilizza una distribuzione locale di [!INCLUDE[prod_short](includes/prod_short.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 

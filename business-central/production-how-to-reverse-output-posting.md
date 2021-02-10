@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b33b0642d8cee6e26edeeece47c8fceb72c2bfa1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed275469dd172af43ceb96b85d5ac0aa99e96a2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921569"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759044"
 ---
 # <a name="reverse-output-posting"></a>Stornare la registrazione dell'output
 La registrazione dell'output deve essere stornata in tre casi diversi. È possibile, ad esempio, che si verifichi un errore di immissione dei dati e che in un ordine di produzione venga registrata una quantità di output non corretta.  
@@ -34,4 +34,4 @@ I movimenti delle registrazioni di output verranno registrati nei movimenti cont
  [Pianif.](production-planning.md)      
  [Magazzino](inventory-manage-inventory.md)  
  [Acquisti](purchasing-manage-purchasing.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

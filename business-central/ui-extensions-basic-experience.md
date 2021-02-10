@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7377d1413e2f1969543374f1b819e6fc8a2a263
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927690"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757344"
 ---
 # <a name="the-basic-experience-extension"></a>Estensione dell'esperienza di base
-Se è stato utilizzato Microsoft Dynamics C5, i partner Microsoft possono aiutare a passare a una soluzione più moderna basata su [!INCLUDE[d365fin](includes/d365fin_md.md)], in modo da poter continuare a godere delle stesse funzionalità semplificate di Dynamics C5.
+Se è stato utilizzato Microsoft Dynamics C5, i partner Microsoft possono aiutare a passare a una soluzione più moderna basata su [!INCLUDE[prod_short](includes/prod_short.md)], in modo da poter continuare a godere delle stesse funzionalità semplificate di Dynamics C5.
 
-Questa estensione è destinata alle piccole imprese e può supportare fino a tre utenti. Se sono necessari più utenti, eseguire l'aggiornamento a una licenza [!INCLUDE[d365fin](includes/d365fin_md.md)] e disinstallare questa estensione.
+Questa estensione è destinata alle piccole imprese e può supportare fino a tre utenti. Se sono necessari più utenti, eseguire l'aggiornamento a una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e disinstallare questa estensione.
 
 > [!NOTE]
 > Al momento, questa estensione è disponibile solo per i clienti in Danimarca e Islanda. 
@@ -39,7 +39,7 @@ La tabella seguente descrive le funzionalità disponibili se si installa l'esten
 ## <a name="getting-started"></a>Introduzione
 Questa estensione è leggermente diversa dalla maggior parte e sarà necessario l'aiuto di un partner Microsoft per installarla e configurarla. Solo per sapere cosa aspettarsi, ecco una visualizzazione ad alto livello di ciò che farà il partner Microsoft.
 
-1. Creare un nuovo tenant [!INCLUDE[d365fin](includes/d365fin_md.md)]. Può essere una versione di prova o CSP.
+1. Creare un nuovo tenant [!INCLUDE[prod_short](includes/prod_short.md)]. Può essere una versione di prova o CSP.
 2. Aggiungere almeno un utente assegnato a una licenza dell'esperienza di base nell'account Azure Active Directory.
 3. Rimuovere tutte le società, inclusa la società Cronus di esempio.
 4. Creare una nuova società che non contenga dati o configurazioni di esempio.
@@ -47,7 +47,7 @@ Questa estensione è leggermente diversa dalla maggior parte e sarà necessario 
 6. Scaricare e installare l'estensione dell'esperienza di base da AppSource.
 
 ## <a name="migrating-data"></a>Migrazione dei dati
-Portare con se i propri dati Dynamics C5. Dopo che il partner Microsoft avrà installato l'estensione dell'esperienza di base, sarà disponibile un'azienda vuota. Un modo semplice per spostare i dati da Dynamics C5 all'esperienza di base consiste nell'utilizzare l'estensione Migrazione dei dati C5, inclusa in [!INCLUDE[d365fin](includes/d365fin_md.md)]. L'estensione esegue la migrazione di clienti, fornitori, articoli, conti di contabilità generale e relativi movimenti.
+Portare con se i propri dati Dynamics C5. Dopo che il partner Microsoft avrà installato l'estensione dell'esperienza di base, sarà disponibile un'azienda vuota. Un modo semplice per spostare i dati da Dynamics C5 all'esperienza di base consiste nell'utilizzare l'estensione Migrazione dei dati C5, inclusa in [!INCLUDE[prod_short](includes/prod_short.md)]. L'estensione esegue la migrazione di clienti, fornitori, articoli, conti di contabilità generale e relativi movimenti.
 
 ## <a name="see-also"></a>Vedere anche
 [Estensione di migrazione dati C5](ui-extensions-c5-data-migration.md)
