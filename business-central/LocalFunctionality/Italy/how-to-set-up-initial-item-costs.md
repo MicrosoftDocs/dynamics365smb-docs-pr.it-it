@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b162866b8ab2efe59a4ea840fe3615124bbe3f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed6b4ae96b1903dac7c02f346b3640ddbc6e5165
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919967"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747487"
 ---
 # <a name="set-up-initial-item-costs"></a>Impostare i costi iniziali per gli articoli
-Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nell'organizzazione.  
+Quando si imposta [!INCLUDE[prod_short](../../includes/prod_short.md)] nell'organizzazione.  
 
 Nella pagina **Costo articolo prima dell'inizio**, è possibile immettere informazioni sugli articoli di magazzino, ad esempio i costi dei componenti, i costi dei cicli e i costi generali.  
 

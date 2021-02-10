@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918690"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748045"
 ---
 # <a name="create-service-orders"></a>Creare ordini di assistenza
 La pagina **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.  
@@ -52,7 +52,7 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
+In [!INCLUDE[prod_short](includes/prod_short.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta di assistenza da convertire in un ordine di assistenza.  

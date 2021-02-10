@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917603"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752007"
 ---
 # <a name="application-compliance"></a>Conformità dell'applicazione
 
-Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)], come i principi IFRS, la funzionalità locale, GDPR e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.
+Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)], come i principi IFRS, la funzionalità locale, GDPR e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.
 
 ## <a name="data-privacy"></a>Privacy dati
 
@@ -108,5 +108,5 @@ Microsoft crea versioni localizzate di Business Central per un numero limitato d
 [Conformità dell'assistenza](compliance-service-compliance.md)  
 [Certificazioni](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

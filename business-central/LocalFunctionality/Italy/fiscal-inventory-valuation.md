@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76b536f4328ac4d96160a182a6c46487a7c6f0a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e170cae333f569cde5775dc4b3a0adef9b965354
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920001"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747497"
 ---
 # <a name="fiscal-inventory-valuation"></a>Valutazione magazzino fiscale
 È necessario inviare un report annuale che indichi il valore monetario degli articoli di magazzino per l'anno fiscale. A seconda dei requisiti italiani per la valutazione del magazzino fiscale, è necessario calcolare i seguenti tipi di costi:  
@@ -26,10 +26,10 @@ ms.locfileid: "3920001"
 - Costo LIFO (Last-In-First-Out)  
 - Costo LIFO discreto  
 
-## <a name="fiscal-inventory-valuation-in-d365fin"></a>Valutazione magazzino fiscale in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## <a name="fiscal-inventory-valuation-in-prod_short"></a>Valutazione magazzino fiscale in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 Inizialmente, è necessario impostare la valutazione magazzino fiscale per tutti i tipi di costo nella pagina **Setup costing articolo** e nella pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md).  
 
-Quando si imposta [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è necessario immettere i movimenti contabili del magazzino per il primo anno per calcolare la valutazione dell'articolo. È possibile effettuare questa operazione nella pagina Costo articolo prima dell'inizio.  
+Quando si imposta [!INCLUDE[prod_short](../../includes/prod_short.md)], è necessario immettere i movimenti contabili del magazzino per il primo anno per calcolare la valutazione dell'articolo. È possibile effettuare questa operazione nella pagina Costo articolo prima dell'inizio.  
 
 Per calcolare il costo LIFO discreto, è necessario impostare le informazioni nella pagina **Scheda articolo** e nella pagina **Prezzi Conto Lavoro**.
 

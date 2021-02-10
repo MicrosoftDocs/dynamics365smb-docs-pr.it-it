@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920649"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749246"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
@@ -51,7 +51,7 @@ Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Per impostare le definizioni registrazioni dei cespiti
 Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
-Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la pagina **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
+Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[prod_short](includes/prod_short.md)] si apre la pagina **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. registrazioni cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
@@ -64,7 +64,7 @@ Una definizione delle registrazioni cespiti viene creata automaticamente la prim
 3. Nella pagina **Batch registrazioni cespiti** compilare i campi in base alle esigenze.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Per impostare le definizioni registrazioni di riclassificazione dei cespiti
-È possibile utilizzare le registrazioni di riclassificazione dedicate per trasferire, suddividere o raggruppare i cespiti. Le registrazioni di riclassificazione dei cespiti vengono create automaticamente la prima volta che in [!INCLUDE[d365fin](includes/d365fin_md.md)] si apre la pagina **Reg. ricl. cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni di riclassificazione cespiti. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
+È possibile utilizzare le registrazioni di riclassificazione dedicate per trasferire, suddividere o raggruppare i cespiti. Le registrazioni di riclassificazione dei cespiti vengono create automaticamente la prima volta che in [!INCLUDE[prod_short](includes/prod_short.md)] si apre la pagina **Reg. ricl. cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni di riclassificazione cespiti. Per ulteriori informazioni, vedere [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Def. reg. riclass. cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
@@ -95,7 +95,7 @@ I codici di ubicazione cespiti consentono di registrare l'ubicazione del cespite
 2. Immettere i codici e i nomi delle ubicazioni cespiti da creare.
 
 ## <a name="to-register-opening-entries"></a>Per registrare movimenti di apertura
-Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_md.md)] per la prima volta, occorre innanzitutto impostare l'area di applicazione contabilità generale prima di impostare i cespiti. Le modalità del procedimento dipendono dall'eventuale integrazione dei cespiti nella contabilità generale.  
+Nel caso in cui si utilizzino i cespiti in [!INCLUDE[prod_short](includes/prod_short.md)] per la prima volta, occorre innanzitutto impostare l'area di applicazione contabilità generale prima di impostare i cespiti. Le modalità del procedimento dipendono dall'eventuale integrazione dei cespiti nella contabilità generale.  
 
  La seguente procedura viene utilizzata se le transazioni cespiti devono essere registrate in contabilità generale.  
 
@@ -110,7 +110,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[d365fin](includes/d365fin_m
 7. Nelle registrazioni cespiti immettere le seguenti righe per ogni cespite:
    * Una riga con il costo di acquisto.
    * Una riga con il fondo ammortamento alla fine dell'anno fiscale precedente.
-   * Una riga con il fondo ammortamento dall'inizio dell'anno fiscale corrente alla data in cui [!INCLUDE[d365fin](includes/d365fin_md.md)] è impostato per iniziare il calcolo dell'ammortamento.
+   * Una riga con il fondo ammortamento dall'inizio dell'anno fiscale corrente alla data in cui [!INCLUDE[prod_short](includes/prod_short.md)] è impostato per iniziare il calcolo dell'ammortamento.
 
     È possibile ora inserire anche gli altri eventuali saldi di apertura, ad esempio svalutazione e rivalutazione.  
 8. Dopo aver immesso e registrato le righe delle registrazioni per ogni cespite, abilitare l'integrazione con la contabilità generale nel registro beni ammortizzabili.
@@ -122,4 +122,4 @@ Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913198"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747995"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una pagina **Compiti di assistenza** che fornisce una sintesi di tutti gli articoli in assistenza che richiedono attenzione. È possibile considerarla una sorta di pannello di comando dell'assistenza, da dove poter visualizzare gli ordini in sospeso, cercare e registrare pezzi di ricambio e mantenere aggiornato il magazzino.  
+[!INCLUDE[prod_short](includes/prod_short.md)] dispone di una pagina **Compiti di assistenza** che fornisce una sintesi di tutti gli articoli in assistenza che richiedono attenzione. È possibile considerarla una sorta di pannello di comando dell'assistenza, da dove poter visualizzare gli ordini in sospeso, cercare e registrare pezzi di ricambio e mantenere aggiornato il magazzino.  
 
-Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento dell'attività di assistenza, si possono utilizzare gli strumenti statistici di [!INCLUDE[d365fin](includes/d365fin_md.md)] , che consentono di generare rapidamente e automaticamente grafici e analisi di vario tipo.  
+Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento dell'attività di assistenza, si possono utilizzare gli strumenti statistici di [!INCLUDE[prod_short](includes/prod_short.md)] , che consentono di generare rapidamente e automaticamente grafici e analisi di vario tipo.  
 
 ## <a name="to-work-on-a-service-task"></a>Per utilizzare un compito di assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Compiti assistenza** e quindi scegliere il collegamento correlato.

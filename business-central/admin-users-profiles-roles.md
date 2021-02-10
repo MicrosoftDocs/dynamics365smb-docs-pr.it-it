@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922294"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745987"
 ---
 # <a name="manage-profiles"></a>Gestire profili
 
-A tutti gli utenti di [!INCLUDE[d365fin](includes/d365fin_md.md)] viene assegnato un profilo che ne riflette il ruolo aziendale, il reparto in cui lavorano o un'altra categorizzazione. I profili consentono agli amministratori di definire e gestire centralmente ciò che i vari tipi di utenti possono vedere e fare nell'interfaccia utente in modo da poter eseguire le proprie attività aziendali in modo efficiente.
+A tutti gli utenti di [!INCLUDE[prod_short](includes/prod_short.md)] viene assegnato un profilo che ne riflette il ruolo aziendale, il reparto in cui lavorano o un'altra categorizzazione. I profili consentono agli amministratori di definire e gestire centralmente ciò che i vari tipi di utenti possono vedere e fare nell'interfaccia utente in modo da poter eseguire le proprie attività aziendali in modo efficiente.
 
 > [!NOTE]
 > L'uso aziendale tipico di un profilo è un ruolo. Un profilo viene quindi denominato *Profilo (ruolo)* nell'interfaccia utente.
@@ -81,14 +81,14 @@ Quando si crea un profilo, è possibile selezionare diverse caselle di controllo
     - **Mostra in Esplora ruoli** per specificare se le azioni per le funzionalità aziendali incluse nel profilo vengono visualizzate nella vista estesa di Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Per esportare profili
-Puoi esportare i profili da [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio per riutilizzarli in un altro tenant. I profili vengono esportati in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedere [Utilizzo del client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Puoi esportare i profili da [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per riutilizzarli in un altro tenant. I profili vengono esportati in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedere [Utilizzo del client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Nella pagina **Profili (ruoli)**, scegliere l'azione **Esporta profili**.
 
 Viene esportato un file zip con i file .al per tutti i profili.
 
 ## <a name="to-import-profiles"></a>Per importare profili
-Puoi importare i profili che sono stati esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. I passaggi sono più o meno l'opposto dei passaggi per esportare i profili. Per ulteriori informazioni, vedere [Per esportare profili](admin-users-profiles-roles.md#to-export-profiles).
+Puoi importare i profili che sono stati esportati da [!INCLUDE[prod_short](includes/prod_short.md)]. I passaggi sono più o meno l'opposto dei passaggi per esportare i profili. Per ulteriori informazioni, vedere [Per esportare profili](admin-users-profiles-roles.md#to-export-profiles).
 
 1. Nella pagina **Profili (ruoli)**, scegliere l'azione **Importa profili**.
 2. Segui i passaggi della procedura guidata **Importa profili**.
@@ -127,7 +127,7 @@ L'utente visualizzerà le modifiche all'accesso successivo.
     La pagina **Personalizzazioni pagine utente** elenca tutte le pagine che sono state personalizzate e l'utente a cui appartengono.
 
     > [!Note]
-    > Un segno di spunta nel campo **Personalizzazione legacy** indica che la personalizzazione è stata effettuata in una versione precedente di [!INCLUDE[d365fin](includes/d365fin_md.md)] che gestiva la personalizzazione in modo diverso. Gli utenti che provano a personalizzare queste pagine vengono bloccati a meno che non scelgano di sbloccare la pagina. Per ulteriori informazioni, vedere [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md).
+    > Un segno di spunta nel campo **Personalizzazione legacy** indica che la personalizzazione è stata effettuata in una versione precedente di [!INCLUDE[prod_short](includes/prod_short.md)] che gestiva la personalizzazione in modo diverso. Gli utenti che provano a personalizzare queste pagine vengono bloccati a meno che non scelgano di sbloccare la pagina. Per ulteriori informazioni, vedere [Perché la personalizzazione di una pagina è bloccata](ui-personalization-locked.md).
 
 2. Selezionare la riga per la personalizzazione da eliminare, quindi scegliere l'azione **Elimina**.
 
@@ -137,9 +137,9 @@ L'utente visualizzerà le modifiche dopo l'accesso successivo.
 
 ## <a name="managing-user-sessions"></a>Gestione delle sessioni utente
 
-Come amministratore di [!INCLUDE[prodshort](includes/prodshort.md)] online, è possibile gestire le sessioni utente nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) nel contenuto amministrativo.  
+Come amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] online, è possibile gestire le sessioni utente nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) nel contenuto amministrativo.  
 
-Per [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
+Per [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Vedere anche  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  

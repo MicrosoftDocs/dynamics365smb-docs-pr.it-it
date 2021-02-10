@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5bbf87d8241d57c40c028a06d7af6269c5af6d6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84c10ffa100607c2f2dfca361de83361f8441928
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910607"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748920"
 ---
 # <a name="record-usage-for-jobs"></a>Registrare l'utilizzo nelle commesse
 
@@ -103,4 +103,4 @@ Dopo avere registrato le righe di registrazione commessa registrate, è possibil
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

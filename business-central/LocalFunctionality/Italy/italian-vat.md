@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5e908f2c5465e001c318f1c96d27e8c877b8590
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92cc500a74f379656f66005b2804e62572f56f7d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919953"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747481"
 ---
 # <a name="italian-vat"></a>IVA italiana
 
 Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
 
- In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile definire i report periodici IVA nella pagina **Report IVA**. È possibile compilare le righe in base ai movimenti IVA, quindi esportare il report IVA alle autorità competenti.  
+ In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile definire i report periodici IVA nella pagina **Report IVA**. È possibile compilare le righe in base ai movimenti IVA, quindi esportare il report IVA alle autorità competenti.  
 
 ## <a name="vat-codes-and-rates"></a>Codici e aliquote IVA
 
@@ -50,7 +50,7 @@ In Italia, i report elenco vendite UE (Intrastat) ed elenco annuale vengono aggi
 
 ## <a name="vat-transaction-reports"></a>Report transazioni IVA
 
-È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. Le transazioni con clienti o fornitori dai paesi inclusi nella blacklist sono riportate nel report **Report comunicazioni blacklist**. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] fornisce il supporto per i seguenti tipi di transazione:  
+È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. Le transazioni con clienti o fornitori dai paesi elencati come bloccati sono riportate nel report **Report comunicazioni blacklist**. [!INCLUDE[prod_short](../../includes/prod_short.md)] fornisce il supporto per i seguenti tipi di transazione:  
 
 |**Tipo di transazione**|**Supportata**|
 |--------------------|-------------|  
@@ -62,7 +62,7 @@ In Italia, i report elenco vendite UE (Intrastat) ed elenco annuale vengono aggi
 |FN - Fatture cliente, quando il cliente non è residente|Sì|  
 |SE - Fatture fornitore, quando il fornitore non è residente|Sì **Nota:** si presume l'acquisto dei servizi, ma la differenziazione tra beni e servizi deve essere implementata dall'utente.|  
 
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] non dichiara i seguenti tipi di transazioni:  
+ [!INCLUDE[prod_short](../../includes/prod_short.md)] non dichiara i seguenti tipi di transazioni:  
 
 - Fatture pagamento anticipato, in quanto l'importo totale sarà riportato al momento della fattura finale.  
 
@@ -75,15 +75,15 @@ I report di transazioni IVA includono le righe in cui l'importo è oltre la sogl
 Le righe del documento contengono un campo per indicare se la riga deve essere inclusa nei report di transazione IVA. I campi **Includi in report transazioni IVA** vengono selezionati automaticamente in base al giorno della transazione e al confronto con l'importo di soglia dell'anno di calendario. Se le righe di vendita sono collegate a un ordine programmato, la soglia è confrontata con l'importo dell'ordine programmato. Questa opzione è valida solo per la riga di vendita di tipo **Articolo**. Per le righe di assistenza, il confronto viene eseguito con l'importo del contratto di assistenza.  
 
 > [!NOTE]  
-> Le note di credito vengono incluse nel report transazioni IVA se il cliente o il fornitore è di un paese esterno all'UE e non incluso nella blacklist.  
+> Le note di credito vengono incluse nel report transazioni IVA se il cliente o il fornitore è di un paese esterno all'UE e non incluso nella lista come bloccato.  
 
 Quando si registrano le note di credito, è necessario aggiornare il campo **Riferito a periodo** e specificare il periodo appropriato. I report di transazione IVA includono le note di credito in cui il campo **Riferito a periodo** è impostato su **Anno di calendario corrente** o **Anno di calendario precedente**.  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] aggiunto le note di credito ai report IVA in modi diversi a seconda dello stato dell'applicazione e del valore del campo **Riferito a periodo**. Nella seguente tabella vengono illustrate gli scenari.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] aggiunto le note di credito ai report IVA in modi diversi a seconda dello stato dell'applicazione e del valore del campo **Riferito a periodo**. Nella seguente tabella vengono illustrate gli scenari.  
 
 |Scenario|Impatto|  
 |--------------|------------|  
-|Una nota di credito è collegata a una singola fattura.<br /><br /> Il campo **Riferito a periodo** è impostato su **Anno di calendario corrente**.|Il campo **Nr. fattura** verrà impostato sul numero di documento della fattura.<br /><br /> Il campo **Data fattura** verrà impostato sulla data specificata nel campo **Data esecuzione operazione**<br /><br /> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sottrae l'importo della nota di credito dall'importo della fattura originale. Se l'importo risultante è oltre la soglia, sia la fattura che la nota di credito verranno incluse nel report di transazioni IVA. Se l'importo risultante è sotto la soglia, la fattura o la nota di credito non verranno incluse nel report di transazioni IVA.|  
+|Una nota di credito è collegata a una singola fattura.<br /><br /> Il campo **Riferito a periodo** è impostato su **Anno di calendario corrente**.|Il campo **Nr. fattura** verrà impostato sul numero di documento della fattura.<br /><br /> Il campo **Data fattura** verrà impostato sulla data specificata nel campo **Data esecuzione operazione**<br /><br /> [!INCLUDE[prod_short](../../includes/prod_short.md)] sottrae l'importo della nota di credito dall'importo della fattura originale. Se l'importo risultante è oltre la soglia, sia la fattura che la nota di credito verranno incluse nel report di transazioni IVA. Se l'importo risultante è sotto la soglia, la fattura o la nota di credito non verranno incluse nel report di transazioni IVA.|  
 |Una nota di credito è collegata a più fatture o non è collegata.<br /><br /> Il campo **Riferito a periodo** è impostato su **Anno di calendario corrente**.|Il campo **Data fattura** verrà impostato sull'ultimo giorno dell'anno specificato nel campo **Data esecuzione operazione**. Ad esempio, se il campo **Data esecuzione operazione** è **07-11-11**, il campo **Data fattura** verrà impostato su **31-12-11**.<br /><br /> Solo la nota di credito viene inclusa nel report di transazioni IVA.|  
 |Una nota di credito è collegata a più fatture o non è collegata.<br /><br /> Il campo **Riferito a periodo** è impostato su **Anno di calendario precedente**.|Il campo **Data fattura** verrà impostato sull'ultimo giorno dell'anno prima della data specificata nel campo **Data esecuzione operazione**. Ad esempio, se il campo **Data esecuzione operazione** è **07-11-11**, il campo **Data fattura** verrà impostato su **31-12-10**.<br /><br /> Solo la nota di credito viene inclusa nel report di transazioni IVA.|  
 
@@ -91,7 +91,7 @@ Quando i contratti di assistenza sono confrontati con la soglia, il campo **Impo
 
 Le transazioni con IVA intracomunitaria non sono incluse nei report di transazione IVA. Le transazioni con pagamenti anticipati non sono incluse nei report di transazione IVA.  
 
-Per prepararsi i dati per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA. Quando una transazione ad esempio la registrazione di una fattura di vendita viene eseguita utilizzando questo setup registrazioni IVA, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifica se la transazione soddisfa gli importi di soglia. Il controllo è basato sulle righe del documento perché un documento può contenere le righe che devono essere incluse nel report transazione IVA e le righe che devono essere escluse. I report di transazione IVA devono contiene solo le righe che devono essere inviate, pertanto [!INCLUDE[d365fin](../../includes/d365fin_md.md)] confronta gli importi con la soglia per ogni riga anziché per un documento.  
+Per prepararsi i dati per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA. Quando una transazione ad esempio la registrazione di una fattura di vendita viene eseguita utilizzando questo setup registrazioni IVA, [!INCLUDE[prod_short](../../includes/prod_short.md)] verifica se la transazione soddisfa gli importi di soglia. Il controllo è basato sulle righe del documento perché un documento può contenere le righe che devono essere incluse nel report transazione IVA e le righe che devono essere escluse. I report di transazione IVA devono contiene solo le righe che devono essere inviate, pertanto [!INCLUDE[prod_short](../../includes/prod_short.md)] confronta gli importi con la soglia per ogni riga anziché per un documento.  
 
 È necessario inviare il report transazioni IVA elettronicamente alle autorità fiscali. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 

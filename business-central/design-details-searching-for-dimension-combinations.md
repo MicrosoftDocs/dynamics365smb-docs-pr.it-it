@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c8fb1026c871efc1ce61b26e587399f91bdf718f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c3867c45f659f054a3bdee1605f2d8541e72dec1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910907"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751132"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
-Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
+Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[prod_short](includes/prod_short.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
 
 ## <a name="building-search-tree"></a>Creazione albero di ricerca  
- La tabella 481 **Nodo albero set di dimensioni** viene utilizzata quando [!INCLUDE[d365fin](includes/d365fin_md.md)] valuta se un set di dimensioni esiste già nella tabella 480 **Voce set di dimensioni**. La valutazione viene eseguita in modo ricorsivo lungo l'albero di ricerca a partire dal livello massimo con numero 0. Il livello massimo 0 rappresenta un set di dimensioni senza movimenti di set di dimensioni. I figli di questo set di dimensioni rappresentano i set di dimensioni con un solo movimento set di dimensioni. I figli di questi set di dimensioni rappresentano i set di dimensioni con due elementi figlio e così via.  
+ La tabella 481 **Nodo albero set di dimensioni** viene utilizzata quando [!INCLUDE[prod_short](includes/prod_short.md)] valuta se un set di dimensioni esiste già nella tabella 480 **Voce set di dimensioni**. La valutazione viene eseguita in modo ricorsivo lungo l'albero di ricerca a partire dal livello massimo con numero 0. Il livello massimo 0 rappresenta un set di dimensioni senza movimenti di set di dimensioni. I figli di questo set di dimensioni rappresentano i set di dimensioni con un solo movimento set di dimensioni. I figli di questi set di dimensioni rappresentano i set di dimensioni con due elementi figlio e così via.  
 
 ### <a name="example-1"></a>Esempio 1  
  Nel seguente diagramma viene rappresentato un albero di ricerca con sei set di dimensioni. Solo il movimento set di dimensioni distintivo viene visualizzato nel grafico.  
@@ -41,14 +41,14 @@ Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCL
 |Set 6|AREA 40, PROJ VW|  
 
 ### <a name="example-2"></a>Esempio 2  
- In questo esempio viene mostrato in che modo [!INCLUDE[d365fin](includes/d365fin_md.md)] valuta se è presente un set di dimensioni costituito da movimenti di set di dimensioni AREA 40, DEPT PROD.  
+ In questo esempio viene mostrato in che modo [!INCLUDE[prod_short](includes/prod_short.md)] valuta se è presente un set di dimensioni costituito da movimenti di set di dimensioni AREA 40, DEPT PROD.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiorna prima di tutto anche la tabella **Nodo albero set di dimensioni** per assicurarsi che l'albero di ricerca somigli al diagramma seguente. Pertanto il set di dimensioni 7 diventa un figlio del set di dimensioni 5.  
+ [!INCLUDE[prod_short](includes/prod_short.md)] aggiorna prima di tutto anche la tabella **Nodo albero set di dimensioni** per assicurarsi che l'albero di ricerca somigli al diagramma seguente. Pertanto il set di dimensioni 7 diventa un figlio del set di dimensioni 5.  
 
  ![Esempio di struttura ad albero dimensioni in NAV 2013](media/nav2013_dimension_tree_example2.png "Esempio di struttura ad albero dimensioni in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Ricerca ID set di dimensioni  
- A livello concettuale, i valori **ID padre**, **Dimensione** e **Valore dimensioni**, nell'albero di ricerca vengono combinati e utilizzati come chiave primaria perché [!INCLUDE[d365fin](includes/d365fin_md.md)] attraversa la struttura ad albero nello stesso ordine dei movimenti con dimensione. La funzione Get (record) viene utilizzata per cercare l'ID set di dimensioni. Nell'esempio di codice riportato di seguito viene illustrato come trovare l'ID set di dimensioni quando sono presenti tre valori di dimensione.  
+ A livello concettuale, i valori **ID padre**, **Dimensione** e **Valore dimensioni**, nell'albero di ricerca vengono combinati e utilizzati come chiave primaria perché [!INCLUDE[prod_short](includes/prod_short.md)] attraversa la struttura ad albero nello stesso ordine dei movimenti con dimensione. La funzione Get (record) viene utilizzata per cercare l'ID set di dimensioni. Nell'esempio di codice riportato di seguito viene illustrato come trovare l'ID set di dimensioni quando sono presenti tre valori di dimensione.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-Tuttavia, per mantenere la capacità di [!INCLUDE[d365fin](includes/d365fin_md.md)] di rinominare una dimensione e un valore di dimensione, la tabella 349, **Valore dimensioni**, viene estesa con un campo di numero intero, **ID valore dimensioni**. Questa tabella converte la coppia di campi, **Dimensione** e **Valore dimensioni**, in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
+Tuttavia, per mantenere la capacità di [!INCLUDE[prod_short](includes/prod_short.md)] di rinominare una dimensione e un valore di dimensione, la tabella 349, **Valore dimensioni**, viene estesa con un campo di numero intero, **ID valore dimensioni**. Questa tabella converte la coppia di campi, **Dimensione** e **Valore dimensioni**, in un valore intero. Quando si rinominano la dimensione e il valore di dimensione, il valore intero non viene modificato.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

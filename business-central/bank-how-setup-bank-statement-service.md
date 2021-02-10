@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924430"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752382"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 
 È possibile importare gli estratti conto bancari elettronici dalla banca per compilare rapidamente la pagina **Registrazione riconciliazione pagamenti** in modo da poter collegare i pagamenti e riconciliare il conto bancario. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> A causa della direttiva sui servizi di pagamento in Europa (PSD2), dopo il 14 settembre 2019, non sarà più possibile importare automaticamente gli estratti conto bancari dalle banche del Regno Unito in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stiamo esaminando la possibilità di offrire nuovamente questa funzionalità in futuro.
+> A causa della direttiva sui servizi di pagamento in Europa (PSD2), dopo il 14 settembre 2019, non sarà più possibile importare automaticamente gli estratti conto bancari dalle banche del Regno Unito in [!INCLUDE[prod_short](includes/prod_short.md)]. Stiamo esaminando la possibilità di offrire nuovamente questa funzionalità in futuro.
 
 > [!NOTE]
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo nella versione online di Business Central. Per utilizzare questa funzionalità in locale, è necessario ottenere un un conto cobrand di Envestnet ed è necessario aggiungere codice per l'integrazione con l'API Yodlee.
 >
 > Il servizio Envestnet Yodlee Bank Feeds è supportato solo negli Stati Uniti e in Canada.
-> Sono supportate solo le banche residenti in questi paesi, anche se le banche di altri paesi possono comparire nella finestra di selezione della banca Envestnet Yodlee Bank Feeds in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Sono supportate solo le banche residenti in questi paesi, anche se le banche di altri paesi possono comparire nella finestra di selezione della banca Envestnet Yodlee Bank Feeds in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Per assistenza tecnica con la funzionalità Envestnet Yodlee, contattare il supporto Microsoft. Non contattare Envestnet Yodlee. Per ulteriori informazioni, vedere [Configurazione del supporto tecnico per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-Il servizio Envestnet Yodlee Bank Feeds viene installato come un'estensione di [!INCLUDE[d365fin](includes/d365fin_md.md)] online ed è pronto per essere abilitato nei paesi supportati. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md).
+Il servizio Envestnet Yodlee Bank Feeds viene installato come un'estensione di [!INCLUDE[prod_short](includes/prod_short.md)] online ed è pronto per essere abilitato nei paesi supportati. Per maggiori informazioni, vedere [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md).
 
 Dopo avere abilitato il servizio di feed bancari, è necessario collegare un conto corrente bancario al conto corrente bancario online da cui deriva il feed. I conti correnti bancari vengono collegati a conti bancari online nelle seguenti situazioni:
 
-* Un conto corrente bancario non esiste in [!INCLUDE[d365fin](includes/d365fin_md.md)] per il conto corrente online. Di conseguenza, si crea il conto corrente bancario collegando il conto corrente bancario online.
-* Un conto corrente bancario esiste in [!INCLUDE[d365fin](includes/d365fin_md.md)] e si desidera collegarlo a un conto corrente bancario online.
+* Un conto corrente bancario non esiste in [!INCLUDE[prod_short](includes/prod_short.md)] per il conto corrente online. Di conseguenza, si crea il conto corrente bancario collegando il conto corrente bancario online.
+* Un conto corrente bancario esiste in [!INCLUDE[prod_short](includes/prod_short.md)] e si desidera collegarlo a un conto corrente bancario online.
 * Il collegamento di conto corrente bancario deve essere annullato perché non si desidera più usare il servizio di feed bancari per il conto.
-* I conti correnti bancari online sono stati modificati e si desidera aggiornare le informazioni sui conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* I conti correnti bancari online sono stati modificati e si desidera aggiornare le informazioni sui conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Quando il servizio di feed bancari è abilitato, è possibile impostare un conto corrente bancario per importare automaticamente nuovi estratti conto bancari nella pagina **Registrazione riconciliazione pagamenti** ogni di due ore. Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella pagina **Registrazione riconciliazione pagamenti** non verranno incluse. Per ulteriori informazioni, vedere la sezione "Per abilitare l'importazione automatica degli estratti conto bancari".
 
@@ -66,22 +66,22 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 3. Nella pagina **Collegamento conto bancario online** nel riquadro **Collegamento conto**, utilizzare la funzione di ricerca per trovare la banca presso cui si trovano uno o più conti correnti bancari online.
 4. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 5. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
-6. Il servizio di feed bancari prepara il collegamento del primo conto corrente bancario online della banca specificata a un nuovo conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+6. Il servizio di feed bancari prepara il collegamento del primo conto corrente bancario online della banca specificata a un nuovo conto corrente bancario in [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
-    > Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tali conti. Vedere i passaggi da 8 a 10.  
+    > Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[prod_short](includes/prod_short.md)] per tali conti. Vedere i passaggi da 8 a 10.  
 
     Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
 7. Scegliere il pulsante **OK**.
 
     Se si collega solo un conto corrente bancario online, la pagina **Scheda conto corrente bancario** si apre e visualizza il nome del conto corrente bancario online. Questo indica che l'attività di collegamento del conto corrente bancario è stata completata. L'unica cosa che rimane da fare è impostare il conto bancario. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).
 
-    Se si collegano più conti bancari online, si apre la pagina **Collegamento conto bancario** con un elenco dei conti bancari online aggiuntivi che non sono ancora collegati ai conti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In questo caso, seguire il passaggio successivo.  
+    Se si collegano più conti bancari online, si apre la pagina **Collegamento conto bancario** con un elenco dei conti bancari online aggiuntivi che non sono ancora collegati ai conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]. In questo caso, seguire il passaggio successivo.  
 8. Nella pagina **Collegamento conto bancario**, selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a nuovo conto bancario**.  
 
     Si apre la pagina **Scheda conto bancario** per un nuovo conto e visualizza il nome del conto bancario online.
 
-    Se un conto corrente bancario è già esistente in [!INCLUDE[d365fin](includes/d365fin_md.md)] al quale si desidera collegare il conto bancario online aggiuntivo, seguire il passaggio successivo.  
+    Se un conto corrente bancario è già esistente in [!INCLUDE[prod_short](includes/prod_short.md)] al quale si desidera collegare il conto bancario online aggiuntivo, seguire il passaggio successivo.  
 9. Nella pagina **Collegamento conto bancario**, selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a conto bancario esistente**.
 10. Nella pagina **Lista C/C bancari** selezionare il conto bancario per il quale si desidera effettuare il collegamento e quindi fare clic su **OK**.
 
@@ -91,7 +91,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 3. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 4. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
 
-    Il servizio di feed bancari prepara il collegamento del conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] al conto bancario online corrispondente.  
+    Il servizio di feed bancari prepara il collegamento del conto corrente bancario in [!INCLUDE[prod_short](includes/prod_short.md)] al conto bancario online corrispondente.  
 
     Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Se la banca ha più conti bancari, viene collegato solo il conto che è stato selezionato nel passaggio 2.  
 5. Scegliere il pulsante **OK**.
@@ -129,5 +129,5 @@ Ogni ora la pagina **Registrazione riconciliazione pagamenti** visualizzerà i n
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

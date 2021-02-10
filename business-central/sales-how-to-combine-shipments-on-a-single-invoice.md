@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 757f7cd38a6325df0e8dc0d283d58c42a8ab823e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925949"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748270"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
@@ -36,7 +36,7 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
 7. Per registrare la fattura scegliere l'azione **Registra**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 
+[!INCLUDE[prod_short](includes/prod_short.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture cumulative** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina di richiesta del processo batch.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,4 +61,4 @@ Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esemp
 
 ## <a name="see-also"></a>Vedere anche  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

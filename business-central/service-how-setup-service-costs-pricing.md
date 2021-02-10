@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925799"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748106"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Impostare prezzi e costi aggiuntivi per i servizi assistenza
-È possibile utilizzare le funzionalità di definizione dei prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)] per impostare e personalizzare l'applicazione in modo da poter applicare e rettificare i prezzi per articoli in assistenza, riparazioni e ordini. Queste decisioni relative ai prezzi potranno essere in seguito agevolmente trasmesse al processo di fatturazione.  
+È possibile utilizzare le funzionalità di definizione dei prezzi di [!INCLUDE[prod_short](includes/prod_short.md)] per impostare e personalizzare l'applicazione in modo da poter applicare e rettificare i prezzi per articoli in assistenza, riparazioni e ordini. Queste decisioni relative ai prezzi potranno essere in seguito agevolmente trasmesse al processo di fatturazione.  
   
 Come previsto dall'implementazione, si possono impostare gruppi di prezzi associandoli a specifici periodi di tempo, clienti o valute. È anche possibile impostare prezzi fissi, minimi o massimi, a seconda dei contratti di assistenza in atto con i vari clienti. Infine, in fase di rettifica dei prezzi, è possibile visualizzare e approvare le modifiche prima di applicarle alla contabilità.  
 

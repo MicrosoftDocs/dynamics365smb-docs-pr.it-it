@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912748"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747696"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
 Per supportare questi task specifici del settore commerciale, è possibile utilizzare un'ampia gamma di funzionalità generali commerciali, ad esempio la definizione del testo esteso per le righe del documento e l'organizzazione del collegamento dei task aziendali nei workflow.
 
@@ -50,7 +50,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

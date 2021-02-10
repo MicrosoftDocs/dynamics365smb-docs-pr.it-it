@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917528"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751732"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], non è possibile modificare un metodo di costing per un articolo dopo aver incluso l'articolo in una transazione. Ad esempio, dopo aver acquistato o venduto l'articolo. Se è stato assegnato un metodo di costing errato per l'articolo o gli articoli, è possibile che il problema non venga rilevato fino a quando non si esegue la rendicontazione finanziaria.
+In [!INCLUDE[prod_short](includes/prod_short.md)], non è possibile modificare un metodo di costing per un articolo dopo aver incluso l'articolo in una transazione. Ad esempio, dopo aver acquistato o venduto l'articolo. Se è stato assegnato un metodo di costing errato per l'articolo o gli articoli, è possibile che il problema non venga rilevato fino a quando non si esegue la rendicontazione finanziaria.
 
 Questo argomento descrive come risolvere questa situazione. L'approccio consigliato è quello di sostituire l'articolo con un metodo di costing errato con un nuovo articolo e utilizzare un ordine di assemblaggio per trasferire l'inventario dal vecchio articolo al nuovo.
 
@@ -35,7 +35,7 @@ I metodi di costing controllano i calcoli dei costi quando le merci vengono acqu
 
 *utile lordo* = *entrate - COGS*
 
-Quando si impostano gli articoli di inventario, è necessario assegnare un metodo di costing. Il metodo può variare da azienda a azienda e da articolo a articolo, quindi è importante scegliere quello giusto. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi di costing:
+Quando si impostano gli articoli di inventario, è necessario assegnare un metodo di costing. Il metodo può variare da azienda a azienda e da articolo a articolo, quindi è importante scegliere quello giusto. In [!INCLUDE[prod_short](includes/prod_short.md)] sono supportati i seguenti metodi di costing:
 
 * Media
 * FIFO
@@ -60,7 +60,7 @@ Questa sezione descrive i seguenti passaggi per modificare il metodo di costing 
 
 ### <a name="define-a-default-costing-method"></a>Definire il metodo di costing di default
 
-Per evitare errori futuri, è possibile specificare un metodo di costing predefinito per i nuovi articoli. Ogni volta che qualcuno crea un nuovo oggetto, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggerirà il metodo di costing predefinito. Si specifica il metodo predefinito nel campo **Metodo di costing di default** della pagina **Setup magazzino**. 
+Per evitare errori futuri, è possibile specificare un metodo di costing predefinito per i nuovi articoli. Ogni volta che qualcuno crea un nuovo oggetto, [!INCLUDE[prod_short](includes/prod_short.md)] suggerirà il metodo di costing predefinito. Si specifica il metodo predefinito nel campo **Metodo di costing di default** della pagina **Setup magazzino**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificare gli articoli per cui modificare il metodo di costing e rinumerarli
 
@@ -84,7 +84,7 @@ Per rendere completamente utili i nuovi articoli, è necessario copiare manualme
 |     |Registrazioni standard         |Verificare se le registrazioni standard fanno riferimento all'articolo originale e trasferire tali dati al nuovo articolo quando necessario. Queste informazioni sono disponibili nelle registrazioni standard, che sono disponibili nella registrazione magazzino.          |
 |Vendite     |Percentuale pagamenti anticipati vendite         | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato**.        |
 |Acquisti     |Percentuale pagamento anticipato acquisti         |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato**.                 |
-|Warehouse     |Contenuto collocazioni         |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[d365fin](includes/d365fin_md.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
+|Warehouse     |Contenuto collocazioni         |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[prod_short](includes/prod_short.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
 |Commessa     |Costi commessa         |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni**.         |
 |Assistenza     |Competenza risorsa in assistenza         |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo**.          |
 |     |Componenti articolo in assistenza         |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti**.          |
@@ -169,7 +169,7 @@ Quando l'inventario per l'articolo originale è zero, è possibile bloccare l'ar
 
 ## <a name="summary"></a>Riepilogo
 
-La modifica del metodo di costing per gli articoli che sono stati utilizzati nelle transazioni è un processo e non un'azione standard in [!INCLUDE[d365fin](includes/d365fin_md.md)]. È possibile utilizzare i passaggi descritti in questo argomento come modello per il processo.
+La modifica del metodo di costing per gli articoli che sono stati utilizzati nelle transazioni è un processo e non un'azione standard in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile utilizzare i passaggi descritti in questo argomento come modello per il processo.
 
 Il processo può richiedere molto tempo perché ci sono diversi passaggi manuali. Tuttavia, dedicare del tempo per completarlo riduce l'impatto degli errori sulla contabilità generale.
 

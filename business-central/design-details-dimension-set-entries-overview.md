@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98916c0843d84c76529e7b6f475ba207b2590a08
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911182"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751682"
 ---
 # <a name="dimension-set-entries-overview"></a>Sintesi movimenti set di dimensioni
-In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Set di dimensioni  
 Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene archiviato come movimenti set di dimensioni nel database. Ogni movimento set di dimensioni rappresenta un valore dimensioni singolo. Il set di dimensioni è identificato da un ID set di dimensioni comune assegnato a ogni movimento set di dimensioni che appartiene al set di dimensioni.  

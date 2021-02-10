@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926116"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748393"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.
@@ -44,7 +44,7 @@ Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamen
 |Funzione|Description|  
 |------------------|---------------------------------------|  
 |La funzione **Ottieni righe documento registrato da stornare** nella pagina **Ordine di reso vendita**|Copia le righe di uno o più documenti registrati da stornare nell'ordine di reso da vendita. Per ulteriori informazioni, vedere [Per creare un ordine di reso da vendita sulla base di uno o più documenti di vendita registrati](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|La funzione**Copia da documento** nelle pagine **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità clienti e vendite**.|
+|La funzione **Copia da documento** nelle pagine **Nota credito vendita** e **Ordine di reso vendita**|Copia la testata e le righe di un documento registrato da stornare.<br /><br /> È necessario che la casella di controllo **Storno esatto costo obblig.** sia selezionata nella pagina **Setup contabilità clienti e vendite**.|
 
 Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il campo **Collega-da mov. art.** per ogni tipo di riga di documento di reso e selezionare il numero del movimento di vendita originale. In questo modo, l'ordine di reso vendita o la nota di credito di vendita verrà collegato al movimento di vendita originale e l'articolo verrà valutato in base al costo unitario originale.
 
@@ -227,4 +227,4 @@ In alternativa, eliminare i singoli ordini di reso vendita manualmente.
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

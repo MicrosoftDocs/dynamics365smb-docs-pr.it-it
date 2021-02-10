@@ -12,16 +12,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7fb48d888153e9ad77666abf4ca09f6cb429772d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920999"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751957"
 ---
 # <a name="compliance"></a>Conformità
 
-Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 La conformità è un argomento di interesse crescente e l'evoluzione di Business Central fornisce vantaggi a clienti e partner su larga scala e non impone blocchi in relazione alla conformità. Al contrario, Business Central consente ai clienti di ottemperare facilmente agli standard di conformità e normativi grazie ad alcune funzionalità e alla piattaforma su cui è basato.
 
@@ -34,4 +34,4 @@ In questa sezione sono fornite ulteriori informazioni sul nostro approccio alla 
 |Accedere alle informazioni sulle differenti certificazioni relative a Business Central. Qui sono contenute le informazioni sulle certificazioni generali e sulle certificazioni specifiche di ciascun paese.|[Certificazioni](compliance-certifications.md)|  
 |Informazioni sui termini dei contratti di servizio e altri termini per il servizio|[Condizioni di servizio](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

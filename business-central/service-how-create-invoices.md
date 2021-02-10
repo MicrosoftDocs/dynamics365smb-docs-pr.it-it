@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925833"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748082"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Creare fatture o note di credito di assistenza
-La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[prodshort](includes/prodshort.md)]. È possibile impostare [!INCLUDE[prodshort](includes/prodshort.md)] in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente. In alternativa, impostare [!INCLUDE[prodshort](includes/prodshort.md)] in modo da fatturare periodicamente i contratti di assistenza. Il periodo di fatturazione di ogni contratto definisce con quale frequenza avviene la fatturazione.
+La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente. In alternativa, impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo da fatturare periodicamente i contratti di assistenza. Il periodo di fatturazione di ogni contratto definisce con quale frequenza avviene la fatturazione.
 
 ## <a name="to-invoice-several-service-contracts"></a>Per fatturare più contratti di assistenza
 

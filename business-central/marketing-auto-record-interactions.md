@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 69f28abc7d44b1649fcc76140259fd359cd2df19
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fba0db549b7aba0a188d2f2a02680e142349403c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922821"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745893"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrazione automatica delle interazioni con i contatti
 È possibile impostare l'applicazione per la registrazione automatica delle interazioni relative ai documenti di vendite, acquisti e assistenza, copertine, messaggi e-mail, telefonate, ad esempio:
@@ -33,4 +33,4 @@ Per aprire la pagina **Setup modello interazione**, scegliere l'icona a forma di
 
 ## <a name="see-also"></a>Vedere anche
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

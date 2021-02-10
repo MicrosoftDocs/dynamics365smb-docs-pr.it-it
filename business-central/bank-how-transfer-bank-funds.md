@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746c5be8f77f7afd7a65de17c9893ce1a16fccb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924405"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752357"
 ---
 # <a name="transfer-bank-funds"></a>Trasferimento di fondi bancari
-Talvolta, può anche essere necessario effettuare un bonifico da un conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] a un altro. A tale scopo, è necessario registrare una transazione nella pagina **Registrazioni COGE**. L'attività varia a seconda se i conti correnti bancari utilizzano la stessa valuta o valute diverse.
+Talvolta, può anche essere necessario effettuare un bonifico da un conto corrente bancario in [!INCLUDE[prod_short](includes/prod_short.md)] a un altro. A tale scopo, è necessario registrare una transazione nella pagina **Registrazioni COGE**. L'attività varia a seconda se i conti correnti bancari utilizzano la stessa valuta o valute diverse.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
@@ -57,4 +57,4 @@ Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse,
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

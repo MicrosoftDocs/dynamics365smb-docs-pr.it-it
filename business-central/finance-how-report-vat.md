@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eabb6962dba09e7837e271f3ad2d6b14313941e3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920575"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746918"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Dichiarare l'IVA all'autorità fiscale
-Questo argomento descrive i report [!INCLUDE[d365fin](includes/d365fin_md.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese. 
+Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese. 
 
 È possibile utilizzare i seguenti report:
 
@@ -28,7 +28,7 @@ Questo argomento descrive i report [!INCLUDE[d365fin](includes/d365fin_md.md)] c
 Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registrazione che implica l'iVA crea una voce nella pagina **Movimenti IVA**. Questi movimenti vengono utilizzati per calcolare l'importo della liquidazione dell'IVA, ovvero un versamento o un rimborso, per un periodo specifico. Per visualizzare i movimenti IVA, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti IVA** e quindi scegliere il collegamento correlato.
 
 > [!NOTE]
-> Ogni ambiente [!INCLUDE[d365fin](includes/d365fin_md.md)] è destinato a gestire le dichiarazioni in base alle normative in un singolo paese. Ad esempio, la versione olandese di [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce le dichiarazioni IVA nei Paesi Bassi ma non in altri paesi. Allo stesso modo, la versione americana di [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce la dichiarazione 1099 negli Stati Uniti e non supporta la richiesta di dichiarazione IVA in altri paesi, a meno che non sia portata da un'estensione fornita dall'ecosistema partner o da una modifica del codice specifica del cliente.
+> Ogni ambiente [!INCLUDE[prod_short](includes/prod_short.md)] è destinato a gestire le dichiarazioni in base alle normative in un singolo paese. Ad esempio, la versione olandese di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le dichiarazioni IVA nei Paesi Bassi ma non in altri paesi. Allo stesso modo, la versione americana di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce la dichiarazione 1099 negli Stati Uniti e non supporta la richiesta di dichiarazione IVA in altri paesi, a meno che non sia portata da un'estensione fornita dall'ecosistema partner o da una modifica del codice specifica del cliente.
 
 ## <a name="about-the-ec-sales-list-report"></a>Informazioni sul report Lista vendite UE
 Nel Regno Unito, tutte le società che vendono beni e servizi a clienti con partita IVA, inclusi i clienti in altri paesi dell'Unione Europea (UE), è necessario inviare una versione elettronica del report Lista vendite UE in formato XML tramite il sito Web HMRC (Her Majesty's Revenue and Customs). Il report Lista vendite UE è valido solo per i paesi dell'Unione Europea.
@@ -41,7 +41,7 @@ Il report include una riga per ogni tipo di transazione con il cliente e visuali
 
 I prodotti e i servizi B2B specificano se sono stati venduti prodotti o servizi e vengono controllati dall'impostazione **Assistenza UE** nel setup registrazioni IVA. I prodotti di triangolazione B2B indicano se è stato attivato un commercio con terze parti e vengono controllati dall'impostazione **Triangolazione intracomun.** nei documenti di vendita, ad esempio ordini di vendita, fatture, note di credito e così via.  
 
-Dopo che l'autorità fiscale ha esaminato il report, invia un messaggio e-mail alla persona per la società. In [!INCLUDE[d365fin](includes/d365fin_md.md)], il nome del contatto è specificato nella pagina **Informazioni società**. Prima di inviare il report, assicurarsi che il contatto sia stato selezionato.
+Dopo che l'autorità fiscale ha esaminato il report, invia un messaggio e-mail alla persona per la società. In [!INCLUDE[prod_short](includes/prod_short.md)], il nome del contatto è specificato nella pagina **Informazioni società**. Prima di inviare il report, assicurarsi che il contatto sia stato selezionato.
 
 ## <a name="about-the-vat-return-report"></a>Informazioni sul report Dichiarazione IVA
 Utilizzare questo report per inviare l'IVA per i documenti di vendita e di acquisto, ad esempio gli ordini vendita e gli ordini acquisto, le fatture e le note di credito. Le informazioni nel report vengono mostrate nello stesso formato di quello utilizzato nel modulo di dichiarazione delle autorità fiscali e doganali.  
@@ -54,9 +54,9 @@ Per la dichiarazione IVA è possibile specificare i movimenti per includere:
 * Inviare solo movimenti da periodi specificati, o includere anche i movimenti di periodi precedenti. Ciò risulta utile quando si deve aggiornare la dichiarazione IVA già inviata, ad esempio, se un fornitore invia una fattura in ritardo.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Per connettersi al servizio Web dell'autorità fiscale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include le connessioni di servizio ai siti Web delle autorità fiscali. Nel Regno Unito, ad esempio, è possibile abilitare la connessione di servizio **GovTalk** per inviare elettronicamente i report Lista vendite UE e Dichiarazione IVA. Se si desidera inviare il report manualmente, ad esempio inserendo i dati sul sito Web dell'autorità fiscale, questa connessione non è necessaria.   
+[!INCLUDE[prod_short](includes/prod_short.md)] include le connessioni di servizio ai siti Web delle autorità fiscali. Nel Regno Unito, ad esempio, è possibile abilitare la connessione di servizio **GovTalk** per inviare elettronicamente i report Lista vendite UE e Dichiarazione IVA. Se si desidera inviare il report manualmente, ad esempio inserendo i dati sul sito Web dell'autorità fiscale, questa connessione non è necessaria.   
 
-Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] al servizio Web dell'autorità fiscale. Tale soluzione richiede l'impostazione di un account con l'autorità fiscale. Dopo avere impostato un account, è possibile abilitare la connessione di servizio fornita in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario connettere [!INCLUDE[prod_short](includes/prod_short.md)] al servizio Web dell'autorità fiscale. Tale soluzione richiede l'impostazione di un account con l'autorità fiscale. Dopo avere impostato un account, è possibile abilitare la connessione di servizio fornita in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere il collegamento appropriato.
 2. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -64,7 +64,7 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
     > [!NOTE]  
     > È consigliabile testare la connessione. A tal fine, selezionare la casella di controllo **Modalità di test**, quindi preparare e inviare la dichiarazione IVA come descritto nella sezione _Per preparare e inviare una dichiarazione IVA_. Mentre è attiva la modalità di test, il servizio verifica se l'autorità fiscale può ricevere la dichiarazione e lo stato del report indicherà se l'invio ha avuto esito positivo. È importante ricordare che non si tratta di un invio effettivo. Per inviare realmente il report, è necessario deselezionare la casella di controllo **Modalità di test** e quindi ripetere la procedura di invio.
 
-## <a name="to-set-up-vat-reports-in-d365fin"></a>Per impostare i report IVA in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-prod_short"></a>Per impostare i report IVA in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup report IVA** e quindi scegliere il collegamento correlato.  
 2. Per permettere agli utenti di modificare e ripresentare questo report, selezionare la casella di controllo **Modifica report inviati**.  
 3. Scegliere la numerazione da utilizzare per ogni report.  
@@ -79,10 +79,10 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
 4. Per convalidare e preparare il report per l'invio, scegliere l'azione **Rilascio**.  
 
     > [!NOTE]  
-    > [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica che il report sia impostato correttamente. Se la convalida ha esito negativo, gli errori vengono visualizzati in **Errori e avvisi** per consentirne la correzione. In genere, se il messaggio è relativo a un'impostazione mancante in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile fare clic sul messaggio per aprire la pagina che contiene le informazioni da correggere.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)] verifica che il report sia impostato correttamente. Se la convalida ha esito negativo, gli errori vengono visualizzati in **Errori e avvisi** per consentirne la correzione. In genere, se il messaggio è relativo a un'impostazione mancante in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile fare clic sul messaggio per aprire la pagina che contiene le informazioni da correggere.  
 5. Per inviare il report, scegliere l'azione **Invia**.  
 
-Dopo avere inviato il report, [!INCLUDE[d365fin](includes/d365fin_md.md)] controlla il servizio e memorizza un record delle comunicazioni. Il campo **Stato** indica se il report è in esecuzione. Ad esempio, quando le autorità elaborano il report, lo stato del report diventa **Operazione completata**. Se l'autorità fiscale trova errori nel report inviato, lo stato del report diventa **Operazione non riuscita**. È possibile visualizzare gli errori in **Errori e avvisi**, correggerli e quindi inviare il report nuovamente. Per visualizzare un elenco di tutti i report Lista vendite UE, andare alla pagina **Report lista vendite UE**.  
+Dopo avere inviato il report, [!INCLUDE[prod_short](includes/prod_short.md)] controlla il servizio e memorizza un record delle comunicazioni. Il campo **Stato** indica se il report è in esecuzione. Ad esempio, quando le autorità elaborano il report, lo stato del report diventa **Operazione completata**. Se l'autorità fiscale trova errori nel report inviato, lo stato del report diventa **Operazione non riuscita**. È possibile visualizzare gli errori in **Errori e avvisi**, correggerli e quindi inviare il report nuovamente. Per visualizzare un elenco di tutti i report Lista vendite UE, andare alla pagina **Report lista vendite UE**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Visualizzare le comunicazioni con l'autorità fiscale
 In alcuni paesi, quando si invia il report si scambiano messaggi con l'autorità fiscale. È possibile visualizzare il primo e l'ultimo messaggio inviato o ricevuto scegliendo l'azione **Scarica messaggio di invio** e **Scarica messaggio di risposta**.  

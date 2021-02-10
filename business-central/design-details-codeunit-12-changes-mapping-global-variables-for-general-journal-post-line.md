@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Modifiche relative alla codeunit 12 nelle variabili globali di mappatura per la riga di registrazione di contabilità generale | Microsoft Docs'
-description: Le seguenti modifiche sono state implementate in questa versione di Business Central.
+title: Modifiche delle variabili globali di mappatura per la registrazione in codeunit 12
+description: Nelle versioni precedenti, codeunit 12 è stata modificata per migliorare le prestazioni di registrazione della contabilità generale. Informazioni sulle modifiche alle variabili globali.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917453"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367761"
 ---
-# <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Modifiche relative alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale
-Le seguenti modifiche sono state implementate in questa versione di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Modifiche storiche alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale
+
+Le seguenti modifiche sono state implementate nelle versioni di [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Commento**|  
 |----------------------------------------|----------------------------------------|-----------------|  

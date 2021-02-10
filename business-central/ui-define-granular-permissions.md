@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912523"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747794"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
-Il sistema di sicurezza di [!INCLUDE[d365fin](includes/d365fin_md.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Il sistema di sicurezza di [!INCLUDE[prod_short](includes/prod_short.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere a funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] esistono due livelli di autorizzazioni per gli oggetti di database:
+In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autorizzazioni per gli oggetti di database:
 
 - Autorizzazioni complete in base alla licenza, denominate anche diritti.
-- Autorizzazioni più dettagliate assegnate da [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Autorizzazioni più dettagliate assegnate da [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per semplificare la gestione delle autorizzazioni per più utenti, è possibile organizzarle in gruppi di utenti e quindi assegnare o modificare un set di autorizzazioni per molti utenti in una sola azione. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Un ulteriore metodo per definire le funzionalità a cui un utente ha accesso consiste nell'impostare il campo **Esperienza** nella pagina **Informazioni società**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 >
-> È anche possibile definire ciò che gli utenti vedono nell'interfaccia utente e come interagiscono con le funzionalità consentite attraverso le pagine. A questo proposito si utilizzano i profili, che vengono assegnati a diversi tipi di utenti in base al ruolo e al reparto. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md) e [Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> È anche possibile definire ciò che gli utenti vedono nell'interfaccia utente e come interagiscono con le funzionalità consentite attraverso le pagine. A questo proposito si utilizzano i profili, che vengono assegnati a diversi tipi di utenti in base al ruolo e al reparto. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md) e [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Per assegnare set di autorizzazioni agli utenti
 
-Un set di autorizzazioni è una raccolta di autorizzazioni per oggetti di database specifici. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Un set di autorizzazioni è una raccolta di autorizzazioni per oggetti di database specifici. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Una soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal proprio provider di soluzioni. È inoltre possibile aggiungere nuovi set di autorizzazioni personalizzati in base alle esigenze della propria organizzazione. Per ulteriori informazioni, vedere [Per creare o modificare un set di autorizzazioni](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal proprio provider di soluzioni. È inoltre possibile aggiungere nuovi set di autorizzazioni personalizzati in base alle esigenze della propria organizzazione. Per ulteriori informazioni, vedere [Per creare o modificare un set di autorizzazioni](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Se non si desidera limitare l'accesso di un utente più di quanto già definito dalla licenza, è possibile assegnare all'utente un set di autorizzazioni speciale chiamato SUPER. Questo set di autorizzazioni garantisce che l'utente possa accedere a tutti gli oggetti specificati nella licenza.
@@ -97,7 +97,7 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 I set di autorizzazioni funzionano come contenitori di autorizzazioni, in modo da poter gestire facilmente più autorizzazioni in un record.
 
 > [!NOTE]  
-> Una soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal fornitore software. Tali set di autorizzazioni sono di tipo **Sistema** o **Estensione**. Non è possibile creare o modificare questi tipi di set di autorizzazioni o le autorizzazioni al loro interno. Tuttavia, è possibile copiarli per definire i propri set di autorizzazioni e autorizzazioni personalizzati.
+> Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal fornitore software. Tali set di autorizzazioni sono di tipo **Sistema** o **Estensione**. Non è possibile creare o modificare questi tipi di set di autorizzazioni o le autorizzazioni al loro interno. Tuttavia, è possibile copiarli per definire i propri set di autorizzazioni e autorizzazioni personalizzati.
 >
 > I set di autorizzazioni creati dagli utenti, come nuovi o come copie, sono di tipo **Definito dall'utente** e possono essere modificati.
 
@@ -122,7 +122,7 @@ Il nuovo set di autorizzazioni, contenente tutte le autorizzazioni del set di au
 
 ### <a name="to-export-and-import-a-permission-set"></a>Per esportare e importare un set di autorizzazioni
 
-Per impostare rapidamente le autorizzazioni, è possibile importare set di autorizzazioni che sono state esportate da un altro tenant [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Per impostare rapidamente le autorizzazioni, è possibile importare set di autorizzazioni che sono state esportate da un altro tenant [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In ambienti multitenant, un set di autorizzazioni verrà importato in un tenant specifico, ossia l'ambito dell'importazione è "Tenant".
 
@@ -162,7 +162,7 @@ In ognuno dei campi dei cinque tipi di accesso (**Autorizzazione di lettura**, *
 ### <a name="example---indirect-permission"></a>Esempio - Autorizzazione indiretta
 
 È possibile assegnare un'autorizzazione indiretta per utilizzare un oggetto solo attraverso un altro oggetto.
-Ad esempio, un utente può disporre del permesso di eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita, la codeunit Vendite-Registra, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
+Ad esempio, un utente può disporre del permesso di eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita, la codeunit Vendite-Registra, [!INCLUDE[prod_short](includes/prod_short.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
 
 Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Righe vendite per eseguire la codeunit. Se l'utente possiede un'autorizzazione indiretta per la tabella Righe vendite, la codeunit Vendite-Registra viene eseguita correttamente. Quando un utente possiede un'autorizzazione indiretta, tale utente può solo modificare la tabella Riga vendite eseguendo la codeunit di Vendite-Registra o un altro oggetto per cui possiede l'autorizzazione per modificare la tabella Righe vendite. L'utente può solo modificare la tabella Righe vendite quando esegue questa operazione da aree di applicazione supportate. L'utente non può eseguire inavvertitamente o intenzionalmente la funzionalità con altri metodi.
 
@@ -176,14 +176,14 @@ Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Rig
 6. Nella pagina **Autorizzazioni**, scegliere l'azione **Registra autorizzazioni**, quindi selezionare l'azione **Avvia**.
 
     Viene avviato un processo di registrazione che acquisisce tutte le azioni nell'interfaccia utente.
-7. Passare alle diverse pagine e attività di [!INCLUDE[d365fin](includes/d365fin_md.md)] a cui si desidera che gli utenti con questo set di autorizzazioni possano accedere. È necessario eseguire i task per cui si desidera registrare le autorizzazioni.
+7. Passare alle diverse pagine e attività di [!INCLUDE[prod_short](includes/prod_short.md)] a cui si desidera che gli utenti con questo set di autorizzazioni possano accedere. È necessario eseguire i task per cui si desidera registrare le autorizzazioni.
 8. Quando si desidera terminare la registrazione, tornare alla pagina **Autorizzazioni** e scegliere l'azione **Arresta**.
 9. Scegliere il pulsante **Sì** per aggiungere le autorizzazioni registrate nel nuovo set di autorizzazioni.
 10. Per ogni oggetto nella lista registrata, specificare se gli utenti possono immettere, modificare o eliminare, i record nelle tabelle registrate.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Filtri di protezione - Per limitare l'accesso di un utente a record specifici in una tabella
 
-Per la protezione a livello di record in [!INCLUDE[d365fin](includes/d365fin_md.md)], si utilizzano filtri di protezione per limitare l'accesso dell'utente ai dati in una tabella. I filtri di protezione sono creati sui dati della tabella. Un filtro di protezione descrive un set di record in una tabella che un utente è autorizzato a accedere. È possibile specificare, ad esempio, che un utente può leggere solo i record che contengono informazioni su un determinato cliente. Ciò significa che l'utente non può accedere ai record che contengono informazioni su altri clienti. Per ulteriori informazioni, vedere [Utilizzo di filtri di protezione](/dynamics365/business-central/dev-itpro/security/security-filters) in Guida per sviluppatori e professionisti IT.
+Per la protezione a livello di record in [!INCLUDE[prod_short](includes/prod_short.md)], si utilizzano filtri di protezione per limitare l'accesso dell'utente ai dati in una tabella. I filtri di protezione sono creati sui dati della tabella. Un filtro di protezione descrive un set di record in una tabella che un utente è autorizzato a accedere. È possibile specificare, ad esempio, che un utente può leggere solo i record che contengono informazioni su un determinato cliente. Ciò significa che l'utente non può accedere ai record che contengono informazioni su altri clienti. Per ulteriori informazioni, vedere [Utilizzo di filtri di protezione](/dynamics365/business-central/dev-itpro/security/security-filters) in Guida per sviluppatori e professionisti IT.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Per gestire le autorizzazioni tramite gruppi di utenti
 
@@ -243,14 +243,22 @@ Gli amministratori possono definire i periodi di tempo in cui utenti specificati
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Setup utenti** scegliere l'azione **Nuovo**.
 3. Nel campo **ID utente**, immettere l'ID di un utente o scegliere il campo per visualizzare tutti gli utenti correnti di Windows nel sistema.
-4. Compilare i campi in base alle esigenze.
+4. Compilare i campi come necessario.
+
+
+## <a name="viewing-permission-changes-telemetry"></a>Visualizzazione della telemetria sulle modifiche delle autorizzazioni 
+
+È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] per inviare le modifiche applicate a un'autorizzazione a una risorsa Application Insights in Microsoft Azure. Quindi, utilizzando Monitoraggio di Azure, si creano report e si configurano avvisi sui dati raccolti. Per ulteriori informazioni, vedere i seguenti articoli nella Guida per sviluppatori e professionisti IT di [!INCLUDE[prod_short](includes/prod_short.md)].
+
+- [Monitoraggio e analisi della telemetria - Abilitazione di Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analizzare la telemetria di monitoraggio dei campi](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Creare utenti in base alle licenze](ui-how-users-permissions.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Aggiungere utenti a Microsoft 365 per le aziende](https://aka.ms/CreateOffice365Users)  

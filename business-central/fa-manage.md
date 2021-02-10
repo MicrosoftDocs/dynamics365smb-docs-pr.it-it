@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920624"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747243"
 ---
 # <a name="fixed-assets"></a>Cespiti
-La funzionalità Cespiti di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
+La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. È quindi possibile iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. Qualsiasi vendita o acquisto previsto può quindi essere incluso nei report.
 
-Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni finanziarie relative ai cespiti, si imposta uno o più registri beni ammortizzabili per ogni cespite dell'azienda. L'ammortamento può essere eseguito mediante l'esecuzione di un report per calcolare l'ammortamento periodico e compilare la registrazione con i movimenti risultanti, pronti per essere registrati. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta diversi metodi di ammortamento. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md). È possibile impostare più registri beni ammortizzabili per ogni cespite per scopi differenti, ad esempio uno per il reporting dell'IVA e un altro per il reporting interno.
+Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni finanziarie relative ai cespiti, si imposta uno o più registri beni ammortizzabili per ogni cespite dell'azienda. L'ammortamento può essere eseguito mediante l'esecuzione di un report per calcolare l'ammortamento periodico e compilare la registrazione con i movimenti risultanti, pronti per essere registrati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta diversi metodi di ammortamento. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md). È possibile impostare più registri beni ammortizzabili per ogni cespite per scopi differenti, ad esempio uno per il reporting dell'IVA e un altro per il reporting interno.
 
 È possibile registrare i costi di manutenzione e la data del prossimo intervento per ogni bene. Può essere importante tenere traccia delle spese di manutenzione ai fini della predisposizione del budget e per decidere se un cespite debba essere sostituito.
 
@@ -58,7 +58,7 @@ Il video seguente illustra le nozioni di base dei cespiti.
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

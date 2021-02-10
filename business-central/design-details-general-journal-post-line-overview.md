@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911107"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751607"
 ---
 # <a name="general-journal-post-line-overview"></a>Sintesi della riga di registrazione di contabilità generale
 Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, è il principale oggetto applicazione per la registrazione di contabilità generale ed è la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori. Questa codeunit viene inoltre utilizzata per tutte le operazioni Collega, Scollega e Storna.  
   
-Mentre la codeunit è stata migliorata in ogni versione durante gli ultimi dieci anni, la relativa architettura è rimasta essenzialmente invariata. Codeunit è diventato molto grande, contiene circa 7.600 righe di codice. Con questa versione di [!INCLUDE[d365fin](includes/d365fin_md.md)], l'architettura viene modificata e la codeunit è stata resa più semplice e gestibile. La documentazione introduce le modifiche e fornisce informazioni necessarie per aggiornare.  
+Mentre la codeunit è stata migliorata in ogni versione durante gli ultimi dieci anni, la relativa architettura è rimasta essenzialmente invariata. Codeunit è diventato molto grande, contiene circa 7.600 righe di codice. Con questa versione di [!INCLUDE[prod_short](includes/prod_short.md)], l'architettura viene modificata e la codeunit è stata resa più semplice e gestibile. La documentazione introduce le modifiche e fornisce informazioni necessarie per aggiornare.  
   
 ## <a name="old-architecture"></a>Architettura precedente  
 L'architettura precedente aveva le seguenti funzionalità:  
@@ -34,7 +34,7 @@ L'architettura precedente aveva le seguenti funzionalità:
 * Registrazione, Collega, Scollega, Storna, Sconto e tolleranza pagamento e Rettifica tasso di cambio sono state unite nella codeunit 12 utilizzando un lungo elenco di variabili globali.  
   
 ### <a name="new-architecture"></a>Nuova Architettura  
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], sono stati apportati i seguenti miglioramenti alla codeunit 12:  
+In [!INCLUDE[prod_short](includes/prod_short.md)], sono stati apportati i seguenti miglioramenti alla codeunit 12:  
   
 * Per Codeunit 12 è stato eseguito il refactoring in procedure più piccole (tutte minori di 100 righe di codice).  
 * I modelli standardizzati per la ricerca dei conti di contabilità generale sono stati implementati utilizzando le funzioni di helper delle tabelle di Categoria registrazione.  

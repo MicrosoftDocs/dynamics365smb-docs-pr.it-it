@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44f6fa0f4f5b957a3164fb8cda68c0397f639bc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924030"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750107"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
 Un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. La funzionalità intercompany consente di effettuare operazioni con le filiali e le organizzazioni partner interne esattamente come con i fornitori e i clienti esterni. Le informazioni sulle transazioni intercompany devono essere immesse una sola volta nei documenti appropriati. È possibile utilizzare le funzionalità già conosciute, quali quelle di gestione di crediti e debiti. Le funzionalità di mappatura per il piano dei conti e le dimensioni garantiscono che le informazioni vengano visualizzate nelle posizioni appropriate.  
@@ -39,16 +39,17 @@ Il consolidamento dei dati finanziari può risultare utile in particolare con i 
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
- |A |Vedere|
- |---|---|
- |Creare i fornitori e i clienti intercompany come partner intercompany e impostare un piano dei conti intercompany.|[Impostare la contabilità interaziendale](intercompany-how-setup.md)|
- |Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.|[Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)|
- |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
+|A |Vedere|
+|---|---|
+|Creare i fornitori e i clienti intercompany come partner intercompany e impostare un piano dei conti intercompany.|[Impostare la contabilità interaziendale](intercompany-how-setup.md)|
+|Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.|[Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)|
+|Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
+|Utilizzare le registrazioni IC per distribuire i costi tra società partner.|[Allocare costi a partner IC](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926424"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748520"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Esaminare o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
->   Quando il conto corrente bancario per il quale si stanno riconciliando i pagamenti è impostato sulla valuta locale, nella pagina **Collegamento pagamenti** vengono mostrati tutti i movimenti aperti nella valuta locale, inclusi i movimenti aperti per i documenti originariamente fatturati in valute estere. I pagamenti collegati ai movimenti con valute convertite possono quindi essere registrati con importi diversi rispetto al documento originale per via dei tassi di cambio potenzialmente diversi utilizzati dalla banca e da [!INCLUDE[d365fin](includes/d365fin_md.md)] rispettivamente.
+>   Quando il conto corrente bancario per il quale si stanno riconciliando i pagamenti è impostato sulla valuta locale, nella pagina **Collegamento pagamenti** vengono mostrati tutti i movimenti aperti nella valuta locale, inclusi i movimenti aperti per i documenti originariamente fatturati in valute estere. I pagamenti collegati ai movimenti con valute convertite possono quindi essere registrati con importi diversi rispetto al documento originale per via dei tassi di cambio potenzialmente diversi utilizzati dalla banca e da [!INCLUDE[prod_short](includes/prod_short.md)] rispettivamente.
 
 Di conseguenza, consigliamo di guardare i codici valuta estera nel campo **Codice valuta** della pagina **Collegamento pagamenti** per controllare se i collegamenti sono basati su valute convertite. Per verificare l'imposto del documento originale in valuta estera e visualizzare il tasso di cambio utilizzato, selezionare il campo **Collega-a Nr. mov.** quindi, nel menu di scelta rapida, selezionare il pulsante DrillDown per aprire la pagina **Movimenti contabili clienti** o **Movimenti contabili fornitori**.
 
-Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di valuta non viene gestita automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di valuta non viene gestita automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   Non è possibile collegare movimenti con un segno diverso dal segno sul pagamento. Ad esempio, per chiudere sia una nota di credito di segno negativo che la relativa fattura relativa di segno positivo, è necessario innanzitutto collegare la nota di credito alla fattura, quindi collegare il pagamento alla fattura con l'importo residuo ridotto.
@@ -52,4 +52,4 @@ Viene chiusa la pagina **Collegamento pagamenti** e nella pagina **Registrazione
 ## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

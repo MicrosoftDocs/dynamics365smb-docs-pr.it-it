@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923922"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746793"
 ---
 # <a name="managing-vat-rate-changes"></a>Gestione delle variazioni dell'aliquota IVA
 
-Le aliquote IVA possono variare in base alla legislazione locale. Qualsiasi modifica dell'IVA incide sui dati dell'utente in [!INCLUDE[d365fin](includes/d365fin_md.md)] indipendentemente dal fatto che l'aliquota IVA sia stata ridotta, aumentata o rimossa. L'IVA è collegata a molte entità in [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio clienti, fornitori, articoli, risorse, addebiti articolo e conti di contabilità generale. Le variazioni delle aliquote IVA si verificano in genere a una data specifica, da quel momento sarà necessario aver modificato l'impostazione IVA, i gruppi di registrazione e così via per assicurarsi che i nuovi ordini di vendita e gli ordini di acquisto vengano creati con la nuova aliquota IVA.
+Le aliquote IVA possono variare in base alla legislazione locale. Qualsiasi modifica dell'IVA incide sui dati dell'utente in [!INCLUDE[prod_short](includes/prod_short.md)] indipendentemente dal fatto che l'aliquota IVA sia stata ridotta, aumentata o rimossa. L'IVA è collegata a molte entità in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio clienti, fornitori, articoli, risorse, addebiti articolo e conti di contabilità generale. Le variazioni delle aliquote IVA si verificano in genere a una data specifica, da quel momento sarà necessario aver modificato l'impostazione IVA, i gruppi di registrazione e così via per assicurarsi che i nuovi ordini di vendita e gli ordini di acquisto vengano creati con la nuova aliquota IVA.
 
 ## <a name="changing-vat-rates"></a>Modifica delle aliquote IVA
 

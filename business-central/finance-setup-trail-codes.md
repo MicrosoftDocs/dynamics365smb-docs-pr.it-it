@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914216"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750357"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Impostazione di codici sorgente e causali per audit trail
 
@@ -94,6 +94,6 @@ Quando la fattura viene registrata, la causale viene copiata in ogni movimento C
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
-[Utilizzo di [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910832"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746668"
 ---
 # <a name="setting-up-posting-groups"></a>Impostazione delle categorie di registrazione
 Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
@@ -78,4 +78,4 @@ Maggiore è il numero di categorie di registrazione articoli/servizi e business,
 ## <a name="see-also"></a>Vedere anche
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8a18e56af1edde2dfef116ca3545c7d511e6bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 96db04d8bc647b16b3d615132ce68e5f094bf273
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916727"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749170"
 ---
 # <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
 Nella pagina **Registraz. pagamenti** è possibile utilizzare il processo batch **Sugg. pagamenti fornitore** per suggerire le righe di pagamento. Le righe per i pagamenti che scadono presto oppure i pagamenti dove è disponibile uno sconto sul pagamento vengono suggerite in base alle impostazioni.
@@ -56,4 +56,4 @@ In alternativa, è possibile creare manualmente le righe di pagamento utilizzand
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

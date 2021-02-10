@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57bc67ca6cc218754bbdd970a013588ed205db7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36404306909fb7c2e9d2de97e43fa181dc65a069
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914191"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746525"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
-Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché gestisca l'IVA ad esigibilità differita.
+Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché gestisca l'IVA ad esigibilità differita.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Per utilizzare conti C/G per l'IVA ad esigibilità differita
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.

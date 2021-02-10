@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914141"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746344"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
@@ -28,10 +28,10 @@ Dal contesto di un task di business, è possibile ottenere informazioni avanzate
 
 Se si utilizza la funzionalità di gestione warehouse, la disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita. Per ulteriori informazioni vedere [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i dati relativi alla disponibilità vengono in genere visualizzati in due campi diversi, ognuno con una diversa definizione:
+In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponibilità vengono in genere visualizzati in due campi diversi, ognuno con una diversa definizione:
 
 * Il campo **Giacenza**, in alcuni casi denominato **Inventario**, mostra l'effettiva quantità in base ai movimenti contabili articoli registrati.
-* Nel campo **Disponibilità calcolata** viene calcolato e viene visualizzata la giacenza più i carichi programmati e meno il fabbisogno lordo. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], i carichi programmati includono le quantità degli ordini di acquisto e degli ordini di trasferimento in entrata. Il fabbisogno lordo include le quantità degli ordini di vendita e degli ordini di trasferimento in uscita.)
+* Nel campo **Disponibilità calcolata** viene calcolato e viene visualizzata la giacenza più i carichi programmati e meno il fabbisogno lordo. (In [!INCLUDE[prod_short](includes/prod_short.md)], i carichi programmati includono le quantità degli ordini di acquisto e degli ordini di trasferimento in entrata. Il fabbisogno lordo include le quantità degli ordini di vendita e degli ordini di trasferimento in uscita.)
 
 > [!TIP]  
 >   La disponibilità calcolata è particolarmente importante per visualizzare le pagine **Disponibilità art. per periodi** e **Disponibilità articolo per evento** poiché contengono le dimensioni per data.  

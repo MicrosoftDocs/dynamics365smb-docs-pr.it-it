@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917903"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752702"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  
@@ -31,7 +31,7 @@ Prima di importare un pacchetto di configurazione, è consigliabile verificare c
 * L'utente che importa il pacchetto di configurazione dispone delle autorizzazioni di inserimento e modifica valide per tutte le tabelle che verranno aggiornate dal pacchetto. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Per importare un pacchetto di configurazione  
-1. Aprire la nuova società nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Aprire la nuova società nel database di [!INCLUDE[prod_short](includes/prod_short.md)].  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi selezionare il collegamento correlato.  
 3. Scegliere l'azione **Importa pacchetto**.  
 4. Accedere alla posizione in cui si è stato salvato il file del pacchetto di configurazione .rapidstart, quindi scegliere il pulsante **Apri**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910882"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750532"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -58,14 +58,14 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 11. Nella pagina **Modifica tolleranza pagamento** compilare i campi **% tolleranza pagamento** e **Importo massimo tolleranza pagamento** e quindi scegliere **OK**.
 
 > [!IMPORTANT]  
->  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
+>  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
 
 > [!NOTE]  
 >  Se si desidera che venga visualizzato un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione [Per abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Per disattivare la tolleranza per un cliente o un fornitore, è necessario bloccare le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Quando si imposta la tolleranza, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
+>  Quando si imposta la tolleranza, [!INCLUDE[prod_short](includes/prod_short.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
@@ -208,7 +208,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 1](media/multiplePmtTolRules(Pre1503).gif "Regole di tolleranza per più pagamenti 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Regole di tolleranza per più pagamenti 1a":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -219,7 +219,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regole di tolleranza per più pagamenti 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Regole di tolleranza per più pagamenti 2":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -230,7 +230,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regole di tolleranza per più pagamenti 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Regole di tolleranza per più pagamenti 3":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -241,7 +241,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regole di tolleranza per più pagamenti 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Regole di tolleranza per più pagamenti 4":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -252,7 +252,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 5](media/multiplePmtTolRules(Post0122).gif "Regole di tolleranza per più pagamenti 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Regole di tolleranza per più pagamenti 5":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -262,4 +262,4 @@ regole di collegamento normali
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

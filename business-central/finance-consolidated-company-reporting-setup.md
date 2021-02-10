@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750982"
 ---
 # <a name="set-up-company-consolidation"></a>Impostare il consolidamento di una società
 
@@ -33,7 +33,7 @@ In base alla complessità delle proprie società, esistono due modi per impostar
 Se il consolidamento è semplice, ad esempio perché si è il solo proprietario delle business unit da consolidare, la guida al setup assistito **Consolidamento società** consente l'esecuzione delle seguenti operazioni:
 
 * Scegliere se creare una nuova società consolidata, oppure se consolidare i dati in una società già creata per il consolidamento. La società non deve contenere transazioni.
-* Visualizzare un'anteprima dei risultati. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica la possibilità di trasferire correttamente transazioni e dati master alla società consolidata.
+* Visualizzare un'anteprima dei risultati. [!INCLUDE[prod_short](includes/prod_short.md)] verifica la possibilità di trasferire correttamente transazioni e dati master alla società consolidata.
 
 Per utilizzare la guida al setup assistito, attenersi a questa procedura:
 
@@ -70,7 +70,7 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Aggiungere business unit
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
+[!INCLUDE[prod_short](includes/prod_short.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
@@ -88,7 +88,7 @@ Nel piano dei conti di una società che verrà consolidata devono essere specifi
 
 Se il piano dei conti nella business unit differisce dalla società consolidata, è necessario preparare conti di contabilità generale per il consolidamento. È possibile specificare i conti in cui registrare debiti e crediti nonché il metodo da utilizzare per convertire le valute nella società consolidata. Ciò è utile se, ad esempio, si esegue spesso il report.
 
-1. In [!INCLUDE [prodshort](includes/prodshort.md)] di ogni business unit, scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+1. In [!INCLUDE [prod_short](includes/prod_short.md)] di ogni business unit, scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
@@ -136,5 +136,5 @@ Se si possiede solo una parte di una società, è possibile includere una percen
 
 [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)

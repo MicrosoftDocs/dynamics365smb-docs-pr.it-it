@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a7fd3068cbcaeae1180781cd1377f0913406af4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917328"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751357"
 ---
 # <a name="design-details-item-tracking"></a>Dettagli di progettazione: Tracciabilità articolo
 Quando il flusso delle merci nella catena di approvvigionamento odierna diventerà sempre più complesso, la capacità di tenere traccia degli articoli è sempre più importante per le società interessate. Il monitoraggio del flusso della transazione di un articolo è un requisito giuridico nell'attività di approvvigionamento medico e chimico, ma in altri settori è possibile che si desideri monitorare i prodotti con garanzie o date di scadenza per motivi di assistenza clienti.  
 
-Un sistema di tracciabilità articolo deve offrire a una società la semplice gestione dei numeri seriali e di lotto, considerando ogni pezzo unico di merce: quando e dove è ricevuto, dove è archiviato, quando dove è stato venduto. In [!INCLUDE[d365fin](includes/d365fin_md.md)] la copertura del fabbisogno aziendale è stata ampliata gradualmente e oggi offre una funzionalità a livello di applicazione e un solido nucleo a partire dal quale sviluppare le estensioni.  
+Un sistema di tracciabilità articolo deve offrire a una società la semplice gestione dei numeri seriali e di lotto, considerando ogni pezzo unico di merce: quando e dove è ricevuto, dove è archiviato, quando dove è stato venduto. In [!INCLUDE[prod_short](includes/prod_short.md)] la copertura del fabbisogno aziendale è stata ampliata gradualmente e oggi offre una funzionalità a livello di applicazione e un solido nucleo a partire dal quale sviluppare le estensioni.  
 
 ## <a name="in-this-section"></a>In questa sezione  
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  

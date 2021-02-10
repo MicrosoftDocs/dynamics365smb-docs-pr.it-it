@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915587"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750682"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -36,7 +36,7 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 > Quando si utilizza il Prospetto collegamento, è importante prendere in considerazione quanto indicato di seguito:
     - Non è consigliabile lasciare i movimenti di collegamento scollegati per lungi periodi di tempo poiché altri utenti non possono elaborare gli articoli finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Gli utenti che provano a realizzare le azioni che includono un movimento di collegamento manualmente scollegato ricevono il seguente messaggio di errore: “Impossibile eseguire questa azione perché i movimenti per l'articolo XXX non sono applicati in XXX dall'utente XXX".
     - È consigliabile collegare solo i movimenti contabili articoli durante le ore non lavorative per evitare conflitti con altri utenti che registrano transazioni con gli stessi articoli.
-    - Quando si chiude il Prospetto collegamento, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguito un controllo automatico per verificare che tutti i movimenti siano collegati. Se, ad esempio, si rimuove il collegamento a una quantità ma non si crea un nuovo collegamento, quindi si chiude il Prospetto collegamento, viene creato un nuovo collegamento. In questo modo, i costi rimangono intatti. Tuttavia, se si rimuove un collegamento fisso, al momento della chiusura del prospetto non ne viene creato automaticamente uno nuovo. È necessario eseguire questa operazione manualmente creando un nuovo collegamento nel prospetto.
+    - Quando si chiude il Prospetto collegamento, in [!INCLUDE[prod_short](includes/prod_short.md)] viene eseguito un controllo automatico per verificare che tutti i movimenti siano collegati. Se, ad esempio, si rimuove il collegamento a una quantità ma non si crea un nuovo collegamento, quindi si chiude il Prospetto collegamento, viene creato un nuovo collegamento. In questo modo, i costi rimangono intatti. Tuttavia, se si rimuove un collegamento fisso, al momento della chiusura del prospetto non ne viene creato automaticamente uno nuovo. È necessario eseguire questa operazione manualmente creando un nuovo collegamento nel prospetto.
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
     - Il Prospetto collegamento non consente di creare un collegamento nel seguente caso: se non è disponibile una quantità in stock sufficiente per il collegamento, il Prospetto collegamento non consente di creare un collegamento quando si tenta di collegare un movimento di riduzione di magazzino senza informazioni sulla tracciabilità articolo a un movimento di aumento di magazzino con informazioni sulla tracciabilità articolo.
 
@@ -77,4 +77,4 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
  [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

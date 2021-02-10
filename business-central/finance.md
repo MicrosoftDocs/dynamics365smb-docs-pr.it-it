@@ -1,8 +1,6 @@
 ---
-title: Gestione dati finanziari| Documenti Microsoft
-description: Informazioni sulle attività per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili.
-services: project-madeira
-documentationcenter: ''
+title: Gestione contabile
+description: Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo o contabilità.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970466"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750282"
 ---
 # <a name="finance"></a>Contabilità
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 
 La configurazione predefinita include un piano dei conti e le categorie di registrazione standard che consentono di rendere più efficiente il processo di assegnazione dei conti COGE predefiniti a clienti, fornitori e articoli.  
 
@@ -57,18 +56,20 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Guardare un video
+
 Il video seguente presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Vedere anche
+
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
-[Gestione di progetti](projects-manage-projects.md)    
+[Gestione di progetti](projects-manage-projects.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

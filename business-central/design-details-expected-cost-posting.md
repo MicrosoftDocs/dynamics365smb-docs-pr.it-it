@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22e01f8b22c7f222674ff43090a27f5466dd8387
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911132"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751632"
 ---
 # <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
 I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.  
@@ -88,4 +88,4 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
  [Dettagli di progettazione: Scostamento](design-details-variance.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

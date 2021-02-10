@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 85e27db78481e3e3cd9f8e8ef34eb26eee8b08f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4549492e118d1b4367e89f2b0169f43ba7f8393
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748245"
 ---
 # <a name="create-special-orders"></a>Creare ordini speciali
 È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.  
@@ -48,4 +48,4 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 [Vendite](sales-manage-sales.md)  
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)   
 [Dettagli di progettazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2b87a2c11e8db8a0bc42a424b88213f034581b0d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6f755a74717bd0ea286034ccaf34d90acb267746
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919975"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747489"
 ---
 # <a name="set-up-automatic-payments-and-automatic-bills"></a>Impostare i pagamenti automatici e gli effetti automatici
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire i pagamenti e gli effetti automatici.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire i pagamenti e gli effetti automatici.  
 
 Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le informazioni pertinenti.  
 

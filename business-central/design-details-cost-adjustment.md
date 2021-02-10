@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920949"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751782"
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
 
@@ -38,7 +38,7 @@ I costi di magazzino devono essere rettificati prima che i movimenti di valorizz
 
 L'attività di rilevamento di eventuali necessità di rettifiche dei costi viene svolta principalmente dalla routine Item Jnl.-Post Line, mentre l'attività di calcolo e di generazione dei movimenti di rettifica viene eseguita dal processo batch **Rettifica costo - Mov. art.**.  
 
-Per poter inoltrare i costi, il meccanismo di rilevamento determina quali origini hanno modificato i costi e a quali destinazioni devono essere inoltrati questi costi. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili le seguenti tre funzioni di rilevamento:  
+Per poter inoltrare i costi, il meccanismo di rilevamento determina quali origini hanno modificato i costi e a quali destinazioni devono essere inoltrati questi costi. In [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili le seguenti tre funzioni di rilevamento:  
 
 * Mov. collegamento articoli  
 * Rettifica costo medio cod. spedizioni Intrastat  
@@ -82,7 +82,7 @@ Si consiglia di eseguire la rettifica dei costi automaticamente al momento della
 
 Poiché è importante mantenere aggiornato il costo unitario di un articolo, è consigliabile eseguire il processo batch **Rettifica costo - Movimenti articoli** il più spesso possibile, durante le ore non lavorative. In alternativa, utilizzare la rettifica costi automatica. In questo modo, il costo unitario degli articoli viene aggiornato giornalmente.  
 
-A prescindere dall'esecuzione manuale o automatica della rettifica dei costi, il processo di rettifica e le relative conseguenze non cambiano. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il valore della transazione in entrata e inoltra tale costo a tutte le transazioni in uscita, come le vendite o i consumi, collegati alla transazione in entrata. La rettifica dei costi crea movimenti di valorizzazione che contengono importi di rettifica e importi che si compensano per arrotondamento.  
+A prescindere dall'esecuzione manuale o automatica della rettifica dei costi, il processo di rettifica e le relative conseguenze non cambiano. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il valore della transazione in entrata e inoltra tale costo a tutte le transazioni in uscita, come le vendite o i consumi, collegati alla transazione in entrata. La rettifica dei costi crea movimenti di valorizzazione che contengono importi di rettifica e importi che si compensano per arrotondamento.  
 
 I nuovi movimenti di valorizzazione dell'arrotondamento e della rettifica contengono la data di registrazione della fattura correlata. Le eccezioni si verificano se i movimenti di valorizzazione rientrano in un periodo contabile o in un periodo di magazzino chiuso o se la data di registrazione è antecedente alla data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale**. In questo caso, il processo batch assegna la data di registrazione come la prima data del successivo periodo aperto.  
 
@@ -188,4 +188,4 @@ Se è stata impostata la rettifica dei costi automatica da applicare alle regist
 [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

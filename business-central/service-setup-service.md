@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912998"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747895"
 ---
 # <a name="setting-up-service-management"></a>Impostazione della gestione assistenza
-Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza che il servizio clienti dell'azienda deve richiedere.  
+Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza che il servizio clienti dell'azienda deve richiedere.  
 
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  
   

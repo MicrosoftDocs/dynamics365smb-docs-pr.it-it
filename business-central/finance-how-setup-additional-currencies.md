@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920549"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746893"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
 
-La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è anche possibile impostarla per l'uso di un'altra valuta con un tasso di cambio corrente assegnato. Se si imposta una seconda valuta come valuta contabile addizionale, in [!INCLUDE[d365fin](includes/d365fin_md.md)] gli importi in ogni movimento C/G e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente sia nella valuta locale che nella valuta addizionale.
+La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è anche possibile impostarla per l'uso di un'altra valuta con un tasso di cambio corrente assegnato. Se si imposta una seconda valuta come valuta contabile addizionale, in [!INCLUDE[prod_short](includes/prod_short.md)] gli importi in ogni movimento C/G e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente sia nella valuta locale che nella valuta addizionale.
 
 > [!Warning]
 > La funzionalità Valuta contabile addizionale non deve essere utilizzata come base per la conversione del rendiconto finanziario. Questo strumento non consente di eseguire la conversione dei rendiconti finanziari delle filiali estere come parte del consolidamento di una società. La valuta contabile addizionale può essere utilizzata soltanto per creare report in un'altra valuta, come se tale valuta fosse quella locale della società.
@@ -59,7 +59,7 @@ Seguire questa procedura per impostare una valuta contabile addizionale:
 |**Conto perdite residue**|Il conto CoGe in cui registrare gli importi residui che rappresentano delle perdite nel caso in cui si effettui la registrazione nell'area di applicazione contabilità generale sia nella valuta locale che nella valuta contabile addizionale.|
 
 > [!NOTE]  
->  Gli importi residui possono verificarsi quando gli importi in dare e in avere convertiti dalla valuta locale in una valuta addizionale vengono arrotondati da [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  Gli importi residui possono verificarsi quando gli importi in dare e in avere convertiti dalla valuta locale in una valuta addizionale vengono arrotondati da [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il conto verranno rettificati in caso di fluttuazioni del tasso di cambio tra la valuta locale e quella contabile addizionale.  
 
@@ -98,7 +98,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 ### <a name="to-activate-the-additional-reporting-currency"></a>Per attivare la valuta contabile addizionale  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** scegliere il campo **Valuta contabile addizionale** per selezionare la valuta addizionale in cui si desidera effettuare la registrazione.  
-3. Quando si esce dal campo, verrà visualizzato un messaggio di conferma in [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui sono descritti gli effetti dell'attivazione della valuta contabile addizionale.  
+3. Quando si esce dal campo, verrà visualizzato un messaggio di conferma in [!INCLUDE[prod_short](includes/prod_short.md)] in cui sono descritti gli effetti dell'attivazione della valuta contabile addizionale.  
 4. Selezionare il pulsante **Sì** per confermare che si desidera attivare la valuta.  
 5. Verrà aperto il processo batch **Rett. valuta cont. aggiuntiva**.
 
@@ -126,4 +126,4 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 ## <a name="see-also"></a>Vedere anche
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

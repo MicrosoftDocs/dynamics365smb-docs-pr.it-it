@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747970"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  
@@ -194,7 +194,7 @@ Può essere necessario annullare un contratto di assistenza alla scadenza di que
 6. Se al contratto sono associate fatture non registrate, note di credito o movimenti prepagati aperti, verrà visualizzato un messaggio di conferma. Nella finestra del messaggio scegliere **No** per tornare al contratto e registrare i documenti oppure scegliere **Sì** per procedere all'annullamento.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Archiviazione di un contratto di assistenza o un'offerta di contratto di assistenza  
-È possibile archiviare contratti di assistenza e offerte di contratto in qualsiasi momento per registrare e memorizzare una copia del contratto o dell'offerta di contratto nel programma. In [!INCLUDE[d365fin](includes/d365fin_md.md)] i contratti di assistenza vengono archiviati automaticamente quando le offerte di contratto vengono convertite in contratti di assistenza oppure quando i contratti di assistenza vengono eliminati. È possibile archiviare un contratto o un'offerta scegliendo l'azione **Archivia contratto** nelle pagine **Contratti assistenza** o **Offerte contratto assistenza**. Se si desidera visualizzare i contratti archiviati delle offerte cercando **Contratti archiviati**.
+È possibile archiviare contratti di assistenza e offerte di contratto in qualsiasi momento per registrare e memorizzare una copia del contratto o dell'offerta di contratto nel programma. In [!INCLUDE[prod_short](includes/prod_short.md)] i contratti di assistenza vengono archiviati automaticamente quando le offerte di contratto vengono convertite in contratti di assistenza oppure quando i contratti di assistenza vengono eliminati. È possibile archiviare un contratto o un'offerta scegliendo l'azione **Archivia contratto** nelle pagine **Contratti assistenza** o **Offerte contratto assistenza**. Se si desidera visualizzare i contratti archiviati delle offerte cercando **Contratti archiviati**.
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare i contratti di assistenza](service-how-setup-service-contracts.md)  

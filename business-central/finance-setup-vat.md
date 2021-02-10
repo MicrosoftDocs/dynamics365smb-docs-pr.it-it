@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919521"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750332"
 ---
 # <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
 
-I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
+I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[prod_short](includes/prod_short.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
 
 * Persone a cui si vende  
 * Persone da cui si acquista  
@@ -35,17 +35,17 @@ Se si desidera impostare i calcoli IVA manualmente, o se si desidera conoscere c
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Per utilizzare il setup IVA assistito per impostare l'IVA (consigliato)
 
-Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito**.  
 2. Scegliere **Imposta l'IVA** e completare i passaggi.
-3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
+3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Per impostare i numeri di partita IVA per il paese
 
-Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[d365fin](includes/d365fin_md.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
+Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[prod_short](includes/prod_short.md)] visualizzerà un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
 Per impostare i numeri di partita VAT, attenersi a questa procedura:
 
@@ -70,7 +70,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cat. reg. business IVA** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
 
-Le categorie di registrazione business IVA di default vengono impostate collegandole alle categorie di registrazione business. [!INCLUDE[d365fin](includes/d365fin_md.md)] assegna automaticamente la categoria di registrazione business IVA quando viene assegnata la categoria di registrazione business a un cliente, un fornitore o un conto di contabilità generale.
+Le categorie di registrazione business IVA di default vengono impostate collegandole alle categorie di registrazione business. [!INCLUDE[prod_short](includes/prod_short.md)] assegna automaticamente la categoria di registrazione business IVA quando viene assegnata la categoria di registrazione business a un cliente, un fornitore o un conto di contabilità generale.
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Per impostare le categorie di registrazione articoli/servizi IVA
 Le categorie di registrazione articoli/servizi IVA rappresentano articoli e risorse acquistate o vendute e determinano la tipologia di calcolo e di registrazione dell'IVA in base al tipo di articolo o risorsa acquistato o venduto.  
@@ -82,7 +82,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 2. Compilare i campi in base alle esigenze.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Per combinare le categorie di registrazione IVA nei setup registrazione IVA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcola gli importi IVA su vendite e acquisti in base alle impostazioni di registrazione IVA, che sono combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi IVA. Per ogni combinazione, è possibile specificare la percentuale IVA, la tipologia di calcolo IVA e i numeri di conto C/G per la registrazione dell'IVA relativa a vendite e acquisti e dell'IVA intracomunitaria. È inoltre possibile specificare se l'IVA viene ricalcolata quando viene applicato o ricevuto uno sconto pagamento.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcola gli importi IVA su vendite e acquisti in base alle impostazioni di registrazione IVA, che sono combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi IVA. Per ogni combinazione, è possibile specificare la percentuale IVA, la tipologia di calcolo IVA e i numeri di conto C/G per la registrazione dell'IVA relativa a vendite e acquisti e dell'IVA intracomunitaria. È inoltre possibile specificare se l'IVA viene ricalcolata quando viene applicato o ricevuto uno sconto pagamento.  
 
 È possibile impostare un numero illimitato di combinazioni. Se si desidera raggruppare combinazioni di setup di registrazioni IVA con attributi simili, è possibile definire un **codice IVA** per ogni categoria e assegnare il codice ai membri della categoria.
 
@@ -92,7 +92,7 @@ Per combinare setup di registrazioni IVA, attenersi a questa procedura:
 2. Compilare i campi come necessario.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Per assegnare le categorie di registrazione IVA per impostazione predefinita a più entità
-Se si desidera applicare le stesse categorie di registrazione IVA a più entità, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] per effettuare questa operazione in modo predefinita. Esistono due metodi per farlo:
+Se si desidera applicare le stesse categorie di registrazione IVA a più entità, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] per effettuare questa operazione in modo predefinita. Esistono due metodi per farlo:
 
 * È possibile assegnare le categorie di registrazione business IVA a categorie di registrazione business generali, o modelli cliente o fornitore
 * È possibile assegnare le categorie di registrazione articolo/categorie IVA in categorie di registrazione di articoli e servizi generali  
@@ -128,7 +128,7 @@ Se necessario, è anche possibile specificare come tradurre automaticamente le c
 
 Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti, come fatture o note di credito, le società sono generalmente tenute a includere un testo di esenzione (categoria IVA) indicante il motivo per cui è stata calcolata un'IVA ridotta o un'aliquota IVA zero. È possibile definire diverse categorie IVA da includere nei documenti commerciali per tipo di documento, come fattura o nota di credito. È possibile eseguire questa operazione nella pagina **Categorie IVA per tipo di documento**.
 
-È possibile modificare o eliminare una categoria IVA. Le modifiche si rifletteranno in un report generato. Tuttavia, [!INCLUDE[d365fin](includes/d365fin_md.md)] non conserva una cronologia della modifica. Nel report, le descrizioni della categoria IVA vengono stampate e visualizzate per tutte le righe del report accanto all'importo IVA e all'imponibile IVA. Se una categoria IVA non è stata definita per alcune righe del documento di vendita, allora viene omessa l'intera sezione quando il report viene stampato.
+È possibile modificare o eliminare una categoria IVA. Le modifiche si rifletteranno in un report generato. Tuttavia, [!INCLUDE[prod_short](includes/prod_short.md)] non conserva una cronologia della modifica. Nel report, le descrizioni della categoria IVA vengono stampate e visualizzate per tutte le righe del report accanto all'importo IVA e all'imponibile IVA. Se una categoria IVA non è stata definita per alcune righe del documento di vendita, allora viene omessa l'intera sezione quando il report viene stampato.
 
 ### <a name="to-set-up-vat-clauses"></a>Impostare categorie IVA
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie IVA** e quindi scegliere il collegamento correlato.  
@@ -169,7 +169,7 @@ Per il commercio tre due società nell'Unione Europea, per alcune società è ne
 > Questa regola è valida per il commercio con società registrate come soggette a IVA in un altro paese UE. Se si hanno relazioni commerciali dirette con clienti in altri paesi UE, è necessario contattare le autorità fiscali per informazioni sulle regole IVA applicabili.  
 
 > [!TIP]  
-> È possibile verificare che la società sia registrata come soggetto IVA in un altro paese UE utilizzando il servizio di convalida partita IVA UE. Il servizio è disponibile gratuitamente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere la sezione relativa _Verifica partita IVA_ in questo argomento.
+> È possibile verificare che la società sia registrata come soggetto IVA in un altro paese UE utilizzando il servizio di convalida partita IVA UE. Il servizio è disponibile gratuitamente in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere la sezione relativa _Verifica partita IVA_ in questo argomento.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Vendite ai paesi UE
 Sulle vendite a società soggette a IVA in altri paesi UE l'IVA non viene calcolata. È necessario indicare il valore di tali vendite ai paesi UE separatamente nella dichiarazione IVA.  

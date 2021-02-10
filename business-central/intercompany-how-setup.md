@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915487"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750132"
 ---
-# <a name="set-up-intercompany"></a>Impostare la contabilità interaziendale
+# <a name="set-up-intercompany"></a>Impostare la contabilità intercompany
+
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
 
 È inoltre necessario impostare un codice partner IC per ogni società partner, accettato da tutte le società, quindi assegnarlo alle schede clienti e fornitori rispettivamente compilando il campo **Codice partner IC**.  
@@ -36,7 +37,7 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 3. Nella pagina **Partner IC** compilare i campi secondo le necessità.
 
 > [!NOTE]
-> In [!INCLUDE[d365fin](includes/d365fin_md.md)]online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[d365fin](includes/d365fin_md.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.
+> In [!INCLUDE[prod_short](includes/prod_short.md)]online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[prod_short](includes/prod_short.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Per impostare fornitori intercompany e clienti intercompany
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
@@ -90,7 +91,11 @@ Quando si specifica un conto C/G nel campo **Nr. contropartita** di una riga int
 3. Ripetere il passaggio 2 per ogni conto immesso di frequente nel campo **Nr. contropartita** di una riga di documento o registrazione intercompany.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Per impostare le dimensioni intercompany
+
 Per poter scambiare con i propri partner intercompany transazioni con dimensioni collegate, è necessario concordare le dimensioni che verranno usate da tutti. La casa madre del gruppo può ad esempio creare una versione semplificata del proprio insieme di dimensioni ed esportare tali dimensioni intercompany in un file XML da distribuire a tutte le società del gruppo. Ogni filiale può quindi importare il file XML nella pagina **Dimensioni intercompany** e associare le dimensioni intercompany a quelle presenti nella pagina **Dimensioni** della società.  
+
+> [!NOTE]
+> Ogni società in [!INCLUDE [prod_short](includes/prod_short.md)] deve mappare le dimensioni alle dimensioni intercompany per i documenti in uscita e mappare le dimensioni intercompany alle proprie dimensioni per i documenti in entrata. Questa mappatura garantisce la coerenza tra le società. Per ulteriori informazioni, vedere la sezione [Mappare dimensioni intercompany alle dimensioni della propria società](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Se la società è la società padre e dispone del set di dimensioni intercompany che il gruppo utilizzerà come riferimento comune, seguire la procedura [Per definire le dimensioni intercompany](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Una volta che il file delle dimensioni intercompany è presente, i partner inter
 Le righe delle pagine **Dimensioni intercompany** e **Valori dimensioni intercompany** vengono importate.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Per mappare le dimensioni IC alle dimensioni della società
-Dopo aver importato o definito le dimensioni concordate con i partner intercompany, è necessario associare ogni dimensione IC con la corrispondente dimensione della società e viceversa. Nella pagina **Dimensioni intercompany** è possibile specificare come convertire le dimensioni intercompany utilizzate nelle transazioni in entrata nelle dimensioni definite nell'elenco delle dimensione della società. Nella pagina **Dimensioni** è possibile specificare come convertire le dimensioni della società nelle dimensioni intercompany utilizzate nelle transazioni in uscita.
+Dopo aver importato o definito le dimensioni concordate con i partner intercompany, è necessario associare ogni dimensione IC con la corrispondente dimensione della società e viceversa. Nella pagina **Dimensioni intercompany** è possibile specificare come convertire le dimensioni intercompany nelle *transazioni in entrata* nelle dimensioni definite nell'elenco delle dimensioni della società. Nella pagina **Dimensioni** è possibile specificare come convertire le dimensioni in dimensioni intercompany utilizzate nelle *transazioni in uscita*.
 
-Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni definite nell'elenco delle dimensioni della società possono essere associate automaticamente, quindi è possibile associare i conti automaticamente.
+Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni definite nell'elenco delle dimensioni della società possono essere associate automaticamente, quindi è possibile associare i conti automaticamente.  
+
+Nei passaggi seguenti, si mappano dapprima le dimensioni intercompany alle dimensioni per i documenti in entrata nella pagina **Dimensioni intercompany**. Quindi, si mappano le dimensioni alle dimensioni intercompany per i documenti in uscita nella pagina **Dimensioni**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dimensioni intercompany** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Dimensioni intercompany** selezionare le righe che si desidera associare automaticamente, quindi scegliere l'azione **Associa a dim. con stesso codice**.
@@ -133,8 +140,9 @@ Le dimensioni intercompany con lo stesso codice delle corrispondenti dimensioni 
 10. Nella pagina **Valori dimensioni intercompany** compilare il campo **Mapping codice valore dim. IC**.
 
 ## <a name="see-also"></a>Vedi anche
+
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

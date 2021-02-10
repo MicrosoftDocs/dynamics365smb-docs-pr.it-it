@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913398"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747093"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 
-Alcune organizzazioni usano [!INCLUDE [prodshort](includes/prodshort.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prodshort](includes/prodshort.md)] nelle filiali che devono riferire nelle organizzazioni madri. In entrambi i casi, i contabili utilizzano strumenti integrati per consolidare i dati finanziari.  
+Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono riferire nelle organizzazioni madri. In entrambi i casi, i contabili utilizzano strumenti integrati per consolidare i dati finanziari.  
 
 È possibile consolidare i movimenti di contabilità generale di due o più società separate (filiali) in una società consolidata. Ogni società coinvolta in un consolidamento è detta business unit. La società generata da questa unione è detta società consolidata.  
 
-È possibile importare dati nella società consolidata da altre società nello stesso tenant [!INCLUDE [prodshort](includes/prodshort.md)], da tenant o da file.  
+È possibile importare dati nella società consolidata da altre società nello stesso tenant [!INCLUDE [prod_short](includes/prod_short.md)], da tenant o da file.  
 
 Se i rendiconti finanziari di una business unit sono in una valuta diversa da quella della società consolidata, è necessario impostare i tassi di cambio per il consolidamento.  
 
@@ -42,7 +42,7 @@ Una società consolidata viene impostata come qualsiasi altra società. Il piano
 
 ## <a name="trial-balance"></a>Bilancio di verifica
 
-Se si hanno più società in [!INCLUDE[d365fin](includes/d365fin_md.md)], il report **Bilancio di verifica consolidato** può fornire una panoramica dello stato finanziario dell'attività commerciale globale.  
+Se si hanno più società in [!INCLUDE[prod_short](includes/prod_short.md)], il report **Bilancio di verifica consolidato** può fornire una panoramica dello stato finanziario dell'attività commerciale globale.  
 
 Il report combina i movimenti di contabilità generale di ognuna delle società in una nuova società creata per contenere i dati consolidati. Questa società è in genere detta "società consolidata". La società consolidata è solo un contenitore per i dati unificati e non presenta dati aziendali dinamici. Le società incluse nella società consolidata diventano **business unit** nel report. Per ulteriori informazioni, vedere [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,7 +52,7 @@ Il processo di trasferimento dei dati dalle business unit alla società consolid
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Per verificare i dati prima del consolidamento
 
-È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[d365fin](includes/d365fin_md.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.  
+È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[prod_short](includes/prod_short.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.  
 
 1. Aprire la società consolidata.  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
@@ -118,5 +118,5 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 
 [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)

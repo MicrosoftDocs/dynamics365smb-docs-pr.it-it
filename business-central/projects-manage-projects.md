@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926949"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748845"
 ---
 # <a name="project-management"></a>Gestione progetti
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
+In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
-Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
+Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="get-started-with-projects"></a>Introduzione ai progetti
 
-La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prodshort](includes/prodshort.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prodshort](includes/prodshort.md)] di YouTube.  
+La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prod_short](includes/prod_short.md)] di YouTube.  
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -46,6 +46,6 @@ La gestione dei progetti è di per sé complicata e apprendere a come creare com
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

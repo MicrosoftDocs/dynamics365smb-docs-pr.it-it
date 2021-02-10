@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5a485c3149b4d937fefc6443221fb1ffafcb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84fb937dc2fa74b67123f5cbc27fa0eeef024ac7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747476"
 ---
 # <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  
 
 Inoltre, questa funzionalità di pagamento degli effetti supporta l'emissione del pagamento in diversi formati, compreso il bonifico SEPA, l'addebito diretto SEPA e i formati di effetti italiani.  
 

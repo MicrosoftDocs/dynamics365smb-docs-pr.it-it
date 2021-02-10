@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913815"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752207"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
@@ -43,7 +43,7 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 ## <a name="setting-up-line-and-column-layouts"></a>Impostazione dei layout di riga e di colonna  
  Nella pagina **Report analisi** è possibile visualizzare diversi layout di righe e colonne in base alle righe o ai modelli di riga impostati nella pagina **Modelli righe analisi**. È possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella pagina **Modelli colonne analisi**. È possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella pagina **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  
 
-In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Report analisi**, come nella tabella seguente.  
+In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina **Report analisi**, come nella tabella seguente.  
 
 |- |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ I report di analisi consentono di valutare in dettaglio la dinamica delle vendit
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

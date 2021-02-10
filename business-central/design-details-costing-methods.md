@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927024"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751707"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 
@@ -24,7 +24,7 @@ Il metodo di costing determina se un valore effettivo o a budget viene capitaliz
 > [!NOTE]
 > Non è possibile modificare il metodo di costing dell'articolo se esiste un movimento contabile aperto per l'articolo. Per ulteriori informazioni, vedere [Dettagli di progettazione: modifica del metodo di determinazione dei costi per gli articoli](design-details-changing-costing-methods.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi:  
+In [!INCLUDE[prod_short](includes/prod_short.md)] sono supportati i seguenti metodi:  
 
 | Metodo di costing | Descrizione | Quando utilizzarlo |
 |--|--|--|
@@ -163,4 +163,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono supportati i seguenti metodi
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

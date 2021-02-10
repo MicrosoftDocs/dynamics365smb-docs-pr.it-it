@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923772"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750082"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 Se si acquista, immagazzina o si vendono articoli in più aree o warehouse, è necessario impostare ogni ubicazione con una scheda ubicazione e definire i percorsi di trasferimento.
@@ -47,6 +47,6 @@ A questo punto è possibile trasferire agli articoli di magazzino tra due ubicaz
 ## <a name="see-also"></a>Vedi anche
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

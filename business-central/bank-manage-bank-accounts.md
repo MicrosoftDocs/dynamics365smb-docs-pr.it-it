@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924355"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752332"
 ---
 # <a name="reconciling-bank-accounts"></a>Riconciliazione dei conti correnti bancari
 
@@ -26,7 +26,7 @@ Una riconciliazione bancaria deve essere completata a intervalli regolari per tu
 > [!NOTE]  
 > Nelle versioni per il Nord America è possibile eseguire la riconciliazione bancaria nella pagina **Prospetto riconciliazione bancaria**, più adatta per assegni e depositi ma non offre l'importazione di file di rendiconti bancari. Per utilizzare questa finestra al posto della pagina **Riconciliazioni C/C bancari**, deselezionare il campo **Riconciliazione bancaria con collegamento automatico** nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere [Riconciliazione dei conti correnti bancari](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) nella funzionalità locale per gli Stati Uniti.
 
-Prima di poter gestire i conti correnti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostazione delle attività bancarie](bank-setup-banking.md).
+Prima di poter gestire i conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostazione delle attività bancarie](bank-setup-banking.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -48,5 +48,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

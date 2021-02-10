@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7021b09fd113ec87ff8d155fff24b31ca497bc42
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924455"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752407"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Impostare l'estensione AMC Banking 365 Fundamentals
-Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questo è indicato in [!INCLUDE[d365fin](includes/d365fin_md.md)] come l'estensione AMC Banking 365 Fundamentals.
+Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo è indicato in [!INCLUDE[prod_short](includes/prod_short.md)] come l'estensione AMC Banking 365 Fundamentals.
 
 Tramite la pagina **Registraz. pagamenti** è possibile esportare le righe pagamento in un file o in un flusso di dati che viene quindi caricato nella banca per l'elaborazione automatica in modo che non sia necessario eseguire singolarmente i pagamenti elettronici. Per ulteriori informazioni, vedere [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-È possibile importare i file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** utilizzando l'estensione AMC Banking 365 Fundamentals per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[d365fin](includes/d365fin_md.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+È possibile importare i file dell'estratto conto bancario nella pagina **Registrazione riconciliazione pagamenti** utilizzando l'estensione AMC Banking 365 Fundamentals per convertire un file ricevuto dalla banca in un flusso di dati che [!INCLUDE[prod_short](includes/prod_short.md)] può contenere. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 In alternativa all'importazione di estratti conto con l'estensione AMC Banking 365 Fundamentals, è possibile utilizzare il servizio Envestnet Yodlee Bank Feeds. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -40,7 +40,7 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 3. Nel campo **URL iscrizione** scegliere il pulsante Sfoglia per aprire la pagina di iscrizione del provider del servizio.  
 4. Nella pagina di iscrizione del provider del servizio dati bancari, immettere il nome utente e la password per l'iscrizione della società al servizio, quindi eseguire il processo di registrazione come indicato dal provider del servizio.
 
-    La società ora è iscritta all'estensione AMC Banking 365 Fundamentals. Continuare immettendo il nome utente e la password specificati per il servizio nei campi di setup correlati in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    La società ora è iscritta all'estensione AMC Banking 365 Fundamentals. Continuare immettendo il nome utente e la password specificati per il servizio nei campi di setup correlati in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 5. Nella pagina **Setup servizio conv. dati banca**, nel campo **Nome utente**, immettere lo stesso valore che è stato immesso come nome di connessione nella pagina del provider del servizio nel passaggio 4.
 6. Nel campo **Password** immettere lo stesso valore che è stato immesso nel campo **Password** nella pagina del provider del servizio nel passaggio 4.
@@ -63,4 +63,4 @@ La società è stata iscritta all'estensione AMC Banking 365 Fundamentals. Conti
 ## <a name="see-also"></a>Vedere anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

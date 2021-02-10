@@ -1,6 +1,6 @@
 ---
 title: Come registrare costi di magazzino nella contabilità generale | Microsoft Docs
-description: Descrive come gestire i prodotti fisici che si vendono, ad esempio, la gestione dello stock nella warehouse.
+description: Al termine dei periodi contabili, mensili, annuali o altro, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare al reparto finanziario il valore di magazzino corretto e bilanciato. Oltre ai comuni processi di registrazione da eseguire per trasferire i singoli movimenti di valorizzazione degli articoli nei conti di contabilità generale rilevanti, per lo svolgimento di questa attività cruciale, il revisore o il controllore dei costi ha a disposizione numerosi report, funzioni di tracciabilità e uno speciale strumento di riconciliazione.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919490"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746818"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di magazzino con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale.
@@ -69,9 +69,21 @@ Nelle colonne successive sono visualizzati i totali per gli stessi tipi di conto
 
 Scegliere l'importo in qualsiasi campo relativo ai totali per visualizzare i movimenti report magazzino utilizzati per calcolare i totali. Per i totali di magazzino, i movimenti report magazzino sono costituiti dalle somme dei movimenti di valorizzazione per gli articoli. Per i totali del conto C/G, i movimenti report magazzino sono costituiti dalle somme calcolate dai movimenti C/G.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
+Altri report, funzioni di tracciabilità e uno speciale strumento di riconciliazione sono a disposizione del revisore o del controllore responsabile della comunicazione di un valore di magazzino corretto e bilanciato al reparto finanziario.
+
+Questi sono descritti nella tabella seguente.    
+
+|**Per**|**Vedere**|  
+|------------|-------------|  
+|Visualizzare il valore di magazzino degli articoli selezionati, incluse le informazioni relative alle quantità e ai valori di aumenti e diminuzioni del magazzino per un determinato periodo.|Report **Valutazione magazzino**|  
+|Visualizzare il valore di magazzino degli ordini di produzione selezionati nel magazzino WIP, ad esempio le quantità e i valori del consumo, l'utilizzo della capacità e l'output negli ordini di produzione in corso.|Report **Valutazione magazzino - WIP**|  
+|Visualizzare il valore di magazzino degli articoli selezionati, incluso il relativo costo effettivo e previsto alla data specificata.|Report **Valutazione magazzino - Specifica costi**|  
+|Utilizzare un report per analizzare i motivi delle variazioni di costo o per ottenere informazioni relative al dettaglio costi degli articoli venduti (COGS).|Report **Breakdown dettaglio costi**|  
+
+## <a name="see-also"></a>Vedere anche  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

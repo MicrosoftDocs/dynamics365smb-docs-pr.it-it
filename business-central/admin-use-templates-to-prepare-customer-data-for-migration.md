@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922344"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745918"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Preparare la migrazione dei dati dei clienti con modelli
 
@@ -28,7 +28,7 @@ In genere, si creano modelli dati per le seguenti tabelle di dati master:
 - **Articolo**  
 - **Fornitore**  
 
-Tuttavia, è possibile creare una struttura del modello a tale scopo e applicarla a qualsiasi tabella in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Tuttavia, è possibile creare una struttura del modello a tale scopo e applicarla a qualsiasi tabella in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > È anche possibile utilizzare modelli dati per le operazioni quotidiane per creare nuovi record basati su modelli. Questi modelli dati funzionano solo per le tabelle di dati master supportate. Per ulteriori informazioni, vedere, ad esempio, [Registrare nuovi articoli](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi 
 3. Nel campo **Valore predefinito**, immettere un valore appropriato. In alcuni casi, potrebbe essere necessario utilizzare un valore che non è disponibile nel database. In questo caso, è possibile selezionare la casella di controllo **Ignora verifica relazione** per consentire di collegare i dati senza errori.
 
     > [!TIP]  
-    > Poiché il campo **Valore predefinito** non dispone di una funzione di ricerca per le opzioni campo [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondenti, copiare e incollare il valore desiderato dalla pagina correlata nel modello.
+    > Poiché il campo **Valore predefinito** non dispone di una funzione di ricerca per le opzioni campo [!INCLUDE[prod_short](includes/prod_short.md)] corrispondenti, copiare e incollare il valore desiderato dalla pagina correlata nel modello.
 
 4. Selezionare la casella di controllo **Obbligatorio** se gli utenti devono compilare il campo in questione.
 
@@ -98,7 +98,7 @@ L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi 
 
 ## <a name="to-export-to-a-template-in-excel"></a>Per esportare in un modello in Excel
 
-È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Aggiungere una tabella alla lista oppure selezionare una tabella esistente. Per ulteriori informazioni, vedere [Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Quando si collegano i dati di un modello in Excel a una tabella, anch'essa colle
 Risulta completo qualsiasi record che presenta questa modalità di collegamento dei dati, poiché è composto dai dati immessi da un utente in Excel e dai valori di default specificati nel modello di configurazione.
 
 > [!NOTE]
-> Se i dati nelle tabelle del pacchetto di configurazione contengono date, ad esempio le date di registrazione nelle fatture, le date vengono considerate nel fuso orario specificato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Se i dati nelle tabelle del pacchetto di configurazione contengono date, ad esempio le date di registrazione nelle fatture, le date vengono considerate nel fuso orario specificato in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Per creare un record da un modello di configurazione
 
@@ -140,7 +140,7 @@ Nella seguente procedura viene illustrato come creare una scheda articolo da un 
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Per utilizzare un modello di configurazione su un record
 
-È possibile applicare un modello dati a qualsiasi record in [!INCLUDE[d365fin](includes/d365fin_md.md)] e utilizzare questa tecnica per modificare un record. Tuttavia, se si esegue questa operazione, sovrascrivere i valori presenti nel record con quelli del modello. Di conseguenza, è necessario prestare attenzione quando si applica un modello ai record esistenti.
+È possibile applicare un modello dati a qualsiasi record in [!INCLUDE[prod_short](includes/prod_short.md)] e utilizzare questa tecnica per modificare un record. Tuttavia, se si esegue questa operazione, sovrascrivere i valori presenti nel record con quelli del modello. Di conseguenza, è necessario prestare attenzione quando si applica un modello ai record esistenti.
 
 > [!WARNING]  
 > La funzione **Collega modello** sovrascrive i dati esistenti in un record. Se questa funzione viene utilizzata nella migrazione dei dati master, i dati importati verranno sovrascritti alla creazione dei record.

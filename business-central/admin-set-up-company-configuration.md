@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745944"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
-Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
+Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
 
 RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione dei dati legacy, ad esempio clienti e fornitori.  
 
@@ -26,7 +26,7 @@ RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione de
 
 I pacchetti di configurazione sono costruiti in base a una società preconfigurata. Dopo aver configurato una società in base alle proprie esigenze, è possibile creare un pacchetto di configurazione contenente i dati pertinenti relativi a tale società. Dopo avere definito un modello di società, è quindi possibile utilizzarlo per creare una nuova società da configurare allo stesso modo.  
 
-Per semplificare l'importazione dei dati master, quali informazioni relative a clienti e fornitori, è possibile utilizzare modelli di configurazione. I modelli di configurazione contengono una serie di impostazioni di default che vengono automaticamente assegnate ai record importati in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Per semplificare l'importazione dei dati master, quali informazioni relative a clienti e fornitori, è possibile utilizzare modelli di configurazione. I modelli di configurazione contengono una serie di impostazioni di default che vengono automaticamente assegnate ai record importati in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 

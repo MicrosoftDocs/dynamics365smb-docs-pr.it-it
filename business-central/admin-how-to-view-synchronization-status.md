@@ -10,23 +10,29 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c185ab8fecc8f8d70dad7696a5fb5f67207717aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 614106792985487beeaa9dc6e995e97970996e48
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924605"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752615"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
-Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-* Due persone hanno apportato una modifica allo stesso record in entrambe le app aziendali.
-* Qualcuno ha cancellato un record in una delle app, ma non entrambe.
+Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
+
+* Due persone hanno apportato una modifica agli stessi dati in entrambe le app aziendali.
+* Qualcuno ha cancellato dei dati in una delle app, ma non entrambe.
 
 > [!Note]
-> La pagina **Errori di sincronizzazione dati associati**mostra informazioni sui processi relativi ai record associati. Se si risolvono tutti gli errori ma i record continuano a non essere sincronizzati, è possibile che il problema sia dovuto all'impostazione per l'integrazione. In genere, l'amministratore dovrà risolvere questi tipi di errori.   
+> La pagina **Errori di sincronizzazione dati associati** mostra informazioni sui processi relativi ai record associati. Se si risolvono tutti gli errori ma i record continuano a non essere sincronizzati, è possibile che il problema sia dovuto all'impostazione per l'integrazione. In genere, l'amministratore dovrà risolvere questi tipi di errori.   
+
+<!--
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+-->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Per visualizzare e risolvere gli errori di sincronizzazione per record associati
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Errori di sincronizzazione dati associati** e quindi scegliere il collegamento correlato.
@@ -36,14 +42,14 @@ Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizz
 |----|----|
 |**Rimuovi associazione**|Elimina l'associazione dei record, che non verranno più sincronizzati. Per riavviare la sincronizzazione è necessario associarli nuovamente. |
 |**Riprova** e **Riprova tutto**|Per ogni record in cui viene rilevato un errore, la sincronizzazione viene saltata a meno che non si risolva il problema. Riprova includerà il record selezionato nella sincronizzazione successiva e **Riprova tutto** include tutti i record.|
-|**Sincronizza**|L'app proverà a risolvere un conflitto in cui un record è stato modificato in entrambe le app aziendali. È possibile scegliere la versione del record da utilizzare.|
-|**Ripristina record**ed **Elimina record**|Sono utili quando un record è stato eliminato in una delle app aziendali. Elimina record elimina il record nell'app in cui è ancora presente. Ripristina record ricrea il record nell'app aziendale in cui è stato eliminato.|
+|**Sincronizza**|L'app proverà a risolvere un conflitto in cui i dati sono stati modificati in entrambe le app aziendali. È possibile scegliere i dati da utilizzare.|
+|**Ripristina record** ed **Elimina record**|Sono utili quando un record è stato eliminato in una delle app aziendali. Elimina record elimina il record o la riga nell'app in cui è ancora presente. Ripristina record ricrea il record o la riga nell'app aziendale in cui è stato eliminato.|
 
 > [!NOTE]
 > Per ridurre il numero di conflitti da risolvere, è possibile impostare i mapping della tabella di integrazione in modo che applichino automaticamente queste azioni. Per ulteriori informazioni, vedere [Mapping delle tabelle di integrazione](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Per visualizzare il registro di sincronizzazione per uno specifico record (sincronizzato manualmente)
-1. Aprire, ad esempio, un cliente, un articolo o qualunque altro record che esegue la sincronizzazione dei dati tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Aprire, ad esempio, un cliente, un articolo o qualunque altro record che esegue la sincronizzazione dei dati tra [!INCLUDE[prod_short](includes/prod_short.md)] e Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Scegliere l'azione **Registro sincronizzazione** per visualizzare il registro di sincronizzazione per un record selezionato. Ad esempio, un cliente specifico sincronizzato manualmente.
 
 ## <a name="see-also"></a>Vedere anche  

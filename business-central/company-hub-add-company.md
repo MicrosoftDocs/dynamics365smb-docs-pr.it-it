@@ -5,31 +5,34 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: 773731ecc860e7d1ea0d13bbf9e6896a746544be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927696"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752107"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Aggiungere società all'hub aziendale
 
-Con l'hub aziendale, è possibile accedere al lavoro da più società di più ambienti [!INCLUDE [prodshort](includes/prodshort.md)]. È possibile aggiungere ambienti e società manualmente, se le società non vengono visualizzate automaticamente nell'hub aziendale.  
+Con l'hub aziendale, è possibile accedere al lavoro da più società di più ambienti [!INCLUDE [prod_short](includes/prod_short.md)]. È possibile aggiungere ambienti e società manualmente, se le società non vengono visualizzate automaticamente nell'hub aziendale.  
 
 Proprio nella pagina di destinazione dell'hub aziendale è disponibile il menu **Setup** da cui è possibile accedere alla pagina **Collegamenti ambiente**. Scegliere **Nuovo** e compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
+> [!NOTE]
+> Puoi collegare l'hub aziendale a tutte le società di cui hai bisogno. Tuttavia, puoi connettere l'hub aziendale solo alle società ospitate in [!INCLUDE [prod_short](includes/prod_short.md)] Online.
+
 ## <a name="environment-links"></a>Collegamenti ambiente
 
-Un collegamento ambiente è una scheda in cui è possibile specificare l'ambiente [!INCLUDE [prodshort](includes/prodshort.md)] che ospita una o più società in cui si lavora. I dati della scheda per ciascun ambiente sono specificati dall'utente e possono essere modificati secondo le necessità. Tuttavia, il campo **Collegamento ambiente** è fondamentale, indica come è possibile accedere a [!INCLUDE [prodshort](includes/prodshort.md)] di ogni società. Utilizzare l'azione **Test della connessione** nella barra multifunzione per verificare che sia stato inserito il collegamento corretto. Il collegamento da inserire punta all'ambiente che ospita la società che si sta aggiungendo e deve includere l'ID Azure Active Directory (Azure AD) o il nome di dominio dell'organizzazione. Ad esempio, se è stato specificato un dominio come MyBusiness.com, il collegamento alla soluzione [!INCLUDE [prodshort](includes/prodshort.md)] sarà ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. In caso contrario, sarà simile a questo: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
+Un collegamento ambiente è una scheda in cui è possibile specificare l'ambiente [!INCLUDE [prod_short](includes/prod_short.md)] che ospita una o più società in cui si lavora. I dati della scheda per ciascun ambiente sono specificati dall'utente e possono essere modificati secondo le necessità. Tuttavia, il campo **Collegamento ambiente** è fondamentale, indica come è possibile accedere a [!INCLUDE [prod_short](includes/prod_short.md)] di ogni società. Utilizzare l'azione **Test della connessione** nella barra multifunzione per verificare che sia stato inserito il collegamento corretto. Il collegamento da inserire punta all'ambiente che ospita la società che si sta aggiungendo e deve includere l'ID Azure Active Directory (Azure AD) o il nome di dominio dell'organizzazione. Ad esempio, se è stato specificato un dominio come MyBusiness.com, il collegamento alla soluzione [!INCLUDE [prod_short](includes/prod_short.md)] sarà ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. In caso contrario, sarà simile a questo: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
 Il collegamento viene utilizzato quando si sceglie la società nell'hub della società.  
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Azioni per una società elencata nell'hub aziendale":::
 
 > [!TIP]
-> Se si sta lavorando nella versione di prova gratuita di [!INCLUDE [prodshort](includes/prodshort.md)], è facile aggiungere le società nel tenant. È possibile trovare il collegamento ambiente copiando l'ID Azure Active Directory dalla sezione **Risoluzione dei problemi** della pagina Guida e supporto. Il nome dell'ambiente è probabilmente il valore predefinito, PRODUZIONE. Aggiungere queste informazioni al campo **Collegamento ambiente**, ad esempio ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` e quindi scegliere **Test della connessione**. La società di valutazione verrà aggiunta all'elenco.
+> Se si sta lavorando nella versione di prova gratuita di [!INCLUDE [prod_short](includes/prod_short.md)], è facile aggiungere le società nel tenant. È possibile trovare il collegamento ambiente copiando l'ID Azure Active Directory dalla sezione **Risoluzione dei problemi** della pagina Guida e supporto. Il nome dell'ambiente è probabilmente il valore predefinito, PRODUZIONE. Aggiungere queste informazioni al campo **Collegamento ambiente**, ad esempio ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` e quindi scegliere **Test della connessione**. La società di valutazione verrà aggiunta all'elenco.
 >
 > Se si passa alla società di prova di trenta giorni, My Company, è possibile aggiungerla all'elenco scegliendo l'azione **Ricarica/Ricarica tutte le società** nell'elenco.
 

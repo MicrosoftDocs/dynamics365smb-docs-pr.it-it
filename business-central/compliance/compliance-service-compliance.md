@@ -1,8 +1,7 @@
 ---
-title: Conformità dell'assistenza | Microsoft Docs
-description: Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a Business Central.
+title: Conformità dell'assistenza e contratto di servizio
+description: Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a Business Central Online.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,15 +11,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56c4413e333a2bf8d08ae25f1e4df1d03e87e0be
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920974"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751932"
 ---
 # <a name="service-compliance"></a>Conformità dell'assistenza
-Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+
+Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)] Online  
 
 Business Central è un servizio cloud eseguito su una delle infrastrutture iperscalabili più grandi al mondo, Microsoft Azure, con data center ovunque. L'esecuzione di un servizio cloud impone inoltre la necessità di rispettare determinati standard di protezione e conformità, di conseguenza dal punto di vista del servizio Business Central soddisfa requisiti rigorosi in varie certificazioni ISO e specifiche del settore.
 
@@ -30,9 +30,7 @@ Se si è interessati all'elenco completo delle offerte di conformità di Microso
 
 ## <a name="service-terms"></a>Condizioni di servizio
 
-[!INCLUDE[prodshort](../includes/prodshort.md)] online è regolato dai [Criterio del ciclo di vita moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). I termini dei contratti di servizio sono descritti nel documento che è possibile scaricare dalla sezione **Contratti di servizio per Microsoft Online Services** nella pagina [Condizioni di licenza](https://www.microsoft.com/licensing/product-licensing/products).  
-
-Inoltre, è possibile monitorare lo stato del tenant e specificare finestre di aggiornamento in [Centro amministrativo tenant](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -40,4 +38,4 @@ Inoltre, è possibile monitorare lo stato del tenant e specificare finestre di a
 [Conformità dell'applicazione](compliance-application-compliance.md)  
 [Certificazioni](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

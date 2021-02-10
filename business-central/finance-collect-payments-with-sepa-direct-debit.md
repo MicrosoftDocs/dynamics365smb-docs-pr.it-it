@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913423"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747118"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Riscuotere pagamenti con addebito diretto SEPA
 Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente in conformità al formato SEPA.  
@@ -35,9 +35,9 @@ Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente da
 Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca usando il formato di addebito diretto SEPA.
 
 > [!NOTE]
-> La versione globale di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta solo il formato di addebito diretto SEPA. La versione del proprio paese/area geografica può supportare altri formati per i pagamenti elettronici. Vedere **Funzionalità locale** nel sommario.  
+> La versione globale di [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo il formato di addebito diretto SEPA. La versione del proprio paese/area geografica può supportare altri formati per i pagamenti elettronici. Vedere **Funzionalità locale** nel sommario.  
 
-Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
+Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
 Prima di poter elaborare elettronicamente i pagamenti del cliente esportando le istruzioni di addebito diretto nel formato di addebito diretto SEPA, è necessario effettuare i seguenti passaggi di impostazione:  
 

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 618e7c332ea72ef3774a670b2565f33bebfacfeb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ef6a917e35b551eba3aaa61e1b2927f8761adc2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919951"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747477"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
-Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
@@ -36,14 +36,14 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Stampa report Ritenuta](how-to-print-withholding-tax-reports.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti
-    * [Impostazione delle condizioni di pagamento](how-to-set-up-payment-terms.md) **Disponibile ora**
+    * [Impostare le condizioni pagamento](how-to-set-up-payment-terms.md) **Disponibile ora**
     * [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md) **Disponibile ora**
     * [Panoramica di pagamenti fornitori ed effetti clienti](vendor-payments-and-customer-bills-overview.md) **Disponibile ora**
     * [Emettere pagamenti fornitori ed effetti clienti](how-to-issue-vendor-payments-and-customer-bills.md) **Disponibile ora**
 
 * Finanze principali
     * [Chiusura di un anno fiscale](how-to-close-a-fiscal-year.md) **Disponibile ora**
-    * [Definizione di dare e avere ](how-to-define-debit-and-credit-amounts.md) **Disponibile ora**
+    * [Definizione di dare e avere](how-to-define-debit-and-credit-amounts.md) **Disponibile ora**
     * [Storno di scritture contabili](reversing-journal-entries.md) **Disponibile ora**
 
 * Inventario
@@ -65,7 +65,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: scrap
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a155c5b2f616963da34c4d512bcc0f52623f58b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16d052c67a2d9b5513e9dac901dfeddce0527512
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920724"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749420"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Smaltimento o ritiro dei cespiti
 
@@ -57,5 +57,5 @@ Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare 
 [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Trova movimenti](ui-find-entries.md)  

@@ -7,39 +7,39 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9933f8cc76c4a5fa4853b522acded97daf46ac6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925107"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749145"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
-In [!INCLUDE[prodlong](includes/prodlong.md)], la voce di menu ? (nell'angolo superiore destro) fornisce accesso alla pagina **Guida e supporto**, che include collegamenti alle risorse che consentono di trovare risposte alle domande. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prodshort](includes/prodshort.md)].  
+In [!INCLUDE[prod_long](includes/prod_long.md)], la voce di menu ? (nell'angolo superiore destro) fornisce accesso alla pagina **Guida e supporto**, che include collegamenti alle risorse che consentono di trovare risposte alle domande. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 In questa pagina vengono descritte le risorse disponibili nelle differenti sezioni della pagina **Guida e supporto**.  
 
 ## <a name="finding-answers"></a>Trovare risposte
 
-Nella sezione **Trovarlo** sono riportati i collegamenti alle aree più comuni per trovare risposte alle domande. I collegamenti sono raggruppati in quattro categorie e sono descritti nelle sottosezioni seguenti. Alcuni dei collegamenti possono essere configurati dal proprio partner [!INCLUDE[prodshort](includes/prodshort.md)] e di conseguenza il comportamento può essere leggermente diverso.  
+Nella sezione **Trovarlo** sono riportati i collegamenti alle aree più comuni per trovare risposte alle domande. I collegamenti sono raggruppati in quattro categorie e sono descritti nelle sottosezioni seguenti. Alcuni dei collegamenti possono essere configurati dal proprio partner [!INCLUDE[prod_short](includes/prod_short.md)] e di conseguenza il comportamento può essere leggermente diverso.  
 
 ### <a name="product-help"></a>Guida del prodotto
 
 Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodotto:
 
-- La guida relative alla pagina appena visualizzata in [!INCLUDE[prodshort](includes/prodshort.md)]  
+- La guida relative alla pagina appena visualizzata in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prodshort](includes/prodshort.md)] non trova il collegamento, viene visualizzata la pagina di destinazione in [Docs.microsoft.com](index.md) per la versione di default di [!INCLUDE[prodshort](includes/prodshort.md)]. Ad esempio, ciò può verificarsi se la pagina faceva parte di un'app che non ha aggiunto il mapping della Guida sensibile al contesto a [!INCLUDE[prodshort](includes/prodshort.md)].  
-- Pagina di destinazione della Guida per [!INCLUDE[prodshort](includes/prodshort.md)]  
+  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la pagina di destinazione in [Docs.microsoft.com](index.md) per la versione di default di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, ciò può verificarsi se la pagina faceva parte di un'app che non ha aggiunto il mapping della Guida sensibile al contesto a [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Pagina di destinazione della Guida per [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  La funzionalità nella versione di default di [!INCLUDE[prodshort](includes/prodshort.md)] è descritta sul sito [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Per ulteriori informazioni, consultare la sezione [Uso del sito docs.microsoft.com per ulteriori informazioni](#using-the-docsmicrosoftcom-site-to-learn-more). Oltre alla versione di default, è possibile estendere e personalizzare [!INCLUDE[prodshort](includes/prodshort.md)] con app di AppSource. Tutte le app forniscono collegamenti alla Guida del prodotto in modo da trovare sempre indicazioni per i differenti flussi di lavoro nella versione in uso di [!INCLUDE[prodshort](includes/prodshort.md)].  
+  La funzionalità nella versione di default di [!INCLUDE[prod_short](includes/prod_short.md)] è descritta sul sito [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Per ulteriori informazioni, consultare la sezione [Uso del sito docs.microsoft.com per ulteriori informazioni](#using-the-docsmicrosoftcom-site-to-learn-more). Oltre alla versione di default, è possibile estendere e personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] con app di AppSource. Tutte le app forniscono collegamenti alla Guida del prodotto in modo da trovare sempre indicazioni per i differenti flussi di lavoro nella versione in uso di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="community"></a>Community
 
-Nel [forum di Business Central](https://community.dynamics.com/business/f), è possibile inviare una domanda e ottenere informazioni da altri membri della community di [!INCLUDE[prodshort](includes/prodshort.md)]. Partner e dipendenti di Microsoft partecipano alle conversazioni.  
+Nel [forum di Business Central](https://community.dynamics.com/business/f), è possibile inviare una domanda e ottenere informazioni da altri membri della community di [!INCLUDE[prod_short](includes/prod_short.md)]. Partner e dipendenti di Microsoft partecipano alle conversazioni.  
 
-Se si utilizza una versione di valutazione di [!INCLUDE[prodshort](includes/prodshort.md)] e non si ha ancora un partner, la community può risultare utile se si hanno domande.  
+Se si utilizza una versione di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)] e non si ha ancora un partner, la community può risultare utile se si hanno domande.  
 
 ### <a name="blog"></a>Blog
 
@@ -47,16 +47,16 @@ Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 
 
 ### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
 
-[!INCLUDE[prodshort](includes/prodshort.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel piano di rilascio di Dynamics 365 all'indirizzo [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni 6 mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel piano di rilascio di Dynamics 365 all'indirizzo [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
-Per una panoramica a più lungo termine, la [pagina della roadmap](https://dynamics.microsoft.com/roadmap/business-central/) di [!INCLUDE[prodshort](includes/prodshort.md)] mostra le priorità generali per [!INCLUDE[prodshort](includes/prodshort.md)] nei prossimi anni.  
+Per una panoramica a più lungo termine, la [pagina della roadmap](https://dynamics.microsoft.com/roadmap/business-central/) di [!INCLUDE[prod_short](includes/prod_short.md)] mostra le priorità generali per [!INCLUDE[prod_short](includes/prod_short.md)] nei prossimi anni.  
 
 ## <a name="do-more-with-your-trial"></a>Altre attività con la versione di valutazione
 
-In questa sezione vengono forniti collegamenti a Microsoft AppSource dove è possibile trovare soluzioni e servizi dei partner [!INCLUDE[prodshort](includes/prodshort.md)]. Utilizzare i collegamenti per esplorare le funzionalità complete di [!INCLUDE[prodshort](includes/prodshort.md)] prima di decidere se acquistare una sottoscrizione. È anche possibile trovare un collegamento per contattare il team di vendita.
+In questa sezione vengono forniti collegamenti a Microsoft AppSource dove è possibile trovare soluzioni e servizi dei partner [!INCLUDE[prod_short](includes/prod_short.md)]. Utilizzare i collegamenti per esplorare le funzionalità complete di [!INCLUDE[prod_short](includes/prod_short.md)] prima di decidere se acquistare una sottoscrizione. È anche possibile trovare un collegamento per contattare il team di vendita.
 
 > [!NOTE]
-> Questa sezione è disponibile solo nelle versioni di valutazione. Se si è già acquistato [!INCLUDE[prodshort](includes/prodshort.md)], questa sezione non è più visibile.
+> Questa sezione è disponibile solo nelle versioni di valutazione. Se si è già acquistato [!INCLUDE[prod_short](includes/prod_short.md)], questa sezione non è più visibile.
 
 ## <a name="give-feedback"></a>Inviare commenti e suggerimenti
 
@@ -66,36 +66,36 @@ Assicurarsi di effettuare la ricerca nell'elenco dei suggerimenti inviati. È po
 
 ## <a name="troubleshooting"></a>Troubleshooting
 
-La sezione **Risoluzione dei problemi** include informazioni tecniche che l'amministratore o il partner [!INCLUDE[prodshort](includes/prodshort.md)] può utilizzare per assistere gli utenti. Ciò include informazioni sui messaggi di errore più recenti, la versione corrente di [!INCLUDE[prodshort](includes/prodshort.md)] e un collegamento per accedere alla pagina **Controllo pagina**. Per ulteriori informazioni, vedere [Controllo di pagine in Business Central](across-inspect-page.md).  
+La sezione **Risoluzione dei problemi** include informazioni tecniche che l'amministratore o il partner [!INCLUDE[prod_short](includes/prod_short.md)] può utilizzare per assistere gli utenti. Ciò include informazioni sui messaggi di errore più recenti, la versione corrente di [!INCLUDE[prod_short](includes/prod_short.md)] e un collegamento per accedere alla pagina **Controllo pagina**. Per ulteriori informazioni, vedere [Controllo di pagine in Business Central](across-inspect-page.md).  
 
 Come amministratore interno, è possibile accedere all'interfaccia di amministrazione dove continuare la risoluzione dei problemi. È possibile visualizzare i dati di telemetria, gestire gli ambienti e gestire le sessioni utente. Per ulteriori informazioni, vedere [Ricerca di informazioni tecniche](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) e [Gestione degli ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) nel contenuto amministrativo.  
 
 ## <a name="report-a-problem"></a>Segnalare un problema
 
-Il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] fornirà supporto tecnico agli utenti. [!INCLUDE[prodshort](includes/prodshort.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prodshort](includes/prodshort.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft. Per ulteriori informazioni, vedere [Riassegnazione di problemi di assistenza a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) nel contenuto amministrativo.  
+Il partner rivenditore [!INCLUDE[prod_short](includes/prod_short.md)] fornirà supporto tecnico agli utenti. [!INCLUDE[prod_short](includes/prod_short.md)] viene venduto tramite i partner e questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prod_short](includes/prod_short.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft. Per ulteriori informazioni, vedere [Riassegnazione di problemi di assistenza a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) nel contenuto amministrativo.  
 
 > [!NOTE]
-> Questa sezione è disponibile solo se è stata acquistata una sottoscrizione a [!INCLUDE[prodshort](includes/prodshort.md)]. Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[prodshort](includes/prodshort.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft. È possibile trovare un partner [!INCLUDE[prodshort](includes/prodshort.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
+> Questa sezione è disponibile solo se è stata acquistata una sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)]. Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[prod_short](includes/prod_short.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft. È possibile trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 
 ### <a name="support-contacts"></a>Contatti del supporto
 
-La sezione **Segnalare un problema** visualizza un indirizzo e-mail o un collegamento ipertestuale per contattare la persona o il team del supporto clienti. Se si è il partner rivenditore [!INCLUDE[prodshort](includes/prodshort.md)] per un tenant, è possibile impostare le informazioni relative al contatto del supporto preferito nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Configurazione dell'esperienza di supporto](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].  
+La sezione **Segnalare un problema** visualizza un indirizzo e-mail o un collegamento ipertestuale per contattare la persona o il team del supporto clienti. Se si è il partner rivenditore [!INCLUDE[prod_short](includes/prod_short.md)] per un tenant, è possibile impostare le informazioni relative al contatto del supporto preferito nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Configurazione dell'esperienza di supporto](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Per avvisare il partner di un problema, scegliere il collegamento per inviare un'e-mail o aprire il sito del supporto in una nuova scheda del browser. È quindi possibile aggiungere informazioni tecniche relative al tenant Azure Active Directory dalla sezione **Risoluzione dei problemi** e altre informazioni ritenute pertinenti.  
 
 ## <a name="using-the-docsmicrosoftcom-site-to-learn-more"></a>Uso del sito docs.microsoft.com per ulteriori informazioni
 
-Il sito docs.microsoft.com è il percorso predefinito per conoscere le funzionalità di [!INCLUDE[prodshort](includes/prodshort.md)]. Il sito ospita [contenuto concettuale sulla funzionalità aziendale](index.md), [documentazione per gli sviluppatori](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), [percorsi di apprendimento e moduli di e-learning](/learn/browse/?expanded=dynamics&products=dynamics-business-central) su più profili utente e molto altro ancora. In questa sezione, è possibile scoprire come navigare tra i contenuti delle funzionalità aziendali.  
+Il sito docs.microsoft.com è il percorso predefinito per conoscere le funzionalità di [!INCLUDE[prod_short](includes/prod_short.md)]. Il sito ospita [contenuto concettuale sulla funzionalità aziendale](index.md), [documentazione per gli sviluppatori](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), [percorsi di apprendimento e moduli di e-learning](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) gratuiti su più profili utente e molto altro ancora. In questa sezione, è possibile scoprire come navigare tra i contenuti delle funzionalità aziendali.  
 
 ### <a name="content-on-the-site"></a>Contenuto sul sito
 
 Il contenuto che Microsoft pubblica sotto il concetto di assistenza all'utente *Ulteriori informazioni* è in parte destinato a rispondere a quelle domande a cui l'interfaccia utente non è in grado di rispondere, come ad esempio dove si inserisce quella pagina nel flusso di lavoro più grande o cosa verrà dopo o quale sarebbe l'alternativa e così via. Dall'interno del prodotto, è possibile accedere a questo contenuto tramite il collegamento *Ulteriori informazioni* nelle descrizioni comando o usando la scelta rapida da tastiere *CTRL + F1*.  
 
-Il pannello di spostamento a sinistra, il sommario, raggruppa gli articoli per area di business. Ad esempio, leggere l'articolo [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md) e quindi il sommario mostra che esiste anche un articolo chiamato [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Entrambi gli articoli sono nel gruppo chiamato *Acquisti*, che raggruppa articoli correlati al modulo Acquisti in [!INCLUDE [prodshort](includes/prodshort.md)].  
+Il pannello di spostamento a sinistra, il sommario, raggruppa gli articoli per area di business. Ad esempio, leggere l'articolo [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md) e quindi il sommario mostra che esiste anche un articolo chiamato [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Entrambi gli articoli sono nel gruppo chiamato *Acquisti*, che raggruppa articoli correlati al modulo Acquisti in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Il sommario include un gruppo di contenuti che descrive le funzionalità locali per i paesi supportati da Microsoft. Se non il proprio paese non è presente nell'elenco probabilmente è perché è localizzato da un partner. Per ulteriori informazioni vedere [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-Il contenuto della funzionalità locale descrive le funzionalità in [!INCLUDE [prodshort](includes/prodshort.md)] che possono aiutare a essere conforme nei mercati supportati, come dichiarazioni fiscali e altri report. In alcuni casi, la differenza tra la versione predefinita e la versione specifica del paese è invisibile agli utenti. In altri casi, gli utenti devono impostare la creazione di report o la fatturazione elettronica in un modo specifico. Se non è possibile trovare una descrizione di un determinato pulsante o azione nella sezione predefinita del contenuto sul sito docs.microsoft.com, potrebbe essere presente nella sezione *Funzionalità locale*.  
+Il contenuto della funzionalità locale descrive le funzionalità in [!INCLUDE [prod_short](includes/prod_short.md)] che possono aiutare a essere conforme nei mercati supportati, come dichiarazioni fiscali e altri report. In alcuni casi, la differenza tra la versione predefinita e la versione specifica del paese è invisibile agli utenti. In altri casi, gli utenti devono impostare la creazione di report o la fatturazione elettronica in un modo specifico. Se non è possibile trovare una descrizione di un determinato pulsante o azione nella sezione predefinita del contenuto sul sito docs.microsoft.com, potrebbe essere presente nella sezione *Funzionalità locale*.  
 
 ### <a name="finding-other-content"></a>Trovare altri contenuti
 
@@ -108,11 +108,11 @@ Se un articolo non risponde alla domanda, è possibile trovare altri contenuti i
   Sotto ogni collegamento, è possibile vedere dove si trova l'articolo nel sommario. In questo modo, è possibile facilmente vedere se l'articolo è nella sezione Acquisti o nella sezione relativa alla funzionalità locale australiana, ad esempio.  
 - Utilizzare il campo **Ricerca** nell'angolo in alto a destra del sito Web
 
-  In questo modo, è possibile cercare qualsiasi termine. Il sito cercherà quindi tutti i contenuti per quel termine o espressione. Cercare di nuovo *fatture* e scorrere l'elenco di centinaia di articoli nei contenuti di [!INCLUDE [prodshort](includes/prodshort.md)] che usano quella parola da qualche parte nel testo.  
+  In questo modo, è possibile cercare qualsiasi termine. Il sito cercherà quindi tutti i contenuti per quel termine o espressione. Cercare di nuovo *fatture* e scorrere l'elenco di centinaia di articoli nei contenuti di [!INCLUDE [prod_short](includes/prod_short.md)] che usano quella parola da qualche parte nel testo.  
 
 ### <a name="languages"></a>Lingue
 
-I contenuti sulla funzionalità aziendale sono pubblicati in diverse lingue. Quando si accede al sito docs.microsoft.com dall'interno del prodotto, si vedono i contenuti nella stessa lingua specificata in [!INCLUDE [prodshort](includes/prodshort.md)], a meno che tale lingua non sia disponibile in docs.microsoft.co.  
+I contenuti sulla funzionalità aziendale sono pubblicati in diverse lingue. Quando si accede al sito docs.microsoft.com dall'interno del prodotto, si vedono i contenuti nella stessa lingua specificata in [!INCLUDE [prod_short](includes/prod_short.md)], a meno che tale lingua non sia disponibile in docs.microsoft.co.  
 
 È possibile cambiare la lingua cambiando l'URL oppure usare l'interruttore per attivare/disattivare la lingua nell'angolo in basso a sinistra del sito web.  
 

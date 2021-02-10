@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931273"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749782"
 ---
 Prima di poter configurare il log delle e-mail, è necessario preparare Exchange Online con le [cartelle pubbliche](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). È possibile farlo nell'[interfaccia di amministrazione di Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) oppure è possibile usare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ Il seguente elenco descrive i passaggi principali con i collegamenti per ulterio
   Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Se si apportano modifiche nella shell di gestione di Exchange, le modifiche diventano visibili nell'interfaccia di amministrazione di Exchange dopo un certo tempo. Inoltre, le modifiche apportate in Exchange saranno disponibili in [!INCLUDE[prodshort](prodshort.md)] dopo un certo tempo.
+> Se si apportano modifiche nella shell di gestione di Exchange, le modifiche diventano visibili nell'interfaccia di amministrazione di Exchange dopo un certo tempo. Inoltre, le modifiche apportate in Exchange saranno disponibili in [!INCLUDE[prod_short](prod_short.md)] dopo un certo tempo.

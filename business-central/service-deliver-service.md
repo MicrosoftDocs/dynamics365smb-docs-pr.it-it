@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910382"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748057"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  
+[!INCLUDE[prod_short](includes/prod_short.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  
   
 Un altro modo per verificare gli ordini di assistenza in sospeso consiste nell'utilizzare la pagina **Compiti di assistenza** . In questa visualizzazione degli obblighi di assistenza, è possibile vedere a che punto del flusso di lavoro di assistenza si trova un ordine e modificare tale stato secondo le interazioni con il cliente.  
   
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 
-Un'applicazione per la gestione dell'assistenza deve interfacciarsi con le richieste di assistenza del cliente. Tali richieste vengono in genere trasformate in un ordine di assistenza. [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una serie di strumenti che consentono di creare un ordine direttamente in risposta alla richiesta di assistenza di un cliente oppure come parte del processo del contratto, a seconda di come è stata impostata l'applicazione.  
+Un'applicazione per la gestione dell'assistenza deve interfacciarsi con le richieste di assistenza del cliente. Tali richieste vengono in genere trasformate in un ordine di assistenza. [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una serie di strumenti che consentono di creare un ordine direttamente in risposta alla richiesta di assistenza di un cliente oppure come parte del processo del contratto, a seconda di come è stata impostata l'applicazione.  
   
 Se necessario, è possibile gestire un programma di articoli in prestito per i clienti. È inoltre possibile determinare la struttura dei prezzi, suddividere le offerte di prezzi di assistenza in raggruppamenti logici e creare rettifiche dei prezzi.  
   

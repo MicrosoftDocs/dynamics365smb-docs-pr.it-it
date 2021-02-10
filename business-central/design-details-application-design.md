@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b473da21e35ee09b2ffad16a1acd01c03ac92a7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2280fbeccd51d1c959aa2aa09121d728a18326f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924305"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751857"
 ---
 # <a name="design-details"></a>Dettagli di progettazione
-Questo argomento contiene informazioni tecniche dettagliate su funzionalità dell'applicazione complesse in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Questo argomento contiene informazioni tecniche dettagliate su funzionalità dell'applicazione complesse in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Il contenuto di Dettagli di progettazione è destinato a implementatori, sviluppatori e utenti con privilegi avanzati che necessitano di informazioni più approfondite per implementare, personalizzare o configurare le funzionalità in questione.  
 
@@ -37,6 +37,6 @@ Questo argomento contiene informazioni tecniche dettagliate su funzionalità del
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Gestione warehouse](warehouse-manage-warehouse.md)   
  [Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

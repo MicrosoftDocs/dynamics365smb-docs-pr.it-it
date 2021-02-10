@@ -13,12 +13,12 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 722a972de9a9cf38fb6a8d95436737c40f0906cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c53898f55e5c6a3ea03f569273cc098615548fb7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920499"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750757"
 ---
 # <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 Utilizzare i periodi di registrazione per specificarne quando gli utenti possono registrare nella contabilità generale.  
@@ -33,4 +33,4 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 ## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)  
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

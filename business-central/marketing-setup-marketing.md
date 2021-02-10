@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921694"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749757"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 
@@ -40,7 +40,7 @@ L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad es
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Interazioni di registrazioni automatiche
-[!INCLUDE[d365fin](includes/d365fin_md.md)] può registrare automaticamente documenti di vendita e di acquisto come interazioni, ad esempio ordini, fatture, carichi e così via, oltre a e-mail, telefonate e copertine.
+[!INCLUDE[prod_short](includes/prod_short.md)] può registrare automaticamente documenti di vendita e di acquisto come interazioni, ad esempio ordini, fatture, carichi e così via, oltre a e-mail, telefonate e copertine.
 
 Per ulteriori informazioni, vedere [Registrazione automatica delle interazioni con i contatti](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ Per ulteriori informazioni sulla numerazione, vedere [Creazione di numeri](ui-cr
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

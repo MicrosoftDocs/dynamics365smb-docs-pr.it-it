@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917078"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746993"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -39,15 +39,15 @@ Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pa
 Per modificare uno di questi layout degli assegni predefinito, utilizzare l'integrazione Word o RDLC. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Utilizzo dei caratteri MICR e di sicurezza
-La versione online di [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene caratteri preinstallati sui server che possono essere utilizzati durante la definizione di layout di controllo. Di seguito vengono indicati i tipi di carattere disponibili con i collegamenti alle informazioni dettagliate di fornitori di terze parti dei caratteri.
+La versione online di [!INCLUDE[prod_short](includes/prod_short.md)] contiene caratteri preinstallati sui server che possono essere utilizzati durante la definizione di layout di controllo. Di seguito vengono indicati i tipi di carattere disponibili con i collegamenti alle informazioni dettagliate di fornitori di terze parti dei caratteri.
 
 > [!Important]
-> I caratteri MICR e dei controlli di sicurezza in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] sono concessi in licenza in un pacchetto di caratteri di IDAutomation.com, Inc. Questi prodotti possono essere utilizzati solo come parte e in connessione con Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> I caratteri MICR e dei controlli di sicurezza in Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] sono concessi in licenza in un pacchetto di caratteri di IDAutomation.com, Inc. Questi prodotti possono essere utilizzati solo come parte e in connessione con Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Nell'aggiornamento 15.3 e successivi, i caratteri Magnetic Ink Character Recognition (MICR) sono installati e disponibili per l'uso. Sono supportati gli standard E-13B e CMC-7. Oltre ai caratteri MICR, sono disponibili caratteri di sicurezza speciali per generare testo, nomi, importi e i simboli di valuta dollaro, euro, sterlina e yen, che sono difficili da manomettere su un assegno stampato.
 
 > [!NOTE]
-> Per motivi legali e di sicurezza, non è possibile caricare i caratteri personalizzati nell'ambiente [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Per motivi legali e di sicurezza, non è possibile caricare i caratteri personalizzati nell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="micr-e-13b-specifications"></a>Specifiche MICR E-13B
 Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
@@ -60,7 +60,7 @@ Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono
 Le specifiche complete dei caratteri MICR E-13B sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>Specifiche MICR CMC-7
-I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Di seguito sono riepilogate le specifiche per i caratteri dei controlli di sicur
 
 Le specifiche complete dei caratteri dei controlli di sicurezza sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/security-fonts/).
 
-I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Caratteri disponibili](ui-fonts.md)
+I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Caratteri disponibili](ui-fonts.md)
 
 ## <a name="see-also"></a>Vedere anche
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prodshort](inclu
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)   
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
-[Utilizzo di [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

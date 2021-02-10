@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922519"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752727"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 
@@ -63,7 +63,7 @@ Durante l'esportazione e l'importazione di pacchetti di configurazione tra due d
 5. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina con il processo batch **Ottieni tabelle pacchetto**.  
 6. Selezionare il campo **Seleziona tabelle**. Verrà visualizzata la pagina **Selezione configurazione**.  
 7. Scegliere l'azione **Seleziona tutto** per aggiungere tutte le tabelle al pacchetto oppure selezionare la casella di controllo **Selezionato** per ogni tabella della lista che si desidera aggiungere.
-8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aggiunte alle righe della pagina **Pacchetto di configurazione**.  
+8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] vengono aggiunte alle righe della pagina **Pacchetto di configurazione**.  
 
     > [!NOTE]  
     >  È possibile eseguire questa operazione anche nel foglio di lavoro della configurazione. Selezionare le tabelle che si desidera includere nel pacchetto, quindi selezionare l'azione **Assegna pacchetto**.
@@ -151,7 +151,7 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 2. Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.  
 
     > [!NOTE]  
-    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
+    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[prod_short](includes/prod_short.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
 
 3. Scegliere l'azione **Dati database**. Viene visualizzata la pagina per la pagina relativa.
 4. Esaminare le informazioni disponibili. Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.  
@@ -174,3 +174,4 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
+[Analizzare la telemetria della traccia del pacchetto di configurazione](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

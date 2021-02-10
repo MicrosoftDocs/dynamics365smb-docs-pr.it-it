@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922871"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746118"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
-In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
+In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di scelta rapida (solo PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed e
 Molti dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS). Tuttavia, alcuni sono differenti per macOS. Questi tasti di scelta rapida sono indicati tra parentesi nelle sezioni seguenti.
 
 > [!NOTE]
-> Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], F9 registra un documento e CTRL+F7 mostra i movimenti finanziari per un record (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
+> Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], F9 registra un documento e CTRL+F7 mostra i movimenti contabili per un record quando si apre il record in una scheda. (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Tasti di scelta rapida generali
 
@@ -63,7 +63,7 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |Ctrl+F1|Aprire la guida di Business Central per la pagina.|
 |Ctrl+F12|Passare dalla visualizzazione a layout ampio a quella a layout stretto e viceversa.|
 |CTRL+clic|Navigare durante la personalizzazione quando l'azione è evidenziata con una freccia. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).|  
-|Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prodshort](includes/prodshort.md)] (equivale ad aggiornare/ricaricare nel browser).|
+|Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] (equivale ad aggiornare/ricaricare nel browser).|
 |F5|Aggiornare i dati nella pagina corrente.<br /><br />Utilizzare questo tasto per garantire che i dati nella pagina siano aggiornati con le modifiche apportate da altri utenti mentre si sta lavorando.|
 |Immettere|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|
 |ESC|Chiudere la pagina corrente o l'elenco a discesa.|
@@ -88,7 +88,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
 
-Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prodshort](includes/prodshort.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
+Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |Pagina giù<br />(Fn+freccia GIÙ)|Passare alla pagina successiva del report.|
 |Pagina su<br />(Fn+freccia SU)|Passare alla pagina precedente del report.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Tasti di scelta rapida per ingrandire e ridurre
+
+|Premere questi tasti|Operazione da eseguire|
+|--------------------------------|----------|
+|CTRL++|Ingrandire la pagina corrente.|  
+|CTRL+-|Ridurre la pagina corrente.|  
+|CTRL+0|Ingrandire o ridurre del 100% la pagina corrente.|  
+
 ## <a name="see-also"></a>Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
 [Trova movimenti](ui-find-entries.md)  

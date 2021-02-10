@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d9950d550f614ba7cc0e422d919d9f8e8bf8390
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf6016b2d2f2774807b120ab3d3521af9eaf5f7f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921796"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749907"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.
@@ -72,4 +72,4 @@ Verrà visualizzata una nuova scheda articolo precompilata con le informazioni d
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Creare ordini speciali](sales-how-to-create-special-orders.md)|  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
