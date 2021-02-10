@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Common Data Service
-description: Introduzione a Common Data Service e i suoi componenti.
+title: Utilizzo di Microsoft Dataverse
+description: Introduzione a Microsoft Dataverse e i suoi componenti.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -8,61 +8,62 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
-ms.openlocfilehash: 85823e93b1d239bf4e59ec6a8872cdc4a2cef9c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1d740cf645739e89dddc9173583eb5fa639f6be6
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911582"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817106"
 ---
-# <a name="integrating-with-common-data-service"></a>Integrazione con Common Data Service
+# <a name="integrating-with-microsoft-dataverse"></a>Integrazione con Microsoft Dataverse
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Le app aziendali utilizzano spesso dati provenienti da più di un'origine. [!INCLUDE[d365fin](includes/cds_long_md.md)] combina i dati in un unico set di logica che semplifica la connessione di altre applicazioni Dynamics 365, ad esempio [!INCLUDE[crm_md](includes/crm_md.md)] o la tua applicazione basata su [!INCLUDE[d365fin](includes/cds_long_md.md)], per [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Per altre informazioni su [!INCLUDE[d365fin](includes/cds_long_md.md)], vedi [Cos'è Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+Le app aziendali utilizzano spesso dati provenienti da più di un'origine. [!INCLUDE[prod_short](includes/cds_long_md.md)] combina i dati in un unico set di logica che semplifica la connessione di altre applicazioni Dynamics 365, ad esempio [!INCLUDE[crm_md](includes/crm_md.md)] o la tua applicazione basata su [!INCLUDE[prod_short](includes/cds_long_md.md)], per [!INCLUDE[prod_short_md](includes/prod_short.md)]. Per altre informazioni su [!INCLUDE[prod_short](includes/cds_long_md.md)], vedi [Cos'è Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
-I passaggi seguenti forniscono una panoramica delle operazioni per l'integrazione di [!INCLUDE[d365fin](includes/cds_long_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)]integrare.
+I passaggi seguenti forniscono una panoramica delle operazioni per l'integrazione di [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)]integrare.
 
 > [!Note]  
-> Queste task richiedono il ruolo di sicurezza **Amministratore di sistema** in [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Queste task richiedono il ruolo di sicurezza **Amministratore di sistema** in [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Assegnare licenze per [!INCLUDE[d365fin](includes/cds_long_md.md)] agli utenti [!INCLUDE[d365fin](includes/d365fin_md.md)] che utilizzeranno le app integrate.
+1. Assegnare licenze per [!INCLUDE[prod_short](includes/cds_long_md.md)] agli utenti [!INCLUDE[prod_short](includes/prod_short.md)] che utilizzeranno le app integrate.
 
-2. Impostare una connessione a [!INCLUDE[d365fin](includes/cds_long_md.md)]. Per ulteriori informazioni, vedere [Connettersi a Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md).  
+2. Impostare una connessione a [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedere [Connettersi a Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md).  
 
-3. Sincronizzazione i dati tra le app. Per ulteriori informazioni, vedere [Sincronizzazione di Business Central e Common Data Service](admin-synchronizing-business-central-and-sales.md). 
+3. Sincronizzazione i dati tra le app. Per ulteriori informazioni, vedere [Sincronizzazione di Business Central e Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-d365fin"></a>Introduzione a [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Per iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis**. Per saperne di più su come iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)], vedere il modulo [Introduzione a Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) di Microsft Learn.
+## <a name="getting-started-with-prod_short"></a>Introduzione a [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Per iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis**. Per saperne di più su come iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)], vedere il modulo [Introduzione a Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) di Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Sincronizzazione dei dati bidirezionale o unidirezionale
-A seconda delle esigenze aziendali, puoi configurare l'integrazione per sincronizzare i dati da o verso un'app aziendale di Dynamics 365 a un'altra, o in entrambe le direzioni in tempo quasi reale tramite [!INCLUDE[d365fin](includes/cds_long_md.md)]. Ad esempio, se si integra [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] tramite [!INCLUDE[d365fin](includes/cds_long_md.md)], un venditore può creare un ordine cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e l'ordine verrà sincronizzato con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Al contrario, da [!INCLUDE[crm_md](includes/crm_md.md)], il venditore può visualizzare le informazioni da [!INCLUDE[d365fin](includes/d365fin_md.md)] sulla disponibilità dell'articolo nell'ordine. 
+A seconda delle esigenze aziendali, puoi configurare l'integrazione per sincronizzare i dati da o verso un'app aziendale di Dynamics 365 a un'altra, o in entrambe le direzioni in tempo quasi reale tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ad esempio, se si integra [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] tramite [!INCLUDE[prod_short](includes/cds_long_md.md)], un venditore può creare un ordine cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e l'ordine verrà sincronizzato con [!INCLUDE[prod_short](includes/prod_short.md)]. Al contrario, da [!INCLUDE[crm_md](includes/crm_md.md)], il venditore può visualizzare le informazioni da [!INCLUDE[prod_short](includes/prod_short.md)] sulla disponibilità dell'articolo nell'ordine. 
 
 ## <a name="standard-and-custom-entities"></a>Entità standard e personalizzate
-[!INCLUDE[d365fin](includes/cds_long_md.md)] archivia in modo sicuro i dati in un set di entità, che sono insiemi di record simili a come una tabella archivia i dati all'interno di un database. [!INCLUDE[d365fin](includes/cds_long_md.md)] include un set di base di entità standard che coprono scenari tipici, ma puoi anche creare entità personalizzate specifiche per la tua organizzazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)], puoi visualizzare le entità standard e personalizzate sincronizzate nella pagina Mapping tabella integrazione.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] archivia in modo sicuro i dati in un set di tabelle, che sono insiemi di record simili a come una tabella archivia i dati all'interno di un database. [!INCLUDE[prod_short](includes/cds_long_md.md)] include un set di base di tabelle standard che coprono scenari tipici, ma puoi anche creare tabelle personalizzate specifiche per la tua organizzazione. In [!INCLUDE[prod_short](includes/prod_short.md)], puoi visualizzare le tabelle standard e personalizzate sincronizzate nella pagina Mapping tabella integrazione.
 
-## <a name="about-the-base-cds-integration-solution"></a>Informazioni sulla soluzione di integrazione CDS di base
+## <a name="about-the-business-central-base-integration-solution"></a>Informazioni sulla soluzione di integrazione di base di Business Central
 
-La soluzione di integrazione CDS di base è un componente chiave dell'integrazione. La soluzione aggiunge i ruoli obbligatori e i livelli di accesso agli account utente per l'integrazione e crea entità necessarie per mappare la società [!INCLUDE[d365fin](includes/d365fin_md.md)] a unità di business in [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+La soluzione di integrazione di base è un componente chiave dell'integrazione. La soluzione aggiunge i ruoli obbligatori e i livelli di accesso agli account utente per l'integrazione e crea tabelle necessarie per mappare la società [!INCLUDE[prod_short](includes/prod_short.md)] a unità di business in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
-Per impostazione predefinita, la guida al setup assistito **Configurare la connessione [!INCLUDE[d365fin](includes/cds_long_md.md)]** importerà la soluzione. A questo proposito, la guida al setup utilizza un account utente amministratore specificato. Questo account deve essere un utente valido in [!INCLUDE[d365fin](includes/cds_long_md.md)] con il ruolo di sicurezza seguenti:
+Per impostazione predefinita, la guida al setup assistito **Configurare la connessione [!INCLUDE[prod_short](includes/cds_long_md.md)]** importerà la soluzione. A questo proposito, la guida al setup utilizza un account utente amministratore specificato. Questo account deve essere un utente valido in [!INCLUDE[prod_short](includes/cds_long_md.md)] con il ruolo di sicurezza seguenti:
 
 * Amministratore di sistema  
 
-Per ulteriori informazioni, vedere [Impostazione di account utente per l'integrazione con [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) e [Creare utenti e assegnare i ruoli di protezione in Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
+Per ulteriori informazioni, vedere [Impostazione di account utente per l'integrazione con [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) e [Creare utenti e assegnare i ruoli di protezione in Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
 
-L'account amministratore viene utilizzato solo una volta durante la configurazione a causa di modifiche alla configurazione apportate dalla soluzione CDS di base in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Dopo che la soluzione viene importata l'account non è più necessario. L'integrazione continuerà a utilizzare l'account utente automaticamente creato specificatamente per integrazione.
+L'account amministratore viene utilizzato solo una volta durante la configurazione per le modifiche alla configurazione apportate dalla soluzione di integrazione di base in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dopo che la soluzione viene importata l'account non è più necessario. L'integrazione continuerà a utilizzare l'account utente automaticamente creato specificatamente per integrazione.
 
-Oltre alla personalizzazione di [!INCLUDE[d365fin](includes/cds_long_md.md)], la soluzione di integrazione crea anche i seguenti ruoli in [!INCLUDE[d365fin](includes/cds_long_md.md)] per l'integrazione:
+Oltre alla personalizzazione di [!INCLUDE[prod_short](includes/cds_long_md.md)], la soluzione di integrazione crea anche i seguenti ruoli in [!INCLUDE[prod_short](includes/cds_long_md.md)] per l'integrazione:
 
-* **Amministratore di integrazione** - Consente agli utenti di gestire la connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)]. Assegnato in genere solo all'account utente automaticamente creato per la sincronizzazione.  
+* **Amministratore di integrazione** - Consente agli utenti di gestire la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)]. Assegnato in genere solo all'account utente automaticamente creato per la sincronizzazione.  
 * **Utente integrazione** - Consente agli utenti di accedere ai dati sincronizzati. Assegnato in genere all'account utente automaticamente creato per la sincronizzazione e altri utenti che devono visualizzare o accedere ai dati sincronizzati.
 
-Per dettagli su ciascun ruolo, come le autorizzazioni e i livelli di accesso, vedere [Impostazione di account utente per l'integrazione con [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
+Per dettagli su ciascun ruolo, come le autorizzazioni e i livelli di accesso, vedere [Impostazione di account utente per l'integrazione con [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
-Durante la configurazione della connessione, vengono creati i mapping della tabella di integrazione necessari per sincronizzare i dati. Le entità in Common Data Service vengono mappate a tabelle e campi di tabella in Business Central tramite tabelle di integrazione. Per ulteriori informazioni, vedere [Mapping delle entità standard per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization).
+Durante la configurazione della connessione, vengono creati i mapping della tabella di integrazione necessari per sincronizzare i dati. Le entità in [!INCLUDE[prod_short](includes/cds_long_md.md)] vengono mappate a tabelle e campi di tabella in Business Central tramite tabelle di integrazione. Per ulteriori informazioni, vedere [Mapping delle entità standard per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 ## <a name="see-also"></a>Vedere anche
 [Modelli di proprietà dei dati](admin-cds-company-concept.md)  
-<!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Common Data Service](docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration) -->
+<!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->
 
 
 

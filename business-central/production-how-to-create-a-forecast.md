@@ -1,5 +1,5 @@
 ---
-title: Come creare una previsione della domanda | Microsoft Docs
+title: Come creare una previsione della domanda
 description: Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013694"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -47,7 +47,41 @@ Poiché la previsione di componenti è progettata per definire le opzioni di un 
  Il periodo di previsione è valido dalla data di inizio alla data di inizio della previsione successiva. La pagina relativa all'intervallo di tempo offre diverse opzioni tra cui scegliere per l'inserimento della domanda in una data specifica all'interno di un periodo. È pertanto consigliabile evitare di modificare l'ambito del periodo di previsione a meno che non si desideri spostare tutti i movimenti previsioni alla data di inizio di tale periodo.  
 
 ## <a name="forecast-by-locations"></a>Previsione in base alle ubicazioni  
-Può essere indicato nel setup manufacturing se si desidera filtrare le previsioni in base all'ubicazione durante il calcolo di un piano. Se le previsioni basate sull'ubicazione, tuttavia, vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
+
+Nella pagina **Setup manufacturing** è possibile stabilire come gestire le ubicazioni definite nelle previsioni quando si calcola un piano. 
+
+### <a name="use-forecast-by-locations"></a>Usare la previsione in base alle ubicazioni
+
+Se si sceglie il campo **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] rispetterà tutti i codici ubicazione specificati per ogni voce Previsione della domanda e calcolerà la previsione rimanente per ciascuna ubicazione.  
+
+Considerare questo esempio: l'azienda acquista e vende articoli in due ubicazioni: EST e OVEST. Per entrambe le ubicazioni, sono stati configurati criteri di riordino lotto a lotto. Si crea una previsione per le due ubicazioni:
+
+- 10 pezzi per ubicazione EST
+- 4 pezzi per ubicazione OVEST
+
+Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione OVEST. Il sistema di pianificazione suggerirà di eseguire le seguenti operazioni:
+
+- Rifornimento di 10 pezzi per l'ubicazione EST, in base ai dati della previsione.  
+- Rifornimento di 12 pezzi per l'ubicazione OVEST, in base all'ordine vendita. I 4 pezzi specificati nella previsione vengono completamente consumati dalla domanda effettiva dell'ordine vendita. Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Se le previsioni basate sull'ubicazione vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
+
+### <a name="do-not-use-forecast-by-locations"></a>Non utilizzare previsioni in base alle ubicazioni
+Se si disattiva **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorerà tutti i codici ubicazione specificati per ogni voce Previsione della domanda e aggregherà le previsioni in una previsione per ubicazioni vuote.  
+
+Considerare questo esempio: l'azienda acquista e vende articoli in due ubicazioni: EST e OVEST. Per entrambe le ubicazioni, sono stati configurati criteri di riordino lotto a lotto. Si crea una previsione per le due ubicazioni:
+
+- 10 pezzi per ubicazione EST
+- 4 pezzi per ubicazione OVEST
+
+Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione OVEST. Il sistema di pianificazione suggerirà di eseguire le seguenti operazioni:
+
+- Rifornimento di 12 pezzi per l'ubicazione OVEST, in base all'ordine vendita. 
+- Rifornimento di 2 pezzi per l'ubicazione vuota. I 10 e i 4 pezzi specificati nella previsione vengono consumati parzialmente dalla domanda effettiva dell'ordine vendita. [!INCLUDE[prod_short](includes/prod_short.md)]ha ignorato i codici ubicazione specificati dall'utente e utilizza invece un'ubicazione vuota.
+
+> [!NOTE]  
+>  È possibile impostare un filtro in base alle ubicazioni, ma i risultati basati sull'ubicazione potrebbero non corrispondere ai risultati della pianificazione senza filtri.
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
@@ -74,4 +108,4 @@ Può essere indicato nel setup manufacturing se si desidera filtrare le previsio
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

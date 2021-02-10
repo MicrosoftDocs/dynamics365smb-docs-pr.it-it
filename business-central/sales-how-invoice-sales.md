@@ -1,5 +1,5 @@
 ---
-title: Creare una fattura di vendita o un ordine di vendita | Documenti Microsoft
+title: Creare una fattura di vendita o un ordine di vendita
 description: Descrive come creare un fattura di vendita o un ordine di vendita per registrare l'accordo con un cliente per vendere prodotti secondo termini specifici.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926224"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035408"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 
@@ -94,6 +94,10 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la fattura di vendita è emessa come documento PDF. La fattura di vendita viene rimossa dall'elenco delle fatture di vendita e sostituita con un nuovo documento nell'elenco delle fatture di vendita registrate.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Calcolo degli sconti fattura per le vendite
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Registrazione dei pagamenti
 
 In base alle esigenze aziendali, è possibile ottenere pagato e registrare il pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
@@ -106,13 +110,18 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 È persino possibile creare fatture pagate direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nella fattura di vendita. Per ulteriori informazioni, vedere [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Per ulteriori informazioni, vedere [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Stampare la lista prelievo](sales-how-print-picking-list.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915995"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760294"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
-Poiché [!INCLUDE[prodshort](includes/prodshort.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
+Poiché [!INCLUDE[prod_short](includes/prod_short.md)] è un servizio cloud, non può raggiungere le stampanti locali collegate ai computer degli utenti. Tuttavia, può connettersi a stampanti abilitate per il cloud. Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], una stampante cloud denominata **Stampante e-mail** è installata come estensione ed è pronta per l'uso dopo l'installazione iniziale.
 
 Se una stampante cloud non è installata e configurata, o se una stampante installata non funziona, la stampa imposterà automaticamente le opzioni di stampa per il browser. Questo è indicato da questo valore nel campo **Stampante** della pagina di richiesta del report: *(nessuno, gestito dal browser)*.
 
@@ -37,7 +37,7 @@ Nella pagina **Gestione della stampante**, puoi vedere le stampanti che sono sta
 La seguente procedura descrive come configurare l'attuale **Stampante e-mail**, che è un'estensione preinstallata.
 
 > [!NOTE]
-> Per utilizzare la stampa e-mail, è necessario configurare la funzionalità e-mail. Per ulteriori informazioni, vedere [Imposta indirizzo e-mail](admin-how-setup-email.md).
+> Per utilizzare la stampa e-mail, è necessario configurare la funzionalità e-mail. Per ulteriori informazioni, vedere [Configurare la posta elettronica](admin-how-setup-email.md).
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Gestione stampante**, quindi seleziona il collegamento correlato.
 2. Seleziona la riga per la **Stampante e-mail**, quindi selezionare l'azione **Modifica impostazioni stampante**.
@@ -59,7 +59,7 @@ Se si utilizza l'estensione Stampante e-mail, tutti o alcuni lavori di stampa ve
 Nella pagina **Selezioni stampante**, è possibile impostare per il proprio account utente quali report vengono stampati da quale stampante. Ciò è utile se si lavora con report diversi che richiedono stampanti diverse a causa del loro posizionamento nell'azienda o delle loro capacità di output.
 
 > [!IMPORTANT]
-> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, la pagina **Selezioni stampante** può essere utilizzata solo per le stampanti definite dalle estensioni della stampante. Non può essere utilizzata per le stampanti locali.
+> Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, la pagina **Selezioni stampante** può essere utilizzata solo per le stampanti definite dalle estensioni della stampante. Non può essere utilizzata per le stampanti locali.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Selezioni stampante**, quindi seleziona il collegamento correlato. In alternativa, dalla pagina **Gestione stampante**, seleziona una stampante, quindi scegli l'azione **Selezioni stampante**.
 2. Scegli l'azione **Nuovo** per aggiungere una selezione di stampanti per un report specifico.
@@ -88,6 +88,6 @@ Tu o l'amministratore potete anche usare la pagina **Selezioni stampante** per d
 
 ## <a name="see-also"></a>Vedere anche
 [Stampa di un report](ui-work-report.md#PrintReport)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eseguire i processi batch](ui-how-run-batch-jobs.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013631"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
@@ -49,7 +49,7 @@ In altre parole, si presuppone che il piano per il passato sia eseguito secondo 
 Per ulteriori informazioni, vedere [Gestione ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (Pegging)  
-La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
+La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
 
 Ad esempio, se l'utente immette o modifica un ordine di vendita, il sistema di tracciamento dinamico dell'ordine avvierà immediatamente la ricerca di un approvvigionamento appropriato per coprire la domanda. Tale approvvigionamento può provenire dal magazzino o da un ordine di approvvigionamento previsto (ad esempio un ordine di acquisto o di produzione). Quando viene individuata un'origine di approvvigionamento, viene creato un collegamento tra domanda e approvvigionamento e tale collegamento viene visualizzato in pagine di sola lettura a cui è possibile accedere dalle righe del documento implicate. Quando non è possibile individuare l'approvvigionamento appropriato, il sistema di tracciabilità ordine dinamica crea dei messaggi di azione nel prospetto di pianificazione con suggerimenti per il piano di approvvigionamento che riflettono il bilanciamento dinamico. Di conseguenza, il sistema di tracciamento dell'ordine dinamico offre un sistema di pianificazione di base che può essere d'aiuto sia per il responsabile che per altri ruoli nella catena di approvvigionamento interna.  
 
@@ -76,12 +76,12 @@ Invece, il sistema di pianificazione si occupa di tutta la domanda e l'approvvig
 
 Dopo la pianificazione dell'esecuzione, non resta alcun messaggio nella tabella Movimenti messaggi azione, in quanto sono stati sostituiti dalle azioni suggerite nel prospetto di pianificazione  
 
-Per ulteriori informazioni, vedere i collegamenti di tracciabilità ordine durante la pianificazione in [Bilanciamento approvvigionamento con domanda](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Per ulteriori informazioni, vedere [Collegamenti della tracciabilità ordini durante la pianificazione](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Sequenza e priorità nella pianificazione  
 Quando si imposta un piano, la sequenza dei calcoli è importante per ottenere il completamento del processo entro un intervallo temporale ragionevole. Inoltre, la priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
 
-Il sistema di pianificazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] è guidato dalla domanda. Gli articoli di alto livello devono essere pianificati prima degli articoli di basso livello, in quanto il piano per gli articoli di alto livello potrebbe generare la domanda aggiuntiva degli articoli di livello più basso. Questo significa, ad esempio, che le ubicazioni al dettaglio devono essere pianificate prima dei centri di distribuzione, in quanto il piano per un'ubicazione al dettaglio può includere una domanda aggiuntiva dal centro di distribuzione. A livello di contropartita dettagliata, questo significa anche che un ordine di vendita non deve avviare un nuovo ordine di approvvigionamento se un ordine di approvvigionamento già rilasciato può soddisfare l'ordine di vendita. Analogamente, un approvvigionamento che presenta un numero di lotto specifico non deve essere allocato per soddisfare una domanda generica se un'altra domanda richiede questo specifico lotto.  
+Il sistema di pianificazione in [!INCLUDE[prod_short](includes/prod_short.md)] è guidato dalla domanda. Gli articoli di alto livello devono essere pianificati prima degli articoli di basso livello, in quanto il piano per gli articoli di alto livello potrebbe generare la domanda aggiuntiva degli articoli di livello più basso. Questo significa, ad esempio, che le ubicazioni al dettaglio devono essere pianificate prima dei centri di distribuzione, in quanto il piano per un'ubicazione al dettaglio può includere una domanda aggiuntiva dal centro di distribuzione. A livello di contropartita dettagliata, questo significa anche che un ordine di vendita non deve avviare un nuovo ordine di approvvigionamento se un ordine di approvvigionamento già rilasciato può soddisfare l'ordine di vendita. Analogamente, un approvvigionamento che presenta un numero di lotto specifico non deve essere allocato per soddisfare una domanda generica se un'altra domanda richiede questo specifico lotto.  
 
 ### <a name="item-priority--low-level-code"></a>Priorità articolo / Codice ultimo livello  
 In un ambiente di produzione, la domanda di un articolo finito e vendibile produrrà una domanda derivata di componenti riguardanti l'articolo finito. La struttura della distinta base controlla la struttura dei componenti e può coprire diversi livelli di articoli semilavorati (WIP). La pianificazione di un articolo a un livello causerà una domanda derivata di componenti al livello successivo, e così via. Infine, ciò risulterà in una domanda derivata per gli articoli acquistati. Di conseguenza, il sistema di pianificazione pianifica gli articoli in base alla loro valutazione nella gerarchia DB totale, a partire dagli articoli vendibili finiti nel livello superiore e continuando nella struttura di prodotti fino agli articoli di livello più basso (in base al codice di ultimo livello).  
@@ -93,12 +93,12 @@ Le cifre mostrano in quale sequenza il sistema offre suggerimenti per gli ordini
 Per ulteriori informazioni sulle considerazioni di produzione, vedere [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Ottimizzazione delle prestazioni per calcoli del codice di ultimo livello
-I calcoli del codice di ultimo livello possono influire sulle prestazioni del sistema. Per mitigare l'impatto, è possibile disabilitare **Calcolo dinamico del codice di ultimo livello** nella pagina **Setup manufacturing**. In tal caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggerirà di creare una voce ricorrente nella coda processi che aggiornerà quotidianamente i codici di ultimo livello. È possibile garantire che il processo venga eseguito al di fuori dell'orario di lavoro specificando un'ora di inizio nel campo **Prima data/ora inizio**.
+I calcoli del codice di ultimo livello possono influire sulle prestazioni del sistema. Per mitigare l'impatto, è possibile disabilitare **Calcolo dinamico del codice di ultimo livello** nella pagina **Setup manufacturing**. In tal caso, [!INCLUDE[prod_short](includes/prod_short.md)] suggerirà di creare una voce ricorrente nella coda processi che aggiornerà quotidianamente i codici di ultimo livello. È possibile garantire che il processo venga eseguito al di fuori dell'orario di lavoro specificando un'ora di inizio nel campo **Prima data/ora inizio**.
 
 È inoltre possibile abilitare la logica che accelera i calcoli del codice di ultimo livello selezionando **Ottimizza il calcolo del codice di ultimo livello** nella pagina **Setup manufacturing**. 
 
 > [!IMPORTANT]
-> Se si sceglie di ottimizzare le prestazioni, [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzerà nuovi metodi di calcolo per determinare i codici di ultimo livello. Se si dispone di un'estensione che si basa sugli eventi utilizzati dai calcoli precedenti, l'estensione potrebbe smettere di funzionare.   
+> Se si sceglie di ottimizzare le prestazioni, [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà nuovi metodi di calcolo per determinare i codici di ultimo livello. Se si dispone di un'estensione che si basa sugli eventi utilizzati dai calcoli precedenti, l'estensione potrebbe smettere di funzionare.   
 
 ### <a name="locations--transfer-level-priority"></a>Ubicazioni/priorità a livello di trasferimento  
 Per le società che lavorano in più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino potrebbero essere diversi da una posizione a un'altra. In questo caso, i parametri di pianificazione devono essere specificati per articolo e anche per ubicazione.  
@@ -121,7 +121,7 @@ Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordi
 
 ![Pianificazione con le previsioni](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Pianificazione con le previsioni")  
 
-Per ulteriori informazioni, vedere la sezione "La domanda di previsione viene ridotta dagli ordini di vendita" in [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Compiti di pianificazione  
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
@@ -136,12 +136,12 @@ Il motivo per selezionare gli articoli per la pianificazione è una questione di
 
 L'elenco completo dei motivi per l'assegnazione di un articolo per la pianificazione viene fornito in [Dettagli di progettazione - Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md).  
 
-Le opzioni di pianificazione in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono:  
+Le opzioni di pianificazione in [!INCLUDE[prod_short](includes/prod_short.md)] sono:  
 
 -   Calcola piano – rigenerativo: calcola tutti gli articoli selezionati, se sono necessari o meno.  
 -   Calcola piano - Solo cambiamenti: calcola solo gli articoli selezionati con alcune modifiche nel relativo modello domanda-approvvigionamento e, pertanto, sono stati assegnati per la pianificazione.  
 
-Alcuni utenti ritengono che la pianificazione del saldo periodo debba essere eseguita immediatamente, ad esempio, quando vengono immessi gli ordini di vendita. Tuttavia, ciò potrebbe confondere perché la tracciabilità ordini dinamica e la messaggistica di azioni vengono calcolate immediatamente. Inoltre, [!INCLUDE[d365fin](includes/d365fin_md.md)] offre il controllo in tempo reale ATP (available-to-promise) che fornisce gli avvisi a comparsa quando si immettono gli ordini di vendita se la domanda non può essere soddisfatta nel piano di approvvigionamento corrente.  
+Alcuni utenti ritengono che la pianificazione del saldo periodo debba essere eseguita immediatamente, ad esempio, quando vengono immessi gli ordini di vendita. Tuttavia, ciò potrebbe confondere perché la tracciabilità ordini dinamica e la messaggistica di azioni vengono calcolate immediatamente. Inoltre, [!INCLUDE[prod_short](includes/prod_short.md)] offre il controllo in tempo reale ATP (available-to-promise) che fornisce gli avvisi a comparsa quando si immettono gli ordini di vendita se la domanda non può essere soddisfatta nel piano di approvvigionamento corrente.  
 
 Oltre a queste considerazioni, il sistema di pianificazione pianifica solo per quegli articoli che l'utente ha preparato con i parametri di pianificazione appropriati. In caso contrario, si presuppone che l'utente pianificherà gli articoli manualmente o in parte automaticamente utilizzando la funzionalità di pianificazione ordini.  
 
@@ -179,7 +179,7 @@ Gli articoli con numeri seriali/di lotto senza un'impostazione di tracciabilità
 
 La domanda e l'approvvigionamento con i numeri seriali o di lotto, specifici o non specifici, sono considerati di alta priorità e sono quindi esenti dalla zona bloccata, ciò significa che faranno parte della pianificazione anche se la scadenza è precedente alla data di inizio della pianificazione.  
 
-Per ulteriori informazioni, vedere la sezione "I numeri seriali o di lotto vengono caricati dal livello di specifica" in [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Per ulteriori informazioni, vedere [I numeri seriali o di lotto vengono caricati dal livello di specifica](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Per ulteriori informazioni su come il sistema di pianificazione bilancia gli attributi, vedere [Numeri di serie o di lotto e collegamenti ordine-a-ordine sono esenti dalla zona bloccata](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ Il campo può essere impostato manualmente dall'utente, tuttavia, in alcuni casi
 Per ulteriori informazioni su come viene utilizzato questo campo, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Pianificazione ordini  
-Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla pagina **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo documento. Per ulteriori informazioni sulla funzionalità di Pianificazione ordini, fare riferimento alla guida di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla pagina **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo documento. Per ulteriori informazioni, vedere [Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Non è consigliabile utilizzare Pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la pagina **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Ciò si verifica perché in fase di pianificazione automatica vengono utilizzati parametri di pianificazione che potrebbero non venire presi in considerazione dall'utente che ha creato la pianificazione manuale nella pagina Pianificazione ordini.  
 
 ##  <a name="finite-loading"></a>Programmazione limitata  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] è un sistema ERP standard, non un sistema di controllo della produzione o del reparto. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.  
+[!INCLUDE[prod_short](includes/prod_short.md)] è un sistema ERP standard, non un sistema di controllo della produzione o del reparto. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.  
 
 L'utilizzo previsto della funzionalità Risorse critiche è 1) evitare il sovraccarico di risorse specifiche e 2) garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. La funzionalità non include funzioni o opzioni per assegnare priorità o ottimizzare le operazioni come ci si potrebbe aspettare in un sistema di invio. Tuttavia, può fornire informazioni di capacità approssimative utili per identificare i colli di bottiglia e per evitare il sovraccarico delle risorse.  
 
@@ -287,7 +287,7 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 
 Il tempo di smorzamento può essere aggiunto alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.  
 
-Ciò completa la sintesi dei concetti centrali relativi alla pianificazione di approvvigionamenti in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nelle sezioni che seguono questi concetti vengono analizzati in modo più approfondito e inseriti nel contesto delle procedure di pianificazione di base, del bilanciamento tra approvvigionamento e domanda, nonché dell'uso di metodi di riordino.  
+Ciò completa la sintesi dei concetti centrali relativi alla pianificazione di approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Nelle sezioni che seguono questi concetti vengono analizzati in modo più approfondito e inseriti nel contesto delle procedure di pianificazione di base, del bilanciamento tra approvvigionamento e domanda, nonché dell'uso di metodi di riordino.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)   

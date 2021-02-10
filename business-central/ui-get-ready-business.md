@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912183"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816981"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 
-Congratulazioni per aver avviato la prima società in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Congratulazioni per aver avviato la prima società in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Setup assistito** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. Per accedere alla pagina, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'aziomne **Setup assistito**.
 
@@ -27,7 +27,7 @@ In alternativa, per aprire l'elenco di guide al setup assistito per qualsiasi ru
 
 Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altre guide di setup assistito.
 
-Se un'area non è coperta da un setup assistito, selezionare l'![icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'azione **Impostazioni avanzate**. In **Impostazioni avanzate**, la sezione **Setup manuale** fornisce l'accesso alle pagine di configurazione in cui è possibile compilare manualmente i campi di configurazione per tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Se un'area non è coperta da un setup assistito, selezionare l'![icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'azione **Impostazioni avanzate**. In **Impostazioni avanzate**, la sezione **Setup manuale** fornisce l'accesso alle pagine di configurazione in cui è possibile compilare manualmente i campi di configurazione per tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > L'elenco delle guide al setup assistito, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**.
@@ -49,7 +49,7 @@ Utilizzare le frecce per comprimere una parte della pagina e per creare più spa
 
 ## <a name="company-information"></a>Informazioni società
 
-In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa pagina.  
+In **Impostazioni società** è possibile visualizzare e modificare le informazioni di setup sulla società corrente. Molte di queste informazioni sono precompilate se è stato precedentemente completato il setup assistito **Imposta società** quando è stata effettuata l'iscrizione a [!INCLUDE[prod_short](includes/prod_short.md)]. Se si desidera modificare il logo della società, le informazioni di contatto, le impostazioni della banca o le informazioni tributarie, è possibile farlo in questa pagina.  
 
 ## <a name="adding-users-and-permissions"></a>Aggiunta di utenti e permessi
 
@@ -59,7 +59,7 @@ Quando gli utenti vengono creati in Microsoft 365, è possibile importarli nella
 
 ## <a name="getting-help"></a>Utilizzo della Guida
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. Per le descrizioni comando, scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. In tutte le pagine, usare CTRL + F1 sulla tastiera per aprire la Guida per la pagina in questione. Il punto interrogativo nell'angolo in alto a destra apre la pagina **Guida e supporto** da dove è possibile accedere alla Guida del prodotto.
+In [!INCLUDE[prod_short](includes/prod_short.md)] saranno disponibili descrizioni comandi che aiutano a svolgere i vari processi aziendali. Per le descrizioni comando, scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. In tutte le pagine, usare CTRL + F1 sulla tastiera per aprire la Guida per la pagina in questione. Il punto interrogativo nell'angolo in alto a destra apre la pagina **Guida e supporto** da dove è possibile accedere alla Guida del prodotto.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -68,9 +68,9 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 ## <a name="see-also"></a>Vedere anche
 
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
-Versioni di valutazione e sottoscrizioni di [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
+Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -1,6 +1,6 @@
 ---
-title: Programmare l'esecuzione automatica di processi | Microsoft Docs
-description: I task pianificati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
+title: Programmare l'esecuzione automatica di processi
+description: I task programmati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,88 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8c611ed5d542436f470781c92d17095ecd1f5d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924580"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013948"
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per pianificare i task
+# <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
-Le code processi in [!INCLUDE[d365fin](includes/d365fin_md.md)] consentono agli utenti di pianificare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile voler eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile voler eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino o altrimenti blocchino il flusso di lavoro.
+Le code processi in [!INCLUDE[prod_short](includes/prod_short.md)] consentono agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile voler eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile voler eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino o altrimenti blocchino il flusso di lavoro.
 
-Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se si aggiunge un nuovo movimento coda processi che si desidera pianificare, è necessario specificare informazioni sul tipo di oggetto che si intende eseguire, ad esempio un report o una codeunit, e il nome e l'ID dell'oggetto da eseguire. È inoltre possibile aggiungere i parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. È necessario disporre delle autorizzazioni per eseguire un report o una codeunit particolare oppure verrà restituito un errore quando la coda processi viene eseguita.  
+Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se si aggiunge un nuovo movimento coda processi che si desidera programmare, è necessario specificare informazioni sul tipo di oggetto che si intende eseguire, ad esempio un report o una codeunit, e il nome e l'ID dell'oggetto da eseguire. È inoltre possibile aggiungere i parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. È necessario disporre delle autorizzazioni per eseguire un report o una codeunit particolare oppure verrà restituito un errore quando la coda processi viene eseguita.  
+> [!IMPORTANT]  
+> Se si utilizza il set di autorizzazioni SUPER fornito con [!INCLUDE[prod_short](includes/prod_short.md)], la società e gli utenti dispongono delle autorizzazioni per eseguire tutti gli oggetti nella licenza. Ciò non è ancora sufficiente per gli amministratori delegati o gli utenti con licenza per dispositivo, che non possono creare movimenti coda processi.
 
 Una coda processi può avere più movimenti, che rappresentano i processi gestiti ed eseguiti dalla coda. Le informazioni nel movimento specificano quale codeunit o report viene eseguito, quando e con quale frequenza il movimento viene eseguito, in quale categoria viene eseguito il processo e le relative modalità di esecuzione.  
-
-## <a name="to-set-up-background-posting-with-job-queues"></a>Per configurare la registrazione background con le code processi
-
-Le code processi sono un efficace strumento per pianificare l'esecuzione dei processi aziendali in background, ad esempio quando più utenti tentano di registrare gli ordini di vendita, ma un solo ordine può essere elaborato alla volta.  
-
-La procedura seguente illustra come configurare la registrazione in background di ordini di vendita. I passaggi sono simili per un acquisto.  
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Setup contabilità clienti e vendite**, selezionare la casella di controllo **Registra mediante coda processi**.
-3. Scegliere il campo **Codice categoria coda processi** e specificare il codice **SALESPOST**.
-
-    > [!NOTE]
-    > Alcuni processi modificano gli stessi dati e non devono essere eseguiti contemporaneamente perché possono causare conflitti. Ad esempio, i processi in background per i documenti di vendita proveranno a modificare gli stessi dati contemporaneamente. Le categorie della coda lavori aiutano a prevenire questo tipo di conflitti garantendo che quando un lavoro è in esecuzione, un altro lavoro appartenente alla stessa categoria di coda lavori non verrà eseguito fino al termine del primo. Ad esempio, un processo che appartiene a una categoria della coda lavori di vendita attenderà fino al completamento di tutti gli altri processi relativi alle vendite. Specificare una categoria di coda lavori nella scheda dettaglio **Registrazione background** della pagina **Setup contabilità clienti**.
-    >
-    > [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce le categorie delle code lavoro per vendite, acquisti e registrazioni di contabilità generale. Si consiglia di specificare sempre una di queste categorie o una creata dall'utente. Se si verificano errori dovuti a conflitti, prendere in considerazione la possibilità di impostare una categoria per le vendite, gli acquisti e la registrazione in background della contabilità generale.
-
-    Se anche i documenti di vendita devono essere stampati al momento della registrazione, selezionare la casella di controllo **Registra e stampa mediante coda processi** nella pagina **Setup contabilità clienti e vendite**.  
-
-    > [!IMPORTANT]  
-    > Se si imposta un processo che prevede la registrazione e la stampa di documenti e nella stampante viene visualizzata una finestra di dialogo, ad esempio una richiesta di credenziali o un avvertimento sul basso livello di inchiostro della stampante, il documento viene registrato ma non stampato. Il movimento coda processi corrispondente alla fine incorre in un timeout e il campo **Stato** viene impostato su **Errore**. Di conseguenza, è consigliabile non utilizzare un setup di stampante che richieda l'interazione con la visualizzazione delle finestre di dialogo della stampante insieme alla registrazione in background.
-
-    La prossima volta che si pubblicano documenti di vendita, [!INCLUDE [prodshort](includes/prodshort.md)] crea automaticamente una voce nella coda processi per ogni documento ed esegue i lavori in background, uno per uno.
-
-4. Per verificare che la coda processi stia funzionando come previsto, registrare un ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
-
-5. Verificare nella pagina **Voci log coda processi** se l'ordine di vendita è stato registrato correttamente. Per ulteriori informazioni, vedere [Per visualizzare lo stato o gli errori nella coda processi](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
-
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Per creare un movimento coda processi per la registrazione batch di ordini di vendita
-
-In alternativa, è possibile rimandare le registrazioni nelle ore in cui è conveniente per la propria organizzazione. Ad esempio, può avere senso nella propria l'attività commerciale eseguire determinate procedure quando si è conclusa la maggior parte dell'immissione dati del giorno. Per riuscirci, impostare la coda commesse sull'esecuzione di diversi report di registrazione tramite processo batch, come i report **Registra ordini vendite tramite processo batch**, **Registra fatture vendita tramite processo batch** e report simili. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la registrazione in background per tutti i documenti di vendita, acquisto e assistenza.
-
-La seguente procedura illustra come impostare il report **Registra batch ordini vendite** per registrare automaticamente gli ordini di vendita alle ore 16 nei giorni della settimana.  
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti coda processi** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.  
-3. Nel campo **Tipo oggetto da eseguire**, selezionare **Report**.  
-4. Nel campo **ID oggetto da eseguire**, selezionare 296, **Registra batch ordini vendite**.
-
-   È possibile anche utilizzare i seguenti report:
-  
-   * 900 **Aggior. batch ordini assemblaggio**
-   * 497 **Agg. batch fatture acquisti**
-   * 496 **Aggior. batch ordini acquisto**
-   * 498 **Registrare nota cr. acquisti tramite processo batch**
-   * 6665 **Batch registra ordini resi acq.**
-   * 298 **Registrare le note di cr. vend. tramite processo batch**
-   * 297 **Registra batch fatture vendita**
-   * 296 **Registra batch ordini vendite**
-   * 6655 **Batch reg. ordini resi vendita**
-   * 6005 **Registra batch note cr. assistenza**
-   * 6004 **Registra batch fatture assistenza**
-   * 6001 **Batch ord. ass. registrati**
-
-5. Selezionare la casella controllo **Pagina di richiesta report**.
-6. Nella pagina di richiesta **Registra batch ordini vendite**, definire cosa includere durante la registrazione automatica di ordini di vendita quindi scegliere il pulsante **OK**.
-
-    > [!IMPORTANT]
-    > Ricordarsi di impostare filtri rigorosi; altrimenti, [!INCLUDE [prodshort](includes/prodshort.md)] pubblicherà tutti i documenti, anche se non sono pronti. Considerare l'idea di impostare un filtro sul campo **Stato** per il valore *Rilasciato* e un filtro sul campo **Data pubblicazione** per il valore *oggi*. Per ulteriori informazioni, vedere [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md).
-7. Selezionare tutte le caselle di controllo da **Esegui di Lunedì** a **Esegui di Venerdì**.
-8. Nel campo **Ora inizio**, immettere 16.
-9. Scegliere l'azione **Imposta stato su Pronto**.
-
-Gli ordini di vendita entro i filtri definiti saranno registrati ogni giorno della settimana alle ore 16.
-
-> [!NOTE]
-> Se la coda processi non può registrare l'ordine di vendita, lo stato viene modificato in **Errore** e l'ordine di vendita viene aggiunto all'elenco degli ordini di vendita che l'utente deve gestire manualmente. Per ulteriori informazioni, vedere [Per visualizzare lo stato o gli errori nella coda processi](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiare come segue durante ogni periodo ricorrente:
 
@@ -102,15 +38,26 @@ Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiar
 Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui è prevista l'esecuzione del processo.  
 
 ## <a name="to-view-status-or-errors-in-the-job-queue"></a>Per visualizzare lo stato o gli errori nella coda processi
-I dati generati quando una coda processi viene eseguita sono memorizzati nel database, in modo da poter risolvere gli errori relativi alla coda processi.
+
+I dati generati quando una coda processi viene eseguita sono memorizzati nel database, in modo da poter risolvere gli errori relativi alla coda processi.  
+Per ogni movimento coda processi, è possibile visualizzare e modificare lo stato. Quando si crea un movimento coda processi, il relativo stato è impostato su **In sospeso**. Ad esempio, è possibile impostare lo stato su **Pronto** e di nuovo su **In sospeso**. In caso contrario, le informazioni relative allo stato verranno aggiornate automaticamente.
+
+La tabella seguente descrive i valori del campo **Stato**.
+
+| Stato | Descrizione |
+|--|--|
+| Pronto | Indica che il movimento coda processi è pronto per l'esecuzione. |
+| In corso | Indica che il movimento coda processi è in corso. Il campo viene aggiornato durante l'esecuzione della coda processi. |
+| In sospeso | Default. Indica lo stato del movimento coda processi quando viene creato. Selezionare l'azione **Imposta stato su Pronto** per modificare lo stato in **Pronto**. Selezionare le azioni **Imposta in sospeso** o **Sospendi** per modificare di nuovo lo stato a **In sospeso**. |
+| Errore | Indica che è presente un errore. Selezionare **Mostra errore** per visualizzare il messaggio di errore. |
+| Completato | Indica che il movimento coda processi è stato completato. |
 
 ### <a name="to-view-status-for-any-job"></a>Per visualizzare lo stato di qualsiasi processo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti coda processi** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Movimenti coda processi**, selezionare un movimento coda processi quindi scegliere il l'azione **Movimenti log**.  
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Per visualizzare lo stato di un documento di vendita o di acquisto
-1. Dal documento che si è tentato di registrare con la registrazione in background, scegliere il campo **Stato coda processi**, che conterrà **Errore**.
-2. Analizzare il messaggio di errore e correggere il problema.
+> [!TIP]
+> Con [!INCLUDE [prod_short](includes/prod_short.md)] online, è anche possibile visualizzare lo stato dei movimenti coda processi utilizzando Application Insights in Microsoft Azure. Per ulteriori informazioni, vedere [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) nella [!INCLUDE [prod_short](includes/prod_short.md)] Guida per sviluppatori e professionisti IT.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
 La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  
@@ -118,26 +65,31 @@ La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle cod
 La parte mostra quali documenti con il proprio ID nel campo **ID utente assegnato** sono in fase di elaborazione o in coda, inclusi quelli relativi alla registrazione in background. La parte indica immediatamente se si è verificato un errore durante la registrazione di un documento oppure se sono presenti errori in un movimento coda processi. La parte consente inoltre di annullare la registrazione del documento se non è in esecuzione.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Per visualizzare un errore dalla parte Coda processi
-1. In un movimento con lo stato, **Errore**scegliere l'azione **Mostra errore**.
+1. In un movimento con lo stato, **Errore** scegliere l'azione **Mostra errore**.
 2. Analizzare il messaggio di errore e correggere il problema.
 
-## <a name="security"></a>Protezione  
-I movimenti coda processi vengono eseguiti in base alle autorizzazioni. Le autorizzazioni devono consentire l'esecuzione del report oppure della codeunit.  
 
-Quando una coda processi è attivata manualmente, viene eseguita con le credenziali dell'utente. Quando una coda processi è attivata come un task pianificato, viene eseguita con le credenziali dell'istanza server. Quando si esegue un processo, viene eseguito con le credenziali della coda processi che ne esegue l'attivazione. Tuttavia, all'utente che ha creato il movimento coda processi è inoltre necessario disporre dei permessi. Quando un processo viene "eseguito nella sessione utente" (ad esempio durante la registrazione background), viene eseguito con le credenziali dell'utente che ha creato il processo.  
+## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Esempi di cosa può essere programmato utilizzando la coda processi
 
-> [!IMPORTANT]  
-> Se si utilizza il set di autorizzazioni SUPER fornito con [!INCLUDE[d365fin](includes/d365fin_md.md)], la società e gli utenti dispongono delle autorizzazioni per eseguire tutti gli oggetti. In questo caso, l'accesso per ogni utente è limitato solo dalle autorizzazioni per i dati.  
+### <a name="schedule-reports"></a>Programmare report
 
-## <a name="using-job-queues-effectively"></a>Utilizzo delle code processi in modo efficace  
-Il record del movimento coda processi ha molti campi di cui lo scopo è quello di portare i parametri in una codeunit specificata per essere eseguita con una coda processi. Questo significa inoltre che le codeunit che devono essere eseguite mediante la coda processi devono essere specificate con il record Movimento coda processi come parametro nel trigger **OnRun**. Cio fornisce un livello di sicurezza aggiuntivo, poiché impedisce agli utenti di eseguire codeunit scelte casualmente tramite la coda processi. Se l'utente deve necessariamente passare i parametri a un report, l'unico modo possibile è eseguire il wrapping dell'esecuzione del report in una codeunit, che analizzerà i parametri di input e li immetterà nel report prima dell'esecuzione.  
+È possibile programmare un report o un processo batch da eseguire a una data e un'ora specifiche. I report e i processi batch programmati vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegliere l'opzione **Programmazione** dopo aver scelto l'azione **Invia a**, quindi immettere informazioni quali stampante, ora e data, ricorrenza.  
 
-## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Pianificazione della sincronizzazione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Per ulteriori informazioni, vedere [Programmazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport)
 
-Se si è integrato [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[d365fin](includes/cds_long_md.md)], è possibile utilizzare la coda processi per pianificare quando si intende sincronizzare i dati per i record che sono stati associati nelle due app aziendali. A seconda della direzione e delle regole definite per l'integrazione, i processi di sincronizzazione possono anche creare nuovi record nell'app di destinazione in modo che corrispondano a quelli nell'origine. Ad esempio, se un venditore crea un nuovo contatto in [!INCLUDE[crm_md](includes/crm_md.md)], il processo di sincronizzazione può creare quel contatto per il venditore associato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Pianificazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Programmare la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)]
+
+Se si è integrato [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], è possibile utilizzare la coda processi per programmare quando si intende sincronizzare i dati per i record che sono stati associati nelle due app aziendali. A seconda della direzione e delle regole definite per l'integrazione, i processi di sincronizzazione possono anche creare nuovi record nell'app di destinazione in modo che corrispondano a quelli nell'origine. Ad esempio, se un venditore crea un nuovo contatto in [!INCLUDE[crm_md](includes/crm_md.md)], il processo di sincronizzazione può creare quel contatto per il venditore associato in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Programmazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+
+### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Programmare la registrazione delle vendite e gli ordini acquisto
+
+Le code processi sono un efficace strumento per programmare l'esecuzione dei processi aziendali in background, ad esempio quando più utenti tentano di registrare gli ordini di vendita, ma un solo ordine può essere elaborato alla volta.  
+
+Per ulteriori informazioni, vedere [Per configurare la registrazione background con le code processi](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di Business Central](setup.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
+[Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  

@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi nell'hub aziendale
-description: Informazioni sulle soluzioni alternative per problemi nell'hub aziendale in Dynamics 365 Business Central.
+description: Informazioni su come risolvere i problemi relativi all'hub aziendale in Dynamics 365 Business Central per gestire il lavoro in più società.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94bd2c0270263a1382094e559b4e70753f9bb91f
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927695"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013584"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Risoluzione dei problemi dell'hub aziendale
 
@@ -37,11 +37,11 @@ Ci possono essere un paio di motivi per cui non è possibile connettersi a una s
   Nel dashboard, scegli la voce di menu **Strumenti** e quindi **Controlla errori**. Verrà visualizzato un elenco con dettagli tecnici, in modo che sia possibile contattare l'amministratore se sono presenti errori. Ad esempio, il messaggio di errore simile al seguente: "*Il server ha rifiutato le credenziali del cliente*" suggerisce che l'utente non dispone delle autorizzazioni di accesso.  
 - Non si dispone dell'accesso a tutte le società nell'ambiente a cui si sta tentando di connettersi
 
-  In [!INCLUDE [prodshort](includes/prodshort.md)], un'organizzazione può avere più business unit denominate società ed è possibile che non si disponga dell'accesso a tutte le società. Collaborare con l'amministratore o il cliente in modo che sia possibile accedere alle società con si desidera lavorare.  
+  In [!INCLUDE [prod_short](includes/prod_short.md)], un'organizzazione può avere più business unit denominate società ed è possibile che non si disponga dell'accesso a tutte le società. Collaborare con l'amministratore o il cliente in modo che sia possibile accedere alle società con si desidera lavorare.  
 
 ## <a name="data-does-not-refresh"></a>I dati non vengono aggiornati
 
-Quando si aggiunge una società o si richiede un aggiornamento dei dati, [!INCLUDE [prodshort](includes/prodshort.md)] recupera i dati. Tuttavia è necessario aggiornare la pagina manualmente, ad esempio con l'azione **Ricarica tutte le società**, aggiornando la pagina del browser, uscendo e quindi rientrando nel dashboard o in altri modi simili.  
+Quando si aggiunge una società o si richiede un aggiornamento dei dati, [!INCLUDE [prod_short](includes/prod_short.md)] recupera i dati. Tuttavia è necessario aggiornare la pagina manualmente, ad esempio con l'azione **Ricarica tutte le società**, aggiornando la pagina del browser, uscendo e quindi rientrando nel dashboard o in altri modi simili.  
 
 Se è stata aggiunta una società, ma non viene visualizzata nell'elenco, è anche possibile utilizzare l'azione **Ricarica tutte le società** per aggiornare l'elenco.
 

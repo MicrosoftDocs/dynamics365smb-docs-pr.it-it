@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759569"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
-È possibile emettere assegni elettronici e manuali in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In entrambi i metodi vengono utilizzate le registrazioni pagamenti per emettere assegni ai fornitori. È inoltre possibile annullare assegni e visualizzare movimenti contabili assegni.
+È possibile emettere assegni elettronici e manuali in [!INCLUDE[prod_short](includes/prod_short.md)]. In entrambi i metodi vengono utilizzate le registrazioni pagamenti per emettere assegni ai fornitori. È inoltre possibile annullare assegni e visualizzare movimenti contabili assegni.
 
 La seguente procedura mostra come pagare un fornitore con un assegno automatico applicando il pagamento alla fattura del fornitore pertinente, stampando l'assegno e quindi registrando il pagamento come pagato. Questa operazione determina la registrazione di movimenti contabili fornitori positivi, collegati a movimenti contabili negativi della banca e ad assegni fisici per l'elaborazione della banca.
 
@@ -83,4 +83,4 @@ Se si desidera verificare gli assegni registrati, ad esempio per verificare più
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Esportare un file Positive Pay](finance-how-positive-pay.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

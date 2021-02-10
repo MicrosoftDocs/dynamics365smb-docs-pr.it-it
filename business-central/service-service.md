@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913048"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817006"
 ---
 # <a name="service-management"></a>Gestione assistenza
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
-Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attività di qualsiasi azienda, oltre che una fonte importante di ricavi, ma anche di soddisfazione e lealtà da parte dei clienti. Gestire e tenere traccia dei servizi di assistenza non è tuttavia sempre facile, per questa ragione [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una serie di strumenti in grado di agevolare tali operazioni. Si tratta di strumenti progettati per supportare l'attività di officine di riparazione e di aziende che operano nel settore dell'assistenza, che possono essere utilizzati in svariati scenari di business, tra cui complessi sistemi di distribuzione di assistenza clienti, ambienti di assistenza industriale caratterizzati da distinte di base e numerosi invvi di tecnici di assistenza con requisiti relativi alla gestione dei pezzi di ricambio.  
+Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attività di qualsiasi azienda, oltre che una fonte importante di ricavi, ma anche di soddisfazione e lealtà da parte dei clienti. Gestire e tenere traccia dei servizi di assistenza non è tuttavia sempre facile, per questa ragione [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una serie di strumenti in grado di agevolare tali operazioni. Si tratta di strumenti progettati per supportare l'attività di officine di riparazione e di aziende che operano nel settore dell'assistenza, che possono essere utilizzati in svariati scenari di business, tra cui complessi sistemi di distribuzione di assistenza clienti, ambienti di assistenza industriale caratterizzati da distinte di base e numerosi invvi di tecnici di assistenza con requisiti relativi alla gestione dei pezzi di ricambio.  
 
  Questi strumenti consentono di effettuare le operazioni seguenti:  
 
@@ -46,6 +46,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910432"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024364"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
@@ -37,9 +37,10 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
 |Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
+|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

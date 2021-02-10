@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925504"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024489"
 ---
 # <a name="save-and-personalize-list-views"></a>Salvare e personalizzare visualizzazioni elenco
 Dopo aver impostato un filtro in un elenco e si desidera conservare il filtro per un utilizzo successivo, è possibile salvarlo come visualizzazione. Per ulteriori informazioni sui filtri di elenchi, vedere [Impostazione di filtri negli elenchi](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Se esistono delle visualizzazioni, il gruppo **Visualizzazioni** è visualizzato nella parte superiore del riquadro filtri. Le visualizzazioni sono variazioni dell'elenco che sono state preconfigurate con i filtri. È possibile definire e salvare un numero illimitato di visualizzazioni per elenco e le visualizzazioni saranno disponibili alla successiva apertura dell'elenco, da qualsiasi dispositivo o browser.
+Se esistono delle visualizzazioni, il gruppo **Visualizzazioni** è visualizzato nella parte superiore del riquadro filtri. Le visualizzazioni sono variazioni dell'elenco che sono state preconfigurate con i filtri. È possibile definire e salvare tutte le visualizzazioni desiderate per elenco. Le visualizzazioni saranno disponibili la prossima volta che si aprirà l'elenco, da qualsiasi dispositivo o browser.
 
 ## <a name="to-save-a-view"></a>Per salvare una visualizzazione
 1. Aprire qualsiasi pagina elenco.
@@ -34,16 +34,19 @@ Se esistono delle visualizzazioni, il gruppo **Visualizzazioni** è visualizzato
 
 Se non si specifica un nome, verrà utilizzato **Tutto (copia)**.
 
+> [!TIP]
+> L'icona ![Salva visualizzazione](media/save_view_icon.png "Salva visualizzazione") non è visibile? Per ulteriori informazioni, vedere [Perché non è presente un'icona Salva?](ui-views-faq.md#save).
+
 ## <a name="to-rename-or-remove-a-view"></a>Per rinominare o rimuovere una visualizzazione
 1. Per la visualizzazione in cui è attualmente visualizzato l'elenco, selezionare l'icona ![Mostra altre opzioni](media/show-more-options-icon.png "Mostra altre opzioni") per vedere quali opzioni sono disponibili.
-2. Scegliere l'azione **Rinomina**o **Rimuovi**.
+2. Scegliere l'azione **Rinomina** o **Rimuovi**.
 
 ## <a name="managing-many-views"></a>Gestione di molte visualizzazioni
-Con l'aumentare del numero di visualizzazioni in una pagina, potrebbe essere necessario un ulteriore controllo sulla modalità di presentazione delle visualizzazioni nel riquadro filtri. Con il banner **Personalizzazione**, è possibile nascondere le visualizzazioni indesiderate o riordinare le visualizzazioni per ottenere la sequenza perfetta. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+Con l'aumentare del numero di visualizzazioni in una pagina, potrebbe essere necessario un maggiore controllo sulla modalità di presentazione delle visualizzazioni nel riquadro filtri. Con il banner **Personalizzazione**, è possibile nascondere le visualizzazioni indesiderate o riordinare le visualizzazioni per ottenere la sequenza perfetta. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Vedere anche
 [Domande frequenti sulle visualizzazioni elenco](ui-views-faq.md)  
 [Personalizzare l'area di lavoro](ui-personalization-user.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)    
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

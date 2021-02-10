@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917853"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817156"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Rispondere a richieste relative a dati personali  
-Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
+Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[prod_long](includes/prod_long.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tipi di richieste
 
@@ -35,13 +35,13 @@ Nella tabella seguente vengono forniti esempi dei tipi di richieste a cui è pos
 Un oggetto dati può richiedere di interrompere temporaneamente l'elaborazione dei relativi dati personali. Per soddisfare tali richieste, è possibile contrassegnare i record come bloccati a causa della privacy. Quando un record viene contrassegnato come bloccato, non è possibile creare nuove transazioni che utilizzano quel record. Ad esempio, non è possibile creare una nuova fattura per un cliente quando il cliente o il venditore è bloccato. Per contrassegnare un oggetto dati come bloccato, aprire la scheda per l'oggetto dati, ad esempio le schede cliente, fornitore o contatto, e scegliere la casella du controllo **Bloccato dalla privacy**. Potrebbe essere necessario scegliere **Mostra di più** per visualizzare il campo.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Gestione delle richieste dell'interessato in una versione di valutazione
-Alcuni tipi di dati personali fanno parte dell'account Microsoft 365 e richiedono l'accesso amministrativo per l'esportazione, se si riceve una richiesta da parte di un utente in merito a questo tipo di dati personali ai sensi del Regolamento generale sulla protezione dei dati (GDPR). Il processo per la gestione delle richieste degli interessati è diverso in base al tipo di tenant di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Alcuni tipi di dati personali fanno parte dell'account Microsoft 365 e richiedono l'accesso amministrativo per l'esportazione, se si riceve una richiesta da parte di un utente in merito a questo tipo di dati personali ai sensi del Regolamento generale sulla protezione dei dati (GDPR). Il processo per la gestione delle richieste degli interessati è diverso in base al tipo di tenant di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Se si dispone di un abbonamento a pagamento per [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario contattare l'amministratore del tenant della propria organizzazione per inoltrare una richiesta dell'interessato. L'amministratore ha i diritti e gli strumenti amministrativi per soddisfare tale richiesta.  
+Se si dispone di un abbonamento a pagamento per [!INCLUDE[prod_short](includes/prod_short.md)], è necessario contattare l'amministratore del tenant della propria organizzazione per inoltrare una richiesta dell'interessato. L'amministratore ha i diritti e gli strumenti amministrativi per soddisfare tale richiesta.  
 
-Se ci si è registrati a [!INCLUDE[d365fin](includes/d365fin_md.md)] tramite la pagina [Trial](https://trials.dynamics.com/) e si sta ancora utilizzando la versione di valutazione tramite un abbonamento a pagamento dall'amministratore del tenant dell'organizzazione, è possibile inoltrare la richiesta tramite la pagina dedicata alla [privacy dell'utente nel Portale di Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Qui è possibile esportare e scaricare i dati personali.
+Se ci si è registrati a [!INCLUDE[prod_short](includes/prod_short.md)] tramite la pagina [Trial](https://trials.dynamics.com/) e si sta ancora utilizzando la versione di valutazione tramite un abbonamento a pagamento dall'amministratore del tenant dell'organizzazione, è possibile inoltrare la richiesta tramite la pagina dedicata alla [privacy dell'utente nel Portale di Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Qui è possibile esportare e scaricare i dati personali.
 
-Nella pagina sulla privacy per la privacy, è anche possibile chiudere il proprio account. Tuttavia, si consiglia di assicurarsi di aver esportato e cancellato tutti i dati prima, poiché l'eliminazione dell'account comporta la perdita dell'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Nella pagina sulla privacy per la privacy, è anche possibile chiudere il proprio account. Tuttavia, si consiglia di assicurarsi di aver esportato e cancellato tutti i dati prima, poiché l'eliminazione dell'account comporta la perdita dell'accesso a [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 È comunque possibile contrassegnare le persone come bloccate in base alla privacy ed esportare, modificare o eliminare le transazioni come spiegato in altre sezioni di questo articolo.  
 

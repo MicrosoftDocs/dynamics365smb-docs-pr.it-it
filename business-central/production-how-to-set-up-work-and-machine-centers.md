@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910707"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817283"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
@@ -68,11 +68,14 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
     > [!NOTE]  
     > Se si decide di utilizzare Giorni, tenere presente che un giorno equivale a 24 ore e non a 8 ore lavorative.
 
-13. Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
+13. Il campo **Capacità** consente di specificare se nell'area di produzione sono disponibili più macchinari o persone che lavorano contemporaneamente. Se nell'installazione di [!INCLUDE[prod_short](includes/prod_short.md)] non è inclusa la funzionalità Centro di lavoro, è necessario che il valore di questo campo sia impostato su **1**.  
 14. Specificare nel campo **Efficienza** la percentuale di output standard previsto prodotta effettivamente dall'area di produzione selezionata. Se si immette un valore pari a **100**, si indica che l'output effettivo dell'area di produzione corrisponde all'output standard.  
 15. Selezionare la casella di controllo **Calendario consolidato** se si utilizzano anche centri di lavoro. In questo modo viene eseguito il roll up dei movimenti di calendario dai calendari centro di lavoro.  
 16. Selezionare un calendario reparto produzione nel campo **Cod. calendario reparto prod.**. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).  
-17. Il campo **Tempo in coda** consente di specificare un intervallo di tempo fisso che deve trascorrere prima di potere iniziare l'attività assegnata all'area di produzione selezionata. Si noti che il valore specificato in Tempo in coda viene aggiunto ad altri elementi di tempo non legati alla produzione, ad esempio Tempo attesa e Tempo spostamento, che possono essere definiti nelle righe ciclo mediante l'area di produzione selezionata.  
+17. Il campo **Tempo in coda** consente di specificare un intervallo di tempo fisso che deve trascorrere prima di potere iniziare l'attività assegnata all'area di produzione selezionata. 
+
+> [!NOTE]
+> Utilizzare i tempi in coda per fornire un buffer tra il momento in cui un componente arriva a una macchina o un'area di produzione e quando l'operazione inizia effettivamente. Ad esempio, un pezzo viene consegnato a un centro lavoro alle 10:00, ma ci vuole un'ora per montarlo sulla macchina, quindi l'operazione non inizia prima delle 11:00. Per tenere conto di quell'ora, il tempo in coda sarebbe un'ora. Il valore del campo **Tempo in coda** nella scheda Centro di Lavoro o Area di produzione sommato ai valori dei campi **Tempo di setup**, **Tempo lavorazione**, **Tempo attesa** e **Tempo spostamento** della riga del ciclo dell'articolo fornisce il lead time di produzione dell'articolo. Ciò consente di fornire tempi di produzione complessivi accurati.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esempio: diversi centri di lavoro assegnati a un'area di produzione
 
@@ -88,7 +91,7 @@ Se le capacità delle aree di produzione non devono contribuire a formare la cap
 
 È necessario impostare le risorse di produzione considerate critiche e contrassegnarle per l'accettazione soltanto di carichi limitati, escludendo in questo modo il carico illimitato predefinito che viene accettato da altre risorse di produzione. Una risorsa critica può essere costituita da un'area di produzione o da un centro lavoro che costituiscono strozzature nel ciclo produttivo e per i quali si desidera stabilire un limite finito di carico.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
+[!INCLUDE[prod_short](includes/prod_short.md)] non supporta il controllo della produzione o del reparto dettagliato. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.
 
 Nella pagina **Risorse critiche** è possibile effettuare impostazioni per evitare il sovraccarico di risorse specifiche e garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. Nel campo **Smorzamento (% cap. totale)**, è possibile aggiungere il tempo di smorzamento alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.
 
@@ -111,4 +114,4 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912073"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760344"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
 Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -29,7 +29,7 @@ La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovver
 2. Selezionare la riga per il profilo per cui si desidera personalizzare le pagine, quindi scegliere l'azione **Modifica**.
 3. Scegliere l'azione **Personalizza pagine**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] viene aperto in una nuova scheda del browser per il profilo selezionato con il banner **Personalizzazione** attivato. Il banner **Personalizzazione** offre le stesse funzionalità del banner **Personalizzazione** disponibile per gli utenti.
+    [!INCLUDE[prod_short](includes/prod_short.md)] viene aperto in una nuova scheda del browser per il profilo selezionato con il banner **Personalizzazione** attivato. Il banner **Personalizzazione** offre le stesse funzionalità del banner **Personalizzazione** disponibile per gli utenti.
 
 4. Personalizzare le pagine in base alle esigenze del ruolo o del reparto in questione, proprio come farebbe un utente durante la personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

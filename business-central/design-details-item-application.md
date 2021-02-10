@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913665"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035484"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 
@@ -23,7 +23,7 @@ Quando si registra una transazione di magazzino, la registrazione della quantit�
 
 Inoltre, viene creato un collegamento articoli per collegare il destinatario di costo alla relativa origine di costo per fornire l'inoltro di costi secondo il metodo di costing. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] esegue due tipi di collegamento articoli.  
+[!INCLUDE[prod_short](includes/prod_short.md)] esegue due tipi di collegamento articoli.  
 
 |Tipo collegamento|Description|  
 |----------------------|---------------------------------------|  
@@ -89,7 +89,7 @@ Nella seguente tabella vengono mostrati i due movimenti di collegamento articoli
 ## <a name="fixed-application"></a>Collegamento fisso  
 Viene impostato un collegamento fisso quando si specifica che il costo di un aumento di magazzino deve essere collegato a una determinata riduzione di magazzino o viceversa. Il collegamento fisso influisce sulle quantità residue dei movimenti, ma il collegamento fisso provoca anche lo storno del costo esatto del movimento originale a cui o da cui si sta effettuando il collegamento.  
 
-Per impostare un collegamento fisso, è possibile utilizzare i campi **Collega a mov. art.** o **Collega da mov. art.** nelle righe del documento per specificare il movimento contabile articolo a cui o da cui si desidera collegare la riga della transazione. Viene ad esempio creato un collegamento fisso quando si desidera creare un collegamento costo che specifichi che un reso di vendita deve essere collegato a una determinata spedizione di vendita allo scopo di ottenere lo storno del costo della spedizione di vendita. In questo caso, il metodo di costing viene ignorato da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viene eseguito un collegamento della riduzione di magazzino, o dell'aumento nel caso di un reso di vendita, al movimento contabile articolo specificato. Il vantaggio della creazione di un collegamento fisso consiste nel fatto che il costo della transazione originale viene passato alla nuova transazione.  
+Per impostare un collegamento fisso, è possibile utilizzare i campi **Collega a mov. art.** o **Collega da mov. art.** nelle righe del documento per specificare il movimento contabile articolo a cui o da cui si desidera collegare la riga della transazione. Viene ad esempio creato un collegamento fisso quando si desidera creare un collegamento costo che specifichi che un reso di vendita deve essere collegato a una determinata spedizione di vendita allo scopo di ottenere lo storno del costo della spedizione di vendita. In questo caso, il metodo di costing viene ignorato da [!INCLUDE[prod_short](includes/prod_short.md)] e viene eseguito un collegamento della riduzione di magazzino, o dell'aumento nel caso di un reso di vendita, al movimento contabile articolo specificato. Il vantaggio della creazione di un collegamento fisso consiste nel fatto che il costo della transazione originale viene passato alla nuova transazione.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Esempio: collegamento fisso nel reso di acquisto  
 Il seguente esempio, che illustra l'effetto del collegamento fisso di un reso acquisto di un articolo che utilizza il metodo di costing FIFO, si basa sul seguente scenario:  
@@ -126,6 +126,8 @@ Il seguente esempio, che illustra l'effetto del collegamento fisso, si basa sul 
 5. La quantità di magazzino è 0 e anche il valore di magazzino è 0,00  
 
 Nella seguente tabella viene illustrato il risultato dello scenario sui movimenti di valorizzazione dell'articolo.  
+
+Nella seguente tabella viene illustrato il risultato dello scenario nei movimenti di valorizzazione dell'articolo dopo il completamento della registrazione e l'esecuzione della rettifica dei costi.
 
 |Data di registrazione|Tipo mov. articolo|Quantità valorizzata|Importo costo (effettivo)|Collega-a mov. art.|Valutato per costo medio|Nr. movimento cont. articolo|Nr. movimento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -190,7 +192,7 @@ Nella seguente tabella viene illustrato l'effetto dello storno esatto del costo 
 Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il costo aumentato del movimento di acquisto, dovuto all'addebito articolo, viene inoltrato al movimento di vendita (numero movimento 2). Il movimento di vendita inoltra quindi questo costo aumentato al movimento credito di vendita (movimento numero 3). Il risultato finale è che il costo viene stornato correttamente.  
 
 > [!NOTE]  
->  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella pagina **Setup contabilità fornitori e acquisti** o nella pagina **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[d365fin](includes/d365fin_md.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia da documento**. Se si utilizza la funzione **Ottieni righe documento registrato da stornare**, allora i campi vengono sempre compilati automaticamente.  
+>  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella pagina **Setup contabilità fornitori e acquisti** o nella pagina **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[prod_short](includes/prod_short.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia da documento**. Se si utilizza la funzione **Ottieni righe documento registrato da stornare**, allora i campi vengono sempre compilati automaticamente.  
 
 > [!NOTE]  
 >  Se si registra una transazione con un collegamento fisso e il movimento contabile articolo a cui si sta effettuando il collegamento è chiuso, ovvero la quantità residua è zero, allora il collegamento precedente viene automaticamente annullato e il movimento contabile articolo viene collegato di nuovo utilizzando il collegamento fisso specificato.  
@@ -203,30 +205,30 @@ Il seguente esempio, che illustra la modalità di applicazione dei movimenti di 
 
 1. L'utente acquista l'articolo a un costo di VL 10,00.  
 2. L'utente acquista nuovamente l'articolo a un costo di VL 20,00.  
-3. L'utente trasferisce l'articolo dall'ubicazione BLU all'ubicazione ROSSO.  
+3. L'utente trasferisce l'articolo dall'ubicazione EST all'ubicazione OVEST.  
 
 Nella seguente tabella viene illustrato l'effetto del trasferimento sui movimenti di valorizzazione dell'articolo.  
 
 |Data di registrazione|Tipo mov. articolo|Cod. ubicazione|Quantità valorizzata|Importo costo (effettivo)|Nr. movimento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Acquisto|BLU|1|10.00|1|  
-|01-01-20|Acquisto|BLU|1|20.00|2|  
-|02-01-20|Trasferimento|BLU|-1|15.00|3|  
-|02-01-20|Trasferimento|ROSSO|1|15.00|4|  
+|01-01-20|Acquisti|EST|1|10,00|1|  
+|01-01-20|Acquisti|EST|1|20,00|2|  
+|02-01-20|Trasferimento|EST|-1|15.00|3|  
+|02-01-20|Trasferimento|OVEST|1|15.00|4|  
 
 ### <a name="example--standard-costing-method"></a>Esempio: Metodo di costing standard  
 Il seguente esempio, che illustra la modalità di applicazione dei movimenti di trasferimento, si basa sul seguente scenario di un articolo che utilizza il metodo di costing standard e il costo medio del periodo Giorno.  
 
 1. L'utente acquista l'articolo a un costo standard di VL 10,00.  
-2. L'utente trasferisce l'articolo dall'ubicazione BLU all'ubicazione ROSSO a un costo standard di VL 12,00.  
+2. L'utente trasferisce l'articolo dall'ubicazione EST all'ubicazione OVEST a un costo standard di VL 12,00.  
 
 Nella seguente tabella viene illustrato l'effetto del trasferimento sui movimenti di valorizzazione dell'articolo.  
 
 |Data di registrazione|Tipo mov. articolo|Cod. ubicazione|Quantità valorizzata|Importo costo (effettivo)|Nr. movimento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Acquisto|BLU|1|10.00|1|  
-|02-01-20|Trasferimento|BLU|-1|10,00|2|  
-|02-01-20|Trasferimento|ROSSO|1|10,00|3|  
+|01-01-20|Acquisti|EST|1|10,00|1|  
+|02-01-20|Trasferimento|EST|-1|10,00|2|  
+|02-01-20|Trasferimento|OVEST|1|10,00|3|  
 
 Poiché il valore dell'aumento di magazzino originale è VL 10,00, il trasferimento viene valutato a quel costo, non a VL 12,00.  
 
@@ -238,7 +240,7 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 * Si desidera oltrepassare il collegamento creato automaticamente durante la registrazione, in base al metodo di costing dell'articolo.  
 * È necessario restituire un articolo a cui è stata stata collegata manualmente una vendita, senza utilizzare la funzione **Ottieni righe documento registrato da stornare**, ed è di conseguenza necessario annullare il collegamento.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento**.  
+[!INCLUDE[prod_short](includes/prod_short.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento**.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

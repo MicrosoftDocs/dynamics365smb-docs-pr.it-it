@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920374"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760169"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
 
@@ -79,7 +79,7 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 - Ridimensionare per adattare alla pagina
 - Seleziona testo
 
-    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia**. Quindi incollare il testo selezionato nella posizione desiderata.
+    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[prod_short](includes/prod_short.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia**. Quindi incollare il testo selezionato nella posizione desiderata.
 - Panoramica del documento
 
     È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. La panoramica risulta utile quando è stato eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.
@@ -121,12 +121,12 @@ Non è possibile modificare la stampante utilizzando il campo **Stampante**. Per
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Stampa di report nella versione tailandese
 
-Nella versione tailandese di [!INCLUDE[prodshort](includes/prodshort.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
+Nella versione tailandese di [!INCLUDE[prod_short](includes/prod_short.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
 
 Oppure è possibile richiedere all'amministratore di creare un layout report Word per i report più utilizzati. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ I campi in **Avanzate** impostano le limitazioni sul report generato per control
 |Numero massimo documenti|500|
 
 > [!NOTE]
-> I valori massimi possono essere diversi per [!INCLUDE[d365fin](includes/d365fin_md.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedere [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, vedere [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> I valori massimi possono essere diversi per [!INCLUDE[prod_short](includes/prod_short.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedere [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[prod_short](includes/prod_short.md)] online, vedere [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
 [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)  
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

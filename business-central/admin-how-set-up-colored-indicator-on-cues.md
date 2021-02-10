@@ -1,5 +1,5 @@
 ---
-title: Specificare indicatori colorati per personalizzare segnali visivi sull'attività di una pila per la società o per singoli utenti| Microsoft Docs
+title: Configurare indicatori colorati personalizzati per l'attività della pila
 description: Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c2ffd8e39f09e501964c659efa1d711da5370c0e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911457"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013973"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
 Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.  

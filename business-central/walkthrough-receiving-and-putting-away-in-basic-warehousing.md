@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base | Documenti Microsoft'
-description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.
+title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base'
+description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità differenti a seconda del livello di complessità della warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918440"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035558"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -51,6 +51,9 @@ In questa procedura dettagliata sono illustrati i task seguenti.
 -   Creazione di uno stoccaggio in magazzino in base al documento origine rilasciato.  
 -   Verificare che le collocazioni di stoccaggio siano ereditate dell'ordine di acquisto.  
 -   Registrazione della movimentazione warehouse nella warehouse e registrazione contemporanea della ricezione acquisti per l'ordine di acquisto di origine.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Ruoli  
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
@@ -144,4 +147,4 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
  [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921664"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759319"
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
 In un calendario delle aree di produzione o dei centri di lavoro sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area o del centro, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area o centro.
@@ -110,4 +110,4 @@ La capacità del giorno selezionato risulta ora diminuita in base al tempo di as
 [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

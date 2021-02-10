@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923248"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759844"
 ---
 # <a name="cross-dock-items"></a>Sottoporre gli articoli a cross-dock
 La funzionalità di cross-docking è disponibile se l'ubicazione è stata impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse.  
@@ -60,7 +60,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Ricevere articoli](warehouse-how-receive-items.md).  
 3.  Compilare il campo **Qtà da ricevere** e scegliere l'azione **Calcola cross-dock**.  
 
-    I documenti di origine in uscita in cui vengono richiesti gli articoli programmati per uscire dalla warehouse entro il periodo di tempo indicato nella formula di data vengono identificati.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola le quantità affinché sia possibile sottoporre a cross-dock il maggior numero possibile di articoli in modo da evitare lo stoccaggio, senza l'accumulo di un numero eccessivo di articoli nell'area di cross-dock. Il valore nel campo **Qtà per cross-dock** corrisponde pertanto alla somma di tutte le righe in uscita per cui viene richiesto l'articolo entro il periodo di tolleranza meno la quantità degli articoli che sono già stati posizionati nell'area di cross-dock oppure al valore contenuto nel campo **Qtà da ricevere** della riga di carico, a seconda di quale valore sia inferiore. Non è possibile sottoporre a cross-dock una quantità di articoli superiore a quella ricevuta.  
+    I documenti di origine in uscita in cui vengono richiesti gli articoli programmati per uscire dalla warehouse entro il periodo di tempo indicato nella formula di data vengono identificati.  [!INCLUDE[prod_short](includes/prod_short.md)] calcola le quantità affinché sia possibile sottoporre a cross-dock il maggior numero possibile di articoli in modo da evitare lo stoccaggio, senza l'accumulo di un numero eccessivo di articoli nell'area di cross-dock. Il valore nel campo **Qtà per cross-dock** corrisponde pertanto alla somma di tutte le righe in uscita per cui viene richiesto l'articolo entro il periodo di tolleranza meno la quantità degli articoli che sono già stati posizionati nell'area di cross-dock oppure al valore contenuto nel campo **Qtà da ricevere** della riga di carico, a seconda di quale valore sia inferiore. Non è possibile sottoporre a cross-dock una quantità di articoli superiore a quella ricevuta.  
 
 4.  Se si desidera sottoporre a cross-dock la quantità suggerita, registrare il carico. In alternativa, è possibile scegliere di modificare la quantità da sottoporre a cross-dock impostando un valore superiore o inferiore, quindi registrare il carico.  
 
@@ -104,4 +104,4 @@ Se non si utilizzano le collocazioni, si consiglia di controllare periodicamente
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

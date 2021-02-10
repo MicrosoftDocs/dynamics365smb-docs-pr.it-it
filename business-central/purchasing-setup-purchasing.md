@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918733"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024589"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -32,6 +32,7 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Registrazione di prezzi, sconti e contratti di pagamento per gli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Impostare gli addetti agli acquisti |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
+|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
 > [!TIP]
 > A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,4 +42,4 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 ## <a name="see-also"></a>Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

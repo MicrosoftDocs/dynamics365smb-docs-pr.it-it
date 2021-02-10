@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919165"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013846"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.  
@@ -108,7 +108,8 @@ Al termine delle operazioni di pianificazione nella pagina **Pianificazione Ordi
 > [!NOTE]  
 >  È possibile che gli ordini di approvvigionamento creati introducano una nuova domanda dipendente, ad esempio relativa a ordini di produzione sottostanti, e che sia quindi necessario scegliere nuovamente **Calcola piano** per individuare tali domande e risolverle prima di passare alle altre righe dell'elenco.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
+[Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)  
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
@@ -116,4 +117,4 @@ Al termine delle operazioni di pianificazione nella pagina **Pianificazione Ordi
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

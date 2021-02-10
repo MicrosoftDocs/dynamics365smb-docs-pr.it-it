@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: Domande frequenti sulla su come copiare e incollare dati
+  description: Ottieni risposte alle domande frequenti su come copiare e incollare dati da campi e righe nelle pagine di Business Central.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013923"
+title: Domande frequenti sulla funzionalità di copia e incolla
+summary: "È possibile copiare una o più righe (record) da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook).  \n\nIn breve, per copiare, premere CTRL+C (cmd+C in macOS) sulla tastiera. Per incollare, premere CTRL+V (cmd+V in macOS). Sono disponibili altri tasti di scelta rapida da tastiera per copiare e incollare che consentono di risparmiare tempo quando si inseriscono i dati. Per ulteriori informazioni su questo argomento, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#CopyRows). Questo articolo risponde alle domande più frequenti relative alle operazioni di copia e incolla.  \n"
+sections:
+- name: Generale
+  questions:
+  - question: Elementi che è possibile copiare e incollare
+    answer: >
+      Puoi copiare e incollare questo tipo di dati:
+
+      - Copiare una o più righe di [!INCLUDE[prod_short](includes/prod_short.md)] nello stesso elenco o in qualsiasi elenco con colonne identiche.
+
+      - Copiare una o più righe in [!INCLUDE[prod_short](includes/prod_short.md)] quindi incollarle in Excel o in altre applicazioni.
+
+      - Copiare una o più righe in Excel e incollarle in un elenco di [!INCLUDE[prod_short](includes/prod_short.md)].
+
+      - Copiare il valore di un singolo campo in [!INCLUDE[prod_short](includes/prod_short.md)] e incollarlo ovunque.
+  - question: Le operazioni di copia e incolla sono compatibili con i riquadri?
+    answer: >
+      Sì, ma solo per una singolo riquadro selezionato.
+  - question: Come si copia una riga?
+    answer: >
+      Per copiare una singola riga, selezionarla e quindi premere CTRL+C.
+
+
+      Per copiare più righe, è possibile:
+
+      - Premere CTRL+fare clic su un'altra riga o premere MAIUSC+fare clic per selezionare la riga e tutte le righe intermedie. Vedere [Tasti di scelta rapida](keyboard-shortcuts.md#CopyRows) più per combinazioni di tastiera e del mouse per la selezione di righe.
+
+      - Selezionare ![Mostra più opzioni](media/show-more-options-icon.png "Icona Mostra altre opzioni") nella prima colonna, selezionare **Seleziona più elementi**, selezionare la casella di controllo accanto a ciascuna riga che si desidera copiare, quindi premere CTRL+C.
+  - question: Come incollare le righe
+    answer: >
+      Selezionare una riga vuota, con lo stato attivo in una cella qualsiasi, quindi premere CRTL+V.
+
+
+      Se si desidera sostituire le righe esistenti, selezionare le righe e quindi premere CTRL+V. In questo caso, è possibile copiare solo lo stesso numero di righe che selezionate.
+
+
+      > [!NOTE]
+
+      > L'elenco in cui si sta incollando deve essere modificabile.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: È possibile incollare le righe in un'email di Outlook?
+    answer: >
+      Sì. Queste righe vengono incollate come una tabella ben formattata che conserva indentazione, allineamento numerico e colorazione, proprio come si vedrebbe in [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: In quali elenchi si possono copiare e incollare righe?
+    answer: >
+      È possibile copiare righe in qualsiasi tipo di elenco, inclusi fogli di lavoro, caselle di controllo o elenchi incorporati in una pagina (come le righe di un ordine di vendita). Tuttavia, per incollare le righe, l'elenco deve essere modificabile.
+
+
+      In alcune pagine, la progettazione dell'applicazione potrebbe impedire di incollare righe. Contattare l'amministratore o lo sviluppatore dell'applicazioni per modificare la [proprietà modificabile](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) nella pagina o la [proprietà PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) nella tabella di origine.
+  - question: In quali client quali client è disponibile copia e incolla?
+    answer: >
+      Copia e incolla sono disponibili nel browser o nell'app [!INCLUDE[prod_short](includes/prod_short.md)] per Windows 10
+  - question: Qual è numero massimo di righe copiabile?
+    answer: >
+      È possibile copiare tutte le righe visualizzate. Ad esempio, per copiare tutte le 1000 righe in una pagina, è necessario innanzitutto scorrere fino alla fine della pagina e attendere che le righe vengano visualizzate prima della copia. Il numero massimo di righe che è possibile copiare è limitato solo dalla memoria del dispositivo in uso.
+  - question: Devo disporre dello stesso numero di colonne quando incollo le righe?
+    answer: >
+      Sì. Sia che si copi da [!INCLUDE[prod_short](includes/prod_short.md)], Excel o da un'altra origine di tabella, le righe che si incollano in [!INCLUDE[prod_short](includes/prod_short.md)] devono avere le colonne di corrispondenza esatte, né più né meno.
+  - question: Perché vengono visualizzati degli errori quando incollo le righe?
+    answer: >
+      Quando si incolla in [!INCLUDE[prod_short](includes/prod_short.md)], ogni riga viene controllata per assicurarsi che i valori in ogni colonna siano validi. Se una colonna contiene un valore che non è valido, l'operazione incolla viene interrotta e viene visualizzato un messaggio di errore. Per evitare ciò, assicurarsi che le colonne abbiano valori validi prima di incollarli.
+additionalContent: "## <a name=\"next-steps\"></a>Passaggi successivi\nPer informazioni correlate, vedere: \n  - [Funzionalità di accessibilità](ui-accessibility.md)  \n  - [Introduzione](product-get-started.md)  \n  - [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Domande frequenti](across-faq.md)"

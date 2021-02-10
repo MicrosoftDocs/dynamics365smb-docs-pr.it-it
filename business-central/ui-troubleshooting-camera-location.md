@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912023"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760217"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Risoluzione dei problemi: accesso alla fotocamera e alla posizione
 
-È possibile che si riscontrino problemi quando si prova ad accedere alla fotocamera e alle informazioni sulla posizione di un dispositivo da [!INCLUDE[prodshort](includes/prodshort.md)]. È possibile trovare le possibili cause e risoluzioni di questi problemi di seguito.
+È possibile che si riscontrino problemi quando si prova ad accedere alla fotocamera e alle informazioni sulla posizione di un dispositivo da [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile trovare le possibili cause e risoluzioni di questi problemi di seguito.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Il dispositivo deve avere fotocamera e funzionalità di posizione
 
@@ -29,11 +29,11 @@ Se il dispositivo dispone di fotocamera e funzionalità di posizione, ma si risc
 
 ## <a name="access-permissions-not-enabled"></a>Autorizzazioni di accesso non abilitate
 
-È necessario abilitare l'accesso generale alla fotocamera e alla posizione dalle impostazioni sulla privacy del dispositivo e concedere esplicitamente a [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedervi. Ad esempio, per vedere o modificare le autorizzazioni per un dispositivo in esecuzione su Windows, andare a **Impostazioni**, scegliere **Privacy** e quindi **Autorizzazioni dell'app**. 
+È necessario abilitare l'accesso generale alla fotocamera e alla posizione dalle impostazioni sulla privacy del dispositivo e concedere esplicitamente a [!INCLUDE[prod_short](includes/prod_short.md)] l'autorizzazione ad accedervi. Ad esempio, per vedere o modificare le autorizzazioni per un dispositivo in esecuzione su Windows, andare a **Impostazioni**, scegliere **Privacy** e quindi **Autorizzazioni dell'app**. 
 
-Per i dispositivi mobili, è necessario concedere le autorizzazioni di accesso alla fotocamera e alla posizione all'app mobile [!INCLUDE[prodshort](includes/prodshort.md)]. Per farlo per un dispositivo iOS, andare a **Impostazioni**, scegliere **Privacy** e quindi **Fotocamera** o **Posizione**. Per i dispositivi Android, andare a **Impostazioni**, scegliere **App e notifiche**, **Avanzate**, **Gestione autorizzazioni** e quindi **Fotocamera** o **Posizione**.
+Per i dispositivi mobili, è necessario concedere le autorizzazioni di accesso alla fotocamera e alla posizione all'app mobile [!INCLUDE[prod_short](includes/prod_short.md)]. Per farlo per un dispositivo iOS, andare a **Impostazioni**, scegliere **Privacy** e quindi **Fotocamera** o **Posizione**. Per i dispositivi Android, andare a **Impostazioni**, scegliere **App e notifiche**, **Avanzate**, **Gestione autorizzazioni** e quindi **Fotocamera** o **Posizione**.
 
-Inoltre, se si sta utilizzando [!INCLUDE[prodshort](includes/prodshort.md)] in un browser, è necessario concedere al sito [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedere alla fotocamera o alle informazioni sulla posizione. Per visualizzare o modificare le autorizzazioni di un sito nel browser Microsoft Edge, andare a **Impostazioni**, scegliere **Autorizzazioni sito** e quindi **Fotocamera** o **Posizione**. Da notare che questo potrebbe essere diverso per altri browser.
+Inoltre, se si sta utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] in un browser, è necessario concedere al sito [!INCLUDE[prod_short](includes/prod_short.md)] l'autorizzazione ad accedere alla fotocamera o alle informazioni sulla posizione. Per visualizzare o modificare le autorizzazioni di un sito nel browser Microsoft Edge, andare a **Impostazioni**, scegliere **Autorizzazioni sito** e quindi **Fotocamera** o **Posizione**. Da notare che questo potrebbe essere diverso per altri browser.
 
 Per impostazione predefinita, il dispositivo o il browser visualizzerà una richiesta per accedere a queste funzionalità quando l'utente le attiva per la prima volta.
 
@@ -49,7 +49,7 @@ L'unica eccezione è la connessione a `http://localhost`, utilizzato per scopi d
 
 ## <a name="working-with-virtualization-technologies"></a>Lavorare con le tecnologie di virtualizzazione
 
-Quando ci si collega a [!INCLUDE[prodshort](includes/prodshort.md)] tramite Desktop remoto o un'altra virtualizzazione, l'accesso alla fotocamera o alla posizione potrebbe non essere disponibile. In tal caso, utilizzare invece il sistema fisico.
+Quando ci si collega a [!INCLUDE[prod_short](includes/prod_short.md)] tramite Desktop remoto o un'altra virtualizzazione, l'accesso alla fotocamera o alla posizione potrebbe non essere disponibile. In tal caso, utilizzare invece il sistema fisico.
 
 ## <a name="antivirus-software"></a>Software antivirus
 Alcuni programmi software antivirus bloccano l'accesso alla fotocamera e alla posizione per impostazione predefinita. Ricordare di controllare le impostazioni del software antivirus.

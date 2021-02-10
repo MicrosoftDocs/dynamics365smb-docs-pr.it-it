@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760099"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
-La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La maggior parte delle registrazioni sono basate *Contabilità generale* ed è possibile elaborare tutte le operazioni nella pagina **Contabilità generale**. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni
 Per ogni definizione registrazioni è possibile impostare le proprie registrazioni personali come batch registrazioni. Ad esempio, è possibile definire dei batch registrazioni personali per le registrazioni pagamenti che abbiano delle impostazioni e un layout personali. Di seguito viene fornito un suggerimento come esempio per personalizzare una registrazione.
 
 > [!TIP]  
-> Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella pagina **Batch registrazioni COGE**, il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-let-system-suggest-values.md).
+> Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella pagina **Batch registrazioni COGE**, il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[prod_short](includes/prod_short.md)]](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Per aggiungere o rimuovere campi nelle registrazioni, utilizzare il banner **Personalizzazione**. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Convalida di batch registrazioni COGE
-Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare un controllo in background che avviserà quando si verifica un errore nel giornale di registrazione finanziario su cui si sta lavorando che impedisce la registrazione del giornale. Nella pagina **Batch registrazioni COGE** è possibile scegliere **Controllo degli errori in background** per permettere a [!INCLUDE[d365fin](includes/d365fin_md.md)] di convalidare i giornali finanziari, come le registrazioni COGE o pagamenti, mentre ci si lavora. 
+Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare un controllo in background che avviserà quando si verifica un errore nel giornale di registrazione finanziario su cui si sta lavorando che impedisce la registrazione del giornale. Nella pagina **Batch registrazioni COGE** è possibile scegliere **Controllo degli errori in background** per permettere a [!INCLUDE[prod_short](includes/prod_short.md)] di convalidare i giornali finanziari, come le registrazioni COGE o pagamenti, mentre ci si lavora. 
 
-Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
+Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[prod_short](includes/prod_short.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
 
 È possibile utilizzare le azioni **Mostra righe con problemi** e **Mostra tutte le righe** per alternare tra le righe di registrazione che presentano o non presentano problemi. La nuova scheda dettaglio **Dettagli riga di registrazione** fornisce una rapida panoramica e l'accesso ai dati dalle righe di registrazione, come il conto CoGe, il cliente o il fornitore, nonché all'impostazione di registrazione per conti specifici.     
 
@@ -203,7 +203,7 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Rivalutare il magazzino nelle registrazioni rivalutazioni](inventory-how-revalue-inventory.md)  
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  

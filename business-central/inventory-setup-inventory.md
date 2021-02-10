@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921744"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024564"
 ---
 # <a name="setting-up-inventory"></a>Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
@@ -38,12 +38,14 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |In aggiunta alle schede articolo, registrare le informazioni relative agli articoli in una specifica ubicazione e/o di una specifica variante.|[Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assegnare articoli alle categorie e dare loro attributi per consentire alla propria azienda e ai clienti la ricerca degli articoli. |[Classificare gli articoli](inventory-how-categorize-items.md) |
 |Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
+|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922696"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759344"
 ---
 # <a name="create-routings"></a>Creare cicli
 
@@ -46,8 +46,8 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 9. Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere [Per creare collegamenti ciclo](production-how-to-create-routings.md#to-create-routing-links).
 10. Nei campi **Tempo Lavorazione** e **Tempo di Setup** specificare i tempi di processo necessari per l'esecuzione dell'operazione.
 
-    > [!NOTE]
-    > il tempo di setup viene calcolato per ordine di produzione, mentre il tempo di lavorazione viene calcolato per articolo prodotto.  
+     > [!NOTE]
+     > il tempo di setup viene calcolato per ordine di produzione, mentre il tempo di lavorazione viene calcolato per articolo prodotto.  
 
 11. Nel campo **Capacità simultanee** , specificare il numero di unità della risorsa selezionata da utilizzare per eseguire l'operazione. Ad esempio, se si assegnano due persone a un'operazione di imballaggio si dimezzerà il tempo di lavorazione.  
 12. Continuare a compilare le righe relative a tutte le operazioni previste per la produzione dell'articolo specificato.  
@@ -129,4 +129,4 @@ La validità temporale della versione viene specificata nel campo **Data di Iniz
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

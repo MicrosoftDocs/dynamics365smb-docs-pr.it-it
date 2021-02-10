@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912498"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840255"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -24,7 +24,7 @@ Sono disponibili numerose funzionalità generali che consentono di immettere dat
 Gli esempi in questo articolo utilizzano dati di esempio.
 
 ## <a name="working-with-editable-fields"></a>Utilizzo dei campi modificabili
-I campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] possono contenere diversi dati modificabili, ad esempio importi in valuta o testo. I campi modificabili in genere mostrano una casella di input in cui è possibile digitare o scegliere un valore. I campi non modificabili sono in genere visualizzati con uno sfondo grigio.   
+I campi in [!INCLUDE[prod_short](includes/prod_short.md)] possono contenere diversi dati modificabili, ad esempio importi in valuta o testo. I campi modificabili in genere mostrano una casella di input in cui è possibile digitare o scegliere un valore. I campi non modificabili sono in genere visualizzati con uno sfondo grigio.   
 
 Alcuni campi modificabili forniscono un selettore per consentire di specificare un valore.  
 
@@ -44,7 +44,7 @@ Per modificare il valore di un campo, è necessario innanzitutto impostare lo st
 - Utilizzare il tasto **TAB**. L'azione seleziona l'intero valore.
 - Fare clic con il tasto sinistro del mouse o dispositivo di input simile. Questa azione selezionerà l'intero valore di campo solo se il campo è in un elenco.  
 
-Quando si interagisce con i campi nell'interfaccia utente, [!INCLUDE[d365fin](includes/d365fin_md.md)] in genere favorisce la selezione dell'intero valore di campo per semplificare la sostituzione di tale valore.
+Quando si interagisce con i campi nell'interfaccia utente, [!INCLUDE[prod_short](includes/prod_short.md)] in genere favorisce la selezione dell'intero valore di campo per semplificare la sostituzione di tale valore.
 
 Quando viene selezionato l'intero valore di campo:
 - Sostituire il valore semplicemente digitando per specificare un nuovo valore. Se il campo offre un selettore, è possibile attivarlo utilizzando i tasti di scelta rapida **ALT+freccia GIÙ**.
@@ -85,7 +85,7 @@ L'elenco di seguito fornisce alcune informazioni utili sull'utilizzo di Accesso 
 - È disponibile per qualsiasi campo modificabile.
 - Funziona anche con colonne e righe.
 - Non impedisce l'accesso ad altri elementi di una pagina, ad esempio le azioni. Questi elementi sono sempre accessibili utilizzando TAB e MAIUSC+TAB.  
-- Non è necessario che le Schede dettaglio siano espanse affinché Accesso rapido funzioni. Se il campo Accesso rapido successivo si trova in una Scheda dettaglio compressa, quella scheda verrà espansa automaticamente e lo stato attivo sarà sul campo scelto. [!INCLUDE[d365fin](includes/d365fin_md.md)] ricorderà che la Scheda dettaglio dovrebbe essere espansa alla successiva visita della pagina.  
+- Non è necessario che le Schede dettaglio siano espanse affinché Accesso rapido funzioni. Se il campo Accesso rapido successivo si trova in una Scheda dettaglio compressa, quella scheda verrà espansa automaticamente e lo stato attivo sarà sul campo scelto. [!INCLUDE[prod_short](includes/prod_short.md)] ricorderà che la Scheda dettaglio dovrebbe essere espansa alla successiva visita della pagina.  
 - Il funzionamento di Accesso rapido è indipendente dal fatto che i campi siano obbligatori o meno. È quindi opportuno assicurarsi che i campi obbligatori siano inclusi in Accesso rapido.
 - Per impostazione predefinita, la maggior parte dei campi vengono automaticamente inclusi in Accesso rapido. Quindi inizialmente la task escluderà probabilmente i campi da Accesso rapido.
 
@@ -120,7 +120,7 @@ Anche se il campo è obbligatorio, non è obbligatorio compilarlo prima di conti
 
 In un elenco, per copiare il campo nella stessa colonna della riga precedente e incollarlo nella riga corrente, premere F8.
 
-Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di copia e incolla](ui-copy-paste.md).
+Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtri delle voci
 
@@ -162,7 +162,7 @@ Per aprire la scheda o il documento corrente in una nuova finestra, selezionare 
 > Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo stesso può accadere in altri browser, come Firefox. Per ulteriori informazioni, vedere [Impostazioni di blocco popup in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Un altro modo per eseguire il multitasking è aprire [!INCLUDE[d365fin](includes/d365fin_md.md)] su due o più schede del browser. Quando si esegue questa operazione, è necessario creare una nuova scheda e quindi copiare/incollare l'URL della scheda originale nella nuova scheda. Questo crea una nuova sessione.   
+Un altro modo per eseguire il multitasking è aprire [!INCLUDE[prod_short](includes/prod_short.md)] su due o più schede del browser. Quando si esegue questa operazione, è necessario creare una nuova scheda e quindi copiare/incollare l'URL della scheda originale nella nuova scheda. Questo crea una nuova sessione.   
 
 > [!NOTE]
 > Non utilizzare la funzione **Duplica** del browser per creare la nuova scheda in quanto le azioni su una scheda potrebbero bloccare le azioni su altre schede perché fanno parte della stessa sessione.
@@ -294,4 +294,4 @@ Di seguito vengono forniti alcuni esempi.
 
 ## <a name="see-also"></a>Vedere anche  
  [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

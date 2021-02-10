@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911923"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759944"
 ---
 # <a name="ship-items"></a>Spedire articoli
 
@@ -38,7 +38,7 @@ Di seguito viene descritto come spedire gli articoli da un ordine di vendita. I 
 4. Scegliere l'azione **Registra**.
 
 > [!NOTE]
-> Se l'organizzazione non utilizza gli ordini di vendita quando si registra la fattura di vendita, [!INCLUDE [prodshort](includes/prodshort.md)] presume che l'intero quantitativo sia stato spedito. Se ciò è in contraddizione con il funzionamento dell'organizzazione, si consiglia di utilizzare gli ordini di vendita e registrare le spedizioni come spiegato in questo articolo.
+> Se l'organizzazione non utilizza gli ordini di vendita quando si registra la fattura di vendita, [!INCLUDE [prod_short](includes/prod_short.md)] presume che l'intero quantitativo sia stato spedito. Se ciò è in contraddizione con il funzionamento dell'organizzazione, si consiglia di utilizzare gli ordini di vendita e registrare le spedizioni come spiegato in questo articolo.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Per spedire gli articoli con una spedizione warehouse
 
@@ -46,7 +46,7 @@ Innanzitutto, creare un documento di spedizione da un documento di origine azien
 
 ### <a name="to-create-a-warehouse-shipment"></a>Per creare una spedizione warehouse
 
-In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse. La seguente procedura descrive come creare manualmente la spedizione nella versione predefinita di [!INCLUDE[prodshort](includes/prodshort.md)], ma l'organizzazione potrebbe avere una parte automatizzata del processo, ad esempio con l'uso di scanner portatili o montati supportati da provider esterni.  
+In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse. La seguente procedura descrive come creare manualmente la spedizione nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)], ma l'organizzazione potrebbe avere una parte automatizzata del processo, ad esempio con l'uso di scanner portatili o montati supportati da provider esterni.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni warehouse** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -105,7 +105,7 @@ Per ulteriori informazioni sul prelievo per spedizioni warehouse, vedere [Prelev
 È anche possibile utilizzare il prospetto prelievi per combinare diverse istruzioni di prelievo in un'unica istruzione (per più spedizioni) e ottimizzare in tal modo le operazioni di prelievo nella warehouse. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Se si sta attendendo l'arrivo di determinati articoli nella warehouse e si utilizza la funzionalità di cross-dock, per ciascuna riga di spedizione o del prospetto prelievi in [!INCLUDE[d365fin](includes/d365fin_md.md)] verrà calcolata la quantità dell'articolo disponibile nella collocazione di cross-dock. Tale valore viene aggiornato ogni volta che si apre e si chiude il prospetto o il documento di spedizione. Per ulteriori informazioni, vedere [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
+> Se si sta attendendo l'arrivo di determinati articoli nella warehouse e si utilizza la funzionalità di cross-dock, per ciascuna riga di spedizione o del prospetto prelievi in [!INCLUDE[prod_short](includes/prod_short.md)] verrà calcolata la quantità dell'articolo disponibile nella collocazione di cross-dock. Tale valore viene aggiornato ogni volta che si apre e si chiude il prospetto o il documento di spedizione. Per ulteriori informazioni, vedere [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Vedi anche
 
@@ -114,4 +114,4 @@ Per ulteriori informazioni sul prelievo per spedizioni warehouse, vedere [Prelev
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

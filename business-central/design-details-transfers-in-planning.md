@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920899"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035583"
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse, le società potrebbero avere una catena di trasferimenti in cui l'approvvigionamento all'ubicazione VERDE viene trasferito da GIALLO e l'approvvigionamento a GIALLO viene trasferito da ROSSO e così via. All'inizio della catena, è presente un sistema di rifornimento di Ordine di produzione o di acquisto.  
 
 ![Esempio di flusso di trasferimento](media/nav_app_supply_planning_7_transfers1.png "Esempio di flusso di trasferimento")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Confrontando la situazione in cui un ordine di approvvigionamento è direttamente rivolto a un ordine della domanda con una situazione in cui l'ordine di vendita viene rifornito tramite una catena di trasferimenti USK, è ovvio che l'attività di pianificazione nella seconda situazione può diventare molto complessa. Se la domanda cambia, potrebbe causare un effetto onda lungo la catena, in quanto tutti gli ordini di trasferimento più l'ordine di acquisto/produzione all'altro estremo della catena dovrebbero essere manipolati per ristabilire l'equilibrio tra domanda e approvvigionamento.  
 

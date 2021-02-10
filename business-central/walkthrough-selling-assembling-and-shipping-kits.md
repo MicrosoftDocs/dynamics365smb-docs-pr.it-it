@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918415"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035508"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -37,7 +37,7 @@ Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e d
 -   Creazione di una DB di assemblaggio che elenca i componenti di assemblaggio e le risorse che costituiscono un articolo di assemblaggio.  
 
 ### <a name="selling-customized-assembly-items"></a>Vendita di articoli di assemblaggio personalizzati  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
+[!INCLUDE[prod_short](includes/prod_short.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
 
 -   Creazione di una riga di ordine di vendita pura di ATO in cui la quantità completa non è disponibile e deve essere assemblata prima della spedizione.  
 -   Personalizzazione degli articoli di ATO.  
@@ -79,13 +79,16 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 ## <a name="prerequisites"></a>Prerequisiti  
 Prima di svolgere le attività di questa procedura dettagliata, è necessario:  
 
--   Installare [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   È possibile diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Selezionare il campo **Default**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Preparare l'ubicazione BIANCA per l'elaborazione dell'assemblaggio effettuando i seguenti passaggi:  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f03bb162bc73d45068579a20bcdd90f632ede9de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 76d4b69de41343815175a7acd4329bb47b889f5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922746"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759369"
 ---
 # <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
 Gli ordini di produzione possono essere creati manualmente. Prima di tutto Ã¨ necessario creare la testata ordine di produzione.
@@ -42,4 +42,4 @@ Quando i requisiti di produzione cambiano, ad esempio componenti o operazioni, Ã
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87646a26a3cd962478fe36082b76c2843a620570
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911057"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035458"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni
 Il sistema di impegno è completo e include funzionalità correlate e parallele di tracciabilità ordine e di messaggistica di azione.  
@@ -29,10 +29,13 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 
  Il sistema di impegno costituisce anche la base strutturale del sistema di tracciabilità articolo. Per ulteriori informazioni, vedere [Dettagli del nuovo ciclo: Tracciabilità articolo](design-details-item-tracking.md).  
 
- Per informazioni più dettagliate su come funziona il sistema di impegno, vedere il white paper "Tabella di movimento impegni" in [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Impegno  
- Un impegno è collegamento confermato che connette tra loro una domanda specifica e un'offerta specifica. Questo collegamento influisce direttamente sulla transazione di magazzino successiva e garantisce il collegamento appropriato dei movimenti articoli a scopo di costing. Un impegno sostituisce il metodo di costing predefinito di un articolo. Per ulteriori informazioni, vedere "Dettagli del nuovo ciclo: Metodi di costing".  
+ Un impegno è collegamento confermato che connette tra loro una domanda specifica e un'offerta specifica. Questo collegamento influisce direttamente sulla transazione di magazzino successiva e garantisce il collegamento appropriato dei movimenti articoli a scopo di costing. Un impegno sostituisce il metodo di costing predefinito di un articolo. Per ulteriori informazioni, vedere [Dettagli del nuovo ciclo: Tracciabilità articolo](design-details-item-tracking.md).  
 
  È possibile accedere alla pagina **Impegno** da tutte le righe ordine della domanda e dell'approvvigionamento. In questa pagina l'utente può specificare per quale movimento di domanda o di approvvigionamento creare un collegamento di impegno. L'impegno è costituito da una coppia di record che condividono lo stesso numero di movimento. Un record ha un segno negativo e punta alla domanda. L'altro record ha un segno positivo e punta all'approvvigionamento. Questi record sono memorizzati nella tabella **Movimenti impegni** con valore di stato **Impegno**. L'utente può visualizzare tutti gli impegni nella pagina **Mov. impegni**.  
 
@@ -123,19 +126,19 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 
  Presupporre che i seguenti dati per due articoli siano impostati per la tracciabilità dell'ordine.  
 
-|Articolo 1|Name|“Componente”|
+|Articolo 1|Name|"Componente"|
 |-|-|-|
-||Disponibilità|100 unità nell'ubicazione ROSSA<br /><br />- 30 unità di LOTA<br />- 70 unità di LOTB|  
+||Disponibilità|100 unità nell'ubicazione OVEST<br /><br />- 30 unità di LOTA<br />- 70 unità di LOTB|  
 |Articolo 2|Name|"Articolo prodotto"|
-||DB produzione|1 qtà. di "Componente"|  
-||Domanda|Vendita di 100 unità presso l'ubicazione BLU|  
+||DB produzione|1 quantità di "Componente"|  
+||Domanda|Vendita di 100 unità presso l'ubicazione EST|  
 ||Approvvigionamento|Ordine di produzione rilasciato (generato mediante la funzione **Pianifica ordine vendita** per la vendita di 100 unità)|  
 
 Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è impostato su **ROSSO**.
 
  I seguenti movimenti di tracciabilità ordini sono disponibili nella tabella **Movimenti impegni** in base ai dati nella tabella.  
 
- ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Primo esempio di movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numeri di movimento 8 e 9  
  Per la necessità del componente LOTA e LOTB rispettivamente, i collegamenti di tracciabilità ordine vengono creati dalla domanda nella tabella 5407, **Componenti ordini produzione**, all'approvvigionamento nella tabella 32, **Mov. contabili articoli**. Il campo **Stato impegno** contiene **Tracciabilità** per indicare che questi movimenti sono collegamenti tracciabilità ordine dinamici tra approvvigionamento e domanda.  
@@ -146,14 +149,14 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 ### <a name="entry-numbers-10"></a>Numeri di movimento 10  
  Dalla domanda di vendita nella tabella 37, **Righe vendite**, un collegamento di tracciabilità ordine viene creato nell'approvvigionamento nella tabella 5406, **Righe ordini prod.**. Il campo **Stato impegno** contiene **Impegno** e il campo **Vincolato** contiene **Ordine su ordine**. Questo perché l'ordine di produzione rilasciato è stato generato specificamente per l'ordine di vendita e deve rimanere collegato a differenza dei collegamenti di tracciabilità ordine con uno stato di impegno **Tracciabilità**, che vengono creati e modificati in modo dinamico. Per ulteriori informazioni, vedere la sezione "Prenotazioni automatiche" in questo argomento.  
 
- A questo punto nello scenario, le 100 unità di LOTA e LOTB vengono trasferite nell'ubicazione BLU da un ordine di trasferimento.  
+ A questo punto nello scenario, le 100 unità di LOTA e LOTB vengono trasferite nell'ubicazione EST da un ordine di trasferimento.  
 
 > [!NOTE]  
 >  Solo la spedizione dell'ordine di trasferimento viene registrata in questa fase, non il carico.  
 
  Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
 
- ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Secondo esempio di movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numeri di movimento 8 e 9  
  I movimenti di tracciabilità ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificati dallo stato di impegno di **Tracciabilità** a **Surplus**. Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento.  
@@ -163,22 +166,22 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 ### <a name="entry-numbers-12-to-16"></a>Numeri di movimento da 12 a 16  
  Poiché i due lotti del componente vengono registrati nell'ordine di trasferimento come spediti ma non ricevuti, tutti i movimenti di tracciabilità ordine positivi correlati sono del tipo di impegno **Surplus**, indicando che non sono allocati ad alcuna domanda. Per ciascun numero di lotto, un movimento si riferisce alla tabella 5741, **Riga trasferimento** e un movimento si riferisce all'ubicazione in transito in cui gli articoli ora esistono.  
 
- A questo punto nello scenario, l'ordine di trasferimento dei componenti dall'ubicazione BLU a ROSSO viene registrato come ricevuto.  
+ A questo punto nello scenario, l'ordine di trasferimento dei componenti dall'ubicazione EST a OVEST viene registrato come ricevuto.  
 
  Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
 
- ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Terzo esempio di movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- I movimenti di tracciabilità ordine sono ora simili al primo punto dello scenario, prima che l'ordine di trasferimento fosse registrato come solo spedito, eccetto i movimenti per il componente che ora hanno lo stato di impegno **Surplus**. Ciò avviene in quanto i componenti necessari sono ancora nell'ubicazione ROSSO, come indicato dal fatto che il campo **Codice ubicazione** nella riga del componente dell'ordine di produzione contiene **ROSSO** come impostato nel campo di setup **Componenti nell'ubicazione**. L'approvvigionamento che prima era allocato a questa domanda è stato trasferito nell'ubicazione BLU e ora non può essere tracciato completamente a meno che la necessità di componenti nella riga ordine di produzione non venga modificata nell'ubicazione BLU.  
+ I movimenti di tracciabilità ordine sono ora simili al primo punto dello scenario, prima che l'ordine di trasferimento fosse registrato come solo spedito, eccetto i movimenti per il componente che ora hanno lo stato di impegno **Surplus**. Ciò avviene in quanto i componenti necessari sono ancora nell'ubicazione OVEST, come indicato dal fatto che il campo **Codice ubicazione** nella riga del componente dell'ordine di produzione contiene **OVEST** come impostato nel campo di setup **Componenti nell'ubicazione**. L'approvvigionamento che prima era allocato a questa domanda è stato trasferito nell'ubicazione EST e ora non può essere tracciato completamente a meno che la necessità di componenti nella riga ordine di produzione non venga modificata nell'ubicazione EST.  
 
- A questo punto dello scenario, il **Cod. ubicazione** nella riga ordine di produzione è impostato su **BLU**. Inoltre, nella pagina **Righe tracciabilità articolo**, le 30 unità di LOTA e le 70 unità di LOTB vengono assegnate alla riga dell'ordine di produzione.  
+ A questo punto dello scenario, il **Cod. ubicazione** nella riga ordine di produzione è impostato su **EST**. Inoltre, nella pagina **Righe tracciabilità articolo**, le 30 unità di LOTA e le 70 unità di LOTB vengono assegnate alla riga dell'ordine di produzione.  
 
  Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
 
- ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Quarto esempio di movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Numeri di movimento 21 e 22  
- Poiché la necessità di componenti è stata modificata nell'ubicazione BLU e l'approvvigionamento è disponibile come movimenti contabili articoli nell'ubicazione BLU, tutti i movimenti di tracciabilità ordine per i due numeri di lotto sono ora completamente tracciati, indicati dallo stato di impegno **Tracciabilità**.  
+ Poiché la necessità di componenti è stata modificata nell'ubicazione EST e l'approvvigionamento è disponibile come movimenti contabili articoli nell'ubicazione EST, tutti i movimenti di tracciabilità ordine per i due numeri di lotto sono ora completamente tracciati, indicati dallo stato di impegno **Tracciabilità**.  
 
  Il campo **Nr. lotto** è ora compilato nel movimento tracciabilità ordine per la tabella 5407, poiché erano stati assegnati i numeri di lotto alle righe componente dell'ordine di produzione.  
 

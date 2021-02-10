@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920222"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024389"
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
 La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.  
@@ -40,10 +40,11 @@ La strategia di distribuzione di una società si riflette in una configurazione 
 |Impostare la warehouse in modo che venga automaticamente suggerito il prelievo degli articoli che scadono prima.|[Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)|
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
 |Integrare lettori di codici a barre alla soluzione di gestione warehouse. Solo per la distribuzione locale.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914837"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760106"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
-Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte importante dell'impostazione di una campagna è la selezione del target. A questo scopo, in [!INCLUDE[d365fin](includes/d365fin_md.md)] si crea un segmento, o gruppo di contatti, utilizzando dei filtri.  
+Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte importante dell'impostazione di una campagna è la selezione del target. A questo scopo, in [!INCLUDE[prod_short](includes/prod_short.md)] si crea un segmento, o gruppo di contatti, utilizzando dei filtri.  
 
  Utilizzare queste funzionalità di Vendite e marketing per pianificare attentamente le attività di marketing e gestire le interazioni con i contatti e i clienti. È possibile creare campagne e impostare segmenti di contatti per il mailing e altri tipi di interazioni con contatti e clienti potenziali.  
 
@@ -42,7 +42,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 -   Impiegato di marketing  
 
 ## <a name="prerequisites"></a>Prerequisiti  
- Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Scenario  
  Il manager marketing del reparto vendite di CRONUS ha il compito di pianificare le campagne e di attuarle. Decide anche a quali fiere di settore partecipare e valuta il progresso della campagna.  
@@ -198,4 +198,4 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 ## <a name="see-also"></a>Vedi anche  
 [Gestione delle relazioni](marketing-relationship-management.md)  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

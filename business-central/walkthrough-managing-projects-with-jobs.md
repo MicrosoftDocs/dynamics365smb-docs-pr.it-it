@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923297"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760069"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
@@ -68,7 +68,7 @@ In questa procedura dettagliata vengono presentate le funzionalità di gestione 
 -   Creare dati di esempio seguendo la procedura descritta nella sezione seguente.  
 
 ## <a name="story"></a>Scenario  
-Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un manager di progetto in CRONUS. Utilizza le commesse per avere una panoramica di ciascuna commessa in corso avviata da CRONUS, nonché delle commesse completate. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base della commessa, cioè righe di task e di pianificazione e prezzi, in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[d365fin](includes/d365fin_md.md)] consente la copia delle commesse e i pagamenti rateali.
+Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un manager di progetto in CRONUS. Utilizza le commesse per avere una panoramica di ciascuna commessa in corso avviata da CRONUS, nonché delle commesse completate. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base della commessa, cioè righe di task e di pianificazione e prezzi, in [!INCLUDE[prod_short](includes/prod_short.md)]. Trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[prod_short](includes/prod_short.md)] consente la copia delle commesse e i pagamenti rateali.
 
  Cinzia Di Marco fa parte del team alle dirette dipendenze di Alboni ed è responsabile del monitoraggio quotidiano della commessa. Immettere il proprio lavoro oltre al lavoro eseguito dai tecnici in ogni task. Registra gli articoli che sono stati utilizzati e altri costi sostenuti.  
 
@@ -480,7 +480,7 @@ Confrontando prezzi, righe task commessa e righe di pianificazione per le due co
 3.  Scegliere l'azione **Ottieni nota credito/fattura vendita**. Nella fattura di vendita è possibile visualizzare che nella fattura è incluso solo il primo acconto. È ora possibile inviarla al cliente come concordato.  
 
 ## <a name="next-steps"></a>Passaggi successivi  
- In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione delle commesse in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si è appreso come creare una nuova commessa, come copiare una commessa e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
+ In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione delle commesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Si è appreso come creare una nuova commessa, come copiare una commessa e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Confrontando prezzi, righe task commessa e righe di pianificazione per le due co
  [Utilizzare le risorse](projects-how-use-resources.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)   
  [Fatturazione di commesse](projects-how-invoice-jobs.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
