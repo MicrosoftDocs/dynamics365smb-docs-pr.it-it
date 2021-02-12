@@ -1,7 +1,6 @@
 ---
-title: Utilizzo di Business Central senza Outlook | Documenti di Microsoft
-description: È possibile utilizzare Business Central come Posta in arrivo aziendale in Outlook perché è possibile integrarlo con Microsoft 365; tuttavia, è anche possibile non utilizzare Outlook e usare invece un browser o il dispositivo mobile.
-documentationcenter: ''
+title: Utilizzo di Business Central senza Outlook
+description: Se non hai Outlook, non puoi utilizzare Business Central come Posta in arrivo aziendale in Outlook ma puoi utilizzare un browser o il dispositivo mobile.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,18 +10,18 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40e2130c1142c29b01ba3ba8b04598fabe9feb3e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 273db30e18628d5114d7bad3f498e574e74a407e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927099"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068334"
 ---
 # <a name="using-business-central-without-outlook"></a>Utilizzo di Business Central senza Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] prevede un'integrazione completa con Microsoft 365 ed è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] come posta in arrivo aziendale in Outlook. Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] nel browser o nel dispositivo mobile.  
+[!INCLUDE[prod_short](includes/prod_short.md)] prevede un'integrazione completa con Microsoft 365 ed è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come posta in arrivo aziendale in Outlook. Se non si dispone di Outlook, è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] nel browser o nel dispositivo mobile.  
 
 ## <a name="sending-email"></a>Invio di e-mail
-È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale. Dalla Gestione ruolo utente, è possibile accedere alla guida di setup assistito che consente di impostare la posta elettronica. Se non si utilizza un account di posta elettronica di Microsoft 365, è necessario specificare le informazioni tecniche sul server di posta elettronica. Se non si dispone di questa informazione, contattare lo staff di supporto IT.  
+È possibile inviare i documenti quali fatture tramite posta elettronica utilizzando il proprio indirizzo e-mail aziendale. Dalla Gestione ruolo utente, è possibile accedere alla guida di setup assistito che consente di configurare la posta elettronica. Se non si utilizza un account di posta elettronica di Microsoft 365, è necessario specificare le informazioni tecniche sul server di posta elettronica. Se non si dispone di questa informazione, contattare lo staff di supporto IT.  
 
 
 ## <a name="see-also"></a>Vedi anche

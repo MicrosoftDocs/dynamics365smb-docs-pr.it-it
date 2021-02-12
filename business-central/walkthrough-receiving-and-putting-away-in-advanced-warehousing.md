@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 88255d775b52aef089431fd3125a899ffafa3747
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918390"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035658"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -44,6 +44,8 @@ In questa procedura dettagliata sono illustrati i task seguenti.
 -   Creazione e registrazione di un documento di carico warehouse per più righe di ordini di acquisto da fornitori specifici.  
 -   Registrazione dello stoccaggio warehouse per gli articoli ricevuti.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 ## <a name="roles"></a>Ruoli  
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 

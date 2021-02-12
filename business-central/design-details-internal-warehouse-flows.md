@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911032"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035733"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
 Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
@@ -90,7 +90,7 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consuntivazione componenti di produzione nel magazzino  
  Se impostati in una scheda articolo, i componenti prelevati con prelievi warehouse vengono registrati come consumati dall'ordine di produzione durante la registrazione del prelievo warehouse. Utilizzando il metodo **Prelievo+Aut.Inizio** e il metodo di flushing **Prelievo+Aut.Fine** la registrazione del prelievo attiva la registrazione del consumo correlata quando inizia la prima operazione o quando termina l'ultima operazione, rispettivamente.  
 
- Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Esiste un ordine di produzione per 15 PZ dell'articolo LS-100. Alcuni degli articoli nell'elenco dei componenti devono essere consuntivati manualmente in una registrazione di consumo, mentre altri articoli dell'elenco possono essere prelevati e consuntivati automaticamente utilizzando il metodo di consuntivazione **Prelievo+Aut.Fine**.  
 

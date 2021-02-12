@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918465"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035633"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
@@ -38,10 +38,10 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 -   Gestore degli ordini di vendita  
 
 ## <a name="prerequisites"></a>Prerequisiti  
- Prima di iniziare questa procedura dettagliata, occorre installare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le seguenti modifiche devono essere apportate al database:  
+ Prima di iniziare questa procedura dettagliata, occorre installare [!INCLUDE[prod_short](includes/prod_short.md)]. Le seguenti modifiche devono essere apportate al database:  
 
 -   Eliminare tutti gli ordini di biciclette esistenti  
--   Creare un ordine di vendita per 10 biciclette per l'ubicazione BLU  
+-   Creare un ordine di vendita per 10 biciclette per l'ubicazione EST.  
 -   Eliminare tutti gli ordini di produzione confermati e pianificati. Non eliminare gli ordini avviati con movimenti già registrati.  
 
  Come regola generale, si raccomanda di utilizzare i dati suggeriti nella procedura perché dispongono dei record necessari.  
@@ -148,7 +148,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 4.  Fare clic su **OK** per prenotare i dieci articoli disponibili.  
 
     > [!NOTE]  
-    >  Nella riga di domanda, l'acquisto suggerito è stato sostituito con un trasferimento dall'ubicazione VERDE. La funzione **Crea ordini** genera un ordine di trasferimento dall'ubicazione VERDE all'ubicazione richiesta. Il campo **Esistono sostitutivi** funziona nello stesso modo.  
+    >  Nella riga di domanda, l'acquisto suggerito è stato sostituito con un trasferimento dall'ubicazione PRINCIPALE. La funzione **Crea ordini** genera un ordine di trasferimento dall'ubicazione PRINCIPALE all'ubicazione richiesta. Il campo **Esistono sostitutivi** funziona nello stesso modo.  
 
 5.  Scegliere l'azione **Crea ordini**. Viene visualizzata la pagina **Crea ordini approvvigionamento**.  
 6.  Nella Scheda dettaglio **Pianificazione ordini**, nel campo **Crea ordini per**, selezionare l'opzione **Ordine attivo**.  

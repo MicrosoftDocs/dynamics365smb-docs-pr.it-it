@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918490"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035758"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Prelievi|Spedizioni|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in uscita per il prel
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md).  
 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
@@ -46,6 +49,9 @@ In questa procedura dettagliata sono illustrati i task seguenti:
 - Creazione di un prelievo di magazzino in base al documento origine rilasciato.  
 - Registrazione della movimentazione warehouse dalla warehouse e registrazione contemporanea della spedizione vendita per l'ordine di vendita di origine.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Ruoli
 
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
@@ -58,7 +64,7 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 
 Per completare questa procedura dettagliata, sarà necessario:  
 
-- Per [!INCLUDE[prodshort](includes/prodshort.md)] online, una società basata sull'opzione **Valutazione avanzata - Dati di esempio completi** in un ambiente sandbox. Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, CRONUS International Ltd. installato.  
+- Per [!INCLUDE[prod_short](includes/prod_short.md)] online, una società basata sull'opzione **Valutazione avanzata - Dati di esempio completi** in un ambiente sandbox. Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, CRONUS International Ltd. installato.  
 - Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
   1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
@@ -143,4 +149,4 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

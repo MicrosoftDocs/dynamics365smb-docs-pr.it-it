@@ -1,6 +1,6 @@
 ---
-title: Assegnazione e gestione di task | Documenti Microsoft
-description: Ottenere informazioni su come assegnare task agli utenti, incluso il proprio contabile, in Business Central.
+title: Assegnazione e gestione di task
+description: Scopri come assegnare task agli utenti, incluso il tuo contabile, in Business Central e come selezionare e completare le attività.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922619"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068384"
 ---
 # <a name="define-user-tasks"></a>Definisci task dell'utente
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], è possibile creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.  
 
 ## <a name="managing-user-tasks"></a>Gestione dei task degli utenti
 
-La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegnare facilmente nuovi task. Quando si crea un task, è possibile specificare la data di inizio e di fine e aggiungere un collegamento alla pagina o al report in [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui l'utente deve svolgere l'attività.  
+La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegnare facilmente nuovi task. Quando si crea un task, è possibile specificare la data di inizio e di fine e aggiungere un collegamento alla pagina o al report in [!INCLUDE[prod_short](includes/prod_short.md)] in cui l'utente deve svolgere l'attività.  
 
 Ad esempio, è possibile creare un task per se stessi o un collaboratore per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, **Fatture di vendita registrate**. Nello screenshot seguente, qualcuno sta creando un'attività per MeganB per rivedere le fatture di vendita registrate.  
 
@@ -47,4 +47,4 @@ Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzar
 ## <a name="see-also"></a>Vedi anche
 
 [Ricerca di una pagina o di un report](ui-search.md)  
-[Esperienze di contabile in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Esperienze di contabile in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

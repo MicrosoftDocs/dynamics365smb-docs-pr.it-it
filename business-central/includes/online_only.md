@@ -1,0 +1,1 @@
+> **APPLICABILE A:** Business Central Online
