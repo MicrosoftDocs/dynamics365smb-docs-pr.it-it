@@ -219,3 +219,6 @@ La funzionalità dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

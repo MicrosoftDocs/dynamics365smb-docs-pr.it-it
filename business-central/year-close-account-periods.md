@@ -42,3 +42,6 @@ Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e tra
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

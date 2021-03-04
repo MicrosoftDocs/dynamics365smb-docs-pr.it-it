@@ -68,3 +68,6 @@ La funzionalità delle informazioni è stata mostrata a una serie di parti inter
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di Business Central](ui-work-product.md)  
 [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

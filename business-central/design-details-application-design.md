@@ -40,3 +40,6 @@ Questo argomento contiene informazioni tecniche dettagliate su funzionalità del
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
  ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

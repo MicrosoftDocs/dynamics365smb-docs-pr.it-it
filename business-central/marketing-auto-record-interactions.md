@@ -34,3 +34,6 @@ Per aprire la pagina **Setup modello interazione**, scegliere l'icona a forma di
 ## <a name="see-also"></a>Vedere anche
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

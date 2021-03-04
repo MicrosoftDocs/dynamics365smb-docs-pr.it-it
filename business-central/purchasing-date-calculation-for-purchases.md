@@ -60,3 +60,6 @@ Tuttavia, il valore del lead time sulla scheda fornitore viene utilizzato solo s
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

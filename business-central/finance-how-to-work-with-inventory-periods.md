@@ -69,3 +69,6 @@ Dopo aver chiuso una volta il periodo di magazzino, non è più possibile elimin
 [Finanze](finance.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Quando il pagamento elettronico viene elaborato correttamente dalla banca, regis
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

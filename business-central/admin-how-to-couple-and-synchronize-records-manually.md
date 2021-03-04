@@ -59,3 +59,6 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 
 ## <a name="see-also"></a>Vedere anche  
 [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

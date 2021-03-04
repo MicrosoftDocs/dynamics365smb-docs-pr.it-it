@@ -295,3 +295,6 @@ Di seguito vengono forniti alcuni esempi.
 ## <a name="see-also"></a>Vedere anche  
  [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

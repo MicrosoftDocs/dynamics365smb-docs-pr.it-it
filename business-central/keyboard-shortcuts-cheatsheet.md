@@ -59,3 +59,6 @@ ms.locfileid: "3921719"
 > Per una versione grafica facile da stampare, scegliere l'immagine seguente e scaricare il file PDF.
 >
 > [![Icona che apre un PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

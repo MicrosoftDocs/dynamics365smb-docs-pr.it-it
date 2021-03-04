@@ -34,3 +34,6 @@ Quando si installa l'estensione in [!INCLUDE [prod_short](includes/prod_short.md
 [Gestire il lavoro tra più aziende nell'hub aziendale](company-hub.md)  
 [Esperienze contabile in Business Central](finance-accounting.md)  
 [Finanze](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

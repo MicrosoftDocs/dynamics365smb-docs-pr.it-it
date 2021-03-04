@@ -35,3 +35,6 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti 
 [Chiusura dei registri](year-close-books.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Procedura: Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

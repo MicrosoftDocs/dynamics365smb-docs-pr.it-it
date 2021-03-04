@@ -52,3 +52,6 @@ Nella pagina **Segmenti registrati**, è possibile decidere di creare un segment
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

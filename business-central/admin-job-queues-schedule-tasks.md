@@ -93,3 +93,6 @@ Per ulteriori informazioni, vedere [Per configurare la registrazione background 
 [Impostazione di Business Central](setup.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

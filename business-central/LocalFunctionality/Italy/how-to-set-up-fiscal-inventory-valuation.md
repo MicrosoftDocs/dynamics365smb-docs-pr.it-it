@@ -43,3 +43,6 @@ Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metod
 
 ## <a name="see-also"></a>Vedere anche  
  [Valutazione magazzino fiscale](fiscal-inventory-valuation.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

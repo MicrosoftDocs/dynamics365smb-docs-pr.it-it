@@ -41,3 +41,6 @@ La gestione dei costi di magazzino include la registrazione e il reporting dei c
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)    
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

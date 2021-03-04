@@ -40,3 +40,6 @@ ms.locfileid: "3915837"
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

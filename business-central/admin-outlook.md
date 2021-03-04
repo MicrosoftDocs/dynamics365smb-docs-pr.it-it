@@ -82,3 +82,6 @@ I componenti aggiuntivi sono progettati per l'uso con Microsoft 365. Se si utili
 [Acquisti](purchasing-manage-purchasing.md)  
 [Requisiti minimi per Outlook](product-requirements.md#outlook)  
 [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

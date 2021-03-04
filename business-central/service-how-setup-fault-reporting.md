@@ -47,3 +47,6 @@ Per completare l'impostazione del reporting dei guasti, è anche possibile speci
 ## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

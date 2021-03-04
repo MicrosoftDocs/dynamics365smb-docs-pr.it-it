@@ -41,3 +41,6 @@ Nella procedura riportata di seguito viene descritto come limitare la registrazi
 ## <a name="see-also"></a>Vedere anche  
 [Creare i workflow](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

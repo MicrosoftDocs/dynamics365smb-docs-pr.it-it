@@ -60,3 +60,6 @@ Per ulteriori informazioni sulla numerazione, vedere [Creazione di numeri](ui-cr
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

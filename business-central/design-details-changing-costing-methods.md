@@ -182,3 +182,6 @@ Si consiglia quanto segue:
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Sintesi](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

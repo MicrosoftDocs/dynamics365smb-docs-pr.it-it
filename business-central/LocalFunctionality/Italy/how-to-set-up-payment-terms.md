@@ -47,3 +47,6 @@ Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti
 [Impostare le condizioni pagamento nella versione italiana](../../finance-payment-terms.md)  
 [Definizione dei metodi di pagamento](../../finance-payment-methods.md)  
 [Impostazione di dati finanziari](../../finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

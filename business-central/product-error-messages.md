@@ -42,3 +42,6 @@ Se si è amministratore o superutente, è possibile aiutare gli altri cercando i
 [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

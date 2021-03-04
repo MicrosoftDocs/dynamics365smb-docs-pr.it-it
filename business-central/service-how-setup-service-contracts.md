@@ -56,3 +56,5 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

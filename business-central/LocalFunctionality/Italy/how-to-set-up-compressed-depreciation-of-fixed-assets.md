@@ -41,3 +41,6 @@ Durante il calcolo dell'ammortamento, viene generata una riga per ogni cespite. 
  [Impostare metodi di ammortamento alternativi](how-to-set-up-alternate-depreciation-methods.md)   
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

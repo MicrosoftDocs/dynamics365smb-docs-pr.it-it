@@ -46,3 +46,6 @@ Prima di creare opportunità, è necessario impostare opportunità relative ai c
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

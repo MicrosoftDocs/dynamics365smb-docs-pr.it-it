@@ -24,3 +24,6 @@ La chiusura di un ordine di produzione è un'attività importante nel completame
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

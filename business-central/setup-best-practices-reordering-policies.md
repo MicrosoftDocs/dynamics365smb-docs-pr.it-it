@@ -46,3 +46,6 @@ Nella seguente tabella vengono fornite le procedure consigliate per la selezione
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

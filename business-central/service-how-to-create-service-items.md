@@ -62,3 +62,6 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

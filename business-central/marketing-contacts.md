@@ -37,3 +37,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

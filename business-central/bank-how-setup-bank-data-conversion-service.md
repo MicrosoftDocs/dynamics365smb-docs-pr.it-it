@@ -64,3 +64,6 @@ La società è stata iscritta all'estensione AMC Banking 365 Fundamentals. Conti
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
 [Impostazione dei workflow](across-set-up-workflows.md)   
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

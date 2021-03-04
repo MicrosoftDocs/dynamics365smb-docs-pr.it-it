@@ -37,3 +37,6 @@ Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile app
 [Impostare costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  
 [Impostare il troubleshooting](service-how-setup-troubleshooting.md)  
 [Gestione assistenza](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

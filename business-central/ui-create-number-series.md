@@ -87,3 +87,6 @@ Ogni volta che verrà impostato un elemento che richiede un numero, è ora possi
 ## <a name="see-also"></a>Vedere anche
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

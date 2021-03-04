@@ -74,3 +74,6 @@ Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_
 [Risorse per Guida e supporto](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

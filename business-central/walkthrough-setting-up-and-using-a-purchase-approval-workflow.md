@@ -130,3 +130,6 @@ Se uno scenario aziendale richiede un evento o una risposta del workflow non sup
 [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
 [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

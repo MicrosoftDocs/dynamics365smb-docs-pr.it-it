@@ -32,3 +32,6 @@ Prima di poter elaborare gli effetti, è necessario aggiungere le informazioni b
 ## <a name="see-also"></a>Vedi anche  
  [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md)   
   [Emettere pagamenti fornitori ed effetti clienti](how-to-issue-vendor-payments-and-customer-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

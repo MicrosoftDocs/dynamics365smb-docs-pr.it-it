@@ -91,3 +91,6 @@ Tu o l'amministratore potete anche usare la pagina **Selezioni stampante** per d
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eseguire i processi batch](ui-how-run-batch-jobs.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

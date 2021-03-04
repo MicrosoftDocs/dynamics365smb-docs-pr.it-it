@@ -65,3 +65,6 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

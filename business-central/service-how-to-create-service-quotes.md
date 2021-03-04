@@ -40,3 +40,5 @@ Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ord
 [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

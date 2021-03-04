@@ -32,3 +32,6 @@ Se non si ha familiarità con [!INCLUDE[prod_short](includes/prod_short.md)], è
 
 [Introduzione](product-get-started.md)  
 [Canale Dynamics 365 in YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

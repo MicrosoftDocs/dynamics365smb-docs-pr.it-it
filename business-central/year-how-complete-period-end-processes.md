@@ -63,3 +63,6 @@ Intercompany
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Chiusura registri](year-close-books.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

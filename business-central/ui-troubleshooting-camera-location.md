@@ -57,3 +57,6 @@ Alcuni programmi software antivirus bloccano l'accesso alla fotocamera e alla po
 ## <a name="see-also"></a>Vedere anche
 [Implementazione della fotocamera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementazione della posizione in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

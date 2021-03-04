@@ -51,3 +51,6 @@ Se movimenti in diverse valute vengono collegati, è necessario impostare il con
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

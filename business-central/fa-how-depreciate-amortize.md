@@ -112,3 +112,6 @@ Le righe copiate vengono create nelle registrazioni cespiti in C/G o nelle regis
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

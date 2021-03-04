@@ -40,3 +40,6 @@ Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [pro
 [Community di Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

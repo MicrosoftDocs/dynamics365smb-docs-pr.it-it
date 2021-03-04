@@ -67,3 +67,6 @@ Nel calcolo di un MPS o un MRP si applicano le seguenti restrizioni:
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)   
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare il sistema per registrare le interazioni. |[Setup contatti](marketing-setup-contacts.md) |
 |Creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi e-mail.|[Creare interazioni per i contatti e i segmenti](marketing-how-create-interactions.md)|
 |Impostare il sistema per registrare automaticamente le interazioni di vendita, acquisto e documenti di assistenza, ad esempio quando un documento viene creato, registrato o stampato.|[Registrazione automatica delle interazioni con i contatti](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

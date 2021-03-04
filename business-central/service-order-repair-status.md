@@ -52,3 +52,6 @@ Ripetere i passaggi indicati per ogni opzione dello stato di riparazione che si 
 
 [Stato ordine assistenza e stato riparazione](service-service-order-status-and-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

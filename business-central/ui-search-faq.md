@@ -50,3 +50,6 @@ L'icona segnalibro non viene visualizzata nella finestra della funzionalità del
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)  
 [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

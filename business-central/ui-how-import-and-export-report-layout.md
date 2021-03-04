@@ -55,3 +55,6 @@ ms.locfileid: "3918514"
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
  [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
  [Utilizzo di report, processi batch e XMLport](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

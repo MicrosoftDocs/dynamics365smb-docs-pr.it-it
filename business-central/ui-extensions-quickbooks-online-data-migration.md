@@ -71,3 +71,6 @@ Esistono alcune operazioni consigliate:
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

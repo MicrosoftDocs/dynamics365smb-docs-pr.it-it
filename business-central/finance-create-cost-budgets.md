@@ -38,3 +38,6 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegliere 
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

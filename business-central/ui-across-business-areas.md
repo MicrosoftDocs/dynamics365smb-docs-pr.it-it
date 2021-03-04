@@ -54,3 +54,6 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 [Amministrazione](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

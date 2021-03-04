@@ -62,3 +62,6 @@ Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo pe
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
 [Miglioramenti all'integrazione di Excel nella seconda ondata di rilascio del 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Poiché questo prospetto consente di utilizzare più righe di contenuto collocaz
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

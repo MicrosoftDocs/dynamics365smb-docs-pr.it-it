@@ -70,3 +70,6 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

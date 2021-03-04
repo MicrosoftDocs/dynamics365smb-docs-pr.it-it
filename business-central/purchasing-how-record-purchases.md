@@ -100,3 +100,6 @@ L'acquisto si riflette ora nel magazzino, nei movimenti contabili risorse e nei 
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Preparare le spedizioni dirette](sales-how-drop-shipment.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

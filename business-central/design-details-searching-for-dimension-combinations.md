@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
  [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -305,3 +305,6 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 [Trova movimenti](ui-find-entries.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

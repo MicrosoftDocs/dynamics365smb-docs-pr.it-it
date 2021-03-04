@@ -77,3 +77,6 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

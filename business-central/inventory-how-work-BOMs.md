@@ -118,3 +118,6 @@ I costi degli articoli che compongono la DB di assemblaggio vengono copiate dall
 [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

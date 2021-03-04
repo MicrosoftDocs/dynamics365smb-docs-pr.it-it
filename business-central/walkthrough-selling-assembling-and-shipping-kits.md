@@ -444,3 +444,6 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
  [Dettagli di progettazione: Flussi warehouse interni](design-details-internal-warehouse-flows.md)   
  [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)   
  [Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

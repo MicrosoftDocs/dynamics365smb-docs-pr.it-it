@@ -63,3 +63,6 @@ Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automat
 ## <a name="see-also"></a>Vedere anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

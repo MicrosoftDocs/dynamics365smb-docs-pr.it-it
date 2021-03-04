@@ -115,3 +115,6 @@ Le espressioni che utilizzano solo simboli, come `|` o `..` sono considerate sic
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
 [Individuazione di funzionalità e informazioni](ui-search.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

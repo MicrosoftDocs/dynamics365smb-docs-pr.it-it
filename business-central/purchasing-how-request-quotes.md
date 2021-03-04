@@ -38,3 +38,6 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine o una f
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

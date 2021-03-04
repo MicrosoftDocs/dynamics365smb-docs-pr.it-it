@@ -58,3 +58,6 @@ Nella procedura seguente viene utilizzata una fattura di assistenza registrata c
 ## <a name="see-also"></a>Vedere anche  
 [Registrare ordini di assistenza](service-how-to-post-service-orders.md)   
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

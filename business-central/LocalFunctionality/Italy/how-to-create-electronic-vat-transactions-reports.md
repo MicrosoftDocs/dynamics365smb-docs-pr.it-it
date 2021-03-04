@@ -42,3 +42,6 @@ Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali. 
 
 ## <a name="see-also"></a>Vedere anche  
  [IVA italiana](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

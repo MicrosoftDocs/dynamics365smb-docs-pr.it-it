@@ -62,3 +62,6 @@ Se l'età di una persona di contatto è inferiore all'età legale stabilita dall
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Registrazione di modifiche](across-log-changes.md)  
 [Richieste degli interessati correlate al GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

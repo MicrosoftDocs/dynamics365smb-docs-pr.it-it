@@ -58,3 +58,6 @@ Gli articoli dei clienti per cui si esegue il servizio di assistenza, come una s
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

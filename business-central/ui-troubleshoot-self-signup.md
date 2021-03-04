@@ -49,3 +49,6 @@ Per una panoramica dei mercati attualmente supportati in Dynamics 365, vedere la
 [Funzionalità locale](about-localization.md)  
 [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilità internazionale di Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

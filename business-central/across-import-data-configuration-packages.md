@@ -87,3 +87,6 @@ Il pacchetto di configurazione di default supporta le seguenti tabelle:
 [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

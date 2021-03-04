@@ -45,3 +45,6 @@ Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intellige
 
 [Informazioni intelligenti](about-intelligent-cloud.md)  
 [Estensione Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

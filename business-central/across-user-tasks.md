@@ -48,3 +48,6 @@ Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzar
 
 [Ricerca di una pagina o di un report](ui-search.md)  
 [Esperienze di contabile in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

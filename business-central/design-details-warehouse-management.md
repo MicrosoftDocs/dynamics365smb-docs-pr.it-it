@@ -30,3 +30,6 @@ Per differenziare i diversi livelli di complessità della gestione della warehou
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  
 [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

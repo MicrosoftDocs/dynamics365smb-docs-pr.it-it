@@ -112,3 +112,6 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Funzionalità locale in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

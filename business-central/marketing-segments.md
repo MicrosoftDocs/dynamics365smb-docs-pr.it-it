@@ -39,3 +39,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Gestione dei contatti](marketing-contacts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

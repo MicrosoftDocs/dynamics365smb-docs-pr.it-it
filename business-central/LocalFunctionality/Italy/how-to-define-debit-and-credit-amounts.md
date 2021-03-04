@@ -34,3 +34,6 @@ I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra 
 
 ## <a name="see-also"></a>Vedere anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

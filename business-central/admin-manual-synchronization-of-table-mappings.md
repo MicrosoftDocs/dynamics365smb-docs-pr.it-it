@@ -85,3 +85,6 @@ Se e dove una riga viene creata dipende dalla direzione della sincronizzazione. 
 ## <a name="see-also"></a>Vedere anche  
 [Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-ma
 [Configurare la posta elettronica](admin-how-setup-email.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

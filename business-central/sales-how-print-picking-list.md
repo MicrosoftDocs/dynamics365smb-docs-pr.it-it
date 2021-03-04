@@ -39,3 +39,6 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 [Magazzino](inventory-manage-inventory.md)  
 [Prelievo degli articoli](warehouse-pick-items.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

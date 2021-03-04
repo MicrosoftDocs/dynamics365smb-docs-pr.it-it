@@ -125,3 +125,6 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

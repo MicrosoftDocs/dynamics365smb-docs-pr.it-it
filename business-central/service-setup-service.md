@@ -44,3 +44,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedere anche
 [Gestione assistenza](service-service.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

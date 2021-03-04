@@ -72,3 +72,6 @@ La tabella seguente elenca i campi in [!INCLUDE[prod_short](includes/prod_short.
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
 [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

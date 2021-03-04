@@ -33,3 +33,6 @@ Le transazioni retrodatate o le rettifiche dei costi spesso influenzano i saldi 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
  [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

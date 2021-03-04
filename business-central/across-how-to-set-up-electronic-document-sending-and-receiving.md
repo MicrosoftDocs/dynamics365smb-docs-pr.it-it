@@ -149,3 +149,6 @@ In questo argomento sono contenute le seguenti procedure:
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   
 [Fatturare le vendite](sales-how-invoice-sales.md)   
 [Registrare gli acquisti](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

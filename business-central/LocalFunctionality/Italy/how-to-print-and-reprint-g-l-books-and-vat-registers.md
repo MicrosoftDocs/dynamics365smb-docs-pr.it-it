@@ -59,3 +59,6 @@ Quando si aggiorna la pagina **Setup contabilità generale** o **Registri IVA** 
 
 ## <a name="see-also"></a>Vedere anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

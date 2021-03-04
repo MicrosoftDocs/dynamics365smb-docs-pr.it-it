@@ -40,3 +40,6 @@ La pagina **Istanze di fasi workflow archiviate** si apre mostrando tutte le ist
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

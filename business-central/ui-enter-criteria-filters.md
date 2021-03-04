@@ -307,3 +307,6 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

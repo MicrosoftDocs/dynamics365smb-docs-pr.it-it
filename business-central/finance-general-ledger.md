@@ -71,3 +71,6 @@ Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un
 [Finanze](finance.md)  
 [Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

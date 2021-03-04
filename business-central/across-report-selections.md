@@ -68,3 +68,6 @@ Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - A
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)  
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -94,3 +94,6 @@ In altri termini, la percentuale pagamento anticipato indicata nella scheda clie
 [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)  
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

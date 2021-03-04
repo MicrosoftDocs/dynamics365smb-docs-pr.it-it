@@ -51,3 +51,6 @@ In questo argomento vengono definiti i termini chiave utilizzati nella contabili
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -199,3 +199,6 @@ Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_shor
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Scaricare [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

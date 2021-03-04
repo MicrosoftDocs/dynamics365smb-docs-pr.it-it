@@ -39,3 +39,6 @@ Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare l
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Impostazione del magazzino](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

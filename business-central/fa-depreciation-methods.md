@@ -357,3 +357,6 @@ Immettendo un movimento in B1 nella registrazione C/G cespiti ed inserendo un se
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

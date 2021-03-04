@@ -62,3 +62,6 @@ L'indirizzo e-mail del contatto viene ora inserito nella riga del layout di docu
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

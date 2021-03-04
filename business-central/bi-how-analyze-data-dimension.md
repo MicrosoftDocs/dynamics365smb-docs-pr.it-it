@@ -83,3 +83,6 @@ La seguente procedura indica come aggiornare una visualizzazione analisi dalla p
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

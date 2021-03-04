@@ -60,3 +60,6 @@ In Microsoft, i feedback della nostra variegata comunità di utenti vengono cost
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

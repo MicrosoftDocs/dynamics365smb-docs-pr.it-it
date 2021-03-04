@@ -44,3 +44,6 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

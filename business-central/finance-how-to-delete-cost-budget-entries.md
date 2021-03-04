@@ -38,3 +38,6 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
 [Creazione di budget di costi](finance-create-cost-budgets.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

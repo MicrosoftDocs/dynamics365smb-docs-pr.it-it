@@ -79,3 +79,6 @@ Maggiore è il numero di categorie di registrazione articoli/servizi e business,
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

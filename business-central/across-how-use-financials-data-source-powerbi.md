@@ -138,3 +138,6 @@ Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanze](finance.md)  
 [Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

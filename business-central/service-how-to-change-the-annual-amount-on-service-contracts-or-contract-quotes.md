@@ -150,3 +150,6 @@ Al termine, le righe di contratto conterranno i seguenti dati.
 ## <a name="see-also"></a>Vedi anche  
 [Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

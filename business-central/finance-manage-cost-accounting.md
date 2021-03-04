@@ -36,3 +36,6 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 [Finanze](finance.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

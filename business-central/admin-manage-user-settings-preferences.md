@@ -71,3 +71,6 @@ Gli amministratori hanno la possibilità di impostare o modificare queste impost
 [Introduzione](product-get-started.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

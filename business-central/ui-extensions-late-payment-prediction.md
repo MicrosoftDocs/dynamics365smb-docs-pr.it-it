@@ -111,3 +111,6 @@ Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunq
 [Documentazione di Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

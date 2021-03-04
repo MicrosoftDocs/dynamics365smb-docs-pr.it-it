@@ -143,3 +143,6 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)   
  [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

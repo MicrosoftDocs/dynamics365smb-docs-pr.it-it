@@ -141,3 +141,6 @@ Il sito docs.microsoft.com ospita contenuti per altri prodotti e altri tipi di c
 [Guida di Business Central per sviluppatori e amministrazione](/dynamics365/business-central/dev-itpro/)  
 [Risorse per Guida e supporto per partner](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

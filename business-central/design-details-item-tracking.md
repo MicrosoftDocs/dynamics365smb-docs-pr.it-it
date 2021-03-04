@@ -31,3 +31,6 @@ Un sistema di tracciabilità articolo deve offrire a una società la semplice ge
 [Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Se uno o più componenti di assemblaggio non sono disponibili, queste informazio
 [Vendere prodotti](sales-how-sell-products.md)      
 [Utilizzo di Business Central](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Ken è ora pronto per assegnare il layout colonna al nome della situazione conta
  [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

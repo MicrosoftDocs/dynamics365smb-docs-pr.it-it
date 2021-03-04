@@ -48,3 +48,6 @@ ms.locfileid: "3919999"
 
 ## <a name="see-also"></a>Vedere anche  
  [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

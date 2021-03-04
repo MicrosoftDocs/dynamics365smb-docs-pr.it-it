@@ -58,3 +58,6 @@ Se non si impostano ore di assistenza specifiche per il contratto di assistenza,
 [Informazioni su stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Informazioni su stato assistenza e stato riparazione](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

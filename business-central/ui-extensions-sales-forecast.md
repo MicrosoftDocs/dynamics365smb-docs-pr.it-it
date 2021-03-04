@@ -64,3 +64,6 @@ Prima di utilizzare il servizio Web [!INCLUDE[prod_short](includes/prod_short.md
 [Vendite](sales-manage-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

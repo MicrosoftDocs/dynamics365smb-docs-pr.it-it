@@ -164,3 +164,6 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
  [Metodi WIP](projects-understanding-wip.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

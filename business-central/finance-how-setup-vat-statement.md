@@ -51,3 +51,6 @@ Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprim
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Funzionalità locale in Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

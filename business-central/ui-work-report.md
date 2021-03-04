@@ -163,3 +163,6 @@ I campi in **Avanzate** impostano le limitazioni sul report generato per control
 [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)  
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

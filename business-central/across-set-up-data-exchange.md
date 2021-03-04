@@ -42,3 +42,6 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

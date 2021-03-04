@@ -101,3 +101,6 @@ Nella tabella **Registro costi**, [!INCLUDE[prod_short](includes/prod_short.md)]
  [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)   
  [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

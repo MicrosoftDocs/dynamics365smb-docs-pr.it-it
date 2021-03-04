@@ -105,3 +105,6 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
  [Utilizzare le distinte base](inventory-how-work-BOMs.md)   
  [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)   
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

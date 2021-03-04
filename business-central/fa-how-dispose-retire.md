@@ -59,3 +59,6 @@ Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare 
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Trova movimenti](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

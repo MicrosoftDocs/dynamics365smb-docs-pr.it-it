@@ -54,3 +54,6 @@ In Outlook, i contatti di [!INCLUDE[prod_short](includes/prod_short.md)] vengono
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo dei contatti (Persone) in Outlook sul Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

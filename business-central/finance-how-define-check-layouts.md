@@ -93,3 +93,6 @@ I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prod_short](incl
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

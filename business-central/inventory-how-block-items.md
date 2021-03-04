@@ -48,3 +48,6 @@ Quando si utilizza la funzione **Copia da documento** per creare nuovi documenti
 ## <a name="see-also"></a>Vedere anche  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

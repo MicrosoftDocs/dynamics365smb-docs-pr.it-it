@@ -59,3 +59,6 @@ Ciò è dovuto al fatto che Gestione ruolo utente o il ruolo attualmente associa
 [Personalizzare pagine per profili](ui-personalization-manage.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

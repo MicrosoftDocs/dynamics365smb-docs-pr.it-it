@@ -57,3 +57,6 @@ Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a for
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

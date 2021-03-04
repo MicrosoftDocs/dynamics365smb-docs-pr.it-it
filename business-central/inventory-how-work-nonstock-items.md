@@ -73,3 +73,6 @@ Verrà visualizzata una nuova scheda articolo precompilata con le informazioni d
 [Creare ordini speciali](sales-how-to-create-special-orders.md)|  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

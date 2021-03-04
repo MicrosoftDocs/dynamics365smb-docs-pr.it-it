@@ -84,3 +84,6 @@ Quando viene aggiunta una nuova azione, qualsiasi testo tradotto disponibile in 
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

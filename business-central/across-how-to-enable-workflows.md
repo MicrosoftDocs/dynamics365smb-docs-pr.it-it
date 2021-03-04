@@ -35,3 +35,6 @@ Dopo avere creato un workflow ed essersi assicurati che sia pronto, è necessari
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

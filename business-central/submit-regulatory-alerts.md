@@ -80,3 +80,6 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 [Benvenuto su Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

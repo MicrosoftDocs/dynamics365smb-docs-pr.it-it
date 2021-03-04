@@ -46,3 +46,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Pianificazione dell'assistenza](service-plan-service.md)  
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Gestione di progetti](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

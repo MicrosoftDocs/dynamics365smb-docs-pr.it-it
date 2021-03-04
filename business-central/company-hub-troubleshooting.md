@@ -50,3 +50,6 @@ Se è stata aggiunta una società, ma non viene visualizzata nell'elenco, è anc
 [Gestire il lavoro tra più aziende nell'hub aziendale](company-hub.md)  
 [Aggiungere società all'hub aziendale](company-hub-add-company.md)  
 [Esperienze contabile in Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

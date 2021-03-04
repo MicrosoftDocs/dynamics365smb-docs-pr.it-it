@@ -35,3 +35,6 @@ In questa sezione sono fornite ulteriori informazioni sul nostro approccio alla 
 |Informazioni sui termini dei contratti di servizio e altri termini per il servizio|[Condizioni di servizio](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

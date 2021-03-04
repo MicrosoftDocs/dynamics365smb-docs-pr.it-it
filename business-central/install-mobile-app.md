@@ -66,3 +66,6 @@ Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anch
 [Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Talvolta è necessario fornire a un cliente un articolo in prestito da poter uti
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

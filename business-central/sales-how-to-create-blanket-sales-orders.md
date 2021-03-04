@@ -100,3 +100,6 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 [Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

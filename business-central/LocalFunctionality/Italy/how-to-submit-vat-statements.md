@@ -50,3 +50,6 @@ Il file esportato può ora essere inviato alle autorità fiscali.
 
 ## <a name="see-also"></a>Vedere anche  
  [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

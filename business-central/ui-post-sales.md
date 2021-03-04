@@ -64,3 +64,6 @@ Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla sc
 [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

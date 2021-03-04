@@ -110,3 +110,6 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
 [Assegnare risorse](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

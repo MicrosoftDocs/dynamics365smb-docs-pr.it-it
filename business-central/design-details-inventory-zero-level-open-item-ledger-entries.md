@@ -151,3 +151,6 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)   
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

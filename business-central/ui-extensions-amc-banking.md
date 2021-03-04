@@ -87,3 +87,6 @@ L'uso di questa estensione è solo per l'esportazione dei dati nella pagina **Re
 ## <a name="see-also"></a>Vedere anche
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Introduzione](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -26,3 +26,6 @@ L'estensione è gratuita, è solo necessario installarla.
 
 ## <a name="see-also"></a>Vedi anche
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)   
 [Dettagli di progettazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

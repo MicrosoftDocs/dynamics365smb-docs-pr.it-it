@@ -159,3 +159,6 @@ Se la riconciliazione bancaria successiva che esegui è per agosto, valuta la po
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

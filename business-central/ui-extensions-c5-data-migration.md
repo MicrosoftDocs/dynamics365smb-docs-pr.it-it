@@ -161,3 +161,6 @@ Un modo per verificare che i dati siano stati migrati correttamente consiste nel
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

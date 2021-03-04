@@ -56,3 +56,6 @@ Per altre informazioni, vedere [Dettagli di progettazione - Bilanciamento della 
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

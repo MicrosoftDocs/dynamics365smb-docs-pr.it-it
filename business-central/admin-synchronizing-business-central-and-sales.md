@@ -63,3 +63,6 @@ Nella seguente tabella è elencato il mapping standard tra le tabelle in [!INCLU
 [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

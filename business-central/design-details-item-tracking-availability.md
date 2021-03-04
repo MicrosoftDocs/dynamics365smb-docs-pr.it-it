@@ -44,3 +44,6 @@ Nelle pagine **Righe tracciabilità articolo** e **Riepilogo tracciabilità arti
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

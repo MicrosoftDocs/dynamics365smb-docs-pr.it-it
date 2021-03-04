@@ -103,3 +103,6 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
 [Impostazione dei workflow](across-set-up-workflows.md)   
 [Utilizzo dei workflow](across-use-workflows.md)   
 [Workflow](across-workflow.md)      
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

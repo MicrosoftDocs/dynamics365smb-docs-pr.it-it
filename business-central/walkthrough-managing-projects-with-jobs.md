@@ -489,3 +489,6 @@ Confrontando prezzi, righe task commessa e righe di pianificazione per le due co
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)   
  [Fatturazione di commesse](projects-how-invoice-jobs.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

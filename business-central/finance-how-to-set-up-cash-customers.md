@@ -39,3 +39,6 @@ Non è possibile creare una fattura senza un numero di cliente. Ciò si applica 
 [Registrare nuovi clienti](sales-how-register-new-customers.md)    
 [Finanze](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

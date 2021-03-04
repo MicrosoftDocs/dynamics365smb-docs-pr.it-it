@@ -28,3 +28,6 @@ Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni control
 ## <a name="see-also"></a>Vedere anche  
   [Funzionalità locale per l'Italia](italy-local-functionality.md)  
   [Stornare le registrazioni e annullare carichi/spedizioni errati.](../../finance-how-reverse-journal-posting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

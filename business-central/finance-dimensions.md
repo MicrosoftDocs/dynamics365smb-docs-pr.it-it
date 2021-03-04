@@ -234,3 +234,6 @@ Quando si registrano documenti o righe di registrazione che contengono dimension
 [Finanze](finance.md)  
 [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

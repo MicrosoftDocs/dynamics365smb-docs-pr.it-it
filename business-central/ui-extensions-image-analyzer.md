@@ -104,3 +104,6 @@ Se l'analisi propone un attributo che non si desidera visualizzare, è possibile
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

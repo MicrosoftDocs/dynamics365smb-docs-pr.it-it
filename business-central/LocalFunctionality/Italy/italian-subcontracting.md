@@ -30,3 +30,6 @@ Tra gli appaltatori e i terzisti vengono spesso negoziati prezzi unitari special
 ## <a name="see-also"></a>Vedere anche  
  [Gestire le attività di conto lavoro](../../production-how-to-subcontract-manufacturing.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

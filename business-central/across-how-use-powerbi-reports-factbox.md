@@ -89,3 +89,6 @@ Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvar
 [Introduzione](product-get-started.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanze](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

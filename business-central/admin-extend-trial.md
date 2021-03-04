@@ -56,3 +56,6 @@ Se l'estensione del periodo di valutazione è scaduta, [effettua una sottoscrizi
 [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 [Estensione delle prove (come amministratore)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Iniziare come rivenditore di Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

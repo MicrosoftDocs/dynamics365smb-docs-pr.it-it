@@ -40,3 +40,6 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i clienti.
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

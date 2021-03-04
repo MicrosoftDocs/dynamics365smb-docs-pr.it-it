@@ -34,3 +34,6 @@ I movimenti in questa pagina vengono utilizzati per calcolare il costo medio ann
 ## <a name="see-also"></a>Vedi anche  
  [Valutazione magazzino fiscale](fiscal-inventory-valuation.md)   
  [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

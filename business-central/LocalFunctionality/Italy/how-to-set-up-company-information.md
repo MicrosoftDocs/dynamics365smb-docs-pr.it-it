@@ -37,3 +37,6 @@ I documenti fiscali devono contenere tutte le informazioni sulla società. È po
 
 ## <a name="see-also"></a>Vedi anche  
  [Funzionalità locale per l'Italia](italy-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

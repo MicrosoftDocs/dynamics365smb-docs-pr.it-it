@@ -83,3 +83,6 @@ Se si desidera modificare i codici competenza assegnati agli articoli, ad esempi
 [Impostare codici per servizi standard](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

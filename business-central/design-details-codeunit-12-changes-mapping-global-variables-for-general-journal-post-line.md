@@ -110,3 +110,6 @@ Le seguenti modifiche sono state implementate nelle versioni di [!INCLUDE [navno
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Modifiche relative alla codeunit 12: modifiche nelle procedure di registrazione di contabilità generale](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

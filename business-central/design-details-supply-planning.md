@@ -31,3 +31,6 @@ Viene descritto il funzionamento del sistema di pianificazione e viene spiegato 
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
 [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

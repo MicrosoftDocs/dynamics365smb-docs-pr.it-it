@@ -50,3 +50,6 @@ Con l'aumentare del numero di visualizzazioni in una pagina, potrebbe essere nec
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -120,3 +120,6 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

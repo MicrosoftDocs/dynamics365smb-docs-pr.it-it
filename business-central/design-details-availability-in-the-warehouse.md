@@ -77,3 +77,6 @@ Se una o più condizioni non sono soddisfatte, è possibile che vengano visualiz
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
  [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

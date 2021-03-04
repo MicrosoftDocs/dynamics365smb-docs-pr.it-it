@@ -36,3 +36,6 @@ Quando si emette una nota di addebito interessi, la nota mostra gli addebiti di 
 ## <a name="see-also"></a>Vedere anche  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

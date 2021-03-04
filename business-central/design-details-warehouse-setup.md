@@ -141,3 +141,6 @@ Il modello di stoccaggio può essere assegnato a un articolo e a un'ubicazione. 
 
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)   
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

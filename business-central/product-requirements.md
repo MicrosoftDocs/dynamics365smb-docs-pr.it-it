@@ -79,3 +79,6 @@ Se si desidera distribuire Business Central in locale, è necessario verificare 
 
 [Introduzione](product-get-started.md)  
 [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

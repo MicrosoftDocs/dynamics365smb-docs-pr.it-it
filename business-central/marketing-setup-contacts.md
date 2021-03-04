@@ -161,3 +161,6 @@ Una volta individuato un contatto duplicato, è possibile utilizzare la pagina *
 [Creare contatti](marketing-create-contact-companies.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

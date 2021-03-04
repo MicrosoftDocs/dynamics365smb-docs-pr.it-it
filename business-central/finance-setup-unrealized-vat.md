@@ -50,3 +50,6 @@ Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seg
 
 ## <a name="see-also"></a>Vedere anche
 [impostazione dell'IVA](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

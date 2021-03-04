@@ -59,3 +59,6 @@ Impostare i workflow per notificare automaticamente agli utenti quando è richie
 [Configurare la posta elettronica](admin-how-setup-email.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

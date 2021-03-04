@@ -39,3 +39,6 @@ ms.locfileid: "4753002"
 [Impostazione dei workflow](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

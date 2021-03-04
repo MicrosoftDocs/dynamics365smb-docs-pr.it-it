@@ -24,3 +24,6 @@ Questa documentazione fornisce informazioni tecniche dettagliate sui concetti e 
 [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
 [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)  
 [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

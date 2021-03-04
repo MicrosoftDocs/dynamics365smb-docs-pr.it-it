@@ -94,3 +94,6 @@ Se ad esempio un articolo in assistenza ha lo stato di riparazione **Iniziale**,
 
 [Impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ RapidStart Services consente di ottenere una panoramica del processo di setup de
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

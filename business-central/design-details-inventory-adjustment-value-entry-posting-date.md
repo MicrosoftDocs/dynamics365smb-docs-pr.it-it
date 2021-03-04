@@ -365,3 +365,6 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

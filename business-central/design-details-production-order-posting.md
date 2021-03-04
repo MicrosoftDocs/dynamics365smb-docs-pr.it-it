@@ -110,3 +110,6 @@ Negli ambienti con costi standard, il calcolo dei costi di un ordine di produzio
  [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
  [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

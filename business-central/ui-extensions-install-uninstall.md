@@ -92,3 +92,6 @@ Alcune estensioni sono obbligatorie. Non è possibile disinstallarle dalla pagin
 [Introduzione](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

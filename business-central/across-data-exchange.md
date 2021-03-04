@@ -39,3 +39,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Scambio di dati](across-exchange-data.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

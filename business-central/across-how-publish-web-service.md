@@ -71,3 +71,6 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 [Amministrazione](admin-setup-and-administration.md)  
 [Servizi Web di Business Central per sviluppatori](/dynamics365/business-central/dev-itpro/webservices/web-services)  
 [Limiti richieste OData](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

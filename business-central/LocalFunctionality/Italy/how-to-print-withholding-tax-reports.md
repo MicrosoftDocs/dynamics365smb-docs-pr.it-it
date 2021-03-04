@@ -36,3 +36,6 @@ Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo 
 
 ## <a name="see-also"></a>Vedere anche  
  [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

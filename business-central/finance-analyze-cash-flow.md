@@ -55,3 +55,6 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

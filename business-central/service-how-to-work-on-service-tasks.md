@@ -107,3 +107,6 @@ In seguito alla riparazione dell'articolo in assistenza, è possibile registrare
 [Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)
 [Stato di assegnazione e stato di riparazione](service-allocation-status-and-repair-status.md)  
 [Registrazione di assistenza](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

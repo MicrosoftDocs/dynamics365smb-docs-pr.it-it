@@ -38,3 +38,6 @@ Sebbene la maggior parte della funzionalità di contabilizzazione dei costi veng
 ## <a name="see-also"></a>Vedi anche  
 [Gestire i costi del magazzino](finance-manage-inventory-costs.md)
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

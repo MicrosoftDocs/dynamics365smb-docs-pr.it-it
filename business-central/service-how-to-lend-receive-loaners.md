@@ -46,3 +46,6 @@ Quando si riceve un articolo in prestito da un cliente, è necessario registrarn
   
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di un programma di prestito articoli](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

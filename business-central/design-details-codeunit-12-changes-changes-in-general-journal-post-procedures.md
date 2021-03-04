@@ -191,3 +191,6 @@ Le seguenti modifiche sono state implementate nelle versioni di [!INCLUDE [navno
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Modifiche relative alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

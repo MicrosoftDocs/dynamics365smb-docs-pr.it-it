@@ -79,3 +79,6 @@ Per allinearsi ai concetti finanziari di acquisti e vendite, la documentazione d
 
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

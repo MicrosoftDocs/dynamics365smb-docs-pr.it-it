@@ -60,3 +60,6 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 ## <a name="see-also"></a>Vedi anche  
   [Funzionalità locale per l'Italia](italy-local-functionality.md)   
  [Stampa di report Intrastat per l'Italia](how-to-print-intrastat-reports-for-italy.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

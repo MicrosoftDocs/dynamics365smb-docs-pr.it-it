@@ -36,3 +36,6 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 [Chiusura registri](year-close-books.md)  
 [Chiudi conto economico](year-close-income-statement.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

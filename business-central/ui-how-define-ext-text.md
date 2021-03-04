@@ -44,3 +44,6 @@ La sezione seguente descrive come aggiungere testo esteso a una descrizione di u
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Durante la registrazione delle fatture di acquisto è possibile creare automatic
 ## <a name="see-also"></a>Vedere anche  
  [Cespiti](../../fa-manage.md)  
  [Cespiti italiani](italian-fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

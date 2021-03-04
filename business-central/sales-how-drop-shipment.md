@@ -81,3 +81,6 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 [Vendite](sales-manage-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

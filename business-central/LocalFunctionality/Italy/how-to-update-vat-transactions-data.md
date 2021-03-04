@@ -45,3 +45,6 @@ Quando si esegue il report, [!INCLUDE[prod_short](../../includes/prod_short.md)]
 [Impostare l'IVA](../../finance-setup-vat.md)  
  [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

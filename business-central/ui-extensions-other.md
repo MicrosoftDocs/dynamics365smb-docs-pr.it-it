@@ -27,3 +27,6 @@ La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggio
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

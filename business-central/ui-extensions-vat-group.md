@@ -115,3 +115,6 @@ Quando la dichiarazione IVA del rappresentante del gruppo IVA è stata presentat
 ## <a name="see-also"></a>Vedere anche
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

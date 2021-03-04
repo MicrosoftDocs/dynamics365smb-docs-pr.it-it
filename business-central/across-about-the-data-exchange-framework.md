@@ -66,3 +66,6 @@ Per tutti gli scambi di dati in file XML, è possibile preparare le impostazioni
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

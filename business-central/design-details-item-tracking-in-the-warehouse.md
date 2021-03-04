@@ -31,3 +31,6 @@ Tuttavia, il sistema di impegno prende in considerazione le attività di warehou
 [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)  
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

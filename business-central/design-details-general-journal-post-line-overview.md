@@ -46,3 +46,6 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], sono stati apportati i seguen
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)   
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

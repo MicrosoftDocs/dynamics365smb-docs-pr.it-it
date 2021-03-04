@@ -76,3 +76,6 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Introduzione](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

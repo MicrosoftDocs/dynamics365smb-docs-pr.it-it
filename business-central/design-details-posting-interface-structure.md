@@ -28,3 +28,5 @@ Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](inclu
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

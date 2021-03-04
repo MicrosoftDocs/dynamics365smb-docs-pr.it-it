@@ -131,3 +131,6 @@ Impostare nella pagina **Nomenclature combinate** tutti i codici utilizzati. Pri
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione contabile](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

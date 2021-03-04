@@ -35,3 +35,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Elaborare clienti potenziali ricevuti creando opportunità e associandole ad agenti in modo da tenere traccia delle vendite potenziali.|[Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)|
 |Creare i piani di marketing per identificare, attirare e fidelizzare i clienti.|[Gestione di campagne di marketing](marketing-campaigns.md)|
 |Utilizzare Dynamics 365 Sales for Customer Engagement e sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando Business Central per le attività backend come elaborare ordini e gestire l'inventario e le finanze.|[Integrazione con Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

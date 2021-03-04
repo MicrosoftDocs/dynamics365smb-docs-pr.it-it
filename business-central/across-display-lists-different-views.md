@@ -30,3 +30,6 @@ Nella pagina **Articoli** l'inserimento di immagini consente di ottenere una pan
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -112,3 +112,6 @@ La pagina **Statistiche note credito assistenza** consente di visualizzare una p
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)   
 [Creare articoli in assistenza](service-how-to-create-service-items.md)   
 [Pianificazione dell'assistenza](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

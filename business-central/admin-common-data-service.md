@@ -67,3 +67,6 @@ Durante la configurazione della connessione, vengono creati i mapping della tabe
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

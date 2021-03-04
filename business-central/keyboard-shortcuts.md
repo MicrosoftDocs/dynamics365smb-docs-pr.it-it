@@ -222,3 +222,6 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
 [Trova movimenti](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

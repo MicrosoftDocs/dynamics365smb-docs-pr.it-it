@@ -263,3 +263,6 @@ Gli amministratori possono definire i periodi di tempo in cui utenti specificati
 [Amministrazione](admin-setup-and-administration.md)  
 [Aggiungere utenti a Microsoft 365 per le aziende](https://aka.ms/CreateOffice365Users)  
 [Sicurezza e protezione in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) nella Guida per sviluppatori e professionisti IT
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

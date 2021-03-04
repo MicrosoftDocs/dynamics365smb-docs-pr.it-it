@@ -80,3 +80,6 @@ Le fatture di vendita vengono create per i clienti con il codice di vendita clie
 
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

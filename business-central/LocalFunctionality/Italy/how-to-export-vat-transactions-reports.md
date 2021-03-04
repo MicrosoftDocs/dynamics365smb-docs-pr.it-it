@@ -59,3 +59,6 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 
 ## <a name="see-also"></a>Vedere anche  
 [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

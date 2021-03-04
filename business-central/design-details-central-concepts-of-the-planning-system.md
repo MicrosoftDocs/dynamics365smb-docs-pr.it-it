@@ -295,3 +295,6 @@ Ciò completa la sintesi dei concetti centrali relativi alla pianificazione di a
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

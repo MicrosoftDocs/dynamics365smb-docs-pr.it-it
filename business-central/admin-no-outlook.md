@@ -29,3 +29,6 @@ ms.locfileid: "5068334"
 [Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)  
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

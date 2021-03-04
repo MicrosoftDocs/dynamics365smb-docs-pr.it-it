@@ -67,3 +67,6 @@ Nella seguente tabella vengono illustrati i calcoli.
 ## <a name="see-also"></a>Vedi anche  
 [Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Utilizzare un provider di servizi esterno per scambiare documenti elettronici co
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

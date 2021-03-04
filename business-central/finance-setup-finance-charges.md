@@ -73,3 +73,6 @@ Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

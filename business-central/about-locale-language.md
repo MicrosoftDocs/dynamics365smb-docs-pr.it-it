@@ -61,3 +61,6 @@ Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[prod_s
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

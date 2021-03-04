@@ -39,3 +39,5 @@ L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizz
   
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Per prepararsi i dati per le dichiarazioni, è necessario impostare la registraz
  [Inviare dichiarazioni IVA](how-to-submit-vat-statements.md)  
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)  
  [Funzionalità locale per l'Italia](italy-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

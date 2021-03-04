@@ -52,3 +52,6 @@ Per la pianificazione degli approvvigionamenti, l'impostazione della dimensione 
 [Utilizzare le unità di misura batch di produzione](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Creare cicli](production-how-to-create-routings.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

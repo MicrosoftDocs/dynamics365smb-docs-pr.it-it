@@ -70,3 +70,6 @@ Viene registrato un movimento in ogni conto economico in modo che il saldo sia z
 ## <a name="see-also"></a>Vedere anche  
  [Chiusura di anni e periodi](../../year-close-years-periods.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

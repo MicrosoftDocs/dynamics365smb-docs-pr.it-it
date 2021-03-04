@@ -51,3 +51,6 @@ Quando il partner rivenditore di Dynamics 365 ha acquisito la licenza corretta p
 [Benvenuto su Business Central](index.md)  
 [Estensioni cloud intelligente per la migrazione al cloud](ui-extensions-data-replication.md)  
 [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

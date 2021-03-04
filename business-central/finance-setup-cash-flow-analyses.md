@@ -132,3 +132,6 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

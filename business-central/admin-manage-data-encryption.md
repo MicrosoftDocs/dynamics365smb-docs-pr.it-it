@@ -27,3 +27,6 @@ Per ulteriori informazioni, vedere [Crittografia di dati in Dynamics 365 Busines
 
 ## <a name="see-also"></a>Vedere anche  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

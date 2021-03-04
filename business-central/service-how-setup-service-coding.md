@@ -39,3 +39,5 @@ Quando si presta un tipo di assistenza standard, è spesso necessario creare doc
 ## <a name="see-also"></a>Vedere anche
 
 [Gestione assistenza](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

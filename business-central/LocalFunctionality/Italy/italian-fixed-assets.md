@@ -41,3 +41,6 @@ L'ammortamento ridotto consente, alle società che siano in grado di dimostrare 
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

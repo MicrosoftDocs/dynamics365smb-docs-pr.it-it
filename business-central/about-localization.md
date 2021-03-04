@@ -64,3 +64,6 @@ Per informazioni sulla funzionalità locale per ciascun paese/area geografica, s
 [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilità internazionale di Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Sviluppo di una soluzione di localizzazione](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

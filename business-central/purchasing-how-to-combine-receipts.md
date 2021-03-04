@@ -53,3 +53,6 @@ Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esemp
 [Acquisti](purchasing-manage-purchasing.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -108,3 +108,6 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 [Personalizzazione di Business Central per [!INCLUDE[prod_short](includes/prod_short.md)] con le estensioni](ui-extensions.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

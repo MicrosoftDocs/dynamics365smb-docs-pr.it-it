@@ -100,3 +100,6 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
 [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)  
 [Pianificazione di una sincronizzazione tra Business Central e [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Informazioni sull'integrazione di Dynamics 365 Business Central con [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

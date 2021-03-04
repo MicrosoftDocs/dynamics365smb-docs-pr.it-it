@@ -66,3 +66,6 @@ Di seguito viene descritto come eliminare ordini di vendita archiviati. I passag
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -210,3 +210,6 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)  
 [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md)  
 [Utilizzo di documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

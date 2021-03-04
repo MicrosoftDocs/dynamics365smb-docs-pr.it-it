@@ -46,3 +46,6 @@ Se si desidera nascondere [!INCLUDE[prod_short](includes/prod_short.md)] dall'av
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com/)  
 [Quanto tempo dura il periodo di valutazione e come lo annullo?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

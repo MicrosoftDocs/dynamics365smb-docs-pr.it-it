@@ -56,3 +56,6 @@ Nella pagina **Impostazioni report**, è possibile:
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

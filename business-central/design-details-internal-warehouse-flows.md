@@ -118,3 +118,6 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

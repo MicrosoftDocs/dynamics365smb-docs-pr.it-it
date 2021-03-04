@@ -57,3 +57,6 @@ ms.locfileid: "4747493"
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

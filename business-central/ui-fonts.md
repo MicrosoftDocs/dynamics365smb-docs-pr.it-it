@@ -52,3 +52,6 @@ Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

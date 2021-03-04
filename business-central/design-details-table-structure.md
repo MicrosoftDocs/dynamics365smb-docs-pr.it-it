@@ -186,3 +186,6 @@ Il campo 480 esiste nelle seguenti tabelle buffer.
  [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
  [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

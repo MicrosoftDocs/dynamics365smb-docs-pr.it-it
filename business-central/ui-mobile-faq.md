@@ -67,3 +67,6 @@ Sì, è possibile. L'accesso viene eseguito in un modo leggermente diverso. Per 
 
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  
 [Installare l'app Business Central per Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

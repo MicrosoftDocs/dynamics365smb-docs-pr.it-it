@@ -143,3 +143,6 @@ La seguente procedura mostra come dividere le righe della risorsa nella pagina *
 ## <a name="see-also"></a>Vedi anche
 [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)  
 [Stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

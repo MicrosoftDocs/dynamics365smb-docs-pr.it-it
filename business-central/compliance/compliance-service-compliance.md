@@ -39,3 +39,6 @@ Se si è interessati all'elenco completo delle offerte di conformità di Microso
 [Certificazioni](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Il costing di magazzino, detto anche gestione costing riguarda la registrazione 
 [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)  
 [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md)  
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Dettagli di progettazione: modifica dei metodi di costing per gli articoli](design-details-changing-costing-methods.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
 [Finanze](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

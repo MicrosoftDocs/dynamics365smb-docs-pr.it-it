@@ -44,3 +44,6 @@ Le principali azioni che deve effettuare l'utente nella pagina sono la selezione
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finanze](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

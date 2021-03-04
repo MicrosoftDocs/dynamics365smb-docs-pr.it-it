@@ -110,3 +110,6 @@ Microsoft crea versioni localizzate di Business Central per un numero limitato d
 
  ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

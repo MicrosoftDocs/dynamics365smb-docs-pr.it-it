@@ -51,3 +51,5 @@ Portare con se i propri dati Dynamics C5. Dopo che il partner Microsoft avrà in
 
 ## <a name="see-also"></a>Vedere anche
 [Estensione di migrazione dati C5](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

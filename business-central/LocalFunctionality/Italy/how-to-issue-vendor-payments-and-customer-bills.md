@@ -57,3 +57,6 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 ## <a name="see-also"></a>Vedi anche
 
 [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

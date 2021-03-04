@@ -197,3 +197,6 @@ Gli importi nei documenti che non sono ancora stati registrati vengono arrotonda
 [Funzionalità locale in Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

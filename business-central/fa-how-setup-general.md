@@ -123,3 +123,6 @@ Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

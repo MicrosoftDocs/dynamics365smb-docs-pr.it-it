@@ -132,3 +132,6 @@ Nella procedura seguente viene descritta la registrazione della spedizione diret
 ## <a name="see-also"></a>Vedere anche  
 [Pubblicazione nella gestione assistenza](service-service-posting.md)  
 [Creare un ordine di assistenza](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

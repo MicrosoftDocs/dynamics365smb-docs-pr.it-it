@@ -369,3 +369,6 @@ Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

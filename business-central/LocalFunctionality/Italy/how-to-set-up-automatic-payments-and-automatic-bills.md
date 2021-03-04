@@ -72,3 +72,6 @@ A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo c
 ## <a name="see-also"></a>Vedere anche  
  [Definizione dei metodi di pagamento](../../finance-payment-methods.md)     
   [Funzionalità locale per l'Italia](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

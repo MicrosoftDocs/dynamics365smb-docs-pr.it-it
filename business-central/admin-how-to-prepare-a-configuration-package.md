@@ -175,3 +175,6 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Analizzare la telemetria della traccia del pacchetto di configurazione](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

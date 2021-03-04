@@ -98,3 +98,6 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
 [Presentazione di docs.microsoft.com (post originale del blog)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

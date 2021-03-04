@@ -48,3 +48,6 @@ Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], è possibil
 
 [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

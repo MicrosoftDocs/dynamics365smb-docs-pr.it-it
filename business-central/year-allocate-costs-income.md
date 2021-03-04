@@ -57,3 +57,6 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)    
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)    
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

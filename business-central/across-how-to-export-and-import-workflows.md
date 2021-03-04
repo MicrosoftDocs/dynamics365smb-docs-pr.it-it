@@ -47,3 +47,6 @@ Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/pr
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

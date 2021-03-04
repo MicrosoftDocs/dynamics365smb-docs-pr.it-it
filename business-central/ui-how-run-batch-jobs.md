@@ -36,3 +36,6 @@ Un processo batch è simile a un report, con la differenza che il processo batch
 [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

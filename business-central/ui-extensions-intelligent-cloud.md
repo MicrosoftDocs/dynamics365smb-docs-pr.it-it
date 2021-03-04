@@ -29,3 +29,6 @@ Dopo aver configurato la connessione, puoi migrare i dati o gestire le repliche 
 [Informazioni intelligenti](about-intelligent-cloud.md)  
 [Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Estensioni cloud intelligente per la migrazione al cloud](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

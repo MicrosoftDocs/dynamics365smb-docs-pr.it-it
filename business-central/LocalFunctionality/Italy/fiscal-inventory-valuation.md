@@ -47,3 +47,6 @@ Dopo aver impostato il calcolo del costo LIFO discreto, è possibile registrare 
  [Funzionalità locale per l'Italia](italy-local-functionality.md)   
  [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md)   
  [Impostare i costi iniziali per gli articoli](how-to-set-up-initial-item-costs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

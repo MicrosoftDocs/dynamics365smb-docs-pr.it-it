@@ -158,3 +158,6 @@ Quando si assegna il questionario profilo contenente questa domanda a un contatt
 
 ## <a name="see-also"></a>Vedere anche
 [Creazione di contatti](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

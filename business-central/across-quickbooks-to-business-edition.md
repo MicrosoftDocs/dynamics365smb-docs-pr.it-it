@@ -37,3 +37,6 @@ Se si è pronti per iniziare, scegliere l'icona a forma di ![lampadina che conse
 ## <a name="see-also"></a>Vedi anche
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

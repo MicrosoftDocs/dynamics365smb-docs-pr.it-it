@@ -65,3 +65,6 @@ Quando si utilizzano articoli in assistenza e ordini di assistenza, potrebbe ess
 ## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

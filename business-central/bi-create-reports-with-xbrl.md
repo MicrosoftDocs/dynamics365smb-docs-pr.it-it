@@ -114,3 +114,6 @@ Quando una tassonomia viene modificata è necessario aggiornare di conseguenza l
 [Finanze](finance.md)    
 [Business Intelligence](bi.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

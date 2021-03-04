@@ -41,3 +41,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Come impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

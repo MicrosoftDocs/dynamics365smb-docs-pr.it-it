@@ -42,3 +42,6 @@ ms.locfileid: "3919983"
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
  [Impostare l'ammortamento dei cespiti](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

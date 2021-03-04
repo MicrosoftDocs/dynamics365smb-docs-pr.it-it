@@ -88,3 +88,5 @@ Le voci per tutti i valori modificati per i campi monitorati sono disponibili ne
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definire i criteri di conservazione](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

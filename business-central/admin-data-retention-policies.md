@@ -105,3 +105,5 @@ Dopo che uno sviluppatore ha aggiunto le tabelle all'elenco, un amministratore p
 [Filtri](ui-enter-criteria-filters.md#filtering)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

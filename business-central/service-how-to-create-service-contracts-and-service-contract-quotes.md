@@ -200,3 +200,6 @@ Può essere necessario annullare un contratto di assistenza alla scadenza di que
 [Impostare i contratti di assistenza](service-how-setup-service-contracts.md)  
 [Gestione assistenza](service-service.md)  
 [Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

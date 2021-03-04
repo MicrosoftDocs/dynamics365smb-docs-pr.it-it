@@ -77,3 +77,6 @@ Una volta creata una società, non puoi modificarne il nome. Puoi tuttavia modif
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Introduzione](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

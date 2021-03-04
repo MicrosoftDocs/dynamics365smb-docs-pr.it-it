@@ -182,3 +182,6 @@ Il magazzino WIP può essere rivalutato finché la data di rivalutazione non è 
  [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

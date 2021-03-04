@@ -145,3 +145,6 @@ Per [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, è possibile ges
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Personalizzare pagine per profili](ui-personalization-manage.md)  
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

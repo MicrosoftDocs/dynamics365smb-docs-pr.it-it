@@ -34,3 +34,6 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 [Finanze](finance.md)  
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

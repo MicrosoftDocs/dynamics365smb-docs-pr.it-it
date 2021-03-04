@@ -162,3 +162,6 @@ Alla pagina **Riscossioni addebiti diretti** viene aggiunta una riscossione adde
 ## <a name="see-also"></a>Vedere anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione assistenza](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

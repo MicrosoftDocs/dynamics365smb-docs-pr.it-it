@@ -37,3 +37,6 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i fornitori.
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

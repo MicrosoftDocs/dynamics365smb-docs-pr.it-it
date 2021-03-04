@@ -62,3 +62,6 @@ Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esemp
 ## <a name="see-also"></a>Vedere anche  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

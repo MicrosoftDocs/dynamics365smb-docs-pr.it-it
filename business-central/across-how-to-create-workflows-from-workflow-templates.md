@@ -45,3 +45,6 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

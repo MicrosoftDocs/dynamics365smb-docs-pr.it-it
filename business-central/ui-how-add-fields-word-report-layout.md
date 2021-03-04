@@ -123,3 +123,6 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 ## <a name="see-also"></a>Vedere anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

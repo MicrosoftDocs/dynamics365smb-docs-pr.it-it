@@ -48,3 +48,5 @@ La Codeunit 22 esegue il ciclo tramite i numeri di tracciabilità articolo e sud
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)   
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -119,3 +119,6 @@ L'aggiunta di campi dati dal set di dati di un report è una funzione più avanz
 [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

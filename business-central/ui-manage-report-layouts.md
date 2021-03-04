@@ -68,3 +68,6 @@ Per informazioni su come cambiare il layout da utilizzare, vedere [Modificare il
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

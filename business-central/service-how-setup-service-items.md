@@ -63,3 +63,6 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 ## <a name="see-also"></a>Vedere anche
 [Impostare codici per servizi standard](service-how-setup-service-coding.md)   
 [Impostare il troubleshooting](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

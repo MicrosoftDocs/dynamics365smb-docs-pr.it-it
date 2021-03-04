@@ -183,3 +183,6 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

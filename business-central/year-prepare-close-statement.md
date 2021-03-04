@@ -38,3 +38,6 @@ Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consent
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
  [Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

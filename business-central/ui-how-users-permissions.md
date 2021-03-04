@@ -157,3 +157,6 @@ Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli uten
 [Amministrazione](admin-setup-and-administration.md)  
 [Aggiungere utenti a Microsoft 365 per le aziende](https://aka.ms/CreateOffice365Users)  
 [Sicurezza e protezione in Business Central (contenuto per amministratori)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

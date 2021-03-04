@@ -40,3 +40,6 @@ L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizio
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

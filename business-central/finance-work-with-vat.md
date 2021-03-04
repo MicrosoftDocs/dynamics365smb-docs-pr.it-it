@@ -182,3 +182,6 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)   
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

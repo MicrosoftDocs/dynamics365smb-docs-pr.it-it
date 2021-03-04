@@ -33,3 +33,6 @@ Per ulteriori informazioni sul blocco del database, consultare [Monitoraggio dei
 ## <a name="see-also"></a>Vedere anche
 
 [Monitorare i blocchi del database](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

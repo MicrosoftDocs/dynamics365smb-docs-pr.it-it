@@ -116,3 +116,6 @@ Sono disponibili tre modi per abilitare la sincronizzazione di dati tra contatti
 [Gestione dei contatti](marketing-contacts.md)  
 [Configurazione dei contatti](marketing-setup-contacts.md)  
 [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

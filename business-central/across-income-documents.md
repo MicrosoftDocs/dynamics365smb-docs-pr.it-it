@@ -49,3 +49,6 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

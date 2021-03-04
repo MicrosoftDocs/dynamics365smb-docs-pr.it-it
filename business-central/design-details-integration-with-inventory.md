@@ -48,3 +48,5 @@ L'area di applicazione Gestione warehouse e l'area di applicazione Magazzino int
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)   
  [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

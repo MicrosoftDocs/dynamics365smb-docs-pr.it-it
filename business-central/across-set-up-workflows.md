@@ -53,3 +53,6 @@ Questo video mostra come impostare un workflow che chiede a qualcuno di richiede
  [Workflow](across-workflow.md)   
  [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

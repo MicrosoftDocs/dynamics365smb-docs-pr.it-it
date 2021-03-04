@@ -43,3 +43,6 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

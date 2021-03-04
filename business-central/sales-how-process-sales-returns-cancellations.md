@@ -228,3 +228,6 @@ In alternativa, eliminare i singoli ordini di reso vendita manualmente.
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

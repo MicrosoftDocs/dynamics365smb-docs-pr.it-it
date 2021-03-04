@@ -39,3 +39,6 @@ Di seguito viene descritto come aggiungere un commento a una scheda articolo. I 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Le azioni che aprono le pagine sono organizzate in nodi che prendono il nome dal
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

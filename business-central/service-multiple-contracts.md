@@ -46,3 +46,6 @@ Quando in una riga di contratto si aggiunge un articolo in assistenza registrato
 ## <a name="see-also"></a>Vedi anche  
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

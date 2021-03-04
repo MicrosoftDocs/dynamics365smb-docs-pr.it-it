@@ -121,3 +121,6 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

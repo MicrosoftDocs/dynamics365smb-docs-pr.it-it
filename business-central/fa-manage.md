@@ -62,3 +62,6 @@ Il video seguente illustra le nozioni di base dei cespiti.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

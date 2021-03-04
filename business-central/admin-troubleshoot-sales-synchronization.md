@@ -62,3 +62,6 @@ Quando qualcosa va storto nell'integrazione ed è necessario annullare l'associa
 [Impostare una connessione a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Visualizzare lo stato di una sincronizzazione](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

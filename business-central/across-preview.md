@@ -101,3 +101,6 @@ L'amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] e il partner 
 [Preparazione degli ambienti dimostrativi (come partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

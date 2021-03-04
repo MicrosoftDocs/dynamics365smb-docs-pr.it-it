@@ -126,3 +126,6 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, imm
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostare condizioni interessi finanziari](finance-setup-finance-charges.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

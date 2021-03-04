@@ -232,3 +232,6 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
  [Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

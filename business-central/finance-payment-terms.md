@@ -47,3 +47,6 @@ Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

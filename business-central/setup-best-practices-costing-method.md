@@ -38,3 +38,6 @@ Il **Metodo di costing** sulla scheda articolo definisce come viene registrato i
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
  [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

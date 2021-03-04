@@ -37,3 +37,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Fornitura dell'assistenza](service-deliver-service.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

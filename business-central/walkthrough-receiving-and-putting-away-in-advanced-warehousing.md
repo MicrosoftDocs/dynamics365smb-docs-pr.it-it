@@ -161,3 +161,6 @@ Nella pagina **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

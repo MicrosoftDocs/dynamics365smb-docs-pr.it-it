@@ -68,3 +68,6 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 [Finanze](finance.md)  
 [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Le prime versioni di [!INCLUDE[prod_short](includes/prod_short.md)] (locale) inc
 [Domande frequenti sulle esperienze di sviluppatori e professionisti IT](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

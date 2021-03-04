@@ -99,3 +99,6 @@ Una nota di credito di assistenza viene in genere utilizzata quando un cliente r
 [Registrare le fatture di assistenza](service-how-to-post-service-orders.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Registrazione di assistenza](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

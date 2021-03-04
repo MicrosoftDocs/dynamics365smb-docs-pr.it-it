@@ -263,3 +263,6 @@ regole di collegamento normali
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

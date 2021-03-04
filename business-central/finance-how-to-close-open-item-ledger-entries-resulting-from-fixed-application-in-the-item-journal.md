@@ -46,3 +46,6 @@ La seguente procedura illustra come chiudere tali movimenti con due registrazion
 [Impostazione della valutazione magazzino e i costi](finance-set-up-inventory-valuation-and-costing.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

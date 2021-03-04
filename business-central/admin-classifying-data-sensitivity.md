@@ -50,3 +50,6 @@ Ad esempio, il foglio di lavoro di classificazione di dati consente di eseguire 
 ## <a name="see-also"></a>Vedi anche
 
 [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -29,3 +29,6 @@ Questa documentazione fornisce informazioni tecniche dettagliate sui concetti e 
 
 ## <a name="see-also"></a>Vedi anche  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

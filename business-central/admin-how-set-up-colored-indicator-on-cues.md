@@ -64,3 +64,6 @@ Per impostare l'indicatore, specificare fino a due valori di soglia che definisc
     |**Subordinato**|Grigio|  
 
 ## <a name="see-also"></a>Vedere anche
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

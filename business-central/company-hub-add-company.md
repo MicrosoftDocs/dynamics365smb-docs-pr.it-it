@@ -47,3 +47,6 @@ Quando sono stati aggiunti gli ambienti, le società vengono visualizzate automa
 
 [Gestire il lavoro tra più aziende nell'hub aziendale](company-hub.md)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

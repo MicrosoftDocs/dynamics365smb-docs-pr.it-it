@@ -62,3 +62,6 @@ Quando vengono registrate parti di una quantità di una riga documento, solo que
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)   
  [Dettagli di progettazione: Pagina righe tracciabilità articolo](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

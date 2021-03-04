@@ -76,3 +76,6 @@ Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinen
 [Utilizzo di Business Central](ui-work-product.md)  
 [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

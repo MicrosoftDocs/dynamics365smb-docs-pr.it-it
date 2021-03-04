@@ -45,3 +45,6 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Struttura di regi
 
 ## <a name="see-also"></a>Vedere anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

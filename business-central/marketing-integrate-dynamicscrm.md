@@ -106,3 +106,6 @@ Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[pro
 [Panoramica di Sales e dell'Hub delle vendite](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

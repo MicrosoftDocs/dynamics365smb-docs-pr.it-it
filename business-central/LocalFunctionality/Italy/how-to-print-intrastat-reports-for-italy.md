@@ -49,3 +49,6 @@ Sono disponibili i seguenti report Intrastat:
 
 ## <a name="see-also"></a>Vedere anche  
  [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

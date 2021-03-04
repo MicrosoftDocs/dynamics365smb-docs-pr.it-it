@@ -99,3 +99,6 @@ La seguente procedura è basata su un ordine di vendita.
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

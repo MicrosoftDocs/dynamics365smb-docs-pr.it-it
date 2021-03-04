@@ -38,3 +38,6 @@ Per indicare i pagamenti di stipendio e le transazioni correlate, è necessario 
 [Finanze](finance.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

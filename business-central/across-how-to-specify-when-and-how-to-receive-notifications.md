@@ -66,3 +66,6 @@ Quando si impostano gli utenti nei workflow di approvazione, è necessario speci
  [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

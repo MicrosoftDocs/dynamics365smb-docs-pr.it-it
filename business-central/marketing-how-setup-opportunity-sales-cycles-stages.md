@@ -66,3 +66,6 @@ Se si è impostato un task, è possibile assegnarlo a una opportunità di vendit
 [Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

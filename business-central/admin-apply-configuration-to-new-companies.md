@@ -33,3 +33,6 @@ Dopo avere creato un pacchetto di configurazione, il passaggio successivo consis
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

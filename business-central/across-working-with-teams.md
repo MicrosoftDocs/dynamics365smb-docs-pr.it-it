@@ -94,3 +94,6 @@ Per ulteriori informazioni sull'utilizzo delle schede e sui dettagli delle sched
 [Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
