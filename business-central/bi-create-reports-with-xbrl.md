@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382631"
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
 XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata. L'iniziativa XBRL abilita il reporting finanziario globale da parte di numerose società che producono software ERP e organizzazioni contabili internazionali. L'obiettivo dell'iniziativa consiste nel fornire uno standard per il reporting uniforme delle informazioni finanziarie per banche, investitori e autorità governative. Tali funzionalità di reporting possono includere:  
@@ -27,7 +27,12 @@ XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basa
  • Informazioni non finanziarie  
  • Archiviazioni normative, quali i rendiconti finanziari annuali e trimestrali  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] consente alle società di implementare i dati in XBRL e utilizzare la flessibilità e l'automazione fornite per la raccolta e la condivisione dei dati.  
+> [!NOTE]
+> È possibile importare schemi correlati alla contabilità generale e creare documenti di istanza XBRL mappando i dati C/G dal piano dei conti agli elementi di tassonomie progettati per i report finanziari, come conti patrimoniali, conti economici e così via.
+> 
+> Le funzionalità XBRL in Business Central supportano le tassonomie per la Specifica 2.1. Le tassonomie potrebbero tuttavia contenere elementi non supportati, come basi di collegamento delle formule, iXBRL, o avere altre differenze strutturali. Si consiglia di convalidare la funzionalità XBRL prima di utilizzarla per la creazione di report.
+> 
+> Il supporto completo per le tassonomie potrebbe richiedere strumenti e tag XBRL di terze parti. L'organizzazione XBRL International dispone di un elenco di strumenti e servizi che è possibile utilizzare per la creazione di report XBRL. A seconda dei requisiti di creazione di report XBRL per una determinata tassonomia, potrebbe essere necessario esplorare tali risorse. Per ulteriori informazioni, vedi la pagina di [introduzione per le aziende](https://go.microsoft.com/fwlink/?linkid=2153466) e [Strumenti e servizi](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) è un linguaggio XML utilizzato per la creazione di rendiconti finanziari. Esso fornisce uno standard uniforme per la stesura di report utilizzato da tutti gli utenti che forniscono informazioni finanziarie, ad esempio società private e pubbliche, commercialisti, autorità di regolamentazione, analisti finanziari, investitori, operatori finanziari e finanziatori, nonché terze parti che svolgono un ruolo chiave, quali sviluppatori di software e analisti di dati.  

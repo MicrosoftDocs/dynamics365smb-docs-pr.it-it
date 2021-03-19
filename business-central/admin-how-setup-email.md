@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752752"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470439"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 
 |Estensione  |Descrizione  |Esempi di quando utilizzare  |
 |---------|---------|---------|
-|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Utente corrente**|Tutti inviano e-mail dall'account utilizzato per accedere a [!INCLUDE[prod_short](includes/prod_short.md)].|Consentire comunicazioni da singoli account.|
 |**Altro (SMTP)**|Usare il protocollo SMTP per inviare messaggi e-mail.|Consentire le comunicazioni tramite il server di posta SMTP. |
 
@@ -47,7 +47,7 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Impostazioni SMTP precedenti ed estensione Email - Connettore SMTP
-Se stai già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] e hai configurato la posta elettronica tramite la configurazione SMTP precedente, puoi continuare a utilizzare la configurazione in parallelo con l'estensione Email - Connettore SMTP. Quando aggiorniamo [!INCLUDE[prod_short](includes/prod_short.md)] alla versione di rilascio successiva, copiamo le impostazioni SMTP precedenti nell'estensione Email - Connettore SMTP. Quando è pronto, l'amministratore può attivare le funzionalità di posta elettronica avanzata e inizierai a utilizzare l'estensione Email - Connettore SMTP. Per ulteriori informazioni, vedere [Informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Tuttavia, non esiste alcuna sincronizzazione tra l'estensione del connettore SMTP e le impostazioni precedenti. Se modifichi le impostazioni SMTP nell'estensione, devi apportare le stesse modifiche nella configurazione SMTP precedente o viceversa.
+Se stai già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] e hai configurato la posta elettronica tramite la configurazione SMTP precedente, puoi continuare a utilizzare la configurazione in parallelo con l'estensione Email - Connettore SMTP. Quando aggiorniamo [!INCLUDE[prod_short](includes/prod_short.md)] alla versione di rilascio successiva, copiamo le impostazioni SMTP precedenti nell'estensione Email - Connettore SMTP. Quando è pronto, l'amministratore può attivare le funzionalità di posta elettronica avanzata e inizierai a utilizzare l'estensione Email - Connettore SMTP. Per ulteriori informazioni, vedere [Informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Tuttavia, non esiste alcuna sincronizzazione tra l'estensione del connettore SMTP e le impostazioni precedenti. Se modifichi le impostazioni SMTP nell'estensione, devi apportare le stesse modifiche nella configurazione SMTP precedente o viceversa.
 
 > [!NOTE]
 > Se disponi di personalizzazioni che si basano sulla configurazione di posta elettronica SMTP precedente, è possibile che si abbiano dei problemi con le personalizzazioni se inizi a utilizzare le estensioni di posta elettronica. Si consiglia di configurare e testare le estensioni prima di attivare l'opzione per le funzionalità di posta elettronica avanzate.
@@ -157,7 +157,7 @@ I passaggi per registrare [!INCLUDE[prod_short](includes/prod_short.md)] nel por
 > * URI di reindirizzamento (facoltativo)
 > * Segreto client
 
-Per le linee guida generali per la registrazione di un'app, vedere [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app.md). 
+Per le linee guida generali per la registrazione di un'app, vedere [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app
 Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizzare la guida al setup assistito **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.

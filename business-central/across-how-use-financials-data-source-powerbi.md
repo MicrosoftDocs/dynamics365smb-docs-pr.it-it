@@ -3,19 +3,19 @@ title: Creazione di report in Power BI Desktop per visualizzare i dati di Busine
 description: Rendere disponibili i dati come origine di dati in Power BI e sviluppare report efficaci dello stato dell'attività.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384176"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -99,7 +99,7 @@ Prima di creare il report, è consigliabile scaricare e importare il file del te
 
 Il file del tema è disponibile come file json nella raccolta dei temi di Microsoft Power BI Community. Per scaricare il file del tema, procedere nel seguente modo:
 
-1. Andare a [Raccolta dei temi di Microsoft Power BI Community per Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+1. Andare alla [raccolta dei temi di Microsoft Power BI Community per Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Selezionare l'allegato **Microsoft Dynamics Business Central.json** del download.
 
 ### <a name="import-the-theme-on-a-report"></a>Importare il tema in un report

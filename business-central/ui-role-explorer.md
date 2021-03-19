@@ -3,19 +3,19 @@ title: Esplorazione e navigazione delle pagine per ruolo | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756695"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470314"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Ricerca di pagine con Esplora ruoli
 È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli. Nella seguente documentazione questa panoramica delle funzionalità viene definita come *Esplora ruoli*.
@@ -39,7 +39,9 @@ Le azioni che aprono le pagine sono organizzate in nodi che prendono il nome dal
 
 - Per espandere/comprimere un nodo, selezionare il nodo. Questa azione viene applicata ai nodi di livello principale e ai nodi secondari.
 - Per espandere/comprimere tutti i nodi di livello principale nella pagina, selezionare l'azione **Espandi** o **Comprimi** nell'angolo in alto a destra.
-- Per espandere/comprimere un nodo di livello principale e tutti i relativi nodi secondari, premere i tasti CTRL+MAIUSC mentre si sceglie l'azione **Espandi** o **Comprimi** nell'angolo in alto a destra.
+- Per espandere/comprimere tutti i nodi di livello superiore e tutti i nodi secondari sottostanti, effettuare uno dei seguenti passaggi:
+    - Premere i tasti CTRL+MAIUSC mentre si sceglie l'azione **Espandi** o **Comprimi** nell'angolo superiore destro.
+    - Scegliere **...** nell'angolo superiore destro, quindi scegli l'azione **Espandi tutto** o **Comprimi tutto**.
 
 ## <a name="see-also"></a>Vedere anche
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  

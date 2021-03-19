@@ -3,19 +3,19 @@ title: 'Procedura dettagliata: Tracciabilità dei numeri seriali/lotto | Documen
 description: Questo argomento descrive le azioni da intraprendere per interrompere la vendita di un articolo difettoso.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385726"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
@@ -25,7 +25,7 @@ In caso di prodotti difettosi, è necessario identificare gli errori e impedire 
 
 Il primo task della gestione dei difetti consiste nell'identificare la provenienza degli articoli difettosi e le ubicazioni in cui sono stati utilizzati. Questa analisi è basata su dati storici e può essere semplificata svolgendo ricerche tra i movimenti di tracciabilità articoli nella pagina **Tracciabilità articolo**.  
 
-Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina ****. È possibile utilizzare la funzione Trova movimenti per individuare tutti i tipi di record di database.  
+Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina **Trova movimenti**. È possibile utilizzare la funzione Trova movimenti per individuare tutti i tipi di record di database.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 

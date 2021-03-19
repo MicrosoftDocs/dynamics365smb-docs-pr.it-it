@@ -3,17 +3,17 @@ title: Inviare avvisi normativi | Microsoft Docs
 description: Se si ritiene che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, è possibile utilizzare questa guida per inviare un avviso normativo al team di prodotto.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380358"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 
@@ -52,7 +52,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
         |Description  | Immettere una breve sintesi della legge. La descrizione deve riguardare i problemi pertinenti alla pianificazione delle risorse aziendali (ERP), in modo che gli utenti possano comprendere i requisiti senza dover dapprima leggere la legislazione.|
         |Paese  | Specificare il paese o la l'area geografica a cui la legislazione si applica.|
         |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico**, **Vendita al dettaglio** o **Produzione**.|
-        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sul sito CustomerSource. |
+        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://docs.microsoft.com/dynamics/s-e/) sul sito CustomerSource. |
         |Data imposta per legge  | Specificare la data a partire dalla quale i clienti interessati devono conformarsi alla legge.|
         |Data annuncio governativo  | Specificare la data in cui l'autorità ha annunciato la modifica.|
         |Data ultima registrazione  | Selezionare il termine ultimo per il primo invio del nuovo report o del report modificato.|

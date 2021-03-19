@@ -3,19 +3,19 @@ title: Impostazione dei processi di gestione assistenza | Documenti Microsoft
 description: Informazioni su come impostare i processi che consentono di assicurarsi che i clienti siano soddisfatti del servizio di assistenza clienti.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f132b6595038aabfdc37a6408175a5780b4be0f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7466685a55ac8a5e9eea4bb6fa7eadcc4b6d1155
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913023"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391676"
 ---
 # <a name="configure-service-processes"></a>Configurazione dei processi di assistenza
 Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile applicare ai processi di gestione assistenza:  

@@ -3,19 +3,19 @@ title: Tasti di scelta rapida
 description: Elenco completo dei tasti di scelta rapida per utilizzare in modo efficiente i dati.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746118"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470489"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -56,7 +56,6 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
 |ALT+T|Aprire la pagina **Impostazioni personali**.|
 |ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit](media/assist-edit-icon.png "Pulsante AssistEdit"). Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
-|Shift+F12|Aprire Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).|
 |CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
 |CTRL+ALT+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |CTRL+C |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|
@@ -213,6 +212,18 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |CTRL++|Ingrandire la pagina corrente.|  
 |CTRL+-|Ridurre la pagina corrente.|  
 |CTRL+0|Ingrandire o ridurre del 100% la pagina corrente.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Tasti di scelta rapida per Esplora ruoli
+
+Esplora ruoli offre una panoramica e l'accesso rapido a tutte le funzionalità aziendali disponibili per un specifico ruolo. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
+
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|--------------------------------|----------|
+|Shift+F12|Aprire Esplora ruoli.|
+|F3|Aprire la casella **Trova** in Esplora ruoli per trovare funzioni in base a una parola o un termine di ricerca specifico.|
+|F3 o CTRL+Freccia GIÙ|Spostare lo stato attivo sulla successiva funzionalità trovata in Esplora ruoli. F3 sposterà lo stato attivo sulla casella **Trova** dopo l'ultima funzionalità trovata.|
+|MAIUSC F3 o CTRL + Freccia SU|Spostare lo stato attivo sulla precedente funzionalità trovata in Esplora ruoli.|
+|CTRL+MAIUSC|Espandere o comprimere tutti i nodi secondari, oltre ai nodi di livello principale, quando si sceglie l'azione **Espandi** o **Comprimi**.|
 
 ## <a name="see-also"></a>Vedere anche
 

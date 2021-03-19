@@ -3,18 +3,18 @@ title: Risoluzione dei problemi relativi all'iscrizione self-service | Documenti
 description: Informazioni sui motivi più comuni per cui non è possibile completare l'iscrizione a Business Central e soluzioni al problema.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbfd647bd2a121d3851ff07bf11e5c3d7f689588
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52cdc0f2c2f25f35944b3437369c0e5b7eaf0e96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388751"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Risoluzione dei problemi relativi all'iscrizione self-service
 L'iscrizione a [!INCLUDE[prod_short](includes/prod_short.md)] è facile e può essere effettuata molto rapidamente. È possibile creare un account gratuito anche se si è un'organizzazione esistente. Questo articolo illustra i problemi che è possibile incontrare durante l'iscrizione.

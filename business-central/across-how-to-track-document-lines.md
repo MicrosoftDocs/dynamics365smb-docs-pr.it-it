@@ -3,19 +3,19 @@ title: Come tenere traccia di righe ordine correlate a documenti | Documenti Mic
 description: È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5cb802e98c44f9049ec6774b1cc2045b94c46f47
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754644"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384251"
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
 È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.  

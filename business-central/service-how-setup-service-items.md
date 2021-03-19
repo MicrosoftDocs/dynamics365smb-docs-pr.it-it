@@ -3,19 +3,19 @@ title: Impostare gli articoli in assistenza e i componenti degli articoli in ass
 description: Informazioni sulle impostazioni da eseguire prima di poter utilizzare gli articoli di assistenza, inclusi i valori di default, ad esempio il tempo di risposta, la percentuale di sconto contrattuale e il gruppo dei prezzi di assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32b2bdd94a9848e990c59284963d34c64cb2af8e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 973edb068ee23cb4584aa9f1d76a85fd3cd95809
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910257"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376714"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
 Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue

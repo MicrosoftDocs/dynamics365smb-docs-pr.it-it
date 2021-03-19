@@ -3,19 +3,19 @@ title: Informazioni sulle modalità di registrazione dei documenti di acquisto |
 description: Informazioni sulle diverse funzioni di registrazione per registrare documenti di acquisto e sul modo in cui aggiornare documenti registrati.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 78657265e45aa9eb01d56a65aab8366c24b3d39a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d17cc4e9b27e5f2a20fd9543aec3e9f8bbe32a0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756744"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392501"
 ---
 # <a name="posting-purchases"></a>Registrazione di acquisti
 In un documento di acquisto, è possibile scegliere tra le seguenti azioni di registrazione:

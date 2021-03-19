@@ -1,23 +1,23 @@
 ---
-title: Informazioni sull'impostazione dell'IVA | Documenti Microsoft
+title: Impostare l'IVA (imposta sul valore aggiunto)
 description: Assicurarsi di calcolare, registrare e creare report corretti per l'IVA di vendite e acquisti.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 744fdc3748867324a1b9ba88746896956db9c221
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750332"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493066"
 ---
-# <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
+# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Setup dei calcoli e registrazione dei metodi per l'IVA
 
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[prod_short](includes/prod_short.md)], è possibile impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base a quanto segue:
 

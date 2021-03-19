@@ -3,19 +3,19 @@ title: Assegnare numeri seriali e numeri di lotto agli articoli per la tracciabi
 description: È possibile aggiungere i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377575"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Utilizzo dei numeri di serie e di lotto
 È possibile assegnare i numeri di serie e di lotto in qualsiasi documento in entrata o in uscita e visualizzare i relativi movimenti tracciabilità articolo registrati nei movimenti contabili articolo correlati. Eseguire l'operazione nella pagina **Righe tracciabilità articolo**, accessibile da un documento in entrata o in uscita.
@@ -226,9 +226,9 @@ Nel caso in cui sia necessario collegare informazioni speciali a un determinato 
 5. Scegliere l'azione **Commento** per creare un record di commento separato.  
 6. Selezionare la casella di controllo **Bloccato** per escludere il numero seriale o di lotto da tutte le transazioni.  
 
-Se si creano numeri seriali in blocco utilizzando le azioni **Crea SN personalizzato** o **Assegna nr. seriale**, è possibile abilitare **Crea informazioni numero seriale** e verrà creata una scheda informativa per ogni riga di tracciabilità.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-In alternativa è possibile creare una scheda informativa quando si contabilizzano registrazioni o documenti, nella pagina **Codice tracciabilità articolo**, attivare gli interruttori **Crea informazioni numero seriale in registrazione** o **Crea informazioni numero seriale in registrazione**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 È possibile modificare le schede informative seriali o sui lotti create in un secondo momento.
 

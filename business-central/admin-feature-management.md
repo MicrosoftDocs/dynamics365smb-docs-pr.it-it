@@ -3,16 +3,16 @@ title: Abilitazione di funzionalità imminenti in anticipo
 description: Informazioni su come abilitare determinate funzionalità opzionali prima che diventino obbligatorie.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
 ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 5e09c2a07a3259cd44d13b58765f1d522c46d409
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eb4eafe98f0d31e34229edb46282066a37080318
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754001"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378575"
 ---
 # <a name="enabling-upcoming-features-ahead-of-time"></a>Abilitazione di funzionalità imminenti in anticipo
 

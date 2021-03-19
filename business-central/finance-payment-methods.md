@@ -3,19 +3,19 @@ title: Impostare i metodi di pagamento
 description: Utilizzare i metodi di pagamento, ad esempio, assegni, bonifici, contanti o PayPal, per definire le modalità di pagamento di fatture di vendita e di acquisto.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 01/21/2021
 ms.author: bholtorf
-ms.openlocfilehash: 78e754998c7adc871b57347ff0bed714db8cc83f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 7132f96327e468c200ebd1f41c0a1e5b767dea6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376839"
 ---
 # <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 

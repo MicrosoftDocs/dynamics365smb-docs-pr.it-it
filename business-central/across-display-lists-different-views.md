@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c6771cba5d386c8eec5041aa9cb9a7152827ab9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384901"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visualizzazione degli elenchi in modalità differenti
 Nell'angolo destro di qualsiasi elenco di [!INCLUDE[prod_short](includes/prod_short.md)] sono presenti delle icone che consentono di scegliere il tipo di visualizzazione dei record. Un elenco può essere visualizzato come righe dettagliate, soluzione ideale quando si devono utilizzare molti campi o modificare campi nell'elenco. È tuttavia possibile visualizzare i record anche come riquadri: una soluzione più compatta che comporta meno campi sul record specifico. Questa modalità di visualizzazione è molto utile per ottenere una panoramica con più movimenti, soprattutto sui dispositivi più piccoli, in quanto è più compatta e semplifica il tocco.

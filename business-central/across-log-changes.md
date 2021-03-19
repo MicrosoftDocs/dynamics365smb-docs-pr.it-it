@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754344"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470364"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 Una sfida comune in molte applicazioni di gestione aziendale è evitare modifiche indesiderate nei dati. Potrebbe trattarsi di un numero di telefono errato del cliente o di una registrazione errata nella contabilità generale. Questo argomento descrive le funzionalità per scoprire cosa è cambiato, chi l'ha cambiato e quando è stato cambiato.
 
 ## <a name="about-the-change-log"></a>Informazioni sul log modifiche 
 Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. È necessario specificare cosa si desidera venga registrato per ciascuna tabella e campo, quindi attivare il log modifiche.  
+
+La tracciabilità delle modifiche può avere un impatto sulle prestazioni e quindi comportare costi in termini di tempo, nonché aumentare le dimensioni del database e quindi comportare costi in termini di denaro. Per ridurre i costi, tenere in considerazione quanto segue:
+- Prestare attenzione quando si scelgono le tabelle e le operazioni.
+- Non aggiungere movimenti contabili e documenti registrati. Assegnare invece la priorità ai campi di sistema, ad esempio Creato da e Data di creazione.
+- Non utilizzare il tipo di tracciabilità Tutti i campi. Scegliere invece Alcuni campi e tenere traccia solo dei campi più importanti.
 
 Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano tutte le modifiche apportate ai valori dei campi nelle tabelle specificate.
 

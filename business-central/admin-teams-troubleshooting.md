@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385201"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ L'app [!INCLUDE [prod_short](includes/prod_short.md)] non supporta la posizione 
 
 Alcuni browser, come il nuovo Microsoft Edge, consentono di scegliere quale fotocamera del dispositivo utilizzare quando il dispositivo supporta più fotocamere. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>In Teams le schede e i dettagli delle schede sono visualizzati in lingue differenti 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>In Teams le schede e i dettagli delle schede sono visualizzati in lingue differenti
 
 Affinché le schede e i relativi dettagli siano visualizzati in modo coerente nella stessa lingua in Teams, la lingua del client Teams e la lingua utilizzata nel client Web [!INCLUDE [prod_short](includes/prod_short.md)] devono corrispondere.
 
@@ -116,6 +116,21 @@ Per ulteriori informazioni sull'utilizzo delle lingue in Teams e [!INCLUDE [prod
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ho modificato un campo nella finestra dei dettagli, ma la modifica non è stata salvata
 
 Le modifiche apportate a un campo nelle finestre dei dettagli vengono salvate automaticamente quando si esce dal campo. Prima di chiudere la finestra dopo aver modificato un campo, assicurati di premere il tasto TAB o fai clic o tocca fuori dal campo.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Un nuovo riquadro è apparso nell'icona di avvio delle app. Come posso rimuoverlo?
+
+Quando visualizzi le tue app nella Home Page di Office 365 (https://home.office.com) oppure nell'icona di avvio delle app, un nuovo riquadro denominato "Connettore del servizio di integrazione di Business Central in Teams" viene visualizzato dopo l'installazione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams. Questo riquadro non fornisce alcun valore in sé e può essere nascosto in sicurezza.
+
+In qualità di amministratore, con autorizzazioni di amministratore di Azure Active Directory, puoi nascondere il riquadro mediante i seguenti passaggi:
+
+1. Accedi all'[interfaccia di amministrazione di Azure Active Directory](https://aad.portal.azure.com/).
+2. Seleziona **App aziendali**, quindi seleziona **Connettore del servizio di integrazione di Business Central in Teams**.
+3. Seleziona **Proprietà**, quindi imposta **Visibile agli utenti** su **No**.
+4. Seleziona **Salva**.
+
+> [!NOTE]
+> Ci vorrà del tempo prima che questa modifica abbia effetto.
+
 
 ## <a name="see-also"></a>Vedere anche
 

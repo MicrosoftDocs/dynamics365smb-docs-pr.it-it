@@ -3,19 +3,19 @@ title: Chiusura dei periodi contabili per un anno fiscale | Documenti Microsoft
 description: Descrive come chiudere i periodi contabili alla base di un anno fiscale.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6acdc86afc195185f66836bf723c83d4a1647927
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 336c6c8a4596aae26846d6a06091b6f5c4fff970
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386276"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.

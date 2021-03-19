@@ -3,19 +3,19 @@ title: Programmare l'esecuzione automatica di processi
 description: I task programmati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013948"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470264"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
@@ -57,7 +57,7 @@ La tabella seguente descrive i valori del campo **Stato**.
 2. Nella pagina **Movimenti coda processi**, selezionare un movimento coda processi quindi scegliere il l'azione **Movimenti log**.  
 
 > [!TIP]
-> Con [!INCLUDE [prod_short](includes/prod_short.md)] online, è anche possibile visualizzare lo stato dei movimenti coda processi utilizzando Application Insights in Microsoft Azure. Per ulteriori informazioni, vedere [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) nella [!INCLUDE [prod_short](includes/prod_short.md)] Guida per sviluppatori e professionisti IT.
+> Con [!INCLUDE [prod_short](includes/prod_short.md)] online, è anche possibile visualizzare lo stato dei movimenti coda processi utilizzando Application Insights in Microsoft Azure. Per ulteriori informazioni, vedere [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) nel contenuto per [!INCLUDE [prod_short](includes/prod_short.md)] per sviluppatori e amministrazione.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
 La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Per ulteriori informazioni, vedere [Per configurare la registrazione background 
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di Business Central](setup.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

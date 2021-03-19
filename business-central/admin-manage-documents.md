@@ -3,15 +3,15 @@ title: Gestire l'archiviazione eliminando documenti o comprimendo i dati
 description: Informazioni su come conservare i dati storici comprimendo i movimenti contabili o eliminarli.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753869"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493049"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
@@ -47,7 +47,13 @@ Il numero dei movimenti creati da una compressione data dipende dal numero di fi
   In seguito alla compressione, tramite la funzione **Mantieni contenuto campo** è possibile mantenere le informazioni dei campi **Nr. Documento, Cod. Nostro Contatto**, **Cod. Dimens. Globale 1** e **Cod. Dimens. Globale 2**.
 * Movimenti contabili fornitori
 
-  In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
+> [!NOTE]
+> I movimenti compressi per clienti, fornitori, banca e registri secondari cespiti vengono registrati in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
+>* Nella pagina **Movimenti C/G** vengono creati nuovi movimenti con nuovi numeri per i movimenti compressi. Il campo **Descrizione** contiene **Data compressa** in modo da rendere i movimenti compressi facili da identificare. 
+>* Nelle pagine dei movimenti, ad esempio **Movimenti contabili clienti**, vengono creati uno o più movimenti con i nuovi numeri di movimento. 
+> Il processo di registrazione crea interruzioni nella numerazione per i movimenti nella pagina **Movimenti C/G**. Questi numeri vengono assegnati solo ai movimenti nelle pagine dei movimenti contabili. L'intervallo di numeri assegnato ai movimenti è disponibile nella pagina **Registro C/G**, nei campi **Dal nr. movimento** e **Al nr. movimento**. 
+
+In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
 
   Con la funzionalità **Mantieni contenuto campo** è inoltre possibile mantenere anche le informazioni contenute nei campi aggiuntivi seguenti: **Nr. documento**, **Acquistare da - Nr. for.**, **Cod. addetto acq.**, **Cod. dimens. globale 1** e **Cod. dimens. globale 2**.
 

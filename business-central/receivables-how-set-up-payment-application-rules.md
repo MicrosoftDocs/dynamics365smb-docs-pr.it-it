@@ -3,19 +3,19 @@ title: Impostare le regole per il collegamento automatico dei pagamenti
 description: Nella pagina Regole di collegamento pagamenti, si impostano le regole per stabilire in che modo i pagamenti e le transazioni bancarie devono essere collegati automaticamente ai relativi movimenti contabili aperti quando si utilizza la funzione Collega automaticamente nella pagina Registrazione riconciliazione pagamenti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392601"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
@@ -50,8 +50,9 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 |**Parte correlata corrispondente**|Specifica quante informazioni sul cliente o fornitore, ad esempio indirizzo, città e il numero di conto corrente bancario, nella riga di registrazione della riconciliazione di pagamento devono corrispondere alle informazioni sul movimento aperto prima che la regola di collegamento venga utilizzata per collegare automaticamente il pagamento al movimento aperto.|
 |**Nr. doc./nr. doc. est. corrispondente**|Specifica se il testo nella riga di registrazione riconciliazione pagamenti deve corrispondere al valore nel campo **Nr. documento** o nel campo **Nr. documento esterno** nel movimento aperto prima che venga utilizzata la regola di collegamento per collegare automaticamente il pagamento al movimento aperto.|
 |**Importo incl. tolleranza corrispondente**|Specifica quanti movimenti per un cliente o fornitore devono corrispondere all'importo, compresa la tolleranza pagamento, prima che la regola di collegamento sia utilizzata per collegare automaticamente un pagamento al movimento aperto.|
+|**Revisione necessaria**|Specifica se il collegamento dei pagamenti automatico è consigliato per la revisione manuale da parte dell'utente prima della registrazione. Scegliendo il campo **Righe per la revisione** nella pagina **Registrazione collegamenti pagamenti**, viene avviata un'esperienza guidata durante la quale è possibile rivedere con facilità più collegamenti in sequenza nella pagina **Revisione collegamento del pagamento**.|
 
-La seguente tabella mostra quali regole di collegamento del pagamento vengono impostate nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)].
+La tabella seguente descrive le regole di collegamento dei pagamenti standard in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > Le regole di collegamento dei pagamenti possono essere diverse nella propria installazione di [!INCLUDE[prod_short](includes/prod_short.md)].

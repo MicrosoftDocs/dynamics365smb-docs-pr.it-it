@@ -3,17 +3,17 @@ title: Impostare prezzi delle commesse e categorie di registrazione commesse| Do
 description: Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758644"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476772"
 ---
 # <a name="set-up-jobs"></a>Imposta commesse
 
@@ -47,44 +47,31 @@ Se la casella di controllo **Applica collegamento utilizzo per default** è sele
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup commesse** e quindi scegliere il collegamento correlato.
 2. Selezionare la casella di controllo **Applica collegamento utilizzo per default**.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Per impostare i prezzi per le risorse di commessa
-È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la pagina **Prezzi risorse commesse**.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Per impostare i prezzi per risorse, articoli e conti di contabilità generale per le commesse
+> [!NOTE]
+> Nel secondo ciclo di rilascio del 2020 sono stati rilasciati nuovi processi per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+È possibile impostare i prezzi per articoli, risorse e conti di contabilità generale correlati a una commessa. 
+
+#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Risorsa**.
-3. Nella pagina **Prezzi risorse commesse** compilare i campi in base alle esigenze.
+2. Selezionare la commessa, quindi scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
+3. Nelle pagine **Prezzi risorse commesse**, **Prezzi articoli commesse** o **Prezzi conti C/G commesse** compilare i campi come necessario.
 
-Le informazioni opzionali nei campi **Nr. task commessa**, **Tipo di lavoro**, **Codice valuta**, **% sconto riga** e **Fattore costo unitario** verranno visualizzate nelle righe di pianificazione commessa e nelle registrazioni utilizzo quando questa risorsa viene immessa e aggiunta alla commessa.  
+La tabella seguente mostra come le informazioni nei campi facoltativi verranno utilizzate nelle righe di pianificazione commessa e nei giornali di registrazione quando la risorsa, l'articolo o il conto di contabilità generale è stato scelto per la commessa.
 
-Il valore nel campo **Prezzo unitario** per la risorsa verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immessa questa risorsa, una risorsa assegnata al gruppo di risorse, o qualsiasi risorsa.  
+|Colonna1  |Colonna2  |
+|---------|---------|
+|**Risorse commesse**|Campi **Nr. task commessa**, **Tipo di lavoro**, **Cod. valuta**, **% sconto riga** e **Fattore costo unitario**. Il valore nel campo **Prezzo unitario** per la risorsa verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immessa questa risorsa, una risorsa assegnata al gruppo di risorse, o qualsiasi risorsa. Questo prezzo sostituirà sempre qualsiasi prezzo impostato nella pagina **Prezzi risorse/Prezzo gruppo risorse**.|
+|**Articoli commessa**|Campi **Nr. task commessa**, **Cod. valuta** e **% sconto riga**. Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo articolo. Questo prezzo sostituirà sempre il normale prezzo cliente (meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.|
+|**Conti di contabilità generale**|Le informazioni nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto di contabilità generale verrà immesso o aggiunto a una commessa. Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo conto C/G.|
 
-> [!NOTE]  
->   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella pagina **Prezzi risorse/Prezzo gruppo risorse**.
-
-## <a name="to-set-up-prices-for-job-items"></a>Per impostare i prezzi per gli articoli di commessa
-È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la pagina **Prezzi articoli commesse**.
-
+---
+#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Articolo**.
-3. Nella pagina **Prezzi articoli commesse** compilare i campi in base alle esigenze.
+2. Selezionare la relativa commessa, quindi scegliere l'azione **Listini prezzi di vendita**.
 
-Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta** e **% sconto riga** verranno utilizzati nelle righe di pianificazione commessa e nelle registrazioni commesse quando questo articolo verrà immesso o aggiunto alla commessa.  
-
-Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo articolo.  
-
-> [!NOTE]  
->   Questo prezzo sostituisce sempre il normale prezzo cliente (il meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Per impostare i prezzi dei conti di contabilità generale delle commesse
-È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la pagina **Prezzi conti C/G commesse**.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Conto C/G**.  
-3. Nella pagina **Prezzi conti C/G commesse** compilare i campi in base alle esigenze.
-
-Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto C/G verrà immesso o aggiunto a una commessa.  
-
-Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo conto C/G.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Per impostare le categorie di registrazione commesse
 Un aspetto della pianificazione delle commesse è decidere quali conti di registrazione utilizzare per il calcolo dei costi. Perché sia possibile registrare commesse, è necessario impostare conti per la registrazione di ciascuna categoria di registrazione commessa. La categoria di registrazione rappresenta un collegamento tra la commessa e come deve essere considerata nella contabilità generale. Quando si crea una commessa, si specifica una categoria di registrazione e, per default, ogni task creato per la commessa viene associato a tale categoria di registrazione. Tuttavia, quando si creano i task, è possibile sostituire l'impostazione di default e selezionare una categoria di registrazione più appropriata.  

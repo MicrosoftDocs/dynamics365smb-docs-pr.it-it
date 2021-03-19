@@ -1,21 +1,21 @@
 ---
-title: Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale| Documenti Microsoft
-description: Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori.
+title: Utilizzo delle registrazioni COGE per registrare direttamente in contabilità generale
+description: Informazioni su come è possibile utilizzare le registrazioni per la contabilizzazione nei conti C/G e in altri conti delle transazioni finanziarie, ad esempio i conti correnti bancari e i conti fornitori. Utilizzare le registrazioni periodiche per contabilizzare i ratei e allocare i saldi per valori di dimensione.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393601"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -74,24 +74,27 @@ Se sono stati impostati conti di contropartita di default per i batch di registr
 >   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
 
 ## <a name="working-with-recurring-journals"></a>Utilizzo delle registrazioni periodiche
-Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Utilizzando registrazioni periodiche, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che i conti, le dimensioni, i valori dimensioni e così via, immessi nei campi rimarranno nelle registrazioni dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
 
 ### <a name="recurring-method-field"></a>Campo Metodo ricorrenza
+
 Questo campo consente di determinare in che modo verrà considerato l'importo specificato nella riga delle registrazioni dopo la contabilizzazione. Se ad esempio si utilizza il medesimo importo per ogni registrazione, l'importo risulta invariato. Se nella riga vengono utilizzati i medesimi conti e testo e l'importo varia a ogni registrazione, sarà possibile eliminare l'importo dopo la registrazione.
 
 | A | Vedere |
 | --- | --- |
-|Fisso|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione.|
-|Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione.|
-|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni**. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Storno Costante|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
-|Storno Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
-|Storno Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella pagina **Allocazioni**. Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
+|F Fisso|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione.|
+|V Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione.|
+|S Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni**. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](#allocating-recurring-journal-amounts-to-several-accounts).|
+|SC Storno costante|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
+|SV Storno variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
+|SS Storno saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella pagina **Allocazioni**. Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
+|SD Saldo per dimensioni|La riga di registrazione alloca i costi in base al saldo di un conto C/G per dimensioni. Verrà richiesto di impostare i filtri di dimensione da utilizzare per calcolare il saldo del conto C/G di origine per dimensioni da cui si desidera allocare i costi. In alternativa, scegliere l'azione **Imposta filtri dimensione** in un secondo momento.|
+|SSD Storno saldo per dimensioni|La riga di registrazione alloca i costi in base allo storno saldo di un conto C/G per dimensioni. Verrà richiesto di impostare i filtri di dimensione da utilizzare per calcolare il saldo del conto C/G di origine per dimensioni da cui si desidera allocare i costi. In alternativa, scegliere l'azione **Imposta filtri dimensione** in un secondo momento.|
 
 > [!NOTE]  
->  È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella pagina **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
+> È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella pagina **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
 
 ### <a name="recurring-frequency-field"></a>Campo Frequenza ricorrenza
 Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ L'utilizzo di questo campo risulta vantaggioso poiché la riga non viene elimina
 Se il campo rimane vuoto, la riga viene contabilizzata ogni volta che si effettuerà una registrazione fino a quando non verrà eliminata dalle registrazioni.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Allocare importi di registrazioni periodiche a vari conti
+
 Nella pagina **Reg. periodiche generali**, è possibile scegliere l'azione **Allocazioni** per visualizzare o gestire il modo in cui gli importi nella riga delle registrazioni ricorrenti sono allocati a vari conti e dimensioni. Da notare che un'allocazione è una riga delle registrazioni periodiche nella riga di contropartita.
 
 È sufficiente immettere un'allocazione una sola volta, esattamente come nelle registrazioni periodiche. Poiché dopo la contabilizzazione l'allocazione verrà conservata nelle registrazioni di allocazione, non è necessario immettere gli importi e le allocazioni a ogni contabilizzazione della riga delle registrazioni periodiche.
 
-Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo** o **Saldo a pareggio**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella pagina **Allocazioni**, sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella pagina **Allocazioni**. In caso contrario, i valori dimensioni non risulteranno corretti.
+Se il *metodo ricorrente* nelle registrazioni periodiche viene impostato su **Saldo** o **Storno saldo**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella pagina **Allocazioni**, sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella pagina **Allocazioni**. In caso contrario, i valori dimensioni non risulteranno corretti.  
+
+Per allocare gli importi di registrazioni periodiche in base alle dimensioni, impostare il campo **Metodo ricorrente** su **Saldo per dimensioni** o **Storno saldo per dimensioni**. Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo per dimensioni** o **Storno saldo per dimensioni**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene considerato quando il conto risulta uguale a zero. Se si assegna pertanto una riga ricorrente a vari valori di dimensione nella pagina **Allocazioni**, viene creato un numero di movimenti di storno corrispondente al numero di combinazioni di valori di dimensione di cui è composto il saldo. Se si alloca il saldo del conto tramite la registrazione ricorrente che contiene un codice valore di dimensioni, ricordarsi di utilizzare **Saldo per dimensioni** o **Storno saldo per dimensioni** per assicurarsi che i valori delle dimensioni siano correttamente messe in saldo o stornate dal conto di origine.  
+
+Si supponga ad esempio che una società disponga di un paio di Business Unit e alcuni reparti che i controller hanno impostato come dimensioni. Per velocizzare il processo di immissione delle fatture di acquisto, si decide di richiedere agli addetti alla contabilità fornitori di immettere solo le dimensioni della Business Unit. Poiché ogni Business Unit dispone di chiavi di allocazione specifiche per la dimensione Reparto, ad esempio in base al numero di dipendenti, è possibile utilizzare il metodo ricorrente **SD Saldo per dimensioni** o **SSD Storno saldo per dimensioni** per riallocare le spese per ciascuna Business Unit ai reparti appropriati in base alle chiavi di allocazione.  
+
+> [!NOTE]
+> Le dimensioni impostate nelle righe di allocazione non vengono calcolate automaticamente ed è necessario specificare quali valori di dimensioni devono essere impostati nei conti di allocazione. Qualora si desideri mantenere il collegamento tra la dimensione del conto di origine e la dimensione del conto di allocazione, è consigliabile utilizzare le funzionalità di [contabilità industriale](finance-about-cost-accounting.md).
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
 l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle pagina **Allocazioni**, è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
@@ -167,7 +178,7 @@ Al termine del salvataggio della registrazione magazzino standard, viene visuali
 
     La registrazione di magazzino sarà ora completata con le righe salvate come registrazione di magazzino standard. Se nella registrazione di magazzino erano già presenti righe di registrazione, le righe inserite verranno posizionate sotto le righe di registrazione esistenti.
 
-    Se non si è selezionato il campo **Salva importo unitario** quando si è utilizzato il processo della funzione **Salva come registrazioni magazzino standard**, il campo **Importo unitario** delle righe inserite dalle registrazioni standard viene automaticamente completato con il valore corrente dell'articolo, copiato dal campo **Costo unitario** della scheda articolo.
+    Se non è stato selezionato il campo **Salva importo unitario** al momento dell'utilizzo del processo della funzione **Salva come registrazioni magazzino standard**, il campo **Importo unitario** delle righe inserite dalle registrazioni standard viene automaticamente completato con il valore corrente dell'articolo, copiato dal campo **Costo unitario** della scheda articolo.
 
     > [!NOTE]  
     >   in caso di selezione dei campi **Salva Importo Unitario** o **Salva Quantità**, è opportuno assicurarsi che i valori inseriti siano corretti per la rettifica di magazzino specifica prima di contabilizzare la registrazione di magazzino.
