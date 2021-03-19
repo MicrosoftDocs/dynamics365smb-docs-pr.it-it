@@ -3,23 +3,23 @@ title: Passare a un'altra società o ambiente | Microsoft Docs
 description: Se si lavora per più organizzazioni, è possibile passare rapidamente tra ambienti e società.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760419"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573453"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passare a un'altra società o ambiente
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Se spesso si passa da una società all'altra, può essere facile perdere la cognizione di dove ci si trova. Per sapere dove ci si trova, è possibile aggiungere un badge che visualizzerà il nome dell'azienda, in modo da poter verificare rapidamente di essere nel posto giusto. Per ulteriori informazioni vedere [Per visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Se si passa spesso da una società all'altra o si lavora con [!INCLUDE[prod_short](includes/prod_short.md)] dall'interno di un'altra app, ad esempio Microsoft Teams, può essere facile perdere la cognizione di dove ci si trova. Per sapere dove ci si trova, è possibile aggiungere un badge che visualizzerà il nome della società, in modo da poter verificare rapidamente di essere nel posto giusto. Per ulteriori informazioni vedere [Per visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Passare a un altro ambiente
 

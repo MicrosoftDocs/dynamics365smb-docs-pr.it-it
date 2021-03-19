@@ -1,21 +1,21 @@
 ---
-title: Creare una scheda cliente per registrare un nuovo cliente | Documenti Microsoft
+title: Registrare nuovi clienti creando una scheda cliente
 description: Descrive come creare una scheda cliente per registrare informazioni su ogni nuovo cliente a cui sono rivolte le vendite.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748321"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573428"
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
 
@@ -64,6 +64,29 @@ Il modello cliente viene aggiunto all'elenco dei modelli cliente, in modo che si
 
 Se è stata registrata una transazione per un cliente, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo. Per eliminare le schede cliente con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
+## <a name="managing-credit-limits"></a>Gestione dei limiti di credito
+
+Limiti di credito, importi saldo e condizioni di pagamento consentono a [!INCLUDE [prod_short](includes/prod_short.md)] di visualizzare automaticamente un avviso relativo a credito e oltre fido quando viene immesso un ordine di vendita.  Le funzionalità relative a condizioni di sollecito e condizioni degli interessi finanziari permettono inoltre di fatturare interessi e/o oneri addizionali.  
+
+Il campo **Limite credito** in una scheda cliente specifica l'importo massimo che si consente al cliente di superare rispetto al saldo pagamenti prima che vengano emessi degli avvisi. Quando si immettono quindi informazioni in registrazioni, offerte, ordini e fatture, [!INCLUDE [prod_short](includes/prod_short.md)] controlla la testata di vendita e le singole righe di vendita per verificare se il limite di credito è stato superato.
+
+È possibile eseguire la registrazione anche se il limite di credito è stato superato. Se il campo rimane vuoto, non sarà presente alcun limite di credito per il cliente.  
+
+È possibile scegliere di non ricevere avvisi che informano in merito al superamento del limite di credito di un cliente e specificare i tipi di avviso che si desidera visualizzare.
+
+### <a name="to-specify-credit-limit-warnings"></a>Per specificare gli avvisi sui limiti di credito
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** e quindi scegliere il collegamento correlato.
+
+2. Sulla Scheda dettaglio **Generale**, nel campo **Avvisi credito** selezionare l'opzione pertinente come descritto nella tabella seguente:
+
+    |Opzione| Descrizione|
+    |------|------------|
+    |**Entr. avvisi**| Entrambi i campi **Limite credito** e **Scaduto** nella scheda del cliente vengono controllati e viene visualizzato un avviso che informa se il cliente ha superato il proprio limite di credito o ha un oltre fido.|
+    |**Limite credito**|Il valore contenuto nel campo **Limite credito** della scheda del cliente viene confrontato con il saldo del cliente e viene visualizzato un avviso che informa se il saldo del cliente supera questo importo.|
+    |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
+    |**Nessun Avviso**|Nessun avviso viene visualizzato sullo stato del cliente.|
+
 ## <a name="see-also"></a>Vedere anche
 
 [Definizione dei metodi di pagamento](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Se è stata registrata una transazione per un cliente, non è possibile eliminar
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

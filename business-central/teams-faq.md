@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068436"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573378"
 ---
 # <a name="teams-faq"></a>Domande frequenti su Teams
 
@@ -50,7 +50,6 @@ L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams non è limita
 Sì. L'app è progettata per funzionare con qualsiasi localizzazione di [!INCLUDE [prod_short.md](includes/prod_short.md)], indipendentemente dal fatto che la localizzazione sia offerta direttamente da Microsoft o tramite un partner. Per ulteriori informazioni vedere [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Quali lingue sono supportate dall'app [!INCLUDE [prod_short.md](includes/prod_short.md)]?
-<!--TODO Run by Mike -->
 
 Due cose determinano la lingua utilizzata per le schede e i dettagli delle schede in Teams:
 
@@ -66,15 +65,19 @@ Nella tabella seguente viene descritto come l'esperienza differisce per autori e
 
 Per l'elenco delle lingue supportate per [!INCLUDE [prod_short.md](includes/prod_short.md)], vedi [Lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>L'app Business Central funziona con le soluzioni del settore?
+
+Sì. L'app funziona con collegamenti basati sul modello **\*. bc.dynamics.com** tipicamente utilizzato con [app Embed](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Dove posso trovare l'integrazione di Teams nel client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Al momento non è disponibile l'incorporamento di controlli Teams o la presenza di funzionalità di Teams nel client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)] o in altri client.  
+Al momento non è disponibile l'incorporamento di controlli Teams o la presenza di funzionalità di Teams nel client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)] o in altri client.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] è utilizzabile con l'app per dispositivi mobili Teams?
 
 Sì. L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] può essere installata dall'app desktop o dal browser di Teams o da un amministratore per tutti gli utenti. Una volta installata, l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] è automaticamente disponibile in Teams per iOS e Android. Nei dispositivi mobili, puoi visualizzare le schede inviate da altri, accedere ai dettagli o visualizzare la scheda per un'esperienza completa nell'app per dispositivi mobili [!INCLUDE [prod_short.md](includes/prod_short.md)]. Tuttavia, non puoi incollare collegamenti che si espandono nelle schede durante la composizione dei messaggi. Per i requisiti minimi per i dispositivi mobili, vedi [Requisiti minimi per l'utilizzo di Business Central](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams è uguale all'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per iOS e Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams è uguale all'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per iOS e Android?
 
 No. L'app per Teams è un componente aggiuntivo di Microsoft Teams ed è progettata esclusivamente per esperienze collaborative in Teams. Inoltre, l'app per dispositivi mobili [!INCLUDE [prod_short.md](includes/prod_short.md)] offre un'esperienza completa per l'utilizzo dei dati di [!INCLUDE [prod_short.md](includes/prod_short.md)] nei dispositivi mobili.
 
@@ -108,13 +111,26 @@ L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams può visualiz
 
 I campi visualizzati in una scheda di Teams possono essere modificati dalle personalizzazioni di [!INCLUDE [prod_short.md](includes/prod_short.md)] installate per l'organizzazione. Le schede non considerano alcuna personalizzazione specifica del ruolo o personalizzazione dell'utente. Tuttavia, la finestra dei dettagli di una scheda mostra i dettagli dei record come visualizzati in [!INCLUDE [prod_short.md](includes/prod_short.md)], comprese eventuali estensioni, personalizzazioni dei ruoli e personalizzazione dell'utente.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>In che modo le autorizzazioni richieste dall'app influiscono sulla privacy?
+
+Prima di installare l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams, è possibile rivedere le autorizzazioni minime necessarie per il funzionamento dell'app. Installando l'app, si accetta che l'app disponga dell'autorizzazione per ricevere messaggi e dati forniti e che Teams disponga dell'autorizzazione per archiviare ed elaborare tali messaggi.
+
+Alcune funzionalità di [!INCLUDE [prod_short.md](includes/prod_short.md)] richiedono inoltre l'apertura di collegamenti esterni o l'accesso alla fotocamera o alla posizione geografica. Si supponga ad esempio di voler acquisire una foto di una fattura di acquisto per l'elaborazione. L'app [!INCLUDE [prod_short.md](includes/prod_short.md)] non utilizza queste funzioni senza il consenso dell'utente. L'utilizzo avviene inoltre solo tramite funzionalità specifiche nella finestra **Dettagli**. Quando si utilizza una di queste funzionalità per la prima volta, Teams visualizzerà una finestra di dialogo in cui è richiesto di concedere l'accesso alle funzionalità del dispositivo richieste.
+
+- Nel desktop di Teams rivedere e modificare le autorizzazioni dell'app dalla finestra **Impostazioni**. Selezionare la propria immagine del profilo nella parte superiore dell'app, selezionare **Impostazioni** > **Autorizzazioni**, quindi l'app [!INCLUDE [prod_short.md](includes/prod_short.md)].
+
+- Per Teams nel browser e Teams per iOS o Android, è possibile rivedere o modificare le autorizzazioni tramite le impostazioni del browser o del dispositivo.
+
+> [!NOTE]
+> Le funzionalità esatte di [!INCLUDE [prod_short.md](includes/prod_short.md)] che richiedono le autorizzazioni variano in base alle app aggiuntive e alle personalizzazioni applicate all'ambiente di [!INCLUDE [prod_short.md](includes/prod_short.md)] a cui ci si collega.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Dove posso ottenere informazioni sulla privacy? 
 
 Puoi ottenere informazioni su come Microsoft gestisce i tuoi dati nell'[Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Contatta il tuo amministratore per informazioni su come la tua organizzazione gestisce la privacy dei tuoi dati. 
+Contatta il tuo amministratore per informazioni su come la tua organizzazione gestisce la privacy dei tuoi dati.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Come si disinstalla l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Come si disinstalla l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams?
 
 Per rimuovere l'app installata, vai a qualsiasi casella di composizione della chat, trova l'icona [!INCLUDE [prod_short.md](includes/prod_short.md)] sotto la casella, fai clic con il pulsante destro del mouse sull'icona e scegli Disinstalla.  
 
@@ -153,29 +169,33 @@ No. I valori dei campi in una scheda di Teams, incluse le immagini, sono basati 
 
 Quando scrivi e invii un messaggio alla chat che include una scheda, tutti gli utenti vedranno la scheda, anche se non hanno installato l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Come faccio a sapere a quale società appartiene una scheda in Teams?
+
+Se si lavora per più aziende [!INCLUDE [prod_short.md](includes/prod_short.md)], chiedere all'amministratore di abilitare un badge per ogni società. Se abilitato, questo interessante suggerimento viene visualizzato in qualsiasi finestra dei dettagli all'interno di Teams e mostra la società e l'ambiente a cui appartiene il record. Per informazioni su come impostare il badge società, vedere [Per visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Utilizzo dei dettagli della scheda](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Dov'è il pulsante Salva nella finestra dei dettagli in Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Dov'è il pulsante Salva nella finestra dei dettagli in Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)]salva automaticamente le modifiche apportate a qualsiasi campo non appena si esce dal campo. Per uscire da un campo, fai clic/tocca un punto qualsiasi al di fuori del campo o utilizza il tasto TAB per passare al campo successivo. Quando i dati sono visualizzati in una finestra di dialogo all'interno della finestra dei dettagli, è possibile che sia necessario scegliere il pulsante **OK** affinché [!INCLUDE [prod_short.md](includes/prod_short.md)] salvi le modifiche.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Se scelgo di visualizzare i dettagli di una scheda, gli altri utenti vedranno la finestra dei dettagli? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Se scelgo di visualizzare i dettagli di una scheda, gli altri utenti vedranno la finestra dei dettagli?
 
 No. Tutti gli utenti coinvolti nella chat possono visualizzare la scheda vera e propria, ma solo tu vedi la finestra dei dettagli quando scegli **Dettagli**. Gli altri utenti devono a loro volta scegliere **Dettagli** se desiderano visualizzare la finestra dei dettagli sul loro dispositivo.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Posso avviare una chiamata Teams dalla finestra dei dettagli in Teams? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Posso avviare una chiamata Teams dalla finestra dei dettagli in Teams?
 
 Sì. Puoi iniziare una chiamata selezionando il numero visualizzato in un campo relativo ai numeri di telefono, come il campo **Nr. cellulare** nella scheda **Contatto**. Teams deve essere l'app di composizione designata.
 
 Per chiamare telefoni fissi e cellulari locali o internazionali da Teams, devi disporre di una licenza Teams per le chiamate aziendali. Inoltre, devi configurare Teams come soluzione per le chiamate. Per saperne di più, vedi [Pianificare la soluzione vocale di Teams](/microsoftteams/cloud-voice-landing-page) nella documentazione di Teams.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Posso stampare documenti dalla finestra dei dettagli in Teams? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Posso stampare documenti dalla finestra dei dettagli in Teams?
 
 Sì. Puoi stampare report e altri documenti utilizzando la funzionalità di stampa di [!INCLUDE [prod_short.md](includes/prod_short.md)] standard e qualsiasi stampante abilitata per il cloud configurata in **Gestione stampante** in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Non è possibile stampare da Teams su stampanti locali note al dispositivo client, ad esempio le stampanti su cui si stampa in genere dal browser. Per questo motivo, non è possibile stampare dalla finestra di anteprima del report, ma solo dalla pagina principale di richiesta del report, direttamente sulle stampanti cloud.
 
 Per ulteriori informazioni sulla configurazione delle stampanti cloud, vedi [Imposta stampanti](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Posso accedere alla fotocamera dalla finestra dei dettagli in Teams? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Posso accedere alla fotocamera dalla finestra dei dettagli in Teams?
 
 Sì. Le funzionalità di [!INCLUDE [prod_short.md](includes/prod_short.md)] nella finestra dei dettagli che utilizzano la fotocamera sono disponibili in tutti i client di Teams.
 
@@ -185,7 +205,7 @@ Se utilizzi la funzionalità in [!INCLUDE [prod_short.md](includes/prod_short.md
 
 ## <a name="collaborating-with-guests"></a>[Collaborare con utenti guest](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Posso condividere le schede con utenti esterni all'organizzazione? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Posso condividere le schede con utenti esterni all'organizzazione?
 
 Sì. Quando componi e invii un messaggio che include una scheda, tutti i destinatari nella chat vedranno la scheda, anche se sono utenti guest o esterni alla tua organizzazione. Gli utenti guest possono anche aprire la finestra dei dettagli se dispongono delle autorizzazioni per accedere a quei dati in [!INCLUDE [prod_short.md](includes/prod_short.md)].
 

@@ -3,28 +3,28 @@ title: Installare le estensioni per personalizzare Business Central
 description: Informazioni sull'aggiunta di funzionalità e la personalizzazione di Business Central tramite l'installazione delle estensioni.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757019"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493280"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Personalizzazione di Business Central con le estensioni
+# <a name="customizing-business-central-online-using-extensions"></a>Personalizzazione di Business Central Online per con le estensioni
 
-È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] installando estensioni che, ad esempio, aggiungano funzionalità, modifichino il comportamento o permettano di accedere a nuovi servizi online.
+È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] online installando estensioni in grado ad esempio di aggiungere funzionalità, modificare il comportamento o consentire l'accesso a nuovi servizi online.
 
 > [!NOTE]
-> Per installare le estensioni da AppSource o aggiungere estensioni per tenant, è necessario avere le autorizzazioni giuste. È necessario essere membri del gruppo utenti D365 EXTENSION MGMT oppure disporre dell'autorizzazione D365 EXTENSION MGMT impostata. Se si è un amministratore, è possibile assegnare gruppi di utenti e autorizzazioni ad altri utenti della tua azienda.
+> Per installare le estensioni da AppSource o aggiungere estensioni per tenant, è necessario avere le autorizzazioni giuste. È necessario essere membri del gruppo utenti D365 EXTENSION MGT oppure disporre del set di autorizzazioni D365 EXTENSION MGMT. Se si è un amministratore, è possibile assegnare gruppi di utenti e autorizzazioni ad altri utenti della tua azienda.
 
 Per utilizzare la funzionalità fornita da un'estensione, come l'apertura di pagine, l'esecuzione di report, la selezione di azioni e così via, è necessario assegnare i set di autorizzazioni installati come parte dell'estensione.
 
 > [!IMPORTANT]  
-> Il caricamento di estensioni per tenant e l'installazione di estensioni AppSource non sono supportati tramite la pagina **Gestione delle estensioni** per installazioni locali.
+> Il caricamento di estensioni per tenant e l'installazione di estensioni AppSource non sono supportati tramite la pagina **Gestione delle estensioni** per installazioni locali. Non è possibile installare le estensioni AppSource locali, neanche nelle distribuzioni basate su Docker.
 
 La prima volta che si avvia [!INCLUDE[prod_short](includes/prod_short.md)], alcune estensioni risultano già installate. Con il tempo verranno rese disponibili altre estensioni e sarà possibile scegliere se installarle o meno.
 
@@ -37,7 +37,7 @@ Le estensioni vengono gestite nella pagina **Gestione estensioni**. È possibile
 > Se si prevede di dover accedere a un'estensione, ma non è possibile individuare la relativa funzionalità, controllare la pagina **Gestione estensioni**, se l'estensione non è elencata, è possibile installarla come descritto nella sezione seguente.  
 
 > [!NOTE]  
-> Accedere a [AppSource.microsoft.com](https://appsource.microsoft.com/) utilizzando l'account e-mail che si usa per [!INCLUDE[prod_short](includes/prod_short.md)]. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
+> Accedere a [AppSource.microsoft.com](https://appsource.microsoft.com/) tramite l'account di posta elettronica utilizzato per [!INCLUDE[prod_short](includes/prod_short.md)] online. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
 
 È inoltre possibile accedere al marketplace da [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Gestione estensioni** è possibile vedere le estensioni attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le estensioni per [!INCLUDE[prod_short](includes/prod_short.md)] al momento disponibili in AppSource. Se si sceglie il collegamento *Altre app*, si passa a [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft fornisce le seguenti estensioni:
 * [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Le nuove estensioni non saranno subito disponibili in AppSource dopo l'annuncio di un aggiornamento. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> È possibile controllare la disponibilità di nuove estensioni di Microsoft e altri fornitori su [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Vedere anche
 

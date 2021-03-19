@@ -3,19 +3,19 @@ title: Creare utenti in base alle licenze | Microsoft Docs
 description: Descrive come aggiungere utenti a Business Central Online o in locale in base alle licenze.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 217b658e6a4c54996d3f0e9cfa7470f02908b380
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846342"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573353"
 ---
 # <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
 
@@ -106,7 +106,7 @@ Gli utenti con licenza per dispositivo non possono eseguire le seguenti attivitÃ
 
 1. Nell'interfaccia di amministrazione di Microsoft 365, andare alla pagina **Gruppi**.
 2. Scegliere l'azione **Aggiungi un gruppo**.
-3. Nella pagina **Scegli un tipo di gruppo**, scegliere l'azione **Sicurezza** quindi scegliere l'azione **Aggiungi**.
+3. Nella pagina **Scegli un tipo di gruppo** scegliere l'opzione **Sicurezza** quindi scegliere l'azione **Aggiungi**.
 4. Nella pagina **Nozioni di base**, immetti **Utenti del dispositivo Dynamics 365 Business Central** come nome del gruppo.
   
    >[!NOTE]

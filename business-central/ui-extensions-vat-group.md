@@ -4,19 +4,19 @@ description: È possibile impegnarsi con altre aziende per formare un gruppo IVA
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757044"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498589"
 ---
 # <a name="the-vat-group-management-extension"></a>Estensione della gestione del gruppo IVA
 
@@ -111,6 +111,9 @@ Quando la dichiarazione IVA del rappresentante del gruppo IVA è stata presentat
 
 > [!NOTE]
 > I membri del gruppo IVA possono correggere le dichiarazioni IVA presentate purché il rappresentante del gruppo non abbia rilasciato la dichiarazione IVA per il gruppo. Per apportare una correzione, il membro del gruppo IVA deve creare una nuova dichiarazione IVA per il periodo di dichiarazione IVA e presentarla al rappresentante del gruppo IVA. Dal lato del rappresentante del gruppo IVA, l'ultima dichiarazione IVA sarà inclusa nella pagina **Dichiarazioni IVA**. 
+
+> [!IMPORTANT]
+> La funzionalità del gruppo IVA è supportata solo nei mercati in cui [!INCLUDE[prod_short](includes/prod_short.md)] utilizza un quadro IVA che consiste in dichiarazioni IVA e periodi di dichiarazione IVA. Non è possibile utilizzare gruppi IVA in altri mercati che hanno altre implementazioni della dichiarazione IVA locale, come Austria, Germania, Italia, Spagna e Svizzera. 
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  

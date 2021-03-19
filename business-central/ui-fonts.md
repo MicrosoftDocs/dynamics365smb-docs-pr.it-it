@@ -3,19 +3,19 @@ title: Caratteri disponibili
 description: La versione online di Business Central contiene caratteri preinstallati sui server che possono essere utilizzati durante la generazione dei report.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756969"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493256"
 ---
 # <a name="available-fonts"></a>Caratteri disponibili
 
@@ -26,7 +26,7 @@ La versione online di [!INCLUDE[prod_short](includes/prod_short.md)] contiene ca
 
 ## <a name="document-fonts"></a>Caratteri documento
 
-I seguenti caratteri sono installati e disponibili per l'uso nei report sui documenti di Word e RDLC:
+I seguenti caratteri sono installati e disponibili per l'uso in entrambi i layout report RDLC e Word:
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ I caratteri Magnetic Ink Character Recognition (MICR) sono installati e disponib
 Oltre ai caratteri MICR, sono disponibili caratteri di sicurezza speciali per generare testo, nomi, importi e i simboli di valuta dollaro, euro, sterlina e yen, che sono difficili da manomettere su un assegno stampato.  
 
 Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Caratteri per i codici a barre
+I caratteri per generare codici a barre unidimensionali sono installati e disponibili per l'uso in entrambi i layout report RDLC e Word.
+
+Sono supportate le seguenti simbologie di codici a barre:
+* Codice 3 di 9 (Codice 39)
+* Codice 128
+* Codice 93
+* Codabar
+* MSI
+* Interleaved 2 di 5
 
 ## <a name="see-also"></a>Vedere anche
 

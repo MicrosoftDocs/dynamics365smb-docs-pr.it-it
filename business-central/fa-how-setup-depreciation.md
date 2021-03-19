@@ -1,30 +1,29 @@
 ---
-title: Impostare l'ammortamento cespiti| Documenti Microsoft
+title: Impostare l'ammortamento cespiti
 description: Specificare in un registro beni ammortizzabili la modalità di ammortamento o svalutazione dei cespiti.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749271"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493230"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
- È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito, ad esempio l'ammortamento a quote decrescenti. Definire il metodo di ammortamento di un cespite con il campo **Metodo ammortamento** nella pagina **Scheda cespite**. Per ulteriori informazioni su ciò che fanno i diversi metodi, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
 
- Nei registri beni ammortizzabili si definiscono i diversi modi di calcolo dell'ammortamento per i diversi cespiti. In ogni registro è possibile specificare i singoli termini di ammortamento. È possibile ad esempio specificare che un cespite debba essere ammortizzato in un periodo di tre anni in un registro e in un periodo di cinque anni in un altro.
+È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito, ad esempio l'ammortamento a quote decrescenti. Definire il metodo di ammortamento di un cespite con il campo **Metodo ammortamento** nella pagina **Scheda cespite**. Per ulteriori informazioni su ciò che fanno i diversi metodi, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
 
- Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un registro ad ogni cespite. Un registro assegnato a un cespite è detto registro beni ammortizzabili. È possibile impostare un numero illimitato di registri beni ammortizzabili per un cespite. 
+Impostare i registri beni ammortizzabili, dove si definiscono i diversi modi di calcolo dell'ammortamento per vari tipi di cespiti. Ciascun registro beni ammortizzabili specifica singoli termini di ammortamento. È possibile ad esempio specificare che un cespite debba essere ammortizzato in un periodo di tre anni in un registro e in un periodo di cinque anni in un altro.
+
+Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un registro ad ogni cespite. Un registro assegnato a un cespite è detto registro beni ammortizzabili. È possibile impostare un numero illimitato di registri beni ammortizzabili per un cespite.  
 
 ## <a name="to-create-a-depreciation-book"></a>Per creare un registro beni ammortizzabili
+
 In un registro beni ammortizzabili cespiti, viene specificato come i cespiti vengono ammortizzati. Per facilitare i diversi metodi di ammortamento è possibile impostare diversi registri beni ammortizzabili.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri beni ammortizzabili** e quindi scegliere il collegamento correlato.
@@ -32,9 +31,14 @@ In un registro beni ammortizzabili cespiti, viene specificato come i cespiti ven
 3. Nella pagina **Scheda registro beni ammortizz.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Attenersi al seguente passaggio per definire il tipo di registrazione da utilizzare per le diverse attività cespiti per default.
+    > È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Attenersi al seguente passaggio per definire il tipo di registrazione da utilizzare per le diverse attività cespiti per default.
 4. Nella Scheda dettaglio **Integrazione**, selezionare la casella di controllo per ogni attività di cespite di cui si desidera registrare le transazioni utilizzando la pagina **Registrazioni cespiti in C/G**.
 5. Ripetere i passaggi da 2 a 4 per ogni metodo di ammortamento o di registrazione che si desidera assegnare ai cespiti come registro beni ammortizzabili.
+
+> [!IMPORTANT]
+> Scegliere il campo **Usa arrot. in amm. periodico** per arrotondare a numeri interi gli importi di ammortamento periodici calcolati. Ad esempio, se la società utilizza anche l'arrotondamento fattura a numeri interi nella pagina **Setup contabilità generale**, l'arrotondando degli importi di ammortamento ai numeri interi può contribuire a fornire trasparenza.
+
+Se ad esempio viene eseguita la cessione di cespiti laddove il registro beni ammortizzabili non specifica l'arrotondamento, ma il setup contabilità generale della propria società richiede l'arrotondamento, al momento della cessione dei cespiti verrà visualizzato un messaggio di errore che indica che un importo deve essere arrotondato su un movimento contabile.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Per assegnare un registro dei beni ammortizzabili a un cespite
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
