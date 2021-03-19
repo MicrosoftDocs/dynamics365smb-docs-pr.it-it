@@ -2,18 +2,12 @@
 metadata:
   title: Domande frequenti sulla fatturazione elettronica
   description: Ottieni risposte sul servizio di scambio di documenti e sulle versioni supportate di PEPPOL.
-  author: sorenfriisalexandersen
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
-  ms.date: 01/05/2021
-  ms.author: edupont
-  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013769"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181806"
 title: Domande frequenti sulla fatturazione elettronica
 summary: "Il servizio di scambio di documenti integrato invia le fatture elettroniche a TradeShift, un fornitore di servizi che inoltra le fatture elettroniche a destinatari PEPPOL o NemHandel. Ma il servizio supporta un numero limitato di versioni.   \n\nQuesto articolo contiene le risposte ad alcune delle domande chiave sulla fatturazione elettronica.  \n"
 sections:
