@@ -110,6 +110,7 @@
 #### [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)
 #### [Impostare condizioni interessi finanziari](finance-setup-finance-charges.md)
 #### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
+#### [Setup dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)
 #### [Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)
 #### [Convalidare i numero di partita IVA](finance-how-validate-vat-registration-number.md)
 #### [Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Mappatura dei campi per l'estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Contabilità
 ### [Panoramica della contabilità](finance.md)
+### [Report finanziari](finance-reports.md)
 ### Gestione della contabilità clienti
 #### [Panoramica della contabilità clienti](receivables-manage-receivables.md)
 #### Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
@@ -560,8 +562,9 @@
 ### [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)
 ### [Esperienze contabile in Business Central](finance-accounting.md)
 
-## Business Intelligence
-### [Panoramica di BI](bi.md)
+## Business Intelligence e Financial Reporting
+### [Panoramica di Business Intelligence e Financial Reporting](bi.md)
+### [Report finanziari](finance-reports.md)
 ### [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)
 ### [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)
 ### [Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Sicurezza, privacy, conformità
 ## Sicurezza e protezione
-### [Panoramica su sicurezza e protezione](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Panoramica di sicurezza e protezione (solo in inglese)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Conformità
@@ -1541,6 +1544,7 @@
 ### [Conformità dell'applicazione](compliance/compliance-application-compliance.md)
 ### [Conformità dell'assistenza](compliance/compliance-service-compliance.md)
 ### [Certificazioni](compliance/compliance-certifications.md)
+## [Panoramica del servizio (solo in inglese)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Sviluppo e amministrazione
 ## [Introduzione alla documentazione di sviluppo e amministrazione](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
