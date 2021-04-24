@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391251"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780937"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Esperienze di contabile in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ Il contabile riceverà un messaggio e-mail che lo informa che gli è stato conce
 
 1. Aprire la società [!INCLUDE[prod_short](includes/prod_short.md)] a cui si desidera che il contabile acceda all'indirizzo [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.  
-3. Scegliere l'azione **Ottieni nuovi utenti da Office 365**.
+3. Scegli l'azione **Ottieni nuovi utenti da Microsoft 365**.
 
 In tal modo l'account utente creato nel portale di Azure viene importato nella società. Per ulteriori informazioni, vedere [Per aggiungere un utente in Business Central](ui-how-users-permissions.md#adduser).  
 

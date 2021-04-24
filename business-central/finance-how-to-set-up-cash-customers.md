@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385a4906f36354a1b8c82f8b0a4232e3a1d35208
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387301"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770393"
 ---
 # <a name="set-up-cash-customers"></a>Impostare i clienti per vendite in contanti
 Non è possibile creare una fattura senza un numero di cliente. Ciò si applica anche nel caso di una vendita in contanti, quando non ci sarebbe niente da registrare in un conto cliente.  

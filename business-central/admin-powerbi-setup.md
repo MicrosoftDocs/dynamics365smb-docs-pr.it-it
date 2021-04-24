@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 88b6448587b4888ff33674d5118476ad284f73d0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492983"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777343"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Abilitazione dell'integrazione Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -49,6 +49,10 @@ Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short]
 3. Concedere agli account utente [!INCLUDE[prod_short](includes/prod_short.md)] una chiave di accesso al servizio Web.
 
     Una chiave di accesso al servizio Web è necessaria solo per visualizzare i dati di [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI. È possibile assegnare una chiave di accesso al servizio Web a ciascun account utente. In alternativa, creare un account specifico con una chiave di accesso al servizio Web utilizzabile da tutti gli utenti. Per ulteriori informazioni, vedere [Autenticazione dei servizi Web](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+
+    <!--
+    > [!IMPORTANT]
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](../upgrade/deprecated-features-w1.md#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](../webservices/authenticate-web-services-using-oauth.md).-->
 
 4. Creare una registrazione dell'applicazione per [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
@@ -84,7 +88,7 @@ Per ulteriori informazioni sulla pubblicazione di servizi Web, vedere [Pubblicar
 [Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Documentazione di Power BI](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381217"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773532"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
@@ -76,7 +76,7 @@ Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua**. 
 
 ### <a name="period"></a>Periodo
 
-Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
+Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/22**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2022 (come 01/01/22..31/01/22). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2022 (come 01/03/23..31/03/23).
 
 I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|
-|2018.12.31.|31/12/2018|
-|181231|31/12/2018|
-|18.12.31.|31/12/2018|
-|18.12.31.|31/12/2018|
-|20181231|31/12/2018|
-|18/12,31|31/12/2018|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|anno data di lavoro.mese data di lavoro.11.|
 |1112|anno data di lavoro.11.12.|
 |o oppure oggi|data odierna|
@@ -194,7 +194,7 @@ Nell'esempio seguente viene illustrato come utilizzare un segno meno per indicar
 |-1A|1 anno fa da oggi|
 
 > [!IMPORTANT]
->  Se l'ubicazione utilizza un calendario di base, la formula per la data immessa, ad esempio, nel campo **Durata spedizione** verrà interpretata in base ai giorni lavorativi del calendario. Ad esempio la formula 1S significa sette giorni lavorativi.
+> Se l'ubicazione utilizza un calendario di base, la formula per la data immessa, ad esempio, nel campo **Durata spedizione** verrà interpretata in base ai giorni lavorativi del calendario. Ad esempio la formula 1S significa sette giorni lavorativi.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -315,35 +315,8 @@ Non è possibile utilizzare 24:00 per indicare la mezzanotte oppure utilizzare q
 La parola per "ora" nella lingua usata da [!INCLUDE[prod_short](includes/prod_long.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
 
 ## <a name="entering-combined-dates-and-times"></a>Immissione di date e ore combinate
-Quando si immettono dati di tipo datetime che corrispondono a una data e un'ora combinate in un campo, è necessario inserire uno spazio tra la data e l'ora. La parte della data può contenere solo spazi nella forma del separatore della data ufficiale delle impostazioni del paese. L'ora può contenere spazi attorno all'indicatore AM / PM.
 
-È anche possibile inserire solo una data in un campo datetime, ma non è possibile inserire solo un'ora.
-
-La seguente tabella elenca alcuni esempi di combinazioni di data/ora. Le impostazioni del paese negli esempi mostrano le date nel formato giorno\-mese\-anno, utilizzando i designatori AM / PM, la lingua inglese e la domenica come inizio della settimana.
-
-|**Immissione**      |**Interpretazione**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08/01/2016 17:48:12|
-|131202 132455|13/12/2002 13:24:55|
-|1-12-02 10|01/12/2002 10:00:00|
-|1.12.02 5|01/12/2002 05:00:00|
-|1.12.02|01/12/2002 00:00:00|
-|11 12|11/mese data di lavoro/anno data di lavoro 12:00:00|
-|1112 12|11/12/anno data di lavoro 12:00:00|
-|o oppure oggi|Data odierna 00.00.00|
-|o 10:30|Data odierna 10.30.00|
-|o 3:3:3|Data odierna 03.03.03|
-|l o data di lavoro|Data del lavoro 00.00.00|
-|lu o lunedì|Lunedì della settimana della data di lavoro 00:00:00|
-|ma o martedì|Martedì della settimana della data di lavoro 00:00:00|
-|sa o Sabato|Sabato della settimana della data di lavoro 00:00:00|
-|d o Domenica|Domenica della settimana della data di lavoro 00:00:00|
-|ma 10:30|Martedì della settimana della data di lavoro 10:30:00|
-|ma 3:3:3|Martedì della settimana della data di lavoro 03:03:03|
-|m23 o|Martedì della settimana 23 dell'anno della data di lavoro, ora corrente del giorno|
-|m23|Martedì della settimana 23 dell'anno della data di lavoro|
-|m 23|Oggi 23:00:00|
-|m-1|Martedì della settimana 1 dell'anno della data di lavoro|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Immissione della durata
 Alcuni campi dell'applicazione rappresentano una durata, o una quantità di tempo trascorso, anziché una data o un'ora specifica. È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.

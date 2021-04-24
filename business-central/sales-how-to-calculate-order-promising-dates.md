@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad3b5b283e8a9a07c3590ee3d3a7afb132c6d26c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383102"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778474"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  

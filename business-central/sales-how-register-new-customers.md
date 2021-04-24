@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 03/09/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573428"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778599"
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
 
@@ -27,7 +27,7 @@ Prima di registrare nuovi clienti, è necessario impostare vari codici di vendit
 
 ## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
 
-Per registrare un nuovo cliente, è necessario compilare una scheda cliente. È possibile stabilire modelli per profili di clienti diversi oppure aggiungere clienti senza modelli.  
+Per registrare un nuovo cliente, è necessario compilare una scheda cliente. È possibile stabilire modelli per profili di clienti diversi oppure aggiungere clienti senza modelli. Puoi anche creare un cliente da un contatto. Per ulteriori informazioni, vedi [Per creare un contatto come cliente, fornitore, dipendente o conto corrente bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una pagina automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.  

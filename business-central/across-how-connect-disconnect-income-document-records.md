@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b354b26e6d948e0afe9bad8bf01e6239034f207e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1cc239f02dc0b278afd11c8e9ecdf48af1170a91
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776074"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Creare i record di documenti in entrata direttamente da documenti e movimenti
 È possibile archiviare i documenti aziendali esterni in [!INCLUDE[prod_short](includes/prod_short.md)] allegando i file del documento ai record di documento in entrata correlati. Se il documento, ad esempio una fattura di acquisto, non è stato creato come record di documento in arrivo, è comunque possibile creare e connettere ad esso un record di documento in arrivo in un secondo momento. È inoltre possibile allegare file di documento in entrata a documenti di vendita e di acquisto registrati e a movimenti di contabilità cliente o fornitore utilizzando il Dettaglio informazioni di **File di documento in entrata** ad esempio nelle pagine **Fatture acquisto registrate** e **Movimenti contabili fornitori**.

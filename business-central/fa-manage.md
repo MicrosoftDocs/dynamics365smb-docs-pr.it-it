@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc7c1c14384831c50303d26b0514d053e872b876
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: feb3d677c2c55166b71f825315ee1805b28b3a5e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770493"
 ---
 # <a name="fixed-assets"></a>Cespiti
 La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
@@ -57,7 +57,7 @@ Il video seguente illustra le nozioni di base dei cespiti.
 [Impostazione di cespiti](fa-setup.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

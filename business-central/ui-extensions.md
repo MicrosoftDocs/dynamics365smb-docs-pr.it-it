@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493280"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771341"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizzazione di Business Central Online per con le estensioni
 
@@ -79,6 +79,27 @@ Microsoft fornisce le seguenti estensioni:
 > [!NOTE]  
 > È possibile controllare la disponibilità di nuove estensioni di Microsoft e altri fornitori su [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Estensioni e trasferimento dati
+
+Poiché le seguenti estensioni stanno comunicando con altri servizi, potrebbero trasferire dati al di fuori dell'area geografica dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+* Estensione AMC Banking 365 Fundamentals
+* Analisi di immagini
+* Previsione pagamento ritardato
+* PayPal Payments Standard
+* Previsione vendite e magazzino
+* WorldPay Payments Standard
+
+Questo vale anche per alcune funzionalità nell'applicazione di base, come le seguenti capacità:
+
+* Previsione flusso di cassa
+* Servizio di scambio documenti
+* Connessioni Dataverse
+* Servizio OCR
+* Online Map
+* Reg. IVA UE No. Assistenza
+
 ## <a name="see-also"></a>Vedere anche
 
 [Personalizzare Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft fornisce le seguenti estensioni:
 [Migrazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione dell'estensione dei codici postali GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [Estensioni per [!INCLUDE[prod_short](includes/prod_short.md)] fornite da altri provider](ui-extensions-other.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

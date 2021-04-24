@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493330"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774157"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Metodi ammortamento per cespiti
 
@@ -154,16 +154,16 @@ Metodo di calcolo:
 
 La formula per il calcolo dell'importo di ammortamento è la seguente:  
 
-*IA* = *VC* x (1 – (1 –P)<sup>A<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 I valori di ammortamento sono:  
 
 | Date | Calcolo |
 | --- | --- |
-| 30/06/20 |IA = 100.000,00 x (1 -(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 31/12/20 |IA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 30/06/21 |IA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 31/12/21 |IA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| 30/06/20 |DA = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
+| 31/12/20 |DA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
+| 30/06/21 |DA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 31/12/21 |DA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>Ammortamento Decr. 1/Cost.
 
@@ -205,7 +205,7 @@ I movimenti contabili cespiti vengono visualizzati come segue:
 
 Metodo di calcolo:  
 
-* Anno 1:  
+* Anno 1 (2020):  
 
     *importo di ammortamento a quote decrescenti: 25% di 100.000 = 25.000=12.500+12.500*  
 
@@ -368,12 +368,12 @@ Immettendo un movimento in B1 nella registrazione C/G cespiti ed inserendo un se
 > [!NOTE]  
 > Non è consentito utilizzare la stessa numerazione nelle registrazioni cespiti e nelle registrazioni cespiti. Quando si annotano movimenti nelle registrazioni cespiti o C/G, il campo **Nr. documento** deve essere lasciato vuoto. Se si immette un numero nel campo, il numero viene duplicato nelle registrazioni del cespite. Sarà necessario modificare manualmente il numero di documento prima di poter contabilizzare le registrazioni.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

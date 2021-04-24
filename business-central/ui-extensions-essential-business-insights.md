@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5fe9f0907611843951b682a9bf07c0c153486700
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5358f85e3b467fc930d99a652c91bd266d7fd9be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772330"
 ---
 # <a name="the-essential-business-insights-extension"></a>Estensione Informazioni aziendali essenziali
 L'estensione Informazioni aziendali essenziali consente di trovare informazioni aziendali utili nei dati dell'azienda e le visualizza come titoli di giornale nelle Gestioni ruolo utente. A seconda di ciò che l'estensione trova nei dati, le informazioni dettagliate sono relative alla settimana, al mese o ai tre mesi precedenti la data corrente. Le informazioni dettagliate vengono aggiornate ogni 10 minuti.  

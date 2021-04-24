@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385276"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777243"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
 Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.

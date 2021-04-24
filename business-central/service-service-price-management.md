@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476722"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776768"
 ---
 # <a name="service-price-management"></a>Gestione dei prezzi di assistenza
 La funzionalità di gestione dei prezzi di assistenza consente di applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.  

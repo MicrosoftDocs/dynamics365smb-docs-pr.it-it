@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ba566597b9dcf8d34b677df759c8c31d200b8584
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f92afa2ddcac146f732168b55404df103dd976c1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380383"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773657"
 ---
 # <a name="allocate-resources"></a>Assegnare risorse
 L'elemento chiave della gestione dell'assistenza sono le persone che forniscono i servizi di assistenza. È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo da assegnare le persone ai processi in modo appropriato. Le assegnazioni possono essere effettuate in base alle zone di assistenza in cui il personale è dislocato oppure a dove l'intervento di assistenza avrà luogo. Quando si risponde a richieste di assistenza è inoltre possibile raggruppare le risorse. Per ulteriori informazioni, vedere [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md).

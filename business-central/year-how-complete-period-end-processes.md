@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6066d0ddcfc32520f56d053c9624e8c1d8e7505d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6f1bbed79a2f5d817e3f486cfb4207e5b285aef2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775252"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili
 In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i periodi, tuttavia, vi sono numerose attività di chiusura del periodo (chiusura del mese) che è possibile svolgere. In questo argomento viene fornita una sintesi dei processi e delle attività facoltativi per periodi di chiusura.  

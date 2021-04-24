@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a108a460aa7045daac58d93b443adb0b3c1cf122
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775168"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  

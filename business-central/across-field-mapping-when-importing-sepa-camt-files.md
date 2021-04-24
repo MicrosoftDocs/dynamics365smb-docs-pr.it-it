@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9afa2f29124a62a51da6a1de96765d6bb67c4bd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 567b77764aeacec84ef7577ed94f74dd6b6acc64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384776"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776099"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mapping dei campi durante l'importazione dei file SEPA CAMT
-[!INCLUDE[prod_short](includes/prod_short.md)]La versione generica di  supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedere [Uso dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedere [Uso dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella pagina **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

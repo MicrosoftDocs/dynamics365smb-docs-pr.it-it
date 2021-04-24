@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72ac51ceae9d469bb57318f2d93e972aa52c27cd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 78da80b026c29040766cc67d1cd6ad32f74f4bcc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381543"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777750"
 ---
 # <a name="design-details-rounding"></a>Dettagli di progettazione: Arrotondamento
 Le differenze da arrotondamento possono verificarsi quando si valuta il costo di una riduzione di magazzino che viene misurata in una quantità diversa dal corrispondente aumento di magazzino. Le differenze da arrotondamento vengono calcolate per tutti i metodi di costing quando si esegue il processo batch **Rettifica costo - Movimenti articoli**.  

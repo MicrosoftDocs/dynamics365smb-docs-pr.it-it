@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381519"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777700"
 ---
 # <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
@@ -181,11 +181,7 @@ Il campo 480 esiste nelle seguenti tabelle buffer.
 |5637|**Buffer reg. C/G cespiti**|  
 |7136|**Buffer budget articoli**|  
 
-## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
- [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
- [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Vedere anche
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
+[Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   

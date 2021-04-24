@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393880"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771112"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -31,7 +31,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 2.  Mostra la scheda **Sviluppatore** nella barra multifunzione di Microsoft Word.  
   
-     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedi [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
@@ -105,7 +105,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
- In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
+ In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
  Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

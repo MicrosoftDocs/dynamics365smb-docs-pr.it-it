@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7fecbb14cda87289e0c3ce9d89df2ed346569e45
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 180ed162e8137de0331fb75aa1be84c3e79514a5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390201"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775627"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
 Il sistema deve mantenere un controllo costante sulla disponibilità degli articoli nella warehouse, in modo che gli ordini in uscita possano fluire senza problemi e le spedizioni possano essere ottimizzate.  

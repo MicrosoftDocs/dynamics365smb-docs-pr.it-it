@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bafd9b1f76d2279a23d87704473b47cd1fa8e64c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392301"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775017"
 ---
 # <a name="close-income-statement-accounts"></a>Chiudere il conto economico
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.

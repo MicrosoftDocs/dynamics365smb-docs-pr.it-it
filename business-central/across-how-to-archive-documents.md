@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ec1ab53a2df71d46c671f71673a0b25ea6704bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 209ef492bf5620921ce371a17227653576dcae8a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384576"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775899"
 ---
 # <a name="archive-documents"></a>Archiviare documenti
 È possibile archiviare ordini di vendita e acquisto, offerte, ordini di reso e ordini programmati, ad esempio perché si desidera salvare una copia di un documento per il riutilizzo in seguito. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.

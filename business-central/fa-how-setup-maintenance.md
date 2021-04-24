@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b9077224f4a0b0344b565c55dcfb14db1e90722c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b437f7508537ec438bf90c3a1239e2620e9db196
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380154"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775552"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Per impostare la manutenzione cespiti
 Per gestire la manutenzione dei cespiti, è prima necessario impostare alcune informazioni generali di manutenzione, un conto analitico per i costi di manutenzione e i codici di manutenzione per i tipi di lavoro, ad esempio assistenza di routine o riparazione.
@@ -44,11 +44,11 @@ Per registrare i costi di manutenzione occorre prima immettere un numero di cont
 > [!NOTE]  
 >   Per definire che i costi di manutenzione vengano allocati ai reparti o ai progetti, impostare le chiavi di allocazione. Per ulteriori informazioni, vedere [Impostare le funzionalità generali per i cespiti](fa-how-setup-general.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

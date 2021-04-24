@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378725"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773338"
 ---
 # <a name="data-ownership-models"></a>Modelli di proprietà dei dati
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] richiede di specificare un proprietario per i dati archiviati. Per ulteriori informazioni, vedere [Proprietà delle entità](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) nella documentazione di Power Apps. Quando si imposta l'integrazione tra [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] devi scegliere uno dei due modelli di proprietà per i record sincronizzati:
-
-* Team 
-* Persona (utente)
-
-Le azioni che possono essere eseguite su questi record possono essere controllate a livello di utente. Per ulteriori informazioni, vedere [Tabelle utente e team](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Si consiglia di utilizzare il modello di proprietà Team perché semplifica la gestione della proprietà per più persone.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] richiede di specificare un proprietario per i dati archiviati. Per ulteriori informazioni, vedi [Tipi di tabelle](/powerapps/maker/data-platform/types-of-entities) nella documentazione di Power Apps. Quando si imposta l'integrazione tra [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] è necessario scegliere la proprietà **Utente o team** per i record sincronizzati. Le azioni che possono essere eseguite su questi record possono essere controllate a livello di utente. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Proprietà del team
 In [!INCLUDE[prod_short](includes/prod_short.md)], una società è una persona giuridica e una tabella aziendale che offre modi per proteggere e visualizzare i dati aziendali. Gli utenti lavorano sempre nel contesto di una società. In [!INCLUDE[prod_short](includes/cds_long_md.md)] ciò che più si avvicina a questo concetto è la tabella Business Unit, che non ha implicazioni legali o commerciali.

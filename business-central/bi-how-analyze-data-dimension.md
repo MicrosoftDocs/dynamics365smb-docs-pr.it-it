@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5bcc55443b8c45c1e63e71dddf49dfacd320128d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382582"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770915"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Le dimensioni possono essere utilizzate per i movimenti nelle registrazioni, nei documenti e nei. Con il termine dimensione viene descritta la modalità di esecuzione dell'analisi. Un'analisi bidimensionale, ad esempio, corrisponde a vendite per area. Creando tuttavia più di due dimensioni quando si crea un movimento, è possibile eseguire analisi molto più complesse, ad esempio vendite per campagna di vendita per gruppo di clienti per area. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).

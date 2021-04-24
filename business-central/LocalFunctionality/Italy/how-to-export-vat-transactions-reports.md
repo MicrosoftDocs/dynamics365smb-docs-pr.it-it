@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ade82790a4ac5ede4e246e16aa1f29dc4ab874b5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 98267d543a0bf6dd205bf85c22000b6f1e4816b0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382901"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780174"
 ---
 # <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
 Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  

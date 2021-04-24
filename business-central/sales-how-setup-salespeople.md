@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1721988ca713128a407ec67691cf7ed42865bd9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a16c48821aef828aeba61e8bc859007b5678a473
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387126"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778524"
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
 Molte società basano sull'andamento di un singolo impiegato il calcolo della provvigione sulle vendite o del premio. Vedere, ad esempio, il report **Commissioni agente**. La società potrebbe anche decidere di assegnare un agente a ciascun contatto.

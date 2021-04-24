@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c6b739faf2d531505bde4ad2dc7eb85c39ed223
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 38d4a9be0c801d595ea390780296c7cb920fd003
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776349"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilizzo dello stesso account di Microsoft 365 in [!INCLUDE[prod_short](includes/prod_long.md)] e Microsoft Invoicing
 Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. In tutti i casi, ad un certo punto potrebbe essere stato visualizzato un riquadro chiamato **Microsoft Invoicing** e potrebbe essere stato fatto clic su di esso. Era un'app che faceva parte di quello che ora è Microsoft 365 Business Standard ed era precedentemente noto come la sottoscrizione a Microsoft 365 Business Premium, quindi non tutti avranno visto quel riquadro nella propria esperienza di Microsoft 365.  

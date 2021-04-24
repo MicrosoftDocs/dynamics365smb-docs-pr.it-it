@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2aa988e4a0424a7ec7c0d703fc5ed872ff4d7974
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fd53cd8d78641bc2fb4e45b5776ba263e04ef49c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770765"
 ---
 # <a name="set-up-service-offerings"></a>Impostare le offerte di assistenza
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  

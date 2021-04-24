@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e594d05d02f94a944f6fe83bc53d7c610a07e8f7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fd58fd8816296fbe8c1a77e624e04aab375a5041
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382897"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780172"
 ---
 # <a name="prepare-for-vat-transactions-reports"></a>Preparare i report di transazioni IVA
 È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA. L'autorità fiscale stabilisce le soglie richieste per la dichiarazione. Attualmente, la soglia è impostata su zero, a indicare che tutte le transazioni vengono dichiarate. Per prepararsi per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA.  

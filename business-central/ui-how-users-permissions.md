@@ -1,5 +1,5 @@
 ---
-title: Creare utenti in base alle licenze | Microsoft Docs
+title: Creare utenti in base alle licenze
 description: Descrive come aggiungere utenti a Business Central Online o in locale in base alle licenze.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573353"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774488"
 ---
 # <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
 
 Questo articolo descrive in che modo gli amministratori possono creare utenti e definire chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)] e quali autorizzazioni vengono concesse ai diversi i tipi di utenti in base alle licenze.
 
-Quando si creano utenti in [!INCLUDE[prod_short](includes/prod_short.md)], puoi assegnare loro autorizzazioni specifiche tramite set di autorizzazioni e organizzare gli utenti in gruppi di utenti. I gruppi di utenti semplificano la gestione delle autorizzazioni per più utenti contemporaneamente. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). 
+Quando si creano utenti in [!INCLUDE[prod_short](includes/prod_short.md)], puoi assegnare loro autorizzazioni specifiche tramite set di autorizzazioni e organizzare gli utenti in gruppi di utenti. I gruppi di utenti semplificano la gestione delle autorizzazioni per più utenti contemporaneamente. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
 
-Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle licenze in [!INCLUDE[prod_short](includes/prod_short.md)], consultare la Guida alle licenze di Dynamics 365, scaricabile da [https://go.microsoft.com/fwlink/?LinkId=866544](https://go.microsoft.com/fwlink/?LinkId=866544).
+Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle licenze in [!INCLUDE[prod_short](includes/prod_short.md)], [scarica la guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
 > Il processo di gestione degli utenti e delle licenze varia a seconda che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] sia distribuita online o in locale. Per [!INCLUDE [prod_short](includes/prod_short.md)] Online, è necessario aggiungere utenti da Microsoft 365. Nelle distribuzioni locali è possibile creare, modificare ed eliminare utenti direttamente.  
@@ -34,7 +34,7 @@ Nelle versioni online di [!INCLUDE[prod_short](includes/prod_short.md)] il numer
 
 Per definire chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)], devi assegnare le licenze del prodotto agli utenti in base ai ruoli di cui dispongono in [!INCLUDE[prod_short](includes/prod_short.md)]. Ecco i modi in cui può essere eseguito:
 
-- L'amministratore di Microsoft 365 della società può eseguire questa operazione nell'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com). Per ulteriori informazioni, vedere [Aggiungere gli utenti singolarmente o in blocco a Microsoft 365](https://aka.ms/CreateOffice365Users).  
+- L'amministratore di Microsoft 365 della società può eseguire questa operazione nell'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com). Per ulteriori informazioni, vedi [Aggiungere gli utenti singolarmente o in blocco a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Un partner Microsoft può assegnare licenze nell'interfaccia di amministrazione di Microsoft 365 o nel Centro per i partner di Microsoft. Per ulteriori informazioni, vedere [Attività di gestione degli utenti per gli account dei clienti](/partner-center/assign-licenses-to-users) nella Guida del Centro per i partner Microsoft.
 
 Per ulteriori informazioni, vedere [Amministrazione di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) nella Guida per amministratori.
@@ -44,7 +44,7 @@ Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia d
 
 1. Accedere a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando come account amministratore.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.  
-3. Scegliere **Aggiorna utenti da Office 365**.
+3. Scegli **Aggiorna utenti da Microsoft 365**.
 
 Se si aggiungono nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). Se si stanno aggiornando le informazioni utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
 
@@ -61,16 +61,16 @@ Per altre informazioni sulla sincronizzazione delle informazioni utente con Micr
 Nelle distribuzioni online, è possibile rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_short.md)]. Tutti i riferimenti all'utente vengono conservati, ma l'utente non può accedere e le sessioni attive per l'utente vengono interrotte.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
-2. Aprire la pagina **Scheda utente** per l'utente pertinente, quindi nel campo **Stato** selezionare **Disabilitato**.
-3. Per consentire nuovamente l'accesso all'utente, impostare il campo **Stato** su **Abilitato**.
+2. Apri la pagina **Scheda utente** per l'utente pertinente, quindi nel campo **Stato** seleziona **Disabilitato**.
+3. Per consentire nuovamente l'accesso all'utente, imposta il campo **Stato** su **Abilitato**.
 
-Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione di Microsoft 365. L'utente non può quindi eseguire l'accesso. Per ulteriori informazioni, vedere [Rimuovere le licenze agli utenti](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione di Microsoft 365. L'utente non può quindi eseguire l'accesso. Per ulteriori informazioni, vedi [Rimuovere le licenze agli utenti](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Sincronizzazione con Microsoft 365
 
 Quando si assegna una licenza a un utente per [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft 365, vi sono due modi per creare l'utente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- L'amministratore può aggiungere l'utente scegliendo l'azione **Aggiorna utenti da Office 365** nella pagina **Utenti** come descritto nella sezione [Per aggiungere un utente o aggiornare le informazioni sull'utente in Business Central](#adduser).
+- L'amministratore può aggiungere l'utente scegliendo l'azione **Aggiorna utenti da Microsoft 365** nella pagina **Utenti** come descritto nella sezione [Per aggiungere un utente o aggiornare le informazioni sull'utente in Business Central](#adduser).
 - Le informazioni sulla licenza si aggiorneranno automaticamente quando l'utente accede per la prima volta.
 
 In entrambi i casi, vengono automaticamente eseguite alcune impostazioni. Queste sono elencate nella seconda e terza colonna nella tabella seguente.
@@ -78,13 +78,13 @@ In entrambi i casi, vengono automaticamente eseguite alcune impostazioni. Queste
 Se si modificano le informazioni dell'utente in Microsoft 365, è possibile aggiornare [!INCLUDE[prod_short](includes/prod_short.md)] in modo da riflettere la modifica. A seconda di ciò che si desidera aggiornare, utilizzare una delle azioni della pagina **Utenti**. Le azioni sono descritte nelle ultime tre colonne nella tabella seguente.
 
 > [!NOTE]
-> Le azioni descritte nella tabella seguente sono accurate, tuttavia l'unica necessaria è **Aggiorna utenti da Office 365**, che è stata aggiunta per semplificare il processo. Le altre azioni verranno rimosse in una versione futura di [!INCLUDE[prod_short](includes/prod_short.md)].
+> Le azioni descritte nella tabella seguente sono accurate, tuttavia l'unica necessaria è **Aggiorna utenti da Microsoft 365**, che è stata aggiunta per semplificare il processo. Le altre azioni verranno rimosse in una versione futura di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Cosa succede quando:|Primo utente, primo accesso|Ottieni utenti da Microsoft 365|Aggiorna utenti da Microsoft 365|Ripristina gruppi di utenti di default dell'utente|Aggiorna i gruppi di utenti|Aggiorna informazioni utente da Microsoft 365|
 |-|-|-|-|-|-|-|
 |Ambito:|Utente corrente|Nuovi utenti in Microsoft 365|Più utenti selezionati|Singolo utente selezionato (tranne quello corrente)|Più utenti selezionati|Più utenti selezionati|
 |Creare il nuovo utente e assegnare il set di autorizzazioni SUPER.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Aggiornare l'utente in base alle informazioni in Microsoft 365: Stato, Nome completo, Email contatto, Indirizzo e-mail di autenticazione.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
+|Aggiorna l'utente in base alle informazioni in Microsoft 365: Stato, Nome completo, Email contatto, Indirizzo e-mail di autenticazione.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
 |Sincronizzare piani utente (licenze) con licenze e ruoli assegnati in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Aggiungere l'utente a gruppi di utenti in base ai piani utente correnti. Rimuovere il set di autorizzazioni SUPER per tutti gli utenti diversi dal primo utente che accede e gli [amministratori](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Almeno un'autorizzazione SUPER è obbligatoria.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Rimuove le autorizzazioni e i gruppi di utenti assegnati manualmente.|**X**<br /><br />Aggiorna le assegnazioni di gruppi di utenti.| |
 
@@ -110,11 +110,11 @@ Gli utenti con licenza per dispositivo non possono eseguire le seguenti attivit�
 4. Nella pagina **Nozioni di base**, immetti **Utenti del dispositivo Dynamics 365 Business Central** come nome del gruppo.
   
    >[!NOTE]
-   >Il nome del gruppo deve essere scritto in inglese esattamente come mostrato nel passaggio 4, anche se si utilizza un'altra lingua.
+   >Il nome del gruppo deve essere scritto in inglese esattamente come mostrato nel passaggio 4, anche se si utilizza un'altra lingua. Se hai copiato il nome del gruppo da un documento, come un PDF, verifica che il nome non contenga spazi aggiuntivi.
 5. Selezionare il pulsante **Chiudi**.
 
 > [!NOTE]
-> È anche possibile creare un gruppo di tipo Microsoft 365. Per ulteriori informazioni, vedere [Confrontare i gruppi](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+> È anche possibile creare un gruppo di tipo Microsoft 365. Per ulteriori informazioni, vedi [Confrontare i gruppi](/microsoft-365/admin/create-groups/compare-groups)
 
 ### <a name="to-add-members-to-the-group"></a>Per aggiungere i membri al gruppo
 
@@ -155,7 +155,7 @@ Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli uten
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Amministrazione](admin-setup-and-administration.md)  
-[Aggiungere utenti a Microsoft 365 per le aziende](https://aka.ms/CreateOffice365Users)  
+[Aggiungere utenti a Microsoft 365 per le aziende](/microsoft-365/admin/add-users/add-users)  
 [Sicurezza e protezione in Business Central (contenuto per amministratori)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

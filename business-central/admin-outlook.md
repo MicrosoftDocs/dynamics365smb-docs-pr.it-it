@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377950"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777443"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
@@ -74,7 +74,7 @@ I componenti aggiuntivi sono progettati per l'uso con Microsoft 365. Se si utili
 
 ## <a name="see-also"></a>Vedere anche
 
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Finanze](finance.md)  

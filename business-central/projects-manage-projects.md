@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc0425dddc02a20f074aee26a96bf4161ed212ca
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388320"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780334"
 ---
 # <a name="project-management"></a>Gestione progetti
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378775"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773363"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Applicazione della configurazione a nuove società
 Dopo avere creato un pacchetto di configurazione, il passaggio successivo consiste nella distribuzione del pacchetto al cliente per l'operazione di implementazione. Il pacchetto di configurazione è utilizzato in una nuova società vuota.  

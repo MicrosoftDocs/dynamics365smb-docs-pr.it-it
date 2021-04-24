@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca68b01ed69883be44d97bcdc03429332fd6e75d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 372b527ed76788bae8608fbc89ff8ab6902a6d5b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774280"
 ---
 # <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  

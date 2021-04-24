@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: af92f9476189107fced0ff73e92c07d1a09be25a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392101"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778249"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  

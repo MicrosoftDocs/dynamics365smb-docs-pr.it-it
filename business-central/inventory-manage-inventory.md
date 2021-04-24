@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780759"
 ---
 # <a name="inventory"></a>Magazzino
 Per ogni prodotto fisico trattato è necessario creare una scheda articolo di tipo **Magazzino**. Gli articoli che si offrono ai clienti ma che non sono presenti in magazzino possono essere registrati come articoli di catalogo che possono essere convertiti in articoli di magazzino se necessario. È possibile aumentare o diminuire la quantità di un articolo in magazzino registrando direttamente nei movimenti contabili articoli, ad esempio, dopo un conteggio fisico oppure se non si registrano gli acquisti.
@@ -51,7 +51,6 @@ La tabella seguente descrive le attività correlate.
 |Visualizzare la disponibilità di articoli per ubicazione, periodo, evento di vendita o acquisto o in base all'utilizzo nei DB assemblaggi o produzione.|[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)|
 |Trasferire gli articoli in magazzino tra le ubicazioni con ordini di trasferimento, per gestire le attività di warehouse oppure con le registrazioni di riclassificazione articoli.|[Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)|
 |Impegnare gli articoli in entrata o di magazzino per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio o ordini di produzione.|[Prenotare articoli](inventory-how-to-reserve-items.md)|
-|Impostare la descrizione di un cliente o un fornitore per un articolo, in modo che sia possibile inserire facilmente la descrizione dell'articolo nei documenti commerciali.|[Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md)|
 |Assegnare i numeri seriali o i numeri di lotto a qualsiasi riga di registrazione del documento in uscita o in entrata, ad esempio per tenere traccia degli articoli in caso di richiamate.|[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)|
 |Impostare la descrizione articolo di un cliente o un fornitore nella scheda articolo in modo che sia possibile inserire rapidamente la descrizione dell'articolo nei documenti commerciali.|[Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md)|
 |È possibile trovare dove un numero seriale o di lotto è stato utilizzato nella sua catena di approvvigionamento, ad esempio in caso di richiamate.|[Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)|

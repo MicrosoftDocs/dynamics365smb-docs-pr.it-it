@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3893ad6bf1a584f3cd2dfdf7970c9c49846ed631
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 381c1a1deb5e450cf14c413f54b0a0016ffc0394
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771446"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  

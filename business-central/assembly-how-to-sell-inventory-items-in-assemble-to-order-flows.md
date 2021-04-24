@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 929f4ff71cf0f5a1c2365b72f6d639e8c7be15c0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9c9ba52d6f4f4a7f9af82e381040e545e46f746
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386601"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770568"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi da assemblare su ordine
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **Assemblaggio su ordine**, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md). Tuttavia, se una parte della quantità dell'ordine di vendita è già disponibile in magazzino, interamente, è possibile ridurre la quantità dell'ordine di assemblaggio modificando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita.  

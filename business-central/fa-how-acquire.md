@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8aa71492c307ba017b7ec3e2914e5f63e1dbefc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ff6f0efce35a894f2a2200d2c8a89b35ad26bb53
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377774"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774132"
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
@@ -102,7 +102,7 @@ Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il p
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

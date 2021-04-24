@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ab1b8a7dce90f2bb2122f1f77c04da2ff795aa8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770543"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
 Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379100"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777493"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -27,7 +27,7 @@ Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare
 
 A seconda del paese, la versione di valutazione include le lingue e le funzionalità necessarie per quel paese. Per ulteriori informazioni, vedere [Modifica di lingua e impostazioni locali](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a video utili per iniziare. Per ulteriori informazioni, vedere [Introduzione a [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a guide al setup assistito che possono essere utili per iniziare. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 In caso di difficoltà, la pagina [Domande frequenti ](across-faq.md) può fornire le risposte ad alcune domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md). Puoi anche contattare un [partner](across-faq.md#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prod_short](includes/prod_short.md)] per te.  
 
@@ -89,7 +89,7 @@ L'amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] e il partner 
 
 ## <a name="see-also"></a>Vedere anche
 
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Estendere la versione di valutazione](admin-extend-trial.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ff18b81f71c8d4877c42f614c5ef485a43b2b494
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fadb982f5100d09884ef330a4ce52348deb7feef
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390676"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775602"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  

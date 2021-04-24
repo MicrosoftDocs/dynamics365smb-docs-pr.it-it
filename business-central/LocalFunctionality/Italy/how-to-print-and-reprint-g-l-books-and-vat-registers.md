@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 563241ab245e6fd8f9486093e69e0d07cde348da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 60061b3393463d85871688eb05fffa322e42c7e9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382891"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771448"
 ---
 # <a name="print-and-reprint-gl-books-and-vat-registers"></a>Stampare e ristampare i libri giornale e i registri IVA
 Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[prod_short](../../includes/prod_short.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50bc59f59703195e3c9ccebfb31094a3ffbefe64
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4e2ab60cf1d586bae360c2633851bf94c412ec55
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382859"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780154"
 ---
 # <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b37ee7ebf29503da0b205ac7eac11d9233375321
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4908ae12eb015c66bda1d6e42f7dcf53c170ba46
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376764"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778999"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Riconciliare i pagamenti che non possono essere collegati automaticamente
 Talvolta può essere necessario gestire i pagamenti al conto corrente bancario che non possono essere collegati a un movimento aperto di contabilità generale, cliente o fornitore correlato. I motivi possono essere che in [!INCLUDE[prod_short](includes/prod_short.md)] non sono presenti documenti cui possa essere collegato il pagamento o che il documento correlato in [!INCLUDE[prod_short](includes/prod_short.md)] ha un importo diverso da quello della transazione, ad esempio, a causa del cambio della valuta. Nella pagina **Registrazione riconciliazione pagamenti** tutti gli importi delle transazioni per i pagamenti che non sono ancora collegati vengono visualizzati nel campo **Differenza**, inclusi gli importi che non possono essere collegati per i motivi citati prima.

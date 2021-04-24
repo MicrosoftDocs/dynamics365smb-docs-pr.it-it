@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384951"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776274"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
 [!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
@@ -47,7 +47,7 @@ ms.locfileid: "5384951"
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

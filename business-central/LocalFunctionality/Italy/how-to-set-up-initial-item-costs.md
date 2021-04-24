@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef82ca1a244839c265eb28b951a6ec34d714de3a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e1f84c11218a558d05ba15ef792615a2530b8b25
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382877"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780164"
 ---
 # <a name="set-up-initial-item-costs"></a>Impostare i costi iniziali per gli articoli
 Quando si imposta [!INCLUDE[prod_short](../../includes/prod_short.md)] nell'organizzazione.  

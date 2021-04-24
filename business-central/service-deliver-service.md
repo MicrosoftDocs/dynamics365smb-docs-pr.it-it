@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: efb5942dfd58365effdf4d46759ea81f75fe718e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377450"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778324"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[prod_short](includes/prod_short.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  

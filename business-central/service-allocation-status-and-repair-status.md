@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9aa7850f53c8fd4f5098feb4ebdba14282568b34
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386001"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772406"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Stato di assegnazione e stato di riparazione degli articoli in assistenza
 Lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei movimenti di assegnazione degli articoli in assistenza sono correlati in Gestione assistenza. Lo stato di assegnazione cambia quando lo stato di riparazione dell'articolo in assistenza viene modificato in **Completato** o **Parzialmente Assistito** e quando un'offerta di assistenza viene convertita in ordine di assistenza. Lo stato di riparazione dell'articolo in assistenza cambia quando l'assegnazione dell'articolo in assistenza viene eliminata o quando l'articolo in assistenza viene riassegnato ad un'altra risorsa. Lo stato di riparazione degli articoli in assistenza può essere visualizzato nella pagina **Compiti di Assistenza** e aggiornato nel campo **Codice Stato Riparazione** della pagina **Prospetto Art. in Assist.** È possibile visualizzare lo stato di assegnazione nel campo **Stato** della pagina **Assegnazioni Risorse**.  

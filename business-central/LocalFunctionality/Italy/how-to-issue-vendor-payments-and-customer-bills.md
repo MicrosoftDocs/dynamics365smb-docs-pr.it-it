@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5c22e9fb77b5bb14cad632ac72bb3567d15ca82
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5a1d4e5ba16f0d73fb424241f228fde66501e98e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382899"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771450"
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376739"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779384"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Gestione delle dimensioni lotti in produzione
 In termini di quantità, il numero di articoli prodotti in un'operazione di produzione potrebbe non essere correlato alla modalità di vendita degli stessi. Ad esempio, si potrebbero produrre centinaia di articoli in un unico lotto, ma vendere ogni articolo singolarmente. Quando si configurano i cicli di produzione e le distinte base (BOM), vi sono alcune sfumature da considerare per quanto riguarda le dimensioni lotti. In questo argomento viene descritto in che modo le dimensioni lotti influiscono sui calcoli dei costi e sulla pianificazione delle risorse.

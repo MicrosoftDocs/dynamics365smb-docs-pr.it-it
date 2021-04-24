@@ -1,17 +1,17 @@
 ---
-title: Avvisi e messaggi di errore | Microsoft Docs
+title: Avvisi e messaggi di errore
 description: Informazioni su come risolvere i problemi e trovare soluzioni ai messaggi di errore quando si utilizza Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387175"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779484"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avvisi e messaggi di errore in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Durante la giornata lavorativa, è possibile che vengano visualizzate notifiche 
 
 ## <a name="in-product-user-assistance"></a>Assistenza utente nel prodotto
 
-La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] include descrizioni per la maggior parte dei campi, delle colonne e delle azioni a cui è possibile accedere scegliendone il nome. In combinazione con didascalie descrittive e testo didattico, questi suggerimenti, o callout, sono l'attuale implementazione di *assistenza utente incorporata*, che è un principio importante nel mondo attuale della progettazione del software.  
+La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] include descrizioni per la maggior parte dei campi, delle colonne e delle azioni a cui è possibile accedere scegliendone il nome. In combinazione con suggerimenti didatti per le pagine importanti, didascalie descrittive e testo didattico, questi suggerimenti, o callout, sono l'attuale implementazione di *assistenza utente incorporata*, che è un principio importante nel mondo attuale della progettazione del software.  
 
 Per informazioni su un campo o un altro elemento dell'interfaccia utente, scegliere il nome e apparirà una breve descrizione. Scegliere il collegamento *Ulteriori informazioni* se la descrizione non è sufficiente.  
 
@@ -41,7 +41,7 @@ Se si è amministratore o superutente, è possibile aiutare gli altri cercando i
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
 [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

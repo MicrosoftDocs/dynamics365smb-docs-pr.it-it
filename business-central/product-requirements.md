@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393676"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779459"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 
@@ -23,32 +23,34 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 
 ## <a name="browsers"></a>Browser
 
-### <a name="recommended-browsers"></a>Browser consigliati
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente del nuovo Microsoft Edge.  
-**Chrome per Windows e Firefox per Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente di questi browser desktop.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente del nuovo Microsoft Edge.
+  
+**Chrome per Windows e Firefox per Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente di questi browser desktop. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente di Safari in macOS.  
-
-### <a name="other-supported-browsers"></a>Altri browser supportati
-
-**Microsoft Edge legacy:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per funzionare con la versione legacy di Microsoft Edge, ma si consiglia di passare al nuovo Edge.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare Internet Explorer 11 (versione 11.0.9600.17239) per Windows 10 (versioni a 32 e 64 bit). È consigliabile l'aggiornamento alla versione più recente di Internet Explorer supportata per la versione di Windows. È inoltre possibile eseguire il nuovo Edge e accedere comunque ad altri siti Web che richiedono Internet Explorer. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> A partire da aprile 2021, Internet Explorer 11 ed Edge Legacy non saranno più supportati. Consigliamo di passare a uno dei browser moderni consigliati il prima possibile.
 
 ## <a name="mobile-devices"></a>Dispositivi mobili
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] per Windows può essere installato nei dispositivi che includono almeno 1 GB di RAM e Windows 10 S, Home, Pro, Enterprise o Education (edizioni a 32 bit e a 64 bit).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] per iPad e iPhone richiede iOS 10.0 o versione successiva.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] per Android tablet e telefoni Android può essere installato su dispositivi con almeno 1 GB di RAM e Android 6.0 o versione successiva.  
-**Dimensioni del dispositivo:** [!INCLUDE[prod_short](includes/prod_short.md)] è supportato su smartphone con dimensioni minime dello schermo di 4" e tablet con dimensioni minime dello schermo di 7".  
+**Windows:** Windows 10 S, Home, Pro, Enterprise o Education (edizioni a 32 bit e 64 bit).
 
+**Android (tablet e telefono):** una delle ultime tre versioni principali e i relativi aggiornamenti.
+
+**iOS (iPad e iPhone):** una delle ultime tre versioni principali e i relativi aggiornamenti.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook
 
-**Applicazioni di Outlook:** per utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come casella di Posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2019 o versione successiva, Outlook sul Web, Outlook per iPhone, Outlook per iPad oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale.  
-**Browser:** quando si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.  
-**Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook per iPhone, Outlook per iPad e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[prod_short](includes/prod_short.md)].  
+**Applicazioni Outlook:** per usare [!INCLUDE[prod_short](includes/prod_short.md)] Online come posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2019 o versione successiva, Outlook sul Web, Outlook per iOS o Outlook per Android. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale. 
+ 
+**Browser:** quando si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo. 
+ 
+**Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook  [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook per iPhone, Outlook per iOS e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="teams"></a>Teams
 
@@ -73,12 +75,11 @@ L'Interfaccia di amministrazione è progettata per funzionare con la versione co
 
 ## <a name="using-business-central-on-premises"></a>Utilizzo di Business Central in locale
 
-Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Vedere anche
 
-[Introduzione](product-get-started.md)  
-[Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Preparazione al business](ui-get-ready-business.md)  
+[Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

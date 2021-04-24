@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ca0f7213bbe6edcbebab4959bc16483af2260f86
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384901"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776220"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visualizzazione degli elenchi in modalità differenti
 Nell'angolo destro di qualsiasi elenco di [!INCLUDE[prod_short](includes/prod_short.md)] sono presenti delle icone che consentono di scegliere il tipo di visualizzazione dei record. Un elenco può essere visualizzato come righe dettagliate, soluzione ideale quando si devono utilizzare molti campi o modificare campi nell'elenco. È tuttavia possibile visualizzare i record anche come riquadri: una soluzione più compatta che comporta meno campi sul record specifico. Questa modalità di visualizzazione è molto utile per ottenere una panoramica con più movimenti, soprattutto sui dispositivi più piccoli, in quanto è più compatta e semplifica il tocco.

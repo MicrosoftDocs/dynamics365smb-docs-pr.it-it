@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380204"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770518"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
@@ -117,11 +117,11 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[prod_short](includes/prod_s
 
 Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e 8.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

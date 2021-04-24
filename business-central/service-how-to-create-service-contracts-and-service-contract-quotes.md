@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dffa11eeb39cd2246ac97284ec4bcfcbb2977539
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9cfb99319510b76843e7c94adedb66835023c55d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390401"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775302"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  

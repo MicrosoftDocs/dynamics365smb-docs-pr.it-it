@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 11/17/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b295850b6af12c355e995e2df150c4ff8eca538
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: be8ea4499e1f4b49b6950464f11c0c106f9c04c5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382873"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780160"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 

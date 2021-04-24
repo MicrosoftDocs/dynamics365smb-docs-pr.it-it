@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385076"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776449"
 ---
 # <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
 
@@ -39,7 +39,7 @@ L'area geografica differisce dalla lingua e dai requisiti legali nei mercati loc
 È possibile modificare l'area geografica nella scheda del browser utilizzato in [!INCLUDE[prod_short](includes/prod_short.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  La scelta dell'area geografica verrà ripristinata sulle impostazioni del profilo di Microsoft 365 se l'amministratore sincronizza gli utenti da Microsoft 365 in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  Quando si modifica l'area geografica viene visualizzato un lungo elenco di lingue e aree geografiche. Tuttavia, la lingua non è influenzata dalla scelta dell'area geografica.  
+> Quando si modifica l'area geografica viene visualizzato un lungo elenco di lingue e aree geografiche. Tuttavia, la lingua non è influenzata dalla scelta dell'area geografica.  
 
 Per modificare l'area geografica accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Per modificare l'area geografica accedere alla pagina **Impostazioni personali**
 Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE[prod_short](includes/prod_short.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
-### <a name="how-do-i-change-the-language"></a>Come si cambia la lingua?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Come cambio la lingua del sito di Microsoft Docs?
+
 È semplice. Basta scorrere in fondo alla pagina del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.
 
 > [!NOTE]  
-> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue. Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.
+> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi/regioni e il contenuto della Guida di [!INCLUDE [prod_short](includes/prod_short.md)] non è disponibile in tutte le lingue supportate dal sito Microsoft Docs.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

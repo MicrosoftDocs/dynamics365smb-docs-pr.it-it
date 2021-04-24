@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/20/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47a042f1825eca548ecbf08c6901e5af26cbeb43
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573403"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779784"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -110,7 +110,18 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 Per connettere [!INCLUDE[prod_short](includes/prod_short.md)] on-premises a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], è necessario specificare alcune informazioni nella pagina **Setup connessione a Dataverse**.
 
-Se si desidera connettersi utilizzando un account Azure Active Directory (Azure AD), è necessario registrare un'applicazione in Azure AD e fornire l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento da utilizzare. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedere [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se si sta configurando il server in modo da avere una home page diversa, è sempre possibile cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database.  
+Se si desidera connettersi utilizzando un account Azure Active Directory (Azure AD), è necessario registrare un'applicazione in Azure AD e fornire l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento da utilizzare. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedere [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se si sta configurando il server in modo da avere una home page diversa, è sempre possibile cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database. 
+
+### <a name="prerequisites"></a>Prerequisiti
+
+Dataverse deve utilizzare uno dei seguenti tipi di autenticazione:
+
+- Office365 (legacy)
+
+  > [!IMPORTANT]
+  > A partire da aprile 2022, Office365 (legacy) non sarà più supportato. Per ulteriori informazioni, vedi [Importanti modifiche (deprecazioni) in arrivo per Power Apps, Power Automate e app per il coinvolgimento dei clienti](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+- Office365 (moderno, basato su client secret OAuth2)
+- OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Per registrare un'applicazione in Azure AD per la connessione da Business Central a Dataverse
 

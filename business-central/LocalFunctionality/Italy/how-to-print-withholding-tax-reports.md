@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1c161dfc9ac50a6c6bddbe20a7188726eab0c834
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4a99b6e4eb45596191c87dac046f71c9cef19e33
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382887"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780168"
 ---
 # <a name="print-withholding-tax-reports"></a>Stampa di report delle ritenute
 Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato.  

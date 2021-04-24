@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 362f5ca0ac71d226c29bff3f03aaa4d9f30fb171
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fcc05bd73f3912a04e01ced0982c334203bb58cf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776943"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 
@@ -45,7 +45,7 @@ Dopo avere abilitato il servizio di feed bancari, è necessario collegare un con
 Quando il servizio di feed bancari è abilitato, è possibile impostare un conto corrente bancario per importare automaticamente nuovi estratti conto bancari nella pagina **Registrazione riconciliazione pagamenti** ogni di due ore. Le transazioni per i pagamenti già registrate come applicate e/o riconciliate nella pagina **Registrazione riconciliazione pagamenti** non verranno incluse. Per ulteriori informazioni, vedere la sezione "Per abilitare l'importazione automatica degli estratti conto bancari".
 
 > [!NOTE]  
-> Se si utilizza la guida al setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Introduzione](product-get-started.md).
+> Se si utilizza la guida al setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Per abilitare il servizio di feed bancari
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.

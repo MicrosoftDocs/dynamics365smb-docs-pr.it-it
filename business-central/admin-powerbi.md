@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9768fca2bea274a8124c34e151d399baa23f9f03
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 32e9eaadfa55a8c10e331c9f6a35f18d48b73110
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493119"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777309"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
 
@@ -66,7 +66,7 @@ Ci sono alcune attività che devono essere eseguite prima di poter iniziare a ut
 [Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Documentazione di Power BI](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  

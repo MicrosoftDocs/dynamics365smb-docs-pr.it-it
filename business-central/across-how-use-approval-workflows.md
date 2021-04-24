@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379375"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774513"
 ---
 # <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
 Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve essere approvato da una persona della propria organizzazione, inviare una richiesta di approvazione come parte di un flusso di lavoro. In base all'impostazione del flusso di lavoro, al responsabile dell'approvazione appropriato viene inviata una notifica relativa alla richiesta di approvazione del record.
@@ -25,7 +25,7 @@ I workflow di approvazione vengono impostati nella pagina **Workflow**. Per ulte
 
 Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
 
-I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per la guida al setup assistito. Per ulteriori informazioni, vedere [Introduzione](product-get-started.md).
+I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per la guida al setup assistito. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Per richiedere l'approvazione di un record
 La seguente attività viene eseguita da un utente approvazione.

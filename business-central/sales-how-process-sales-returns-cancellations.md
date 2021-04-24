@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a65f67a7ac07196f5b4738c59fa5180e512f89c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b5f6daba9251dad73b8924312e35a5cb1474bdb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385576"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778699"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette in merito alle fatture di vendita, è possibile creare la nota di credito di vendita direttamente dalla fattura di vendita registrata oppure creare una nuova nota di credito di vendita con le informazioni copiate dalla fattura.

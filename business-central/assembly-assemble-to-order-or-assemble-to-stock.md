@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773031"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -72,8 +72,8 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  La seguente tabella illustra le regole che definiscono i valori minimo e massimo che è possibile immettere nel campo **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
 
-|-|Riga ordine vendita|Testata ordine di assemblaggio|  
-|-|----------------------|---------------------------|  
+|-|Riga ordine vendita|Testata ordine di assemblaggio|||||||  
+|-|----------------------|---------------------------|-|-|-|-|-|-|  
 ||**Quantità**|**Qtà da spedire**|**Qtà per assemblaggio su ordine**|**Quantità spedita**|**Quantità**|**Quantità da assemblare**|**Quantità assemblata**|**Quantità residua**|  
 |Iniziale|10|7|7|0|7|7|0|7|  
 |Cambia||4||||4 (immesso di default)|||  

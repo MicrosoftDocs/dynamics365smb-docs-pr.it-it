@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f79035d6bfa841f6bf9e82acc4bd4cdc45e1bc28
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573478"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778749"
 ---
 # <a name="merge-duplicate-records"></a>Unire record duplicati
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.

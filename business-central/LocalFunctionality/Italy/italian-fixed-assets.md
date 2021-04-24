@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db03da721463b009183a531103f554d3a5fa5919
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0c5d37b321b745a1df3cef4eccfa7e23e3836110
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382867"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771430"
 ---
 # <a name="italian-fixed-assets"></a>Cespiti italiani
 I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito. Possono essere tangibili o intangibili e durevoli o non durevoli. Automobili, macchinari e arredamenti sono esempi di cespiti tangibili. Costi di avviamento e licenze sono esempi di cespiti intangibili.  

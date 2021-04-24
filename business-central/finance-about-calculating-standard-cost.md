@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f4cae6c25a2ea75e93a588ab987acab3835b750
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376638"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781088"
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  

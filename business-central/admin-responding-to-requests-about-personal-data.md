@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777383"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Rispondere a richieste relative a dati personali  
 Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi del regolamento generale sulla protezione dei dati (GDPR), i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Questo è noto come *richiesta dell'interessato*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla classificazione di dati riservati in [!INCLUDE[prod_long](includes/prod_long.md)], vedere [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) e [Classificazione di dati riservati](admin-classifying-data-sensitivity.md).  

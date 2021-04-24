@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a82f2e17a25c10eee9fa4633f12d75d265a057f9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3da6d4144b1e35da864de7b69a425bb65800b2cb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390376"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770740"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  

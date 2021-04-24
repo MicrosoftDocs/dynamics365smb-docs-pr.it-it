@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d92aa7674082f88f9712868b36a606f7fdb2468
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 311535ba1d4963daa33ef1c0a263cef582dbcdc4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382871"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771438"
 ---
 # <a name="submit-vat-statements"></a>Inviare dichiarazioni IVA
 Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni e i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  

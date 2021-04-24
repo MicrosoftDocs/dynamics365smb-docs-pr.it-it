@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e7fb77ab485489158798cdd03660325c678390e1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377275"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771314"
 ---
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 
@@ -103,7 +103,7 @@ Se l'analisi propone un attributo che non si desidera visualizzare, è possibile
 
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

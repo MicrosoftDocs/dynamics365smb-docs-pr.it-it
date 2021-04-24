@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54d7a5526a916e426d8e915e3b44dc2af16f2dba
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386576"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772906"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vendere articoli assemblati su ordine
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio è **Assemblaggio su ordine**, non si prevede che l'articolo sia nel magazzino e deve essere assemblato in modo specifico a un ordine di vendita. Quando si immette l'articolo in una riga dell'ordine di vendita, un ordine di assemblaggio viene automaticamente creato e collegato all'ordine di vendita.  

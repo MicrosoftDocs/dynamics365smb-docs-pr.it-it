@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377425"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778299"
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
 Un metodo per impostare un'attività di gestione dell'assistenza è quello di disporre di accordi contrattuali standard tra la propria azienda e i clienti, che descrivano il livello di assistenza e le aspettative del cliente nei confronti dall'assistenza. È possibile creare modelli di contratto che includano le informazioni necessarie, ossia dati del cliente, data di inizio del contratto e periodo di fatturazione.  
