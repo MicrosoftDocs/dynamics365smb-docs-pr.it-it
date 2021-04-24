@@ -10,34 +10,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3b02b22cf387cffc23177f217838c95dd9d04d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 468437e1b9f2e2a49c008a4e78c59f436dc05b17
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772606"
 ---
-# <a name="set-up-purchasers"></a><span data-ttu-id="ee016-103">Impostare gli addetti agli acquisti</span><span class="sxs-lookup"><span data-stu-id="ee016-103">Set Up Purchasers</span></span>
-<span data-ttu-id="ee016-104">Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice.</span><span class="sxs-lookup"><span data-stu-id="ee016-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="ee016-105">Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.</span><span class="sxs-lookup"><span data-stu-id="ee016-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span><br><br>  
+# <a name="set-up-purchasers"></a><span data-ttu-id="a58c5-103">Impostare gli addetti agli acquisti</span><span class="sxs-lookup"><span data-stu-id="a58c5-103">Set Up Purchasers</span></span>
+<span data-ttu-id="a58c5-104">Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice.</span><span class="sxs-lookup"><span data-stu-id="a58c5-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="a58c5-105">Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.</span><span class="sxs-lookup"><span data-stu-id="a58c5-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span><br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
-## <a name="to-set-up-purchasers"></a><span data-ttu-id="ee016-106">Per impostare gli addetti agli acquisti</span><span class="sxs-lookup"><span data-stu-id="ee016-106">To set up purchasers</span></span>
-1. <span data-ttu-id="ee016-107">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti/Add. acquisti** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="ee016-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ee016-108">Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="ee016-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
-3. <span data-ttu-id="ee016-109">Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="ee016-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-purchasers"></a><span data-ttu-id="a58c5-106">Per impostare gli addetti agli acquisti</span><span class="sxs-lookup"><span data-stu-id="a58c5-106">To set up purchasers</span></span>
+1. <span data-ttu-id="a58c5-107">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti/Add. acquisti** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="a58c5-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="a58c5-108">Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="a58c5-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
+3. <span data-ttu-id="a58c5-109">Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="a58c5-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="ee016-110">Per assegnare gli addetti agli acquisti ai fornitori</span><span class="sxs-lookup"><span data-stu-id="ee016-110">To assign purchasers to vendors</span></span>
-1. <span data-ttu-id="ee016-111">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="ee016-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ee016-112">Aprire la scheda fornitore corrispondente al fornitore al quale sarà assegnato un addetto agli acquisti.</span><span class="sxs-lookup"><span data-stu-id="ee016-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
-3. <span data-ttu-id="ee016-113">Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ee016-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
+## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="a58c5-110">Per assegnare gli addetti agli acquisti ai fornitori</span><span class="sxs-lookup"><span data-stu-id="a58c5-110">To assign purchasers to vendors</span></span>
+1. <span data-ttu-id="a58c5-111">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="a58c5-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="a58c5-112">Aprire la scheda fornitore corrispondente al fornitore al quale sarà assegnato un addetto agli acquisti.</span><span class="sxs-lookup"><span data-stu-id="a58c5-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
+3. <span data-ttu-id="a58c5-113">Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="a58c5-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ee016-114">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="ee016-114">See Also</span></span>
-[<span data-ttu-id="ee016-115">Impostazioni acquisti</span><span class="sxs-lookup"><span data-stu-id="ee016-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="ee016-116">Gestione della contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="ee016-116">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="ee016-117">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ee016-117">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="a58c5-114">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="a58c5-114">See Also</span></span>
+[<span data-ttu-id="a58c5-115">Impostazioni acquisti</span><span class="sxs-lookup"><span data-stu-id="a58c5-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="a58c5-116">Gestione della contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="a58c5-116">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="a58c5-117">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a58c5-117">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
