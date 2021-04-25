@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379175"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882132"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
 
@@ -24,6 +24,10 @@ ms.locfileid: "5379175"
 In questo articolo viene descritto come installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L'app è disponibile nel marketplace di Teams ed è possibile usarla con l'app Web, desktop o per dispositivi mobili Teams.
 
 ## <a name="prerequisites"></a>Prerequisiti
+
+- Un account utente [!INCLUDE [prod_short](includes/prod_short.md)] Online è richiesto per l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams.
+
+    Se non si è certi di avere un account o se non si conoscono le credenziali per l'accesso, contatta l'amministratore della società per assistenza.
 
 - Accesso all'app desktop Teams o a Teams nel browser. Non puoi installare [!INCLUDE [prod_short](includes/prod_short.md)] utilizzando l'app per dispositivi mobili Teams.
 
@@ -43,7 +47,7 @@ Questa opzione è il modo più rapido per installare l'app.
 
     ![Installare l'app Business Central in Teams](media/teams-install-app.png)
 
-3. Selezionare **Aggiungi per l'utente corrente**.
+3. Seleziona **Aggiungi**.
 
 **Opzione 2**
 
@@ -51,7 +55,10 @@ Questa opzione è il modo più rapido per installare l'app.
 2. Nella parte sinistra, selezionar **App**.
 3. Cercare **Business Central**.
 4. Selezionare l'app una volta trovata.
-5. Selezionare **Aggiungi per l'utente corrente**.
+5. Seleziona **Aggiungi**.
+
+> [!NOTE]
+> Con entrambe le opzioni, ti potrebbe essere chiesto di accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Seleziona il collegamento di **accesso** e segui le istruzioni per inserire il nome e la password per l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Passaggio successivo
 

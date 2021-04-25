@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385326"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889207"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Pianificazione di una sincronizzazione tra Business Central e Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Alcuni movimenti coda processi, come quelli che pianificano la sincronizzazione 
 
 Quando il valore in questo campo non è zero e la coda processi non ha trovato alcuna modifica durante l'ultima esecuzione, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi. Quando ciò accade, il campo **Stato della coda processi** visualizzerà **In sospeso a causa di inattività** e [!INCLUDE[prod_short](includes/prod_short.md)] attenderà il periodo di tempo specificato nel campo **Timeout inattività** prima di eseguire nuovamente il movimento coda processi.  
 
-Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[prod_short](includes/prod_short.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi CURRENCY per 720 minuti (sei ore). Se un tasso di cambio viene modificato in [!INCLUDE[prod_short](includes/prod_short.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[prod_short](includes/prod_short.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
+Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[prod_short](includes/prod_short.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi CURRENCY per 720 minuti (dodici ore). Se un tasso di cambio viene modificato in [!INCLUDE[prod_short](includes/prod_short.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[prod_short](includes/prod_short.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] attiverà automaticamente i movimenti coda processi sospesi solo quando si verificano delle modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Le modifiche in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non attiveranno i movimenti coda processi.

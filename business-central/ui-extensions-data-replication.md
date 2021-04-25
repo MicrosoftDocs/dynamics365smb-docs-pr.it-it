@@ -1,5 +1,5 @@
 ---
-title: Estensioni cloud intelligente Business Central per la migrazione cloud | Microsoft Docs
+title: Estensioni per la migrazione al cloud
 description: Utilizzare le estensioni di migrazione cloud per migrare i dati locali in Business Central online. Queste estensioni spostano i dati locali nel cloud in modo da poter utilizzare Business Central online con i dati esistenti.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377350"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889126"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Estensioni cloud intelligente per la migrazione al cloud
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Estensioni per la migrazione al cloud per la migrazione a Business Central Online
 
 A seconda della soluzione locale, è necessario utilizzare estensioni diverse per connettere i dati con [!INCLUDE[prod_short](includes/prod_short.md)] online allo scopo di migrare la soluzione nel cloud.  
 
@@ -43,8 +43,7 @@ Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intellige
 
 ## <a name="see-also"></a>Vedere anche
 
-[Informazioni intelligenti](about-intelligent-cloud.md)  
-[Estensione Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
-
+[Estensione migrazione Cloud base](ui-extensions-intelligent-cloud.md)  
+[Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

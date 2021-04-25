@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787354"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.
@@ -108,7 +108,7 @@ Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunq
 8. Nella Scheda dettaglio **Credenziali modello personale**, immettere l'URL dell'API e la chiave API per il modello.  .  
 
 ## <a name="see-also"></a>Vedere anche  
-[Documentazione di Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Documentazione di Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

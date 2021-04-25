@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385951"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870000"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
@@ -29,6 +29,9 @@ Se si desidera consentire delle interruzioni in determinate numerazioni, consult
 >   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[prod_short](includes/prod_short.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
 
 Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario configurare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
+
+> [!NOTE]
+> La lunghezza massima di un numero in una serie di numeri è di 20 caratteri. Ci sono alcune situazioni in cui [!INCLUDE[prod_short](includes/prod_short.md)] aggiungerà un numero con un ID generato dal sistema. Ad esempio, quando documenti come fatture vengono utilizzati per applicare transazioni, come pagamenti, [!INCLUDE[prod_short](includes/prod_short.md)] genera identificatori per le transazioni applicate. L'identificatore è composto da un numero di una serie di numeri e da un ID assegnato dal sistema a sei caratteri, come -12345. Se prevedi di elaborare più di 9.999 documenti nei giornali bancari o GIRO o nei giornali di ricevute di contanti, imposta le serie di numeri per questi tipi di documenti in modo da includere meno di 14 caratteri.
 
 In genere, si imposta la serie di numeri per inserire automaticamente il numero immediatamente successivo nelle nuove schede o documenti creati. Tuttavia, è anche possibile impostare una numerazione che consente l'immissione manuale del nuovo numero. A tale scopo selezionare la casella di controllo **Consenti num. manuale**.
 

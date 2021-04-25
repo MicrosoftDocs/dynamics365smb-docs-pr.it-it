@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376689"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787479"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. Ciò consente di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
@@ -60,7 +60,7 @@ La possibilità di aggiungere un segnalibro a una pagina o un report è una dell
 - **Perché non è possibile aggiungere segnalibri a determinate pagine o report?**  
 Non a tutte le pagine e i report possono essere aggiunti i segnalibri. Quando una pagina o un report viene eseguito in un contesto speciale regolato dall'applicazione aziendale, l'icona del segnalibro non viene visualizzata. Ad esempio, nelle pagine che non sono presenti nella finestra della **funzionalità delle informazioni** ma vengono avviate altrove non è visualizzata l'icona del segnalibro. Allo stesso modo, le pagine di richiesta report che vengono utilizzate solo per raccogliere i filtri senza eseguire il report non includono l'icona del segnalibro.
 
-Vedere i dettagli tecnici su [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) e [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Vedere i dettagli tecnici su [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) e [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Quando si cancella la personalizzazione, verranno cancellati anche i segnalibri?**  
 Sì. I segnalibri si trovano nel menu di navigazione. Se si cancellano le modifiche al menu di navigazione da qualsiasi pagina o si cancella tutta la personalizzazione in Gestione ruolo utente, tutte le nuove azioni verranno rimosse in modo permanente.

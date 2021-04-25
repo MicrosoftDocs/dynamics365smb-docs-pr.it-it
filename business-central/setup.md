@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385551"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781458"
 ---
-# <a name="setting-up-prod_short"></a>Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione.
+[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione.  
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
-Dal menu ![icona dell'ingrannagio per aprire il menu Impostazioni ](media/ui-experience/settings_icon_small.png), è possibile accedere alle guide di setup assistito che consentono di configurare determinati scenari e aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
+Dal menu ![icona dell'ingrannagio per aprire il menu Impostazioni ](media/ui-experience/settings_icon_small.png), è possibile accedere alle guide di setup assistito che consentono di configurare determinati scenari e aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Alcune funzionalità, generali o per processi aziendali specifici, possono essere impostate manualmente oltre che tramite la guida al setup assistito. Di seguito sono elencate alcune funzionalità che è possibile impostare manualmente.
 
@@ -73,7 +76,7 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

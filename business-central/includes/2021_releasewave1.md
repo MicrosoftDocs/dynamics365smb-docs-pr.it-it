@@ -1,0 +1,1 @@
+<Token> **SI APPLICA A:** Business Central 2021 primo ciclo di rilascio e successivi</Token>

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393301"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784817"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -242,34 +242,9 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 
  Se non si utilizza un separatore, è necessario immettere due cifre per ciascuna unità di tempo.  
 
-## <a name="entering-datetimes"></a>Immissione di date e ore
+## <a name="entering-combined-datetimes"></a>Immissione di date e ore combinate
 
-Quando si immettono date e ore, è necessario inserire uno spazio tra la data e l'ora.  
-
-Nella tabella seguente sono elencati i vari formati in cui è possibile immettere la data e l'ora e le interpretazioni corrispondenti.  
-
-|Immissione|Interpretazione|  
-|---------------|------------------------|  
-|`131202` 132455|13/12/02 13.24.55|  
-|1-12-02 10|01/12/02 10.00.00|  
-|1.12.02 5|01/12/02 05.00.00|  
-|1.12.02|01/12/02 00.00.00|  
-|11 12|11/mese corrente/anno corrente 12.00.00|  
-|1112 12|11/12/anno corrente 12.00.00|  
-|o oppure oggi|Data odierna 00.00.00|  
-|o ora|Ora corrente in data odierna|  
-|o 10:30|Data odierna 10.30.00|  
-|o 3:3:3|Data odierna 03.03.03|  
-|l o data di lavoro|Data del lavoro 00.00.00|  
-|lu o lunedì|Lunedì della settimana corrente 00.00.00|  
-|ma o martedì|Martedì della settimana corrente 00.00.00|  
-|me o mercoledì|Mercoledì della settimana corrente 00.00.00|  
-|gi o giovedì|Giovedì della settimana corrente 00.00.00|  
-|ve o venerdì|Venerdì della settimana corrente 00.00.00|  
-|sa o sabato|Sabato della settimana corrente 00.00.00|  
-|do o domenica|Domenica della settimana corrente 00.00.00|  
-|ma 10:30|Martedì della settimana corrente 10.30.00|  
-|ma 3:3:3|Martedì della settimana corrente 03.03.03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Immissione della durata
 

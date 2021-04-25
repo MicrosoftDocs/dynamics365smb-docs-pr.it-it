@@ -1,31 +1,32 @@
 ---
-title: Conteggiare l'inventario con una funzionalità basata su documenti
-description: Viene descritto come eseguire il conteggio dell'inventario fisico utilizzando le pagine Ordine inventario fisico e Registrazione inventario fisico.
+title: Conteggio e adeguamento del magazzino
+description: Descrive come eseguire il conteggio del magazzino fisico utilizzando le pagine Ordini magazzino fisico e Registrazione magazzino fisico e apportare modifiche negative o positive ai documenti di magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393175"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785950"
 ---
-# <a name="count-inventory-using-documents"></a>Conteggiare l'inventario utilizzando documenti
+# <a name="count-and-adjust-inventory-using-documents"></a>Conteggio e regolazione del magazzino utilizzando documenti
 
-È possibile eseguire un inventario fisico degli articoli utilizzando documenti di ordine di inventario fisico e di registrazioni di inventario fisico. La pagina **Ordine inventario fisico** è utilizzata per organizzare il progetto di conteggio dell'inventario completo, ad esempio uno per posizione. La pagina **Registrazione inventario fisico** è utilizzata per comunicare e acquisire il conteggio effettivo degli articoli. È possibile creare molteplici registrazioni per un ordine, ad esempio per distribuire gruppi di articoli a dipendenti differenti.
+È possibile eseguire un inventario fisico degli articoli utilizzando documenti di ordine di inventario fisico e di registrazioni di inventario fisico. La pagina **Ordine inventario fisico** è utilizzata per organizzare il progetto di conteggio dell'inventario completo, ad esempio uno per posizione. La pagina **Registrazione magazzino fisico** è utilizzata per comunicare e acquisire il conteggio effettivo degli articoli. È possibile creare molteplici registrazioni per un ordine, ad esempio per distribuire gruppi di articoli a dipendenti differenti.
 
 Il report **Registrazione inventario fisico** può essere stampato da ogni registrazione e contiene campi di quantità vuoti per l'immissione dell'inventario conteggiato. Quando un utente termina il conteggio e le quantità vengono immesse nella pagina **Registrazione inventario fisico**, si sceglie l'azione **Fine**. Ciò trasferisce le quantità alle righe pertinenti alla pagina **Ordine inventario fisico**. La funzionalità garantisce che nessun conteggio di articoli può essere registrato due volte.  
 
 > [!NOTE]
-> Questo articolo descrive come eseguire un inventario fisico utilizzando documenti, un metodo che fornisce ulteriore controllo e supporta la distribuzione del conteggio a molteplici impiegati. È inoltre possibile eseguire la task utilizzando registrazioni, come le pagine **Registrazioni inventario fisico** e **Registrazioni dell'inventario fisico warehouse**. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Da notare che se si utilizza la funzionalità Collocazioni o Zone, non è possibile utilizzare ordini di inventario fisico. Utilizzare invece la pagina **Registrazioni dell'inventario fisico warehouse** per conteggiare i movimenti warehouse prima di sincronizzarli con i movimenti contabili articoli.
+> L'uso di documenti su come eseguire un magazzino fisico fornisce ulteriore controllo e supporta la distribuzione del conteggio a molteplici impiegati. È inoltre possibile eseguire la task utilizzando registrazioni, come le pagine **Registrazioni inventario fisico** e **Registrazioni dell'inventario fisico warehouse**. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md). Questo articolo descrive come eseguire un magazzino fisico utilizzando i documenti.
+>
+> Se utilizzi le zone, non puoi utilizzare gli ordini di magazzino fisico. Utilizza invece la pagina **Registrazioni del magazzino fisico warehouse** per conteggiare i movimenti warehouse prima di sincronizzarli con i movimenti contabili articoli.
 
 Il conteggio dell'inventario utilizzando documenti consiste dei seguenti passaggi globali:
 
@@ -77,7 +78,6 @@ Nel caso di conteggio manuale, è possibile stampare un elenco, il report **Regi
 9. Scegliere l'azione **Stampa** per produrre il documento fisico che i dipendenti utilizzeranno per annotare le quantità conteggiate.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Terminare una registrazione di inventario fisico
-
 Quando i dipendenti hanno conteggiato le quantità di inventario, è necessario registrarle nel sistema.
 
 1. Nella pagina **Elenco registrazione magazzino fisico**, selezionare la registrazione di inventario fisico che si desidera terminare e scegliere l'azione **Modifica**.
@@ -185,8 +185,52 @@ Un articolo tracciato viene archiviato nell'inventario con la numerazione "LOT�
 
 Nella pagina **Ordine inventario fisico**, il campo **Quantità negativa (base)** conterrà *8*. Per la riga in questione, la pagina **Elenco tracciabilità articoli magazzino fisico** conterrà le quantità positive o negative per i singoli numeri di lotto.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="inventory-documents"></a>Documenti di magazzino
+I seguenti tipi di documenti sono utili per la gestione del tuo warehouse:
 
+- Usa **Ricevute di magazzino** per registrare rettifiche positive di articoli in base a qualità, quantità e costo.
+- Usa **Spedizioni di magazzino** per cancellare merci mancanti o danneggiate.
+
+Puoi stampare questi documenti in qualsiasi fase, rilasciarli e riaprirli e assegnare valori comuni, comprese le dimensioni, nell'intestazione. Se desideri ristampare i documenti dopo che sono stati pubblicati, puoi farlo nelle pagine **Ricevuta scorte registrata** e **Spedizione magazzino registrata**.
+
+> [!NOTE]
+> Prima di poter utilizzare questi documenti è necessario specificare una serie di numeri per creare i loro identificatori. Per ulteriori informazioni, vedere la sezione seguente.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Per impostare la numerazione per i documenti di magazzino
+La seguente procedura illustra come impostare una numerazione per i documenti del magazzino.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Setup magazzino** e quindi scegli il collegamento correlato.
+2. Nella Scheda dettaglio **Numerazione**, specifica nei seguenti campi la serie di numeri per i documenti:
+   - **N. ricevuta magazzino**  
+   - **N. ricevute magazzino registrate**  
+   - **N. spedizione magazzino**  
+   - **N. spedizione magazzino registrata**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Per creare e registrare un documento di magazzino
+La procedura seguente mostra come creare, stampare e registrare una ricevuta di magazzino. I passaggi sono simili a quelli per le spedizioni del magazzino.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ricevute magazzino** e quindi scegli il collegamento correlato.  
+2. Nell'intestazione della pagina **Ricevuta di magazzino**, scegli la posizione nel campo **Codice posizione**, quindi compila i campi rimanenti secondo necessità.
+3. Nella Scheda dettaglio **Linee**, nel campo **Articolo**, scegli l'articolo di magazzino. Nel campo **Quantità** immettere il numero di articoli da aggiungere. 
+4. Per stampare un report **Ricevuta magazzino** dalla pagina **Ricevuta di magazzino**, scegli l'azione **Stampa**.
+
+Le seguenti funzioni sono disponibili nella pagina **Ricevuta di magazzino**:
+
+- Scegli le azioni **Rilascio** o **Riapri** per impostare lo stato per la fase di elaborazione successiva  
+- Scegli l'azione **Registra** per registrare la ricevuta di magazzino o scegli **Registra e stampa** per registrare la ricevuta e stampare il report di prova  
+
+## <a name="printing-inventory-documents"></a>Stampa dei documenti di magazzino
+Puoi specificare i report che devono essere stampati in fasi diverse scegliendo una delle seguenti opzioni nel campo **Uso** nella pagina **Selezione report - Magazzino**:
+
+- Ricevuta magazzino
+- Spedizione magazzino
+- Ricevuta magazzino registrata
+- Spedizione magazzino registrata
+
+> [!NOTE]
+> I report disponibili possono variare in base alla localizzazione del tuo paese. L'applicazione di base non include alcun layout.
+
+## <a name="see-also"></a>Vedere anche
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Magazzino](inventory-manage-inventory.md)  

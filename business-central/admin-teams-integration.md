@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386301"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882207"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
     |Quale|Licenza Teams|Licenza di [!INCLUDE [prod_short](includes/prod_short.md)]|
     |----|---|---|
+    |Ricerca di contatti di [!INCLUDE [prod_short](includes/prod_short.md)].|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
     |Incollare un collegamento a un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione e inviarla come scheda.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
     |Visualizzare una scheda di un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")||
     |Visualizzare altri dettagli di una scheda per un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
@@ -49,8 +50,8 @@ In qualità di amministratore di Teams, è possibile gestire tutte le app per l'
 
 Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di Microsoft Teams:
 
-- [Gestire le app nell'interfaccia di amministrazione di Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Gestire i criteri di configurazione dell'app in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Gestire le app nell'interfaccia di amministrazione di Microsoft Teams](/MicrosoftTeams/manage-apps)
+- [Gestire i criteri di configurazione dell'app in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 
 - Versione di [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-    Secondo ciclo di rilascio del 2020 (aggiornamento 17.3) di [!INCLUDE [prod_short](includes/prod_short.md)] o successivo. L'integrazione di Teams è supportata solo per [!INCLUDE [prod_short](includes/prod_short.md)] online, non in locale.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 primo ciclo di rilascio o successivi. L'integrazione di Teams è supportata solo per [!INCLUDE [prod_short](includes/prod_short.md)] online, non in locale.
 
 - La codeunit **2718 Provider di riepilogo pagine** è pubblicata come servizio Web:
 
@@ -66,8 +67,9 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 
 - <a name="permissions"></a>Autorizzazioni utente:
 
-    Per la maggior parte, le pagine e i dati che gli utenti possono visualizzare e modificare in una conversazione di Teams sono controllati dalle autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)].
+    Per la maggior parte, la ricerca dei contatti, le pagine e i dati che gli utenti possono visualizzare e modificare in una conversazione di Teams sono controllati dalle autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Per cercare contatti, gli utenti devono avere almeno l'autorizzazione di lettura per la tabella dei **Contatti**. 
     - Per incollare un collegamento [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione di Teams e farlo espandere in una scheda, gli utenti devono disporre almeno dell'autorizzazione di lettura sulla pagina e sui relativi dati.
     - Una volta che una scheda è stata inviata a una conversazione, qualsiasi utente in quella conversazione può visualizzare quella scheda senza autorizzazione per [!INCLUDE [prod_short](includes/prod_short.md)].
     - Per visualizzare ulteriori dettagli per una scheda o aprire il record in [!INCLUDE [prod_short](includes/prod_short.md)], gli utenti devono disporre dell'autorizzazione di lettura sulla pagina e sui suoi dati.
@@ -92,13 +94,13 @@ Per impedire a utenti o gruppi specifici di inviare schede a chat o canali, devi
 
 È inoltre possibile utilizzare barriere informative per impedire a individui o gruppi di comunicare tra loro. Per saperne di più, vedi [Barriere informative in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Le funzionalità di prevenzione della perdita di dati nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate in modo specifico alle schede. Possono tuttavia essere applicate ai messaggi di chat che contengono le schede. Per tenere traccia delle funzionalità avanzate in arrivo che includono l'abilitazione di DLP per le schede, vedi [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Le funzionalità di prevenzione della perdita di dati nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate in modo specifico alle schede. Possono tuttavia essere applicate ai messaggi di chat che contengono le schede. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Rispondere alle richieste di dati
 
 Per consentire ai membri del team e ai proprietari del team di eliminare i messaggi che contengono schede sensibili devi impostare criteri di messaggistica, come: **I proprietari possono eliminare i messaggi inviati** e **Gli utenti possono eliminare i messaggi inviati**. Per ulteriori informazioni, vedi [Gestire criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
-Le funzionalità di conformità eDiscovery e di ricerca di contenuto nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate in modo specifico alle schede. Possono tuttavia essere applicate ai messaggi di chat che contengono le schede. Per tenere traccia delle funzionalità di conformità in arrivo per le schede, vedi [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Le funzionalità di conformità eDiscovery e di ricerca di contenuto nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate anche alle schede.
 
 Poiché i dati delle schede in Teams sono una copia dei dati in [!INCLUDE [prod_short](includes/prod_short.md)], puoi anche usare le funzionalità di [!INCLUDE [prod_short](includes/prod_short.md)] per esportare i dati di un cliente se richiesto. Per ulteriori informazioni sulla privacy in [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Domande frequenti sulla privacy per i clienti di Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

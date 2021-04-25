@@ -1,5 +1,5 @@
 ---
-title: Configurare la posta elettronica in Business Central | Microsoft Docs
+title: Configurare la posta elettronica in Business Central
 description: Descrizione di come connettere gli account di posta elettronica a Business Central in modo da poter inviare messaggi in uscita senza dover aprire un'altra app.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470439"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889154"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -37,12 +37,12 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 
 |Estensione  |Descrizione  |Esempi di quando utilizzare  |
 |---------|---------|---------|
-|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Office 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Utente corrente**|Tutti inviano e-mail dall'account utilizzato per accedere a [!INCLUDE[prod_short](includes/prod_short.md)].|Consentire comunicazioni da singoli account.|
 |**Altro (SMTP)**|Usare il protocollo SMTP per inviare messaggi e-mail.|Consentire le comunicazioni tramite il server di posta SMTP. |
 
 > [!NOTE]
-> Le estensioni **Microsoft 365** e **Utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per la sottoscrizione di Office 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. 
+> Le estensioni **Microsoft 365** e **Utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per l'abbonamento a Microsoft 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Se stai già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] e hai co
 
 > [!NOTE]
 > Se disponi di personalizzazioni che si basano sulla configurazione di posta elettronica SMTP precedente, è possibile che si abbiano dei problemi con le personalizzazioni se inizi a utilizzare le estensioni di posta elettronica. Si consiglia di configurare e testare le estensioni prima di attivare l'opzione per le funzionalità di posta elettronica avanzate.
+
+> [!IMPORTANT]
+> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] Online, non è possibile utilizzare il metodo di autenticazione OAuth 2.0.<br> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, puoi utilizzare OAuth 2.0 per l'autenticazione, ma è necessario creare una registrazione dell'applicazione nel portale di Azure e quindi eseguire una guida al setup assistito **Imposta Azure Active Directory** in formato [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Aggiungere account di posta elettronica
 La guida al setup assistito **Configurare la posta elettronica** può consentirti di utilizzare rapidamente la posta elettronica.
@@ -61,9 +64,10 @@ La guida al setup assistito **Configurare la posta elettronica** può consentirt
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Configurare account di posta elettronica** e quindi scegliere il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Assegnare scenari di posta elettronica ad account di posta elettronica
@@ -89,10 +93,10 @@ Gli scenari di posta elettronica sono processi che comportano l'invio di un docu
 2. Nella pagina **Selezione report - Vendite**, nel campo **Utilizzo**, selezionare **Fattura**.
 3. In una nuova riga nel campo **ID report** selezionare ad esempio il report standard 1306.
 4. Selezionare la casella di controllo **Utilizza per corpo e-mail**.
-5. Scegliere il campo **Codice layout corpo e-mail** e selezionare un layout dall'elenco a discesa.
+5. Scegli il campo **Descrizione layout corpo e-mail** e seleziona un layout dall'elenco.
 
-    I layout di report definiscono lo stile e il contenuto del testo dell'e-mail, incluso testo come saluti o istruzioni che precedono le informazioni del documento. Per visualizzare tutti i layout di report disponibili, scegli **Seleziona da elenco completo**.
-6. Per visualizzare o modificare il layout su cui si basa il testo dell'e-mail, selezionare il layout nella pagina **Layout report personalizzati** e scegliere l'azione **Modifica layout**.
+    I layout di report definiscono lo stile e il contenuto del testo dell'e-mail, incluso testo come saluti o istruzioni che precedono le informazioni del documento. Se la tua organizzazione dispone di diversi layout, puoi visualizzare tutti i layout dei report disponibili se scegli **Seleziona da elenco completo**.
+6. Per visualizzare o modificare il layout su cui si basa il testo dell'e-mail, seleziona il layout nella pagina **Layout report personalizzati** e scegli l'azione **Aggiorna layout**.
 7. Se si desidera offrire ai clienti la possibilità di pagare elettronicamente gli articoli acquistati, è possibile configurare il servizio di pagamento correlato, come PayPal, e quindi inserire informazioni su PayPal e il collegamento ipertestuale nel testo dell'e-mail. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
 8. Scegliere il pulsante **OK**.
 
@@ -140,7 +144,7 @@ Quindi, connettersi a [!INCLUDE[prod_short](includes/prod_short.md)] con Exchang
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Configurazione della posta elettronica per Business Central locale 
 [!INCLUDE[prod_short](includes/prod_short.md)] locale può integrarsi con i servizi basati su Microsoft Azure. Ad esempio, puoi usare Cortana Intelligence per previsioni di flusso di cassa più intelligenti, Power BI per visualizzare l'attività e Exchange Online per l'invio di e-mail. L'integrazione con questi servizi si basa su una registrazione dell'app in Azure Active Directory. La registrazione dell'app fornisce servizi di autenticazione e autorizzazione per le comunicazioni. Per utilizzare le funzionalità di posta elettronica in [!INCLUDE[prod_short](includes/prod_short.md)] locale, è necessario registrare [!INCLUDE[prod_short](includes/prod_short.md)] come app nel portale di Azure e quindi connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app. Nelle sezioni successive viene descritto come effettuare tali operazioni.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Creare una registrazione dell'app per [!INCLUDE[prod_short](includes/prod_short.md)] nel portale di Azure
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Crea una registrazione dell'app per Business Central nel portale di Azure
 I passaggi per registrare [!INCLUDE[prod_short](includes/prod_short.md)] nel portale di Azure sono descritti in [Registrare un'applicazione in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Le impostazioni specifiche delle funzionalità di posta elettronica sono le autorizzazioni delegate concesse alla registrazione dell'app. La tabella seguente elenca le autorizzazioni minime.
 
 |Nome API/autorizzazione  |Tipo  |Descrizione  |
@@ -148,16 +152,28 @@ I passaggi per registrare [!INCLUDE[prod_short](includes/prod_short.md)] nel por
 |Microsoft Graph / User.Read |Delegato|Accedere e leggere il profilo utente.         |
 |Microsoft Graph / Mail.ReadWrite |Delegato|Comporre messaggi e-mail.         |
 |Microsoft Graph / Mail.Send|Delegato|Inviare messaggi e-mail.         |
-|Microsoft Graph / offline_access|Delegato|Mantenere il consenso all'accesso ai dati. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Delegato|Mantenere il consenso all'accesso ai dati.|
 
-> [!TIP]
-> Quando si crea una registrazione dell'app, prendere nota delle seguenti informazioni. Saranno necessarie per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app.
-> 
-> * ID applicazione (client) 
-> * URI di reindirizzamento (facoltativo)
-> * Segreto client
+Se utilizzi una configurazione SMTP precedente o il connettore SMTP e desideri utilizzare OAuth per l'autenticazione, le autorizzazioni sono leggermente diverse. La tabella seguente elenca le autorizzazioni.
+
+|Nome API/autorizzazione  |Tipo  |Descrizione  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Delegato|Mantenere il consenso all'accesso ai dati.|
+|Microsoft Graph / openid|Delegato|Accesso utenti.|
+|Microsoft Graph / User.Read |Delegato|Accedere e leggere il profilo utente.         |
+|Microsoft Graph / SMTP.Send|Delegato|Invia e-mail dalle caselle di posta utilizzando SMTP AUTH.         |
+|Office 365 Exchange Online / User.Read |Delegato|Accedi e leggi il profilo utente.         |
+
+Quando si crea una registrazione dell'app, prendere nota delle seguenti informazioni. Saranno necessarie per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app.
+ 
+* ID applicazione (client) 
+* URI di reindirizzamento (facoltativo)
+* Segreto client
 
 Per le linee guida generali per la registrazione di un'app, vedere [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+In caso di problemi nell'utilizzo della configurazione SMTP precedente per inviare e-mail dopo la connessione a [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione della tua app, potrebbe essere perché SMTP AUTH non è abilitato per il tuo tenant. Ti consigliamo di utilizzare invece i connettori di posta elettronica Microsoft 365 e Utente corrente, perché utilizzano le API di Microsoft Graph Mail. Tuttavia, se è necessario utilizzare la configurazione SMTP, è possibile abilitare SMTP AUTH. Per ulteriori informazioni, vedi [Abilita o disabilita l'invio SMTP al client autenticato (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app
 Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizzare la guida al setup assistito **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
@@ -198,7 +214,8 @@ Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_shor
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
-[Scaricare [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile](install-mobile-app.md)
-
+[Scarica [!INCLUDE[prod_short](includes/prod_short.md)] sul mio dispositivo mobile](install-mobile-app.md)
+[Scarica [!INCLUDE[prod_short](includes/prod_short.md)] sul mio dispositivo mobile](install-mobile-app.md)
+[Analisi della telemetria e-mail (contenuto amministrativo)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

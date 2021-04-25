@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379635"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784294"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per aiutare l'utente a gestire la propria attività indipendentemente dalle dimensioni e dalla complessità. Alla base del prodotto sono disponibili funzionalità essenziali, come la gestione di report finanziari, vendite, acquisti e magazzino. Con l'aumentare della complessità aziendale,è possibile ad esempio attivare la funzionalità per la produzione e la gestione dell'assistenza.
@@ -30,7 +30,7 @@ Nella tabella seguente sono elencate le esperienze che sono attualmente disponib
 | **Essential** |Mostra le azioni e i campi per tutte le funzionalità aziendali comuni.|
 | **Premium** |Mostra le azioni e i campi per tutte le funzionalità aziendali, incluse Manufacturing e Gestione assistenza.|
 
-Le esperienze che possono essere selezionate in [!INCLUDE[prod_short](includes/prod_short.md)] riflettono licenze della soluzione, denominate piani, definite per il prodotto. Per informazioni sui piani Essenziale e Premium, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito di marketing di Microsoft Dynamics 365. Vedere anche [Guida alle licenze di [!INCLUDE[prod_short](includes/prod_short.md)] ](https://go.microsoft.com/fwlink/?linkid=2068931) (richiede l'accesso a CustomerSource o PartnerSource).
+Le esperienze che possono essere selezionate in [!INCLUDE[prod_short](includes/prod_short.md)] riflettono licenze della soluzione, denominate piani, definite per il prodotto. Per informazioni sui piani Essenziale e Premium, vedere [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) nel sito di marketing di Microsoft Dynamics 365. Vedere anche la Guida alle licenze di [[!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=2068931).
 
 > [!IMPORTANT]  
 > A tutti gli utenti abituali di una soluzione deve essere assegnato lo stesso piano, Essential o Premium, prima che l'esperienza possa essere selezionata per la società. Di conseguenza, un utente non può accedere alle funzionalità Premium se uno o più altri utenti possono accedere solo alle funzionalità Essential. Questo non è il caso per gli utenti non abituali di tipo Membro team, Amministratore interno, Contabile esterno e Amministratore delegato, a cui può essere assegnato un piano diverso rispetto agli altri utenti della soluzione.<br /><br /> Solo gli utenti di tipo Valutazione o Premium possono modificare il valore nel campo **Esperienza** da Essential a Premium.

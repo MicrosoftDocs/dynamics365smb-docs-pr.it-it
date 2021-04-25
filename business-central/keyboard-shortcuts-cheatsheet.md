@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 33365f7cd9abe8844b1ba9387c908d7189c28bde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392976"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784519"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
@@ -23,32 +23,63 @@ ms.locfileid: "5392976"
 
 |Premere questi tasti|Operazione da eseguire|  
 |-|-|
-|Alt+F2<br />ALT+N<br />ALT+MAIUSC+N<br />ALT+O<br />ALT+Q<br />ALT+SU<br />ALT + freccia GIÙ<br />ALT+T<br />ALT+MAIUSC+W<br />CTRL+INS<br />CTRL-CANC<br />Ctrl+Shift+F12<br />Ctrl+F1<br />CTRL+clic<br />Shift+F12<br />F5/CTRL+F5<br />TAB/MAIUSC + TAB<br />F6/MAIUSC+F6<br />|Visualizzare e nascondere il riquadro Dettaglio informazioni<br />Creare un nuovo record<br />Chiudere un record appena creato e creane uno nuovo<br />Aggiungere una nuova nota per il record selezionato<br />Aprire la funzionalità delle **informazioni**<br />Aprire la descrizione comando o l'errore di convalida<br />Aprire un menu a discesa o lookup<br />Aprire la pagina **Impostazioni personali**<br />Aprire la scheda o il documento corrente in una nuova finestra<br />Inserire una nuova riga in un documento<br />Eliminare la riga in un documento, giornale o foglio di lavoro<br />Ingrandire la parte Voci in una pagina del documento<br />Aprire la Guida per la pagina<br />Spostarsi durante la personalizzazione<br />Aprire Esplora ruoli, una panoramica delle funzionalità<br />Aggiornare/ricaricare la pagina<br />Spostare lo stato attivo sull'elemento successivo/precedente<br />Spostare il cursore alla Scheda dettaglio/parte successiva.|
+|Alt+F2|Visualizzare e nascondere il riquadro Dettaglio informazioni|
+|ALT+N|Creare un nuovo record|
+|ALT+MAIUSC+N|Chiudere un record appena creato e creane uno nuovo|
+|ALT+O|Aggiungere una nuova nota per il record selezionato|
+|ALT+Q|Aprire la funzionalità delle **informazioni**|
+|ALT+SU|Aprire la descrizione comando o l'errore di convalida|
+|ALT + freccia GIÙ|Aprire un menu a discesa o lookup|
+|ALT+T|Aprire la pagina **Impostazioni personali**|
+|ALT+MAIUSC+W|Aprire la scheda o il documento corrente in una nuova finestra|
+|CTRL+INS|Inserire una nuova riga in un documento|
+|CTRL-CANC|Eliminare la riga in un documento, giornale o foglio di lavoro|
+|Ctrl+Shift+F12|Ingrandire la parte Voci in una pagina del documento|
+|Ctrl+F1|Aprire la Guida per la pagina<br />Spostarsi durante la personalizzazione|
+|CTRL+clic|Spostarsi durante la personalizzazione|
+|Shift+F12|Aprire Esplora ruoli, una panoramica delle funzionalità|
+|F5/CTRL+F5|Aggiornare/ricaricare la pagina|
+|TAB/MAIUSC + TAB|Spostare lo stato attivo sull'elemento successivo/precedente|
+|F6/MAIUSC+F6|Spostare il cursore alla Scheda dettaglio/parte successiva.|
 
 #### <a name="navigate--select-rows"></a>Spostarsi e selezionare righe
 
 |Premere questi tasti|Operazione da eseguire|
 |-|-|
-|Home/Fine<br />CTRL+HOME/FINE <br />CTRL+MAIUSC+FRECCIA SU/GIÙ<br />CTRL+A <br />CTRL+SPAZIO<br />Ctrl/Maiusc+Clic<br />MAIUSC+FRECCIA SU/GIÙ<br />MAIUSC+PGGIÙ/SU<br />Ctrl+Enter|Passare al primo/ultimo campo<br />Passare alla prima/ultima riga<br />Spostarsi senza perdere la selezione<br />Selezionare tutto<br />Attivare/disattivare la selezione delle righe<br /> Aggiungere le righe alla selezione<br />Aggiungere la riga precedente/successiva alla selezione<br />Selezionare righe visibili sopra/sotto <br />Spostare lo stato attivo fuori dall'elenco|
+|Home/Fine|Passare al primo/ultimo campo|
+|CTRL+HOME/FINE |Passare alla prima/ultima riga|
+|CTRL+MAIUSC+FRECCIA SU/GIÙ|Spostarsi senza perdere la selezione|
+|CTRL+A |Selezionare tutto|
+|CTRL+SPAZIO|Attivare/disattivare la selezione delle righe|
+|Ctrl/Maiusc+Clic|Aggiungere le righe alla selezione|
+|MAIUSC+FRECCIA SU/GIÙ|Aggiungere la riga precedente/successiva alla selezione|
+|MAIUSC+PGGIÙ/SU|Selezionare righe visibili sopra/sotto|
+|Ctrl+Enter|Spostare lo stato attivo fuori dall'elenco|
 
 #### <a name="copy--paste"></a>Copiare e incollare
 
 |Premere questi tasti|Operazione da eseguire|
 |-|-|
-|CTRL+C/V<br />F8|Copiare/incollare righe<br />Copiare il campo soprastante nella riga corrente|
+|CTRL+C/V|Copiare/incollare righe|
+|F8|Copiare il campo soprastante nella riga corrente|
 
 #### <a name="search-filter--sort"></a>Cercare, filtrare e ordinare
 
 |Premere questi tasti|Operazione da eseguire|
 |-|-|
-|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />MAIUSC+ALT+F3<br />Ctrl+Alt+Maiusc+F3|Ordinare la colonna in ordine crescente/decrescente<br />Attivare/disattivare la ricerca<br />Attivare/disattivare il riquadro Filtro	; spostare lo stato attivo sui filtri del campo<br />Attivare/disattivare il riquadro Filtro; spostare lo stato attivo sui filtri dei totali<br />Filtrare il valore della cella selezionata<br />Aggiungere un filtro sul campo selezionato<br />Reimposta filtri|
+|Alt+F7|Ordinare la colonna in ordine crescente/decrescente|
+|F3|Attivare/disattivare la ricerca|
+|Shift+F3|Attivare/disattivare il riquadro Filtro	; spostare lo stato attivo sui filtri del campo|
+|Alt+F3|Filtrare il valore della cella selezionata|
+|MAIUSC+ALT+F3|Aggiungere un filtro sul campo selezionato|
+|Ctrl+Alt+Maiusc+F3|Reimposta filtri|
 
 #### <a name="quick-entry"></a>Accesso rapido
 
 |Premere questi tasti|Operazione da eseguire|
 |-|-|
-|CTRL+MAIUSC+INVIO<br />INVIO/MAIUSC+INVIO|Passare al campo Accesso rapido seguente al di fuori di un elenco<br />Passare al campo Accesso rapido successivo/precedente|
-
+|CTRL+MAIUSC+INVIO|Passare al campo Accesso rapido seguente al di fuori di un elenco|
+|INVIO/MAIUSC+INVIO|Passare al campo Accesso rapido successivo/precedente|
 ##### <a name="report-preview"></a>Visualizzare in anteprima un report
 
 |Premere questi tasti|Operazione da eseguire|

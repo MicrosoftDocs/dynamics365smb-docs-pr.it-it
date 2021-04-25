@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385201"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882173"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Questo articolo fornisce informazioni su come identificare e risolvere i problemi che potrebbero verificarsi durante l'utilizzo di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)], come amministratore o utente tipico.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Il collegamento di accesso non funziona
+
+Se provi ad accedere all'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams subito dopo l'installazione dell'app e il collegamento di accesso non reagisce, potrebbe essere perché l'app non ha completato l'installazione. Per provare a risolvere il problema, disconnettersi dal client Teams e quindi accedere di nuovo.
+
+## <a name="the-settings-page-is-empty"></a>La pagina Impostazioni è vuota
+
+Devi prima effettuare l'accesso per accedere alle tue impostazioni. Per accedere all'app, incolla un collegamento a un record [!INCLUDE [prod_short.md](includes/prod_short.md)] o prova a cercare i contatti. Entrambe queste azioni ti condurranno attraverso un'esperienza di registrazione, dopodiché potrai utilizzare la pagina **Impostazioni**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ho cambiato società, ma non sembrava funzionare
+
+Dopo aver modificato la società nella pagina **Impostazioni**, potresti notare che il menu a discesa della casella di comando indica che stai ancora cercando la società precedente. Questo problema si verifica quando apri la pagina **Impostazioni** direttamente dalla casella di comando. In questo caso, la società è stata modificata con successo e in effetti cercherai la società a cui sei passato. Il problema è che il menu a discesa della casella di comando non è stato ancora aggiornato. Perché il menu a discesa rifletta accuratamente la società in cui cerchi, chiudi o annulla l'aggiunta di [!INCLUDE [prod_short.md](includes/prod_short.md)] dalla casella di comando, quindi riapri l'app.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Errore "Si è verificato un errore" durante la ricerca dei contatti
+
+È possibile che si verifichi questo errore quando si esegue una ricerca in una società che non è stata inizializzata o che non risponde. Ad esempio, non puoi cercare in una nuova società di prova che non ha ancora accettato i termini di utilizzo. Per risolvere questo problema, prova ad accedere al client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)] e agisci o chiudi le finestre di dialogo iniziali visualizzate.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Errore "L'API dei contatti non è stata trovata" durante la ricerca dei contatti
+
+Questo problema potrebbe essere dovuto a personalizzazioni o soluzioni di settore che influiscono, modificano o non forniscono un'API di contatto in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Se il problema persiste, contatta l'amministratore o il partner di supporto.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Nessuno dei miei collegamenti si espande in una scheda 
 
@@ -36,7 +59,7 @@ Se stai riscontrando questo problema, procedi come segue:
 
 2. Quindi, controlla di aver effettuato l'accesso con l'identità corretta.
 
-    In Teams passa a qualsiasi chat e nella casella di composizione del messaggio scegli l'icona [!INCLUDE [prod_short](includes/prod_short.md)]. Quando viene visualizzata la finestra, verifica se il nome utente utilizzato per la connessione è lo stesso per la connessione a [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams passa a qualsiasi chat e nella casella di composizione del messaggio, fai clic con il pulsante destro del mouse sull'icona [!INCLUDE [prod_short](includes/prod_short.md)], quindi scegli **Impostazioni**. Quando viene visualizzata la finestra, verifica se il nome utente utilizzato per la connessione è lo stesso per la connessione a [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Assicurati che la codeunit 2718 **Provider di riepilogo pagine** è pubblicata come servizio Web.
 
@@ -48,9 +71,8 @@ Se stai riscontrando questo problema, procedi come segue:
 
 Un collegamento non si espanderà in una scheda nei seguenti casi:
 
-- Il collegamento è relativo a una pagina di un tipo che non rappresenta un record. Ad esempio, potrebbe essere un collegamento a Gestione ruolo utente di [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi controllare il tipo di pagina utilizzando il riquadro Controllo pagina nel client Web in [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sul controllo delle pagine, vedi [Controllo di pagine](across-inspect-page.md).
-- Il collegamento è relativo a una pagina che (a livello tecnico) non è collegata a una tabella di origine in [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi controllare se in una pagina è presente una tabella di origine utilizzando il riquadro Controllo pagina nel client Web in [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sul controllo delle pagine, vedi [Controllo di pagine](across-inspect-page.md). 
-- Teams non supporta le anteprime dei collegamenti in alcune funzionalità. Ad esempio, quando è in corso una chat, stai partecipando a una riunione o sei un utente guest di un'altra organizzazione.
+- Il collegamento è relativo a una pagina che (a livello tecnico) non è collegata a una tabella di origine in [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi controllare se in una pagina è presente una tabella di origine utilizzando il riquadro Controllo pagina nel client Web in [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sul controllo delle pagine, vedi [Controllo di pagine](across-inspect-page.md).
+- Teams non supporta le anteprime dei collegamenti in alcune funzionalità. Ad esempio, quando è in corso una chat o sei un utente guest di un'altra organizzazione.
 - Teams abbandona silenziosamente il tentativo di visualizzare la scheda dopo 15 secondi, ad esempio, a causa di problemi di rete.
 - Team può non espandere il collegamento se hai già incollato un collegamento nella stessa casella di composizione del messaggio e hai eliminato la scheda.
 
@@ -66,10 +88,6 @@ Ad esempio:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Per dettagli tecnici sugli URL di [!INCLUDE [prod_short](includes/prod_short.md)], vedi [URL del client Web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) nella Guida per sviluppatori e professionisti IT di [!INCLUDE [prod_short](includes/prod_short.md)].
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>La scheda viene visualizzata nella casella di composizione del messaggio, ma la selezione del pulsante Dettagli non ha effetto 
-
-Dopo che un collegamento viene espanso in una scheda nella casella di composizione del messaggio, devi inviare il messaggio alla chat prima di poter utilizzare il pulsante **Dettagli**.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>La finestra dei dettagli si apre, ma mostra un errore prima che vengano visualizzati i dettagli
 
@@ -89,7 +107,7 @@ Questo problema può essere causato dalla mancanza di autorizzazioni in [!INCLUD
 
     Per ulteriori informazioni sui requisiti minimi del browser, vedi [Requisiti minimi per l'utilizzo[!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ho problemi con la fotocamera o la posizione in Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ho problemi con la fotocamera o la posizione in Teams
 
 Quando nella finestra dei dettagli utilizzi funzionalità di [!INCLUDE [prod_short](includes/prod_short.md)] che richiedono l'accesso alla posizione o alla fotocamera del dispositivo, devi prima fornire il tuo consenso affinché Teams acceda a queste funzionalità del dispositivo.  
 

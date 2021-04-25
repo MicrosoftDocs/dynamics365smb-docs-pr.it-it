@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380358"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784842"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 
@@ -52,7 +52,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
         |Description  | Immettere una breve sintesi della legge. La descrizione deve riguardare i problemi pertinenti alla pianificazione delle risorse aziendali (ERP), in modo che gli utenti possano comprendere i requisiti senza dover dapprima leggere la legislazione.|
         |Paese  | Specificare il paese o la l'area geografica a cui la legislazione si applica.|
         |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico**, **Vendita al dettaglio** o **Produzione**.|
-        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://docs.microsoft.com/dynamics/s-e/) sul sito CustomerSource. |
+        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](/dynamics/s-e/) sul sito CustomerSource. |
         |Data imposta per legge  | Specificare la data a partire dalla quale i clienti interessati devono conformarsi alla legge.|
         |Data annuncio governativo  | Specificare la data in cui l'autorità ha annunciato la modifica.|
         |Data ultima registrazione  | Selezionare il termine ultimo per il primo invio del nuovo report o del report modificato.|
@@ -76,7 +76,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
 [Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 [Benvenuto su Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
