@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777518"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941615"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] include un elemento di controllo Dettaglio informazioni Power BI su diverse pagine elenco chiave. Lo scopo di questo Dettaglio informazioni è di visualizzare i report Power BI che sono correlati ai record negli elenchi, fornendo ulteriori informazioni sui dati. L'idea è di spostarsi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata.
+[!INCLUDE[prod_long](includes/prod_long.md)] include un elemento di controllo Dettaglio informazioni Power BI su diverse pagine elenco chiave. Lo scopo di questo Dettaglio informazioni è di visualizzare i report Power BI che sono correlati ai record negli elenchi, fornendo ulteriori informazioni sui dati. L'idea è che spostandosi tra le righe dell'elenco, il report si aggiorna per la voce selezionata.
 
 [!INCLUDE[prod_long](includes/prod_long.md)] viene fornito con alcuni di questi report. Puoi anche creare i tuoi report personalizzati che vengono visualizzati in questo Dettaglio informazioni. La creazione di questi report è simile ad altri report. Ma ci sono alcune regole di progettazione che dovrai seguire per assicurarti che i report vengano visualizzati come previsto. Queste regole sono spiegate in questo articolo.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Avviare Power BI Desktop.
 2. Seleziona **Ottieni dati** e inizia a scegliere l'origine dati per il report.
 
-    In questa fase, si specificano le pagine di elenco di Business Central che contengono i dati desiderati nel report. Ad esempio, per creare un report per la lista di vendita, verificare che il set di dati contenga le informazioni relative alle vendite.
+    Specificare le pagine di elenco di Business Central che contengono i dati desiderati nel report. Ad esempio, per creare un report per l'elenco **Fatture vendita**, includere le pagine relative alle vendite.
 
     Per ulteriori informazioni, segui le istruzioni [Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Salva e assegna un nome al rapporto.
 
-    È importante assegnare al report un nome che contenga il nome della pagina di elenco associata al report. Ad esempio, se il report è per la pagina di elenco **Articoli**, includi la parola *articoli* da qualche parte nel nome.  
+    Assegnare al report un nome che contenga il nome della pagina di elenco associata al report, come nel client. Il nome però non fa distinzione tra maiuscole e minuscole. Supponiamo che il report sia per la pagina di elenco **Fatture vendita**. In questo caso, includi le parole **fatture vendita** nel nome, come **le mie fatture vendita.pbix** o **mie_Fatture vendita_list.pbix**.
 
-    Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[prod_short](includes/prod_short.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente filtrata in base al nome della pagina. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
+    Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[prod_short](includes/prod_short.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente applicato un filtro in base al nome della pagina. Il filtro ha la sintassi: `@*<caption>*`, come `@*Sales Invoices*`. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
 
 7. Quando hai finito, pubblica il report come al solito.
 
@@ -72,7 +72,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 8. Prova il report.
 
-    Una volta che i rapporti sono stati pubblicati nel tuo spazio di lavoro, dovrebbero essere disponibili dal Dettaglio informazioni di Power BI nella pagina dell'elenco in [!INCLUDE[prod_short](includes/prod_short.md)].
+    Una volta che il rapporto è stato pubblicato nel tuo spazio di lavoro, dovrebbe essere disponibile dal Dettaglio informazioni di Power BI nella pagina dell'elenco in [!INCLUDE[prod_short](includes/prod_short.md)].
 
     Per provarlo, segui i passaggi seguenti.
 
@@ -101,7 +101,7 @@ Power BI consente di creare un unico report con più pagine. Tuttavia, per i rep
 
 ## <a name="fixing-problems"></a>Risolvere i problemi
 
-Questa sezione fornisce istruzioni su come risolvere i problemi che potresti incontrare durante il tentativo di visualizzare un report di Power BI per una pagina di elenco in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Questa sezione descrive come risolvere i problemi che potresti incontrare durante il tentativo di visualizzare un report di Power BI per una pagina di elenco in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Non puoi vedere il Dettaglio informazioni di Power BI in una pagina di elenco
 
@@ -109,11 +109,11 @@ Per impostazione predefinita, il Dettaglio informazioni di Power BI è nascosto 
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Non è possibile visualizzare il report nel pannello Seleziona report
 
-Probabilmente è perché il nome del report non contiene il nome della pagina di elenco visualizzata. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
+Il nome del report non contiene il nome della pagina di elenco visualizzata. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Il report è caricato ma è vuoto, non filtrato o filtrato in modo errato
 
-Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
+Verifica che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
 
 ### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Il report è caricato, ma mostra una pagina non prevista
 

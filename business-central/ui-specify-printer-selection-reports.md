@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783136"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985414"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -36,11 +36,13 @@ Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_sh
 
 Stampa universale è un servizio basato su abbonamento a Microsoft 365 che funziona interamente su Microsoft Azure. Offre una gestione centralizzata della stampante tramite il portale Stampa universale. [!INCLUDE[prod_short](includes/prod_short.md)] rende disponibili agli utenti client le stampanti configurate in Stampa universale tramite l'estensione **Integrazione di stampa universale**.
 
+![Configurazione della stampa universale](media/Universal-Print-arch.png)
+
 La configurazione completa richiede che tu lavori in Microsoft Azure, usando il [portale di Azure](https://posrtal.azure.com) e in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Stampanti supportate
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supporta le stesse stampanti di Stampa universale, che possono essere stampanti compatibili con Stampa universale o non compatibili. Le stampanti non compatibili non possono comunicare direttamente con Stampa universale, quindi richiedono un software per un connettore aggiuntivo, fornito da Stampa universale. Alcune stampanti meno recenti potrebbero non essere supportate.
+[!INCLUDE[prod_short](includes/prod_short.md)] supporta le stesse stampanti di Stampa universale, che possono essere stampanti compatibili con Stampa universale o non compatibili. Le stampanti non compatibili non possono comunicare direttamente con Stampa universale, quindi richiedono un software per un connettore aggiuntivo, fornito da Stampa universale. Alcune stampanti meno recenti potrebbero non essere supportate. 
 
 <!-- TODO If not installed, go to AppSource -->
 

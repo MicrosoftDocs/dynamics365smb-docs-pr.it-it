@@ -1,8 +1,6 @@
 ---
-title: Acquistare articoli o servizi per una commessa e gestire gli approvvigionamenti| Documenti Microsoft
+title: Gestire gli approvvigionamenti delle commesse
 description: Descrive come gestire gli approvvigionamenti e gli acquisti di materiale e servizi per le commesse.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785375"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938173"
 ---
 # <a name="manage-job-supplies"></a>Gestire gli approvvigionamenti delle commesse
 La gestione degli approvvigionamenti di progetto di articoli, servizi e spese è un aspetto integrale e critico dell'esecuzione di tutte le commesse. È possibile utilizzare le giacenze o effettuare acquisti specifici per delle commesse utilizzando gli ordini di acquisto e/o le fatture di acquisto. Ad esempio, per completare una commessa relativa a un intervento di assistenza su un computer è richiesto un nuovo disco. Si crea quindi una fattura di acquisto per acquistare il nuovo disco e si registra la commessa in cui verrà utilizzato.
 
-Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella pagina **Registrazioni commesse in G/L**. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella pagina **Registrazioni commesse in G/L**. Per ulteriori informazioni, vedere [Per registrare una spesa correlata a una commessa](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Per acquistare articoli o servizi per una commessa
 Nella procedura riportata di seguito viene illustrato come utilizzare una fattura di acquisto per acquistare i prodotti per una commessa. La stessa procedura vale anche quando si utilizza un ordine di acquisto.  

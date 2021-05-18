@@ -1,5 +1,5 @@
 ---
-title: Impostare prezzi delle commesse e categorie di registrazione commesse| Documenti Microsoft
+title: Impostare commesse, prezzi e categorie di registrazione commesse
 description: Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780459"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938073"
 ---
-# <a name="set-up-jobs"></a>Imposta commesse
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Impostare commesse, prezzi e categorie di registrazione commesse
 
 In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
@@ -26,26 +26,27 @@ Per ogni commessa, si specificano quindi singole schede commessa con informazion
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> L'impatto del campo **Applica collegamento utilizzo per default** è piuttosto complesso, quindi viene spiegato nella sezione che segue.
+> Il campo **Applica collegamento utilizzo per default** indica se i movimenti contabili della commessa sono collegati alle righe di pianificazione commessa per impostazione predefinita. Scegliere il campo se si desidera applicare questa impostazione a tutte le nuove commesse create. È possibile abilitare o disabilitare il monitoraggio dell'utilizzo delle commesse per una commessa specifica modificando il valore del campo **Applica collegamento di utilizzo** nella singola scheda commessa. Le conseguenze sono descritte nella sezione seguente.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
 
-Quando viene eseguita una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è **Budget**, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
+Quando si lavora su una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è *Budget*, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 
-Se si seleziona il campo **Applica collegamento utilizzo per default**, è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e quindi indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
+Dopo aver impostato il campo la tracciabilità dell'utilizzo scegliendo **Applica collegamento utilizzo**, è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
 
-> [!TIP]  
-> È possibile abilitare o disabilitare la tracciabilità dell'utilizzo in una commessa per una specifica commessa. Il valore del campo **Applica collegamento utilizzo** nella singola scheda commessa sostituisce l'impostazione nella pagina **Setup commesse**.  
-
-Se la casella di controllo **Applica collegamento utilizzo per default** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, viene creata una riga di pianificazione commessa di tipo **Budget** dopo la registrazione di una riga di registrazione commessa.
+>[!NOTE]
+> Se la casella di controllo **Applica collegamento utilizzo** viene selezionata nella singola commessa e il campo **Tipo riga** nella riga di registrazione o nella riga di acquisto è *Fatturabile*, quindi vengono create nuove righe di pianificazione commessa di tipo *Budget* quando si registrano le righe di registrazione commessa o il documento di acquisto.  
+> Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md) e [Gestire gli approvvigionamenti delle commesse](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Se la tracciabilità dell'utilizzo in una commessa è abilitata nella pagina **Jobs Setup** e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa.  
->  
-> Se la tracciabilità dell'utilizzo in una commessa *non* è abilitata nella pagina **Setup commesse** o nella singola commessa e il campo **Tipo riga** nelle registrazioni commesse è vuoto, non viene creata nessuna riga di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+> Se il campo **Tipo riga** nella riga di registrazione della commessa o nella riga acquisto è vuoto, non viene creata alcuna riga di pianificazione commessa quando si registra la registrazione commesse o il documento di acquisto.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup commesse** e quindi scegliere il collegamento correlato.
-2. Selezionare la casella di controllo **Applica collegamento utilizzo per default**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Per impostare i prezzi per risorse, articoli e conti di contabilità generale per le commesse
 > [!NOTE]
@@ -79,7 +80,7 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 > [!NOTE]  
 >   I conti necessari devono essere impostati nel Piano dei Conti prima delle categorie di registrazione. Per ulteriori informazioni, vedere [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md).  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione commesse** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione commesse** e scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**, quindi compilare i campi dei conti come descritto nella tabella che segue.  
 
 | Campo Conto | Descrizione |

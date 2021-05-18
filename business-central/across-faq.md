@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776149"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017151"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Domande frequenti sull'utilizzo di Business Central
 
@@ -136,8 +136,8 @@ Le prime versioni di [!INCLUDE[prod_short](includes/prod_short.md)] (locale) inc
 
 [Preparazione al business](ui-get-ready-business.md)  
 [Domande frequenti relative alla funzionalità delle informazioni](ui-search-faq.md)  
-[Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
-[Domande frequenti sulle visualizzazioni elenco](ui-views-faq.md)  
+[Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)  
+[Domande frequenti sulle visualizzazioni elenco](ui-views-faq.yml)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] senza Outlook](admin-no-outlook.md)  

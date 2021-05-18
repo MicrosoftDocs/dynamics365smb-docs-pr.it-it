@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780084"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961504"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -77,12 +77,16 @@ La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short]
 
     La procedura guidata di Power BI mostra un elenco di ambienti, origini dati e società di Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]. Le origini dati, indicano tutti i servizi Web pubblicati tramite [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica**.
-7. Ripetere i passaggi precedenti per aggiungere ulteriori [!INCLUDE [prod_short](includes/prod_short.md)], o altri dati, per il modello dati Power BI.
+7. Ripetere i passaggi precedenti per aggiungere ulteriori dati [!INCLUDE [prod_short](includes/prod_short.md)], o altri dati, al modello dati Power BI.
 
 Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento destro nella pagina. A questo punto, è stata stabilita correttamente la connessione ai dati di [!INCLUDE[prod_short](includes/prod_short.md)] ed è possibile iniziare a creare il report di Power BI.  
 
 > [!TIP]
 > Per ulteriori informazioni sull'uso di Power BI Desktop, vedere [Introduzione a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Creazione di report accessibili
+
+È importante rendere i tuoi report utilizzabili per il maggior numero di persone possibile. Prova a progettare report in modo che non richiedano adattamenti speciali per soddisfare esigenze specifiche di utenti diversi. Assicurati che il design consenta agli utenti di sfruttare le tecnologie per l'accessibilità standard, come le utilità per la lettura dello schermo. Power BI include varie funzioni di accessibilità, strumenti e linee guida per aiutarti a raggiungere questo obiettivo. Per maggiori informazioni, [Progettare report Power BI per l'accessibilità](/power-bi/create-reports/desktop-accessibility-creating-reports) nella documentazione di Power BI.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Creazione di report per visualizzare i dati associati a un elenco
 

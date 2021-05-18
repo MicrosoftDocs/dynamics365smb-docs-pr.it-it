@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784444"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017251"
 ---
 # <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
@@ -44,7 +44,8 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
    Nel campo **Codice opportunità chiuse**, è possibile scegliere tra i codici chiusura opportunità esistenti o aggiungere un nuovo codice. Per aggiungere un nuovo codice, dall'elenco a discesa, selezionare **Seleziona da elenco completo** quindi **Nuovo**. Nella nuova riga vuota, compilare i campi **Codice**, **Tipo** e **Descrizione** e quindi il pulsante **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Per creare offerte per opportunità
-È possibile creare offerte di vendita relative ai contatti che non sono registrati come clienti.
+> [!NOTE]
+> È possibile creare offerte di vendita solo da opportunità in cui il tipo di contatto è Società.
 
 1. Nella pagina **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Assegna offerta di vendita**. Verrà visualizzata la pagina **Offerta di vendita**.
 2. Compilare i relativi campi.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775067"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938148"
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
@@ -61,21 +61,6 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]  
 >   La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a una commessa.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Per calcolare e registrare i movimenti di completamento della commessa
-Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per una commessa, è necessario aggiornare la commessa in modo che il campo **Stato** sia impostato su **Completato**. Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare una commessa aperta, quindi scegliere l'azione **Modifica**.
-3. Nel campo **Stato** selezionare **Completato**.
-4. Seguire i passaggi di assistenza per calcolare e registrare il WIP. In alternativa, seguire i passaggi 5 e 6 per effettuare questa operazione manualmente.  
-5. Scegliere l'azione **Calcola WIP**.
-6. Nella pagina **Commessa - Calcola WIP** compilare i campi in base alle esigenze.  
-
-     Per i movimenti WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.  
-7. Scegliere l'azione **Commessa - Registra WIP in C/G**.
-8. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
-
-     Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione di progetti](projects-manage-projects.md)  

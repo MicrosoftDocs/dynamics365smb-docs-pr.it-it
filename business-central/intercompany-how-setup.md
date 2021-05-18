@@ -1,5 +1,5 @@
 ---
-title: Impostazione della registrazione delle transazioni intercompany | Documenti Microsoft
+title: Impostazione della registrazione delle transazioni interaziendali
 description: Creare i fornitori e i clienti intercompany come partner intercompany e impostare un piano dei conti intercompany.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
+ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786200"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941519"
 ---
-# <a name="set-up-intercompany"></a>Impostare la contabilità intercompany
+# <a name="set-up-intercompany-transaction-posting"></a>Impostazione della registrazione delle transazioni interaziendali
 
 Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
 
@@ -34,7 +34,7 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 ## <a name="to-set-intercompany-partners"></a>Per impostare i partner IC
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Partner IC** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Nella pagina **Partner IC** compilare i campi secondo le necessità.
+3. Nella pagina **Partner IC** compilare i campi secondo necessità.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)]online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[prod_short](includes/prod_short.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.

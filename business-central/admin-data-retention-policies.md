@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780059"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935338"
 ---
 # <a name="define-retention-policies"></a>Definire i criteri di conservazione
 Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prod_short](includes/prod_short.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 
@@ -67,7 +67,7 @@ Quando uno sviluppatore aggiunge una tabella, può specificare filtri obbligator
 
 Di seguito sono riportati esempi di come aggiungere una tabella all'elenco di tabelle consentite con e senza filtri obbligatori o predefiniti. Per un esempio più complesso, vedere codeunit 3999 "Reten. Pol. Install - BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Di seguito sono riportati esempi di come aggiungere una tabella all'elenco di ta
 
 L'esempio seguente include un filtro obbligatorio.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ L'esempio seguente include un filtro obbligatorio.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Dopo che uno sviluppatore ha aggiunto le tabelle all'elenco, un amministratore può includerle in un criterio di conservazione. 
 
 ## <a name="see-also"></a>Vedere anche
+
+[Analisi della telemetria della traccia dei criteri di conservazione](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revisione delle modifiche in Business Central](across-log-changes.md)  
 [Filtri](ui-enter-criteria-filters.md#filtering)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  

@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d2ccc59cad099883e764241cc37add26675435b6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72687930e20f00c8a6d244cac0e8f682de2d34a4
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786614"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961529"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili
 Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta come visualizzare i dati KPI della situazione contabile e su quali situazioni contabili specifiche basare i KPI. Quando si sceglie il pulsante **Pubblica servizio Web**, i dati KPI della situazione contabile specificati vengono aggiunti all'elenco di servizi Web pubblicati nella pagina **Servizi Web**.  
+
+> [!NOTE]
+> Quando utilizzi questo servizio web, le date di chiusura non sono incluse nel tuo set di dati. Ciò ti consente di utilizzare i filtri in Power BI per analizzare vari periodi di tempo.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Per impostare e pubblicare un servizio Web KPI basato sulle situazioni contabili  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazione servizio Web KPI situazione contabile** e quindi scegliere il collegamento correlato.  

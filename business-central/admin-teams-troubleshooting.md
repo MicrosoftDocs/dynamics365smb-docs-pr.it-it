@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882173"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017126"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +42,9 @@ Dopo aver modificato la società nella pagina **Impostazioni**, potresti notare 
 
 È possibile che si verifichi questo errore quando si esegue una ricerca in una società che non è stata inizializzata o che non risponde. Ad esempio, non puoi cercare in una nuova società di prova che non ha ancora accettato i termini di utilizzo. Per risolvere questo problema, prova ad accedere al client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)] e agisci o chiudi le finestre di dialogo iniziali visualizzate.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Errore "L'API dei contatti non è stata trovata" durante la ricerca dei contatti
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Errore "Impossibile trovare l'API di contatto/riepilogo contatto" durante la ricerca dei contatti
 
-Questo problema potrebbe essere dovuto a personalizzazioni o soluzioni di settore che influiscono, modificano o non forniscono un'API di contatto in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Se il problema persiste, contatta l'amministratore o il partner di supporto.
+Questo problema può essere causato da personalizzazioni o soluzioni di settore che influiscono o modificano [!INCLUDE [prod_short.md](includes/prod_short.md)] oppure non forniscono un'API di contatto o di riepilogo dei contatti. Se il problema persiste, contatta l'amministratore o il partner di supporto.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Nessuno dei miei collegamenti si espande in una scheda 
 

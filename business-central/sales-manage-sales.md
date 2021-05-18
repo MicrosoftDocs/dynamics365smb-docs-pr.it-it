@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a7d013ab7a630703b38163252359ba803140da9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773807"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935013"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -55,7 +55,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Vendere articoli di assemblaggio che al momento non sono disponibili creando un ordine di assemblaggio collegato per fornire la quantità completa o parziale dell'ordine di vendita.|[Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fatturare al cliente una volta per più spedizioni combinando le spedizioni in una sola fattura.|[Combinare le spedizioni in una singola fattura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
-|Registrare le stime per vendite future, specificate per articolo e periodo, per funzionare principalmente come input per la pianificazione della produzione.|[Creare una previsione](production-how-to-create-a-forecast.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)

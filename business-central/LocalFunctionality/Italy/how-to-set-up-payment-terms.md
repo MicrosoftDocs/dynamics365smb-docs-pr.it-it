@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be8ea4499e1f4b49b6950464f11c0c106f9c04c5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 30d5bda1394804248b7a6d0b2dfab8fa6873a3bb
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780160"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985353"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 
-Le condizioni pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
+I termini di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
 
 Se una condizione di pagamento deve prevedere un unico pagamento, è necessario specificare come verrà calcolata la data di scadenza.  
 

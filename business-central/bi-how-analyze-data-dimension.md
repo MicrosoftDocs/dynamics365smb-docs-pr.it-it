@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770915"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947390"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Le dimensioni possono essere utilizzate per i movimenti nelle registrazioni, nei documenti e nei. Con il termine dimensione viene descritta la modalità di esecuzione dell'analisi. Un'analisi bidimensionale, ad esempio, corrisponde a vendite per area. Creando tuttavia più di due dimensioni quando si crea un movimento, è possibile eseguire analisi molto più complesse, ad esempio vendite per campagna di vendita per gruppo di clienti per area. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
@@ -26,6 +26,9 @@ L'analisi dei dati per dimensioni consente di ottenere informazioni più dettagl
 
 > [!TIP]
 > Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le pagine **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
+
+> [!NOTE]
+> Se scopri che è stata utilizzata una dimensione errata nei movimenti di contabilità generale registrati, puoi correggere i valori delle dimensioni e aggiornare le visualizzazioni di analisi. Per ulteriori informazioni, vedere [Risoluzione dei problemi e correzione delle dimensioni](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## <a name="to-set-up-an-analysis-view"></a>Per impostare una visualizzazione analisi  
 Un'analisi basata sulle dimensioni consente di visualizzare una combinazione selezionata di dimensioni. È possibile archiviare e in seguito recuperare ogni analisi che viene impostata. Le informazioni relative all'impostazione di un'analisi sono memorizzate nella scheda di **visualizzazione analisi**, per semplificare le analisi successive.  

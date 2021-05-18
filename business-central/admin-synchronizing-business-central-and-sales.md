@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870025"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935088"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronizzazione di dati in Business Central con Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ Nella seguente tabella è elencato il mapping standard tra le tabelle in [!INCLU
 | Contatto | Contatto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro contatto di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di [!INCLUDE[prod_short](includes/cds_long_md.md)]: il contatto è assegnati a una società e il tipo di cliente padre è **Conto** |
 | Valuta | Valuta transazione | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> Le azioni **Dataverse** non saranno disponibili nelle pagine, ad esempio, la pagina Scheda cliente, per i record che non rispettano il filtro tabella sul mapping di tabelle di integrazione.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Suggerimento per amministratori: visualizzazione di mapping di tabelle
 È possibile visualizzare il mapping tra le tabelle in [!INCLUDE[prod_short](includes/cds_long_md.md)] e le tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina **Mapping tabella integrazione**, dove è anche possibile applicare filtri. È possibile definire il mapping tra i campi nelle tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] e le colonne nelle tabelle di [!INCLUDE[prod_short](includes/cds_long_md.md)] nella pagina **Mapping campo integrazione**, in cui è possibile aggiungere ulteriori logica di mapping. Ad esempio, ciò può essere utile se è necessario risolvere problemi relativi alla sincronizzazione.

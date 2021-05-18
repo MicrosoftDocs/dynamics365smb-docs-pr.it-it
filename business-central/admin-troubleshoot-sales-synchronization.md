@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777043"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017226"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Risoluzione dei problemi relativi agli errori di sincronizzazione
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Ci sono molte parti mobili coinvolte nell'integrazione di [!INCLUDE[prod_short](
 Gli errori si verificano spesso a causa di un'operazione che un utente ha eseguito per i record associati o di un errore di impostazione dell'integrazione. Per gli errori relativi ai record associati, gli utenti possono risolverli da soli. Questi errori sono causati da azioni quali l'eliminazione di dati in una, ma non entrambe, le app aziendali e quindi la sincronizzazione. Per ulteriori informazioni, vedere [Visualizzare lo stato di una sincronizzazione](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Esempio
-Questo video mostra un esempio di come risolvere gli errori che si sono verificati durante la sincronizzazione con Sales. Il processo sarà lo stesso per tutte le integrazioni. 
+Questo video mostra un esempio di come risolvere gli errori che si sono verificati durante la sincronizzazione con [!INCLUDE[prod_short](includes/cds_long_md.md)]. Il processo sarà lo stesso per tutte le integrazioni. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -47,7 +47,7 @@ A volte i timestamp sui record possono causare conflitti. La tabella "Record int
 
 È possibile filtrare i record che devono essere sincronizzati confrontando i timestamp delle righe nella tabella "Mapping tabella integrazione" campi "Sinc. filtro data modifica" e "Sinc. fltr. data mod. tab. int.".
 
-Il messaggio di errore di conflitto "Impossibile aggiornare il record del cliente perché ha una data di modifica più recente del record dell'account" o "Impossibile aggiornare il record dell'account perché ha una data di modifica più recente del record del cliente" può verificarsi se una riga ha un timestamp che è più grande di IntegrationTableMapping. "Sinc. filtro data modifica" ma non è più recente del timestamp sul record di integrazione delle vendite. Significa che la riga di origine è stato sincronizzato manualmente e non dal movimento coda processi. 
+Il messaggio di errore di conflitto "Impossibile aggiornare il record del cliente perché ha una data di modifica più recente del record dell'account" o "Impossibile aggiornare il record dell'account perché ha una data di modifica più recente del record del cliente" può verificarsi se una riga ha un timestamp che è più grande di IntegrationTableMapping. "Sinc. filtro data modifica" ma non è più recente del timestamp sul record di integrazione delle vendite. Significa che la riga di origine è stata sincronizzata manualmente e non dal movimento coda processi. 
 
 Il conflitto si verifica perché anche la riga di destinazione è stato modificato: il timestamp della riga è più recente del timestamp del record di integrazione delle vendite. Il controllo della destinazione avviene solo per le tabelle bidirezionali. 
 
@@ -55,6 +55,8 @@ Questi record vengono spostati nella pagina "Record di sincronizzazione ignorati
 
 ## <a name="remove-couplings-between-records"></a>Rimuovere associazioni tra record
 Quando qualcosa va storto nell'integrazione ed è necessario annullare l'associazione dei record per interrompere la sincronizzazione, è possibile farlo per uno o più record alla volta. È possibile annullare l'associazione di uno o più record nelle pagine di elenco o nella pagina **Errori di sincronizzazione dati associati** scegliendo una o più righe e quindi **Elimina associazione**. È inoltre possibile rimuovere tutte le associazioni per una o più mapping di tabella nella pagina **Mapping tabella integrazione**. 
+
+Se un'entità con un'associazione unidirezionale viene eliminata in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario eliminare manualmente l'associazione interrotta. A tale scopo, nella pagina **Errori di sincronizzazione dati associati** scegliere l'azione **Trova per eliminate** ed eliminare le associazioni.
 
 ## <a name="see-also"></a>Vedere anche
 [Integrazione con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

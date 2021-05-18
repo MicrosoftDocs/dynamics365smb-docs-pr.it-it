@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780659"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985364"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -95,7 +95,46 @@ Quando si sceglie **Processi** in [!INCLUDE[prod_short](includes/prod_short.md)]
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestione di spedizioni vendita registrate, pagamenti clienti e statistiche
 Dopo l'evasione di un ordine di vendita, verranno create le fatture per lo stesso. Quando si fattura un ordine di vendita, è possibile trasferire le spedizioni vendita registrate a [!INCLUDE[crm_md](includes/crm_md.md)] se si seleziona la casella di controllo **Crea fattura in [!INCLUDE[crm_md](includes/crm_md.md)]** nella pagina **Fattura vendita registrata**. Le fatture registrate vengono trasferite a [!INCLUDE[crm_md](includes/crm_md.md)] con lo stato **Fatturato**.
 
-Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[prod_short](includes/prod_short.md)], lo stato della fattura diventerà **Pagato** con **Motivo stato** impostato su **Parziale**, se pagata parzialmente, o su **Completo**, se pagata completamente, quando si sceglie l'azione **Aggiorna statistiche account** nella pagina del cliente in [!INCLUDE[prod_short](includes/prod_short.md)]. La funzione **Aggiorna statistiche account** aggiornerà anche i valori come i campi **Saldo** e **Totale vendite** nel Dettaglio informazioni **Statistiche conto di [!INCLUDE[prod_short](includes/prod_short.md)]** in [!INCLUDE[crm_md](includes/crm_md.md)]. In alternativa, è possibile avere i processi programmati, Statistiche cliente e POSTEDSALESINV-INV che eseguono automaticamente questi processi in background.
+Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[prod_short](includes/prod_short.md)], lo stato della fattura diventerà **Pagato** con **Motivo stato** impostato su **Parziale**, se pagata parzialmente, o su **Completo**, se pagata completamente, quando si sceglie l'azione **Aggiorna statistiche account** nella pagina del cliente in [!INCLUDE[prod_short](includes/prod_short.md)]. La funzione **Aggiorna statistiche account** aggiornerà anche i valori come i campi **Saldo** e **Totale vendite** nel Dettaglio informazioni **Statistiche conto di [!INCLUDE[prod_short](includes/prod_short.md)]** in [!INCLUDE[crm_md](includes/crm_md.md)]. In alternativa, è possibile avere i processi programmati, Statistiche cliente e POSTEDSALESINV-INV che eseguono automaticamente questi processi in background. 
+
+## <a name="handling-sales-prices"></a>Gestione dei prezzi di vendita
+> [!NOTE]
+> Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+I passaggi per completare questo processo differiscono a seconda se l'amministratore ha abilitato o meno la nuova esperienza di prezzo. 
+
+> [!NOTE]
+> Se la sincronizzazione dei prezzi standard non funziona, ti consigliamo di utilizzare le funzionalità di personalizzazione dell'integrazione. Per ulteriori informazioni, vedi [Personalizzazione di un'integrazione con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
+Nell'attuale esperienza di determinazione dei prezzi [!INCLUDE[prod_short](includes/prod_short.md)] sincronizza i prezzi di vendita che: 
+
+* Si applicano a tutti i clienti. I listini prezzi di vendita predefiniti vengono creati in base al prezzo nel campo **Prezzo unitario** nella pagine **Scheda articolo** degli articoli.
+* Si applicano a un gruppo di prezzi cliente specifico. Ad esempio, i prezzi di vendita per i tuoi clienti al dettaglio o all'ingrosso. Per sincronizzare i prezzi in base a un gruppo di prezzi cliente, procedi come segue:
+
+    1. Associa gli articoli per i quali i prezzi sono impostati dal gruppo di prezzi del cliente.
+    2. Nella pagina **Gruppi prezzi cliente** associa il gruppo prezzi cliente scegliendo **Correlati**, quindi **Dynamics 365 Sales**, **Associazione**, quindi **Imposta associazione**. L'associazione creerà un listino prezzi attivo in [!INCLUDE[prod_short](includes/prod_short.md)] con lo stesso nome del gruppo di prezzi del cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e sincronizza automaticamente tutti gli articoli per i quali il gruppo di prezzi del cliente definisce il prezzo.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Pagina Gruppo prezzi cliente":::
+
+#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+
+La nuova esperienza di determinazione del prezzo sincronizza i listini prezzi che soddisfano i seguenti criteri:
+
+* **Consenti aggiornamento impostazioni predefinite** è disattovato.
+* Il tipo di prezzo è Vendita.
+* Il tipo di importo è Prezzo.
+* Il tipo di prodotto nelle righe deve essere Articolo o Risorsa. 
+* Non è specificata una quantità minima.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] sincronizza i prezzi di vendita che si applicano a tutti i clienti. I listini prezzi di vendita predefiniti vengono creati in base al prezzo nel campo **Prezzo unitario** nella pagine **Scheda articolo** degli articoli.
+
+Per sincronizzare i listini prezzi, nella pagina **Listino prezzi di vendita** scegli **Correlato**, **Dynamics 365 Sales**, **Associazione**, quindi **Imposta associazione**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Pagina Listino prezzi di vendita":::
+
+---
+
 
 ## <a name="see-also"></a>Vedere anche
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

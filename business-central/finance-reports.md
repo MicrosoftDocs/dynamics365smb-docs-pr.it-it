@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783774"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935288"
 ---
 # <a name="financial-reports-in-business-central"></a>Report finanziari in Business Central
 
@@ -24,7 +24,6 @@ La tabella seguente descrive alcuni dei report finanziari chiave.
 
 |Report |Descrizione  |
 |---------|---------|
-|**Rettifica costo - Mov. art.** | Rettifica i valori di magazzino nei movimenti di valorizzazione in modo che venga utilizzato il costo rettificato corretto per l'aggiornamento della contabilità generale e in modo che le statistiche relative a vendite e margini siano aggiornate. Tramite la rettifica dei costi, eventuali modifiche ai costi vengono trasferite dai movimenti in entrata, ad esempio movimenti per acquisti o output di produzione, ai movimenti in uscita correlati, ad esempio vendite o trasferimenti.  |
 |**Bilancio di verifica**| Mostra il piano dei conti con saldi periodi e conti. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. |
 |**Bilancio di verifica per periodo**  | Mostra il bilancio di apertura per conto di contabilità generale, i movimenti nel periodo selezionato del mese, del trimestre o dell'anno e il bilancio di chiusura risultante.         |
 |**Bilancio di verifica/budget** | Mostra un bilancio di verifica confrontato a un budget. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale.        |

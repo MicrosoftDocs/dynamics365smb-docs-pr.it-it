@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772174"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017076"
 ---
 # <a name="save-and-personalize-list-views"></a>Salvare e personalizzare visualizzazioni elenco
 Dopo aver impostato un filtro in un elenco e si desidera conservare il filtro per un utilizzo successivo, è possibile salvarlo come visualizzazione. Per ulteriori informazioni sui filtri di elenchi, vedere [Impostazione di filtri negli elenchi](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Se esistono delle visualizzazioni, il gruppo **Visualizzazioni** è visualizzato
 Se non si specifica un nome, verrà utilizzato **Tutto (copia)**.
 
 > [!TIP]
-> L'icona ![Salva visualizzazione](media/save_view_icon.png "Salva visualizzazione") non è visibile? Per ulteriori informazioni, vedere [Perché non è presente un'icona Salva?](ui-views-faq.md#save).
+> L'icona ![Salva visualizzazione](media/save_view_icon.png "Salva visualizzazione") non è visibile? Per ulteriori informazioni, vedere [Perché non è presente un'icona Salva?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Per rinominare o rimuovere una visualizzazione
 1. Per la visualizzazione in cui è attualmente visualizzato l'elenco, selezionare l'icona ![Mostra altre opzioni](media/show-more-options-icon.png "Mostra altre opzioni") per vedere quali opzioni sono disponibili.
@@ -45,7 +45,7 @@ Se non si specifica un nome, verrà utilizzato **Tutto (copia)**.
 Con l'aumentare del numero di visualizzazioni in una pagina, potrebbe essere necessario un maggiore controllo sulla modalità di presentazione delle visualizzazioni nel riquadro filtri. Con il banner **Personalizzazione**, è possibile nascondere le visualizzazioni indesiderate o riordinare le visualizzazioni per ottenere la sequenza perfetta. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Vedere anche
-[Domande frequenti sulle visualizzazioni elenco](ui-views-faq.md)  
+[Domande frequenti sulle visualizzazioni elenco](ui-views-faq.yml)  
 [Personalizzare l'area di lavoro](ui-personalization-user.md)    
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
