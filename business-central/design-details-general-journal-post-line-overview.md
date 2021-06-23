@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777850"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215255"
 ---
 # <a name="general-journal-post-line-overview"></a>Sintesi della riga di registrazione di contabilità generale
+
 Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, è il principale oggetto applicazione per la registrazione di contabilità generale ed è la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori. Questa codeunit viene inoltre utilizzata per tutte le operazioni Collega, Scollega e Storna.  
   
-Mentre la codeunit è stata migliorata in ogni versione durante gli ultimi dieci anni, la relativa architettura è rimasta essenzialmente invariata. Codeunit è diventato molto grande, contiene circa 7.600 righe di codice. Con questa versione di [!INCLUDE[prod_short](includes/prod_short.md)], l'architettura viene modificata e la codeunit è stata resa più semplice e gestibile. La documentazione introduce le modifiche e fornisce informazioni necessarie per aggiornare.  
+In Microsoft Dynamics NAV 2013 R2, la codeunit è stata ridisegnata perché era diventata molto grande, con circa 7.600 righe di codice. Questa architettura è stato modificata e la codeunit è stata resa più semplice e gestibile. La documentazione descrive le modifiche e fornisce informazioni necessarie per aggiornare.  
   
 ## <a name="old-architecture"></a>Architettura precedente  
 L'architettura precedente aveva le seguenti funzionalità:  
@@ -43,9 +44,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], sono stati apportati i seguen
 * Numerose funzioni di helper sono state trasferite alle corrispondenti tabelle dei movimenti contabili fornitore e cliente.  
 * L'utilizzo delle variabili globali è stato minimizzato, in modo che ogni procedura utilizzi parametri e incapsuli la propria la logica di collegamento.  
   
-## <a name="see-also"></a>Vedi anche  
-[Dettagli di progettazione: struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)   
-[Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Vedi anche
+
+[Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
+[Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
+[Dettagli di progettazione: Riga di registrazione di contabilità generale (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5179444b80db50fdd1c4afca6b313ec74e16a292
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786225"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115370"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Scaricare Business Central sul dispositivo mobile
 
@@ -63,7 +63,7 @@ Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anch
 
 ## <a name="see-also"></a>Vedere anche
 
-[Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.md)  
+[Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.yml)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

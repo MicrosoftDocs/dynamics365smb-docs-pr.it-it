@@ -1,8 +1,6 @@
 ---
-title: Transazioni tra società della stessa organizzazione | Documenti Microsoft
+title: Gestione delle transazioni Intercompany
 description: Utilizzando la funzionalità intercompany, è possibile semplificare i processi aziendali e le transazioni tra società all'interno della stessa organizzazione.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/02/2021
 ms.author: edupont
-ms.openlocfilehash: fbe84deebc00b07536cda6cb36a3a0784450d62f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786150"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184426"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
+
 Un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. La funzionalità intercompany consente di effettuare operazioni con le filiali e le organizzazioni partner interne esattamente come con i fornitori e i clienti esterni. Le informazioni sulle transazioni intercompany devono essere immesse una sola volta nei documenti appropriati. È possibile utilizzare le funzionalità già conosciute, quali quelle di gestione di crediti e debiti. Le funzionalità di mappatura per il piano dei conti e le dimensioni garantiscono che le informazioni vengano visualizzate nelle posizioni appropriate.  
 
 La funzionalità intercompany offre quattro vantaggi principali:  
@@ -33,11 +32,14 @@ La funzionalità intercompany offre quattro vantaggi principali:
 
 Quando si immette una transazione, non è necessario specificare i conti per un singolo gruppo di registri, ma è sufficiente indicare l'identificativo della società partner. Tramite la funzionalità intercompany vengono create righe di registrazioni COGE che comportano il bilancio dei registri di entrambe le società coinvolte in una transazione. Nella contabilità clienti e fornitori è possibile assegnare un codice partner intercompany a qualsiasi cliente o fornitore. Da quel momento, tutte le fatture e gli ordini generati relativi a transazioni con tali società comporteranno la creazione di documenti corrispondenti nella società partner, consentendo un corretto bilancio dei conti.  
 
- Dopo avere impostato nel sistema i partner aziendali come clienti e fornitori e avere assegnato loro codici partner intercompany, è possibile scambiare documenti di acquisto e di vendita intercompany, inclusi articoli e addebiti articoli. La funzionalità intercompany consente la creazione di transazioni intercompany tra più database di , ad esempio in paesi diversi, nonché tra più valute, piani dei conti diversi, dimensioni diverse e numerazioni articoli diverse.  
+Dopo avere impostato nel sistema i partner aziendali come clienti e fornitori e avere assegnato loro codici partner intercompany, è possibile scambiare documenti di acquisto e di vendita intercompany, inclusi articoli e addebiti articoli. [!INCLUDE [prod_short](includes/prod_short.md)] supporta le transazioni intercompany tra più database, ad esempio in paesi/aree geografiche diversi, nonché tra più valute, piani dei conti diversi, dimensioni diverse e numerazioni articoli diverse.  
 
-Il consolidamento dei dati finanziari può risultare utile in particolare con i processi Intercompany. Per ulteriori informazioni, vedere [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md).
+> [!NOTE]
+> Non tutti i tipi di dati possono essere scambiati tra aziende in questo modo. Le fatture acquisto non vengono inviate ai business partner tramite processi intercompany. Tuttavia, le fatture di vendita inviate tramite processi interaziendali verranno create come fatture di acquisto nella società ricevente.
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+Il consolidamento dei dati finanziari può risultare utile con i processi Intercompany. Per ulteriori informazioni, vedere [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md).
+
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.
 
 |A |Vedere|
 |---|---|
@@ -47,6 +49,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Utilizzare le registrazioni IC per distribuire i costi tra società partner.|[Allocare costi a partner IC](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Vedere anche
+
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  

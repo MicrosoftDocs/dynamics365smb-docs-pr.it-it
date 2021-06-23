@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783036"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087721"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
@@ -71,7 +71,7 @@ Per consentire la copia delle registrazioni nelle registrazioni COGE registrate,
 Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
 
 > [!NOTE]  
->   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
+> L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
 
 ## <a name="working-with-recurring-journals"></a>Utilizzo delle registrazioni periodiche
 Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Quando si creano righe di registrazione che verranno probabilmente create di nuo
 Al termine del salvataggio della registrazione magazzino standard, viene visualizzata la pagina Registrazioni Magazzino ed è possibile procedere alla contabilizzazione della registrazione, che potrà essere facilmente ricreata nel caso in cui sia nuovamente necessario contabilizzare righe identiche o simili.
 
 ### <a name="to-reuse-a-standard-journal"></a>Per riutilizzare registrazioni standard
+
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Ottieni registrazioni standard**.
 
@@ -181,23 +182,26 @@ Al termine del salvataggio della registrazione magazzino standard, viene visuali
     Se non è stato selezionato il campo **Salva importo unitario** al momento dell'utilizzo del processo della funzione **Salva come registrazioni magazzino standard**, il campo **Importo unitario** delle righe inserite dalle registrazioni standard viene automaticamente completato con il valore corrente dell'articolo, copiato dal campo **Costo unitario** della scheda articolo.
 
     > [!NOTE]  
-    >   in caso di selezione dei campi **Salva Importo Unitario** o **Salva Quantità**, è opportuno assicurarsi che i valori inseriti siano corretti per la rettifica di magazzino specifica prima di contabilizzare la registrazione di magazzino.
+    > in caso di selezione dei campi **Salva Importo Unitario** o **Salva Quantità**, è opportuno assicurarsi che i valori inseriti siano corretti per la rettifica di magazzino specifica prima di contabilizzare la registrazione di magazzino.
 
     Se le righe di registrazione di magazzino inserite contengono importi unitari salvati che non si desidera contabilizzare, è possibile eseguire rapidamente la rettifica al valore corrente dell'articolo come indicato di seguito.
 
-6. Selezionare e righe di registrazioni magazzino che si desidera rettificare e scegliere l'azione **Ricalcola importo unitario**. Il campo Importo unitario verrà così aggiornato con il costo unitario corrente dell'articolo.
-7. Scegliere l'azione **Registra**.
+5. Selezionare e righe di registrazioni magazzino che si desidera rettificare e scegliere l'azione **Ricalcola importo unitario**. Il campo Importo unitario verrà così aggiornato con il costo unitario corrente dell'articolo.
+6. Scegliere l'azione **Registra**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Rinumerare i documenti nei giornali di registrazione
+
 Per evitare errori di registrazione dovuti all'ordine dei numeri di documento, è possibile utilizzare la funzione **Rinumera documenti** prima di effettuare una registrazione.
 
 In tutte le registrazioni basate sulle registrazioni COGE, il campo **Nr. documento** può essere modificato per poter specificare numeri di documento diversi in base alle diverse righe registrazioni o lo stesso numero di documento per le righe registrazioni correlate.
 
-Se il campo **Nr. serie** nel batch registrazioni è compilato, la funzione di registrazione nelle registrazioni COGE richiede che il numero di documento nelle righe registrazioni singole o raggruppate segua un ordine sequenziale. Per evitare errori di registrazione dovuti all'ordine dei numeri di documento, è possibile utilizzare la funzione **Rinumera documenti** prima di effettuare registrazioni. Se le righe registrazioni correlate sono state raggruppate in base al numero del documento prima dell'utilizzo della funzione, rimarranno raggruppate, anche se potrebbero essere assegnate a un numero di documento diverso.
+Se il campo **Nr. serie** nel batch registrazioni è compilato, la funzione di registrazione nelle registrazioni COGE richiede che il numero di documento nelle righe registrazioni singole o raggruppate segua un ordine sequenziale. Scegliere l'azione **Rinumera documenti** e i relativi campi **Nr. documento** vengono quindi aggiornati. Se le righe registrazioni correlate sono state raggruppate in base al numero del documento prima dell'utilizzo della funzione, rimarranno raggruppate, anche se potrebbero essere assegnate a un numero di documento diverso.  
 
 Questa funzione può anche essere utilizzata sulle viste filtrate.
 
 La rinumerazione dei documenti rispetterà i collegamenti correlati, ad esempio il collegamento di un pagamento tra il documento nella riga registrazioni e un conto fornitore. Di conseguenza, è possibile aggiornare i campi **Collega-a ID** e **Collega-a nr. doc.** nei movimenti contabili interessati.
+
+### <a name="to-renumber-documents-in-journals"></a>Per rinumerare i documenti nei giornali di registrazione
 
 La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**, ma si applica a tutte le altre registrazioni basate sulle registrazioni COGE, ad esempio la pagina **Registraz. pagamenti**.
 

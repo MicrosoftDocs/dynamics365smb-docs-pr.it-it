@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772281"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063404"
 ---
 # <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
 Puoi condividere facilmente informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)]], senza dover aprire un'app di posta elettronica. 
@@ -56,7 +56,7 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il numero in quel campo <!--"that field?" need a name...--> viene aggiornato anche se si invia il documento tramite posta elettronica poiché viene generato un file PDF per lo stesso. Il numero viene aggiornato anche se non invii l'e-mail. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Email inviate e posta in uscita
-[!INCLUDE[prod_short](includes/prod_short.md)]] memorizza le e-mail inviate nella pagina **Elementi inviati**. Questo per consentire di inviare nuovamente le e-mail o inoltrarle a qualcun altro. Se non si riesce a trovare un'e-mail negli elementi inviati, cercarla nella pagina **Posta in uscita**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] memorizza le e-mail inviate nella pagina **Elementi inviati**. Questo per consentire di inviare nuovamente le e-mail o inoltrarle a qualcun altro. Se non si riesce a trovare un'e-mail negli elementi inviati, cercarla nella pagina **Posta in uscita**. 
 
 > [!NOTE]
 > A seconda dell'utilizzo della posta elettronica da parte della società, gli amministratori possono visualizzare un elenco di messaggi inviati da tutti, ma non il contenuto dei messaggi

@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788564"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110956"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Utilizzo di modelli Word per comunicazioni in blocco
 I modelli di Microsoft Word possono semplificare le comunicazioni di massa con entità come clienti e fornitori. Ad esempio, è possibile creare brochure per avvisare i clienti di una campagna di vendita, lettere per informare i fornitori su una nuova politica di acquisto o inviti per attirare contatti a un evento imminente.
+
+> [!NOTE]
+> Puoi utilizzare i modelli di Word solo su dispositivi con Microsoft Word 2019 e il sistema operativo Windows installati.
 
 Puoi usare entità in [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati per il modello e aggiungi campi unione per personalizzare i documenti per ciascuna entità. I campi di unione provengono dall'entità in [!INCLUDE[prod_short](includes/prod_short.md)]. Quando si applica un modello di Word a un'entità, i dati dei campi unione vengono inseriti nel documento.
 

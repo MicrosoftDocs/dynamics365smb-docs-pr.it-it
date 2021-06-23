@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777443"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115388"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
@@ -68,7 +68,7 @@ In entrambi i casi, se [!INCLUDE[prod_short](includes/prod_short.md)] non è anc
 
 ## <a name="using-other-email-accounts"></a>Utilizzo di altri account e-mail
 
-I componenti aggiuntivi sono progettati per l'uso con Microsoft 365. Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email) e l'articolo [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) e la sezione [Perché il componente aggiuntivo di Outlook non funziona per gli utenti?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) nelle domande frequenti generali nel contenuto per amministratori.  
+I componenti aggiuntivi sono progettati per l'uso con Microsoft 365. Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email) e l'articolo [Funzionalità che richiedono circostanze specifiche](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) e la sezione [Perché il componente aggiuntivo di Outlook non funziona per gli utenti?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) nelle domande frequenti generali nel contenuto per amministratori.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

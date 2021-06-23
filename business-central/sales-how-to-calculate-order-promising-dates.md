@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Calcolare le date per la promessa ordine | Documenti Microsoft'
+title: Calcolare le date per la promessa ordine
 description: La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Consente inoltre di creare delle righe di richiesta per le date confermate dall'utente.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778474"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115592"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
-Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione da una riga di ordine di vendita.  
+Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione dall'ordine di vendita.  
 
 Sulla base delle date di disponibilità note e previste di un articolo, [!INCLUDE[prod_short](includes/prod_short.md)] calcola immediatamente le date di spedizione e di consegna, che possono quindi essere promesse al cliente.  
 
@@ -35,7 +35,7 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 - data di spedizione pianificata + durata spedizione = data di consegna pianificata  
 
 ## <a name="about-order-promising"></a>Informazioni sulla promessa ordine
-La funzionalità di promessa ordine consente di garantire la spedizione di un ordine in una determinata data. La data per la quale si garantisce la disponibilità dell'articolo e vengono create delle righe d'ordine per quella data che devono essere confermate dall'utente. La funzionalità consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Vengono inoltre create righe di richiesta, nel caso gli articoli debbano essere prima acquistati, per le date confermate dall'utente.
+La funzionalità di promessa ordine consente di garantire la spedizione di un ordine in una determinata data. La data per la quale si garantisce la disponibilità dell'articolo e vengono create delle righe d'ordine per quella data che devono essere confermate dall'utente. La funzionalità consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Vengono inoltre create righe di richiesta, nel caso gli articoli debbano essere prima acquistati o prodotti, per le date confermate dall'utente.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilizza due concetti fondamentali:  
 

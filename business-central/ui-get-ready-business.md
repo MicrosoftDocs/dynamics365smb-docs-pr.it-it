@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771212"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074664"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 
 Congratulazioni per aver avviato la prima società in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Setup assistito** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. Per accedere alla pagina, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'aziomne **Setup assistito**.
+Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Setup assistito** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. Per accedere alla pagina è sufficiente scegliere [questo link](https://businesscentral.dynamics.com/?page=1801).  
 
-In alternativa, per aprire l'elenco di guide al setup assistito per qualsiasi ruolo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato.  
+In alternativa, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'azione **Setup assistito**.
+
+Puoi anche trovare l'elenco di guide al setup assistito, se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

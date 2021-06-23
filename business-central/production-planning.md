@@ -1,5 +1,5 @@
 ---
-title: Pianificazione approvvigionamento | Microsoft Docs
+title: Pianificazione fornitura
 description: Preparare un piano eseguibile dettagliato e la pianificazione della produzione di assemblaggio finale per la domanda di vendita e di produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785400"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115492"
 ---
 # <a name="planning"></a>Pianificazione
 
@@ -36,8 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Comprendere tutti gli aspetti del sistema di pianificazione e come modificare gli algoritmi per soddisfare i requisiti di pianificazione in vari ambienti.|[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)|
 |Sapere in che modo nella logica di pianificazione viene fatta distinzione tra domanda nelle ubicazioni in base all'impostazione della USK e domanda senza codici ubicazione.|[Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md)|
 |Prevedere la domanda illustrata nei componenti di produzione e di vendita previsti.|[Creare una previsione della domanda](production-how-to-create-a-forecast.md)|  
-|Creare automaticamente ordini di produzione basati su una relazione uno a uno da un ordine di vendita in modo da coprire la domanda esatta prevista da tale riga dell'ordine di vendita.|[Creare gli ordini di produzione dagli ordini di vendita](production-how-to-create-production-orders-from-sales-orders.md)|
-|Creare un ordine di produzione previsto direttamente da un ordine di produzione comprendente più righe e che rappresenta un progetto di produzione.|[Pianificare gli ordini di progetto](production-how-to-plan-project-orders.md)|
+|Creare ordini di produzione basati su una relazione uno a uno o su un progetto da un ordine di vendita in modo da coprire la domanda esatta prevista da tale ordine di vendita.|[Creare gli ordini di produzione dagli ordini di vendita](production-how-to-create-production-orders-from-sales-orders.md)|
 |Utilizzare la pagina **Pianificazione ordini** per pianificare manualmente la domanda di vendita o di produzione sulla base di un solo livello della DB di produzione alla volta.|[Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md)|
 |Utilizzare la pagina **Prospetto pianificazione** per eseguire le opzioni MRP che MPS e creare automaticamente un piano di approvvigionamento di alto livello o dettagliato a tutti i livelli dell'articolo.|[Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)|
 |Usare la pagina **Richiesta di approvvigionamento** per creare automaticamente un piano di approvvigionamento dettagliato in modo da coprire la domanda relativa ad articoli il cui rifornimento viene effettuato solo tramite acquisto o trasferimento.|[Richiesta di approvvigionamento](production-about-planning-functionality.md#requisition-worksheet)|  

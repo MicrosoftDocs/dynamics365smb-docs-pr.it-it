@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889154"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063429"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Se stai già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] e hai co
 > Se disponi di personalizzazioni che si basano sulla configurazione di posta elettronica SMTP precedente, è possibile che si abbiano dei problemi con le personalizzazioni se inizi a utilizzare le estensioni di posta elettronica. Si consiglia di configurare e testare le estensioni prima di attivare l'opzione per le funzionalità di posta elettronica avanzate.
 
 > [!IMPORTANT]
-> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] Online, non è possibile utilizzare il metodo di autenticazione OAuth 2.0.<br> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, puoi utilizzare OAuth 2.0 per l'autenticazione, ma è necessario creare una registrazione dell'applicazione nel portale di Azure e quindi eseguire una guida al setup assistito **Imposta Azure Active Directory** in formato [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, puoi utilizzare OAuth 2.0 per l'autenticazione, ma è necessario creare una registrazione dell'applicazione nel portale di Azure e quindi eseguire una guida al setup assistito **Imposta Azure Active Directory** in formato [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Aggiungere account di posta elettronica
 La guida al setup assistito **Configurare la posta elettronica** può consentirti di utilizzare rapidamente la posta elettronica.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985414"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063454"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -38,7 +38,7 @@ Stampa universale è un servizio basato su abbonamento a Microsoft 365 che funzi
 
 ![Configurazione della stampa universale](media/Universal-Print-arch.png)
 
-La configurazione completa richiede che tu lavori in Microsoft Azure, usando il [portale di Azure](https://posrtal.azure.com) e in [!INCLUDE[prod_short](includes/prod_short.md)].
+La configurazione completa richiede che tu lavori in Microsoft Azure, usando il [portale di Azure](https://portal.azure.com) e in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Stampanti supportate
 
@@ -78,7 +78,7 @@ La configurazione completa richiede che tu lavori in Microsoft Azure, usando il 
 
 Prima di poter iniziare a gestire le stampanti Stampa universale in Business Central, sono necessarie diverse attività per attivare Stampa universale in Azure con le stampanti che desideri utilizzare.
 
-Per istruzioni dettagliate su come eseguire la configurazione, vedi [Inizia: configurazione di Stampa universale](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) nella documentazione di Stampa universale. Ecco una panoramica dei passaggi che dovrai completare. La maggior parte di questi passaggi viene eseguita nel portale di Azure.
+Per istruzioni dettagliate su come eseguire la configurazione, vedi [Inizia: configurazione di Stampa universale](/universal-print/fundamentals/universal-print-getting-started) nella documentazione di Stampa universale. Ecco una panoramica dei passaggi che dovrai completare. La maggior parte di questi passaggi viene eseguita nel portale di Azure.
 
 1. Assegna le licenze Stampa universale a te stesso e ad altri utenti.
 
@@ -104,29 +104,34 @@ Per istruzioni dettagliate su come eseguire la configurazione, vedi [Inizia: con
 
     - Per altre stampanti, registra le stampanti utilizzando il connettore Stampa universale. 
 
-      Per ulteriori informazioni, vedi [Registrazione stampante](/universal-print-connector-printer-registration).
+      Per ulteriori informazioni, vedi [Registrazione stampante](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Modifica delle proprietà della stampante (opzionale)
 
     Dopo aver registrato una stampante, puoi visualizzarne e modificarne le proprietà, ad esempio le preferenze predefinite.
 
-    Per ulteriori informazioni, vedi [Gestisci le impostazioni dei metadati della stampante](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Per ulteriori informazioni, vedere [Gestione delle impostazioni della stampante tramite il portale Universal Print ](/universal-print/portal/configure-printer-settings).
 
-5. Autorizza gli utenti per le stampanti.
-
-    Per ulteriori informazioni, vedi [Autorizzazioni stampante](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Condividi le stampanti.
+5. Condividi le stampanti.
 
     Qualsiasi stampante che desideri utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)] dovrà essere condivisa in Stampa universale.
 
-    Per ulteriori informazioni, vedi [Condividi una stampante](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Per ulteriori informazioni, vedere [Condividere una stampante](/universal-print/portal/share-printers).
+
+6. Autorizza gli utenti per le stampanti condivise.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Per ulteriori informazioni, vedere [Autorizzazioni stampante](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Abilita la conversione dei documenti.
 
     Stampa universale esegue il rendering del contenuto per la stampa in formato XPS. Alcune stampanti legacy non supportano il rendering dei contenuti XPS&mdash;in molti casi, solo in formato PDF. La stampa su queste stampanti non riuscirà a meno che legacy non sia impostata per convertire i documenti nel formato supportato dalla stampante.
 
-    Per ulteriori informazioni, vedi [Panoramica sulla conversione dei documenti](/universal-print/fundamentals/universal-print-document-conversion).
+    Per ulteriori informazioni, vedere [Panoramica sulla conversione dei documenti](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Se nessuna delle tue stampanti richiede il formato di rendering del contenuto PDF, ti consigliamo di non abilitare la conversione del documento perché potrebbe influire sulla qualità dell'output di stampa.
