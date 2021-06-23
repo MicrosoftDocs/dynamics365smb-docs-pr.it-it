@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: eae170b356c6bb6c41757aca88f9160df1657901
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786709"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215930"
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
 In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -74,7 +74,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
  Da notare che il movimento contabile articolo in entrata 3 (Reso vendita) è un destinatario di costo per il movimento contabile articolo in uscita 2 (Vendita).  
 
 ## <a name="illustration-of-a-basic-cost-flow"></a>Illustrazione di un flusso dei costi di base  
- Si supponga un flusso dei costi completo in cui un articolo viene ricevuto, spedito e fatturato, reso con lo storno del costo esatto e spedito nuovamente.  
+ Si supponga un flusso dei costi completo in cui un articolo viene ricevuto, spedito e fatturato, reso con lo storno del costo\-esatto e spedito nuovamente.  
 
  Il seguente diagramma illustra il flusso dei costi.  
 
