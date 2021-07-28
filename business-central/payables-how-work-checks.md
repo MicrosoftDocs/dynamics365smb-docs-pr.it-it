@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775092"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438779"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
@@ -39,7 +39,7 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Per pagare una fattura fornitore con un assegno automatico
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Compilare le righe di registrazione pagamenti. Per ulteriori informazioni, vedere [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md).
 3. Nel campo **Codice metodo di pagamento** selezionare **Assegno**.
 4. Nel campo **Tipo pagamento banca** selezionare **Assegno automatico**.
@@ -67,7 +67,7 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 > [!IMPORTANT]
 > Se l'assegno viene applicato a una fattura, annullare prima l'assegno in modo che la fattura possa essere rimborsata, quindi annullare l'assegno. Se l'assegno è stato stampato e non ha pagato la fattura, scegliere **Annullo solo assegno** come descritto in questa sezione.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato, scegliere l'azione **Modifica**, quindi scegliere l'azione **Mov. contabili assegni**.
 3. Nella pagina **Mov. contabili assegni** scegliere l'azione **Annullo assegno**.
 4. Selezionare la casella di controllo **Annullo solo assegno**.
@@ -75,7 +75,7 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Per visualizzare un riepilogo degli assegni registrati
 Se si desidera verificare gli assegni registrati, ad esempio per verificare più assegni pagati a un fornitore, è possibile utilizzare il report **C/C bancario - Dettaglio assegni**.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **C/C bancario - Dettaglio assegni** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
 ## <a name="see-also"></a>Vedi anche

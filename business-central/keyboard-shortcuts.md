@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438929"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -25,7 +25,7 @@ Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di 
 
 > [!TIP]
 > Per una visualizzazione grafica dei tasti di scelta rapida più utilizzati, vedere l'immagine seguente e scaricare il file PDF.  
-> [ ![Icona per il file PDF](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icona che apre un PDF")
+> [ ![Icona per il file PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icona che apre un PDF")
 
 ## <a name="overview"></a>Sintesi
 
@@ -55,7 +55,7 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+**).|
 |ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
 |ALT+T|Aprire la pagina **Impostazioni personali**.|
-|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit](media/assist-edit-icon.png "Pulsante AssistEdit"). Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
+|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit.](media/assist-edit-icon.png "Pulsante AssistEdit") . Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
 |CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
 |CTRL+ALT+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |CTRL+C |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|

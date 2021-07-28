@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili'
-description: Informazioni su come utilizzare le situazioni contabili per effettuare previsioni del flusso di cassa.
+title: Previsioni di flusso di cassa utilizzando le situazioni contabili
+description: In questa procedura dettagliata viene descritto come utilizzare le situazioni contabili per effettuare previsioni del flusso di cassa in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772106"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438504"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
 
@@ -54,7 +54,7 @@ Una situazione contabile è costituita da un nome della situazione contabile del
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Per impostare un nuovo nome situazione contabile  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Descr. situazioni contabili** scegliere l'azione **Nuovo** per creare un nuovo nome della situazione contabile del conto di cassa.  
 3. Nel campo **Nome** immettere **Previsione**.  
 4. Nel campo **Descrizione** immettere **Previsione flusso di cassa**.  

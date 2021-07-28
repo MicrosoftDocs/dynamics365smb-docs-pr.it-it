@@ -1,18 +1,18 @@
 ---
-title: 'Procedura: Rintracciare i colli | Documenti Microsoft'
-description: È possibile utilizzare il servizio di tracciabilità degli spedizionieri per vedere lo stato di avanzamento di una consegna.
+title: Come tracciare i colli
+description: Utilizza il servizio di tracciamento degli agenti di vendita su Internet per tracciare i pacchi e seguire l'andamento di una consegna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778349"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440205"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 
@@ -22,7 +22,7 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 
 ## <a name="to-track-a-package"></a>Per rintracciare un collo
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione vendita registrata**, quindi scegli il collegamento correlato.
 2. Aprire la spedizione desiderata.
 3. Scegliere l'azione **Aggiorna documento**.
 4. Nel campo **Nr. identificazione collo** immettere il numero di collo che è stato comunicato dallo spedizioniere. Aggiornare **Spedizioniere** se necessario e chiudere la pagina.

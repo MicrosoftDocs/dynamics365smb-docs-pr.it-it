@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115692"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439149"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilizzo dello stesso account di Microsoft 365 in [!INCLUDE[prod_short](includes/prod_long.md)] e Microsoft Invoicing
 Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. In tutti i casi, ad un certo punto potrebbe essere stato visualizzato un riquadro chiamato **Microsoft Invoicing** e potrebbe essere stato fatto clic su di esso. Era un'app che faceva parte di quello che ora è Microsoft 365 Business Standard ed era precedentemente noto come la sottoscrizione a Microsoft 365 Business Premium, quindi non tutti avranno visto quel riquadro nella propria esperienza di Microsoft 365.  
@@ -31,9 +31,9 @@ Sarà necessario accedere a [!INCLUDE[prod_short](includes/prod_short.md)], rino
 
 ### <a name="to-rename-your-company"></a>Per rinominare la società
 1. Accedi a [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.
+2. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.
 3. Nel campo **Società**, scegliere un'altra società.
-4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Società** e quindi scegliere il collegamento correlato.  
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Società**, quindi scegli il collegamento correlato.  
 5. Nella pagina **Società**, scegliere **Modifica lista**.  
 6. Modificare il nome dell'elemento *La mia società* inserendo una denominazione diversa.  
 

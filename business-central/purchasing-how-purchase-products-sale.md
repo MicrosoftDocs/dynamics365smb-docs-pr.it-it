@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2d956b7e22e4fe079c47ca8693d717a2b451f146
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772731"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440501"
 ---
 # <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
 Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita. È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.
@@ -31,7 +31,7 @@ Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funz
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Per creare uno o più ordini di acquisto da un ordine di vendita
 Per creare un ordine di acquisto per ogni quantità articolo non disponibile nell'ordine di vendita, è possibile utilizzare la funzione **Crea ordini di acquisto**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Aprire un ordine di vendita per cui si desidera acquistare degli articoli.
 3. Scegliere l'azione **Crea ordini di acquisto**.
 
@@ -54,7 +54,7 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
 > [!NOTE]  
 >   Questa funzione crea una fattura di acquisto per la quantità articolo esatta nel documento di vendita selezionato. Per modificare la quantità di acquisto, è necessario modificare la fattura di acquisto dopo che è stata creata.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Aprire una fattura di vendita per cui si desidera acquistare degli articoli.
 3. Selezionare una o più righe della fattura di vendita da utilizzare nella fattura di acquisto. Per utilizzare tutte le righe della fattura di vendita, selezionarle tutte o non selezionarne alcuna.
 4. Scegliere l'azione **Crea fattura di acquisto**.

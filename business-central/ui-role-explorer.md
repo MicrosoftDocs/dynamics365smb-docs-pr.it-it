@@ -1,6 +1,6 @@
 ---
-title: Esplorazione e navigazione delle pagine per ruolo | Microsoft Docs
-description: ''
+title: Esplorazione e navigazione delle pagine per ruolo
+description: È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli con Esplora ruoli.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783236"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440029"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Ricerca di pagine con Esplora ruoli
 È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli. Nella seguente documentazione questa panoramica delle funzionalità viene definita come *Esplora ruoli*.
@@ -24,7 +24,7 @@ Ogni elemento in Esplora ruoli è un'azione che apre una pagina. Di conseguenza,
 
 È possibile aprire Esplora ruoli da Gestione ruolo utente, da tutte le pagine elenchi e dalla finestra delle **funzionalità delle informazioni**.
 
-- In Gestione ruolo utente o in qualsiasi pagina elenco selezionare il ![pulsante Menu](media/ui_menu_button.png "Pulsante Menu") a destra della barra di navigazione oppure premere MAIUSC+F12.
+- In Gestione ruoli utente o in qualsiasi pagina dell'elenco, scegli il pulsante ![Pulsante Menu.](media/ui_menu_button.png "Pulsante Menu") a destra della barra di spostamento o premi Maiusc+F12.
 - Nella finestra della **funzionalità delle informazioni**, scegliere l'azione **esplorare** nella parte inferiore.
 
 Scegliere l'azione **Trova** nella parte superiore di Esplora ruoli per individuare rapidamente i nomi delle funzionalità che contengono un determinato termine.

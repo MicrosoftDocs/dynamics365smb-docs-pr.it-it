@@ -1,6 +1,6 @@
 ---
 title: Prelievo e spedizione nelle configurazioni della warehouse di base
-description: In Business Central, i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.
+description: In Business Central, i processi in uscita per il prelievo e la spedizione possono essere eseguiti nelle seguenti quattro modalità a seconda del livello di complessità della warehouse.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214655"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439070"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
@@ -81,7 +81,7 @@ Per utilizzare questa funzionalità, devi aggiungerti all'ubicazione come lavora
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Per diventare un impiegato warehouse
 
-  1. Scegliere la prima icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
+  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
   2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Impiegati warehouse**.
   3. Nel campo **Codice ubicazione** selezionare SUD.  
   4. Selezionare il campo **Impostazione predefinita**, quindi selezionare il pulsante **Sì**.  
@@ -90,7 +90,7 @@ Per utilizzare questa funzionalità, devi aggiungerti all'ubicazione come lavora
 
 Per rendere l'articolo 1928-S disponibile nell'ubicazione SUD seguire i passaggi di seguito riportati:  
 
-  1. Scegliere la seconda icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.  
+  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 2.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato.  
   2. Aprire il giornale di default e quindi creare due righe registrazioni magazzino con le informazioni seguenti sulla data di lavoro (23 gennaio).  
 
         |Tipo movimento|Numero di articolo|Cod. ubicazione|Codice collocazione|Quantità|  
@@ -109,7 +109,7 @@ Gli ordini di vendita sono il tipo più comune di documenti origine in uscita.
 
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita
 
-1. Scegliere la terza icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Creare un ordine di vendita per il fornitore 10000 alla data di lavoro (23 gennaio) con la riga di ordine di vendita seguente.  
 
@@ -129,7 +129,7 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 
 ### <a name="to-pick-and-ship-items"></a>Per prelevare gli articoli e procedere alla spedizione
 
-1. Scegliere la quarta icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi magazzino**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 
     Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.

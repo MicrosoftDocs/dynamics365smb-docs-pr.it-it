@@ -1,6 +1,6 @@
 ---
 title: Come creare distinte base produzione
-description: Una DB di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
+description: Scopri come creare una distinta base di produzione (DB), nuove versioni di una DB di produzione e come utilizzare la formula di calcolo della quantità.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781990"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438680"
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
 
@@ -29,7 +29,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Per creare una DB di produzione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **DB produzione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per modificare la distinta base di produzione, impostare il campo **Stato** su **Nuova** o **In sviluppo**. Per attivarla, impostare lo **Stato** su **Certificato**.  
@@ -56,7 +56,7 @@ Vengono utilizzate nuove versioni della distinta base, ad esempio nel caso in cu
 
 La data di inizio indica l'inizio del periodo di validità della versione. Costituisce inoltre un elemento che funge da filtro per calcoli e valutazioni. La versione della distinta base è valida fino alla data di entrata in vigore di quella nuova.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **DB produzione** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
 2.  Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni**.  
 3.  Scegliere l'azione **Nuovo**.  
 4. Compilare i campi in base alle esigenze.

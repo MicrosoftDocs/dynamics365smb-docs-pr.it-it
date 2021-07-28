@@ -1,6 +1,6 @@
 ---
 title: Come creare una nuova società | Microsoft Docs
-description: Quando si crea una nuova società, vengono create tabelle e pagine di RapidStart Services che non contengono dati.
+description: Usa le tabelle e le pagine di RapidStart Services per creare una nuova società per la quale vuoi effettuare l'implementazione di un cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779884"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439637"
 ---
 # <a name="create-a-new-company"></a>Creare una nuova società
 Per utilizzare RapidStart Services per [!INCLUDE[prod_short](includes/prod_short.md)], è necessario dapprima creare una nuova società per la quale si desidera effettuare l'implementazione di un cliente. Quando si crea una nuova società, le tabelle e le pagine standard di [!INCLUDE[prod_short](includes/prod_short.md)] vengono create, ma non sono disponibili dati al loro interno.
@@ -26,7 +26,7 @@ Pacchetti di configurazione di esempio, inclusi i file specifici di ciascun paes
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Per utilizzare il pacchetto di configurazione BASICCONFIG di esempio  
 1. Aprire la società CRONUS Italia S.p.A. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
 3. Scegliere il pacchetto BASICCONFIG dalla lista, quindi scegliere l'azione **Esporta pacchetto**.  
 
 Attenersi alla procedura riportata di seguito per creare una nuova società e utilizzare il pacchetto BASICCONFIG come parte del processo.  

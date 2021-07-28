@@ -1,6 +1,6 @@
 ---
 title: Inviare documenti elettronici
-description: Informazioni su come inviare le fatture elettronicamente.
+description: Scopri come utilizzare Business Central per inviare fatture elettroniche e note di credito in formato PEPPOL.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778374"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440280"
 ---
 # <a name="send-electronic-documents"></a>Inviare documenti elettronici
 
@@ -27,7 +27,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Per inviare una fattura di vendita elettronica
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 
 2. Creare una nuova fattura di vendita.  
 

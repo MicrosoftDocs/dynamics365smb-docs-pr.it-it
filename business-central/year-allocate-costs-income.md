@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fec3a7c079058e73cda2b6f8940e3778b405bac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775042"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439772"
 ---
 # <a name="allocate-costs-and-income"></a>Allocazione di costi e ricavi
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'assegnazione può essere effettuata in base a tre diversi metodi:
@@ -32,7 +32,7 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 
 ## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
 È possibile assegnare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni periodiche generali** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la pagina **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.
    * Per creare un nuovo batch, scegliere l'azione **Nuovo** e andare al passaggio successivo.
@@ -47,7 +47,7 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 11. Effettuare la registrazione.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Per modificare una chiave di allocazione già impostata
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni periodiche generali** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazioni periodiche generali** selezionare le registrazioni con l'allocazione.
 3. Selezionare la riga con l'allocazione e scegliere l'azione **Allocazioni**.
 4. Cambiare i campi pertinenti e quindi scegliere **OK**.

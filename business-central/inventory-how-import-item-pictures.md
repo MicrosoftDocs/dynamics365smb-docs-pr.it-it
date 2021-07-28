@@ -1,6 +1,6 @@
 ---
 title: Importazione di numerose immagini articolo da un file ZIP| Microsoft Docs
-description: È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file zip, quindi utilizzare la pagina Importa immagini articolo per gestire le immagini articolo da importare.
+description: Per importare più immagini articolo, assegna ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimi i file in un file ZIP, quindi utilizza la pagina Importa immagini articolo.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4d4221ca3af412cc2548634cc6920f58171233ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785925"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440526"
 ---
 # <a name="import-multiple-item-pictures"></a>Importare molteplici immagini articolo
-È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file ZIP, quindi utilizzare la pagina **Importa immagini articolo** per gestire le immagini articolo da importare.
+ È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file zip, quindi utilizzare la pagina Importa immagini articolo per gestire le immagini articolo da importare.
 
 Tutti i formati di file comuni sono supportati.
 
@@ -35,7 +35,7 @@ Tutti i formati di file comuni sono supportati.
 2. Comprimere tutti i file in un file ZIP. Ad esempio, in Windows Explorer, selezionare i file, quindi scegliere **Invia a**, **Cartella compressa**.     
 
 ## <a name="to-import-item-pictures"></a>Per importare immagini articolo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Importa immagini articolo**.
 3. Nel campo **Selezionare un file zip**, selezionare la cartella ZIP pertinente quindi scegliere il pulsante **Apri**.
 

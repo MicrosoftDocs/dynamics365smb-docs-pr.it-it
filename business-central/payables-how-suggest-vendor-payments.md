@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bf91f092f911f5544ecb5d442ce3c61bae0be43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6781674947cbbf12741216244499403989f14255
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775117"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438804"
 ---
 # <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
 Nella pagina **Registraz. pagamenti** è possibile utilizzare il processo batch **Sugg. pagamenti fornitore** per suggerire le righe di pagamento. Le righe per i pagamenti che scadono presto oppure i pagamenti dove è disponibile uno sconto sul pagamento vengono suggerite in base alle impostazioni.
@@ -34,7 +34,7 @@ Per trarre completamente vantaggio dai pagamenti suggeriti, è prima necessario 
     * Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Per utilizzare la funzione di suggerimento pagamenti fornitori
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Aprire le registrazioni rilevanti e scegliere l'azione **Sugg. pagamenti fornitore**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Scegliere il pulsante **OK**.  

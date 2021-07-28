@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440576"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 
@@ -26,12 +26,12 @@ Il trasferimento dei cespiti in ubicazioni diverse può essere utilizzato, ad es
 
 1. Impostare un nuovo cespite. Inserire il nuovo dipartimento come dimensione.  
 2. Assegnare un registro beni ammortizzabili al nuovo cespite. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclassificazione cespiti** e quindi scegliere il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
 4. Creare una riga di registrazione in cui il campo **Nr. cespite** contiene il cespite originale e il campo **Nuovo nr. cespite** contiene il nuovo cespite da spostare. Compilare debitamente gli altri campi.  
 5. Scegliere l'azione **Riclassifica**.
 
     Vengono create due righe in Registrazioni C/G cespiti utilizzando la definizione ed il batch specificati nella pagina **Setup Reg. Cespiti** per il registro beni ammortizzabili indicato. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
-6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.    
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.    
 7. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi 4 e 5.
 
 Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizzare le registrazioni di riclassificazione cespiti per suddividere i costi di acquisto in diversi cespiti.  
@@ -41,7 +41,7 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 
 1. Impostare due nuovi cespiti. Inserire i dipartimenti rilevanti come dimensione.  
 2. Assegnare i registri beni ammortizzabili ai nuovi cespiti. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclassificazione cespiti** e quindi scegliere il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
 4. Creare due righe di registrazione riclassificazione, una per ogni nuovo cespite.
 5. Nella prima riga immettere il secondo cespite nel campo **Nuovo nr. cespite** e 25 nel campo **Riclassifica costi di acq. %**.
 6. Nella seconda riga immettere il terzo cespite nel campo **Nuovo nr. cespite** e 40 nel campo **Riclassifica costi di acq. %**.
@@ -49,26 +49,26 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 8. Scegliere l'azione **Riclassifica**.  
 
     Vengono create due righe in Registrazioni C/G cespiti utilizzando la definizione ed il batch specificati nella pagina **Setup Reg. Cespiti** per il registro beni ammortizzabili indicato. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).    
-9. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.
+9. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.
 10. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi da 4 a 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Per raggruppare due cespiti in uno
 
 È possibile raggruppare più cespiti in un unico cespite, ad esempio quando si spostano i cespiti distribuiti in un unico reparto. Se sono stati registrati i costi di acquisto e l'ammortamento del cespite da spostare, i valori verranno raggruppati singolo cespite.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riclassificazione cespiti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
 2. Creare una registrazione riclassificazione in cui il campo **Nr. cespite** contiene il cespite da spostare/combinare e il campo **Nuovo nr. cespite** contiene il cespite con cui sarà combinato.
 3. Lasciare vuoti il campo **Riclassifica costi di acq. %** per sposare/raggruppare l'intero costo di acquisto.  
 4. Selezionare le caselle di controllo **Riclassifica costi di acq.** e **Riclassifica ammortamento**.
 5. Scegliere l'azione **Riclassifica**.
 
     Vengono create due righe in Registrazioni C/G cespiti utilizzando la definizione ed il batch specificati nella pagina **Setup registrazioni cespiti** per il registro beni ammortizzabili indicato. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).   
-6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.
 7. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi da 2 a 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Per visualizzare i valori del registro beni ammortizzabili modificati a causa dalla riclassificazione dei cespiti
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valore contabile cespiti 02** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore contabile cespiti 02**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze.
 3. Selezionare il pulsante **Stampa** o **Anteprima**.  
 

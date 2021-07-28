@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784544"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438879"
 ---
 # <a name="add-contacts-to-segments"></a>Aggiungere contatti ai segmenti
 Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della pagina **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Per aggiungere un contatto a un segmento
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti**, quindi scegli il collegamento correlato.  
 2. Selezionare il segmento e fare clic sull'azione **Agg. contatti**. Verrà visualizzata la pagina del processo batch **Agg. contatti**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni in base alle quali si desidera selezionare i contatti.
 

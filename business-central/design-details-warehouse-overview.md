@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Panoramica warehouse | Microsoft Docs'
-description: Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse. Le informazioni sono gestite nella tabella **Movimento warehouse**. Ogni transazione viene memorizzata in un registro warehouse.
+title: Dettagli di progettazione - Panoramica warehouse
+description: Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215680"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439537"
 ---
 # <a name="design-details-warehouse-overview"></a>Dettagli di progettazione: Panoramica warehouse
 Per supportare la gestione fisica degli articoli a livello di collocazione e di zona, è necessario tenere traccia di tutte le informazioni per ogni transazione o spostamento nella warehouse. Le informazioni sono gestite nella tabella **Movimento warehouse**. Ogni transazione viene memorizzata in un registro warehouse.  
@@ -28,7 +28,7 @@ Quando le registrazioni degli articoli avvengono in una posizione diversa dal mo
 
 Nell'illustrazione seguente sono descritti i tipici flussi di warehouse.  
 
-![Panoramica dei processi della warehouse](media/design_details_warehouse_management_overview.png "Panoramica dei processi della warehouse")  
+![Panoramica dei processi della warehouse.](media/design_details_warehouse_management_overview.png "Panoramica dei processi della warehouse")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Gestione avanzata o di base della warehouse  
 La funzionalità di warehouse in [!INCLUDE[prod_short](includes/prod_short.md)] può essere implementata in diversi livelli di complessità, a seconda dei processi e del volume degli ordini di una società. La principale differenza consiste nel fatto che le attività sono eseguite ordine per ordine nella gestione di base della warehouse, mentre vengono eseguite al momento del consolidamento per più ordini nella gestione avanzata della warehouse.  

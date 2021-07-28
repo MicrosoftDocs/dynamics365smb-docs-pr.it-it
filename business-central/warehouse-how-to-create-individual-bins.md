@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creare collocazioni | Documenti Microsoft'
-description: Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione delle collocazioni. È tuttavia possibile creare le collocazioni singolarmente.
+title: Come creare le collocazioni
+description: Genera gruppi di collocazioni simili nel foglio di lavoro per la creazione di collocazioni, crea le collocazioni singolarmente nella scheda ubicazione o automaticamente nel foglio di lavoro per la creazione di collocazioni.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782711"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440080"
 ---
 # <a name="create-bins"></a>Creare collocazioni
 Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione collocazioni. È tuttavia possibile creare le collocazioni singolarmente dalla scheda ubicazione. È inoltre possibile utilizzare una funzione nella pagina **Prospetto creaz. collocazione** per creare automaticamente le collocazioni.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Per creare una collocazione nella scheda ubicazione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione da cui si desidera creare una collocazione e scegliere l'azione **Collocazioni**.  
 3. Scegliere l'azione **Nuovo**.
 4. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ La creazione di una collocazione dedicata risulta in una funzionalità simile ne
 > Gli articoli nelle collocazioni dedicate non sono protetti quando vengono prelevati e utilizzati come componenti di produzione o di assemblaggio tramite la pagina **Prelievo magazzino**. Per ulteriori informazioni, vedere [Prelevare per produzione o assemblaggio in configurazioni di warehouse di base](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Per creare singole collocazioni nel prospetto di creazione delle collocazioni  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto creaz. collocazione** e scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. collocazione**, e seleziona il collegamento correlato.  
 2.  In ciascuna riga, compilare i campi necessari per assegnare un nome e caratteristiche specifiche alle collocazioni che si sta creando.  
 3.  Scegliere l'azione **Crea collocazioni**.  
 
@@ -49,7 +49,7 @@ Prima di avviare la creazione automatica delle collocazioni, è necessario indiv
 
 Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere impostato come impiegato warehouse nell'ubicazione in cui si trovano le collocazioni. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto creaz. collocazione** e scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. collocazione**, e quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Calcola collocazioni**.
 3. Nella pagina **Calcola collocazioni**, nel campo **Codice modello collocazione**, quindi selezionare il modello da utilizzare per le collocazioni che si stanno creando.
 4.  Immettere una descrizione per le collocazioni in fase di creazione.  

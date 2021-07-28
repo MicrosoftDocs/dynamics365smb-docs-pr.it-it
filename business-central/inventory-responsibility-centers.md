@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Utilizzare i centri di responsabilità | Documenti Microsoft'
-description: I centri di responsabilità forniscono la possibilità di gestire centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società.
+title: Come utilizzare i centri di responsabilità
+description: I centri di responsabilità in quanto centri amministrativi aiutano le aziende a impostare viste specifiche dell'utente dei documenti di vendita e di acquisto relativi esclusivamente a ciascun centro.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774791"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439387"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 
@@ -27,12 +27,12 @@ Il supporto di più ubicazioni consente alle società di gestire il magazzino in
 
 ## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Centri di responsabilità** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Centri di responsabilità**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
-4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 5. Nel campo **Centro di responsabilità** immettere un codice del centro di responsabilità.
 
 Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assistenza, se per l'utente, il cliente o il fornitore non è stato impostato un centro di responsabilità di default. In tutti i documenti di acquisto, vendita o assistenza è possibile immettere un altro centro di responsabilità diverso da quello di default.
@@ -46,7 +46,7 @@ Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assi
 
 Per poter procedere a queste impostazioni è necessario assegnare i centri di responsabilità agli utenti in tre aree funzionali: Acquisti, Vendite e Gestione assistenza.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi scegli il collegamento correlato.  
 2. Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
 3. Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
 4. Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
@@ -58,8 +58,8 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 ## <a name="see-also"></a>Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)
-[Magazzino](inventory-manage-inventory.md)[Gestione warehouse](warehouse-manage-warehouse.md)  
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

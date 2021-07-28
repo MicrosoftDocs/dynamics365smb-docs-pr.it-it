@@ -1,6 +1,6 @@
 ---
-title: "Procedura: Utilizzare l'IVA nelle vendite e negli acquisti | Documenti Microsoft"
-description: In questo argomento viene descritto come eseguire task quali la correzione di movimenti IVA già registrati. Nei paesi dell'Unione Europea ogni transazione di vendita e di acquisto è soggetta ai calcoli IVA. In questo argomento viene descritta la procedura.
+title: Come utilizzare l'IVA nelle vendite e negli acquisti
+description: Questo argomento descrive i vari modi di lavorare con l'IVA sia manualmente che con l'impostazione automatica, per aiutarti a soddisfare le normative specifiche del paese.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ec880df940816b68a9b6f8a82098985471720984
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781558"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439437"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -96,14 +96,14 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Per impostare l'acquisto per registrare le fatture con IVA da importazione  
 1. Impostare una scheda fornitore per l'autorità di importazione che invia la fattura con IVA da importazione. I campi **Cat. reg. business** e **Cat. reg. business IVA** devono essere impostati in modo analogo al conto C/G per l'IVA da importazione.  
 2. Creare una categoria **Cat. reg. articoli/servizi** per l'IVA da importazione e impostare una categoria **Cat. reg. art. serv. IVA default** relativa all'IVA da importazione per la categoria correlata creata in **Cat. reg. articoli/servizi**.  
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 4. Selezionare il conto di contabilità generale per l'IVA da importazione e scegliere l'azione **Modifica**.  
 5. Nella Scheda dettaglio **Registrazione** selezionare il setup **Cat. reg. articolo/servizio** per l'IVA da importazione. In [!INCLUDE[prod_short](includes/prod_short.md)] il campo **Cat. reg. art./serv. IVA** viene compilato automaticamente.  
-6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 7. Creare una combinazione tra la **Cat. reg. business** per l'autorità competente sull'IVA e la **Cat. reg. articolo/servizio** per l'IVA da importazione. Per questa nuova combinazione, nel campo **Conto acquisti** scegliere il conto di contabilità generale per l'IVA da importazione.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Per creare una nuova fattura per il fornitore dell'importazione competente dopo avere completato il setup  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Creare una nuova fattura di acquisto.  
 3. Nel campo **Acquistare da - Nr. for.** scegliere il fornitore dell'importazione competente, quindi scegliere il pulsante **OK**.  
 4. Nel campo **Tipo** della riga di acquisto scegliere **Conto CG** e nel campo **Nr.** scegliere il conto di contabilità generale per l'IVA da importazione.  
@@ -115,7 +115,7 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare il cliente un certificato di fornitura che il cliente deve firmare e restituire all'utente. Le procedure riportate di seguito sono utili a elaborare i certificati di fornitura per le spedizioni vendita, ma gli stessi passaggi sono applicabili anche per le spedizioni di assistenza per gli articoli e per le spedizioni di reso ai fornitori.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Per visualizzare i dettagli del certificato di fornitura  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere **Dettagli certificato di fornitura**.  
 4. Per impostazione predefinita, se è selezionata la casella di controllo **Certificato di fornitura obbligatorio** per l'impostazione della categoria di registrazione IVA per il cliente, il campo **Stato** è impostato su **Obbligatorio**. È possibile aggiornare il campo per specificare se il cliente ha restituito il certificato.  
@@ -134,7 +134,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
     >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Per stampare un certificato di fornitura  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere l'azione **Stampa certificato di fornitura**.  
 
@@ -152,7 +152,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 8. Inviare il certificato di fornitura stampato al cliente per la firma.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Per aggiornare lo stato di un certificato di fornitura per una spedizione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Nel campo **Stato** scegliere l'opzione pertinente.  
 
@@ -165,7 +165,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati di fornitura** e quindi si aggiornano le informazioni relative allo stato dei certificati in sospeso appena vengono ricevuti dai clienti. Questo può risultare utile quando si desidera individuare tutti i certificati con un determinato stato, ad esempio, **Obbligatorio**, per i quali si desidera aggiornare lo stato a **Non ricevuto**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Per aggiornare lo stato di un gruppo di certificati di fornitura.  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Certificati di fornitura** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Certificati di fornitura**, quindi scegli il collegamento correlato.  
 2. Filtrare il campo **Stato** secondo il valore che si desidera per creare l'elenco dei certificati che si desidera gestire.  
 3. Per aggiornare le informazioni sullo stato, scegliere **Modifica lista**.  
 4. Nel campo **Stato** scegliere l'opzione pertinente.  

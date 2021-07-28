@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776594"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438529"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Registrare il movimento di chiusura di fine anno
+# <a name="posting-the-year-end-closing-entry"></a>Registrazione del movimento di chiusura di fine anno
 
 Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare il movimento o i movimenti di chiusura di fine anno, è necessario aprire le registrazioni specificate nel processo batch, quindi analizzare e registrare i movimenti.  
 
@@ -23,7 +23,7 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazione COGE**, nel campo **Nome batch**, selezionare il batch contenente i movimenti di chiusura.
 3. Analizzare i movimenti.
 4. Per contabilizzare le registrazioni, scegliere l'azione **Registra**.

@@ -1,6 +1,6 @@
 ---
-title: Come creare cicli | Microsoft Docs
-description: Un ciclo contiene i dati master per l'acquisizione dei requisiti di processo di un determinato articolo prodotto. Dopo la creazione di un ordine di produzione per l'articolo, il ciclo relativo determinerà la pianificazione delle operazioni come rappresentato nella pagina Cicli ordini produzione nell'ordine di produzione.
+title: Come creare i cicli
+description: Questo argomento fornisce una panoramica dei diversi modi per creare i ciclil, inclusi i prerequisiti richiesti e come creare i collegamenti di ciclo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439847"
 ---
 # <a name="create-routings"></a>Creare cicli
 
@@ -32,7 +32,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 ## <a name="to-create-a-routing"></a>Per creare un ciclo
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Tipo** selezionare **Seriale** per calcolare il ciclo di produzione in base al valore del campo **Nr. operazione** .  
@@ -64,7 +64,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 Un altro vantaggio importante consiste nel fatto che le operazioni e i componenti collegati vengono visualizzati in una struttura di processo logica quando si utilizza la pagina **Registrazioni di produzione** per la registrazione di output e consumo.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Aprire il ciclo che contiene le operazioni da collegare.  
 
     Assicurarsi che lo stato del ciclo sia impostato su **In sviluppo**.  
@@ -96,8 +96,8 @@ I componenti selezionati risultano collegati alle operazioni specificate quando 
 
 Se occorre personale con speciali qualifiche, particolari conoscenze o una speciale autorizzazione per un'operazione, è possibile assegnarlo all'operazione. Inoltre, è possibile assegnare strumenti e requisiti di qualità all'operazione. Questa procedura descrive come assegnare personale. I passaggi sono simili per altri tipi di informazioni sull'operazione.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
-2. Aprire il ciclo pertinente.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
+2. Apri il ciclo pertinente.  
 3. Nella Scheda dettaglio **Righe**, selezionare la riga da elaborare, quindi scegliere l'azione **Operazioni** e **Personale**.  
 4. Compilare i campi della pagina **Personale ciclo**.  
 5. Scegliere il pulsante **OK** per chiudere la pagina. I valori immessi vengono copiati e assegnati all'operazione.  
@@ -106,7 +106,7 @@ Se occorre personale con speciali qualifiche, particolari conoscenze o una speci
 
 La funzionalità di versione consente di gestire più versioni dei cicli. La struttura della versione del ciclo corrisponde a quella del ciclo ed è costituita da una testata e da righe. La differenza principale è costituita dalla data iniziale del ciclo.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Selezionare il ciclo da copiare quindi scegliere l'azione **Versioni**.  
 3. Nella pagina **Versioni ciclo**, scegliere l'azione **Nuovo**.
 4. Compilare i campi come necessario.

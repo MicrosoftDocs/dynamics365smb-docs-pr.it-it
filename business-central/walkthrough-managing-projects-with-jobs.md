@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: Gestione dei progetti con le commesse | Documenti Microsoft'
-description: In questa procedura dettagliata vengono presentate le funzionalità di gestione dei progetti nelle commesse. Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.
+title: Procedura dettagliata - Gestione dei progetti con le commesse
+description: Questa procedura dettagliata ti introduce alle funzionalità di gestione dei progetti nelle commesse che ti consentono di pianificare l'utilizzo delle risorse della tua azienda e altro ancora.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214730"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439045"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
@@ -77,7 +77,7 @@ Questa procedura dettagliata è incentrata su CRONUS, una società che si occupa
 
 ### <a name="to-prepare-the-sample-data"></a>Per preparare i dati di esempio  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda risorsa.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -100,7 +100,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### <a name="to-create-a-job-journal-batch"></a>Per creare un batch registrazioni commesse  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Registrazioni commesse** scegliere il campo **Nome batch**. Viene visualizzata la pagina **Batch registrazioni commesse**.  
 3.  Scegliere l'azione **Nuovo** per creare una nuova riga con le informazioni seguenti:  
 
@@ -115,7 +115,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### <a name="to-set-up-a-job"></a>Per impostare una commessa  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -208,7 +208,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### <a name="to-calculate-remaining-usage"></a>Per calcolare l'utilizzo residuo  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Registrazioni commesse**, nel campo **Nome batch**, aprire la lista **Batch registrazioni commesse**. Selezionare il batch registrazioni commesse di **Cinzia** .  
 3.  Scegliere l'azione **Calc. utilizzo residuo**.  
 4.  Nella pagina **Commessa - Calc. utilizzo residuo**, nella Scheda dettaglio **Task commessa**, selezionare il campo **Nr. commessa** e selezionare il numero della commessa appropriata, in genere il processo J00010.  
@@ -225,7 +225,7 @@ Le righe sono così registrate.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Per creare una fattura di vendita per una commessa  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Selezionare la commessa creata in precedenza, quindi scegliere l'azione **Crea fattura vendita per commessa**.  
 3.  Nella Scheda dettaglio **Task commessa**, cancellare i filtri in **Nr. task commessa** per fatturare la commessa. Nel campo **Nr. commessa** selezionare la commessa appropriata.  
 4.  Nella Scheda dettaglio **Opzioni** immettere la data di registrazione e specificare se creare una fattura per task oppure una singola fattura per tutti i task.  
@@ -235,7 +235,7 @@ Le righe sono così registrate.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Per registrare una nuova fattura di vendita  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2.  Aprire la fattura per il cliente numero 01445544. Sono visibili le informazioni inserite dalle righe di pianificazione.  
 3.  Scegliere l'azione **Registra**. Selezionare **Sì** per confermare la registrazione.  
 
@@ -249,7 +249,7 @@ Le righe sono così registrate.
 
 ### <a name="to-open-the-statistics-page"></a>Per aprire la pagina Statistiche  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Statistiche**. È possibile esaminare informazioni dettagliate su prezzi, costi e margini delle commesse sia in valuta locale che estera.  
 3.  Scegliere il pulsante **Chiudi** per chiudere la pagina **Statistiche commessa**.  
 
@@ -258,7 +258,7 @@ Le righe sono così registrate.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Per gestire i prezzi fissi nelle commesse  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare il numero di commessa **Società mercantile internaz.**, quindi scegliere l'azione **Righe task commessa**.  
 3. Seleziona la riga 1,120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo e scegli **DrillDown**.  
 
@@ -278,7 +278,7 @@ Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di task, l
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Per inserire ore nelle Registrazioni commesse  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2. In una nuova riga inserire i seguenti dati:  
 
     - **Tipo riga**: **(vuoto)**  
@@ -339,7 +339,7 @@ Nella pagina **Copia commessa** è possibile selezionare la commessa e le righe 
 
 ### <a name="to-copy-a-job"></a>Per copiare una commessa  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova commessa. Inserire i seguenti dati:  
 
     - **Descrizione**: **Pianificazione di dieci aule per conferenze**  
@@ -365,7 +365,7 @@ CRONUS si è appena aggiudicata un grande progetto il cui completamento richiede
 
 ### <a name="to-set-up-a-new-account"></a>Per impostare un nuovo conto  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti** scegliere l'azione **Nuovo** per creare una nuova scheda.  
 3. Nella scheda del nuovo **Conto C/G** inserire i seguenti dati:  
 

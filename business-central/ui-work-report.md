@@ -1,5 +1,5 @@
 ---
-title: Programmazione dell'esecuzione di un report per una data e un'ora specifiche | Documenti Microsoft
+title: Utilizzo di report, processi batch e XMLport
 description: Informazioni su come inserire un report in una coda di processi e programmare per l'elaborazione per una data e un'ora specifiche.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report
-ms.date: 04/01/2021
+ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439952"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
 
-Un report raccoglie informazioni basate su un set di criteri specificato e organizza e presenta le informazioni in un formato facile da leggere e che è possibile stampare o salvare come file. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, statistiche di vendita e altro ancora.
+Un report raccoglie informazioni in base a una serie di criteri specificati. Organizza e presenta le informazioni in un formato di facile lettura che puoi stampare o salvare come file. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, statistiche di vendita e altro ancora.
 
-I processi batch e XMLport eseguono più o meno gli stessi report ma per eseguire un processo o esportare dati. Ad esempio, il processo batch **Crea solleciti** crea documenti di sollecito per clienti con pagamenti scaduti.  
+I processi batch e XMLport eseguono più o meno gli stessi report ma sono usati più per eseguire un processo o esportare dati. Ad esempio, il processo batch **Crea solleciti** crea documenti di sollecito per clienti con pagamenti scaduti.  
 
 > [!NOTE]
 > Questo argomento fa essenzialmente riferimento a “report" ma informazioni simili si applicano ai processi batch e a XMLport.
@@ -72,17 +72,73 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 - Ridimensionare per adattare alla pagina
 - Seleziona testo
 
-    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[prod_short](includes/prod_short.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia**. Quindi incollare il testo selezionato nella posizione desiderata.
+    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[prod_short](includes/prod_short.md)] o Microsoft Word.  Usando un mouse, ad esempio, tieni premuto sul punto in cui vuoi iniziare. Quindi sposta il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia**. Quindi incollare il testo selezionato nella posizione desiderata.
 - Panoramica del documento
 
-    È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. La panoramica risulta utile quando è stato eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.
+    È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. La panoramica risulta utile quando hai eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.
 
 - Scaricare in un file PDF sul computer o in rete.
 - Stampa
 
-## <a name="saving-a-report"></a>Salvataggio di un report
+## <a name="saving-a-report-to-a-file"></a>Salvataggio di un report in un file
 
-È possibile salvare un report in un documento PDF, documento di Microsoft Word o documento di Microsoft Excel scegliendo il pulsante **Invia a** ed effettuando la scelta desiderata.
+Puoi salvare un report in un documento PDF, documento di Microsoft Word o foglio di lavoro di Microsoft Excel scegliendo il pulsante **Invia a** ed effettuando la scelta desiderata.
+
+### <a name="send-to-excel"></a>Inviare a Excel
+
+<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+
+|Option  |Description  |
+|---------|---------|
+|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
+|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
+
+Sono disponibili due opzioni per salvare i risultati del report come foglio di lavoro in una cartella di lavoro di Excel: **Documento Microsoft Excel (dati e layout)** e **Documento Microsoft Excel (solo dati)**
+
+#### <a name="microsoft-excel-document-data-and-layout"></a>[Documento di Microsoft Excel (dati e layout)](#tab/data-and-layout)
+
+Questa opzione è disponibile solo per i report che utilizzano un layout RDLC. Esporta i risultati del report con il layout RDLC applicato. Utilizza questa opzione se vuoi esportare i dati una volta e vuoi apportare solo modifiche minori al loro aspetto, come carattere e combinazione di colori.
+
+#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Documento di Microsoft Excel (solo dati)](#tab/data-only)
+
+L'opzione **Documento di Microsoft Excel (solo dati)** esporta i risultati del report e i criteri utilizzati per generarli, ma non include il layout del report. Il file Excel includerà l'intero set di dati, come dati non elaborati, organizzato in righe e colonne. Sono incluse tutte le colonne di dati del set di dati del report, indipendentemente dal fatto che siano utilizzate nel layout del report.  Usa questa opzione quando vuoi:
+
+- Eseguire analisi ad hoc dei dati. Ad esempio, puoi filtrare i dati e utilizzare Power Pivot per visualizzarli.
+
+  Ogni volta che esporti i risultati, viene creato un nuovo foglio di lavoro. Usando l'opzione **Documento Microsoft Excel (solo dati)** puoi eseguire lo stesso report e riutilizzare le modifiche alla formattazione. Ad esempio, per Power Pivot, puoi eseguire nuovamente il report per un altro periodo di tempo, copiare i risultati nel foglio di lavoro e quindi aggiornare il foglio di lavoro. Puoi anche trovare un'app per la creazione di report in [AppSource](https://appsource.microsoft.com/).
+- Esamina il set di dati del report durante la creazione o la modifica dei layout di report personalizzati.
+
+  Per informazioni sulla creazione di layout di report personalizzati, vedi [Creazione o modifica di layout di report personalizzati](ui-how-create-custom-report-layout.md)
+- Diagnostica i problemi relativi ai dati nei report.
+
+##### <a name="for-administrators"></a>Per gli amministratori
+
+- **Documento Microsoft Excel (solo dati)** è stato introdotto come funzionalità facoltativa nel primo ciclo di rilascio del 2021, aggiornamento 18.3. Per consentire agli utenti l'accesso a questa funzione, abilita aggiornamento della funzionalità **Salva set di dati del report in documento di Microsoft Excel** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management). Nel secondo ciclo di rilascio del 2021, questa funzione diventa permanente, quindi non dovrai abilitarla.
+
+- Gli account utente avranno bisogno dell'autorizzazione **<!--Export Report Dataset To Excel-->Consenti l'azione Esporta set di dati del report in Excel**, che puoi applicare utilizzando il set di autorizzazioni **Strumenti per la risoluzione dei problemi** o **Esporta report in Excel**.  
+
+- Non puoi esportare un report con più di 1.048.576 righe o 16.384 colonne.
+
+    > [!NOTE]
+    > Con Business Central in locale, il numero massimo di righe esportate potrebbe essere anche inferiore. Business Central Server include un'impostazione di configurazione, denominata **Numero massimo di righe di dati consentite per l'invio a Excel**, per diminuire il limite del valore massimo. Per ulteriori informazioni, vedi [Configurazione di Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) oppure contatta il tuo amministratore.
+
+##### <a name="for-developers-and-advanced-users"></a>Per gli sviluppatori e gli utenti avanzati
+
+L'opzione **Documento Microsoft Excel (solo dati)** esporta tutte le colonne, comprese le colonne che contengono filtri e istruzioni di formattazione per altri valori. Ecco alcuni punti di interesse:
+
+- I dati binari in un campo, come un'immagine, non vengono esportati.
+
+  Nelle colonne che contengono dati binari, i campi includeranno il testo **Dati binari ({0} byte)**, dove **{0}** indica il numero di byte.
+- A partire dal secondo ciclo di rilascio di Business Central 2021, il file Excel include anche il foglio di lavoro **Metadati del report**.
+
+  Questo foglio di lavoro mostra i filtri applicati al report e le proprietà generali del report, come il nome, l'ID e i dettagli dell'estensione. I filtri sono mostrati nella colonna **Filtro (DataItem::Table::FilterGroupNo::FieldName)**. I filtri in questa colonna includono i filtri impostati nella pagina di richiesta del report. Include anche i filtri definiti nel codice AL, ad esempio, dalla [proprietà DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) e dalla [proprietà DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
+
+Per ulteriori informazioni sulla progettazione del report, vedi [Panoramica dei report](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
+
+---
+
+> [!NOTE]
+> Alcuni report esportano i numeri come testo, il che impedisce di eseguire calcoli o utilizzare Power Pivot nelle celle del foglio di lavoro di Excel. Dopo l'esportazione, è una buona norma verificare i numeri nel foglio di lavoro. Se vuoi eseguire analisi e grafici sui numeri, cambia il formato delle celle rilevanti da **Testo** in **Numero**. Per ulteriori informazioni sulla formattazione dei numeri nelle celle, guarda questo video [Formattazione dei numeri nelle celle in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Pianificazione dell'esecuzione di un report
 
@@ -90,7 +146,7 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 
 Quando si pianifica l'esecuzione di un report, è possibile specificare che deve essere eseguito ogni giovedì impostando il campo **Prossima esecuzione formula della data** su *D4*, per esempio. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).  
 
-È possibile salvare il report in un file, ad esempio un file Excel, Word, PDF, o stamparlo con una stampante selezionata, o solo generare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della Gestione ruolo utente, dove è possibile visualizzarlo.  
+È possibile salvare il report in un file, come un file Excel, Word, PDF, o stamparlo, o solo generare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della Gestione ruolo utente, dove è possibile visualizzarlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Stampa di un report
 

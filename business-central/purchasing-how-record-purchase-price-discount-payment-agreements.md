@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772706"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438554"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 > [!NOTE]
@@ -40,13 +40,13 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Compilare una riga per ogni combinazione per la quale il fornitore concede uno sconto riga acquisto.
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Scegliere il fornitore, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di acquisto.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Per impostare uno sconto riga per un fornitore
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga**.
 
     Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
@@ -69,7 +69,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Per impostare uno sconto su fattura per un fornitore
 Una volta informati degli sconti su fattura concessi dai fornitori, immettere il codice sconto fattura nelle schede fornitore e impostare le condizioni per ciascun codice.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore relativa al fornitore al quale saranno applicati gli sconti fattura.
 3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il fornitore.
 
@@ -90,7 +90,7 @@ Quando si registra una fattura di acquisto che include uno o più sconti, si pu�
 
 Prima di effettuare questa operazione, è necessario avere precedentemente impostato i conti necessari per la registrazione degli importi degli sconti nel piano dei conti. Verificare inoltre di avere immesso i numeri di conto corretti nel setup registrazioni COGE nei campi **Conto sconto riga acquisto** e **Conto sconto fattura acquisto**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
 2. Nel campo **Registrazione sconti** scegliere uno dei criteri seguenti per la registrazione degli sconti.
 
 |**Modalità di registrazione dello sconto**|**Sconto fattura**|**Sconto riga**|  

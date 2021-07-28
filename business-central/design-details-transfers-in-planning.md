@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: da7b9e3623f953fca19609702216e8b895d438fb
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214805"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439587"
 ---
 # <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse, le società potrebbero avere una catena di trasferimenti in cui l'approvvigionamento all'ubicazione VERDE viene trasferito da GIALLO e l'approvvigionamento a GIALLO viene trasferito da ROSSO e così via. All'inizio della catena, è presente un sistema di rifornimento di Ordine di produzione o di acquisto.  
 
-![Esempio di flusso di trasferimento](media/nav_app_supply_planning_7_transfers1.png "Esempio di flusso di trasferimento")  
+![Esempio di flusso di trasferimento.](media/nav_app_supply_planning_7_transfers1.png "Esempio di flusso di trasferimento")  
 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Confrontando la situazione in cui un ordine di approvvigionamento è direttamente rivolto a un ordine della domanda con una situazione in cui l'ordine di vendita viene rifornito tramite una catena di trasferimenti USK, è ovvio che l'attività di pianificazione nella seconda situazione può diventare molto complessa. Se la domanda cambia, potrebbe causare un effetto onda lungo la catena, in quanto tutti gli ordini di trasferimento più l'ordine di acquisto/produzione all'altro estremo della catena dovrebbero essere manipolati per ristabilire l'equilibrio tra domanda e approvvigionamento.  
 
-![Esempio di saldo tra approvvigionamento e domanda nei trasferimenti](media/nav_app_supply_planning_7_transfers2.png "Esempio di saldo tra approvvigionamento e domanda nei trasferimenti")  
+![Esempio di saldo tra approvvigionamento e domanda nei trasferimenti.](media/nav_app_supply_planning_7_transfers2.png "Esempio di saldo tra approvvigionamento e domanda nei trasferimenti")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Perché il trasferimento è un caso particolare?  
 Un ordine di trasferimento appare come qualsiasi altro ordine nell'applicazione. In realtà è molto diverso.  
 
 Un aspetto fondamentale che differenzia i trasferimenti nella pianificazione dagli ordini di acquisto e di produzione è che una riga di trasferimento rappresenta contemporaneamente la domanda e l'approvvigionamento. La parte in uscita, che viene spedita dall'ubicazione precedente, è la domanda. La parte in entrata, che deve essere ricevuta presso la nuova ubicazione, è l'approvvigionamento in tale ubicazione.  
 
-![Contenuto della pagina Ordine di trasferimento](media/nav_app_supply_planning_7_transfers3.png "Contenuto della pagina Ordine di trasferimento")  
+![Contenuto della pagina Ordine di trasferimento.](media/nav_app_supply_planning_7_transfers3.png "Contenuto della pagina Ordine di trasferimento")  
 
 Ciò significa che quando il sistema manipola il lato approvvigionamento del trasferimento, deve apportare una modifica simile sul lato domanda.  
 
@@ -50,13 +50,13 @@ Nella procedura di pianificazione, la domanda di trasferimento deve essere consi
 ## <a name="planning-sequence"></a>Sequenza di pianificazione  
 Nell'illustrazione seguente viene mostrato il possibile aspetto di una stringa di trasferimenti.  
 
-![Esempio di flusso di trasferimento semplice](media/nav_app_supply_planning_7_transfers4.png "Esempio di flusso di trasferimento semplice")  
+![Esempio di flusso di trasferimento semplice.](media/nav_app_supply_planning_7_transfers4.png "Esempio di flusso di trasferimento semplice")  
 
 In questo esempio, un cliente ordina l'articolo presso l'ubicazione VERDE. L'ubicazione VERDE viene rifornita attraverso il trasferimento dalla warehouse centrale ROSSA. La warehouse centrale ROSSA viene approvvigionata tramite il trasferimento dalla produzione nell'ubicazione BLU.  
 
 In questo esempio, il sistema di pianificazione inizierà alla domanda del cliente e risalirà la catena. Le domande e gli approvvigionamenti verranno elaborati un'ubicazione per volta.  
 
-![Pianificazione forniture con trasferimenti](media/nav_app_supply_planning_7_transfers5.png "Pianificazione forniture con trasferimenti")  
+![Pianificazione forniture con trasferimenti.](media/nav_app_supply_planning_7_transfers5.png "Pianificazione forniture con trasferimenti")  
 
 ## <a name="transfer-level-code"></a>Codice livello trasferimento  
 La sequenza in cui le ubicazioni vengono elaborate nel sistema di pianificazione è determinata dal codice del livello di trasferimento dell'USK.  
@@ -65,7 +65,7 @@ Il codice del livello di trasferimento è un campo interno che viene calcolato e
 
 Il codice del livello di trasferimento sarà 0 per le unità di stockkeeping con ordine di produzione o di acquisto del sistema di rifornimento e sarà -1 per il primo livello di trasferimento, -2 per il secondo e così via. Nella catena di trasferimento descritta in precedenza, i livelli sarebbero quindi -1 per ROSSO e -2 per VERDE, come indicato nella seguente illustrazione.  
 
-![Contenuto della pagina Scheda SKU](media/nav_app_supply_planning_7_transfers6.gif "Contenuto della pagina Scheda SKU")  
+![Contenuto della pagina Scheda SKU.](media/nav_app_supply_planning_7_transfers6.gif "Contenuto della pagina Scheda SKU")  
 
 Per aggiornare la USK, il sistema di pianificazione rileverà se le unità di stockkeeping con il sistema di rifornimento Trasferimento sono impostate con riferimenti circolari.  
 
@@ -75,7 +75,7 @@ Anche se la funzionalità USK non viene utilizzata, è possibile utilizzare le u
 
 Per supportare i trasferimenti manuali, la pianificazione analizzerà gli ordini di trasferimento esistenti e pianificherà l'ordine nel quale devono essere elaborate le ubicazioni. Internamente, il sistema di pianificazione opererà con USK temporanee contenenti codici a livello di trasferimento.  
 
-![Codice livello trasferimento](media/nav_app_supply_planning_7_transfers7.png "Codice livello trasferimento")  
+![Codice livello trasferimento.](media/nav_app_supply_planning_7_transfers7.png "Codice livello trasferimento")  
 
 Se esistono più trasferimenti a una determinata ubicazione, il primo ordine di trasferimento definirà la direzione di pianificazione. I trasferimenti che sono in esecuzione nella direzione opposta verranno annullati.  
 
@@ -86,24 +86,24 @@ Quando si modifica la quantità in una riga ordine di trasferimento esistente, t
 
 Ad esempio, se una riga ordine di trasferimento di 117 pezzi viene impegnato rispetto a una riga di vendita pari a 46 e una riga acquisto pari a 24, non è possibile ridurre la riga di trasferimento al di sotto dei 46 pezzi anche se questo può rappresentare un approvvigionamento eccedente nel lato in entrata.  
 
-![Prenotazioni nella pianificazione dei trasferimenti](media/nav_app_supply_planning_7_transfers8.png "Prenotazioni nella pianificazione dei trasferimenti")  
+![Prenotazioni nella pianificazione dei trasferimenti.](media/nav_app_supply_planning_7_transfers8.png "Prenotazioni nella pianificazione dei trasferimenti")  
 
 ## <a name="changing-quantity-in-a-transfer-chain"></a>Modificare la quantità in una catena di trasferimento  
 Nel seguente esempio, il punto di partenza è una situazione equilibrata con una catena di trasferimento che fornisce un ordine di vendita di 27 nell'ubicazione ROSSO con un ordine di acquisto corrispondente nell'ubicazione BLU, trasferito tramite l'ubicazione ROSA. Di conseguenza, oltre alle vendite e all'acquisto, esistono due ordini di trasferimento: BLUE-ROSA e ROSA-ROSSO.  
 
-![Modifica della quantità nella pianificazione del trasferimento 1](media/nav_app_supply_planning_7_transfers9.png "Modifica della quantità nella pianificazione del trasferimento 1")  
+![Modifica della quantità nella pianificazione del trasferimento 1.](media/nav_app_supply_planning_7_transfers9.png "Modifica della quantità nella pianificazione del trasferimento 1")  
 
 A questo punto il responsabile della pianificazione presso l'ubicazione ROSA sceglie di impegnare rispetto all'acquisto.  
 
-![Modifica della quantità nella pianificazione del trasferimento 2](media/nav_app_supply_planning_7_transfers10.png "Modifica della quantità nella pianificazione del trasferimento 2")  
+![Modifica della quantità nella pianificazione del trasferimento 2.](media/nav_app_supply_planning_7_transfers10.png "Modifica della quantità nella pianificazione del trasferimento 2")  
 
 In genere questo significa che il sistema di pianificazione ignorerà l'ordine di acquisto e la domanda di trasferimento. A condizione che esista un saldo, non esiste alcun problema. Ma cosa accade quando il cliente nell'ubicazione ROSSO rifiuta parzialmente l'ordine e la modifica in 22?  
 
-![Modifica della quantità nella pianificazione del trasferimento 3](media/nav_app_supply_planning_7_transfers11.png "Modifica della quantità nella pianificazione del trasferimento 3")  
+![Modifica della quantità nella pianificazione del trasferimento 3.](media/nav_app_supply_planning_7_transfers11.png "Modifica della quantità nella pianificazione del trasferimento 3")  
 
 Quando il sistema di pianificazione viene eseguito nuovamente, deve liberarsi dell'approvvigionamento in eccesso. Tuttavia, l'impegno bloccherà l'acquisto e il trasferimento di una quantità pari a 27.  
 
-![Modifica della quantità nella pianificazione del trasferimento 4](media/nav_app_supply_planning_7_transfers12.png "Modifica della quantità nella pianificazione del trasferimento 4")  
+![Modifica della quantità nella pianificazione del trasferimento 4.](media/nav_app_supply_planning_7_transfers12.png "Modifica della quantità nella pianificazione del trasferimento 4")  
 
 Il trasferimento ROSA-ROSSO è stato ridotto a 22. La parte in entrata del trasferimento BLU-ROSA non è impegnata, ma dal momento che la parte in uscita è impegnata, non è possibile ridurre la quantità al di sotto di 27.  
 
@@ -127,7 +127,7 @@ Le date di inizio e di fine verranno utilizzate per descrivere il periodo di tra
 
 Nell'illustrazione seguente viene mostrata l'interpretazione delle data e ora di inizio e data e ora di fine nelle righe di pianificazione relative a ordini di trasferimento.  
 
-![Data e ora di Central nella pianificazione del trasferimento](media/nav_app_supply_planning_7_transfers13.png "Data e ora di Central nella pianificazione del trasferimento")  
+![Data e ora di Central nella pianificazione del trasferimento.](media/nav_app_supply_planning_7_transfers13.png "Data e ora di Central nella pianificazione del trasferimento")  
 
 In questo esempio, significa che:  
 
@@ -138,7 +138,7 @@ In questo esempio, significa che:
 ## <a name="safety-lead-time"></a>Lead time di sicurezza  
 Il lead time di sicurezza predefinito nella pagina Setup manufacturing e il campo Lead time di sicurezza correlato nella scheda articolo non verranno considerati nel calcolo di un ordine di trasferimento. Tuttavia, il lead time di sicurezza continuerà a influenzare il piano totale come influirà sull'ordine di rifornimento (acquisto o produzione) all'inizio della catena di trasferimento quando gli articoli vengono collocati nell'ubicazione dalla quale verranno trasferiti.  
 
-![Elementi della data di scadenza del trasferimento](media/nav_app_supply_planning_7_transfers14.png "Elementi della data di scadenza del trasferimento")  
+![Elementi della data di scadenza del trasferimento.](media/nav_app_supply_planning_7_transfers14.png "Elementi della data di scadenza del trasferimento")  
 
 Nella riga dell'ordine di produzione, la Data Fine + Lead Time di Sicurezza + Tempo Gest. Entrata in Whse. = Data Scadenza.  
 
@@ -147,7 +147,7 @@ Nella riga dell'ordine di acquisto, la Data Carico Pianificato + Lead Time di Si
 ## <a name="reschedule"></a>Ripianifica  
 Nella riprogrammazione di una riga di trasferimento esistente, il sistema di pianificazione deve trovare la parte in uscita e modificare la data e l'ora in questa riga. È importante notare che se è stato definito il lead time, si verificherà un gap tra la spedizione e il carico. Come citato, il lead time può essere costituito da più elementi, ad esempio il tempo di trasporto e il tempo di gestione warehouse. In un asse temporale, il sistema di pianificazione si sposterà indietro nel tempo durante il calcolo del saldo degli elementi.  
 
-![Modifica della data di scadenza nella pianificazione del trasferimento](media/nav_app_supply_planning_7_transfers15.png "Modifica della data di scadenza nella pianificazione del trasferimento")  
+![Modifica della data di scadenza nella pianificazione del trasferimento.](media/nav_app_supply_planning_7_transfers15.png "Modifica della data di scadenza nella pianificazione del trasferimento")  
 
 Di conseguenza, quando si modifica la data di scadenza in una riga di trasferimento, è necessario calcolare il lead time per aggiornare il lato in uscita del trasferimento.  
 
@@ -157,7 +157,7 @@ Se la domanda contiene più numeri seriali o di lotto e il motore di pianificazi
 ## <a name="order-to-order-links"></a>Collegamenti ordine su ordine  
 In questo esempio, la USK BLU è impostata con il metodo di riordino Ordine, mentre ROSA e ROSSO utilizzano il metodo lotto per lotto. Quando un ordine di vendita di 27 viene creato nell'ubicazione ROSSO, verrà generata una catena di trasferimenti con l'ultima giunzione in corrispondenza dell'ubicazione BLU che è impegnata con il legame. In questo esempio, gli impegni non sono impegni imposti dal responsabile della pianificazione presso l'ubicazione ROSA, ma legami creati dal sistema di pianificazione. La differenza importante è che il sistema di pianificazione può modificare l'ultimo.  
 
-![Collegamenti ordine su ordine nella pianificazione del trasferimento](media/nav_app_supply_planning_7_transfers16.png "Collegamenti ordine su ordine nella pianificazione del trasferimento")  
+![Collegamenti ordine su ordine nella pianificazione del trasferimento.](media/nav_app_supply_planning_7_transfers16.png "Collegamenti ordine su ordine nella pianificazione del trasferimento")  
 
 Se la domanda viene modificata da 27 a 22, il sistema abbasserà la quantità lungo la catena e sarà ridotto anche l'impegno vincolante.  
 

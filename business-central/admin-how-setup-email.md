@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063429"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439712"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordi
 Le funzionalità di posta elettronica in [!INCLUDE[prod_short](includes/prod_short.md)] sono solo per i messaggi in uscita. Non puoi ricevere risposte, ovvero non c'è una pagina di posta in arrivo in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Puoi utilizzare le funzionalità di posta elettronica di [!INCLUDE[prod_short](includes/prod_short.md)] online solo con Exchange Online. Non sono supportati gli scenari ibridi, come la connessione [!INCLUDE[prod_short](includes/prod_short.md)] online a una versione locale di Exchange.
+> 
 > Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, prima di poter configurare la posta elettronica è necessario creare una registrazione dell'app per [!INCLUDE[prod_short](includes/prod_short.md)] nel portale di Azure. La registrazione dell'app abiliterà [!INCLUDE[prod_short](includes/prod_short.md)] per eseguire l'autorizzazione e l'autenticazione con il provider di posta elettronica. Per ulteriori informazioni, vedere [Impostazione della posta elettronica per Business Central locale](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, la registrazione viene eseguita automaticamente.
 
 ## <a name="required-permissions"></a>Autorizzazioni richieste
@@ -37,7 +39,7 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 
 |Estensione  |Descrizione  |Esempi di quando utilizzare  |
 |---------|---------|---------|
-|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Tutti inviano e-mail da una cassetta postale condivisa in Exchange Online.|Quando tutti i messaggi provengono dallo stesso reparto, ad esempio, l'organizzazione di vendita invia messaggi da un account sales@cronus.com. Ciò richiede la configurazione di una cassetta postale condivisa nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Cassette postali condivise](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Utente corrente**|Tutti inviano e-mail dall'account utilizzato per accedere a [!INCLUDE[prod_short](includes/prod_short.md)].|Consentire comunicazioni da singoli account.|
 |**Altro (SMTP)**|Usare il protocollo SMTP per inviare messaggi e-mail.|Consentire le comunicazioni tramite il server di posta SMTP. |
 
@@ -61,7 +63,7 @@ La guida al setup assistito **Configurare la posta elettronica** può consentirt
 > [!NOTE]
 > Devi disporre di un account di posta elettronica predefinito, anche se aggiungi un solo account. L'account predefinito verrà utilizzato per tutti gli scenari di posta elettronica non assegnati a un account. Per ulteriori informazioni, vedere [Assegnare scenari di posta elettronica agli account di posta elettronica](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Configurare account di posta elettronica** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Imposta account di posta elettronica**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ Gli scenari di posta elettronica sono processi che comportano l'invio di un docu
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ Gli scenari di posta elettronica sono processi che comportano l'invio di un docu
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Impostare testi e layout e-mail riutilizzabili per documenti vendita e acquisto
 È possibile utilizzare i report per includere informazioni chiave di documenti vendita e acquisto nei testi per le e-mail. Questa procedura descrive come configurare il report **Vendite - Fattura** per fatture vendita registrate, ma il processo è simile per altri report.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezioni report Vendite** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezioni report Vendite**, quindi scegli il collegamento correlato.
 2. Nella pagina **Selezione report - Vendite**, nel campo **Utilizzo**, selezionare **Fattura**.
 3. In una nuova riga nel campo **ID report** selezionare ad esempio il report standard 1306.
 4. Selezionare la casella di controllo **Utilizza per corpo e-mail**.
@@ -115,17 +117,17 @@ Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto 
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Per impostare l'indirizzo mittente sostitutivo per i messaggi di posta elettronica in uscita
 1. Nell'**Interfaccia di amministrazione di Exchange** per l'account Microsoft 365, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi copiare o annotare l'indirizzo. Se è necessario un nuovo indirizzo, andare all'interfaccia di amministrazione di Microsoft 365 per creare un nuovo utente e configurare la relativa casella di posta.
-2. In [!INCLUDE[prod_short](includes/prod_short.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail SMTP**, quindi scegli il collegamento correlato.
 3. Nel campo **Invia come**, immettere l'indirizzo sostitutivo.
 4. Copiare o prendere nota dell'indirizzo nel campo **ID utente**.
-5. Nell'**Interfaccia di amministrazione di Exchange**, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi immettere l'indirizzo nel campo **ID utente** nel campo **Invia come**. Per ulteriori informazioni, vedere [Utilizzare EAC per assegnare autorizzazioni alle singole cassette postali](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Nell'**Interfaccia di amministrazione di Exchange**, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi immettere l'indirizzo nel campo **ID utente** nel campo **Invia come**. Per ulteriori informazioni, vedi [Utilizzare EAC per assegnare autorizzazioni alle singole cassette postali](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Per utilizzare l'indirizzo sostitutivo nei workflow di approvazione
-1. In [!INCLUDE[prod_short](includes/prod_short.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail SMTP**, quindi scegli il collegamento correlato.
 2. Copiare o prendere nota dell'indirizzo nel campo **ID utente**.
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.
-4. Nell'**Interfaccia di amministrazione di Exchange**, trovare le caselle di posta per ogni utente elencato nella pagina **Setup utente approvazione** e nel campo **Invia come** immettere l'indirizzo dal campo **ID utente** della pagina **Setup e-mail SMTP** pagina in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Gestire autorizzazioni per destinatari](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. In [!INCLUDE[prod_short](includes/prod_short.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup posta elettronica SMTP** e quindi scegliere il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.
+4. Nell'**Interfaccia di amministrazione di Exchange**, trovare le caselle di posta per ogni utente elencato nella pagina **Setup utente approvazione** e nel campo **Invia come** immettere l'indirizzo dal campo **ID utente** della pagina **Setup e-mail SMTP** pagina in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Gestire autorizzazioni per destinatari](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail SMTP**, quindi scegli il collegamento correlato.
 6. Per abilitare la sostituzione, attivare l'interruttore **Consenti sostituzione mittente**.
 
 > [!Note]
@@ -178,7 +180,7 @@ In caso di problemi nell'utilizzo della configurazione SMTP precedente per invia
 ### <a name="connect-prod_short-to-your-app-registration"></a>Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app
 Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizzare la guida al setup assistito **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)] scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazione AAD dell'applicazione e-mail** e quindi scegliere il collegamento correlato.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione AAD dell'applicazione e-mail**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_shor
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Cassette postali condivise in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

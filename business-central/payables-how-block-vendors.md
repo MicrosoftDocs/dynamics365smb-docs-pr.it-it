@@ -1,6 +1,6 @@
 ---
 title: Come bloccare gli acquisti dai venditori
-description: È possibile impedire ai fornitori di essere inclusi in qualsiasi transazione o semplicemente bloccare loro i nuovi pagamenti.
+description: Informazioni su come impedire ai fornitori di essere inclusi in qualsiasi transazione o semplicemente come bloccare loro i nuovi pagamenti.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: c6a8b290eb619002aac1deb5796430767e46004c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca2e3cb627a33a17dac57bacba9a6c002fbcc90e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780559"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438854"
 ---
 # <a name="block-vendors"></a>Bloccare i fornitori
 È possibile bloccare un fornitore, ad esempio a causa di insolvenza, in modo che il fornitore non possa essere aggiunto ai documenti di acquisto o che non sia possibile registrare pagamenti per il fornitore.
@@ -29,7 +29,7 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i fornitori.
 |**Tutto**|Per il fornitore non sono consentite le transazioni.|  
 
 ## <a name="to-block-a-vendor"></a>Per bloccare un fornitore  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Selezionare il fornitore che si desidera bloccare.
 3. Nel campo **Bloccato**, scegliere una delle opzioni per il blocco.
 

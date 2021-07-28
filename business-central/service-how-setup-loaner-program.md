@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778249"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440105"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  
@@ -24,7 +24,7 @@ Talvolta è necessario fornire a un cliente un articolo in prestito da poter uti
 * Immettere una nota su un articolo in assistenza relativamente all'esigenza di fornire un articolo in prestito.  
 
 ## <a name="to-set-up-a-loaner"></a>Per impostare un articolo in prestito  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in prestito** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in prestito**, quindi scegli il collegamento correlato.  
 2. Creare una nuova scheda articoli in prestito. 
 3. Nel campo **Nr.** inserire un numero per l'articolo in prestito. In alternativa, se è stata impostata una numerazione per gli articoli in prestito nella pagina **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di articolo in prestito disponibile.  
 4. Compilare i campi **Descrizione**, **Descrizione 2** e **Nr. seriale**.  

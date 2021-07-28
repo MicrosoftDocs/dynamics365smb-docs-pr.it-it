@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439462"
 ---
 # <a name="set-up-company-consolidation"></a>Impostare il consolidamento di una società
 
@@ -74,7 +74,7 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
 [!INCLUDE[prod_short](includes/prod_short.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
 3. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +89,7 @@ Nel piano dei conti di una società che verrà consolidata devono essere specifi
 
 Se il piano dei conti nella business unit differisce dalla società consolidata, è necessario preparare conti di contabilità generale per il consolidamento. È possibile specificare i conti in cui registrare debiti e crediti nonché il metodo da utilizzare per convertire le valute nella società consolidata. Ciò è utile se, ad esempio, si esegue spesso il report.
 
-1. In [!INCLUDE [prod_short](includes/prod_short.md)] di ogni business unit, scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+1. In [!INCLUDE [prod_short](includes/prod_short.md)] di ogni business unit, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
@@ -109,7 +109,7 @@ Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possib
 
 Per specificare i tassi di cambio per le business unit, attenersi alla seguente procedura:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.  
 3. Nella pagina **Modifica tasso di cambio**, il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
 4. Scegliere l'azione **Tasso di chiusura**.  

@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Spostare articoli in configurazioni di warehouse di base | Documenti Microsoft'
-description: Nelle configurazioni warehouse avanzate, ovvero le ubicazioni con stoccaggi e prelievi guidati, occorre preparare le movimentazioni warehouse tra collocazioni nel prospetto movimentazioni, un'operazione in genera affidata a un responsabile di reparto, quindi creare le movimentazioni warehouse che dovranno essere eseguite dagli impiegati warehouse.
+title: Spostare gli articoli nella configurazione di warehouse avanzata
+description: Questo argomento spiega come un dipendente senior può organizzare lo spostamento di articoli in configurazioni di magazzino avanzate, applicabili alle ubicazioni con stoccaggio e prelievo diretti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e843b048c117539d077dc4a8ecba33f265a2e826
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782636"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439287"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Spostare articoli in configurazioni di warehouse avanzate
 Nelle configurazioni warehouse avanzate, ovvero le ubicazioni con stoccaggi e prelievi guidati, occorre preparare le movimentazioni warehouse tra collocazioni nel prospetto movimentazioni, un'operazione in genera affidata a un responsabile di reparto, quindi creare le movimentazioni warehouse che dovranno essere eseguite dagli impiegati warehouse.  
@@ -23,12 +23,12 @@ Nelle configurazioni warehouse avanzate, ovvero le ubicazioni con stoccaggi e pr
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Per spostare gli articoli con il prospetto movimentazioni warehouse
 La pagina **Prospetto movimentazioni** include due funzioni che consentono di compilare automaticamente le righe. La prima è la funzione **Calcola rifornimento collocazione**. Questa funzione utilizza le valutazioni collocazioni per suggerire il rifornimento delle collocazioni con valutazione elevata spostando articoli dalle collocazioni con valutazione bassa. La seconda funzione è **Prendi contenuto collocazione**, che inserisce nelle righe del prospetto i dati per l'intero contenuto della collocazione o delle collocazioni specificate.
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
 2.  Immettere le informazioni di movimentazione warehouse nelle righe del prospetto secondo le esigenze.  
 3. Scegliere l'azione **Crea movimento** per creare un documento di movimentazione warehouse che potrà essere registrato al termine dell'operazione di movimentazione.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Per registrare la movimentazione warehouse  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimentazioni**, quindi scegli il collegamento correlato.  
 2.  Aprire la movimentazione warehouse che si desidera elaborare.  
 3.  Nelle righe di tipo di azione **Posizione** specificare dove, quali e quando spostare l'articolo in questione modificando i campi **Cod. zona**, **Cod. collocazione**, **Qtà da gestire** o **Data scadenza**.  
 
@@ -43,7 +43,7 @@ La pagina **Prospetto movimentazioni** include due funzioni che consentono di co
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Per registrare la movimentazione di un articolo già effettuata  
 Se l'ubicazione utilizza stoccaggi e prelievi guidati ed è necessario spostare articoli in altre collocazioni per cui non esistono movimentazioni, prelievi o stoccaggi warehouse precedenti, è possibile registrare la posizione corretta degli articoli nella warehouse tramite la finestra **Registrazioni riclass.whse.**
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registr. riclassificaz. whse.** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registr. riclassificaz. whse.**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi **Nr. articolo**, **Codice Da zona**, **Dal codice collocazione**, **A codice zona** e **A codice collocazione**.  
 3.  Scegliere l'azione **Registra**.  
 

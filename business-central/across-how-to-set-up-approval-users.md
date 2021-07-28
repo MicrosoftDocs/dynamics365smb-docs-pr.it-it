@@ -1,6 +1,6 @@
 ---
 title: Impostare gli utenti per l'approvazione
-description: Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del workflow coinvolti nei processi di approvazione. Nella pagina Setup utente approvazione è possibile anche impostare i limiti quantitativi per specifici tipi di richiesta e definire i responsabili di approvazione sostitutivi ai quali vengono delegate le richieste di approvazione in assenza del responsabile originale.
+description: Prima di creare flussi di lavoro che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del flusso di lavoro coinvolti nei processi di approvazione con Setup utente approvazione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787259"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439203"
 ---
 # <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
 
@@ -31,7 +31,7 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
 
 ## <a name="to-set-up-an-approval-user"></a>Per impostare un utente per l'approvazione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup utente approvazione** creare una nuova riga e compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Description|  

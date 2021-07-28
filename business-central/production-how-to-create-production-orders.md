@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781940"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438604"
 ---
 # <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
 Gli ordini di produzione possono essere creati manualmente. Prima di tutto è necessario creare la testata ordine di produzione.
@@ -25,7 +25,7 @@ Gli ordini di produzione vengono in genere creati automaticamente da una funzion
 Nella seguente procedura viene creato un ordine produzione confermato. È anche possibile creare ordini di produzione con uno stato differente.  
 
 ## <a name="to-create-a-production-order-header"></a>Per creare una testata degli ordini di produzione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Nr.** inserire il numero di serie successivo.  
 4.  Selezionare nel campo **Tipo Origine** l'origine dell'ordine di produzione.

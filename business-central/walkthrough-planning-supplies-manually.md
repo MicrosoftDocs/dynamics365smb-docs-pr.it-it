@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: Pianificazione manuale degli approvvigionamenti | Documenti Microsoft'
-description: La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione.
+title: Procedura dettagliata - Pianificazione manuale degli approvvigionamenti
+description: Questa procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare la nuova domanda, inclusa la pianificazione di un ordine di acquisto, trasferimento e produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214680"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438995"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
@@ -67,7 +67,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
 ### <a name="to-use-the-order-planning-page"></a>Per utilizzare la pagina Pianificazione ordini  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione ordini** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 
      Alla prima apertura della pagina **Pianificazione ordini**, è necessario calcolare un piano per mostrare la nuova domanda dall'ultimo calcolo.  
 
@@ -225,7 +225,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      Il messaggio indica che tutti gli articoli necessari sono ora approvvigionati. Verificare gli ordini di produzione confermati creati.  
 
-13. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
+13. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 
      Nella pagina **Ord. produzione confermati** esaminare la pianificazione delle ore di inizio e di fine dei singoli ordini definita in base alla struttura del prodotto. I componenti di ultimo livello sono prodotti per primi. Di conseguenza, è necessario pianificare ordini multilivello come dimostrato nel flusso di lavoro di pianificazione.  
 

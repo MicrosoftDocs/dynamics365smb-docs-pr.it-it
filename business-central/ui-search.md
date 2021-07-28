@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783186"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440004"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ In questo argomento viene descritto come la funzionalità delle informazioni pu�
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Quando si necessita di assistenza per trovare qualcosa, utilizzare l'icona ![Informazioni sull'operazione che si desidera eseguire](media/ui-search/search.png "Cerca pagina o report") **Informazioni sull'operazione che si desidera eseguire** per cercare quanto desiderato. È inoltre possibile utilizzare ALT+Q per iniziare a utilizzare la funzionalità delle informazioni.
+Quando hai bisogno di aiuto per trovare qualcosa, usa l'icona ![Informazioni sull'operazione che si desidera eseguire.](media/ui-search/search.png "Cerca pagina o report") **Informazioni sull'operazione che si desidera eseguire** per cercarla. È inoltre possibile utilizzare ALT+Q per iniziare a utilizzare la funzionalità delle informazioni.
 
 Quando si inizia a digitare dei caratteri, [!INCLUDE[prod_short](includes/prod_short.md)] visualizza immediatamente le corrispondenze. I risultati nell'elenco cambiano man mano che si digitano più caratteri. Se i risultati visualizzati durante l'immissione della parola “prodotto" includono la parola **articolo** è perché la funzionalità delle informazioni utilizza sinonimi e termini di ricerca alternativi per semplificare la ricerca di azioni, pagine e report.
 

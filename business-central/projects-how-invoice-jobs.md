@@ -1,6 +1,6 @@
 ---
-title: Creare una fattura di vendita per fatturare una commessa| Documenti Microsoft
-description: Viene descritto come fatturare ai clienti le spese commessa durante lo svolgimento di un progetto.
+title: Creare una fattura di vendita per fatturare una commessa
+description: Viene descritto come fatturare ai clienti le spese commessa durante lo svolgimento di un progetto e l'accumulo dei costi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938148"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439178"
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
@@ -33,7 +33,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 
 Nella procedura che segue viene mostrato come utilizzare un processo batch per fatturare più commesse.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commessa - Crea fattura vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commessa - Crea fattura vendita**, quindi seleziona il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Impostare i filtri se si desidera limitare le commesse che devono essere elaborate nel processo batch.
 4. Scegliere il pulsante **OK** per creare le fatture di assistenza.  
@@ -46,7 +46,7 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Per creare e registrare una fattura di vendita commessa dalle righe di pianificazione commessa
 È possibile creare una fattura da righe di pianificazione commessa e indicare in quella occasione la quantità dell'articolo, la risorsa o il conto di contabilità generale che si desidera fatturare.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.
 2. Aprire una commessa appropriata.
 3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. In una riga di pianificazione commessa, nel campo **Qtà da trasferire in fattura** , immettere la quantità dell'articolo, la risorsa, il tipo del conto di contabilità generale che si desidera fatturare.  

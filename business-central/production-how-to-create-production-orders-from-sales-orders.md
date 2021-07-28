@@ -1,6 +1,6 @@
 ---
 title: Creare gli ordini di produzione dagli ordini di vendita
-description: Puoi creare gli ordini di produzione dagli ordini vendita.
+description: Informazioni sui diversi modi per creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115238"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438629"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Creare gli ordini di produzione dagli ordini di vendita
 È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Per creare gli ordini di produzione dagli ordini di vendita  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Selezionare l'ordine di vendita per il quale creare un ordine di produzione.  
 3.  Scegliere l'azione **Pianifica**. Nella pagina **Pianifica ordine vendita** è possibile visualizzare la disponibilità dell'articolo presente nell'ordine di vendita.  
 4.  Selezionare l'azione **Crea ordine produzione**.  

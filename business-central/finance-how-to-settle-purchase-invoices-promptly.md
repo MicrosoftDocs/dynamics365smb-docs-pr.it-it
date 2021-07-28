@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784594"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439487"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Saldare immediatamente le fatture di acquisto
 
@@ -23,7 +23,7 @@ Se si deve pagare il fornitore in contanti o con assegno, è possibile registrar
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita**.  
 

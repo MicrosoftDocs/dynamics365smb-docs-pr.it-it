@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025835"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438754"
 ---
 # <a name="power-bi--faq"></a>Domande frequenti su Power BI
 
@@ -65,8 +65,20 @@ Non abbiamo alcun controllo su questo requisito. Questo requisito è stabilito d
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Il connettore funziona con le pagine API?
 
-Non ancora. Ma a partire da giugno 2021, il nuovo connettore di Power BI supporterà sia i servizi Web di Business Central sia le pagine API. Per ulteriori informazioni, vedi [Abilitare il connettore di Power BI per utilizzarlo con le API di Business Central, anziché solo con i servizi Web](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Sì. A partire da giugno 2021, il nuovo connettore di Power BI supporta sia i servizi Web di Business Central sia le pagine API. Per ulteriori informazioni, vedi [Abilitare il connettore di Power BI per utilizzarlo con le API di Business Central, anziché solo con i servizi Web](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Posso creare un report Power BI utilizzando le API Righe fattura vendita o Righe registrazioni?
+
+I record di riga più comunemente usati sono disponibili nelle [API di Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Quindi puoi usarli per creare report in Power BI selezionandoli nel connettore **Dynamics 365 Business Central**. Comunque, le API **Righe** sono progettate per essere utilizzate solo con alcuni filtri molto specifici e potrebbero non funzionare nel tuo scenario. Potresti ricevere un errore simile a "È necessario specificare un ID o un ID documento per ottenere le righe". Per risolvere questo problema, esegui i passaggi seguenti quando ricevi i dati da Business Central per il report in Power BI Desktop:
+
+1. Invece di includere l'origine dati per l'entità righe, aggiungi l'origine dati padre. Ad esempio, aggiungi **Fattura di vendita** invece di **Righe fattura vendita**.
+2. Seleziona **Trasforma dati** nella barra delle azioni di Power BI Desktop.
+3. Seleziona la query che hai appena aggiunto, ad esempio **Fatture di vendita**.
+4. Applica qualsiasi filtro necessario sui record per ridurre la quantità di record caricati nel report.
+5. Scorri verso destra fino a trovare una colonna denominata come Righe, ad esempio **Righe fattura vendita**.
+6. Seleziona il pulsante di espansione nell'intestazione della colonna, accanto al nome della colonna.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Mostra la colonna SalesInvoiceLines in Power BI Desktop.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>È possibile scegliere da quale ambiente Business Central ottenere i dati per Power BI, ad esempio, come una sandbox o un ambiente di produzione? 
 
@@ -137,14 +149,23 @@ Quando si tratta di servizi Web, le query pubblicate sono generalmente più velo
 Quando il nuovo connettore sarà disponibile a giugno 2021, ti consigliamo di utilizzare le pagine API sulle query pubblicate come servizi Web.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Esiste un modo per un utente finale di creare un servizio Web con una colonna che si trova in una tabella di Business Central, ma non in una pagina? Oppure lo sviluppatore dovrà creare una query personalizzata? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Esiste un modo per un utente finale di creare un servizio Web con una colonna che si trova in una tabella di Business Central, ma non in una pagina? Oppure lo sviluppatore dovrà creare una query personalizzata? 
 
-Non ancora. Ma quando il nuovo connettore sarà disponibile a giugno 2021, uno sviluppatore potrà creare una nuova pagina API per soddisfare questo requisito. 
+Sì. Con il rilascio del nuovo connettore in giugno 2021, uno sviluppatore potrà creare una nuova pagina API per soddisfare questo requisito. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Posso connettere Power BI a un server di database di sola lettura di Business Central Online? 
 
 No. Ma abbiamo questa funzionalità nella nostra roadmap a lungo termine. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Come posso modificare o cancellare l'account utente che sto utilizzando attualmente per connettermi a Business Central da Power BI Desktop?
+
+In Power BI Desktop, effettua i seguenti passaggi:
+
+1. Nel menu File, seleziona **Opzioni e impostazioni** > **Impostazioni origine dati**.
+2. Seleziona **Dynamics Business Central** dall'elenco, quindi seleziona **Cancella autorizzazioni** > **Elimina**.
+
+Quindi, la prossima volta che ti connetterai a Business Central per ottenere dati, ti verrà chiesto di accedere.
 
 ## <a name="performance"></a>[Prestazioni](#tab/performance)
 

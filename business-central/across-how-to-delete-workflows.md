@@ -1,5 +1,5 @@
 ---
-title: Come eliminare workflow | Microsoft Docs
+title: Come eliminare i flussi di lavoro
 description: È possibile eliminare un flusso di lavoro che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e554b3118dbbef0f1235b27da5707b2d0bbd092f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 43801669b0189b4af521c32229ccb2d430fb210c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775799"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438384"
 ---
 # <a name="delete-workflows"></a>Eliminare i workflow
-È possibile eliminare un workflow che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.  
+È possibile eliminare un flusso di lavoro che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.  
 
 > [!CAUTION]  
 >  Quando si elimina un flusso di lavoro, tutte le informazioni in esso contenute vengono perse.  
@@ -26,7 +26,7 @@ ms.locfileid: "5775799"
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Per eliminare un flusso di lavoro  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Selezionare il flusso di lavoro che si desidera eliminare.  
 3.  Scegliere l'azione **Elimina**.  
 4.  In alternativa, aprire il flusso di lavoro che si desidera eliminare.  

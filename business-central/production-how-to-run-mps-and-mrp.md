@@ -1,6 +1,6 @@
 ---
-title: Come eseguire la pianificazione completa, MPS o MRP | Microsoft Docs
-description: L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.
+title: Come eseguire la pianificazione completa, MPS e MRP
+description: Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure entrambe contemporaneamente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787754"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440330"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
@@ -45,7 +45,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 >  La funzione Piano di generazione dei messaggi di azione può essere eseguito tra le esecuzioni del calcolo del piano relativo ai cambiamenti e del piano rigenerativo per ottenere una visione immediata dell'impatto dei cambiamenti apportati alla programmazione, ma non è da intendersi come sostitutivo di tali processi.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Per calcolare il prospetto pianificazione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetti pianificazione** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetti pianificazione**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la pagina **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 

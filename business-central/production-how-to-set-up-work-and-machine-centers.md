@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bffbe40d4deb17f335d8894692ce5852e781957
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787729"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440305"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
@@ -36,7 +36,7 @@ La disponibilità viene memorizzata nei movimenti di calendario.
 
 Di seguito viene descritto come impostare un'area di produzione. I passaggi per impostare un calendario centro di lavoro sono gli stessi ad eccezione della Scheda dettaglio **Setup cicli**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Gruppo aree di produzione** selezionare il raggruppamento di risorse di livello più alto in base a cui è organizzata l'area di produzione, se pertinente. Scegliere l'azione **Nuovo** nell'elenco a discesa.  
@@ -97,7 +97,7 @@ Nella pagina **Risorse critiche** è possibile effettuare impostazioni per evita
 
 Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse critiche** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse critiche**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario.
 

@@ -1,6 +1,6 @@
 ---
 title: Come creare una previsione della domanda
-description: Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.
+description: Informazioni sulla funzionalità di previsione in Business Central e su come creare previsioni di vendita e produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779330"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438689"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -62,7 +62,7 @@ Considerare questo esempio: l'azienda acquista e vende articoli in due ubicazion
 Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione OVEST. Il sistema di pianificazione suggerirà di eseguire le seguenti operazioni:
 
 - Rifornimento di 10 pezzi per l'ubicazione EST, in base ai dati della previsione.  
-- Rifornimento di 12 pezzi per l'ubicazione OVEST, in base all'ordine vendita. I 4 pezzi specificati nella previsione vengono completamente consumati dalla domanda effettiva dell'ordine vendita. Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Rifornimento di 12 pezzi per l'ubicazione OVEST, in base all'ordine vendita. I quattro pezzi specificati nella previsione vengono completamente consumati dalla domanda effettiva dell'ordine vendita. Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Se le previsioni basate sull'ubicazione vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
@@ -85,7 +85,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione domanda** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione della domanda**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
 3. Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.
 4. Nel campo **Visualizza per** per modificare il periodo visualizzato in ciascuna colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostato nell'area finanziaria.    

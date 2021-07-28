@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783161"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439979"
 ---
 # <a name="manage-notifications"></a>Gestire le notifiche
 
@@ -32,7 +32,7 @@ Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio.
 
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
-1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.  
+1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.  
 2. Nella pagina **Impostazioni personali**, nel campo **Notifiche**, scegliere il collegamento *Modificare il momento in cui ricevere le notifiche* .  
 3. Nella pagina visualizzata, attivare o disattivare una notifica selezionando o deselezionando la casella di controllo **Abilitato**.  
 4. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  

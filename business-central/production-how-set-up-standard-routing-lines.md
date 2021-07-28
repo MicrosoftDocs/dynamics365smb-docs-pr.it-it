@@ -1,6 +1,6 @@
 ---
-title: Come impostare task standard per le operazioni | Microsoft Docs
-description: È possibile immettere descrizioni per i task standard.
+title: Come impostare task standard per le operazioni
+description: Scopri come impostare task standard e aggiungere task standard alle operazioni per semplificare la manutenzione dei cicli.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 1aba83ed50e0b60710ae3d007b395dc9ebad34d3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e25eca9c3ff6b057b24249368d00dd5118b98ca3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779359"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438655"
 ---
 # <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
 
@@ -23,14 +23,14 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 
 ## <a name="to-set-up-a-standard-task"></a>Per impostare un task standard
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Task standard** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Task standard**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** o **Strumenti**, quindi, nella pagina visualizzata, aggiungere l'articolo pertinente.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Per aggiungere un task standard a un'operazione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.
 2. Aprire il ciclo pertinente.
 3. Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni**, quindi scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.
 
