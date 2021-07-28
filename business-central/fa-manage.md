@@ -1,6 +1,6 @@
 ---
-title: Gestire i cespiti| Documenti Microsoft
-description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo dei cespiti.
+title: Gestire i cespiti
+description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo e gestione dei cespiti.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: feb3d677c2c55166b71f825315ee1805b28b3a5e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770493"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323229"
 ---
-# <a name="fixed-assets"></a>Cespiti
+# <a name="managing-fixed-assets"></a>Gestione dei cespiti
 La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. È quindi possibile iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. Qualsiasi vendita o acquisto previsto può quindi essere incluso nei report.

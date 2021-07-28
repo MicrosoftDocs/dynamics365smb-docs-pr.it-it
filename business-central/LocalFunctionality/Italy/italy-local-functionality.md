@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: cd1827a1f19d0e7caef92411b2d3af705c83d7da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1347679421f7d30d1fbb4a46bb5f3d2c5c3d12e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780152"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318854"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 

@@ -1,6 +1,6 @@
 ---
-title: Panoramica dei task per la configurazione dei processi di vendita | Documenti Microsoft
-description: Descrive i task per impostare le regole e i valori per definire i criteri e processi di vendita.
+title: Panoramica dei task per la configurazione dei processi di vendita
+description: Panoramica dei task necessari per impostare regole e valori che definiscono i criteri e i processi di vendita, inclusa l'impostazione generale e l'impostazione delle vendite relative ai dati finanziari.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f344fb03f1447681676d5e1e13294bc7cefccb96
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775402"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318586"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.

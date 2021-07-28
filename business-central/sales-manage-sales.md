@@ -1,6 +1,6 @@
 ---
-title: Panoramica dei task per la gestione delle vendite | Documenti Microsoft
-description: Descrive come si gestiscono le attività di vendita.
+title: Panoramica dei task per la gestione delle vendite
+description: Leggi come utilizzare i servizi di Business Central per la gestione delle attività di vendita con i tuoi clienti con fatture di vendita, ordini, offerte e altro.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935013"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321993"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.

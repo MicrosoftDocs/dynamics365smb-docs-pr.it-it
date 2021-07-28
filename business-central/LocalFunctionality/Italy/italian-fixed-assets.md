@@ -1,6 +1,6 @@
 ---
 title: Cespiti italiani
-description: I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito.
+description: I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito. Questo argomento tratta l'uso della funzionalità dei cespiti.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c5d37b321b745a1df3cef4eccfa7e23e3836110
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76fcd7e606dc5f17327af3a7487bb6c217c67a3c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771430"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321511"
 ---
 # <a name="italian-fixed-assets"></a>Cespiti italiani
 I cespiti sono beni appartenenti a una società, che vengono utilizzati per la produzione del suo reddito. Possono essere tangibili o intangibili e durevoli o non durevoli. Automobili, macchinari e arredamenti sono esempi di cespiti tangibili. Costi di avviamento e licenze sono esempi di cespiti intangibili.  

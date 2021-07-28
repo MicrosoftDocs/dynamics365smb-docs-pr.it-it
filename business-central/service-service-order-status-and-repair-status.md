@@ -1,6 +1,6 @@
 ---
 title: Stato ordine assistenza e stato riparazione
-description: Il campo Stato nella pagina Ordine assistenza e lo stato di riparazione dell'ordine assistenza, rappresentato dal campo Codice stato riparazione nella pagina Ordine assistenza, sono correlati in Gestione assistenza. Lo stato dell'ordine assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine assistenza.
+description: Lo stato dell'ordine assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08fba6795f288e21c0de457a70ff7fa32e7c2822
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 88596c87cf255a52dcb49cdd0295822152b22928
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770665"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322954"
 ---
 # <a name="service-order-status-and-repair-status"></a>Stato ordine assistenza e stato riparazione
 

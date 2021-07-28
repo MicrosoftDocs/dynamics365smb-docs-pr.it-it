@@ -1,6 +1,6 @@
 ---
-title: Creare e gestire le interazioni con i contatti| Documenti Microsoft
-description: In Business Central vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.
+title: Creare e gestire le interazioni con i contatti
+description: In Business Central vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, Leggi i modi per creare e gestire i tuoi contatti.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780634"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321864"
 ---
-# <a name="managing-interactions"></a>Gestione di interazioni
+# <a name="managing-interactions-with-your-contacts"></a>Gestire le interazioni con i contatti
 In [!INCLUDE[prod_short](includes/prod_short.md)] vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via e-mail, lettera, telefono, riunioni e così via.
 
 È possibile registrare tutte le interazioni con i contatti al fine di tenere traccia delle operazioni di vendita e marketing ad essi rivolte e migliorare le interazioni commerciali future.

@@ -1,6 +1,6 @@
 ---
-title: Gestire i segmenti e selezionare i contatti da includere| Documenti Microsoft
-description: Descrive i task per creare un segmento per selezionare un gruppo di contatti in base a criteri specifici, ad esempio, contatti in un settore specifico a cui si desidera rivolgersi.
+title: Gestire i segmenti e selezionare i contatti
+description: Questo argomento descrive come creare un segmento selezionando un gruppo di contatti in base a criteri specifici per indirizzare successivamente quel segmento con una campagna.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784419"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323595"
 ---
 # <a name="managing-segments"></a>Gestione dei segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti in base a criteri specifici. Un segmento potrebbe essere ad esempio il settore industriale a cui appartengono i contatti o la propria relazione d'affari con i contatti. È possibile creare un segmento per selezionare i contatti da utilizzare come target di una campagna.

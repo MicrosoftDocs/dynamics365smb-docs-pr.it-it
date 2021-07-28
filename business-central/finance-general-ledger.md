@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulla contabilità generale e COA| Documenti Microsoft
-description: Descrive la contabilità generale, il piano dei conti e le categorie dei conti.
+title: Informazioni sulla contabilità generale e COA
+description: Descrive la contabilità generale, il piano dei conti e le categorie dei conti. Usa la pagina Setup contabilità generale per specificare le modalità di gestione di determinate questioni contabili relative alla società.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774007"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321116"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 
@@ -58,19 +58,29 @@ La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie pr
 
 È possibile specificare se i conti di questa sottocategoria devono essere inclusi in determinati tipi di report. Le categorie di conto consentono di definire il layout dei rendiconti finanziari.  
 
-Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai contanti nei cespiti correnti. Se si desidera che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, è possibile:  
+### <a name="example"></a>Esempio
 
-1. Aggiungere due nuove sottocategorie. Una per la piccola cassa e una per il conto assegni.  
+Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai *contanti* nei *cespiti correnti*. Se vuoi che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, effettua questi passaggi:  
+
+1. Aggiungi due nuove sottocategorie:
+
+    * Una per la piccola cassa  
+    * Una per il conto assegni  
 2. Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.  
 3. Applicare un rientro sotto la sottocategoria **Contanti**.  
 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accesso per creare e modificare conti e categorie di conti
+
+In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior parte degli utenti può modificare il piano dei conti, ad eccezione degli utenti con una licenza membro del team. Tuttavia, nelle organizzazioni più grandi, l'accesso per modificare il piano dei conti è limitato da ruoli e autorizzazioni. Se sei un amministratore o hai il ruolo *Manager aziendale* o *Contabile*, puoi controllare le autorizzazioni per tutti gli utenti per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
+
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

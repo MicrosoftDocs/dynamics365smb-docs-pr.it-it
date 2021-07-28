@@ -1,19 +1,19 @@
 ---
-title: Inviare avvisi normativi | Microsoft Docs
-description: Se si ritiene che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, è possibile utilizzare questa guida per inviare un avviso normativo al team di prodotto.
+title: Inviare avvisi normativi
+description: Se ritieni che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, puoi utilizzare questa guida per inviare un avviso normativo al team di prodotto.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784842"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319983"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 

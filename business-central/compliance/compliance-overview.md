@@ -1,6 +1,6 @@
 ---
-title: Conformità | Microsoft Docs
-description: Questo argomento contiene informazioni sulla conformità in relazione a Business Central.
+title: Panoramica sulla conformità
+description: Panoramica di come Business Central consente ai clienti di ottemperare facilmente agli standard di conformità e normativi grazie ad alcune funzionalità e alla piattaforma su cui è basato.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -10,16 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 527a63fb9aff0484be2561673ab815090d039fbd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788410"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318914"
 ---
-# <a name="compliance"></a>Conformità
+# <a name="compliance-overview"></a>Panoramica sulla conformità
 
 Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

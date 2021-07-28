@@ -1,6 +1,6 @@
 ---
-title: "Ricerca per categorie: video sull'utilizzo di Business Central | Documenti Microsoft"
-description: Consente di accedere a video introduttivi che illustrano come eseguire le attività comuni.
+title: Visitare la videoteca
+description: Visita la nostra videoteca per ricevere assistenza tramite i video introduttivi che illustrano le attività di "procedura" comuni nei video sui prodotti in oggetto.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e9c0da0ebc32862f80e881b4540350fcb2fdfe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786959"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324688"
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
 

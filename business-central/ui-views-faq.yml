@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Domande frequenti sulle visualizzazioni elenco
-  description: Informazioni dettagliate sul salvataggio di filtri come visualizzazioni elenco.
+  description: Questo articolo risponde alle domande frequenti sulle visualizzazioni elenco e offre informazioni dettagliate sul salvataggio e sull'utilizzo dei filtri come visualizzazioni elenco.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017310"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322224"
 title: Domande frequenti sulle visualizzazioni elenco
 summary: Questo articolo contiene le risposte alle domande sulle visualizzazioni elenco e il salvataggio dei filtri poste spesso dagli utenti esperti.
 sections:

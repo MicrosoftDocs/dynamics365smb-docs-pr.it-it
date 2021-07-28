@@ -1,6 +1,6 @@
 ---
-title: Panoramica di pagamenti fornitori ed effetti clienti
-description: In Business Central, è possibile gestire gli effetti automatici per i clienti e dai fornitori.
+title: Panoramica di pagamenti fornitori ed effetti clienti [IT]
+description: Nella versione italiana di Business Central, puoi gestire gli effetti automatici per i clienti e dai fornitori.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4e2ab60cf1d586bae360c2633851bf94c412ec55
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d89929fd623a705ef8c239ba1de3ede6bed2a1c2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780154"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318850"
 ---
-# <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
+# <a name="vendor-payments-and-customer-bills-overview-in-the-italian-version"></a>Panoramica di pagamenti di fornitori ed effetti clienti nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  
 
 Inoltre, questa funzionalità di pagamento degli effetti supporta l'emissione del pagamento in diversi formati, compreso il bonifico SEPA, l'addebito diretto SEPA e i formati di effetti italiani.  

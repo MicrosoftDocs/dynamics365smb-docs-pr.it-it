@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Tabella Assegnazione pianificazione | Microsoft Docs'
-description: Questo argomento fornisce informazioni dettagliate sulle conseguenze relative alla modifica del metodo di pianificazione per un articolo.
+title: Dettagli di progettazione - Tabella Compiti di pianificazione
+description: Questo argomento fornisce informazioni su cosa succede quando una modifica nei modelli di domanda o offerta richiede il calcolo della modalità di pianificazione di un articolo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 621e747cbdf4b7ba19ad900c4c91eb3edfd8480f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770890"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321597"
 ---
 # <a name="design-details-planning-assignment-table"></a>Dettagli di progettazione: Tabella Assegnazione pianificazione
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
