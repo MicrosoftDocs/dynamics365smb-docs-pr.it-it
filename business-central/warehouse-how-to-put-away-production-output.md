@@ -1,6 +1,6 @@
 ---
 title: Stoccare l'output di produzione
-description: La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione.
+description: La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione. Lo stoccaggio in magazzino può essere effettuato nei seguenti modi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784219"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438134"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Stoccare l'output produzione o l'output assemblaggio
 
@@ -33,14 +33,14 @@ Nelle configurazioni di warehouse avanzate in cui l'ubicazione richiede sia l'el
 La prima fase del processo di creazione dello stoccaggio dell'output prevede la creazione della richiesta warehouse in entrata. Questa richiesta comunica alla warehouse che l'output dell'ordine di produzione o assemblaggio è pronto per lo stoccaggio.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Per creare la richiesta warehouse in entrata  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione rilasciato** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
 2.  Nell'ordine di produzione pronto per lo stoccaggio, scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
 > È inoltre possibile creare la richiesta warehouse in entrata scegliendo il campo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo stoccaggio di magazzino. Per ulteriori informazioni, vedere [Stoccare articoli con gli stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Per accedere all'output dell'ordine di produzione, scegliere l'azione **Prendi documenti origine** e selezionare l'ordine di produzione rilasciato.  
 4.  Compilare debitamente le righe di stoccaggio.

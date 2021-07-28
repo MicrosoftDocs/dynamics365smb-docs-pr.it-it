@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: abb6a3a910f8ac628587a58637b96d69bca4266f
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437779"
 ---
 # <a name="enter-external-document-numbers"></a>Immettere numeri di documento esterni
 
@@ -28,7 +28,7 @@ La seguente procedura spiega come specificare un numero di documento esterno in 
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Per immettere numeri di documento esterno in un ordine di vendita  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Selezionare l'ordine di vendita pertinente, quindi scegliere l'azione **Modifica**.  
 3. Nella Scheda dettaglio **Generale**, nel campo **Nr. documento esterno**, inserire il numero di fattura.  
 

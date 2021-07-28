@@ -1,6 +1,6 @@
 ---
-title: Analisi degli importi effettivi e degli importi di budget| Documenti Microsoft
-description: Descrive come analizzare gli importi effettivi e gli importi di budget.
+title: Analisi degli importi effettivi e degli importi di budget
+description: Questo argomento descrive come analizzare gli importi effettivi rispetto agli importi a budget per raccogliere, analizzare e condividere i dati dell'azienda.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9c601dc3507b0777f3aeecb063e6cebe8866768c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781124"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437103"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
@@ -27,7 +27,7 @@ Per analizzare gli importi di budget, è prima necessario creare budget C/G. Per
 ## <a name="to-view-a-gl-budget"></a>Per visualizzare un budget C/G
 In un budget per cui siano state impostate delle dimensioni è possibile filtrare i movimenti e visualizzare budget specifici.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Budget C/G** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Budget C/G**, quindi scegli il collegamento correlato.
 2. Nella pagina **Budget CG** aprire il budget che si desidera visualizzare.  
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ In un budget per cui siano state impostate delle dimensioni è possibile filtrar
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Per visualizzare gli importi effettivi e preventivati di tutti i conti  
 È possibile visualizzare budget di contabilità generale e confrontarli con le cifre effettive in diverse aree di [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare l'azione **Saldo budget C/G**.
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
 4. Per visualizzare una specifica che costituisce l'importo mostrato, selezionare il campo.  
@@ -59,7 +59,7 @@ Le colonne a sinistra contengono il piano dei conti. Delle quattro colonne sulla
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Per visualizzare importi effettivi e preventivati per più periodi  
 Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'interno di un unico periodo è possibile visualizzare un certo numero di periodo per un unico conto.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare il conto di contabilità generale pertinente quindi scegliere l'azione **Confronto budget/contabilità generale**.  
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato.   
 4. Per visualizzare una specifica di un importo mostrato, selezionare il campo.  

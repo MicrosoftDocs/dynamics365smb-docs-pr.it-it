@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a99b6e4eb45596191c87dac046f71c9cef19e33
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 49617de71970e4f3d81532567229ea202f5491fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780168"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437531"
 ---
 # <a name="print-withholding-tax-reports"></a>Stampa di report delle ritenute
 Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato.  
 
 ## <a name="to-print-a-withholding-tax-report"></a>Per stampare un report delle ritenute  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ritenute** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ritenute**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Description|  

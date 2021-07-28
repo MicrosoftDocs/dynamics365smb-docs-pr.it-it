@@ -1,6 +1,6 @@
 ---
 title: 'Procedura dettagliata: Conduzione di una campagna di vendita'
-description: Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte importante dell'impostazione di una campagna è la selezione del target. A questo scopo, in Business Central si crea un segmento, o gruppo di contatti, utilizzando dei filtri.
+description: Questa procedura dettagliata offre una panoramica dettagliata di tutte le attività coinvolte nella conduzione di una campagna di vendita in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102435"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437839"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
 
@@ -69,7 +69,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 ### <a name="to-set-up-a-campaign"></a>Per impostare una campagna  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Campagne** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Campagne**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova campagna. Nella scheda campagna, premere **Invio** per inserire automaticamente un numero campagna.  
 3. Nel campo **Descrizione** immettere una descrizione per la campagna, ad esempio **Fiera Ufficio Futurus**.  
 4. Scegliere il campo **Codice di stato** e selezionare il codice di stato "1-PLAN". 
@@ -161,11 +161,11 @@ Il manager marketing decide che l'elenco ridotto è quello finale dei contatti d
 
 Gli allegati vengono inviati. Al termine del processo, fare clic sul pulsante **OK** all'interno del messaggio che indica che il segmento è stato registrato.  
 
- Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per visualizzare tale elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
+ Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
 
 Dopo che il segmento è stato registrato, ogni lettera inviata viene registrata come un'interazione, che è possibile visualizzare nel log.  
 
-Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti log interazione** e quindi scegliere il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
+Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti log interazione**, quindi scegli il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Per inviare un messaggio di posta elettronica a un contatto  
 
@@ -178,7 +178,7 @@ Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità
 7. Selezionare la casella di controllo **Crea segmento di follow-up**.  
 8. Scegliere il pulsante **OK**.  
 
- Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per visualizzare tale elenco, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti registrati** e quindi scegliere il collegamento correlato.  
+ Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
 
 ## <a name="registering-campaign-responses"></a>Registrazione delle risposte alla campagna
 

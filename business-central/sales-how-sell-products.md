@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115517"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436728"
 ---
 # <a name="sell-products"></a>Vendere prodotti
 
@@ -44,7 +44,7 @@ a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in 
 
 ## <a name="to-create-a-sales-order"></a>Per creare un ordine di vendita
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
     Altri campi nella pagina **Ordine di vendita** vengono compilati con le informazioni standard del cliente selezionato.  

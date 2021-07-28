@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935238"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437443"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ Nella seguente tabella vengono illustrate le funzionalità disponibili.
 |Esperienza incorporata per la visualizzazione di un determinato report all'interno di un riquadro Dettaglio informazioni in [!INCLUDE[prod_short](includes/prod_short.md)]|Entrambe. Richiede la configurazione per visualizzare i report in locale.|
 |Gestione dei report Power BI da [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Report Power BI predefiniti nella Gestione ruolo utente distribuiti a Power BI|Online|
-|App Power BI in Microsoft AppSource|Online.|
+|App Power BI in Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Architettura
 
-[!INCLUDE[prod_short](includes/prod_short.md)] si integra con Power BI tramite un connettore utilizzando OData. L'origine dati per i report Power BI è esposta come servizi web OData.
+[!INCLUDE[prod_short](includes/prod_short.md)] si integra con Power BI tramite un connettore utilizzando OData. L'origine dati per i report Power BI è esposta come pagine API e servizi web OData.
 
-![Architettura Power BI per l'integrazione con Business Central](./media/power-bi-architecture.png)
+![Architettura Power BI per l'integrazione con Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Flusso generale
 
 Il diagramma seguente illustra il flusso di lavoro di base per gli utenti durante la connessione di [!INCLUDE[prod_short](includes/prod_short.md)] a Power BI.
 
-![Flusso di lavoro Power BI per l'integrazione con Business Central](./media/power-bi-flow.png)
+![Flusso di lavoro Power BI per l'integrazione con Business Central.](./media/power-bi-flow.png)
 
 1. L'utente si iscrive per un account Power BI.
 2. L'utente si connette a Power BI da [!INCLUDE[prod_short](includes/prod_short.md)].

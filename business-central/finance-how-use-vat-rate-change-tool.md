@@ -1,20 +1,20 @@
 ---
-title: Gestione delle variazioni dell'aliquota IVA | Microsoft Docs
-description: Informazioni su come usare lo strumento di modifica dell'aliquota IVA per Dynamics 365 Business Central.
+title: Gestione delle modifiche dell'aliquota IVA
+description: Scopri come utilizzare lo strumento di modifica dell'aliquota IVA per Dynamics 365 Business Central per la modifica delle aliquote IVA in base alla legislazione locale.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770443"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437393"
 ---
 # <a name="managing-vat-rate-changes"></a>Gestione delle variazioni dell'aliquota IVA
 
@@ -71,13 +71,13 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Per impostare lo strumento di modifica dell'aliquota IVA
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup modifiche aliquota IVA**, quindi scegli il collegamento correlato.  
 2. Nelle Schede dettaglio **Dati master**, **Registrazioni** e **Documenti** scegliere un valore della categoria registrazione dall'elenco di opzioni per i campi necessari. Per ciascun gruppo è possibile scegliere se convertire le categorie di registrazione di articoli e servizi IVA o le categorie di registrazione di articoli e servizi generali oppure convertire entrambi i valori se sono disponibili nell'elemento dati master. Per alcune aree è anche possibile impostare un filtro per convertire solo un sottoinsieme di valori, ad esempio i conti C/G. 
 3. Nella scheda dettaglio **Prezzi IVA inclusa**, scegliere i tipi di riga per gli ordini per i quali si desidera aggiornare i prezzi unitari. I prezzi unitari sulle righe di tipo articolo e risorsa verranno sempre aggiornati.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Per impostare la conversione delle categorie di registrazione prodotti
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modifiche aliquota IVA** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup modifiche aliquota IVA**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup modifiche aliquota IVA** scegliere l'azione **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
 3. Nel campo **Da codice** immettere la categoria di registrazione corrente.  
 4. Nel campo **A codice** immettere la nuova categoria di registrazione.  
@@ -92,7 +92,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 > [!IMPORTANT]  
 > Prima di eseguire la conversione modifica aliquota IVA, è possibile eseguire i test della conversione. A tale scopo, eseguire la procedura riportata di seguito, ma assicurarsi di deselezionare le caselle di controllo **Esegui conversione** e **Strumento di modifica aliquota IVA completato**. Durante la conversione di test, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è stato rimosso e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** è vuoto. Al termine della conversione, scegliere **Voci log modifiche aliquota IVA** per visualizzare i risultati del test di conversione. Verificare ciascun movimento prima di eseguire la conversione. In particolare, verificare le transazioni che usano un'aliquota IVA precedente.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modifica aliquota IVA** e quindi scegliere il collegamento **Setup modifiche aliquota**.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modifica aliquota IVA**, quindi scegli il collegamento **Setup modifiche aliquota IVA**.  
 2. Verificare che sia già stata impostata la conversione della categoria di registrazione articoli/servizi IVA o quella relativa agli articoli/servizi.  
 3. Selezionare la casella di controllo **Esegui conversione**.  
 

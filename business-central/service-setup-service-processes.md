@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 73d50160e95717df3056200bda01874ef2f82fd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778149"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438234"
 ---
 # <a name="configure-service-processes"></a>Configurazione dei processi di assistenza
 Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile applicare ai processi di gestione assistenza:  
@@ -27,7 +27,7 @@ Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile app
 * Sequenze numeriche da utilizzare per gli articoli e i documenti correlati all'assistenza.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Per immettere le impostazioni generali e obbligatorie
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup gestione assistenza** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup gestione assistenza**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Vedi anche  

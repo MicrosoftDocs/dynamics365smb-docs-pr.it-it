@@ -1,6 +1,6 @@
 ---
-title: Impostare codici per servizi standard | Documenti Microsoft
-description: Informazioni su come impostare i codici per le attività di assistenza eseguite di frequente.
+title: Impostare codici per servizi standard
+description: Scopri come impostare i codici per le attività di assistenza eseguite regolarmente con un set predefinito di righe di assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778224"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436603"
 ---
 # <a name="set-up-standard-service-codes"></a>Impostare codici di servizio standard
 
@@ -26,13 +26,13 @@ Quando si presta un tipo di assistenza standard, è spesso necessario creare doc
   
 ## <a name="to-set-up-a-standard-service-code"></a>Per impostare un codice di servizio standard
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Codici servizio standard** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici servizio standard**, quindi seleziona il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Compilare le righe di assistenza collegate al codice specifico.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Per assegnare un codice di servizio standard a un gruppo di articoli in assistenza
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di articoli in assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi articoli in assistenza**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Compilare le righe di assistenza collegate al codice specifico.  
 

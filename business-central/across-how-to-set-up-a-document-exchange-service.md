@@ -1,6 +1,6 @@
 ---
-title: Come impostare un servizio di scambio documenti | Microsoft Docs
-description: Utilizzare un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali.
+title: Come impostare un servizio di scambio documenti
+description: Utilizza un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali usando "Setup servizio scamb. doc.".
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787284"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436300"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Impostare un servizio di scambio documenti
 Utilizzare un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Per impostare un servizio di Exchange per documenti  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup servizio scamb. doc.** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio scamb. doc.**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Descrizione|  

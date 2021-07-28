@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 279eb576e60f324d04e3c2dd58ba57e4e7ca68b8
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 5ebeb1d2491587afe03cc8f1e687e82bdbd2743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184351"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436125"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
 
@@ -31,7 +31,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
 È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Nella pagina **Lista fogli presenze** scegliere l'azione **Crea fogli presenze**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -44,14 +44,14 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Per copiare le righe pianificazione commessa in un foglio presenze
 Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe pianificazione commessa a un foglio presenze.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Lista fogli presenze** selezionare un foglio presenze per il periodo di tempo interessato, quindi scegliere l'azione **Modifica foglio presenze**.  
 3. Scegliere l'azione **Crea righe da pianificazione commessa**. Tutte le righe di pianificazione commessa nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Per definire i tipi di lavoro e aggiungerne uno a un foglio presenze
 È possibile definire il tipo di lavoro per tutte le righe del foglio presenze relativo alle commesse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.   
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.   
 2. Aprire il foglio presenze appropriato.
 3. Scegliere il campo **Descrizione**.  
 4. Nella pagina **Dettaglio commessa righe foglio presenze** scegliere il campo **Codice tipo lavoro**, quindi selezionare un tipo di lavoro dall'elenco, ad esempio **Miglia**.  
@@ -62,7 +62,7 @@ Nella procedura riportata di seguito viene descritto come aggiungere rapidamente
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Per riutilizzare le righe del foglio presenze in altri fogli presenze
 Se le informazioni del foglio presenze rimangono invariate da un periodo di tempo a un altro, è possibile risparmiare tempo copiando le righe dal periodo di tempo precedente. In questo modo, sarà sufficiente immettere l'utilizzo del tempo per il nuovo periodo.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
 2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
 3. Scegliere l'azione **Copia righe da foglio presenze precedente**.
 
@@ -71,7 +71,7 @@ Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempi
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Per compilare le righe di un foglio presenze e inviarle per l'approvazione
 La registrazione del foglio presenze avviene in ore, l'unità di misura base standard per le risorse. Per impostazione predefinita, un foglio presenze mostra i giorni lavorativi normali dal lunedì al venerdì.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
 2. Selezionare un foglio presenze per il periodo pertinente, quindi scegliere l'azione **Modifica foglio presenze**.  
 3. Compilare i campi su una riga in base alle esigenze. Immettere il numero di ore utilizzate dalla risorsa ogni giorno della settimana.
 
@@ -94,7 +94,7 @@ Un foglio presenze deve essere inviato per l'approvazione prima di poter essere 
 * Un amministratore di fogli presenze può approvare qualsiasi foglio presenze.
 * La persona specificata nel campo **ID utente resp. approvazione foglio presenze** in una scheda risorsa può approvare i fogli presenze di quella risorsa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze manager** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager**, quindi scegli il collegamento correlato.
 2. Selezionare un foglio presenze dall'elenco.  
 3. Nella pagina **Foglio presenze** scegliere l'azione **Approva**, quindi scegliere l'azione **Tutte le righe inviate** per approvare tutte le righe oppure l'azione **Solo le righe selezionate** per approvare solo le righe che sono state selezionate nella pagina **Foglio presenze**.
 4. Scegliere il pulsante **OK**.  
@@ -106,7 +106,7 @@ Un foglio presenze deve essere inviato per l'approvazione prima di poter essere 
 Una volta approvato o rifiutato, un foglio presenze non può essere modificato a meno che non venga prima riaperto. La procedura riportata di seguito spiega come riaprire un foglio presenze approvato o rifiutato.
 
 ## <a name="to-reopen-a-time-sheet"></a>Per riaprire un foglio presenze
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fogli presenze manager** o **Fogli presenze** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager** o **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Aprire un foglio presenze dall'elenco.  
 
     > [!NOTE]  
@@ -138,7 +138,7 @@ Per una commessa, è possibile specificare una persona responsabile della commes
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Per registrare le righe del foglio presenze nelle registrazioni risorse
 Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nelle registrazioni risorse corrispondenti.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registraz. risorse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni risorse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci righe da fogli presenze**.  
 3. Compilare i campi, se necessario.  
 4. Scegliere il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni risorse, dove sarà possibile modificare le informazioni in base alle esigenze.  
@@ -148,7 +148,7 @@ Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibi
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Per registrare le righe del foglio presenze nelle registrazioni commesse
 Dopo avere approvato i movimenti del foglio presenze per una commessa è possibile registrarli nelle registrazioni commesse corrispondenti.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registraz. risorse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci righe da fogli presenze**.  
 3. Compilare i campi, se necessario.  
 4. Scegliere il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni commesse, dove sarà possibile modificare le informazioni in base alle esigenze.  
@@ -164,9 +164,9 @@ Dopo avere registrato i fogli presenze, è possibile archiviarli per riferimento
 > [!NOTE]  
 >   Quando si archivia un foglio presenze, questo viene rimosso dalle liste sia della pagina **Fogli presenze** sia della pagina **Fogli presenze manager**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sposta fogli presenze in archivio** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Sposta fogli presenze in archivio**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
-3. Per esaminare i fogli presenze archiviati, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Archivi foglio presenze** o **Archivi foglio presenze manager** e quindi scegliere il collegamento correlato.
+3. Per rivedere i fogli presenze archiviati, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi foglio presenze** o **Archivi foglio presenze manager**, quindi scegli il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione progetti](projects-manage-projects.md)  

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59b6febc147687e88f11423b4ad317ab6ee5a408
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bca44382de10299ecbea73eda26ba858fbd2ef32
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775949"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437629"
 ---
 # <a name="publish-a-web-service"></a>Pubblicare un servizio Web
 
@@ -26,7 +26,7 @@ I seguenti passaggi illustrano come creare e pubblicare un servizio Web.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Per creare e pubblicare un servizio Web  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi Web** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi Web**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi Web** selezionare **Nuovo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  

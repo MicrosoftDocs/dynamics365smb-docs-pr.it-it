@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95078e406dd57635d13a350b1c17fcb5ca6a62b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ab7ff54e7456dc8836e6b4a22a52db1c4ed1cc77
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771451"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437545"
 ---
 # <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  
 
 ## <a name="to-define-debit-and-credit-amounts"></a>Per definire gli importi dare e avere  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  

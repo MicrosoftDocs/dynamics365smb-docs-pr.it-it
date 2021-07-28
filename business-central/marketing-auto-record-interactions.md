@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dba492551546c18cbda1b3bbb7dfd4b70c4052a6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785550"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437293"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrazione automatica delle interazioni con i contatti
 È possibile impostare l'applicazione per la registrazione automatica delle interazioni relative ai documenti di vendite, acquisti e assistenza, copertine, messaggi e-mail, telefonate, ad esempio:
@@ -29,7 +29,7 @@ ms.locfileid: "5785550"
 * Effettuare telefonate ai contatti, se si dispone di un apparecchio telefonico compatibile con TAPI e della corretta installazione.
 
 Per impostare la registrazione automatica delle interazioni, specificare i modelli interazione per questi documenti e azioni utilizzando la pagina **Setup modello interazione**.  
-Per aprire la pagina **Setup modello interazione**, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modello interazione** e quindi scegliere il collegamento correlato.
+Per aprire la pagina **Setup modello interazione**, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup modello interazione**, quindi scegli il collegamento correlato.
 
 ## <a name="see-also"></a>Vedere anche
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  

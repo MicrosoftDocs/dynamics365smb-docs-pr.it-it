@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Prelevare articoli con prelievi magazzino | Documenti Microsoft'
-description: Se un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare i documenti di prelievo da magazzino per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine.
+title: Come prelevare articoli con prelievi magazzino
+description: Se un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non la spedizione, utilizzare i documenti di prelievo da magazzino per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e8798f9581d3f0ae416a52bfdd53c7bb4893eab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771706"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438209"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 
@@ -36,7 +36,7 @@ Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei preli
 
 Per gli ordini di vendita, gli ordini di reso acquisto e gli ordini di trasferimento in uscita, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di vendita.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio**.
 
 Per gli ordini di produzione, creare automaticamente la richiesta warehouse per il prelievo di componenti, chiamata *consuntivazione*, quando lo stato dell'ordine di produzione viene modificato in **Rilasciato** oppure quando viene creato l'ordine di produzione rilasciato. Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).
@@ -47,7 +47,7 @@ Dopo aver creato la richiesta warehouse, un dipendente della warehouse addetto a
 
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo prelievo da magazzino basato sul documento di origine rilasciato.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi magazzino**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
     Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.
 3. Nel campo **Documento origine** selezionare il tipo di documento di origine per cui si esegue il prelievo.  
@@ -63,7 +63,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea stoccaggio/Prelievo mag.**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Richiesta warehouse**, utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
 3. Nella Scheda dettaglio **Opzioni**, selezionare la casella di controllo **Crea prelievo mag.**.
 4. Scegliere il pulsante **OK**. Verranno creati i prelievi magazzino specificati.
@@ -75,7 +75,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-record-the-inventory-picks"></a>Per registrare i prelievi magazzino
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievo magazzino**, quindi scegli il collegamento correlato.  
 2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa pagina, se necessario.  
 3. Eseguire il prelievo e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da gestire**.
 

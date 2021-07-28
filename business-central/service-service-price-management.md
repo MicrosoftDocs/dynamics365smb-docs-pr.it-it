@@ -1,6 +1,6 @@
 ---
-title: Gestione dei prezzi di assistenza | Documenti Microsoft
-description: In questo argomento viene descritto come applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.
+title: Gestione dei prezzi di assistenza
+description: La gestione dei prezzi di assistenza ti consente di impostare gruppi di prezzi di assistenza, prezzi di assistenza, rettifica dei prezzi di assistenza e altro ancora.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776768"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438284"
 ---
 # <a name="service-price-management"></a>Gestione dei prezzi di assistenza
 La funzionalità di gestione dei prezzi di assistenza consente di applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.  
@@ -52,7 +52,7 @@ I tipi effettivi di definizione dei prezzi di assistenza (prezzo e tipo di retti
 Ad esempio è possibile impostare tipi di definizione del prezzo di assistenza per un gruppo di prezzi di assistenza per una radio. Per i clienti senza un gruppo di prezzi è possibile decidere di determinare il prezzo dell'assistenza con il prezzo di manodopera più alto, che corrisponde al gruppo di rettifica del prezzo della manodopera. Per i clienti con un particolare gruppo di prezzi è possibile decidere di determinare il prezzo dell'assistenza con un prezzo fisso di manodopera, ovvero lo stesso gruppo di rettifica del prezzo della manodopera.  
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.  
 2. Selezionare l'articolo in assistenza, espandere la Scheda dettaglio **Prezzi e vendite**, scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
 3. Nelle pagine **Prezzi risorse commesse**, **Prezzi articoli commesse** o **Prezzi conti C/G commesse** compilare i campi come necessario.
 

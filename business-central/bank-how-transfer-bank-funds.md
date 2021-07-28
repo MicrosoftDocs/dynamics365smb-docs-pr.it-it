@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985389"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437153"
 ---
 # <a name="transfer-bank-funds"></a>Trasferimento di fondi bancari
 
@@ -23,7 +23,7 @@ Talvolta, può anche essere necessario effettuare un bonifico da un conto corren
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. In una riga di registrazioni compilare i campi **Data di registrazione** e **Nr. documento**.
 3. Nel campo **Tipo conto** selezionare **Conti C/C bancari**.
 4. Nel campo **Nr. conto** selezionare la banca da cui si desidera trasferire i fondi.
@@ -38,7 +38,7 @@ Talvolta, può anche essere necessario effettuare un bonifico da un conto corren
 
 Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse, è necessario inserire due righe di registrazioni COGE.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Creare due righe di registrazione e compilare i campi **Data di registrazione** e **Nr. documento**.
 3. Nella prima riga di registrazioni selezionare **C/C bancario** nel campo **Tipo conto**.
 4. Nel campo **Nr. conto** selezionare il conto bancario da cui si desidera trasferire i fondi.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436953"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
 In questo articolo vengono fornite informazioni per gli utenti della funzionalità Magazzino e costing di [!INCLUDE[prod_short](includes/prod_short.md)]. L'articolo fornisce informazioni su come il processo batch **Rettifica costo - Movimenti articoli** identifica e assegna una data di registrazione ai movimenti di valorizzazione che il processo batch crea.  
@@ -33,7 +33,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** assegna una data di r
 
  Esaminiamo questo processo con un esempio pratico. Supponiamo di avere un movimento contabile articolo di vendita. L'articolo è stato spedito il 5 settembre 2013 ed è stato fatturato il giorno dopo.  
 
-![Stato dei movimenti contabili articolo nello scenario](media/helene/TechArticleAdjustcost1.png "Stato dei movimenti contabili articolo nello scenario")  
+![Stato dei movimenti contabili articolo nello scenario.](media/helene/TechArticleAdjustcost1.png "Stato dei movimenti contabili articolo nello scenario")  
 
 Nell'illustrazione seguente, il primo movimento di valorizzazione (379) indica la spedizione e ha la stessa data di registrazione del movimento contabile articolo padre.  
 
@@ -41,7 +41,7 @@ Il secondo movimento di valorizzazione (381) rappresenta la fattura.
 
  Il terzo movimento di valorizzazione (391) è una rettifica del movimento di valorizzazione di fatturazione (381).  
 
- ![Stato dei movimenti valorizzazione nello scenario](media/helene/TechArticleAdjustcost2.png "Stato dei movimenti valorizzazione nello scenario")  
+ ![Stato dei movimenti valorizzazione nello scenario.](media/helene/TechArticleAdjustcost2.png "Stato dei movimenti valorizzazione nello scenario")  
 
  Passaggio 1: al movimento di valorizzazione della rettifica da creare è assegnata la stessa data di registrazione del movimento che viene rettificato, illustrato sopra dal movimento di valorizzazione 391.  
 
@@ -53,13 +53,13 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
  Periodi di magazzino:  
 
-![Periodi di magazzino nello scenario](media/helene/TechArticleAdjustcost3.png "Periodi di magazzino nello scenario")
+![Periodi di magazzino nello scenario.](media/helene/TechArticleAdjustcost3.png "Periodi di magazzino nello scenario")
 
  La prima data di registrazione consentita è il primo giorno del primo periodo aperto. 1 settembre 2013.  
 
  Setup contabilità generale:  
 
-![Configurazione C/G nello scenario](media/helene/TechArticleAdjustcost4.png "Configurazione C/G nello scenario")
+![Configurazione C/G nello scenario.](media/helene/TechArticleAdjustcost4.png "Configurazione C/G nello scenario")
 
  La prima data di registrazione consentita è la data indicata nel campo Consenti registraz. da: 10 settembre 2013.  
 
@@ -69,7 +69,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
  La data di registrazione assegnata iniziale era il 6 settembre come illustrato nel passaggio 1. Tuttavia, nel secondo passaggio il processo batch Rettifica costo - Movimenti articoli identifica che la data di registrazione consentita più vicina è il 10 settembre e pertanto assegna il 10 settembre al movimento di valorizzazione della rettifica, come illustrato di seguito.  
 
- ![Stato dei movimenti valorizzazione nello scenario 2](media/helene/TechArticleAdjustcost5.png "Stato dei movimenti valorizzazione nello scenario 2")
+ ![Stato dei movimenti valorizzazione nello scenario 2.](media/helene/TechArticleAdjustcost5.png "Stato dei movimenti valorizzazione nello scenario 2")
 
  Qui termina la descrizione del concetto per l'assegnazione di date di registrazione a movimenti di valorizzazione creati mediante il processo batch Rettifica costo - Movimenti articoli.  
 
@@ -82,15 +82,15 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
  Nella descrizione del concetto di assegnazione di date di registrazione vista nella sezione precedente, lo scopo del processo batch Rettifica costo – Movimenti articoli è creare un movimento di valorizzazione con il 10 settembre come data di registrazione.  
 
-![Messaggio di errore sulla data di registrazione](media/helene/TechArticleAdjustcost6.png "Messaggio di errore sulla data di registrazione")
+![Messaggio di errore sulla data di registrazione.](media/helene/TechArticleAdjustcost6.png "Messaggio di errore sulla data di registrazione")
 
  Continuiamo con il setup utente:  
 
-![Configurazione delle date di registrazione consentite dell'utente](media/helene/TechArticleAdjustcost7.png "Configurazione delle date di registrazione consentite dell'utente")
+![Configurazione delle date di registrazione consentite dell'utente.](media/helene/TechArticleAdjustcost7.png "Configurazione delle date di registrazione consentite dell'utente")
 
  L'utente in questo caso ha un intervallo di date di registrazione consentite dall'11 settembre al 30 settembre e pertanto non gli è consentito registrare il movimento di valorizzazione della rettifica con il 10 settembre come data di registrazione.  
 
-![Panoramica della configurazione della data di registrazione coinvolta](media/helene/TechArticleAdjustcost8.png "Panoramica della configurazione della data di registrazione coinvolta")
+![Panoramica della configurazione della data di registrazione coinvolta.](media/helene/TechArticleAdjustcost8.png "Panoramica della configurazione della data di registrazione coinvolta")
 
  L'articolo della Knowledge Base [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) esamina più scenari relativi al messaggio di errore citato.  
 
@@ -173,9 +173,9 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
  I seguenti movimenti contabili articoli e di valorizzazione sono stati registrati:  
 
-![Panoramica dei movimenti di valorizzazione e contabili articolo 1](media/helene/TechArticleAdjustcost9.png "Panoramica dei movimenti di valorizzazione e contabili articolo 1")
+![Panoramica dei movimenti di valorizzazione e contabili articolo 1.](media/helene/TechArticleAdjustcost9.png "Panoramica dei movimenti di valorizzazione e contabili articolo 1")
 
- ![Panoramica dei movimenti di valorizzazione e contabili articolo 2](media/helene/TechArticleAdjustcost10.png "Panoramica dei movimenti di valorizzazione e contabili articolo 2")
+ ![Panoramica dei movimenti di valorizzazione e contabili articolo 2.](media/helene/TechArticleAdjustcost10.png "Panoramica dei movimenti di valorizzazione e contabili articolo 2")
 
  Il processo batch Rettifica costo - Movimenti articoli ha riconosciuto una variazione nel costo e rettificato le rettifiche negative.  
 
@@ -290,7 +290,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
      Registrare carico e fattura.  
 
-     ![Panoramica dei movimenti di valorizzazione e contabili articolo 3](media/helene/TechArticleAdjustcost11.png "Panoramica dei movimenti di valorizzazione e contabili articolo 3")
+     ![Panoramica dei movimenti di valorizzazione e contabili articolo 3.](media/helene/TechArticleAdjustcost11.png "Panoramica dei movimenti di valorizzazione e contabili articolo 3")
 
 6.  In data 3 gennaio arriva una fattura di acquisto contenente un ulteriore addebito articolo per l'acquisto effettuato nel passaggio 2. La data documento di questa fattura è il 30 dicembre e pertanto viene registrata con la data 30 dicembre 2013.  
 
@@ -314,11 +314,11 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 
      Registrare carico e fattura.  
 
-   ![Panoramica dei movimenti di valorizzazione e contabili articolo 4](media/helene/TechArticleAdjustcost12.png "Panoramica dei movimenti di valorizzazione e contabili articolo 4")
+   ![Panoramica dei movimenti di valorizzazione e contabili articolo 4.](media/helene/TechArticleAdjustcost12.png "Panoramica dei movimenti di valorizzazione e contabili articolo 4")
 
  Il report Valutazione magazzino viene stampato in data 31 dicembre 2013  
 
-![Contenuto del report di valutazione magazzino](media/helene/TechArticleAdjustcost13.png "Contenuto del report di valutazione magazzino")
+![Contenuto del report di valutazione magazzino.](media/helene/TechArticleAdjustcost13.png "Contenuto del report di valutazione magazzino")
 
  **Riepilogo dello scenario:**  
 
@@ -341,7 +341,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** determina se la data 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Cronologia del processo batch Registra costo magazzino in C/G  
  Il processo batch Registra costo magazzino in C/G è strettamente associato al processo batch Rettifica Costo - Movimenti articoli ed è per questo motivo che la cronologia di questo processo batch è inclusa in questo argomento.  
  
-![Costo effettivo rispetto al costo previsto](media/helene/TechArticleAdjustcost14.png "Costo effettivo rispetto al costo previsto")
+![Costo effettivo rispetto al costo previsto.](media/helene/TechArticleAdjustcost14.png "Costo effettivo rispetto al costo previsto")
 
 ### <a name="about-the-posting-date"></a>Informazioni sulla data di registrazione
  Non è più necessario indicare una data di registrazione nel modulo di richiesta del processo batch Registra costo magazzino in C/G. Il movimento C/G viene creato con la stessa data di registrazione del movimento di valorizzazione correlato. Per completare il processo batch, l'intervallo di date di registrazione consentite deve permettere la data di registrazione del movimento C/G creato. In caso contrario, l'intervallo di date di registrazione consentite deve essere riaperto temporaneamente modificando o rimuovendo le date nei campi Consenti registraz. da e Consenti registrazioni fino a nel setup di contabilità generale. Per evitare problemi di riconciliazione la data di registrazione del movimento C/G deve corrispondere alla data di registrazione del movimento di valorizzazione.  

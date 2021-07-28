@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786639"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437053"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
@@ -61,7 +61,7 @@ I parametri di analisi vengono visualizzati sotto forma di colonne di un report 
 
 Un modello contiene un insieme di righe, che rappresentano le colonne di analisi visualizzate nel report di analisi. Per definire una colonna, è necessario assegnare un codice di tipo di analisi a una riga. Questo codice tipo analisi determina il tipo di dati di origine nei movimenti contabili articoli su cui sarà basata l'analisi. I dati di origine comprendono costo, importo vendita o quantità e i relativi movimenti di valorizzazione associati. È possibile impostare il numero di modelli di colonna desiderato, quindi utilizzarli per creare nuovi report di analisi.    
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli colonne vendite** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli colonne vendite**, quindi scegli il collegamento correlato.  
 2. Selezionare la prima riga vuota e compilare i campi necessari.
 3. Scegliere l'azione **Colonne**.  
 4. Nella pagina **Colonne Analisi** compilare i campi per specificare le colonne da includere nel report analisi.  
@@ -78,7 +78,7 @@ Gli oggetti vengono visualizzati nelle righe di un report di analisi. L'impostaz
 
 Un modello contiene un insieme di righe, che rappresentano le righe di analisi visualizzate nel report di analisi. In una riga è possibile specificare un articolo o un insieme di articoli, clienti, fornitori o gruppi. È inoltre possibile creare una formula in una riga per calcolare la somma delle altre righe. È possibile impostare il numero desiderato di modelli di righe e utilizzarli per creare nuovi report di analisi.    
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli righe vendite** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli righe vendite**, quindi scegli il collegamento correlato.  
 2. Selezionare la prima riga vuota e compilare i campi necessari.
 3. Scegliere l'azione **Righe**.  
 4. Nella pagina **Righe Analisi** creare le righe relative agli articoli, ai clienti, ai fornitori o agli agenti di cui si desidera visualizzare i valori nel report analisi. È necessario compilare i campi **Tipo**, **Range** e **Descrizione**.  
@@ -91,7 +91,7 @@ La seguente procedura è basata sui report di analisi per le vendite. I passaggi
 
 I report di analisi consentono di valutare in dettaglio la dinamica delle vendite in base a determinati indicatori chiave delle performance di vendita, quali ad esempio turnover di vendita sia in importi che in quantità, margine lordo di contribuzione o stato delle vendite effettive confrontato con il budget. Il report può inoltre essere utilizzato per analizzare i prezzi di vendita medi e per valutare le performance della forza di vendita.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report analisi vendite** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report analisi vendite**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Report analisi vendite** scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Modifica report analisi**.

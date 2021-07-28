@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Parametri di pianificazione | Microsoft Docs'
-description: In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in Business Central.
+title: Dettagli di progettazione - Parametri di pianificazione
+description: Questo argomento descrive i diversi parametri di pianificazione che puoi utilizzare e il modo in cui influiscono sul sistema di pianificazione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215855"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437889"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,25 +82,25 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 
-![Elementi dell'intervallo di tempo](media/supply_planning_5_time_bucket_elements.png "Elementi dell'intervallo di tempo")  
+![Elementi dell'intervallo di tempo.](media/supply_planning_5_time_bucket_elements.png "Elementi dell'intervallo di tempo")  
 
 Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su) e la domanda (giù) esistenti. Le frecce rosse, verdi e arancioni sono suggerimenti di pianificazione.  
 
 **Esempio 1**: la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione e periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
+![Periodo di riprogrammazione e periodo di accumulo lotti.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
 
 **Esempio 2**: la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
+![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
 
 **Esempio 3**: esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
 
-![Periodo di stabilizzazione e periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
+![Periodo di stabilizzazione e periodo di accumulo lotti.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
 
 **Esempio 4**: esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
 
-![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
+![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
 
 **Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
 

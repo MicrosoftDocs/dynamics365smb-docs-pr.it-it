@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087671"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437368"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central per organizzazioni multisito e internazionali
 Le organizzazioni con più siti utilizzano spesso un modello di business hub e spoke in cui una società madre, o sede centrale, gestisce tutte le operazioni dell'azienda mentre ogni sito funziona come una singola entità autonoma. I siti sono spesso distribuiti geograficamente e hanno esigenze diverse di condivisione delle informazioni con la sede centrale. Inoltre, i siti in genere non richiedono lo stesso livello di complessità e spesso mancano delle risorse per mantenere un sistema di grandi dimensioni.
@@ -30,7 +30,7 @@ Questo articolo introduce alcuni dei modi in cui [!INCLUDE[prod_short](includes/
 
 Il diagramma seguente è un esempio di diversi siti integrati con una sede aziendale centrale.
 
-![Descrizione diagramma generata automaticamente](media/multisite-headquarter-sites.png)
+![Descrizione diagramma generata automaticamente.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Soddisfare le esigenze dei siti nazionali e internazionali
 
@@ -101,7 +101,7 @@ I siti hanno spesso bisogno di accedere alla catena di approvvigionamento e dell
 
 La sede centrale deve essere in grado di reagire rapidamente ai cambiamenti aziendali in ogni sito. In combinazione con Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] può fungere da meccanismo di allarme anticipato.
 
-![Viene generato automaticamente uno screenshot della descrizione di un post sui social media](media/multisite-apps.png)
+![Viene generato automaticamente uno screenshot della descrizione di un post sui social media.](media/multisite-apps.png)
 
 | **Requisito di business** | **Come viene supportato da Business Central** | **Ulteriori informazioni** |
 |-------------------------|-------------------------|-------------------------|

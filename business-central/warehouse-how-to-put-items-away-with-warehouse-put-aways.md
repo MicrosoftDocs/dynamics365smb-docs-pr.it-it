@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Stoccare articoli con gli stoccaggi warehouse | Documenti Microsoft'
-description: Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.
+description: Scopri i diversi modi per stoccare gli articoli in Business Central con le seguenti attività Stoccaggi warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782511"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438084"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.  
@@ -27,7 +27,7 @@ A seconda del setup della warehouse, le righe vengono rese disponibili nel prosp
 Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argomento, è possibile creare uno stoccaggio a partire dal carico warehouse registrato correlato. Questo è utile se sono state eliminate le righe di stoccaggio oppure si utilizzano stoccaggi e prelievi guidati e si è stabilito di non utilizzare il prospetto stoccaggi, poiché è possibile creare o ricreare istruzioni di stoccaggio dalle righe di carico registrate.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli senza utilizzare stoccaggi e prelievi guidati  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi**, quindi scegli il collegamento correlato.  
 2.  Aprire lo stoccaggio warehouse pronto per la gestione.  
 
     È possibile ordinare le righe stoccaggio in base a diversi criteri, ad esempio per articolo, numero di scaffale o data di scadenza, e ottimizzare di conseguenza il processo di stoccaggio.  
@@ -35,7 +35,7 @@ Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argo
 4.  Dopo aver completato lo stoccaggio degli articoli, scegliere l'azione **Registra stoccaggio** per registrare il completamento dell'attività e rendere gli articoli disponibili per il prelievo.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli utilizzando stoccaggi e prelievi guidati  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi**, quindi scegli il collegamento correlato.
     Se sono state create istruzioni di stoccaggio, verrà visualizzato uno stoccaggio nella warehouse.  
 2.  Aprire lo stoccaggio warehouse che si desidera utilizzare.  
 3.  Quando si inizia a lavorare su un stoccaggio specifico, immettere il proprio ID utente nella Scheda dettaglio **Generale**, se richiesto.  
@@ -63,7 +63,7 @@ La valutazione della collocazione viene presa in considerazione quando più coll
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Per creare uno stoccaggio a partire dal carico registrato  
  Se l'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e sono state eliminate le righe di stoccaggio oppure si utilizzano stoccaggi e prelievi guidati e si è stabilito di non utilizzare il prospetto stoccaggi, è possibile creare o ricreare istruzioni di stoccaggio per le righe di carico registrate.
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi whse. registrati** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi whse. registrati**, quindi seleziona il collegamento correlato.  
 2.  Selezionare un carico registrato che deve essere stoccato.  
 3.  Scegliere l'azione **Scheda**.  
 

@@ -1,6 +1,6 @@
 ---
-title: Statistiche assistenza | Microsoft Docs
-description: Ottenere una rapida panoramica del contenuto di un documento di assistenza, ovvero ordini, offerte, fatture o note di credito, dei dettagli relativi alle righe di assistenza e degli articoli in assistenza.
+title: Statistiche assistenza
+description: Ottieni una rapida panoramica del contenuto e delle statistiche di un documento di assistenza, ovvero ordini, offerte, fatture o note di credito, righe di assistenza e altro ancora.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776743"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438259"
 ---
 # <a name="viewing-service-statistics"></a>Visualizzazione delle statistiche relative all'assistenza
 È possibile utilizzare statistiche che consentono di analizzare i documenti di assistenza e determinare la qualità di gestione dei processi di assistenza. È possibile analizzare contratti, offerte, fatture e note di credito di assistenza nonché articoli in assistenza scegliendo l'azione **Statistiche**. Per gli articoli in assistenza e i contratti di assistenza, è anche possibile utilizzare **Trendscape articolo di assist.** o **Trendscape contratto** per visualizzare un resoconto dei movimenti contabili di assistenza per un articolo in assistenza specifico.   
@@ -84,7 +84,7 @@ Viene generato un movimento di utili o perdite contratto quando un'offerta di co
 |**Guad.i/Perdite contr. (motivi)**|Per visualizzare i profitti/perdite del contratto in base alla causale.|  
 |**Guad./Perd. contr. (ce. resp.)**|Per visualizzare i profitti/perdite del contratto in base al centro di responsabilità.|  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della pagina di visualizzare e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti il nome della pagina da visualizzare, quindi scegli il collegamento correlato.  
 2. Compilare i criteri di filtro da applicare. Ad esempio, nella pagina **Guad.i/Perdite contr. (motivi)** scegliere un valore per **Filtro codice causa**.  
 3. Scegliere l'azione **Mostra matrice**.
 

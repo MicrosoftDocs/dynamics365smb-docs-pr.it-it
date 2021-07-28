@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Pianificare stoccaggi nei prospetti | Documenti Microsoft'
-description: Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.
+title: Come pianificare stoccaggi nei prospetti
+description: Impostare la warehouse in modo che le righe di carico siano disponibili nel prospetto di stoccaggio quando vuoi pianificare le istruzioni di stoccaggio per i carichi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771681"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438184"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
@@ -31,7 +31,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 > 2.  Ripetere il processo per tutti gli stoccaggi di interesse fino a completa eliminazione di tutte le righe che si desidera gestire nel prospetto. A questo punto, scegliere **Prospetti stoccaggio** e procedere alla pianificazione.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Per pianificare le istruzioni nel prospetto di stoccaggio  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto stoccaggi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto stoccaggi**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Prendi documenti warehouse**. Verrà visualizzata la pagina **Selezione stoccaggio**.  
 
     In questa finestra vengono visualizzati tutti i carichi registrati e gli stoccaggi interni registrati inoltrati alla funzione di stoccaggio, inclusi quelli per cui sono già state create istruzioni di stoccaggio. I documenti contenenti righe di stoccaggio per le quali lo stoccaggio è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  

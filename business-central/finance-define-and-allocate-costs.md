@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770865"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436200"
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
 Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie. Ogni allocazione è costituita da:  
@@ -38,7 +38,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati.  
 
 ### <a name="to-set-up-cost-allocations"></a>Per impostare le allocazioni costi  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazione costi**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Allocazione costi** scegliere l'azione **Modifica**.  
 3.  Immettere un ID dell'origine allocazione nel campo **ID**.  
 4.  Definire un livello come numero compreso tra 1 e 99 nel campo **Livello**. La registrazione di allocazione seguirà l'ordine dei livelli.  
@@ -82,7 +82,7 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Per definire il centro di costo PROD di origine di allocazione nella Scheda dettaglio Generale  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazione costi**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
 4.  Nel campo **Livello** immettere **1**.  
@@ -119,7 +119,7 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Per definire le allocazioni dinamiche in base agli articoli venduti nell'anno precedente  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazioni costi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazioni costi**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
 4.  Nel campo **Livello** immettere **1**.  

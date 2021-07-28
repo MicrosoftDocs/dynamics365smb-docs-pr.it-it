@@ -1,6 +1,6 @@
 ---
-title: Gestione della configurazione della società in un foglio di lavoro | Documenti Microsoft
-description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un prospetto per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.
+title: Come gestire la configurazione della società in un foglio di lavoro
+description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione della società.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779834"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437964"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  
@@ -28,7 +28,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
 
 ## <a name="to-open-the-configuration-worksheet"></a>Per aprire il foglio di lavoro configurazione.  
 1.  In [!INCLUDE[prod_short](includes/prod_short.md)] aprire la società che costituisce il modello di riferimento per la configurazione, quindi la Gestione ruolo utente Implementatore di RapidStart Services.  
-2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
+2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Per aggiungere una tabella al foglio di lavoro  
 1.  Nella pagina **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  

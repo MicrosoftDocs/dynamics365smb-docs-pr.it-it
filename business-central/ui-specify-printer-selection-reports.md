@@ -1,6 +1,6 @@
 ---
 title: Configurazione delle stampanti
-description: Informazioni sulla configurazione delle stampanti che è possibile utilizzare per report e documenti.
+description: Informazioni sulla configurazione delle stampanti che è possibile utilizzare per report e documenti e sulle diverse funzionalità di stampa disponibili in Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437218"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -25,8 +25,8 @@ Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_sh
 
 |Funzionalità|Descrizione|Client Web| App per dispositivi mobili|App per Teams|
 |-------|-----------|----------|-----------|--------------|
-|Stampa universale|Stampa universale è una soluzione di gestione della stampante disponibile come servizio cloud di Microsoft. Con questa funzione, puoi configurare le tue stampanti in Stampa universale, quindi registrarle per l'uso in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzione richiede un abbonamento a Stampa universale e l'estensione **Integrazione di Stampa universale**|![funziona online](media/check.png)|![funziona online](media/check.png)|![funziona online](media/check.png)|
-|Stampa con indirizzo e-mail|Questa funzione consente di configurare stampanti abilitate per la posta elettronica. [!INCLUDE[prod_short](includes/prod_short.md)] quindi invia i lavori di stampa a una stampante utilizzando l'indirizzo e-mail della stampante. Questa funzione richiede stampanti abilitate per la posta elettronica e l'estensione **Invia a stampante e-mail**.|![funziona online](media/check.png)|![funziona online](media/check.png)|![funziona online](media/check.png)|
+|Stampa universale|Stampa universale è una soluzione di gestione della stampante disponibile come servizio cloud di Microsoft. Con questa funzione, puoi configurare le tue stampanti in Stampa universale, quindi registrarle per l'uso in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzione richiede un abbonamento a Stampa universale e l'estensione **Integrazione di Stampa universale**|![disponibile online.](media/check.png)|![disponibile online.](media/check.png)|![funziona online](media/check.png)|
+|Stampa con indirizzo e-mail|Questa funzione consente di configurare stampanti abilitate per la posta elettronica. [!INCLUDE[prod_short](includes/prod_short.md)] quindi invia i lavori di stampa a una stampante utilizzando l'indirizzo e-mail della stampante. Questa funzione richiede stampanti abilitate per la posta elettronica e l'estensione **Invia a stampante e-mail**.|![disponibile online.](media/check.png)|![funziona online](media/check.png)|![funziona online](media/check.png)|
 |Stampa tramite browser|I lavori di stampa sono gestiti dalla funzionalità di stampa del browser dell'utente. Se una stampante cloud non è installata e configurata, o se una stampante installata non funziona, la stampa imposterà automaticamente le opzioni di stampa per il browser. Il campo **Stampante** verrà visualizzato nella pagina di richiesta del report *(Gestita dal browser)*.|![funziona online](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_sh
 
 Stampa universale è un servizio basato su abbonamento a Microsoft 365 che funziona interamente su Microsoft Azure. Offre una gestione centralizzata della stampante tramite il portale Stampa universale. [!INCLUDE[prod_short](includes/prod_short.md)] rende disponibili agli utenti client le stampanti configurate in Stampa universale tramite l'estensione **Integrazione di stampa universale**.
 
-![Configurazione della stampa universale](media/Universal-Print-arch.png)
+![Configurazione della stampa universale.](media/Universal-Print-arch.png)
 
 La configurazione completa richiede che tu lavori in Microsoft Azure, usando il [portale di Azure](https://portal.azure.com) e in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -146,7 +146,7 @@ L'aggiunta di stampanti singole consente di configurare la stessa stampante Stam
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Gestione stampante**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione stampante**, quindi scegli il collegamento correlato.
 2. Seleziona **Stampa universale**, quindi una delle seguenti opzioni:
 
     - **Aggiungi tutte le stampanti di Stampa universale** per aggiungere tutte le stampanti che non sono già state aggiunte. Puoi utilizzare questa opzione anche se sono già state aggiunte stampanti. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 La pagina **Gestione stampante** mostra le stampanti attualmente configurate. La pagina ti dà anche accesso alla pagina **Impostazioni** per ciascuna stampante per modificare una configurazione esistente o configurare una nuova stampante.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Gestione stampante**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione stampante**, quindi scegli il collegamento correlato.
 2. Seleziona **Stampa e-mail**, quindi scegli **Aggiungi una stampante e-mail**.
 3. Compila i campi nella pagina **Impostazioni stampante e-mail** in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Esistono due modi per configurare le stampanti che verranno utilizzate per impos
 
 La pagina **Gestione stampante** consente di impostare una stampante come stampante predefinita per tutti i lavori di stampa. Puoi specificare la stampante come predefinita solo per te o per tutti gli utenti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Gestione stampante**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione stampante**, quindi scegli il collegamento correlato.
 
     > [!TIP]
     > Puoi anche aprire la pagina **Gestione stampante** dalla pagina **Selezioni della stampante** scegliendo **Gestione stampante**.  
@@ -246,7 +246,7 @@ La pagina **Selezioni della stampante** ti consente di specificare la stampante 
 > [!IMPORTANT]
 > Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, la pagina **Selezioni della stampante** può essere utilizzata solo per le stampanti cloud definite dalle estensioni della stampante, come le stampanti Stampa e-mail e Stampa universale. Non può essere utilizzata per le stampanti locali.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Selezioni stampante**, quindi seleziona il collegamento correlato. In alternativa, dalla pagina **Gestione stampante**, seleziona una stampante, quindi scegli l'azione **Selezioni stampante**.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezioni della stampante**, quindi scegli il collegamento correlato. In alternativa, dalla pagina **Gestione stampante**, seleziona una stampante, quindi scegli l'azione **Selezioni stampante**.
 2. Scegli l'azione **Nuovo** per aggiungere una selezione di stampanti per un report specifico.
 3. Compilare i campi in base alle esigenze.
 

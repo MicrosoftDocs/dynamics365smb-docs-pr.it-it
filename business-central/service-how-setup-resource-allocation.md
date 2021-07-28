@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6799f3c92bb41404b4510b03a26601419e2dbb4c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 048372c75affe83f50d8fd84359d481fb64835fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772381"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436628"
 ---
 # <a name="set-up-resource-allocation"></a>Impostare l'assegnazione delle risorse
 Per assicurarsi che un compito di assistenza sia eseguito correttamente, è importante trovare una risorsa qualificata per il lavoro. È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] di modo che sia semplice assegnare una risorsa che disponga delle competenze necessarie per il compito. In [!INCLUDE[prod_short](includes/prod_short.md)] questa funzionalità è detta _assegnazione delle risorse_. È possibile assegnare le risorse in base alla loro competenza, disponibilità o se si trovano nella stessa zona di assistenza del cliente. 
@@ -27,29 +27,29 @@ Per utilizzare l'assegnazione delle risorse, è necessario impostare:
 * Scegliere se visualizzare le zone e le competenze delle risorse e se visualizzare un avviso quando qualcuno sceglie una risorsa non qualificata o che non si trova nella zona cliente.  
 
 ## <a name="to-set-up-skills"></a>Per impostare le competenze
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Competenze** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Competenze**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Per assegnare le competenze agli articoli in assistenza e alle risorse
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** o **Risorse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza** o **Risorse**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda relativa all'articolo in assistenza o alla risorsa, quindi scegliere una delle seguenti opzioni:  
   
     * Per gli articoli in assistenza, scegliere **Competenze risorse**.  
     * Per le risorse, scegliere **Competenze**.  
 
 ## <a name="to-set-up-zones"></a>Per impostare le zone
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Zone** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Zone**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Per assegnare le zone ai clienti e alle risorse 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** o **Risorse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti** o **Risorse**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda relativa all'articolo in assistenza o alla risorsa, quindi scegliere una delle seguenti opzioni:  
   
     * Per i clienti, scegliere una zona nel campo **Codice zona di assistenza**.  
     * Per le risorse, scegliere l'azione **Zone assistenza**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Per specificare il contenuto da visualizzare quando si sceglie una risorsa
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup gestione assistenza** e quindi scegliere il collegamento correlato. 
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup gestione assistenza**, quindi scegli il collegamento correlato. 
 2. Nel campo **Opzione competenze risorse** scegliere una delle opzioni descritte nella seguente tabella.  
   
     |**Opzione**|**Description**|  
@@ -61,14 +61,14 @@ Per utilizzare l'assegnazione delle risorse, è necessario impostare:
 ## <a name="to-update-resource-capacity"></a>Per aggiornare la capacità della risorsa  
 Potrebbe essere necessario modificare la capacità delle risorse.  
   
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Capacità** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Capacità risorsa**, quindi scegli il collegamento correlato.  
 2. Scegliere la risorsa, quindi scegliere l'azione **Imposta capacità**.  
 3. Apportare le modifiche, quindi scegliere **Aggiorna capacità**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Per aggiornare le competenze per gli articoli, gli articoli in assistenza o i gruppi di articoli in assistenza
 Se si desidera modificare i codici competenza assegnati agli articoli, ad esempio da **PC** a **PCS**, è possibile effettuare questa operazione per un articolo, un articolo in assistenza o per tutti gli articoli in un gruppo di articoli in assistenza.  
   
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli**, **Articoli in assistenza** o **Gruppi articoli in assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, **Articoli in assistenza** o **Gruppo articoli in assistenza**, quindi scegli il collegamento correlato.  
 2. Scegliere l'entità da aggiornare, quindi scegliere l'azione **Competenze risorse**.  
 3. Sulla riga contenente il codice da modificare, nel campo **Codice competenza**, scegliere il codice competenza appropriato.  
 4.  Se all'articolo sono associati articoli in assistenza, verrà visualizzata una finestra di dialogo con le due opzioni seguenti:  

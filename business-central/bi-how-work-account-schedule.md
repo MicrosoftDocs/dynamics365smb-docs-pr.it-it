@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786589"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437028"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 
@@ -54,7 +54,7 @@ Le situazioni contabili nella versione standard di [!INCLUDE[prod_short](include
 
 Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprima del report finanziario definito dalla situazione contabile. Nella procedura seguente, è importante comprendere che le righe e le colonne della situazione contabile configurate possono essere visualizzate e convalidate solo nella pagina **Sintesi situaz. contabile**, a cui si accede da una situazione contabile scegliendo l'azione **Sintesi**. La pagina **Situazione contabile** è soltanto un'area di configurazione.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Situazioni contabili** scegliere l'azione **Nuovo** per creare una nuova situazione contabile.
 3. In alternativa, scegliere l'azione **Copia situazione contabile**, compilare i due campi, quindi scegliere **OK**.
 4. Compilare i campi come necessario. Nel campo **Default layout colonna**, selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
@@ -88,7 +88,7 @@ I layout di colonna sono utilizzati per definire le colonne da includere nel rep
 
 A volte, potrebbe essere necessario includere in una situazione contabile una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, è possibile inserire una colonna per indicare la percentuale delle vendite totale rappresentata da ogni riga.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Selezionare l'azione **Modifica situazione contabile** per impostare una riga della situazione contabile per calcolare il totale su cui saranno basate le percentuali.  
 4. Inserire una riga immediatamente sopra la prima riga per la quale si desidera visualizzare una percentuale.  
@@ -101,7 +101,7 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 
 È possibile utilizzare una situazione contabile per creare un rendiconto in cui vengono confrontate le cifre C/G con le cifre del budget C/G.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Scegliere l'azione **Modifica situazione contabile**  
 4. Nella pagina **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome**.

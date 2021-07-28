@@ -1,6 +1,6 @@
 ---
-title: Come esportare i report di transazioni IVA
-description: Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità.
+title: Come esportare i report di transazioni IVA [IT]
+description: Il seguente argomento spiega come esportare i report di transazioni IVA. Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 98267d543a0bf6dd205bf85c22000b6f1e4816b0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b4ca2ad74f1cb1596663af2f14838274d0fa912c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437543"
 ---
-# <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
+# <a name="export-vat-transactions-reports-in-the-italian-version"></a>Esportare i report di transazioni IVA nella versione italiana
 Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
 
 È possibile modificare le righe e i campi solo quando lo stato del documento è Aperto. Quando lo stato è Rilasciato, solo il numero di carico è modificabile. Quando lo stato è Inviato, tutti i campi sono bloccati.  
 
 ## <a name="to-export-and-submit-a-vat-transaction-report"></a>Per esportare e inviare un report di transazioni IVA  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  selezionare un report esistente o crearne uno nuovo.  
 
     - Selezionare il report IVA pertinente dall'elenco, quindi scegliere l'azione **Modifica**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778574"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436703"
 ---
 # <a name="set-up-shipment-methods"></a>Impostare i metodi di spedizione
 
@@ -25,7 +25,7 @@ Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ci
 
 ## <a name="to-set-up-a-shipment-method"></a>Per impostare un metodo di spedizione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Metodi di spedizione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di spedizione**, quindi scegli il collegamento correlato.
 2. Nella pagina **Metodi di spedizione** scegliere l'azione **Nuovo**.
 3. Nella nuova riga specificare un codice e una descrizione per il metodo di spedizione.
 

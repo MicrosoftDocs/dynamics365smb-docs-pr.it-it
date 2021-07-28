@@ -1,6 +1,6 @@
 ---
-title: Modifica dei documenti di vendita e acquisto registrati | Microsoft Docs
-description: Informazioni sulle diverse funzioni di registrazione per registrare documenti di acquisto e sul modo in cui aggiornare documenti registrati.
+title: Modificare i documenti di vendita e acquisto registrati
+description: Questo argomento spiega come aggiornare le informazioni su un documento registrato come una spedizione di vendita o una fattura di acquisto quando le informazioni rilevanti sono cambiate.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776199"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437804"
 ---
 # <a name="edit-posted-documents"></a>Modifica dei documenti registrati
 
@@ -41,7 +42,7 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.
 2. Selezionare il documento che si desidera modificare, quindi scegliere l'azione **Aggiorna documento**. In alternativa, aprire il documento e scegliere l'azione.
 3. Nella pagina **Spedizioni vendita registrate - Aggiornamento** modificare il campo **Nr. identificazione collo**, ad esempio.
 4. Scegliere il pulsante **OK**.

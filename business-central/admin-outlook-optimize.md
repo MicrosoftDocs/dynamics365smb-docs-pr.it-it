@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064858"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437493"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Ottimizzazione di Outlook per la Posta in arrivo aziendale 
 
@@ -50,7 +50,7 @@ Per verificare se Microsoft Edge WebView2 è installato su un computer, effettua
 
 Dal menu Start:
 
-1. Selezionare **Start** ![Start di Windows](media/windows-start-icon.png "Icona Start di Windows") > **Impostazioni** ![Impostazioni di Windows](media/windows-settings-icon.png "Icona Impostazioni di Windows") > **App e funzionalità**.
+1. Scegli **Start**![Menu Start di Windows.](media/windows-start-icon.png "Icona Start di Windows") > **Impostazioni** ![Impostazioni di Windows](media/windows-settings-icon.png "Icona Impostazioni di Windows") > **App e funzionalità**.
 2. Nella casella di ricerca, digitare **WebView2**. Se Microsoft Edge WebView2 è installato, vedrai una voce chiamata **Microsoft Edge Runtime WebView2**.
 
 Dal pannello di controllo:

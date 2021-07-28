@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115463"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436828"
 ---
 # <a name="print-the-picking-list"></a>Stampare la lista prelievo
 
@@ -27,7 +27,7 @@ Questo report viene in genere utilizzato in società senza funzionalità dedicat
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti di vendita che possono essere utilizzati per avviare la spedizione degli articoli, come l'ordine di trasferimento.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di vendita per cui si desidera prelevare gli articoli.  
 3. Scegliere l'azione **Report**, quindi scegliere l'azione **Lista prelievo per ordine**.  
 4. Scegliere il pulsante **Stampa** per stampare la lista prelievo oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.

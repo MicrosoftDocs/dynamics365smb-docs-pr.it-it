@@ -1,6 +1,6 @@
 ---
-title: Consolidare i dati di molteplici società | Microsoft Docs
-description: Ottenere una visualizzazione di riepilogo dello stato finanziario delle proprie business unit.
+title: Consolidare i dati di molteplici società
+description: In questo argomento viene spiegato come consolidare i movimenti di contabilità generale di due o più società separate (filiali) in una società consolidata.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774331"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436250"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 
@@ -55,7 +55,7 @@ Il processo di trasferimento dei dati dalle business unit alla società consolid
 È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[prod_short](includes/prod_short.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.  
 
 1. Aprire la società consolidata.  
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
 3. Effettuare una delle seguenti operazioni:  
 
     * Per verificare un file, scegliere l'azione **Test file**, immettere il nome del file da verificare, quindi scegliere **Stampa**.  

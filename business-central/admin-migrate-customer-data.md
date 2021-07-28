@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781168"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437468"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 
@@ -41,8 +41,8 @@ Prima di iniziare, è necessario assicurarsi di disporre dell'autorizzazione per
 >
 > Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
-1. Apre la nuova società.  
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
+1. Apri la nuova società.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
 3. Scegliere l'azione **Importa pacchetto**. Passare al file del pacchetto .rapidstart che si desidera importare, quindi scegliere l'azione **Apri**. Durante l'importazione, il contenuto del pacchetto viene decompresso e viene creato il record relativo.  
 
     Al termine dell'importazione, è possibile visualizzare il numero di tabelle di configurazione che sono state importate nel campo **Nr. tabelle**.  
@@ -63,7 +63,7 @@ Se la selezione delle tabelle non è adeguata, è possibile creare una o più nu
 > [!TIP]
 > È possibile utilizzare un file solo per migrare un campo con la relativa proprietà **FieldClass** impostata su **Normale**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetto di configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetto configurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare e aprire il pacchetto da utilizzare per la migrazione dei dati, quindi scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina **Ottieni tabelle pacchetto**.  
 3. Nel campo **TableID** immettere un numero di tabella oppure selezionare una tabella dall'elenco, ad esempio, la tabella 18, **Cliente**. Il campo **Nome tabella** viene compilato automaticamente.  
 4. Selezionare la nuova tabella di migrazione, quindi nella scheda **Tabelle**, scegliere l'azione **Campi**. Verrà aperta la pagina **Migration Fields**.  
@@ -79,7 +79,7 @@ Una nuova tabella di migrazione viene creata.
 ## <a name="to-export-data-migration-files"></a>Per esportare i file di migrazione dati
 Dopo avere determinato le tabelle in cui si desidera trasferire i dati relativi ai clienti, esportare i file.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare e aprire il pacchetto che si desidera utilizzare per l'esportazione.
 3. Selezionare la tabella o le tabelle da esportare, quindi scegliere l'azione **Esporta in Excel**.
 4. Salvare il file Excel esportato.  
@@ -100,7 +100,7 @@ Quando si collegano dati importati da Excel o da un pacchetto di RapidStart, [!I
 
 Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.
 2. Aprire il pacchetto per la società in questione.  
 3. Selezionare la tabella per cui si desidera mappare i valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 4. Per ogni campo da mappare, scegliere l'azione **Mappatura**.  
@@ -118,7 +118,7 @@ Il seguente esempio illustra come [!INCLUDE[prod_short](includes/prod_short.md)]
 3. Quando si collegano dati, anche la mappatura fornita per il campo **Codice** nella tabella **Agenti/Addetti acq.** verrà considerata anche durante l'elaborazione dei campi **Codice agente** e **Codice addetto acquisti**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Per aggiungere altri valori in [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la tabella per cui si desidera aggiungere ulteriori valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 3. Per i campi per i quali si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
 4. Importare i dati dei clienti. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data).

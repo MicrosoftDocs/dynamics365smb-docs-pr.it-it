@@ -1,6 +1,6 @@
 ---
-title: Impostare contratti di assistenza | Documenti Microsoft
-description: Informazioni su come impostare i contratti di assistenza.
+title: Impostare i contratti di assistenza
+description: Scopri come impostare contratti di assistenza con i prerequisiti richiesti, inclusi gruppi di contratti di assistenza, modelli di contratto e modelli di clienti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 216bbd775c66fca619d792ff578d198405fc7612
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781533"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436578"
 ---
 # <a name="set-up-service-contracts"></a>Impostare i contratti di assistenza
 Prima di poter utilizzare i contratti, è necessario impostare quanto segue: 
@@ -26,19 +26,19 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 * **Modelli clienti**: consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Per impostare un gruppo di contratti di assistenza  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi contratti assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi contratto assistenza**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Scegliere la casella di controllo **Sc. solo su ordini contr.** se si desidera che gli sconti contratto o assistenza siano validi solo per gli ordini di assistenza contratto, ad esempio la manutenzione.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Per impostare un gruppo conto dei contratti di assistenza  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi conto contratto assist.** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi conto contratto assist.**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo gruppo di conto dei contratti dei assistenza.   
 3. Compilare i campi **Codice** e **Descrizione**. Questi campi forniscono una descrizione del gruppo conto contratti di assistenza.  
 4. Compilare il campo **Conto contratto non prepagato**, quindi scegliere il numero di conto di contabilità generale per il conto non prepagato.  
 5. Nel campo **Conto contratto prepagato** scegliere il numero di conto di contabilità generale per il conto prepagato.  
 
 ## <a name="to-set-up-a-contract-template"></a>Per impostare un modello di contratto  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli contratti assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli contratto assistenza**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo modello di contratto di assistenza.  
 3. Nel campo **Nr.** immettere un numero per il modello di contratto.  
   
@@ -48,7 +48,7 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 5. Scegliere l'azione **Sconti assistenza** per aggiungere sconti contrattuali.  
 
 ## <a name="to-set-up-a-customer-template"></a>Per impostare un modello di cliente  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli cliente** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli cliente**, quindi scegli il collegamento correlato.  
 2. Creare una nuova scheda modello cliente.  
 3. Nella Scheda dettaglio **Generale** immettere un codice e una descrizione per il modello cliente rispettivamente nei campi **Codice** e **Descrizione**. 
 4. Per definire i criteri di ricerca, compilare gli altri campi, ad esempio **Cod. paese**, **Cod. regione** e **Cod. lingua**.  

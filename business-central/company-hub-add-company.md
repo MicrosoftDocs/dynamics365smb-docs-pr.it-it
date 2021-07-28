@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786539"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436978"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Aggiungere società all'hub aziendale
 
@@ -29,7 +29,7 @@ Un collegamento ambiente è una scheda in cui è possibile specificare l'ambient
 
 Il collegamento viene utilizzato quando si sceglie la società nell'hub della società.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Azioni per una società elencata nell'hub aziendale":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Azioni per una società elencata nell'hub aziendale.":::
 
 > [!TIP]
 > Se si sta lavorando nella versione di prova gratuita di [!INCLUDE [prod_short](includes/prod_short.md)], è facile aggiungere le società nel tenant. È possibile trovare il collegamento ambiente copiando l'ID Azure Active Directory dalla sezione **Risoluzione dei problemi** della pagina Guida e supporto. Il nome dell'ambiente è probabilmente il valore predefinito, PRODUZIONE. Aggiungere queste informazioni al campo **Collegamento ambiente**, ad esempio ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` e quindi scegliere **Test della connessione**. La società di valutazione verrà aggiunta all'elenco.

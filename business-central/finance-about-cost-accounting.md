@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulla contabilità industriale | Microsoft Docs
-description: La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività.
+title: Informazioni sulla contabilità industriale
+description: La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività. Le informazioni sulla contabilità generale sono concepite per analizzare diversi problemi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784917"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436275"
 ---
 # <a name="about-cost-accounting"></a>Informazioni sulla contabilità industriale
 La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività. Le informazioni sulla contabilità generale sono concepite per analizzare:  
@@ -37,7 +37,7 @@ La contabilità industriale presenta i seguenti componenti principali:
 
 Nel diagramma seguente viene mostrato il flusso di lavoro nella contabilità industriale.  
 
-![Sintesi della contabilità industriale](media/costaccountingoverview.png "CostAccountingOverview")  
+![Sintesi della contabilità industriale.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipi di costo, centri di costo e oggetti di costo  
 Vengono definiti i tipi di costo, i centri di costo e gli oggetti di costo per analizzare quali sono i costi, da dove essi derivano e chi deve sostenerli.  
