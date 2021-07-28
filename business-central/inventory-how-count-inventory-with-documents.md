@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785950"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435674"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Conteggio e regolazione del magazzino utilizzando documenti
 
@@ -40,7 +40,7 @@ Un ordine di inventario fisico è un documento è completo che consiste di un'in
 
 Per creare le righe dell'ordine di inventario fisico, in genere si utilizza la funzione **Calcola righe** per riflettere la giacenza corrente come righe nell'ordine. In alternativa, è possibile utilizzare la funzione **Copia da documento** per compilare le righe con il contenuto di un altro ordine di inventario fisico aperto o registrato. La procedura seguente descrive solo come utilizzare la funzione **Calcola righe**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini inventario fisico** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi necessari della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Calcola righe**.
@@ -100,7 +100,7 @@ Per visualizzare le quantità previste e le eventuali differenze registrate per 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Per trovare righe di ordine di inventario fisico duplicate
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini inventario fisico** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di inventario fisico per il quale si desidera visualizzare le righe duplicate.
 3. Scegliere l'azione **Visualizza righe duplicate**.
 
@@ -113,7 +113,7 @@ Dopo il completamento di un ordine di inventario fisico e la modifica del relati
 - Ogni riga di ordine di inventario fisico è stata conteggiata da almeno una riga di registrazione inventario.
 - Le caselle di controllo **In righe registrazione** e **Quantità prevista calcolata** sono state selezionate per tutte le righe di ordine di inventario fisico.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini inventario fisico** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Selezionare l'ordine di inventario fisico che si intende completare, quindi scegliere l'azione **Modifica**.
 
     Nella pagina **Ordine inventario fisico**, si visualizza la quantità registrata nel campo **Quantità registrata (base)**.
@@ -127,7 +127,7 @@ I movimenti contabili articoli interessati vengono aggiornati insieme ai movimen
 ### <a name="to-view-posted-physical-inventory-orders"></a>Per visualizzare ordini di inventario fisico registrati
 Dopo la registrazione, l'ordine di inventario fisico verrà eliminato ed è possibile visualizzare e valutare il documento come ordine di inventario fisico registrato incluse le relative registrazioni di inventario fisico e gli eventuali commenti.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini magazzino fisico registrati** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini magazzino fisico registrati**, quindi scegli il collegamento correlato.
 2. Nella pagina **Ordini magazzino fisico registrati**, selezionare l'ordine di inventario registrato che si desidera visualizzare, quindi scegliere l'azione **Visualizza**.
 3. Per visualizzare un elenco di registrazioni di inventario fisico correlate, scegliere l'azione **Registrazioni**.
 
@@ -199,7 +199,7 @@ Puoi stampare questi documenti in qualsiasi fase, rilasciarli e riaprirli e asse
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Per impostare la numerazione per i documenti di magazzino
 La seguente procedura illustra come impostare una numerazione per i documenti del magazzino.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Setup magazzino** e quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Numerazione**, specifica nei seguenti campi la serie di numeri per i documenti:
    - **N. ricevuta magazzino**  
    - **N. ricevute magazzino registrate**  
@@ -209,7 +209,7 @@ La seguente procedura illustra come impostare una numerazione per i documenti de
 ### <a name="to-create-and-post-an-inventory-document"></a>Per creare e registrare un documento di magazzino
 La procedura seguente mostra come creare, stampare e registrare una ricevuta di magazzino. I passaggi sono simili a quelli per le spedizioni del magazzino.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ricevute magazzino** e quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi magazzino**, quindi scegli il collegamento correlato.  
 2. Nell'intestazione della pagina **Ricevuta di magazzino**, scegli la posizione nel campo **Codice posizione**, quindi compila i campi rimanenti secondo necessità.
 3. Nella Scheda dettaglio **Linee**, nel campo **Articolo**, scegli l'articolo di magazzino. Nel campo **Quantità** immettere il numero di articoli da aggiungere. 
 4. Per stampare un report **Ricevuta magazzino** dalla pagina **Ricevuta di magazzino**, scegli l'azione **Stampa**.

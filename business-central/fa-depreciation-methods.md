@@ -1,6 +1,6 @@
 ---
 title: Metodi ammortamento per cespiti
-description: Informazioni sui diversi metodi integrati per l'ammortamento o la svalutazione dei cespiti nella versione di default di Business Central.
+description: Informazioni sui diversi metodi integrati per l'ammortamento o la svalutazione dei cespiti nella versione predefinita di Business Central che include otto metodi.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343376"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Metodi ammortamento per cespiti
 
@@ -29,7 +29,7 @@ Sono disponibili otto metodi di ammortamento nella versione di default di [!INCL
 * personalizzato  
 
   > [!NOTE]  
-  > Specificare il proprio metodo di ammortamento definendo le tabelle di ammortamento.
+  > Specificare il proprio metodo di ammortamento definendo le tabelle di ammortamento. Per informazioni sull'applicazione di un metodo di ammortamento definito dall'utente, vedi [Impostare il metodo di ammortamento definito dall'utente](fa-how-setup-user-defined-depreciation-method.md).
 * Manuale  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Metodo di calcolo:
     *importo di ammortamento a quote costanti = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
     L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisce l'importo maggiore.  
-
-## <a name="user-defined-depreciation"></a>Ammortamento definito dall'utente
-
-L'applicazione dispone di una funzionalità che consente di impostare metodi di ammortamento personalizzati.  
-
-Se si utilizza un metodo personalizzato, occorre inserire nella pagina **Tabelle Ammortamento** una percentuale di ammortamento per ogni periodo (mese, trimestre, anno o periodo contabile). Quando si assegna un registro beni ammortizzabili con un metodo definito dall'utente a un cespite, è necessario impostare i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** sulla pagina **Registro beni amm. cespiti** per i cespiti specifici.  
-
-La formula per il calcolo dell'importo di ammortamento è la seguente:  
-
-*Importo di ammortamento = (% ammortamento x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Ammortamento in base al numero di unità
-
-Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortamento in base al numero di unità, ad esempio nel caso di produzione di macchinari con una determinata durata totale di funzionamento. Nella pagina **Tabelle Ammortamento** è possibile immettere il numero di unità che possono essere prodotte in ogni periodo (mese, trimestre, anno o periodo contabile).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Per impostare i metodi di ammortamento personalizzati
-
-La pagina **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
-
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tabelle ammortamento** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
-3. Nella pagina **Scheda tabella ammortamento** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Utilizzare la funzione **Crea tabella somma cifre** per definire una tabella di ammortamento basata sul metodo *Somma di cifre*.
-
-Con il metodo *Somma di cifre*, se i cespiti vengono ammortizzati in 4 anni, l'ammortamento per ogni anno viene calcolato nel modo seguente:
-
-Somma di cifre = 1 + 2 + 3 + 4 = 10 Ammortamento:
-
-* Anno 1 = 4/10  
-* Anno 2 = 3/10  
-* Anno 3 = 2/10  
-* Anno 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Esempio - ammortamento definito dall'utente
-
-Ai fini del calcolo dell'imposta sul reddito, l'utilizzo di un determinato metodo di ammortamento consente di ammortizzare i cespiti più velocemente.  
-
-A fini fiscali, per un cespite della durata utile di tre anni si utilizzerebbero i seguenti tassi di ammortamento:  
-
-* Anno 1: 25%  
-* Anno 2: 38%  
-* Anno 3: 37%  
-
-Il costo di acquisto è VL 100.000 e la durata dell'ammortamento è di 5 anni. L'ammortamento viene calcolato annualmente.  
-
-| Date | Tipo reg. cespite | Giorni | Importo | Valore contabile |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Costo di acquisto |Data inizio ammortamento |100,000.00 |100,000.00 |
-| 31/12/20 |Deprezzamento |360 |-25.000,00 |75,000.00 |
-| 31/12/21 |Deprezzamento |360 |-38.000,00 |37,000.00 |
-| 31/12/22 |Deprezzamento |360 |-37.000,00 |0 |
-| 31/12/23 |Deprezzamento |Nessuno |Nessuno |0 |
-| 31/12/24 |Deprezzamento |Nessuno |Nessuno |0 |
-
-Se si utilizza un metodo personalizzato, occorre compilare i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** nella pagina **Registro beni amm. cespiti** per i cespiti specifici. Il campo **Data iniz. amm. personalizzato** e il contenuto del campo **Durata periodo** nella pagina **Tabelle ammortamento** consentono di determinare gli intervalli di tempo da utilizzare per i calcoli di ammortamento. In questo modo, viene garantito che la percentuale indicata sarà utilizzata per la prima volta lo stesso giorno per tutti i cespiti. Il campo **Data inizio ammortamento** consente di calcolare il numero di giorni di ammortamento.  
-
-Nell'esempio precedente, entrambi i campi **Data iniz. amm. personalizzato** e **Data inizio ammortamento** sarebbero impostati su 01/01/20 nella pagina **Registro beni amm. cespiti** per i cespiti specifici. Se invece nel campo **Data iniz. amm. personalizzato** fosse indicata la data 01/01/20 e nel campo **Data inizio ammortamento** la data riportata fosse 01/04/20, il risultato sarebbe:  
-
-| Date | Tipo reg. cespite | Giorni | Importo | Valore contabile |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Costo di acquisto |Data inizio ammortamento |100,000.00 |100,000.00 |
-| 31/12/20 |Deprezzamento |270 |-18.750,00 |81,250.00 |
-| 31/12/21 |Deprezzamento |360 |-38.000,00 |42,250.00 |
-| 31/12/22 |Deprezzamento |360 |-37.000,00 |6,250.00 |
-| 31/12/23 |Deprezzamento |90 |-6.250,00 |0 |
-| 31/12/24 |Deprezzamento |Nessuno |Nessuno |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Ammortamento di convenzione semestrale
 

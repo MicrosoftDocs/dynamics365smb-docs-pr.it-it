@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785825"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435624"
 ---
 # <a name="set-up-general-inventory-information"></a>Impostare le informazioni generali di magazzino
 
@@ -23,7 +23,7 @@ Le impostazioni generali di magazzino vengono impostate nella pagina **Setup mag
 
 ## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Per informazioni dettagliate sui campi di determinazione dei costi, **Reg. automatica costi**, **Reg. costi previsti in C/G** e **Metodo di costing di default**, vedere [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md) e [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md). Per ulteriori informazioni sui costi in generale, vedere [Gestione dei costi di magazzino](finance-manage-inventory-costs.md).  

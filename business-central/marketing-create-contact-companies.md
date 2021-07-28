@@ -1,6 +1,6 @@
 ---
 title: Crea contatti business
-description: Delinea le attività per creare contatti e definire le relazioni d'affari.
+description: Spiega le attività coinvolte nella creazione dei contatti e nella definizione delle relazioni commerciali sulla scheda contatto.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780800"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435321"
 ---
 # <a name="create-contacts"></a>Crea contatti
+
 Quando si sviluppa una relazione d'affari con qualcuno in un'altra società, è possibile aggiungere questa persona come contatto in [!INCLUDE[prod_short](includes/prod_short.md)]. È anche possibile aggiungere qualsiasi informazione su tale contatto o sulla relativa azienda che possono rivelarsi utili per comunicazioni future. Nella pagina **Scheda contatto** è possibile creare i seguenti tipi di contatti:
 
 * **Persona** - In genere si utilizza quando c'è già stato un contatto diretto con qualcuno e sono disponibili i dettagli del contatto.
@@ -29,8 +30,13 @@ Le informazioni rilevanti per ogni tipo di contatto sono diverse, quindi i campi
 
 Quando un contatto viene convertito in cliente, ad esempio, la persona di contatto o la società di contatto diventa il nome del cliente. Il record del contatto viene mantenuto ed è possibile collegare il contatto e il cliente in modo che i loro dati vengano sincronizzati in futuro.
 
+> [!NOTE]
+> Se attivi l'[aggiornamento delle funzionalità per i modelli di conversione](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), puoi anche creare fornitori o dipendenti dai contatti commerciali.
+>
+> Tuttavia, se stai già utilizzando la funzionalità integrata per la creazione automatica di clienti o articoli, questo aggiornamento della funzionalità non supporta i campi personalizzati e i clienti o gli articoli appena creati non includeranno tali dati.
+
 ## <a name="to-create-a-contact-manually"></a>Per creare un contatto manualmente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nel campo **Nr.** inserire un numero per il contatto.
 
@@ -43,7 +49,7 @@ Se vi sono clienti, fornitori e conti bancari per i quali si intendono creare sc
 > [!NOTE]  
 > Prima di creare contatti basati su dati esistenti, è necessario specificare un codice relazione d'affari per clienti, fornitori o conti bancari nella Scheda dettaglio **Interazioni** nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Impostare i contatti](marketing-setup-contacts.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere una delle seguenti opzioni, in base all'origine da cui si desidera creare contatti, quindi selezionare il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti una delle seguenti opzioni, in base a dove vuoi creare contatti, quindi seleziona il collegamento correlato.
    * **Crea contatti dai clienti**
    * **Crea contatti dai fornitori**
    * **Crea contatti da conti correnti**
@@ -61,7 +67,7 @@ Se è presente un cliente, fornitore, dipendente o conto bancario per la societ�
 > [!NOTE]  
 > Prima di creare clienti, fornitori, dipendenti o C/C bancari dai contatti, è necessario specificare un codice relazione d'affari nella Scheda dettaglio **Interazioni** nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Impostazione di contatti](marketing-setup-contacts.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.
 2. Selezionare il contatto che si desidera creare come cliente, fornitore, dipendente o conto corrente bancario.
 3. Scegliere l'azione **Crea come**, quindi scegliere **Cliente**, **Fornitore**, **Banca** o **Dipendente**.
 4. Scegliere il pulsante **OK**.
@@ -109,7 +115,7 @@ Sono disponibili tre modi per abilitare la sincronizzazione di dati tra contatti
 * Quando si collegano i contatti con clienti, fornitori, dipendenti o conti correnti bancari esistenti dalla scheda contatto. Vedere [Per collegare un contatto a un cliente, un fornitore o un conto corrente bancario esistente](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Per visualizzare a quale cliente, fornitore, dipendente o conto bancario è correlato un contatto
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per un contatto, scegliere l'azione **Informazioni correlate**, quindi l'azione **Cliente/Fornitore/Conto bancario/Dipendente**.
 
 ## <a name="see-also"></a>Vedere anche

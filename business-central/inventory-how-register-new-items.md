@@ -1,6 +1,6 @@
 ---
-title: Creare schede articolo per beni o servizi| Documenti Microsoft
-description: Creare le schede articolo per i servizi che si vendono a ora e per i prodotti fisici, ad esempio articoli di assemblaggio, prodotti finiti, componenti o materie prime, che si vendono dal magazzino.
+title: Creare schede articolo per beni o servizi
+description: Crea le schede articolo per i servizi che vendi a ora e per i prodotti fisici, ad esempio articoli di assemblaggio, prodotti finiti che vendi dal magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785875"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435645"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 
@@ -40,7 +40,7 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Articoli** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello articolo, allora verrà visualizzata una nuova scheda articolo con alcuni campi compilati con le informazioni derivanti dal modello.
@@ -77,7 +77,7 @@ Se si desidera registrare gli articoli che vengono quindi utilizzati negli ordin
 
 Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le informazioni relative a ogni singolo fornitore dell'articolo quali il prezzo, il lead time, lo sconto e così via.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Selezionare il relativo articolo, quindi scegliere l'azione **Modifica**.  
 3. Scegliere l'azione **Fornitori**.  
 4. Selezionare il campo **Nr. fornitore** e selezionare il fornitore che si intende impostare per l'articolo.  
@@ -100,6 +100,12 @@ Quando si registra un nuovo articolo, vengono visualizzati i campi relativi alla
 
 Se l'organizzazione successivamente imposta la gestione del magazzino, nella maggior parte dei casi, è necessario tornare a ciascun articolo esistente per assicurarsi che abbia le informazioni corrette nei vari campi, in modo che i processi di magazzino possano essere eseguiti come previsto. Queste informazioni possono includere campi come **Codice classe warehouse** o **Codice modello stoccaggio**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Pianificazione
+
+Quando la tua azienda utilizza i processi di pianificazione della fornitura in [!INCLUDE [prod_short](includes/prod_short.md)], devi compilare i campi pertinenti nella Scheda dettaglio **Pianificazione**. Per un'introduzione all'area di pianificazione, vedi [Dettagli di progettazione: concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md).  
+
+Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Vedere anche
 
 [Magazzino](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Se l'organizzazione successivamente imposta la gestione del magazzino, nella mag
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
+[Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md)  
+[Impostare le procedure ottimali: Pianificazione dei parametri](setup-best-practices-planning-parameters.md)  
+[Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
+[Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
+[Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
+[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

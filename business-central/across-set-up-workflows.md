@@ -1,6 +1,6 @@
 ---
 title: Impostare i flussi di lavoro
-description: È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. Scopri i differenti passaggi che devi eseguire.
+description: Imposta flussi di lavoro, utenti del flusso di lavoro e utenti di approvazione per connettere le attività di sistema dei processi aziendali eseguite da questi diversi utenti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cb1d6d1ed4332a9d9217495e7792ead0ccd12229
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7defebe91fb19148eb860f1d2c45a9f778a9d5aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787034"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325041"
 ---
 # <a name="set-up-workflows"></a>Impostare i flussi di lavoro
 

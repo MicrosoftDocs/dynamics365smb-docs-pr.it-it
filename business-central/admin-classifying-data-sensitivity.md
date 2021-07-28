@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773181"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326540"
 ---
-# <a name="classifying-data-sensitivity"></a>Classificazione di dati riservati
+# <a name="classifying-data-sensitivity-fields"></a>Campi Classificazione di dati riservati
 Per classificare i campi che contengono dati riservati o personali, un partner Microsoft può impostare la proprietà ```DataClassification``` nei campi. Per eseguire questa operazione è necessario l'accesso alle tabelle del database, tramite l'ambiente di sviluppo oppure eseguendo uno script Windows PowerShell. Per ulteriori informazioni, vedere [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Come cliente, è possibile aggiungere un secondo livello di classificazione specificando i livelli di riservatezza per i dati archiviati in campi standard e personalizzati. La classificazione di dati riservati assicura la conoscenza della posizione in cui sono mantenuti i dati personali nel sistema e rende più semplice rispondere alle richieste dagli oggetti dati. Ad esempio, se un contatto o un cliente chiede di esportare i relativi dati personali. Per ulteriori informazioni, vedere [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md).

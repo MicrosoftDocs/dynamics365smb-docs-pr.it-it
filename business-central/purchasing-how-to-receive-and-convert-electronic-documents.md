@@ -1,6 +1,6 @@
 ---
-title: Ricevere e convertire documenti elettronici | Documenti Microsoft
-description: È possibile ricevere documenti elettronici direttamente da partner commerciali o da un servizio OCR.
+title: Ricevere e convertire documenti elettronici
+description: In questo argomento viene spiegato come ricevere documenti elettronici direttamente da partner commerciali o da un servizio OCR.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772556"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435086"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Per ricevere e convertire una fattura elettronica in fattura di acquisto  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.  
 
 2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi scegliere l'azione **Modifica**.  
 

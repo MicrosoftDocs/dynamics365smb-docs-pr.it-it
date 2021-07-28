@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Correggere i report di transazioni IVA'
-description: È possibile correggere e inviare nuovamente i report di transazioni IVA.
+title: 'Procedura: Correggere i report di transazioni IVA [IT]'
+description: Il seguente argomento è una spiegazione su come correggere e inviare nuovamente i report elettronici di transazione IVA.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: e0c3c2ff20564421ac831c8567d95b65cc224e16
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0bd867878b93e754a6e4c05bb4825c8d51702caf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780178"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435160"
 ---
-# <a name="correct-vat-transactions-reports"></a>Correggere i report di transazioni IVA
+# <a name="correct-vat-transactions-reports-in-the-italian-version"></a>Correggere i report di transazioni IVA nella versione italiana
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo report. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 3.  Nel nuovo report, impostare il campo **Tipo report IVA** su **Correttiva** o **Annullamento**. Nel campo **Nr. report originale** selezionare il report che si desidera correggere dalla lista dei report disponibili. I campi **Data di fine** e **Data di inizio** vengono copiati dal report originale.  
 

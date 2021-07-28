@@ -1,6 +1,6 @@
 ---
 title: Gestione contabile
-description: Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo o contabilità.
+description: Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo e contabilità.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773757"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326890"
 ---
-# <a name="finance"></a>Contabilità
+# <a name="financial-management"></a>Gestione contabile
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 
@@ -44,14 +44,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Assegnare costi aggiuntivi, quali il trasporto e la gestione fisica sopportata durante il commercio, agli articoli interessati in modo da riflettere i costi nella valutazione di magazzino. |[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
 |Registrare le spese personali dei dipendenti per le attività aziendali e rimborsare i dipendenti effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 | Riconoscere i ricavi e le spese in periodi diversi da quando sono state registrate le transazioni. |[Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)|
-| Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. |[Ricavo periodico (abbonamento)](finance-recurring-invoicing.md)|
+| Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. |[Utilizzo del ricavo ricorrente](finance-recurring-invoicing.md)|
 |Imparare a utilizzare valute aggiuntive e ad aggiornare i tassi di cambio automaticamente. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 | Importare le transazioni degli stipendi dal sistema di gestione delle retribuzioni nella contabilità generale. |[Importa transazioni retribuzioni](finance-how-import-payroll-transactions.md)|
 |Utilizzare le funzioni per calcolare l'imposta sul valore aggiunto (VAT) sulle transazioni di vendita e acquisto in modo da segnalare gli importi alle autorità fiscali.|[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)|
 |Preparare un report che elenca l'IVA di vendita e inviare il report alle autorità fiscali in UE. | [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
 |Convertire manualmente i contratti di servizio per modificare la loro aliquota VAT.|[Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)|
 | Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
-|Seguire una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Segui una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 

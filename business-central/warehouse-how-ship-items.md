@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Spedire articoli | Documenti Microsoft'
-description: A seconda della configurazione della warehouse, è possibile registrare la spedizione del documento aziendale in uscita correlato, ad esempio un ordine di vendita, direttamente, oppure è possibile utilizzare i documenti di spedizione warehouse che rispettano un flusso di lavoro e si integrano alle diverse attività di warehouse.
+title: Come spedire gli articoli
+description: Questo argomento descrive come spedire gli articoli dalla warehouse in base alla configurazione warehouse per l'elaborazione della spedizione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782761"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435936"
 ---
 # <a name="ship-items"></a>Spedire articoli
 
@@ -30,7 +30,7 @@ Quando gli articoli vengono spediti da una warehouse impostata in modo da richie
 
 Di seguito viene descritto come spedire gli articoli da un ordine di vendita. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Aprire un ordine di vendita esistente o crearne uno. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3. Nel campo **Qtà da Spedire** immettere la quantità spedita.
 
@@ -48,7 +48,7 @@ Innanzitutto, creare un documento di spedizione da un documento di origine azien
 
 In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse. La seguente procedura descrive come creare manualmente la spedizione nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)], ma l'organizzazione potrebbe avere una parte automatizzata del processo, ad esempio con l'uso di scanner portatili o montati supportati da provider esterni.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni warehouse** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 
     Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
@@ -83,12 +83,12 @@ Dopo avere recuperato le righe per la spedizione, è possibile avviare il proces
 
 In genere, un lavoratore warehouse responsabile del prelievo crea un documento di prelievo o apre un documento di prelievo già creato.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni warehouse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.
 2. Selezionare la spedizione warehouse da cui si desidera prelevare, quindi scegliere l'azione **Crea prelievo**.
 3. Compilare i campi della pagina di richiesta, quindi fare clic sul pulsante **OK**. Verrà creato il documento di prelievo della warehouse specificato.
 
     In alternativa, aprire un prelievo warehouse esistente.
-4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato. Selezionare il prelievo warehouse che si desidera utilizzare.
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato. Selezionare il prelievo warehouse che si desidera utilizzare.
 
     Se la warehouse è impostata per l'utilizzo delle collocazioni, le righe di prelievo vengono convertite in righe di azione Prendere e Mettere.
 

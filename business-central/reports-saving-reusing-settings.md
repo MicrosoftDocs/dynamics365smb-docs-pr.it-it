@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778924"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435765"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gestire impostazioni salvate per report e processi batch
 Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la pagina di richiesta. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, crear
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Per creare e modificare impostazioni salvate per tutti gli utenti
 È possibile gestire le impostazioni salvate nella pagina **Impostazioni report**. Sono disponibili due modi per aprire questa pagina:
--   Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazioni report** e quindi scegliere il collegamento correlato.
+-   Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impostazioni report**, quindi scegli il collegamento correlato.
 -   Aprire un report, scegliere la funzionalità di ricerca nel campo **Utilizza valori predefiniti da:**, quindi scegliere l'azione **Seleziona da elenco completo**.
 
 Nella pagina vengono visualizzate tutte le voci delle impostazioni salvate esistenti per tutti gli utenti. Se esiste un nome utente nel campo **Assegnato a**, solo tale utente può utilizzare le impostazioni salvate per il report associato. Se è presente un segno di spunta nel campo **Condiviso con tutti gli utenti**, tutti gli utenti possono utilizzare le impostazioni salvate per il report.

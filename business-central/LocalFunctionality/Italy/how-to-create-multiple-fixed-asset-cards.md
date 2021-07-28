@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Creazione di più schede cespite'
-description: Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite.
+title: Come creare più schede cespite [IT]
+description: In questo argomento viene spiegato come puoi creare automaticamente più schede cespite durante la registrazione delle fatture di acquisto.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 6bcb7f074254eac3115407482f8482a64aa63a0a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 864b2c15140babf9ea29765d4d7330209aff111b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780176"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435157"
 ---
-# <a name="create-multiple-fixed-asset-cards"></a>Creazione di più schede cespite
+# <a name="create-multiple-fixed-asset-cards-in-the-italian-version"></a>Creare più schede cespite nella versione italiana
 Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite. Se ad esempio la società acquista 200 computer dello stesso tipo dallo stesso fornitore, non è necessario creare manualmente una scheda cespite per ogni computer, ma tali schede possono essere create automaticamente.  
 
 ## <a name="to-create-multiple-fixed-asset-cards"></a>Per creare più schede cespite  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Liste**, quindi l'azione **Cespiti**.  
 3.  Nella pagina **Lista cespiti**, scegliere l'azione **Nuovo**.  
 4.  Compilare i campi della pagina **Scheda cespite**.  
 
     Verrà utilizzato il valore del campo **Nr.** quando successivamente si generano i cespiti residui.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+5.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 6.  Creare un nuovo ordine di acquisto o aprire l'ordine di acquisto esistente.  
 7.  Espandere la Scheda dettaglio **Righe**.  
 8.  Compilare i campi come indicato nella tabella seguente.  

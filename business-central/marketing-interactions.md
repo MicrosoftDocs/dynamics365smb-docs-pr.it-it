@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784469"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435799"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrare interazioni con i contatti
 L'impostazione dell'applicazione per registrare le interazioni consiste in queste attività:
@@ -50,7 +50,7 @@ In questa pagina è possibile:
 * Visualizzare lo stato delle interazioni.
 * Contrassegnare le interazioni come annullate.
 
-È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina movimenti log interazione annullati** quindi selezionare il collegamento correlato e immettere le informazioni.
+È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina movimenti log interazione annullati**, quindi scegli il collegamento correlato e compila le informazioni.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947491"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373240"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Risoluzione dei problemi e correzione delle dimensioni
 Le visualizzazioni analisi e i report finanziari spesso si basano sui dati delle dimensioni. Nonostante le misure di sicurezza disponibili, a volte accade un errore che può portare a imprecisioni. Questo argomento descrive alcuni degli errori tipici e descrive come correggere le assegnazioni di dimensioni sulle transazioni registrate in modo che i report finanziari siano accurati.
@@ -109,3 +109,17 @@ Se una correzione non viene completata, verrà visualizzato un avviso sulla sche
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Utilizzo della contabilità industriale con movimenti C/G corretti
 Dopo aver corretto le dimensioni, i dati per la contabilità dei costi non saranno sincronizzati. La contabilità industriale utilizza le dimensioni per aggregare gli importi per i centri di costo e gli oggetti di costo e per eseguire le allocazioni dei costi. La modifica delle dimensioni per i movimenti C/G comporterà probabilmente la riesecuzione dei modelli di contabilità industriale. Se è necessario eliminare solo alcuni registri dei costi e rieseguire le allocazioni o è necessario eliminare tutto e rieseguire tutti i modelli dipende dai dati che sono stati aggiornati e da come sono impostate le capacità di contabilità dei costi. Identificare dove le correzioni dimensionali influiranno sulla contabilità dei costi e dove sono necessari aggiornamenti è un processo manuale. [!INCLUDE[prod_short](includes/prod_short.md)] attualmente non fornisce un modo automatizzato per farlo.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Correzione delle assegnazioni dei numeri per le dimensioni globali
+Nella tabella Movimento set di dimensioni, vengono assegnate le dimensioni globali **0** nel campo Nr. dimensione collegamento e alle dimensioni di collegamento viene assegnato il relativo numero di dimensione di collegamento, che può essere compreso tra 1 e 8. Alcuni report utilizzano queste assegnazioni di numeri per determinare i valori da utilizzare nei calcoli.
+
+Quando i valori delle dimensioni vengono importati utilizzando pacchetti di configurazione creati senza eseguire trigger di convalida o utilizzando codice personalizzato per chiamare i metodi Insert o Modify senza eseguire i trigger di convalida OnInsert o OnModify, a volte alle dimensioni di collegamento viene assegnato un numero diverso da 0. Quando ciò si verifica, i calcoli non saranno corretti per le dimensioni sulle registrazioni COGE ricorrenti che utilizzano i metodi ricorrenti SD Saldo per conto o SD Saldo per dimensioni. 
+
+Se viene assegnato un numero errato, quando tenti di pubblicare o visualizzare in anteprima le registrazioni nella pagina **Registrazioni COGE ricorrenti** viene visualizzata la pagina **Messaggi di errore**. Dalla pagina Messaggi di errore, puoi scegliere il collegamento nel campo **Origine** per eseguire un report che corregga le assegnazioni dei numeri di dimensione di collegamento nella tabella Movimento set di dimensioni. In alternativa, puoi anche cercare **Aggiorna nr. dimensione globale per movimenti set di dimensioni** per eseguire il report.
+
+Dopo aver eseguito il report nella pagina **Movimenti log modifiche** puoi rivedere le modifiche apportate al numero nel campo Nr. dimensione globale . [!INCLUDE[prod_short](includes/prod_short.md)] registra sempre i valori precedenti e nuovi. 
+
+## <a name="see-also"></a>Vedere anche
+[Panoramica dei movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)
+[Utilizzare le dimensioni](finance-dimensions.md)
+[Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)

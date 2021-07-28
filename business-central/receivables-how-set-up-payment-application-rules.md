@@ -1,6 +1,6 @@
 ---
-title: Impostare le regole per il collegamento automatico dei pagamenti
-description: Nella pagina Regole di collegamento pagamenti, si impostano le regole per stabilire in che modo i pagamenti e le transazioni bancarie devono essere collegati automaticamente ai relativi movimenti contabili aperti quando si utilizza la funzione Collega automaticamente nella pagina Registrazione riconciliazione pagamenti.
+title: Regole per il collegamento automatico dei pagamenti
+description: Leggi come impostare le regole per il collegamento automatico dei pagamenti nella pagina Regole di collegamento pagamenti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778974"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435061"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
@@ -40,7 +40,7 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 - Per gli importi positivi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture fornitore e poi con le note di credito cliente.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Per impostare una regola di collegamento del pagamento
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Regole di collegamento pagamenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
 2. Definire una regola dell'applicazione di pagamento nuova o modificata compilando i campi di una riga come descritto nella tabella.
 
 |Campo|Descrizione|

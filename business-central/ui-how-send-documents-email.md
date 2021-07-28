@@ -1,5 +1,5 @@
 ---
-title: Impostare contenuto e-mail specifico del documento | Documenti di Microsoft
+title: Inviare documenti ed e-mail
 description: È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063404"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435246"
 ---
 # <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
-Puoi condividere facilmente informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)]], senza dover aprire un'app di posta elettronica. 
+
+Puoi condividere facilmente informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)]], senza dover aprire un'app di posta elettronica.  
 
 È possibile inviare quasi tutti i tipi di documenti come allegati PDF. In alternativa, è possibile impostare un layout di report che include le informazioni del documento nel testo del messaggio di posta elettronica, insieme al testo che rende il messaggio di posta elettronica più semplice, ad esempio un saluto standard. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -25,12 +26,13 @@ Quando si inviano fatture, è possibile semplificare i pagamenti per i clienti t
 Per abilitare i messaggi e-mail da [!INCLUDE[prod_short](includes/prod_short.md)], avviare la guida al setup assistito **Configurare la posta elettronica**. Per ulteriori informazioni, vedere [Configurare la posta elettronica](admin-how-setup-email.md).
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)]] supporta solo comunicazioni via e-mail in uscita. Non è inoltre possibile ricevere risposte dall'app.
+> [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo comunicazioni via e-mail in uscita. Non è inoltre possibile ricevere risposte dall'app.
 
 ## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
+
 Questa procedura descrive come associare una fattura vendita registrata a un'e-mail come file PDF e con il testo dell'e-mail specifico del documento. <!--update this-->
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.
 2. Selezionare la fattura, quindi scegliere l'azione **Stampa/Invia**.
 3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
     
@@ -49,22 +51,28 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 > Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Per comporre e inviare un'e-mail
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Account e-mail** e quindi scegliere il collegamento correlato.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Account e-mail**, quindi scegli il collegamento correlato.
 2. Scegliere l'account da cui inviare l'e-mail, quindi scegliere l'azione **Componi messaggio e-mail**.
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
+
 Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il numero in quel campo <!--"that field?" need a name...--> viene aggiornato anche se si invia il documento tramite posta elettronica poiché viene generato un file PDF per lo stesso. Il numero viene aggiornato anche se non invii l'e-mail. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Email inviate e posta in uscita
+## <a name="sent-emails-and-your-email-outbox"></a>E-mail inviate e posta in uscita
+
 [!INCLUDE[prod_short](includes/prod_short.md)] memorizza le e-mail inviate nella pagina **Elementi inviati**. Questo per consentire di inviare nuovamente le e-mail o inoltrarle a qualcun altro. Se non si riesce a trovare un'e-mail negli elementi inviati, cercarla nella pagina **Posta in uscita**. 
 
 > [!NOTE]
 > A seconda dell'utilizzo della posta elettronica da parte della società, gli amministratori possono visualizzare un elenco di messaggi inviati da tutti, ma non il contenuto dei messaggi
 
-La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-mail che non è stato possibile inviare, ad esempio, se l'indirizzo email non era valido. Per i messaggi che non sono stati inviati, è possibile scegliere **Mostra errore** o **Analizza errore** per risolvere il problema.
+La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-mail che non è stato possibile inviare, ad esempio, se l'indirizzo email non era valido. Per i messaggi che non sono stati inviati, è possibile scegliere **Mostra errore** o **Analizza errore** per risolvere il problema.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Vedere anche
-[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
+
+[Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Configurare la posta elettronica](admin-how-setup-email.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

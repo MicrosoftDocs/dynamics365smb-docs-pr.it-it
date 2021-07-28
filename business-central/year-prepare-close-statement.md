@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776643"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435911"
 ---
 # <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
 Sono disponibili alcuni report standard che è possibile utilizzare per raccogliere le informazioni necessarie per preparare i rendiconto di chiusura della società.
@@ -32,7 +32,7 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 | Stampare una situazione contabile per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti effettivi di contabilità generale con i movimenti budget di contabilità generale. |**Situazione contabile** |
 | Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |**Riconc. conti clienti e forn.** |
 
-Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), digitare il nome come presente nella tabella e quindi scegliere il collegamento correlato.
+Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  

@@ -1,6 +1,6 @@
 ---
-title: Chiusura dei periodi contabili per un anno fiscale | Documenti Microsoft
-description: Descrive come chiudere i periodi contabili alla base di un anno fiscale.
+title: Chiusura dei periodi contabili per un anno fiscale
+description: Questo articolo descrive come chiudere i periodi contabili alla base di un anno fiscale per la chiusura di fine anno.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786684"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436000"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
 
     Se più anni fiscali sono aperti, viene automaticamente selezionato quello meno recente per la chiusura. Viene visualizzato un messaggio che identifica l'anno che verrà chiuso e le conseguenze di tale operazione.

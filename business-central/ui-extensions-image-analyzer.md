@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074614"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434996"
 ---
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 
@@ -49,7 +49,7 @@ L'estensione di analisi delle immagini è incorporata in [!INCLUDE[prod_short](i
 Per attivare l'estensione di analisi immagini, effettuare una delle seguenti azioni:
 
 * Aprire un articolo o una scheda contatto. Nella barra di notifica scegliere **Analisi immagine** e seguire i passaggi nella Guida assistita di setup.  
-* Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
+* Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
 
     > [!TIP]  
     > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
@@ -58,7 +58,7 @@ Per attivare l'estensione di analisi immagini, effettuare una delle seguenti azi
 
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Selezionare l'articolo, quindi scegliere l'azione **Analizza immagine**.  
 3. Nella pagina **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Usa le opzioni **Azione da eseguire** per specificare cosa fare con l'attributo o scegliere **Aggiungi a descrizione articolo** per aggiungere il nome dell'attributo alla descrizione dell'oggetto. Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio. 
 
@@ -73,9 +73,9 @@ L'azione **Azione da eseguire** ha le seguenti opzioni:
   * *Usa come categoria*
 
     Il valore selezionato viene aggiunto come categoria. Per ulteriori informazioni, vedere [Classificare gli articoli](inventory-how-categorize-items.md)
-  * *Aggiungi a blacklist*
+  * *Aggiungi a elenco elementi bloccati*
 
-    Se l'analisi propone un attributo che non si desidera visualizzare, è possibile bloccare l'attributo. Tuttavia, prestare attenzione. Gli attributi bloccati non verranno suggeriti nemmeno per altri articoli. Se si cambia idea sul blocco di un articolo, è possibile scegliere **Visualizza attributi in blacklist** e quindi eliminare l'attributo dall'elenco.
+    Se l'analisi propone un attributo che non si desidera visualizzare, è possibile bloccare l'attributo. Tuttavia, prestare attenzione. Gli attributi bloccati non verranno suggeriti nemmeno per altri articoli. Se cambi idea sul blocco di un articolo, puoi scegliere **Visualizza attributi bloccati** e quindi eliminare l'attributo dall'elenco.
   
     > [!NOTE]  
     > Per impostazione predefinita, in **Attributi oggetto** vengono visualizzati gli attributi in cui **Punteggio di fiducia** è al di sopra di **Soglia punteggio affidabilità in %** definito in **Setup Analizzatore immagine**. Per vedere tutti gli attributi rilevati, scegli l'azione **Visualizza tutti gli attributi**.
@@ -84,7 +84,7 @@ L'azione **Azione da eseguire** ha le seguenti opzioni:
 
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.  
 2. Selezionare la persona di contatto, quindi scegliere l'azione **Analizza immagine**.  
 3. Nella Scheda dettaglio **Questionario profilo**, esaminare i suggerimenti e apportare le correzioni, se necessario. Per ulteriori informazioni, vedere [Utilizza i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md).  
 
@@ -104,7 +104,7 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
 
 È anche possibile utilizzare il proprio account per l'API Visione artificiale, ad esempio, se si desidera analizzare più immagini rispetto al numero consentito.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Analizzatore immagine** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Analizzatore immagine**, quindi scegli il collegamento correlato.  
 2. Immettere l' **URI API** e la **Chiave API** ricevuti per l'API Visione artificiale.  
 
     > [!NOTE]  
@@ -114,12 +114,12 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
 
 È possibile visualizzare il numero delle analisi effettuate e il numero rimanente per il periodo corrente.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Analizzatore immagine** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Analizzatore immagine**, quindi scegli il collegamento correlato.  
 2. I campi **Tipo di limite**, **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Per interrompere l'utilizzo dell'estensione di analisi immagini
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup Analizzatore immagine**.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup Analizzatore immagine**.  
 2. Deselezionare la casella di controllo **Abilita analisi immagine**.  
 
 In alternativa, disinstalla completamente l'estensione. Puoi sempre recuperarla da AppSource. Per ulteriori informazioni, vedi [Installazione e disinstallazione delle estensioni in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343551"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -40,6 +40,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Abilitare l'assicurazione dei cespiti, impostare le informazioni generali dell'assicurazione, una scheda assicurazione per ogni polizza e preparare le registrazioni per registrare i costi delle assicurazioni. |[Impostare l'assicurazione cespiti](fa-how-setup-insurance.md) |
 | Abilitare la manutenzione dei cespiti, impostare le informazioni di manutenzione generali, i conti di registrazione di manutenzione e definire i tipi di lavoro di manutenzione. |[Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md) |
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
+| Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Vedere anche
 [Cespiti](fa-manage.md)  
