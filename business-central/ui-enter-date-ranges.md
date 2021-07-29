@@ -1,6 +1,6 @@
 ---
-title: Immissione di date e ore in Business Central | Documenti Microsoft
-description: Ottenere informazioni su come immettere le date e le ore inclusi suggerimenti relativi alla produttività quali abbreviazioni, espressioni e intervalli. Filtrare elenchi o report per una data o periodo specifici.
+title: Immissione di date e ore in Business Central
+description: Ottenere informazioni su come immettere le date e le ore inclusi suggerimenti relativi alla produttività quali abbreviazioni, espressioni e intervalli.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773532"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443645"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
@@ -48,7 +48,7 @@ Per lavorare in modo più produttivo con date e orari, è possibile utilizzare u
 
 Qualsiasi campo che visualizza un'icona di calendario può essere impostato utilizzando il selettore di date del calendario. Per visualizzare il selettore di date del calendario, attivare l'icona del calendario o premere CTRL+tasto HOME nel campo.
 
-![Campi data](media/ui-date-field.png "Esempio di un campo data")
+![Campi data.](media/ui-date-field.png "Esempio di un campo data")
 
 Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,7 +72,7 @@ In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
 ### <a name="today"></a>Oggi
 
-Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua**. La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
+Inserisci la parola per _oggi_, nella lingua specificata nella pagina **Impostazioni personali** per impostare la data di un record sulla data odierna. Anziché immettere l'intera parola, è possibile immettere una parte della parola. Ad esempio, in inglese, puoi inserire _t_ o _tod_, purché non sia anche l'inizio di un'altra parola.
 
 ### <a name="period"></a>Periodo
 
@@ -80,15 +80,13 @@ Per filtrare uno specifico periodo contabile, in un campo Data immettere la lett
 
 I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Data di lavoro corrente
+### <a name="work-date"></a>Data di lavoro
 
-La funzionalità della data di lavoro consente di registrare le transizioni utilizzando una data diversa dalla data corrente.
+Utilizza una data di lavoro per specificare una data che non è la data odierna sui record. Ad esempio, una data di lavoro è utile quando è necessario impostare una data particolare per più record. Specifica la data di lavoro nella pagina **Impostazioni personali**. 
 
-La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali**. Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
+Un modo rapido per inserire la data di lavoro sui record è inserire alcune o tutte le parole _lavoro_, partendo dall'inizio della parola, nella lingua in cui stai usando [!INCLUDE[prod_short](includes/prod_long.md)]. Ad esempio, in italiano, puoi inserire _l_ o _lavoro_. La lingua è anche specificata nella pagina **Impostazioni personali**.
 
-Se non è stata definita una data di lavoro, per tale valore verrà automaticamente utilizzata la data corrente. Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.
-
-Vedere anche [Modificare le impostazioni di base, quali l'ora di lavoro](ui-change-basic-settings.md#work-date).
+Se non hai specificato una data di lavoro, verrà utilizzata la data odierna. Per ulteriori informazioni vedi [Modificare le impostazioni di base, quali l'ora di lavoro](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Data chiusura
 
@@ -199,7 +197,7 @@ Nell'esempio seguente viene illustrato come utilizzare un segno meno per indicar
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

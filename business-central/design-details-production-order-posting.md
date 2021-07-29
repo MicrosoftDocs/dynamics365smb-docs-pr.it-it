@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214880"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442362"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.
@@ -58,11 +58,11 @@ La registrazione di ordini di produzione nel magazzino WIP include l'output, il 
 
 Nel seguente diagramma vengono mostrate le routine di registrazione implicate nella codeunit 22.  
 
-![Procedure di registrazione ordini di produzione](media/design_details_inventory_costing_14_production_posting_1.png "Procedure di registrazione ordini di produzione")  
+![Procedure di registrazione ordini di produzione.](media/design_details_inventory_costing_14_production_posting_1.png "Procedure di registrazione ordini di produzione")  
 
 Nel seguente diagramma vengono mostrate le associazioni tra i movimenti risultanti e gli oggetti di costo.  
 
-![Flussi di movimenti produzione](media/design_details_inventory_costing_14_production_posting_2.png "Flussi di movimenti produzione")  
+![Flussi di movimenti produzione.](media/design_details_inventory_costing_14_production_posting_2.png "Flussi di movimenti produzione")  
 
 Il movimento contabile capacità descrive il consumo di capacità in termini di unità di tempo, mentre il corrispondente movimento di valorizzazione descrive il valore del consumo specifico della capacità.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017176"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443695"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 
@@ -24,7 +24,7 @@ Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'in
 Per i report e gli XMLport, è possibile impostare filtri come negli elenchi per delimitare i dati da includere in report o XMLport, ma non è possibile ordinare e cercare.
 
 > [!TIP]
-> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare i filtri. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista") per visualizzare i record in forma di elenco.
+> Quando si visualizzano i dati come riquadri, è possibile cercare e utilizzare i filtri. Per utilizzare il set completo delle potenti funzionalità di ordinamento, ricerca e filtro, scegliere l'icona ![Mostra come lista.](media/ui_show_as_list_icon.png "Freccia sinistra Mostra come lista") per visualizzare i record in forma di elenco.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Per ordinare un elenco, è possibile:
 ## <a name="searching"></a>Ricerca
 
 <!--## Searching by using the Quick Filter -->
-Nella parte superiore di ogni pagina elenco, è presente l'azione **Cerca** ![Cerca nell'elenco](media/ui-search/search-list.png "Icona Cerca nell'elenco") che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
+Nella parte superiore di ogni pagina elenco, c'è un'azione ![Cerca nell'elenco.](media/ui-search/search-list.png "Icona Cerca nell'elenco") **Cerca** che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
 
 Per cercare, è sufficiente selezionare l'azione **Cerca**, quindi nella casella digitare il testo che si sta cercando. È possibile immettere lettere, numeri e altri simboli.
 
@@ -144,7 +144,7 @@ Nel riquadro filtri e in una pagina di richiesta, i criteri di filtro vengono im
 
 Il tipo di campo di filtro determina quali criteri è possibile immettere. Ad esempio, il filtro di un campo con valori fissi consente solo di scegliere da tali valori. Per ulteriori informazioni sui simboli speciali del filtro, vedere [Criteri e simboli di filtro](#FilterCriteria) e [Token di filtro](#FilterTokens).
 
-Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro](media/ui-search/filter-icon.png "Icona Filtro") nell'intestazione della colonna. Per rimuovere un filtro, fare clic sulla freccia rivolta verso il basso, quindi scegliere l'azione **Cancella filtro**.
+Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro.](media/ui-search/filter-icon.png "Icona Filtro") nell'intestazione della colonna. Per rimuovere un filtro, fare clic sulla freccia rivolta verso il basso, quindi scegliere l'azione **Cancella filtro**.
 
 > [!TIP]
 > Accelerare la ricerca e l'analisi dei dati utilizzando combinazioni di tasti di scelta rapida da tastiera. Ad esempio, selezionare un campo, usare **MAIUSC + ALT + F3** per aggiungere quel campo al riquadro dei filtri, digitare i criteri del filtro, usare **CTRL + INVIO** per tornare alle righe, selezionare un altro campo e usare **ALT + F3** per filtrare tale valore. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).

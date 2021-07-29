@@ -1,6 +1,6 @@
 ---
-title: Come immettere dati in Business Central | Documenti Microsoft
-description: Ottenere informazioni su funzionalità generali che consentono di immettere dati nei campi.
+title: Come immettere dati in Business Central
+description: Sono disponibili numerose funzionalità generali che consentono di immettere dati più facilmente, più velocemente e in modo più preciso. Sono descritti i principi di base e le funzionalità avanzate.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784817"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443670"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -93,7 +93,7 @@ L'elenco di seguito fornisce alcune informazioni utili sull'utilizzo di Accesso 
 
 Per impostare Accesso rapido nei campi, utilizzare la personalizzazione.
 
-1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
+1. Inizia la personalizzazione selezionando l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi l'azione **Personalizza**.
 2. Selezionare un campo da modificare. Negli elenchi, selezionare l'intestazione di colonna corrispondente. Quindi, scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
 
 Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Si rivela particolarmente utile quando si lavora con liste articoli di grandi di
 
 ### <a name="switching-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
-Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "Icona Modalità messa a fuoco") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
+Per concentrarti sulle voci, seleziona un punto qualsiasi nella parte della voce, quindi scegli l'![icona Modalità messa a fuoco.](media/focus-mode.png "Icona Modalità messa a fuoco") nell'angolo in alto a destra o premi Ctrl+Maiusc+F12.
 
-Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "Icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
+Per tornare alla visualizzazione normale, scegli l'![Icona Modalità messa a fuoco.](media/focus-mode.png "Icona Modalità messa a fuoco") oppure premi di nuovo Ctrl+Maiusc+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking in più pagine
 
@@ -148,15 +148,15 @@ Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità
 - Gestire le interruzioni per l'attività corrente, ad esempio rispondere a una chiamata in arrivo.
 - Tenere aperta una finestra per un'attività in corso mentre si avvia o si completa un'altra attività in una o più finestre.
 
-Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
+Per aprire la scheda o il documento corrente in una nuova finestra, scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra o premi Alt+Maiusc+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
+Per aprire la scheda o il documento corrente in una nuova finestra, scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra o premi Alt+Maiusc+W.
 
 > [!NOTE]
-> Quando si aprono altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non si sceglie ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra").
+> Quando apri altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra").
 
 > [!NOTE]
 > Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

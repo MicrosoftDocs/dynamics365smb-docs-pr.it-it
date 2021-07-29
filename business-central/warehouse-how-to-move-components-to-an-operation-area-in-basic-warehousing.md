@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b9a131b890efe1612ec05d6810d5b661447b26f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782661"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444157"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.  
@@ -47,7 +47,7 @@ In alternativa, un lavoratore warehouse può crearlo scegliendo l'ordine di asse
 La procedura seguente mostra come creare un movimento di magazzino nella pagina **Movimento di magazzino** facendo riferimento a un ordine di assemblaggio rilasciato come documento di origine. La procedura è la stessa quando si spostano componenti per gli ordini di produzione e gli ordini di assistenza.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Per spostare componenti in un'area di operazione nelle configurazioni di warehouse di base  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimento di magazzino** e quindi scegliere il collegamento pertinente.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **InMovimento di magazzino**, e seleziona il collegamento pertinente.  
 2.  Nella Scheda dettaglio **Generale** compilare il campo **Nr.** . È possibile premere INVIO per selezionare la numerazione.  
 3.  Nel campo **Cod. ubicazione** immettere l'ubicazione in cui si verifica la movimentazione.  
 4.  Scegliere l'azione **Prendi documenti origine**. In alternativa, compilare il campo **Documento origine**, quindi fare clic sul pulsante **AssistEdit** nel campo **Nr. origine**.  

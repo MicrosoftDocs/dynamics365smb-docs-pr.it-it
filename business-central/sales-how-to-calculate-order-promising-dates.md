@@ -1,21 +1,21 @@
 ---
 title: Calcolare le date per la promessa ordine
-description: La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione. Consente inoltre di creare delle righe di richiesta per le date confermate dall'utente.
-author: SorenGP
+description: La funzione promessa ordine consente di calcolare la prima data utile in cui l'articolo sarà disponibile per la spedizione.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115592"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442752"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione dall'ordine di vendita.  
@@ -76,7 +76,7 @@ Il gestore ordini completa il processo CTP accettando le date. Ciò significa ch
 Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Per impostare le promesse ordine  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup promessa ordine** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup promessa ordine**, quindi scegli il collegamento correlato.  
 2. Immettere nel campo **Offset (Tempo)** un numero e un codice dell'unità di tempo. Selezionare uno dei seguenti codici:  
 
     |Codice|Descrizione|  
@@ -94,14 +94,14 @@ Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Ri
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione warehouse nella pagina Setup magazzino  
 Se si intende includere il tempo di gestione warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default per il magazzino e l'ubicazione.    
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende comprendere nel calcolo promessa d'ordine.  
 
 > [!NOTE]  
 >  Se il campo **Tempo gest. entrata in whse** nella **Scheda Ubicazione** è stato compilato per l'ubicazione, il contenuto di questo campo verrà utilizzato come tempo gestione entrata in warehouse di default.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Per immettere il tempo di gestione entrata in warehouse nelle schede ubicazione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda ubicazione pertinente.  
 3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende includere nel calcolo promessa d'ordine.  
 
@@ -111,15 +111,15 @@ Se si intende includere il tempo di gestione warehouse nel calcolo della promess
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione dell'uscita dalla warehouse nella pagina Setup magazzino  
 Se si intende impostare l'inclusione del tempo di uscita dalla warehouse nel calcolo della promessa d'ordine nella riga di vendita, è possibile impostarlo come valore di default per l'inventario.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale**, nel campo **Tempo gest. uscita da whse** inserire il numero di giorni che si intende comprendere nel calcolo promessa d'ordine.  
 
 > [!NOTE]  
 >  Se il campo **Tempo gest. uscita da whse** nella scheda Ubicazione è stato compilato per l'ubicazione, il contenuto di questo campo verrà utilizzato come tempo gestione uscita da warehouse di default.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Per immettere il tempo gestione uscita da warehouse nelle schede ubicazione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
-2.  Aprire la scheda ubicazione pertinente.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+2.  Apri la scheda ubicazione pertinente.  
 3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. uscita da whse** inserire il numero di giorni che si intende includere nel calcolo promessa ordine.  
 
 > [!NOTE]  
@@ -127,12 +127,12 @@ Se si intende impostare l'inclusione del tempo di uscita dalla warehouse nel cal
 
 ## <a name="to-make-an-item-critical"></a>Per identificare un articolo come critico  
 Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, deve essere contrassegnato come critico. Questa impostazione garantisce che gli articoli non critici non causino calcoli di promesse d'ordine irrilevanti.   
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda articolo desiderata.  
 3.  Nella Scheda dettaglio **Pianificazione** selezionare il campo **Critico** .  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Per calcolare una data per la promessa ordine  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
 2.  Aprire l'ordine di vendita appropriato e selezionare la riga o le righe da calcolare automaticamente.  
 3.  Scegliere l'azione **Promessa ordine** quindi scegliere l'azione **Righe promessa ordine**.  
 4.  Selezionare una riga e quindi selezionare una delle seguenti opzioni:  

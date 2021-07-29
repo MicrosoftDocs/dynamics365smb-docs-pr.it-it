@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779124"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444489"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Dichiarare l'IVA all'autorità fiscale
 Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese. 
@@ -25,7 +25,7 @@ Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)
 * Il report **Lista vendite UE** elenca gli importi IVA che l'azienda ha raccolto con la vendita a clienti con partita IVA nei paesi dell'Unione Europea.  
 * Il report **Dichiarazione IVA** include gli importi IVA per vendite e acquisti a clienti e da fornitori in tutti i paesi che utilizzano l'IVA.
 
-Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registrazione che implica l'iVA crea una voce nella pagina **Movimenti IVA**. Questi movimenti vengono utilizzati per calcolare l'importo della liquidazione dell'IVA, ovvero un versamento o un rimborso, per un periodo specifico. Per visualizzare i movimenti IVA, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti IVA** e quindi scegliere il collegamento correlato.
+Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registrazione che implica l'iVA crea una voce nella pagina **Movimenti IVA**. Questi movimenti vengono utilizzati per calcolare l'importo della liquidazione dell'IVA, ovvero un versamento o un rimborso, per un periodo specifico. Per vedere i movimenti IVA, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti IVA**, quindi scegli il collegamento correlato.
 
 > [!NOTE]
 > Ogni ambiente [!INCLUDE[prod_short](includes/prod_short.md)] è destinato a gestire le dichiarazioni in base alle normative in un singolo paese. Ad esempio, la versione olandese di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le dichiarazioni IVA nei Paesi Bassi ma non in altri paesi. Allo stesso modo, la versione americana di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce la dichiarazione 1099 negli Stati Uniti e non supporta la richiesta di dichiarazione IVA in altri paesi, a meno che non sia portata da un'estensione fornita dall'ecosistema partner o da una modifica del codice specifica del cliente.
@@ -58,19 +58,19 @@ Per la dichiarazione IVA è possibile specificare i movimenti per includere:
 
 Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario connettere [!INCLUDE[prod_short](includes/prod_short.md)] al servizio Web dell'autorità fiscale. Tale soluzione richiede l'impostazione di un account con l'autorità fiscale. Dopo avere impostato un account, è possibile abilitare la connessione di servizio fornita in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere il collegamento appropriato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli il collegamento appropriato.
 2. Compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > È consigliabile testare la connessione. A tal fine, selezionare la casella di controllo **Modalità di test**, quindi preparare e inviare la dichiarazione IVA come descritto nella sezione _Per preparare e inviare una dichiarazione IVA_. Mentre è attiva la modalità di test, il servizio verifica se l'autorità fiscale può ricevere la dichiarazione e lo stato del report indicherà se l'invio ha avuto esito positivo. È importante ricordare che non si tratta di un invio effettivo. Per inviare realmente il report, è necessario deselezionare la casella di controllo **Modalità di test** e quindi ripetere la procedura di invio.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Per impostare i report IVA in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup report IVA** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup report IVA**, quindi scegli il collegamento correlato.  
 2. Per permettere agli utenti di modificare e ripresentare questo report, selezionare la casella di controllo **Modifica report inviati**.  
 3. Scegliere la numerazione da utilizzare per ogni report.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Per salvare e inviare un report IVA
-1. Scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista vendite UE** o **Dichiarazione IVA** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista vendite UE** o **Dichiarazione IVA**, quindi seleziona il collegamento correlato.  
 2. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per generare il contenuto del report, scegliere l'azione **Suggerisci righe**.  
 

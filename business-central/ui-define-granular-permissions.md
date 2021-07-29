@@ -1,6 +1,6 @@
 ---
-title: Definire autorizzazioni granulari | Microsoft Docs
-description: Descrive come concedere agli utenti l'accesso agli oggetti assegnando loro set di autorizzazioni.
+title: Definire autorizzazioni granulari
+description: Questo argomento descrive come definire autorizzazioni granulari concedendo a determinati utenti l'accesso agli oggetti e assegnando loro set di autorizzazioni.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776719"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443719"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
 Il sistema di sicurezza di [!INCLUDE[prod_short](includes/prod_short.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere a funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
+Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere alle funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autorizzazioni per gli oggetti di database:
 
@@ -53,7 +53,7 @@ Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitament
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Per assegnare un set di autorizzazioni in una scheda utente
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Selezionare l'utente a cui si intende assegnare l'autorizzazione.
 Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel Dettaglio informazioni **Set di autorizzazioni**.
 3. Scegliere l'azione **Modifica** per aprire la pagina **Scheda utente**.
@@ -61,14 +61,14 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Per assegnare un set di autorizzazioni nella pagina Set di autorizzazioni per utente
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Utenti**, selezionare l'utente pertinente quindi scegliere l'azione **Set di autorizzazioni per utente**.
 3. Nella pagina **Set di autorizzazioni per utente**, selezionare la casella di controllo **[nome utente]** in una riga per il set di autorizzazioni pertinente per assegnare il set all'utente.
 4. Selezionare la casella di controllo **Tutti gli utenti** per assegnare il set di autorizzazioni a tutti gli utenti.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Per ottenere una sintesi delle autorizzazioni di un utente:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda dell'utente pertinente.
 3. Scegliere l'azione **Autorizzazioni valide**.
 
@@ -103,7 +103,7 @@ I set di autorizzazioni funzionano come contenitori di autorizzazioni, in modo d
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Per creare un nuovo set di autorizzazioni da zero
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Set di autorizzazioni** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Set di autorizzazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per creare un nuovo set di autorizzazioni.
 3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Dopo avere creato un set di autorizzazioni, è necessario aggiungere le autorizzazioni effettive. Per ulteriori informazioni, vedere [Per creare o modificare le autorizzazioni manualmente](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Rig
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Per creare o modificare le autorizzazioni registrando le azioni
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Set di autorizzazioni** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Set di autorizzazioni**, quindi scegli il collegamento correlato.
 2. In alternativa, nella pagina **Utenti** scegliere l'azione **Set di autorizzazioni**.
 3. Nella pagina **Set di autorizzazioni** scegliere l'azione **Nuovo**.
 4. In una nuova riga, compilare i campi in base alle esigenze.
@@ -197,7 +197,7 @@ I set di autorizzazioni assegnati a un utente tramite un gruppo di utenti rimang
 
 La seguente procedura spiega come creare manualmente gruppi di utenti. Per creare automaticamente gruppi di utenti, vedere [Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
 2. In alternativa, nella pagina **Utenti** scegliere l'azione **Gruppi di utenti**.
 3. Nella pagina **Gruppo di utenti**, scegliere l'azione **Membri gruppo di utenti**.
 4. Nella pagina **Gruppo di utenti**, scegliere l'azione **Aggiungi utenti**.
@@ -209,7 +209,7 @@ Per definire rapidamente un nuovo gruppo di utenti, è possibile copiare tutti i
 > [!NOTE]
 > I membri del gruppo di utenti non vengono copiati nel nuovo gruppo di utenti. Bisogna aggiungerli manualmente successivamente. Per ulteriori informazioni, vedere [Per raggruppare gli utenti in gruppi di utenti](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
 2. Selezionare il gruppo di utenti che si desidera copiare, quindi scegliere l'azione **Copia gruppo di utenti**.
 3. Nel campo **Nuovo codice gruppo di utenti**, immettere un nome per il gruppo, quindi scegliere il pulsante **OK**.
 
@@ -217,7 +217,7 @@ Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Proc
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Per assegnare i set di autorizzazioni a gruppi utente
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
 2. Selezionare il gruppo di utenti a cui si intende assegnare l'autorizzazione.
 Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel Dettaglio informazioni **Set di autorizzazioni**.
 3. Scegliere l'azione **Set di autorizzazioni utente** per aprire la pagina **Set di autorizzazioni utente**.
@@ -227,7 +227,7 @@ Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel
 
 La seguente procedura illustra come assegnare i set di autorizzazioni a un gruppo di utenti nella pagina **Set di autorizzazioni per gruppo di utenti**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Utenti** selezionare l'utente pertinente quindi scegliere l'azione **Set di autorizzazioni per gruppo di utenti**.
 3. Nella pagina **Set di autorizzazioni per gruppo di utenti** selezionare la casella di controllo **[nome gruppo di utenti]** in una riga per il set di autorizzazioni pertinente per assegnare il set al gruppo di utenti.
 4. Selezionare la casella di controllo **Tutti i gruppi di utenti** per assegnare il set di autorizzazioni a tutti i gruppi di utenti.
@@ -240,7 +240,7 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un grupp
 
 Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup utenti** scegliere l'azione **Nuovo**.
 3. Nel campo **ID utente**, immettere l'ID di un utente o scegliere il campo per visualizzare tutti gli utenti correnti di Windows nel sistema.
 4. Compilare i campi come necessario.

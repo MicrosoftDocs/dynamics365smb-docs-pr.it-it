@@ -1,6 +1,6 @@
 ---
-title: Sintesi movimenti set di dimensioni | Microsoft Docs
-description: In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in Dynamcis 365.
+title: Sintesi movimenti set di dimensioni
+description: Questo articolo offre una panoramica su come i movimenti set di dimensioni vengono archiviati come movimenti set di dimensioni e su come vengono registrati.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442412"
 ---
 # <a name="dimension-set-entries-overview"></a>Sintesi movimenti set di dimensioni
 In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ Nel seguente esempio viene mostrato un set di dimensioni in cui sono presenti tr
 ## <a name="dimension-set-entries"></a>Movimenti set di dimensioni  
 I set di dimensioni vengono archiviati nella tabella **Movimento set di dimensioni** come movimenti di set di dimensioni con lo stesso ID set di dimensioni.  
 
-![Flusso dei movimenti set di dimensioni](media/dimensionentrynav7.png "Flusso dei movimenti set di dimensioni")  
+![Flusso dei movimenti set di dimensioni.](media/dimensionentrynav7.png "Flusso dei movimenti set di dimensioni")  
 
 Quando si crea una nuova riga di registrazione, testata del documento o riga documento, è possibile specificare una combinazione di valori dimensioni. Anziché archiviare esplicitamente ogni valore dimensioni nel database, viene assegnato un ID set di dimensioni alla riga di registrazione, alla testata del documento o alla riga del documento per specificare il set di dimensioni.  
 

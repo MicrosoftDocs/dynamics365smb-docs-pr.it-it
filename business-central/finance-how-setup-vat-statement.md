@@ -1,6 +1,6 @@
 ---
-title: Impostare una dichiarazione IVA | Documenti Microsoft
-description: Impostare una dichiarazione IVA
+title: Impostare una dichiarazione IVA
+description: Questo argomento spiega come impostare un modello di dichiarazione IVA e nomi di dichiarazione IVA per soddisfare i cambiamenti dei requisiti dell'autorità fiscale.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775452"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444389"
 ---
 # <a name="set-up-a-vat-statement"></a>Impostare una dichiarazione IVA
 
@@ -25,7 +25,7 @@ Le autorità fiscali possono e devono modificare i requisiti per la registrazion
 ## <a name="to-define-a-vat-statements"></a>Per definire dichiarazioni IVA
 Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dichiarazioni IVA**, quindi scegli il collegamento correlato.  
 2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**.
 3. Compilare i campi necessari. Di solito si desidera avere un'impostazione per ciascuna combinazione di Cat. Reg. Business IVA e Cat. reg. art./serv. IVA. Per i numeri di riga ha senso utilizzare numeri o codici equivalenti come nella dichiarazione IVA ufficiale [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

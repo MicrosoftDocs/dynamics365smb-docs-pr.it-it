@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889257"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442612"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Informazioni intelligenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] Online, la pagina **Informazio
 Accanto ai grafici KPI, si ottengono informazioni su potenziali aree problematiche, inclusi pagamenti in ritardo. Fare clic su ogni informazione per analizzare i dati.  
 
 > [!div class="mx-imgBorder"]
-> ![Informazioni su cloud intelligente](media/across-intelligent-cloud/intelligentcloudApril19.png "Mostra la pagina Informazioni su Cloud intelligente in Business Central Online")
+> ![Informazioni su cloud intelligente.](media/across-intelligent-cloud/intelligentcloudApril19.png "Mostra la pagina Informazioni su Cloud intelligente in Business Central Online")
 
 La pagina si connette anche a Power BI per ulteriori approfondimenti. Facoltativamente, connettiti ad Azure AI per informazioni ancora più intelligenti. Per ulteriori informazioni, vedi [L'estensione Previsione vendite e magazzino](ui-extensions-sales-forecast.md).  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Flusso warehouse in uscita | Microsoft Docs'
-description: Il flusso in uscita nella warehouse inizia con una richiesta da documenti di origine rilasciati di prelevare gli articoli dall'ubicazione della warehouse, per spedirli a una parte esterna o un'altra ubicazione della società. Dall'area di immagazzinamento, le attività di magazzino vengono eseguite a livelli diversi di complessità per portare gli articoli fuori dai dock di immagazzinamento.
+title: Dettagli di progettazione - Flusso warehouse in uscita
+description: In questo argomento viene illustrata la sequenza del flusso di warehouse in uscita dai documenti di origine rilasciati agli articoli pronti per la spedizione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777775"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442387"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in uscita
 
@@ -54,7 +54,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 
  Nel diagramma seguente vengono illustrati i flussi warehouse in uscita per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
- ![Flusso in uscita nelle configurazioni di base della warehouse](media/design_details_warehouse_management_outbound_basic_flow.png "Flusso in uscita nelle configurazioni di base della warehouse")  
+ ![Flusso in uscita nelle configurazioni di base della warehouse.](media/design_details_warehouse_management_outbound_basic_flow.png "Flusso in uscita nelle configurazioni di base della warehouse")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Rilasciare il documento di origine o creare il prelievo di magazzino o il movimento
 
@@ -81,7 +81,7 @@ Inoltre, sono presenti i seguenti documenti di origine interni che funzionano co
 
  Nel diagramma seguente viene illustrato il flusso warehouse in uscita per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
- ![Flusso in uscita nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_outbound_advanced_flow.png "Flusso in uscita nelle configurazioni avanzate della warehouse")  
+ ![Flusso in uscita nelle configurazioni avanzate della warehouse.](media/design_details_warehouse_management_outbound_advanced_flow.png "Flusso in uscita nelle configurazioni avanzate della warehouse")  
 
 ### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine
 

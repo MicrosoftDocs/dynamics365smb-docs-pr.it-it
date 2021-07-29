@@ -1,6 +1,6 @@
 ---
-title: Personalizzazione delle pagine | Documenti Microsoft
-description: Informazioni su come personalizzare l'interfaccia utente in base alle esigenze professionali in Business Central.
+title: Personalizzazione delle pagine
+description: Informazioni su come personalizzare l'interfaccia utente e l'area di lavoro in base alle tue esigenze e preferenze professionali in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783313"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442677"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -42,7 +42,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Per avviare la personalizzazione di una pagina tramite il banner **Personalizzazione**
 1. Aprire qualsiasi pagina da personalizzare.
-2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza**.
+2. Nell'angolo in alto a destra seleziona l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi scegli l'azione **Personalizza**.
 
     Viene visualizzato il banner **Personalizzazione** in alto per indicare che è possibile iniziare ad apportare le modifiche.
 

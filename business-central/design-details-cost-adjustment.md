@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Rettifica costo | Microsoft Docs'
-description: Il principale scopo della rettifica dei costi è di inoltrare le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta.
+title: Dettagli di progettazione - Rettifica costo
+description: La rettifica dei costi inoltra le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215405"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442462"
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
 
@@ -67,7 +67,7 @@ Questa funzione di rilevamento viene utilizzata in scenari di conversione, produ
 
 La funzione di livello di ordine viene utilizzata per rilevare le rettifiche nella registrazione di assemblaggi. Nel seguente grafico viene visualizzata la struttura dei movimenti di rettifica:  
 
-![Flusso di voci nella rettifica dei costi](media/design_details_assembly_posting_3.png "Flusso di voci nella rettifica dei costi")  
+![Flusso di voci nella rettifica dei costi.](media/design_details_assembly_posting_3.png "Flusso di voci nella rettifica dei costi")  
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 

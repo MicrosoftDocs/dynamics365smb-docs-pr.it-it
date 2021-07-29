@@ -1,6 +1,6 @@
 ---
 title: Modifica le impostazioni di base per l'utente corrente
-description: Informazioni su come modificare alcune impostazioni di base, ad esempio, la Gestione ruolo utente, la società o la data di lavoro.
+description: Scopri come modificare alcune impostazioni di base in Business Central, ad esempio il ruolo e la gestione ruolo utente, l'azienda, la data di lavoro e il fuso orario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443770"
 ---
 # <a name="change-basic-settings"></a>Modificare le impostazioni di base
 
@@ -33,7 +33,7 @@ Il ruolo determina la home page, una schermata iniziale che è progettata per le
 
 Il ruolo predefinito è **Manager aziendale**, ma è possibile selezionare un altro ruolo per utilizzare una gestione ruolo utente più adatta alle proprie esigenze.  
 
-1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.
+1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.
 2. Nella pagina **Impostazioni personali** nel campo **Ruolo** selezionare il ruolo che si desidera utilizzare per impostazione predefinita. Ad esempio, selezionare **Contabile**.
 3. Scegliere il pulsante **OK**.
 
@@ -47,7 +47,7 @@ La società di default è detta CRONUS e contiene solo i dati di esempio. È pos
 
 Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra e funziona come un'azione che è possibile scegliere per tornare a Gestione ruolo utente. Questo nome può essere modificato nella pagina **Informazioni società**.
 
-1. Scegliere l'![icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi scegliere l'azione **Informazioni società**.
+1. Scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi scegli l'azione **Informazioni società**.
 2. Nel campo **Nome** immettere il nuovo nome della società.
 3. Chiudere la pagina. Il sistema si riavvia e visualizza la nuova società nell'angolo superiore sinistro.
 
@@ -55,7 +55,7 @@ Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra 
 
 È possibile aggiungere un badge personalizzato nell'angolo superiore destro. Questo badge consente di visualizzare rapidamente il nome della società e le informazioni sul tenant in una finestra a comparsa. Il badge della società è utile anche quando [!INCLUDE[prod_short](includes/prod_short.md)] è incorporato in un'altra applicazione, come Microsoft Teams, o in qualche altra applicazione Web. In questi casi, poiché [!INCLUDE[web_client](includes/web_client.md)] mostra meno informazioni contestuali circostanti, il badge della società rappresenta l'unico modo per determinare a quale società o ambiente appartiene un record.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Badge società** compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

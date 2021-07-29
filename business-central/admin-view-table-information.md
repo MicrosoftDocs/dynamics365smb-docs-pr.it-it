@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776893"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443081"
 ---
 # <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
 
@@ -24,7 +24,7 @@ Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, p
 
 ## <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
 
-Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Informazioni tabella** e quindi scegliere il collegamento correlato.
+Per aprire questa pagina, seleziona l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Informazioni tabella**, quindi scegli il collegamento correlato.
 
 La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935338"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443920"
 ---
 # <a name="define-retention-policies"></a>Definire i criteri di conservazione
 Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prod_short](includes/prod_short.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 
@@ -40,7 +40,7 @@ I periodi di conservazione possono essere lunghi o brevi come si desidera. Per c
 > Per motivi di conformità, è stato definito un periodo di conservazione minimo per alcune tabelle. Se si imposta un periodo di conservazione inferiore al minimo richiesto, un messaggio visualizzerà il periodo obbligatorio.
 
 ### <a name="set-up-a-retention-policy"></a>Impostare i criteri di conservazione
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Criteri di conservazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Criteri di conservazione**, quindi scegli il collegamento correlato.
 2. Nel campo **ID tabella**, scegliere la tabella che si desidera includere nel criterio.
 3. Nel campo **Periodo di conservazione** specificare il periodo di tempo per il quale conservare i dati nella tabella.
 4. Facoltativo: per applicare il criterio a dati specifici in una tabella, disattivare il pulsante Applica a tutti i record. Verrà visualizzata la Scheda dettaglio Criteri di conservazione dei record, in cui è possibile impostare i filtri per creare sottoinsiemi di dati per ciascuna riga. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#filtering).

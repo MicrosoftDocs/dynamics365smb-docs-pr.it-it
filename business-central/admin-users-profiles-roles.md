@@ -1,20 +1,20 @@
 ---
-title: Gestire utenti e ruoli | Microsoft Docs
-description: Informazioni su come gestire utenti e Gestioni ruolo utente in Business Central.
+title: Gestire utenti e ruoli
+description: Informazioni su come gestire profili utente e Gestioni ruolo utente in Business Central. I profili consentono agli amministratori di definire e gestire centralmente ciò che gli utenti possono vedere e fare.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776968"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443131"
 ---
-# <a name="manage-profiles"></a>Gestire profili
+# <a name="manage-user-profiles"></a>Gestire profili utente
 
 A tutti gli utenti di [!INCLUDE[prod_short](includes/prod_short.md)] viene assegnato un profilo che ne riflette il ruolo aziendale, il reparto in cui lavorano o un'altra categorizzazione. I profili consentono agli amministratori di definire e gestire centralmente ciò che i vari tipi di utenti possono vedere e fare nell'interfaccia utente in modo da poter eseguire le proprie attività aziendali in modo efficiente.
 
@@ -31,7 +31,7 @@ Prima di poter amministrare i profili degli utenti, è necessario creare e aggiu
 ## <a name="to-create-a-profile"></a>Per creare un profilo
 Se non è possibile copiare un profilo esistente, è possibile crearne uno manualmente.
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Profili (ruoli)** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Profili (ruoli)** scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Nella pagina **Impostazioni personali**, gli utenti possono definire il comporta
 
 Come amministratore, è possibile definire queste impostazioni per un profilo e quindi applicarle a tutti gli utenti del ruolo correlato.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili (Ruoli)** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per il profilo per il quale si desidera modificare le impostazioni utente e scegliere l'azione **Elenco personalizzazioni utente**.
 3. Nella pagina **Personalizzazioni utente**, aprire la scheda per l'utente di cui si desidera modificare le impostazioni.
 4. Nella pagina **Scheda personalizzazione utente** modificare i campi come necessario.
@@ -108,7 +108,7 @@ Viene esportato un file zip con i file .al per i profili selezionati.
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Per eliminare tutte le personalizzazioni effettuate da un utente
 È possibile eliminare tutte le modifiche che un utente ha apportato alle pagine che compongono la sua area di lavoro. Ciò può essere utile, ad esempio, se un dipendente ha cambiato ruolo e non ha più bisogno delle personalizzazioni. L'eliminazione delle personalizzazioni degli utenti ripristina il layout di pagina definito dal profilo.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Personalizzazioni utente** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Personalizzazioni utente**, quindi scegli il collegamento correlato.
 
     Nella pagina **Personalizzazioni utente** sono elencati tutti gli utenti che hanno eseguito personalizzazioni.
 
@@ -122,7 +122,7 @@ L'utente visualizzerà le modifiche all'accesso successivo.
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Per eliminare le personalizzazioni per pagine specifiche
 È possibile eliminare le personalizzazioni eseguite da uno o più utenti in pagine specifiche che compongono la relativa area di lavoro. Ciò può essere utile, ad esempio, se un processo aziendale modificato implica che una personalizzazione non deve più essere utilizzata dagli utenti. L'eliminazione delle personalizzazioni degli utenti ripristina il layout di pagina definito dal profilo.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Personalizzazioni pagine utente** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Personalizzazioni pagine utente**, quindi scegli il collegamento correlato.
 
     La pagina **Personalizzazioni pagine utente** elenca tutte le pagine che sono state personalizzate e l'utente a cui appartengono.
 

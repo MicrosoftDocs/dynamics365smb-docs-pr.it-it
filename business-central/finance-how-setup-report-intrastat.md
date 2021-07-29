@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c72d5beafde357c22fac396eb3ab76849a9df775
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775502"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444414"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
@@ -45,7 +45,7 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 > [!Note]
 > È consigliabile impostare un batch Registrazione Intrastat per ogni mese.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Definizioni registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Definizioni registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.  
 3. Per creare batch, scegliere l'azione **Batch**.  
 4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza. 
@@ -56,25 +56,25 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 ### <a name="to-set-up-commodity-codes"></a>Per impostare i codici di voci doganali
 Tutti gli articoli acquistati o venduti devono disporre di un codice voce doganale.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Codici voci doganali** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici voci doganali**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Per assegnare un codice voce doganale a un articolo, nella pagina **Scheda articolo** espandere la Scheda dettaglio **Costi e registrazione**, quindi immettere il codice nel campo **Codice voce doganale**.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Per impostare il codici della natura delle transazioni
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Codici natura transazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici natura transazione**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Se si utilizza con frequenza un determinato codice natura transazione, è possibile impostarlo come predefinito. A tale scopo, andare alla pagina **Impostazione Intrastat** e selezionare il codice.
 
 ### <a name="to-set-up-transport-methods"></a>Per impostare i metodi di trasporto
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Metodi di trasporto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di trasporto**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Per impostare quali campi del report Intrastat sono obbligatori
 In alcuni paesi, come Spagna e Regno Unito, le autorità richiedono che i report Intrastat includano, ad esempio, il metodo di spedizione per gli acquisti o altri valori quando le vendite superano una certa soglia. Nella pagina **Setup Intrastat** è possibile selezionare **Setup checklist Intrastat** per impostare i campi obbligatori nella pagina **Registrazioni Intrastat**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Intrastat** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Intrastat**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Setup checklist Intrastat**.
 3. Nella pagina **Setup checklist Intrastat**, fare clic su **Nome campo** per selezionare il campo del report Intrastat che si desidera rendere obbligatorio.
 
@@ -82,7 +82,7 @@ In alcuni paesi, come Spagna e Regno Unito, le autorità richiedono che i report
 Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione **Report Intrastat - Checklist** per verificare che tutte le informazioni nelle registrazioni siano corrette. I campi obbligatori impostati nella pagina **Setup checklist Intrastat** in cui mancano i valori verranno mostrati in Dettaglio informazioni di Errori e e avvisi nella pagina **Registrazioni Intrastat**. È successivamente possibile stampare un report Intrastat come form, oppure creare un file da inviare a un'autorità fiscale del proprio paese.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Per compilare le registrazioni Intrastat  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat**, nel campo **Nome batch** scegliere il batch di registrazioni interessato e quindi scegliere **OK**.  
 3. Scegliere l'azione **Suggerisci righe**. I campi **Data inizio** e **Data fine** verranno compilati automaticamente con le date specificate per il periodo statistico del batch di registrazioni.  
 4. Nel campo **% regolazione costi** è possibile immettere una percentuale per coprire trasporto e assicurazione. In questo caso il valore contenuto del campo **Valore Statistico** sarà proporzionalmente maggiore.  
@@ -96,7 +96,7 @@ Il processo batch recupererà tutti i movimenti articolo nel periodo statistico 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Creare report Intrastat come form o come file
 Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statistica, è necessario stampare il report **Intrastat - Form**. Prima di eseguire questa operazione, è necessario preparare le registrazioni Intrastat e compilarle. Se vi sono sia transazioni di vendita che di acquisto, è necessario compilare un form separato per ciascun tipo e stampare il report due volte.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat** selezionare il batch registrazioni desiderato nel campo **Nome batch**.  
 3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliere l'azione **Suggerisci righe**.  
 4. Scegliere l'azione **Stampa registrazione Intrastat**.  
@@ -106,7 +106,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 ### <a name="report-intrastat-in-a-file"></a>Creare un report Intrastat in un file
 È possibile inviare il report Intrastat come file. Prima di creare il file è possibile stampare un report di controllo che conterrà le stesse informazioni presenti nel file.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat** selezionare il batch registrazioni desiderato nel campo **Nome batch**.  
 3. Se non è stato fatto in precedenza, compilare le registrazioni manualmente o scegliendo l'azione **Suggerisci righe**.  
 4. Scegliere l'azione **Crea file**.  
@@ -117,7 +117,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 ## <a name="reorganize-intrastat-journals"></a>Riorganizzare registrazioni Intrastat
 I report Intrastat vengono presentati con cadenza mensile e per ogni report è necessario creare un nuovo batch di registrazioni. Dopo un certo periodo, si saranno accumulati diversi batch di registrazioni. Le righe di registrazioni non vengono eliminate automaticamente. È possibile riorganizzare periodicamente i nomi batch contabili. Questa operazione viene effettuata eliminando i batch di registrazioni non più necessari. Vengono eliminate anche le righe di registrazioni di questi batch.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni Intrastat** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Per visualizzare le opzioni, scegliere il campo **Nome batch**.  
 3. Scegliere i batch registrazioni da eliminare a quindi scegliere il pulsante **Elimina**.  
 

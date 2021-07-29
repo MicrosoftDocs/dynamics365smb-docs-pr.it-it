@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Rivalutazione | Microsoft Docs'
-description: È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.
+title: Dettagli di progettazione - Rivalutazione
+description: È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215780"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444307"
 ---
 # <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  
@@ -39,7 +39,7 @@ Poiché la rivalutazione può essere effettuata in qualsiasi data, è necessario
 ### <a name="example"></a>Esempio  
 Nel seguente esempio viene illustrato quando un articolo WIP diventa parte del magazzino. L'esempio si basa sulla produzione di una catena con 150 collegamenti.  
 
-![Magazzino WIP e rivalorizzazione](media/design_details_inventory_costing_10_revaluation_wip.png "Magazzino WIP e rivalorizzazione")  
+![Magazzino WIP e rivalorizzazione.](media/design_details_inventory_costing_10_revaluation_wip.png "Magazzino WIP e rivalorizzazione")  
 
 **1Q**: L'utente registra i collegamenti acquistati come ricevuti. Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
 

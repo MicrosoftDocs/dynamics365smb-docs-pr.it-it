@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f01f79ae67f97f45242f01b46ebc75b603fa7187
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778449"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442702"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
 
@@ -32,7 +32,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 
 ## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
@@ -60,7 +60,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato  
 È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2.  Selezionare un ordine di vendita programmato quindi scegliere l'azione **Statistiche**.  
 3.  Nella pagina **Statistiche ordini vendita programmati**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di vendita programmato.  
 
@@ -72,7 +72,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate   
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita programmati** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di vendita programmato che si desidera visualizzare.
 3. Per visualizzare i movimenti non registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe non registrate**. Selezionare una delle seguenti opzioni.  
 

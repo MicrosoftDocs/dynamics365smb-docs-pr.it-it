@@ -1,6 +1,6 @@
 ---
-title: Preparare la migrazione dei dati dei clienti con modelli | Documenti Microsoft
-description: Informazioni su come utilizzare i modelli di configurazione per strutturare i dati dei clienti esistenti prima di migrare i dati nella nuova società in Business Central.
+title: Preparare la migrazione dei dati dei clienti con modelli
+description: Informazioni su come utilizzare i modelli di configurazione per strutturare i dati dei clienti esistenti prima di migrare i dati master nella nuova società in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776993"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443156"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Preparare la migrazione dei dati dei clienti con modelli
 
@@ -47,7 +47,7 @@ Quando si seleziona un modello dati esistente, è necessario stabilire se i mode
 > [!TIP]  
 > È anche possibile utilizzare i modelli dati per creare rapidamente nuovi record. Utilizzarli per una creazione dei dati più rapida e precisa. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di configurazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Modelli di configurazione**, selezionare un modello di dati dalla lista e quindi scegliere l'azione **Modifica**.  
 
 Se i modelli di default non corrispondono alle proprie esigenze, è possibile creare nuovi modelli o aggiungere i campi a un modello esistente. Se i modelli di default sono sufficienti, è possibile utilizzarli per creare record in base ai modelli dati master.
@@ -100,7 +100,7 @@ L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi 
 
 È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.
 2. Aggiungere una tabella alla lista oppure selezionare una tabella esistente. Per ulteriori informazioni, vedere [Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Scegliere l'azione **Mostra campi** per definire i campi dalla tabella che si desidera includere nel modello.
 4. Scegliere l'azione **Esporta in modello**.
@@ -130,11 +130,11 @@ Risulta completo qualsiasi record che presenta questa modalità di collegamento 
 
 Nella seguente procedura viene illustrato come creare una scheda articolo da un modello dati dell'articolo. È possibile creare un record da qualsiasi modello dati utilizzando la stessa procedura.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di configurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare il modello **Articolo**, quindi scegliere l'azione **Modifica**. Per ulteriori informazioni, vedere [Per creare un modello di dati](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Selezionare l'azione **Crea istanza**. Una scheda articolo viene creata.  
 4. Scegliere il pulsante **OK**.  
-5. Per esaminare la nuova scheda articolo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+5. Per rivedere la nuova scheda articolo, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 6. Aprire la nuova scheda articolo.  
 7. Espandere le varie Schede dettaglio e verificare che le informazioni siano state create correttamente.  
 

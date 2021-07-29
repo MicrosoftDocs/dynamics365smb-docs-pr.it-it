@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773106"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443994"
 ---
 # <a name="configuring-api-templates"></a>Configurazione di modelli di API
 La libreria di API per [!INCLUDE[prod_short_md](includes/prod_short.md)] fornisce una rappresentazione semplificata delle entità sottostanti. Tutte le proprietà dell'applicazione non sono esposte tramite l'API associata. La pagina **Setup API** consente di definire modelli utilizzati per popolare le proprietà vuote in un'entità quando si crea un'azione POST tramite l'API. 
@@ -31,7 +31,7 @@ Per utilizzare i modelli con la libreria di API, è prima necessario definire e 
 
 Per assegnare un modello a un'API, è necessario seguire questi passaggi.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup API** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup API**, quindi scegli il collegamento correlato.
 2. Scegliere **Nuovo** e quindi scegliere il valore **Ordine** per importare l'immagine.  
 Se è presente più di un modello selezionato per un'API (ID pagina), i modelli vengono applicati nell'ordine definito nella colonna **Order**.   
 Quando ciascun modello viene applicato, i valori dei campi definiti nel modello vengono applicati solo ai campi che non hanno ancora definito un valore, esplicitamente nell'API o in un modello precedentemente applicato nell'ordine. 

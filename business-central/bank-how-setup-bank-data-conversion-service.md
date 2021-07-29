@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31b864235216e555b6e2616b067f96bcce37772e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c9f74c300bfeec6f58e691509d54dfc5134391c7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775677"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442852"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Impostare l'estensione AMC Banking 365 Fundamentals
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo è indicato in [!INCLUDE[prod_short](includes/prod_short.md)] come l'estensione AMC Banking 365 Fundamentals.
@@ -32,7 +32,7 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 > L'estensione AMC Banking 365 Fundamentals può imporre un limite al numero di righe che possono essere esportate in un file. Se il limite viene superato, viene visualizzato un messaggio di errore. È consigliabile che i file del estratto conto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nell'estensione AMC Banking 365 Fundamentals può aumentare significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Per iscrivere la società all'estensione AMC Banking 365 Fundamentals
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup servizio conv. dati banca** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.  
 2. Viene aperta la pagina **Setup servizio conv. dati banca** con tre campi precompilati con gli URL del provider dell'estensione AMC Banking 365 Fundamentals.
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 > I dati di accesso vengono automaticamente crittografati.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Per visualizzare o aggiornare la lista dei formati di dati bancari attualmente supportato
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup servizio conv. dati banca** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup servizio conv. dati banca**, scegliere l'azione **Nome banca - Lista conversione dati** per aprire l'elenco dei nomi di banca che rappresentano i formati di dati bancari che sono supportati dal servizio di conversione.
 3. Nella pagina **Nome banca - Lista conversione dati** scegliere l'azione **Aggiorna lista nomi banche**.
 

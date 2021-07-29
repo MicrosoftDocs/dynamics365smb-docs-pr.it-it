@@ -1,20 +1,20 @@
 ---
 title: Visualizzare blocchi di database
-description: Informazioni su come visualizzare le informazioni sui blocchi di database direttamente dall'interfaccia client in Business Central.
+description: Informazioni su come visualizzare le informazioni sui blocchi di database del cliente direttamente dall'interfaccia client in Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776918"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443106"
 ---
 # <a name="viewing-database-locks"></a>Visualizzazione di blocchi di database
 
@@ -24,7 +24,7 @@ Agli utenti potrebbe essere impedito di completare le transazioni sui dati blocc
 
 ## <a name="to-view-database-locks"></a>Per visualizzare i blocchi di database
 
-Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Blocchi database**, quindi scegli il collegamento correlato.
+Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Blocchi database**, quindi scegli il collegamento correlato.
 
 La pagina **Blocchi di database** fornisce uno snapshot di tutti i blocchi del database correnti.
 

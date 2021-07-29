@@ -1,6 +1,6 @@
 ---
-title: Abilitare i pagamenti clienti tramite i servizi di pagamento| Documenti Microsoft
-description: Facilitare ai clienti il pagamento delle fatture abilitando i servizi di pagamento.
+title: Abilitare i pagamenti clienti con i servizi di pagamento
+description: Facilita ai clienti il pagamento delle fatture abilitando i pagamenti clienti tramite i servizi di pagamento.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7f99bffb4f06efeb4922f979deaf27df7fe75946
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83910fefc76516d8aee1716f536f6c25786ffa2b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778861"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443384"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
-Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali Microsoft Pay, PayPal o WorldPay.  
+Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali PayPal o WorldPay.  
 
 Dopo che viene abilitato un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)], un collegamento all'assistenza è disponibile nei documenti di vendita inviati tramite e-mail ai clienti. I clienti possono utilizzare il collegamento per andare al servizio di pagamento e per pagare la fattura, direttamente dal documento di vendita. Se non si desidera includere il collegamento, ad esempio, se un cliente pagherà in contanti, è possibile rimuovere il servizio di pagamento dalla fattura prima della registrazione.  
 
-Le estensioni Microsoft Pay, PayPal Payments Standard e WorldPay Payments Standard vengono installate in [!INCLUDE[prod_short](includes/prod_short.md)] e sono pronte per essere abilitate.  
+Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono installate in [!INCLUDE[prod_short](includes/prod_short.md)] e pronte per essere abilitate.  
 
 ## <a name="to-enable-a-payment-service-in-prod_short"></a>Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi di pagamento** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
 3. Selezionare il servizio di pagamento e chiudere la pagina.  
 4. Nella pagina **Servizi di pagamento** scegliere l'azione **Setup**.  
@@ -33,7 +33,7 @@ Le estensioni Microsoft Pay, PayPal Payments Standard e WorldPay Payments Standa
 6. Chiudere la pagina.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Per selezionare un servizio di pagamento di una fattura di vendita
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Aprire una fattura di vendita che si desidera pagare utilizzando il servizio di pagamento.  
 3. Nel campo **Servizio di pagamento** scegliere il servizio di pagamento.  
 

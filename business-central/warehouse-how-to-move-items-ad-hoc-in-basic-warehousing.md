@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Spostare articoli ad hoc nelle configurazioni della warehouse di base | Documenti Microsoft'
-description: Talvolta può essere necessario spostare gli articoli tra le collocazioni interne, non le collocazioni di ricezione o spedizione, senza una richiesta specifica da un documento di origine. È possibile eseguire queste movimentazioni ad hoc, ad esempio per riorganizzare la warehouse, per immettere gli articoli in un'area di ispezione o inserire o estrarre articoli aggiuntivi da un'area di produzione senza una relazione di sistema al documento di origine dell'ordine di produzione.
+title: Spostare articoli ad hoc nelle configurazioni della warehouse di base
+description: Questo argomento illustra i movimenti ad hoc eseguiti quando è necessario spostare gli articoli tra collocazioni interne senza una richiesta specifica da un documento di origine.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5204f75801c0af09715b0d8cc4523e57fa33a49a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771806"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444104"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Spostare articoli ad hoc nelle configurazioni della warehouse di base
 Talvolta può essere necessario spostare gli articoli tra le collocazioni interne, non le collocazioni di ricezione o spedizione, senza una richiesta specifica da un documento di origine. È possibile eseguire queste movimentazioni ad hoc, ad esempio per riorganizzare la warehouse, per immettere gli articoli in un'area di ispezione o inserire o estrarre articoli aggiuntivi da un'area di produzione senza una relazione di sistema al documento di origine dell'ordine di produzione.  
@@ -29,7 +29,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
 >  Nelle configurazione warehouse avanzate, ovvero ubicazioni che utilizzano il campo del setup **Stoccaggi e prelievi guidati**, si utilizza la pagina **Prospetto movimentazioni** oppure la pagina **Prelievo interno whse.** o **Stoccaggio interno whse.** per spostare articoli ad hoc tra le collocazioni.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Per spostare gli articoli come movimentazione interna  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimentazione interna** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimentazione interna**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Generale** compilare il campo **Nr.** uscendo dal campo o scegliendo il pulsante **AssistEdit** per selezionare tra la numerazione.  
 3.  Nel campo **Cod. ubicazione** immettere l'ubicazione in cui si verifica la movimentazione.  
 
@@ -58,7 +58,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
 Anziché utilizzare documenti di movimento di warehouse, è possibile registrare lo spostamento di articoli riclassificando i relativi codici di collocazione. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).   
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. riclass. articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Reg. riclass. articoli**, quindi scegli il collegamento correlato.  
 2.  In ogni riga di registrazione, definire le collocazioni da cui e in cui si desidera spostare articoli compilando i campi **Cod. collocazione** e **Nuovo cod. collocazione**.  
 
     1.  Per spostare l'intero contenuto di una collocazione in un'altra collocazione, scegliere l'azione **Prendi contenuto collocazione**.  

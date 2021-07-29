@@ -1,6 +1,6 @@
 ---
-title: Raggruppare i valori di setup del cliente | Documenti Microsoft
-description: Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in Business Central e fornirlo al cliente come file di Excel con estensione (.xlsx) o file XML.
+title: Raggruppare i valori di setup del cliente
+description: Il questionario di configurazione aiuta a ridurre l'implementazione semplificando la creazione di nuove società e offrendo ai clienti un file Excel o XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783976"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443895"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[prod_short](includes/prod_short.md)] e fornirlo al cliente come file di Excel o file XML.  
@@ -50,9 +50,9 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 -   Setup warehouse  
 
 > [!NOTE]  
->  Per visualizzare un elenco completo di tabelle di setup, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup** e quindi scegliere il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
+>  Per visualizzare un elenco completo delle tabelle di configurazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup**, quindi scegli il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.   
 3. Nella pagina **Questionari di configurazione**, nel campo **Codice**, immettere... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Utilizzare il questionario di configurazione per organizzare e documentare una d
 >  È anche possibile creare il proprio questionario di configurazione per soddisfare le proprie esigenze.  
 
 1. Aprire la società per cui si intende completare il questionario.
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
 3. Selezionare il questionario per la società, quindi scegliere l'azione **Esporta in Excel**, facoltativamente l'azione **Esporta in XML**.
 4. Far completare il questionario di configurazione al cliente immettendo le risposte nella cartella di lavoro di Excel. Esistono prospetti per ciascuna area domande creata per il questionario.   
 5. Salvare la cartella di lavoro di Excel come *Dati XML*. Scegliere l'azione **Importa da XML** e selezionare il file .xml con le risposte del cliente.
@@ -131,7 +131,7 @@ Dopo avere completato la convalida, i dati sono pronti per essere collegati al d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Per applicare le risposte di un questionario di configurazione
 Dopo aver importato e convalidato le informazioni da un questionario di configurazione, è possibile trasferire oppure applicare i dati di setup alle tabelle corrispondenti nel database di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Questionari di configurazione** e scegliere il collegamento correlato. Viene visualizzata la pagina **Questionario su configurazione**.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Questionario su configurazione**.  
 2. Selezionare un questionario di configurazione dall'elenco e scegliere l'azione **Modifica lista**.  
 3. È possibile applicare le risposte in uno dei due modi seguenti.  
 

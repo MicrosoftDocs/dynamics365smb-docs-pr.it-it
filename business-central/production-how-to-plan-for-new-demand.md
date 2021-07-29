@@ -1,6 +1,6 @@
 ---
-title: Come pianificare ordine per ordine | Microsoft Docs
-description: È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.
+title: Come pianificare ordine per ordine
+description: È possibile eseguire questa attività di pianificazione nella pagina Pianificazione ordini, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444232"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.  
@@ -24,14 +24,14 @@ ms.locfileid: "6216232"
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Per pianificare la domanda di un nuovo ordine di produzione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione confermati** e quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
 2.  Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
 3.  Nella pagina **Pianificazione ordini** scegliere l'azione **Calcola piano**.  
 
 Le righe di pianificazione appaiono nella pagina in base al filtro di visualizzazione **Domanda produzione**, che consente di mostrare le righe componente non completate di tutti gli ordini di produzione esistenti. Non viene deliberatamente mostrata la domanda solo per l'ordine di produzione selezionato poiché è necessario pianificare un ordine di produzione con una sintesi della domanda relativa a eventuali righe componente precedenti. Le righe di pianificazione relative all'ordine di produzione selezionato vengono espanse.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Per pianificare qualunque nuova domanda  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione ordini** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Pianificazione ordini** scegliere l'azione **Calcola piano**.
 3.  Fare clic sul pulsante **Espandi** davanti alla data del campo **Data uscita** per visualizzare le righe di pianificazione sottostanti, che rappresentano le righe di domanda con disponibilità insufficiente.  
 4.  Per ogni riga di pianificazione estesa, ovvero riga di domanda, i valori dei campi relativi alle informazioni sono visualizzati nella parte inferiore della pagina.  
@@ -83,7 +83,7 @@ Le righe di pianificazione appaiono nella pagina in base al filtro di visualizza
 >   Se si immette una data successiva a quella di uscita, verrà visualizzato un messaggio di avviso.  
 
 ## <a name="to-make-supply-orders"></a>Per creare ordini di approvvigionamento  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione confermati** e quindi scegliere il collegamento correlato. È possibile effettuare tali passaggi per un ordine di produzione pianificato, confermato o rilasciato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per un ordine di produzione pianificato, confermato o rilasciato.  
 2.  Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
 3.  Posizionare il cursore nella riga di pianificazione desiderata, quindi scegliere l'azione **Crea ordini**.  
 4.  Nella pagina **Crea ordini approvvigionamento** , nella Scheda dettaglio **Pianificazione ordini**, campo **Crea ordini per** , selezionare una delle opzioni seguenti.  
